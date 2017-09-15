@@ -1,0 +1,163 @@
+---
+TOCTitle: 'Außerkraftsetzen der Suche nach Active Directory-Diensten'
+Title: 'Außerkraftsetzen der Suche nach Active Directory-Diensten'
+ms:assetid: '9d97e7fb-5b05-4853-ad7b-6cc82b9729f0'
+ms:contentKeyID: 18118961
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc747614(v=WS.10)'
+---
+
+Außerkraftsetzen der Suche nach Active Directory-Diensten
+=========================================================
+
+RMS-Dienste und -Clients ermitteln die Dienstspeicherorte, indem sie zunächst in der lokalen Registrierung suchen. Wenn bestimmte Schlüssel in der Registrierung keinen Wert haben, suchen die RMS-Dienste und -Clients in Active Directory nach dem Dienstverbindungspunkt (Service Connection Point, SCP). Das bedeutet, dass Sie die Standardeinstellung zur Ermittlung in Active Directory außer Kraft setzen können, wenn Sie in die Server- oder die Clientregistrierung bestimmte Schlüssel eingeben.
+
+| ![](images/Cc747614.note(WS.10).gif)Hinweis                                                                                                                                         |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Wenn Ihr RMS-Stammcluster so konfiguriert ist, dass der SCP in Active Directory nicht veröffentlicht wird, können Sie diese Schlüssel verwenden, um Ihre RMS-Clients auf den korrekten Speicherort zu verweisen. |
+
+In diesem Abschnitt finden Sie eine Beschreibung der Registrierungseinträge und Informationen dazu, wie Sie diese Registrierungseinträge erstellen können.
+
+Außerkraftsetzen der Dienstermittlung für die rein lizenzierende Clusterunterregistrierung
+------------------------------------------------------------------------------------------
+
+Wenn Sie einen rein lizenzierenden Cluster einrichten (bereitstellen) und festlegen möchten, dass dieser sich bei einem anderen Stammcluster unterregistriert als dem, den Sie in der Active Directory-Gesamtstruktur des rein lizenzierenden Clusters bereitgestellt haben, müssen Sie die Ermittlung der Unterregistrierung und der Kontozertifizierungsdienste außer Kraft setzen.
+
+#### Beschreibungen der Registrierungseinträge
+
+Zum Außerkraftsetzen der Unterregistrierung und der Kontozertifizierungsdienste werden die folgenden Registrierungseinträge verwendet.
+
+-   **SubEnrollmentURL**. Dieser Registrierungseintrag gibt den Pfad zum Stammcluster an, den der Lizenzierungsserver beim Anfordern seines Server-Lizenzgeberzertifikats verwendet.
+-   **GicURL**. Dieser Registrierungseintrag gibt den Pfad zum Kontozertifizierungsdienst für diesen rein lizenzierenden Cluster an.
+
+#### Details zu den Registrierungseinträgen
+
+Auf Computern, auf denen die 32-Bit-Version von Windows Server 2003 ausgeführt wird, lautet der vollständige Pfad des Registrierungsteilschlüssels für die Dienstermittlungseinträge für die rein lizenzierende Clusterunterregistrierung wie folgt:
+
+**HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\DRMS\\1.0**
+
+Auf Computern, auf denen die 64-Bit-Version von Windows Server 2003 ausgeführt wird, lautet der vollständige Pfad des Registrierungsteilschlüssels für die Dienstermittlungseinträge für die rein lizenzierende Clusterunterregistrierung wie folgt:
+
+**HKEY\_LOCAL\_MACHINE\\SoftwareWOW6432Node\\Microsoft\\DRMS\\1.0**
+
+Die folgende Tabelle enthält die Einträge, die Sie hinzufügen können, um die Dienstermittlung außer Kraft zu setzen.
+
+###  
+
+<p> </p>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Typ</th>
+<th>Wert</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
+<td style="border:1px solid black;"><p>String</p></td>
+<td style="border:1px solid black;"><p>http (oder https)://<em>Servername</em>/_wmcs/certification/subenrollservice.asmx</p></td>
+</tr>  
+<tr class="even">
+<td style="border:1px solid black;"><p>GicURL</p></td>
+<td style="border:1px solid black;"><p>String</p></td>
+<td style="border:1px solid black;"><p>http (oder https)://<em>Servername</em>/_wmcs/certification/certification.asmx</p></td>
+</tr>  
+</tbody>  
+</table>
+  
+Außerkraftsetzen der clientseitigen Dienstermittlung für die Veröffentlichung  
+-----------------------------------------------------------------------------
+  
+Wenn die Benutzer Inhalte von ihren Computern aus veröffentlichen werden, empfiehlt es sich, abhängig von der bei Ihnen verwendeten Topologie, die Ermittlung der für das Veröffentlichen verwendeten Serverspeicherorte außer Kraft zu setzen. Die Speicherorte der Server, die für das Veröffentlichen verwendet werden, werden in der Regel mithilfe von Active Directory vom Client ermittelt. Wenn auf den Clientcomputern die entsprechenden Registrierungsschlüssel hinzugefügt werden, umgehen die Clients diese Methoden und verwenden stattdessen die URLs, die Sie im Registrierungseintragswert angeben.
+  
+| ![](images/Cc747614.note(WS.10).gif)Hinweis                                                                                                                                                                  |  
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Die in diesen Abschnitten genannten Außerkraftsetzungen sollten nicht als Einzeleinträge, sondern als Schlüssel erstellt werden. Der Wert für diese Schlüssel sollte jeweils im Standardeintrag des einzelnen Schlüssels erstellt werden. |
+  
+#### Beschreibungen der Registrierungsschlüssel
+  
+Mit den folgenden Registrierungsschlüsseln kann die automatische Ermittlung des RMS-Clusters außer Kraft gesetzt werden.
+  
+-   **Activation**. Dieser Registrierungsschlüssel gibt die URL des Computeraktivierungsdiensts an. Wenn bei Ihnen der RMS-Client mit Service Pack 1 oder später installiert ist, wird dieser Registrierungsschlüssel nicht mehr verwendet.  
+-   **EnterprisePublishing**. Dieser Registrierungsschlüssel gibt die URL der RMS-Installation an, die dieser Client für Lizenzanforderungen verwenden soll.  
+-   **CloudPublishing**. Dieser Registrierungsschlüssel gibt die URL des von Microsoft gehosteten Lizenzierungsdiensts an, der verwendet werden kann, wenn der Client zwar nicht auf eine RMS-Installation, dafür aber auf das Internet zugreifen kann.
+  
+#### Details zu den Registrierungsschlüsseln
+  
+Der vollständige Pfad des Registrierungsteilschlüssels für clientseitige Dienstermittlungseinträge für die Veröffentlichung lautet:
+  
+**HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\MSDRM\\ServiceLocation\\**
+  
+In der folgenden Tabelle sind die Registrierungsschlüssel aufgeführt, die Sie auf RMS-Clientcomputern hinzufügen können, um die Dienstermittlung außer Kraft zu setzen.
+  
+###  
+
+<p> </p>
+<table style="border:1px solid black;">  
+<colgroup>  
+<col width="33%" />  
+<col width="33%" />  
+<col width="33%" />  
+</colgroup>  
+<thead>  
+<tr class="header">  
+<th>Name</th>  
+<th>Typ</th>  
+<th>Wert</th>  
+</tr>  
+</thead>  
+<tbody>  
+<tr class="odd">
+<td style="border:1px solid black;"><p>Activation</p></td>
+<td style="border:1px solid black;"><p>String</p></td>
+<td style="border:1px solid black;"><p>http (oder https)://<em>RMS-Clustername</em>/_wmcs/Certification, wobei <em>RMS-Clustername</em> der Name Ihres RMS-Clusters ist.</p></td>
+</tr>  
+<tr class="even">
+<td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
+<td style="border:1px solid black;"><p>String</p></td>
+<td style="border:1px solid black;"><p>http (oder https)://<em>RMS-Clustername</em>/_wmcs/Licensing, wobei <em>RMS-Custername</em> der Name Ihres RMS-Clusters ist.</p></td>
+</tr>  
+<tr class="odd">
+<td style="border:1px solid black;"><p>CloudPublishing</p></td>
+<td style="border:1px solid black;"><p>String</p></td>
+<td style="border:1px solid black;"><p>http (oder https)://<em>FQDN-Clustername</em>/_wmcs/Licensing, wobei <em>FQDN-Clustername</em> der vollqualifizierte Domänenname (FQDN) Ihres RMS-Clusters ist.</p></td>
+</tr>  
+</tbody>  
+</table>
+  
+Wir empfehlen, diese Registrierungsschlüssel entweder mithilfe von SMS (Systems Management Server) oder einer Gruppenrichtlinie zu implementieren, um so sicherzustellen, dass alle Clients in Ihrem Unternehmen die richtigen Veröffentlichungsserver verwenden.
+  
+| ![](images/Cc747614.Caution(WS.10).gif)Vorsicht                                                                                                                                           |  
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| Durch eine fehlerhafte Bearbeitung der Registrierung können schwerwiegende Schäden am System verursacht werden. Bevor Sie Änderungen an der Registrierung vornehmen, sollten Sie alle wichtigen Computerdaten sichern. |
+  
+Das Importieren der richtigen Registrierungsschlüssel auf den einzelnen Servern im RMS-Cluster kann mithilfe der im Folgenden beschriebenen Beispielregistrierungsdatei erfolgen.
+  
+**So importieren Sie die richtigen Registrierungsschlüssel auf die einzelnen Server im RMS-Cluster**  
+1.  Kopieren Sie die folgende Beispielregistrierungsdatei in den Microsoft Editor.
+  
+    `Windows Registry Editor Version 5.00`
+  
+    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]`
+  
+    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]`
+  
+    `@="http://<RMS_cluster_name>/_wmcs/certification"`
+  
+    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]`
+  
+    `@="http://<RMS_cluster_name>/_wmcs/licensing"`
+  
+2.  Ersetzen Sie „&lt;RMS-Clustername&gt;“ durch den Namen Ihres RMS-Clusters.
+  
+3.  Speichern Sie die Datei mit der Erweiterung „.reg“.
+  
+4.  Doppelklicken Sie im Windows-Explorer auf den Namen der Datei.
+  
+5.  Wenn das Dialogfeld **Benutzerkontensteuerung** eingeblendet wird, bestätigen Sie die angegebene Aktion und klicken dann auf **Weiter**.. Wenn Sie in einer Meldung gefragt werden, ob die Informationen zur Registrierung hinzugefügt werden sollen, klicken Sie auf **Ja**.

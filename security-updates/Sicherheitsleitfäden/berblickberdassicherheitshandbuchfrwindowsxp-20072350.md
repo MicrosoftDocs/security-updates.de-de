@@ -1,0 +1,138 @@
+---
+TOCTitle: Überblick über das Sicherheitshandbuch für Windows XP
+Title: Überblick über das Sicherheitshandbuch für Windows XP
+ms:assetid: 'fb31fa9b-58c8-4b6c-aa93-f49128e79916'
+ms:contentKeyID: 20072350
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc163061(v=TechNet.10)'
+---
+
+Windows XP-Sicherheitshandbuch
+==============================
+
+### Überblick
+
+Veröffentlicht: 22.05.2003 | Aktualisiert: 20.10.2005
+
+Jede IT-Umgebung ist nur so sicher wie ihr schwächstes Glied. Leider werden Clientbetriebssysteme bei Sicherheitsprojekten häufig übersehen. Wenn Ihre Organisation plant, Microsoft® Windows® XP Professional mit Service Pack 2 (SP2) zu implementieren, sollten Sie darauf achten, dass die Sicherheit ein wesentlicher Bestandteil Ihrer Bereitstellungspläne ist.
+
+Obwohl die Standardinstallation von Windows XP recht sicher ist, sollten Sie sich immer der Kompromisse bewusst sein, die bei den Clientcomputern in Ihrer Umgebung zwischen Sicherheit, Benutzerfreundlichkeit und Funktionalität eingegangen werden. Die umfassende Kenntnis dieser Kompromisse versetzt Ihre Organisation in die Lage, die Sicherheit Ihres Windows XP-Betriebssystems zu maximieren.
+
+Das Handbuch bietet für drei unterschiedliche Umgebungen spezifische Empfehlungen zum Absichern von Computern mit Windows XP mit SP2:
+
+-   **Unternehmensclient (EC).** Clientcomputer in dieser Umgebung befinden sich in einer Active Directory®-Verzeichnisdienstdomäne und müssen nur mit Systemen kommunizieren, auf denen Windows 2000 oder höhere Versionen des Windows-Betriebssystems ausgeführt werden.
+
+-   **Eigenständig (SA).** Clientcomputer in dieser Umgebung sind nicht Mitglied einer Active Directory-Domäne und müssen u. U. mit Systemen kommunizieren, auf denen Windows NT® 4.0 ausgeführt wird.
+
+-   **Hochsicher (SSLF).** In dieser Umgebung ist die Sicherheit so wichtig, dass ein Verlust an Funktionalität und Handhabbarkeit des Systems akzeptabel ist. Zum Beispiel werden Computer des Militärs und des Nachrichtendienstes in dieser Art Umgebung betrieben.
+
+##### Auf dieser Seite
+
+[](#eeaa)[Zielgruppe](#eeaa)
+[](#edaa)[Inhaltswegweiser](#edaa)
+[](#ecaa)[Verwandte Themen](#ecaa)
+[](#ebaa)[Senden Sie uns Ihr Feedback](#ebaa)
+[](#eaaa)[Consulting- und Supportdienstleistungen](#eaaa)
+
+### Zielgruppe
+
+Dieses Handbuch richtet sich in erster Linie an Berater, Sicherheitsspezialisten, Systemarchitekten und IT-Fachleute, die für die Planungsphasen der Anwendungs- bzw. Infrastrukturentwicklung und die Bereitstellung von Windows XP-Arbeitsstationen in einer Unternehmensumgebung verantwortlich sind. Dieses Handbuch ist nicht für den privaten Benutzer gedacht.
+
+Sicherheitsfachleute und IT-Architekten benötigen u. U. ausführlichere Informationen zu den in diesem Handbuch erläuterten Sicherheitseinstellungen. Diese Informationen finden Sie im Begleithandbuch [Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen unter Windows Server 2003 und Windows XP](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10)) unter http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx.
+
+[](#mainsection)[Zum Seitenanfang](#mainsection)
+
+### Inhaltswegweiser
+
+Windows XP stellt bislang die zuverlässigste Version eines Windows-Clientbetriebssystems mit verbesserten Sicherheits- und Datenschutzfunktionen dar. Die allgemeine Sicherheit wurde in Windows XP verbessert, um Ihrer Organisation die Arbeit in einer sicheren Computerumgebung zu ermöglichen. Das *Sicherheitshandbuch für Windows XP* umfasst sieben Kapitel. In den Kapiteln zwei bis sechs werden die Maßnahmen erläutert, die für das Erstellen einer solchen Umgebung erforderlich sind. Jedes dieser Kapitel basiert auf einem abgeschlossenen Verfahren, mit dem auf Windows XP basierende Computer geschützt werden.
+
+![](images/Cc163061.default1(de-de,TechNet.10).gif)
+
+**Abbildung 1: Kapitelüberblick für das Windows XP-Sicherheitshandbuch**
+
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163061.default1_big(de-de,technet.10).gif)
+#### Kapitel 1: Einführung zum Sicherheitshandbuch für Windows XP
+
+Dieses Kapitel enthält einen Überblick über das Handbuch, einschließlich einer Beschreibung der Zielgruppe, der im Handbuch beschriebenen Probleme und der allgemeinen Zielsetzung.
+
+#### Kapitel 2: Konfigurieren der Domäneninfrastruktur von Active Directory
+
+Mit Gruppenrichtlinien können Sie Benutzer- und Computerumgebungen in Windows Server 2003- und Windows 2000-Domänen verwalten. Gruppenrichtlinien sind ein äußerst wichtiges Tool für die Sicherheit von Windows XP. Mit ihrer Hilfe können von einem zentralen Standort aus für das gesamte Netzwerk einheitliche Sicherheitsrichtlinien angewendet und verwaltet werden. In diesem Kapitel werden die vorbereitenden Schritte erläutert, die in Ihrer Domäne durchgeführt werden müssen, bevor Sie Gruppenrichtlinien auf Ihre Windows XP-Clientcomputer anwenden.
+
+Die Gruppenrichtlinieneinstellungen werden in Gruppenrichtlinienobjekten (GPOs) auf Domänencontrollern gespeichert. Gruppenrichtlinienobjekte sind mit Websites, Domänen und Organisationseinheiten innerhalb der Active Directory-Struktur verknüpft. Da Gruppenrichtlinien eng in Active Directory integriert sind, ist vor ihrer Implementierung eine grundlegende Kenntnis der Active Directory-Struktur und der Sicherheitsaspekte erforderlich.
+
+#### Kapitel 3: Sicherheitseinstellungen für Windows XP-Clients
+
+In diesem Kapitel werden die Sicherheitseinstellungen für Windows XP-Clientcomputer beschrieben, die in einer Active Directory-Domäne unter Windows 2000 oder Windows Server 2003 mithilfe von Gruppenrichtlinien eingerichtet werden können. Nicht für alle verfügbaren Einstellungen werden Anleitungen bereitgestellt – es werden nur solche Einstellungen angeboten, die eine Umgebung vor den meisten aktuellen Bedrohungen schützen. Die Anleitung erlaubt Benutzern auch, weiterhin typische Aufgabenfunktionen auf ihren Computern durchzuführen. Die konfigurierten Einstellungen sollten auf den Sicherheitszielen ihrer Organisation basieren.
+
+#### Kapitel 4: Administrative Vorlagen für Windows XP
+
+In diesem Kapitel werden die Einstellungen beschrieben, die mithilfe von administrativen Vorlagen Windows XP hinzugefügt werden können. Administrative Vorlagen sind Unicode-Dateien zum Konfigurieren der registrierungsbasierten Einstellungen, die das Verhalten von vielen Diensten, Anwendungen und Betriebssystemkomponenten steuern. Es gibt viele administrative Vorlagen, die in Windows XP verwendet werden können. Sie enthalten hunderte von Einstellungen.
+
+#### Kapitel 5: Schützen eigenständiger Windows XP-Clients
+
+Obwohl sich der Großteil dieses Handbuchs mit Unternehmensclient- (EC) und Hochsicherheitsumgebungen (SSLF) befasst, wird in diesem Kapitel auch die Konfiguration eigenständiger Windows XP-Clientcomputer erörtert. Microsoft empfiehlt, Windows XP in einer Active Directory-Domäneninfrastruktur bereitzustellen, ist sich jedoch dessen bewusst, dass dies nicht immer möglich ist. Dieses Kapitel enthält Anweisungen zum Anwenden der empfohlenen Konfigurationen auf Clientcomputern mit Windows XP mit SP2, die nicht Mitglied einer Windows 2000- oder Windows Server 2003-Domäne sind.
+
+#### Kapitel 6: Richtlinie für Softwareeinschränkungen auf Windows XP-Clients
+
+Dieses Kapitel bietet einen grundlegenden Überblick über Richtlinien für Softwareeinschränkungen. Diese stellen Administratoren einen auf Richtlinien beruhenden Mechanismus zur Verfügung, mit dem sie die Software identifizieren und einschränken können, die in ihrer Domäne ausgeführt werden kann. Mit einer Richtlinie für Softwareeinschränkungen können Administratoren verhindern, dass unerwünschte Programme ausgeführt werden und dass sich Viren, trojanische Pferde und schädlicher Code ausbreiten. Richtlinien für Softwareeinschränkungen passen sich vollständig in Active Directory und die Gruppenrichtlinien ein. Sie können auch in einer Umgebung ohne Windows Server 2003-Domäneninfrastruktur verwendet werden, wenn sie nur auf den lokalen Computer angewendet werden.
+
+#### Kapitel 7: Zusammenfassung
+
+Im letzten Kapitel werden alle Gesichtspunkte des Handbuchs in einem Überblick zusammengefasst.
+
+#### Anhang A: Zu berücksichtigende Schlüsseleinstellungen
+
+In diesem Handbuch werden viele Sicherheitsgegenmaßnahmen und Sicherheitseinstellungen erörtert, von denen einige besonders wichtig ist. In diesem Anhang werden die Einstellungen erörtert, die sich am stärksten auf die Sicherheit der Computer auswirken, auf denen Windows XP mit SP2 ausgeführt wird.
+
+#### Anhang B: Testen des Sicherheitshandbuchs für Windows XP
+
+In diesem Anhang wird erklärt, wie das *Sicherheitshandbuch für Windows XP* in einer Testumgebung geprüft wurde. Dadurch soll sichergestellt werden, dass die Anleitung wie erwartet funktioniert.
+
+[](#mainsection)[Zum Seitenanfang](#mainsection)
+
+### Verwandte Themen
+
+Weitere Informationen zu den in diesem Handbuch empfohlenen Sicherheitseinstellungen finden Sie in dem Begleithandbuch [Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen unter Windows Server 2003 und Windows XP](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10)), das Sie unter http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx herunterladen können.
+
+Lesen Sie [andere Sicherheitslösungen](http://www.microsoft.com/technet/community/columns/sectip/st0805.mspx) vom Microsoft Solutions for Security and Compliance-Team (MSSC).
+
+[](#mainsection)[Zum Seitenanfang](#mainsection)
+
+### Senden Sie uns Ihr Feedback
+
+Das MSSC-Team (Microsoft Solutions for Security and Compliance) legt großen Wert auf Ihr Feedback zu dieser und anderen Sicherheitslösungen.
+
+Wie lautet Ihre Meinung? Teilen Sie uns Ihre Meinung über das [Security Solutions Blog](http://blogs.technet.com/secguide) für IT-Fachleute mit.
+
+Sie können Ihr Feedback auch an die folgende E-Mail-Adresse senden: [SecWish@microsoft.com.](mailto:secwish@microsoft.com?subject=windows%20xp%20security%20guide) Wir reagieren häufig auf Feedback, das an diese Adresse gesendet wird.
+
+Wir danken Ihnen schon jetzt für Ihre Unterstützung.
+
+[](#mainsection)[Zum Seitenanfang](#mainsection)
+
+### Consulting- und Supportdienstleistungen
+
+Es stehen viele Dienste zur Verfügung, die Unternehmen und Organisationen bei der Optimierung ihrer Sicherheitsstrategie unterstützen. Verwenden Sie die folgenden Links, um auf die gewünschten Dienste zuzugreifen:
+
+Informationen zu Consulting- und Supportdienstleistungen, die für Ihre Organisation relevant sind, finden Sie im Bereich für [Microsoft Services](http://support.microsoft.com/msservices) (in englischer Sprache) unter http://support.microsoft.com/msservices.
+
+##### In diesem Beitrag
+
+-   Überblick
+-   [Kapitel 1: Einführung zum Sicherheitshandbuch für Windows XP](https://technet.microsoft.com/de-de/library/4eddb4e4-fd7b-444c-8484-bb8ee220c0e1(v=TechNet.10))
+-   [Kapitel 2: Konfigurieren der Domäneninfrastruktur von Active Directory](https://technet.microsoft.com/de-de/library/620c0004-41a8-4d13-9a61-e6d879f9cc65(v=TechNet.10))
+-   [Kapitel 3: Sicherheitseinstellungen für Windows XP-Clients](https://technet.microsoft.com/de-de/library/bca34b8d-a1ca-42e4-b743-aa3ca12fd8f9(v=TechNet.10))
+-   [Kapitel 4: Administrative Vorlagen für Windows XP](https://technet.microsoft.com/de-de/library/adb79ec2-691f-4a9f-b940-36d2d9807fd7(v=TechNet.10))
+-   [Kapitel 5: Schützen eigenständiger Windows XP-Clients](https://technet.microsoft.com/de-de/library/a134d1cb-2ad1-4549-99c8-2a5e0128f2dc(v=TechNet.10))
+-   [Kapitel 6: Richtlinie für Softwareeinschränkungen auf Windows XP-Clients](http://www.microsoft.com/germany/technet/sicherheit/prodtech/windowsxp/secwinxp/xpsgap06.mspx)
+-   [Kapitel 7: Zusammenfassung](https://technet.microsoft.com/de-de/library/8001f9fb-f330-4ab4-a134-ff756091ea0d(v=TechNet.10))
+-   [Anhang A: Weitere Anleitungen für Windows XP Service Pack 2](http://www.microsoft.com/germany/technet/sicherheit/prodtech/windowsxp/secwinxp/xpsgapa.mspx)
+-   [Anhang A: Zu berücksichtigende Schlüsseleinstellungen](https://technet.microsoft.com/de-de/library/6b4fdfca-4c2c-47f6-8c92-de33a663ea03(v=TechNet.10))
+-   [Anhang B: Testen des Sicherheitshandbuchs für Windows XP](https://technet.microsoft.com/de-de/library/09c716f4-b167-49ec-8122-93e1b8c5f456(v=TechNet.10))
+-   [Danksagungen](https://technet.microsoft.com/de-de/library/7e874ad0-7c5a-4f64-9349-760666ab3e61(v=TechNet.10))
+
+##### Download
+
+[![](images/Cc163061.icon_exe(de-de,TechNet.10).gif)Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&clcid=0x409)
+
+[](#mainsection)[Zum Seitenanfang](#mainsection)
