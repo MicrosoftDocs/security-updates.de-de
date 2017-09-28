@@ -70,12 +70,12 @@ Die folgenden Schritte dienen als Beispiel für einige der Punkte, die in Ihrem 
 <td style="border:1px solid black;"><p>Produktion</p></td>
 <td style="border:1px solid black;"><p>Wenn Sie ein HSM verwenden, installieren Sie das HSM und stellen Sie die Konfiguration aus der auf dem Pilotserver erstellten Sicherung wieder her.</p></td>
 <td style="border:1px solid black;"><p>Richtet die für die Verschlüsselung des privaten Schlüssels für RMS erforderlichen Anmeldeinformationen ein.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Produktion</p></td>
 <td style="border:1px solid black;"><p>Installieren Sie RMS.</p></td>
 <td style="border:1px solid black;"><p>RMS überprüft, ob alle vorausgesetzten Dienste ordnungsgemäß installiert und konfiguriert sind.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Produktion</p></td>
 <td style="border:1px solid black;"><p>Stellen Sie RMS mit einem neuen privaten Schlüssel bereit. Wenn Sie die Onlineregistrierung verwenden, wird der Server während des Bereitstellungsprozesses über eine Internetverbindung mit dem Microsoft-Registrierungsdienst registriert. Wenn Sie keine Internetverbindung auf diesem Server herstellen können, müssen Sie die Offlineregistrierung verwenden.</p></td>
@@ -92,17 +92,17 @@ Die folgenden Schritte dienen als Beispiel für einige der Punkte, die in Ihrem 
 <td style="border:1px solid black;"><p>Produktion</p></td>
 <td style="border:1px solid black;"><p>Importieren Sie die Datei für die vertrauenswürdige Veröffentlichungsdomäne, die Sie in Schritt 3 exportiert haben.</p></td>
 <td style="border:1px solid black;"><p>Zum erfolgreichen Import der Datei muss das RMS-Dienstkonto Lesezugriff auf den Speicherort der Datei aufweisen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Produktion</p></td>
 <td style="border:1px solid black;"><p>Signieren Sie die einzelnen Vorlagen erneut, die mit der vertrauenswürdigen Veröffentlichungsdomäne importiert wurden.</p></td>
 <td style="border:1px solid black;"><p>Die Vorlagen werden mit dem privaten Schlüssel für den Server signiert. Aufgrund des neuen privaten Schlüssels für den Server müssen die Vorlagen erneut signiert werden, damit sie gültig sind. Weitere Informationen finden Sie unter „So signieren Sie eine Vorlage für Benutzerrechterichtlinien erneut“ im Abschnitt „Betreiben eines RMS-Servers“ in dieser Dokumentationssammlung.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Produktion</p></td>
 <td style="border:1px solid black;"><p>Verteilen Sie die Vorlagen erneut an die Clientcomputer, die am Pilotprojekt beteiligt waren.</p></td>
 <td style="border:1px solid black;"><p>Die alten Vorlagen müssen entfernt und durch die von diesem Server signierten Vorlagen ersetzt werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Produktion</p></td>
 <td style="border:1px solid black;"><p>Importieren Sie die Datei für die vertrauenswürdige Benutzerdomäne, die Sie in Schritt 4 exportiert haben.</p></td>

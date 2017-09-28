@@ -183,20 +183,20 @@ Verwenden Sie zur Vervollständigung der Eingabeparameter des Befehls die folgen
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Eingabedatei</em></p></td>
 <td style="border:1px solid black;"><p>Name der von Ihnen vorbereiteten XrML-konformen Sperrlistendatei</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Schlüsseldatei</em></p></td>
 <td style="border:1px solid black;"><p>Name der Datei, die den von Ihnen generierten öffentlichen und privaten Schlüssel enthält</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Containername</em></p></td>
 <td style="border:1px solid black;"><p>Name des Schlüsselcontainers</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Ausgabedatei</em></p></td>
 <td style="border:1px solid black;"><p>Name der signierten Sperrlistendatei, die mit dem Tool erstellt wird</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720208.note(WS.10).gif)Hinweis |  
@@ -215,47 +215,47 @@ In den folgenden Beispielen wird beschrieben, wie Sie „RLsigner.exe“ an eine
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Rückgabecode</th>  
-<th>Beschreibung</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rückgabecode</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>0</p></td>
 <td style="border:1px solid black;"><p>Erfolg</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-1</p></td>
 <td style="border:1px solid black;"><p>Lesen der Quelldatei nicht möglich</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-2</p></td>
 <td style="border:1px solid black;"><p>Lesen der Schlüsseldatei nicht möglich</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-3</p></td>
 <td style="border:1px solid black;"><p>Ungültige Schlüsseldatei</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-4</p></td>
 <td style="border:1px solid black;"><p>Ungültige Quelldatei</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-5</p></td>
 <td style="border:1px solid black;"><p>Schreiben der Ausgabedatei nicht möglich</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-6</p></td>
 <td style="border:1px solid black;"><p>Unbekannter Fehler</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Es empfiehlt sich möglicherweise, das automatische Signieren von Sperrlisten auf der Basis der von Ihnen für Ihren Server angegebenen Aktualisierungsrate einzurichten.

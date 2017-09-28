@@ -39,28 +39,28 @@ In der folgenden Tabelle werden die Entitäten, die in einer Sperrliste angegebe
 <tr class="odd">
 <td style="border:1px solid black;"><p>Eine Gruppe von Lizenzen oder Zertifikaten</p></td>
 <td style="border:1px solid black;"><p>Aussteller-ID oder öffentlicher Schlüssel</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Eine Gruppe von Anwendungsmanifesten</p></td>
 <td style="border:1px solid black;"><p>Aussteller-ID oder öffentlicher Schlüssel</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Eine bestimmte Lizenz oder ein bestimmtes Zertifikat</p></td>
 <td style="border:1px solid black;"><p>Lizenz-ID oder Hash</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Ein bestimmtes Anwendungsmanifest</p></td>
 <td style="border:1px solid black;"><p>Lizenz-ID oder Hash</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ein bestimmter Prinzipal</p></td>
 <td style="border:1px solid black;"><p>Prinzipal-ID oder öffentlicher Schlüssel</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bestimmte Inhalte</p></td>
 <td style="border:1px solid black;"><p>Datei-ID</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720287.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |  
@@ -72,33 +72,33 @@ Bei Sperrlisten handelt es sich um XrML-Dateien, die folgende Parameter angeben:
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parameter</th>  
-<th>Beschreibung</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
 <td style="border:1px solid black;"><p>Die Systemzeit, zu der die XrML-Datei erstellt wurde. Diese wird von der in einer Nutzungslizenz enthaltenen Bedingung REFRESH dazu verwendet, das Alter der Sperrliste zu bestimmen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ISSUER</p></td>
 <td style="border:1px solid black;"><p>Der Name, die ID und Adresse des Sperrlistenausstellers.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PUBLICKEY</p></td>
 <td style="border:1px solid black;"><p>Der öffentliche Schlüssel des Sperrlistenausstellers.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
 <td style="border:1px solid black;"><p>Der Name, der Typ und die ID jeder gesperrten Entität.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

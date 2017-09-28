@@ -208,38 +208,38 @@ In der folgenden Tabelle werden die Empfehlungen zu den Kennwortrichtlinien für
 <td style="border:1px solid black;"><p>24 Kennwörter</p></td>
 <td style="border:1px solid black;"><p>24 Kennwörter</p></td>
 <td style="border:1px solid black;"><p>24 Kennwörter</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Maximales Kennwortalter</p></td>
 <td style="border:1px solid black;"><p>42 Tage</p></td>
 <td style="border:1px solid black;"><p>90 Tage</p></td>
 <td style="border:1px solid black;"><p>90 Tage</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Minimales Kennwortalter</p></td>
 <td style="border:1px solid black;"><p>1 Tag</p></td>
 <td style="border:1px solid black;"><p>1 Tag</p></td>
 <td style="border:1px solid black;"><p>1 Tag</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Minimale Kennwortlänge</p></td>
 <td style="border:1px solid black;"><p>7 Zeichen</p></td>
 <td style="border:1px solid black;"><p>8 Zeichen</p></td>
 <td style="border:1px solid black;"><p>12 Zeichen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Kennwörter müssen den Komplexitätsanforderungen entsprechen</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Kennwörter mit umkehrbarer Verschlüsselung für alle Benutzer der Domäne speichern</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Kennwortchronik erzwingen
@@ -313,41 +313,41 @@ Die folgende Tabelle enthält die Empfehlungen für die Einstellungen der Kontos
 **Tabelle 2.2: Empfehlungen für die Einstellungen der Kontosperrungsrichtlinie**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Einstellung</p></th>  
-<th><p>Standard für Domänencontroller</p></th>  
-<th><p>Unternehmensclient</p></th>  
-<th><p>Hochsicher</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Einstellung</p></th>
+<th><p>Standard für Domänencontroller</p></th>
+<th><p>Unternehmensclient</p></th>
+<th><p>Hochsicher</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Kontosperrdauer</p></td>
 <td style="border:1px solid black;"><p>Nicht definiert</p></td>
 <td style="border:1px solid black;"><p>15 Minuten</p></td>
 <td style="border:1px solid black;"><p>15 Minuten</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Kontensperrungsschwelle</p></td>
 <td style="border:1px solid black;"><p>0 ungültige Anmeldeversuche</p></td>
 <td style="border:1px solid black;"><p>50 ungültige Anmeldeversuche</p></td>
 <td style="border:1px solid black;"><p>10 ungültige Anmeldeversuche</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zurücksetzungsdauer des Kontosperrungszählers</p></td>
 <td style="border:1px solid black;"><p>Nicht definiert</p></td>
 <td style="border:1px solid black;"><p>15 Minuten</p></td>
 <td style="border:1px solid black;"><p>15 Minuten</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Kontosperrdauer
@@ -397,29 +397,29 @@ Diese Richtlinieneinstellung ermöglicht es Benutzern, einer bestimmten Domäne 
 **Tabelle 2.3: Einstellungen zum Zuweisen von Benutzerrechten**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Einstellung</p></th>  
-<th><p>Standard für Domänencontroller</p></th>  
-<th><p>Unternehmensclient</p></th>  
-<th><p>Hochsicher</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Einstellung</p></th>
+<th><p>Standard für Domänencontroller</p></th>
+<th><p>Unternehmensclient</p></th>
+<th><p>Hochsicher</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hinzufügen von Arbeitsstationen zur Domäne</p></td>
 <td style="border:1px solid black;"><p>Authentifizierte Benutzer</p></td>
 <td style="border:1px solid black;"><p>Administratoren</p></td>
 <td style="border:1px solid black;"><p>Administratoren</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Damit die Einstellung **Hinzufügen von Arbeitsstationen zur Domäne** wirksam wird, muss sie dem Benutzer in einem Gruppenrichtlinienobjekt zugeordnet werden, das auf alle Domänencontroller für die Domäne angewendet wird. Ein Benutzer mit dieser Berechtigung kann der Domäne bis zu zehn Arbeitsstationen hinzufügen. Benutzer, die für eine Organisationseinheit oder einen Container Computer in Active Directory über die Berechtigung **Computerobjekte erstellen** verfügen, können einer Domäne eine unbegrenzte Anzahl an Computern hinzufügen, unabhängig davon, ob ihnen die Benutzerberechtigung **Hinzufügen von Arbeitsstationen zur Domäne** gewährt wurde.
@@ -445,41 +445,41 @@ In der folgenden Tabelle werden die Empfehlungen zu den Einstellungen der Sicher
 **Tabelle 2.4: Empfehlungen für die Einstellungen der Sicherheitsoptionen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Einstellung</p></th>  
-<th><p>Standard für Domänenmitglieder</p></th>  
-<th><p>Unternehmensclient</p></th>  
-<th><p>Hochsicher</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Einstellung</p></th>
+<th><p>Standard für Domänenmitglieder</p></th>
+<th><p>Unternehmensclient</p></th>
+<th><p>Hochsicher</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Microsoft-Netzwerk (Server): Clientverbindungen aufheben, wenn die Anmeldezeit überschritten wird</p></td>
 <td style="border:1px solid black;"><p>Nicht definiert</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen</p></td>
 <td style="border:1px solid black;"><p>Nicht definiert</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Netzwerksicherheit: Abmeldung nach Ablauf der Anmeldezeit erzwingen</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Microsoft-Netzwerk (Server): Clientverbindungen aufheben, wenn die Anmeldezeit überschritten wird

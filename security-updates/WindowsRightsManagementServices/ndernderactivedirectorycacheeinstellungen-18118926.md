@@ -45,38 +45,38 @@ In der folgenden Tabelle werden die Einträge aufgelistet, die das Verhalten des
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>Maximale Anzahl von Prinzipalen sowie von deren E-Mail-Adressen und SIDs, die im Cache zwischengespeichert werden können.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>Gültigkeitszeitraum der zwischengespeicherten Informationen für Prinzipale.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupIDCacheMax</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>Maximale Anzahl von Gruppen sowie von deren E-Mail-Adressen und SIDs, die im Cache zwischengespeichert werden können.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupIDCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>Gültigkeitszeitraum der zwischengespeicherten Informationen für Gruppenmitgliedschaft.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupMembershipCacheMax</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>Maximale Anzahl von Kontakten, die Mitglieder einer Gruppe sind, die im Cache gespeichert werden können.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupMembershipCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>Gültigkeitszeitraum der zwischengespeicherten Informationen für Kontakte, die Mitglieder einer Gruppe sind.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747586.Caution(WS.10).gif)Vorsicht                                                                                                                                         |  

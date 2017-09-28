@@ -366,33 +366,33 @@ In der folgenden Tabelle werden die in diesem Kapitel definierten Serverrollen u
 <td style="border:1px solid black;"><p>Dateiserver</p></td>
 <td style="border:1px solid black;"><p>Alle dedizierten Dateiserver.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Dateiserver.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Druckserver</p></td>
 <td style="border:1px solid black;"><p>Alle dedizierten Druckserver.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Druckserver.inf</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Webserver</p></td>
 <td style="border:1px solid black;"><p>Alle dedizierten IIS-Webserver.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Webserver.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IAS-Server</p></td>
 <td style="border:1px solid black;"><p>Alle dedizierten IAS-Server.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>IAS-Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zertifikatdienstserver</p></td>
 <td style="border:1px solid black;"><p>Alle dedizierten Zertifizierungsstellenserver.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Zertifizierungsstellenserver.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bastion-Host</p></td>
 <td style="border:1px solid black;"><p>Alle Server mit Internetverbindung.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Bastion-Host.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Alle Vorlagendateien mit Ausnahme jener für die Bastion-Hostserver werden auf die entsprechenden untergeordneten Organisationseinheiten angewendet. Auf jede dieser untergeordneten Organisationseinheiten muss die spezifische Konfiguration angewendet werden, um die Rolle zu definieren, die die einzelnen Computer im Unternehmen erfüllen werden.
@@ -415,51 +415,51 @@ Durch die empfohlenen Organisationseinheiten und Richtlinien, die im vorigen Abs
 **Tabelle 2.2: Organisationseinheiten und administrative Gruppen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Name der Organisationseinheit</p></th>  
-<th><p>Administrative Gruppe</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Name der Organisationseinheit</p></th>
+<th><p>Administrative Gruppe</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Domänencontroller</p></td>
 <td style="border:1px solid black;"><p>Domänentechnik</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mitgliedsserver</p></td>
 <td style="border:1px solid black;"><p>Domänentechnik</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Infrastruktur</p></td>
 <td style="border:1px solid black;"><p>Infrastrukturadministratoren</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Datei</p></td>
 <td style="border:1px solid black;"><p>Infrastrukturadministratoren</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Druck</p></td>
 <td style="border:1px solid black;"><p>Infrastrukturadministratoren</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IAS</p></td>
 <td style="border:1px solid black;"><p>Domänentechnik</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Webserver</p></td>
 <td style="border:1px solid black;"><p>Webdienste</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zertifizierungsstelle</p></td>
 <td style="border:1px solid black;"><p>Unternehmensadministratoren</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Jede administrative Gruppe wurde als globale Gruppe innerhalb der Domäne von den Mitgliedern der **Domänentechnik** erstellt, die für die Active Directory-Infrastruktur und die Sicherheit zuständig sind. Sie haben zum Hinzufügen der einzelnen administrativen Gruppen zur jeweiligen eingeschränkten Gruppe das entsprechende Gruppenrichtlinienobjekt verwendet. Die in der Tabelle angeführten administrativen Gruppen sind nur für jene Computer Mitglieder der Gruppe **Lokale Administratoren**, die sich in Organisationseinheiten mit Computern befinden, die in Zusammenhang mit ihren Auftragsfunktionen stehen.
@@ -842,17 +842,17 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Server
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/b0015e61-fe4e-4523-a875-ef8b971da55c(v=TechNet.10)"><img src="images/Dd443723.pageLeft(de-de,TechNet.10).gif" /></a> 3 von 19 <a href="https://technet.microsoft.com/de-de/library/70e3e562-9517-4fb9-b617-ef7854a0f03c(v=TechNet.10)"><img src="images/Dd443723.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

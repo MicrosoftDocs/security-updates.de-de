@@ -37,6 +37,6 @@ Die Standardzugriffsteuerungsliste bei diesem Dienst wird in folgender Tabelle g
 <tr class="odd">
 <td style="border:1px solid black;"><p>SYSTEM</p></td>
 <td style="border:1px solid black;"><p>Vollzugriff</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

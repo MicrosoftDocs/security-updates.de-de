@@ -616,11 +616,11 @@ Die folgende Tabelle enthält einige Fehlerbehebungsrichtlinien für die Smartca
 <tr class="even">
 <td style="border:1px solid black;"><p>Der Client versucht, vor der Herstellung der VPN-Verbindung eine Verbindung per Einwahl herzustellen.</p></td>
 <td style="border:1px solid black;"><p>Konfigurieren Sie den Client so, dass keine Anfangsverbindung automatisch gewählt wird.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Der Client versucht nicht, vor der Herstellung der VPN-Verbindung eine Verbindung per Einwahl herzustellen.</p></td>
 <td style="border:1px solid black;"><p>Konfigurieren Sie den Client so, dass automatisch eine Anfangsverbindung gewählt wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Beim Versuch des Clients, die VPN-Verbindung herzustellen, wird die Angabe des Benutzernamens, des Domänennamens und des Kennworts angefordert.</p></td>
 <td style="border:1px solid black;"><p>Vergewissern Sie sich, dass die VPN-Verbindung für die Verwendung einer Smartcard konfiguriert ist.</p>

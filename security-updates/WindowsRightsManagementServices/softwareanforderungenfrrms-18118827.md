@@ -29,34 +29,34 @@ Die folgende Tabelle zeigt die Softwareanforderungen zum Ausführen von RMS-Serv
 <tr class="odd">
 <td style="border:1px solid black;"><p>Betriebssystem</p></td>
 <td style="border:1px solid black;"><p>Jede Microsoft Windows Server® 2003 Edition außer Web Edition.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dateisystem</p></td>
 <td style="border:1px solid black;"><p>Das NTFS-Dateisystem wird empfohlen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Betriebssystemkomponenten</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Message Queuing (auch als MSMQ bezeichnet) mit aktivierter Active Directory®-Verzeichnisdienstintegration.<br />  
-<br />  
-</li>  
-<li>Internet Information Services (IIS) mit aktivierter Komponente ASP.NET.<br />  
-<br />  
-</li>  
-<li>Microsoft .NET Framework 1.1<br />  
-<br />  
+<li>Message Queuing (auch als MSMQ bezeichnet) mit aktivierter Active Directory®-Verzeichnisdienstintegration.<br />
+<br />
+</li>
+<li>Internet Information Services (IIS) mit aktivierter Komponente ASP.NET.<br />
+<br />
+</li>
+<li>Microsoft .NET Framework 1.1<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Active Directory®-Directory-Dienst</p></td>
 <td style="border:1px solid black;"><p>RMS muss in einer Active Directory-Domäne installiert werden, in der auf allen Domänencontrollern Windows Server 2000 mit Service Pack 3 (SP3) oder höher ausgeführt wird. Alle Benutzer und Gruppen, die RMS zum Abrufen und Veröffentlichen von Inhalt verwenden, müssen über eine in Active Directory konfigurierte E-Mail-Adresse verfügen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Datenbankserver</p></td>
 <td style="border:1px solid black;"><p>RMS erfordert eine Datenbank und gespeicherte Verfahren zum Ausführen von Operationen. Sie können Microsoft SQL Server 2000 mit SP3a oder höher bzw. Microsoft SQL Server 2005 verwenden. Zum Testen oder Bereitstellen auf einem einzelnen Computer kann Microsoft SQL Server Desktop Engine (MSDE 2000) mit SP3 oder Microsoft SQL Server 2005 Express Edition verwendet werden.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Wenn Sie RMS in einer Umgebung mit mehreren Active Directory-Gesamtstrukturen bereitstellen, müssen Sie universelle Active Directory-Gruppen verwenden, damit die Gruppenmitgliedschaft auf den globalen Katalogen repliziert wird. Für die Erstellung von universellen Gruppen muss Ihre Domänenfunktionsebene mindestens die systemeigene Funktionsebene von Windows 2000 eingestellt und die Gesamtstrukturfunktionsebene auf Windows Server 2003 heraufgestuft sein.

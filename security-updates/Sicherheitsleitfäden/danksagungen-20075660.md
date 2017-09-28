@@ -282,6 +282,6 @@ Auf Anregung von Microsoft haben sich auch das Center for Internet Security (CIS
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/prodtech/windowsserver2003/w2003hg/s3sgapxd.mspx"><img src="images/Dd443717.pageLeft(de-de,TechNet.10).gif" /></a> 19 von 19</td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

@@ -33,70 +33,70 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupName: der Alias für die Gruppe<br />  
-<br />  
-</li>  
-<li>GroupID: die eindeutige ID für diese Gruppe<br />  
-<br />  
+<li>GroupName: der Alias für die Gruppe<br />
+<br />
+</li>
+<li>GroupID: die eindeutige ID für diese Gruppe<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupDN: der definierte Active Directory-Name für diese Gruppe<br />  
-<br />  
-</li>  
-<li>GroupID: die eindeutige ID für diese Gruppe<br />  
-<br />  
-</li>  
-<li>Expiration: das Datum und die Uhrzeit, an dem bzw. zu der die Gültigkeit der für diese Gruppe gespeicherten Informationen abläuft<br />  
-<br />  
+<li>GroupDN: der definierte Active Directory-Name für diese Gruppe<br />
+<br />
+</li>
+<li>GroupID: die eindeutige ID für diese Gruppe<br />
+<br />
+</li>
+<li>Expiration: das Datum und die Uhrzeit, an dem bzw. zu der die Gültigkeit der für diese Gruppe gespeicherten Informationen abläuft<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupMembership</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupID: die eindeutige ID für diese Gruppe<br />  
-<br />  
-</li>  
-<li>ParentID: die eindeutige ID für die Gruppe, der diese Gruppe angehört<br />  
-<br />  
+<li>GroupID: die eindeutige ID für diese Gruppe<br />
+<br />
+</li>
+<li>ParentID: die eindeutige ID für die Gruppe, der diese Gruppe angehört<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalName: ein Aliasname für den Prinzipal<br />  
-<br />  
-</li>  
-<li>PrincipalID: die eindeutige ID für diesen Prinzipal<br />  
-<br />  
+<li>PrincipalName: ein Aliasname für den Prinzipal<br />
+<br />
+</li>
+<li>PrincipalID: die eindeutige ID für diesen Prinzipal<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalID: die eindeutige ID für diesen Prinzipal<br />  
-<br />  
-</li>  
-<li>Expiration: das Datum und die Uhrzeit, an dem bzw. zu der die Gültigkeit der für diesen Prinzipal gespeicherten Informationen abläuft<br />  
-<br />  
+<li>PrincipalID: die eindeutige ID für diesen Prinzipal<br />
+<br />
+</li>
+<li>Expiration: das Datum und die Uhrzeit, an dem bzw. zu der die Gültigkeit der für diesen Prinzipal gespeicherten Informationen abläuft<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalMembership</p></td>
 <td style="border:1px solid black;"><p>Jede Tabellenzeile schließt die eindeutige ID eines Prinzipals und die eindeutige ID der Gruppe ein, die dem Prinzipal angehört.</p>
-<ul>  
-<li>PrincipalID: die eindeutige ID für diesen Prinzipal<br />  
-<br />  
-</li>  
-<li>ParentID: die eindeutige ID einer Gruppe, der dieser Prinzipal angehört<br />  
-<br />  
+<ul>
+<li>PrincipalID: die eindeutige ID für diesen Prinzipal<br />
+<br />
+</li>
+<li>ParentID: die eindeutige ID einer Gruppe, der dieser Prinzipal angehört<br />
+<br />
 </li>
 </ul></td>
 </tr>

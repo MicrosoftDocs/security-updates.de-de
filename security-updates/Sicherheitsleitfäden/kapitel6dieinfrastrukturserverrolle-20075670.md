@@ -55,8 +55,8 @@ Die folgende Tabelle zeigt die Namen der Sicherheitsvorlagen für Infrastrukturs
 <td style="border:1px solid black;"><p>Älterer Client - Infrastrukturserver.inf</p></td>
 <td style="border:1px solid black;"><p>Unternehmensclient - Infrastrukturserver.inf</p></td>
 <td style="border:1px solid black;"><p>Hochsicher - Infrastrukturserver.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Informationen zu den Einstellungen in der Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Informationen zu sämtlichen Standardeinstellungen finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen für Windows Server 2003 und Windows XP*](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10))*,*das unter *http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx* erhältlich ist.
@@ -290,17 +290,17 @@ Die folgenden Links bieten weitere Informationen zur Absicherung von Infrastrukt
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/f86f67bd-c150-4d0d-ad85-ff13a01afb01(v=TechNet.10)"><img src="images/Dd443727.pageLeft(de-de,TechNet.10).gif" /></a> 7 von 19 <a href="https://technet.microsoft.com/de-de/library/2b1536d0-9610-4fb5-93b4-72f62d9e2ff3(v=TechNet.10)"><img src="images/Dd443727.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

@@ -88,8 +88,8 @@ Die folgende Tabelle enthält die empfohlenen Sicherheitsoptionseinstellungen f�
 <tr class="odd">
 <td style="border:1px solid black;"><p>Systemkryptografie: FIPS-konformen Algorithmus für Verschlüsselung, Hashing und Signatur verwenden</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Systemkryptografie: FIPS-konformen Algorithmus für Verschlüsselung, Hashing und Signatur verwenden
@@ -147,18 +147,18 @@ In der folgenden Tabelle sind die Zugriffssteuerungslisten des Dateisystems für
 **Tabelle 11.2: Zugriffssteuerungslisten des Dateisystems**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Pfad der Zugriffssteuerungsliste in der Benutzeroberfläche</p></th>  
-<th><p>Unternehmensclient</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Pfad der Zugriffssteuerungsliste in der Benutzeroberfläche</p></th>
+<th><p>Unternehmensclient</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog (auf alle Unterordner übertragen)</p></td>
 <td style="border:1px solid black;"><p>Administratoren (Vollzugriff)</p>
@@ -208,23 +208,23 @@ Aufgrund der Bedeutung der Sicherheit von Zertifizierungsstellen wird die Datei�
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog</p></td>
 <td style="border:1px solid black;"><p>Fehlgeschlagen</p></td>
 <td style="border:1px solid black;"><p>Jeder (Vollzugriff)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv</p></td>
 <td style="border:1px solid black;"><p>Erfolg</p></td>
 <td style="border:1px solid black;"><p>Jeder (Ändern)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>D:\CertLog</p></td>
 <td style="border:1px solid black;"><p>Erfolg</p></td>
 <td style="border:1px solid black;"><p>Jeder (Ändern)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>D:\CertLog</p></td>
 <td style="border:1px solid black;"><p>Erfolg</p></td>
 <td style="border:1px solid black;"><p>Jeder (Ändern)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Durch diese Richtlinieneinstellungen werden sämtliche fehlgeschlagenen Zugriffe (Lesen oder Ändern) von jedem Benutzer sowie sämtliche erfolgreichen Änderungen von Benutzern überwacht.
@@ -386,17 +386,17 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Server
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/605c5b8e-d007-41c2-92a6-9260fe571bc7(v=TechNet.10)"><img src="images/Dd443732.pageLeft(de-de,TechNet.10).gif" /></a>12 von 19<a href="https://technet.microsoft.com/de-de/library/cb056f68-1a74-4a6a-ac25-5629fefe7cbb(v=TechNet.10)"><img src="images/Dd443732.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

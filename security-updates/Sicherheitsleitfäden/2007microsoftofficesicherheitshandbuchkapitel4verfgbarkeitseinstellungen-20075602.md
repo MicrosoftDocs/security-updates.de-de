@@ -83,64 +83,64 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 <tr class="odd">
 <td style="border:1px solid black;"><p>Makrosicherheitseinstellungen auf Makros, Add-Ins und SmartTags anwenden</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Automatisierungssicherheit</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bestimmen, ob das berprfen verschlsselter Makros in Microsoft Excel Open XML-Arbeitsmappen erzwungen wird</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bestimmen, ob das berprfen verschlsselter Makros in Microsoft PowerPoint Open XML-Prsentationen erzwungen wird</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bestimmen, ob das berprfen verschlsselter Makros in Microsoft Word Open XML-Dokumenten erzwungen wird</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Alle Benachrichtigungen fr Vertrauensstellungsleiste aus Sicherheitsgrnden deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Befehle deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Excel 2007, PowerPoint 2007, InfoPath 2007, Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tastenkombinationen deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Excel 2007, PowerPoint 2007, InfoPath 2007, Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Benachrichtigung fr Vertrauensstellungsleiste fr nicht signierte Anwendungs-Add-Ins deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Excel 2007, PowerPoint 2007, InfoPath 2007, Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>VBA fr Office-Anwendungen deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Excel-Dateien speichern unter</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sicherheitseinstellung fr Makros</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Makro standardmig in Persnliche Makroarbeitsmappe speichern</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zugriff auf Visual Basic-Projekt vertrauen</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007, PowerPoint 2007, Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Einstellungen fr VBA-Makrowarnung</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Excel 2007, PowerPoint 2007, Word 2007</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfang](#mainsection)
@@ -171,43 +171,43 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 **Tabelle 4.2. Sicherheitseinstellungen zur Minderung von Bedrohungen durch Add-Ins**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Name der Einstellung</th>  
-<th>Betrifft</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name der Einstellung</th>
+<th>Betrifft</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Makrosicherheitseinstellungen auf Makros, Add-Ins und SmartTags anwenden</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Vertrauenswrdige Add-Ins konfigurieren</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Alle Anwendungs-Add-Ins deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Office Excel 2007, Office InfoPath 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Alle Benachrichtigungen fr Vertrauensstellungsleiste aus Sicherheitsgrnden deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Benachrichtigung fr Vertrauensstellungsleiste fr nicht signierte Anwendungs-Add-Ins deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Office Excel 2007, Office InfoPath 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Anwendungs-Add-Ins mssen von einem vertrauenswrdigen Herausgeber signiert sein</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Office Excel 2007, Office InfoPath 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Richtlinien zum Mindern von Bedrohungen durch Add-Ins
@@ -247,35 +247,35 @@ In der folgenden Tabelle sind die 2007 Office-Einstellungen aufgefhrt, mit denen
 **Tabelle 4.3. Sicherheitseinstellungen zum Mindern von Bedrohungen durch ActiveX-Steuerelemente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Name der Einstellung</th>  
-<th>Betrifft</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name der Einstellung</th>
+<th>Betrifft</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ActiveX-Steuerelementinitialisierung</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Alle ActiveX-Steuerelemente deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Alle Benachrichtigungen fr Vertrauensstellungsleiste aus Sicherheitsgrnden deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Steuerelemente in Forms3 laden</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Richtlinien zur Minderung von Bedrohungen durch ActiveX-Steuerelemente
@@ -321,179 +321,179 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 **Tabelle 4.4. Sicherheitseinstellungen zur Minderung von Bedrohungen durch externe Inhalte**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Name der Einstellung</th>  
-<th>Betrifft</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name der Einstellung</th>
+<th>Betrifft</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Aktualisieren von automatischen Verknpfungen besttigen</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Profil automatisch basierend auf der primren SMTP-Adresse von Active Directory konfigurieren</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Automatisch Inhalt fr E-Mail von Personen in den Listen Sichere Absender und Sichere Empfnger herunterladen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Automatisches Empfangen kleiner Updates zur Verbesserung der Zuverlssigkeit</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Signal bertragende Elemente der Benutzeroberflche fr in InfoPath geffnete Formulare</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Signal bertragende Elemente der Benutzeroberflche fr in InfoPath-Editor-ActiveX geffnete Formulare</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Vertrauenswrdige Zonen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Verhalten der schrittweisen Aktualisierung von Windows SharePoint Services steuern</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Steuern des Verhaltens beim ffnen von Formularen in der Sicherheitszone Internet</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Steuern des Verhaltens beim ffnen von Formularen in der Sicherheitszone Intranet</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Steuern des Verhaltens beim ffnen von Formularen in der Sicherheitszone Vertrauenswrdige Sites</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Steuerelementbloggen</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DF-Optionen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zugriff auf Updates, Add-Ins und Patches auf der Office Online-Website deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Alle Benachrichtigungen fr Vertrauensstellungsleiste aus Sicherheitsgrnden deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Auf bekannte Lsungen berprfen deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Herunterladen von ClipArt und Medien vom Client und von der Office Online-Website deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Befehle deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Office Excel 2007, Office InfoPath 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Vom Kunden bermittelte Vorlagendownloads von Office Online deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Hyperlinkwarnungen deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Internetfaxfeature deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Lsungen in der Sicherheitszone Internet deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tastenkombinationen deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007, Office Excel 2007, Office InfoPath 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Herunterladen von Vorlagen vom Client und von der Office Online-Website deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Abrufen verffentlichter Hyperlinks vom Office Server durch den Office-Client deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Schulungskursdownloads von der Office Online-Website deaktivieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bilder und externen Inhalt in HTML-E-Mail anzeigen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Herunterladen von Inhalt von sicheren Zonen nicht zulassen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Datenextrahierungsoptionen beim ffnen beschdigter Arbeitsmappen nicht anzeigen</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dokumentinformationsbereich fr Signal bertragende Elemente der Benutzeroberflche</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Signal bertragende Elemente der Benutzeroberflche fr E-Mail-Formulare</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Hyperlinks in E-Mail-Nachrichten aktivieren</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Internet in sichere Zonen fr den automatischen Download von Bildern einschlieen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Intranet in sichere Zonen fr den automatischen Download von Bildern einschlieen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Internet- und Netzwerkpfade als Hyperlinks</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bilder von Webseiten laden, die nicht mit Excel erstellt wurden</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Onlineinhaltoptionen</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Blockierung des automatischen Downloads von verknpften Bildern aufheben</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hyperlinks unterstreichen</p></td>
 <td style="border:1px solid black;"><p>Office Access 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Automatische Verknpfungen beim ffnen aktualisieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Richtlinien zur Verringerung von Bedrohungen ber externe Inhalte
@@ -536,163 +536,163 @@ In der folgenden Tabelle sind die 2007 Office-Einstellungen aufgefhrt, durch die
 **Tabelle 4.5. Dateiblockierungseinstellungen zum Verringern von Bedrohungen der Verfgbarkeit**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Name der Einstellung</th>  
-<th>Betrifft</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name der Einstellung</th>
+<th>Betrifft</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von Konvertern blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Binary 12-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von Binrdateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Konvertern blockieren</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von DIF- und SYLK-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Dateien mit frherer Version als der folgenden blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von Vorabversionen neuer Excel 2007-Dateiformate blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von HTML- und XMLSS-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von HTML-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen interner Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von Open XML-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Gliederungen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von Vorabversionen neuer Excel 2007-Dateiformate ber das Compatibility Pack fr 2007 Office System und den Excel 2007-Konverter blockieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Vorabversionen neuer PowerPoint 2007-Dateiformate blockieren</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von Vorabversionen neuer PowerPoint 2007-Dateiformate ber das Compatibility Pack fr 2007 Office System und den PowerPoint 2007-Konverter blockieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Vorabversionen neuer Word 2007-Dateiformate blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von Vorabversionen neuer Word 2007-Dateiformate ber das Compatibility Pack fr 2007 Office System und den Word 97-2003/Open XML-Formatkonverter blockieren</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von RTF-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von Textdateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Word 2003-XML-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ffnen von XLL-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von XML-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Speichern von DIF- und SYLK-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Speichern von Binrdateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Speichern von Binary12-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Speichern von Konvertern blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Speichern von Grafikfiltern blockieren</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Speichern von HTML- und XMLSS-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Speichern von HTML-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Speichern von Open XML-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007, Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Speichern von Gliederungen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Speichern von RTF-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Speichern von Textdateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007, Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Speichern von Word 2003-XML-Dateitypen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Word 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bestimmte Dateitypen als Anlagen fr Formulare blockieren</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dateien in diesem Format speichern</p></td>
 <td style="border:1px solid black;"><p>Office PowerPoint 2007, Office Word 2007</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Richtlinien zum Verwenden der Dateiblockierungstechnologie
@@ -730,75 +730,75 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 **Tabelle 4.6. Sicherheitseinstellungen zur Minderung von Bedrohungen durch Internet Explorer**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Name der Einstellung</th>  
-<th>Betrifft</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name der Einstellung</th>
+<th>Betrifft</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Benutzer mit frheren Versionen von Office knnen mit Browsern lesen...</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Signal bertragende Elemente der Benutzeroberflche fr in InfoPath geffnete Formulare</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Signal bertragende Elemente der Benutzeroberflche fr in InfoPath-Editor-ActiveX geffnete Formulare</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Vertrauenswrdige Zonen blockieren</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>E-Mail-Formulare in der Sicherheitszone Voll vertrauenswrdig deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>E-Mail-Formulare in der Sicherheitszone Internet deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>E-Mail-Formulare in der Sicherheitszone Intranet deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ffnen von Lsungen in der Sicherheitszone Internet deaktivieren</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Herunterladen von Inhalt von sicheren Zonen nicht zulassen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dokumentinformationsbereich fr Signal bertragende Elemente der Benutzeroberflche</p></td>
 <td style="border:1px solid black;"><p>2007 Office System</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Signal bertragende Elemente der Benutzeroberflche fr E-Mail-Formulare</p></td>
 <td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Internet in sichere Zonen fr den automatischen Download von Bildern einschlieen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Intranet in sichere Zonen fr den automatischen Download von Bildern einschlieen</p></td>
 <td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Internet- und Netzwerkpfade als Hyperlinks</p></td>
 <td style="border:1px solid black;"><p>Office Excel 2007</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Richtlinien zum Verringern von Bedrohungen ber Internet Explorer-Funktionen

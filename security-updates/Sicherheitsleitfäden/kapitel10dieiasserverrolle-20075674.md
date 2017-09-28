@@ -234,6 +234,6 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IAS-Se
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/835865cd-ff71-43e6-88bf-91f5b35a00b9(v=TechNet.10)"><img src="images/Dd443731.pageLeft(de-de,TechNet.10).gif" /></a>11 von 19<a href="https://technet.microsoft.com/de-de/library/7488b1dc-eb9b-4f4a-b597-b84d87717b57(v=TechNet.10)"><img src="images/Dd443731.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

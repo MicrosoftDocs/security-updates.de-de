@@ -110,12 +110,12 @@ Da RMS mit SP2 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwind
 <p>Offlineregistrierung des Servers</p>
 <p>Keine Selbstaktivierung der Clients</p></td>
 <td style="border:1px solid black;"><p>Alle SP1-Features</p>
-<p>Offlineregistrierung des Servers</p>  
-<p>Selbstaktivierung der Clients</p>  
+<p>Offlineregistrierung des Servers</p>
+<p>Selbstaktivierung der Clients</p>
 <p>Serverlockbox</p>
 <p>Microsoft SQL Server™ 2005 wird ab Werk unterstützt</p></td>
 <td style="border:1px solid black;"><p>Alle bisherigen Features plus SP2-Features</p>
-<p>Offlineregistrierung des Servers</p>  
+<p>Offlineregistrierung des Servers</p>
 <p>SP2-Clients sind selbstaktivierend,</p>
 <p>RMS 1.0-Clients müssen über das Internet aktiviert werden</p></td>
 </tr>

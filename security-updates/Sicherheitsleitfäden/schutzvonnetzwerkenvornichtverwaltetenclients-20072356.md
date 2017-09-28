@@ -177,9 +177,9 @@ Das physische Isolieren von Computern und Netzwerken ist kein neues Konzept. Es 
 <td style="border:1px solid black;"><p>Schicht 1</p></td>
 <td style="border:1px solid black;"><p>Separate Verkabelung für Segmente verwenden, die vom vertrauenswürdigen Netzwerk isoliert sein müssen</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Kostenaufwand für das Verlegen neuer Kabel für jede neue Verbindung</p></li>  
-<li><p>Höherer Verwaltungsaufwand für jeweils neue Kabelanschlüsse bei räumlicher Verlagerung von Benutzern</p></li>  
-<li><p>Mangelnde Flexibilität und schwierige Handhabung bei Expansion des Unternehmens</p></li>  
+<li><p>Kostenaufwand für das Verlegen neuer Kabel für jede neue Verbindung</p></li>
+<li><p>Höherer Verwaltungsaufwand für jeweils neue Kabelanschlüsse bei räumlicher Verlagerung von Benutzern</p></li>
+<li><p>Mangelnde Flexibilität und schwierige Handhabung bei Expansion des Unternehmens</p></li>
 <li><p>Erhöhte Wahrscheinlichkeit versehentlicher Fehler aufgrund des höheren Verwaltungsaufwands</p></li>
 </ul></td>
 </tr>
@@ -187,8 +187,8 @@ Das physische Isolieren von Computern und Netzwerken ist kein neues Konzept. Es 
 <td style="border:1px solid black;"><p>Schicht 2</p></td>
 <td style="border:1px solid black;"><p>Mithilfe von VLANs logische Subnetze erstellen, die vom vertrauenswürdigen Netzwerk isoliert sind</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Zusätzliche Kosten in Zusammenhang mit der Aktualisierung der Switchstruktur zur Unterstützung der VLANs</p></li>  
-<li><p>Höherer Verwaltungsaufwand für Netzwerkänderungen, räumliche Verlagerung von Benutzern und Beantwortung von Gastverbindungsanforderungen</p></li>  
+<li><p>Zusätzliche Kosten in Zusammenhang mit der Aktualisierung der Switchstruktur zur Unterstützung der VLANs</p></li>
+<li><p>Höherer Verwaltungsaufwand für Netzwerkänderungen, räumliche Verlagerung von Benutzern und Beantwortung von Gastverbindungsanforderungen</p></li>
 <li><p>Anfälligkeit für versehentliche Fehler bei räumlicher Verlagerung mehrerer Benutzer oder bei Verwendung mobiler Geräte</p></li>
 </ul></td>
 </tr>

@@ -66,7 +66,7 @@ Zum Bereitstellen eines einzelnen RMS-Servers verwenden Sie die folgende Prüfli
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu Konzepten und Planung</p></td>
 <td style="border:1px solid black;"><p>„Vorbereitung für eine RMS-Bereitstellung“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu Systemanforderungen und Überprüfen der Verfügbarkeit aller erforderlichen Hardware- und Softwarekomponenten.</p></td>
 <td style="border:1px solid black;"><p>„Infrastrukturelle Voraussetzungen für RMS“ unter <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planen einer RMS-Bereitstellung</a></p>
@@ -75,23 +75,23 @@ Zum Bereitstellen eines einzelnen RMS-Servers verwenden Sie die folgende Prüfli
 <tr class="odd">
 <td style="border:1px solid black;"><p>Einrichten der Infrastruktur, einschließlich erforderlicher Hardware- und Softwarekomponenten, administrativer Konten und Unterstützung von SMS oder Gruppenrichtlinie.</p></td>
 <td style="border:1px solid black;"><p>„Vorbereitung für eine RMS-Bereitstellung“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Installieren und Konfigurieren von RMS auf dem Server</p></td>
 <td style="border:1px solid black;"><p>„Einrichten von Zertifizierungs- und Lizenzierungsdiensten auf dem ersten Server“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Testen der Bereitstellung.</p></td>
 <td style="border:1px solid black;"><p>„Einrichten einer Testumgebung“ in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Implementieren von RMS in der Produktionsumgebung</p></td>
 <td style="border:1px solid black;"><p>„Festlegen des Umfangs der RMS-Implementierung“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_12"></span>  
+<span id="BKMK_12"></span>
 Bereitstellen von Stammzertifizierungs- und Lizenzierungsclustern  
 -----------------------------------------------------------------
   
@@ -100,22 +100,22 @@ Verwenden Sie die folgenden Prüflisten zum Bereitstellen der Stammzertifizierun
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Schritt</th>  
-<th>Verweis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Verweis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu Konzepten und Planung</p></td>
 <td style="border:1px solid black;"><p>„Vorbereitung für eine RMS-Bereitstellung“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu Systemanforderungen und Überprüfen der Verfügbarkeit aller erforderlichen Hardware- und Softwarekomponenten</p></td>
 <td style="border:1px solid black;"><p>„Infrastrukturelle Voraussetzungen für RMS“ unter <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planen einer RMS-Bereitstellung</a></p>
@@ -124,11 +124,11 @@ Verwenden Sie die folgenden Prüflisten zum Bereitstellen der Stammzertifizierun
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu dem Bereitstellungsplan zum besseren Verständnis der Topologie und der zu installierenden Komponenten.</p></td>
 <td style="border:1px solid black;"><p>„Festlegen der RMS-Topologie“ unter <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planen einer RMS-Bereitstellung</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Einrichten der Infrastruktur, einschließlich erforderlicher Hardware- und Softwarekomponenten, administrativer Konten und Unterstützung von SMS oder Gruppenrichtlinie.</p></td>
 <td style="border:1px solid black;"><p>„Vorbereitung für eine RMS-Bereitstellung“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a>.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Installieren und Konfigurieren von RMS auf den Servern, die nicht Teil des Stammzertifizierungsclusters sind</p></td>
 <td style="border:1px solid black;"><p>„Einrichten von Zertifizierungs- und Lizenzierungsdiensten auf dem ersten Server“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p>
@@ -142,19 +142,19 @@ Verwenden Sie die folgenden Prüflisten zum Bereitstellen der Stammzertifizierun
 <tr class="odd">
 <td style="border:1px solid black;"><p>Einrichten des Lastenausgleichs</p></td>
 <td style="border:1px solid black;"><p>„Erweitern der grundlegenden Infrastruktur zur Unterstützung von Clustern“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Testen der Bereitstellung.</p></td>
 <td style="border:1px solid black;"><p>„Einrichten einer Testumgebung“ in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Implementieren von RMS in der Produktionsumgebung</p></td>
 <td style="border:1px solid black;"><p>„Definieren des Umfangs der RMS-Implementierung“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_13"></span>  
+<span id="BKMK_13"></span>
 Gesamtstrukturübergreifendes Bereitstellen von RMS  
 --------------------------------------------------
   
@@ -163,34 +163,34 @@ Verwenden Sie die folgenden Prüflisten zum gesamtstrukturübergreifenden Bereit
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Schritt</th>  
-<th>Verweis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Verweis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu Konzepten und Planung</p></td>
 <td style="border:1px solid black;"><p>„Vorbereitung für eine RMS-Bereitstellung“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Konfigurieren der erforderlichen Berechtigungen basierend auf dem Vertrauensmodell.</p></td>
 <td style="border:1px solid black;"><p>„Gesamtstrukturübergreifendes Bereitstellen von RMS“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Einrichten der entsprechenden Active Directory-Attribute für die Gesamtstrukturen</p></td>
 <td style="border:1px solid black;"><p>„Gesamtstrukturübergreifendes Bereitstellen von RMS“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_14"></span>  
+<span id="BKMK_14"></span>
 Prüflisten für die RMS-Verwaltung  
 ---------------------------------
   
@@ -203,7 +203,7 @@ In diesem Abschnitt werden Prüflisten für die folgenden Verwaltungsaufgaben be
   
 Weitere Informationen zum Verwalten von RMS finden Sie unter [Betreiben eines RMS-Servers](http://go.microsoft.com/fwlink/?linkid=42495) in dieser Dokumentationssammlung.
   
-<span id="BKMK_15"></span>  
+<span id="BKMK_15"></span>
 Implementieren von Vorlagen für Benutzerrechterichtlinien  
 ---------------------------------------------------------
   
@@ -212,26 +212,26 @@ Verwenden Sie die folgende Prüfliste zum Implementieren einer Vorlage für Benu
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Schritt</th>  
-<th>Verweis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Verweis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu relevanten Konzepten.</p></td>
 <td style="border:1px solid black;"><p>„Vorlagen für Benutzerrechterichtlinien“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technische Referenz für RMS</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Angeben des Speicherorts der Vorlage für Benutzerrechterichtlinien</p></td>
 <td style="border:1px solid black;"><p>„So geben Sie den Speicherort von Vorlagen für Benutzerrechterichtlinien an“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42495">Ausführen eines RMS-Servers</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Erstellen der Vorlage für Benutzerrechterichtlinien</p></td>
 <td style="border:1px solid black;"><p>„Erstellen und Ändern von Vorlagen für Benutzerrechterichtlinien“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42495">Ausführen eines RMS-Servers</a></p>
@@ -240,11 +240,11 @@ Verwenden Sie die folgende Prüfliste zum Implementieren einer Vorlage für Benu
 <tr class="even">
 <td style="border:1px solid black;"><p>Verteilen der Vorlage für Benutzerrechterichtlinien</p></td>
 <td style="border:1px solid black;"><p>„Verteilen von Vorlagen für Benutzerrechterichtlinien“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42495">Ausführen eines RMS-Servers</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_16"></span>  
+<span id="BKMK_16"></span>
 Bereitstellen von neuen RMS-Clients  
 -----------------------------------
   
@@ -253,18 +253,18 @@ Verwenden Sie die folgende Prüfliste zum Bereitstellen einer neuen Version des 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Schritt</th>  
-<th>Verweis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Verweis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu relevanten Konzepten.</p></td>
 <td style="border:1px solid black;"><p>„Planung der Client-Verteilung“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42494">Bereitstellen eines RMS-Systems</a></p>
@@ -273,11 +273,11 @@ Verwenden Sie die folgende Prüfliste zum Bereitstellen einer neuen Version des 
 <tr class="even">
 <td style="border:1px solid black;"><p>Um eine Aktualisierung der aktuellsten Client-Version zu erzwingen, müssen Sie die zu aktualisierende Lockbox-Version ausschließen.</p></td>
 <td style="border:1px solid black;"><p>„So schließen Sie Lockbox-Versionen aus“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42495">Ausführen eines RMS-Servers</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_17"></span>  
+<span id="BKMK_17"></span>
 Hinzufügen von vertrauenswürdigen Benutzerdomänen  
 -------------------------------------------------
   
@@ -286,18 +286,18 @@ Verwenden Sie die folgende Prüfliste zum Hinzufügen einer vertrauenswürdigen 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Schritt</th>  
-<th>Verweis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Verweis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu relevanten Konzepten.</p></td>
 <td style="border:1px solid black;"><p>„Vertrauenswürdige Benutzerdomänen“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technische Referenz für RMS</a></p>
@@ -306,11 +306,11 @@ Verwenden Sie die folgende Prüfliste zum Hinzufügen einer vertrauenswürdigen 
 <tr class="even">
 <td style="border:1px solid black;"><p>Erhalten des Server-Lizenzgeberzertifikats der Benutzerdomäne, die hinzugefügt werden soll. (Das Zertifikat muss von dem Administrator der zu vertrauenden Installation bereitgestellt werden.) Hinzufügen der Benutzerdomäne zur Installation.</p></td>
 <td style="border:1px solid black;"><p>„So fügen Sie eine vertrauenswürdige Benutzerdomäne hinzu“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42495">Ausführen eines RMS-Servers</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_18"></span>  
+<span id="BKMK_18"></span>
 Hinzufügen von vertrauenswürdigen Veröffentlichungsdomänen  
 ----------------------------------------------------------
   
@@ -319,18 +319,18 @@ Verwenden Sie die folgende Prüfliste zum Hinzufügen einer vertrauenswürdigen 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Schritt</th>  
-<th>Verweis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Verweis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lesen der Informationen zu relevanten Konzepten.</p></td>
 <td style="border:1px solid black;"><p>„Vertrauenswürdige Veröffentlichungsdomänen“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technische Referenz für RMS</a></p>
@@ -339,6 +339,6 @@ Verwenden Sie die folgende Prüfliste zum Hinzufügen einer vertrauenswürdigen 
 <tr class="even">
 <td style="border:1px solid black;"><p>Abrufen des verschlüsselten Server-Lizenzgeberzertifikats und des privaten Schlüssels der Veröffentlichungsdomäne, die hinzugefügt werden soll. Anschließendes Hinzufügen der Veröffentlichungsdomäne zur Installation.</p></td>
 <td style="border:1px solid black;"><p>„So fügen Sie eine vertrauenswürdige Veröffentlichungsdomäne hinzu“ unter <a href="http://go.microsoft.com/fwlink/?linkid=42495">Ausführen eines RMS-Servers</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

@@ -163,43 +163,43 @@ Auch wenn Personen in jeder Umgebung beide Rollen einnehmen können, ist es ents
 <td style="border:1px solid black;"><p>Administratoren</p></td>
 <td style="border:1px solid black;"><p>Vordefiniert</p></td>
 <td style="border:1px solid black;"><p>Diese Gruppe hat Vollzugriff auf alle Domänencontroller sowie auf sämtliche in einer Domäne gespeicherten Verzeichnisinhalte. Bei dieser Gruppe handelt es sich um die höchste Dienstadministratorgruppe. Sie kann die Mitgliedschaft aller anderen administrativen Gruppen verändern.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Organisations-Admins</p></td>
 <td style="border:1px solid black;"><p>Benutzer</p></td>
 <td style="border:1px solid black;"><p>Diese Gruppe wird in jeder Domäne automatisch der Gruppe „Administratoren“ hinzugefügt und hat Vollzugriff auf die Konfiguration sämtlicher Domänencontroller.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Domänen-Admins</p></td>
 <td style="border:1px solid black;"><p>Benutzer</p></td>
 <td style="border:1px solid black;"><p>Diese Gruppe wird in jeder Domäne einer Gesamtstruktur automatisch der Gruppe „Administratoren“ hinzugefügt Daher haben die Domänen-Admins Zugriffsrechte auf alle Domänencontroller sowie auf Daten, die im Verzeichnis einer Domäne gespeichert sind. Sie können die Mitgliedschaft aller administrativen Gruppen modifizieren.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Schema-Admins</p></td>
 <td style="border:1px solid black;"><p>Benutzer</p></td>
 <td style="border:1px solid black;"><p>Diese Gruppe verfügt über volle Administratorrechte für das Active Directory-Schema.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Konten-Operatoren</p></td>
 <td style="border:1px solid black;"><p>Vordefiniert</p></td>
 <td style="border:1px solid black;"><p>Diese Gruppe kann Konten und Gruppen in der Domäne erstellen und verwalten, jedoch keine Dienstadministratorkonten verwalten. Diese Gruppe hat standardmäßig keine Mitglieder und sollte bei einer auf Best Practices basierenden Verfahrensweise nicht zur Delegierung von Verwaltungsaufgaben verwendet werden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sicherungs-Operatoren</p></td>
 <td style="border:1px solid black;"><p>Vordefiniert</p></td>
 <td style="border:1px solid black;"><p>Diese Gruppe gewährt Berechtigungen zur Ausführung von Sicherungs- und Wiederherstellungsaufgaben auf Domänencontrollern. Sie hat standardmäßig keine Mitglieder.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server-Operatoren</p></td>
 <td style="border:1px solid black;"><p>Vordefiniert</p></td>
 <td style="border:1px solid black;"><p>Diese Gruppe kann Wartungsaufgaben auf Domänencontrollern ausführen. Sie hat standardmäßig keine Mitglieder.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DS-Wiederherstellungsmodus-Administrator</p></td>
 <td style="border:1px solid black;"><p>Nicht in Active Directory gespeichert</p></td>
 <td style="border:1px solid black;"><p>Dieses Konto wird während des Active Directory-Installationsvorgangs erstellt. Dieses Konto wird verwendet, um den Domänencontroller im Modus „Verzeichnisdienste wiederherstellen“ zu starten. Auch wenn dieses Konto nicht dem Administratorkonto entspricht, verfügt es über Vollzugriff auf den Domänencontroller, solange dieser sich im Modus „Verzeichnisdienste wiederherstellen“ befindet.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Die in der vorangehenden Tabelle aufgeführten Dienstadministratorgruppen und -konten werden durch einen Hintergrundprozess geschützt, der in gewissen Zeitabständen eine bestimmte Sicherheitsbeschreibung prüft und anwendet, die diesem geschützten Objekt zugeordnete Sicherheitsinformationen enthält. Dieser Prozess erstreckt sich alle Mitglieder einer Dienstadministratorgruppe und gewährleistet, dass jeder erfolgreiche unbefugte Versuch, diese Sicherheitsbeschreibung für ein Mitglied einer administrativen Gruppe zu verändern, mit den geschützten Einstellungen aus der Datenstruktur der Sicherheitsbeschreibung überschrieben wird.
@@ -251,44 +251,44 @@ Die folgende Tabelle beschreibt die oben in Text und Bild dargestellten Szenarie
 **Tabelle 2 – Rangordnung der Szenarien hinsichtlich unterschiedlicher Sicherheitsanfälligkeiten**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Szenario</p></th>  
-<th><p>Beschreibung</p></th>  
-<th><p>Risikostufe</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Szenario</p></th>
+<th><p>Beschreibung</p></th>
+<th><p>Risikostufe</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>Konto A wird von einem Dienst auf Server 1 verwendet. Nach einer Sicherheitsverletzung auf Server 1 werden die Authentifizierungsdaten für Konto A offen gelegt. Daraufhin hat der Angreifer Zugriff auf den DC1-Domänencontroller. Ausgehend von diesem werden alle Ressourcen auf der Domäne und alle darin enthaltenen Daten anfällig gegenüber Sicherheitsverletzungen.</p>
 <p>Diese Situation stellt ein kritisches Risikoszenario dar. Domänenkonten mit administratorähnlichen Rechten für die Domäne oder den Domänencontroller sollten nie eingesetzt werden, um Dienste auf einem Mitgliedsserver auszuführen.</p></td>
 <td style="border:1px solid black;"><p>Kritisch</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>Konto B wird von einem Dienst auf Server 2 verwendet. Konto B verfügt auch über Berechtigungen für Server 1, auf dem Konto A einen Dienst ausführt. Nachdem eine Sicherheitsverletzung von Konto B auf Server 2 aufgetreten ist, verfügt der Angreifer über denselben Zugriff wie in Szenario 1. Damit ist der Domänencontroller sowie die gesamte Domäne für Angriffe anfällig.</p>
 <p>Konto C setzt das Netzwerk demselben Risiko aus, da es über einen Angriff auf Server 3 für eine Sicherheitsverletzung auf Server 2 verwendet werden kann. Dadurch wird Konto A anfällig für eine Ausnutzung, was wiederum die gesamte Domäne gefährdet.</p>
 <p>Hierbei handelt es sich um Szenarien mit hohem Risiko, doch sind in dieser Situation Lösungen möglich, wenn Maßnahmen gegen die potenziellen Bedrohungen aus Szenario 1 ergriffen wurden.</p></td>
 <td style="border:1px solid black;"><p>Hoch</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>3</p></td>
 <td style="border:1px solid black;"><p>Konto D wird von einem auf Server 4 und 5 ausgeführten Dienst verwendet. Nach einer Sicherheitsverletzung von Konto D erhält ein Angreifer Zugriff auf sämtliche Server, auf denen Konto D über Berechtigungen verfügt. Wenn auf diesen Servern keine Dienste ausgeführt werden, die Konten mit höheren oder umfangreicheren Rechten verwenden, stellt dieses Szenario eine Gefahr mittlerer Priorität dar, weil die Durchlässigkeit für Sicherheitsverletzungen aus Szenario 2 nicht vorhanden ist.</p></td>
 <td style="border:1px solid black;"><p>Mittel</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>4</p></td>
 <td style="border:1px solid black;"><p>Konto E wird von einem Dienst verwendet, der auf einem einzigen Server – Server 5 – ausgeführt wird, und verfügt über keine weiteren Berechtigungen oder zugeordneten Dienste. Dieses Szenario stellt eine geringe Bedrohung dar, denn hier ist es nicht möglich, Berechtigungen über einen einzigen Server hinaus zu erhöhen.</p></td>
 <td style="border:1px solid black;"><p>Gering</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Die jeweilige Risikostufe der oben beschriebenen Szenarien lässt sich am besten wie folgt erklären:
@@ -326,87 +326,87 @@ In der folgenden Tabelle sind Dienstkonten aufgelistet, die unter Windows Server
 **Tabelle 3 – Windows Server 2003: Neue Dienstkontoeinstellungen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Service</p></th>  
-<th><p>Anmelden als</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Service</p></th>
+<th><p>Anmelden als</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Warndienst</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gatewaydienst auf Anwendungsebene</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Remoteregistrierung</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Smartcard</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TCP/IP-NetBIOS-Hilfsprogramm</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Telnet</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Unterbrechungsfreie Stromversorgung (USV)</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WebClient</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Windows-Bilderfassung</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Windows-Zeitgeber</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WinHTTP-Web Proxy Auto-Discovery-Dienst</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DHCP-Client</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Distributed Transaction Coordinator</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DNS-Client</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lizenzprotokollierung</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Leistungsprotokollierung</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Remote Procedure Call (RPC) Locator</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Entwicklung
@@ -870,527 +870,527 @@ In der folgenden Tabelle werden die gängigen Dienste unter Windows Server 2003
 **Tabelle A.1 Beschreibung von Diensten unter Windows XP und Windows Server 2003**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Dienst</p></th>  
-<th><p>Dienstname</p></th>  
-<th><p>Anmelden als</p></th>  
-<th><p>Beschreibung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Dienst</p></th>
+<th><p>Dienstname</p></th>
+<th><p>Anmelden als</p></th>
+<th><p>Beschreibung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IP6-zu-IP4</p></td>
 <td style="border:1px solid black;"><p>IPv6-Hilfsdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht IPv6-Konnektivität über IPv4-Netzwerke</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AELookupSvc</p></td>
 <td style="border:1px solid black;"><p>Anwendungskompatibilitäts-Suchdienst</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Verarbeitet Suchanfragen zur Anwendungskompatibilität für Anwendungen, wenn diese gestartet werden. Muss für Anwendungskompatibilitäts-Softwareupdates aktiviert sein.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Alerter</p></td>
 <td style="border:1px solid black;"><p>Warndienst</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Dieser Dienst benachrichtigt ausgewählte Benutzer und Computer über administrative Warnungen und ist für die Zustellung vom Nachrichtendienst auf Clientcomputern abhängig.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ALG</p></td>
 <td style="border:1px solid black;"><p>Gatewaydienst auf Anwendungsebene</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Unterstützt im Hintergrund von ICS arbeitende Plug-Ins, über die Netzwerkprotokolle die Firewall passieren können.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>AppMgmt</p></td>
 <td style="border:1px solid black;"><p>Anwendungsverwaltung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Softwareinstallationsdienste wie Zuweisung, Veröffentlichung und Deinstallation. Im Falle der Deaktivierung ist es nicht möglich, Anwendungen über Active Directory-Dienste wie IntelliMirror® zu installieren.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AppMgr</p></td>
 <td style="border:1px solid black;"><p>Remoteserver-Manager</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Funktioniert als WMI-Instanzenanbieter für Warnobjekte bei der Remoteverwaltung und als WMI-Methodenanbieter für Remoteverwaltungsaufgaben.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>aspnet_state</p></td>
 <td style="border:1px solid black;"><p>ASP.NET-Statusdienst</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Stellt die Unterstützung für Out-of-Process-Sitzungszustände von ASP.NET bereit.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AudioSrv</p></td>
 <td style="border:1px solid black;"><p>Windows-Audio</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet Audiogeräte für Windows-basierte Programme.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>BINLSVC</p></td>
 <td style="border:1px solid black;"><p>Remoteinstallation</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Dies ist die Hauptkomponente des Remoteinstallationsservers (Remote Installation Server, RIS) zur Beantwortung von PXE-Anfragen für remotestartfähige Computer.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>BITS</p></td>
 <td style="border:1px solid black;"><p>Intelligenter Hintergrundübertragungsdienst</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Stellt einen Mechanismus für im Hintergrund ablaufende Dateiübertragungen für Warteschlangen-Manager bereit. Wenn dieser Dienst angehalten wird, können auf dem Computer keine automatischen Updatefunktionen verwendet werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Browser</p></td>
 <td style="border:1px solid black;"><p>Computerbrowser</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Führt eine aktuelle Liste der Computer im Netzwerk.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CertSvc</p></td>
 <td style="border:1px solid black;"><p>Zertifikatdienste</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bestandteil des Betriebssystemkerns, der digitale Zertifikate ausstellt und verwaltet.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>cisvc</p></td>
 <td style="border:1px solid black;"><p>Indexdienstleistung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet über eine Abfragesprache schnellen Zugriff auf Dateien durch die Indizierung der Dateiinhalte und -eigenschaften.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ClipSrv</p></td>
 <td style="border:1px solid black;"><p>Ablagemappe</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht der Ablagemappe das Erstellen und Freigeben von Datenseiten für die Überprüfung durch Remotebenutzer.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ClusSvc</p></td>
 <td style="border:1px solid black;"><p>Clusterdienste</p></td>
 <td style="border:1px solid black;"><p>Domänenkonto</p></td>
 <td style="border:1px solid black;"><p>Steuert Clustervorgänge von Servern und verwaltet die Clusterdatenbank.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>COMSysApp</p></td>
 <td style="border:1px solid black;"><p>COM+-Systemanwendung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet die Konfiguration und Verfolgung von COM+-basierten Komponenten. COM+-Komponenten funktionieren nicht ordnungsgemäß, wenn dieser Dienst deaktiviert wird.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CORRTSvc</p></td>
 <td style="border:1px solid black;"><p>.NET Framework-Support Service</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Benachrichtigt Abonnentenclients, wenn bestimmte Prozesse den Clientlaufzeitdienst initialisieren.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CryptSvc</p></td>
 <td style="border:1px solid black;"><p>Kryptografiedienste</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet kryptografische Schlüsselverwaltungsdienste für Windows-basierte Computer.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DcomLaunch</p></td>
 <td style="border:1px solid black;"><p>DCOM-Serverprozess-Startprogramm</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet einen Teil der RPC-Dienste, die in der Kombination mit dem RPCSS-Dienst Berechtigungen für „Lokales System“ erfordern.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DFS</p></td>
 <td style="border:1px solid black;"><p>Verteiltes Dateisystem (Distributed File System, DFS)</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Integriert unterschiedliche Dateifreigaben innerhalb des Netzwerks in einen einzigen logischen Namenspace. Dieses System wird für die Meldung der SYSVOL-Freigabe benötigt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DFSR</p></td>
 <td style="border:1px solid black;"><p>DFS-Replikation</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Kopiert automatisch Updates in Dateien und Ordner von Computern, die Bestandteil einer gemeinsamen Replikationsgruppe sind (in Windows Server 2003 R2 hinzugefügt).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dhcp</p></td>
 <td style="border:1px solid black;"><p>DHCP-Client</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Verwaltet Konfigurationsdaten von DHCP-Netzwerken durch das Registrieren und Aktualisieren von IP-Adressen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DHCPServer</p></td>
 <td style="border:1px solid black;"><p>DHCP-Server</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Dieser Dienst verwaltet DHCP und weist Clientcomputern IP-Adressen zu.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>dmadmin</p></td>
 <td style="border:1px solid black;"><p>Dienst für die Verwaltung logischer Datenträger</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Führt administrative Dienste für Datenträgerverwaltungsanforderungen aus und konfiguriert Datenträger. Dieser Dienst wird ausschließlich im Rahmen solcher Konfigurationsprozesse ausgeführt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>dmserver</p></td>
 <td style="border:1px solid black;"><p>Logischer Diskettenmanager</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Erkennt und überwacht neue Laufwerke und sendet Datenträgerinformationen an den dmadmin-Dienst. Dieser Dienst darf nicht deaktiviert werden, wenn dynamische Datenträger verwendet werden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>DNS-Server</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die DNS-Namensauflösung durch die Beantwortung von Abfragen und Updateanforderungen für DNS-Namen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Dnscache</p></td>
 <td style="border:1px solid black;"><p>DNS-Client</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Ist für das Auflösen und Zwischenspeichern von DNS-Namen zuständig und muss auf jedem Computer ausgeführt werden, auf dem die DNS-Namensauflösung durchgeführt wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ERSvc</p></td>
 <td style="border:1px solid black;"><p>Fehlerberichterstattungsdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Sammelt, speichert und meldet Fälle, in denen unerwartete Anwendungsfehler auftreten oder Anwendungen unerwartet beendet werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Eventlog</p></td>
 <td style="border:1px solid black;"><p>Ereignisprotokoll</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Zeichnet Ereignisse, die von Programmen, Diensten sowie vom Betriebssystem gesendet werden, in Ereignisprotokollen auf.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>EventSystem</p></td>
 <td style="border:1px solid black;"><p>COM+-Ereignissystem</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verteilt Ereignisse automatisch an abonnierte COM-Komponenten.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FastUser Switching Compatibility</p></td>
 <td style="border:1px solid black;"><p>Kompatibilität für schnelle Benutzerumschaltung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet Anwendungen, die Unterstützung in mehreren Benutzerumgebungen erfordern.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Fax</p></td>
 <td style="border:1px solid black;"><p>Faxdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet TAPI-kompatible Faxfunktionen an.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Groveler</p></td>
 <td style="border:1px solid black;"><p>SIS-Groveler</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Integraler Bestandteil des Remoteinstallationsdienstes (RIS), der Dateiduplikate ermittelt und das Original in SIS (Single Instance Storage) kopiert.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>helpsvc</p></td>
 <td style="border:1px solid black;"><p>Hilfe und Support</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Zugriff auf Speicher und Dienste, in denen Metadaten und Informationen über Hilfethemen für die Hilfe- und Supportcenteranwendung enthalten sind.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>HidServ</p></td>
 <td style="border:1px solid black;"><p>Eingabegerätzugriff</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht allgemeinen Eingabezugriff auf USB-Geräte wie Tastaturen und Mäuse.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HTTPFilter</p></td>
 <td style="border:1px solid black;"><p>HTTP-SSL</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht IIS die Ausführung von SSL-Funktionen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IAS</p></td>
 <td style="border:1px solid black;"><p>Internetauthentifizierungsdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet zentralisierte Authentifizierungs-, Autorisierungs-, Überwachungs- und Kontoführungsdienste für Benutzer, die eine Verbindung zu einem Netzwerk herstellen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IASJet</p></td>
 <td style="border:1px solid black;"><p>IAS-Jet-Datenbankzugriff</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Authentifizierungs-, Autorisierungs- und Kontoführungsdienste über das RADIUS-Protokoll.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IISADMIN</p></td>
 <td style="border:1px solid black;"><p>IIS-Verwaltungsdienst</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die Verwaltung von IIS-Komponenten wie FTP und Webdiensterweiterungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ImapiService</p></td>
 <td style="border:1px solid black;"><p>COM-Dienst für IMAPI-CD-Brennen</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet das Erstellen von CDs über die IMAPI COM-Schnittstelle und führt auf Anforderung CD-R-Schreibvorgänge durch.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Irmon</p></td>
 <td style="border:1px solid black;"><p>Infrarotüberwachung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die Dateifreigabe über Infrarotverbindungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IsmServ</p></td>
 <td style="border:1px solid black;"><p>Standortübergreifender Messagingdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht den Austausch von Nachrichten zwischen Computern unter Windows Server.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>kdc</p></td>
 <td style="border:1px solid black;"><p>Kerberos-Schlüsselverteilungscenter</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht Benutzern die Anmeldung über das Kerberos-Authentifizierungsprotokoll. Wenn dieser Dienst angehalten wird, können Clients sich nicht mehr bei einer Domäne anmelden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>lanmanserver</p></td>
 <td style="border:1px solid black;"><p>Server</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet RPC-Unterstützung und ermöglicht Datei-, Drucker- und Named-Piped-Freigabe über das Netzwerk.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>lanman-workstation</p></td>
 <td style="border:1px solid black;"><p>Arbeitsstation</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Netzwerkverbindungen und Kommunikation für Clientdienste.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>LicenseService</p></td>
 <td style="border:1px solid black;"><p>Lizenzprotokollierung</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Wurde ursprünglich entwickelt, um die mit Windows NT® Server 3.51 eingeführten CALs zu verwalten. Der Dienst sollte nur von Benutzern aktiviert werden, die Microsoft Small Business Server verwenden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>LMHosts</p></td>
 <td style="border:1px solid black;"><p>TCP/IP-NetBIOS-Hilfsprogramm</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Bietet NetBIOS-über-TCP/IP-Unterstützung sowie NetBIOS-Namensauflösung für Clients.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>LPDSVC</p></td>
 <td style="border:1px solid black;"><p>TCP/IP-Druckserver</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht TCP/IP-basiertes Drucken durch Verwenden des LPD-Protokolls zum Empfang von Dokumenten von LPD-Dienstprogrammen auf UNIX-basierten Plattformen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>LSASS</p></td>
 <td style="border:1px solid black;"><p>Lokale Sicherheitsautorität</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet eine Schnittstelle zur Verwaltung der lokalen Sicherheit, der Domänenauthentifizierung sowie von Active Directory-Prozessen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MacFile</p></td>
 <td style="border:1px solid black;"><p>Dateiserver für Macintosh</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht Macintosh-Benutzern, Dateien unter Windows Server 2003 zu speichern und darauf zuzugreifen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MacPrint</p></td>
 <td style="border:1px solid black;"><p>Druckserver für Macintosh</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht Macintosh-Benutzern die Verwendung von Windows Server 2003-Druckdiensten.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MDM</p></td>
 <td style="border:1px solid black;"><p>Machine Debug Manager</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Verwaltet das lokales Debuggen sowie Remotedebuggen von Anwendungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Messenger</p></td>
 <td style="border:1px solid black;"><p>Nachrichtendienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Sendet Nachrichten an den Warndienst oder empfängt Nachrichten von diesem. Dieser Nachrichtendienst besitzt keine Beziehung zu Windows Messenger. Im Falle seiner Deaktivierung ist es nicht möglich, die Befehle „net send“ und „net name“ zu verwenden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>mnmsrvc</p></td>
 <td style="border:1px solid black;"><p>NetMeeting-Remotedesktopfreigabe</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht autorisierten Benutzern über Windows NetMeeting®-Dienste den Remotezugriff auf den Windows-Desktop von anderen Computern aus.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>mqds</p></td>
 <td style="border:1px solid black;"><p>Message Queuing Down Level Clients</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Active Directory-Zugriff für ältere Versionen von Windows, die den Message Queuing-Dienst verwenden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mqtgsvc</p></td>
 <td style="border:1px solid black;"><p>Message Queuing-Trigger</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet ein regelbasiertes System zur Überwachung von Nachrichten, die über eine Warteschlange des Message Queuing-Dienstes eingehen, und ruft Nachrichtenverarbeitungsdienste auf.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSDTC</p></td>
 <td style="border:1px solid black;"><p>Distributed Transaction Coordinator</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Koordiniert Transaktionen, die über mehrere Computer, Datenbanken, Dateisysteme, Nachrichtenwarteschlangen und andere transaktionsgeschützte Ressourcenmanager verteilt sind.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSExchange MTA</p></td>
 <td style="border:1px solid black;"><p>Microsoft Exchange MTA-Stacks</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Bietet einen abwärtskompatiblen Nachrichtenübertragungsdienst in einer Umgebung im gemischten Modus.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSFTPSVC</p></td>
 <td style="border:1px solid black;"><p>FTP-Publishingdienst</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Bietet FTP-Konnektivität und Verwaltung über das IIS-Snap-In.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSIServer</p></td>
 <td style="border:1px solid black;"><p>Windows Installer</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet die Installation und Deinstallation von Anwendungen durch die Anwendung einer Reihe von zentral definierten Setupregeln während des Installationsvorgangs.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>msmq</p></td>
 <td style="border:1px solid black;"><p>Message Queuing</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Fungiert als Messaginginfrastruktur und Entwicklungstool zum Erstellen verteilter Messaginganwendungen für Windows-Programme.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSSQL$UDDI</p></td>
 <td style="border:1px solid black;"><p>MSSQL$UDDI</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Bietet UDDI-Dienste (Universal Description, Discovery, and Integration) für das SQL Server-Datenbankmodul.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSSQL SERVER</p></td>
 <td style="border:1px solid black;"><p>MS SQL-Server</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Bietet konfigurierbare MS SQL Server-Dienste.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSSQLServer ADHelper</p></td>
 <td style="border:1px solid black;"><p>MS SQL Server AD Helper</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht SQL Server und SQL Server Analysis Services das Veröffentlichen von Informationen in Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>NetDDE</p></td>
 <td style="border:1px solid black;"><p>Netzwerk-DDE</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Netzwerktransport und Sicherheit für DDE bei Programmen, die auf demselben Computer oder auf verschiedenen Computern ausgeführt werden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>NetDDEdsdm</p></td>
 <td style="border:1px solid black;"><p>Netzwerk-DDE-Serverdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet DDE-Netzwerkfreigaben.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Netlogon</p></td>
 <td style="border:1px solid black;"><p>Netlogon</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Erhält einen Sicherheitskanal zwischen Clientcomputern und Domänencontrollern für die Authentifizierung von Diensten und Benutzern aufrecht.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Netman</p></td>
 <td style="border:1px solid black;"><p>Netzwerkverbindungen</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet Objekte im Ordner „Netzwerkverbindungen“.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Network Connections</p></td>
 <td style="border:1px solid black;"><p>Netzwerkverbindungen</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet Objekte im Order „Netzwerk- und DFÜ-Verbindungen“, über den Netzwerk- und Remoteverbindungen angezeigt werden können.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>NLA</p></td>
 <td style="border:1px solid black;"><p>Dienst für Netzwerkadressinformationen</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Sammelt und speichert Netzwerkkonfigurationsdaten und verarbeitet Informationen über Netzwerkadressenänderungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>NntpSvc</p></td>
 <td style="border:1px solid black;"><p>Network News Transfer-Protokoll</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die Verwendung von Computern als NNTP-Newsserver.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>NtFrs</p></td>
 <td style="border:1px solid black;"><p>Dateireplikation</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Kopiert automatisch Updates in Dateien und Ordner von Computern, die einen gemeinsamen Replikatsatz des Dateireplikationsdienstes nutzen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>NtLmSsp</p></td>
 <td style="border:1px solid black;"><p>NTLM Security Support Provider</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verantwortlich für Authentifizierung und Verwaltung von lokalen Sicherheitsrichtlinienobjekten.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>NWC Workstation</p></td>
 <td style="border:1px solid black;"><p>Client Service für NetWare</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Bietet Zugriff auf NetWare-Datei- und -Druckressourcen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>nwsapagent</p></td>
 <td style="border:1px solid black;"><p>SAP-Agent</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Meldet Netzwerkdienste in IPX-Netzwerken, die das IPX SAP-Protokoll verwenden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>One Point</p></td>
 <td style="border:1px solid black;"><p>Microsoft Operations Manager 2000-Agent</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>MOM 2000-Agent (Microsoft Operations Manager)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PlugPlay</p></td>
 <td style="border:1px solid black;"><p>Plug-and-Play</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die Erkennung von Hardwareänderungen ohne Benutzereingaben.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PolicyAgent</p></td>
 <td style="border:1px solid black;"><p>IPsec-Dienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet IPsec-Richtlinien, startet IKE und koordiniert die Einstellungen für IPsec-Richtlinien im IPsec-Treiber.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>POP3SVC</p></td>
 <td style="border:1px solid black;"><p>Microsoft Pop3-Dienst</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Bietet Dienste für E-Mail-Transfer- und -abruf.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Protected-Storage</p></td>
 <td style="border:1px solid black;"><p>Geschützter Speicher</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Stellt einen geschützten Speicher für vertrauliche Daten bereit.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RasAuto</p></td>
 <td style="border:1px solid black;"><p>Verwaltung für automatische RAS-Verbindung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Erstellt jedes Mal Verbindungen zu Remotecomputern, wenn Programme auf DNS- oder NetBIOS-Remotenamen oder -adressen verweisen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RasMan</p></td>
 <td style="border:1px solid black;"><p>RAS-Verbindungsverwaltung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet DFÜ- und VPN-Verbindungen zu Remotenetzwerken.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RDSessMgr</p></td>
 <td style="border:1px solid black;"><p>Sitzungs-Manager für Remotedesktophilfe</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet und steuert die Funktion „Remoteunterstützung“ innerhalb der Hilfe- und Supportcenteranwendung.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Remote_</p>
 <p>Storage_Server</p></td>
 <td style="border:1px solid black;"><p>Remotespeicherserver</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verschieben und Abrufen von Dateien aus sekundären Speichermedien</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Remote_</p>
 <p>Storage_User_</p>
@@ -1398,274 +1398,274 @@ In der folgenden Tabelle werden die gängigen Dienste unter Windows Server 2003
 <td style="border:1px solid black;"><p>Remotespeicherbenachrichtigung</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Der Remote_Storage_User_Link-Dienst benachrichtigt Benutzer, wenn diese versuchen, Dateien zu lesen oder zu schreiben, die nur auf sekundären Speichermedien verfügbar sind.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RemoteAccess</p></td>
 <td style="border:1px solid black;"><p>Routing und Remotezugriff</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Multiprotokoll-Routingdienste sowie DFÜ- und VPN-Remotezugriffsdienste.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RemoteRegistry</p></td>
 <td style="border:1px solid black;"><p>Remoteregistrierungsdienst</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht Remotebenutzern mit den entsprechenden Berechtigungen das Ändern von Registrierungseinstellungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RpcLocator</p></td>
 <td style="border:1px solid black;"><p>Remote Procedure Call Locator</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Verwaltet die RPC-Namensdienstdatenbank, um RPC-Clients das Auffinden von RPC-Servern zu ermöglichen. Standardmäßig deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RpcSs</p></td>
 <td style="border:1px solid black;"><p>Remoteprozeduraufruf</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Dient als RPC-Endpunktzuweisungs- und COM-Dienst (Component Object Model).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RSoPProv</p></td>
 <td style="border:1px solid black;"><p>Richtlinienergebnissatz-Provider</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht Verbindungen zu Windows-Domänencontrollern sowie den Zugriff auf die WMI-Datenbank und simuliert den Richtlinienergebnissatz für Gruppenrichtlinieneinstellungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RSVP</p></td>
 <td style="border:1px solid black;"><p>QoS RSVP</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet die Verwendung allgemeiner API-Dienstqualitätsanforderungen von Anwendungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sacsvr</p></td>
 <td style="border:1px solid black;"><p>Hilfsprogramm für spezielle Verwaltungskonsole</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Führt Remoteverwaltungsaufgaben aus, wenn ein Betriebssystem der Windows Server-Familie aufgrund von STOP-Fehlermeldungen nicht mehr funktioniert.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SamSs</p></td>
 <td style="border:1px solid black;"><p>Sicherheitskontenverwaltung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet die Daten von Benutzer- und Gruppenkonten</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SCardSvr</p></td>
 <td style="border:1px solid black;"><p>Smartcard</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Verwaltet und steuert den Zugriff auf Smartcards, wenn diese in ein entsprechendes Lesegerät am Computer eingeführt werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Schedule</p></td>
 <td style="border:1px solid black;"><p>Taskplaner</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die Ausführung von automatisierten Aufgaben.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>seclogon</p></td>
 <td style="border:1px solid black;"><p>Sekundärer Anmeldedienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die Erstellung von Prozessen im Kontext verschiedener Sicherheitsprinzipale.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SENS</p></td>
 <td style="border:1px solid black;"><p>Systemereignisbenachrichtigung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verfolgt Ereignisse im Zusammenhang mit dem System und der Stromversorgung und benachrichtigt COM+-Ereignissystem-Abonnenten von diesen Ereignissen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SharedAccess</p></td>
 <td style="border:1px solid black;"><p>Windows-Verbindungsfirewall/Gemeinsame Nutzung der Internetverbindung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet NAT-, Adressen- und Namenauflösungsdienste für sämtliche Computer in einem Netzwerk, wenn die gemeinsame Nutzung der Internetverbindung aktiviert ist.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ShellHW</p>
 <p>Detection</p></td>
 <td style="border:1px solid black;"><p>Shellhardwareerkennung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Benachrichtigt über AutoPlay-Hardwareereignisse.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SimpTcp</p></td>
 <td style="border:1px solid black;"><p>Einfache TCP/IP-Dienste</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Bietet einfache TCP/IP-Dienste wie Echo, Discard, Daytime, Zeichengenerator und Zitat des Tages.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SMTPSVC</p></td>
 <td style="border:1px solid black;"><p>Simple Mail Transport Protocol</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Fungiert als SMTP-Übermittlungs- und Relay-Agent, indem E-Mails, die von Remotezielen eingehen oder dorthin gesendet, angenommen und in Warteschlangen eingereiht werden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SNMP</p></td>
 <td style="border:1px solid black;"><p>SNMP-Dienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht, dass eingehende SNMP-Anforderungen vom lokalen Computer bedient werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SNMPTRAP</p></td>
 <td style="border:1px solid black;"><p>SNMP-Trap-Dienst</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Empfängt SNMP-Trap-Nachrichten, die von lokalen oder von Remote-SNMP-Agenten erstellt wurden, und leitet diese Nachrichten an SNMP-Verwaltungsserver weiter.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Spooler</p></td>
 <td style="border:1px solid black;"><p>Druckerspooler</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet alle lokalen und Netzwerkdruckwarteschlangen und steuert sämtliche Druckaufträge.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SQLAgent$</p>
 <p>WEBDB</p></td>
 <td style="border:1px solid black;"><p>SQL Agent$ UDDI oder WebDB</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SrvcSurg</p></td>
 <td style="border:1px solid black;"><p>Remoteverwaltungsdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verantwortlich für die Ausführung von Remoteverwaltungsaufgaben beim Serverstart. Dazu zählt auch die Bootcount-Inkrementierung des Servers sowie die Ausgabe von Warnmeldungen, wenn Datum und Uhrzeit des Servers nicht eingestellt wurden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>StiSvc</p></td>
 <td style="border:1px solid black;"><p>Windows-Bilderfassung</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Bietet Bilderfassungsdienste für Scanner und Kameras.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>srservice</p></td>
 <td style="border:1px solid black;"><p>Systemwiederherstellungsdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Überwacht Systemveränderungen sowie Anwendungsdateien und erstellt anschließend leicht identifizierbare Wiederherstellungspunkte.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SSDPSRV</p></td>
 <td style="border:1px solid black;"><p>SSDP-Suchdienst</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Verwaltet Meldungen über vorhandene Geräte, Cacheupdates sowie SSDP-Benachrichtigungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>StiSvc</p></td>
 <td style="border:1px solid black;"><p>Windows-Bilderfassung (Windows Image Acquisition, WIA)</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die stabile Kommunikation zwischen Anwendungen und Bilderfassungsgeräten für die effiziente Übertragung von Bildern an den Computer.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SwPrv</p></td>
 <td style="border:1px solid black;"><p>Microsoft Software Shadow Copy Provider</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet die Software-basierten Schattenkopien des Volumeschattenkopie-Dienstes.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SysmonLog</p></td>
 <td style="border:1px solid black;"><p>Leistungsprotokolle und Warnungen</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Sammelt Daten zu Leistungsprotokollen und Warnungen. Wird nur ausgeführt, wenn mindestens ein Leistungsdatensammelereignis geplant ist.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TapiSrv</p></td>
 <td style="border:1px solid black;"><p>Telefonie</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet TAPI-Unterstützung für Programme, die Telefoniegeräte und IP-basierte Sprachverbindungen steuern.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TermService</p></td>
 <td style="border:1px solid black;"><p>Terminaldienste</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht mehreren Clients den Zugriff auf virtuelle Windows-Desktopsitzungen, die auf dem Server ausgeführt werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TermServ</p>
 <p>Licensing</p></td>
 <td style="border:1px solid black;"><p>Terminaldienstelizenzierung</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Gewährt registrierten Clients Lizenzen, wenn sie eine Verbindung zu einem Terminalserver herstellen, und verfolgt diese Lizenzen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>tftpd</p></td>
 <td style="border:1px solid black;"><p>Daemon für „Trivial FTP“</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Registriert und antwortet auf TFTP-Anforderungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Design</p></td>
 <td style="border:1px solid black;"><p>Design</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Renderingunterstützung für die grafische Benutzeroberfläche von Windows XP.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TlntSvr</p></td>
 <td style="border:1px solid black;"><p>Telnet</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet Windows-Benutzern Telnet-Dienste und unterstützt Terminalsitzungen vom Typ ANSI, VT-100, VT52 und VTNT.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TrkSvr</p></td>
 <td style="border:1px solid black;"><p>Server für die Überwachung verteilter Verknüpfungen</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Speichert Informationen, so dass Dateien, die zwischen Volumes verschoben werden, zu jedem Volume innerhalb der Domäne verfolgt werden können. Dieser Dienst wird auf jedem Domänencontroller ausgeführt.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TrkWks</p></td>
 <td style="border:1px solid black;"><p>Client für die Überwachung verteilter Verknüpfungen</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verantwortlich für die Aufrechterhaltung von Verknüpfungen zwischen den NTFS-Dateisystemdateien auf dem Computer oder im Netzwerk. Stellt sicher, dass Verknüpfungen und OLE-Verknüpfungen funktionieren, nachdem Zieldateien verschoben oder umbenannt wurden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tssdis</p></td>
 <td style="border:1px solid black;"><p>Terminaldienste-Sitzungsverzeichnis</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verfolgt unterbrochene Terminaldienstesitzungen in einem Cluster, um sicherzustellen, dass für die Benutzer die Verbindung zu diesen Sitzungen wiederhergestellt wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Uploadmgr</p></td>
 <td style="border:1px solid black;"><p>Upload-Manager</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet synchrone und asynchrone Dateiübertragungen zwischen Clients und Servern im Netzwerk.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>upnphost</p></td>
 <td style="border:1px solid black;"><p>Universeller Plug &amp; Play-Gerätehost</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Implementiert sämtliche Komponenten, die zur Geräteregistrierung, Steuerung und Reaktion auf Ereignisse für Hostgeräte erforderlich sind.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>UPS</p></td>
 <td style="border:1px solid black;"><p>Unterbrechungsfreie Stromversorgung</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Verwaltet die Kommunikation mit einer unterbrechungsfreien Stromversorgung (Uninterruptible Power Supply, UPS), die über einen seriellen Anschluss mit den Computer verbunden ist.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>VDS</p></td>
 <td style="border:1px solid black;"><p>Virtueller Datenträgerdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Bietet eine einzige Schnittstelle zur Verwaltung der Block-Storage-Virtualisierung, unabhängig davon, ob dafür Betriebssystemsoftware, RAID-Speicher oder andere Virtualisierungsmodule verwendet werden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>VSS</p></td>
 <td style="border:1px solid black;"><p>Volumeschattenkopie</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verwaltet Volumesnapshots, die von Sicherungsanwendungen verwendet werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>W32Time</p></td>
 <td style="border:1px solid black;"><p>Windows-Zeitgeber</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Verantwortlich für die Datums- und Zeitsynchronisierung mit NTP.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>W3SVC</p></td>
 <td style="border:1px solid black;"><p>WWW-Publishingdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Enthält einen Prozess- und Konfigurationsmanager zur Bereitstellung von WWW-Publishingdiensten.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WebClient</p></td>
 <td style="border:1px solid black;"><p>WebClient</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht Win32-Anwendungen den Zugriff auf Dokumente aus dem Internet.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WindowsSystem</p>
 <p>Resource</p>
@@ -1673,80 +1673,80 @@ In der folgenden Tabelle werden die gängigen Dienste unter Windows Server 2003
 <td style="border:1px solid black;"><p>Windows-Verwaltungsinstrumentation</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die richtlinienbasierte Verwaltung des CPU- und Speicherbedarfs für Prozesse, die über eine einzige Betriebssysteminstanz ausgeführt werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WinHttpAutoSvc</p></td>
 <td style="border:1px solid black;"><p>WinHTTP-Web Proxy Auto-Discovery-Dienst</p></td>
 <td style="border:1px solid black;"><p>Lokaler Dienst</p></td>
 <td style="border:1px solid black;"><p>Implementiert die Proxykonfigurationsermittlung für WinHttp-Clients.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>winmgmt</p></td>
 <td style="border:1px solid black;"><p>Windows-Verwaltungsinstrumentation</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Stellt Systemverwaltungsinformationen über mehrere Schnittstellen bereit.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WINS</p></td>
 <td style="border:1px solid black;"><p>WINS-Dienst (Windows Internet Naming Service)</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die NetBIOS-Namensauflösung sowie die WINS-Replikation.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WmdmPmSN</p></td>
 <td style="border:1px solid black;"><p>Seriennummer der tragbaren Medien</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht, dass WMDM die Seriennummern von tragbaren Musikgeräten abrufen kann, die an den Computer angeschlossen sind.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Wmi</p></td>
 <td style="border:1px solid black;"><p>Treibererweiterungen für Windows-Verwaltungsinstrumentation</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Überwacht sämtliche Treiber und Ereignisablaufverfolgungsanbieter, die für die Veröffentlichung von WMI-Daten oder Ereignisablaufverfolgungsdaten konfiguriert sind.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WmiApSrv</p></td>
 <td style="border:1px solid black;"><p>WMI-Leistungsadapter</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Wandelt von WMI-Anbietern bereitgestellte Leistungsindikatoren in Indikatoren um, die über die Reverse Adapter Performance Library von PDH verarbeitet werden können.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WMServer</p></td>
 <td style="border:1px solid black;"><p>Windows Media-Dienste</p></td>
 <td style="border:1px solid black;"><p>Netzwerkdienst</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die Bereitstellung von Windows Media-Diensten.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>wscsvc</p></td>
 <td style="border:1px solid black;"><p>Sicherheitscenter</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Überwacht Sicherheitseinstellungen und Konfigurationsdaten des Systems.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>wuauserv</p></td>
 <td style="border:1px solid black;"><p>Automatische Updates</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht das Herunterladen von Updates auf der Windows Update-Website von Microsoft.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Wuser32</p></td>
 <td style="border:1px solid black;"><p>SMS Remote Control Agent</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Stellt Remotecomputerverwaltungsdienste bereit, beispielsweise Remotesteuerungs- und Remotedateiübertragungsdienste für SMS 2003.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WZCSVC</p></td>
 <td style="border:1px solid black;"><p>Konfigurationsfreie drahtlose Verbindung</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht die automatische Konfiguration für drahtlose Adapter vom Typ IEEE 802.11 für die drahtlose Kommunikation.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>xmlprov</p></td>
 <td style="border:1px solid black;"><p>Netzwerkbereitstellungsdienst</p></td>
 <td style="border:1px solid black;"><p>Lokales System</p></td>
 <td style="border:1px solid black;"><p>Ermöglicht das Herunterladen und Verwalten von XML-Konfigurationsdateien aus Netzwerkbereitstellungsdiensten wie Wireless Provisioning Service (WPS) von Microsoft.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfang](#mainsection)

@@ -29,14 +29,14 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Logging (Protok
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logging Failures</p></td>
 <td style="border:1px solid black;"><p>Gesamtanzahl der Protokollierungsversuche, die nicht vollständig verarbeitet wurden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Logging Processing Time</p></td>
 <td style="border:1px solid black;"><p>Die für die Verarbeitung von Protokollierungsanforderungen erforderliche Zeit in Mikrosekunden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logging Requests</p></td>
 <td style="border:1px solid black;"><p>Die Gesamtanzahl der Protokollierungsanforderungen, die vom Protokollierungsdienst empfangen wurden.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

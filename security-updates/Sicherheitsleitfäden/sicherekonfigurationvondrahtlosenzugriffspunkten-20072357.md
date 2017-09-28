@@ -169,33 +169,33 @@ Um das Sicherheitsniveau der verschiedenen Sicherheitslösungen einschätzen zu 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Offenlegung von Daten durch Lauschen</p></td>
 <td style="border:1px solid black;"><p>Das Belauschen von nicht gesichertem drahtlosen Datenverkehr kann zur Offenlegung vertraulicher Daten, dem Herausfinden der Anmeldeinformationen von Benutzern und sogar zum Diebstahl persönlicher Daten führen. Raffinierte Angreifer können die durch Lauschen gesammelten Informationen verwenden, um Angriffe auf Systeme vorzunehmen, die anderenfalls nicht gefährdet wären.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Abfangen und Ändern von übertragenen Daten</p></td>
 <td style="border:1px solid black;"><p>Ein Angreifer, der auf Netzwerkressourcen zugreifen kann, ist auch in der Lage, gefährliche Systeme in ein Netzwerk einzufügen, die Daten abfangen und ändern können, die zwischen zwei zulässigen Systemen weitergeleitet werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Spoofing</p></td>
 <td style="border:1px solid black;"><p>Der Zugriff auf ein internes Netzwerk gibt Angreifern die Möglichkeit, Daten zu fälschen, damit sie wie zulässiger Datenverkehr wirken. Solche Angriffe können gefälschte E-Mail-Nachrichten umfassen, denen von internen Benutzern bereitwilliger vertraut wird als Mitteilungen von externen Quellen. Auf diese Weise entsteht eine Plattform für „Social Engineering“-Angriffe und das Einschleusen von Trojanern.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Denial of Service (DoS)</p></td>
 <td style="border:1px solid black;"><p>Unabhängig von der implementierten Sicherheitslösung ist ein WLAN für DoS-Angriffe anfällig, ob sie nun absichtlich oder versehentlich erfolgen. Solche Unterbrechungen können eine so einfache Ursache wie einen Mikrowellenherd haben oder auf ein Gerät zurückzuführen sein, das für das Überlasten eines Netzwerks mit wahllosem Datenverkehr konfiguriert wurde.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Freies Laden<br />
 (Ressourcendiebstahl)</p></td>
 <td style="border:1px solid black;"><p>Einige Eindringlinge sind möglicherweise ausschließlich an kostenlosem Zugang zum Internet interessiert. Obwohl diese Aktivitäten weder unmittelbar schädlich noch bösartig sind, können sie zu einer langsameren Netzwerkkonnektivität für legitime Benutzer führen oder einem unverwalteten Vektor für Bedrohungen durch Malware werden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zufällige Bedrohungen und nicht verwaltete Verbindungen</p></td>
 <td style="border:1px solid black;"><p>In ungesicherten WLAN-Umgebungen kann jeder Besucher Zugriff auf das interne Netzwerk erhalten, indem er einfach ein Gerät startet, das auf drahtlose Netzwerke zugreifen kann. Solche nicht verwalteten Geräte könnten bereits gefährdet sein oder einem Angreifer einen Angriffspunkt gegen ein Netzwerk zur Verfügung stellen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Riskante WLAN-Zugriffspunkte</p></td>
 <td style="border:1px solid black;"><p>Selbst wenn ein Unternehmen über kein drahtloses Netzwerk verfügt, kann es dennoch durch Sicherheitsbedrohungen durch nicht verwaltete drahtlose Netzwerke gefährdet sein. Drahtlose Geräte sind relativ kostengünstig, so dass jeder Mitarbeiter prinzipiell ein nicht verwaltetes und ungeschütztes Netzwerk innerhalb einer Umgebung einrichten könnte.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Obwohl viele dieser Sicherheitsrisiken bei der drahtlosen Datenübertragung angesichts des hohen Sicherheitsbewusstseins heutiger Unternehmen offensichtlich sind, blieben diese Themen bei der Einführung der ersten Generation der drahtlosen Sicherheitstechnologie häufig unbeachtet. Als WEP zum Sichern drahtloser Datenübertragungen konzipiert wurde, schien es kaum erforderlich zu sein, die Sicherheitsmängel beim drahtlosen Übertragen von Daten zu kompensieren, die bei kabelgebundenen Übertragungen in dieser Form nicht vorhanden sind. Der Grund hierfür bestand darin, dass die Technologie so neu war, dass sich nur wenige Leute über die möglichen Bedrohungen Gedanken gemacht hatten, denen solche Netzwerke möglicherweise ausgesetzt sind. Als die Angreifer immer ausgefeiltere Methoden einsetzten, wurde klar, dass bei der drahtlosen Datenübertragung potenziell gefährliche Umgebungen überbrückt werden müssen und dass daher die Kommunikation genauso gut gesichert werden muss wie bei der kabelgebundenen LAN-Kommunikation.
@@ -213,24 +213,24 @@ Abgesehen von der nahe liegendsten Lösung, dem Verzicht auf die Implementierung
 **Tabelle 2. Vergleich von WLAN-Sicherheitslösungen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Funktion</p></th>  
-<th><p>WPA und WPA2</p></th>  
-<th><p>Statisches WEP</p></th>  
-<th><p>VPN</p></th>  
-<th><p>IPsec</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Funktion</p></th>
+<th><p>WPA und WPA2</p></th>
+<th><p>Statisches WEP</p></th>
+<th><p>VPN</p></th>
+<th><p>IPsec</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Strenge Authentifizierung</p>
 <p>(siehe Hinweis)</p></td>
@@ -239,21 +239,21 @@ Abgesehen von der nahe liegendsten Lösung, dem Verzicht auf die Implementierung
 <td style="border:1px solid black;"><p>Ja, nur bei Nichtverwendung der<br />
 Authentifizierung mit installiertem Schlüssel</p></td>
 <td style="border:1px solid black;"><p>Ja, bei Verwendung eines Zertifikats oder von Kerberos-Authentifizierung</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Starke Datenverschlüsselung</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Transparente Verbindung und erneute Verbindung</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Benutzerauthentifizierung</p>
 <p>(siehe Hinweis)</p></td>
@@ -261,7 +261,7 @@ Authentifizierung mit installiertem Schlüssel</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Computerauthentifizierung</p>
 <p>(siehe Hinweis)</p></td>
@@ -269,29 +269,29 @@ Authentifizierung mit installiertem Schlüssel</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Schützt Broadcast- und Multicastübertragung</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zusätzliche Netzwerkgeräte erforderlich</p></td>
 <td style="border:1px solid black;"><p>Ja, RADIUS-Server</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
 <td style="border:1px solid black;"><p>Ja, VPN- und RADIUS-Server</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sichert den Zugriff auf das WLAN statt nur auf die Pakete</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Hinweis**   Was die strenge Authentifizierung betrifft, verwenden viele VPN-Implementierungen auf der Grundlage eines IPsec-Tunnelmodus ein Authentifizierungsschema mit einem schwachen installierten Schlüssel mit der Bezeichnung XAuth.  
@@ -441,30 +441,30 @@ Wie zuvor kurz angesprochen, sind für EAP-TLS mindestens vier Server erforderli
 **Tabelle 3. Empfohlene Hardwarevoraussetzungen für den Server mit der Stammzertifizierungsstelle**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Komponente</p></th>  
-<th><p>Anforderung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Komponente</p></th>
+<th><p>Anforderung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CPU</p></td>
 <td style="border:1px solid black;"><p>Einzelne CPU mit 733 MHz oder höher</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Speicher</p></td>
 <td style="border:1px solid black;"><p>256 MB RAM</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Netzwerkschnittelle</p></td>
 <td style="border:1px solid black;"><p>Keine (oder deaktiviert)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Datenträgerspeicher</p></td>
 <td style="border:1px solid black;"><p>IDE- oder SCSI-RAID-Controller</p>
@@ -579,25 +579,25 @@ Es gibt zwei Ansätze für Lastenausgleich und Failover auf IAS-Servern hinsicht
 <tr class="odd">
 <td style="border:1px solid black;"><p>IAS-Proxys mit RADIUS-Servergruppen</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Ausfallerkennung für RADIUS-Dienste mit Failover und Failback</p></li>  
-<li><p>Verteilung der Datenverkehrslast gemäß den Eigenschaften des Datenverkehrs</p></li>  
-<li><p>Behält den EAP-Sitzungszustand während des Lastenausgleichs bei</p></li>  
+<li><p>Ausfallerkennung für RADIUS-Dienste mit Failover und Failback</p></li>
+<li><p>Verteilung der Datenverkehrslast gemäß den Eigenschaften des Datenverkehrs</p></li>
+<li><p>Behält den EAP-Sitzungszustand während des Lastenausgleichs bei</p></li>
 <li><p>Konfigurierbare Anforderungsverteilung an Server gemäß Prioritäts- und Lasteinstellungen</p></li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Zusätzliche IAS-Server erforderlich</p></li>  
+<li><p>Zusätzliche IAS-Server erforderlich</p></li>
 <li><p>Erfordert weiterhin die Konfiguration von primären und sekundären Proxy-RADIUS-Serveradressen</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Primäre und sekundäre RADIUS-Servereinstellungen an drahtlosen Zugriffspunkten</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Einfachere Konfiguration für kleinere Umgebungen</p></li>  
-<li><p>Drahtloser Zugriffspunkt erkennt Ausfall bei Datenverkehr und führt Failover aus</p></li>  
+<li><p>Einfachere Konfiguration für kleinere Umgebungen</p></li>
+<li><p>Drahtloser Zugriffspunkt erkennt Ausfall bei Datenverkehr und führt Failover aus</p></li>
 <li><p>Verwendet die systemeigene Funktionalität von drahtlosen Zugriffspunkten</p></li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Erfordert mehr Aufwand für Planung und Überwachung für primäre und sekundäre RADIUS-Datenverkehrsverteilung</p></li>  
+<li><p>Erfordert mehr Aufwand für Planung und Überwachung für primäre und sekundäre RADIUS-Datenverkehrsverteilung</p></li>
 <li><p>Einige drahtlose Zugriffspunkte unterstützen weiterhin nicht die Failbackfunktionalität, was zu nicht ausgeglichenen Datenverkehrslasten führen kann.</p></li>
 </ul></td>
 </tr>
@@ -673,18 +673,18 @@ Darüber hinaus ist zu überlegen, ob es sinnvoll wäre, zusätzliche Server an 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gemeinsam auf Domänencontroller platziert</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Leistung von Authentifizierung und Autorisierung für Benutzer und Computer steigt</p></li>  
+<li><p>Leistung von Authentifizierung und Autorisierung für Benutzer und Computer steigt</p></li>
 <li><p>Verringert die Anforderungen an zusätzliche Serverhardware</p></li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Keine Trennung der administrativen IAS-Gruppen von Domänenadministratoren</p></li>  
+<li><p>Keine Trennung der administrativen IAS-Gruppen von Domänenadministratoren</p></li>
 <li><p>Keine inhärente Trennung von Problemen mit Fehlern oder Leistung, die auf gemeinsam gehostete Dienste zurückzuführen sind</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Unabhängige IAS-Server</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Trennung der IAS-Verwaltung von den Domänenadministratoren</p></li>  
+<li><p>Trennung der IAS-Verwaltung von den Domänenadministratoren</p></li>
 <li><p>IAS-Last und -Verhalten beeinträchtigt nicht den Domänencontroller</p></li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
@@ -733,16 +733,16 @@ Beim Einschätzen der IAS-Serverkapazität ist es hilfreich, die Anzahl der Auth
 <tr class="odd">
 <td style="border:1px solid black;"><p>Neue EAP-TLS-Authentifizierungen</p></td>
 <td style="border:1px solid black;"><p>36</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Neue EAP-TLS-Authentifizierungen mit Offload-Card-Unterstützung</p></td>
 <td style="border:1px solid black;"><p>50</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Authentifizierungen mit schneller Wiederherstellung der Verbindung</p></td>
 <td style="border:1px solid black;"><p>166</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Hinweis**   Die Informationen in dieser Tabelle sollten nur als Schätzung betrachtet werden, die zur Planung der Kapazitäten als mögliche Richtlinie herangezogen wird.
@@ -797,66 +797,66 @@ In der folgenden Tabelle werden unternehmensspezifische Parameter aufgeführt, d
 **Tabelle 7. Benutzerdefinierte Konfigurationsinformationen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Konfigurationselement</p></th>  
-<th><p>Referenz</p></th>  
-<th><p>Einstellung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Konfigurationselement</p></th>
+<th><p>Referenz</p></th>
+<th><p>Einstellung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DNS-Name der Active Directory-Gesamtstruktur</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Distinguished Name (DN) des Stamms der Gesamtstruktur</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>NetBIOS-Name der Domäne</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>NetBIOS-Name der Stammzertifizierungsstellen-Arbeitsgruppe</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servername der Stammzertifizierungsstelle</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servername der ausstellenden Zertifizierungsstelle</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>X.500 CN der Stammzertifizierungsstelle</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>X.500 CN der ausstellenden Zertifizierungsstelle</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Vollqualifizierter Hostname des Webservers, der zum Veröffentlichen der Zertifikate der Zertifizierungsstelle verwendet wird</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Erforderliche Konfigurationselemente für die Lösung
@@ -866,176 +866,176 @@ Die in der folgenden Tabelle genannten Einstellungen müssen unter normalen Umst
 **Tabelle 8. Vorgeschriebene Konfigurationselemente für die Lösung**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Konfigurationselement</p></th>  
-<th><p>Referenz</p></th>  
-<th><p>Einstellung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Konfigurationselement</p></th>
+<th><p>Referenz</p></th>
+<th><p>Einstellung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Administratorfunktion-Sicherheitsgruppen</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administratoren des Konfigurationscontainers „Public Key Services“</p></td>
 <td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
 <td style="border:1px solid black;"><p>Enterprise PKI Admins</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrative Gruppe mit Erlaubnis zum Veröffentlichen von CRLs und Zertifizierungsstellen-Zertifikaten für Container mit Unternehmenskonfiguration</p></td>
 <td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
 <td style="border:1px solid black;"><p>Enterprise PKI Publishers</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administrative Gruppe, die Zertifizierungsstellen konfiguriert und wartet und die Fähigkeit zum Zuweisen aller anderen Zertifizierungsstellenfunktionen und zum Erneuern des Zertifikats für die Zertifizierungsstelle steuert.</p></td>
 <td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
 <td style="border:1px solid black;"><p>CA Admins</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrative Gruppe, die die Registrierung für Zertifikate sowie Sperrungsanforderungen genehmigt (Funktion „CA Officer“)</p></td>
 <td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
 <td style="border:1px solid black;"><p>Certificate Managers</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administrative Gruppe, die die Prüfung der Zertifizierungsstelle und die Sicherheitsprotokolle verwaltet.</p></td>
 <td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
 <td style="border:1px solid black;"><p>CA Auditors</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrative Gruppe, die Sicherungen der Zertifizierungsstelle verwaltet</p></td>
 <td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
 <td style="border:1px solid black;"><p>CA Backup Operators</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>IIS-Konfiguration</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Name des virtuellen IIS-Verzeichnisses, das zum Veröffentlichen des Zertifikats der Zertifizierungsstelle und für CRL-Informationen verwendet wird.</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>pki</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Physischer Pfad auf der ausstellenden Zertifizierungsstelle, der dem virtuellen IIS-Verzeichnis zugeordnet wird</p></td>
 <td style="border:1px solid black;"><p>C:\CAWWWPub</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Allgemeine Parameter der Zertifizierungsstelle</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Laufwerk und Pfad für Anforderungsdateien der Zertifikatsdienste</p></td>
 <td style="border:1px solid black;"><p>C:\CAConfig</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Laufwerk und Pfad für Datenbankprotokolle der Zertifikatsdienste</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>%windir%\System32\CertLog</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Konfiguration der Stammzertifizierungsstelle</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Schlüssellänge der Stammzertifizierungsstelle (siehe Hinweis)</p></td>
 <td style="border:1px solid black;"><p>4096</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gültigkeitsdauer des Zertifikats der Stammzertifizierungsstelle (Jahre)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Maximale Gültigkeitsdauer für Zertifikate, die von der Stammzertifizierungsstelle ausgestellt werden (Jahre)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>8</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CRL-Veröffentlichungsintervall der Stammzertifizierungsstelle (Monate)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>6</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CRL-Überlappungsdauer (Tage)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>10</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Delta-CRL-Veröffentlichungsdauer für Stammzertifizierungsstelle (Stunden, 0=deaktivieren)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Konfiguration der ausstellenden Zertifizierungsstelle</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Laufwerk und Pfad für Datenbank der Zertifikatsdienste.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>D:\CertLog</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Länge des Schlüssels der ausstellenden Zertifizierungsstelle</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>2048</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gültigkeitsdauer des Zertifikats der ausstellenden Zertifizierungsstelle (Jahre)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>8</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Maximale Gültigkeitsdauer für Zertifikate der ausstellenden Zertifizierungsstelle (Jahre)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>4</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CRL-Veröffentlichungsintervall der ausstellenden Zertifizierungsstelle (Tage)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>7</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CRL-Überlappungsdauer (Tage)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>4</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Delta-CRL-Veröffentlichungsdauer für ausstellende Zertifizierungsstelle (Tage, 0=deaktivieren)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Delta-CRL-Überlappungsdauer. (Tage)</p></td>
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Verschiedenes</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pfad der Installationsskripts</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Hinweis**   Die Verwendung von Schlüsseln mit einer Länge von 4096 Bit kann gewisse Kompatibilitätsprobleme verursachen, wenn sie von einigen Geräten oder älterer Software von anderen Anbietern genutzt werden. Alle Anwendungen, die von der Stammzertifizierungsstelle ausgestellte Zertifikate verwenden könnten, sollten mit Zertifikatsschlüsseln dieser Größe getestet werden, um die ordnungsgemäße Funktionalität sicherzustellen. Die Schlüssellänge der Stammzertifizierungsstelle kann auf 2048 Bit verringert werden, wenn Bedenken hinsichtlich der Kompatibilität der Schlüssellänge bestehen.
@@ -1101,51 +1101,51 @@ Ein virtuelles Verzeichnis muss auf IIS erstellt werden, das als HTTP-Speicheror
     **Tabelle 9. Berechtigungen für das virtuelle Verzeichnis**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="33%" />  
-    <col width="33%" />  
-    <col width="33%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Benutzer/Gruppe</p></th>  
-    <th><p>Berechtigung</p></th>  
-    <th><p>Erlauben/Verweigern</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="33%" />
+    <col width="33%" />
+    <col width="33%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Benutzer/Gruppe</p></th>
+    <th><p>Berechtigung</p></th>
+    <th><p>Erlauben/Verweigern</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Administratoren</p></td>
     <td style="border:1px solid black;"><p>Vollzugriff</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>System</p></td>
     <td style="border:1px solid black;"><p>Vollzugriff</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Ersteller-Besitzer</p></td>
     <td style="border:1px solid black;"><p>Vollzugriff (nur Unterordner und Dateien)</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Benutzer</p></td>
     <td style="border:1px solid black;"><p>Ordnerinhalte lesen und auflisten</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>IIS_WPG</p></td>
     <td style="border:1px solid black;"><p>Ordnerinhalte lesen und auflisten</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Internetgastkonto</p></td>
     <td style="border:1px solid black;"><p>Schreiben</p></td>
     <td style="border:1px solid black;"><p>Verweigern</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 4.  Verwenden Sie die IIS-Verwaltungskonsole, um ein neues virtuelles Verzeichnis unter der standardmäßigen Website zu erstellen:
@@ -1204,43 +1204,43 @@ Bei dieser Lösung werden mehrere Sicherheitsgruppen definiert, die unterschiedl
     **Tabelle 10. Gruppennamen und Aufgaben**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="50%" />  
-    <col width="50%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Gruppenname</p></th>  
-    <th><p>Aufgabe</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Gruppenname</p></th>
+    <th><p>Aufgabe</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Enterprise PKI Admins</p></td>
     <td style="border:1px solid black;"><p>Administratoren des Konfigurationscontainers „Public Key Services“</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Enterprise PKI Publishers</p></td>
     <td style="border:1px solid black;"><p>Erlaubnis zum Veröffentlichen von CRLs und Zertifikaten der Zertifizierungsstelle im Konfigurationscontainer „Unternehmen“.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>CA Admins</p></td>
     <td style="border:1px solid black;"><p>Vollzugriff auf die Zertifizierungsstelle, einschließlich der Fähigkeit zum Bestimmen der Mitgliedschaft anderer Funktionen.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Certificate Managers</p></td>
     <td style="border:1px solid black;"><p>Verwalten des Ausstellens und Sperrens von Zertifikaten</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>CA Auditors</p></td>
     <td style="border:1px solid black;"><p>Verwalten der Prüfungsdaten für die Zertifizierungsstelle</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>CA Backup Operators</p></td>
     <td style="border:1px solid black;"><p>Verfügen über die Berechtigung zum Sichern und Wiederherstellen der Schlüssel und Daten der Zertifizierungsstelle.</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 Die Installationsverfahren im verbleibenden Dokument erfordern die Verwendung von Konten, die Mitglied von „Enterprise PKI Admins“, „Enterprise PKI Publishers“ und „CA Admins“ sind. Daher sollten in diesen Gruppen die entsprechenden Konten erstellt werden, bevor fortgefahren wird. Wenn nur eine einzige Person für alle Funktionen hinsichtlich der Zertifizierungsstelle verantwortlich ist, könnte allen Gruppen ein einziges Konto zugewiesen werden. Allerdings gibt es in den meisten Unternehmen eine gewisse Trennung zwischen den Funktionen und Aufgaben bei den Mitarbeitern, wenngleich nicht so komplex wie in der vorherigen Tabelle. Für Unternehmen mit einer vereinfachten Aufgabentrennung sind im folgenden Diagramm die üblichen Unterteilungen der Aufgaben aufgeführt.
@@ -1248,31 +1248,31 @@ Die Installationsverfahren im verbleibenden Dokument erfordern die Verwendung vo
 **Tabelle 11. Vereinfachtes Administrationsmodell**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Administratorfunktion</p></th>  
-<th><p>Gruppenmitgliedschaft</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Administratorfunktion</p></th>
+<th><p>Gruppenmitgliedschaft</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrator der Zertifizierungsstelle</p></td>
 <td style="border:1px solid black;"><p>Enterprise PKI Admins, CA Admins, Certificate Managers, Administrators</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CA Auditor</p></td>
 <td style="border:1px solid black;"><p>CA Auditors, Administrators</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CA Backup Operator</p></td>
 <td style="border:1px solid black;"><p>CA Backup Operators</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Empfohlene OU-Struktur der Domäne  
@@ -1287,39 +1287,39 @@ Es gibt eine Reihe von Gruppen und Benutzerkonten, die mit der Verwaltung und de
     **Tabelle 12. Beispiel für eine OU-Struktur**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="50%" />  
-    <col width="50%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Organisationseinheit</p></th>  
-    <th><p>Aufgabe</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Organisationseinheit</p></th>
+    <th><p>Aufgabe</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Zertifikatsdienste</p></td>
     <td style="border:1px solid black;"><p>Übergeordnete OU</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>\-Zertifikatsdienste-Administration</p></td>
     <td style="border:1px solid black;"><p>Enthält administrative Gruppen für das Verwalten der Zertifizierungsstellen und die Konfiguration der Unternehmens-PKI.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>\-Zertifikatvorlagen-Verwaltung</p></td>
     <td style="border:1px solid black;"><p>Enthält Gruppen für das Verwalten der einzelnen Zertifikatvorlagen.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>\-Zertifikatvorlagen-Registrierung</p></td>
     <td style="border:1px solid black;"><p>Enthält Gruppen mit Berechtigungen zum Registrieren oder automatischen Registrieren für Vorlagen desselben Namens. Die Kontrolle dieser Gruppen kann an das entsprechende Personal delegiert werden, ohne die Vorlagen ändern zu müssen.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>\-Zertifikatsdienste-Testbenutzer</p></td>
     <td style="border:1px solid black;"><p>Enthält vorübergehende Testkonten.</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 3.  Räumen Sie der Gruppe „Enterprise PKI Admins“ die Berechtigungen zum Erstellen und Löschen von Gruppen innerhalb der Zertifikatsdienste-OU und deren untergeordneten Containern ein.
@@ -1523,31 +1523,31 @@ Die zuvor erstellten Sicherheitsgruppen müssen Administratorfunktionen wie „P
     **Tabelle 13. Einträge für die Berechtigung der Zertifizierungsstelle**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="33%" />  
-    <col width="33%" />  
-    <col width="33%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Gruppe</p></th>  
-    <th><p>Berechtigung</p></th>  
-    <th><p>Erlauben/Verweigern</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="33%" />
+    <col width="33%" />
+    <col width="33%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Gruppe</p></th>
+    <th><p>Berechtigung</p></th>
+    <th><p>Erlauben/Verweigern</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>CA Admins</p></td>
     <td style="border:1px solid black;"><p>Verwalten der Zertifizierungsstelle</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Certificate Managers</p></td>
     <td style="border:1px solid black;"><p>Ausstellen und Verwalten von Zertifikaten</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 3.  Weitere Sicherheitsfunktionen für die Zertifizierungsstelle für diesen Server wurden bereits über die zuvor angewendete Sicherheitsrichtlinie definiert.
@@ -1776,31 +1776,31 @@ Damit die in diesem Handbuch beschriebenen Administratorfunktionen verwendet wer
     **Tabelle 14. Berechtigungen für die ausstellende Zertifizierungsstelle**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="33%" />  
-    <col width="33%" />  
-    <col width="33%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Gruppe</p></th>  
-    <th><p>Berechtigung</p></th>  
-    <th><p>Erlauben/Verweigern</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="33%" />
+    <col width="33%" />
+    <col width="33%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Gruppe</p></th>
+    <th><p>Berechtigung</p></th>
+    <th><p>Erlauben/Verweigern</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>CA Admins</p></td>
     <td style="border:1px solid black;"><p>Verwalten der Zertifizierungsstelle</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Certificate Managers</p></td>
     <td style="border:1px solid black;"><p>Ausstellen und Verwalten von Zertifikaten</p></td>
     <td style="border:1px solid black;"><p>Erlauben</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 4.  Die Gruppe „CA Auditors“ sollte zur lokalen Administratorgruppe hinzugefügt werden, obwohl diese Gruppe bereits durch die zuvor angewendete Sicherheitsrichtlinie teilweise definiert wurde.
@@ -1884,35 +1884,35 @@ In der folgenden Tabelle werden Informationen aufgeführt, die für jedes einzel
 **Tabelle 15. Benutzerdefinierte Konfigurationseinstellungen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Konfigurationselement</p></th>  
-<th><p>Einstellung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Konfigurationselement</p></th>
+<th><p>Einstellung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DNS-Name der Stammdomäne der Active Directory-Gesamtstruktur</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>NetBIOS-Name der Domäne</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Primärer IAS-Servername</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sekundärer IAS-Servername</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Zuvor benötigte, durch die Lösung vorgegebene Konfigurationsinformationen  
@@ -1921,59 +1921,59 @@ In der folgenden Tabelle werden Einstellungen aufgeführt, die nur dann geänder
 **Tabelle 16. Lösungsdefinierte Konfigurationseinstellungen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Konfigurationselement</p></th>  
-<th><p>Einstellung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Konfigurationselement</p></th>
+<th><p>Einstellung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Vollständiger Name der administrativen Gruppe, die die IAS-Konfiguration kontrolliert</p></td>
 <td style="border:1px solid black;"><p>IAS Admins</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Vollständiger Name der Gruppe, die die Protokolle für die IAS-Authentifizierung und die Kontoführungsanforderungen überwacht</p></td>
 <td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pfad für Installationsskripts</p></td>
 <td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Batchdatei für IAS-Konfigurationsexport</p></td>
 <td style="border:1px solid black;"><p>IASExport.bat</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Batchdatei für IAS-Konfigurationsimport</p></td>
 <td style="border:1px solid black;"><p>IASImport.bat</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Batchdatei für IAS RADIUS-Clientkonfigurationsexport</p></td>
 <td style="border:1px solid black;"><p>IASClientExport.bat</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Batchdatei für IAS RADIUS-Clientkonfigurationsimport</p></td>
 <td style="border:1px solid black;"><p>PIASClientImport.bat</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pfad für Konfigurationssicherungsdateien</p></td>
 <td style="border:1px solid black;"><p>D:\IASConfig</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Speicherort der Protokolle für IAS-Authentifizierung und Überwachungsanforderungen</p></td>
 <td style="border:1px solid black;"><p>D:\IASLogs</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Freigabename der RADIUS-Anforderungsprotokolle</p></td>
 <td style="border:1px solid black;"><p>IASLogs</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### IAS-Serverbereitstellung
@@ -2081,35 +2081,35 @@ In der folgenden Tabelle werden unternehmensspezifische Parameter aufgeführt, d
 **Tabelle 17. Zuvor benötigte benutzerdefinierte Einstellungen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Konfigurationselement</p></th>  
-<th><p>Einstellung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Konfigurationselement</p></th>
+<th><p>Einstellung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DNS-Name der Stammdomäne der Active Directory-Gesamtstruktur</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>NetBIOS-Domänenname</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Primärer IAS-Servername</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sekundärer IAS-Servername</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Zuvor benötigte lösungsdefinierte Konfigurationseinstellungen  
@@ -2118,83 +2118,83 @@ In der folgenden Tabelle werden Einstellungen aufgeführt, die nur dann geänder
 **Tabelle 18. Lösungsdefinierte Konfigurationseinstellungen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Konfigurationselement</p></th>  
-<th><p>Einstellung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Konfigurationselement</p></th>
+<th><p>Einstellung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Globale Gruppe in Active Directory zum Steuern der Bereitstellung von 802.1X-Benutzerauthentifizierungszertifikaten</p></td>
 <td style="border:1px solid black;"><p>AutoEnroll Client Authentication – User Certificate</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Globale Gruppe in Active Directory zum Steuern der Bereitstellung von 802.1X-Computerauthentifizierungszertifikaten</p></td>
 <td style="border:1px solid black;"><p>AutoEnroll Client Authentication – Computer Certificate</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Globale Gruppe in Active Directory, die die IAS-Server enthält, die 802.1X Authentifizierungszertifikate erfordern</p></td>
 <td style="border:1px solid black;"><p>AutoEnroll RAS und IAS Server Authentication Certificate</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Globale Gruppe in Active Directory, die die Benutzer enthält, die auf das drahtlose Netzwerk zugreifen dürfen</p></td>
 <td style="border:1px solid black;"><p>RAS-Richtlinie Drahtlose Benutzer</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Globale Gruppe in Active Directory, die die Computer enthält, die auf das drahtlose Netzwerk zugreifen dürfen</p></td>
 <td style="border:1px solid black;"><p>RAS-Richtlinie Drahtlose Computer</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Universelle Gruppe in Active Directory, die sowohl die Gruppe „Drahtlose Benutzer“ als auch „Drahtlose Computer“ enthält</p></td>
 <td style="border:1px solid black;"><p>RAS-Richtlinie Drahtloser Zugriff</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Globale Gruppe in Active Directory, die die Computer enthält, für die die Konfiguration der Eigenschaften des drahtlosen Netzwerks erforderlich ist</p></td>
 <td style="border:1px solid black;"><p>Drahtlosnetzwerkrichtlinie Computer</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zertifikatvorlage zum Erzeugen der Zertifikate für die Benutzerclientauthentifizierung</p></td>
 <td style="border:1px solid black;"><p>Clientauthentifizierung Benutzer</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zertifikatvorlage zum Erzeugen der Zertifikate für die Computerclientauthentifizierung</p></td>
 <td style="border:1px solid black;"><p>Clientauthentifizierung Computer</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zertifikatvorlage zum Erzeugen der Serverauthentifizierungszertifikate für IAS</p></td>
 <td style="border:1px solid black;"><p>RAS und IAS Server Authentication</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pfad für Installationsskripts</p></td>
 <td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pfad für Konfigurationssicherungsdateien</p></td>
 <td style="border:1px solid black;"><p>D:\IASConfig</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pfad für IAS-Authentifizierungs- und Überwachungsprotokolle</p></td>
 <td style="border:1px solid black;"><p>D:\IASLogs</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Richtlinienname</p></td>
 <td style="border:1px solid black;"><p>Drahtlosen Zugriff zulassen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Name des Gruppenrichtlinienobjekts in Active Directory</p></td>
 <td style="border:1px solid black;"><p>Drahtlosnetzwerkrichtlinie</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Richtlinie für drahtloses Netzwerk innerhalb des obigen Gruppenrichtlinienobjekts</p></td>
 <td style="border:1px solid black;"><p>Client-Computer drahtlose Konfiguration</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Erstellen der erforderlichen Active Directory-Gruppen für WLAN-Zugriff  

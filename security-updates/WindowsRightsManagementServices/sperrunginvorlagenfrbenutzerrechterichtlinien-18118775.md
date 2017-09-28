@@ -31,20 +31,20 @@ In der folgenden Tabelle werden die Parameter für das REFRESH-Tag aufgelistet.
 <tr class="odd">
 <td style="border:1px solid black;"><p>ID</p></td>
 <td style="border:1px solid black;"><p>Die Sperrlisten-ID.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ADDRESS</p></td>
 <td style="border:1px solid black;"><p>Der URL oder UNC-Pfad, über den die Sperrliste erhalten werden kann.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PUBLICKEY</p></td>
 <td style="border:1px solid black;"><p>Der öffentliche Schlüssel des Sperrlistenausstellers. Er entspricht dem privaten Schlüssel, mit dem die Sperrliste signiert wurde.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>INTERVALTIME</p></td>
 <td style="border:1px solid black;"><p>Das maximale Alter der Sperrliste (in Tagen). Wenn die Sperrliste im Cache älter ist, als in INTERVALTIME festgelegt, ruft RMS-Client die aktuellste Version der Liste über den URL, der unter ADDRESS aufgeführt ist. Damit wird sichergestellt, dass immer die aktuellste Sperrliste verwendet wird.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Weitere Informationen zum Erstellen von Benutzerrechterichtlinien finden Sie in dieser Dokumentationssammlung unter „Betreiben eines RMS-Servers“ im Abschnitt „Erstellen und Ändern von Vorlagen für Benutzerrechterichtlinien“.

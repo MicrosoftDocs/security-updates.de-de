@@ -71,32 +71,32 @@ In der folgenden Tabelle sind die Erweiterungen des Gruppenrichtlinien-Snap-Ins 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Softwareinstallation</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Skripts</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sicherheitseinstellungen</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administrative Vorlagen</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ordnerumleitung</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Internet Explorer-Wartung</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Remoteinstallationsdienst</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Kontorichtlinien
@@ -229,43 +229,43 @@ In der folgenden Liste werden die Parameter des Tools Secedit.exe erklärt.
     **Tabelle 5.2: Sicherheitsbereiche**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="50%" />  
-    <col width="50%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Bereichsname</p></th>  
-    <th><p>Beschreibung</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Bereichsname</p></th>
+    <th><p>Beschreibung</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>SECURITYPOLICY</p></td>
     <td style="border:1px solid black;"><p>Umfasst Kontorichtlinien, Überwachungsrichtlinien, Ereignisprotokolleinstellungen und Sicherheitsoptionen.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>GROUP_MGMT</p></td>
     <td style="border:1px solid black;"><p>Umfasst Einstellungen für eingeschränkte Gruppen.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>USER_RIGHTS</p></td>
     <td style="border:1px solid black;"><p>Umfasst Einstellungen für das Zuweisen von Benutzerrechten.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>REGKEYS</p></td>
     <td style="border:1px solid black;"><p>Umfasst Berechtigungen in der Registrierung.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>FILESTORE</p></td>
     <td style="border:1px solid black;"><p>Umfasst Berechtigungen im Dateisystem.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>SERVICES</p></td>
     <td style="border:1px solid black;"><p>Umfasst Einstellungen für Systemdienste.</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 -   **/log** *&lt;Dateiname&gt;*. Name der Protokolldatei zum Status des Konfigurationsvorgangs. Wenn dieser Dateiname nicht angegeben ist, werden die Konfigurationsdaten in der Datei Scesrv.log im Verzeichnis **%windir%\\security\\logs** protokolliert.
@@ -317,120 +317,120 @@ In den folgenden Tabellen sind die in diesem Handbuch enthaltenen Skripts und di
 **Tabelle 5.3: Skripts und Dateien für eigenständige Clients**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Skript- und Dateinamen</p></th>  
-<th><p>Beschreibung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Skript- und Dateinamen</p></th>
+<th><p>Beschreibung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SA Unternehmensclient - Desktop.cmd</p></td>
 <td style="border:1px solid black;"><p>Skript zum Festlegen von Unternehmensclientrichtlinien auf eigenständigen Desktopclientcomputern.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SA Unternehmensclient - Laptop.cmd</p></td>
 <td style="border:1px solid black;"><p>Skript zum Festlegen von Unternehmensclientrichtlinien auf eigenständigen Laptopclientcomputern.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SA Hochsicher - Desktop.cmd</p></td>
 <td style="border:1px solid black;"><p>Skript zum Festlegen von Hochsicherheitsrichtlinien auf eigenständigen Desktopclientcomputern.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SA Hochsicher - Laptop.cmd</p></td>
 <td style="border:1px solid black;"><p>Skript zum Festlegen von Hochsicherheitsrichtlinien auf eigenständigen Laptopclientcomputern.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SA Unternehmensclient - Konto.inf</p></td>
 <td style="border:1px solid black;"><p>Kontorichtlinienvorlage für eigenständige Unternehmensclients.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SA Hochsicher - Konto.inf</p></td>
 <td style="border:1px solid black;"><p>Kontorichtlinienvorlage für eigenständige Clients in Hochsicherheitsumgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Unternehmensclient - Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für Desktopclientcomputer in Unternehmensclient-Umgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Unternehmensclient - Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für Laptopclientcomputer in Unternehmensclient-Umgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hochsicher - Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Vorlage für Desktopclientcomputer in Hochsicherheitsumgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Hochsicher - Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Vorlage für Laptopclientcomputer in Hochsicherheitsumgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>XP-Standardsicherheit.sdb</p></td>
 <td style="border:1px solid black;"><p>Datenbank mit Standardrichtlinien.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabelle 5.4: Skripts und Dateien für ältere Clients**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Skript- und Dateinamen</p></th>  
-<th><p>Beschreibung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Skript- und Dateinamen</p></th>
+<th><p>Beschreibung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Älterer Client - Unternehmensclient - Desktop.cmd</p></td>
 <td style="border:1px solid black;"><p>Skript zum Festlegen von Unternehmensclientrichtlinien auf älteren Desktopclients.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Älterer Client - Unternehmensclient - Laptop.cmd</p></td>
 <td style="border:1px solid black;"><p>Skript zum Festlegen von Unternehmensclientrichtlinien auf älteren Laptopclients.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Älterer Client - Hochsicher - Desktop.cmd</p></td>
 <td style="border:1px solid black;"><p>Skript zum Festlegen von Hochsicherheitsrichtlinien auf älteren Desktopclients.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Älterer Client - Hochsicher - Laptop.cmd</p></td>
 <td style="border:1px solid black;"><p>Skript zum Festlegen von Hochsicherheitsrichtlinien auf älteren Laptopclients.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Älterer Client - Unternehmensclient - Konto.inf</p></td>
 <td style="border:1px solid black;"><p>Kontenrichtlinienvorlage für ältere Unternehmensclients.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Älterer Client - Hochsicher - Konto.inf</p></td>
 <td style="border:1px solid black;"><p>Kontenrichtlinienvorlage für ältere Clients in Hochsicherheitsumgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Älterer Client - Unternehmensclient - Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für ältere Desktopclients in Unternehmensclient-Umgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Älterer Client - Unternehmensclient - Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für ältere Laptopclients in Unternehmensclient-Umgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Älterer Client - Hochsicher - Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für ältere Desktopclients in Hochsicherheitsumgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Älterer Client - Hochsicher - Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für ältere Laptopclients in Hochsicherheitsumgebungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>XP-Standardsicherheit.sdb</p></td>
 <td style="border:1px solid black;"><p>Datenbank mit Standardrichtlinien.<br />

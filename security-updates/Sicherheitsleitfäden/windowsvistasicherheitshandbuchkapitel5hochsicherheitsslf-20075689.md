@@ -548,6 +548,6 @@ Die folgenden Links bieten weitere Informationen zu sicherheitsbezogenen Themen 
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/prodtechnol/windowsvista/secprot/sicherheitshandbuch/application_compatibility.mspx"><img src="images/Dd443746.pageLeft(de-de,TechNet.10).gif" /></a> 6 von 7 <a href="http://www.microsoft.com/germany/technet/prodtechnol/windowsvista/secprot/sicherheitshandbuch/security_group_policy_settings.mspx"><img src="images/Dd443746.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

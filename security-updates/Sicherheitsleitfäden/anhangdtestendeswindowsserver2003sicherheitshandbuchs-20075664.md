@@ -308,21 +308,21 @@ Die Schweregradskala für Bugs wird in der nachstehenden Tabelle beschrieben. Di
 <tr class="odd">
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>– Bug blockierte Aufbau oder weitere Tests.<br />
-– Bug hat unerwarteten Benutzerzugriff verursacht.<br />  
-– Die in der Dokumentation definierten Schritte waren unklar.<br />  
+– Bug hat unerwarteten Benutzerzugriff verursacht.<br />
+– Die in der Dokumentation definierten Schritte waren unklar.<br />
 – Ergebnisse oder Verhalten einer Funktion oder eines Prozesses widersprechen den erwarteten Ergebnissen (die in der funktionalen Spezifikation dokumentiert sind).<br />
 – Grobe Ungleichheit zwischen den Sicherheitsvorlagendateien und der funktionalen Spezifikation.</p></td>
 <td style="border:1px solid black;"><p>– Lösung hat nicht funktioniert.<br />
-– Benutzer konnte wichtige Teile des Computers oder Netzwerks nicht verwenden.<br />  
-– Benutzer hatte unerlaubte Zugriffsberechtigungen.<br />  
-– Benutzerzugriff für bestimmte Server, die Zugriff erhalten sollten, wurde blockiert.<br />  
+– Benutzer konnte wichtige Teile des Computers oder Netzwerks nicht verwenden.<br />
+– Benutzer hatte unerlaubte Zugriffsberechtigungen.<br />
+– Benutzerzugriff für bestimmte Server, die Zugriff erhalten sollten, wurde blockiert.<br />
 – Erwartete Ergebnisse wurden nicht erzielt.<br />
 Testverfahren kann ohne Behebung nicht fortfahren.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>– Im Handbuch definierte Schritte sind unklar.<br />
-– Dokumentierte Funktionalität fehlt (Test wurde in diesem Fall blockiert).<br />  
+– Dokumentierte Funktionalität fehlt (Test wurde in diesem Fall blockiert).<br />
 – Dokumentation fehlt oder ist unzureichend.<br />
 – Inkonsistenz zwischen Sicherheitsvorlagendateien und Inhalt des Handbuchs, doch die Sicherheitsvorlagendatei ist mit der funktionalen Spezifikation synchron.</p></td>
 <td style="border:1px solid black;"><p>– Benutzer konnte auf keine Problemumgehung zur Linderung der Situation zurückgreifen.<br />
@@ -335,7 +335,7 @@ Testverfahren kann ohne Behebung nicht fortfahren.</p></td>
 – Geringfügige Fehler und Ungenauigkeiten in der Dokumentation.<br />
 – Rechtschreibfehler im Text.</p></td>
 <td style="border:1px solid black;"><p>– Benutzer verfügt über eine einfache Problemumgehung.<br />
-– Benutzer kann leicht eine Problemumgehung finden.<br />  
+– Benutzer kann leicht eine Problemumgehung finden.<br />
 – Bug beeinträchtigt Benutzerfreundlichkeit nicht.<br />
 – Wichtige Geschäftsanforderungen funktionieren noch.</p></td>
 </tr>
@@ -344,8 +344,8 @@ Testverfahren kann ohne Behebung nicht fortfahren.</p></td>
 <td style="border:1px solid black;"><p>– Vorschläge.<br />
 – Zukünftige Verbesserungen.</p></td>
 <td style="border:1px solid black;"><p>– Bezieht sich eindeutig nicht auf diese Version.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
@@ -393,17 +393,17 @@ Alle vom Testteam durchgeführte Testfälle wurden mit den erwarteten Ergebnisse
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/3a17dffb-0395-4656-ada8-28e3954307f5(v=TechNet.10)"><img src="images/Dd443721.pageLeft(de-de,TechNet.10).gif" /></a> 18 von 19 <a href="https://technet.microsoft.com/de-de/library/3ec7641e-0d9e-45a2-b3b2-b2a08960d871(v=TechNet.10)"><img src="images/Dd443721.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

@@ -31,57 +31,57 @@ In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Stammzertifizierung</p></td>
 <td style="border:1px solid black;"><p>Führt folgende RMS-Dienste aus:</p>
-<ul>  
-<li><strong>Unterregistrierung</strong>. Führt die Unterregistrierung eines Lizenzierungsservers aus.<br />  
-<br />  
-</li>  
-<li><strong>Aktivierungsproxy</strong>. Dient als Internet-Proxy für Clientanforderungen für Lockboxes und RMS-Computerzertifikate.<br />  
-<br />  
-</li>  
-<li><strong>Zertifizierung</strong>. Stellt Rechtekontozertifikate aus.<br />  
-<br />  
-</li>  
-<li><strong>Veröffentlichung</strong>. Stellt Veröffentlichungslizenzen aus.<br />  
-<br />  
-</li>  
-<li><strong>Lizenzierung</strong>. Stellt Nutzungslizenzen aus.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Unterregistrierung</strong>. Führt die Unterregistrierung eines Lizenzierungsservers aus.<br />
+<br />
+</li>
+<li><strong>Aktivierungsproxy</strong>. Dient als Internet-Proxy für Clientanforderungen für Lockboxes und RMS-Computerzertifikate.<br />
+<br />
+</li>
+<li><strong>Zertifizierung</strong>. Stellt Rechtekontozertifikate aus.<br />
+<br />
+</li>
+<li><strong>Veröffentlichung</strong>. Stellt Veröffentlichungslizenzen aus.<br />
+<br />
+</li>
+<li><strong>Lizenzierung</strong>. Stellt Nutzungslizenzen aus.<br />
+<br />
+</li>
 </ul>
 <p>Jede Bereitstellung muss mindestens einen Stammzertifizierungsserver oder -cluster einschließen. In einer Active Directory-Gesamtstruktur kann es nur einen Stammzertifizierungscluster geben.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lizenzierung (optional)</p></td>
 <td style="border:1px solid black;"><p>Führt folgende RMS-Dienste aus:</p>
-<ul>  
-<li><strong>Veröffentlichung</strong>. Stellt Veröffentlichungslizenzen aus.<br />  
-<br />  
-</li>  
-<li><strong>Lizenzierung</strong>. Stellt Nutzungslizenzen aus.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Veröffentlichung</strong>. Stellt Veröffentlichungslizenzen aus.<br />
+<br />
+</li>
+<li><strong>Lizenzierung</strong>. Stellt Nutzungslizenzen aus.<br />
+<br />
+</li>
 </ul>
 <p>Lizenzierungsserver werden zur Unterstützung einzelner Abteilungen oder zum Verschieben von Lizenzierungsanforderungen vom Stammzertifizierungscluster bereitgestellt. Lizenzierungsserver sind optional.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Datenbankserver, wie z. B. SQL Server</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Führt die RMS-Datenbanken für Konfiguration, Protokollierung und Verzeichnisdienste aus.<br />  
-<br />  
-</li>  
-<li>Speichert Rechtekontozertifikate in der Konfigurationsdatenbank des Stammzertifizierungsclusters.<br />  
-<br />  
+<li>Führt die RMS-Datenbanken für Konfiguration, Protokollierung und Verzeichnisdienste aus.<br />
+<br />
+</li>
+<li>Speichert Rechtekontozertifikate in der Konfigurationsdatenbank des Stammzertifizierungsclusters.<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Domänencontroller und globaler Katalog</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Stellt Benutzerauthentifizierung und Verzeichnisdienste bereit.<br />  
-<br />  
-</li>  
-<li>Speichert den Pfad für die Suche nach Diensten des Stammzertifizierungsclusters.<br />  
-<br />  
+<li>Stellt Benutzerauthentifizierung und Verzeichnisdienste bereit.<br />
+<br />
+</li>
+<li>Speichert den Pfad für die Suche nach Diensten des Stammzertifizierungsclusters.<br />
+<br />
 </li>
 </ul></td>
 </tr>

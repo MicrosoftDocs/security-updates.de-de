@@ -111,11 +111,11 @@ Da RMS SP1 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwindigk
 <p>Offlineregistrierung des Servers</p>
 <p>Keine Selbstaktivierung der Clients</p></td>
 <td style="border:1px solid black;"><p>Alle SP1-Features</p>
-<p>Offlineregistrierung des Servers</p>  
+<p>Offlineregistrierung des Servers</p>
 <p>Selbstaktivierung der Clients</p>
 <p>Serverlockbox</p></td>
 <td style="border:1px solid black;"><p>Alle bisherigen Features plus SP1-Features</p>
-<p>Offlineregistrierung des Servers</p>  
+<p>Offlineregistrierung des Servers</p>
 <p>SP1-Clients sind selbstaktivierend,</p>
 <p>RMS 1.0-Clients müssen über das Internet aktiviert werden</p></td>
 </tr>

@@ -139,7 +139,7 @@ Ein erfolgreiches CSIRT besteht aus mehreren Schlüsselmitgliedern.
 <tr class="odd">
 <td style="border:1px solid black;"><p>IT-Ansprechpartner</p></td>
 <td style="border:1px solid black;"><p>Dieses Mitglied ist hauptsächlich verantwortlich für die Koordination der Kommunikation zwischen dem CSIRT-Vorfallverantwortlichen und der restlichen IT-Gruppe. Die IT-Ansprechpartner haben eventuell nicht die speziellen technischen Fachkenntnisse, um auf den besonderen Vorfall reagieren zu können. Sie sind hauptsächlich verantwortlich dafür, die Kollegen in der IT-Gruppe zu finden, die bestimmte Sicherheitsereignisse behandeln können.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rechtsvertreter</p></td>
 <td style="border:1px solid black;"><p>Dieses Mitglied ist ein Rechtsanwalt, der mit den festgelegten Richtlinien für die Behandlung von Sicherheitsverletzungen sehr vertraut ist. Der Rechtsvertreter bestimmt das Vorgehen bei einer Sicherheitsverletzung mit minimaler gesetzlicher Haftung und maximaler Möglichkeit, Täter strafrechtlich zu verfolgen.</p>
@@ -194,7 +194,7 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p><strong>Rechtsvertreter</strong></p></td>
 <td style="border:1px solid black;"><p><strong>Kommunikationsbeauftragter</strong></p></td>
 <td style="border:1px solid black;"><p><strong>Management</strong></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Erste Bewertung</p></td>
 <td style="border:1px solid black;"><p>Besitzer</p></td>
@@ -202,7 +202,7 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p>Keine</p></td>
 <td style="border:1px solid black;"><p>Keine</p></td>
 <td style="border:1px solid black;"><p>Keine</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Erste Reaktion</p></td>
 <td style="border:1px solid black;"><p>Besitzer</p></td>
@@ -210,7 +210,7 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sammelt gerichtliche Beweise</p></td>
 <td style="border:1px solid black;"><p>Implementiert</p></td>
@@ -218,7 +218,7 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p>Besitzer</p></td>
 <td style="border:1px solid black;"><p>Keine</p></td>
 <td style="border:1px solid black;"><p>Keine</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Implementiert vorläufige Problembehebung</p></td>
 <td style="border:1px solid black;"><p>Besitzer</p></td>
@@ -226,7 +226,7 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
 <td style="border:1px solid black;"><p>Berät</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sendet Kommunikation</p></td>
 <td style="border:1px solid black;"><p>Berät</p></td>
@@ -234,7 +234,7 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p>Berät</p></td>
 <td style="border:1px solid black;"><p>Implementiert</p></td>
 <td style="border:1px solid black;"><p>Besitzer</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Absprechen mit lokaler Strafverfolgungsbehörde</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
@@ -242,7 +242,7 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p>Implementiert</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
 <td style="border:1px solid black;"><p>Besitzer</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Implementiert permanente Problembehebung</p></td>
 <td style="border:1px solid black;"><p>Besitzer</p></td>
@@ -250,7 +250,7 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bestimmt finanzielle Auswirkungen auf das Geschäft</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
@@ -258,8 +258,8 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <td style="border:1px solid black;"><p>Berät</p></td>
 <td style="border:1px solid black;"><p>Aktualisiert</p></td>
 <td style="border:1px solid black;"><p>Besitzer</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfanq](#mainsection)

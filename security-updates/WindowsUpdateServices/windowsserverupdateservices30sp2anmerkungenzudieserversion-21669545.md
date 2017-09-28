@@ -103,7 +103,7 @@ In diesem Abschnitt werden die Anforderungen an die benötigte Software und Hard
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Für Windows Server 2008 R2 ist WSUS 3.0 SP2 erforderlich. Wenn Sie Windows Server 2008 R2 installieren, sollten Sie WSUS 3.0 SP2 installieren. Verwenden Sie nicht WSUS 3.0 SP1 für Windows Server 2008 R2.
-<p></p>  
+<p></p>
 In einer Remote-SQL-Konfiguration wird WSUS 3.0 SP2 nicht für die Verwendung für die Terminaldienste auf dem Front-End-Server unterstützt.
 <p></p></td>
 </tr>
@@ -182,7 +182,7 @@ Beim Installieren von WSUS 3.0 SP2 müssen Antivirenprogramme möglicherweise 
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Diese Problemumgehung kann die Sicherheit des Computers oder Netzwerks vor Angriffen böswilliger Benutzer oder schädlicher Software wie Viren beeinträchtigen. Dieses Verfahren wird nicht empfohlen. Die Informationen werden jedoch zur Verfügung gestellt, damit Sie die Problemumgehung nach eigenem Ermessen verwenden können. Verwenden Sie diese Problemumgehung auf eigene Gefahr.
-<p></p>  
+<p></p>
 Antivirensoftware soll Ihren Computer vor Viren schützen. Laden Sie keine Dateien von nicht vertrauenswürdigen Quellen herunter, bzw. öffnen Sie diese Dateien nicht, rufen Sie keine nicht vertrauenswürdigen Websites auf, und öffnen Sie keine E-Mail-Anlagen, während das Antivirenprogramm deaktiviert ist.
 <p></p></td>
 </tr>
@@ -334,24 +334,24 @@ Mithilfe des WSUS-Setupprogramms für die Befehlszeile können Sie unbeaufsichti
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/q</strong></p></td>
 <td style="border:1px solid black;"><p>Automatische Installation durchführen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/u</strong></p></td>
 <td style="border:1px solid black;"><p>Deinstallieren:</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/p</strong></p></td>
 <td style="border:1px solid black;"><p>Voraussetzungsprüfung: Das System wird überprüft, und nicht erfüllte Voraussetzungen werden gemeldet.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
 <td style="border:1px solid black;"><p>Befehlszeilenparameter und deren Beschreibungen anzeigen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/g</strong></p></td>
 <td style="border:1px solid black;"><p>Upgrade von der vorherigen Version auf WSUS durchführen (Upgrades von SUS 1.0 werden nicht unterstützt). Der einzige Parameter, der mit dieser Option verwendet werden kann, ist „/q“ (automatische Installation). Die einzige Eigenschaft, die mit dieser Option verwendet werden kann, ist DEFAULT_WEBSITE.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 In dieser Tabelle werden die Befehlszeileneigenschaften für WSUS 3.0 SP2 aufgeführt.
@@ -359,79 +359,79 @@ In dieser Tabelle werden die Befehlszeileneigenschaften für WSUS 3.0 SP2 aufg
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Eigenschaft</th>  
-<th>Beschreibung</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Eigenschaft</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
 <td style="border:1px solid black;"><p>0=Inhalte lokal gehostet, 1=Auf Microsoft Update gehostet</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
 <td style="border:1px solid black;"><p>Pfad zu Verzeichnis mit Inhalten Der Standardpfad ist <em>WSUS-Installationsverzeichnis\WSUS\WSUSContent</em>, wobei <em>WSUS-Installationsverzeichnis</em> für das lokale Laufwerk mit dem größten freien Speicherplatz steht.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
 <td style="border:1px solid black;"><p>Pfad zum Datenverzeichnis der Windows Internal Database.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
 <td style="border:1px solid black;"><p>Der Name sollte im Format <em>Servername</em>\<em>SQL-Instanzname</em> angezeigt werden. Wenn sich die Datenbankinstanz auf dem lokalen Computer befindet, verwenden Sie die Umgebungsvariable „%COMPUTERNAME%“. Wenn keine Instanz vorhanden ist, wird als Standard „%COMPUTERNAME%\WSUS“ festgelegt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
 <td style="border:1px solid black;"><p>0=Port 8530, 1=Port 80</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
 <td style="border:1px solid black;"><p>Pfad und Dateiname für Protokolldatei</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
 <td style="border:1px solid black;"><p>0=WSUS-Server installieren, 1=Nur Konsole installieren</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
 <td style="border:1px solid black;"><p>0=Inventurfeatures nicht installieren, 1=Inventurfeatures installieren</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0=Datenbank beibehalten, 1=Datenbank entfernen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
 <td style="border:1px solid black;"><p>0=Inhaltsdateien beibehalten, 1=Inhaltsdateien entfernen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
 <td style="border:1px solid black;"><p>0=Protokolldateien beibehalten, 1=Protokolldateien entfernen (Verwendung mit dem Installationsparameter &quot;/u&quot;)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0=Aktuelle Datenbank verwenden, 1=Datenbank erstellen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
 <td style="border:1px solid black;"><p>Fensterhandle zur Rückgabe von Windows Installer-Statusmeldungen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
 <td style="border:1px solid black;"><p>1=Am Programm zur Verbesserung von Microsoft Update teilnehmen, 0=Nicht am Programm zur Verbesserung von Microsoft Update teilnehmen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
 <td style="border:1px solid black;"><p>1=Inhaltsordner nicht in die Datenbank schreiben, 0=Inhaltsordner in die Datenbank schreiben (für NLB)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Beispiel:
@@ -440,16 +440,16 @@ In dieser Tabelle werden die Befehlszeileneigenschaften für WSUS 3.0 SP2 aufg
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (Installation im stillen Modus über Port 8530) WSUSSetup.exe /q /u (Deinstallation von WSUS)  
 ```
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Wenn Sie WSUS 3.0 SP2 im stillen Modus (/q) installieren, und auf dem Computer nicht alle vorausgesetzten Komponenten installiert sind, wird während der Installation eine Datei mit der Bezeichnung „WSUSPreReqCheck.xml“ erstellt und im Verzeichnis „%TEMP%“ gespeichert.
 <p></p></td>

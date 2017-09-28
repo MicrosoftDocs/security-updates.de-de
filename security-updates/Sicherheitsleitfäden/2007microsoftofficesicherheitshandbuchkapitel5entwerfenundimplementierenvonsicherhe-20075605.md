@@ -177,6 +177,6 @@ Durch das Bereitstellen von Sicherheitseinstellungen über die Gruppenrichtlinie
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/fe08a815-c260-4218-aea7-3f2f8447f81c(v=TechNet.10)"><img src="images/Dd443661.pageLeft(de-de,TechNet.10).gif" /></a> 6 von 6</td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

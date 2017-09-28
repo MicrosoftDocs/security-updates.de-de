@@ -29,7 +29,7 @@ In der folgenden Tabelle werden die zum Bereitstellen und Verwalten von RMS erfo
 <tr class="odd">
 <td style="border:1px solid black;"><p>Installieren von RMS</p></td>
 <td style="border:1px solid black;"><p>Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bereitstellen von RMS</p></td>
 <td style="border:1px solid black;"><p>Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist. Außerdem muss das verwendete Konto über eine SQL-Anmeldung verfügen, dem die Rolle „Systemadministrator“ für die SQL Server-Datenbank zugewiesen wurde, so dass RMS die Datenbank einrichten kann.</p>
@@ -39,8 +39,8 @@ In der folgenden Tabelle werden die zum Bereitstellen und Verwalten von RMS erfo
 <tr class="odd">
 <td style="border:1px solid black;"><p>Verwalten von RMS</p></td>
 <td style="border:1px solid black;"><p>Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist. Sie können Sicherheitseinstellungen anpassen, um den Zugriff auf die Verwaltungswebseiten zu verwalten.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720178.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                |  

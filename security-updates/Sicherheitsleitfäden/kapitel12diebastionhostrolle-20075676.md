@@ -59,8 +59,8 @@ Für die zuvor in diesem Handbuch beschriebenen Serverrollen wurden Gruppenricht
 <td style="border:1px solid black;"><p>Hochsicher - Bastion-Host.inf</p></td>
 <td style="border:1px solid black;"><p>Hochsicher - Bastion-Host.inf</p></td>
 <td style="border:1px solid black;"><p>Hochsicher - Bastion-Host.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
@@ -78,23 +78,23 @@ Die Datei „Hochsicher - Bastion-Host.inf“ enthält die BHLP-Zuweisungen von
 **Tabelle 12.2: Empfohlene Einstellungen zum Zuweisen von Benutzerrechten**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Zuweisen von Benutzerrechten</p></th>  
-<th><p>Einstellung</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Zuweisen von Benutzerrechten</p></th>
+<th><p>Einstellung</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</p></td>
 <td style="border:1px solid black;"><p>ANONYME ANMELDUNG; Vordefinierter Administrator; Support_388945a0; Gast; alle betriebssystemfremden Dienstkonten</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Den Zugriff auf diesen Computer vom Netzwerk aus verweigern
@@ -136,22 +136,22 @@ Das vordefinierte Administratorkonto kann außerdem entsprechend den Empfehlunge
 **Tabelle 12.3: Manuell hinzugefügte Zuweisungen von Benutzerrechten**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Einstellung</p></th>  
-<th><p>Älterer Client</p></th>  
-<th><p>Unternehmensclient</p></th>  
-<th><p>Hochsicher (SSLF)</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Einstellung</p></th>
+<th><p>Älterer Client</p></th>
+<th><p>Unternehmensclient</p></th>
+<th><p>Hochsicher (SSLF)</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</p></td>
 <td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
@@ -211,8 +211,8 @@ Die Auswirkung dieser Konfigurationsänderung hat sich in den letzten Jahren nac
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Dieser Dienst hilft Microsoft bei der Erfassung und Behebung von Fehlern. Sie können diesen Dienst konfigurieren, um Berichte über Betriebssystemfehler, Windows-Komponentenfehler oder Programmfehler zu generieren. Er ist nur in Windows XP Professional und Windows Server 2003 verfügbar.
@@ -362,17 +362,17 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Bastio
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/7488b1dc-eb9b-4f4a-b597-b84d87717b57(v=TechNet.10)"><img src="images/Dd443733.pageLeft(de-de,TechNet.10).gif" /></a>13 von 19<a href="https://technet.microsoft.com/de-de/library/4a4cf96c-802d-4aef-9478-da3242f961da(v=TechNet.10)"><img src="images/Dd443733.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

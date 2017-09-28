@@ -55,8 +55,8 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Druckserver 
 <td style="border:1px solid black;"><p>Älterer Client - Druckserver.inf</p></td>
 <td style="border:1px solid black;"><p>Unternehmensclient - Druckserver.inf</p></td>
 <td style="border:1px solid black;"><p>Hochsicher - Druckserver.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Informationen zu den Einstellungen in der Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Informationen zu sämtlichen Standardeinstellungen finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen für Windows Server 2003 und Windows XP*](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10))*,* das unter *http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx* verfügbar ist.
@@ -86,29 +86,29 @@ Die meisten Sicherheitsoptionseinstellungen für Druckserver in den drei in dies
 **Tabelle 8.2: Empfohlene Einstellungen für „Kommunikation digital signieren (immer)“**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Einstellung</p></th>  
-<th><p>Älterer Client</p></th>  
-<th><p>Unternehmensclient</p></th>  
-<th><p>Hochsicher (SSLF)</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Einstellung</p></th>
+<th><p>Älterer Client</p></th>
+<th><p>Unternehmensclient</p></th>
+<th><p>Hochsicher (SSLF)</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Durch diese Richtlinieneinstellung wird festgelegt, ob die SMB-Serverkomponente die Signierung von Paketen erfordert. Das SMB-Protokoll bildet die Grundlage für die Microsoft Datei- und Druckfreigabe und weitere Netzwerkoptionen, wie z. B. Windows-Remoteverwaltung. Um Man-in-the-Middle-Angriffe, die SMB-Pakete während der Übertragung ändern, zu verhindern, unterstützt das SMB-Protokoll die digitale Paketsignierung. Durch diese Richtlinieneinstellung wird festgelegt, ob die SMB-Paketsignierung ausgehandelt werden muss, bevor eine weitere Kommunikation mit einem SMB-Client gestattet wird.
@@ -287,17 +287,17 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Drucks
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/2b1536d0-9610-4fb5-93b4-72f62d9e2ff3(v=TechNet.10)"><img src="images/Dd443729.pageLeft(de-de,TechNet.10).gif" /></a> 9 von 19 <a href="https://technet.microsoft.com/de-de/library/835865cd-ff71-43e6-88bf-91f5b35a00b9(v=TechNet.10)"><img src="images/Dd443729.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

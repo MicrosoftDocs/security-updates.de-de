@@ -184,20 +184,20 @@ Stellen Sie sicher, dass der WSUS 3.0-Server den Anforderungen in dieser Liste 
 <tr class="even">
 <td style="border:1px solid black;"><p>Microsoft .NET Framework Version 2.0 Redistributable Package (x86)</p></td>
 <td style="border:1px solid black;"><p>Siehe &quot;Microsoft .NET Framework 2.0 Redistributable (x86)&quot; im <a href="http://go.microsoft.com/fwlink/?linkid=68935">Microsoft Download Center</a> (http://go.microsoft.com/fwlink/?LinkId=68935). Für 64-Bit-Plattformen siehe &quot;Microsoft .NET Framework 2.0 Redistributable (x64)&quot; im <a href="http://go.microsoft.com/fwlink/?linkid=70637">Microsoft Download Center</a> (http://go.microsoft.com/fwlink/?LinkId=70637).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Microsoft Management Console 3.0 für Windows Server 2003</p></td>
 <td style="border:1px solid black;"><p>Diese Komponente ist für die Verwendung der WSUS 3.0-Benutzeroberfläche erforderlich. Sie finden sie unter &quot;Microsoft Management Console 3.0 für Windows Server 2003 (KB907265)&quot; im <a href="http://go.microsoft.com/fwlink/?linkid=70412">Microsoft Download Center</a> (http://go.microsoft.com/fwlink/?LinkId=70412). Für 64-Bit-Plattformen finden Sie sie unter &quot;Microsoft Management Console 3.0 for Windows Server 2003 x64 Edition (KB907265)&quot; im <a href="http://go.microsoft.com/fwlink/?linkid=70638">Microsoft Download Center</a> (http://go.microsoft.com/fwlink/?LinkId=70638 – in englischer Sprache).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Microsoft Report Viewer</p></td>
 <td style="border:1px solid black;"><p>Diese Komponente ist für die Verwendung der WSUS 3.0-Benutzeroberfläche erforderlich. Siehe &quot;Microsoft Report Viewer Redistributable 2005&quot; im <a href="http://go.microsoft.com/fwlink/?linkid=70410">Microsoft Download Center</a> (http://go.microsoft.com/fwlink/?LinkId=70410).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SQL Server 2005 (optional)</p></td>
 <td style="border:1px solid black;"><p>WSUS 3.0 installiert automatisch Windows Internal Database, sofern nicht bereits eine kompatible Version von SQL Server vorhanden ist. Wenn Sie beabsichtigen, eine vollständige SQL Server-Datenbank zu verwenden, müssen Sie unter Windows Server 2003 (mindestens) SQL Server 2005 SP1 verwenden (im <a href="http://go.microsoft.com/fwlink/?linkid=66143">Microsoft Download Center</a> verfügbar unter http://go.microsoft.com/fwlink/?LinkId=66143), und unter Windows Server 2008 muss SQL Server 2005 SP2 installiert sein (im <a href="http://go.microsoft.com/fwlink/?linkid=84823">Microsoft Download Center</a> verfügbar unter http://go.microsoft.com/fwlink/?LinkId=84823).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc708491.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                 |  
@@ -248,39 +248,39 @@ Mithilfe der WSUS-Befehlszeilenparameter können Sie unbeaufsichtigte Installati
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Option</th>  
-<th>Beschreibung</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Option</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/q</strong></p></td>
 <td style="border:1px solid black;"><p>Führt eine automatische Installation aus.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/u</strong></p></td>
 <td style="border:1px solid black;"><p>Deinstalliert das Produkt. Deinstalliert auch die Windows Internal Database-Instanz, sofern vorhanden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/p</strong></p></td>
 <td style="border:1px solid black;"><p>Überprüft nur die Voraussetzungen. Es erfolgt keine Installation des Produkts, das System wird aber auf das Vorliegen der entsprechenden Voraussetzungen geprüft. Nicht erfüllte Voraussetzungen werden gemeldet.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
 <td style="border:1px solid black;"><p>Zeigt die Befehlszeilenparameter und deren Beschreibungen an.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/g</strong></p></td>
 <td style="border:1px solid black;"><p>Nimmt ein Upgrade von WSUS 2.0 vor. Der einzige gültige Parameter bei dieser Option ist /q (automatische Installation). Die einzige gültige Eigenschaft bei dieser Option lautet „DEFAULT_WEBSITE“.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 In dieser Tabelle werden die Befehlszeileneigenschaften für WSUS 3.0 aufgeführt.
@@ -288,79 +288,79 @@ In dieser Tabelle werden die Befehlszeileneigenschaften für WSUS 3.0 aufgefüh
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Eigenschaft</th>  
-<th>Beschreibung</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Eigenschaft</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
 <td style="border:1px solid black;"><p>0=Inhalte lokal gehostet, 1=Auf Microsoft Update gehostet</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
 <td style="border:1px solid black;"><p>Pfad zu Verzeichnis mit Inhalten. Der Standardpfad ist <em>WSUSInstallationslaufwerk</em><strong>\WSUS\WSUSContent</strong>, wobei <em>WSUSInstallationslaufwerk</em> für das lokale Laufwerk mit der größten Menge an freiem Speicherplatz steht.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
 <td style="border:1px solid black;"><p>Pfad zum Windows Internal Database-Datenverzeichnis.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
 <td style="border:1px solid black;"><p>Der Name sollte im Format <em>Servername</em>\<em>SQL-Instanzname</em> angezeigt werden. Wenn sich die Datenbankinstanz auf dem lokalen Computer befindet, verwenden Sie die Umgebungsvariable &quot;%COMPUTERNAME%&quot;. Wenn keine existierende Instanz vorhanden ist, wird als Standard &quot;%COMPUTERNAME%\WSUS&quot; festgelegt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
 <td style="border:1px solid black;"><p>0=Port 8530, 1=Port 80</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
 <td style="border:1px solid black;"><p>Pfad und Dateiname für Protokolldatei</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
 <td style="border:1px solid black;"><p>0=WSUS-Serverkomponente installieren, 1=nur die Konsole installieren</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
 <td style="border:1px solid black;"><p>0=Inventurfeatures nicht installieren, 1=Inventurfeatures installieren</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0=Datenbank beibehalten, 1=Datenbank entfernen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
 <td style="border:1px solid black;"><p>0=Inhaltsdateien beibehalten, 1=Inhaltsdateien entfernen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
 <td style="border:1px solid black;"><p>0=Protokolldateien beibehalten, 1=Protokolldateien entfernen (wird mit dem Installationsschalter /u verwendet)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0=Aktuelle Datenbank verwenden, 1=Datenbank erstellen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
 <td style="border:1px solid black;"><p>Fensterhandle zur Rückgabe von MSI-Statusmeldungen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
 <td style="border:1px solid black;"><p>1=Am Programm zur Verbesserung von Microsoft Update teilnehmen, 0=Nicht teilnehmen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
 <td style="border:1px solid black;"><p>1=Inhaltsordner nicht in die Datenbank schreiben, 0=Inhaltsordner in die Datenbank schreiben (für NLB)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Beispiel:
@@ -557,40 +557,40 @@ WSUS 3.0 unterstützt Windows Server 2008 in der 32-Bit- und in der 64-Bit-Ver
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Anforderung</th>  
-<th>Details</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Anforderung</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Microsoft Internetinformationsdienste (IIS)</p></td>
 <td style="border:1px solid black;"><p>Installation vom Betriebssystem. Stellen Sie sicher, dass die folgenden Komponenten aktiviert sind:</p>
-<p>Windows-Authentifizierung</p>  
-<p>Statischer Inhalt</p>  
-<p>ASP.NET</p>  
+<p>Windows-Authentifizierung</p>
+<p>Statischer Inhalt</p>
+<p>ASP.NET</p>
 <p>6.0 Verwaltungskompatibilität</p>
 <p>IIS Metabase-Kompatibilität</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Microsoft .NET Framework Version 2.0 Redistributable Package (x86)</p></td>
 <td style="border:1px solid black;"><p>Nicht erforderlich unter Windows Server 2008, als Teil des Betriebssystems bereits installiert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Microsoft Management Console 3.0</p></td>
 <td style="border:1px solid black;"><p>Nicht erforderlich unter Windows Server 2008, als Teil des Betriebssystems bereits installiert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Microsoft Report Viewer</p></td>
 <td style="border:1px solid black;"><p>Diese Komponente ist für die Verwendung der WSUS-Benutzeroberfläche erforderlich. Siehe „Microsoft Report Viewer Redistributable 2005“ im <a href="http://go.microsoft.com/fwlink/?linkid=70410">Microsoft Download Center</a> (http://go.microsoft.com/fwlink/?LinkId=70410).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Problem 1: Die Konfigurationsdatei von IIS 7.0 muss vor der Ausführung von WSUS 3.0 aktualisiert werden

@@ -85,6 +85,6 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Server
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/cb056f68-1a74-4a6a-ac25-5629fefe7cbb(v=TechNet.10)"><img src="images/Dd443734.pageLeft(de-de,TechNet.10).gif" /></a> 14 von 19 <a href="https://technet.microsoft.com/de-de/library/e15ff47c-bd77-4b34-9b58-c3f3fba2d135(v=TechNet.10)"><img src="images/Dd443734.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

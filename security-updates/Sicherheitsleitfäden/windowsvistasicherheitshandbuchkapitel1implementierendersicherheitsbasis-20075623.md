@@ -532,42 +532,42 @@ Beim Ausführen der Windows Installer-Datei (MSI-Datei) wird auf Ihrem Computer 
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Restore_SCE_to_Default.vbs</p></td>
 <td style="border:1px solid black;"><p>Ein Skript, das den Sicherheitskonfigurations-Editor auf Windows Vista-Standardwerte zurücksetzt.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Sceregvl_Vista.inf.txt</p></td>
 <td style="border:1px solid black;"><p>Die Windows Vista-SCEREGVL.INF-Standarddatei, die den Sicherheitskonfigurations-Editor auf die Originalwerte zurücksetzt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Strings-sceregvl.txt</p></td>
 <td style="border:1px solid black;"><p>Eine Textdatei mit erforderlichen Zeichenfolgenwerten zum Hinzufügen von MSS-Einstellungen zum Sicherheitskonfigurations-Editor.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Update_SCE_with_MSS_Regkeys.vbs</p></td>
 <td style="border:1px solid black;"><p>Ein Skript, mit dem der Sicherheitskonfigurations-Editor zum Einbeziehen von MSS-Einstellungen geändert wird.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Sce.reg</p></td>
 <td style="border:1px solid black;"><p>Eine Registrierungsdatei mit den Standardregistrierungswerten für den Sicherheitskonfigurations-Editor.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Values-sceregvl.txt</p></td>
 <td style="border:1px solid black;"><p>Eine Textdatei mit den erforderlichen Werten zum Anzeigen von Registrierungseinstellungen im Sicherheitskonfigurations-Editor.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Group Policy Objects<br />
 \Command-line here.cmd</p></td>
 <td style="border:1px solid black;"><p>Ein Batchdatei, die eine Eingabeaufforderung in dem Pfad öffnet, von dem aus sie gestartet wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Group Policy Objects<br />
 \GPOAccelerator.wsf</p></td>
 <td style="border:1px solid black;"><p>Das Haupttool, das ein Skript zum Implementieren der empfohlenen Anleitungen ausführt.<br />
-</p>  
+</p>
 <p><img src="images/Dd443680.warning(de-de,TechNet.10).gif" /><strong>Achtung:</strong></p>
 <p>Führen Sie das Skript erst aus, wenn Sie alle Informationen in diesem Kapitel gelesen haben.</p></td>
 </tr>
@@ -575,7 +575,7 @@ Beim Ausführen der Windows Installer-Datei (MSI-Datei) wird auf Ihrem Computer 
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \CreateEnvironmentFromXML.wsf</p></td>
 <td style="border:1px solid black;"><p>Das Skript, das die Gruppenrichtlinienobjekte und die Organisationseinheitsstruktur erstellt.<br />
-</p>  
+</p>
 <p><img src="images/Dd443680.warning(de-de,TechNet.10).gif" /><strong>Achtung:</strong></p>
 <p>Ändern Sie diese Datei nicht.</p></td>
 </tr>
@@ -583,52 +583,52 @@ Beim Ausführen der Windows Installer-Datei (MSI-Datei) wird auf Ihrem Computer 
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSG-GPOs.xml</p></td>
 <td style="border:1px solid black;"><p>Eine XML-Datei, mit der die GPMC die Unternehmens-Gruppenrichtlinienobjekte erstellt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSG-GPOs-LAB.xml</p></td>
 <td style="border:1px solid black;"><p>Eine XML-Datei, mit der die GPMC die Unternehmens-Gruppenrichtlinienobjekte und die Beispiel-Organisationseinheitsstruktur erstellt.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSG-GPOs.xml</p></td>
 <td style="border:1px solid black;"><p>Eine XML-Datei, mit der die GPMC die Unternehmens-Gruppenrichtlinienobjekte erstellt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSG-GPOs-LAB.xml</p></td>
 <td style="border:1px solid black;"><p>Eine XML-Datei, mit der die GPMC die Gruppenrichtlinienobjekte für die Hochsicherheitsumgebung und die empfohlene Organisationseinheitsstruktur erstellt.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSGAuditPolicy.txt</p></td>
 <td style="border:1px solid black;"><p>Eine Textdatei, die bei der in diesem Handbuch enthaltenen detaillierten Implementierung der Überwachungsrichtlinien verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSGAuditPolicy.cmd</p></td>
 <td style="border:1px solid black;"><p>Eine Befehlsdatei, die bei der in diesem Handbuch enthaltenen detaillierten Implementierung der Überwachungsrichtlinien verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSGApplyAuditPolicy.cmd</p></td>
 <td style="border:1px solid black;"><p>Eine Befehlsdatei, die bei der in diesem Handbuch enthaltenen detaillierten Implementierung der Überwachungsrichtlinien verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSGAuditPolicy.txt</p></td>
 <td style="border:1px solid black;"><p>Eine Textdatei, die bei der in diesem Handbuch enthaltenen detaillierten Implementierung der Überwachungsrichtlinien verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSGAuditPolicy.cmd</p></td>
 <td style="border:1px solid black;"><p>Eine Befehlsdatei, die bei der in diesem Handbuch enthaltenen detaillierten Implementierung der Überwachungsrichtlinien verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSGApplyAuditPolicy.cmd</p></td>
 <td style="border:1px solid black;"><p>Eine Befehlsdatei, die bei der in diesem Handbuch enthaltenen detaillierten Implementierung der Überwachungsrichtlinien verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates</p></td>
 <td style="border:1px solid black;"><p>Der Ordner mit den .inf-Dateien für Sicherheitsvorlagen, mit denen Sie einige der in diesem Handbuch vorgeschriebenen Sicherheitseinstellungen implementieren können.</p>
@@ -638,53 +638,53 @@ Beim Ausführen der Windows Installer-Datei (MSI-Datei) wird auf Ihrem Computer 
 <td style="border:1px solid black;"><p>Security Templates<br />
 \EC-VSG Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für Desktopcomputer in Unternehmensumgebungen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \EC-VSG Domain.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für Domänen in Unternehmensumgebungen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \EC-VSG Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für Laptopcomputer in Unternehmensumgebungen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \SSLF-VSG Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für SSLF-Desktops</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \SSLF-VSG Domain.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für SSLF-Domänen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \SSLF-VSG Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Sicherheitsvorlage für SSLF-Laptops</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \Vista Default Security.cmd</p></td>
 <td style="border:1px solid black;"><p>Eine Befehlsdatei, die beim Zurücksetzen der lokalen Sicherheitsrichtlinie auf die Windows Vista-Standardeinstellungen verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \Vista Default Security.inf</p></td>
 <td style="border:1px solid black;"><p>Eine Sicherheitsdatei, die beim Zurücksetzen der lokalen Sicherheitsrichtlinie auf die Windows Vista-Standardeinstellungen verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \Vista Default Security.sdb</p></td>
 <td style="border:1px solid black;"><p>Eine Sicherheitsdatenbankdatei, die beim Zurücksetzen der lokalen Sicherheitsrichtlinie auf die Windows Vista-Standardeinstellungen verwendet wird.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \Vista Local Security.sdb</p></td>
 <td style="border:1px solid black;"><p>Eine Sicherheitsdatenbankdatei, die beim Anwenden der Sicherheitsvorlagen dieses Handbuchs auf einem Computer verwendet wird.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
@@ -736,17 +736,17 @@ Die folgenden Links bieten weitere Informationen zu sicherheitsbezogenen Themen 
 [Senden Sie uns Ihre Kommentare und Anregungen.](mailto:secwish@microsoft.com?subject=windows%20vista%20security%20guide) (engl.)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/prodtechnol/windowsvista/secprot/sicherheitshandbuch/default.mspx"><img src="images/Dd443680.pageLeft(de-de,TechNet.10).gif" /></a>5 von 7<a href="http://www.microsoft.com/germany/technet/prodtechnol/windowsvista/secprot/sicherheitshandbuch/defend_against_malware.mspx"><img src="images/Dd443680.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

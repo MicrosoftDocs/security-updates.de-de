@@ -208,6 +208,6 @@ Bei dieser Sicherung bleiben jedoch Daten, die GPO-extern sind, ungesichert. Die
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/4a4cf96c-802d-4aef-9478-da3242f961da(v=TechNet.10)"><img src="images/Dd443718.pageLeft(de-de,TechNet.10).gif" /></a> 15 von 19 <a href="https://technet.microsoft.com/de-de/library/ff6d4718-4179-4f5a-a09d-50d75e9f32e6(v=TechNet.10)"><img src="images/Dd443718.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

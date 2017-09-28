@@ -51,24 +51,24 @@ Wenn diese Einstellung **aktiviert** ist, ist für auf Office Online veröffentl
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Optionen…\Einstellungen\Kalenderoptionen\Microsoft Office Online-Freigabedienst</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1266</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -96,75 +96,75 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren die ActiveX-Si
 **Tabelle 1.2. Konfigurierbare Sicherheitseinstellungen für ActiveX-Steuerelemente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><strong>Wert</strong></th>  
-<th><strong>Erläuterung</strong></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Wert</strong></th>
+<th><strong>Erläuterung</strong></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>Das Steuerelement wird unabhängig davon, wie es gekennzeichnet ist, geladen, und die permanenten Werte werden ggf. verwendet. Bei dieser Einstellung erhält der Benutzer keine Aufforderung zu reagieren.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>Wenn das Steuerelement als SFI gekennzeichnet ist, wird es im abgesicherten Modus geladen, und es werden ggf. permanente Werte verwendet. Wenn das Steuerelement nicht als SFI gekennzeichnet ist, wird es im nicht abgesicherten Modus geladen, und es werden ggf. permanente Werte verwendet, oder es werden die Standardeinstellungen (für die erstmalige Initialisierung) verwendet. Diese Stufe ähnelt der Standardkonfiguration, aber der Benutzer erhält keine Aufforderung zu reagieren.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>3</p></td>
 <td style="border:1px solid black;"><p>Wenn das Steuerelement als SFI gekennzeichnet ist, wird es im nicht abgesicherten Modus geladen, und es werden ggf. permanente Werte verwendet. Wenn das Steuerelement nicht als SFI gekennzeichnet ist, erhält der Benutzer eine Aufforderung mit einer Nachricht, dass das Steuerelement als unsicher gekennzeichnet ist. Wenn der Benutzer bei der Aufforderung <strong>Nein</strong> auswählt, wird das Steuerelement nicht geladen. Andernfalls wird es mit den Standardeinstellungen (für die erstmalige Initialisierung) geladen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>4</p></td>
 <td style="border:1px solid black;"><p>Wenn das Steuerelement als SFI gekennzeichnet ist, wird es im abgesicherten Modus geladen, und es werden ggf. permanente Werte verwendet. Wenn das Steuerelement nicht als SFI gekennzeichnet ist, erhält der Benutzer eine Aufforderung mit einer Nachricht, dass das Steuerelement als unsicher gekennzeichnet ist. Wenn der Benutzer bei der Aufforderung <strong>Nein</strong> auswählt, wird das Steuerelement nicht geladen. Andernfalls wird es mit den Standardeinstellungen (für die erstmalige Initialisierung) geladen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>5</p></td>
 <td style="border:1px solid black;"><p>Wenn das Steuerelement als SFI gekennzeichnet ist, wird es im nicht abgesicherten Modus geladen, und es werden ggf. permanente Werte verwendet. Wenn das Steuerelement nicht als SFI gekennzeichnet ist, erhält der Benutzer eine Aufforderung mit einer Nachricht, dass das Steuerelement als unsicher gekennzeichnet ist. Wenn der Benutzer bei der Aufforderung <strong>Nein</strong> auswählt, wird das Steuerelement nicht geladen. Andernfalls wird es mit permanenten Werten geladen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>6</p></td>
 <td style="border:1px solid black;"><p>Wenn das Steuerelement als SFI gekennzeichnet ist, wird es im abgesicherten Modus geladen, und es werden ggf. permanente Werte verwendet. Wenn das Steuerelement nicht als SFI gekennzeichnet ist, erhält der Benutzer eine Aufforderung mit einer Nachricht, dass das Steuerelement als unsicher gekennzeichnet ist. Wenn der Benutzer bei der Aufforderung <strong>Nein</strong> auswählt, wird das Steuerelement nicht geladen. Andernfalls wird es mit permanenten Werten geladen.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabelle 1.3. ActiveX-Steuerelementinitialisierung**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Sicherheitseinstellungen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (2)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-908</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -204,33 +204,33 @@ Wenn diese Einstellung **aktiviert** ist, werden alle Empfänger ausgehender Nac
 **Tabelle 1.4. E-Mail-Empfänger den Listen sicherer Absender der Benutzer hinzufügen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Optionen…\Einstellungen\Junk-E-Mail</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1130</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -258,33 +258,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren zusätzliche D
 **Tabelle 1.5. Als Ebene 1 zu blockierende Dateierweiterungen hinzufügen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Anlagensicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1617</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ![](images/Dd443657.important(de-de,TechNet.10).gif)**Wichtig:**
@@ -318,33 +318,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren eine Liste von
 **Tabelle 1.6. Als Ebene 2 zu blockierende Dateierweiterungen hinzufügen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Anlagensicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1155</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ![](images/Dd443657.important(de-de,TechNet.10).gif)**Wichtig:**
@@ -380,33 +380,33 @@ Informationen zum Hinzufügen weiterer zu blockierender Dateitypen zu InfoPath f
 **Tabelle 1.7. Dateitypen als Anlagen für Formulare zulassen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1259</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -434,33 +434,33 @@ Wenn diese Einstellung **deaktiviert** ist, werden alle nicht durch die Gruppenr
 **Tabelle 1.8. Mischung aus Richtlinien- und Benutzerspeicherorten zulassen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Sicherheitseinstellungen\Vertrauensstellungscenter</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-770</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -492,33 +492,33 @@ Wenn diese Einstellung **deaktiviert** ist, können Office-Anwendungen keine Gra
 **Tabelle 1.9. PNG als Ausgabeformat zulassen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Extras | Optionen | Allgemein | Weboptionen…\Browser</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-711</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -548,33 +548,33 @@ Wenn diese Einstellung **aktiviert** ist, können Skripts in einmaligen Outlook-
 **Tabelle 1.10. Skripts in einmaligen Outlook-Formularen zulassen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Benutzerdefinierte Formularsicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1595</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ![](images/Dd443657.important(de-de,TechNet.10).gif)**Wichtig:**
@@ -610,35 +610,35 @@ Durch Aktivieren dieser Einstellung werden keine Netzwerkspeicherorte aus der Li
 **Tabelle 1.11. Vertrauenswürdige Speicherorte, die sich nicht auf dem Computer befinden, zulassen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte</p>
-<p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte</p>  
+<p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte</p>
 <p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte</p>
 <p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Word-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>access12.adm, excel12.adm, ppt12.adm, word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>Access: CCE-780</p>
-<p>Excel: CCE-1444</p>  
+<p>Excel: CCE-1444</p>
 <p>PowerPoint: CCE-747</p>
 <p>Word: CCE-1355</p></td>
 </tr>
@@ -686,24 +686,24 @@ Wenn diese Einstellung **deaktiviert** ist, können Benutzer Anlagen der Stufe 1
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Anlagensicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1388</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -731,33 +731,33 @@ Wenn diese Einstellung **deaktiviert** ist, speichern Office-Anwendungen IRM-akt
 **Tabelle 1.13. Benutzer mit früheren Versionen von Office können mit Browsern lesen...**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Eingeschränkte Berechtigungen verwalten</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1612</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -781,33 +781,33 @@ Wenn diese Einstellung **aktiviert** ist, wird das Dialogfeld automatisch erweit
 **Tabelle 1.14. Gruppen in Office immer erweitern, wenn die Berechtigung für Dokumente eingeschränkt wird**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Eingeschränkte Berechtigungen verwalten</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1409</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -831,33 +831,33 @@ Wenn diese Einstellung **aktiviert** ist, müssen die Benutzer eine Verbindung h
 **Tabelle 1.15. Benutzer müssen zum Überprüfen der Berechtigung immer eine Verbindung herstellen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Eingeschränkte Berechtigungen verwalten</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1493</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -881,33 +881,33 @@ Wenn diese Einstellung **aktiviert** ist, werden die Makrosicherheitseinstellung
 **Tabelle 1.16. Makrosicherheitseinstellungen auf Makros, Add-Ins und SmartTags anwenden**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Vertrauensstellungscenter</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1462</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -937,33 +937,33 @@ Wenn diese Einstellung **deaktiviert** ist, aktualisiert Excel automatische Verk
 **Tabelle 1.17. Aktualisieren von automatischen Verknüpfungen bestätigen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Erweitert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1119</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -987,33 +987,33 @@ Wenn diese Einstellung **deaktiviert** ist, weist Outlook 2007 dem sicheren Ordn
 **Tabelle 1.18. Anlage sicherer temporärer Ordner**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Kryptografie\Dialogfeld „Signaturstatus“</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1591</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1049,33 +1049,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus drei versc
 **Tabelle 1.19. Authentifizierung mit Exchange Server**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Kontoeinstellungen\Exchange</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Kerberos-/NTLM-Management-Kennwortauthentifizierung)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Kerberos-/NTLM-Management-Kennwortauthentifizierung)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1712</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1101,33 +1101,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer die SMTP-Einstellunge
 **Tabelle 1.20. Profil automatisch basierend auf der primären SMTP-Adresse von Active Directory konfigurieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Kontoeinstellungen\Exchange</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1281</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1157,33 +1157,33 @@ Wenn diese Einstellung **aktiviert** ist, lädt Outlook automatisch alle Anlagen
 **Tabelle 1.21. Anlagen automatisch herunterladen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Kontoeinstellungen\Internetkalender</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1682</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1209,33 +1209,33 @@ Wenn diese Einstellung **deaktiviert** ist, lädt Outlook 2007 nicht automatisch
 **Tabelle 1.22. Automatisch Inhalt für E-Mail von Personen in den Listen „Sichere Absender“ und „Sichere Empfänger“ herunterladen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Einstellungen für den automatischen Download von Bildern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-725</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1261,33 +1261,33 @@ Wenn diese Einstellung **deaktiviert** ist, erhalten die Benutzer keine Updates 
 **Tabelle 1.23. Automatisches Empfangen kleiner Updates zur Verbesserung der Zuverlässigkeit**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Datenschutz\Vertrauensstellungscenter</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-276</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1317,33 +1317,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus drei Optio
 **Tabelle 1.24. Automatisierungssicherheit**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Sicherheitseinstellungen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Makrosicherheitsstufe der Anwendung verwenden)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Makros standardmäßig deaktivieren)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1574</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1377,33 +1377,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren bestimmen, ob 
 **Tabelle 1.25. Warnung für automatisches Wiederveröffentlichen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Warnung immer vor dem Veröffentlichen anzeigen)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Warnung immer vor dem Veröffentlichen anzeigen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1334</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1435,33 +1435,33 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren drei Optionen z
 **Tabelle 1.26. Signal übertragende Elemente der Benutzeroberfläche für in InfoPath geöffnete Formulare**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzeroberfläche anzeigen, falls die Formularvorlage aus der Internetzone stammt)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Signal übertragende Elemente der Benutzeroberfläche immer anzeigen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1290</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1497,33 +1497,33 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren drei Optionen z
 **Tabelle 1.27. Signal übertragende Elemente der Benutzeroberfläche für in InfoPath-Editor-ActiveX geöffnete Formulare**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzeroberfläche anzeigen, falls die Formularvorlage aus der Internetzone stammt)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Signal übertragende Elemente der Benutzeroberfläche immer anzeigen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1381</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1551,33 +1551,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer keine Dateien öffnen
 **Tabelle 1.28. Öffnen von Konvertern blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-984</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1607,33 +1607,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer Binary 12 (XLSB)-Date
 **Tabelle 1.29. Öffnen von Binary 12-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1490</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1673,12 +1673,12 @@ Die Aktivierung dieser Einstellung verhindert nicht, dass Benutzer Dateien im XL
 **Tabelle 1.30. Öffnen von Binärdateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p>
@@ -1688,15 +1688,15 @@ Die Aktivierung dieser Einstellung verhindert nicht, dass Benutzer Dateien im XL
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm, ppt12.adm, word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>Excel: CCE-1512</p>
@@ -1747,24 +1747,24 @@ Wenn diese Einstellung **aktiviert** ist, können PowerPoint 2007-Benutzer keine
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>ppt12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1216</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1794,33 +1794,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer DIF- und SYLK-Dateien
 **Tabelle 1.32. Öffnen von DIF- und SYLK-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-554</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1900,33 +1900,33 @@ Durch Auswahl einer Version aus dieser Liste wird in Word 2007 das Öffnen von D
 **Tabelle 1.33. Öffnen von Dateien mit früherer Version als der folgenden blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Word 2003 wie von Word 2007 gespeichert)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1371</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -1974,33 +1974,33 @@ Wenn diese Einstellung **aktiviert** ist, können Excel 2007-Benutzer keine Open
 **Tabelle 1.34. Öffnen von Vorabversionen neuer Excel 2007-Dateiformate blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1331</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2042,33 +2042,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer HTML- oder XMLSS-Date
 **Tabelle 1.35. Öffnen von HTML- und XMLSS-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1543</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2106,12 +2106,12 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer HTML-Dateien in keine
 **Tabelle 1.36. Öffnen von HTML-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Dateiformate blockieren\Öffnen</p>
@@ -2120,15 +2120,15 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer HTML-Dateien in keine
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>ppt12.adm, word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>PowerPoint: CCE-1644</p>
@@ -2172,24 +2172,24 @@ Wenn diese Einstellung **aktiviert** ist, können Word 2007-Benutzer keine binä
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1503</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2225,12 +2225,12 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer Open XML-Dateien in d
 **Tabelle 1.38. Öffnen von Open XML-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p>
@@ -2240,15 +2240,15 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer Open XML-Dateien in d
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm, ppt12.adm, word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>Excel: CCE-1468</p>
@@ -2309,24 +2309,24 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer keine Gliederungsdate
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>ppt12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1194</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2366,33 +2366,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer des Compatibility Pac
 **Tabelle 1.40. Öffnen von Vorabversionen neuer Excel 2007-Dateiformate über das Compatibility Pack für 2007 Office System und den Excel 2007-Konverter blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Office 2007-Konverter</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1431</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2440,33 +2440,33 @@ Wenn diese Einstellung **aktiviert** ist, können PowerPoint 2007-Benutzer keine
 **Tabelle 1.41. Öffnen von Vorabversionen neuer PowerPoint 2007-Dateiformate blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>ppt12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1688</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2514,33 +2514,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer des Compatibility Pac
 **Tabelle 1.42. Öffnen von Vorabversionen neuer PowerPoint 2007-Dateiformate über das Compatibility Pack für 2007 Office System und den PowerPoint 2007-Konverter blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Office 2007-Konverter</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1594</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2580,33 +2580,33 @@ Wenn diese Einstellung **aktiviert** ist, können Word 2007-Benutzer keine Open 
 **Tabelle 1.43. Öffnen von Vorabversionen neuer Word 2007-Dateiformate blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1746</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2646,33 +2646,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer des Compatibility Pac
 **Tabelle 1.44. Öffnen von Vorabversionen neuer Word 2007-Dateiformate über das Compatibility Pack für 2007 Office System und den Word 97-2003/Open XML-Formatkonverter blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Office 2007-Konverter</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1549</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2702,33 +2702,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer RTF-Dateien in Word 2
 **Tabelle 1.45. Öffnen von RTF-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1579</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2756,12 +2756,12 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer keine Textdateien in 
 **Tabelle 1.46. Öffnen von Textdateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p>
@@ -2770,15 +2770,15 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer keine Textdateien in 
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm, word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>Excel: CCE-1415</p>
@@ -2824,24 +2824,24 @@ Wenn diese Einstellung **aktiviert** ist, können Word 2007-Benutzer keine Word 
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-958</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2869,33 +2869,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer XLL-Dateien in Excel 
 **Tabelle 1.48. Öffnen von XLL-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1437</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2923,33 +2923,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer XML-Dateien in Excel 
 **Tabelle 1.49. Öffnen von XML-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Öffnen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1195</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -2979,33 +2979,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer DIF- oder SYLK-Dateie
 **Tabelle 1.50. Speichern von DIF- und SYLK-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDCCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-573</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3051,12 +3051,12 @@ Die Aktivierung dieser Einstellung verhindert nicht, dass Benutzer Dateien im XL
 **Tabelle 1.51. Speichern von Binärdateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Speichern</p>
@@ -3066,15 +3066,15 @@ Die Aktivierung dieser Einstellung verhindert nicht, dass Benutzer Dateien im XL
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm, ppt12.adm, word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>Excel: CCE-562</p>
@@ -3123,24 +3123,24 @@ Wenn diese Einstellung **aktiviert** ist, können Excel 2007-Benutzer Dateien mi
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1098</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3172,33 +3172,33 @@ Wenn diese Einstellung **aktiviert** ist, können Word 2007-Benutzer keine Datei
 **Tabelle 1.53. Speichern von Konvertern blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1231</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3240,33 +3240,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer PowerPoint 2007-Präs
 **Tabelle 1.54. Speichern von Grafikfiltern blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Dateiformate blockieren\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>ppt12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1722</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3308,33 +3308,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer Dateien in den Format
 **Tabelle 1.55. Speichern von HTML- und XMLSS-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1507</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3372,12 +3372,12 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer in den angegebenen An
 **Tabelle 1.56. Speichern von HTML-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Dateiformate blockieren\Speichern</p>
@@ -3386,15 +3386,15 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer in den angegebenen An
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>ppt12.adm, word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>PowerPoint: CCE-1766</p>
@@ -3460,15 +3460,15 @@ Wenn diese Einstellung **deaktiviert** ist, können Benutzer Dateien im Office O
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm, ppt12.adm, word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>Excel: CCE-1446</p>
@@ -3529,24 +3529,24 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer PowerPoint 2007-Präs
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Dateiformate blockieren\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>ppt12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1180</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3576,33 +3576,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer RTF-Dateien in Word 2
 **Tabelle 1.59. Speichern von RTF-Dateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1741</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3632,12 +3632,12 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer keine Textdateien in 
 **Tabelle 1.60. Speichern von Textdateitypen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Dateiformate blockieren\Speichern</p>
@@ -3646,15 +3646,15 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer keine Textdateien in 
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>excel12.adm, ppt12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-IDs</strong></p></td>
 <td style="border:1px solid black;"><p>Excel: CCE-1336</p>
@@ -3700,24 +3700,24 @@ Wenn diese Einstellung **aktiviert** ist, können Word 2007-Benutzer keine Datei
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Dateiformate blockieren\Speichern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>word12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1200</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3751,33 +3751,33 @@ Informationen zum Entfernen von Dateitypen aus der Standardliste unzulässiger D
 **Tabelle 1.62. Bestimmte Dateitypen als Anlagen für Formulare blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1267</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3805,33 +3805,33 @@ Wenn diese Einstellung **aktiviert** ist, lädt Outlook 2007 nicht automatisch I
 **Tabelle 1.63. Vertrauenswürdige Zonen blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Einstellungen für den automatischen Download von Bildern</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1475</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -3859,33 +3859,33 @@ Wenn diese Einstellung **aktiviert** ist, werden die Elemente **Suchen nach Upda
 **Tabelle 1.64. Anwendung der Aktualisierungen von der Office Update-Website blockieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Verschiedenes</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-784</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung

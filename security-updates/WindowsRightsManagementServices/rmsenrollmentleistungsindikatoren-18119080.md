@@ -29,14 +29,14 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Enrollment (Reg
 <tr class="odd">
 <td style="border:1px solid black;"><p>SubEnroll Failures</p></td>
 <td style="border:1px solid black;"><p>Gesamtanzahl der Unterregistrierungsanforderungen, die nicht vollständig verarbeitet wurden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SubEnroll Processing Time</p></td>
 <td style="border:1px solid black;"><p>Durchschnittliche Verarbeitungszeit in Mikrosekunden pro Unterregistrierungsanforderung.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SubEnroll Requests</p></td>
 <td style="border:1px solid black;"><p>Gesamtanzahl der Unterregistrierungsanforderungen, die vom Registrierungsdienst empfangen wurden.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

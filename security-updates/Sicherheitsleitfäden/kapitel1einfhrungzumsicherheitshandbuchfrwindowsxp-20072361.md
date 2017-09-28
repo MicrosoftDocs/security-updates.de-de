@@ -202,28 +202,28 @@ In diesem Handbuch werden folgende typografische Elemente verwendet.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Fett</strong></p></td>
 <td style="border:1px solid black;"><p>Dies bedeutet, dass Zeichen genau wie dargestellt eingegeben werden, einschließlich Befehle, Switches und Dateinamen. Elemente der Benutzeroberfläche werden fett dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Kursiv</em></p></td>
 <td style="border:1px solid black;"><p>Titel von Büchern und andere wesentliche Veröffentlichungen werden <em>kursiv</em> dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>&lt;Kursiv&gt;</em></p></td>
 <td style="border:1px solid black;"><p>Kursiv dargestellte und in spitze Klammern gesetzte Platzhalter &lt; <em>Dateiname</em>&gt; stellen Variablen dar.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Monospace font</code></pre></td>
 <td style="border:1px solid black;"><p>So werden Code- und Skriptbeispiele dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Hinweis:</strong></p></td>
 <td style="border:1px solid black;"><p>Weist den Leser auf zusätzliche Informationen hin.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Wichtig</p></td>
 <td style="border:1px solid black;"><p>Weist den Leser auf wesentliche Zusatzinformationen hin.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfang](#mainsection)

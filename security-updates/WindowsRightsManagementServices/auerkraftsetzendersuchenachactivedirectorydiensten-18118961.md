@@ -62,13 +62,13 @@ Die folgende Tabelle enthält die Einträge, die Sie hinzufügen können, um die
 <td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
 <td style="border:1px solid black;"><p>String</p></td>
 <td style="border:1px solid black;"><p>http (oder https)://<em>Servername</em>/_wmcs/certification/subenrollservice.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GicURL</p></td>
 <td style="border:1px solid black;"><p>String</p></td>
 <td style="border:1px solid black;"><p>http (oder https)://<em>Servername</em>/_wmcs/certification/certification.asmx</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Außerkraftsetzen der clientseitigen Dienstermittlung für die Veröffentlichung  
@@ -99,36 +99,36 @@ In der folgenden Tabelle sind die Registrierungsschlüssel aufgeführt, die Sie 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Name</th>  
-<th>Typ</th>  
-<th>Wert</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Typ</th>
+<th>Wert</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation</p></td>
 <td style="border:1px solid black;"><p>String</p></td>
 <td style="border:1px solid black;"><p>http (oder https)://<em>RMS-Clustername</em>/_wmcs/Certification, wobei <em>RMS-Clustername</em> der Name Ihres RMS-Clusters ist.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
 <td style="border:1px solid black;"><p>String</p></td>
 <td style="border:1px solid black;"><p>http (oder https)://<em>RMS-Clustername</em>/_wmcs/Licensing, wobei <em>RMS-Custername</em> der Name Ihres RMS-Clusters ist.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CloudPublishing</p></td>
 <td style="border:1px solid black;"><p>String</p></td>
 <td style="border:1px solid black;"><p>http (oder https)://<em>FQDN-Clustername</em>/_wmcs/Licensing, wobei <em>FQDN-Clustername</em> der vollqualifizierte Domänenname (FQDN) Ihres RMS-Clusters ist.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Wir empfehlen, diese Registrierungsschlüssel entweder mithilfe von SMS (Systems Management Server) oder einer Gruppenrichtlinie zu implementieren, um so sicherzustellen, dass alle Clients in Ihrem Unternehmen die richtigen Veröffentlichungsserver verwenden.

@@ -65,24 +65,24 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus vier versc
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Programmatische Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>Outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzer basierend auf der Computersicherheit auffordern)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Automatisch ablehnen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1454</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -129,33 +129,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus vier versc
 **Tabelle 1.65. Eingabeaufforderung für Outlook-Objektmodell beim Zugriff auf ein Adressbuch konfigurieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Programmatische Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>Outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzer basierend auf der Computersicherheit auffordern)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Automatisch ablehnen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1004</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -202,33 +202,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus vier versc
 **Tabelle 1.67. Eingabeaufforderung für Outlook-Objektmodell beim Zugriff auf die Formula-Eigenschaft eines UserProperty-Objekts konfigurieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Programmatische Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>Outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzer basierend auf der Computersicherheit auffordern)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Automatisch ablehnen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1573</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -275,33 +275,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus vier versc
 **Tabelle 1.68. Eingabeaufforderung für Outlook-Objektmodell beim Ausführen von „Speichern unter“ konfigurieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Programmatische Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzer basierend auf der Computersicherheit auffordern)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Automatisch ablehnen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1568</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -347,33 +347,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus vier versc
 **Tabelle 1.69. Eingabeaufforderung für Outlook-Objektmodell beim Lesen von Adressinformationen konfigurieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Programmatische Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzer basierend auf der Computersicherheit auffordern)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Automatisch ablehnen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1273</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -420,33 +420,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus vier versc
 **Tabelle 1.70. Eingabeaufforderung für Outlook-Objektmodell beim Antworten auf Besprechungs- und Aufgabenanfragen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Programmatische Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>Outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzer basierend auf der Computersicherheit auffordern)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Automatisch ablehnen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1172</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -493,33 +493,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus vier versc
 **Tabelle 1.71. Eingabeaufforderung für Outlook-Objektmodell beim Senden von E-Mail konfigurieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Programmatische Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Benutzer basierend auf der Computersicherheit auffordern)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Automatisch ablehnen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1590</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -551,33 +551,33 @@ Wenn diese Einstellung **aktiviert** ist, wird eine Liste vertrauenswürdiger Ad
 **Tabelle 1.72. Vertrauenswürdige Add-Ins konfigurieren**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Programmatische Sicherheit\Vertrauenswürdige Add-Ins</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>outlk12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Deaktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-786</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -615,33 +615,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus drei versc
 **Tabelle 1.73. Verhalten der schrittweisen Aktualisierung von Windows SharePoint Services steuern**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (URL-Umleitungen an Intranetspeicherorte zulassen)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Alle URL-Umleitungen blockieren)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-704</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -671,33 +671,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus drei versc
 **Tabelle 1.74. Steuern des Verhaltens beim Öffnen von Formularen in der Sicherheitszone „Internet“**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Blockieren)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Blockieren)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1479</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -727,33 +727,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus drei versc
 **Tabelle 1.74. Steuern des Verhaltens beim Öffnen von Formularen in der Sicherheitszone „Intranet“**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Blockieren)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Blockieren)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1360</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -783,33 +783,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus drei versc
 **Tabelle 1.74. Steuern des Verhaltens beim Öffnen von Formularen in der Sicherheitszone „Vertrauenswürdige Sites“**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Blockieren)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Blockieren)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-893</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -837,33 +837,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus drei versc
 **Tabelle 1.77. Steuern des Verhaltens beim Öffnen von InfoPath-E-Mail-Formularen, die Code oder Skript enthalten**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\E-Mail-Formulare von InfoPath</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Bestätigung vor dem Ausführen)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Nie ausführen)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1315</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -893,33 +893,33 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren aus drei versc
 **Tabelle 1.78. Steuerelementbloggen**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Verschiedenes</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>office12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert (Bloggen vollständig deaktiviert)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1241</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -945,33 +945,33 @@ Wenn diese Einstellung **aktiviert** ist, können Benutzer Formularvorlagen kein
 **Tabelle 1.79. Benutzerdefinierter Code**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Speicherort in Gruppenrichtlinie</strong></p></td>
 <td style="border:1px solid black;"><p>Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Eingeschränkte Features</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>ADM-Datei</strong></p></td>
 <td style="border:1px solid black;"><p>inf12.adm</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (EC)</strong></p></td>
 <td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Empfohlene Einstellung (SSLF)</strong></p></td>
 <td style="border:1px solid black;"><p>Aktiviert</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>CCE-ID</strong></p></td>
 <td style="border:1px solid black;"><p>CCE-1564</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auswirkung
@@ -999,17 +999,17 @@ Das Aktivieren dieser Einstellung könnte bei Designern von InfoPath 2007-Formul
   
 [Senden Sie uns Ihre Kommentare und Anregungen](mailto:secwish@microsoft.com?subject=2007%20microsoft%20office-sicherheitshandbuch,%20bedrohungen%20und%20gegenmaßnahmen:%20sicherheitseinstellungen%20in%202007%20office%20system)
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://msdn.microsoft.com/de-de/library/2e2c33dc-f4b7-41a4-a54b-1e08dcf57479(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageLeft(de-de,TechNet.10).gif" /></a> 3 von 8 <a href="https://msdn.microsoft.com/de-de/library/f3af8a5d-5067-4add-917b-f7ab8cdca16c(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

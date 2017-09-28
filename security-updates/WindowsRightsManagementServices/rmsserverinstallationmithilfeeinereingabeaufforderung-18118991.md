@@ -43,24 +43,24 @@ In der untenstehenden Tabelle wird die Syntax für jeden Befehl erläutert.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/I MSDrmClient.msi</strong> oder <strong>/I RMClientBackCompat.msi</strong></p></td>
 <td style="border:1px solid black;"><p>Erforderlich. Gibt das zu installierende Produkt an.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/qn</strong></p></td>
 <td style="border:1px solid black;"><p>Optional. Gibt eine Installation ohne Rückfrage an, bei der der Benutzer nicht eingreifen muss.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/lei</strong> <em>/lei logfile.log</em></p></td>
 <td style="border:1px solid black;"><p>Optional. Gibt die Datei an, in der Fehler- und Statusmeldungen protokolliert werden sollen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>DISPLAYPAGE=”NO”</strong></p></td>
 <td style="border:1px solid black;"><p>Optional. Gibt an, dass die Seite <strong>Globale Verwaltung</strong> nach der Installation nicht angezeigt wird.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>TARGETDIR=c:\</strong><em>Installationsort</em></p></td>
 <td style="border:1px solid black;"><p>Optional. Gibt das Verzeichnis an, in dem RMS mit Service Pack 2 installiert werden soll. Wenn Sie keinen Pfad angeben, wird der Standardinstallationspfad verwendet.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747733.note(WS.10).gif)Hinweis                                                                                                                                                                                            |  

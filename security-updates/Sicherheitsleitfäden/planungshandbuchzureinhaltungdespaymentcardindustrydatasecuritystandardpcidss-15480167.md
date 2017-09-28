@@ -782,52 +782,52 @@ Microsoft-Datenschutztechnologien verknüpfen Entschlüsselungsschlüssel nicht 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Anforderung 1</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_network_security">Netzwerksicherheit</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Anforderung 2</p></td>
 <td style="border:1px solid black;"><p><a href="#_network_security">Netzwerksicherheit</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Anforderung 3</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Anforderung 4</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_messaging_and_collaboration">Messaging und Zusammenarbeit</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a>, <a href="#_network_security">Netzwerksicherheit</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Anforderung 5</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_malicious_software_prevention">Schutz vor schädlicher Software</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Anforderung 6</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_change_management">Änderungsmanagement</a>, <a href="#_host_control">Hoststeuerung</a>, <a href="#_malicious_software_prevention">Schutz vor schädlicher Software</a>, <a href="#_application_security">Anwendungssicherheit</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Anforderung 7</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_identity_management">Identitätsverwaltung</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Anforderung 8</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Anforderung 9</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Anforderung 10</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_change_management">Änderungsmanagement</a>, <a href="#_monitoring,_auditing,_and_reporting">Überwachen, Überprüfen und Berichten</a>, <a href="#_network_security">Netzwerksicherheit</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Anforderung 11</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_host_control">Hoststeuerung</a>, <a href="#_vulnerability_identification">Identifizieren von Sicherheitsrisiken</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Anforderung 12</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Weitere Ressourcen

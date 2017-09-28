@@ -250,41 +250,41 @@ In diesem Handbuch werden die folgenden typografischen Konventionen verwendet.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Fett</strong></p></td>
 <td style="border:1px solid black;"><p>Dies bedeutet, dass Zeichen genau wie dargestellt eingegeben werden, einschließlich Befehle, Switches und Dateinamen. Elemente der Benutzeroberfläche werden fett dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Kursiv</em></p></td>
 <td style="border:1px solid black;"><p>Titel von Büchern und anderen maßgeblichen Veröffentlichungen werden <em>kursiv</em> dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>&lt;Kursiv&gt;</em></p></td>
 <td style="border:1px solid black;"><p>Kursiv dargestellte und in spitze Klammern gesetzte Platzhalter &lt; <em>Dateiname</em>&gt; stellen Variablen dar.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Schriftart mit fester Breite</p></td>
 <td style="border:1px solid black;"><p>So werden Code- und Skriptbeispiele dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Hinweis</strong></p></td>
 <td style="border:1px solid black;"><p>Weist den Leser auf zusätzliche Informationen hin.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Wichtig</strong></p></td>
 <td style="border:1px solid black;"><p>Ein wichtiger Hinweis enthält Informationen, die für die Ausführung einer Aufgabe von hoher Bedeutung sind.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"> 
 <p><img src="images/Dd443745.warning(de-de,TechNet.10).gif" /><strong>Achtung:</strong></p></td>
 <td style="border:1px solid black;"><p>Der Leser wird auf wichtige ergänzende Informationen hingewiesen, die nicht ignoriert werden sollten.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>‡</p></td>
 <td style="border:1px solid black;"><p>Dieses Symbol bezeichnet spezielle Änderungen von Gruppenrichtlinieneinstellungen oder Empfehlungen hierzu.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>§</p></td>
 <td style="border:1px solid black;"><p>Dieses Symbol bezeichnet Gruppenrichtlinieneinstellungen, die in Windows Vista neu sind.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
@@ -462,17 +462,17 @@ Das United States Department of Commerce National Institute of Standards and Tec
 [Senden Sie uns Ihre Kommentare und Anregungen.](mailto:secwish@microsoft.com?subject=windows%20vista%20security%20guide) (engl.)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;">1 von 7 <a href="http://www.microsoft.com/germany/technet/prodtechnol/windowsvista/secprot/sicherheitshandbuch/implementing_security_baseline.mspx"><img src="images/Dd443745.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

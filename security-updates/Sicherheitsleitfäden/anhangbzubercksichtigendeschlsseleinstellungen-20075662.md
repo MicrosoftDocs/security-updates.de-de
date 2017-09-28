@@ -137,6 +137,6 @@ Zu den in Microsoft Windows verfügbaren Sicherheitseinstellungen zählen u. a.
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/e15ff47c-bd77-4b34-9b58-c3f3fba2d135(v=TechNet.10)"><img src="images/Dd443719.pageLeft(de-de,TechNet.10).gif" /></a> 16 von 19 <a href="https://technet.microsoft.com/de-de/library/3a17dffb-0395-4656-ada8-28e3954307f5(v=TechNet.10)"><img src="images/Dd443719.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

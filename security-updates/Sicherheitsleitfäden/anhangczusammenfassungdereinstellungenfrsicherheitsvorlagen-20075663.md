@@ -97,6 +97,6 @@ Um die Lesbarkeit der Tabelle zu erhöhen, wurden zusätzliche Spalten verwendet
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/prodtech/windowsserver2003/w2003hg/s3sgapxb.mspx"><img src="images/Dd443720.pageLeft(de-de,TechNet.10).gif" /></a> 17 von 19 <a href="http://www.microsoft.com/germany/technet/sicherheit/prodtech/windowsserver2003/w2003hg/s3sgapxd.mspx"><img src="images/Dd443720.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

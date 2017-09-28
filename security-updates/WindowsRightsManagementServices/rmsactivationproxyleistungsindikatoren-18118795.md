@@ -29,18 +29,18 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt ActivationProxy
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation Failure Processing Time</p></td>
 <td style="border:1px solid black;"><p>Die Zeit in Mikrosekunden, die aufgrund von Aktivierungsfehlerereignissen aufgewendet wurde.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Activation Failures</p></td>
 <td style="border:1px solid black;"><p>Die Anzahl von fehlgeschlagenen Aktivierungsanforderungen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation Requests</p></td>
 <td style="border:1px solid black;"><p>Die Gesamtanzahl der Anforderungen, die für den Aktivierungsdienst vorgenommen wurden.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Activation Total Processing Time</p></td>
 <td style="border:1px solid black;"><p>Die Verarbeitungszeit in Mikrosekunden, die vom Aktivierungsdienst aufgewendet wurde.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

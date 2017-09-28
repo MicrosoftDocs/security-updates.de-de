@@ -38,16 +38,16 @@ Die Hardwareanforderungen für RMS SP2 werden in der folgenden Tabelle aufgefü
 <tr class="odd">
 <td style="border:1px solid black;"><p>PC mit einem Pentium III-Prozessor (800 MHz oder höher)</p></td>
 <td style="border:1px solid black;"><p>PC mit zwei Pentium 4-Prozessoren (1500 MHz oder höher)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>256 MB Arbeitsspeicher</p></td>
 <td style="border:1px solid black;"><p>512 MB Arbeitsspeicher</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>20 GB freier Festplattenspeicher</p></td>
 <td style="border:1px solid black;"><p>40 GB freier Festplattenspeicher</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](https://msdn.microsoft.com/de-de/Cc747637.note(WS.10).gif)Hinweis                                                                                                   |  
@@ -59,41 +59,41 @@ Die Softwareanforderungen für die Serverkomponente von RMS SP2 werden in der f
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Komponente</th>  
-<th>Anforderung</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Komponente</th>
+<th>Anforderung</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Betriebssystem</p></td>
 <td style="border:1px solid black;"><p>Microsoft Windows Server® 2003, mit Ausnahme der Web Edition, für RMS mit SP2</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RMS mit SP2</p></td>
 <td style="border:1px solid black;"><p>Vor dem Upgrade auf RMS mit SP2 muss RMS mit Service Pack 1 (SP1) installiert werden. Für den RMS mit SP2-Client gilt diese Voraussetzung nicht.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Dateisystem</p></td>
 <td style="border:1px solid black;"><p>Das NTFS-Dateisystem wird empfohlen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Vorausgesetzte Komponenten</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Message Queuing (auch als MSMQ bezeichnet) mit aktivierter Active Directory®-Verzeichnisdienst-Integration<br />  
-<br />  
-</li>  
-<li>Internet Information Services (IIS) mit aktivierter Komponente ASP.NET<br />  
-<br />  
-</li>  
-<li>Microsoft .NET Framework 1.1<br />  
-<br />  
+<li>Message Queuing (auch als MSMQ bezeichnet) mit aktivierter Active Directory®-Verzeichnisdienst-Integration<br />
+<br />
+</li>
+<li>Internet Information Services (IIS) mit aktivierter Komponente ASP.NET<br />
+<br />
+</li>
+<li>Microsoft .NET Framework 1.1<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -125,12 +125,12 @@ Die Infrastrukturanforderungen für RMS mit SP2-Server werden in der folgenden T
 <tr class="odd">
 <td style="border:1px solid black;"><p>Verzeichnisdienste</p></td>
 <td style="border:1px solid black;"><p>Active Directory muss auf Domänencontrollern ausgeführt werden, auf denen Windows Server 2000 mit SP3 (oder höher) ausgeführt wird; diese Controller müssen sich in derselben Domäne befinden, in der RMS installiert ist. Alle Benutzer und Gruppen, die RMS zum Erwerben von Lizenzen und Veröffentlichen von Inhalt verwenden, müssen über eine in Active Directory konfigurierte E-Mail-Adresse verfügen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Datenbankserver</p></td>
 <td style="border:1px solid black;"><p>RMS mit SP2 erfordert eine Datenbank und gespeicherte Prozeduren zum Ausführen von Operationen. Sie können Microsoft SQL Server™ 2000 mit SP3a oder höher oder Microsoft SQL Server 2005 verwenden. Zum Testen oder für andere Bereitstellungen auf nur einem Computer können Sie Microsoft SQL Server Desktop Engine (MSDE 2000) Version A oder Microsoft SQL Server 2005 Express Edition verwenden.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 RMS wurde für Datenbankserver unter Microsoft SQL Server 2000 und Microsoft SQL Server 2005 entwickelt und entsprechend getestet. RMS kann auf anderen Datenbankservern ausgeführt werden, wenn diese die folgenden Anforderungen erfüllen:
@@ -149,43 +149,43 @@ In der folgenden Tabelle werden die zum Ausführen verschiedener Aktivitäten mi
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Aktivität</th>  
-<th>Kontoanforderungen</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aktivität</th>
+<th>Kontoanforderungen</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Installieren von RMS</p></td>
 <td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bereitstellen eines RMS-Stammclusters</p></td>
 <td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Active Directory-Such- und -Schreibrechten</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bereitstellen eines reinen RMS-Lizenzierungsclusters</p></td>
 <td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Active Directory-Suchrechten</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bereitstellen unter Verwendung einer neuen Konfigurationsdatenbank</p></td>
 <td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Lese-, Schreib- und Erstellungsrechten für einen Computer mit SQL Server</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bereitstellen unter Verwendung einer bestehenden Konfigurationsdatenbank</p></td>
 <td style="border:1px solid black;"><p>Domänenbenutzer mit Administratorrechten für den lokalen Computer und Lese- und Schreibrechten für einen Computer mit Datenbankserver</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Verwalten von RMS</p></td>
 <td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](https://msdn.microsoft.com/de-de/Cc747637.note(WS.10).gif)Hinweis                                                                                                                                                                                                                               |  
@@ -197,31 +197,31 @@ Wenn Sie RMS in einer Bereitstellung mit Clustern verwenden, beachten Sie die Pu
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Zustand</th>  
-<th>Empfehlung</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Zustand</th>
+<th>Empfehlung</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Große Zahl von Desktops, die RMS verwenden</p></td>
 <td style="border:1px solid black;"><p>Verwenden Sie zur Installation des RMS mit SP2-Clients Systems Management Server (SMS) oder Gruppenrichtlinien.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Große Zahl von Clientanforderungen</p></td>
 <td style="border:1px solid black;"><p>Verwenden Sie einen Lastenausgleichsserver, den Netzwerklastenausgleichdienst im Windows-Serverbetriebssystem oder Lastenausgleichhardware, um die Anforderungen gleichmäßig auf das Cluster zu verteilen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zwei Netzwerkadapter mit virtueller IP-Adressierung für Extranet- und Intranetanforderungen</p></td>
 <td style="border:1px solid black;"><p>Stellen Sie sicher, dass alle Registrierungen des Domain Name System (DNS), die die virtuelle IP-Adresse im Extranet anzeigen, die Adresse auch im Intranet bereitstellen.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](https://msdn.microsoft.com/de-de/Cc747637.Important(WS.10).gif)Wichtig                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  
@@ -246,7 +246,7 @@ In RMS mit SP2 stehen zahlreiche neue Features zur Verfügung:
 -   [Größere Serverbatches](#bkmk_cif3)  
 -   [Kompatibilität mit Microsoft SQL Server 2005](#bkmk_cif4)
   
-<span id="BKMK_CIF1"></span>  
+<span id="BKMK_CIF1"></span>
 #### Verbesserte gesamtstrukturübergreifende Gruppenerweiterung
   
 #### Was nützt mir dieses Feature?
@@ -279,7 +279,7 @@ Die neue RMS-Pipeline für die Gruppenerweiterung wird in RMS mit SP2 standardm�
   
 RMS mit SP2 wurden neue Ereignisse hinzugefügt, um Sie über problematische Nachrichten zu informieren, die nicht in den Message Queuing-Dienst aufgenommen wurden. Diese neuen Ereignisprotokollierungen enthalten Ereignisse, die Sie darüber informieren, wenn eine Nachricht nicht digital signiert oder überprüft werden kann. Dazu gehören beispielsweise fehlerhafte Nachrichten, ein fehlender bzw. falscher Hashwert oder eine fehlende bzw. falsche Signatur.
   
-<span id="BKMK_CIF2"></span>  
+<span id="BKMK_CIF2"></span>
 #### Änderungen an Datenbankprotokollierungen
   
 #### Was nützt mir dieses Feature?
@@ -302,7 +302,7 @@ In RMS SP2 erhalten die Nachrichten, die über das RMS-Cluster versendet werden
   
 RMS mit SP2 wurden neue Ereignisse hinzugefügt, um Sie über problematische Nachrichten zu informieren, die nicht in den Message Queuing-Dienst aufgenommen wurden. Diese neuen Ereignisse werden in das Anwendungsprotokoll geschrieben und enthalten Nachrichten, die nicht digital signiert werden können bzw. bei denen die digitale Signatur nicht überprüft werden kann. Dazu gehören beispielsweise fehlerhafte Nachrichten, ein fehlender bzw. falscher Hashwert oder eine fehlende bzw. falsche Signatur.
   
-<span id="BKMK_CIF3"></span>  
+<span id="BKMK_CIF3"></span>
 #### Größere Serverbatches
   
 #### Was nützt mir dieses Feature?
@@ -327,7 +327,7 @@ In RMS-Versionen vor RMS mit SP2 unterstützte der RMS-Cluster eine maximale Bat
   
 In RMS mit SP2 wurde die Fehlerberichterstattung erweitert, sodass auch Batchanfragen berücksichtigt werden. Wenn Sie beispielsweise einen Batch mit zehn Anfragen senden und die zweite und dritte Anfrage fehlschlägt, wird für jedes Fehlschlagen ein Ereignis in das Ereignisprotokoll geschrieben.
   
-<span id="BKMK_CIF4"></span>  
+<span id="BKMK_CIF4"></span>
 #### Kompatibilität mit Microsoft SQL Server 2005
   
 #### Was nützt mir dieses Feature?

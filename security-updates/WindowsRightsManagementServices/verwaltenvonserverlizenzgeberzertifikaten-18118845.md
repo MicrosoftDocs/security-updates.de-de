@@ -34,16 +34,16 @@ Es gibt drei von RMS im Systemereignisprotokoll veröffentlichte Ereignisse, die
 <td style="border:1px solid black;"><p>16</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiresInOneMonthEvent</p></td>
 <td style="border:1px solid black;"><p>Warnung: Der Dienst ist weiterhin wie üblich funktionsfähig.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiresInOneWeekEvent</p></td>
 <td style="border:1px solid black;"><p>Warnung: Der Dienst ist weiterhin wie üblich funktionsfähig.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>18</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiredEvent</p></td>
 <td style="border:1px solid black;"><p>Fehler: Der Dienst wurde deaktiviert.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

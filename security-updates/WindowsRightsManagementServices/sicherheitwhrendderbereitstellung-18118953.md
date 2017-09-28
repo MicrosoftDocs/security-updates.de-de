@@ -34,34 +34,34 @@ Während der Bereitstellung verwendet RMS (Rights Management Services oder Diens
 <td style="border:1px solid black;"><p>Konto des angemeldeten Benutzers</p></td>
 <td style="border:1px solid black;"><p>Erstellt virtuelle Verzeichnisse und Anwendungspools. Für IIS (Internet Information Services oder Internetinformationsdienste) ist eine Windows-Authentifizierung erforderlich, und RMS verkörpert dabei den angemeldeten Benutzer, der lokal angemeldet sein muss.</p></td>
 <td style="border:1px solid black;"><p>Vollzugriff (der angemeldete Benutzer muss ein lokaler Administrator sein).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Systemkonto</p></td>
 <td style="border:1px solid black;"><p>Erstellt die temporäre Assemblierung für Serialisierung.</p></td>
 <td style="border:1px solid black;"><p>Berechtigungen Lesen und Schreiben für den temporären Windows-Ordner C:\Windows\Temp.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ASPNET-Konto</p></td>
 <td style="border:1px solid black;"><p>Erstellt die temporäre Assemblierung der *.aspx-Dateien.</p></td>
 <td style="border:1px solid black;"><p>Zugriff auf das temporäre Assemblierungscacheverzeichnis, standardmäßig C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Konto Netzwerkdienste</p></td>
 <td style="border:1px solid black;"><p>Registriert den Dienstverbindungspunkt in Active Directory.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Berechtigungen Nur lesen für die Site für den Bereitstellungsprozess (normalerweise C:\Inetpub\Wwwroot\Provisioning).<br />  
-<br />  
-</li>  
-<li>Berechtigungen „Lesen“ und „Schreiben“ für den Registrierungsschlüssel <strong>DRMS</strong> . Die Berechtigungen werden von RMS-Setup erteilt, das auch folgende Registrierungsschlüssel erstellt.<br />  
-<br />  
-Auf Computern mit der 32-Bit-Version von Windows Server 2003<br />  
-<br />  
-<code>HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0</code><br />  
-<br />  
-Auf Computern mit der 64-Bit-Version von Windows Server 2003<br />  
-<br />  
-<code>HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0</code><br />  
-<br />  
+<li>Berechtigungen Nur lesen für die Site für den Bereitstellungsprozess (normalerweise C:\Inetpub\Wwwroot\Provisioning).<br />
+<br />
+</li>
+<li>Berechtigungen „Lesen“ und „Schreiben“ für den Registrierungsschlüssel <strong>DRMS</strong> . Die Berechtigungen werden von RMS-Setup erteilt, das auch folgende Registrierungsschlüssel erstellt.<br />
+<br />
+Auf Computern mit der 32-Bit-Version von Windows Server 2003<br />
+<br />
+<code>HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0</code><br />
+<br />
+Auf Computern mit der 64-Bit-Version von Windows Server 2003<br />
+<br />
+<code>HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0</code><br />
+<br />
 </li>
 </ul></td>
 </tr>

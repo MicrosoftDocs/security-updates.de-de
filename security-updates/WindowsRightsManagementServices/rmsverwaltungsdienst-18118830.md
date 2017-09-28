@@ -33,14 +33,14 @@ Die Standardzugriffsteuerungsliste bei diesem Dienst wird in folgender Tabelle g
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administratoren</p></td>
 <td style="border:1px solid black;"><p>Vollzugriff</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RMS-Dienstgruppe</p></td>
 <td style="border:1px solid black;"><p>Lesen und Ausführen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SYSTEM</p></td>
 <td style="border:1px solid black;"><p>Vollzugriff</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

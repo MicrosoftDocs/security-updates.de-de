@@ -36,28 +36,28 @@ In der folgenden Tabelle werden die Rechte aufgelistet, die Servern durch Server
 <td style="border:1px solid black;"><p>Rechtekontozertifikate</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Veröffentlichungslizenzen</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nutzungslizenzen</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Untergeordnete Server-Lizenzgeberzertifikate</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Nein</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Client-Lizenzgeberzertifikate</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
 <td style="border:1px solid black;"><p>Ja</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720184.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  

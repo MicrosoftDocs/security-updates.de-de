@@ -43,20 +43,20 @@ Sie können die folgenden Zahlen während der Kapazitätsplanung verwenden, um d
 <td style="border:1px solid black;"><p>Wiederholt für jeden Benutzer und für jeden Inhalt</p></td>
 <td style="border:1px solid black;"><p>64</p></td>
 <td style="border:1px solid black;"><p>18</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rechtekontozertifizierung</p></td>
 <td style="border:1px solid black;"><p>Ausschließlich bei RMS-Initialisierungsverkehr</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Clientregistrierung</p></td>
 <td style="border:1px solid black;"><p>Ausschließlich bei RMS-Initialisierungsverkehr</p></td>
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Zusätzlich kann der Active Directory-Abfrageverkehr einen Einfluss auf den Netzwerkdurchsatz haben. Dies ist jedoch üblicherweise kein Faktor, wenn RMS-Server in der Nähe der Server mit dem globalen Katalog positioniert werden. Die Ausnahme hierzu wäre, wenn ein Versagen aller Server mit globalen Katalogen an einem Standort ein Failover bei einem anderen Standort über eine Verbindung hervorrufen würde, die nicht die gleiche Kapazität besitzt.
@@ -66,31 +66,31 @@ In der folgenden Tabelle sind Basisdaten zur Bandbreitennutzung durch RMS-Transa
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Transaktion</th>  
-<th>Bandbreitennutzung – RMS an globalen Katalog (Byte)</th>  
-<th>Bandbreitennutzung – Globaler Katalog an RMS (Byte)</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transaktion</th>
+<th>Bandbreitennutzung – RMS an globalen Katalog (Byte)</th>
+<th>Bandbreitennutzung – Globaler Katalog an RMS (Byte)</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Herstellen von RMS-Verbindungen (ldap_bind)</p></td>
 <td style="border:1px solid black;"><p>1600</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Auswertung der RMS-Gruppenzugehörigkeit (ldap_search)</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
 <td style="border:1px solid black;"><p>100</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Wenn diese Referenztabellen verwendet werden, sollte sichergestellt werden, dass die Menge aus dem Inhalt der Bereitstellung verwendet wird. Wenn ein Benutzer beispielsweise 15 Gruppen angehört, wären 200 Byte für eine Suchanfrage aus RMS nötig sowie 1500 Byte (100 Byte \* 15) für die Antwort vom globalen Katalog.

@@ -29,52 +29,52 @@ In der folgenden Tabelle werden die Rechte, die Sie für eine Vorlage für Benut
 <tr class="odd">
 <td style="border:1px solid black;"><p>Vollzugriff</p></td>
 <td style="border:1px solid black;"><p>OWNER</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Anzeigerechte</p></td>
 <td style="border:1px solid black;"><p>VIEWRIGHT</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Exportieren (Speichern unter)</p></td>
 <td style="border:1px solid black;"><p>EXPORT</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Speichern</p></td>
 <td style="border:1px solid black;"><p>EDIT</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Anzeigen</p></td>
 <td style="border:1px solid black;"><p>VIEW</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Drucken</p></td>
 <td style="border:1px solid black;"><p>PRINT</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Extrahieren</p></td>
 <td style="border:1px solid black;"><p>EXTRACT</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bearbeiten</p></td>
 <td style="border:1px solid black;"><p>DOCEDIT</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Makros zulassen</p></td>
 <td style="border:1px solid black;"><p>OBJMODEL</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Weiterleiten</p></td>
 <td style="border:1px solid black;"><p>FORWARD</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Antworten</p></td>
 <td style="border:1px solid black;"><p>REPLY</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Allen antworten</p></td>
 <td style="border:1px solid black;"><p>REPLYALL</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Eine RMS-Clientanwendung kann auch eine Benutzeroberfläche bereitstellen. Damit erhalten Verfasser die Möglichkeit zum Auswählen bestimmter Rechte für geschützte Inhalte, ohne eine Vorlage verwenden zu müssen. In diesem Fall legt die Anwendung fest, wie die Rechte für den Benutzer angezeigt werden und wie die angezeigten Auswahlmöglichkeiten den XrML-Elementen entsprechen sollen.

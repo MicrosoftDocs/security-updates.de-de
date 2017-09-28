@@ -57,23 +57,23 @@ Zur Verdeutlichung: Beispielsweise stellt eine Organisation RMS für ihre 5000 B
 <td style="border:1px solid black;"><p>RMS-Server wird erfolgreich bereitgestellt</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Registrierung von 5000 Mitarbeitern (5000*0,06)</p></td>
 <td style="border:1px solid black;"><p>300 MB</p></td>
 <td style="border:1px solid black;"><p>301,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zugriff auf geschützte E-Mails (25.000*0,19)</p></td>
 <td style="border:1px solid black;"><p>4,750 MB</p></td>
 <td style="border:1px solid black;"><p>5.051,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zugriff auf geschützte Dokumente (15.000*0,19)</p></td>
 <td style="border:1px solid black;"><p>2,850 MB</p></td>
 <td style="border:1px solid black;"><p>7.901,7 MB</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Dies bedeutet, dass die Protokollierungsdatenbank nach der Registrierung eine Größe von etwa 300 MB hat. Das tägliche Wachstum im vorliegenden Beispiel beträgt jedoch 7,6 GB – dies entspricht fast der Begrenzung von 8 GB für die Standardinstallation von Message Queuing. Wenn die Protokollierungsdatenbank für mehr als einen Tag nicht zur Verfügung stünde, würden Protokolleinträge verloren gehen.

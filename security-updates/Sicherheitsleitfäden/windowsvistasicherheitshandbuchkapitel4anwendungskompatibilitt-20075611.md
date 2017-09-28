@@ -244,6 +244,6 @@ Die folgenden Links stellen zusätzliche Informationen zur Anwendungskompatibili
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/prodtechnol/windowsvista/secprot/sicherheitshandbuch/protect_sensitive_data.mspx"><img src="images/Dd443668.pageLeft(de-de,TechNet.10).gif" /></a>5 von 7<a href="http://www.microsoft.com/germany/technet/prodtechnol/windowsvista/secprot/sicherheitshandbuch/specialized_security.mspx"><img src="images/Dd443668.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

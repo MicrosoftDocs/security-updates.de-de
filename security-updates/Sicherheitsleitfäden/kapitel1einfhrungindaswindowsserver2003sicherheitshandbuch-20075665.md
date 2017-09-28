@@ -247,28 +247,28 @@ In diesem Leitfaden werden folgende typografische Elemente verwendet.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Fett</strong></p></td>
 <td style="border:1px solid black;"><p>Bedeutet, dass Zeichen dem Wortlaut nach angezeigt werden, einschließlich Befehle, Optionen und Dateinamen. Elemente der Benutzeroberfläche werden fett dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Kursiv</em></p></td>
 <td style="border:1px solid black;"><p>Titel von Büchern und andere wesentliche Veröffentlichungen werden kursiv dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>&lt;Kursiv&gt;</em></p></td>
 <td style="border:1px solid black;"><p>Platzhalter in Kursiv und Dreiecksklammern <em>&lt;Dateiname&gt;</em> stellen Variable dar.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Monospace-Schriftart</p></td>
 <td style="border:1px solid black;"><p>So werden Code- und Skriptbeispiele dargestellt.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Hinweis:</strong></p></td>
 <td style="border:1px solid black;"><p>Weist den Leser auf zusätzliche Informationen hin.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Wichtig</strong></p></td>
 <td style="border:1px solid black;"><p>Weist den Leser auf wesentliche Zusatzinformationen hin.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
@@ -326,17 +326,17 @@ Unter den folgenden Links erhalten Sie zusätzliche Informationen zum Thema Sich
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><div>
 <a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
 </div></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/303c53d5-6b76-46e1-8ee3-7d8c99891129(v=TechNet.10)"><img src="images/Dd443722.pageLeft(de-de,TechNet.10).gif" /></a> 2 von 19 <a href="https://technet.microsoft.com/de-de/library/015a5e65-1d76-48df-9657-6fe516a5095a(v=TechNet.10)"><img src="images/Dd443722.pageRight(de-de,TechNet.10).gif" /></a></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

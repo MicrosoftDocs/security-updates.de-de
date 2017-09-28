@@ -29,11 +29,11 @@ Wenn Sie RMS in einer Clusterkonfiguration einsetzen, sollten Sie sicherstellen,
 <tr class="odd">
 <td style="border:1px solid black;"><p>Große Anzahl von Desktops, die RMS verwenden</p></td>
 <td style="border:1px solid black;"><p>Sie können mit Windows Update, einem Skript oder einer Softwareverteilungsmethode wie Systems Management Server (SMS) oder mit einer Gruppenrichtlinie die Clientsoftware von Microsoft Windows RMS installieren und aktivieren.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Viele Clientanforderungen</p></td>
 <td style="border:1px solid black;"><p>Mithilfe eines Lastenausgleichsservers, des Netzwerklastenausgleichsdienstes (Network Load Balancing oder NLB) oder eines Hardwarelastenausgleichs können Anforderungen über den Cluster verteilt werden.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zwei Netzwerkadapter mit virtueller IP-Adressen-Zuweisung, sowohl für Extranet- als auch Intranet-Anforderungen</p></td>
 <td style="border:1px solid black;"><p>Stellen Sie sicher, dass alle DNS-Registrierungen, mit deren Hilfe virtuelle IP-Adressen auf dem Extranet dargestellt werden sollen, auch für die Darstellung im Intranet verantwortlich sind.</p>
