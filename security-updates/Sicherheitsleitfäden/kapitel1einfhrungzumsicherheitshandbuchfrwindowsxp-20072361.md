@@ -186,7 +186,7 @@ In diesem Handbuch werden folgende typografische Elemente verwendet.
 
 **Tabelle 1.1: Typografische Elemente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -194,34 +194,34 @@ In diesem Handbuch werden folgende typografische Elemente verwendet.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Element</p></th>
-<th><p>Bedeutung</p></th>
+<th>Element</th>
+<th>Bedeutung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Fett</strong></p></td>
-<td style="border:1px solid black;"><p>Dies bedeutet, dass Zeichen genau wie dargestellt eingegeben werden, einschließlich Befehle, Switches und Dateinamen. Elemente der Benutzeroberfläche werden fett dargestellt.</p></td>
+<td style="border:1px solid black;"><strong>Fett</strong></td>
+<td style="border:1px solid black;">Dies bedeutet, dass Zeichen genau wie dargestellt eingegeben werden, einschließlich Befehle, Switches und Dateinamen. Elemente der Benutzeroberfläche werden fett dargestellt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Kursiv</em></p></td>
-<td style="border:1px solid black;"><p>Titel von Büchern und andere wesentliche Veröffentlichungen werden <em>kursiv</em> dargestellt.</p></td>
+<td style="border:1px solid black;"><em>Kursiv</em></td>
+<td style="border:1px solid black;">Titel von Büchern und andere wesentliche Veröffentlichungen werden <em>kursiv</em> dargestellt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>&lt;Kursiv&gt;</em></p></td>
-<td style="border:1px solid black;"><p>Kursiv dargestellte und in spitze Klammern gesetzte Platzhalter &lt; <em>Dateiname</em>&gt; stellen Variablen dar.</p></td>
+<td style="border:1px solid black;"><em>&lt;Kursiv&gt;</em></td>
+<td style="border:1px solid black;">Kursiv dargestellte und in spitze Klammern gesetzte Platzhalter &lt; <em>Dateiname</em>&gt; stellen Variablen dar.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Monospace font</code></pre></td>
-<td style="border:1px solid black;"><p>So werden Code- und Skriptbeispiele dargestellt.</p></td>
+<td style="border:1px solid black;">So werden Code- und Skriptbeispiele dargestellt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Hinweis:</strong></p></td>
-<td style="border:1px solid black;"><p>Weist den Leser auf zusätzliche Informationen hin.</p></td>
+<td style="border:1px solid black;"><strong>Hinweis:</strong></td>
+<td style="border:1px solid black;">Weist den Leser auf zusätzliche Informationen hin.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wichtig</p></td>
-<td style="border:1px solid black;"><p>Weist den Leser auf wesentliche Zusatzinformationen hin.</p></td>
+<td style="border:1px solid black;">Wichtig</td>
+<td style="border:1px solid black;">Weist den Leser auf wesentliche Zusatzinformationen hin.</td>
 </tr>
 </tbody>
 </table>

@@ -68,7 +68,7 @@ In Schritt 3 haben Sie die Konfiguration des Upstream- und des Proxyservers abg
 
 4.  Klicken Sie auf **Fertig stellen**.
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
@@ -81,11 +81,11 @@ In Schritt 3 haben Sie die Konfiguration des Upstream- und des Proxyservers abg
     <tbody>
     <tr class="odd">
     <td style="border:1px solid black;">Konfigurationsänderungen, die während der Synchronisierung des Servers vorgenommen werden, können nicht gespeichert werden. Nehmen Sie daher erst Änderungen vor, wenn die Synchronisierung abgeschlossen ist.
-    <p></p></td>
+    </td>
     </tr>
     </tbody>
     </table>
-<p> </p>
+ 
 
 Bei Verwendung der WSUS-Verwaltungskonsole
 ------------------------------------------

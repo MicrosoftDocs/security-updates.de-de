@@ -36,7 +36,7 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Druckserver 
 
 **Tabelle 8.1: Druckserver-Sicherheitsvorlagen für alle drei Umgebungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -45,16 +45,16 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Druckserver 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Älterer Client - Druckserver.inf</p></td>
-<td style="border:1px solid black;"><p>Unternehmensclient - Druckserver.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Druckserver.inf</p></td>
+<td style="border:1px solid black;">Älterer Client - Druckserver.inf</td>
+<td style="border:1px solid black;">Unternehmensclient - Druckserver.inf</td>
+<td style="border:1px solid black;">Hochsicher - Druckserver.inf</td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@ Die meisten Sicherheitsoptionseinstellungen für Druckserver in den drei in dies
   
 **Tabelle 8.2: Empfohlene Einstellungen für „Kommunikation digital signieren (immer)“**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -95,18 +95,18 @@ Die meisten Sicherheitsoptionseinstellungen für Druckserver in den drei in dies
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -286,7 +286,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Drucks
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

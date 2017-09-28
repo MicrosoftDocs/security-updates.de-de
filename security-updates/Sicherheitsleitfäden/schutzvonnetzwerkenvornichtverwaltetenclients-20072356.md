@@ -158,7 +158,7 @@ Das physische Isolieren von Computern und Netzwerken ist kein neues Konzept. Es 
 
 **Tabelle 1. Methoden der Netzwerkisolation**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -167,34 +167,34 @@ Das physische Isolieren von Computern und Netzwerken ist kein neues Konzept. Es 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>OSI-Schicht</p></th>
-<th><p>Methode</p></th>
-<th><p>Probleme</p></th>
+<th>OSI-Schicht</th>
+<th>Methode</th>
+<th>Probleme</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schicht 1</p></td>
-<td style="border:1px solid black;"><p>Separate Verkabelung für Segmente verwenden, die vom vertrauenswürdigen Netzwerk isoliert sein müssen</p></td>
+<td style="border:1px solid black;">Schicht 1</td>
+<td style="border:1px solid black;">Separate Verkabelung für Segmente verwenden, die vom vertrauenswürdigen Netzwerk isoliert sein müssen</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Kostenaufwand für das Verlegen neuer Kabel für jede neue Verbindung</p></li>
-<li><p>Höherer Verwaltungsaufwand für jeweils neue Kabelanschlüsse bei räumlicher Verlagerung von Benutzern</p></li>
-<li><p>Mangelnde Flexibilität und schwierige Handhabung bei Expansion des Unternehmens</p></li>
-<li><p>Erhöhte Wahrscheinlichkeit versehentlicher Fehler aufgrund des höheren Verwaltungsaufwands</p></li>
+<li>Kostenaufwand für das Verlegen neuer Kabel für jede neue Verbindung</li>
+<li>Höherer Verwaltungsaufwand für jeweils neue Kabelanschlüsse bei räumlicher Verlagerung von Benutzern</li>
+<li>Mangelnde Flexibilität und schwierige Handhabung bei Expansion des Unternehmens</li>
+<li>Erhöhte Wahrscheinlichkeit versehentlicher Fehler aufgrund des höheren Verwaltungsaufwands</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Schicht 2</p></td>
-<td style="border:1px solid black;"><p>Mithilfe von VLANs logische Subnetze erstellen, die vom vertrauenswürdigen Netzwerk isoliert sind</p></td>
+<td style="border:1px solid black;">Schicht 2</td>
+<td style="border:1px solid black;">Mithilfe von VLANs logische Subnetze erstellen, die vom vertrauenswürdigen Netzwerk isoliert sind</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Zusätzliche Kosten in Zusammenhang mit der Aktualisierung der Switchstruktur zur Unterstützung der VLANs</p></li>
-<li><p>Höherer Verwaltungsaufwand für Netzwerkänderungen, räumliche Verlagerung von Benutzern und Beantwortung von Gastverbindungsanforderungen</p></li>
-<li><p>Anfälligkeit für versehentliche Fehler bei räumlicher Verlagerung mehrerer Benutzer oder bei Verwendung mobiler Geräte</p></li>
+<li>Zusätzliche Kosten in Zusammenhang mit der Aktualisierung der Switchstruktur zur Unterstützung der VLANs</li>
+<li>Höherer Verwaltungsaufwand für Netzwerkänderungen, räumliche Verlagerung von Benutzern und Beantwortung von Gastverbindungsanforderungen</li>
+<li>Anfälligkeit für versehentliche Fehler bei räumlicher Verlagerung mehrerer Benutzer oder bei Verwendung mobiler Geräte</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Wie diese Tabelle verdeutlicht, benötigt ein modernes Unternehmensnetzwerk eine flexiblere Lösung zur Gewährleistung der Konformität mit Sicherheitsstandards, die vor den Gefahren durch nicht verwaltete Systeme schützen. Einige Lösungen für dieses Problem sind bei Drittanbietern erhältlich. Diese Lösungen müssen jedoch jeweils clientseitig auf allen verwalteten Arbeitsstationen installiert werden und fügen dem Netzwerk eine zusätzliche Komplexitätsebene hinzu. Glücklicherweise sind aktuelle Versionen von Microsoft Windows bereits mit einer Funktionalität ausgestattet, mit der sich das Problem ohne Installation zusätzlicher Software und ohne administrativen Lernaufwand lösen lässt.
 

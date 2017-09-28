@@ -15,7 +15,7 @@ Es gibt drei von RMS im Systemereignisprotokoll veröffentlichte Ereignisse, die
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -31,19 +31,19 @@ Es gibt drei von RMS im Systemereignisprotokoll veröffentlichte Ereignisse, die
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>16</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiresInOneMonthEvent</p></td>
-<td style="border:1px solid black;"><p>Warnung: Der Dienst ist weiterhin wie üblich funktionsfähig.</p></td>
+<td style="border:1px solid black;">16</td>
+<td style="border:1px solid black;">LicensorCertExpiresInOneMonthEvent</td>
+<td style="border:1px solid black;">Warnung: Der Dienst ist weiterhin wie üblich funktionsfähig.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiresInOneWeekEvent</p></td>
-<td style="border:1px solid black;"><p>Warnung: Der Dienst ist weiterhin wie üblich funktionsfähig.</p></td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">LicensorCertExpiresInOneWeekEvent</td>
+<td style="border:1px solid black;">Warnung: Der Dienst ist weiterhin wie üblich funktionsfähig.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>18</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiredEvent</p></td>
-<td style="border:1px solid black;"><p>Fehler: Der Dienst wurde deaktiviert.</p></td>
+<td style="border:1px solid black;">18</td>
+<td style="border:1px solid black;">LicensorCertExpiredEvent</td>
+<td style="border:1px solid black;">Fehler: Der Dienst wurde deaktiviert.</td>
 </tr>
 </tbody>
 </table>

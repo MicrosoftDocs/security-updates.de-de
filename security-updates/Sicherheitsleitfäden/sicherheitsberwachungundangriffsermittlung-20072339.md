@@ -174,7 +174,7 @@ Ereignis-Header umfassen die folgenden Felder:
 
 **Tabelle 1. Der Ereignis-Header**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -182,42 +182,42 @@ Ereignis-Header umfassen die folgenden Felder:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Feld</p></th>
-<th><p>Definition</p></th>
+<th>Feld</th>
+<th>Definition</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Datum</p></td>
-<td style="border:1px solid black;"><p>Das Datum, an dem das Ereignis eintrat</p></td>
+<td style="border:1px solid black;">Datum</td>
+<td style="border:1px solid black;">Das Datum, an dem das Ereignis eintrat</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Uhrzeit</p></td>
-<td style="border:1px solid black;"><p>Die örtliche Uhrzeit, zu der das Ereignis eintrat</p></td>
+<td style="border:1px solid black;">Uhrzeit</td>
+<td style="border:1px solid black;">Die örtliche Uhrzeit, zu der das Ereignis eintrat</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Typ</p></td>
-<td style="border:1px solid black;"><p>Eine Klassifizierung des Schweregrads oder Typs des Ereignisses. Bei Sicherheitsüberwachungsereignissen finden die Typen „Erfolgsüberwachung“ und „Fehlerüberwachung“ Anwendung.</p></td>
+<td style="border:1px solid black;">Typ</td>
+<td style="border:1px solid black;">Eine Klassifizierung des Schweregrads oder Typs des Ereignisses. Bei Sicherheitsüberwachungsereignissen finden die Typen „Erfolgsüberwachung“ und „Fehlerüberwachung“ Anwendung.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Quelle</p></td>
-<td style="border:1px solid black;"><p>Die Anwendung, die das Ereignis protokolliert hat. Dies kann beispielsweise ein echtes Programm wie SQL Server, ein Treibername oder eine Systemkomponente wie die Sicherheitskomponente sein.</p></td>
+<td style="border:1px solid black;">Quelle</td>
+<td style="border:1px solid black;">Die Anwendung, die das Ereignis protokolliert hat. Dies kann beispielsweise ein echtes Programm wie SQL Server, ein Treibername oder eine Systemkomponente wie die Sicherheitskomponente sein.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kategorie</p></td>
-<td style="border:1px solid black;"><p>Die Ereignisquellenklassifizierung des Ereignisses. Die Ereignisquellenklassifizierung ist in Sicherheitsüberwachungsprotokollen von Relevanz, da sie sich auf Ereignistypen bezieht, die in der Gruppenrichtlinie konfiguriert werden können.</p></td>
+<td style="border:1px solid black;">Kategorie</td>
+<td style="border:1px solid black;">Die Ereignisquellenklassifizierung des Ereignisses. Die Ereignisquellenklassifizierung ist in Sicherheitsüberwachungsprotokollen von Relevanz, da sie sich auf Ereignistypen bezieht, die in der Gruppenrichtlinie konfiguriert werden können.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ereignis-ID</p></td>
-<td style="border:1px solid black;"><p>Dieser Code dient der Identifizierung des spezifischen Ereignistyps. Die Abbildung oben weist die Ereignis-ID 680 auf. Dies bedeutet, dass Anmeldeinformationen von einem lokalen Prozess, einem Remoteprozess oder einem Benutzer an das Authentifizierungssystem übergeben wurden.</p></td>
+<td style="border:1px solid black;">Ereignis-ID</td>
+<td style="border:1px solid black;">Dieser Code dient der Identifizierung des spezifischen Ereignistyps. Die Abbildung oben weist die Ereignis-ID 680 auf. Dies bedeutet, dass Anmeldeinformationen von einem lokalen Prozess, einem Remoteprozess oder einem Benutzer an das Authentifizierungssystem übergeben wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Benutzer</p></td>
-<td style="border:1px solid black;"><p>Der Benutzername, unter dem das Ereignis auftrat. Dieser Name entspricht der Client-ID, falls das Ereignis von einem Prozess verursacht wurde, bzw. der Primär-ID, falls kein Identitätswechsel erfolgt. Bei Sicherheitsereignissen werden sowohl die Primär- als auch die Identitätswechselinformationen angezeigt, sofern dies möglich und sinnvoll ist.</p></td>
+<td style="border:1px solid black;">Benutzer</td>
+<td style="border:1px solid black;">Der Benutzername, unter dem das Ereignis auftrat. Dieser Name entspricht der Client-ID, falls das Ereignis von einem Prozess verursacht wurde, bzw. der Primär-ID, falls kein Identitätswechsel erfolgt. Bei Sicherheitsereignissen werden sowohl die Primär- als auch die Identitätswechselinformationen angezeigt, sofern dies möglich und sinnvoll ist.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Computer</p></td>
-<td style="border:1px solid black;"><p>Der Name des Computers, auf dem das Ereignis eintrat.</p></td>
+<td style="border:1px solid black;">Computer</td>
+<td style="border:1px solid black;">Der Name des Computers, auf dem das Ereignis eintrat.</td>
 </tr>
 </tbody>
 </table>
@@ -588,7 +588,7 @@ Eine der Entscheidungen, die ein Unternehmen zur Schadensbegrenzung treffen muss
   
 **Tabelle 2. Speichergrenzen für forensische Analysen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -597,31 +597,31 @@ Eine der Entscheidungen, die ein Unternehmen zur Schadensbegrenzung treffen muss
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Speicherungsfaktoren</p></th>
-<th><p>Speichergrenzen</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Speicherungsfaktoren</th>
+<th>Speichergrenzen</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Onlinespeicherung (Datenbank)</p></td>
-<td style="border:1px solid black;"><p>21 Tage</p></td>
-<td style="border:1px solid black;"><p>Bietet schnellen Zugriff auf Ereignisdetails</p></td>
+<td style="border:1px solid black;">Onlinespeicherung (Datenbank)</td>
+<td style="border:1px solid black;">21 Tage</td>
+<td style="border:1px solid black;">Bietet schnellen Zugriff auf Ereignisdetails</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Offlinespeicherung (Sicherung)</p></td>
-<td style="border:1px solid black;"><p>180 Tage</p></td>
-<td style="border:1px solid black;"><p>Sinnvolle Archivierungsdauer für die meisten Unternehmen</p></td>
+<td style="border:1px solid black;">Offlinespeicherung (Sicherung)</td>
+<td style="border:1px solid black;">180 Tage</td>
+<td style="border:1px solid black;">Sinnvolle Archivierungsdauer für die meisten Unternehmen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Regulierte Umgebung</p></td>
-<td style="border:1px solid black;"><p>7 Jahre</p></td>
-<td style="border:1px solid black;"><p>Erforderliche Archivierungsdauer für regulierte Unternehmen</p></td>
+<td style="border:1px solid black;">Regulierte Umgebung</td>
+<td style="border:1px solid black;">7 Jahre</td>
+<td style="border:1px solid black;">Erforderliche Archivierungsdauer für regulierte Unternehmen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Geheimdienste</p></td>
-<td style="border:1px solid black;"><p>Permanent</p></td>
-<td style="border:1px solid black;"><p>Vorschrift für Geheimdienst- und Verteidigungseinrichtungen</p></td>
+<td style="border:1px solid black;">Geheimdienste</td>
+<td style="border:1px solid black;">Permanent</td>
+<td style="border:1px solid black;">Vorschrift für Geheimdienst- und Verteidigungseinrichtungen</td>
 </tr>
 </tbody>
 </table>
@@ -808,7 +808,7 @@ Die folgende Tabelle enthält eine Liste von Anmeldeüberwachungsereignissen, di
   
 **Tabelle 3. Ereignisse im Zusammenhang mit nicht autorisierten Computerverwendungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -817,61 +817,61 @@ Die folgende Tabelle enthält eine Liste von Anmeldeüberwachungsereignissen, di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p></td>
-<td style="border:1px solid black;"><p>Erfolgreiche Anmeldung</p></td>
-<td style="border:1px solid black;"><p>Überprüfen Sie die Namen der Arbeitsstation und des Benutzerkontos. Vergewissern Sie sich, dass sich die Quellnetzwerkadresse innerhalb eines Netzwerks befindet.</p></td>
+<td style="border:1px solid black;">528</td>
+<td style="border:1px solid black;">Erfolgreiche Anmeldung</td>
+<td style="border:1px solid black;">Überprüfen Sie die Namen der Arbeitsstation und des Benutzerkontos. Vergewissern Sie sich, dass sich die Quellnetzwerkadresse innerhalb eines Netzwerks befindet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – unbekannter Benutzername oder falsches Kennwort</p></td>
-<td style="border:1px solid black;"><p>Überprüfen Sie, ob ein Anmeldungsversuch unternommen wurde, bei dem der Zielkontoname „Administrator“ lautet oder dem umbenannten standardmäßigen Administratorkonto entspricht. Überprüfen Sie außerdem, ob mehrere fehlgeschlagene Anmeldeversuche vorliegen, die unterhalb der Kontensperrungsschwelle liegen.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – unbekannter Benutzername oder falsches Kennwort</td>
+<td style="border:1px solid black;">Überprüfen Sie, ob ein Anmeldungsversuch unternommen wurde, bei dem der Zielkontoname „Administrator“ lautet oder dem umbenannten standardmäßigen Administratorkonto entspricht. Überprüfen Sie außerdem, ob mehrere fehlgeschlagene Anmeldeversuche vorliegen, die unterhalb der Kontensperrungsschwelle liegen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>530</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Zeitbeschränkungen</p></td>
-<td style="border:1px solid black;"><p>Dies weist auf einen Anmeldeversuch außerhalb des zulässigen Zeitrahmens hin. Überprüfen Sie den Namen des Benutzerkontos und der Arbeitsstation.</p></td>
+<td style="border:1px solid black;">530</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Zeitbeschränkungen</td>
+<td style="border:1px solid black;">Dies weist auf einen Anmeldeversuch außerhalb des zulässigen Zeitrahmens hin. Überprüfen Sie den Namen des Benutzerkontos und der Arbeitsstation.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>531</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Das Konto ist zurzeit deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Überprüfen Sie den Namen des Zielkontos und der Arbeitsstation. Dieses Ereignis kann auf Einbruchsversuche von ehemaligen Benutzern hinweisen und sollte eine Untersuchung nach sich ziehen.</p></td>
+<td style="border:1px solid black;">531</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Das Konto ist zurzeit deaktiviert</td>
+<td style="border:1px solid black;">Überprüfen Sie den Namen des Zielkontos und der Arbeitsstation. Dieses Ereignis kann auf Einbruchsversuche von ehemaligen Benutzern hinweisen und sollte eine Untersuchung nach sich ziehen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>532</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Das angegebene Benutzerkonto ist abgelaufen</p></td>
-<td style="border:1px solid black;"><p>Überprüfen Sie den Namen des Zielkontos und der Arbeitsstation. Dieses Ereignis kann auf Missbrauchsversuche von Mitarbeitern mit vertraglicher oder befristeter Anstellung hinweisen und sollte eine Untersuchung nach sich ziehen.</p></td>
+<td style="border:1px solid black;">532</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Das angegebene Benutzerkonto ist abgelaufen</td>
+<td style="border:1px solid black;">Überprüfen Sie den Namen des Zielkontos und der Arbeitsstation. Dieses Ereignis kann auf Missbrauchsversuche von Mitarbeitern mit vertraglicher oder befristeter Anstellung hinweisen und sollte eine Untersuchung nach sich ziehen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>533</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Der Benutzer darf sich nicht an diesem Computer anmelden</p></td>
-<td style="border:1px solid black;"><p>Dies weist darauf hin, dass ein Benutzer versucht, sich bei einer Arbeitsstation mit beschränktem Zugriff anzumelden.</p></td>
+<td style="border:1px solid black;">533</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Der Benutzer darf sich nicht an diesem Computer anmelden</td>
+<td style="border:1px solid black;">Dies weist darauf hin, dass ein Benutzer versucht, sich bei einer Arbeitsstation mit beschränktem Zugriff anzumelden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>534</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Anmeldetyp unzulässig</p></td>
-<td style="border:1px solid black;"><p>Überprüfen Sie den Namen des Zielkontos und der Arbeitsstation sowie den Anmeldetyp. Dieses Ereignis weist auf einen fehlgeschlagenen Versuch einer interaktiven Anmeldung mit Dienstkontoberechtigungen hin, wenn Gruppenrichtlinieneinstellungen interaktive Anmeldungen bei solchen Kontos unterbinden.</p></td>
+<td style="border:1px solid black;">534</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Anmeldetyp unzulässig</td>
+<td style="border:1px solid black;">Überprüfen Sie den Namen des Zielkontos und der Arbeitsstation sowie den Anmeldetyp. Dieses Ereignis weist auf einen fehlgeschlagenen Versuch einer interaktiven Anmeldung mit Dienstkontoberechtigungen hin, wenn Gruppenrichtlinieneinstellungen interaktive Anmeldungen bei solchen Kontos unterbinden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>535</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Das angegebene Kennwort des Kontos ist abgelaufen</p></td>
-<td style="border:1px solid black;"><p>Dies weist darauf hin, dass ein Benutzer sich mit einem Konto anmelden möchte, dessen Kennwort abgelaufen ist. Eine Untersuchung kann erforderlich sein, wenn dies ohne entsprechende Kennwortänderung oder Supportanfrage wiederholt auftritt.</p></td>
+<td style="border:1px solid black;">535</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Das angegebene Kennwort des Kontos ist abgelaufen</td>
+<td style="border:1px solid black;">Dies weist darauf hin, dass ein Benutzer sich mit einem Konto anmelden möchte, dessen Kennwort abgelaufen ist. Eine Untersuchung kann erforderlich sein, wenn dies ohne entsprechende Kennwortänderung oder Supportanfrage wiederholt auftritt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>536</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Der Anmeldedienst ist nicht aktiv</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie sicher, dass der NetLogon-Dienst aktiviert ist. Anderenfalls kann dieses Ereignis eine Untersuchung nach sich ziehen.</p></td>
+<td style="border:1px solid black;">536</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Der Anmeldedienst ist nicht aktiv</td>
+<td style="border:1px solid black;">Stellen Sie sicher, dass der NetLogon-Dienst aktiviert ist. Anderenfalls kann dieses Ereignis eine Untersuchung nach sich ziehen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>540</p></td>
-<td style="border:1px solid black;"><p>Erfolgreiche Anmeldung</p></td>
-<td style="border:1px solid black;"><p>Dieses Ereignis ist die Entsprechung von Ereignis 528 für Netzwerke.</p></td>
+<td style="border:1px solid black;">540</td>
+<td style="border:1px solid black;">Erfolgreiche Anmeldung</td>
+<td style="border:1px solid black;">Dieses Ereignis ist die Entsprechung von Ereignis 528 für Netzwerke.</td>
 </tr>
 </tbody>
 </table>
@@ -890,7 +890,7 @@ Andere Malwareangriffe können in Form von E-Mail-Anhängen oder infizierten Web
   
 **Tabelle 4. Ereignis 592**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -899,16 +899,16 @@ Andere Malwareangriffe können in Form von E-Mail-Anhängen oder infizierten Web
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>592</p></td>
-<td style="border:1px solid black;"><p>Ein neuer Prozess wird erstellt</p></td>
-<td style="border:1px solid black;"><p>Überprüfen Sie die Einträge für den Bilddateinamen und den Benutzernamen darauf, ob ungenehmigte Prozesse oder unerwartete Startzeitpunkte vorliegen, oder ob unbekannte Programme in schneller Abfolge gestartet und gestoppt werden.</p></td>
+<td style="border:1px solid black;">592</td>
+<td style="border:1px solid black;">Ein neuer Prozess wird erstellt</td>
+<td style="border:1px solid black;">Überprüfen Sie die Einträge für den Bilddateinamen und den Benutzernamen darauf, ob ungenehmigte Prozesse oder unerwartete Startzeitpunkte vorliegen, oder ob unbekannte Programme in schneller Abfolge gestartet und gestoppt werden.</td>
 </tr>
 </tbody>
 </table>
@@ -939,7 +939,7 @@ Die Objektzugriff-Überwachungsereignisse in der folgenden Tabelle betreffen der
   
 **Tabelle 5. Ereignisse in Verbindung mit Dateiberechtigungsänderungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -948,21 +948,21 @@ Die Objektzugriff-Überwachungsereignisse in der folgenden Tabelle betreffen der
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>560</p></td>
-<td style="border:1px solid black;"><p>Zugriff auf vorhandenes Objekt gewährt</p></td>
-<td style="border:1px solid black;"><p>Weist auf eine erfolgreiche Zugriffsanforderung für ein Objekt hin. Überprüfen Sie die primäre Anmeldekennung, den Client-Benutzernamen und den Hauptbenutzernamen zur Ermittlung von nicht autorisiertem Zugriff. Überprüfen Sie im Feld für Zugriffe den Vorgangstyp. Mit diesem Ereignis werden nur Zugriffsanforderungen erkannt, nicht jedoch tatsächlich erfolgte Zugriffe.</p></td>
+<td style="border:1px solid black;">560</td>
+<td style="border:1px solid black;">Zugriff auf vorhandenes Objekt gewährt</td>
+<td style="border:1px solid black;">Weist auf eine erfolgreiche Zugriffsanforderung für ein Objekt hin. Überprüfen Sie die primäre Anmeldekennung, den Client-Benutzernamen und den Hauptbenutzernamen zur Ermittlung von nicht autorisiertem Zugriff. Überprüfen Sie im Feld für Zugriffe den Vorgangstyp. Mit diesem Ereignis werden nur Zugriffsanforderungen erkannt, nicht jedoch tatsächlich erfolgte Zugriffe.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>567</p></td>
-<td style="border:1px solid black;"><p>Mit einem Handle verbundene Berechtigung verwendet</p></td>
-<td style="border:1px solid black;"><p>Weist auf die erste Instanz einer Zugriffsart auf ein Objekt und die Änderung der Berechtigungen hin, falls das Zugriffsfeld „WRITE_DAC“ enthält. Korrelieren Sie dies durch Vergleich der Zielhandlefelder mit Ereignis 560.</p></td>
+<td style="border:1px solid black;">567</td>
+<td style="border:1px solid black;">Mit einem Handle verbundene Berechtigung verwendet</td>
+<td style="border:1px solid black;">Weist auf die erste Instanz einer Zugriffsart auf ein Objekt und die Änderung der Berechtigungen hin, falls das Zugriffsfeld „WRITE_DAC“ enthält. Korrelieren Sie dies durch Vergleich der Zielhandlefelder mit Ereignis 560.</td>
 </tr>
 </tbody>
 </table>
@@ -973,7 +973,7 @@ Kennwortänderungen sollten ausschließlich innerhalb eines genehmigten Rahmens 
   
 **Tabelle 6. Ereignisse im Zusammenhang mit der Zurücksetzung von Kennwörtern**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -982,26 +982,26 @@ Kennwortänderungen sollten ausschließlich innerhalb eines genehmigten Rahmens 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>627</p></td>
-<td style="border:1px solid black;"><p>Versuch, Kennwort zu ändern</p></td>
-<td style="border:1px solid black;"><p>Weist auf eine Kennwortänderungsanforderung hin, in der das Originalkennwort angegeben wurde. Vergleichen Sie den Hauptkontonamen mit dem Zielkontonamen, um festzustellen, ob es sich bei dem anfordernden Konto um das geänderte Konto handelt.</p></td>
+<td style="border:1px solid black;">627</td>
+<td style="border:1px solid black;">Versuch, Kennwort zu ändern</td>
+<td style="border:1px solid black;">Weist auf eine Kennwortänderungsanforderung hin, in der das Originalkennwort angegeben wurde. Vergleichen Sie den Hauptkontonamen mit dem Zielkontonamen, um festzustellen, ob es sich bei dem anfordernden Konto um das geänderte Konto handelt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>628</p></td>
-<td style="border:1px solid black;"><p>Benutzerkontokennwort eingerichtet oder zurückgesetzt</p></td>
-<td style="border:1px solid black;"><p>Weist auf die Zurücksetzung eines Kennworts über eine administrative Schnittstelle statt anhand eines Kennwortänderungsprozesses hin. Die Anforderung sollte von einem autorisierten Konto stammen, etwa einem Helpdesk-Konto oder einem Self-Service-Konto zum Zurücksetzen von Kennwörtern.</p></td>
+<td style="border:1px solid black;">628</td>
+<td style="border:1px solid black;">Benutzerkontokennwort eingerichtet oder zurückgesetzt</td>
+<td style="border:1px solid black;">Weist auf die Zurücksetzung eines Kennworts über eine administrative Schnittstelle statt anhand eines Kennwortänderungsprozesses hin. Die Anforderung sollte von einem autorisierten Konto stammen, etwa einem Helpdesk-Konto oder einem Self-Service-Konto zum Zurücksetzen von Kennwörtern.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>698</p></td>
-<td style="border:1px solid black;"><p>Kennwort für Wiederherstellungsmodus im Verzeichnisdienst geändert</p></td>
-<td style="border:1px solid black;"><p>Weist auf einen Versuch hin, das Kennwort für den Wiederherstellungsmodus im Verzeichnisdienst auf einem Domänencontroller zu ändern. Überprüfen Sie die IP-Adresse der Arbeitsstation und den Kontonamen. Dieses Ereignis rechtfertigt eine umgehende Untersuchung.</p></td>
+<td style="border:1px solid black;">698</td>
+<td style="border:1px solid black;">Kennwort für Wiederherstellungsmodus im Verzeichnisdienst geändert</td>
+<td style="border:1px solid black;">Weist auf einen Versuch hin, das Kennwort für den Wiederherstellungsmodus im Verzeichnisdienst auf einem Domänencontroller zu ändern. Überprüfen Sie die IP-Adresse der Arbeitsstation und den Kontonamen. Dieses Ereignis rechtfertigt eine umgehende Untersuchung.</td>
 </tr>
 </tbody>
 </table>
@@ -1012,7 +1012,7 @@ Jede Kontoänderung, -hinzufügung und -löschung sollte in Einklang mit einem e
   
 **Tabelle 7. Ereignisse im Zusammenhang mit Benutzerkontoänderungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1021,31 +1021,31 @@ Jede Kontoänderung, -hinzufügung und -löschung sollte in Einklang mit einem e
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>624</p></td>
-<td style="border:1px solid black;"><p>Benutzerkonto wird erstellt</p></td>
-<td style="border:1px solid black;"><p>Weist auf die Einrichtung eines Netzwerkkontos hin.</p></td>
+<td style="border:1px solid black;">624</td>
+<td style="border:1px solid black;">Benutzerkonto wird erstellt</td>
+<td style="border:1px solid black;">Weist auf die Einrichtung eines Netzwerkkontos hin.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>630</p></td>
-<td style="border:1px solid black;"><p>Benutzerkonto wird gelöscht</p></td>
-<td style="border:1px solid black;"><p>Weist auf die Löschung eines Netzwerkkontos hin.</p></td>
+<td style="border:1px solid black;">630</td>
+<td style="border:1px solid black;">Benutzerkonto wird gelöscht</td>
+<td style="border:1px solid black;">Weist auf die Löschung eines Netzwerkkontos hin.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>642</p></td>
-<td style="border:1px solid black;"><p>Benutzerkonto wird geändert</p></td>
-<td style="border:1px solid black;"><p>Weist auf sicherheitsrelevante Benutzerkontoänderungen hin, die nicht durch die Ereignisse 627 bis 630 abgedeckt sind.</p></td>
+<td style="border:1px solid black;">642</td>
+<td style="border:1px solid black;">Benutzerkonto wird geändert</td>
+<td style="border:1px solid black;">Weist auf sicherheitsrelevante Benutzerkontoänderungen hin, die nicht durch die Ereignisse 627 bis 630 abgedeckt sind.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>685</p></td>
-<td style="border:1px solid black;"><p>Benutzerkontoname wird geändert</p></td>
-<td style="border:1px solid black;"><p>Weist auf die Änderung eines Benutzerkontonamens hin.</p></td>
+<td style="border:1px solid black;">685</td>
+<td style="border:1px solid black;">Benutzerkontoname wird geändert</td>
+<td style="border:1px solid black;">Weist auf die Änderung eines Benutzerkontonamens hin.</td>
 </tr>
 </tbody>
 </table>
@@ -1070,7 +1070,7 @@ Die Kontoverwaltungsüberwachungsereignisse in der folgenden Tabelle beziehen si
   
 **Tabelle 8. Ereignisse im Zusammenhang mit Gruppenzugehörigkeitsänderungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1079,34 +1079,34 @@ Die Kontoverwaltungsüberwachungsereignisse in der folgenden Tabelle beziehen si
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>631, 632,<br />
-633, 634</p></td>
-<td style="border:1px solid black;"><p>Geänderte globale Gruppe mit aktivierter Sicherheit</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie im Feld mit dem Zielkontonamen fest, ob eine globale Gruppe geändert wurde oder die Gruppe über weit gefasste Zugriffsberechtigungen verfügt.</p></td>
+<td style="border:1px solid black;">631, 632,<br />
+633, 634</td>
+<td style="border:1px solid black;">Geänderte globale Gruppe mit aktivierter Sicherheit</td>
+<td style="border:1px solid black;">Stellen Sie im Feld mit dem Zielkontonamen fest, ob eine globale Gruppe geändert wurde oder die Gruppe über weit gefasste Zugriffsberechtigungen verfügt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>635, 636,<br />
-637, 638</p></td>
-<td style="border:1px solid black;"><p>Geänderte lokale Gruppe mit aktivierter Sicherheit</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie im Feld mit dem Zielkontonamen fest, ob die Gruppe der Administratoren, Server-Operatoren oder Sicherungs-Operatoren geändert wurde.</p></td>
+<td style="border:1px solid black;">635, 636,<br />
+637, 638</td>
+<td style="border:1px solid black;">Geänderte lokale Gruppe mit aktivierter Sicherheit</td>
+<td style="border:1px solid black;">Stellen Sie im Feld mit dem Zielkontonamen fest, ob die Gruppe der Administratoren, Server-Operatoren oder Sicherungs-Operatoren geändert wurde.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>639, 641,<br />
-668</p></td>
-<td style="border:1px solid black;"><p>Geänderte Gruppe mit aktivierter Sicherheit</p></td>
-<td style="border:1px solid black;"><p>Weist auf eine Änderung an einer Gruppe hin, bei der es sich nicht um eine Löschung, Erstellung oder Zugehörigkeitsänderung handelt. Stellen Sie anhand des Zielkontonamens sicher, dass keine Gruppe mit hohen Berechtigungen geändert wurde.</p></td>
+<td style="border:1px solid black;">639, 641,<br />
+668</td>
+<td style="border:1px solid black;">Geänderte Gruppe mit aktivierter Sicherheit</td>
+<td style="border:1px solid black;">Weist auf eine Änderung an einer Gruppe hin, bei der es sich nicht um eine Löschung, Erstellung oder Zugehörigkeitsänderung handelt. Stellen Sie anhand des Zielkontonamens sicher, dass keine Gruppe mit hohen Berechtigungen geändert wurde.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>659, 660, 661, 662</p></td>
-<td style="border:1px solid black;"><p>Geänderte universelle Gruppe mit aktivierter Sicherheit</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie anhand des Zielkontonamens sicher, dass keine Gruppe mit hohen Berechtigungen, z. B. Organisations-Admins, geändert wurde.</p></td>
+<td style="border:1px solid black;">659, 660, 661, 662</td>
+<td style="border:1px solid black;">Geänderte universelle Gruppe mit aktivierter Sicherheit</td>
+<td style="border:1px solid black;">Stellen Sie anhand des Zielkontonamens sicher, dass keine Gruppe mit hohen Berechtigungen, z. B. Organisations-Admins, geändert wurde.</td>
 </tr>
 </tbody>
 </table>
@@ -1125,7 +1125,7 @@ Die folgende Tabelle bietet eine Übersicht über Ereignisse, die mit nicht auto
   
 **Tabelle 9. Nicht autorisierte Anmeldeereignisse**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1134,37 +1134,37 @@ Die folgende Tabelle bietet eine Übersicht über Ereignisse, die mit nicht auto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p>
-<p>540</p></td>
-<td style="border:1px solid black;"><p>Anmeldungserfolg</p></td>
-<td style="border:1px solid black;"><p>528 ist ein häufig auftretendes Ereignis. Das Ereignis 540 sollte hingegen eine Untersuchung des Zielkontonamens nach sich ziehen, um festzustellen, ob es vom standardmäßigen Administratorkonto ausgelöst wurde.</p></td>
+<td style="border:1px solid black;">528
+540</td>
+<td style="border:1px solid black;">Anmeldungserfolg</td>
+<td style="border:1px solid black;">528 ist ein häufig auftretendes Ereignis. Das Ereignis 540 sollte hingegen eine Untersuchung des Zielkontonamens nach sich ziehen, um festzustellen, ob es vom standardmäßigen Administratorkonto ausgelöst wurde.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – unbekannter Benutzername oder unbekanntes Kennwort</p></td>
-<td style="border:1px solid black;"><p>Es sind stets Untersuchungen durchzuführen, wenn der Zielkontoname „Administrator“ lautet oder dem umbenannten standardmäßigen Administratorkonto entspricht. Untersuchen Sie außerdem, ob Anmeldefehler knapp unterhalb der Sperrschwelle liegen. Des Weiteren ist zu überprüfen, ob für Versuche mit „Administrator“ oder „root“ als Zielkontoname und bei unbekanntem Domänennamen durchgeführt wurden.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – unbekannter Benutzername oder unbekanntes Kennwort</td>
+<td style="border:1px solid black;">Es sind stets Untersuchungen durchzuführen, wenn der Zielkontoname „Administrator“ lautet oder dem umbenannten standardmäßigen Administratorkonto entspricht. Untersuchen Sie außerdem, ob Anmeldefehler knapp unterhalb der Sperrschwelle liegen. Des Weiteren ist zu überprüfen, ob für Versuche mit „Administrator“ oder „root“ als Zielkontoname und bei unbekanntem Domänennamen durchgeführt wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>531</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – deaktiviertes Konto</p></td>
-<td style="border:1px solid black;"><p>Untersuchen Sie den Namen des Zielkontos und der Arbeitsstation zur Ermittlung der Quelle. Dieses Ereignis sollte eine Untersuchung hinsichtlich eines möglichen Einbruchsversuchs von ehemaligen Kontobenutzern nach sich ziehen.</p></td>
+<td style="border:1px solid black;">531</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – deaktiviertes Konto</td>
+<td style="border:1px solid black;">Untersuchen Sie den Namen des Zielkontos und der Arbeitsstation zur Ermittlung der Quelle. Dieses Ereignis sollte eine Untersuchung hinsichtlich eines möglichen Einbruchsversuchs von ehemaligen Kontobenutzern nach sich ziehen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>532</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – abgelaufenes Konto</p></td>
-<td style="border:1px solid black;"><p>Untersuchen Sie den Namen des Zielkontos und der Arbeitsstation zur Ermittlung der Quelle. Dieses Ereignis sollte eine Untersuchung hinsichtlich eines möglichen Einbruchsversuchs von ehemaligen Kontobenutzern nach sich ziehen.</p></td>
+<td style="border:1px solid black;">532</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – abgelaufenes Konto</td>
+<td style="border:1px solid black;">Untersuchen Sie den Namen des Zielkontos und der Arbeitsstation zur Ermittlung der Quelle. Dieses Ereignis sollte eine Untersuchung hinsichtlich eines möglichen Einbruchsversuchs von ehemaligen Kontobenutzern nach sich ziehen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>576</p></td>
-<td style="border:1px solid black;"><p>Besondere Rechte bei neuer Anmeldung</p></td>
-<td style="border:1px solid black;"><p>Weist auf eine Rechtezuweisung hin, mit der ein neues Konto Administratorberechtigungen oder die Möglichkeit zur Änderung des Überwachungspfads erhalten kann. Vergleichen Sie das Feld mit der Anmeldekennung mit Ereignis 528 oder 540, um auf einfache Art festzustellen, ob ein Konto Administratorberechtigungen erhalten hat.</p></td>
+<td style="border:1px solid black;">576</td>
+<td style="border:1px solid black;">Besondere Rechte bei neuer Anmeldung</td>
+<td style="border:1px solid black;">Weist auf eine Rechtezuweisung hin, mit der ein neues Konto Administratorberechtigungen oder die Möglichkeit zur Änderung des Überwachungspfads erhalten kann. Vergleichen Sie das Feld mit der Anmeldekennung mit Ereignis 528 oder 540, um auf einfache Art festzustellen, ob ein Konto Administratorberechtigungen erhalten hat.</td>
 </tr>
 </tbody>
 </table>
@@ -1191,7 +1191,7 @@ Die folgende Tabelle enthält Kontoanmeldungs- und Anmeldeüberwachungsereigniss
   
 **Tabelle 10. Ereignisse im Zusammenhang mit Anmeldungen anhand von Dienstkontoanmeldeinformationen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1200,31 +1200,31 @@ Die folgende Tabelle enthält Kontoanmeldungs- und Anmeldeüberwachungsereigniss
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p></td>
-<td style="border:1px solid black;"><p>Anmeldungserfolg – Konsolenangriff oder Terminaldienste</p></td>
-<td style="border:1px solid black;"><p>Weist auf einen erfolgenden Angriff hin, sofern das Ereignis mit Anmeldetyp 10, einem Dienstkonto oder dem lokalen Systemkonto verbunden ist. Auf dieses Ereignis sollte umgehend eine Untersuchung folgen.</p></td>
+<td style="border:1px solid black;">528</td>
+<td style="border:1px solid black;">Anmeldungserfolg – Konsolenangriff oder Terminaldienste</td>
+<td style="border:1px solid black;">Weist auf einen erfolgenden Angriff hin, sofern das Ereignis mit Anmeldetyp 10, einem Dienstkonto oder dem lokalen Systemkonto verbunden ist. Auf dieses Ereignis sollte umgehend eine Untersuchung folgen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>534</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Anmeldetyp unzulässig</p></td>
-<td style="border:1px solid black;"><p>Weist auf einen fehlgeschlagenen Versuch der interaktiven Anmeldung mit Dienstkontoanmeldeinformationen hin, wenn dies gemäß Gruppenrichtlinieneinstellungen untersagt ist. Überprüfen Sie bei Auftreten dieses Ereignisses den Namen des Zielkontos und der Arbeitsstation sowie den Anmeldetyp.</p></td>
+<td style="border:1px solid black;">534</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Anmeldetyp unzulässig</td>
+<td style="border:1px solid black;">Weist auf einen fehlgeschlagenen Versuch der interaktiven Anmeldung mit Dienstkontoanmeldeinformationen hin, wenn dies gemäß Gruppenrichtlinieneinstellungen untersagt ist. Überprüfen Sie bei Auftreten dieses Ereignisses den Namen des Zielkontos und der Arbeitsstation sowie den Anmeldetyp.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>600</p></td>
-<td style="border:1px solid black;"><p>Prozess wurde ein primäres Token zugewiesen</p></td>
-<td style="border:1px solid black;"><p>Weist darauf hin, dass ein Dienst ein benanntes Konto für die Anmeldung bei einem System verwendet, auf dem Windows XP oder später ausgeführt wird. Korrelieren Sie dies zur Untersuchung mit Informationen der Ereignisse 672, 673, 528 und 592.</p></td>
+<td style="border:1px solid black;">600</td>
+<td style="border:1px solid black;">Prozess wurde ein primäres Token zugewiesen</td>
+<td style="border:1px solid black;">Weist darauf hin, dass ein Dienst ein benanntes Konto für die Anmeldung bei einem System verwendet, auf dem Windows XP oder später ausgeführt wird. Korrelieren Sie dies zur Untersuchung mit Informationen der Ereignisse 672, 673, 528 und 592.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>601</p></td>
-<td style="border:1px solid black;"><p>Dienstinstallationsversuch durch Benutzer</p></td>
-<td style="border:1px solid black;"><p>Dieses Ereignis sollte in einer Unternehmensumgebung mit klar definierter Richtlinie für akzeptable Anwendungen und einem Systemstandardisierungsprozess nur selten auftreten. Es sollte eine Untersuchung nach sich ziehen, wenn Änderungssteuerungsprozesse in solchen Umgebungen nicht korrelieren.</p></td>
+<td style="border:1px solid black;">601</td>
+<td style="border:1px solid black;">Dienstinstallationsversuch durch Benutzer</td>
+<td style="border:1px solid black;">Dieses Ereignis sollte in einer Unternehmensumgebung mit klar definierter Richtlinie für akzeptable Anwendungen und einem Systemstandardisierungsprozess nur selten auftreten. Es sollte eine Untersuchung nach sich ziehen, wenn Änderungssteuerungsprozesse in solchen Umgebungen nicht korrelieren.</td>
 </tr>
 </tbody>
 </table>
@@ -1237,7 +1237,7 @@ Die folgende Tabelle enthält Prozessverfolgungsereignisse, mit denen die Verwen
   
 **Tabelle 11. Ereignisse im Zusammenhang mit der Ausführung nicht autorisierter Programme**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1246,21 +1246,21 @@ Die folgende Tabelle enthält Prozessverfolgungsereignisse, mit denen die Verwen
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>592</p></td>
-<td style="border:1px solid black;"><p>Ein neuer Prozess wird erstellt</p></td>
-<td style="border:1px solid black;"><p>Weist auf die Erstellung eines neuen Prozesses hin. Untersuchen Sie die Felder für den Bilddateinamen und den Benutzernamen, und vergleichen Sie sie mit der Liste der genehmigten Programme, sofern eine etablierte Richtlinie für zulässige Programme im Unternehmen vorhanden ist. Suchen Sie außerdem nach Instanzen, bei denen eine Eingabeaufforderung mit LocalSystem aufgerufen wird, da dies eine geläufige Methode zur Umgehung eines Überwachungspfads darstellt.</p></td>
+<td style="border:1px solid black;">592</td>
+<td style="border:1px solid black;">Ein neuer Prozess wird erstellt</td>
+<td style="border:1px solid black;">Weist auf die Erstellung eines neuen Prozesses hin. Untersuchen Sie die Felder für den Bilddateinamen und den Benutzernamen, und vergleichen Sie sie mit der Liste der genehmigten Programme, sofern eine etablierte Richtlinie für zulässige Programme im Unternehmen vorhanden ist. Suchen Sie außerdem nach Instanzen, bei denen eine Eingabeaufforderung mit LocalSystem aufgerufen wird, da dies eine geläufige Methode zur Umgehung eines Überwachungspfads darstellt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>602</p></td>
-<td style="border:1px solid black;"><p>Eingeplanter Auftrag wird erstellt</p></td>
-<td style="border:1px solid black;"><p>Untersuchen Sie den Zielnamen und den Zeitpunkt der Aufgabe, wenn solche Ereignisse zu unerwarteten Zeitpunkten auftreten.</p></td>
+<td style="border:1px solid black;">602</td>
+<td style="border:1px solid black;">Eingeplanter Auftrag wird erstellt</td>
+<td style="border:1px solid black;">Untersuchen Sie den Zielnamen und den Zeitpunkt der Aufgabe, wenn solche Ereignisse zu unerwarteten Zeitpunkten auftreten.</td>
 </tr>
 </tbody>
 </table>
@@ -1273,7 +1273,7 @@ Die folgende Tabelle mit Objektzugriff-Überwachungsereignissen betrifft Zugriff
   
 **Tabelle 12. Ereignisse im Zusammenhang mit nicht autorisierten Ressourcenzugriffsversuchen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1282,21 +1282,21 @@ Die folgende Tabelle mit Objektzugriff-Überwachungsereignissen betrifft Zugriff
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>560</p></td>
-<td style="border:1px solid black;"><p>Zugriff auf vorhandenes Objekt verweigert</p></td>
-<td style="border:1px solid black;"><p>Ermitteln Sie anhand des Objektnamenfelds, auf welche Ressource zugegriffen wurde, und korrelieren Sie die Felder für den Hauptbenutzernamen und die primäre Domäne oder die Felder für den Client-Benutzernamen und die Client-Domäne, um die Quelle zu ermitteln.</p></td>
+<td style="border:1px solid black;">560</td>
+<td style="border:1px solid black;">Zugriff auf vorhandenes Objekt verweigert</td>
+<td style="border:1px solid black;">Ermitteln Sie anhand des Objektnamenfelds, auf welche Ressource zugegriffen wurde, und korrelieren Sie die Felder für den Hauptbenutzernamen und die primäre Domäne oder die Felder für den Client-Benutzernamen und die Client-Domäne, um die Quelle zu ermitteln.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>568</p></td>
-<td style="border:1px solid black;"><p>Versuch der Erstellung einer festen Verbindung zu einer überwachten Datei</p></td>
-<td style="border:1px solid black;"><p>Weist darauf hin, dass ein Benutzer oder Programm versucht hat, eine feste Verbindung zu einer Datei oder einem Objekt herzustellen. Mit einer vorhandenen festen Verbindung kann ein Konto ohne Überwachungspfaderstellung eine Datei manipulieren, sofern das Konto über Rechte für das Objekt verfügt.</p></td>
+<td style="border:1px solid black;">568</td>
+<td style="border:1px solid black;">Versuch der Erstellung einer festen Verbindung zu einer überwachten Datei</td>
+<td style="border:1px solid black;">Weist darauf hin, dass ein Benutzer oder Programm versucht hat, eine feste Verbindung zu einer Datei oder einem Objekt herzustellen. Mit einer vorhandenen festen Verbindung kann ein Konto ohne Überwachungspfaderstellung eine Datei manipulieren, sofern das Konto über Rechte für das Objekt verfügt.</td>
 </tr>
 </tbody>
 </table>
@@ -1333,7 +1333,7 @@ Die Prozessverfolgungsereignisse in der folgenden Tabelle können zur Ermittlung
   
 **Tabelle 13. Ereignisse im Zusammenhang mit der Verwendung nicht autorisierter Plattformen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1342,26 +1342,26 @@ Die Prozessverfolgungsereignisse in der folgenden Tabelle können zur Ermittlung
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – unbekannter Benutzername oder unbekanntes Kennwort</p></td>
-<td style="border:1px solid black;"><p>Überprüfen Sie, ob Versuche mit „Administrator“ oder „root“ als Zielkontoname oder mit unbekanntem Domänennamen durchgeführt wurden.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – unbekannter Benutzername oder unbekanntes Kennwort</td>
+<td style="border:1px solid black;">Überprüfen Sie, ob Versuche mit „Administrator“ oder „root“ als Zielkontoname oder mit unbekanntem Domänennamen durchgeführt wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>533</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Benutzeranmeldung bei diesem Computer unzulässig</p></td>
-<td style="border:1px solid black;"><p>Dies weist darauf hin, dass ein Benutzer versucht, sich bei einer Arbeitsstation mit beschränktem Zugriff anzumelden.</p></td>
+<td style="border:1px solid black;">533</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Benutzeranmeldung bei diesem Computer unzulässig</td>
+<td style="border:1px solid black;">Dies weist darauf hin, dass ein Benutzer versucht, sich bei einer Arbeitsstation mit beschränktem Zugriff anzumelden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>592</p></td>
-<td style="border:1px solid black;"><p>Ein neuer Prozess wird erstellt</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie anhand der Felder für den Bilddateinamen und den Benutzernamen sicher, dass das Programm für die vorliegende Verwendung durch das fragliche Konto autorisiert ist.</p></td>
+<td style="border:1px solid black;">592</td>
+<td style="border:1px solid black;">Ein neuer Prozess wird erstellt</td>
+<td style="border:1px solid black;">Stellen Sie anhand der Felder für den Bilddateinamen und den Benutzernamen sicher, dass das Programm für die vorliegende Verwendung durch das fragliche Konto autorisiert ist.</td>
 </tr>
 </tbody>
 </table>
@@ -1374,7 +1374,7 @@ Die Richtlinienänderung-Überwachungsereignisse in der folgenden Tabelle dienen
   
 **Tabelle 14. Ereignisse im Zusammenhang mit der Änderung von Vertrauensstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1383,18 +1383,18 @@ Die Richtlinienänderung-Überwachungsereignisse in der folgenden Tabelle dienen
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>610<br />
+<td style="border:1px solid black;">610<br />
 611<br />
-620</p></td>
-<td style="border:1px solid black;"><p>Vertrauensstellung mit anderer Domäne wurde erstellt, aufgehoben oder geändert</p></td>
-<td style="border:1px solid black;"><p>Diese Ereignisse werden auf dem Domänencontroller generiert, mit dem die Vertrauensstellung erstellt wurde. Dieses Ereignis sollte eine umgehende Untersuchung nach sich ziehen, sofern es nicht mit einem etablierten Anforderungsprozess zur Änderungssteuerung korreliert. Ermitteln Sie anhand des Felds für den Benutzernamen das anfordernde Konto.</p></td>
+620</td>
+<td style="border:1px solid black;">Vertrauensstellung mit anderer Domäne wurde erstellt, aufgehoben oder geändert</td>
+<td style="border:1px solid black;">Diese Ereignisse werden auf dem Domänencontroller generiert, mit dem die Vertrauensstellung erstellt wurde. Dieses Ereignis sollte eine umgehende Untersuchung nach sich ziehen, sofern es nicht mit einem etablierten Anforderungsprozess zur Änderungssteuerung korreliert. Ermitteln Sie anhand des Felds für den Benutzernamen das anfordernde Konto.</td>
 </tr>
 </tbody>
 </table>
@@ -1437,7 +1437,7 @@ Die folgende Tabelle enthält Richtlinienänderung-Überwachungsereignisse, mit 
   
 **Tabelle 15. Ereignisse im Zusammenhang mit Richtlinienänderungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1446,28 +1446,28 @@ Die folgende Tabelle enthält Richtlinienänderung-Überwachungsereignisse, mit 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>612</p></td>
-<td style="border:1px solid black;"><p>Überwachungsrichtlinie wird geändert</p></td>
-<td style="border:1px solid black;"><p>Weist darauf hin, dass eine Änderung an einer Überwachungsrichtlinie vorgenommen wurde. Diese Ereignisse sollten mit einer etablierten Änderungssteuerungsrichtlinie korreliert werden, um deren Legitimität zu ermitteln.</p></td>
+<td style="border:1px solid black;">612</td>
+<td style="border:1px solid black;">Überwachungsrichtlinie wird geändert</td>
+<td style="border:1px solid black;">Weist darauf hin, dass eine Änderung an einer Überwachungsrichtlinie vorgenommen wurde. Diese Ereignisse sollten mit einer etablierten Änderungssteuerungsrichtlinie korreliert werden, um deren Legitimität zu ermitteln.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>613<br />
+<td style="border:1px solid black;">613<br />
 614<br />
-615</p></td>
-<td style="border:1px solid black;"><p>IPsec-Richtlinie wird geändert</p></td>
-<td style="border:1px solid black;"><p>Weist auf eine Änderung der IPsec-Richtlinie hin. Sollte untersucht werden, wenn dies nicht während eines Systemstarts auftritt.</p></td>
+615</td>
+<td style="border:1px solid black;">IPsec-Richtlinie wird geändert</td>
+<td style="border:1px solid black;">Weist auf eine Änderung der IPsec-Richtlinie hin. Sollte untersucht werden, wenn dies nicht während eines Systemstarts auftritt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>618</p></td>
-<td style="border:1px solid black;"><p>Richtlinie zur Wiederherstellung verschlüsselter Daten</p></td>
-<td style="border:1px solid black;"><p>Diese Ereignisse treten bei Vorhandensein einer Richtlinie zur Wiederherstellung verschlüsselter Daten auf. Jedes Auftreten außerhalb festgelegter Richtlinien sollte eine Untersuchung nach sich ziehen.</p></td>
+<td style="border:1px solid black;">618</td>
+<td style="border:1px solid black;">Richtlinie zur Wiederherstellung verschlüsselter Daten</td>
+<td style="border:1px solid black;">Diese Ereignisse treten bei Vorhandensein einer Richtlinie zur Wiederherstellung verschlüsselter Daten auf. Jedes Auftreten außerhalb festgelegter Richtlinien sollte eine Untersuchung nach sich ziehen.</td>
 </tr>
 </tbody>
 </table>
@@ -1486,7 +1486,7 @@ Die folgende Tabelle enthält eine Auflistung von Ereignissen, die infolge von A
   
 **Tabelle 16. Ereignisse im Zusammenhang mit Angriffen auf Authentifizierungsinformationen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1495,56 +1495,56 @@ Die folgende Tabelle enthält eine Auflistung von Ereignissen, die infolge von A
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – unbekannter Benutzername oder unbekanntes Kennwort</p></td>
-<td style="border:1px solid black;"><p>Überprüfen Sie, ob Versuche mit dem Zielkontonamen „Administrator“ oder eines anderen Kontos auf Administratorebene vorliegen, die nicht zur Änderung von Kennwörtern berechtigt sind. Überprüfen Sie, ob mehrere fehlgeschlagene Anmeldeversuche vorliegen, die unterhalb der Sperrschwelle liegen. Korrelieren Sie Ereignis 529 mit Ereignis 539, um Muster kontinuierlicher Kontensperrungen zu erkennen.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – unbekannter Benutzername oder unbekanntes Kennwort</td>
+<td style="border:1px solid black;">Überprüfen Sie, ob Versuche mit dem Zielkontonamen „Administrator“ oder eines anderen Kontos auf Administratorebene vorliegen, die nicht zur Änderung von Kennwörtern berechtigt sind. Überprüfen Sie, ob mehrere fehlgeschlagene Anmeldeversuche vorliegen, die unterhalb der Sperrschwelle liegen. Korrelieren Sie Ereignis 529 mit Ereignis 539, um Muster kontinuierlicher Kontensperrungen zu erkennen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>534</p></td>
-<td style="border:1px solid black;"><p>Anmeldung fehlgeschlagen – Anmeldetyp unzulässig</p></td>
-<td style="border:1px solid black;"><p>Weist darauf hin, dass ein Benutzer sich mit einem nicht zugelassenen Kontotyp anmelden wollte, z. B. einem Netzwerk-, interaktiven, Batch- oder Dienstkonto. Überprüfen Sie die Felder für Zielkontonamen, Arbeitsstationsnamen und Anmeldetyp.</p></td>
+<td style="border:1px solid black;">534</td>
+<td style="border:1px solid black;">Anmeldung fehlgeschlagen – Anmeldetyp unzulässig</td>
+<td style="border:1px solid black;">Weist darauf hin, dass ein Benutzer sich mit einem nicht zugelassenen Kontotyp anmelden wollte, z. B. einem Netzwerk-, interaktiven, Batch- oder Dienstkonto. Überprüfen Sie die Felder für Zielkontonamen, Arbeitsstationsnamen und Anmeldetyp.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>539</p></td>
-<td style="border:1px solid black;"><p>Konto gesperrt</p></td>
-<td style="border:1px solid black;"><p>Weist auf einen Anmeldeversuch mit einem Konto hin, das gesperrt wurde. Korrelieren Sie dies mit Ereignis 529, um Muster kontinuierlicher Sperrungen zu erkennen.</p></td>
+<td style="border:1px solid black;">539</td>
+<td style="border:1px solid black;">Konto gesperrt</td>
+<td style="border:1px solid black;">Weist auf einen Anmeldeversuch mit einem Konto hin, das gesperrt wurde. Korrelieren Sie dies mit Ereignis 529, um Muster kontinuierlicher Sperrungen zu erkennen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>553</p></td>
-<td style="border:1px solid black;"><p>Wiedergabeangriff entdeckt</p></td>
-<td style="border:1px solid black;"><p>Weist darauf hin, dass ein Authentifizierungspaket (normalerweise Kerberos) einen Anmeldeversuch durch Wiedergabe der Anmeldeinformationen eines Benutzers erkannt hat. Obwohl dieses Ereignis ein Zeichen für eine inkorrekte Netzwerkkonfiguration sein kann, sollte es eine umgehende Untersuchung nach sich ziehen.</p></td>
+<td style="border:1px solid black;">553</td>
+<td style="border:1px solid black;">Wiedergabeangriff entdeckt</td>
+<td style="border:1px solid black;">Weist darauf hin, dass ein Authentifizierungspaket (normalerweise Kerberos) einen Anmeldeversuch durch Wiedergabe der Anmeldeinformationen eines Benutzers erkannt hat. Obwohl dieses Ereignis ein Zeichen für eine inkorrekte Netzwerkkonfiguration sein kann, sollte es eine umgehende Untersuchung nach sich ziehen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>627</p></td>
-<td style="border:1px solid black;"><p>Versuch, Kennwort zu ändern</p></td>
-<td style="border:1px solid black;"><p>Weist darauf hin, dass ein Kennwortänderungsversuch von jemandem durchgeführt wurde, der nicht der Inhaber des betroffenen Kontos ist, wenn das Feld für den Hauptkontonamen nicht mit dem Feld für den Namen des Zielkontos übereinstimmt.</p></td>
+<td style="border:1px solid black;">627</td>
+<td style="border:1px solid black;">Versuch, Kennwort zu ändern</td>
+<td style="border:1px solid black;">Weist darauf hin, dass ein Kennwortänderungsversuch von jemandem durchgeführt wurde, der nicht der Inhaber des betroffenen Kontos ist, wenn das Feld für den Hauptkontonamen nicht mit dem Feld für den Namen des Zielkontos übereinstimmt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>628</p></td>
-<td style="border:1px solid black;"><p>Benutzerkontokennwort eingerichtet oder zurückgesetzt</p></td>
-<td style="border:1px solid black;"><p>Diese Aktivität sollte auf autorisierte Konten beschränkt sein, z. B. ein Helpdesk-Konto oder ein Self-Service-Benutzerkonto zum Zurücksetzen von Kennwörtern.</p></td>
+<td style="border:1px solid black;">628</td>
+<td style="border:1px solid black;">Benutzerkontokennwort eingerichtet oder zurückgesetzt</td>
+<td style="border:1px solid black;">Diese Aktivität sollte auf autorisierte Konten beschränkt sein, z. B. ein Helpdesk-Konto oder ein Self-Service-Benutzerkonto zum Zurücksetzen von Kennwörtern.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>644</p></td>
-<td style="border:1px solid black;"><p>Benutzerkonto automatisch gesperrt</p></td>
-<td style="border:1px solid black;"><p>Weist auf eine Kontensperrung infolge der Anzahl aufeinander folgender, fehlgeschlagener Anmeldeversuche hin, die den Kontensperrgrenzwert überschritten hat. Korrelieren Sie dies mit den Ereignissen 529, 675, 681 und 676 (nur Windows 2000 Server). Siehe auch den Eintrag für Ereignis 12294 in dieser Tabelle.</p></td>
+<td style="border:1px solid black;">644</td>
+<td style="border:1px solid black;">Benutzerkonto automatisch gesperrt</td>
+<td style="border:1px solid black;">Weist auf eine Kontensperrung infolge der Anzahl aufeinander folgender, fehlgeschlagener Anmeldeversuche hin, die den Kontensperrgrenzwert überschritten hat. Korrelieren Sie dies mit den Ereignissen 529, 675, 681 und 676 (nur Windows 2000 Server). Siehe auch den Eintrag für Ereignis 12294 in dieser Tabelle.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>675</p></td>
-<td style="border:1px solid black;"><p>Vorauthentifizierung fehlgeschlagen</p></td>
-<td style="border:1px solid black;"><p>Weist auf ein mögliches Problem in Zusammenhang mit der zeitlichen Synchronisierung oder Computerkonten hin, die nicht korrekt mit der Domäne verbunden sind. Korrelieren Sie dies mit Ereignis 529, um den genauen Grund für die fehlgeschlagene Anmeldung zu ermitteln.</p></td>
+<td style="border:1px solid black;">675</td>
+<td style="border:1px solid black;">Vorauthentifizierung fehlgeschlagen</td>
+<td style="border:1px solid black;">Weist auf ein mögliches Problem in Zusammenhang mit der zeitlichen Synchronisierung oder Computerkonten hin, die nicht korrekt mit der Domäne verbunden sind. Korrelieren Sie dies mit Ereignis 529, um den genauen Grund für die fehlgeschlagene Anmeldung zu ermitteln.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>12294</p></td>
-<td style="border:1px solid black;"><p>Kontensperrungsversuch</p></td>
-<td style="border:1px solid black;"><p>Weist auf einen möglichen Brute-Force-Angriff auf das standardmäßige Administratorkonto hin. Da Kontensperrrichtlinien nicht für dieses Konto gelten, wird dies als SAM-Ereignis 12294 im Systemereignisprotokoll aufgezeichnet. Jedes Vorkommen dieses Ereignisses sollte eine sofortige Untersuchung nach sich ziehen, da es auf die Verwendung eines nicht autorisierten Betriebssystems hindeuten kann. Überprüfen Sie das Feld für den Domänennamen auf unbekannte Domänen.</p></td>
+<td style="border:1px solid black;">12294</td>
+<td style="border:1px solid black;">Kontensperrungsversuch</td>
+<td style="border:1px solid black;">Weist auf einen möglichen Brute-Force-Angriff auf das standardmäßige Administratorkonto hin. Da Kontensperrrichtlinien nicht für dieses Konto gelten, wird dies als SAM-Ereignis 12294 im Systemereignisprotokoll aufgezeichnet. Jedes Vorkommen dieses Ereignisses sollte eine sofortige Untersuchung nach sich ziehen, da es auf die Verwendung eines nicht autorisierten Betriebssystems hindeuten kann. Überprüfen Sie das Feld für den Domänennamen auf unbekannte Domänen.</td>
 </tr>
 </tbody>
 </table>
@@ -1561,7 +1561,7 @@ Zusätzlich zu den bereits erwähnten Ereignissen umfassen die beachtenswerteste
   
 **Tabelle 17. Ereignisse im Zusammenhang mit der Ausnutzung von Sicherheitsanfälligkeiten zur Erhöhung der Berechtigungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1570,27 +1570,27 @@ Zusätzlich zu den bereits erwähnten Ereignissen umfassen die beachtenswerteste
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p>
-<p>538</p></td>
-<td style="border:1px solid black;"><p>Lokale An- und Abmeldung</p></td>
-<td style="border:1px solid black;"><p>Korrelieren Sie das Feld für die Anmeldekennung, wenn derartige Ereignisse auf Umkreiscomputern auftreten. Dies sollte eine Untersuchung nach sich ziehen, wenn die Felder für Benutzerkontoname, Zeit oder Arbeitsstationsname unerwartete Werte aufweisen.</p></td>
+<td style="border:1px solid black;">528
+538</td>
+<td style="border:1px solid black;">Lokale An- und Abmeldung</td>
+<td style="border:1px solid black;">Korrelieren Sie das Feld für die Anmeldekennung, wenn derartige Ereignisse auf Umkreiscomputern auftreten. Dies sollte eine Untersuchung nach sich ziehen, wenn die Felder für Benutzerkontoname, Zeit oder Arbeitsstationsname unerwartete Werte aufweisen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>551</p></td>
-<td style="border:1px solid black;"><p>Vom Benutzer initiierte Abmeldung</p></td>
-<td style="border:1px solid black;"><p>Dieses Ereignis kann als gleichwertig mit Ereignis 538 betrachtet werden, da eine Tokenlücke zu einem Fehler beim Überwachungsereignis 538 führen kann und stattdessen Ereignis 551 ausgegeben wird.</p></td>
+<td style="border:1px solid black;">551</td>
+<td style="border:1px solid black;">Vom Benutzer initiierte Abmeldung</td>
+<td style="border:1px solid black;">Dieses Ereignis kann als gleichwertig mit Ereignis 538 betrachtet werden, da eine Tokenlücke zu einem Fehler beim Überwachungsereignis 538 führen kann und stattdessen Ereignis 551 ausgegeben wird.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>576</p></td>
-<td style="border:1px solid black;"><p>Privilegierte Anmeldung</p></td>
-<td style="border:1px solid black;"><p>Weist auf eine Administratorkontoanmeldung hin, d. h. eine Kontoanmeldung mit ausreichenden Berechtigungen zur Manipulation der Trusted Computing Base (TCP) oder zur Übernahme eines Computers unter Windows Server 2003 mit SP1 oder höher. Bei früheren Versionen von Windows verdient dieses Ereignis nur Beachtung, wenn es mit vertraulichen Berechtigungen wie „SeSecurityPrivilege“ oder „SeDebugPrivilege“ verbunden ist.</p></td>
+<td style="border:1px solid black;">576</td>
+<td style="border:1px solid black;">Privilegierte Anmeldung</td>
+<td style="border:1px solid black;">Weist auf eine Administratorkontoanmeldung hin, d. h. eine Kontoanmeldung mit ausreichenden Berechtigungen zur Manipulation der Trusted Computing Base (TCP) oder zur Übernahme eines Computers unter Windows Server 2003 mit SP1 oder höher. Bei früheren Versionen von Windows verdient dieses Ereignis nur Beachtung, wenn es mit vertraulichen Berechtigungen wie „SeSecurityPrivilege“ oder „SeDebugPrivilege“ verbunden ist.</td>
 </tr>
 </tbody>
 </table>
@@ -1607,7 +1607,7 @@ Die folgende Tabelle enthält mehrere Ereignistypen, mit denen Versuche der Übe
   
 **Tabelle 18. Ereignisse im Zusammenhang mit der Umgehung von Ereignisüberwachungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1616,71 +1616,71 @@ Die folgende Tabelle enthält mehrere Ereignistypen, mit denen Versuche der Übe
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>512</p></td>
-<td style="border:1px solid black;"><p>Starten von Windows</p></td>
-<td style="border:1px solid black;"><p>Dies tritt normalerweise nach Ereignis 513 auf. Unerwartete Neustarts sollten untersucht werden.</p></td>
+<td style="border:1px solid black;">512</td>
+<td style="border:1px solid black;">Starten von Windows</td>
+<td style="border:1px solid black;">Dies tritt normalerweise nach Ereignis 513 auf. Unerwartete Neustarts sollten untersucht werden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>513</p></td>
-<td style="border:1px solid black;"><p>Herunterfahren von Windows</p></td>
-<td style="border:1px solid black;"><p>Dies tritt normalerweise vor Ereignis 512 auf. Hochwertige Computer sollten nur durch autorisiertes Personal neu gestartet werden, und selbst dann sollte dies nur in Übereinstimmung mit einem etablierten Änderungssteuerungs- oder einem anderen Verfahren erfolgen. Das Auftreten dieses Ereignisses auf einem beliebigen Server sollte eine umgehende Untersuchung nach sich ziehen.</p></td>
+<td style="border:1px solid black;">513</td>
+<td style="border:1px solid black;">Herunterfahren von Windows</td>
+<td style="border:1px solid black;">Dies tritt normalerweise vor Ereignis 512 auf. Hochwertige Computer sollten nur durch autorisiertes Personal neu gestartet werden, und selbst dann sollte dies nur in Übereinstimmung mit einem etablierten Änderungssteuerungs- oder einem anderen Verfahren erfolgen. Das Auftreten dieses Ereignisses auf einem beliebigen Server sollte eine umgehende Untersuchung nach sich ziehen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>516</p></td>
-<td style="border:1px solid black;"><p>Überwachungsfehler</p></td>
-<td style="border:1px solid black;"><p>Dieses Ereignis kann auftreten, wenn entweder die Anzahl der Ereignisse den Ereignisprotokollpuffer überfordert oder das Sicherheitsprotokoll nicht für Überschreibvorgänge eingerichtet ist. Diese Probleme lassen sich durch Einschränken der auf den meisten Computern überwachten Ereignistypen vermeiden, doch ist für die Sicherung hochwertiger oder besonders gefährdeter Computer eine detailliertere Überwachung erforderlich.</p></td>
+<td style="border:1px solid black;">516</td>
+<td style="border:1px solid black;">Überwachungsfehler</td>
+<td style="border:1px solid black;">Dieses Ereignis kann auftreten, wenn entweder die Anzahl der Ereignisse den Ereignisprotokollpuffer überfordert oder das Sicherheitsprotokoll nicht für Überschreibvorgänge eingerichtet ist. Diese Probleme lassen sich durch Einschränken der auf den meisten Computern überwachten Ereignistypen vermeiden, doch ist für die Sicherung hochwertiger oder besonders gefährdeter Computer eine detailliertere Überwachung erforderlich.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>517</p></td>
-<td style="border:1px solid black;"><p>Löschen des Sicherheitsereignisprotokolls</p></td>
-<td style="border:1px solid black;"><p>Sicherheitsereignisprotokolle sollten niemals ohne entsprechende Genehmigung gelöscht werden. Gleichen Sie die Felder für den Client-Benutzernamen und die Client-Domäne mit autorisiertem Personal und Datensätzen zu Verfahrensgenehmigungen ab.</p></td>
+<td style="border:1px solid black;">517</td>
+<td style="border:1px solid black;">Löschen des Sicherheitsereignisprotokolls</td>
+<td style="border:1px solid black;">Sicherheitsereignisprotokolle sollten niemals ohne entsprechende Genehmigung gelöscht werden. Gleichen Sie die Felder für den Client-Benutzernamen und die Client-Domäne mit autorisiertem Personal und Datensätzen zu Verfahrensgenehmigungen ab.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>520</p></td>
-<td style="border:1px solid black;"><p>Ändern der Systemuhrzeit</p></td>
-<td style="border:1px solid black;"><p>Diese Aktivität kann mit dem Ziel durchgeführt werden, forensische Untersuchungen zu behindern oder Angreifern falsche Alibis zu verschaffen. Gleichen Sie die Felder für den Client-Benutzernamen und die Client-Domäne mit autorisiertem Personal ab und stellen Sie sicher, dass der Prozessname als %windir%\system32\svchost.exe aufgelistet ist.</p></td>
+<td style="border:1px solid black;">520</td>
+<td style="border:1px solid black;">Ändern der Systemuhrzeit</td>
+<td style="border:1px solid black;">Diese Aktivität kann mit dem Ziel durchgeführt werden, forensische Untersuchungen zu behindern oder Angreifern falsche Alibis zu verschaffen. Gleichen Sie die Felder für den Client-Benutzernamen und die Client-Domäne mit autorisiertem Personal ab und stellen Sie sicher, dass der Prozessname als %windir%\system32\svchost.exe aufgelistet ist.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>521</p></td>
-<td style="border:1px solid black;"><p>Ereignisse können nicht protokolliert werden</p></td>
-<td style="border:1px solid black;"><p>Dies tritt auf, wenn Windows Ereignisse nicht in das Ereignisprotokoll schreiben kann. Dieses Ereignis sollte untersucht werden, wenn es auf einem hochwertigen System auftritt.</p></td>
+<td style="border:1px solid black;">521</td>
+<td style="border:1px solid black;">Ereignisse können nicht protokolliert werden</td>
+<td style="border:1px solid black;">Dies tritt auf, wenn Windows Ereignisse nicht in das Ereignisprotokoll schreiben kann. Dieses Ereignis sollte untersucht werden, wenn es auf einem hochwertigen System auftritt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>608</p></td>
-<td style="border:1px solid black;"><p>Es wurde eine Benutzerkontoberechtigung zugewiesen</p></td>
-<td style="border:1px solid black;"><p>Dies tritt auf, wenn einem Benutzerkonto eine neue Berechtigung zugewiesen wird. Im Ereignisprotokoll wird dieser Vorgang zusammen mit der Sicherheits-ID (SID) des Benutzerkontos, nicht jedoch dem Benutzerkontonamen aufgezeichnet.</p></td>
+<td style="border:1px solid black;">608</td>
+<td style="border:1px solid black;">Es wurde eine Benutzerkontoberechtigung zugewiesen</td>
+<td style="border:1px solid black;">Dies tritt auf, wenn einem Benutzerkonto eine neue Berechtigung zugewiesen wird. Im Ereignisprotokoll wird dieser Vorgang zusammen mit der Sicherheits-ID (SID) des Benutzerkontos, nicht jedoch dem Benutzerkontonamen aufgezeichnet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>609</p></td>
-<td style="border:1px solid black;"><p>Es wurde eine Benutzerkontoberechtigung aufgehoben</p></td>
-<td style="border:1px solid black;"><p>Dies tritt auf, wenn eine Berechtigung eines Benutzerkontos aufgehoben wurde. Im Ereignisprotokoll wird dieser Vorgang zusammen mit der SID des Benutzerkontos, nicht jedoch dem Benutzerkontonamen aufgezeichnet.</p></td>
+<td style="border:1px solid black;">609</td>
+<td style="border:1px solid black;">Es wurde eine Benutzerkontoberechtigung aufgehoben</td>
+<td style="border:1px solid black;">Dies tritt auf, wenn eine Berechtigung eines Benutzerkontos aufgehoben wurde. Im Ereignisprotokoll wird dieser Vorgang zusammen mit der SID des Benutzerkontos, nicht jedoch dem Benutzerkontonamen aufgezeichnet.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>612</p></td>
-<td style="border:1px solid black;"><p>Überwachungsrichtlinie wird geändert</p></td>
-<td style="border:1px solid black;"><p>Dieses Ereignis weist nicht unbedingt auf ein Problem hin, doch können Angreifer Überwachungsrichtlinien als Teil ihrer Angriffsstrategie ändern. Dieses Ereignis sollte auf hochwertigen Computern und Domänencontrollern untersucht werden.</p></td>
+<td style="border:1px solid black;">612</td>
+<td style="border:1px solid black;">Überwachungsrichtlinie wird geändert</td>
+<td style="border:1px solid black;">Dieses Ereignis weist nicht unbedingt auf ein Problem hin, doch können Angreifer Überwachungsrichtlinien als Teil ihrer Angriffsstrategie ändern. Dieses Ereignis sollte auf hochwertigen Computern und Domänencontrollern untersucht werden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>621</p></td>
-<td style="border:1px solid black;"><p>Einem Konto wurde Systemzugriff gewährt</p></td>
-<td style="border:1px solid black;"><p>Dies tritt auf, wenn einem Benutzer Zugriff auf ein System gewährt wurde. Die Felder für den Benutzernamen und das geänderte Konto sollten überprüft werden, wenn die Zugriffsberechtigung als interaktiv aufgelistet wurde.</p></td>
+<td style="border:1px solid black;">621</td>
+<td style="border:1px solid black;">Einem Konto wurde Systemzugriff gewährt</td>
+<td style="border:1px solid black;">Dies tritt auf, wenn einem Benutzer Zugriff auf ein System gewährt wurde. Die Felder für den Benutzernamen und das geänderte Konto sollten überprüft werden, wenn die Zugriffsberechtigung als interaktiv aufgelistet wurde.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>622</p></td>
-<td style="border:1px solid black;"><p>Systemzugriff wurde aus einem System entfernt</p></td>
-<td style="border:1px solid black;"><p>Dieses Ereignis kann auf den Versuch eines Angreifers hindeuten, Spuren im Zusammenhang mit Ereignis 621 zu löschen oder einem oder mehreren anderen Konten Dienste zu verweigern.</p></td>
+<td style="border:1px solid black;">622</td>
+<td style="border:1px solid black;">Systemzugriff wurde aus einem System entfernt</td>
+<td style="border:1px solid black;">Dieses Ereignis kann auf den Versuch eines Angreifers hindeuten, Spuren im Zusammenhang mit Ereignis 621 zu löschen oder einem oder mehreren anderen Konten Dienste zu verweigern.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>643</p></td>
-<td style="border:1px solid black;"><p>Domänensicherheitsrichtlinie wird geändert</p></td>
-<td style="border:1px solid black;"><p>Dies tritt bei dem Versuch auf, die Einstellungen der Kennwortrichtlinie oder einer anderen Domänensicherheitsrichtlinie zu ändern. Korrelieren Sie den Benutzernamen mit allen vorhandenen Autorisierungsdatensätzen.</p></td>
+<td style="border:1px solid black;">643</td>
+<td style="border:1px solid black;">Domänensicherheitsrichtlinie wird geändert</td>
+<td style="border:1px solid black;">Dies tritt bei dem Versuch auf, die Einstellungen der Kennwortrichtlinie oder einer anderen Domänensicherheitsrichtlinie zu ändern. Korrelieren Sie den Benutzernamen mit allen vorhandenen Autorisierungsdatensätzen.</td>
 </tr>
 </tbody>
 </table>
@@ -1729,7 +1729,7 @@ Die in der folgenden Tabelle enthaltenen Ereignisse werden normalerweise von Sic
   
 **Tabelle A1. Unnötige Ereignisse**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1738,87 +1738,87 @@ Die in der folgenden Tabelle enthaltenen Ereignisse werden normalerweise von Sic
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereignis-ID</p></th>
-<th><p>Auftreten</p></th>
-<th><p>Anmerkungen</p></th>
+<th>Ereignis-ID</th>
+<th>Auftreten</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>538</p></td>
-<td style="border:1px solid black;"><p>Benutzerabmeldung</p></td>
-<td style="border:1px solid black;"><p>Dieses Ereignis gibt nicht unbedingt die Uhrzeit an, zu der ein Benutzer aufgehört hat, das System zu verwenden. Falls ein Computer z. B. ausgeschaltet wird oder seine Netzwerkverbindung verliert, wird möglicherweise überhaupt kein Abmeldeereignis aufgezeichnet.</p></td>
+<td style="border:1px solid black;">538</td>
+<td style="border:1px solid black;">Benutzerabmeldung</td>
+<td style="border:1px solid black;">Dieses Ereignis gibt nicht unbedingt die Uhrzeit an, zu der ein Benutzer aufgehört hat, das System zu verwenden. Falls ein Computer z. B. ausgeschaltet wird oder seine Netzwerkverbindung verliert, wird möglicherweise überhaupt kein Abmeldeereignis aufgezeichnet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>562</p></td>
-<td style="border:1px solid black;"><p>Handle für ein Objekt geschlossen</p></td>
-<td style="border:1px solid black;"><p>Wird stets als erfolgreich aufgezeichnet.</p></td>
+<td style="border:1px solid black;">562</td>
+<td style="border:1px solid black;">Handle für ein Objekt geschlossen</td>
+<td style="border:1px solid black;">Wird stets als erfolgreich aufgezeichnet.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>571</p></td>
-<td style="border:1px solid black;"><p>Clientkontext durch Autorisierungs-Manager gelöscht</p></td>
-<td style="border:1px solid black;"><p>Dies ist bei Verwendung des Autorisierungs-Managers ein erwartetes Ereignis.</p></td>
+<td style="border:1px solid black;">571</td>
+<td style="border:1px solid black;">Clientkontext durch Autorisierungs-Manager gelöscht</td>
+<td style="border:1px solid black;">Dies ist bei Verwendung des Autorisierungs-Managers ein erwartetes Ereignis.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>573</p></td>
-<td style="border:1px solid black;"><p>Prozess generiert systemfremdes Überwachungsereignis mit AuthZ API (Authorization Application Programming Interface)</p></td>
-<td style="border:1px solid black;"><p>Erwartete Aktivität.</p></td>
+<td style="border:1px solid black;">573</td>
+<td style="border:1px solid black;">Prozess generiert systemfremdes Überwachungsereignis mit AuthZ API (Authorization Application Programming Interface)</td>
+<td style="border:1px solid black;">Erwartete Aktivität.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>577<br />
-578</p></td>
-<td style="border:1px solid black;"><p>Privilegiendienst aufgerufen, Privilegiertes-Objekt-Vorgang</p></td>
-<td style="border:1px solid black;"><p>Dies sind Ereignisse mit hohem Aufkommen, die normalerweise nicht genügend Informationen für Maßnahmen aufweisen, da sie den durchgeführten Vorgang nicht beschreiben.</p></td>
+<td style="border:1px solid black;">577<br />
+578</td>
+<td style="border:1px solid black;">Privilegiendienst aufgerufen, Privilegiertes-Objekt-Vorgang</td>
+<td style="border:1px solid black;">Dies sind Ereignisse mit hohem Aufkommen, die normalerweise nicht genügend Informationen für Maßnahmen aufweisen, da sie den durchgeführten Vorgang nicht beschreiben.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>594</p></td>
-<td style="border:1px solid black;"><p>Handle für ein Objekt dupliziert</p></td>
-<td style="border:1px solid black;"><p>Erwartete Aktivität.</p></td>
+<td style="border:1px solid black;">594</td>
+<td style="border:1px solid black;">Handle für ein Objekt dupliziert</td>
+<td style="border:1px solid black;">Erwartete Aktivität.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>595</p></td>
-<td style="border:1px solid black;"><p>Indirekter Zugriff auf ein Objekt wurde erlangt</p></td>
-<td style="border:1px solid black;"><p>Erwartete Aktivität.</p></td>
+<td style="border:1px solid black;">595</td>
+<td style="border:1px solid black;">Indirekter Zugriff auf ein Objekt wurde erlangt</td>
+<td style="border:1px solid black;">Erwartete Aktivität.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>596</p></td>
-<td style="border:1px solid black;"><p>Sicherung des Datensicherungs-Hauptschlüssels</p></td>
-<td style="border:1px solid black;"><p>Erwartete Aktivität. Dies tritt bei Standardeinstellungen alle 90 Tage auf.</p></td>
+<td style="border:1px solid black;">596</td>
+<td style="border:1px solid black;">Sicherung des Datensicherungs-Hauptschlüssels</td>
+<td style="border:1px solid black;">Erwartete Aktivität. Dies tritt bei Standardeinstellungen alle 90 Tage auf.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>597</p></td>
-<td style="border:1px solid black;"><p>Wiederherstellung des Datensicherungs-Hauptschlüssels</p></td>
-<td style="border:1px solid black;"><p>Erwartete Aktivität.</p></td>
+<td style="border:1px solid black;">597</td>
+<td style="border:1px solid black;">Wiederherstellung des Datensicherungs-Hauptschlüssels</td>
+<td style="border:1px solid black;">Erwartete Aktivität.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>672</p></td>
-<td style="border:1px solid black;"><p>Anfrage für Kerberos AS-Ticket</p></td>
-<td style="border:1px solid black;"><p>Dies enthält keine weiteren Informationen, falls Überwachungsdetails von den Anmeldeereignissen 528 und 540 bereits erfasst wurden. Dieses Ereignis hält fest, dass ein Kerberos TGT gewährt wurde. Es erfolgt kein Zugriff, bis ein Dienstticket gewährt wird, was durch Ereignis 673 überwacht wird. Handelt es sich bei PATYPE um PKINIT, liegt eine Smartcard-Anmeldung vor.</p></td>
+<td style="border:1px solid black;">672</td>
+<td style="border:1px solid black;">Anfrage für Kerberos AS-Ticket</td>
+<td style="border:1px solid black;">Dies enthält keine weiteren Informationen, falls Überwachungsdetails von den Anmeldeereignissen 528 und 540 bereits erfasst wurden. Dieses Ereignis hält fest, dass ein Kerberos TGT gewährt wurde. Es erfolgt kein Zugriff, bis ein Dienstticket gewährt wird, was durch Ereignis 673 überwacht wird. Handelt es sich bei PATYPE um PKINIT, liegt eine Smartcard-Anmeldung vor.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>680</p></td>
-<td style="border:1px solid black;"><p>Kontoanmeldung</p></td>
-<td style="border:1px solid black;"><p>Aktivität bereits durch andere Ereignisse erfasst.</p></td>
+<td style="border:1px solid black;">680</td>
+<td style="border:1px solid black;">Kontoanmeldung</td>
+<td style="border:1px solid black;">Aktivität bereits durch andere Ereignisse erfasst.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>697</p></td>
-<td style="border:1px solid black;"><p>Kennwortüberprüfende API aufgerufen</p></td>
-<td style="border:1px solid black;"><p>Erwartete Aktivität.</p></td>
+<td style="border:1px solid black;">697</td>
+<td style="border:1px solid black;">Kennwortüberprüfende API aufgerufen</td>
+<td style="border:1px solid black;">Erwartete Aktivität.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>768</p></td>
-<td style="border:1px solid black;"><p>Gesamtstruktur-Namespace-Konflikt</p></td>
-<td style="border:1px solid black;"><p>Dieses Ereignis betrifft nicht die Sicherheit.</p></td>
+<td style="border:1px solid black;">768</td>
+<td style="border:1px solid black;">Gesamtstruktur-Namespace-Konflikt</td>
+<td style="border:1px solid black;">Dieses Ereignis betrifft nicht die Sicherheit.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>769<br />
+<td style="border:1px solid black;">769<br />
 770<br />
-771</p></td>
-<td style="border:1px solid black;"><p>Informationen zur vertrauten Gesamtstruktur hinzugefügt, gelöscht oder geändert</p></td>
-<td style="border:1px solid black;"><p>Erwartete Aktivität. Diese Ereignisse sind nicht mit dem Hinzufügen, Ändern oder Löschen der Vertrauensstellung selbst zu verwechseln.</p></td>
+771</td>
+<td style="border:1px solid black;">Informationen zur vertrauten Gesamtstruktur hinzugefügt, gelöscht oder geändert</td>
+<td style="border:1px solid black;">Erwartete Aktivität. Diese Ereignisse sind nicht mit dem Hinzufügen, Ändern oder Löschen der Vertrauensstellung selbst zu verwechseln.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>832<br />
+<td style="border:1px solid black;">832<br />
 833<br />
 834<br />
 835<br />
@@ -1827,9 +1827,9 @@ Die in der folgenden Tabelle enthaltenen Ereignisse werden normalerweise von Sic
 838<br />
 839<br />
 840<br />
-841</p></td>
-<td style="border:1px solid black;"><p>Verschiedene Active Directory-Replikationsereignisse</p></td>
-<td style="border:1px solid black;"><p>Diese Ereignisse betreffen nicht die Sicherheit.</p></td>
+841</td>
+<td style="border:1px solid black;">Verschiedene Active Directory-Replikationsereignisse</td>
+<td style="border:1px solid black;">Diese Ereignisse betreffen nicht die Sicherheit.</td>
 </tr>
 </tbody>
 </table>
@@ -1844,7 +1844,7 @@ Dieser Anhang kann zur Überprüfung der aktuellen Einstellungen in einer Umgebu
   
 **Tabelle B1. Sicherheitsüberwachungseinstellungen für Gruppenrichtlinien**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1853,101 +1853,101 @@ Dieser Anhang kann zur Überprüfung der aktuellen Einstellungen in einer Umgebu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Richtlinienpfad</p></th>
-<th><p>Richtlinie</p></th>
-<th><p>Richtlinieneinstellung und Anmerkungen</p></th>
+<th>Richtlinienpfad</th>
+<th>Richtlinie</th>
+<th>Richtlinieneinstellung und Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Anmeldeversuche überwachen</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie die Überwachungserfolge für alle Computer, da dieses Ereignis aufzeichnet, wer auf Computer zugreift. Aktivieren Sie Überwachungsfehler nicht leichtfertig, da Angreifer mit Netzwerkzugriff, jedoch ohne Anmeldeinformationen einen DoS-Angriff durchführen könnten, indem ein Computer zum Ressourcenverbrauch bei der Aufzeichnung dieser Ereignisse gezwungen wird. Aktivieren Sie Überwachungserfolge ebenfalls nicht leichtfertig, da diese Einstellung zu DoS-Angriffen führen kann, wenn Computer zum Herunterfahren bei vollen Überwachungsprotokollen eingerichtet sind. Korrelieren Sie alle Administratoranmeldungen mit allen anderen verdächtigen Einträgen.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Anmeldeversuche überwachen</td>
+<td style="border:1px solid black;">Aktivieren Sie die Überwachungserfolge für alle Computer, da dieses Ereignis aufzeichnet, wer auf Computer zugreift. Aktivieren Sie Überwachungsfehler nicht leichtfertig, da Angreifer mit Netzwerkzugriff, jedoch ohne Anmeldeinformationen einen DoS-Angriff durchführen könnten, indem ein Computer zum Ressourcenverbrauch bei der Aufzeichnung dieser Ereignisse gezwungen wird. Aktivieren Sie Überwachungserfolge ebenfalls nicht leichtfertig, da diese Einstellung zu DoS-Angriffen führen kann, wenn Computer zum Herunterfahren bei vollen Überwachungsprotokollen eingerichtet sind. Korrelieren Sie alle Administratoranmeldungen mit allen anderen verdächtigen Einträgen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Kontenverwaltung überwachen</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie sowohl erfolgreiche als auch fehlgeschlagene Ereignisse. Korrelieren Sie alle erfolgreichen Überwachungseinträge mit Administratorautorisierungen. Sämtliche Fehlschläge sollten als verdächtig eingestuft werden.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Kontenverwaltung überwachen</td>
+<td style="border:1px solid black;">Aktivieren Sie sowohl erfolgreiche als auch fehlgeschlagene Ereignisse. Korrelieren Sie alle erfolgreichen Überwachungseinträge mit Administratorautorisierungen. Sämtliche Fehlschläge sollten als verdächtig eingestuft werden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Verzeichnisdienstzugriff überwachen</p></td>
-<td style="border:1px solid black;"><p>Durch die standardmäßige Gruppenrichtlinie für Domänencontroller wird diese Einstellung standardmäßig aktiviert. Konfigurieren Sie Überwachungseinstellungen für vertrauliche Verzeichnisobjekte anhand von Systemzugriff-Steuerungslisten (SACLs) in „Active Directory-Benutzer und -Computer“ oder „Active Directory-Schnittstellen-Editor“ (ADSI Edit). Planen Sie die SACL-Implementierung, und testen Sie die SACLs nach Möglichkeit in einer realistischen Laborumgebung, bevor Sie sie in einer Produktionsumgebung bereitstellen. Durch diese Vorgehensweise wird die Überlastung der Sicherheitsprotokolle infolge zu großer Datenmengen verhindert.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Verzeichnisdienstzugriff überwachen</td>
+<td style="border:1px solid black;">Durch die standardmäßige Gruppenrichtlinie für Domänencontroller wird diese Einstellung standardmäßig aktiviert. Konfigurieren Sie Überwachungseinstellungen für vertrauliche Verzeichnisobjekte anhand von Systemzugriff-Steuerungslisten (SACLs) in „Active Directory-Benutzer und -Computer“ oder „Active Directory-Schnittstellen-Editor“ (ADSI Edit). Planen Sie die SACL-Implementierung, und testen Sie die SACLs nach Möglichkeit in einer realistischen Laborumgebung, bevor Sie sie in einer Produktionsumgebung bereitstellen. Durch diese Vorgehensweise wird die Überlastung der Sicherheitsprotokolle infolge zu großer Datenmengen verhindert.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Anmeldeereignisse überwachen</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie die Überwachungserfolge für alle Computer, da dieses Ereignis aufzeichnet, wer auf Computer zugreift. Aktivieren Sie Überwachungsfehler nicht leichtfertig, da Angreifer mit Netzwerkzugriff, jedoch ohne Anmeldeinformationen eine DoS-Situation herbeiführen könnten, indem übermäßig viele Fehler generiert werden.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Anmeldeereignisse überwachen</td>
+<td style="border:1px solid black;">Aktivieren Sie die Überwachungserfolge für alle Computer, da dieses Ereignis aufzeichnet, wer auf Computer zugreift. Aktivieren Sie Überwachungsfehler nicht leichtfertig, da Angreifer mit Netzwerkzugriff, jedoch ohne Anmeldeinformationen eine DoS-Situation herbeiführen könnten, indem übermäßig viele Fehler generiert werden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Objektzugriff überwachen</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie diese Einstellung mit Bedacht, da sie zu einem sehr hohen Überwachungsvolumen führen kann. Konfigurieren Sie Überwachungseinstellungen nur für hochwertige Ordner anhand von SACLs, und überprüfen Sie ausschließlich die konkreten Zugriffsarten, die von Interesse sind. Überprüfen Sie nach Möglichkeit nur Schreibzugriffsereignisse, nicht jedoch Lesezugriffsereignisse.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Objektzugriff überwachen</td>
+<td style="border:1px solid black;">Aktivieren Sie diese Einstellung mit Bedacht, da sie zu einem sehr hohen Überwachungsvolumen führen kann. Konfigurieren Sie Überwachungseinstellungen nur für hochwertige Ordner anhand von SACLs, und überprüfen Sie ausschließlich die konkreten Zugriffsarten, die von Interesse sind. Überprüfen Sie nach Möglichkeit nur Schreibzugriffsereignisse, nicht jedoch Lesezugriffsereignisse.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Richtlinienänderungen überwachen</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie Überwachungen sowohl von Erfolgen als auch von Fehlschlägen. Gleichen Sie alle Erfolgsereignisse mit Administratorautorisierungen ab.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Richtlinienänderungen überwachen</td>
+<td style="border:1px solid black;">Aktivieren Sie Überwachungen sowohl von Erfolgen als auch von Fehlschlägen. Gleichen Sie alle Erfolgsereignisse mit Administratorautorisierungen ab.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Rechteverwendung überwachen</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie nicht die Überwachung der Rechteverwendung, da durch diese Konfiguration ein hohes Aufkommen an Ereignissen generiert werden würde.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Rechteverwendung überwachen</td>
+<td style="border:1px solid black;">Aktivieren Sie nicht die Überwachung der Rechteverwendung, da durch diese Konfiguration ein hohes Aufkommen an Ereignissen generiert werden würde.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Prozessverfolgung überwachen</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie diese Einstellung auf gefährdeten Computern, und untersuchen Sie umgehend unerwartete Anwendungsaktivitäten, indem Sie bei Bedarf das System isolieren. Aktivieren Sie diese Einstellung nicht auf CGI-Webservern (Common Gateway Interface, gemeinsame Gatewayschnittstelle), Testsystemen, Servern, auf denen Batchprozesse ausgeführt werden oder Arbeitsstationen von Entwicklern, da durch diese Einstellung Ereignisprotokolle schnell aufgefüllt werden können.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Prozessverfolgung überwachen</td>
+<td style="border:1px solid black;">Aktivieren Sie diese Einstellung auf gefährdeten Computern, und untersuchen Sie umgehend unerwartete Anwendungsaktivitäten, indem Sie bei Bedarf das System isolieren. Aktivieren Sie diese Einstellung nicht auf CGI-Webservern (Common Gateway Interface, gemeinsame Gatewayschnittstelle), Testsystemen, Servern, auf denen Batchprozesse ausgeführt werden oder Arbeitsstationen von Entwicklern, da durch diese Einstellung Ereignisprotokolle schnell aufgefüllt werden können.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Überwachungsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Systemereignisse überwachen</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie Überwachungen von Erfolgen und von Fehlschlägen.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Überwachungsrichtlinie</td>
+<td style="border:1px solid black;">Systemereignisse überwachen</td>
+<td style="border:1px solid black;">Aktivieren Sie Überwachungen von Erfolgen und von Fehlschlägen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Zuweisen von Benutzerrechten</p></td>
-<td style="border:1px solid black;"><p>Sicherheitsüberprüfung generieren</p></td>
-<td style="border:1px solid black;"><p>Diese Einstellung wird standardmäßig dem lokalen System, lokalen Server und Netzwerkdienst zugewiesen. Dieses Recht sollte nur für Dienstkonten Anwendung finden. Ein Angreifer kann anhand dieser Einstellung falsche oder ungenaue Ereignisse im Sicherheitsprotokoll generieren.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Zuweisen von Benutzerrechten</td>
+<td style="border:1px solid black;">Sicherheitsüberprüfung generieren</td>
+<td style="border:1px solid black;">Diese Einstellung wird standardmäßig dem lokalen System, lokalen Server und Netzwerkdienst zugewiesen. Dieses Recht sollte nur für Dienstkonten Anwendung finden. Ein Angreifer kann anhand dieser Einstellung falsche oder ungenaue Ereignisse im Sicherheitsprotokoll generieren.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Zuweisen von Benutzerrechten</p></td>
-<td style="border:1px solid black;"><p>Überwachungs- und Sicherheitsprotokoll verwalten</p></td>
-<td style="border:1px solid black;"><p>Schränken Sie mit dieser Einstellung die Möglichkeit von Administratoren ein, Änderungen an Überwachungseinstellungen in Dateien, Ordnern und der Registrierung vorzunehmen. Ziehen Sie in Erwägung, eine Sicherheitsgruppe für Administratoren einzurichten, die Änderungen an Überwachungseinstellungen vornehmen und die Administratorengruppe aus den Einstellungen für die lokale Sicherheitsrichtlinie entfernen dürfen. Es sollten ausschließlich Mitglieder einer Sicherheitsgruppe die Überwachung konfigurieren dürfen.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Zuweisen von Benutzerrechten</td>
+<td style="border:1px solid black;">Überwachungs- und Sicherheitsprotokoll verwalten</td>
+<td style="border:1px solid black;">Schränken Sie mit dieser Einstellung die Möglichkeit von Administratoren ein, Änderungen an Überwachungseinstellungen in Dateien, Ordnern und der Registrierung vorzunehmen. Ziehen Sie in Erwägung, eine Sicherheitsgruppe für Administratoren einzurichten, die Änderungen an Überwachungseinstellungen vornehmen und die Administratorengruppe aus den Einstellungen für die lokale Sicherheitsrichtlinie entfernen dürfen. Es sollten ausschließlich Mitglieder einer Sicherheitsgruppe die Überwachung konfigurieren dürfen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Sicherheitsoptionen</p></td>
-<td style="border:1px solid black;"><p>Überwachung: Zugriff auf globale Systemobjekte prüfen</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung werden SACLs zu benannten Systemobjekten wie Mutexen, Semaphoren und MS-DOS-Geräten hinzugefügt. Durch die Standardeinstellungen in Windows Server 2003 wird diese Option nicht aktiviert. Aktivieren Sie diese Einstellung nicht, da sie zu einem hohen Ereignisaufkommen führt.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Sicherheitsoptionen</td>
+<td style="border:1px solid black;">Überwachung: Zugriff auf globale Systemobjekte prüfen</td>
+<td style="border:1px solid black;">Mit dieser Einstellung werden SACLs zu benannten Systemobjekten wie Mutexen, Semaphoren und MS-DOS-Geräten hinzugefügt. Durch die Standardeinstellungen in Windows Server 2003 wird diese Option nicht aktiviert. Aktivieren Sie diese Einstellung nicht, da sie zu einem hohen Ereignisaufkommen führt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Sicherheitsoptionen</p></td>
-<td style="border:1px solid black;"><p>Überwachung: Die Verwendung des Sicherungs- und Wiederherstellungsrechts überprüfen</p></td>
-<td style="border:1px solid black;"><p>Sicherungs- und Wiederherstellungsvorgänge bieten die Gelegenheit zum Datendiebstahl durch Umgehung von ACLs. Aktivieren Sie diese Einstellung nicht, da sie zu einem sehr hohen Ereignisaufkommen führt.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Sicherheitsoptionen</td>
+<td style="border:1px solid black;">Überwachung: Die Verwendung des Sicherungs- und Wiederherstellungsrechts überprüfen</td>
+<td style="border:1px solid black;">Sicherungs- und Wiederherstellungsvorgänge bieten die Gelegenheit zum Datendiebstahl durch Umgehung von ACLs. Aktivieren Sie diese Einstellung nicht, da sie zu einem sehr hohen Ereignisaufkommen führt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Richtlinien/Sicherheitsoptionen</p></td>
-<td style="border:1px solid black;"><p>Überwachung: System sofort herunterfahren, wenn Sicherheitsüberprüfungen nicht protokolliert werden können</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie diese Einstellung nur nach gründlicher Überlegung und ausschließlich auf hochwertigen Computern, da Angreifer anhand dieser Einstellung DoS-Angriffe einleiten können.</p></td>
+<td style="border:1px solid black;">Lokale Richtlinien/Sicherheitsoptionen</td>
+<td style="border:1px solid black;">Überwachung: System sofort herunterfahren, wenn Sicherheitsüberprüfungen nicht protokolliert werden können</td>
+<td style="border:1px solid black;">Aktivieren Sie diese Einstellung nur nach gründlicher Überlegung und ausschließlich auf hochwertigen Computern, da Angreifer anhand dieser Einstellung DoS-Angriffe einleiten können.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ereignisprotokoll</p></td>
-<td style="border:1px solid black;"><p>Maximale Größe des Sicherheitsprotokolls</p></td>
-<td style="border:1px solid black;"><p>Die empfohlenen Einstellungen hängen vom erwarteten Ereignisaufkommen und von den Einstellungen für die Aufbewahrung von Sicherheitsprotokollen ab. Diese Einstellung kann nur in Schritten von 64 KB vorgenommen werden, wobei die durchschnittliche Ereignisgröße 0,5 KB beträgt. Für Umgebungen mit hohem Datenaufkommen kann die Einstellung auf bis zu 250 MB konfiguriert werden, die Gesamtgröße aller Ereignisprotokolle darf 300 MB jedoch nicht übersteigen.</p></td>
+<td style="border:1px solid black;">Ereignisprotokoll</td>
+<td style="border:1px solid black;">Maximale Größe des Sicherheitsprotokolls</td>
+<td style="border:1px solid black;">Die empfohlenen Einstellungen hängen vom erwarteten Ereignisaufkommen und von den Einstellungen für die Aufbewahrung von Sicherheitsprotokollen ab. Diese Einstellung kann nur in Schritten von 64 KB vorgenommen werden, wobei die durchschnittliche Ereignisgröße 0,5 KB beträgt. Für Umgebungen mit hohem Datenaufkommen kann die Einstellung auf bis zu 250 MB konfiguriert werden, die Gesamtgröße aller Ereignisprotokolle darf 300 MB jedoch nicht übersteigen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ereignisprotokoll</p></td>
-<td style="border:1px solid black;"><p>Lokalen Gastkontozugriff auf Systemprotokoll verhindern</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003 aktiviert diese Einstellung standardmäßig. Ändern Sie dies nicht.</p></td>
+<td style="border:1px solid black;">Ereignisprotokoll</td>
+<td style="border:1px solid black;">Lokalen Gastkontozugriff auf Systemprotokoll verhindern</td>
+<td style="border:1px solid black;">Windows Server 2003 aktiviert diese Einstellung standardmäßig. Ändern Sie dies nicht.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ereignisprotokoll</p></td>
-<td style="border:1px solid black;"><p>Sicherheitsprotokoll-Aufbewahrung</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie diese Einstellung nur, wenn „Ereignisse auf Tagen basierend überschreiben“ als Aufbewahrungsmethode ausgewählt wurde. Stellen Sie bei Verwendung eines Ereigniskorrelationssystems, das Ereignisse abruft, sicher, dass die Anzahl an Tagen mindestens dreimal so hoch wie die Abfragehäufigkeit ist, damit Abfragezyklusfehler berücksichtigt werden können.</p></td>
+<td style="border:1px solid black;">Ereignisprotokoll</td>
+<td style="border:1px solid black;">Sicherheitsprotokoll-Aufbewahrung</td>
+<td style="border:1px solid black;">Aktivieren Sie diese Einstellung nur, wenn „Ereignisse auf Tagen basierend überschreiben“ als Aufbewahrungsmethode ausgewählt wurde. Stellen Sie bei Verwendung eines Ereigniskorrelationssystems, das Ereignisse abruft, sicher, dass die Anzahl an Tagen mindestens dreimal so hoch wie die Abfragehäufigkeit ist, damit Abfragezyklusfehler berücksichtigt werden können.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ereignisprotokoll</p></td>
-<td style="border:1px solid black;"><p>Aufbewahrungsmethode des Sicherheitsprotokolls</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie in Hochsicherheitsumgebungen die Einstellung „Ereignisse nicht überschreiben“. Richten Sie in diesem Fall Verfahren zum regelmäßigen Leeren und Archivieren von Protokollen ein, besonders wenn die Einstellung zum umgehenden Herunterfahren des Systems bei nicht möglicher Protokollierung von Sicherheitsüberwachungen aktiviert ist.</p></td>
+<td style="border:1px solid black;">Ereignisprotokoll</td>
+<td style="border:1px solid black;">Aufbewahrungsmethode des Sicherheitsprotokolls</td>
+<td style="border:1px solid black;">Aktivieren Sie in Hochsicherheitsumgebungen die Einstellung „Ereignisse nicht überschreiben“. Richten Sie in diesem Fall Verfahren zum regelmäßigen Leeren und Archivieren von Protokollen ein, besonders wenn die Einstellung zum umgehenden Herunterfahren des Systems bei nicht möglicher Protokollierung von Sicherheitsüberwachungen aktiviert ist.</td>
 </tr>
 </tbody>
 </table>

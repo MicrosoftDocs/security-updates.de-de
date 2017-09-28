@@ -13,7 +13,7 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt ActivationProxy
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,20 +27,20 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt ActivationProxy
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Zeit in Mikrosekunden, die aufgrund von Aktivierungsfehlerereignissen aufgewendet wurde.</p></td>
+<td style="border:1px solid black;">Activation Failure Processing Time</td>
+<td style="border:1px solid black;">Die Zeit in Mikrosekunden, die aufgrund von Aktivierungsfehlerereignissen aufgewendet wurde.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Activation Failures</p></td>
-<td style="border:1px solid black;"><p>Die Anzahl von fehlgeschlagenen Aktivierungsanforderungen.</p></td>
+<td style="border:1px solid black;">Activation Failures</td>
+<td style="border:1px solid black;">Die Anzahl von fehlgeschlagenen Aktivierungsanforderungen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der Anforderungen, die für den Aktivierungsdienst vorgenommen wurden.</p></td>
+<td style="border:1px solid black;">Activation Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der Anforderungen, die für den Aktivierungsdienst vorgenommen wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Activation Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Verarbeitungszeit in Mikrosekunden, die vom Aktivierungsdienst aufgewendet wurde.</p></td>
+<td style="border:1px solid black;">Activation Total Processing Time</td>
+<td style="border:1px solid black;">Die Verarbeitungszeit in Mikrosekunden, die vom Aktivierungsdienst aufgewendet wurde.</td>
 </tr>
 </tbody>
 </table>

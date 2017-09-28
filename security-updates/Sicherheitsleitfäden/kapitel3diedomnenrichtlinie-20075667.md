@@ -120,7 +120,7 @@ Weitere Informationen zu den einzelnen Einstellungen erhalten Sie in den nach de
 
 **Tabelle 3.1 Empfehlungen zur Kennwortrichtlinieneinstellung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -130,48 +130,48 @@ Weitere Informationen zu den einzelnen Einstellungen erhalten Sie in den nach de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kennwortchronik erzwingen</p></td>
-<td style="border:1px solid black;"><p>Erinnerung an 24 Kennwörter</p></td>
-<td style="border:1px solid black;"><p>Erinnerung an 24 Kennwörter</p></td>
-<td style="border:1px solid black;"><p>Erinnerung an 24 Kennwörter</p></td>
+<td style="border:1px solid black;">Kennwortchronik erzwingen</td>
+<td style="border:1px solid black;">Erinnerung an 24 Kennwörter</td>
+<td style="border:1px solid black;">Erinnerung an 24 Kennwörter</td>
+<td style="border:1px solid black;">Erinnerung an 24 Kennwörter</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Maximales Kennwortalter</p></td>
-<td style="border:1px solid black;"><p>42 Tage</p></td>
-<td style="border:1px solid black;"><p>42 Tage</p></td>
-<td style="border:1px solid black;"><p>42 Tage</p></td>
+<td style="border:1px solid black;">Maximales Kennwortalter</td>
+<td style="border:1px solid black;">42 Tage</td>
+<td style="border:1px solid black;">42 Tage</td>
+<td style="border:1px solid black;">42 Tage</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Minimales Kennwortalter</p></td>
-<td style="border:1px solid black;"><p>1 Tag</p></td>
-<td style="border:1px solid black;"><p>1 Tag</p></td>
-<td style="border:1px solid black;"><p>1 Tag</p></td>
+<td style="border:1px solid black;">Minimales Kennwortalter</td>
+<td style="border:1px solid black;">1 Tag</td>
+<td style="border:1px solid black;">1 Tag</td>
+<td style="border:1px solid black;">1 Tag</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Minimale Kennwortlänge</p></td>
-<td style="border:1px solid black;"><p>8 Zeichen</p></td>
-<td style="border:1px solid black;"><p>8 Zeichen</p></td>
-<td style="border:1px solid black;"><p>12 Zeichen</p></td>
+<td style="border:1px solid black;">Minimale Kennwortlänge</td>
+<td style="border:1px solid black;">8 Zeichen</td>
+<td style="border:1px solid black;">8 Zeichen</td>
+<td style="border:1px solid black;">12 Zeichen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kennwörter müssen den Komplexitätsanforderungen entsprechen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Kennwörter müssen den Komplexitätsanforderungen entsprechen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kennwort mit umkehrbarer Verschlüsselung speichern</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Kennwort mit umkehrbarer Verschlüsselung speichern</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -267,7 +267,7 @@ Weitere Informationen zu den einzelnen Einstellungen erhalten Sie in den nach de
   
 **Tabellen 3.2 Einstellungen der Kontosperrungsrichtlinie**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -277,30 +277,30 @@ Weitere Informationen zu den einzelnen Einstellungen erhalten Sie in den nach de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kontosperrdauer</p></td>
-<td style="border:1px solid black;"><p>30 Minuten</p></td>
-<td style="border:1px solid black;"><p>30 Minuten</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
+<td style="border:1px solid black;">Kontosperrdauer</td>
+<td style="border:1px solid black;">30 Minuten</td>
+<td style="border:1px solid black;">30 Minuten</td>
+<td style="border:1px solid black;">15 Minuten</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kontensperrungsschwelle</p></td>
-<td style="border:1px solid black;"><p>50 ungültige Anmeldungsversuche</p></td>
-<td style="border:1px solid black;"><p>50 ungültige Anmeldungsversuche</p></td>
-<td style="border:1px solid black;"><p>10 ungültige Anmeldungsversuche</p></td>
+<td style="border:1px solid black;">Kontensperrungsschwelle</td>
+<td style="border:1px solid black;">50 ungültige Anmeldungsversuche</td>
+<td style="border:1px solid black;">50 ungültige Anmeldungsversuche</td>
+<td style="border:1px solid black;">10 ungültige Anmeldungsversuche</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zurücksetzungsdauer des Kontosperrungszählers</p></td>
-<td style="border:1px solid black;"><p>30 Minuten</p></td>
-<td style="border:1px solid black;"><p>30 Minuten</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
+<td style="border:1px solid black;">Zurücksetzungsdauer des Kontosperrungszählers</td>
+<td style="border:1px solid black;">30 Minuten</td>
+<td style="border:1px solid black;">30 Minuten</td>
+<td style="border:1px solid black;">15 Minuten</td>
 </tr>
 </tbody>
 </table>
@@ -365,7 +365,7 @@ Die folgende Tabelle fasst die empfohlenen Sicherheitsoptionseinstellungen zusam
   
 **Tabelle 3.3 Sicherheitsoptionseinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -375,30 +375,30 @@ Die folgende Tabelle fasst die empfohlenen Sicherheitsoptionseinstellungen zusam
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Server): Clientverbindungen aufheben, wenn die Anmeldezeit überschritten wird</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Server): Clientverbindungen aufheben, wenn die Anmeldezeit überschritten wird</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerksicherheit: Abmeldung nach Ablauf der Anmeldezeit erzwingen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Netzwerksicherheit: Abmeldung nach Ablauf der Anmeldezeit erzwingen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -488,7 +488,7 @@ Unter den folgenden Links erhalten Sie zusätzliche Informationen zur Domänenri
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

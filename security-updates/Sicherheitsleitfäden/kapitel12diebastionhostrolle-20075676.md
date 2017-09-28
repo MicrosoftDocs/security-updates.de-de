@@ -40,7 +40,7 @@ Für die zuvor in diesem Handbuch beschriebenen Serverrollen wurden Gruppenricht
 
 **Tabelle 12.1: Sicherheitsvorlagen für Bastion-Hostserver**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -49,16 +49,16 @@ Für die zuvor in diesem Handbuch beschriebenen Serverrollen wurden Gruppenricht
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hochsicher - Bastion-Host.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Bastion-Host.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Bastion-Host.inf</p></td>
+<td style="border:1px solid black;">Hochsicher - Bastion-Host.inf</td>
+<td style="border:1px solid black;">Hochsicher - Bastion-Host.inf</td>
+<td style="border:1px solid black;">Hochsicher - Bastion-Host.inf</td>
 </tr>
 </tbody>
 </table>
@@ -77,7 +77,7 @@ Die Datei „Hochsicher - Bastion-Host.inf“ enthält die BHLP-Zuweisungen von
   
 **Tabelle 12.2: Empfohlene Einstellungen zum Zuweisen von Benutzerrechten**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -85,14 +85,14 @@ Die Datei „Hochsicher - Bastion-Host.inf“ enthält die BHLP-Zuweisungen von
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Zuweisen von Benutzerrechten</p></th>
-<th><p>Einstellung</p></th>
+<th>Zuweisen von Benutzerrechten</th>
+<th>Einstellung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</p></td>
-<td style="border:1px solid black;"><p>ANONYME ANMELDUNG; Vordefinierter Administrator; Support_388945a0; Gast; alle betriebssystemfremden Dienstkonten</p></td>
+<td style="border:1px solid black;">Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</td>
+<td style="border:1px solid black;">ANONYME ANMELDUNG; Vordefinierter Administrator; Support_388945a0; Gast; alle betriebssystemfremden Dienstkonten</td>
 </tr>
 </tbody>
 </table>
@@ -135,7 +135,7 @@ Das vordefinierte Administratorkonto kann außerdem entsprechend den Empfehlunge
   
 **Tabelle 12.3: Manuell hinzugefügte Zuweisungen von Benutzerrechten**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -145,25 +145,25 @@ Das vordefinierte Administratorkonto kann außerdem entsprechend den Empfehlunge
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
+<td style="border:1px solid black;">Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Wichtig**: „Alle betriebssystemfremden Dienstkonten“ schließt Dienstkonten mit ein, die unternehmensweit für bestimmte Anwendungen verwendet werden. Dazu gehören allerdings NICHT die Konten LOKALES SYSTEM, LOKALER DIENST und NETZWERKDIENST (die vom Betriebssystem verwendeten vordefinierten Konten).
 
@@ -189,7 +189,7 @@ Die Auswirkung dieser Konfigurationsänderung hat sich in den letzten Jahren nac
 
 **Tabelle 12.4: Empfohlene Einstellungen für die Fehlerberichterstattung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -199,18 +199,18 @@ Die Auswirkung dieser Konfigurationsänderung hat sich in den letzten Jahren nac
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows-Fehlerberichterstattung deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Windows-Fehlerberichterstattung deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -361,7 +361,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Bastio
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

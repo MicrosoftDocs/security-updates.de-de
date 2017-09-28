@@ -15,7 +15,7 @@ In der folgenden Tabelle werden die Parameter für das REFRESH-Tag aufgelistet.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,20 +29,20 @@ In der folgenden Tabelle werden die Parameter für das REFRESH-Tag aufgelistet.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Die Sperrlisten-ID.</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Die Sperrlisten-ID.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ADDRESS</p></td>
-<td style="border:1px solid black;"><p>Der URL oder UNC-Pfad, über den die Sperrliste erhalten werden kann.</p></td>
+<td style="border:1px solid black;">ADDRESS</td>
+<td style="border:1px solid black;">Der URL oder UNC-Pfad, über den die Sperrliste erhalten werden kann.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>Der öffentliche Schlüssel des Sperrlistenausstellers. Er entspricht dem privaten Schlüssel, mit dem die Sperrliste signiert wurde.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">Der öffentliche Schlüssel des Sperrlistenausstellers. Er entspricht dem privaten Schlüssel, mit dem die Sperrliste signiert wurde.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>INTERVALTIME</p></td>
-<td style="border:1px solid black;"><p>Das maximale Alter der Sperrliste (in Tagen). Wenn die Sperrliste im Cache älter ist, als in INTERVALTIME festgelegt, ruft RMS-Client die aktuellste Version der Liste über den URL, der unter ADDRESS aufgeführt ist. Damit wird sichergestellt, dass immer die aktuellste Sperrliste verwendet wird.</p></td>
+<td style="border:1px solid black;">INTERVALTIME</td>
+<td style="border:1px solid black;">Das maximale Alter der Sperrliste (in Tagen). Wenn die Sperrliste im Cache älter ist, als in INTERVALTIME festgelegt, ruft RMS-Client die aktuellste Version der Liste über den URL, der unter ADDRESS aufgeführt ist. Damit wird sichergestellt, dass immer die aktuellste Sperrliste verwendet wird.</td>
 </tr>
 </tbody>
 </table>

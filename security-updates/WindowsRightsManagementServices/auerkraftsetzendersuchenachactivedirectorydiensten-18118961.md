@@ -43,7 +43,7 @@ Die folgende Tabelle enthält die Einträge, die Sie hinzufügen können, um die
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -59,14 +59,14 @@ Die folgende Tabelle enthält die Einträge, die Sie hinzufügen können, um die
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
-<td style="border:1px solid black;"><p>String</p></td>
-<td style="border:1px solid black;"><p>http (oder https)://<em>Servername</em>/_wmcs/certification/subenrollservice.asmx</p></td>
+<td style="border:1px solid black;">SubEnrollmentURL</td>
+<td style="border:1px solid black;">String</td>
+<td style="border:1px solid black;">http (oder https)://<em>Servername</em>/_wmcs/certification/subenrollservice.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GicURL</p></td>
-<td style="border:1px solid black;"><p>String</p></td>
-<td style="border:1px solid black;"><p>http (oder https)://<em>Servername</em>/_wmcs/certification/certification.asmx</p></td>
+<td style="border:1px solid black;">GicURL</td>
+<td style="border:1px solid black;">String</td>
+<td style="border:1px solid black;">http (oder https)://<em>Servername</em>/_wmcs/certification/certification.asmx</td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ In der folgenden Tabelle sind die Registrierungsschlüssel aufgeführt, die Sie 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -114,19 +114,19 @@ In der folgenden Tabelle sind die Registrierungsschlüssel aufgeführt, die Sie 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation</p></td>
-<td style="border:1px solid black;"><p>String</p></td>
-<td style="border:1px solid black;"><p>http (oder https)://<em>RMS-Clustername</em>/_wmcs/Certification, wobei <em>RMS-Clustername</em> der Name Ihres RMS-Clusters ist.</p></td>
+<td style="border:1px solid black;">Activation</td>
+<td style="border:1px solid black;">String</td>
+<td style="border:1px solid black;">http (oder https)://<em>RMS-Clustername</em>/_wmcs/Certification, wobei <em>RMS-Clustername</em> der Name Ihres RMS-Clusters ist.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
-<td style="border:1px solid black;"><p>String</p></td>
-<td style="border:1px solid black;"><p>http (oder https)://<em>RMS-Clustername</em>/_wmcs/Licensing, wobei <em>RMS-Custername</em> der Name Ihres RMS-Clusters ist.</p></td>
+<td style="border:1px solid black;">EnterprisePublishing</td>
+<td style="border:1px solid black;">String</td>
+<td style="border:1px solid black;">http (oder https)://<em>RMS-Clustername</em>/_wmcs/Licensing, wobei <em>RMS-Custername</em> der Name Ihres RMS-Clusters ist.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CloudPublishing</p></td>
-<td style="border:1px solid black;"><p>String</p></td>
-<td style="border:1px solid black;"><p>http (oder https)://<em>FQDN-Clustername</em>/_wmcs/Licensing, wobei <em>FQDN-Clustername</em> der vollqualifizierte Domänenname (FQDN) Ihres RMS-Clusters ist.</p></td>
+<td style="border:1px solid black;">CloudPublishing</td>
+<td style="border:1px solid black;">String</td>
+<td style="border:1px solid black;">http (oder https)://<em>FQDN-Clustername</em>/_wmcs/Licensing, wobei <em>FQDN-Clustername</em> der vollqualifizierte Domänenname (FQDN) Ihres RMS-Clusters ist.</td>
 </tr>
 </tbody>
 </table>

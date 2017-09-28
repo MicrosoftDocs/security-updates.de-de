@@ -21,7 +21,7 @@ Bevor Sie mit dem Konfigurationsvorgang beginnen, sollten folgende Fragen geklä
 
 In der Standardeinstellung ist WSUS 3.0 SP2 so konfiguriert, dass Microsoft Update als Speicherort verwendet wird, von dem Updates abgerufen werden. Wenn Sie in Ihrem Netzwerk über einen Proxyserver verfügen, können Sie WSUS 3.0 SP2 so konfigurieren, dass dieser Proxyserver verwendet wird. Wenn sich zwischen WSUS und dem Internet eine Unternehmensfirewall befindet, müssen Sie die Firewall unter Umständen neu konfigurieren, um sicherzustellen, dass WSUS Updates erhalten kann.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -34,11 +34,11 @@ In der Standardeinstellung ist WSUS 3.0 SP2 so konfiguriert, dass Microsoft Upda
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Zum Herunterladen von Updates von Microsoft Update benötigen Sie eine Internetverbindung. WSUS bietet Ihnen jedoch auch die Möglichkeit, Updates in Netzwerke ohne Internetverbindung zu importieren.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Schritt 3 umfasst die folgenden Verfahren:
 
@@ -63,7 +63,7 @@ Schritt 3 umfasst die folgenden Verfahren:
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -76,11 +76,11 @@ Schritt 3 umfasst die folgenden Verfahren:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Diese Anweisungen zum Konfigurieren der Firewall beziehen sich auf eine Unternehmensfirewall zwischen WSUS und dem Internet. Da WSUS seinen gesamten Netzwerkverkehr selbst initiiert, muss die Windows-Firewall auf dem WSUS-Server nicht konfiguriert werden.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Für die Verbindung zwischen Microsoft Update und WSUS müssen die Ports 80 und 443 offen sein. Sie können jedoch auch mehrere WSUS-Server so konfigurieren, dass sie mit einem benutzerdefinierten Port synchronisiert werden.
 
@@ -111,7 +111,7 @@ Bei den beiden folgenden Verfahren wird vorausgesetzt, dass Sie das WSUS-Verwalt
 **So starten Sie die WSUS-Verwaltungskonsole**
 -   Zum Starten der WSUS-Verwaltungskonsole klicken Sie auf **Start**, zeigen Sie auf **Alle Programme**, zeigen Sie auf **Verwaltung**, und klicken Sie anschließend auf **Microsoft Windows Server Update Services 3.0**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -124,11 +124,11 @@ Bei den beiden folgenden Verfahren wird vorausgesetzt, dass Sie das WSUS-Verwalt
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Damit Sie alle Features der Konsole verwenden können, müssen Sie sich als Mitglied der WSUS-Administratorengruppe oder der lokalen Administratorensicherheitsgruppe auf dem Server anmelden, auf dem WSUS installiert ist. Für Mitglieder der Sicherheitsgruppe &quot;WSUS-Berichterstatter&quot; ist die Konsole schreibgeschützt.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **So geben Sie eine Updatequelle und einen Proxyserver an**
 1.  Klicken Sie links in der WSUS-Konsole unter dem Namen dieses Servers auf **Optionen**, und klicken Sie anschließend im mittleren Bereich auf **Updatequelle und Proxyserver**.

@@ -17,7 +17,7 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -31,7 +31,7 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupAliases</p></td>
+<td style="border:1px solid black;">GroupAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupName: der Alias für die Gruppe<br />
 <br />
@@ -42,7 +42,7 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
+<td style="border:1px solid black;">GroupIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupDN: der definierte Active Directory-Name für diese Gruppe<br />
 <br />
@@ -56,7 +56,7 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupMembership</p></td>
+<td style="border:1px solid black;">GroupMembership</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupID: die eindeutige ID für diese Gruppe<br />
 <br />
@@ -67,7 +67,7 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalAliases</p></td>
+<td style="border:1px solid black;">PrincipalAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalName: ein Aliasname für den Prinzipal<br />
 <br />
@@ -78,7 +78,7 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
+<td style="border:1px solid black;">PrincipalIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalID: die eindeutige ID für diesen Prinzipal<br />
 <br />
@@ -89,8 +89,8 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalMembership</p></td>
-<td style="border:1px solid black;"><p>Jede Tabellenzeile schließt die eindeutige ID eines Prinzipals und die eindeutige ID der Gruppe ein, die dem Prinzipal angehört.</p>
+<td style="border:1px solid black;">PrincipalMembership</td>
+<td style="border:1px solid black;">Jede Tabellenzeile schließt die eindeutige ID eines Prinzipals und die eindeutige ID der Gruppe ein, die dem Prinzipal angehört.
 <ul>
 <li>PrincipalID: die eindeutige ID für diesen Prinzipal<br />
 <br />

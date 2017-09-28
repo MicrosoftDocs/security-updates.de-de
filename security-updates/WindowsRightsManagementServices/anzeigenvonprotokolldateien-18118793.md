@@ -15,7 +15,7 @@ Die Größe eines typischen Protokolleintrags beträgt etwa 300 Bytes. In der f
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,72 +29,72 @@ Die Größe eines typischen Protokolleintrags beträgt etwa 300 Bytes. In der f
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HostMachineName</p></td>
-<td style="border:1px solid black;"><p>Der Computer, der die Anforderung verarbeitet hat.</p></td>
+<td style="border:1px solid black;">HostMachineName</td>
+<td style="border:1px solid black;">Der Computer, der die Anforderung verarbeitet hat.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HostMachineRequestId</p></td>
-<td style="border:1px solid black;"><p>Identifiziert diese Anforderung eindeutig auf diesem Computer. Die Kombination aus HostMachineName und HostMachineRequestId identifiziert die Anforderung eindeutig im Cluster.</p></td>
+<td style="border:1px solid black;">HostMachineRequestId</td>
+<td style="border:1px solid black;">Identifiziert diese Anforderung eindeutig auf diesem Computer. Die Kombination aus HostMachineName und HostMachineRequestId identifiziert die Anforderung eindeutig im Cluster.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestTime</p></td>
-<td style="border:1px solid black;"><p>Die Uhrzeit in UTC (Coordinated Universal Time, Greenwich Mean Time), zu der die Anforderung einging.</p></td>
+<td style="border:1px solid black;">RequestTime</td>
+<td style="border:1px solid black;">Die Uhrzeit in UTC (Coordinated Universal Time, Greenwich Mean Time), zu der die Anforderung einging.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RequestPath</p></td>
-<td style="border:1px solid black;"><p>Relativer URL zur ASMX-Datei. Beispiel: /_wmcs/licensing/License.asmx.</p></td>
+<td style="border:1px solid black;">RequestPath</td>
+<td style="border:1px solid black;">Relativer URL zur ASMX-Datei. Beispiel: /_wmcs/licensing/License.asmx.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestType</p></td>
-<td style="border:1px solid black;"><p>Name der aufgerufenen Webmethode. Beispiel: AcquireLicense.</p></td>
+<td style="border:1px solid black;">RequestType</td>
+<td style="border:1px solid black;">Name der aufgerufenen Webmethode. Beispiel: AcquireLicense.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RequestUserAddress</p></td>
-<td style="border:1px solid black;"><p>Die Quell-IP-Adresse des Anfordernden</p></td>
+<td style="border:1px solid black;">RequestUserAddress</td>
+<td style="border:1px solid black;">Die Quell-IP-Adresse des Anfordernden</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestUserAgent</p></td>
-<td style="border:1px solid black;"><p>Wert des Benutzer-Agenten des HTTP-Headers.</p></td>
+<td style="border:1px solid black;">RequestUserAgent</td>
+<td style="border:1px solid black;">Wert des Benutzer-Agenten des HTTP-Headers.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthenticatedState</p></td>
-<td style="border:1px solid black;"><p>Gibt an, ob die HTTP-Verbindung authentifiziert wurde (True/False).</p></td>
+<td style="border:1px solid black;">AuthenticatedState</td>
+<td style="border:1px solid black;">Gibt an, ob die HTTP-Verbindung authentifiziert wurde (True/False).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SecureConnectionState</p></td>
-<td style="border:1px solid black;"><p>Gibt an, ob es sich um eine SSL-Verbindung handelt (True/False).</p></td>
+<td style="border:1px solid black;">SecureConnectionState</td>
+<td style="border:1px solid black;">Gibt an, ob es sich um eine SSL-Verbindung handelt (True/False).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthenticatedId</p></td>
-<td style="border:1px solid black;"><p>Anmeldename für authentifizierte Anforderungen. Ist leer, wenn AuthenticatedState=False.</p></td>
+<td style="border:1px solid black;">AuthenticatedId</td>
+<td style="border:1px solid black;">Anmeldename für authentifizierte Anforderungen. Ist leer, wenn AuthenticatedState=False.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ReceivedXrMLDocument</p></td>
-<td style="border:1px solid black;"><p>Das vom Anfordernden empfangene XrML-Dokument.</p></td>
+<td style="border:1px solid black;">ReceivedXrMLDocument</td>
+<td style="border:1px solid black;">Das vom Anfordernden empfangene XrML-Dokument.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ReceivedXrMLDocumentIssuerChain</p></td>
-<td style="border:1px solid black;"><p>Die Ausstellerkette des empfangenen XrML-Dokuments.</p></td>
+<td style="border:1px solid black;">ReceivedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">Die Ausstellerkette des empfangenen XrML-Dokuments.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IssuedXrMLDocument</p></td>
-<td style="border:1px solid black;"><p>Das an den Anfordernden zurückgegebene XrML-Dokument.</p></td>
+<td style="border:1px solid black;">IssuedXrMLDocument</td>
+<td style="border:1px solid black;">Das an den Anfordernden zurückgegebene XrML-Dokument.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IssuedXrMLDocumentIssuerChain</p></td>
-<td style="border:1px solid black;"><p>Die Ausstellerkette des ausgestellten XrML-Dokuments.</p></td>
+<td style="border:1px solid black;">IssuedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">Die Ausstellerkette des ausgestellten XrML-Dokuments.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SuccessOrFailure</p></td>
-<td style="border:1px solid black;"><p>Gibt an, ob die Anforderung erfolgreich war oder fehlgeschlagen ist (Succeeded/Failed).</p></td>
+<td style="border:1px solid black;">SuccessOrFailure</td>
+<td style="border:1px solid black;">Gibt an, ob die Anforderung erfolgreich war oder fehlgeschlagen ist (Succeeded/Failed).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Metadaten</p></td>
-<td style="border:1px solid black;"><p>Metadatenfeld</p></td>
+<td style="border:1px solid black;">Metadaten</td>
+<td style="border:1px solid black;">Metadatenfeld</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ErrorInformation</p></td>
-<td style="border:1px solid black;"><p>Beschreibende Fehlermeldung, wenn ein Fehler auftritt.</p></td>
+<td style="border:1px solid black;">ErrorInformation</td>
+<td style="border:1px solid black;">Beschreibende Fehlermeldung, wenn ein Fehler auftritt.</td>
 </tr>
 </tbody>
 </table>

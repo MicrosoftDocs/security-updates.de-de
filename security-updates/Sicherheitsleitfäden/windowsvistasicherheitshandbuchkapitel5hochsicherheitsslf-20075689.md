@@ -536,7 +536,7 @@ Die folgenden Links bieten weitere Informationen zu sicherheitsbezogenen Themen 
 
 [Senden Sie uns Ihre Kommentare und Anregungen.](mailto:secwish@microsoft.com?subject=windows%20vista%20security%20guide) (engl.)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

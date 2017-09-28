@@ -13,7 +13,7 @@ Die folgende Tabelle zeigt die Softwareanforderungen zum Ausführen von RMS-Serv
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,15 +27,15 @@ Die folgende Tabelle zeigt die Softwareanforderungen zum Ausführen von RMS-Serv
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Betriebssystem</p></td>
-<td style="border:1px solid black;"><p>Jede Microsoft Windows Server® 2003 Edition außer Web Edition.</p></td>
+<td style="border:1px solid black;">Betriebssystem</td>
+<td style="border:1px solid black;">Jede Microsoft Windows Server® 2003 Edition außer Web Edition.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dateisystem</p></td>
-<td style="border:1px solid black;"><p>Das NTFS-Dateisystem wird empfohlen.</p></td>
+<td style="border:1px solid black;">Dateisystem</td>
+<td style="border:1px solid black;">Das NTFS-Dateisystem wird empfohlen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Betriebssystemkomponenten</p></td>
+<td style="border:1px solid black;">Betriebssystemkomponenten</td>
 <td style="border:1px solid black;"><ul>
 <li>Message Queuing (auch als MSMQ bezeichnet) mit aktivierter Active Directory®-Verzeichnisdienstintegration.<br />
 <br />
@@ -49,12 +49,12 @@ Die folgende Tabelle zeigt die Softwareanforderungen zum Ausführen von RMS-Serv
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Active Directory®-Directory-Dienst</p></td>
-<td style="border:1px solid black;"><p>RMS muss in einer Active Directory-Domäne installiert werden, in der auf allen Domänencontrollern Windows Server 2000 mit Service Pack 3 (SP3) oder höher ausgeführt wird. Alle Benutzer und Gruppen, die RMS zum Abrufen und Veröffentlichen von Inhalt verwenden, müssen über eine in Active Directory konfigurierte E-Mail-Adresse verfügen.</p></td>
+<td style="border:1px solid black;">Active Directory®-Directory-Dienst</td>
+<td style="border:1px solid black;">RMS muss in einer Active Directory-Domäne installiert werden, in der auf allen Domänencontrollern Windows Server 2000 mit Service Pack 3 (SP3) oder höher ausgeführt wird. Alle Benutzer und Gruppen, die RMS zum Abrufen und Veröffentlichen von Inhalt verwenden, müssen über eine in Active Directory konfigurierte E-Mail-Adresse verfügen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Datenbankserver</p></td>
-<td style="border:1px solid black;"><p>RMS erfordert eine Datenbank und gespeicherte Verfahren zum Ausführen von Operationen. Sie können Microsoft SQL Server 2000 mit SP3a oder höher bzw. Microsoft SQL Server 2005 verwenden. Zum Testen oder Bereitstellen auf einem einzelnen Computer kann Microsoft SQL Server Desktop Engine (MSDE 2000) mit SP3 oder Microsoft SQL Server 2005 Express Edition verwendet werden.</p></td>
+<td style="border:1px solid black;">Datenbankserver</td>
+<td style="border:1px solid black;">RMS erfordert eine Datenbank und gespeicherte Verfahren zum Ausführen von Operationen. Sie können Microsoft SQL Server 2000 mit SP3a oder höher bzw. Microsoft SQL Server 2005 verwenden. Zum Testen oder Bereitstellen auf einem einzelnen Computer kann Microsoft SQL Server Desktop Engine (MSDE 2000) mit SP3 oder Microsoft SQL Server 2005 Express Edition verwendet werden.</td>
 </tr>
 </tbody>
 </table>

@@ -585,7 +585,7 @@ Die folgende Tabelle enthält einige Fehlerbehebungsrichtlinien für die Smartca
 
 **Tabelle 1. Fehlerbehebungsrichtlinien für Smartcard-VPN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -593,57 +593,57 @@ Die folgende Tabelle enthält einige Fehlerbehebungsrichtlinien für die Smartca
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Problem</p></th>
-<th><p>Lösung</p></th>
+<th>Problem</th>
+<th>Lösung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Erforderliche Zertifikate sind in der Zertifizierungsstelle nicht verfügbar.</p></td>
-<td style="border:1px solid black;"><p>Aktivieren Sie Zertifikatvorlagen unter „Active Directory-Standorte und -Dienste“.</p>
-<p>Weisen Sie Registrierungsberechtigungen zu.</p></td>
+<td style="border:1px solid black;">Erforderliche Zertifikate sind in der Zertifizierungsstelle nicht verfügbar.</td>
+<td style="border:1px solid black;">Aktivieren Sie Zertifikatvorlagen unter „Active Directory-Standorte und -Dienste“.
+Weisen Sie Registrierungsberechtigungen zu.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zertifikate können der Smartcard nicht zugeordnet werden.</p></td>
-<td style="border:1px solid black;"><p>Installieren Sie ein Smartcard-Schreibgerät.</p>
-<p>Weisen Sie ein Registrierungs-Agent-Zertifikat zu.</p></td>
+<td style="border:1px solid black;">Zertifikate können der Smartcard nicht zugeordnet werden.</td>
+<td style="border:1px solid black;">Installieren Sie ein Smartcard-Schreibgerät.
+Weisen Sie ein Registrierungs-Agent-Zertifikat zu.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VPN-Server kann Remoteclients nicht authentifizieren.</p></td>
-<td style="border:1px solid black;"><p>Konfigurieren Sie den Server für die Unterstützung der EAP-TLS-Authentifizierung.</p>
-<p>Stellen Sie sicher, dass das auf dem Server verwendete Zertifikat vom Client als vertrauenswürdig eingestuft wird.</p></td>
+<td style="border:1px solid black;">VPN-Server kann Remoteclients nicht authentifizieren.</td>
+<td style="border:1px solid black;">Konfigurieren Sie den Server für die Unterstützung der EAP-TLS-Authentifizierung.
+Stellen Sie sicher, dass das auf dem Server verwendete Zertifikat vom Client als vertrauenswürdig eingestuft wird.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Der Client versucht, vor der Herstellung der VPN-Verbindung eine Verbindung per Einwahl herzustellen.</p></td>
-<td style="border:1px solid black;"><p>Konfigurieren Sie den Client so, dass keine Anfangsverbindung automatisch gewählt wird.</p></td>
+<td style="border:1px solid black;">Der Client versucht, vor der Herstellung der VPN-Verbindung eine Verbindung per Einwahl herzustellen.</td>
+<td style="border:1px solid black;">Konfigurieren Sie den Client so, dass keine Anfangsverbindung automatisch gewählt wird.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Der Client versucht nicht, vor der Herstellung der VPN-Verbindung eine Verbindung per Einwahl herzustellen.</p></td>
-<td style="border:1px solid black;"><p>Konfigurieren Sie den Client so, dass automatisch eine Anfangsverbindung gewählt wird.</p></td>
+<td style="border:1px solid black;">Der Client versucht nicht, vor der Herstellung der VPN-Verbindung eine Verbindung per Einwahl herzustellen.</td>
+<td style="border:1px solid black;">Konfigurieren Sie den Client so, dass automatisch eine Anfangsverbindung gewählt wird.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Beim Versuch des Clients, die VPN-Verbindung herzustellen, wird die Angabe des Benutzernamens, des Domänennamens und des Kennworts angefordert.</p></td>
-<td style="border:1px solid black;"><p>Vergewissern Sie sich, dass die VPN-Verbindung für die Verwendung einer Smartcard konfiguriert ist.</p>
-<p>Stellen Sie sicher, dass die Einstellungen HideUserName, HideDomain und HidePassword aktiviert sind.</p></td>
+<td style="border:1px solid black;">Beim Versuch des Clients, die VPN-Verbindung herzustellen, wird die Angabe des Benutzernamens, des Domänennamens und des Kennworts angefordert.</td>
+<td style="border:1px solid black;">Vergewissern Sie sich, dass die VPN-Verbindung für die Verwendung einer Smartcard konfiguriert ist.
+Stellen Sie sicher, dass die Einstellungen HideUserName, HideDomain und HidePassword aktiviert sind.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Der Client hat kein Verbindungsobjekt in Netzwerkverbindungen.</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie sicher, dass der Client das Verbindungs-Manager-Profil erhalten hat.</p>
-<p>Stellen Sie sicher, dass die ausführbare Datei des Verbindungs-Manager-Profils ausgeführt wurde.</p></td>
+<td style="border:1px solid black;">Der Client hat kein Verbindungsobjekt in Netzwerkverbindungen.</td>
+<td style="border:1px solid black;">Stellen Sie sicher, dass der Client das Verbindungs-Manager-Profil erhalten hat.
+Stellen Sie sicher, dass die ausführbare Datei des Verbindungs-Manager-Profils ausgeführt wurde.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Der Client stellt keine Verbindung zum VPN-Server her.</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie sicher, dass die Clientverbindung mit dem korrekten VPN-Servernamen konfiguriert wurde.</p>
-<p>Stellen Sie sicher, dass der Client den korrekten Server aus der VPN-Serverliste auswählt.</p></td>
+<td style="border:1px solid black;">Der Client stellt keine Verbindung zum VPN-Server her.</td>
+<td style="border:1px solid black;">Stellen Sie sicher, dass die Clientverbindung mit dem korrekten VPN-Servernamen konfiguriert wurde.
+Stellen Sie sicher, dass der Client den korrekten Server aus der VPN-Serverliste auswählt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Die Authentifizierung des Clients mit dem VPN-Server schlägt fehl.</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie sicher, dass der Client die Verbindung mit dem korrekten VPN-Server herstellt.</p>
-<p>Vergewissern Sie sich, dass die Smartcard ein Zertifikat aufweist, das vom VPN-Server als vertrauenswürdig eingestuft wird.</p></td>
+<td style="border:1px solid black;">Die Authentifizierung des Clients mit dem VPN-Server schlägt fehl.</td>
+<td style="border:1px solid black;">Stellen Sie sicher, dass der Client die Verbindung mit dem korrekten VPN-Server herstellt.
+Vergewissern Sie sich, dass die Smartcard ein Zertifikat aufweist, das vom VPN-Server als vertrauenswürdig eingestuft wird.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Weitere Informationen zur allgemeinen Fehlerbehebung bei VPN-Verbindungen finden Sie im Artikel **[VPN-Fehlerbehebung](http://technet2.microsoft.com/windowsserver/en/library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx) (möglicherweise in englischer Sprache) im Microsoft TechNet unter http://technet2.microsoft.com/WindowsServer/en/Library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx.
 

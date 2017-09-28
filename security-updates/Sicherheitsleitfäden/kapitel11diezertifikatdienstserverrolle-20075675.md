@@ -72,7 +72,7 @@ Die folgende Tabelle enthält die empfohlenen Sicherheitsoptionseinstellungen f�
 
 **Tabelle 11.1: Empfohlene Sicherheitsoptionseinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -80,14 +80,14 @@ Die folgende Tabelle enthält die empfohlenen Sicherheitsoptionseinstellungen f�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Systemkryptografie: FIPS-konformen Algorithmus für Verschlüsselung, Hashing und Signatur verwenden</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Systemkryptografie: FIPS-konformen Algorithmus für Verschlüsselung, Hashing und Signatur verwenden</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -146,7 +146,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungslisten des Dateisystems für
   
 **Tabelle 11.2: Zugriffssteuerungslisten des Dateisystems**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -154,42 +154,42 @@ In der folgenden Tabelle sind die Zugriffssteuerungslisten des Dateisystems für
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Pfad der Zugriffssteuerungsliste in der Benutzeroberfläche</p></th>
-<th><p>Unternehmensclient</p></th>
+<th>Pfad der Zugriffssteuerungsliste in der Benutzeroberfläche</th>
+<th>Unternehmensclient</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog (auf alle Unterordner übertragen)</p></td>
-<td style="border:1px solid black;"><p>Administratoren (Vollzugriff)</p>
-<p>SYSTEM (Vollzugriff)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertLog (auf alle Unterordner übertragen)</td>
+<td style="border:1px solid black;">Administratoren (Vollzugriff)
+SYSTEM (Vollzugriff)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv (auf alle Unterordner übertragen)</p></td>
-<td style="border:1px solid black;"><p>Administratoren (Vollzugriff)</p>
-<p>SYSTEM (Vollzugriff)</p>
-<p>Benutzer (Lesen und Ausführen, Ordnerinhalte anzeigen, Lesen)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertSrv (auf alle Unterordner übertragen)</td>
+<td style="border:1px solid black;">Administratoren (Vollzugriff)
+SYSTEM (Vollzugriff)
+Benutzer (Lesen und Ausführen, Ordnerinhalte anzeigen, Lesen)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p>Administratoren (Vollzugriff)</p>
-<p>SYSTEM (Vollzugriff)</p></td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;">Administratoren (Vollzugriff)
+SYSTEM (Vollzugriff)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p>Administratoren (Vollzugriff)</p>
-<p>SYSTEM (Vollzugriff)</p>
-<p>Benutzer (Lesen und Ausführen, Ordnerinhalte anzeigen, Lesen)</p></td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;">Administratoren (Vollzugriff)
+SYSTEM (Vollzugriff)
+Benutzer (Lesen und Ausführen, Ordnerinhalte anzeigen, Lesen)</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Aufgrund der Bedeutung der Sicherheit von Zertifizierungsstellen wird die Dateiüberwachung in den Zertifikatdienstordnern aktiviert, die in der obigen Tabelle aufgeführt sind. Die Überwachungseinträge sind wie in der folgenden Tabelle dargestellt konfiguriert:
 
 **Tabelle 11.3: Konfiguration der Datei- und Registrierungsüberwachung für Zertifikatdienste**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -198,31 +198,31 @@ Aufgrund der Bedeutung der Sicherheit von Zertifizierungsstellen wird die Datei�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Dateipfad oder Registrierungspfad</p></th>
-<th><p>Überwachungstyp</p></th>
-<th><p>Überwachungseinstellung</p></th>
+<th>Dateipfad oder Registrierungspfad</th>
+<th>Überwachungstyp</th>
+<th>Überwachungseinstellung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog</p></td>
-<td style="border:1px solid black;"><p>Fehlgeschlagen</p></td>
-<td style="border:1px solid black;"><p>Jeder (Vollzugriff)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertLog</td>
+<td style="border:1px solid black;">Fehlgeschlagen</td>
+<td style="border:1px solid black;">Jeder (Vollzugriff)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Jeder (Ändern)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertSrv</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Jeder (Ändern)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Jeder (Ändern)</p></td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Jeder (Ändern)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Jeder (Ändern)</p></td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Jeder (Ändern)</td>
 </tr>
 </tbody>
 </table>
@@ -385,7 +385,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Server
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -329,7 +329,7 @@ In der folgenden Tabelle werden die in diesem Kapitel definierten Serverrollen u
 
 **Tabelle 2.1: Serverrollen für Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -338,59 +338,59 @@ In der folgenden Tabelle werden die in diesem Kapitel definierten Serverrollen u
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Serverrolle</p></th>
-<th><p>Beschreibung</p></th>
-<th><p>Dateiname der Sicherheitsvorlage</p></th>
+<th>Serverrolle</th>
+<th>Beschreibung</th>
+<th>Dateiname der Sicherheitsvorlage</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mitgliedsserver</p></td>
-<td style="border:1px solid black;"><p>Alle Server, die Mitglied der Domäne sind und sich in oder unterhalb der Organisationseinheit für die Mitgliedsserver befinden.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Mitgliedsserver-Baseline.inf<br />
-</p></td>
+<td style="border:1px solid black;">Mitgliedsserver</td>
+<td style="border:1px solid black;">Alle Server, die Mitglied der Domäne sind und sich in oder unterhalb der Organisationseinheit für die Mitgliedsserver befinden.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>Mitgliedsserver-Baseline.inf<br />
+</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Domänencontroller</p></td>
-<td style="border:1px solid black;"><p>Alle Active Directory-Domänencontroller. Diese Server sind auch DNS-Server.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Domänencontroller.inf<br />
-</p></td>
+<td style="border:1px solid black;">Domänencontroller</td>
+<td style="border:1px solid black;">Alle Active Directory-Domänencontroller. Diese Server sind auch DNS-Server.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>Domänencontroller.inf<br />
+</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Infrastrukturserver</p></td>
-<td style="border:1px solid black;"><p>Alle dedizierten WINS- und DHCP-Server.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Infrastrukturserver.inf<br />
-</p></td>
+<td style="border:1px solid black;">Infrastrukturserver</td>
+<td style="border:1px solid black;">Alle dedizierten WINS- und DHCP-Server.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>Infrastrukturserver.inf<br />
+</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dateiserver</p></td>
-<td style="border:1px solid black;"><p>Alle dedizierten Dateiserver.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Dateiserver.inf</p></td>
+<td style="border:1px solid black;">Dateiserver</td>
+<td style="border:1px solid black;">Alle dedizierten Dateiserver.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>Dateiserver.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Druckserver</p></td>
-<td style="border:1px solid black;"><p>Alle dedizierten Druckserver.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Druckserver.inf</p></td>
+<td style="border:1px solid black;">Druckserver</td>
+<td style="border:1px solid black;">Alle dedizierten Druckserver.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>Druckserver.inf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Webserver</p></td>
-<td style="border:1px solid black;"><p>Alle dedizierten IIS-Webserver.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Webserver.inf</p></td>
+<td style="border:1px solid black;">Webserver</td>
+<td style="border:1px solid black;">Alle dedizierten IIS-Webserver.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>Webserver.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IAS-Server</p></td>
-<td style="border:1px solid black;"><p>Alle dedizierten IAS-Server.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>IAS-Server.inf</p></td>
+<td style="border:1px solid black;">IAS-Server</td>
+<td style="border:1px solid black;">Alle dedizierten IAS-Server.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>IAS-Server.inf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zertifikatdienstserver</p></td>
-<td style="border:1px solid black;"><p>Alle dedizierten Zertifizierungsstellenserver.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Zertifizierungsstellenserver.inf</p></td>
+<td style="border:1px solid black;">Zertifikatdienstserver</td>
+<td style="border:1px solid black;">Alle dedizierten Zertifizierungsstellenserver.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>Zertifizierungsstellenserver.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Bastion-Host</p></td>
-<td style="border:1px solid black;"><p>Alle Server mit Internetverbindung.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Umg&gt;-</em>Bastion-Host.inf</p></td>
+<td style="border:1px solid black;">Bastion-Host</td>
+<td style="border:1px solid black;">Alle Server mit Internetverbindung.</td>
+<td style="border:1px solid black;"><em>&lt;Umg&gt;-</em>Bastion-Host.inf</td>
 </tr>
 </tbody>
 </table>
@@ -414,7 +414,7 @@ Durch die empfohlenen Organisationseinheiten und Richtlinien, die im vorigen Abs
   
 **Tabelle 2.2: Organisationseinheiten und administrative Gruppen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -422,42 +422,42 @@ Durch die empfohlenen Organisationseinheiten und Richtlinien, die im vorigen Abs
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name der Organisationseinheit</p></th>
-<th><p>Administrative Gruppe</p></th>
+<th>Name der Organisationseinheit</th>
+<th>Administrative Gruppe</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Domänencontroller</p></td>
-<td style="border:1px solid black;"><p>Domänentechnik</p></td>
+<td style="border:1px solid black;">Domänencontroller</td>
+<td style="border:1px solid black;">Domänentechnik</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mitgliedsserver</p></td>
-<td style="border:1px solid black;"><p>Domänentechnik</p></td>
+<td style="border:1px solid black;">Mitgliedsserver</td>
+<td style="border:1px solid black;">Domänentechnik</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Infrastruktur</p></td>
-<td style="border:1px solid black;"><p>Infrastrukturadministratoren</p></td>
+<td style="border:1px solid black;">Infrastruktur</td>
+<td style="border:1px solid black;">Infrastrukturadministratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Datei</p></td>
-<td style="border:1px solid black;"><p>Infrastrukturadministratoren</p></td>
+<td style="border:1px solid black;">Datei</td>
+<td style="border:1px solid black;">Infrastrukturadministratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Druck</p></td>
-<td style="border:1px solid black;"><p>Infrastrukturadministratoren</p></td>
+<td style="border:1px solid black;">Druck</td>
+<td style="border:1px solid black;">Infrastrukturadministratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS</p></td>
-<td style="border:1px solid black;"><p>Domänentechnik</p></td>
+<td style="border:1px solid black;">IAS</td>
+<td style="border:1px solid black;">Domänentechnik</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Webserver</p></td>
-<td style="border:1px solid black;"><p>Webdienste</p></td>
+<td style="border:1px solid black;">Webserver</td>
+<td style="border:1px solid black;">Webdienste</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zertifizierungsstelle</p></td>
-<td style="border:1px solid black;"><p>Unternehmensadministratoren</p></td>
+<td style="border:1px solid black;">Zertifizierungsstelle</td>
+<td style="border:1px solid black;">Unternehmensadministratoren</td>
 </tr>
 </tbody>
 </table>
@@ -841,7 +841,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Server
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -13,7 +13,7 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Certification (
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,68 +27,68 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Certification (
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification AddNewUser Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Verarbeitungszeit in Mikrosekunden, die vom Kontozertifizierungsdienst bei der Aktualisierung der Datenbank mit neuen Benutzerinformationen aufgewendet wird.</p></td>
+<td style="border:1px solid black;">Certification AddNewUser Processing Time</td>
+<td style="border:1px solid black;">Die Verarbeitungszeit in Mikrosekunden, die vom Kontozertifizierungsdienst bei der Aktualisierung der Datenbank mit neuen Benutzerinformationen aufgewendet wird.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification AssociateUserAndMachine Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Verarbeitungszeit in Mikrosekunden, die vom Kontozertifizierungsdienst beim Verknüpfen der Benutzer- mit der Computerdatenbank aufgewendet wird.</p></td>
+<td style="border:1px solid black;">Certification AssociateUserAndMachine Processing Time</td>
+<td style="border:1px solid black;">Die Verarbeitungszeit in Mikrosekunden, die vom Kontozertifizierungsdienst beim Verknüpfen der Benutzer- mit der Computerdatenbank aufgewendet wird.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Zeit in Mikrosekunden, die für die Verarbeitung fehlgeschlagener Zertifizierungsanforderungen aufgewendet wird.</p></td>
+<td style="border:1px solid black;">Certification Failure Processing Time</td>
+<td style="border:1px solid black;">Die Zeit in Mikrosekunden, die für die Verarbeitung fehlgeschlagener Zertifizierungsanforderungen aufgewendet wird.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification GetUser Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Verarbeitungszeit in Mikrosekunden, die vom Kontozertifizierungsdienst beim Abrufen von Benutzerschlüsselinformationen aus der Datenbank aufgewendet wird.</p></td>
+<td style="border:1px solid black;">Certification GetUser Processing Time</td>
+<td style="border:1px solid black;">Die Verarbeitungszeit in Mikrosekunden, die vom Kontozertifizierungsdienst beim Abrufen von Benutzerschlüsselinformationen aus der Datenbank aufgewendet wird.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Quota Extension Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Zeit in Mikrosekunden, die vom Kontozertifizierungsdienst für die Verarbeitung fehlgeschlagener Anforderungen für zusätzliche Rechtekontozertifikate aufgewendet wird, die das festgelegte Zeitlimit überschritten haben.</p></td>
+<td style="border:1px solid black;">Certification Quota Extension Failure Processing Time</td>
+<td style="border:1px solid black;">Die Zeit in Mikrosekunden, die vom Kontozertifizierungsdienst für die Verarbeitung fehlgeschlagener Anforderungen für zusätzliche Rechtekontozertifikate aufgewendet wird, die das festgelegte Zeitlimit überschritten haben.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Quota Extension Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Zeit in Mikrosekunden, die vom Kontozertifizierungsdienst für die Verarbeitung von Anforderungen für zusätzliche Rechtekontozertifikate aufgewendet wird, die das festgelegte Zeitlimit überschritten haben.</p></td>
+<td style="border:1px solid black;">Certification Quota Extension Total Processing Time</td>
+<td style="border:1px solid black;">Die Zeit in Mikrosekunden, die vom Kontozertifizierungsdienst für die Verarbeitung von Anforderungen für zusätzliche Rechtekontozertifikate aufgewendet wird, die das festgelegte Zeitlimit überschritten haben.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Failures</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der für den Kontozertifizierungsdienst vorgenommenen Anforderungen, die kein Rechtekontozertifikat empfangen konnten.</p></td>
+<td style="border:1px solid black;">Certification Failures</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der für den Kontozertifizierungsdienst vorgenommenen Anforderungen, die kein Rechtekontozertifikat empfangen konnten.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der für den Zertifizierungsserver vorgenommenen Anforderungen zum Empfang eines Rechtekontozertifikats.</p></td>
+<td style="border:1px solid black;">Certification Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der für den Zertifizierungsserver vorgenommenen Anforderungen zum Empfang eines Rechtekontozertifikats.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Zeit in Mikrosekunden, die für die Verarbeitung von Zertifizierungsanforderungen aufgewendet wird.</p></td>
+<td style="border:1px solid black;">Certification Total Processing Time</td>
+<td style="border:1px solid black;">Die Zeit in Mikrosekunden, die für die Verarbeitung von Zertifizierungsanforderungen aufgewendet wird.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Update Quota Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Verarbeitungszeit in Mikrosekunden, die für die Aktualisierung der Kontingentdatenbank aufgewendet wird.</p></td>
+<td style="border:1px solid black;">Certification Update Quota Processing Time</td>
+<td style="border:1px solid black;">Die Verarbeitungszeit in Mikrosekunden, die für die Aktualisierung der Kontingentdatenbank aufgewendet wird.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification User Certificate Enabling Bits Addition Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Verarbeitungszeit in Mikrosekunden, die durch das Generieren des Inhaltsschlüssels bei XrML-Benutzerzertifikaten für die Zertifizierung aufgewendet wird.</p></td>
+<td style="border:1px solid black;">Certification User Certificate Enabling Bits Addition Processing Time</td>
+<td style="border:1px solid black;">Die Verarbeitungszeit in Mikrosekunden, die durch das Generieren des Inhaltsschlüssels bei XrML-Benutzerzertifikaten für die Zertifizierung aufgewendet wird.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification User Certificate Generation Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Verarbeitungszeit in Mikrosekunden, die durch das Generieren des Benutzerzertifikats aufgewendet wird.</p></td>
+<td style="border:1px solid black;">Certification User Certificate Generation Processing Time</td>
+<td style="border:1px solid black;">Die Verarbeitungszeit in Mikrosekunden, die durch das Generieren des Benutzerzertifikats aufgewendet wird.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Precertification Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtzeit in Mikrosekunden, die für die Verarbeitung fehlgeschlagener Vorzertifizierungsanforderungen aufgewendet wurde.</p></td>
+<td style="border:1px solid black;">Precertification Failure Processing Time</td>
+<td style="border:1px solid black;">Die Gesamtzeit in Mikrosekunden, die für die Verarbeitung fehlgeschlagener Vorzertifizierungsanforderungen aufgewendet wurde.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Precertification Service Failures</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der für den Vorzertifizierungsdienst vorgenommenen Anforderungen, die fehlgeschlagen sind.</p></td>
+<td style="border:1px solid black;">Precertification Service Failures</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der für den Vorzertifizierungsdienst vorgenommenen Anforderungen, die fehlgeschlagen sind.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Precertification Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der für den Vorzertifizierungsdienst vorgenommenen Anforderungen.</p></td>
+<td style="border:1px solid black;">Precertification Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der für den Vorzertifizierungsdienst vorgenommenen Anforderungen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Precertification Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Zeit in Mikrosekunden, die durch das Verarbeiten von Vorzertifizierungsanforderungen aufgewendet wurde.</p></td>
+<td style="border:1px solid black;">Precertification Total Processing Time</td>
+<td style="border:1px solid black;">Die Zeit in Mikrosekunden, die durch das Verarbeiten von Vorzertifizierungsanforderungen aufgewendet wurde.</td>
 </tr>
 </tbody>
 </table>

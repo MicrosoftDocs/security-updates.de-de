@@ -23,7 +23,7 @@ In der folgenden Tabelle werden die Entitäten, die in einer Sperrliste angegebe
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -37,28 +37,28 @@ In der folgenden Tabelle werden die Entitäten, die in einer Sperrliste angegebe
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eine Gruppe von Lizenzen oder Zertifikaten</p></td>
-<td style="border:1px solid black;"><p>Aussteller-ID oder öffentlicher Schlüssel</p></td>
+<td style="border:1px solid black;">Eine Gruppe von Lizenzen oder Zertifikaten</td>
+<td style="border:1px solid black;">Aussteller-ID oder öffentlicher Schlüssel</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Eine Gruppe von Anwendungsmanifesten</p></td>
-<td style="border:1px solid black;"><p>Aussteller-ID oder öffentlicher Schlüssel</p></td>
+<td style="border:1px solid black;">Eine Gruppe von Anwendungsmanifesten</td>
+<td style="border:1px solid black;">Aussteller-ID oder öffentlicher Schlüssel</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eine bestimmte Lizenz oder ein bestimmtes Zertifikat</p></td>
-<td style="border:1px solid black;"><p>Lizenz-ID oder Hash</p></td>
+<td style="border:1px solid black;">Eine bestimmte Lizenz oder ein bestimmtes Zertifikat</td>
+<td style="border:1px solid black;">Lizenz-ID oder Hash</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ein bestimmtes Anwendungsmanifest</p></td>
-<td style="border:1px solid black;"><p>Lizenz-ID oder Hash</p></td>
+<td style="border:1px solid black;">Ein bestimmtes Anwendungsmanifest</td>
+<td style="border:1px solid black;">Lizenz-ID oder Hash</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ein bestimmter Prinzipal</p></td>
-<td style="border:1px solid black;"><p>Prinzipal-ID oder öffentlicher Schlüssel</p></td>
+<td style="border:1px solid black;">Ein bestimmter Prinzipal</td>
+<td style="border:1px solid black;">Prinzipal-ID oder öffentlicher Schlüssel</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bestimmte Inhalte</p></td>
-<td style="border:1px solid black;"><p>Datei-ID</p></td>
+<td style="border:1px solid black;">Bestimmte Inhalte</td>
+<td style="border:1px solid black;">Datei-ID</td>
 </tr>
 </tbody>
 </table>
@@ -71,7 +71,7 @@ Bei Sperrlisten handelt es sich um XrML-Dateien, die folgende Parameter angeben:
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -85,20 +85,20 @@ Bei Sperrlisten handelt es sich um XrML-Dateien, die folgende Parameter angeben:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
-<td style="border:1px solid black;"><p>Die Systemzeit, zu der die XrML-Datei erstellt wurde. Diese wird von der in einer Nutzungslizenz enthaltenen Bedingung REFRESH dazu verwendet, das Alter der Sperrliste zu bestimmen.</p></td>
+<td style="border:1px solid black;">ISSUEDTIME</td>
+<td style="border:1px solid black;">Die Systemzeit, zu der die XrML-Datei erstellt wurde. Diese wird von der in einer Nutzungslizenz enthaltenen Bedingung REFRESH dazu verwendet, das Alter der Sperrliste zu bestimmen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ISSUER</p></td>
-<td style="border:1px solid black;"><p>Der Name, die ID und Adresse des Sperrlistenausstellers.</p></td>
+<td style="border:1px solid black;">ISSUER</td>
+<td style="border:1px solid black;">Der Name, die ID und Adresse des Sperrlistenausstellers.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>Der öffentliche Schlüssel des Sperrlistenausstellers.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">Der öffentliche Schlüssel des Sperrlistenausstellers.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
-<td style="border:1px solid black;"><p>Der Name, der Typ und die ID jeder gesperrten Entität.</p></td>
+<td style="border:1px solid black;">REVOCATIONLIST</td>
+<td style="border:1px solid black;">Der Name, der Typ und die ID jeder gesperrten Entität.</td>
 </tr>
 </tbody>
 </table>

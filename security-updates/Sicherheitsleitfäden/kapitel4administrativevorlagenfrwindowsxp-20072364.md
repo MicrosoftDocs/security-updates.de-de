@@ -30,7 +30,7 @@ In der folgenden Tabelle werden die .adm-Dateien und die jeweils betroffenen Anw
 
 **Tabelle 4.1: Administrative Vorlagedateien**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -39,36 +39,36 @@ In der folgenden Tabelle werden die .adm-Dateien und die jeweils betroffenen Anw
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Dateiname</p></th>
-<th><p>Betriebssystem</p></th>
-<th><p>Beschreibung</p></th>
+<th>Dateiname</th>
+<th>Betriebssystem</th>
+<th>Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>System.adm</p></td>
-<td style="border:1px solid black;"><p>Windows XP Professional</p></td>
-<td style="border:1px solid black;"><p>Enthält zahlreiche Einstellungen für die Anpassung der jeweiligen Betriebssystemumgebung von Benutzern.</p></td>
+<td style="border:1px solid black;">System.adm</td>
+<td style="border:1px solid black;">Windows XP Professional</td>
+<td style="border:1px solid black;">Enthält zahlreiche Einstellungen für die Anpassung der jeweiligen Betriebssystemumgebung von Benutzern.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inetres.adm</p></td>
-<td style="border:1px solid black;"><p>Windows XP Professional</p></td>
-<td style="border:1px solid black;"><p>Enthält Einstellungen für Internet Explorer 6.0.</p></td>
+<td style="border:1px solid black;">Inetres.adm</td>
+<td style="border:1px solid black;">Windows XP Professional</td>
+<td style="border:1px solid black;">Enthält Einstellungen für Internet Explorer 6.0.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Conf.adm</p></td>
-<td style="border:1px solid black;"><p>Windows XP Professional</p></td>
-<td style="border:1px solid black;"><p>Enthält Einstellungen für die Konfiguration von Microsoft NetMeeting®.</p></td>
+<td style="border:1px solid black;">Conf.adm</td>
+<td style="border:1px solid black;">Windows XP Professional</td>
+<td style="border:1px solid black;">Enthält Einstellungen für die Konfiguration von Microsoft NetMeeting®.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wmplayer.adm</p></td>
-<td style="border:1px solid black;"><p>Windows XP Professional</p></td>
-<td style="border:1px solid black;"><p>Enthält Einstellungen für die Konfiguration von Windows Media Player.</p></td>
+<td style="border:1px solid black;">Wmplayer.adm</td>
+<td style="border:1px solid black;">Windows XP Professional</td>
+<td style="border:1px solid black;">Enthält Einstellungen für die Konfiguration von Windows Media Player.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wuau.adm</p></td>
-<td style="border:1px solid black;"><p>Windows XP Professional</p></td>
-<td style="border:1px solid black;"><p>Enthält Einstellungen für die Konfiguration von Windows Update.</p></td>
+<td style="border:1px solid black;">Wuau.adm</td>
+<td style="border:1px solid black;">Windows XP Professional</td>
+<td style="border:1px solid black;">Enthält Einstellungen für die Konfiguration von Windows Update.</td>
 </tr>
 </tbody>
 </table>
@@ -130,7 +130,7 @@ Mit Microsoft NetMeeting können über das Netzwerk Ihrer Organisation virtuelle
   
 **Tabelle 4.2: Empfohlene Einstellungen für NetMeeting**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -141,20 +141,20 @@ Mit Microsoft NetMeeting können über das Netzwerk Ihrer Organisation virtuelle
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Remotedesktop-Freigabe deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Remotedesktop-Freigabe deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -185,7 +185,7 @@ In der folgenden Tabelle sind viele der empfohlenen Einstellungen für Internet 
   
 **Tabelle 4.3: Empfohlene Einstellungen für Internet Explorer**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -196,76 +196,76 @@ In der folgenden Tabelle sind viele der empfohlenen Einstellungen für Internet 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Automatische Installation von Internet Explorer-Komponenten deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Automatische Installation von Internet Explorer-Komponenten deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodische Überprüfungen auf Softwareaktualisierungen von Internet Explorer deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Periodische Überprüfungen auf Softwareaktualisierungen von Internet Explorer deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Softwareupdatebenachrichtigungen beim Programmstart deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Softwareupdatebenachrichtigungen beim Programmstart deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benutzern nicht erlauben, Add-Ons zu aktivieren oder zu deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Benutzern nicht erlauben, Add-Ons zu aktivieren oder zu deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Proxyeinstellungen pro Computer vornehmen (anstelle von pro Benutzer)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Proxyeinstellungen pro Computer vornehmen (anstelle von pro Benutzer)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sicherheitszonen: Benutzer können keine Sites hinzufügen oder entfernen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Sicherheitszonen: Benutzer können keine Sites hinzufügen oder entfernen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sicherheitszonen: Benutzer können keine Einstellungen ändern</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Sicherheitszonen: Benutzer können keine Einstellungen ändern</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sicherheitszonen: Die Einstellungen für Sicherheitszonen statisch festlegen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Sicherheitszonen: Die Einstellungen für Sicherheitszonen statisch festlegen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Absturzerkennung deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Absturzerkennung deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -356,7 +356,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.4: Empfohlene Einstellungen für das Zulassen der Ausführung von Software**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -367,20 +367,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ausführen oder Installieren von Software zulassen, selbst wenn die Signatur ungültig ist</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Ausführen oder Installieren von Software zulassen, selbst wenn die Signatur ungültig ist</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -403,7 +403,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.5: Empfohlene Einstellungen für das MK-Protokoll**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -414,20 +414,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internet Explorer-Prozesse (MK-Protokoll)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internet Explorer-Prozesse (MK-Protokoll)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -448,7 +448,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.6: Empfohlene Einstellungen für die konsistente MIME-Verarbeitung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -459,20 +459,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internet Explorer-Prozesse (Konsistente MIME-Verarbeitung)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internet Explorer-Prozesse (Konsistente MIME-Verarbeitung)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -495,7 +495,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.7: Empfohlene Einstellungen für MIME-Sniffing**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -506,20 +506,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internet Explorer-Prozesse (MIME-Sniffing)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internet Explorer-Prozesse (MIME-Sniffing)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -542,7 +542,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.8: Empfohlene skriptgestützte Sicherheitsbeschränkungen in Windows**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -553,20 +553,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internet Explorer-Prozesse (Skriptgestützte Sicherheitsbeschränkungen in Windows)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internet Explorer-Prozesse (Skriptgestützte Sicherheitsbeschränkungen in Windows)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -587,7 +587,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.9: Empfohlene Einstellungen für den Schutz vor Zonenerhöhungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -598,20 +598,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internet Explorer-Prozesse (Zonenerhöhungsschutz)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internet Explorer-Prozesse (Zonenerhöhungsschutz)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -632,7 +632,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.10: Einstellungen für das Beschränken der Installation von ActiveX**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -643,20 +643,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internet Explorer-Prozesse (Installation von ActiveX beschränken)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internet Explorer-Prozesse (Installation von ActiveX beschränken)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -679,7 +679,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.11: Empfohlene Einstellungen für das Beschränken von Dateidownloads**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -690,20 +690,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internet Explorer-Prozesse (Dateidownload beschränken)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internet Explorer-Prozesse (Dateidownload beschränken)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -724,7 +724,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.12: Einstellungen für die Add-On-Verwaltung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -735,27 +735,27 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alle Add-Ons sperren, soweit diese nicht explizit in der Add-On-Liste aufgeführt sind</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
+<td style="border:1px solid black;">Alle Add-Ons sperren, soweit diese nicht explizit in der Add-On-Liste aufgeführt sind</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Add-On-Liste</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
+<td style="border:1px solid black;">Add-On-Liste</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
 </tr>
 </tbody>
 </table>
@@ -796,7 +796,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.13: Empfohlene Einstellungen für das Verhindern der Laufwerkumleitung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -807,20 +807,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Laufwerkumleitung nicht zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Laufwerkumleitung nicht zulassen</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -843,7 +843,7 @@ Die folgenden empfohlenen Einstellungen können im Gruppenrichtlinienobjekt-Edit
   
 **Tabelle 4.14: Empfohlene Einstellungen für die Verschlüsselung und Sicherheit von Terminaldiensten**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -854,27 +854,27 @@ Die folgenden empfohlenen Einstellungen können im Gruppenrichtlinienobjekt-Edit
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Immer Kennworteingabeaufforderung für Clients beim Herstellen von Verbindungen</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Immer Kennworteingabeaufforderung für Clients beim Herstellen von Verbindungen</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verschlüsselungsstufe der Clientverbindung festlegen</p></td>
-<td style="border:1px solid black;"><p>Höchste Stufe</p></td>
-<td style="border:1px solid black;"><p>Höchste Stufe</p></td>
-<td style="border:1px solid black;"><p>Höchste Stufe</p></td>
-<td style="border:1px solid black;"><p>Höchste Stufe</p></td>
+<td style="border:1px solid black;">Verschlüsselungsstufe der Clientverbindung festlegen</td>
+<td style="border:1px solid black;">Höchste Stufe</td>
+<td style="border:1px solid black;">Höchste Stufe</td>
+<td style="border:1px solid black;">Höchste Stufe</td>
+<td style="border:1px solid black;">Höchste Stufe</td>
 </tr>
 </tbody>
 </table>
@@ -901,7 +901,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.15: Empfohlene Einstellungen für das Verhindern der Speicherung von Kennwörtern**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -912,20 +912,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Speichern von Kennwörtern nicht zulassen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Speichern von Kennwörtern nicht zulassen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -948,7 +948,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.16: Empfohlene Einstellungen für Windows Messenger**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -959,20 +959,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ausführung von Windows Messenger nicht zulassen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Ausführung von Windows Messenger nicht zulassen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1017,7 +1017,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für Windows Update 
   
 **Tabelle 4.17: Empfohlene Einstellungen für Windows Update**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1028,55 +1028,55 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für Windows Update 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Option 'Updates installieren und herunterfahren' im Dialogfeld &quot;Windows herunterfahren&quot; nicht anzeigen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Option 'Updates installieren und herunterfahren' im Dialogfeld &quot;Windows herunterfahren&quot; nicht anzeigen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Standardoption 'Updates installieren und herunterfahren' im Dialogfeld &quot;Windows herunterfahren&quot; nicht anpassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Standardoption 'Updates installieren und herunterfahren' im Dialogfeld &quot;Windows herunterfahren&quot; nicht anpassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Automatische Updates konfigurieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Automatische Updates konfigurieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kein automatischer Neustart für geplante Installationen automatischer Updates</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Kein automatischer Neustart für geplante Installationen automatischer Updates</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Geplante Installationen automatischer Updates erneut planen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Geplante Installationen automatischer Updates erneut planen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Internen Pfad für den Microsoft Updatedienst angeben</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internen Pfad für den Microsoft Updatedienst angeben</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1154,7 +1154,7 @@ In der folgenden Tabelle sind die empfohlenen Systemeinstellungen zusammengefass
   
 **Tabelle 4.18: Empfohlene Systemeinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1165,29 +1165,29 @@ In der folgenden Tabelle sind die empfohlenen Systemeinstellungen zusammengefass
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autoplay deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert –<br />
-Alle Laufwerke</p></td>
-<td style="border:1px solid black;"><p>Aktiviert –<br />
-Alle Laufwerke</p></td>
+<td style="border:1px solid black;">Autoplay deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert –<br />
+Alle Laufwerke</td>
+<td style="border:1px solid black;">Aktiviert –<br />
+Alle Laufwerke</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Suchbefehl für Gerätetreiber in Windows Update deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Suchbefehl für Gerätetreiber in Windows Update deaktivieren</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1218,7 +1218,7 @@ In der folgenden Tabelle sind die empfohlenen Anmeldeeinstellungen zusammengefas
   
 **Tabelle 4.19: Empfohlene Anmeldeeinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1229,27 +1229,27 @@ In der folgenden Tabelle sind die empfohlenen Anmeldeeinstellungen zusammengefas
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Herkömmliche Ausführungsliste nicht verarbeiten</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Herkömmliche Ausführungsliste nicht verarbeiten</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Einmalige Ausführungsliste nicht verarbeiten</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Einmalige Ausführungsliste nicht verarbeiten</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1284,7 +1284,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.20: Empfohlene Gruppenrichtlinieneinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1295,20 +1295,20 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registrierungsrichtlinienverarbeitung</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Registrierungsrichtlinienverarbeitung</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1335,7 +1335,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für die Remoteunter
   
 **Tabelle 4.21: Empfohlene Einstellungen für die Remoteunterstützung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1346,27 +1346,27 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für die Remoteunter
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Remoteunterstützung anbieten</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Remoteunterstützung anbieten</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Angeforderte Remoteunterstützung</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Angeforderte Remoteunterstützung</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1437,7 +1437,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für die Fehlerberic
   
 **Tabelle 4.22: Empfohlene Einstellungen für die Fehlerberichterstattung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1448,27 +1448,27 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für die Fehlerberic
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Fehlerbenachrichtigung anzeigen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Fehlerbenachrichtigung anzeigen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Fehlerberichterstattung konfigurieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Fehlerberichterstattung konfigurieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1517,7 +1517,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für den Remoteproze
   
 **Tabelle 4.23: Empfohlene Einstellungen für den Remoteprozeduraufruf**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1528,27 +1528,27 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für den Remoteproze
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Einschränkungen für nicht authentifizierte RPC-Clients</p></td>
-<td style="border:1px solid black;"><p>Aktiviert – Authentifiziert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert – Authentifiziert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert – Authentifiziert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert – Authentifiziert</p></td>
+<td style="border:1px solid black;">Einschränkungen für nicht authentifizierte RPC-Clients</td>
+<td style="border:1px solid black;">Aktiviert – Authentifiziert</td>
+<td style="border:1px solid black;">Aktiviert – Authentifiziert</td>
+<td style="border:1px solid black;">Aktiviert – Authentifiziert</td>
+<td style="border:1px solid black;">Aktiviert – Authentifiziert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RPC-Endpunktzuordnung Clientauthentifizierung</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">RPC-Endpunktzuordnung Clientauthentifizierung</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1583,7 +1583,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für die Internetkom
   
 **Tabelle 4.24: Empfohlene Einstellungen für die Internetkommunikation**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1594,62 +1594,62 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für die Internetkom
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aufgabe &quot;Im Web veröffentlichen&quot; für Dateien und Ordner deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Aufgabe &quot;Im Web veröffentlichen&quot; für Dateien und Ordner deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Internetdownload für Webpublishing und Assistenten für Onlinebestellungen deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internetdownload für Webpublishing und Assistenten für Onlinebestellungen deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programm zur Verbesserung der Benutzerfreundlichkeit von Windows Messenger deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Programm zur Verbesserung der Benutzerfreundlichkeit von Windows Messenger deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Such-Assistent für Updates von Inhaltsdateien deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Such-Assistent für Updates von Inhaltsdateien deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Druckausgabe über HTTP deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Druckausgabe über HTTP deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Herunterladen von Druckertreibern über HTTP deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Herunterladen von Druckertreibern über HTTP deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gerätetreibersuche in Windows Update deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Gerätetreibersuche in Windows Update deaktivieren</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1739,7 +1739,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.25: Empfohlene Einstellungen für das Domänenprofil der Windows-Firewall**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1750,104 +1750,104 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alle Netzwerkverbindungen schützen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Alle Netzwerkverbindungen schützen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Keine Ausnahmen zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
+<td style="border:1px solid black;">Keine Ausnahmen zulassen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programmausnahmen definieren</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
+<td style="border:1px solid black;">Programmausnahmen definieren</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Programmausnahmen zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Lokale Programmausnahmen zulassen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ausnahme für Remoteverwaltung zulassen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Ausnahme für Remoteverwaltung zulassen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ausnahme für Datei- und Druckerfreigabe zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Ausnahme für Datei- und Druckerfreigabe zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ICMP-Ausnahmen zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
+<td style="border:1px solid black;">ICMP-Ausnahmen zulassen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ausnahme für Remotedesktop zulassen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Ausnahme für Remotedesktop zulassen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ausnahme für UPnP-Framework zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
+<td style="border:1px solid black;">Ausnahme für UPnP-Framework zulassen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benachrichtigungen verbieten</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
+<td style="border:1px solid black;">Benachrichtigungen verbieten</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unicast-Antwort auf Multicast- oder Broadcastanfragen verbieten</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Unicast-Antwort auf Multicast- oder Broadcastanfragen verbieten</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Portausnahmen definieren</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
+<td style="border:1px solid black;">Portausnahmen definieren</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Portausnahmen zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Lokale Portausnahmen zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1864,7 +1864,7 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
   
 **Tabelle 4.26: Empfohlene Einstellungen für das Standardprofil der Windows-Firewall**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1875,104 +1875,104 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alle Netzwerkverbindungen schützen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Alle Netzwerkverbindungen schützen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Keine Ausnahmen zulassen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
+<td style="border:1px solid black;">Keine Ausnahmen zulassen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programmausnahmen definieren</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
+<td style="border:1px solid black;">Programmausnahmen definieren</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokale Programmausnahmen zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Lokale Programmausnahmen zulassen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ausnahme für Remoteverwaltung zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Ausnahme für Remoteverwaltung zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ausnahme für Datei- und Druckerfreigabe zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Ausnahme für Datei- und Druckerfreigabe zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ICMP-Ausnahmen zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">ICMP-Ausnahmen zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ausnahme für Remotedesktop zulassen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Ausnahme für Remotedesktop zulassen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ausnahme für UPnP-Framework zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Ausnahme für UPnP-Framework zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benachrichtigungen verbieten</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
+<td style="border:1px solid black;">Benachrichtigungen verbieten</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unicast-Antwort auf Multicast- oder Broadcastanfragen verbieten</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Unicast-Antwort auf Multicast- oder Broadcastanfragen verbieten</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Portausnahmen definieren</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Nicht Empfohlen</p></td>
+<td style="border:1px solid black;">Portausnahmen definieren</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
+<td style="border:1px solid black;">Nicht Empfohlen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokale Portausnahmen zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Lokale Portausnahmen zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -2138,7 +2138,7 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
   
 **Tabelle 4.27: Empfohlene Benutzerkonfigurationseinstellungen für Internet Explorer**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2147,111 +2147,111 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>EC-Computer</p></th>
-<th><p>SSLF-Computer</p></th>
+<th>Einstellung</th>
+<th>EC-Computer</th>
+<th>SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Browser-Menüs\Option &quot;Das Programm speichern&quot; deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Browser-Menüs\Option &quot;Das Programm speichern&quot; deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Internetsystemsteuerung\Seite &quot;Erweitert&quot; deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internetsystemsteuerung\Seite &quot;Erweitert&quot; deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internetsystemsteuerung\Sicherheitsseite deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Internetsystemsteuerung\Sicherheitsseite deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Offlineseiten\Hinzufügen von Channels deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Hinzufügen von Channels deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Offlineseiten\Hinzufügen von Zeitplänen für Offlineseiten deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Hinzufügen von Zeitplänen für Offlineseiten deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Offlineseiten\Alle geplanten Offlineseiten deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Alle geplanten Offlineseiten deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Offlineseiten\Channel-Benutzeroberfläche vollständig deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Channel-Benutzeroberfläche vollständig deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Offlineseiten\Download von abonnierten Siteinhalten deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Download von abonnierten Siteinhalten deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Offlineseiten\Das Bearbeiten und Erstellen von geplanten Gruppen deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Das Bearbeiten und Erstellen von geplanten Gruppen deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Offlineseiten\Bearbeiten von Zeitplänen für Offlineseiten deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Bearbeiten von Zeitplänen für Offlineseiten deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Offlineseiten\Trefferprotokollierung für Offlineseiten deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Trefferprotokollierung für Offlineseiten deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Offlineseiten\Entfernen von Channels deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Entfernen von Channels deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Offlineseiten\Entfernen von Zeitplänen für Offlineseiten deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Offlineseiten\Entfernen von Zeitplänen für Offlineseiten deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Konfigurieren von Outlook Express</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Konfigurieren von Outlook Express</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Einstellungen für die Seite &quot;Erweitert&quot; deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Einstellungen für die Seite &quot;Erweitert&quot; deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Änderung der Einstellungen für die automatische Konfiguration deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Änderung der Einstellungen für die automatische Konfiguration deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Änderung der Zertifikatseinstellungen deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Änderung der Zertifikatseinstellungen deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Änderung der Verbindungseinstellungen deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Änderung der Verbindungseinstellungen deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Änderung der Proxyeinstellungen deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Änderung der Proxyeinstellungen deaktivieren</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Die Speicherung von Kennwörtern mit AutoVervollständigen nicht zulassen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Die Speicherung von Kennwörtern mit AutoVervollständigen nicht zulassen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -2405,7 +2405,7 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
   
 **Tabelle 4.28: Empfohlene Benutzerkonfigurationseinstellungen für den Anlagen-Manager**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2414,26 +2414,26 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>EC-Computer</p></th>
-<th><p>SSLF-Computer</p></th>
+<th>Einstellung</th>
+<th>EC-Computer</th>
+<th>SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zoneninformationen nicht in Dateianhängen aufbewahren</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Zoneninformationen nicht in Dateianhängen aufbewahren</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mechanismen zum Entfernen von Zoneninformationen ausblenden</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Mechanismen zum Entfernen von Zoneninformationen ausblenden</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Beim Öffnen von Anhängen Antivirusprogramme benachrichtigen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Beim Öffnen von Anhängen Antivirusprogramme benachrichtigen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -2479,7 +2479,7 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
   
 **Tabelle 4.29: Empfohlene Benutzerkonfigurationseinstellungen für Windows Explorer**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2488,21 +2488,21 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>EC-Computer</p></th>
-<th><p>SSLF-Computer</p></th>
+<th>Einstellung</th>
+<th>EC-Computer</th>
+<th>SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CD-Brennfunktionen entfernen</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">CD-Brennfunktionen entfernen</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registerkarte &quot;Sicherheit&quot; entfernen</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Registerkarte &quot;Sicherheit&quot; entfernen</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -2542,7 +2542,7 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
   
 **Tabelle 4.30: Empfohlene Benutzerkonfigurationseinstellungen für den Registrierungs-Editor**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2551,16 +2551,16 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>EC-Computer</p></th>
-<th><p>SSLF-Computer</p></th>
+<th>Einstellung</th>
+<th>EC-Computer</th>
+<th>SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zugriff auf Programme zum Bearbeiten der Registrierung verhindern</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Zugriff auf Programme zum Bearbeiten der Registrierung verhindern</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -2581,7 +2581,7 @@ In der folgenden Tabelle sind die empfohlenen Konfigurationseinstellungen für *
   
 **Tabelle 4.31: Empfohlene Benutzerkonfigurationseinstellungen für „System\\Energieverwaltung“**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2590,16 +2590,16 @@ In der folgenden Tabelle sind die empfohlenen Konfigurationseinstellungen für *
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>EC-Computer</p></th>
-<th><p>SSLF-Computer</p></th>
+<th>Einstellung</th>
+<th>EC-Computer</th>
+<th>SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kennworteingabe bei der Wiederaufnahme aus dem Ruhezustand bzw. Standbymodus</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Kennworteingabe bei der Wiederaufnahme aus dem Ruhezustand bzw. Standbymodus</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>

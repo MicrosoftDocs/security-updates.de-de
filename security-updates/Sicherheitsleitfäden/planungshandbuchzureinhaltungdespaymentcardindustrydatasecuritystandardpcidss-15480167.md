@@ -766,7 +766,7 @@ Microsoft-Datenschutztechnologien verknüpfen Entschlüsselungsschlüssel nicht 
 
 #### PCI DSS-Anforderungen und Technologielösungen
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -774,58 +774,58 @@ Microsoft-Datenschutztechnologien verknüpfen Entschlüsselungsschlüssel nicht 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Anforderung</p></th>
-<th><p>Technologielösungsbereiche</p></th>
+<th>Anforderung</th>
+<th>Technologielösungsbereiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anforderung 1</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_network_security">Netzwerksicherheit</a></p></td>
+<td style="border:1px solid black;">Anforderung 1</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_network_security">Netzwerksicherheit</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anforderung 2</p></td>
-<td style="border:1px solid black;"><p><a href="#_network_security">Netzwerksicherheit</a></p></td>
+<td style="border:1px solid black;">Anforderung 2</td>
+<td style="border:1px solid black;"><a href="#_network_security">Netzwerksicherheit</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anforderung 3</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a></p></td>
+<td style="border:1px solid black;">Anforderung 3</td>
+<td style="border:1px solid black;"><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anforderung 4</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_messaging_and_collaboration">Messaging und Zusammenarbeit</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a>, <a href="#_network_security">Netzwerksicherheit</a></p></td>
+<td style="border:1px solid black;">Anforderung 4</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_messaging_and_collaboration">Messaging und Zusammenarbeit</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a>, <a href="#_network_security">Netzwerksicherheit</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anforderung 5</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_malicious_software_prevention">Schutz vor schädlicher Software</a></p></td>
+<td style="border:1px solid black;">Anforderung 5</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_malicious_software_prevention">Schutz vor schädlicher Software</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anforderung 6</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_change_management">Änderungsmanagement</a>, <a href="#_host_control">Hoststeuerung</a>, <a href="#_malicious_software_prevention">Schutz vor schädlicher Software</a>, <a href="#_application_security">Anwendungssicherheit</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a></p></td>
+<td style="border:1px solid black;">Anforderung 6</td>
+<td style="border:1px solid black;"><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_change_management">Änderungsmanagement</a>, <a href="#_host_control">Hoststeuerung</a>, <a href="#_malicious_software_prevention">Schutz vor schädlicher Software</a>, <a href="#_application_security">Anwendungssicherheit</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anforderung 7</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_identity_management">Identitätsverwaltung</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a></p></td>
+<td style="border:1px solid black;">Anforderung 7</td>
+<td style="border:1px solid black;"><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_risk_assessment">Risikobewertung</a>, <a href="#_identity_management">Identitätsverwaltung</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a>, <a href="#_data_classification_and_protection">Datenklassifizierung und Schutz</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anforderung 8</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a></p></td>
+<td style="border:1px solid black;">Anforderung 8</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_authentication,_authorization,_and_">Authentifizierung, Autorisierung und Zugriffssteuerung</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anforderung 9</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a></p></td>
+<td style="border:1px solid black;">Anforderung 9</td>
+<td style="border:1px solid black;"><a href="#_document_management">Dokumentverwaltung</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anforderung 10</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_change_management">Änderungsmanagement</a>, <a href="#_monitoring,_auditing,_and_reporting">Überwachen, Überprüfen und Berichten</a>, <a href="#_network_security">Netzwerksicherheit</a></p></td>
+<td style="border:1px solid black;">Anforderung 10</td>
+<td style="border:1px solid black;"><a href="#_document_management">Dokumentverwaltung</a>, <a href="#_change_management">Änderungsmanagement</a>, <a href="#_monitoring,_auditing,_and_reporting">Überwachen, Überprüfen und Berichten</a>, <a href="#_network_security">Netzwerksicherheit</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anforderung 11</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_host_control">Hoststeuerung</a>, <a href="#_vulnerability_identification">Identifizieren von Sicherheitsrisiken</a></p></td>
+<td style="border:1px solid black;">Anforderung 11</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Risikobewertung</a>, <a href="#_host_control">Hoststeuerung</a>, <a href="#_vulnerability_identification">Identifizieren von Sicherheitsrisiken</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anforderung 12</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Dokumentverwaltung</a></p></td>
+<td style="border:1px solid black;">Anforderung 12</td>
+<td style="border:1px solid black;"><a href="#_document_management">Dokumentverwaltung</a></td>
 </tr>
 </tbody>
 </table>

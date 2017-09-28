@@ -354,7 +354,7 @@ Die Schweregradskala für Bugs wird in der nachstehenden Tabelle beschrieben. Di
 
 **Tabelle B.1: Schweregradklassifizierung für Bugs**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -363,51 +363,51 @@ Die Schweregradskala für Bugs wird in der nachstehenden Tabelle beschrieben. Di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Schweregrad</p></th>
-<th><p>Häufigste Typen</p></th>
-<th><p>Erforderliche Bedingungen</p></th>
+<th>Schweregrad</th>
+<th>Häufigste Typen</th>
+<th>Erforderliche Bedingungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>– Bug blockierte Aufbau oder weitere Tests.<br />
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">– Bug blockierte Aufbau oder weitere Tests.<br />
 – Bug hat unerwarteten Benutzerzugriff verursacht.<br />
 – Die in der Dokumentation definierten Schritte waren unklar.<br />
 – Ergebnisse oder Verhalten einer Funktion oder eines Prozesses widersprechen den erwarteten Ergebnissen (die in der funktionalen Spezifikation dokumentiert sind).<br />
-– Grobe Ungleichheit zwischen den Sicherheitsvorlagendateien und der funktionalen Spezifikation.</p></td>
-<td style="border:1px solid black;"><p>– Lösung hat nicht funktioniert.<br />
+– Grobe Ungleichheit zwischen den Sicherheitsvorlagendateien und der funktionalen Spezifikation.</td>
+<td style="border:1px solid black;">– Lösung hat nicht funktioniert.<br />
 – Benutzer konnte bedeutende Teile des Systems nicht einmal ansatzweise verwenden.<br />
 – Benutzer hatte Zugriffsberechtigungen, die nicht zulässig sein sollten.<br />
 – Benutzerzugriff auf bestimmte Server war blockiert, hätte aber möglich sein müssen.<br />
 – Erwartete Ergebnisse wurden nicht erreicht.<br />
-– Die Tests können erst fortgesetzt werden, wenn die Bugs behoben sind.</p></td>
+– Die Tests können erst fortgesetzt werden, wenn die Bugs behoben sind.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>– Im Handbuch definierte Schritte sind unklar.<br />
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">– Im Handbuch definierte Schritte sind unklar.<br />
 – Dokumentierte Funktionalität fehlt (Test wurde in diesem Fall blockiert).<br />
 – Dokumentation fehlt oder ist unzureichend.<br />
-– Inkonsistenz zwischen Sicherheitsvorlagendateien und Inhalt des Handbuchs, doch die Sicherheitsvorlagendatei ist mit der funktionalen Spezifikation synchron.</p></td>
-<td style="border:1px solid black;"><p>– Benutzer hatte keine einfache Problemumgehung zur Verfügung, um die Situation zu verbessern.<br />
+– Inkonsistenz zwischen Sicherheitsvorlagendateien und Inhalt des Handbuchs, doch die Sicherheitsvorlagendatei ist mit der funktionalen Spezifikation synchron.</td>
+<td style="border:1px solid black;">– Benutzer hatte keine einfache Problemumgehung zur Verfügung, um die Situation zu verbessern.<br />
 – Benutzer konnte keine einfache Problemumgehung finden.<br />
-– Wichtige Geschäftsanforderungen konnten nicht vom System erfüllt werden.</p></td>
+– Wichtige Geschäftsanforderungen konnten nicht vom System erfüllt werden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>– Dokumentiertes Formatproblem.<br />
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">– Dokumentiertes Formatproblem.<br />
 – Geringfügige Fehler und Ungenauigkeiten in der Dokumentation.<br />
-– Rechtschreibfehler im Text.</p></td>
-<td style="border:1px solid black;"><p>– Benutzer verfügt über eine einfache Problemumgehung.<br />
+– Rechtschreibfehler im Text.</td>
+<td style="border:1px solid black;">– Benutzer verfügt über eine einfache Problemumgehung.<br />
 – Benutzer kann leicht eine Problemumgehung finden.<br />
 – Bug beeinträchtigt Benutzerfreundlichkeit nicht.<br />
-– Wichtige Geschäftsanforderungen funktionieren noch.</p></td>
+– Wichtige Geschäftsanforderungen funktionieren noch.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>– Vorschläge.<br />
-– Zukünftige Verbesserungen.</p></td>
-<td style="border:1px solid black;"><p>– Bezieht sich eindeutig nicht auf diese Version.</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">– Vorschläge.<br />
+– Zukünftige Verbesserungen.</td>
+<td style="border:1px solid black;">– Bezieht sich eindeutig nicht auf diese Version.</td>
 </tr>
 </tbody>
 </table>

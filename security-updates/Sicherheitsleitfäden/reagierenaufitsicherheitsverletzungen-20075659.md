@@ -123,7 +123,7 @@ Ein erfolgreiches CSIRT besteht aus mehreren Schlüsselmitgliedern.
 
 **Außerordentliche CSIRT-Mitglieder**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -131,35 +131,35 @@ Ein erfolgreiches CSIRT besteht aus mehreren Schlüsselmitgliedern.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Außerordentliches Mitglied</p></th>
-<th><p>Rollenbeschreibung</p></th>
+<th>Außerordentliches Mitglied</th>
+<th>Rollenbeschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IT-Ansprechpartner</p></td>
-<td style="border:1px solid black;"><p>Dieses Mitglied ist hauptsächlich verantwortlich für die Koordination der Kommunikation zwischen dem CSIRT-Vorfallverantwortlichen und der restlichen IT-Gruppe. Die IT-Ansprechpartner haben eventuell nicht die speziellen technischen Fachkenntnisse, um auf den besonderen Vorfall reagieren zu können. Sie sind hauptsächlich verantwortlich dafür, die Kollegen in der IT-Gruppe zu finden, die bestimmte Sicherheitsereignisse behandeln können.</p></td>
+<td style="border:1px solid black;">IT-Ansprechpartner</td>
+<td style="border:1px solid black;">Dieses Mitglied ist hauptsächlich verantwortlich für die Koordination der Kommunikation zwischen dem CSIRT-Vorfallverantwortlichen und der restlichen IT-Gruppe. Die IT-Ansprechpartner haben eventuell nicht die speziellen technischen Fachkenntnisse, um auf den besonderen Vorfall reagieren zu können. Sie sind hauptsächlich verantwortlich dafür, die Kollegen in der IT-Gruppe zu finden, die bestimmte Sicherheitsereignisse behandeln können.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rechtsvertreter</p></td>
-<td style="border:1px solid black;"><p>Dieses Mitglied ist ein Rechtsanwalt, der mit den festgelegten Richtlinien für die Behandlung von Sicherheitsverletzungen sehr vertraut ist. Der Rechtsvertreter bestimmt das Vorgehen bei einer Sicherheitsverletzung mit minimaler gesetzlicher Haftung und maximaler Möglichkeit, Täter strafrechtlich zu verfolgen.</p>
-<p>Bevor ein Vorfall stattfindet, sollte der Rechtsvertreter Informationen zu den Überwachungs- und Reaktionsrichtlinien erhalten, um sicherzustellen, dass die Organisation kein rechtliches Risiko während einer Bereinigungs- oder Eindämmungsmaßnahme eingeht. Es ist sehr wichtig festzustellen, welche gesetzlichen Implikationen und möglichen Verstöße gegen Vereinbarungen zum Servicelevel und gegen Mitgliedschaftsabkommen mit Ihren Kunden entstehen können, wenn ein betroffenes System heruntergefahren wird. Außerdem sollte die Frage der Haftung für Schäden untersucht werden, die durch die von diesem System ausgehenden Angriffe entstehen, wenn das System nicht heruntergefahren wird.</p>
-<p>Jegliche Kommunikation mit Strafverfolgungsbehörden außerhalb der Organisation oder mit externen Untersuchungseinrichtungen sollte auch mit dem Rechtsvertreter koordiniert werden.</p></td>
+<td style="border:1px solid black;">Rechtsvertreter</td>
+<td style="border:1px solid black;">Dieses Mitglied ist ein Rechtsanwalt, der mit den festgelegten Richtlinien für die Behandlung von Sicherheitsverletzungen sehr vertraut ist. Der Rechtsvertreter bestimmt das Vorgehen bei einer Sicherheitsverletzung mit minimaler gesetzlicher Haftung und maximaler Möglichkeit, Täter strafrechtlich zu verfolgen.
+Bevor ein Vorfall stattfindet, sollte der Rechtsvertreter Informationen zu den Überwachungs- und Reaktionsrichtlinien erhalten, um sicherzustellen, dass die Organisation kein rechtliches Risiko während einer Bereinigungs- oder Eindämmungsmaßnahme eingeht. Es ist sehr wichtig festzustellen, welche gesetzlichen Implikationen und möglichen Verstöße gegen Vereinbarungen zum Servicelevel und gegen Mitgliedschaftsabkommen mit Ihren Kunden entstehen können, wenn ein betroffenes System heruntergefahren wird. Außerdem sollte die Frage der Haftung für Schäden untersucht werden, die durch die von diesem System ausgehenden Angriffe entstehen, wenn das System nicht heruntergefahren wird.
+Jegliche Kommunikation mit Strafverfolgungsbehörden außerhalb der Organisation oder mit externen Untersuchungseinrichtungen sollte auch mit dem Rechtsvertreter koordiniert werden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Beauftragter für Öffentlichkeitsarbeit</p></td>
-<td style="border:1px solid black;"><p>Im Allgemeinen gehört dieses Mitglied der Abteilung für an und ist für den Schutz und die Förderung des Images der Organisation verantwortlich.</p>
-<p>Diese Person hat zwar möglicherweise keinen direkten Kontakt zu den Medien und den Kunden, ist aber verantwortlich für die Formulierung der Mitteilungen. (Für Inhalt und Ziel der Nachricht ist in der Regel das Management verantwortlich.) Alle Medienanfragen sollten direkt an die Abteilung für Öffentlichkeitsarbeit geleitet werden.</p></td>
+<td style="border:1px solid black;">Beauftragter für Öffentlichkeitsarbeit</td>
+<td style="border:1px solid black;">Im Allgemeinen gehört dieses Mitglied der Abteilung für an und ist für den Schutz und die Förderung des Images der Organisation verantwortlich.
+Diese Person hat zwar möglicherweise keinen direkten Kontakt zu den Medien und den Kunden, ist aber verantwortlich für die Formulierung der Mitteilungen. (Für Inhalt und Ziel der Nachricht ist in der Regel das Management verantwortlich.) Alle Medienanfragen sollten direkt an die Abteilung für Öffentlichkeitsarbeit geleitet werden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Management</p></td>
-<td style="border:1px solid black;"><p>Je nach Vorfall haben Sie die Wahl, nur die Abteilungsmanager oder aber die abteilungsübergreifenden Manager an der Behandlung des Vorfalls zu beteiligen. Das jeweilige Managementmitglied hängt von den Auswirkungen, dem Ort, dem Schweregrad und der Art des Vorfalls ab.</p>
-<p>Wenn Sie einen Ansprechpartner im Management haben, können Sie schnell die am besten geeignete Person für die jeweiligen Umstände identifizieren. Das Management ist verantwortlich für die Genehmigung und Steuerung der Sicherheitsmaßnahmen.</p>
-<p>Außerdem ist das Management verantwortlich für die Bestimmung aller (sowohl finanzieller als auch sonstiger) Vorfallauswirkungen auf die Organisation. Das Management weist das Kommunikationspersonal an, welche Informationen den Medien mitgeteilt werden, und bestimmt die Interaktionsebene zwischen dem Rechtsvertreter und den Strafverfolgungsbehörden.</p></td>
+<td style="border:1px solid black;">Management</td>
+<td style="border:1px solid black;">Je nach Vorfall haben Sie die Wahl, nur die Abteilungsmanager oder aber die abteilungsübergreifenden Manager an der Behandlung des Vorfalls zu beteiligen. Das jeweilige Managementmitglied hängt von den Auswirkungen, dem Ort, dem Schweregrad und der Art des Vorfalls ab.
+Wenn Sie einen Ansprechpartner im Management haben, können Sie schnell die am besten geeignete Person für die jeweiligen Umstände identifizieren. Das Management ist verantwortlich für die Genehmigung und Steuerung der Sicherheitsmaßnahmen.
+Außerdem ist das Management verantwortlich für die Bestimmung aller (sowohl finanzieller als auch sonstiger) Vorfallauswirkungen auf die Organisation. Das Management weist das Kommunikationspersonal an, welche Informationen den Medien mitgeteilt werden, und bestimmt die Interaktionsebene zwischen dem Rechtsvertreter und den Strafverfolgungsbehörden.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Reagieren auf einen Vorfall
 
@@ -178,8 +178,8 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Aktivität</p></th>
-<th><p>Rolle</p></th>
+<th>Aktivität</th>
+<th>Rolle</th>
 <th></th>
 <th></th>
 <th></th>
@@ -189,75 +189,75 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p><strong>CSIRT-Vorfallleiter</strong></p></td>
-<td style="border:1px solid black;"><p><strong>IT-Ansprechpartner</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Rechtsvertreter</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Kommunikationsbeauftragter</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Management</strong></p></td>
+<td style="border:1px solid black;"><strong>CSIRT-Vorfallleiter</strong></td>
+<td style="border:1px solid black;"><strong>IT-Ansprechpartner</strong></td>
+<td style="border:1px solid black;"><strong>Rechtsvertreter</strong></td>
+<td style="border:1px solid black;"><strong>Kommunikationsbeauftragter</strong></td>
+<td style="border:1px solid black;"><strong>Management</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Erste Bewertung</p></td>
-<td style="border:1px solid black;"><p>Besitzer</p></td>
-<td style="border:1px solid black;"><p>Berät</p></td>
-<td style="border:1px solid black;"><p>Keine</p></td>
-<td style="border:1px solid black;"><p>Keine</p></td>
-<td style="border:1px solid black;"><p>Keine</p></td>
+<td style="border:1px solid black;">Erste Bewertung</td>
+<td style="border:1px solid black;">Besitzer</td>
+<td style="border:1px solid black;">Berät</td>
+<td style="border:1px solid black;">Keine</td>
+<td style="border:1px solid black;">Keine</td>
+<td style="border:1px solid black;">Keine</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Erste Reaktion</p></td>
-<td style="border:1px solid black;"><p>Besitzer</p></td>
-<td style="border:1px solid black;"><p>Implementiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
+<td style="border:1px solid black;">Erste Reaktion</td>
+<td style="border:1px solid black;">Besitzer</td>
+<td style="border:1px solid black;">Implementiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sammelt gerichtliche Beweise</p></td>
-<td style="border:1px solid black;"><p>Implementiert</p></td>
-<td style="border:1px solid black;"><p>Berät</p></td>
-<td style="border:1px solid black;"><p>Besitzer</p></td>
-<td style="border:1px solid black;"><p>Keine</p></td>
-<td style="border:1px solid black;"><p>Keine</p></td>
+<td style="border:1px solid black;">Sammelt gerichtliche Beweise</td>
+<td style="border:1px solid black;">Implementiert</td>
+<td style="border:1px solid black;">Berät</td>
+<td style="border:1px solid black;">Besitzer</td>
+<td style="border:1px solid black;">Keine</td>
+<td style="border:1px solid black;">Keine</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Implementiert vorläufige Problembehebung</p></td>
-<td style="border:1px solid black;"><p>Besitzer</p></td>
-<td style="border:1px solid black;"><p>Implementiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Berät</p></td>
+<td style="border:1px solid black;">Implementiert vorläufige Problembehebung</td>
+<td style="border:1px solid black;">Besitzer</td>
+<td style="border:1px solid black;">Implementiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Berät</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sendet Kommunikation</p></td>
-<td style="border:1px solid black;"><p>Berät</p></td>
-<td style="border:1px solid black;"><p>Berät</p></td>
-<td style="border:1px solid black;"><p>Berät</p></td>
-<td style="border:1px solid black;"><p>Implementiert</p></td>
-<td style="border:1px solid black;"><p>Besitzer</p></td>
+<td style="border:1px solid black;">Sendet Kommunikation</td>
+<td style="border:1px solid black;">Berät</td>
+<td style="border:1px solid black;">Berät</td>
+<td style="border:1px solid black;">Berät</td>
+<td style="border:1px solid black;">Implementiert</td>
+<td style="border:1px solid black;">Besitzer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Absprechen mit lokaler Strafverfolgungsbehörde</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Implementiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Besitzer</p></td>
+<td style="border:1px solid black;">Absprechen mit lokaler Strafverfolgungsbehörde</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Implementiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Besitzer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Implementiert permanente Problembehebung</p></td>
-<td style="border:1px solid black;"><p>Besitzer</p></td>
-<td style="border:1px solid black;"><p>Implementiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
+<td style="border:1px solid black;">Implementiert permanente Problembehebung</td>
+<td style="border:1px solid black;">Besitzer</td>
+<td style="border:1px solid black;">Implementiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Bestimmt finanzielle Auswirkungen auf das Geschäft</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Berät</p></td>
-<td style="border:1px solid black;"><p>Aktualisiert</p></td>
-<td style="border:1px solid black;"><p>Besitzer</p></td>
+<td style="border:1px solid black;">Bestimmt finanzielle Auswirkungen auf das Geschäft</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Berät</td>
+<td style="border:1px solid black;">Aktualisiert</td>
+<td style="border:1px solid black;">Besitzer</td>
 </tr>
 </tbody>
 </table>

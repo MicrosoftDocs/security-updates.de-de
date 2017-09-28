@@ -17,7 +17,7 @@ In der folgenden Tabelle werden die Rechte aufgelistet, die Servern durch Server
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -33,29 +33,29 @@ In der folgenden Tabelle werden die Rechte aufgelistet, die Servern durch Server
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rechtekontozertifikate</p></td>
-<td style="border:1px solid black;"><p>Ja</p></td>
-<td style="border:1px solid black;"><p>Nein</p></td>
+<td style="border:1px solid black;">Rechtekontozertifikate</td>
+<td style="border:1px solid black;">Ja</td>
+<td style="border:1px solid black;">Nein</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Veröffentlichungslizenzen</p></td>
-<td style="border:1px solid black;"><p>Ja</p></td>
-<td style="border:1px solid black;"><p>Ja</p></td>
+<td style="border:1px solid black;">Veröffentlichungslizenzen</td>
+<td style="border:1px solid black;">Ja</td>
+<td style="border:1px solid black;">Ja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nutzungslizenzen</p></td>
-<td style="border:1px solid black;"><p>Ja</p></td>
-<td style="border:1px solid black;"><p>Ja</p></td>
+<td style="border:1px solid black;">Nutzungslizenzen</td>
+<td style="border:1px solid black;">Ja</td>
+<td style="border:1px solid black;">Ja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Untergeordnete Server-Lizenzgeberzertifikate</p></td>
-<td style="border:1px solid black;"><p>Ja</p></td>
-<td style="border:1px solid black;"><p>Nein</p></td>
+<td style="border:1px solid black;">Untergeordnete Server-Lizenzgeberzertifikate</td>
+<td style="border:1px solid black;">Ja</td>
+<td style="border:1px solid black;">Nein</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Client-Lizenzgeberzertifikate</p></td>
-<td style="border:1px solid black;"><p>Ja</p></td>
-<td style="border:1px solid black;"><p>Ja</p></td>
+<td style="border:1px solid black;">Client-Lizenzgeberzertifikate</td>
+<td style="border:1px solid black;">Ja</td>
+<td style="border:1px solid black;">Ja</td>
 </tr>
 </tbody>
 </table>

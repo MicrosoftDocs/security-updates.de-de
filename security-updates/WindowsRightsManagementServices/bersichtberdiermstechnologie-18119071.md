@@ -13,7 +13,7 @@ Ein RMS-System enthält sowohl Server- als auch Clienttechnologien. In der folge
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,12 +27,12 @@ Ein RMS-System enthält sowohl Server- als auch Clienttechnologien. In der folge
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RMS-Webdienste</p></td>
-<td style="border:1px solid black;"><p>Stellen grundlegende Serverfunktionen bereit, führen die Funktionen für Kontozertifizierung, Lizenzierung, Unterregistrierung und Verwaltung in RMS aus.</p></td>
+<td style="border:1px solid black;">RMS-Webdienste</td>
+<td style="border:1px solid black;">Stellen grundlegende Serverfunktionen bereit, führen die Funktionen für Kontozertifizierung, Lizenzierung, Unterregistrierung und Verwaltung in RMS aus.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RMS-Clienttechnologien</p></td>
-<td style="border:1px solid black;"><p>Ermöglichen Systembenutzern das Erstellen, Veröffentlichen und Abrufen von RMS-geschütztem Inhalt.</p></td>
+<td style="border:1px solid black;">RMS-Clienttechnologien</td>
+<td style="border:1px solid black;">Ermöglichen Systembenutzern das Erstellen, Veröffentlichen und Abrufen von RMS-geschütztem Inhalt.</td>
 </tr>
 </tbody>
 </table>

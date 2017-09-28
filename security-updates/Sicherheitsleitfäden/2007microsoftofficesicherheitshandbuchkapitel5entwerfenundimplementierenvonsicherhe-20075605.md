@@ -165,7 +165,7 @@ Durch das Bereitstellen von Sicherheitseinstellungen über die Gruppenrichtlinie
 **Feedback**
 
 [Senden Sie uns Ihre Kommentare und Anregungen](https://technet.microsoft.com/de-de/library/secwish%40microsoft.com(v=TechNet.10))
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

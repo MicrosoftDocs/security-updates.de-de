@@ -18,7 +18,7 @@ In der folgenden Tabelle wird ein Eintrag für jeden Protokollierungsdatensatz a
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,106 +36,106 @@ In der folgenden Tabelle wird ein Eintrag für jeden Protokollierungsdatensatz a
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_LogID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nicht NULL</p></td>
-<td style="border:1px solid black;"><p>Eindeutige ID für den Protokollierungsdatensatz</p></td>
+<td style="border:1px solid black;">i_LogID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nicht NULL</td>
+<td style="border:1px solid black;">Eindeutige ID für den Protokollierungsdatensatz</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_HostMachineName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Server, der den Datensatz generiert hat</p></td>
+<td style="border:1px solid black;">s_HostMachineName</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Server, der den Datensatz generiert hat</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_HostMachineRequestId</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Anforderungs-ID</p></td>
+<td style="border:1px solid black;">s_HostMachineRequestId</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Anforderungs-ID</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_RequestTime</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Datum und Uhrzeit der Anforderung</p></td>
+<td style="border:1px solid black;">dt_RequestTime</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Datum und Uhrzeit der Anforderung</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_RequestPath</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>URL-Pfad der Anforderung</p></td>
+<td style="border:1px solid black;">s_RequestPath</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">URL-Pfad der Anforderung</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_RequestType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Typ der Anforderung</p></td>
+<td style="border:1px solid black;">s_RequestType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Typ der Anforderung</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_RequestUserAddress</p></td>
-<td style="border:1px solid black;"><p>nvarchar(32)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>IP-Adresse des Clients</p></td>
+<td style="border:1px solid black;">s_RequestUserAddress</td>
+<td style="border:1px solid black;">nvarchar(32)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">IP-Adresse des Clients</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_RequestUserAgent</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Benutzer-Agent-Kopfzeile des Clients</p></td>
+<td style="border:1px solid black;">s_RequestUserAgent</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Benutzer-Agent-Kopfzeile des Clients</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_AuthenticatedState</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Authentifizierungsstatus der Anforderung</p></td>
+<td style="border:1px solid black;">s_AuthenticatedState</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Authentifizierungsstatus der Anforderung</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_SecureConnectionState</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>SSL-Schutz der Anforderung</p></td>
+<td style="border:1px solid black;">s_SecureConnectionState</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">SSL-Schutz der Anforderung</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_AuthenticatedId</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>ID des authentifizierten Benutzers</p></td>
+<td style="border:1px solid black;">s_AuthenticatedId</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">ID des authentifizierten Benutzers</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_ReceivedXrML</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Vom Client in der Anforderung empfangenes XrML</p></td>
+<td style="border:1px solid black;">s_ReceivedXrML</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Vom Client in der Anforderung empfangenes XrML</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_IssuedXrML</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>In der Anforderung ausgestellte XrML-Lizenz</p></td>
+<td style="border:1px solid black;">s_IssuedXrML</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">In der Anforderung ausgestellte XrML-Lizenz</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Metadata</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Metadaten</p></td>
+<td style="border:1px solid black;">s_Metadata</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Metadaten</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_SuccessOrFailure</p></td>
-<td style="border:1px solid black;"><p>nvarchar(32)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Erfolg oder Fehlschlagen der Anforderung</p></td>
+<td style="border:1px solid black;">s_SuccessOrFailure</td>
+<td style="border:1px solid black;">nvarchar(32)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Erfolg oder Fehlschlagen der Anforderung</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_ErrorInformation</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Fehlerdaten</p></td>
+<td style="border:1px solid black;">s_ErrorInformation</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Fehlerdaten</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_LogCreateTime</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nicht NULL</p></td>
-<td style="border:1px solid black;"><p>Uhrzeit der Protokollerstellung</p></td>
+<td style="border:1px solid black;">dt_LogCreateTime</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nicht NULL</td>
+<td style="border:1px solid black;">Uhrzeit der Protokollerstellung</td>
 </tr>
 </tbody>
 </table>
@@ -147,7 +147,7 @@ In der folgenden Tabelle werden zusätzliche Daten für einen Protokollierungsda
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -165,28 +165,28 @@ In der folgenden Tabelle werden zusätzliche Daten für einen Protokollierungsda
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_LogDetailID</p></td>
-<td style="border:1px solid black;"><p>int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1)</p></td>
-<td style="border:1px solid black;"><p>Interner Index</p></td>
+<td style="border:1px solid black;">i_LogDetailID</td>
+<td style="border:1px solid black;">int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1)</td>
+<td style="border:1px solid black;">Interner Index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_LogID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>Nicht NULL (FK)</p></td>
-<td style="border:1px solid black;"><p>ID des übergeordneten Protokollierungsdatensatzes</p></td>
+<td style="border:1px solid black;">i_LogID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">Nicht NULL (FK)</td>
+<td style="border:1px solid black;">ID des übergeordneten Protokollierungsdatensatzes</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_Name</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nicht NULL</p></td>
-<td style="border:1px solid black;"><p>Name der Eigenschaft</p></td>
+<td style="border:1px solid black;">s_Name</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nicht NULL</td>
+<td style="border:1px solid black;">Name der Eigenschaft</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Value</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Wert der Eigenschaft</p></td>
+<td style="border:1px solid black;">s_Value</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Wert der Eigenschaft</td>
 </tr>
 </tbody>
 </table>
@@ -198,7 +198,7 @@ In der folgenden Tabelle werden die Felder aufgelistet, die vom Protokollierungs
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -216,28 +216,28 @@ In der folgenden Tabelle werden die Felder aufgelistet, die vom Protokollierungs
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_ID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nicht NULL</p></td>
-<td style="border:1px solid black;"><p>Interner Index</p></td>
+<td style="border:1px solid black;">i_ID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nicht NULL</td>
+<td style="border:1px solid black;">Interner Index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_FieldName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(255)</p></td>
-<td style="border:1px solid black;"><p>Nicht NULL</p></td>
-<td style="border:1px solid black;"><p>Name des Feldes</p></td>
+<td style="border:1px solid black;">s_FieldName</td>
+<td style="border:1px solid black;">nvarchar(255)</td>
+<td style="border:1px solid black;">Nicht NULL</td>
+<td style="border:1px solid black;">Name des Feldes</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_FieldDescription</p></td>
-<td style="border:1px solid black;"><p>nvarchar(1024)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Beschreibung des Feldes</p></td>
+<td style="border:1px solid black;">s_FieldDescription</td>
+<td style="border:1px solid black;">nvarchar(1024)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Beschreibung des Feldes</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_IsIncluded</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nicht NULL</p></td>
-<td style="border:1px solid black;"><p>Gibt an, ob das Feld protokolliert wird</p></td>
+<td style="border:1px solid black;">i_IsIncluded</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nicht NULL</td>
+<td style="border:1px solid black;">Gibt an, ob das Feld protokolliert wird</td>
 </tr>
 </tbody>
 </table>

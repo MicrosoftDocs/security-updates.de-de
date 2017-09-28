@@ -13,7 +13,7 @@ In der folgenden Tabelle werden die zum Bereitstellen und Verwalten von RMS erfo
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,18 +27,18 @@ In der folgenden Tabelle werden die zum Bereitstellen und Verwalten von RMS erfo
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installieren von RMS</p></td>
-<td style="border:1px solid black;"><p>Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist.</p></td>
+<td style="border:1px solid black;">Installieren von RMS</td>
+<td style="border:1px solid black;">Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bereitstellen von RMS</p></td>
-<td style="border:1px solid black;"><p>Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist. Außerdem muss das verwendete Konto über eine SQL-Anmeldung verfügen, dem die Rolle „Systemadministrator“ für die SQL Server-Datenbank zugewiesen wurde, so dass RMS die Datenbank einrichten kann.</p>
-<p>Während der Bereitstellung müssen Sie das bereits erstellte RMS-Dienstkonto angeben. Bei dem Konto sollte es sich um ein Standard-Domänenbenutzerkonto ohne zusätzliche Berechtigungen handeln. Dieses Konto wird als Mitglied zur RMS Service Group (RMS-Dienstgruppe) hinzugefügt und dient als Konto für RMS während der Ausführung von Standardoperationen.</p>
-<p>Für Einzelserverbereitstellungen, bei denen sich die Datenbank auf demselben Computer befindet wie der Stammzertifizierungsserver, können Sie auch das Konto „Lokales System“ angeben. Aus Sicherheitsgründen sollte statt des Kontos „Lokales System“ jedoch immer das RMS-Dienstkonto angegeben werden. Wenn sich die Datenbank auf einem separaten Server befindet, müssen Sie das RMS-Dienstkonto angeben.</p></td>
+<td style="border:1px solid black;">Bereitstellen von RMS</td>
+<td style="border:1px solid black;">Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist. Außerdem muss das verwendete Konto über eine SQL-Anmeldung verfügen, dem die Rolle „Systemadministrator“ für die SQL Server-Datenbank zugewiesen wurde, so dass RMS die Datenbank einrichten kann.
+Während der Bereitstellung müssen Sie das bereits erstellte RMS-Dienstkonto angeben. Bei dem Konto sollte es sich um ein Standard-Domänenbenutzerkonto ohne zusätzliche Berechtigungen handeln. Dieses Konto wird als Mitglied zur RMS Service Group (RMS-Dienstgruppe) hinzugefügt und dient als Konto für RMS während der Ausführung von Standardoperationen.
+Für Einzelserverbereitstellungen, bei denen sich die Datenbank auf demselben Computer befindet wie der Stammzertifizierungsserver, können Sie auch das Konto „Lokales System“ angeben. Aus Sicherheitsgründen sollte statt des Kontos „Lokales System“ jedoch immer das RMS-Dienstkonto angegeben werden. Wenn sich die Datenbank auf einem separaten Server befindet, müssen Sie das RMS-Dienstkonto angeben.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verwalten von RMS</p></td>
-<td style="border:1px solid black;"><p>Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist. Sie können Sicherheitseinstellungen anpassen, um den Zugriff auf die Verwaltungswebseiten zu verwalten.</p></td>
+<td style="border:1px solid black;">Verwalten von RMS</td>
+<td style="border:1px solid black;">Melden Sie sich unter Verwendung eines Domänenkontos an, das ein Mitglied der lokalen Administratorgruppe ist. Sie können Sicherheitseinstellungen anpassen, um den Zugriff auf die Verwaltungswebseiten zu verwalten.</td>
 </tr>
 </tbody>
 </table>

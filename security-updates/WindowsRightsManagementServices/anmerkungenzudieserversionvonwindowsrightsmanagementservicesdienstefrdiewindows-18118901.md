@@ -22,7 +22,7 @@ Die Hardwareanforderungen für RMS SP2 werden in der folgenden Tabelle aufgefü
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -36,16 +36,16 @@ Die Hardwareanforderungen für RMS SP2 werden in der folgenden Tabelle aufgefü
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PC mit einem Pentium III-Prozessor (800 MHz oder höher)</p></td>
-<td style="border:1px solid black;"><p>PC mit zwei Pentium 4-Prozessoren (1500 MHz oder höher)</p></td>
+<td style="border:1px solid black;">PC mit einem Pentium III-Prozessor (800 MHz oder höher)</td>
+<td style="border:1px solid black;">PC mit zwei Pentium 4-Prozessoren (1500 MHz oder höher)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>256 MB Arbeitsspeicher</p></td>
-<td style="border:1px solid black;"><p>512 MB Arbeitsspeicher</p></td>
+<td style="border:1px solid black;">256 MB Arbeitsspeicher</td>
+<td style="border:1px solid black;">512 MB Arbeitsspeicher</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>20 GB freier Festplattenspeicher</p></td>
-<td style="border:1px solid black;"><p>40 GB freier Festplattenspeicher</p></td>
+<td style="border:1px solid black;">20 GB freier Festplattenspeicher</td>
+<td style="border:1px solid black;">40 GB freier Festplattenspeicher</td>
 </tr>
 </tbody>
 </table>
@@ -58,7 +58,7 @@ Die Softwareanforderungen für die Serverkomponente von RMS SP2 werden in der f
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -72,19 +72,19 @@ Die Softwareanforderungen für die Serverkomponente von RMS SP2 werden in der f
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Betriebssystem</p></td>
-<td style="border:1px solid black;"><p>Microsoft Windows Server® 2003, mit Ausnahme der Web Edition, für RMS mit SP2</p></td>
+<td style="border:1px solid black;">Betriebssystem</td>
+<td style="border:1px solid black;">Microsoft Windows Server® 2003, mit Ausnahme der Web Edition, für RMS mit SP2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RMS mit SP2</p></td>
-<td style="border:1px solid black;"><p>Vor dem Upgrade auf RMS mit SP2 muss RMS mit Service Pack 1 (SP1) installiert werden. Für den RMS mit SP2-Client gilt diese Voraussetzung nicht.</p></td>
+<td style="border:1px solid black;">RMS mit SP2</td>
+<td style="border:1px solid black;">Vor dem Upgrade auf RMS mit SP2 muss RMS mit Service Pack 1 (SP1) installiert werden. Für den RMS mit SP2-Client gilt diese Voraussetzung nicht.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dateisystem</p></td>
-<td style="border:1px solid black;"><p>Das NTFS-Dateisystem wird empfohlen.</p></td>
+<td style="border:1px solid black;">Dateisystem</td>
+<td style="border:1px solid black;">Das NTFS-Dateisystem wird empfohlen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Vorausgesetzte Komponenten</p></td>
+<td style="border:1px solid black;">Vorausgesetzte Komponenten</td>
 <td style="border:1px solid black;"><ul>
 <li>Message Queuing (auch als MSMQ bezeichnet) mit aktivierter Active Directory®-Verzeichnisdienst-Integration<br />
 <br />
@@ -99,7 +99,7 @@ Die Softwareanforderungen für die Serverkomponente von RMS SP2 werden in der f
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 | ![](https://msdn.microsoft.com/de-de/Cc747637.note(WS.10).gif)Hinweis                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Die Infrastrukturanforderungen für RMS mit SP2-Server werden in der folgenden T
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -123,12 +123,12 @@ Die Infrastrukturanforderungen für RMS mit SP2-Server werden in der folgenden T
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verzeichnisdienste</p></td>
-<td style="border:1px solid black;"><p>Active Directory muss auf Domänencontrollern ausgeführt werden, auf denen Windows Server 2000 mit SP3 (oder höher) ausgeführt wird; diese Controller müssen sich in derselben Domäne befinden, in der RMS installiert ist. Alle Benutzer und Gruppen, die RMS zum Erwerben von Lizenzen und Veröffentlichen von Inhalt verwenden, müssen über eine in Active Directory konfigurierte E-Mail-Adresse verfügen.</p></td>
+<td style="border:1px solid black;">Verzeichnisdienste</td>
+<td style="border:1px solid black;">Active Directory muss auf Domänencontrollern ausgeführt werden, auf denen Windows Server 2000 mit SP3 (oder höher) ausgeführt wird; diese Controller müssen sich in derselben Domäne befinden, in der RMS installiert ist. Alle Benutzer und Gruppen, die RMS zum Erwerben von Lizenzen und Veröffentlichen von Inhalt verwenden, müssen über eine in Active Directory konfigurierte E-Mail-Adresse verfügen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Datenbankserver</p></td>
-<td style="border:1px solid black;"><p>RMS mit SP2 erfordert eine Datenbank und gespeicherte Prozeduren zum Ausführen von Operationen. Sie können Microsoft SQL Server™ 2000 mit SP3a oder höher oder Microsoft SQL Server 2005 verwenden. Zum Testen oder für andere Bereitstellungen auf nur einem Computer können Sie Microsoft SQL Server Desktop Engine (MSDE 2000) Version A oder Microsoft SQL Server 2005 Express Edition verwenden.</p></td>
+<td style="border:1px solid black;">Datenbankserver</td>
+<td style="border:1px solid black;">RMS mit SP2 erfordert eine Datenbank und gespeicherte Prozeduren zum Ausführen von Operationen. Sie können Microsoft SQL Server™ 2000 mit SP3a oder höher oder Microsoft SQL Server 2005 verwenden. Zum Testen oder für andere Bereitstellungen auf nur einem Computer können Sie Microsoft SQL Server Desktop Engine (MSDE 2000) Version A oder Microsoft SQL Server 2005 Express Edition verwenden.</td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ In der folgenden Tabelle werden die zum Ausführen verschiedener Aktivitäten mi
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -162,28 +162,28 @@ In der folgenden Tabelle werden die zum Ausführen verschiedener Aktivitäten mi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installieren von RMS</p></td>
-<td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers</p></td>
+<td style="border:1px solid black;">Installieren von RMS</td>
+<td style="border:1px solid black;">Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bereitstellen eines RMS-Stammclusters</p></td>
-<td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Active Directory-Such- und -Schreibrechten</p></td>
+<td style="border:1px solid black;">Bereitstellen eines RMS-Stammclusters</td>
+<td style="border:1px solid black;">Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Active Directory-Such- und -Schreibrechten</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Bereitstellen eines reinen RMS-Lizenzierungsclusters</p></td>
-<td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Active Directory-Suchrechten</p></td>
+<td style="border:1px solid black;">Bereitstellen eines reinen RMS-Lizenzierungsclusters</td>
+<td style="border:1px solid black;">Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Active Directory-Suchrechten</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bereitstellen unter Verwendung einer neuen Konfigurationsdatenbank</p></td>
-<td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Lese-, Schreib- und Erstellungsrechten für einen Computer mit SQL Server</p></td>
+<td style="border:1px solid black;">Bereitstellen unter Verwendung einer neuen Konfigurationsdatenbank</td>
+<td style="border:1px solid black;">Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers und Lese-, Schreib- und Erstellungsrechten für einen Computer mit SQL Server</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Bereitstellen unter Verwendung einer bestehenden Konfigurationsdatenbank</p></td>
-<td style="border:1px solid black;"><p>Domänenbenutzer mit Administratorrechten für den lokalen Computer und Lese- und Schreibrechten für einen Computer mit Datenbankserver</p></td>
+<td style="border:1px solid black;">Bereitstellen unter Verwendung einer bestehenden Konfigurationsdatenbank</td>
+<td style="border:1px solid black;">Domänenbenutzer mit Administratorrechten für den lokalen Computer und Lese- und Schreibrechten für einen Computer mit Datenbankserver</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verwalten von RMS</p></td>
-<td style="border:1px solid black;"><p>Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers</p></td>
+<td style="border:1px solid black;">Verwalten von RMS</td>
+<td style="border:1px solid black;">Domänenbenutzer mit Anmeldeinformationen für den Administrator des lokalen Computers</td>
 </tr>
 </tbody>
 </table>
@@ -196,7 +196,7 @@ Wenn Sie RMS in einer Bereitstellung mit Clustern verwenden, beachten Sie die Pu
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -210,16 +210,16 @@ Wenn Sie RMS in einer Bereitstellung mit Clustern verwenden, beachten Sie die Pu
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Große Zahl von Desktops, die RMS verwenden</p></td>
-<td style="border:1px solid black;"><p>Verwenden Sie zur Installation des RMS mit SP2-Clients Systems Management Server (SMS) oder Gruppenrichtlinien.</p></td>
+<td style="border:1px solid black;">Große Zahl von Desktops, die RMS verwenden</td>
+<td style="border:1px solid black;">Verwenden Sie zur Installation des RMS mit SP2-Clients Systems Management Server (SMS) oder Gruppenrichtlinien.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Große Zahl von Clientanforderungen</p></td>
-<td style="border:1px solid black;"><p>Verwenden Sie einen Lastenausgleichsserver, den Netzwerklastenausgleichdienst im Windows-Serverbetriebssystem oder Lastenausgleichhardware, um die Anforderungen gleichmäßig auf das Cluster zu verteilen.</p></td>
+<td style="border:1px solid black;">Große Zahl von Clientanforderungen</td>
+<td style="border:1px solid black;">Verwenden Sie einen Lastenausgleichsserver, den Netzwerklastenausgleichdienst im Windows-Serverbetriebssystem oder Lastenausgleichhardware, um die Anforderungen gleichmäßig auf das Cluster zu verteilen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zwei Netzwerkadapter mit virtueller IP-Adressierung für Extranet- und Intranetanforderungen</p></td>
-<td style="border:1px solid black;"><p>Stellen Sie sicher, dass alle Registrierungen des Domain Name System (DNS), die die virtuelle IP-Adresse im Extranet anzeigen, die Adresse auch im Intranet bereitstellen.</p></td>
+<td style="border:1px solid black;">Zwei Netzwerkadapter mit virtueller IP-Adressierung für Extranet- und Intranetanforderungen</td>
+<td style="border:1px solid black;">Stellen Sie sicher, dass alle Registrierungen des Domain Name System (DNS), die die virtuelle IP-Adresse im Extranet anzeigen, die Adresse auch im Intranet bereitstellen.</td>
 </tr>
 </tbody>
 </table>

@@ -36,7 +36,7 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Dateiserver 
 
 **Tabelle 7.1: Dateiserver-Sicherheitsvorlagen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -45,16 +45,16 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Dateiserver 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Älterer Client - Dateiserver.inf</p></td>
-<td style="border:1px solid black;"><p>Unternehmensclient - Dateiserver.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Dateiserver.inf</p></td>
+<td style="border:1px solid black;">Älterer Client - Dateiserver.inf</td>
+<td style="border:1px solid black;">Unternehmensclient - Dateiserver.inf</td>
+<td style="border:1px solid black;">Hochsicher - Dateiserver.inf</td>
 </tr>
 </tbody>
 </table>
@@ -250,7 +250,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Dateis
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

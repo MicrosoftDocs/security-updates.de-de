@@ -15,7 +15,7 @@ In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,8 +29,8 @@ In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Stammzertifizierung</p></td>
-<td style="border:1px solid black;"><p>Führt folgende RMS-Dienste aus:</p>
+<td style="border:1px solid black;">Stammzertifizierung</td>
+<td style="border:1px solid black;">Führt folgende RMS-Dienste aus:
 <ul>
 <li><strong>Unterregistrierung</strong>. Führt die Unterregistrierung eines Lizenzierungsservers aus.<br />
 <br />
@@ -48,11 +48,11 @@ In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer 
 <br />
 </li>
 </ul>
-<p>Jede Bereitstellung muss mindestens einen Stammzertifizierungsserver oder -cluster einschließen. In einer Active Directory-Gesamtstruktur kann es nur einen Stammzertifizierungscluster geben.</p></td>
+Jede Bereitstellung muss mindestens einen Stammzertifizierungsserver oder -cluster einschließen. In einer Active Directory-Gesamtstruktur kann es nur einen Stammzertifizierungscluster geben.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lizenzierung (optional)</p></td>
-<td style="border:1px solid black;"><p>Führt folgende RMS-Dienste aus:</p>
+<td style="border:1px solid black;">Lizenzierung (optional)</td>
+<td style="border:1px solid black;">Führt folgende RMS-Dienste aus:
 <ul>
 <li><strong>Veröffentlichung</strong>. Stellt Veröffentlichungslizenzen aus.<br />
 <br />
@@ -61,10 +61,10 @@ In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer 
 <br />
 </li>
 </ul>
-<p>Lizenzierungsserver werden zur Unterstützung einzelner Abteilungen oder zum Verschieben von Lizenzierungsanforderungen vom Stammzertifizierungscluster bereitgestellt. Lizenzierungsserver sind optional.</p></td>
+Lizenzierungsserver werden zur Unterstützung einzelner Abteilungen oder zum Verschieben von Lizenzierungsanforderungen vom Stammzertifizierungscluster bereitgestellt. Lizenzierungsserver sind optional.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Datenbankserver, wie z. B. SQL Server</p></td>
+<td style="border:1px solid black;">Datenbankserver, wie z. B. SQL Server</td>
 <td style="border:1px solid black;"><ul>
 <li>Führt die RMS-Datenbanken für Konfiguration, Protokollierung und Verzeichnisdienste aus.<br />
 <br />
@@ -75,7 +75,7 @@ In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer 
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Domänencontroller und globaler Katalog</p></td>
+<td style="border:1px solid black;">Domänencontroller und globaler Katalog</td>
 <td style="border:1px solid black;"><ul>
 <li>Stellt Benutzerauthentifizierung und Verzeichnisdienste bereit.<br />
 <br />
@@ -87,7 +87,7 @@ In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer 
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 RMS verwendet die von Microsoft gehosteten Registrierungs- und Aktivierungsdienste, um einen gemeinsamen Vertrauensstamm für das System bereitzustellen. Weitere Informationen hierzu finden Sie unter „[RMS-Vertrauenshierarchie](https://technet.microsoft.com/2d44182f-a653-4383-aba1-dade53f7cf9a)“ weiter unten in diesem Thema.
 

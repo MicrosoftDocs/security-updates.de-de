@@ -38,7 +38,7 @@ Zur Verdeutlichung: Beispielsweise stellt eine Organisation RMS für ihre 5000 B
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -54,24 +54,24 @@ Zur Verdeutlichung: Beispielsweise stellt eine Organisation RMS für ihre 5000 B
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RMS-Server wird erfolgreich bereitgestellt</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
+<td style="border:1px solid black;">RMS-Server wird erfolgreich bereitgestellt</td>
+<td style="border:1px solid black;">1,7 MB</td>
+<td style="border:1px solid black;">1,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registrierung von 5000 Mitarbeitern (5000*0,06)</p></td>
-<td style="border:1px solid black;"><p>300 MB</p></td>
-<td style="border:1px solid black;"><p>301,7 MB</p></td>
+<td style="border:1px solid black;">Registrierung von 5000 Mitarbeitern (5000*0,06)</td>
+<td style="border:1px solid black;">300 MB</td>
+<td style="border:1px solid black;">301,7 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zugriff auf geschützte E-Mails (25.000*0,19)</p></td>
-<td style="border:1px solid black;"><p>4,750 MB</p></td>
-<td style="border:1px solid black;"><p>5.051,7 MB</p></td>
+<td style="border:1px solid black;">Zugriff auf geschützte E-Mails (25.000*0,19)</td>
+<td style="border:1px solid black;">4,750 MB</td>
+<td style="border:1px solid black;">5.051,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zugriff auf geschützte Dokumente (15.000*0,19)</p></td>
-<td style="border:1px solid black;"><p>2,850 MB</p></td>
-<td style="border:1px solid black;"><p>7.901,7 MB</p></td>
+<td style="border:1px solid black;">Zugriff auf geschützte Dokumente (15.000*0,19)</td>
+<td style="border:1px solid black;">2,850 MB</td>
+<td style="border:1px solid black;">7.901,7 MB</td>
 </tr>
 </tbody>
 </table>

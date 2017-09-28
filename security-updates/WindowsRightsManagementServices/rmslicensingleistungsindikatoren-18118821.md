@@ -13,7 +13,7 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Licensing (Lize
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,116 +27,116 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Licensing (Lize
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acquirelicense Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der AcquireLicense-Anforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Acquirelicense Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der AcquireLicense-Anforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acquirelicense Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die für die Verarbeitung von AcquireLicense-Anforderungen erforderliche Zeit in Mikrosekunden.</p></td>
+<td style="border:1px solid black;">Acquirelicense Processing Time</td>
+<td style="border:1px solid black;">Die für die Verarbeitung von AcquireLicense-Anforderungen erforderliche Zeit in Mikrosekunden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acquirelicense Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der AcquireLicense-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Acquirelicense Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der AcquireLicense-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acquireprelicense Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der AcquirePreLicense-Anforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Acquireprelicense Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der AcquirePreLicense-Anforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acquireprelicense Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die für die Verarbeitung von AcquirePreLicense-Anforderungen erforderliche Zeit in Mikrosekunden.</p></td>
+<td style="border:1px solid black;">Acquireprelicense Processing Time</td>
+<td style="border:1px solid black;">Die für die Verarbeitung von AcquirePreLicense-Anforderungen erforderliche Zeit in Mikrosekunden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acquireprelicense Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der AcquirePreLicense-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Acquireprelicense Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der AcquirePreLicense-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Editissuancelicense Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der EditIssuanceLicense-Anforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Editissuancelicense Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der EditIssuanceLicense-Anforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Editissuancelicense Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die für die Verarbeitung von EditIssuanceLicense-Anforderungen erforderliche Zeit in Mikrosekunden.</p></td>
+<td style="border:1px solid black;">Editissuancelicense Processing Time</td>
+<td style="border:1px solid black;">Die für die Verarbeitung von EditIssuanceLicense-Anforderungen erforderliche Zeit in Mikrosekunden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Editissuancelicense Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der EditIssuanceLicense-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Editissuancelicense Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der EditIssuanceLicense-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Findservicelocations Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der FindServiceLocations-Anforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Findservicelocations Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der FindServiceLocations-Anforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Findservicelocations Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die für die Verarbeitung von FindServiceLocations-Anforderungen erforderliche Zeit in Mikrosekunden.</p></td>
+<td style="border:1px solid black;">Findservicelocations Processing Time</td>
+<td style="border:1px solid black;">Die für die Verarbeitung von FindServiceLocations-Anforderungen erforderliche Zeit in Mikrosekunden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Findservicelocations Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der FindServiceLocations-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Findservicelocations Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der FindServiceLocations-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Findservicelocationsforuser Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der FindServiceLocationsForUsers-Anforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Findservicelocationsforuser Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der FindServiceLocationsForUsers-Anforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Findservicelocationsforuser Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die für die Verarbeitung von FindServiceLocationsForUser-Anforderungen erforderliche Zeit in Mikrosekunden.</p></td>
+<td style="border:1px solid black;">Findservicelocationsforuser Processing Time</td>
+<td style="border:1px solid black;">Die für die Verarbeitung von FindServiceLocationsForUser-Anforderungen erforderliche Zeit in Mikrosekunden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Findservicelocationsforuser Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der FindServiceLocationsForUsers-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Findservicelocationsforuser Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der FindServiceLocationsForUsers-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Getclientlicensorcert Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der GetClientLicensorCert-Anforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Getclientlicensorcert Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der GetClientLicensorCert-Anforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Getclientlicensorcert Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die Zeitspanne in Mikrosekunden für die Verarbeitung von GetClientLicensorCert-Anforderungen.</p></td>
+<td style="border:1px solid black;">Getclientlicensorcert Processing Time</td>
+<td style="border:1px solid black;">Die Zeitspanne in Mikrosekunden für die Verarbeitung von GetClientLicensorCert-Anforderungen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Getclientlicensorcert Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der GetClientLicensorCert-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Getclientlicensorcert Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der GetClientLicensorCert-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Getlicensorcertificate Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der GetLicensorCertificate-Anforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Getlicensorcertificate Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der GetLicensorCertificate-Anforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Getlicensorcertificate Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die für die Verarbeitung von GetLicensorCertificate-Anforderungen erforderliche Zeit in Mikrosekunden.</p></td>
+<td style="border:1px solid black;">Getlicensorcertificate Processing Time</td>
+<td style="border:1px solid black;">Die für die Verarbeitung von GetLicensorCertificate-Anforderungen erforderliche Zeit in Mikrosekunden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Getlicensorcertificate Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der GetLicensorCertificate-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Getlicensorcertificate Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der GetLicensorCertificate-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Non-Specific Requests Failures</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der Anforderungen an den Lizenzierungsdienst, die vor der Identifizierung des Anforderungstyps fehlschlugen.</p></td>
+<td style="border:1px solid black;">Non-Specific Requests Failures</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der Anforderungen an den Lizenzierungsdienst, die vor der Identifizierung des Anforderungstyps fehlschlugen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Total Licensing Pipeline Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Total Licensing Pipeline Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Signrightsdata Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der SignRightsData-Anforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Signrightsdata Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der SignRightsData-Anforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Signrightsdata Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die für die Verarbeitung von SignRightsData-Anforderungen erforderliche Zeit in Mikrosekunden.</p></td>
+<td style="border:1px solid black;">Signrightsdata Processing Time</td>
+<td style="border:1px solid black;">Die für die Verarbeitung von SignRightsData-Anforderungen erforderliche Zeit in Mikrosekunden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Signrightsdata Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der SignRightsData-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Signrightsdata Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der SignRightsData-Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Total Licensing Pipeline Failures</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der Fehler, die vom Lizenzierungsdienst generiert wurden.</p></td>
+<td style="border:1px solid black;">Total Licensing Pipeline Failures</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der Fehler, die vom Lizenzierungsdienst generiert wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Total Licensing Pipeline Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Total Licensing Pipeline Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der Anforderungen, die vom Lizenzierungsdienst empfangen wurden.</td>
 </tr>
 </tbody>
 </table>

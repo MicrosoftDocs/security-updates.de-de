@@ -13,7 +13,7 @@ Die folgende Tabelle zeigt die Mindestanforderungen für Hardware und die Empfeh
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,20 +27,20 @@ Die folgende Tabelle zeigt die Mindestanforderungen für Hardware und die Empfeh
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PC mit einem Pentium III-Prozessor (800 MHz oder höher)</p></td>
-<td style="border:1px solid black;"><p>PC mit zwei Pentium 4-Prozessoren (1500 MHz oder höher)</p></td>
+<td style="border:1px solid black;">PC mit einem Pentium III-Prozessor (800 MHz oder höher)</td>
+<td style="border:1px solid black;">PC mit zwei Pentium 4-Prozessoren (1500 MHz oder höher)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>256 MB Arbeitsspeicher (RAM)</p></td>
-<td style="border:1px solid black;"><p>512 MB Arbeitsspeicher (RAM)</p></td>
+<td style="border:1px solid black;">256 MB Arbeitsspeicher (RAM)</td>
+<td style="border:1px solid black;">512 MB Arbeitsspeicher (RAM)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>20 GB freier Festplattenspeicher</p></td>
-<td style="border:1px solid black;"><p>40 GB freier Festplattenspeicher</p></td>
+<td style="border:1px solid black;">20 GB freier Festplattenspeicher</td>
+<td style="border:1px solid black;">40 GB freier Festplattenspeicher</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ein Netzwerkadapter</p></td>
-<td style="border:1px solid black;"><p>Ein Netzwerkadapter</p></td>
+<td style="border:1px solid black;">Ein Netzwerkadapter</td>
+<td style="border:1px solid black;">Ein Netzwerkadapter</td>
 </tr>
 </tbody>
 </table>

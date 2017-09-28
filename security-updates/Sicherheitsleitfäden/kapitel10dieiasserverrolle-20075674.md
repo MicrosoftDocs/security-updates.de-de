@@ -222,7 +222,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IAS-Se
 
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

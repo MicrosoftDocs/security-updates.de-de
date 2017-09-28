@@ -13,7 +13,7 @@ In der folgenden Tabelle werden die Rechte, die Sie für eine Vorlage für Benut
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,52 +27,52 @@ In der folgenden Tabelle werden die Rechte, die Sie für eine Vorlage für Benut
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Vollzugriff</p></td>
-<td style="border:1px solid black;"><p>OWNER</p></td>
+<td style="border:1px solid black;">Vollzugriff</td>
+<td style="border:1px solid black;">OWNER</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anzeigerechte</p></td>
-<td style="border:1px solid black;"><p>VIEWRIGHT</p></td>
+<td style="border:1px solid black;">Anzeigerechte</td>
+<td style="border:1px solid black;">VIEWRIGHT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Exportieren (Speichern unter)</p></td>
-<td style="border:1px solid black;"><p>EXPORT</p></td>
+<td style="border:1px solid black;">Exportieren (Speichern unter)</td>
+<td style="border:1px solid black;">EXPORT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Speichern</p></td>
-<td style="border:1px solid black;"><p>EDIT</p></td>
+<td style="border:1px solid black;">Speichern</td>
+<td style="border:1px solid black;">EDIT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anzeigen</p></td>
-<td style="border:1px solid black;"><p>VIEW</p></td>
+<td style="border:1px solid black;">Anzeigen</td>
+<td style="border:1px solid black;">VIEW</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Drucken</p></td>
-<td style="border:1px solid black;"><p>PRINT</p></td>
+<td style="border:1px solid black;">Drucken</td>
+<td style="border:1px solid black;">PRINT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Extrahieren</p></td>
-<td style="border:1px solid black;"><p>EXTRACT</p></td>
+<td style="border:1px solid black;">Extrahieren</td>
+<td style="border:1px solid black;">EXTRACT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bearbeiten</p></td>
-<td style="border:1px solid black;"><p>DOCEDIT</p></td>
+<td style="border:1px solid black;">Bearbeiten</td>
+<td style="border:1px solid black;">DOCEDIT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Makros zulassen</p></td>
-<td style="border:1px solid black;"><p>OBJMODEL</p></td>
+<td style="border:1px solid black;">Makros zulassen</td>
+<td style="border:1px solid black;">OBJMODEL</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Weiterleiten</p></td>
-<td style="border:1px solid black;"><p>FORWARD</p></td>
+<td style="border:1px solid black;">Weiterleiten</td>
+<td style="border:1px solid black;">FORWARD</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Antworten</p></td>
-<td style="border:1px solid black;"><p>REPLY</p></td>
+<td style="border:1px solid black;">Antworten</td>
+<td style="border:1px solid black;">REPLY</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Allen antworten</p></td>
-<td style="border:1px solid black;"><p>REPLYALL</p></td>
+<td style="border:1px solid black;">Allen antworten</td>
+<td style="border:1px solid black;">REPLYALL</td>
 </tr>
 </tbody>
 </table>

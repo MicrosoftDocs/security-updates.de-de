@@ -41,7 +41,7 @@ Die Domänencontrollervorlagen wurden speziell für die Sicherheitsanforderungen
 
 **Tabelle 5.1: Sicherheitsvorlagen für die Domänencontroller-Baseline**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -50,16 +50,16 @@ Die Domänencontrollervorlagen wurden speziell für die Sicherheitsanforderungen
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Älterer Client - Domänencontroller.inf</p></td>
-<td style="border:1px solid black;"><p>Unternehmensclient - Domänencontroller.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Domänencontroller.inf</p></td>
+<td style="border:1px solid black;">Älterer Client - Domänencontroller.inf</td>
+<td style="border:1px solid black;">Unternehmensclient - Domänencontroller.inf</td>
+<td style="border:1px solid black;">Hochsicher - Domänencontroller.inf</td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ Die Einstellungen für Überwachungsrichtlinien für die Domänencontroller ents
   
 **Tabelle 5.2: Empfohlene Einstellungen für Überwachungsrichtlinien**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -84,18 +84,18 @@ Die Einstellungen für Überwachungsrichtlinien für die Domänencontroller ents
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Active Directory-Zugriff überwachen</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Fehler</p></td>
+<td style="border:1px solid black;">Active Directory-Zugriff überwachen</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Fehler</td>
 </tr>
 </tbody>
 </table>
@@ -112,7 +112,7 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die die 
   
 **Tabelle 5.3: Active Directory-Zugriffsereignisse**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -120,18 +120,18 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die die 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ereigniskennung</p></th>
-<th><p>Ereignisbeschreibung</p></th>
+<th>Ereigniskennung</th>
+<th>Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Beschreibung</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Beschreibung</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>566</p></td>
-<td style="border:1px solid black;"><p>Es fand ein allgemeiner Objektvorgang statt.</p></td>
+<td style="border:1px solid black;">566</td>
+<td style="border:1px solid black;">Es fand ein allgemeiner Objektvorgang statt.</td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen zum Zuweisen von B
   
 **Tabelle 5.4: Empfohlene Einstellungen zum Zuweisen von Benutzerrechten**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -158,66 +158,66 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen zum Zuweisen von B
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auf diesen Computer vom Netzwerk aus zugreifen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Authentifizierte Benutzer, Domänencontroller der Organisation</p></td>
+<td style="border:1px solid black;">Auf diesen Computer vom Netzwerk aus zugreifen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren, Authentifizierte Benutzer, Domänencontroller der Organisation</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hinzufügen von Arbeitsstationen zur Domäne</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Hinzufügen von Arbeitsstationen zur Domäne</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokal anmelden zulassen</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Server-Operatoren, Sicherungsoperatoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Server-Operatoren, Sicherungsoperatoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Lokal anmelden zulassen</td>
+<td style="border:1px solid black;">Administratoren, Server-Operatoren, Sicherungsoperatoren</td>
+<td style="border:1px solid black;">Administratoren, Server-Operatoren, Sicherungsoperatoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anmeldung über Terminaldienste zulassen</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Anmeldung über Terminaldienste zulassen</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ändern der Systemzeit</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Ändern der Systemzeit</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Computer und Benutzerkonten für Delegierungszwecke vertrauen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Computer und Benutzerkonten für Delegierungszwecke vertrauen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Laden und Entfernen von Gerätetreibern</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Laden und Entfernen von Gerätetreibern</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wiederherstellen von Dateien und Verzeichnissen</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Wiederherstellen von Dateien und Verzeichnissen</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>System herunterfahren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">System herunterfahren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 </tbody>
 </table>
@@ -316,7 +316,7 @@ Die meisten Einstellungen für Sicherheitsoptionen für Domänencontroller entsp
   
 **Tabelle 5.5: Sicherheitsoptionen: Empfehlungen zu Domänencontrollereinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -326,30 +326,30 @@ Die meisten Einstellungen für Sicherheitsoptionen für Domänencontroller entsp
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Serveroperatoren das Einrichten von geplanten Tasks erlauben</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Serveroperatoren das Einrichten von geplanten Tasks erlauben</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Signaturanforderungen für LDAP-Server</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Signatur erforderlich</p></td>
+<td style="border:1px solid black;">Signaturanforderungen für LDAP-Server</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Signatur erforderlich</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Änderungen von Computerkontenkennwörtern verweigern</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Änderungen von Computerkontenkennwörtern verweigern</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -378,7 +378,7 @@ Die Einstellung **Domänencontroller: Änderungen von Computerkontenkennwörtern
   
 **Tabelle 5.6: Sicherheitsoptionen: Empfehlungen für Netzwerksicherheitseinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -388,18 +388,18 @@ Die Einstellung **Domänencontroller: Änderungen von Computerkontenkennwörtern
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Keine LAN Manager-Hashwerte für nächste Kennwortänderung speichern</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Keine LAN Manager-Hashwerte für nächste Kennwortänderung speichern</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -428,7 +428,7 @@ Wie im vorherigen Kapitel beschrieben, können Sie mit der Einstellung **Eingesc
   
 **Tabelle 5.7: Empfehlungen für „Eingeschränkte Gruppen“**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -438,24 +438,24 @@ Wie im vorherigen Kapitel beschrieben, können Sie mit der Einstellung **Eingesc
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Lokale Gruppe</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Lokale Gruppe</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sicherungs-Operatoren</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
+<td style="border:1px solid black;">Sicherungs-Operatoren</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server-Operatoren</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
+<td style="border:1px solid black;">Server-Operatoren</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
 </tr>
 </tbody>
 </table>
@@ -516,7 +516,7 @@ Wenn Sie das vordefinierte Administratorkonto gemäß den Empfehlungen in Kapite
   
 **Tabelle 5.8: Manuell hinzugefügte Zuweisungen von Benutzerrechten**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -526,33 +526,33 @@ Wenn Sie das vordefinierte Administratorkonto gemäß den Empfehlungen in Kapite
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
+<td style="border:1px solid black;">Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anmeldung als Batchauftrag verweigern</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 und Gast</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 und Gast</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 und Gast</p></td>
+<td style="border:1px solid black;">Anmeldung als Batchauftrag verweigern</td>
+<td style="border:1px solid black;">Support_388945a0 und Gast</td>
+<td style="border:1px solid black;">Support_388945a0 und Gast</td>
+<td style="border:1px solid black;">Support_388945a0 und Gast</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anmeldung über Terminaldienste verweigern</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; alle betriebssystemfremden Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; alle betriebssystemfremden Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; alle betriebssystemfremden Dienstkonten</p></td>
+<td style="border:1px solid black;">Anmeldung über Terminaldienste verweigern</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; alle betriebssystemfremden Dienstkonten</td>
 </tr>
 </tbody>
 </table>
@@ -587,7 +587,7 @@ Das Systemschlüsseldienstprogramm (Syskey) bietet einen zusätzlichen Schutz vo
   
 **Tabelle 5.9: Syskey-Modi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -596,26 +596,26 @@ Das Systemschlüsseldienstprogramm (Syskey) bietet einen zusätzlichen Schutz vo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Systemschlüsseloptionen</p></th>
-<th><p>Sicherheitsstufe</p></th>
-<th><p>Beschreibung</p></th>
+<th>Systemschlüsseloptionen</th>
+<th>Sicherheitsstufe</th>
+<th>Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modus 1: Vom System generiertes Kennwort, Systemstartschlüssel lokal speichern</p></td>
-<td style="border:1px solid black;"><p>Sicher</p></td>
-<td style="border:1px solid black;"><p>Verwendet einen vom Computer generierten Zufallsschlüssel als Systemschlüssel und speichert eine verschlüsselte Version des Schlüssels auf dem lokalen Computer. Diese Option bietet eine leistungsstarke Verschlüsselung der Kennwortinformationen in der Registrierung und ermöglicht dem Benutzer das Neustarten des Computer, ohne das ein Administrator ein Kennwort eingeben oder eine Diskette einlegen muss.</p></td>
+<td style="border:1px solid black;">Modus 1: Vom System generiertes Kennwort, Systemstartschlüssel lokal speichern</td>
+<td style="border:1px solid black;">Sicher</td>
+<td style="border:1px solid black;">Verwendet einen vom Computer generierten Zufallsschlüssel als Systemschlüssel und speichert eine verschlüsselte Version des Schlüssels auf dem lokalen Computer. Diese Option bietet eine leistungsstarke Verschlüsselung der Kennwortinformationen in der Registrierung und ermöglicht dem Benutzer das Neustarten des Computer, ohne das ein Administrator ein Kennwort eingeben oder eine Diskette einlegen muss.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modus 2: Vom Administrator generiertes Kennwort, Kennwort für den Systemstart</p></td>
-<td style="border:1px solid black;"><p>Sicherer</p></td>
-<td style="border:1px solid black;"><p>Verwendet einen vom Computer generierten Zufallsschlüssel als Systemschlüssel und speichert eine verschlüsselte Version des Schlüssels auf dem lokalen Computer. Der Schlüssel wird zusätzlich durch einem Kennwort geschützt, das von einem Administrator gewählt wurde. Die Benutzer werden aufgefordert, das Systemschlüsselkennwort einzugeben, wenn sich der Computer in der ersten Startsequenz befindet. Das Systemschlüsselkennwort wird nicht auf dem Computer gespeichert.</p></td>
+<td style="border:1px solid black;">Modus 2: Vom Administrator generiertes Kennwort, Kennwort für den Systemstart</td>
+<td style="border:1px solid black;">Sicherer</td>
+<td style="border:1px solid black;">Verwendet einen vom Computer generierten Zufallsschlüssel als Systemschlüssel und speichert eine verschlüsselte Version des Schlüssels auf dem lokalen Computer. Der Schlüssel wird zusätzlich durch einem Kennwort geschützt, das von einem Administrator gewählt wurde. Die Benutzer werden aufgefordert, das Systemschlüsselkennwort einzugeben, wenn sich der Computer in der ersten Startsequenz befindet. Das Systemschlüsselkennwort wird nicht auf dem Computer gespeichert.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modus 3: Vom System generiertes Kennwort, Systemstartschlüssel auf Diskette speichern</p></td>
-<td style="border:1px solid black;"><p>Am Sichersten</p></td>
-<td style="border:1px solid black;"><p>Verwendet einen vom Computer generierten Zufallsschlüssel und speichert den Schlüssel auf einer Diskette. Die Diskette mit dem Systemschlüssel ist für den Start des Computers erforderlich und muss während der Startsequenz bei Aufforderung eingegeben werden. Der Systemschlüssel wird nicht auf dem Computer gespeichert.</p></td>
+<td style="border:1px solid black;">Modus 3: Vom System generiertes Kennwort, Systemstartschlüssel auf Diskette speichern</td>
+<td style="border:1px solid black;">Am Sichersten</td>
+<td style="border:1px solid black;">Verwendet einen vom Computer generierten Zufallsschlüssel und speichert den Schlüssel auf einer Diskette. Die Diskette mit dem Systemschlüssel ist für den Start des Computers erforderlich und muss während der Startsequenz bei Aufforderung eingegeben werden. Der Systemschlüssel wird nicht auf dem Computer gespeichert.</td>
 </tr>
 </tbody>
 </table>
@@ -718,7 +718,7 @@ Konfigurieren Sie einen Dienst für die Ausführung im Sicherheitskontext eines 
   
 **Tabelle 5.10: Empfohlene Einstellungen für Terminaldienste**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -728,18 +728,18 @@ Konfigurieren Sie einen Dienst für die Ausführung im Sicherheitskontext eines 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Standard</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Standard</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verschlüsselungsstufe der Clientverbindung festlegen</p></td>
-<td style="border:1px solid black;"><p>Hoch</p></td>
-<td style="border:1px solid black;"><p>Hoch</p></td>
-<td style="border:1px solid black;"><p>Hoch</p></td>
+<td style="border:1px solid black;">Verschlüsselungsstufe der Clientverbindung festlegen</td>
+<td style="border:1px solid black;">Hoch</td>
+<td style="border:1px solid black;">Hoch</td>
+<td style="border:1px solid black;">Hoch</td>
 </tr>
 </tbody>
 </table>
@@ -757,7 +757,7 @@ Die drei verfügbaren Verschlüsselungsstufen werden in der folgenden Tabelle be
   
 **Tabelle 5.11: Verschlüsselungsstufen für Terminaldienste**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -765,33 +765,33 @@ Die drei verfügbaren Verschlüsselungsstufen werden in der folgenden Tabelle be
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Verschlüsselungsstufe</p></th>
-<th><p>Beschreibung</p></th>
+<th>Verschlüsselungsstufe</th>
+<th>Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Höchste Stufe</p></td>
-<td style="border:1px solid black;"><p>Verschlüsselt die zwischen Client und Server übermittelten Daten mit einer leistungsfähigen 128-Bit-Verschlüsselung. Verwenden Sie diese Stufe, wenn der Terminalserver in einer Umgebung ausgeführt wird, die ausschließlich 128 Bit-Clients enthält (z. B. Clients mit Remotedesktopverbindung). Mit Clients, die diese Verschlüsselungsstufe nicht unterstützen, wird bei dieser Einstellung keine Verbindung hergestellt.</p></td>
+<td style="border:1px solid black;">Höchste Stufe</td>
+<td style="border:1px solid black;">Verschlüsselt die zwischen Client und Server übermittelten Daten mit einer leistungsfähigen 128-Bit-Verschlüsselung. Verwenden Sie diese Stufe, wenn der Terminalserver in einer Umgebung ausgeführt wird, die ausschließlich 128 Bit-Clients enthält (z. B. Clients mit Remotedesktopverbindung). Mit Clients, die diese Verschlüsselungsstufe nicht unterstützen, wird bei dieser Einstellung keine Verbindung hergestellt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Clientkompatibel</p></td>
-<td style="border:1px solid black;"><p>Verschlüsselt die zwischen Client und Server übermittelten Daten mit der höchsten vom Client unterstützten Schlüsselstufe. Verwenden Sie diese Stufe, wenn der Terminalserver in einer Umgebung ausgeführt wird, die unterschiedliche bzw. ältere Clients enthält.</p></td>
+<td style="border:1px solid black;">Clientkompatibel</td>
+<td style="border:1px solid black;">Verschlüsselt die zwischen Client und Server übermittelten Daten mit der höchsten vom Client unterstützten Schlüsselstufe. Verwenden Sie diese Stufe, wenn der Terminalserver in einer Umgebung ausgeführt wird, die unterschiedliche bzw. ältere Clients enthält.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Niedrige Stufe</p></td>
-<td style="border:1px solid black;"><p>Verschlüsselt die vom Client zum Server gesendeten Daten mit einer 56-Bit-Verschlüsselung.</p>
-<p><strong>Wichtig</strong>: Vom Server an den Client gesendete Daten werden nicht verschlüsselt.</p></td>
+<td style="border:1px solid black;">Niedrige Stufe</td>
+<td style="border:1px solid black;">Verschlüsselt die vom Client zum Server gesendeten Daten mit einer 56-Bit-Verschlüsselung.
+<strong>Wichtig</strong>: Vom Server an den Client gesendete Daten werden nicht verschlüsselt.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Fehlerberichterstattung
 
 **Tabelle 5.12: Empfohlene Einstellungen für die Fehlerberichterstattung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -801,18 +801,18 @@ Die drei verfügbaren Verschlüsselungsstufen werden in der folgenden Tabelle be
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Einstellung</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows-Fehlerberichterstattung deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Windows-Fehlerberichterstattung deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -979,7 +979,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Domän
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

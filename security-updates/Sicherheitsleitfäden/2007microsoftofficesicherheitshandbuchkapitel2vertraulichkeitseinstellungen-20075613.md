@@ -62,7 +62,7 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 
 **Tabelle 2.1. Hilfreiche Sicherheitseinstellungen zur Minderung von Bedrohungen fr den Datenschutz**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -76,68 +76,68 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Automatisches Empfangen kleiner Updates zur Verbesserung der Zuverlssigkeit</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Automatisches Empfangen kleiner Updates zur Verbesserung der Zuverlssigkeit</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Steuerelementbloggen</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Steuerelementbloggen</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zugriff auf Updates, Add-Ins und Patches auf der Office Online-Website deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Zugriff auf Updates, Add-Ins und Patches auf der Office Online-Website deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auf bekannte Lsungen berprfen deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Auf bekannte Lsungen berprfen deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Herunterladen von ClipArt und Medien vom Client und von der Office Online-Website deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Herunterladen von ClipArt und Medien vom Client und von der Office Online-Website deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Befehle deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Office Access 2007, Excel 2007, InfoPath 2007, PowerPoint 2007 und Word 2007</p></td>
+<td style="border:1px solid black;">Befehle deaktivieren</td>
+<td style="border:1px solid black;">Office Access 2007, Excel 2007, InfoPath 2007, PowerPoint 2007 und Word 2007</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Vom Kunden bermittelte Vorlagendownloads von Office Online deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Vom Kunden bermittelte Vorlagendownloads von Office Online deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dokumentinformationsbereich deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Dokumentinformationsbereich deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Einschlieen von Dokumenteigenschaften in PDF- und XPS-Ausgabe deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Einschlieen von Dokumenteigenschaften in PDF- und XPS-Ausgabe deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Herunterladen von Vorlagen vom Client und von der Office Online-Website deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Herunterladen von Vorlagen vom Client und von der Office Online-Website deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schulungskursdownloads von der Office Online-Website deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Schulungskursdownloads von der Office Online-Website deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Programm zur Verbesserung der Benutzerfreundlichkeit aktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Programm zur Verbesserung der Benutzerfreundlichkeit aktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ausgeblendeten Text</p></td>
-<td style="border:1px solid black;"><p>Office Word 2007</p></td>
+<td style="border:1px solid black;">Ausgeblendeten Text</td>
+<td style="border:1px solid black;">Office Word 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ausgeblendete Markups anzeigen</p></td>
-<td style="border:1px solid black;"><p>Office PowerPoint 2007</p></td>
+<td style="border:1px solid black;">Ausgeblendete Markups anzeigen</td>
+<td style="border:1px solid black;">Office PowerPoint 2007</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Onlineinhaltoptionen</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Onlineinhaltoptionen</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hindert Benutzer am Hochladen von Dokumentvorlagen an die Office Online-Community.</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Hindert Benutzer am Hochladen von Dokumentvorlagen an die Office Online-Community.</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 </tbody>
 </table>
@@ -181,7 +181,7 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
   
 **Tabelle 2.2. Hilfreiche Sicherheitseinstellungen fr die Konfiguration von Verschlsselung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -195,28 +195,28 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kennwort zum ffnen der Benutzeroberflche deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Kennwort zum ffnen der Benutzeroberflche deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RPC-Verschlsselung aktivieren</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">RPC-Verschlsselung aktivieren</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alle E-Mail-Nachrichten verschlsseln</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Alle E-Mail-Nachrichten verschlsseln</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verschlsselungstyp fr kennwortgeschtzte Office 97-2003-Dateien</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Verschlsselungstyp fr kennwortgeschtzte Office 97-2003-Dateien</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verschlsselungstyp fr kennwortgeschtzte Office Open XML-Dateien</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Verschlsselungstyp fr kennwortgeschtzte Office Open XML-Dateien</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dokumentmetadaten fr kennwortgeschtzte Dateien schtzen</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Dokumentmetadaten fr kennwortgeschtzte Dateien schtzen</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 </tbody>
 </table>
@@ -256,7 +256,7 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
   
 **Tabelle 2.3. Hilfreiche Sicherheitseinstellungen fr die Konfiguration von IRM**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -270,36 +270,36 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Benutzer mit frheren Versionen von Office knnen mit Browsern lesen...</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Benutzer mit frheren Versionen von Office knnen mit Browsern lesen...</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppen in Office immer erweitern, wenn die Berechtigung fr Dokumente eingeschrnkt wird</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Gruppen in Office immer erweitern, wenn die Berechtigung fr Dokumente eingeschrnkt wird</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Benutzer mssen zum berprfen der Berechtigung immer eine Verbindung herstellen</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Benutzer mssen zum berprfen der Berechtigung immer eine Verbindung herstellen</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Microsoft Passport-Dienste fr Inhalt mit eingeschrnkter Berechtigung deaktivieren</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Microsoft Passport-Dienste fr Inhalt mit eingeschrnkter Berechtigung deaktivieren</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verwaltung von Informationsrechten (IRM)</p></td>
-<td style="border:1px solid black;"><p>Office InfoPath 2007</p></td>
+<td style="border:1px solid black;">Verwaltung von Informationsrechten (IRM)</td>
+<td style="border:1px solid black;">Office InfoPath 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benutzer knnen nie Gruppen angeben, wenn die Berechtigung fr Dokumente eingeschrnkt wird</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Benutzer knnen nie Gruppen angeben, wenn die Berechtigung fr Dokumente eingeschrnkt wird</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Benutzer knnen Berechtigungen fr Inhalte, deren Rechte verwaltet werden, nicht ndern</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Benutzer knnen Berechtigungen fr Inhalte, deren Rechte verwaltet werden, nicht ndern</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dokumentmetadaten fr Office Open XML-Dateien, deren Rechte verwaltet werden, schtzen</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Dokumentmetadaten fr Office Open XML-Dateien, deren Rechte verwaltet werden, schtzen</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 </tbody>
 </table>

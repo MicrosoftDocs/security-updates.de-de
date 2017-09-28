@@ -42,7 +42,7 @@ In der folgenden Tabelle werden die in dieser Anleitung verfügbaren Infrastrukt
 
 **Tabelle 3.1: Baseline-Sicherheitsvorlagen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -51,21 +51,21 @@ In der folgenden Tabelle werden die in dieser Anleitung verfügbaren Infrastrukt
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Beschreibung</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher</p></th>
+<th>Beschreibung</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Baseline-Sicherheitsvorlagen für Desktops</p></td>
-<td style="border:1px solid black;"><p>Unternehmensclient - Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Desktop.inf</p></td>
+<td style="border:1px solid black;">Baseline-Sicherheitsvorlagen für Desktops</td>
+<td style="border:1px solid black;">Unternehmensclient - Desktop.inf</td>
+<td style="border:1px solid black;">Hochsicher - Desktop.inf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Baseline-Sicherheitsvorlagen für Laptops</p></td>
-<td style="border:1px solid black;"><p>Unternehmensclient - Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Laptop.inf</p></td>
+<td style="border:1px solid black;">Baseline-Sicherheitsvorlagen für Laptops</td>
+<td style="border:1px solid black;">Unternehmensclient - Laptop.inf</td>
+<td style="border:1px solid black;">Hochsicher - Laptop.inf</td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +102,7 @@ In der folgenden Tabelle sind die Empfehlungen für Einstellungen für Überwach
   
 **Tabelle 3.2: Empfohlene Einstellungen für Überwachungsrichtlinien**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -113,76 +113,76 @@ In der folgenden Tabelle sind die Empfehlungen für Einstellungen für Überwach
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anmeldeversuche überwachen</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg, Fehler</p></td>
-<td style="border:1px solid black;"><p>Erfolg, Fehler</p></td>
+<td style="border:1px solid black;">Anmeldeversuche überwachen</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg, Fehler</td>
+<td style="border:1px solid black;">Erfolg, Fehler</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kontenverwaltung überwachen</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg, Fehler</p></td>
-<td style="border:1px solid black;"><p>Erfolg, Fehler</p></td>
+<td style="border:1px solid black;">Kontenverwaltung überwachen</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg, Fehler</td>
+<td style="border:1px solid black;">Erfolg, Fehler</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Active Directory-Zugriff überwachen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
+<td style="border:1px solid black;">Active Directory-Zugriff überwachen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anmeldeereignisse überwachen</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg, Fehler</p></td>
-<td style="border:1px solid black;"><p>Erfolg, Fehler</p></td>
+<td style="border:1px solid black;">Anmeldeereignisse überwachen</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg, Fehler</td>
+<td style="border:1px solid black;">Erfolg, Fehler</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Objektzugriffsversuche überwachen</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Fehler</p></td>
-<td style="border:1px solid black;"><p>Fehler</p></td>
+<td style="border:1px solid black;">Objektzugriffsversuche überwachen</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Fehler</td>
+<td style="border:1px solid black;">Fehler</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Richtlinienänderungen überwachen</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
+<td style="border:1px solid black;">Richtlinienänderungen überwachen</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rechteverwendung überwachen</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Fehler</p></td>
-<td style="border:1px solid black;"><p>Fehler</p></td>
+<td style="border:1px solid black;">Rechteverwendung überwachen</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Fehler</td>
+<td style="border:1px solid black;">Fehler</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Prozessverfolgung überwachen</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
-<td style="border:1px solid black;"><p>Keine Überwachung</p></td>
+<td style="border:1px solid black;">Prozessverfolgung überwachen</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
+<td style="border:1px solid black;">Keine Überwachung</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Systemereignisse überwachen</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
-<td style="border:1px solid black;"><p>Erfolg</p></td>
+<td style="border:1px solid black;">Systemereignisse überwachen</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
+<td style="border:1px solid black;">Erfolg</td>
 </tr>
 </tbody>
 </table>
@@ -318,7 +318,7 @@ IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
   
 **Tabelle 3.3: Empfehlungen für Einstellungen zum Zuweisen von Benutzerrechten – Teil 1**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -329,141 +329,141 @@ IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auf diesen Computer vom Netzwerk aus zugreifen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Auf diesen Computer vom Netzwerk aus zugreifen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Einsetzen als Teil des Betriebssystems</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
+<td style="border:1px solid black;">Einsetzen als Teil des Betriebssystems</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anpassen von Speicherkontingenten für einen Prozess</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Lokaler Dienst, Netzwerkdienst</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Lokaler Dienst, Netzwerkdienst</p></td>
+<td style="border:1px solid black;">Anpassen von Speicherkontingenten für einen Prozess</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren, Lokaler Dienst, Netzwerkdienst</td>
+<td style="border:1px solid black;">Administratoren, Lokaler Dienst, Netzwerkdienst</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokal anmelden zulassen</p></td>
-<td style="border:1px solid black;"><p>Benutzer, Administratoren</p></td>
-<td style="border:1px solid black;"><p>Benutzer, Administratoren</p></td>
-<td style="border:1px solid black;"><p>Benutzer, Administratoren</p></td>
-<td style="border:1px solid black;"><p>Benutzer, Administratoren</p></td>
+<td style="border:1px solid black;">Lokal anmelden zulassen</td>
+<td style="border:1px solid black;">Benutzer, Administratoren</td>
+<td style="border:1px solid black;">Benutzer, Administratoren</td>
+<td style="border:1px solid black;">Benutzer, Administratoren</td>
+<td style="border:1px solid black;">Benutzer, Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anmeldung über Terminaldienste zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
+<td style="border:1px solid black;">Anmeldung über Terminaldienste zulassen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sichern von Dateien und Verzeichnissen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Sichern von Dateien und Verzeichnissen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auslassen der durchsuchenden Prüfung</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
+<td style="border:1px solid black;">Auslassen der durchsuchenden Prüfung</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ändern der Systemzeit</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Ändern der Systemzeit</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auslagerungsdatei erstellen</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Auslagerungsdatei erstellen</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Permanente freigegebene Objekte erstellen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
+<td style="border:1px solid black;">Permanente freigegebene Objekte erstellen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Erstellen eines Tokenobjekts</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
+<td style="border:1px solid black;">Erstellen eines Tokenobjekts</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Debuggen von Programmen</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
+<td style="border:1px solid black;">Debuggen von Programmen</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Gast</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Gast</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Gast</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Gast</p></td>
+<td style="border:1px solid black;">Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Gast</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Gast</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Gast</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Gast</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anmeldung als Batchauftrag verweigern</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Gast</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Gast</p></td>
+<td style="border:1px solid black;">Anmeldung als Batchauftrag verweigern</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Gast</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Gast</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokal anmelden verweigern</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
+<td style="border:1px solid black;">Lokal anmelden verweigern</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Support_<br />
 388945a0,<br />
-Gast, beliebige Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Gast, beliebige Dienstkonten</p></td>
+Gast, beliebige Dienstkonten</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Gast, beliebige Dienstkonten</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anmeldung über Terminaldienste verweigern</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Jeder</p></td>
-<td style="border:1px solid black;"><p>Jeder</p></td>
+<td style="border:1px solid black;">Anmeldung über Terminaldienste verweigern</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Jeder</td>
+<td style="border:1px solid black;">Jeder</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Computer und Benutzerkonten für Delegierungszwecke vertrauen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
+<td style="border:1px solid black;">Computer und Benutzerkonten für Delegierungszwecke vertrauen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
 </tr>
 </tbody>
 </table>
@@ -582,7 +582,7 @@ Aus diesem Grund ist die Einstellung **Computer und Benutzerkonten für Delegier
   
 **Tabelle 3.4: Empfehlungen für Einstellungen zum Zuweisen von Benutzerrechten – Teil 2**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -593,132 +593,132 @@ Aus diesem Grund ist die Einstellung **Computer und Benutzerkonten für Delegier
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Erzwingen des Herunterfahrens von einem Remotesystem aus</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Erzwingen des Herunterfahrens von einem Remotesystem aus</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Generieren von Sicherheitsüberwachungen</p></td>
-<td style="border:1px solid black;"><p>Lokaler Dienst, Netzwerkdienst</p></td>
-<td style="border:1px solid black;"><p>Lokaler Dienst, Netzwerkdienst</p></td>
-<td style="border:1px solid black;"><p>Lokaler Dienst, Netzwerkdienst</p></td>
-<td style="border:1px solid black;"><p>Lokaler Dienst, Netzwerkdienst</p></td>
+<td style="border:1px solid black;">Generieren von Sicherheitsüberwachungen</td>
+<td style="border:1px solid black;">Lokaler Dienst, Netzwerkdienst</td>
+<td style="border:1px solid black;">Lokaler Dienst, Netzwerkdienst</td>
+<td style="border:1px solid black;">Lokaler Dienst, Netzwerkdienst</td>
+<td style="border:1px solid black;">Lokaler Dienst, Netzwerkdienst</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anheben der Zeitplanungspriorität</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Anheben der Zeitplanungspriorität</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Laden und Entfernen von Gerätetreibern</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Laden und Entfernen von Gerätetreibern</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Seiten im Speicher sperren</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
+<td style="border:1px solid black;">Seiten im Speicher sperren</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anmelden als Stapelverarbeitungsauftrag</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
-<td style="border:1px solid black;"><p>Niemand</p></td>
+<td style="border:1px solid black;">Anmelden als Stapelverarbeitungsauftrag</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Niemand</td>
+<td style="border:1px solid black;">Niemand</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Als Dienst anmelden</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Netzwerkdienst, lokaler Dienst</p></td>
-<td style="border:1px solid black;"><p>Netzwerkdienst, lokaler Dienst</p></td>
+<td style="border:1px solid black;">Als Dienst anmelden</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Netzwerkdienst, lokaler Dienst</td>
+<td style="border:1px solid black;">Netzwerkdienst, lokaler Dienst</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verwalten von Überwachungs- und Sicherheitsprotokoll</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Verwalten von Überwachungs- und Sicherheitsprotokoll</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Firmware-Umgebungsvariablen ändern</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Firmware-Umgebungsvariablen ändern</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wartungsaufgaben für Speichermedien ausführen</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Wartungsaufgaben für Speichermedien ausführen</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Einzelprozessprofil erstellen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Einzelprozessprofil erstellen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Erstellen eines Profils der Systemleistung</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Erstellen eines Profils der Systemleistung</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Entfernen eines Computers aus der Dockingstation</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
+<td style="border:1px solid black;">Entfernen eines Computers aus der Dockingstation</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ersetzen eines Prozessebenentokens</p></td>
-<td style="border:1px solid black;"><p>Lokaler Dienst, Netzwerkdienst</p></td>
-<td style="border:1px solid black;"><p>Lokaler Dienst, Netzwerkdienst</p></td>
-<td style="border:1px solid black;"><p>Lokaler Dienst, Netzwerkdienst</p></td>
-<td style="border:1px solid black;"><p>Lokaler Dienst, Netzwerkdienst</p></td>
+<td style="border:1px solid black;">Ersetzen eines Prozessebenentokens</td>
+<td style="border:1px solid black;">Lokaler Dienst, Netzwerkdienst</td>
+<td style="border:1px solid black;">Lokaler Dienst, Netzwerkdienst</td>
+<td style="border:1px solid black;">Lokaler Dienst, Netzwerkdienst</td>
+<td style="border:1px solid black;">Lokaler Dienst, Netzwerkdienst</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wiederherstellen von Dateien und Verzeichnissen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Wiederherstellen von Dateien und Verzeichnissen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>System herunterfahren</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Benutzer</p></td>
+<td style="border:1px solid black;">System herunterfahren</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
+<td style="border:1px solid black;">Administratoren, Benutzer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Übernehmen des Besitzes an Dateien und Objekten</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Übernehmen des Besitzes an Dateien und Objekten</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 </tbody>
 </table>
@@ -847,7 +847,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.5: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Konten**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -858,48 +858,48 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Konten: Administratorkontostatus</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Konten: Administratorkontostatus</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Konten: Gastkontenstatus</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Konten: Gastkontenstatus</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Konten: Lokale Kontenverwendung von leeren Kennwörtern auf Konsolenanmeldung beschränken</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Konten: Lokale Kontenverwendung von leeren Kennwörtern auf Konsolenanmeldung beschränken</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Konten: Administratorkonto umbenennen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
+<td style="border:1px solid black;">Konten: Administratorkonto umbenennen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Konten: Gastkonto umbenennen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
-<td style="border:1px solid black;"><p>Empfohlen</p></td>
+<td style="border:1px solid black;">Konten: Gastkonto umbenennen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
+<td style="border:1px solid black;">Empfohlen</td>
 </tr>
 </tbody>
 </table>
@@ -944,7 +944,7 @@ In der folgenden Tabelle sind die empfohlenen Überwachungseinstellungen zusamme
   
 **Tabelle 3.6: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Überwachung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -955,34 +955,34 @@ In der folgenden Tabelle sind die empfohlenen Überwachungseinstellungen zusamme
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Überwachung: Zugriff auf globale Systemobjekte prüfen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Überwachung: Zugriff auf globale Systemobjekte prüfen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Überwachung: Die Verwendung des Sicherungs- und Wiederherstellungsrechts überprüfen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Überwachung: Die Verwendung des Sicherungs- und Wiederherstellungsrechts überprüfen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Überwachung: System sofort herunterfahren, wenn Sicherheitsüberprüfungen nicht protokolliert werden können</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
+<td style="border:1px solid black;">Überwachung: System sofort herunterfahren, wenn Sicherheitsüberprüfungen nicht protokolliert werden können</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
 </tr>
 </tbody>
 </table>
@@ -1011,7 +1011,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.7: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Geräte**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1022,55 +1022,55 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Geräte: Entfernen ohne vorherige Anmeldung erlauben</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Geräte: Entfernen ohne vorherige Anmeldung erlauben</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Geräte: Formatieren und Auswerfen von Wechselmedien zulassen</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Interaktive Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren, Interaktive Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Geräte: Formatieren und Auswerfen von Wechselmedien zulassen</td>
+<td style="border:1px solid black;">Administratoren, Interaktive Benutzer</td>
+<td style="border:1px solid black;">Administratoren, Interaktive Benutzer</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Geräte: Anwendern das Installieren von Druckertreibern nicht erlauben</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Geräte: Anwendern das Installieren von Druckertreibern nicht erlauben</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Geräte: Zugriff auf CD-ROM-Laufwerke auf lokal angemeldete Benutzer beschränken</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Geräte: Zugriff auf CD-ROM-Laufwerke auf lokal angemeldete Benutzer beschränken</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Geräte: Zugriff auf Diskettenlaufwerke auf lokal angemeldete Benutzer beschränken</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Geräte: Zugriff auf Diskettenlaufwerke auf lokal angemeldete Benutzer beschränken</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Geräte: Verhalten bei der Installation von nicht signierten Treibern</p></td>
-<td style="border:1px solid black;"><p>Warnen, aber Installation erlauben</p></td>
-<td style="border:1px solid black;"><p>Warnen, aber Installation erlauben</p></td>
-<td style="border:1px solid black;"><p>Warnen, aber Installation erlauben</p></td>
-<td style="border:1px solid black;"><p>Warnen, aber Installation erlauben</p></td>
+<td style="border:1px solid black;">Geräte: Verhalten bei der Installation von nicht signierten Treibern</td>
+<td style="border:1px solid black;">Warnen, aber Installation erlauben</td>
+<td style="border:1px solid black;">Warnen, aber Installation erlauben</td>
+<td style="border:1px solid black;">Warnen, aber Installation erlauben</td>
+<td style="border:1px solid black;">Warnen, aber Installation erlauben</td>
 </tr>
 </tbody>
 </table>
@@ -1119,7 +1119,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.8: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Domänenmitglied**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1130,55 +1130,55 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln oder signieren (immer)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln oder signieren (immer)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln (wenn möglich)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln (wenn möglich)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Domänenmitglied: Daten des sicheren Kanals digital signieren (wenn möglich)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Domänenmitglied: Daten des sicheren Kanals digital signieren (wenn möglich)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Domänenmitglied: Änderungen von Computerkontenkennwörtern deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Domänenmitglied: Änderungen von Computerkontenkennwörtern deaktivieren</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Domänenmitglied: Maximalalter von Computerkennwörtern</p></td>
-<td style="border:1px solid black;"><p>30 Tage</p></td>
-<td style="border:1px solid black;"><p>30 Tage</p></td>
-<td style="border:1px solid black;"><p>30 Tage</p></td>
-<td style="border:1px solid black;"><p>30 Tage</p></td>
+<td style="border:1px solid black;">Domänenmitglied: Maximalalter von Computerkennwörtern</td>
+<td style="border:1px solid black;">30 Tage</td>
+<td style="border:1px solid black;">30 Tage</td>
+<td style="border:1px solid black;">30 Tage</td>
+<td style="border:1px solid black;">30 Tage</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Domänenmitglied: Starker Sitzungsschlüssel erforderlich (Windows 2000 oder höher)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Domänenmitglied: Starker Sitzungsschlüssel erforderlich (Windows 2000 oder höher)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1227,7 +1227,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.9: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Interaktive Anmeldung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1238,73 +1238,73 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interaktive Anmeldung: Letzten Benutzernamen nicht anzeigen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Interaktive Anmeldung: Letzten Benutzernamen nicht anzeigen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Interaktive Anmeldung: Kein STRG+ALT+ENTF erforderlich</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Interaktive Anmeldung: Kein STRG+ALT+ENTF erforderlich</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interaktive Anmeldung: Nachricht für Benutzer, die sich anmelden möchten</p></td>
-<td style="border:1px solid black;"><p>Dieses System ist auf autorisierte Benutzer beschränkt. Der Versuch, nicht autorisierten Zugriff zu erlangen, wird strafrechtlich verfolgt.</p></td>
-<td style="border:1px solid black;"><p>Dieses System ist auf autorisierte Benutzer beschränkt. Der Versuch, nicht autorisierten Zugriff zu erlangen, wird strafrechtlich verfolgt.</p></td>
-<td style="border:1px solid black;"><p>Dieses System ist auf autorisierte Benutzer beschränkt. Der Versuch, nicht autorisierten Zugriff zu erlangen, wird strafrechtlich verfolgt.</p></td>
-<td style="border:1px solid black;"><p>Dieses System ist auf autorisierte Benutzer beschränkt. Der Versuch, nicht autorisierten Zugriff zu erlangen, wird strafrechtlich verfolgt.</p></td>
+<td style="border:1px solid black;">Interaktive Anmeldung: Nachricht für Benutzer, die sich anmelden möchten</td>
+<td style="border:1px solid black;">Dieses System ist auf autorisierte Benutzer beschränkt. Der Versuch, nicht autorisierten Zugriff zu erlangen, wird strafrechtlich verfolgt.</td>
+<td style="border:1px solid black;">Dieses System ist auf autorisierte Benutzer beschränkt. Der Versuch, nicht autorisierten Zugriff zu erlangen, wird strafrechtlich verfolgt.</td>
+<td style="border:1px solid black;">Dieses System ist auf autorisierte Benutzer beschränkt. Der Versuch, nicht autorisierten Zugriff zu erlangen, wird strafrechtlich verfolgt.</td>
+<td style="border:1px solid black;">Dieses System ist auf autorisierte Benutzer beschränkt. Der Versuch, nicht autorisierten Zugriff zu erlangen, wird strafrechtlich verfolgt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Interaktive Anmeldung: Nachrichtentitel für Benutzer, die sich anmelden möchten</p></td>
-<td style="border:1px solid black;"><p>SIE MACHEN SICH STRAFBAR, WENN SIE OHNE ERFORDERLICHE<br />
-AUTORISIERUNG FORTFAHREN.</p></td>
-<td style="border:1px solid black;"><p>SIE MACHEN SICH STRAFBAR, WENN SIE OHNE ERFORDERLICHE<br />
-AUTORISIERUNG FORTFAHREN.</p></td>
-<td style="border:1px solid black;"><p>SIE MACHEN SICH STRAFBAR, WENN SIE OHNE ERFORDERLICHE<br />
-AUTORISIERUNG FORTFAHREN.</p></td>
-<td style="border:1px solid black;"><p>SIE MACHEN SICH STRAFBAR, WENN SIE OHNE ERFORDERLICHE<br />
-AUTORISIERUNG FORTFAHREN.</p></td>
+<td style="border:1px solid black;">Interaktive Anmeldung: Nachrichtentitel für Benutzer, die sich anmelden möchten</td>
+<td style="border:1px solid black;">SIE MACHEN SICH STRAFBAR, WENN SIE OHNE ERFORDERLICHE<br />
+AUTORISIERUNG FORTFAHREN.</td>
+<td style="border:1px solid black;">SIE MACHEN SICH STRAFBAR, WENN SIE OHNE ERFORDERLICHE<br />
+AUTORISIERUNG FORTFAHREN.</td>
+<td style="border:1px solid black;">SIE MACHEN SICH STRAFBAR, WENN SIE OHNE ERFORDERLICHE<br />
+AUTORISIERUNG FORTFAHREN.</td>
+<td style="border:1px solid black;">SIE MACHEN SICH STRAFBAR, WENN SIE OHNE ERFORDERLICHE<br />
+AUTORISIERUNG FORTFAHREN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interaktive Anmeldung: Anzahl zwischenzuspeichernder vorheriger Anmeldungen (für den Fall, dass der Domänencontroller nicht verfügbar ist)</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
+<td style="border:1px solid black;">Interaktive Anmeldung: Anzahl zwischenzuspeichernder vorheriger Anmeldungen (für den Fall, dass der Domänencontroller nicht verfügbar ist)</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Interaktive Anmeldung: Anwender vor Ablauf des Kennworts zum Ändern des Kennworts auffordern</p></td>
-<td style="border:1px solid black;"><p>14 Tage</p></td>
-<td style="border:1px solid black;"><p>14 Tage</p></td>
-<td style="border:1px solid black;"><p>14 Tage</p></td>
-<td style="border:1px solid black;"><p>14 Tage</p></td>
+<td style="border:1px solid black;">Interaktive Anmeldung: Anwender vor Ablauf des Kennworts zum Ändern des Kennworts auffordern</td>
+<td style="border:1px solid black;">14 Tage</td>
+<td style="border:1px solid black;">14 Tage</td>
+<td style="border:1px solid black;">14 Tage</td>
+<td style="border:1px solid black;">14 Tage</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interaktive Anmeldung: Domänencontrollerauthentifizierung zum Aufheben der Sperrung der Arbeitsstation erforderlich</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Interaktive Anmeldung: Domänencontrollerauthentifizierung zum Aufheben der Sperrung der Arbeitsstation erforderlich</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Interaktive Anmeldung: Verhalten beim Entfernen von Smartcards</p></td>
-<td style="border:1px solid black;"><p>Arbeitsstation sperren</p></td>
-<td style="border:1px solid black;"><p>Arbeitsstation sperren</p></td>
-<td style="border:1px solid black;"><p>Arbeitsstation sperren</p></td>
-<td style="border:1px solid black;"><p>Arbeitsstation sperren</p></td>
+<td style="border:1px solid black;">Interaktive Anmeldung: Verhalten beim Entfernen von Smartcards</td>
+<td style="border:1px solid black;">Arbeitsstation sperren</td>
+<td style="border:1px solid black;">Arbeitsstation sperren</td>
+<td style="border:1px solid black;">Arbeitsstation sperren</td>
+<td style="border:1px solid black;">Arbeitsstation sperren</td>
 </tr>
 </tbody>
 </table>
@@ -1367,7 +1367,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.10: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Microsoft-Netzwerk (Client)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1378,34 +1378,34 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Client): Kommunikation digital signieren (immer)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Client): Kommunikation digital signieren (immer)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Client): Kommunikation digital signieren (wenn Server zustimmt)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Client): Kommunikation digital signieren (wenn Server zustimmt)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Client): Unverschlüsseltes Kennwort an SMB-Server von Drittanbietern senden</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Client): Unverschlüsseltes Kennwort an SMB-Server von Drittanbietern senden</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1438,7 +1438,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.11: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Microsoft-Netzwerk (Server)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1449,34 +1449,34 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Server): Leerlaufzeitspanne bis zum Anhalten der Sitzung</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Server): Leerlaufzeitspanne bis zum Anhalten der Sitzung</td>
+<td style="border:1px solid black;">15 Minuten</td>
+<td style="border:1px solid black;">15 Minuten</td>
+<td style="border:1px solid black;">15 Minuten</td>
+<td style="border:1px solid black;">15 Minuten</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Server): Kommunikation digital signieren (wenn Client zustimmt)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Server): Kommunikation digital signieren (wenn Client zustimmt)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1507,7 +1507,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.12: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Netzwerkzugriff**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1518,76 +1518,76 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Speicherung von Anmeldeinformationen oder .NET-Passports für die Netzwerkauthentifikation nicht erlauben</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Speicherung von Anmeldeinformationen oder .NET-Passports für die Netzwerkauthentifikation nicht erlauben</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Die Verwendung von 'Jeder'-Berechtigungen für anonyme Benutzer ermöglichen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Die Verwendung von 'Jeder'-Berechtigungen für anonyme Benutzer ermöglichen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Named Pipes, auf die anonym zugegriffen werden kann</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>* In der folgenden Einstellungsbeschreibung finden Sie eine vollständige Liste von Named Pipes</p></td>
-<td style="border:1px solid black;"><p>* In der folgenden Einstellungsbeschreibung finden Sie eine vollständige Liste von Named Pipes</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Named Pipes, auf die anonym zugegriffen werden kann</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">* In der folgenden Einstellungsbeschreibung finden Sie eine vollständige Liste von Named Pipes</td>
+<td style="border:1px solid black;">* In der folgenden Einstellungsbeschreibung finden Sie eine vollständige Liste von Named Pipes</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Registrierungspfade, auf die von anderen Computern aus zugegriffen werden kann</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>* In der folgenden Einstellungsbeschreibung finden Sie eine vollständige Liste von Pfaden</p></td>
-<td style="border:1px solid black;"><p>* In der folgenden Einstellungsbeschreibung finden Sie eine vollständige Liste von Pfaden</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Registrierungspfade, auf die von anderen Computern aus zugegriffen werden kann</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">* In der folgenden Einstellungsbeschreibung finden Sie eine vollständige Liste von Pfaden</td>
+<td style="border:1px solid black;">* In der folgenden Einstellungsbeschreibung finden Sie eine vollständige Liste von Pfaden</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Freigaben, auf die anonym zugegriffen werden kann</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>comcfg, dfs$</p></td>
-<td style="border:1px solid black;"><p>comcfg, dfs$</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Freigaben, auf die anonym zugegriffen werden kann</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">comcfg, dfs$</td>
+<td style="border:1px solid black;">comcfg, dfs$</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Modell für gemeinsame Nutzung und Sicherheitsmodell für lokale Konten</p></td>
-<td style="border:1px solid black;"><p>Klassisch – lokale Benutzer authentifizieren sich als sie selbst</p></td>
-<td style="border:1px solid black;"><p>Klassisch – lokale Benutzer authentifizieren sich als sie selbst</p></td>
-<td style="border:1px solid black;"><p>Klassisch – lokale Benutzer authentifizieren sich als sie selbst</p></td>
-<td style="border:1px solid black;"><p>Klassisch – lokale Benutzer authentifizieren sich als sie selbst</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Modell für gemeinsame Nutzung und Sicherheitsmodell für lokale Konten</td>
+<td style="border:1px solid black;">Klassisch – lokale Benutzer authentifizieren sich als sie selbst</td>
+<td style="border:1px solid black;">Klassisch – lokale Benutzer authentifizieren sich als sie selbst</td>
+<td style="border:1px solid black;">Klassisch – lokale Benutzer authentifizieren sich als sie selbst</td>
+<td style="border:1px solid black;">Klassisch – lokale Benutzer authentifizieren sich als sie selbst</td>
 </tr>
 </tbody>
 </table>
@@ -1686,7 +1686,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.13: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Netzwerksicherheit**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1697,60 +1697,60 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerksicherheit: Keine LAN Manager-Hashwerte für nächste Kennwortänderung speichern</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Netzwerksicherheit: Keine LAN Manager-Hashwerte für nächste Kennwortänderung speichern</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netzwerksicherheit: LAN Manager-Authentifizierungsebene</p></td>
-<td style="border:1px solid black;"><p>Nur NTLMv2-Antworten senden\LM verweigern</p></td>
-<td style="border:1px solid black;"><p>Nur NTLMv2-Antworten senden\LM verweigern</p></td>
-<td style="border:1px solid black;"><p>Nur NTLMv2-Antworten senden\LM und NTLM verweigern</p></td>
-<td style="border:1px solid black;"><p>Nur NTLMv2-Antworten senden\LM und NTLM verweigern</p></td>
+<td style="border:1px solid black;">Netzwerksicherheit: LAN Manager-Authentifizierungsebene</td>
+<td style="border:1px solid black;">Nur NTLMv2-Antworten senden\LM verweigern</td>
+<td style="border:1px solid black;">Nur NTLMv2-Antworten senden\LM verweigern</td>
+<td style="border:1px solid black;">Nur NTLMv2-Antworten senden\LM und NTLM verweigern</td>
+<td style="border:1px solid black;">Nur NTLMv2-Antworten senden\LM und NTLM verweigern</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerksicherheit: Signaturanforderungen für LDAP-Clients</p></td>
-<td style="border:1px solid black;"><p>Signatur aushandeln</p></td>
-<td style="border:1px solid black;"><p>Signatur aushandeln</p></td>
-<td style="border:1px solid black;"><p>Signatur aushandeln</p></td>
-<td style="border:1px solid black;"><p>Signatur aushandeln</p></td>
+<td style="border:1px solid black;">Netzwerksicherheit: Signaturanforderungen für LDAP-Clients</td>
+<td style="border:1px solid black;">Signatur aushandeln</td>
+<td style="border:1px solid black;">Signatur aushandeln</td>
+<td style="border:1px solid black;">Signatur aushandeln</td>
+<td style="border:1px solid black;">Signatur aushandeln</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Clients (einschließlich sicherer RPC-Clients)</p></td>
-<td style="border:1px solid black;"><p>Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
-128-Bit-Verschlüsselung erfordern</p></td>
-<td style="border:1px solid black;"><p>Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
-128-Bit-Verschlüsselung erfordern</p></td>
-<td style="border:1px solid black;"><p>Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
-128-Bit-Verschlüsselung erfordern</p></td>
-<td style="border:1px solid black;"><p>Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
-128-Bit-Verschlüsselung erfordern</p></td>
+<td style="border:1px solid black;">Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Clients (einschließlich sicherer RPC-Clients)</td>
+<td style="border:1px solid black;">Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
+128-Bit-Verschlüsselung erfordern</td>
+<td style="border:1px solid black;">Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
+128-Bit-Verschlüsselung erfordern</td>
+<td style="border:1px solid black;">Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
+128-Bit-Verschlüsselung erfordern</td>
+<td style="border:1px solid black;">Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
+128-Bit-Verschlüsselung erfordern</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Server (einschließlich sicherer RPC-Server)</p></td>
-<td style="border:1px solid black;"><p>Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
-128-Bit-Verschlüsselung erfordern</p></td>
-<td style="border:1px solid black;"><p>Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
-128-Bit-Verschlüsselung erfordern</p></td>
-<td style="border:1px solid black;"><p>Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
-128-Bit-Verschlüsselung erfordern</p></td>
-<td style="border:1px solid black;"><p>Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
-128-Bit-Verschlüsselung erfordern</p></td>
+<td style="border:1px solid black;">Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Server (einschließlich sicherer RPC-Server)</td>
+<td style="border:1px solid black;">Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
+128-Bit-Verschlüsselung erfordern</td>
+<td style="border:1px solid black;">Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
+128-Bit-Verschlüsselung erfordern</td>
+<td style="border:1px solid black;">Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
+128-Bit-Verschlüsselung erfordern</td>
+<td style="border:1px solid black;">Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sitzungssicherheit erfordern,<br />
+128-Bit-Verschlüsselung erfordern</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Netzwerksicherheit: Keine LAN Manager-Hashwerte für nächste Kennwortänderung speichern
 
@@ -1812,7 +1812,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 
 **Tabelle 3.14: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Wiederherstellungskonsole**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1823,27 +1823,27 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wiederherstellungskonsole: Automatische administrative Anmeldungen zulassen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Wiederherstellungskonsole: Automatische administrative Anmeldungen zulassen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wiederherstellungskonsole: Kopieren von Disketten und Zugriff auf alle Laufwerke und alle Ordner zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Wiederherstellungskonsole: Kopieren von Disketten und Zugriff auf alle Laufwerke und alle Ordner zulassen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1874,7 +1874,7 @@ In der folgenden Tabelle sind die Empfehlungen für die Einstellungen der Sicher
   
 **Tabelle 3.15: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Herunterfahren**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1885,27 +1885,27 @@ In der folgenden Tabelle sind die Empfehlungen für die Einstellungen der Sicher
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Herunterfahren: Herunterfahren des Systems ohne Anmeldung zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Herunterfahren: Herunterfahren des Systems ohne Anmeldung zulassen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Herunterfahren: Auslagerungsdatei des virtuellen Arbeitspeichers löschen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Herunterfahren: Auslagerungsdatei des virtuellen Arbeitspeichers löschen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1928,7 +1928,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.16: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Systemkryptografie**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1939,20 +1939,20 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Systemkryptografie: FIPS-konformen Algorithmus für Verschlüsselung, Hashing und Signatur verwenden</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Systemkryptografie: FIPS-konformen Algorithmus für Verschlüsselung, Hashing und Signatur verwenden</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -1971,7 +1971,7 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
   
 **Tabelle 3.16: Empfehlungen für die Einstellungen der Sicherheitsoptionen – Systemobjekte**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1982,34 +1982,34 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Systemobjekte: Standardbesitzer für Objekte, die von Mitgliedern der Administratorengruppe erstellt werden</p></td>
-<td style="border:1px solid black;"><p>Objektersteller</p></td>
-<td style="border:1px solid black;"><p>Objektersteller</p></td>
-<td style="border:1px solid black;"><p>Objektersteller</p></td>
-<td style="border:1px solid black;"><p>Objektersteller</p></td>
+<td style="border:1px solid black;">Systemobjekte: Standardbesitzer für Objekte, die von Mitgliedern der Administratorengruppe erstellt werden</td>
+<td style="border:1px solid black;">Objektersteller</td>
+<td style="border:1px solid black;">Objektersteller</td>
+<td style="border:1px solid black;">Objektersteller</td>
+<td style="border:1px solid black;">Objektersteller</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Systemobjekte: Groß-/Kleinschreibung für Nicht-Windows-Subsysteme ignorieren</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Systemobjekte: Groß-/Kleinschreibung für Nicht-Windows-Subsysteme ignorieren</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Systemobjekte: Standardberechtigungen interner Systemobjekte verstärken</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Systemobjekte: Standardberechtigungen interner Systemobjekte verstärken</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -2048,7 +2048,7 @@ In der folgenden Tabelle werden die empfohlenen Ereignisprotokolleinstellungen s
   
 **Tabelle 3.18: Empfohlene Sicherheitseinstellungen für Ereignisprotokolle**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2059,76 +2059,76 @@ In der folgenden Tabelle werden die empfohlenen Ereignisprotokolleinstellungen s
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Einstellung</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Maximale Größe des Anwendungsprotokolls</p></td>
-<td style="border:1px solid black;"><p>16384 KB</p></td>
-<td style="border:1px solid black;"><p>16384 KB</p></td>
-<td style="border:1px solid black;"><p>16384 KB</p></td>
-<td style="border:1px solid black;"><p>16384 KB</p></td>
+<td style="border:1px solid black;">Maximale Größe des Anwendungsprotokolls</td>
+<td style="border:1px solid black;">16384 KB</td>
+<td style="border:1px solid black;">16384 KB</td>
+<td style="border:1px solid black;">16384 KB</td>
+<td style="border:1px solid black;">16384 KB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Maximale Größe des Sicherheitsprotokolls</p></td>
-<td style="border:1px solid black;"><p>81920 KB</p></td>
-<td style="border:1px solid black;"><p>81920 KB</p></td>
-<td style="border:1px solid black;"><p>81920 KB</p></td>
-<td style="border:1px solid black;"><p>81920 KB</p></td>
+<td style="border:1px solid black;">Maximale Größe des Sicherheitsprotokolls</td>
+<td style="border:1px solid black;">81920 KB</td>
+<td style="border:1px solid black;">81920 KB</td>
+<td style="border:1px solid black;">81920 KB</td>
+<td style="border:1px solid black;">81920 KB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Maximale Größe des Systemprotokolls</p></td>
-<td style="border:1px solid black;"><p>16384 KB</p></td>
-<td style="border:1px solid black;"><p>16384 KB</p></td>
-<td style="border:1px solid black;"><p>16384 KB</p></td>
-<td style="border:1px solid black;"><p>16384 KB</p></td>
+<td style="border:1px solid black;">Maximale Größe des Systemprotokolls</td>
+<td style="border:1px solid black;">16384 KB</td>
+<td style="border:1px solid black;">16384 KB</td>
+<td style="border:1px solid black;">16384 KB</td>
+<td style="border:1px solid black;">16384 KB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokalen Gastkontozugriff auf Anwendungsprotokoll verhindern</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Lokalen Gastkontozugriff auf Anwendungsprotokoll verhindern</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lokalen Gastkontozugriff auf Sicherheitsprotokoll verhindern</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Lokalen Gastkontozugriff auf Sicherheitsprotokoll verhindern</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lokalen Gastkontozugriff auf Systemprotokoll verhindern</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Lokalen Gastkontozugriff auf Systemprotokoll verhindern</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aufbewahrungsmethode des Anwendungsprotokolls</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
+<td style="border:1px solid black;">Aufbewahrungsmethode des Anwendungsprotokolls</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Aufbewahrungsmethode des Sicherheitsprotokolls</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
+<td style="border:1px solid black;">Aufbewahrungsmethode des Sicherheitsprotokolls</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aufbewahrungsmethode des Systemprotokolls</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
-<td style="border:1px solid black;"><p>Bei Bedarf</p></td>
+<td style="border:1px solid black;">Aufbewahrungsmethode des Systemprotokolls</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
+<td style="border:1px solid black;">Bei Bedarf</td>
 </tr>
 </tbody>
 </table>
@@ -2197,7 +2197,7 @@ Mit der Einstellung „Eingeschränkte Gruppen“ können Sie über die Gruppenr
   
 **Tabelle 3.19: Empfehlungen für eingeschränkte Gruppen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2208,34 +2208,34 @@ Mit der Einstellung „Eingeschränkte Gruppen“ können Sie über die Gruppenr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Lokale Gruppe</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Lokale Gruppe</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sicherungs-Operatoren</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
+<td style="border:1px solid black;">Sicherungs-Operatoren</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hauptbenutzer</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
+<td style="border:1px solid black;">Hauptbenutzer</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Remotedesktopbenutzer</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
-<td style="border:1px solid black;"><p>Keine Mitglieder</p></td>
+<td style="border:1px solid black;">Remotedesktopbenutzer</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
+<td style="border:1px solid black;">Keine Mitglieder</td>
 </tr>
 </tbody>
 </table>
@@ -2312,166 +2312,166 @@ In der folgenden Tabelle sind die empfohlenen Systemdiensteinstellungen sowohl f
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Dienstname</p></th>
-<th><p>Anzeigename</p></th>
-<th><p>Unternehmensclient-Desktop</p></th>
-<th><p>Unternehmensclient-Laptop</p></th>
-<th><p>Hochsicher-Desktop</p></th>
-<th><p>Hochsicher-Laptop</p></th>
+<th>Dienstname</th>
+<th>Anzeigename</th>
+<th>Unternehmensclient-Desktop</th>
+<th>Unternehmensclient-Laptop</th>
+<th>Hochsicher-Desktop</th>
+<th>Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Warndienst</p></td>
-<td style="border:1px solid black;"><p>Warndienst</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Warndienst</td>
+<td style="border:1px solid black;">Warndienst</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ClipSrv</p></td>
-<td style="border:1px solid black;"><p>Ablagemappe</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">ClipSrv</td>
+<td style="border:1px solid black;">Ablagemappe</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Browser</p></td>
-<td style="border:1px solid black;"><p>Computerbrowser</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Browser</td>
+<td style="border:1px solid black;">Computerbrowser</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Fax</p></td>
-<td style="border:1px solid black;"><p>Fax</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Fax</td>
+<td style="border:1px solid black;">Fax</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSFtpsvr</p></td>
-<td style="border:1px solid black;"><p>FTP-Publishing</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">MSFtpsvr</td>
+<td style="border:1px solid black;">FTP-Publishing</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IISADMIN</p></td>
-<td style="border:1px solid black;"><p>IIS-Verwaltung</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">IISADMIN</td>
+<td style="border:1px solid black;">IIS-Verwaltung</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>cisvc</p></td>
-<td style="border:1px solid black;"><p>Indexdienst</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">cisvc</td>
+<td style="border:1px solid black;">Indexdienst</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Messenger</p></td>
-<td style="border:1px solid black;"><p>Messenger</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Messenger</td>
+<td style="border:1px solid black;">Messenger</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>mnmsrvc</p></td>
-<td style="border:1px solid black;"><p>NetMeeting®-Remotedesktop-Freigabe</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">mnmsrvc</td>
+<td style="border:1px solid black;">NetMeeting®-Remotedesktop-Freigabe</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RDSessMgr</p></td>
-<td style="border:1px solid black;"><p>Sitzungs-Manager für Remotedesktophilfe</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">RDSessMgr</td>
+<td style="border:1px solid black;">Sitzungs-Manager für Remotedesktophilfe</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RemoteAccess</p></td>
-<td style="border:1px solid black;"><p>Routing und RAS</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">RemoteAccess</td>
+<td style="border:1px solid black;">Routing und RAS</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SNMP</p></td>
-<td style="border:1px solid black;"><p>SNMP-Dienst</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">SNMP</td>
+<td style="border:1px solid black;">SNMP-Dienst</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SNMPTRAP</p></td>
-<td style="border:1px solid black;"><p>SNMP-Trap-Dienst</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">SNMPTRAP</td>
+<td style="border:1px solid black;">SNMP-Trap-Dienst</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SSDPSrv</p></td>
-<td style="border:1px solid black;"><p>SSDP-Suchdienst</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">SSDPSrv</td>
+<td style="border:1px solid black;">SSDP-Suchdienst</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schedule</p></td>
-<td style="border:1px solid black;"><p>Taskplaner</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Schedule</td>
+<td style="border:1px solid black;">Taskplaner</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TlntSvr</p></td>
-<td style="border:1px solid black;"><p>Telnet</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">TlntSvr</td>
+<td style="border:1px solid black;">Telnet</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TermService</p></td>
-<td style="border:1px solid black;"><p>Terminaldienste</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">TermService</td>
+<td style="border:1px solid black;">Terminaldienste</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Upnphost</p></td>
-<td style="border:1px solid black;"><p>Host für universelle Plug &amp; Play-Geräte</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Upnphost</td>
+<td style="border:1px solid black;">Host für universelle Plug &amp; Play-Geräte</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>W3SVC</p></td>
-<td style="border:1px solid black;"><p>WWW-Publishing</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">W3SVC</td>
+<td style="border:1px solid black;">WWW-Publishing</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -2608,7 +2608,7 @@ Weitere Informationen zu jeder Einstellung finden Sie in den Unterabschnitten im
   
 **Tabelle 3.21: Zusätzliche Registrierungseinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2619,136 +2619,136 @@ Weitere Informationen zu jeder Einstellung finden Sie in den Unterabschnitten im
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellungsname</p></th>
-<th><p>Unternehmensclient-<br />
-Desktop</p></th>
-<th><p>Unternehmensclient-<br />
-Laptop</p></th>
-<th><p>Hochsicher-<br />
-Desktop</p></th>
-<th><p>Hochsicher-<br />
-Laptop</p></th>
+<th>Einstellungsname</th>
+<th>Unternehmensclient-<br />
+Desktop</th>
+<th>Unternehmensclient-<br />
+Laptop</th>
+<th>Hochsicher-<br />
+Desktop</th>
+<th>Hochsicher-<br />
+Laptop</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (AutoAdminLogon) Automatische Anmeldung aktivieren (nicht empfohlen)</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">MSS: (AutoAdminLogon) Automatische Anmeldung aktivieren (nicht empfohlen)</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (DisableIPSourceRouting) Schutzebene für IP-Quellrouting (Schutz vor Paket-Spoofing)</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Höchste Schutzebene, Quellrouting vollständig deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Höchste Schutzebene, Quellrouting vollständig deaktiviert</p></td>
+<td style="border:1px solid black;">MSS: (DisableIPSourceRouting) Schutzebene für IP-Quellrouting (Schutz vor Paket-Spoofing)</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Höchste Schutzebene, Quellrouting vollständig deaktiviert</td>
+<td style="border:1px solid black;">Höchste Schutzebene, Quellrouting vollständig deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (EnableDeadGWDetect) Automatische Erkennung von inaktiven Netzwerkgateways zulassen (DoS-Angriff möglich)</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">MSS: (EnableDeadGWDetect) Automatische Erkennung von inaktiven Netzwerkgateways zulassen (DoS-Angriff möglich)</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (EnableICMPRedirect) Überschreiben von OSPF-generierten Routen durch ICMP-Umleitungen zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">MSS: (EnableICMPRedirect) Überschreiben von OSPF-generierten Routen durch ICMP-Umleitungen zulassen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (Hidden) Computer aus der Suchliste ausblenden (nicht empfohlen mit Ausnahme von Hochsicherheitsumgebungen)</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">MSS: (Hidden) Computer aus der Suchliste ausblenden (nicht empfohlen mit Ausnahme von Hochsicherheitsumgebungen)</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (KeepAliveTime) Sendehäufigkeit der Keep Alive-Pakete in Millisekunden</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>30.000 oder 5 Minuten (empfohlen)</p></td>
-<td style="border:1px solid black;"><p>30.000 oder 5 Minuten (empfohlen)</p></td>
+<td style="border:1px solid black;">MSS: (KeepAliveTime) Sendehäufigkeit der Keep Alive-Pakete in Millisekunden</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">30.000 oder 5 Minuten (empfohlen)</td>
+<td style="border:1px solid black;">30.000 oder 5 Minuten (empfohlen)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NoDefaultExempt) NoDefaultExempt für IPSec-Filterung aktivieren (empfohlen)</p></td>
-<td style="border:1px solid black;"><p>Multicast, Broadcast und ISAKMP sind ausgenommen (am besten für Windows XP)</p></td>
-<td style="border:1px solid black;"><p>Multicast, Broadcast und ISAKMP sind ausgenommen (am besten für Windows XP)</p></td>
-<td style="border:1px solid black;"><p>Multicast, Broadcast und ISAKMP sind ausgenommen (am besten für Windows XP)</p></td>
-<td style="border:1px solid black;"><p>Multicast, Broadcast und ISAKMP sind ausgenommen (am besten für Windows XP)</p></td>
+<td style="border:1px solid black;">MSS: (NoDefaultExempt) NoDefaultExempt für IPSec-Filterung aktivieren (empfohlen)</td>
+<td style="border:1px solid black;">Multicast, Broadcast und ISAKMP sind ausgenommen (am besten für Windows XP)</td>
+<td style="border:1px solid black;">Multicast, Broadcast und ISAKMP sind ausgenommen (am besten für Windows XP)</td>
+<td style="border:1px solid black;">Multicast, Broadcast und ISAKMP sind ausgenommen (am besten für Windows XP)</td>
+<td style="border:1px solid black;">Multicast, Broadcast und ISAKMP sind ausgenommen (am besten für Windows XP)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (NoDriveTypeAutoRun) Autorun für alle Laufwerke deaktivieren (empfohlen)</p></td>
-<td style="border:1px solid black;"><p>255, Autorun für alle Laufwerke deaktivieren</p></td>
-<td style="border:1px solid black;"><p>255, Autorun für alle Laufwerke deaktivieren</p></td>
-<td style="border:1px solid black;"><p>255, Autorun für alle Laufwerke deaktivieren</p></td>
-<td style="border:1px solid black;"><p>255, Autorun für alle Laufwerke deaktivieren</p></td>
+<td style="border:1px solid black;">MSS: (NoDriveTypeAutoRun) Autorun für alle Laufwerke deaktivieren (empfohlen)</td>
+<td style="border:1px solid black;">255, Autorun für alle Laufwerke deaktivieren</td>
+<td style="border:1px solid black;">255, Autorun für alle Laufwerke deaktivieren</td>
+<td style="border:1px solid black;">255, Autorun für alle Laufwerke deaktivieren</td>
+<td style="border:1px solid black;">255, Autorun für alle Laufwerke deaktivieren</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NoNameReleaseOnDemand) NetBIOS-Namensfreigabeanforderungen nur von WINS-Servern zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">MSS: (NoNameReleaseOnDemand) NetBIOS-Namensfreigabeanforderungen nur von WINS-Servern zulassen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (NtfsDisable8dot3NameCreation) Erstellen der Dateinamen im 8.3-Format deaktivieren (empfohlen)</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">MSS: (NtfsDisable8dot3NameCreation) Erstellen der Dateinamen im 8.3-Format deaktivieren (empfohlen)</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (PerformRouterDiscovery) Erkennung und Konfiguration von Standardgatewayadressen über IRDP zulassen (DoS-Angriff möglich)</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">MSS: (PerformRouterDiscovery) Erkennung und Konfiguration von Standardgatewayadressen über IRDP zulassen (DoS-Angriff möglich)</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (SafeDllSearchMode) Sicheren DLL-Suchmodus aktivieren (empfohlen)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">MSS: (SafeDllSearchMode) Sicheren DLL-Suchmodus aktivieren (empfohlen)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (ScreenSaverGracePeriod) Zeitangabe in Sekunden vor Ablauf des Kulanzzeitraums für den Bildschirmschoner (empfohlen: 0)</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">MSS: (ScreenSaverGracePeriod) Zeitangabe in Sekunden vor Ablauf des Kulanzzeitraums für den Bildschirmschoner (empfohlen: 0)</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (SynAttackProtect) Syn-Angriffschutzebene (Schutz vor DoS-Angriffen)</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Bei Feststellen eines Angriffs Verbindung schneller trennen</p></td>
-<td style="border:1px solid black;"><p>Bei Feststellen eines Angriffs Verbindung schneller trennen</p></td>
+<td style="border:1px solid black;">MSS: (SynAttackProtect) Syn-Angriffschutzebene (Schutz vor DoS-Angriffen)</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Bei Feststellen eines Angriffs Verbindung schneller trennen</td>
+<td style="border:1px solid black;">Bei Feststellen eines Angriffs Verbindung schneller trennen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (TCPMaxConnectResponseRetransmissions) SYN-ACK-Neuübertragungen bei Nichtbestätigung einer Verbindungsanforderung</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>3 und 6 Sekunden, halb offene Verbindungen nach 21 Sekunden beendet</p></td>
-<td style="border:1px solid black;"><p>3 und 6 Sekunden, halb offene Verbindungen nach 21 Sekunden beendet</p></td>
+<td style="border:1px solid black;">MSS: (TCPMaxConnectResponseRetransmissions) SYN-ACK-Neuübertragungen bei Nichtbestätigung einer Verbindungsanforderung</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">3 und 6 Sekunden, halb offene Verbindungen nach 21 Sekunden beendet</td>
+<td style="border:1px solid black;">3 und 6 Sekunden, halb offene Verbindungen nach 21 Sekunden beendet</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (TCPMaxDataRetransmissions) Erneutes Senden von nicht bestätigten Daten (empfohlen: 3, Standardwert: 5)</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">MSS: (TCPMaxDataRetransmissions) Erneutes Senden von nicht bestätigten Daten (empfohlen: 3, Standardwert: 5)</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (WarningLevel) Schwellenwert in % für das Sicherheitsereignisprotokoll zur Erstellung einer Warnmeldung</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>90</p></td>
-<td style="border:1px solid black;"><p>90</p></td>
+<td style="border:1px solid black;">MSS: (WarningLevel) Schwellenwert in % für das Sicherheitsereignisprotokoll zur Erstellung einer Warnmeldung</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">90</td>
+<td style="border:1px solid black;">90</td>
 </tr>
 </tbody>
 </table>
@@ -3043,7 +3043,7 @@ Im Dialogfeld **Berechtigungen** können Sie Dateiberechtigungen mit mehr Steuer
   
 **Tabelle 3.22: Erweiterte Dateiberechtigungen und Beschreibungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -3051,62 +3051,62 @@ Im Dialogfeld **Berechtigungen** können Sie Dateiberechtigungen mit mehr Steuer
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name der erweiterter Berechtigung</p></th>
-<th><p>Beschreibung</p></th>
+<th>Name der erweiterter Berechtigung</th>
+<th>Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ordner durchsuchen / Datei ausführen</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert, dass Benutzer Ordner passieren, um zu anderen Dateien oder Ordnern zu gelangen, selbst wenn der Benutzer keine Berechtigung für die passierten Ordner besitzt (gilt nur für Ordner).</p></td>
+<td style="border:1px solid black;">Ordner durchsuchen / Datei ausführen</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert, dass Benutzer Ordner passieren, um zu anderen Dateien oder Ordnern zu gelangen, selbst wenn der Benutzer keine Berechtigung für die passierten Ordner besitzt (gilt nur für Ordner).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ordner auflisten / Daten lesen</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Anzeigen der Namen von Dateien und Unterordnern im angegebenen Ordner. Dies betrifft nur die Inhalte des Ordners und hat keine Auswirkungen darauf, ob der Ordner, für den Sie die Berechtigung einstellen, aufgelistet wird (gilt nur für Ordner).</p></td>
+<td style="border:1px solid black;">Ordner auflisten / Daten lesen</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Anzeigen der Namen von Dateien und Unterordnern im angegebenen Ordner. Dies betrifft nur die Inhalte des Ordners und hat keine Auswirkungen darauf, ob der Ordner, für den Sie die Berechtigung einstellen, aufgelistet wird (gilt nur für Ordner).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attribute lesen</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Anzeigen der Attribute von Dateien und Ordnern.</p></td>
+<td style="border:1px solid black;">Attribute lesen</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Anzeigen der Attribute von Dateien und Ordnern.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Erweiterte Attribute lesen</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Anzeigen der erweiterten Attribute von Dateien und Ordnern. Attribute werden durch NTFS definiert.</p></td>
+<td style="border:1px solid black;">Erweiterte Attribute lesen</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Anzeigen der erweiterten Attribute von Dateien und Ordnern. Attribute werden durch NTFS definiert.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dateien erstellen / Daten schreiben</p></td>
-<td style="border:1px solid black;"><p>Die Berechtigung „Dateien erstellen“ ermöglicht oder verweigert das Erstellen von Dateien innerhalb des Ordners (gilt nur für Ordner). Die Berechtigung „Daten schreiben“ ermöglicht oder verweigert das Ändern von Dateien und das Überschreiben vorhandener Inhalte.</p></td>
+<td style="border:1px solid black;">Dateien erstellen / Daten schreiben</td>
+<td style="border:1px solid black;">Die Berechtigung „Dateien erstellen“ ermöglicht oder verweigert das Erstellen von Dateien innerhalb des Ordners (gilt nur für Ordner). Die Berechtigung „Daten schreiben“ ermöglicht oder verweigert das Ändern von Dateien und das Überschreiben vorhandener Inhalte.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ordner erstellen / Daten anhängen</p></td>
-<td style="border:1px solid black;"><p>Die Berechtigung „Ordner erstellen“ ermöglicht oder verweigert das Erstellen von Ordnern innerhalb eines bestimmten Ordners (gilt nur für Ordner). Die Berechtigung „Daten anhängen“ ermöglicht oder verweigert das Vornehmen von Änderungen am Ende der Datei, aber nicht das Ändern, Löschen oder Überschreiben vorhandener Daten (gilt nur für Dateien).</p></td>
+<td style="border:1px solid black;">Ordner erstellen / Daten anhängen</td>
+<td style="border:1px solid black;">Die Berechtigung „Ordner erstellen“ ermöglicht oder verweigert das Erstellen von Ordnern innerhalb eines bestimmten Ordners (gilt nur für Ordner). Die Berechtigung „Daten anhängen“ ermöglicht oder verweigert das Vornehmen von Änderungen am Ende der Datei, aber nicht das Ändern, Löschen oder Überschreiben vorhandener Daten (gilt nur für Dateien).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attribute schreiben</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Ändern der Attribute von Dateien und Ordnern.</p></td>
+<td style="border:1px solid black;">Attribute schreiben</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Ändern der Attribute von Dateien und Ordnern.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Erweiterte Attribute schreiben</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Ändern der erweiterten Attribute von Dateien und Ordnern. Attribute werden durch NTFS definiert.</p></td>
+<td style="border:1px solid black;">Erweiterte Attribute schreiben</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Ändern der erweiterten Attribute von Dateien und Ordnern. Attribute werden durch NTFS definiert.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unterordner und Dateien löschen</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Löschen untergeordneter Ordner und Dateien, selbst wenn die Berechtigung „Löschen“ nicht für den untergeordneten Ordner oder die Datei zugewiesen wurde (gilt für Ordner).</p></td>
+<td style="border:1px solid black;">Unterordner und Dateien löschen</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Löschen untergeordneter Ordner und Dateien, selbst wenn die Berechtigung „Löschen“ nicht für den untergeordneten Ordner oder die Datei zugewiesen wurde (gilt für Ordner).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Löschen</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Löschen von Ordnern und Dateien.</p></td>
+<td style="border:1px solid black;">Löschen</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Löschen von Ordnern und Dateien.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Berechtigungen lesen</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Lesen der Berechtigungen für Dateien oder Ordner, wie z. B. „Vollzugriff“, „Lesen“ oder „Schreiben“.</p></td>
+<td style="border:1px solid black;">Berechtigungen lesen</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Lesen der Berechtigungen für Dateien oder Ordner, wie z. B. „Vollzugriff“, „Lesen“ oder „Schreiben“.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Berechtigungen ändern</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert das Ändern der Berechtigungen für Dateien oder Ordnern, wie z. B. „Vollzugriff“, „Lesen“ oder „Schreiben“.</p></td>
+<td style="border:1px solid black;">Berechtigungen ändern</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert das Ändern der Berechtigungen für Dateien oder Ordnern, wie z. B. „Vollzugriff“, „Lesen“ oder „Schreiben“.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Besitz übernehmen</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht oder verweigert die Besitzübernahme in Bezug auf Dateien oder Ordner. Der Besitzer einer Datei oder eines Ordners kann die Berechtigungen für diese immer und unabhängig von vorhandenen Berechtigungen für die Datei oder den Ordner ändern.</p></td>
+<td style="border:1px solid black;">Besitz übernehmen</td>
+<td style="border:1px solid black;">Ermöglicht oder verweigert die Besitzübernahme in Bezug auf Dateien oder Ordner. Der Besitzer einer Datei oder eines Ordners kann die Berechtigungen für diese immer und unabhängig von vorhandenen Berechtigungen für die Datei oder den Ordner ändern.</td>
 </tr>
 </tbody>
 </table>

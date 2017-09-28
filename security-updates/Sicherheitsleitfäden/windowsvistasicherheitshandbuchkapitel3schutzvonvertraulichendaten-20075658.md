@@ -31,7 +31,7 @@ Mit BitLocker, EFS und RMS sowie mit der Gerätesteuerung können Sie vertraulic
 
 **Tabelle 3.1 Vergleich der Datenschutztechnologien in Windows Vista**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -42,90 +42,90 @@ Mit BitLocker, EFS und RMS sowie mit der Gerätesteuerung können Sie vertraulic
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Szenario</p></th>
-<th><p>    BitLocker</p></th>
-<th><p>        EFS</p></th>
-<th><p>        RMS</p></th>
-<th><p>Gerätesteuerung</p></th>
+<th>Szenario</th>
+<th>    BitLocker</th>
+<th>        EFS</th>
+<th>        RMS</th>
+<th>Gerätesteuerung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Datenschutz für Laptops</p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
+<td style="border:1px solid black;">Datenschutz für Laptops</td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Datenschutz für Server in Zweigstellen</p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
+<td style="border:1px solid black;">Datenschutz für Server in Zweigstellen</td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schutz für lokale Dateien und Ordner, die nur von einem einzelnen Benutzer verwendet werden</p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Schutz für lokale Dateien und Ordner, die nur von einem einzelnen Benutzer verwendet werden</td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Datenschutz für Desktops</p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
+<td style="border:1px solid black;">Datenschutz für Desktops</td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schutz für Dateien und Ordner auf gemeinsam genutzten Computern</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Schutz für Dateien und Ordner auf gemeinsam genutzten Computern</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Schutz für Remotedateien und -ordner</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Schutz für Remotedateien und -ordner</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schutz vor nicht vertrauenswürdigen Netzwerkadministratoren</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Schutz vor nicht vertrauenswürdigen Netzwerkadministratoren</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Durchsetzung von Richtlinien für Remotedokumente</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Durchsetzung von Richtlinien für Remotedokumente</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schutz von Inhalten beim Transport</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Schutz von Inhalten beim Transport</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Schutz von Inhalten bei der Zusammenarbeit</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Schutz von Inhalten bei der Zusammenarbeit</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schutz vor Datendiebstahl</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></p></td>
+<td style="border:1px solid black;">Schutz vor Datendiebstahl</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Dd443715.check(de-de,TechNet.10).gif" /></td>
 </tr>
 </tbody>
 </table>
@@ -240,7 +240,7 @@ Für die Konfiguration von BitLocker empfiehlt Microsoft zwei bestimmte Gruppenr
   
 **Tabelle 3.2 Einstellungen für die BitLocker-Laufwerkverschlüsselung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -249,41 +249,41 @@ Für die Konfiguration von BitLocker empfiehlt Microsoft zwei bestimmte Gruppenr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Richtlinieneinstellung</p></th>
-<th><p>Beschreibung</p></th>
-<th><p>Standardeinstellung in Windows Vista</p></th>
+<th>Richtlinieneinstellung</th>
+<th>Beschreibung</th>
+<th>Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Turn on BitLocker backup to Active Directory Domain Services (BitLocker-Sicherung in Active Directory-Domänendiensten aktivieren)</p></td>
-<td style="border:1px solid black;"><p>Diese Einstellung ermöglicht die Sicherung der BitLocker-Wiederherstellungsinformationen in Active Directory. Diese Wiederherstellungsinformationen umfassen das Wiederherstellungskennwort und einige eindeutige Kennungen.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Turn on BitLocker backup to Active Directory Domain Services (BitLocker-Sicherung in Active Directory-Domänendiensten aktivieren)</td>
+<td style="border:1px solid black;">Diese Einstellung ermöglicht die Sicherung der BitLocker-Wiederherstellungsinformationen in Active Directory. Diese Wiederherstellungsinformationen umfassen das Wiederherstellungskennwort und einige eindeutige Kennungen.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Control Panel Setup: Configure recovery folder (Systemsteuerungs-Setup: Wiederherstellungsordner konfigurieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung legen Sie fest, ob der Benutzer im Setup-Assistenten für BitLocker gefragt werden soll, ob der Wiederherstellungsschlüssel in einem Ordner gespeichert werden soll. Diese Einstellung bestimmt den Standardpfad, der angezeigt wird, wenn der Benutzer durch den Setup-Assistent für BitLocker aufgefordert wird, den Pfad für den Ordner einzugeben, in dem der Wiederherstellungsschlüssel gespeichert werden soll.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Control Panel Setup: Configure recovery folder (Systemsteuerungs-Setup: Wiederherstellungsordner konfigurieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung legen Sie fest, ob der Benutzer im Setup-Assistenten für BitLocker gefragt werden soll, ob der Wiederherstellungsschlüssel in einem Ordner gespeichert werden soll. Diese Einstellung bestimmt den Standardpfad, der angezeigt wird, wenn der Benutzer durch den Setup-Assistent für BitLocker aufgefordert wird, den Pfad für den Ordner einzugeben, in dem der Wiederherstellungsschlüssel gespeichert werden soll.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Control Panel Setup: Configure recovery options (Systemsteuerungs-Setup: Wiederherstellungsoptionen konfigurieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung legen Sie fest, ob der Benutzer im Setup-Assistenten für BitLocker gefragt werden soll, ob ein Wiederherstellungskennwort angelegt werden soll. Das Wiederherstellungskennwort besteht aus einer auf Zufallsbasis erzeugten 48-stelligen Zeichenfolge.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Control Panel Setup: Configure recovery options (Systemsteuerungs-Setup: Wiederherstellungsoptionen konfigurieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung legen Sie fest, ob der Benutzer im Setup-Assistenten für BitLocker gefragt werden soll, ob ein Wiederherstellungskennwort angelegt werden soll. Das Wiederherstellungskennwort besteht aus einer auf Zufallsbasis erzeugten 48-stelligen Zeichenfolge.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Control Panel Setup: Enable advanced startup options (Systemsteuerungs-Setup: Erweiterte Startoptionen aktivieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung legen Sie fest, ob der Benutzer im Setup-Assistenten für BitLocker gefragt werden soll, ob eine PIN-Nummer auf dem Computer erstellt werden soll. Die PIN-Nummer besteht aus einer 4- bis 20-stelligen Ziffernfolge, die der Benutzer bei jedem Starten des Computers eingeben muss. Die Anzahl der Stellen lässt sich nicht über eine Richtlinie festlegen.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Control Panel Setup: Enable advanced startup options (Systemsteuerungs-Setup: Erweiterte Startoptionen aktivieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung legen Sie fest, ob der Benutzer im Setup-Assistenten für BitLocker gefragt werden soll, ob eine PIN-Nummer auf dem Computer erstellt werden soll. Die PIN-Nummer besteht aus einer 4- bis 20-stelligen Ziffernfolge, die der Benutzer bei jedem Starten des Computers eingeben muss. Die Anzahl der Stellen lässt sich nicht über eine Richtlinie festlegen.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configure encryption method (Verschlüsselungsmethode konfigurieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung konfigurieren Sie den Verschlüsselungsalgorithmus und die Schlüsselgröße für BitLocker. Diese Richtlinieneinstellung gilt für vollständig entschlüsselte Datenträger. Falls der Datenträger bereits verschlüsselt ist oder gerade verschlüsselt wird, ist eine Änderung der Verschlüsselungsmethode wirkungslos.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Configure encryption method (Verschlüsselungsmethode konfigurieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung konfigurieren Sie den Verschlüsselungsalgorithmus und die Schlüsselgröße für BitLocker. Diese Richtlinieneinstellung gilt für vollständig entschlüsselte Datenträger. Falls der Datenträger bereits verschlüsselt ist oder gerade verschlüsselt wird, ist eine Änderung der Verschlüsselungsmethode wirkungslos.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configure TPM platform validation profile (Profil für Überprüfung der TPM-Platform konfigurieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung legen Sie fest, wie der Verschlüsselungsschlüssel des Volumes durch TPM gesichert werden soll. Diese Richtlinieneinstellung tritt nicht in Kraft, wenn der Computer kein kompatibles TPM besitzt. Vorhandene Kopien des Verschlüsselungsschlüssels bleiben außerdem von Änderungen dieser Richtlinie unberührt.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Configure TPM platform validation profile (Profil für Überprüfung der TPM-Platform konfigurieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung legen Sie fest, wie der Verschlüsselungsschlüssel des Volumes durch TPM gesichert werden soll. Diese Richtlinieneinstellung tritt nicht in Kraft, wenn der Computer kein kompatibles TPM besitzt. Vorhandene Kopien des Verschlüsselungsschlüssels bleiben außerdem von Änderungen dieser Richtlinie unberührt.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 </tbody>
 </table>
@@ -296,7 +296,7 @@ In der nachstehenden Tabelle werden die Gruppenrichtlinieneinstellungen aufgefü
   
 **Tabelle 3.3 Einstellungen für das Trusted Platform Module (TPM)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -305,31 +305,31 @@ In der nachstehenden Tabelle werden die Gruppenrichtlinieneinstellungen aufgefü
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Richtlinieneinstellung</p></th>
-<th><p>Beschreibung</p></th>
-<th><p>Standardeinstellung in Windows Vista</p></th>
+<th>Richtlinieneinstellung</th>
+<th>Beschreibung</th>
+<th>Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Turn on TPM backup to Active Directory Domain Services (TPM-Sicherung in Active Directory-Domänendiensten aktivieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung verwalten Sie die Sicherung der TPM-Wiederherstellungsinformationen in Active Directory. Diese Wiederherstellungsinformationen umfassen eine kryptografische Ableitung des Kennworts des TPM-Besitzers.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Turn on TPM backup to Active Directory Domain Services (TPM-Sicherung in Active Directory-Domänendiensten aktivieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung verwalten Sie die Sicherung der TPM-Wiederherstellungsinformationen in Active Directory. Diese Wiederherstellungsinformationen umfassen eine kryptografische Ableitung des Kennworts des TPM-Besitzers.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configure the list of blocked TPM commands (Liste der blockierten TPM-Befehle konfigurieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung verwalten Sie die Gruppenrichtlinienliste der TPM-Befehle, die von Windows blockiert werden.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Configure the list of blocked TPM commands (Liste der blockierten TPM-Befehle konfigurieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung verwalten Sie die Gruppenrichtlinienliste der TPM-Befehle, die von Windows blockiert werden.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ignore the default list of blocked TPM commands (Standardliste der blockierten TPM-Befehle ignorieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung verwalten Sie die Durchsetzung der Standardliste blockierter TPM-Befehle, die auf dem Computer vorliegt.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Ignore the default list of blocked TPM commands (Standardliste der blockierten TPM-Befehle ignorieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung verwalten Sie die Durchsetzung der Standardliste blockierter TPM-Befehle, die auf dem Computer vorliegt.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ignore the local list of blocked TPM commands (Lokale Liste der blockierten TPM-Befehle ignorieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung verwalten Sie die Durchsetzung der lokalen Liste blockierter TPM-Befehle, die auf dem Computer vorliegt.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Ignore the local list of blocked TPM commands (Lokale Liste der blockierten TPM-Befehle ignorieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung verwalten Sie die Durchsetzung der lokalen Liste blockierter TPM-Befehle, die auf dem Computer vorliegt.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 </tbody>
 </table>
@@ -471,7 +471,7 @@ Auch die vier Gruppenrichtlinienvorlagen in der nachstehenden Tabelle enthalten 
   
 **Tabelle 3.4: EFS-Gruppenrichtlinieneinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -480,50 +480,50 @@ Auch die vier Gruppenrichtlinienvorlagen in der nachstehenden Tabelle enthalten 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Vorlage und Einstellung</p></th>
-<th><p>Pfad und Beschreibung</p></th>
-<th><p>Standardeinstellung in Windows Vista</p></th>
+<th>Vorlage und Einstellung</th>
+<th>Pfad und Beschreibung</th>
+<th>Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>GroupPolicy.admx</strong><br />
-Richtlinienverarbeitung der EFS-Wiederherstellung</p></td>
-<td style="border:1px solid black;"><p><strong>Computerkonfiguration\</strong><br />
+<td style="border:1px solid black;"><strong>GroupPolicy.admx</strong><br />
+Richtlinienverarbeitung der EFS-Wiederherstellung</td>
+<td style="border:1px solid black;"><strong>Computerkonfiguration\</strong><br />
 <strong>Administrative Vorlagen\</strong><br />
 <strong>System\Gruppenrichtlinie</strong><br />
-Mit dieser Einstellung bestimmen Sie den Zeitpunkt, zu dem die Verschlüsselungsrichtlinien aktualisiert werden.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+Mit dieser Einstellung bestimmen Sie den Zeitpunkt, zu dem die Verschlüsselungsrichtlinien aktualisiert werden.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>EncryptFilesonMove.admx</strong><br />
-Dateien, die in verschlüsselte Ordner verschoben werden, nicht automatisch verschlüsseln</p></td>
-<td style="border:1px solid black;"><p><strong>Computerkonfiguration\</strong><br />
+<td style="border:1px solid black;"><strong>EncryptFilesonMove.admx</strong><br />
+Dateien, die in verschlüsselte Ordner verschoben werden, nicht automatisch verschlüsseln</td>
+<td style="border:1px solid black;"><strong>Computerkonfiguration\</strong><br />
 <strong>Administrative Vorlagen\</strong><br />
 <strong>System\</strong><br />
-Mit dieser Einstellung werden Dateien, die in einen verschlüsselten Ordner verschoben werden, nicht durch Windows Explorer verschlüsselt.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+Mit dieser Einstellung werden Dateien, die in einen verschlüsselten Ordner verschoben werden, nicht durch Windows Explorer verschlüsselt.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>OfflineFiles.admx</strong><br />
-Offlinedateicache verschlüsseln</p></td>
-<td style="border:1px solid black;"><p><strong>Computerkonfiguration\</strong><br />
+<td style="border:1px solid black;"><strong>OfflineFiles.admx</strong><br />
+Offlinedateicache verschlüsseln</td>
+<td style="border:1px solid black;"><strong>Computerkonfiguration\</strong><br />
 <strong>Administrative Vorlagen\</strong><br />
 <strong>Netzwerk\Offlinedateien\</strong><br />
-Mit dieser Einstellung legen Sie fest, ob Offlinedateien verschlüsselt werden sollen.</p>
-<p><strong>Hinweis</strong>   Bei Windows XP werden diese Dateien mit dem Systemschlüssel verschlüsselt, bei Windows Vista hingegen mit dem Schlüssel des Benutzers.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+Mit dieser Einstellung legen Sie fest, ob Offlinedateien verschlüsselt werden sollen.
+<strong>Hinweis</strong>   Bei Windows XP werden diese Dateien mit dem Systemschlüssel verschlüsselt, bei Windows Vista hingegen mit dem Schlüssel des Benutzers.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Search.admx</strong><br />
-Indizierung verschlüsselter Dateien zulassen</p></td>
-<td style="border:1px solid black;"><p><strong>Computerkonfiguration\</strong><br />
+<td style="border:1px solid black;"><strong>Search.admx</strong><br />
+Indizierung verschlüsselter Dateien zulassen</td>
+<td style="border:1px solid black;"><strong>Computerkonfiguration\</strong><br />
 <strong>Administrative Vorlagen\</strong><br />
 <strong>Windows-Komponenten\</strong><br />
 <strong>Suche\</strong><br />
-Diese Einstellung ermöglicht die Indizierung verschlüsselter Objekte durch die Windows-Suche.</p>
-<p><strong>Hinweis</strong>   Die Indizierung verschlüsselter Dateien kann zu Problemen im Hinblick auf die Datensicherheit führen. Der Index ist zudem nicht angemessen durch EFS oder andere Maßnahmen geschützt.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+Diese Einstellung ermöglicht die Indizierung verschlüsselter Objekte durch die Windows-Suche.
+<strong>Hinweis</strong>   Die Indizierung verschlüsselter Dateien kann zu Problemen im Hinblick auf die Datensicherheit führen. Der Index ist zudem nicht angemessen durch EFS oder andere Maßnahmen geschützt.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 </tbody>
 </table>
@@ -682,7 +682,7 @@ Zur Steuerung der Geräteinstallation empfiehlt Microsoft, die Gruppenrichtlinie
   
 **Tabelle 3.5 Einstellungen für die USB-Gerätesteuerung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -691,69 +691,69 @@ Zur Steuerung der Geräteinstallation empfiehlt Microsoft, die Gruppenrichtlinie
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Richtlinieneinstellung</p></th>
-<th><p>Beschreibung</p></th>
-<th><p>Standardeinstellung in Windows Vista</p></th>
+<th>Richtlinieneinstellung</th>
+<th>Beschreibung</th>
+<th>Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Allow administrators to override Device Installation policies (Außerkraftsetzen der Geräteinstallationsrichtlinien durch Administratoren zulassen)</p></td>
-<td style="border:1px solid black;"><p>Mitglieder der Administratorengruppe können die Treiber für jegliche Geräte installieren und aktualisieren, unabhängig von anderen Richtlinieneinstellungen. Ansonsten unterliegen auch Administratoren sämtlichen Richtlinien, die die Geräteinstallation einschränken.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Allow administrators to override Device Installation policies (Außerkraftsetzen der Geräteinstallationsrichtlinien durch Administratoren zulassen)</td>
+<td style="border:1px solid black;">Mitglieder der Administratorengruppe können die Treiber für jegliche Geräte installieren und aktualisieren, unabhängig von anderen Richtlinieneinstellungen. Ansonsten unterliegen auch Administratoren sämtlichen Richtlinien, die die Geräteinstallation einschränken.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Allow installation of devices using drivers that match these device setup classes (Installation von Geräten mit Treibern in diesen Gerätesetupklassen zulassen)</p></td>
-<td style="border:1px solid black;"><p>Diese Einstellung enthält eine Liste der GUIDs von Gerätesetupklassen, die die Benutzer installieren können, sofern diese Installation nicht durch die folgenden Richtlinieneinstellungen explizit untersagt ist:<br />
+<td style="border:1px solid black;">Allow installation of devices using drivers that match these device setup classes (Installation von Geräten mit Treibern in diesen Gerätesetupklassen zulassen)</td>
+<td style="border:1px solid black;">Diese Einstellung enthält eine Liste der GUIDs von Gerätesetupklassen, die die Benutzer installieren können, sofern diese Installation nicht durch die folgenden Richtlinieneinstellungen explizit untersagt ist:<br />
 <strong>Prevent installation of devices that match these device IDs</strong><br />
 <strong>Prevent installation of devices for these device classes</strong><br />
 <strong>Prevent installation of removable devices</strong><br />
-Verwenden Sie diese Einstellung nur dann, wenn die Einstellung <strong>Prevent installation of devices not described by other policy settings</strong> aktiviert ist.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+Verwenden Sie diese Einstellung nur dann, wenn die Einstellung <strong>Prevent installation of devices not described by other policy settings</strong> aktiviert ist.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Prevent installation of devices using drivers that match these device setup classes (Installation von Geräten mit Treibern in diesen Gerätesetupklassen verhindern)</p></td>
-<td style="border:1px solid black;"><p>Diese Einstellung enthält eine benutzerdefinierte Meldung, die dem Benutzer im Titel des Benachrichtigungshinweises angezeigt werden soll, sobald die Richtlinie die Installation eines Geräts verhindert.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Prevent installation of devices using drivers that match these device setup classes (Installation von Geräten mit Treibern in diesen Gerätesetupklassen verhindern)</td>
+<td style="border:1px solid black;">Diese Einstellung enthält eine benutzerdefinierte Meldung, die dem Benutzer im Titel des Benachrichtigungshinweises angezeigt werden soll, sobald die Richtlinie die Installation eines Geräts verhindert.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Display a custom message when installation is prevented by policy (balloon title) (Benutzerdefinierte Meldung (Titel im Benachrichtigungshinweis) anzeigen, wenn die Installation durch die Richtlinie verhindert wird)</p></td>
-<td style="border:1px solid black;"><p>Diese Einstellung enthält eine benutzerdefinierte Meldung, die im Titel des Benachrichtigungshinweises angezeigt werden soll, sobald eine Einstellung in einer Richtlinie die Installation eines Geräts verhindert.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Display a custom message when installation is prevented by policy (balloon title) (Benutzerdefinierte Meldung (Titel im Benachrichtigungshinweis) anzeigen, wenn die Installation durch die Richtlinie verhindert wird)</td>
+<td style="border:1px solid black;">Diese Einstellung enthält eine benutzerdefinierte Meldung, die im Titel des Benachrichtigungshinweises angezeigt werden soll, sobald eine Einstellung in einer Richtlinie die Installation eines Geräts verhindert.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Display a custom message when installation is prevented by policy (balloon text) (Benutzerdefinierte Meldung (Text im Benachrichtigungshinweis) anzeigen, wenn die Installation durch die Richtlinie verhindert wird)</p></td>
-<td style="border:1px solid black;"><p>Diese Einstellung enthält eine benutzerdefinierte Meldung, die als Text des Benachrichtigungshinweises angezeigt werden soll, sobald die Richtlinie die Installation eines Geräts verhindert.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Display a custom message when installation is prevented by policy (balloon text) (Benutzerdefinierte Meldung (Text im Benachrichtigungshinweis) anzeigen, wenn die Installation durch die Richtlinie verhindert wird)</td>
+<td style="border:1px solid black;">Diese Einstellung enthält eine benutzerdefinierte Meldung, die als Text des Benachrichtigungshinweises angezeigt werden soll, sobald die Richtlinie die Installation eines Geräts verhindert.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Allow installation of devices that match any of these device IDs (Installation von Geräten mit einer dieser Geräte-IDs zulassen)</p></td>
-<td style="border:1px solid black;"><p>Diese Einstellung enthält eine Liste der Plug &amp; Play-Hardware-IDs und kompatiblen IDs für Geräte, die die Benutzer installieren können, sofern diese Installation nicht durch die folgenden Einstellungen ausdrücklich untersagt ist:<br />
+<td style="border:1px solid black;">Allow installation of devices that match any of these device IDs (Installation von Geräten mit einer dieser Geräte-IDs zulassen)</td>
+<td style="border:1px solid black;">Diese Einstellung enthält eine Liste der Plug &amp; Play-Hardware-IDs und kompatiblen IDs für Geräte, die die Benutzer installieren können, sofern diese Installation nicht durch die folgenden Einstellungen ausdrücklich untersagt ist:<br />
 <strong>Prevent installation of devices that match these device IDs</strong><br />
 <strong>Prevent installation of devices for these device classes</strong><br />
 <strong>Prevent installation of removable devices</strong><br />
-Verwenden Sie diese Einstellung nur dann, wenn die Einstellung <strong>Prevent installation of devices not described by other policy settings</strong> aktiviert ist.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+Verwenden Sie diese Einstellung nur dann, wenn die Einstellung <strong>Prevent installation of devices not described by other policy settings</strong> aktiviert ist.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Prevent installation of devices that match any of these device IDs (Installation von Geräten mit einer dieser Geräte-IDs verhindern)</p></td>
-<td style="border:1px solid black;"><p>Diese Einstellung enthält eine Liste der Plug &amp; Play-Hardware-IDs und kompatiblen IDs für Geräte, die die Benutzer nicht installieren können.<br />
-<strong>Hinweis</strong>:   Diese Richtlinieneinstellung hat Vorrang vor allen Richtlinieneinstellungen, mit denen die Installation eines Geräts zugelassen wird.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Prevent installation of devices that match any of these device IDs (Installation von Geräten mit einer dieser Geräte-IDs verhindern)</td>
+<td style="border:1px solid black;">Diese Einstellung enthält eine Liste der Plug &amp; Play-Hardware-IDs und kompatiblen IDs für Geräte, die die Benutzer nicht installieren können.<br />
+<strong>Hinweis</strong>:   Diese Richtlinieneinstellung hat Vorrang vor allen Richtlinieneinstellungen, mit denen die Installation eines Geräts zugelassen wird.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Prevent installation of removable devices (Installation von Wechselgeräten verhindern)</p></td>
-<td style="border:1px solid black;"><p>Wenn Sie diese Einstellung aktivieren, können die Benutzer keine Wechselspeichergeräte installieren, und es nicht möglich, die Treiber der vorhandenen Wechselspeichergeräte zu aktualisieren.<br />
+<td style="border:1px solid black;">Prevent installation of removable devices (Installation von Wechselgeräten verhindern)</td>
+<td style="border:1px solid black;">Wenn Sie diese Einstellung aktivieren, können die Benutzer keine Wechselspeichergeräte installieren, und es nicht möglich, die Treiber der vorhandenen Wechselspeichergeräte zu aktualisieren.<br />
 <strong>Hinweis</strong>:   Diese Richtlinieneinstellung hat Vorrang vor allen Richtlinieneinstellungen, mit denen die Installation eines Geräts zugelassen wird.<br />
-Diese Richtlinie wird nur dann angewendet, wenn aus den Treibern des Geräts eindeutig und richtig hervorgeht, dass das betreffende Gerät tatsächlich ein Wechselspeichergerät ist. Weitere Informationen finden Sie in der <a href="https://technet.microsoft.com/de-de/library/1495196d-06d0-4ddc-85f3-953ddbb41e7e(v=TechNet.10)"><em>Schritt-für-Schritt-Anleitung zur Steuerung der Geräteinstallation über Gruppenrichtlinien</em></a> (engl.).</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+Diese Richtlinie wird nur dann angewendet, wenn aus den Treibern des Geräts eindeutig und richtig hervorgeht, dass das betreffende Gerät tatsächlich ein Wechselspeichergerät ist. Weitere Informationen finden Sie in der <a href="https://technet.microsoft.com/de-de/library/1495196d-06d0-4ddc-85f3-953ddbb41e7e(v=TechNet.10)"><em>Schritt-für-Schritt-Anleitung zur Steuerung der Geräteinstallation über Gruppenrichtlinien</em></a> (engl.).</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Prevent installation of devices not described by other policy settings (Installation von Geräten verhindern, die nicht in anderen Richtlinieneinstellungen beschrieben sind)</p></td>
-<td style="border:1px solid black;"><p>Wenn Sie diese Einstellung aktivieren, können Sie die Treiber jeglicher Geräte nicht aktualisieren, die nicht in den folgenden Einstellungen beschrieben sind:<br />
+<td style="border:1px solid black;">Prevent installation of devices not described by other policy settings (Installation von Geräten verhindern, die nicht in anderen Richtlinieneinstellungen beschrieben sind)</td>
+<td style="border:1px solid black;">Wenn Sie diese Einstellung aktivieren, können Sie die Treiber jeglicher Geräte nicht aktualisieren, die nicht in den folgenden Einstellungen beschrieben sind:<br />
 <strong>Allow installation of devices that match these device IDs</strong><br />
-<strong>Allow installation of devices for these device classes</strong></p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<strong>Allow installation of devices for these device classes</strong></td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 </tbody>
 </table>
@@ -768,7 +768,7 @@ Mit Windows Vista können Sie nicht nur die Installation von Geräten steuern, 
   
 **Tabelle 3.6 Geräteeinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -777,81 +777,81 @@ Mit Windows Vista können Sie nicht nur die Installation von Geräten steuern, 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Richtlinieneinstellung</p></th>
-<th><p>Beschreibung</p></th>
-<th><p>Standardeinstellung in Windows Vista</p></th>
+<th>Richtlinieneinstellung</th>
+<th>Beschreibung</th>
+<th>Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>All Removable Storage classes: Deny all access (Alle Wechselspeichergeräteklassen: Jeglichen Zugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung konfigurieren Sie den Zugriff auf alle Klassen von Wechselspeichergeräten.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">All Removable Storage classes: Deny all access (Alle Wechselspeichergeräteklassen: Jeglichen Zugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung konfigurieren Sie den Zugriff auf alle Klassen von Wechselspeichergeräten.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>All Removable Storage: Allow direct access in remote sessions (Alle Wechselspeichergeräteklassen: Direkten Zugriff in Remotesitzungen zulassen)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung erhalten standardmäßige Benutzerkonten den Zugriff auf Wechselspeichergeräte in Remotesitzungen. In der Standardkonfiguration ist dieser Zugriff für Remotesitzungen nicht zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">All Removable Storage: Allow direct access in remote sessions (Alle Wechselspeichergeräteklassen: Direkten Zugriff in Remotesitzungen zulassen)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung erhalten standardmäßige Benutzerkonten den Zugriff auf Wechselspeichergeräte in Remotesitzungen. In der Standardkonfiguration ist dieser Zugriff für Remotesitzungen nicht zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CD and DVD: Deny read access (CD und DVD: Lesezugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Lesezugriff auf die CD- und DVD-Laufwerke dieser Wechselspeichergeräteklasse untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">CD and DVD: Deny read access (CD und DVD: Lesezugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Lesezugriff auf die CD- und DVD-Laufwerke dieser Wechselspeichergeräteklasse untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CD and DVD: Deny write access (CD und DVD: Schreibzugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Schreibzugriff auf die Wechselspeichergeräteklasse der CD- und DVD-Laufwerke unterbunden. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">CD and DVD: Deny write access (CD und DVD: Schreibzugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Schreibzugriff auf die Wechselspeichergeräteklasse der CD- und DVD-Laufwerke unterbunden. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Custom Classes: Deny read access (Benutzerdefinierte Klassen: Lesezugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Lesezugriff auf benutzerdefinierte Geräteklassen untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Custom Classes: Deny read access (Benutzerdefinierte Klassen: Lesezugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Lesezugriff auf benutzerdefinierte Geräteklassen untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Custom Classes: Deny write access (Benutzerdefinierte Klassen: Schreibzugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Schreibzugriff auf benutzerdefinierte Geräteklassen untersagt. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Custom Classes: Deny write access (Benutzerdefinierte Klassen: Schreibzugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Schreibzugriff auf benutzerdefinierte Geräteklassen untersagt. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Floppy Drives: Deny read access (Diskettenlaufwerke: Lesezugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Lesezugriff auf Diskettenlaufwerke untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Floppy Drives: Deny read access (Diskettenlaufwerke: Lesezugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Lesezugriff auf Diskettenlaufwerke untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Floppy Drives: Deny write access (Diskettenlaufwerke: Schreibzugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Schreibzugriff auf Diskettenlaufwerke untersagt. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Floppy Drives: Deny write access (Diskettenlaufwerke: Schreibzugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Schreibzugriff auf Diskettenlaufwerke untersagt. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Removable Disks: Deny read access (Wechselmedien: Lesezugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Lesezugriff auf Wechselfestplatten untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Removable Disks: Deny read access (Wechselmedien: Lesezugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Lesezugriff auf Wechselfestplatten untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Removable Disk: Deny write access (Wechselmedien: Schreibzugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Schreibzugriff auf Wechselfestplatten untersagt. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Removable Disk: Deny write access (Wechselmedien: Schreibzugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Schreibzugriff auf Wechselfestplatten untersagt. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tape Drives: Deny read access (Bandlaufwerke: Lesezugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Lesezugriff auf Bandlaufwerke untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Tape Drives: Deny read access (Bandlaufwerke: Lesezugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Lesezugriff auf Bandlaufwerke untersagt. In der Standardeinstellung ist der Lesezugriff zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tape Drives: Deny write access (Bandlaufwerke: Schreibzugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Schreibzugriff auf Bandlaufwerke untersagt. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Tape Drives: Deny write access (Bandlaufwerke: Schreibzugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Schreibzugriff auf Bandlaufwerke untersagt. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WPD Devices: Deny read access (WPD-Geräte: Lesezugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Lesezugriff auf tragbare Windows-Geräte verweigert, z. B. auf Medienwiedergabegeräte und Mobiltelefone. In der Standardeinstellung ist der Lesezugriff zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">WPD Devices: Deny read access (WPD-Geräte: Lesezugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Lesezugriff auf tragbare Windows-Geräte verweigert, z. B. auf Medienwiedergabegeräte und Mobiltelefone. In der Standardeinstellung ist der Lesezugriff zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WPD Devices: Deny write access (WPD-Geräte: Schreibzugriff verweigern)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung wird der Schreibzugriff auf tragbare Windows-Geräte verweigert, z. B. auf Medienwiedergabegeräte und Mobiltelefone. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">WPD Devices: Deny write access (WPD-Geräte: Schreibzugriff verweigern)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung wird der Schreibzugriff auf tragbare Windows-Geräte verweigert, z. B. auf Medienwiedergabegeräte und Mobiltelefone. In der Standardeinstellung ist der Schreibzugriff auf diese Geräteklasse zulässig.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 </tbody>
 </table>
@@ -866,7 +866,7 @@ Die nachstehenden Einstellungen in der Vorlage „Autoplay.admx“ wirken sich a
   
 **Tabelle 3.7 Richtlinieneinstellungen für die automatische Wiedergabe**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -875,21 +875,21 @@ Die nachstehenden Einstellungen in der Vorlage „Autoplay.admx“ wirken sich a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Richtlinieneinstellung</p></th>
-<th><p>Beschreibung</p></th>
-<th><p>Standardeinstellung in Windows Vista</p></th>
+<th>Richtlinieneinstellung</th>
+<th>Beschreibung</th>
+<th>Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Turn off Autoplay (Automatische Wiedergabe deaktivieren)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung können Sie die automatische Wiedergabe für CD-, DVD-ROM- und Wechsellaufwerke oder für alle Laufwerke gleichzeitig deaktivieren.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert ‡</p></td>
+<td style="border:1px solid black;">Turn off Autoplay (Automatische Wiedergabe deaktivieren)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung können Sie die automatische Wiedergabe für CD-, DVD-ROM- und Wechsellaufwerke oder für alle Laufwerke gleichzeitig deaktivieren.</td>
+<td style="border:1px solid black;">Nicht konfiguriert ‡</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Default behavior for AutoRun (Standardverhalten für AutoAusführen)</p></td>
-<td style="border:1px solid black;"><p>Mit dieser Einstellung konfigurieren Sie das Standardverhalten für AutoAusführen-Befehle. Standardmäßig wird der Benutzer in Windows Vista aufgefordert, die Ausführung eines AutoAusführen-Befehls zu bestätigen.</p></td>
-<td style="border:1px solid black;"><p>Nicht konfiguriert</p></td>
+<td style="border:1px solid black;">Default behavior for AutoRun (Standardverhalten für AutoAusführen)</td>
+<td style="border:1px solid black;">Mit dieser Einstellung konfigurieren Sie das Standardverhalten für AutoAusführen-Befehle. Standardmäßig wird der Benutzer in Windows Vista aufgefordert, die Ausführung eines AutoAusführen-Befehls zu bestätigen.</td>
+<td style="border:1px solid black;">Nicht konfiguriert</td>
 </tr>
 </tbody>
 </table>
@@ -952,7 +952,7 @@ Weitere Informationen zu den neuen und überarbeiteten Sicherheitsfunktionen und
   
 [Senden Sie uns Ihre Kommentare und Anregungen.](mailto:secwish@microsoft.com?subject=windows%20vista%20security%20guide) (engl.)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

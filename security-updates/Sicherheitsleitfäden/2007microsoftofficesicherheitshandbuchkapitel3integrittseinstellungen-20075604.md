@@ -63,7 +63,7 @@ Die folgende Liste enthlt eine 2007 Office-Einstellung, die Ihnen bei Verwendung
 
 **Tabelle 3.1. Sicherheitseinstellungen fr vertrauenswrdige Herausgeber**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -77,8 +77,8 @@ Die folgende Liste enthlt eine 2007 Office-Einstellung, die Ihnen bei Verwendung
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anwendungs-Add-Ins mssen von einem vertrauenswrdigen Herausgeber signiert sein</p></td>
-<td style="border:1px solid black;"><p>Office Access 2007, Excel 2007, InfoPath 2007, PowerPoint 2007, Word 2007</p></td>
+<td style="border:1px solid black;">Anwendungs-Add-Ins mssen von einem vertrauenswrdigen Herausgeber signiert sein</td>
+<td style="border:1px solid black;">Office Access 2007, Excel 2007, InfoPath 2007, PowerPoint 2007, Word 2007</td>
 </tr>
 </tbody>
 </table>
@@ -133,7 +133,7 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
   
 **Tabelle 3.2. Vertrauenswrdige Standardspeicherorte fr Office Access 2007**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -149,16 +149,16 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programme\Microsoft Office\Office12\ACCWIZ</p></td>
-<td style="border:1px solid black;"><p>Assistentendatenbanken</p></td>
-<td style="border:1px solid black;"><p>Nicht zugelassen</p></td>
+<td style="border:1px solid black;">Programme\Microsoft Office\Office12\ACCWIZ</td>
+<td style="border:1px solid black;">Assistentendatenbanken</td>
+<td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
 </tbody>
 </table>
   
 **Tabelle 3.3. Vertrauenswrdige Standardspeicherorte fr Office Excel 2007**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -174,41 +174,41 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programme\Microsoft Office\Vorlagen</p></td>
-<td style="border:1px solid black;"><p>Anwendungsvorlagen</p></td>
-<td style="border:1px solid black;"><p>Zugelassen</p></td>
+<td style="border:1px solid black;">Programme\Microsoft Office\Vorlagen</td>
+<td style="border:1px solid black;">Anwendungsvorlagen</td>
+<td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</p></td>
-<td style="border:1px solid black;"><p>Benutzervorlagen</p></td>
-<td style="border:1px solid black;"><p>Nicht zugelassen</p></td>
+<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</td>
+<td style="border:1px solid black;">Benutzervorlagen</td>
+<td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programme\Microsoft Office\Office12\XLSTART</p></td>
-<td style="border:1px solid black;"><p>Excel-StartUp</p></td>
-<td style="border:1px solid black;"><p>Zugelassen</p></td>
+<td style="border:1px solid black;">Programme\Microsoft Office\Office12\XLSTART</td>
+<td style="border:1px solid black;">Excel-StartUp</td>
+<td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming \Microsoft\Excel\XLSTART</p></td>
-<td style="border:1px solid black;"><p>Benutzer-Startup</p></td>
-<td style="border:1px solid black;"><p>Nicht zugelassen</p></td>
+<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming \Microsoft\Excel\XLSTART</td>
+<td style="border:1px solid black;">Benutzer-Startup</td>
+<td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programme\Microsoft Office\Office12\STARTUP</p></td>
-<td style="border:1px solid black;"><p>Office-Startup</p></td>
-<td style="border:1px solid black;"><p>Zugelassen</p></td>
+<td style="border:1px solid black;">Programme\Microsoft Office\Office12\STARTUP</td>
+<td style="border:1px solid black;">Office-Startup</td>
+<td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Programme\Microsoft Office\Office12\Bibliothek</p></td>
-<td style="border:1px solid black;"><p>Add-Ins</p></td>
-<td style="border:1px solid black;"><p>Zugelassen</p></td>
+<td style="border:1px solid black;">Programme\Microsoft Office\Office12\Bibliothek</td>
+<td style="border:1px solid black;">Add-Ins</td>
+<td style="border:1px solid black;">Zugelassen</td>
 </tr>
 </tbody>
 </table>
   
 **Tabelle 3.4. Vertrauenswrdige Standardspeicherorte fr Office PowerPoint 2007**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -224,31 +224,31 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programme\Microsoft Office\Vorlagen</p></td>
-<td style="border:1px solid black;"><p>Anwendungsvorlagen</p></td>
-<td style="border:1px solid black;"><p>Zugelassen</p></td>
+<td style="border:1px solid black;">Programme\Microsoft Office\Vorlagen</td>
+<td style="border:1px solid black;">Anwendungsvorlagen</td>
+<td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</p></td>
-<td style="border:1px solid black;"><p>Benutzervorlagen</p></td>
-<td style="border:1px solid black;"><p>Zugelassen</p></td>
+<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</td>
+<td style="border:1px solid black;">Benutzervorlagen</td>
+<td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Add-Ins</p></td>
-<td style="border:1px solid black;"><p>Add-Ins</p></td>
-<td style="border:1px solid black;"><p>Nicht zugelassen</p></td>
+<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Add-Ins</td>
+<td style="border:1px solid black;">Add-Ins</td>
+<td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Programme\Microsoft Office\Dokumentdesigns 12</p></td>
-<td style="border:1px solid black;"><p>Anwendungsdesigns</p></td>
-<td style="border:1px solid black;"><p>Zugelassen</p></td>
+<td style="border:1px solid black;">Programme\Microsoft Office\Dokumentdesigns 12</td>
+<td style="border:1px solid black;">Anwendungsdesigns</td>
+<td style="border:1px solid black;">Zugelassen</td>
 </tr>
 </tbody>
 </table>
   
 **Tabelle 3.5. Vertrauenswrdige Standardspeicherorte fr Office Word 2007**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -264,19 +264,19 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programme\Microsoft Office\Vorlagen</p></td>
-<td style="border:1px solid black;"><p>Anwendungsvorlagen</p></td>
-<td style="border:1px solid black;"><p>Zugelassen</p></td>
+<td style="border:1px solid black;">Programme\Microsoft Office\Vorlagen</td>
+<td style="border:1px solid black;">Anwendungsvorlagen</td>
+<td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</p></td>
-<td style="border:1px solid black;"><p>Benutzervorlagen</p></td>
-<td style="border:1px solid black;"><p>Nicht zugelassen</p></td>
+<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</td>
+<td style="border:1px solid black;">Benutzervorlagen</td>
+<td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming \Microsoft\Word\Startup</p></td>
-<td style="border:1px solid black;"><p>Benutzer-Startup</p></td>
-<td style="border:1px solid black;"><p>Nicht zugelassen</p></td>
+<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming \Microsoft\Word\Startup</td>
+<td style="border:1px solid black;">Benutzer-Startup</td>
+<td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
 </tbody>
 </table>
@@ -285,7 +285,7 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
   
 **Tabelle 3.6. Sicherheitseinstellungen fr vertrauenswrdige Speicherorte**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -299,16 +299,16 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mischung aus Richtlinien- und Benutzerspeicherorten zulassen</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Mischung aus Richtlinien- und Benutzerspeicherorten zulassen</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Vertrauenswrdige Speicherorte, die sich nicht auf dem Computer befinden, zulassen</p></td>
-<td style="border:1px solid black;"><p>Office Access 2007, Office Excel 2007, Office PowerPoint 2007, Office Word 2007</p></td>
+<td style="border:1px solid black;">Vertrauenswrdige Speicherorte, die sich nicht auf dem Computer befinden, zulassen</td>
+<td style="border:1px solid black;">Office Access 2007, Office Excel 2007, Office PowerPoint 2007, Office Word 2007</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alle vertrauenswrdigen Speicherorte deaktivieren</p></td>
-<td style="border:1px solid black;"><p>Office Access 2007, Office Excel 2007, Office PowerPoint 2007, Office Word 2007</p></td>
+<td style="border:1px solid black;">Alle vertrauenswrdigen Speicherorte deaktivieren</td>
+<td style="border:1px solid black;">Office Access 2007, Office Excel 2007, Office PowerPoint 2007, Office Word 2007</td>
 </tr>
 </tbody>
 </table>
@@ -351,7 +351,7 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
   
 **Tabelle 3.7. Sicherheitseinstellungen fr digitale Signaturen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -365,68 +365,68 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anlage sicherer temporrer Ordner</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Anlage sicherer temporrer Ordner</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EKU-Filterung</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">EKU-Filterung</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Beschriftung aller mit S/MIME signierter Nachrichten sicherstellen</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Beschriftung aller mit S/MIME signierter Nachrichten sicherstellen</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Schlsselverwendungsfilterung</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Schlsselverwendungsfilterung</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacyformatsignaturen</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Legacyformatsignaturen</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Fehlende Zertifikatsperrlisten</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Fehlende Zertifikatsperrlisten</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Fehlende Stammzertifikate</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Fehlende Stammzertifikate</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Fehler der Ebene 2 als Fehler, nicht als Warnungen, hher stufen</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Fehler der Ebene 2 als Fehler, nicht als Warnungen, hher stufen</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>S/MIME-Besttigung anfordern, wenn mit S/MIME signiert</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">S/MIME-Besttigung anfordern, wenn mit S/MIME signiert</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Abrufen von Zertifikatsperrlisten</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Abrufen von Zertifikatsperrlisten</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alle signierten Nachrichten als Klartext senden</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Alle signierten Nachrichten als Klartext senden</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alle E-Mail-Nachrichten signieren</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Alle E-Mail-Nachrichten signieren</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Signaturwarnung</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">Signaturwarnung</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Menelement fr externe Signaturdienste unterdrcken</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Menelement fr externe Signaturdienste unterdrcken</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Office-Signaturanbieter unterdrcken</p></td>
-<td style="border:1px solid black;"><p>2007 Office System</p></td>
+<td style="border:1px solid black;">Office-Signaturanbieter unterdrcken</td>
+<td style="border:1px solid black;">2007 Office System</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>URL fr S/MIME-Zertifikate</p></td>
-<td style="border:1px solid black;"><p>Office Outlook 2007</p></td>
+<td style="border:1px solid black;">URL fr S/MIME-Zertifikate</td>
+<td style="border:1px solid black;">Office Outlook 2007</td>
 </tr>
 </tbody>
 </table>

@@ -21,7 +21,7 @@ Die Standardzugriffsteuerungsliste bei diesem Dienst wird in folgender Tabelle g
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -35,20 +35,20 @@ Die Standardzugriffsteuerungsliste bei diesem Dienst wird in folgender Tabelle g
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Vollzugriff</p></td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Vollzugriff</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RMS-Dienstgruppe</p></td>
-<td style="border:1px solid black;"><p>Lesen und Ausführen</p></td>
+<td style="border:1px solid black;">RMS-Dienstgruppe</td>
+<td style="border:1px solid black;">Lesen und Ausführen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SYSTEM</p></td>
-<td style="border:1px solid black;"><p>Vollzugriff</p></td>
+<td style="border:1px solid black;">SYSTEM</td>
+<td style="border:1px solid black;">Vollzugriff</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benutzer</p></td>
-<td style="border:1px solid black;"><p>Lesen und Ausführen</p></td>
+<td style="border:1px solid black;">Benutzer</td>
+<td style="border:1px solid black;">Lesen und Ausführen</td>
 </tr>
 </tbody>
 </table>

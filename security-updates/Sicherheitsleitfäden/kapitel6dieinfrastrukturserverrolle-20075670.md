@@ -36,7 +36,7 @@ Die folgende Tabelle zeigt die Namen der Sicherheitsvorlagen für Infrastrukturs
 
 **Tabelle 6.1: Sicherheitsvorlagen und Richtlinien für Infrastrukturserver**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -45,16 +45,16 @@ Die folgende Tabelle zeigt die Namen der Sicherheitsvorlagen für Infrastrukturs
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Älterer Client - Infrastrukturserver.inf</p></td>
-<td style="border:1px solid black;"><p>Unternehmensclient - Infrastrukturserver.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Infrastrukturserver.inf</p></td>
+<td style="border:1px solid black;">Älterer Client - Infrastrukturserver.inf</td>
+<td style="border:1px solid black;">Unternehmensclient - Infrastrukturserver.inf</td>
+<td style="border:1px solid black;">Hochsicher - Infrastrukturserver.inf</td>
 </tr>
 </tbody>
 </table>
@@ -289,7 +289,7 @@ Die folgenden Links bieten weitere Informationen zur Absicherung von Infrastrukt
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -13,7 +13,7 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Enrollment (Reg
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,16 +27,16 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Enrollment (Reg
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnroll Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der Unterregistrierungsanforderungen, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">SubEnroll Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der Unterregistrierungsanforderungen, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SubEnroll Processing Time</p></td>
-<td style="border:1px solid black;"><p>Durchschnittliche Verarbeitungszeit in Mikrosekunden pro Unterregistrierungsanforderung.</p></td>
+<td style="border:1px solid black;">SubEnroll Processing Time</td>
+<td style="border:1px solid black;">Durchschnittliche Verarbeitungszeit in Mikrosekunden pro Unterregistrierungsanforderung.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnroll Requests</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der Unterregistrierungsanforderungen, die vom Registrierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">SubEnroll Requests</td>
+<td style="border:1px solid black;">Gesamtanzahl der Unterregistrierungsanforderungen, die vom Registrierungsdienst empfangen wurden.</td>
 </tr>
 </tbody>
 </table>

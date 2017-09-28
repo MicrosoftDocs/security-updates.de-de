@@ -76,7 +76,7 @@ Da RMS SP1 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwindigk
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -94,34 +94,34 @@ Da RMS SP1 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwindigk
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1.0</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features</p>
-<p>Keine Offlineregistrierung des Servers; Server muss über das Internet registriert werden</p>
-<p>Keine Selbstaktivierung der Clients</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features</p>
-<p>Keine Offlineregistrierung des Servers;</p>
-<p>Selbstaktivierung der Clients</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features</p>
-<p>SP1-Clients sind selbstaktivierend,</p>
-<p>RMS 1.0-Clients müssen über das Internet aktiviert werden</p></td>
+<td style="border:1px solid black;">1.0</td>
+<td style="border:1px solid black;">Alle bisherigen Features
+Keine Offlineregistrierung des Servers; Server muss über das Internet registriert werden
+Keine Selbstaktivierung der Clients</td>
+<td style="border:1px solid black;">Alle bisherigen Features
+Keine Offlineregistrierung des Servers;
+Selbstaktivierung der Clients</td>
+<td style="border:1px solid black;">Alle bisherigen Features
+SP1-Clients sind selbstaktivierend,
+RMS 1.0-Clients müssen über das Internet aktiviert werden</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SP1</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features</p>
-<p>Offlineregistrierung des Servers</p>
-<p>Keine Selbstaktivierung der Clients</p></td>
-<td style="border:1px solid black;"><p>Alle SP1-Features</p>
-<p>Offlineregistrierung des Servers</p>
-<p>Selbstaktivierung der Clients</p>
-<p>Serverlockbox</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features plus SP1-Features</p>
-<p>Offlineregistrierung des Servers</p>
-<p>SP1-Clients sind selbstaktivierend,</p>
-<p>RMS 1.0-Clients müssen über das Internet aktiviert werden</p></td>
+<td style="border:1px solid black;">SP1</td>
+<td style="border:1px solid black;">Alle bisherigen Features
+Offlineregistrierung des Servers
+Keine Selbstaktivierung der Clients</td>
+<td style="border:1px solid black;">Alle SP1-Features
+Offlineregistrierung des Servers
+Selbstaktivierung der Clients
+Serverlockbox</td>
+<td style="border:1px solid black;">Alle bisherigen Features plus SP1-Features
+Offlineregistrierung des Servers
+SP1-Clients sind selbstaktivierend,
+RMS 1.0-Clients müssen über das Internet aktiviert werden</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_6"></span>
 Entfernen von RMS mit SP1

@@ -186,7 +186,7 @@ In der folgenden Tabelle werden die Empfehlungen zu den Kennwortrichtlinien für
 
 **Tabelle 2.1: Empfohlene Kennwortrichtlinieneinstellungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -196,48 +196,48 @@ In der folgenden Tabelle werden die Empfehlungen zu den Kennwortrichtlinien für
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Standard für Domänencontroller</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher</p></th>
+<th>Einstellung</th>
+<th>Standard für Domänencontroller</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kennwortchronik erzwingen</p></td>
-<td style="border:1px solid black;"><p>24 Kennwörter</p></td>
-<td style="border:1px solid black;"><p>24 Kennwörter</p></td>
-<td style="border:1px solid black;"><p>24 Kennwörter</p></td>
+<td style="border:1px solid black;">Kennwortchronik erzwingen</td>
+<td style="border:1px solid black;">24 Kennwörter</td>
+<td style="border:1px solid black;">24 Kennwörter</td>
+<td style="border:1px solid black;">24 Kennwörter</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Maximales Kennwortalter</p></td>
-<td style="border:1px solid black;"><p>42 Tage</p></td>
-<td style="border:1px solid black;"><p>90 Tage</p></td>
-<td style="border:1px solid black;"><p>90 Tage</p></td>
+<td style="border:1px solid black;">Maximales Kennwortalter</td>
+<td style="border:1px solid black;">42 Tage</td>
+<td style="border:1px solid black;">90 Tage</td>
+<td style="border:1px solid black;">90 Tage</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Minimales Kennwortalter</p></td>
-<td style="border:1px solid black;"><p>1 Tag</p></td>
-<td style="border:1px solid black;"><p>1 Tag</p></td>
-<td style="border:1px solid black;"><p>1 Tag</p></td>
+<td style="border:1px solid black;">Minimales Kennwortalter</td>
+<td style="border:1px solid black;">1 Tag</td>
+<td style="border:1px solid black;">1 Tag</td>
+<td style="border:1px solid black;">1 Tag</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Minimale Kennwortlänge</p></td>
-<td style="border:1px solid black;"><p>7 Zeichen</p></td>
-<td style="border:1px solid black;"><p>8 Zeichen</p></td>
-<td style="border:1px solid black;"><p>12 Zeichen</p></td>
+<td style="border:1px solid black;">Minimale Kennwortlänge</td>
+<td style="border:1px solid black;">7 Zeichen</td>
+<td style="border:1px solid black;">8 Zeichen</td>
+<td style="border:1px solid black;">12 Zeichen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kennwörter müssen den Komplexitätsanforderungen entsprechen</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Kennwörter müssen den Komplexitätsanforderungen entsprechen</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kennwörter mit umkehrbarer Verschlüsselung für alle Benutzer der Domäne speichern</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Kennwörter mit umkehrbarer Verschlüsselung für alle Benutzer der Domäne speichern</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 </tbody>
 </table>
@@ -312,7 +312,7 @@ Die folgende Tabelle enthält die Empfehlungen für die Einstellungen der Kontos
   
 **Tabelle 2.2: Empfehlungen für die Einstellungen der Kontosperrungsrichtlinie**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -322,30 +322,30 @@ Die folgende Tabelle enthält die Empfehlungen für die Einstellungen der Kontos
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Standard für Domänencontroller</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher</p></th>
+<th>Einstellung</th>
+<th>Standard für Domänencontroller</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kontosperrdauer</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
+<td style="border:1px solid black;">Kontosperrdauer</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">15 Minuten</td>
+<td style="border:1px solid black;">15 Minuten</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kontensperrungsschwelle</p></td>
-<td style="border:1px solid black;"><p>0 ungültige Anmeldeversuche</p></td>
-<td style="border:1px solid black;"><p>50 ungültige Anmeldeversuche</p></td>
-<td style="border:1px solid black;"><p>10 ungültige Anmeldeversuche</p></td>
+<td style="border:1px solid black;">Kontensperrungsschwelle</td>
+<td style="border:1px solid black;">0 ungültige Anmeldeversuche</td>
+<td style="border:1px solid black;">50 ungültige Anmeldeversuche</td>
+<td style="border:1px solid black;">10 ungültige Anmeldeversuche</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zurücksetzungsdauer des Kontosperrungszählers</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
-<td style="border:1px solid black;"><p>15 Minuten</p></td>
+<td style="border:1px solid black;">Zurücksetzungsdauer des Kontosperrungszählers</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">15 Minuten</td>
+<td style="border:1px solid black;">15 Minuten</td>
 </tr>
 </tbody>
 </table>
@@ -396,7 +396,7 @@ Diese Richtlinieneinstellung ermöglicht es Benutzern, einer bestimmten Domäne 
   
 **Tabelle 2.3: Einstellungen zum Zuweisen von Benutzerrechten**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -406,18 +406,18 @@ Diese Richtlinieneinstellung ermöglicht es Benutzern, einer bestimmten Domäne 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Standard für Domänencontroller</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher</p></th>
+<th>Einstellung</th>
+<th>Standard für Domänencontroller</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hinzufügen von Arbeitsstationen zur Domäne</p></td>
-<td style="border:1px solid black;"><p>Authentifizierte Benutzer</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
-<td style="border:1px solid black;"><p>Administratoren</p></td>
+<td style="border:1px solid black;">Hinzufügen von Arbeitsstationen zur Domäne</td>
+<td style="border:1px solid black;">Authentifizierte Benutzer</td>
+<td style="border:1px solid black;">Administratoren</td>
+<td style="border:1px solid black;">Administratoren</td>
 </tr>
 </tbody>
 </table>
@@ -444,7 +444,7 @@ In der folgenden Tabelle werden die Empfehlungen zu den Einstellungen der Sicher
   
 **Tabelle 2.4: Empfehlungen für die Einstellungen der Sicherheitsoptionen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -454,30 +454,30 @@ In der folgenden Tabelle werden die Empfehlungen zu den Einstellungen der Sicher
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellung</p></th>
-<th><p>Standard für Domänenmitglieder</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher</p></th>
+<th>Einstellung</th>
+<th>Standard für Domänenmitglieder</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft-Netzwerk (Server): Clientverbindungen aufheben, wenn die Anmeldezeit überschritten wird</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Microsoft-Netzwerk (Server): Clientverbindungen aufheben, wenn die Anmeldezeit überschritten wird</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen</p></td>
-<td style="border:1px solid black;"><p>Nicht definiert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
+<td style="border:1px solid black;">Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen</td>
+<td style="border:1px solid black;">Nicht definiert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Deaktiviert</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netzwerksicherheit: Abmeldung nach Ablauf der Anmeldezeit erzwingen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
+<td style="border:1px solid black;">Netzwerksicherheit: Abmeldung nach Ablauf der Anmeldezeit erzwingen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
 </tr>
 </tbody>
 </table>

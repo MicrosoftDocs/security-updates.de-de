@@ -41,7 +41,7 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Webserver f�
 
 **Tabelle 9.1: Sicherheitsvorlagen für IIS-Server**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -50,16 +50,16 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Webserver f�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Älterer Client - Webserver.inf</p></td>
-<td style="border:1px solid black;"><p>Unternehmensclient - Webserver.inf</p></td>
-<td style="border:1px solid black;"><p>Hochsicher - Webserver.inf</p></td>
+<td style="border:1px solid black;">Älterer Client - Webserver.inf</td>
+<td style="border:1px solid black;">Unternehmensclient - Webserver.inf</td>
+<td style="border:1px solid black;">Hochsicher - Webserver.inf</td>
 </tr>
 </tbody>
 </table>
@@ -155,7 +155,7 @@ In der folgenden Tabelle werden die Unterkomponenten des Anwendungsservers kurz 
   
 **Tabelle 9.2: Empfohlene Einstellungen für die Unterkomponenten des Anwendungsservers**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -164,42 +164,42 @@ In der folgenden Tabelle werden die Unterkomponenten des Anwendungsservers kurz 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name der Komponente in der Benutzeroberfläche</p></th>
-<th><p>Einstellung</p></th>
-<th><p>Einstellungslogik</p></th>
+<th>Name der Komponente in der Benutzeroberfläche</th>
+<th>Einstellung</th>
+<th>Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Anwendungsserverkonsole</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet ein MMC-Snap-In (Microsoft Management Console), mit dem Sie alle Komponenten des Webanwendungsservers verwalten können. Diese Komponente ist auf einem dedizierten IIS-Server nicht erforderlich, da der IIS-Server-Manager verwendet werden kann.</p></td>
+<td style="border:1px solid black;">Anwendungsserverkonsole</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet ein MMC-Snap-In (Microsoft Management Console), mit dem Sie alle Komponenten des Webanwendungsservers verwalten können. Diese Komponente ist auf einem dedizierten IIS-Server nicht erforderlich, da der IIS-Server-Manager verwendet werden kann.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ASP.NET</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Unterstützung für ASP.NET-Anwendungen. Aktivieren Sie diese Komponente, wenn ein IIS-Server ASP.NET-Anwendungen ausführt.</p></td>
+<td style="border:1px solid black;">ASP.NET</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet Unterstützung für ASP.NET-Anwendungen. Aktivieren Sie diese Komponente, wenn ein IIS-Server ASP.NET-Anwendungen ausführt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>COM+-Netzwerkzugriff aktivieren</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht einem IIS-Server, für verteilte Anwendungen als Host von COM+-Komponenten zu fungieren. Diese Komponente ist u. a. für FTP, BITS-Servererweiterungen, WWW-Dienst und IIS-Manager erforderlich.</p></td>
+<td style="border:1px solid black;">COM+-Netzwerkzugriff aktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Ermöglicht einem IIS-Server, für verteilte Anwendungen als Host von COM+-Komponenten zu fungieren. Diese Komponente ist u. a. für FTP, BITS-Servererweiterungen, WWW-Dienst und IIS-Manager erforderlich.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DTC-Netzwerkzugriff aktivieren</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht einem IIS-Server, als Host für Anwendungen zu fungieren, die an Netzwerkübertragungen über Distributed Transaction Coordinator (DTC) teilnehmen. Deaktivieren Sie diese Komponente, es sei denn, sie ist für die auf dem IIS-Server ausgeführten Anwendungen erforderlich.</p></td>
+<td style="border:1px solid black;">DTC-Netzwerkzugriff aktivieren</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Ermöglicht einem IIS-Server, als Host für Anwendungen zu fungieren, die an Netzwerkübertragungen über Distributed Transaction Coordinator (DTC) teilnehmen. Deaktivieren Sie diese Komponente, es sei denn, sie ist für die auf dem IIS-Server ausgeführten Anwendungen erforderlich.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internetinformationsdienste (IIS)</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Web- und FTP-Basisdienste. Diese Komponente ist für dedizierte IIS-Server erforderlich.</p>
-<p><strong>Hinweis</strong>: Wenn diese Komponente nicht aktiviert ist, sind alle Unterkomponenten deaktiviert.</p></td>
+<td style="border:1px solid black;">Internetinformationsdienste (IIS)</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Bietet Web- und FTP-Basisdienste. Diese Komponente ist für dedizierte IIS-Server erforderlich.
+<strong>Hinweis</strong>: Wenn diese Komponente nicht aktiviert ist, sind alle Unterkomponenten deaktiviert.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Message Queuing</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Microsoft Message Queuing (MSMQ) bietet eine Middleware-Schicht für Nachrichtenrouting, Speicherung und Weiterleitung für Webanwendungen von Unternehmen.</p></td>
+<td style="border:1px solid black;">Message Queuing</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Microsoft Message Queuing (MSMQ) bietet eine Middleware-Schicht für Nachrichtenrouting, Speicherung und Weiterleitung für Webanwendungen von Unternehmen.</td>
 </tr>
 </tbody>
 </table>
@@ -215,7 +215,7 @@ In der folgenden Tabelle werden die Unterkomponenten des IIS-Servers kurz beschr
   
 **Tabelle 9.3: Empfohlene Einstellungen für die Unterkomponenten des IIS-Servers**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -224,56 +224,56 @@ In der folgenden Tabelle werden die Unterkomponenten des IIS-Servers kurz beschr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name der Komponente in der Benutzeroberfläche</p></th>
-<th><p>Einstellung</p></th>
-<th><p>Einstellungslogik</p></th>
+<th>Name der Komponente in der Benutzeroberfläche</th>
+<th>Einstellung</th>
+<th>Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servererweiterungen des Background Intelligent Transfer Service (BITS)</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Mithilfe der BITS-Servererweiterung kann der BITS auf den Clients im Hintergrund Dateien auf den Server hochladen. Sind die Clients mit einer Anwendung ausgestattet, die den BITS zum Hochladen von Dateien auf diesen Server verwendet, müssen Sie die BITS-Servererweiterung aktivieren und konfigurieren. Andernfalls sollten Sie sie deaktiviert lassen. Beachten Sie, dass es bei Windows Update, Microsoft Update, SUS, WSUS und Automatische Updates nicht nötig ist, diese Komponente auszuführen. Sie erfordern die BITS-Clientkomponente, die nicht zu IIS gehört.</p></td>
+<td style="border:1px solid black;">Servererweiterungen des Background Intelligent Transfer Service (BITS)</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Mithilfe der BITS-Servererweiterung kann der BITS auf den Clients im Hintergrund Dateien auf den Server hochladen. Sind die Clients mit einer Anwendung ausgestattet, die den BITS zum Hochladen von Dateien auf diesen Server verwendet, müssen Sie die BITS-Servererweiterung aktivieren und konfigurieren. Andernfalls sollten Sie sie deaktiviert lassen. Beachten Sie, dass es bei Windows Update, Microsoft Update, SUS, WSUS und Automatische Updates nicht nötig ist, diese Komponente auszuführen. Sie erfordern die BITS-Clientkomponente, die nicht zu IIS gehört.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gemeinsame Dateien</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Für IIS sind diese Dateien erforderlich. Daher müssen sie auf IIS-Servern immer aktiviert sein.</p></td>
+<td style="border:1px solid black;">Gemeinsame Dateien</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Für IIS sind diese Dateien erforderlich. Daher müssen sie auf IIS-Servern immer aktiviert sein.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>FTP-Dienst (File Transfer Protocol)</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht IIS-Servern das Bereitstellen von FTP-Diensten. Dieser Dienst ist für dedizierte IIS-Server nicht erforderlich.</p></td>
+<td style="border:1px solid black;">FTP-Dienst (File Transfer Protocol)</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Ermöglicht IIS-Servern das Bereitstellen von FTP-Diensten. Dieser Dienst ist für dedizierte IIS-Server nicht erforderlich.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>FrontPage 2002-Servererweiterungen</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Frontpage-Support zum Verwalten und Veröffentlichen von Websites. Deaktivieren Sie diesen Dienst auf dedizierten IIS-Servern, wenn von Websites keine FrontPage-Erweiterungen verwendet werden.</p></td>
+<td style="border:1px solid black;">FrontPage 2002-Servererweiterungen</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet Frontpage-Support zum Verwalten und Veröffentlichen von Websites. Deaktivieren Sie diesen Dienst auf dedizierten IIS-Servern, wenn von Websites keine FrontPage-Erweiterungen verwendet werden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internetinformationsdienste-Manager</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Administrative Schnittstelle für IIS</p></td>
+<td style="border:1px solid black;">Internetinformationsdienste-Manager</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Administrative Schnittstelle für IIS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Internetdrucken</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet eine webbasierte Druckerverwaltung und ermöglicht die gemeinsame Verwendung von Druckern über HTTP. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</p></td>
+<td style="border:1px solid black;">Internetdrucken</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet eine webbasierte Druckerverwaltung und ermöglicht die gemeinsame Verwendung von Druckern über HTTP. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NNTP-Dienst</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Verteilt Artikel über Usenet-Neuigkeiten, fordert diese Artikel an, ruft sie ab oder stellt sie ins Internet. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</p></td>
+<td style="border:1px solid black;">NNTP-Dienst</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Verteilt Artikel über Usenet-Neuigkeiten, fordert diese Artikel an, ruft sie ab oder stellt sie ins Internet. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SMTP-Dienst</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Unterstützt die Übertragung von elektronischer Post. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</p></td>
+<td style="border:1px solid black;">SMTP-Dienst</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Unterstützt die Übertragung von elektronischer Post. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WWW-Dienst</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung. Diese Komponente ist für dedizierte IIS-Server erforderlich.</p></td>
+<td style="border:1px solid black;">WWW-Dienst</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung. Diese Komponente ist für dedizierte IIS-Server erforderlich.</td>
 </tr>
 </tbody>
 </table>
@@ -289,7 +289,7 @@ In der folgenden Tabelle werden die Unterkomponenten des Message Queuing kurz be
   
 **Tabelle 9.4: Empfohlene Einstellungen für die Unterkomponenten des Message Queuing**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -298,41 +298,41 @@ In der folgenden Tabelle werden die Unterkomponenten des Message Queuing kurz be
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name der Komponente in der Benutzeroberfläche</p></th>
-<th><p>Installationsoption</p></th>
-<th><p>Einstellungslogik</p></th>
+<th>Name der Komponente in der Benutzeroberfläche</th>
+<th>Installationsoption</th>
+<th>Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Active Directory-Integration</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Integration mit dem Verzeichnisdienst Active<em> </em>Directory®, wenn ein IIS-Server einer Domäne angehört. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, Microsoft Message Queuing (MSMQ) verwenden.</p></td>
+<td style="border:1px solid black;">Active Directory-Integration</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet Integration mit dem Verzeichnisdienst Active<em> </em>Directory®, wenn ein IIS-Server einer Domäne angehört. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, Microsoft Message Queuing (MSMQ) verwenden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Allgemein</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, MSMQ verwenden.</p></td>
+<td style="border:1px solid black;">Allgemein</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, MSMQ verwenden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unterstützung für kompatiblen Client</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Zugriff auf Active<em> </em>Directory sowie Standorterkennung für kompatible Clients. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.</p></td>
+<td style="border:1px solid black;">Unterstützung für kompatiblen Client</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet Zugriff auf Active<em> </em>Directory sowie Standorterkennung für kompatible Clients. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HTTP-Unterstützung für MSMQ</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht das Senden und Empfangen von Nachrichten über den HTTP-Transport. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.</p></td>
+<td style="border:1px solid black;">HTTP-Unterstützung für MSMQ</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Ermöglicht das Senden und Empfangen von Nachrichten über den HTTP-Transport. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Routingunterstützung</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Nachrichtenübermittlung im Store-and-Forward-Betrieb (Speichern und Weiterleiten) sowie effiziente Routingdienste. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, MSMQ verwenden.</p></td>
+<td style="border:1px solid black;">Routingunterstützung</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet Nachrichtenübermittlung im Store-and-Forward-Betrieb (Speichern und Weiterleiten) sowie effiziente Routingdienste. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, MSMQ verwenden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auslöser</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Verknüpft die Ankunft eingehender Nachrichten bei einer Warteschlange mit der Funktionalität in einer COM-Komponente oder einem eigenständigen ausführbaren Programm.</p></td>
+<td style="border:1px solid black;">Auslöser</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Verknüpft die Ankunft eingehender Nachrichten bei einer Warteschlange mit der Funktionalität in einer COM-Komponente oder einem eigenständigen ausführbaren Programm.</td>
 </tr>
 </tbody>
 </table>
@@ -348,7 +348,7 @@ In der folgenden Tabelle werden die Unterkomponenten der BITS-Servererweiterunge
   
 **Tabelle 9.5: Empfohlene Einstellungen für die Unterkomponenten der BITS-Servererweiterungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -357,21 +357,21 @@ In der folgenden Tabelle werden die Unterkomponenten der BITS-Servererweiterunge
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name der Komponente in der Benutzeroberfläche</p></th>
-<th><p>Installationsoption</p></th>
-<th><p>Einstellungslogik</p></th>
+<th>Name der Komponente in der Benutzeroberfläche</th>
+<th>Installationsoption</th>
+<th>Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>BITS-Verwaltungskonsolen-Snap-In</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Installiert ein MMC-Snap-In zur Verwaltung von BITS. Aktivieren Sie diese Komponente, wenn die BITS-Servererweiterung für ISAPI (Internet Server Application Programming Interface, Anwendungsprogrammierschnittstelle für den Internetserver) aktiviert ist.</p></td>
+<td style="border:1px solid black;">BITS-Verwaltungskonsolen-Snap-In</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Installiert ein MMC-Snap-In zur Verwaltung von BITS. Aktivieren Sie diese Komponente, wenn die BITS-Servererweiterung für ISAPI (Internet Server Application Programming Interface, Anwendungsprogrammierschnittstelle für den Internetserver) aktiviert ist.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>BITS-Servererweiterungs-ISAPI</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Installiert die ISAPI für BITS, damit ein IIS-Server Daten mithilfe von BITS übertragen kann. Mithilfe der BITS-Servererweiterungen kann der BITS auf den Clients im Hintergrund Dateien auf den Server hochladen. Sind die Clients mit einer Anwendung ausgestattet, die den BITS zum Hochladen von Dateien auf diesen Server verwendet, müssen Sie die BITS-Servererweiterung aktivieren und konfigurieren. Andernfalls sollten Sie sie deaktiviert lassen. Beachten Sie, dass es bei Windows Update, Microsoft Update, SUS, WSUS und Automatische Updates nicht nötig ist, diese Komponente auszuführen. Sie erfordern die BITS-Clientkomponente, die nicht zu IIS gehört.</p></td>
+<td style="border:1px solid black;">BITS-Servererweiterungs-ISAPI</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Installiert die ISAPI für BITS, damit ein IIS-Server Daten mithilfe von BITS übertragen kann. Mithilfe der BITS-Servererweiterungen kann der BITS auf den Clients im Hintergrund Dateien auf den Server hochladen. Sind die Clients mit einer Anwendung ausgestattet, die den BITS zum Hochladen von Dateien auf diesen Server verwendet, müssen Sie die BITS-Servererweiterung aktivieren und konfigurieren. Andernfalls sollten Sie sie deaktiviert lassen. Beachten Sie, dass es bei Windows Update, Microsoft Update, SUS, WSUS und Automatische Updates nicht nötig ist, diese Komponente auszuführen. Sie erfordern die BITS-Clientkomponente, die nicht zu IIS gehört.</td>
 </tr>
 </tbody>
 </table>
@@ -387,7 +387,7 @@ In der folgenden Tabelle werden die Unterkomponenten des WWW-Dienstes kurz besch
   
 **Tabelle 9.6: Empfohlene Einstellungen der Unterkomponenten des WWW-Dienstes**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -396,46 +396,46 @@ In der folgenden Tabelle werden die Unterkomponenten des WWW-Dienstes kurz besch
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name der Komponente in der Benutzeroberfläche</p></th>
-<th><p>Installationsoption</p></th>
-<th><p>Einstellungslogik</p></th>
+<th>Name der Komponente in der Benutzeroberfläche</th>
+<th>Installationsoption</th>
+<th>Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Active Server Pages</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Unterstützung für ASP. Deaktivieren Sie diese Komponente, wenn keine Websites oder Anwendungen auf den IIS-Servern ASP verwenden, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</p></td>
+<td style="border:1px solid black;">Active Server Pages</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet Unterstützung für ASP. Deaktivieren Sie diese Komponente, wenn keine Websites oder Anwendungen auf den IIS-Servern ASP verwenden, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Internetdaten-Connector</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Unterstützung für dynamischen Inhalt, der durch Dateien mit der Erweiterung .idc bereitgestellt wird. Deaktivieren Sie diese Komponente, wenn keine Websites oder Anwendungen auf den IIS-Servern Dateien mit der Erweiterung .idc enthalten, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</p></td>
+<td style="border:1px solid black;">Internetdaten-Connector</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet Unterstützung für dynamischen Inhalt, der durch Dateien mit der Erweiterung .idc bereitgestellt wird. Deaktivieren Sie diese Komponente, wenn keine Websites oder Anwendungen auf den IIS-Servern Dateien mit der Erweiterung .idc enthalten, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Remoteverwaltung (HTML)</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet eine HTML-Schnittstelle zur Verwaltung von IIS. Verwenden Sie stattdessen den IIS-Manager, um die Verwaltung zu erleichtern und die Angriffsfläche eines IIS-Servers zu verringern. Diese Funktion ist für dedizierte IIS-Server nicht erforderlich.</p></td>
+<td style="border:1px solid black;">Remoteverwaltung (HTML)</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet eine HTML-Schnittstelle zur Verwaltung von IIS. Verwenden Sie stattdessen den IIS-Manager, um die Verwaltung zu erleichtern und die Angriffsfläche eines IIS-Servers zu verringern. Diese Funktion ist für dedizierte IIS-Server nicht erforderlich.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Remotedesktop-Webverbindung</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Umfasst Steuerungs- und Beispielseiten für Microsoft ActiveX®, um Clientverbindungen für Terminaldienste im Web zu hosten. Verwenden Sie stattdessen den IIS-Manager, um die Verwaltung zu erleichtern und die Angriffsfläche eines IIS-Servers zu verringern. Diese Komponente ist auf einem dedizierten IIS-Server nicht erforderlich.</p></td>
+<td style="border:1px solid black;">Remotedesktop-Webverbindung</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Umfasst Steuerungs- und Beispielseiten für Microsoft ActiveX®, um Clientverbindungen für Terminaldienste im Web zu hosten. Verwenden Sie stattdessen den IIS-Manager, um die Verwaltung zu erleichtern und die Angriffsfläche eines IIS-Servers zu verringern. Diese Komponente ist auf einem dedizierten IIS-Server nicht erforderlich.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Serverseitige Includes</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>Bietet Unterstützung für .shtm-, .shtml- und .stm-Dateien. Deaktivieren Sie diese Komponenten, wenn keine Websites oder Anwendungen, die auf dem IIS-Server ausgeführt werden, eingebundene Dateien mit diesen Erweiterungen verwenden.</p></td>
+<td style="border:1px solid black;">Serverseitige Includes</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">Bietet Unterstützung für .shtm-, .shtml- und .stm-Dateien. Deaktivieren Sie diese Komponenten, wenn keine Websites oder Anwendungen, die auf dem IIS-Server ausgeführt werden, eingebundene Dateien mit diesen Erweiterungen verwenden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WebDAV</p></td>
-<td style="border:1px solid black;"><p>Deaktiviert</p></td>
-<td style="border:1px solid black;"><p>WebDAV erweitert das HTTP/1.1-Protokoll, sodass Clients Ressourcen im Web veröffentlichen, sperren und verwalten können. Deaktivieren Sie diese Komponente auf dedizierten IIS-Servern, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</p></td>
+<td style="border:1px solid black;">WebDAV</td>
+<td style="border:1px solid black;">Deaktiviert</td>
+<td style="border:1px solid black;">WebDAV erweitert das HTTP/1.1-Protokoll, sodass Clients Ressourcen im Web veröffentlichen, sperren und verwalten können. Deaktivieren Sie diese Komponente auf dedizierten IIS-Servern, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WWW-Dienst</p></td>
-<td style="border:1px solid black;"><p>Aktiviert</p></td>
-<td style="border:1px solid black;"><p>Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung. Diese Komponente ist für dedizierte IIS-Server erforderlich.</p></td>
+<td style="border:1px solid black;">WWW-Dienst</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung. Diese Komponente ist für dedizierte IIS-Server erforderlich.</td>
 </tr>
 </tbody>
 </table>
@@ -454,7 +454,7 @@ In der folgenden Tabelle werden vordefinierte Webdiensterweiterungen aufgelistet
   
 **Tabelle 9.7: Aktivieren von Webdiensterweiterungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -462,42 +462,42 @@ In der folgenden Tabelle werden vordefinierte Webdiensterweiterungen aufgelistet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Webdiensterweiterung</p></th>
-<th><p>Bedingungen für die Aktivierung</p></th>
+<th>Webdiensterweiterung</th>
+<th>Bedingungen für die Aktivierung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Active Server Pages</p></td>
-<td style="border:1px solid black;"><p>Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ASP-Inhalt.</p></td>
+<td style="border:1px solid black;">Active Server Pages</td>
+<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ASP-Inhalt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ASP.NET v1.1.4322</p></td>
-<td style="border:1px solid black;"><p>Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ASP.NET-Inhalt.</p></td>
+<td style="border:1px solid black;">ASP.NET v1.1.4322</td>
+<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ASP.NET-Inhalt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alle unbekannten CGI-Erweiterungen</p></td>
-<td style="border:1px solid black;"><p>Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält CGI-Inhalt.</p></td>
+<td style="border:1px solid black;">Alle unbekannten CGI-Erweiterungen</td>
+<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält CGI-Inhalt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alle unbekannten ISAPI-Erweiterungen</p></td>
-<td style="border:1px solid black;"><p>Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ISAPI-Erweiterungsinhalt.</p></td>
+<td style="border:1px solid black;">Alle unbekannten ISAPI-Erweiterungen</td>
+<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ISAPI-Erweiterungsinhalt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>FrontPage-Servererweiterungen 2002</p></td>
-<td style="border:1px solid black;"><p>Mindestens eine Website, die auf IIS-Servern ausgeführt wird, verwendet FrontPage-Erweiterungen.</p></td>
+<td style="border:1px solid black;">FrontPage-Servererweiterungen 2002</td>
+<td style="border:1px solid black;">Mindestens eine Website, die auf IIS-Servern ausgeführt wird, verwendet FrontPage-Erweiterungen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Internetdaten-Connector (IDC)</p></td>
-<td style="border:1px solid black;"><p>Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, verwendet IDC zum Anzeigen von Datenbankinformationen (dieser Inhalt umfasst .idc- und .idx-Dateien).</p></td>
+<td style="border:1px solid black;">Internetdaten-Connector (IDC)</td>
+<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, verwendet IDC zum Anzeigen von Datenbankinformationen (dieser Inhalt umfasst .idc- und .idx-Dateien).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Serverseitige Includes (SSI)</p></td>
-<td style="border:1px solid black;"><p>Mindestens eine Website, die auf IIS-Servern ausgeführt wird, verwendet SSI-Anweisungen, um IIS-Server anzuweisen, wiederverwendbaren Inhalt (z. B. eine Navigationsleiste, eine Kopf- oder Fußzeile) in verschiedene Webseiten einzufügen.</p></td>
+<td style="border:1px solid black;">Serverseitige Includes (SSI)</td>
+<td style="border:1px solid black;">Mindestens eine Website, die auf IIS-Servern ausgeführt wird, verwendet SSI-Anweisungen, um IIS-Server anzuweisen, wiederverwendbaren Inhalt (z. B. eine Navigationsleiste, eine Kopf- oder Fußzeile) in verschiedene Webseiten einzufügen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WebDAV (Web Distributed Authoring and Versioning)</p></td>
-<td style="border:1px solid black;"><p>WebDAV-Unterstützung ist auf IIS-Servern für Clients erforderlich, damit diese Webressourcen transparent veröffentlichen und verwalten können.</p></td>
+<td style="border:1px solid black;">WebDAV (Web Distributed Authoring and Versioning)</td>
+<td style="border:1px solid black;">WebDAV-Unterstützung ist auf IIS-Servern für Clients erforderlich, damit diese Webressourcen transparent veröffentlichen und verwalten können.</td>
 </tr>
 </tbody>
 </table>
@@ -530,7 +530,7 @@ Die folgende Tabelle enthält einige Empfehlungen zu NTFS-Berechtigungen, die de
   
 **Tabelle 9.8: Empfohlene Einstellungen für NTFS-Berechtigungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -538,38 +538,38 @@ Die folgende Tabelle enthält einige Empfehlungen zu NTFS-Berechtigungen, die de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Dateityp</p></th>
-<th><p>Empfohlene NTFS-Berechtigungen</p></th>
+<th>Dateityp</th>
+<th>Empfohlene NTFS-Berechtigungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CGI-Dateien (.exe, .dll, .cmd, .pl)</p></td>
-<td style="border:1px solid black;"><p>Jeder (Ausführen)</p>
-<p>Administratoren (Vollzugriff)</p>
-<p>System (Vollzugriff)</p></td>
+<td style="border:1px solid black;">CGI-Dateien (.exe, .dll, .cmd, .pl)</td>
+<td style="border:1px solid black;">Jeder (Ausführen)
+Administratoren (Vollzugriff)
+System (Vollzugriff)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Skriptdateien (.asp)</p></td>
-<td style="border:1px solid black;"><p>Jeder (Ausführen)</p>
-<p>Administratoren (Vollzugriff)</p>
-<p>System (Vollzugriff)</p></td>
+<td style="border:1px solid black;">Skriptdateien (.asp)</td>
+<td style="border:1px solid black;">Jeder (Ausführen)
+Administratoren (Vollzugriff)
+System (Vollzugriff)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dateien hinzufügen (.inc, .shtm, .shtml)</p></td>
-<td style="border:1px solid black;"><p>Jeder (Ausführen)</p>
-<p>Administratoren (Vollzugriff)</p>
-<p>System (Vollzugriff)</p></td>
+<td style="border:1px solid black;">Dateien hinzufügen (.inc, .shtm, .shtml)</td>
+<td style="border:1px solid black;">Jeder (Ausführen)
+Administratoren (Vollzugriff)
+System (Vollzugriff)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Statischer Inhalt (.txt, .gif, .jpg, .htm, .html)</p></td>
-<td style="border:1px solid black;"><p>Jeder (Schreibgeschützt)</p>
-<p>Administratoren (Vollzugriff)</p>
-<p>System (Vollzugriff)</p></td>
+<td style="border:1px solid black;">Statischer Inhalt (.txt, .gif, .jpg, .htm, .html)</td>
+<td style="border:1px solid black;">Jeder (Schreibgeschützt)
+Administratoren (Vollzugriff)
+System (Vollzugriff)</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Festlegen von IIS-Websiteberechtigungen
 
@@ -581,7 +581,7 @@ Die folgende Tabelle werden die von IIS 6.0 unterstützten Websiteberechtigunge
 
 **Tabelle 9.9: IIS 6.0-Websiteberechtigungen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -589,48 +589,48 @@ Die folgende Tabelle werden die von IIS 6.0 unterstützten Websiteberechtigunge
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Websiteberechtigung</p></th>
-<th><p>Gewährte Berechtigung</p></th>
+<th>Websiteberechtigung</th>
+<th>Gewährte Berechtigung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lesen</p></td>
-<td style="border:1px solid black;"><p>Benutzer können den Inhalt und die Eigenschaften von Verzeichnissen oder Dateien anzeigen. Diese Berechtigung ist in der Standardeinstellung ausgewählt.</p></td>
+<td style="border:1px solid black;">Lesen</td>
+<td style="border:1px solid black;">Benutzer können den Inhalt und die Eigenschaften von Verzeichnissen oder Dateien anzeigen. Diese Berechtigung ist in der Standardeinstellung ausgewählt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Schreiben</p></td>
-<td style="border:1px solid black;"><p>Benutzer können den Inhalt und die Eigenschaften von Verzeichnissen oder Dateien ändern.</p></td>
+<td style="border:1px solid black;">Schreiben</td>
+<td style="border:1px solid black;">Benutzer können den Inhalt und die Eigenschaften von Verzeichnissen oder Dateien ändern.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Skriptzugriff</p></td>
-<td style="border:1px solid black;"><p>Benutzer können auf Quelldateien zugreifen. Wenn der Lesezugriff aktiviert ist, kann die Quelle gelesen werden. Wenn Schreibzugriff aktiviert ist, kann der Quellcode des Skripts geändert werden. Der Skriptzugriff schließt den Quellcode für Skripte mit ein. Wenn weder der Lese- noch der Schreibzugriff aktiviert sind, ist diese Option nicht verfügbar.</p>
-<p><strong>Wichtig</strong>: Wenn der Skriptzugriff aktiviert ist, können Benutzer möglicherweise wichtige Informationen anzeigen, wie z. B. einen Benutzernamen und ein Kennwort. Sie können möglicherweise auch den Quellcode ändern, der auf einem IIS-Server ausgeführt wird und dadurch die Sicherheit und die Leistung des Servers erheblich beeinträchtigen.</p></td>
+<td style="border:1px solid black;">Skriptzugriff</td>
+<td style="border:1px solid black;">Benutzer können auf Quelldateien zugreifen. Wenn der Lesezugriff aktiviert ist, kann die Quelle gelesen werden. Wenn Schreibzugriff aktiviert ist, kann der Quellcode des Skripts geändert werden. Der Skriptzugriff schließt den Quellcode für Skripte mit ein. Wenn weder der Lese- noch der Schreibzugriff aktiviert sind, ist diese Option nicht verfügbar.
+<strong>Wichtig</strong>: Wenn der Skriptzugriff aktiviert ist, können Benutzer möglicherweise wichtige Informationen anzeigen, wie z. B. einen Benutzernamen und ein Kennwort. Sie können möglicherweise auch den Quellcode ändern, der auf einem IIS-Server ausgeführt wird und dadurch die Sicherheit und die Leistung des Servers erheblich beeinträchtigen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verzeichnis durchsuchen</p></td>
-<td style="border:1px solid black;"><p>Benutzer können Dateilisten und -sammlungen anzeigen.</p></td>
+<td style="border:1px solid black;">Verzeichnis durchsuchen</td>
+<td style="border:1px solid black;">Benutzer können Dateilisten und -sammlungen anzeigen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Besuche protokollieren</p></td>
-<td style="border:1px solid black;"><p>Bei jedem Besuch der Website wird ein Protokolleintrag erstellt.</p></td>
+<td style="border:1px solid black;">Besuche protokollieren</td>
+<td style="border:1px solid black;">Bei jedem Besuch der Website wird ein Protokolleintrag erstellt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ressource indizieren</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht dem <strong>Indexdienst</strong> das Indexieren von Ressourcen, wodurch Suchen in den Ressourcen ausgeführt werden können.</p></td>
+<td style="border:1px solid black;">Ressource indizieren</td>
+<td style="border:1px solid black;">Ermöglicht dem <strong>Indexdienst</strong> das Indexieren von Ressourcen, wodurch Suchen in den Ressourcen ausgeführt werden können.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ausführen</p></td>
-<td style="border:1px solid black;"><p>Die folgenden Optionen bestimmen die Ebene der Skriptausführung für Benutzer:</p>
+<td style="border:1px solid black;">Ausführen</td>
+<td style="border:1px solid black;">Die folgenden Optionen bestimmen die Ebene der Skriptausführung für Benutzer:
 <ul>
-<li><p><strong>Keine</strong>. Es dürfen keine ausführbaren Skripts auf dem Server ausgeführt werden.</p></li>
-<li><p><strong>Nur Skripts</strong>. Es dürfen nur Skripts auf dem Server ausgeführt werden.</p></li>
-<li><p><strong>Skripts und ausführbare Dateien</strong>. Es dürfen sowohl Skripts als auch ausführbare Dateien auf dem Server ausgeführt werden.</p></li>
+<li><strong>Keine</strong>. Es dürfen keine ausführbaren Skripts auf dem Server ausgeführt werden.</li>
+<li><strong>Nur Skripts</strong>. Es dürfen nur Skripts auf dem Server ausgeführt werden.</li>
+<li><strong>Skripts und ausführbare Dateien</strong>. Es dürfen sowohl Skripts als auch ausführbare Dateien auf dem Server ausgeführt werden.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Konfigurieren der IIS-Protokollierung
 
@@ -660,7 +660,7 @@ Außerdem müssen Sie u. U. das vordefinierte Administratorkonto gemäß der Em
 
 **Tabelle 9.10: Manuell hinzugefügte Zuweisungen von Benutzerrechten**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -670,25 +670,25 @@ Außerdem müssen Sie u. U. das vordefinierte Administratorkonto gemäß der Em
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Standard für Mitgliedsserver</p></th>
-<th><p>Älterer Client</p></th>
-<th><p>Unternehmensclient</p></th>
-<th><p>Hochsicher (SSLF)</p></th>
+<th>Standard für Mitgliedsserver</th>
+<th>Älterer Client</th>
+<th>Unternehmensclient</th>
+<th>Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
-<td style="border:1px solid black;"><p>Vordefinierter Administrator; Support_388945a0;</p>
-<p>Gast; alle betriebssystemfremden Dienstkonten</p></td>
+<td style="border:1px solid black;">Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Wichtig**: „Alle betriebssystemfremden Dienstkonten“ schließt Dienstkonten mit ein, die unternehmensweit für bestimmte Anwendungen verwendet werden. Dazu gehören allerdings NICHT die Konten LOKALES SYSTEM, LOKALER DIENST und NETZWERKDIENST (die vom Betriebssystem verwendeten vordefinierten Konten).
 
@@ -856,7 +856,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IIS-Se
 
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

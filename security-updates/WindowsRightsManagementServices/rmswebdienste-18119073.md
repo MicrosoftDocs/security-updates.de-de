@@ -22,7 +22,7 @@ In der folgenden Tabelle werden die RMS-Webdienste genauer beschrieben.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -36,36 +36,36 @@ In der folgenden Tabelle werden die RMS-Webdienste genauer beschrieben.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unterregistrierung</p></td>
-<td style="border:1px solid black;"><p>Stellt Servern in rein lizenzierenden Clustern untergeordnete Server-Lizenzgeberzertifikate bereit. Mit diesen Zertifikaten kann der rein lizenzierende Cluster Veröffentlichungs- und Nutzungslizenzen ausgeben.</p></td>
+<td style="border:1px solid black;">Unterregistrierung</td>
+<td style="border:1px solid black;">Stellt Servern in rein lizenzierenden Clustern untergeordnete Server-Lizenzgeberzertifikate bereit. Mit diesen Zertifikaten kann der rein lizenzierende Cluster Veröffentlichungs- und Nutzungslizenzen ausgeben.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kontozertifizierung</p></td>
-<td style="border:1px solid black;"><p>Stellt Benutzern Rechtekontozertifikate bereit. Diese Zertifikate benötigen die Benutzer zum Abrufen von Veröffentlichungs- und Nutzungslizenzen, damit sie durch Rechte geschützte Inhalte verfassen und abrufen können.</p></td>
+<td style="border:1px solid black;">Kontozertifizierung</td>
+<td style="border:1px solid black;">Stellt Benutzern Rechtekontozertifikate bereit. Diese Zertifikate benötigen die Benutzer zum Abrufen von Veröffentlichungs- und Nutzungslizenzen, damit sie durch Rechte geschützte Inhalte verfassen und abrufen können.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aktivierungsproxy</p></td>
-<td style="border:1px solid black;"><p>Dieser Dienst wird aus Gründen der Kompatibilität mit Clients bereitgestellt, auf denen RMS Version 1 installiert ist. Der Dienst leitet Computeraktivierungsanforderungen an den Microsoft-Aktivierungsdienst weiter und gibt Lockboxes und RMS-Computerzertifikate an Clients mit RMS Version 1 zurück. RMS-Clients mit Service Pack 1 (SP1) oder später verwenden diesen Dienst nicht.</p></td>
+<td style="border:1px solid black;">Aktivierungsproxy</td>
+<td style="border:1px solid black;">Dieser Dienst wird aus Gründen der Kompatibilität mit Clients bereitgestellt, auf denen RMS Version 1 installiert ist. Der Dienst leitet Computeraktivierungsanforderungen an den Microsoft-Aktivierungsdienst weiter und gibt Lockboxes und RMS-Computerzertifikate an Clients mit RMS Version 1 zurück. RMS-Clients mit Service Pack 1 (SP1) oder später verwenden diesen Dienst nicht.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Veröffentlichen</p></td>
-<td style="border:1px solid black;"><p>Stellt Veröffentlichungslizenzen aus, die es Verfassern erlauben, durch Rechte geschützte Inhalte zu erstellen und zu verteilen. Stellt außerdem Client-Lizenzgeberzertifikate aus, mit denen Benutzer auch ohne Verbindung zum internen Netzwerk, auf dem RMS gehostet wird, Inhalte veröffentlichen können, die durch Rechte geschützt sind.</p></td>
+<td style="border:1px solid black;">Veröffentlichen</td>
+<td style="border:1px solid black;">Stellt Veröffentlichungslizenzen aus, die es Verfassern erlauben, durch Rechte geschützte Inhalte zu erstellen und zu verteilen. Stellt außerdem Client-Lizenzgeberzertifikate aus, mit denen Benutzer auch ohne Verbindung zum internen Netzwerk, auf dem RMS gehostet wird, Inhalte veröffentlichen können, die durch Rechte geschützt sind.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lizenzierung</p></td>
-<td style="border:1px solid black;"><p>Stellt Nutzungslizenzen aus, mit denen Benutzer durch Rechte geschützte Inhalte abrufen können.</p></td>
+<td style="border:1px solid black;">Lizenzierung</td>
+<td style="border:1px solid black;">Stellt Nutzungslizenzen aus, mit denen Benutzer durch Rechte geschützte Inhalte abrufen können.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verwaltung</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht dem Administrator die Verwaltung von RMS.</p></td>
+<td style="border:1px solid black;">Verwaltung</td>
+<td style="border:1px solid black;">Ermöglicht dem Administrator die Verwaltung von RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DrmRemote</p></td>
-<td style="border:1px solid black;"><p>Ermöglicht es den Webdiensten, durch Verfügbarmachen von .NET Remoting untereinander und mit anderen Komponenten des RMS-Systems zu kommunizieren.</p></td>
+<td style="border:1px solid black;">DrmRemote</td>
+<td style="border:1px solid black;">Ermöglicht es den Webdiensten, durch Verfügbarmachen von .NET Remoting untereinander und mit anderen Komponenten des RMS-Systems zu kommunizieren.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Außerbetriebsetzung</p></td>
-<td style="border:1px solid black;"><p>Hebt den Schutz von mit Rechten geschützten Inhalten auf und gibt die Inhalte an den Client zurück. Dieser Dienst wird zwar vom RMS-Setupprogramm installiert, das zugehörige virtuelle Stammverzeichnis in IIS muss aber erst vom Administrator aktiviert werden. Bei Aktivierung dieses Diensts werden alle anderen Dienste deaktiviert.</p></td>
+<td style="border:1px solid black;">Außerbetriebsetzung</td>
+<td style="border:1px solid black;">Hebt den Schutz von mit Rechten geschützten Inhalten auf und gibt die Inhalte an den Client zurück. Dieser Dienst wird zwar vom RMS-Setupprogramm installiert, das zugehörige virtuelle Stammverzeichnis in IIS muss aber erst vom Administrator aktiviert werden. Bei Aktivierung dieses Diensts werden alle anderen Dienste deaktiviert.</td>
 </tr>
 </tbody>
 </table>

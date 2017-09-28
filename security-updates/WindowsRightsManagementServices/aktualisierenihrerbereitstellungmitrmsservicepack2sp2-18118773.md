@@ -75,7 +75,7 @@ Da RMS mit SP2 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwind
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -93,35 +93,35 @@ Da RMS mit SP2 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwind
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1.0</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features</p>
-<p>Keine Offlineregistrierung des Servers; Server muss über das Internet registriert werden</p>
-<p>Keine Selbstaktivierung der Clients</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features</p>
-<p>Keine Offlineregistrierung des Servers;</p>
-<p>Selbstaktivierung der Clients</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features</p>
-<p>SP2-Clients sind selbstaktivierend,</p>
-<p>RMS 1.0-Clients müssen über das Internet aktiviert werden</p></td>
+<td style="border:1px solid black;">1.0</td>
+<td style="border:1px solid black;">Alle bisherigen Features
+Keine Offlineregistrierung des Servers; Server muss über das Internet registriert werden
+Keine Selbstaktivierung der Clients</td>
+<td style="border:1px solid black;">Alle bisherigen Features
+Keine Offlineregistrierung des Servers;
+Selbstaktivierung der Clients</td>
+<td style="border:1px solid black;">Alle bisherigen Features
+SP2-Clients sind selbstaktivierend,
+RMS 1.0-Clients müssen über das Internet aktiviert werden</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SP2</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features</p>
-<p>Offlineregistrierung des Servers</p>
-<p>Keine Selbstaktivierung der Clients</p></td>
-<td style="border:1px solid black;"><p>Alle SP1-Features</p>
-<p>Offlineregistrierung des Servers</p>
-<p>Selbstaktivierung der Clients</p>
-<p>Serverlockbox</p>
-<p>Microsoft SQL Server™ 2005 wird ab Werk unterstützt</p></td>
-<td style="border:1px solid black;"><p>Alle bisherigen Features plus SP2-Features</p>
-<p>Offlineregistrierung des Servers</p>
-<p>SP2-Clients sind selbstaktivierend,</p>
-<p>RMS 1.0-Clients müssen über das Internet aktiviert werden</p></td>
+<td style="border:1px solid black;">SP2</td>
+<td style="border:1px solid black;">Alle bisherigen Features
+Offlineregistrierung des Servers
+Keine Selbstaktivierung der Clients</td>
+<td style="border:1px solid black;">Alle SP1-Features
+Offlineregistrierung des Servers
+Selbstaktivierung der Clients
+Serverlockbox
+Microsoft SQL Server™ 2005 wird ab Werk unterstützt</td>
+<td style="border:1px solid black;">Alle bisherigen Features plus SP2-Features
+Offlineregistrierung des Servers
+SP2-Clients sind selbstaktivierend,
+RMS 1.0-Clients müssen über das Internet aktiviert werden</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="bkmk_RemovingRMS"></span>
 Entfernen von RMS mit SP2

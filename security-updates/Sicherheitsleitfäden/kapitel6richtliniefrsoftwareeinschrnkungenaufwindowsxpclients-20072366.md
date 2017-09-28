@@ -330,7 +330,7 @@ Bestimmen Sie anhand der Informationen in der folgenden Tabelle, welche Pfadrege
 
 **Tabelle 6.1: Bestimmen der besten Regel für eine bestimmte Anwendung**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -338,60 +338,60 @@ Bestimmen Sie anhand der Informationen in der folgenden Tabelle, welche Pfadrege
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Aufgabe</p></th>
-<th><p>Empfohlene Regel</p></th>
+<th>Aufgabe</th>
+<th>Empfohlene Regel</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zulassen oder nicht zulassen einer bestimmten Programmversion.</p></td>
-<td style="border:1px solid black;"><p><strong>Hashregel</strong><br />
-Wählen Sie die Datei zum Erstellen eines Hashwertes aus.</p></td>
+<td style="border:1px solid black;">Zulassen oder nicht zulassen einer bestimmten Programmversion.</td>
+<td style="border:1px solid black;"><strong>Hashregel</strong><br />
+Wählen Sie die Datei zum Erstellen eines Hashwertes aus.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Identifizieren eines Programms, das immer am gleichen Speicherort installiert ist.</p></td>
-<td style="border:1px solid black;"><p><strong>Pfadregel mit Umgebungsvariablen</strong><br />
-%ProgramFiles%\Internet Explorer\iexplore.exe</p></td>
+<td style="border:1px solid black;">Identifizieren eines Programms, das immer am gleichen Speicherort installiert ist.</td>
+<td style="border:1px solid black;"><strong>Pfadregel mit Umgebungsvariablen</strong><br />
+%ProgramFiles%\Internet Explorer\iexplore.exe</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Identifizieren eines Programms, das an einem beliebigen Speicherort auf Clientcomputern installiert werden kann.</p></td>
-<td style="border:1px solid black;"><p><strong>Registrierungspfadregeln</strong><br />
-%HKEY_LOCAL_MACHINE\SOFTWARE\ ComputerAssociates\InoculateIT\6.0\Path\HOME%</p></td>
+<td style="border:1px solid black;">Identifizieren eines Programms, das an einem beliebigen Speicherort auf Clientcomputern installiert werden kann.</td>
+<td style="border:1px solid black;"><strong>Registrierungspfadregeln</strong><br />
+%HKEY_LOCAL_MACHINE\SOFTWARE\ ComputerAssociates\InoculateIT\6.0\Path\HOME%</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Identifizieren einer Gruppe von Skripts auf einem zentralen Server.</p></td>
-<td style="border:1px solid black;"><p><strong>Pfadregel</strong><br />
-\\SERVER_NAME\Share</p></td>
+<td style="border:1px solid black;">Identifizieren einer Gruppe von Skripts auf einem zentralen Server.</td>
+<td style="border:1px solid black;"><strong>Pfadregel</strong><br />
+\\SERVER_NAME\Share</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Identifizieren einer Gruppe von Skripts auf einer Gruppe von Servern. Beispielsweise DC01, DC02 und DC03.</p></td>
-<td style="border:1px solid black;"><p><strong>Pfadregel mit Platzhalter</strong><br />
-\\DC??\Share</p></td>
+<td style="border:1px solid black;">Identifizieren einer Gruppe von Skripts auf einer Gruppe von Servern. Beispielsweise DC01, DC02 und DC03.</td>
+<td style="border:1px solid black;"><strong>Pfadregel mit Platzhalter</strong><br />
+\\DC??\Share</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Keine .vbs-Dateien erlauben, mit Ausnahme der Dateien in einem Anmeldeskriptverzeichnis.</p></td>
-<td style="border:1px solid black;"><p><strong>Pfadregel mit Platzhalter</strong></p>
-<p>*.VBS auf <strong>Nicht erlaubt</strong> gesetzt</p>
-<p>\\LOGIN_SRV\Share\*.VBS auf <strong>Nicht eingeschränkt</strong> gesetzt</p></td>
+<td style="border:1px solid black;">Keine .vbs-Dateien erlauben, mit Ausnahme der Dateien in einem Anmeldeskriptverzeichnis.</td>
+<td style="border:1px solid black;"><strong>Pfadregel mit Platzhalter</strong>
+*.VBS auf <strong>Nicht erlaubt</strong> gesetzt
+\\LOGIN_SRV\Share\*.VBS auf <strong>Nicht eingeschränkt</strong> gesetzt</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eine Datei mit dem Namen Flcss.exe nicht erlauben, da diese nur von einem Virus installiert wird.</p></td>
-<td style="border:1px solid black;"><p><strong>Pfadregel</strong></p>
-<p>Flcss.exe auf <strong>Nicht erlaubt</strong> gesetzt</p></td>
+<td style="border:1px solid black;">Eine Datei mit dem Namen Flcss.exe nicht erlauben, da diese nur von einem Virus installiert wird.</td>
+<td style="border:1px solid black;"><strong>Pfadregel</strong>
+Flcss.exe auf <strong>Nicht erlaubt</strong> gesetzt</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Identifizieren einer Gruppe von Skripts, die an beliebigen Speicherorten ausgeführt werden können.</p></td>
-<td style="border:1px solid black;"><p><strong>Zertifikatsregel</strong></p>
-<p>Verwenden Sie ein Zertifikat, um die Skripts digital zu signieren.</p></td>
+<td style="border:1px solid black;">Identifizieren einer Gruppe von Skripts, die an beliebigen Speicherorten ausgeführt werden können.</td>
+<td style="border:1px solid black;"><strong>Zertifikatsregel</strong>
+Verwenden Sie ein Zertifikat, um die Skripts digital zu signieren.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zulassen von Software, die von Websites in der vertrauenswürdigen Internetzone installiert wird.</p></td>
-<td style="border:1px solid black;"><p><strong>Zonenregel</strong></p>
-<p><strong>Vertrauenswürdige Sites</strong> auf <strong>Nicht eingeschränkt</strong> setzen.</p></td>
+<td style="border:1px solid black;">Zulassen von Software, die von Websites in der vertrauenswürdigen Internetzone installiert wird.</td>
+<td style="border:1px solid black;"><strong>Zonenregel</strong>
+<strong>Vertrauenswürdige Sites</strong> auf <strong>Nicht eingeschränkt</strong> setzen.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Vorrang von Regeln der Richtlinie für Softwareeinschränkungen
 
@@ -466,7 +466,7 @@ Bei dem in diesem Handbuch definierten Entwurf eines Gruppenrichtlinienobjekts w
 
 **Tabelle 6.2: Designierte Dateitypen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -476,120 +476,120 @@ Bei dem in diesem Handbuch definierten Entwurf eines Gruppenrichtlinienobjekts w
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Dateierweiterung</p></th>
-<th><p>Beschreibung</p></th>
-<th><p>Dateierweiterung</p></th>
-<th><p>Beschreibung</p></th>
+<th>Dateierweiterung</th>
+<th>Beschreibung</th>
+<th>Dateierweiterung</th>
+<th>Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.ade</p></td>
-<td style="border:1px solid black;"><p>Microsoft Access-Projekterweiterung</p></td>
-<td style="border:1px solid black;"><p>.msc</p></td>
-<td style="border:1px solid black;"><p>Microsoft Common Console-Dokument</p></td>
+<td style="border:1px solid black;">.ade</td>
+<td style="border:1px solid black;">Microsoft Access-Projekterweiterung</td>
+<td style="border:1px solid black;">.msc</td>
+<td style="border:1px solid black;">Microsoft Common Console-Dokument</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.adp</p></td>
-<td style="border:1px solid black;"><p>Microsoft Access-Projekt</p></td>
-<td style="border:1px solid black;"><p>.msi</p></td>
-<td style="border:1px solid black;"><p>Windows Installer-Paket</p></td>
+<td style="border:1px solid black;">.adp</td>
+<td style="border:1px solid black;">Microsoft Access-Projekt</td>
+<td style="border:1px solid black;">.msi</td>
+<td style="border:1px solid black;">Windows Installer-Paket</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.bas</p></td>
-<td style="border:1px solid black;"><p>Visual Basic-Klassenmodul</p></td>
-<td style="border:1px solid black;"><p>.msp</p></td>
-<td style="border:1px solid black;"><p>Windows Installer-Patch</p></td>
+<td style="border:1px solid black;">.bas</td>
+<td style="border:1px solid black;">Visual Basic-Klassenmodul</td>
+<td style="border:1px solid black;">.msp</td>
+<td style="border:1px solid black;">Windows Installer-Patch</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.bat</p></td>
-<td style="border:1px solid black;"><p>Batchdatei</p></td>
-<td style="border:1px solid black;"><p>.mst</p></td>
-<td style="border:1px solid black;"><p>Visual Test-Quelldatei</p></td>
+<td style="border:1px solid black;">.bat</td>
+<td style="border:1px solid black;">Batchdatei</td>
+<td style="border:1px solid black;">.mst</td>
+<td style="border:1px solid black;">Visual Test-Quelldatei</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.chm</p></td>
-<td style="border:1px solid black;"><p>Kompilierte HTML-Hilfedatei</p></td>
-<td style="border:1px solid black;"><p>.ocx</p></td>
-<td style="border:1px solid black;"><p>ActiveX-Steuerelement</p></td>
+<td style="border:1px solid black;">.chm</td>
+<td style="border:1px solid black;">Kompilierte HTML-Hilfedatei</td>
+<td style="border:1px solid black;">.ocx</td>
+<td style="border:1px solid black;">ActiveX-Steuerelement</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.cmd</p></td>
-<td style="border:1px solid black;"><p>Windows NT-Befehlsskript</p></td>
-<td style="border:1px solid black;"><p>.pcd</p></td>
-<td style="border:1px solid black;"><p>Photo CD-Bild</p></td>
+<td style="border:1px solid black;">.cmd</td>
+<td style="border:1px solid black;">Windows NT-Befehlsskript</td>
+<td style="border:1px solid black;">.pcd</td>
+<td style="border:1px solid black;">Photo CD-Bild</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.com</p></td>
-<td style="border:1px solid black;"><p>MS-DOS-Anwendung</p></td>
-<td style="border:1px solid black;"><p>.pif</p></td>
-<td style="border:1px solid black;"><p>Verknüpfung mit MS-DOS-Programm</p></td>
+<td style="border:1px solid black;">.com</td>
+<td style="border:1px solid black;">MS-DOS-Anwendung</td>
+<td style="border:1px solid black;">.pif</td>
+<td style="border:1px solid black;">Verknüpfung mit MS-DOS-Programm</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.cpl</p></td>
-<td style="border:1px solid black;"><p>Systemsteuerungsoption</p></td>
-<td style="border:1px solid black;"><p>.reg</p></td>
-<td style="border:1px solid black;"><p>Registrierungseintrag</p></td>
+<td style="border:1px solid black;">.cpl</td>
+<td style="border:1px solid black;">Systemsteuerungsoption</td>
+<td style="border:1px solid black;">.reg</td>
+<td style="border:1px solid black;">Registrierungseintrag</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.crt</p></td>
-<td style="border:1px solid black;"><p>Sicherheitszertifikat</p></td>
-<td style="border:1px solid black;"><p>.scr</p></td>
-<td style="border:1px solid black;"><p>Bildschirmschoner</p></td>
+<td style="border:1px solid black;">.crt</td>
+<td style="border:1px solid black;">Sicherheitszertifikat</td>
+<td style="border:1px solid black;">.scr</td>
+<td style="border:1px solid black;">Bildschirmschoner</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.exe</p></td>
-<td style="border:1px solid black;"><p>Anwendung</p></td>
-<td style="border:1px solid black;"><p>.sct</p></td>
-<td style="border:1px solid black;"><p>Windows-Skriptkomponente</p></td>
+<td style="border:1px solid black;">.exe</td>
+<td style="border:1px solid black;">Anwendung</td>
+<td style="border:1px solid black;">.sct</td>
+<td style="border:1px solid black;">Windows-Skriptkomponente</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.hlp</p></td>
-<td style="border:1px solid black;"><p>Windows-Hilfedatei</p></td>
-<td style="border:1px solid black;"><p>.shs</p></td>
-<td style="border:1px solid black;"><p>Shell-Datenauszug</p></td>
+<td style="border:1px solid black;">.hlp</td>
+<td style="border:1px solid black;">Windows-Hilfedatei</td>
+<td style="border:1px solid black;">.shs</td>
+<td style="border:1px solid black;">Shell-Datenauszug</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.hta</p></td>
-<td style="border:1px solid black;"><p>HTML-Anwendung</p></td>
-<td style="border:1px solid black;"><p>.url</p></td>
-<td style="border:1px solid black;"><p>Internetverknüpfung (Uniform Resource Locator, URL)</p></td>
+<td style="border:1px solid black;">.hta</td>
+<td style="border:1px solid black;">HTML-Anwendung</td>
+<td style="border:1px solid black;">.url</td>
+<td style="border:1px solid black;">Internetverknüpfung (Uniform Resource Locator, URL)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.inf</p></td>
-<td style="border:1px solid black;"><p>Setupinformationsdatei</p></td>
-<td style="border:1px solid black;"><p>.vb</p></td>
-<td style="border:1px solid black;"><p>Visual Basic-Datei</p></td>
+<td style="border:1px solid black;">.inf</td>
+<td style="border:1px solid black;">Setupinformationsdatei</td>
+<td style="border:1px solid black;">.vb</td>
+<td style="border:1px solid black;">Visual Basic-Datei</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.ins</p></td>
-<td style="border:1px solid black;"><p>Internetkommunikationseinstellung</p></td>
-<td style="border:1px solid black;"><p>.vbe</p></td>
-<td style="border:1px solid black;"><p>Codierte VBScript-Skriptdatei</p></td>
+<td style="border:1px solid black;">.ins</td>
+<td style="border:1px solid black;">Internetkommunikationseinstellung</td>
+<td style="border:1px solid black;">.vbe</td>
+<td style="border:1px solid black;">Codierte VBScript-Skriptdatei</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.isp</p></td>
-<td style="border:1px solid black;"><p>Internetkommunikationseinstellung</p></td>
-<td style="border:1px solid black;"><p>.vbs</p></td>
-<td style="border:1px solid black;"><p>VBScript-Skriptdatei</p></td>
+<td style="border:1px solid black;">.isp</td>
+<td style="border:1px solid black;">Internetkommunikationseinstellung</td>
+<td style="border:1px solid black;">.vbs</td>
+<td style="border:1px solid black;">VBScript-Skriptdatei</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.js</p></td>
-<td style="border:1px solid black;"><p>JScript-Datei</p></td>
-<td style="border:1px solid black;"><p>.wsc</p></td>
-<td style="border:1px solid black;"><p>Windows-Skriptkomponente</p></td>
+<td style="border:1px solid black;">.js</td>
+<td style="border:1px solid black;">JScript-Datei</td>
+<td style="border:1px solid black;">.wsc</td>
+<td style="border:1px solid black;">Windows-Skriptkomponente</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.jse</p></td>
-<td style="border:1px solid black;"><p>Codierte JScript-Skriptdatei</p></td>
-<td style="border:1px solid black;"><p>.wsf</p></td>
-<td style="border:1px solid black;"><p>Windows-Skriptdatei</p></td>
+<td style="border:1px solid black;">.jse</td>
+<td style="border:1px solid black;">Codierte JScript-Skriptdatei</td>
+<td style="border:1px solid black;">.wsf</td>
+<td style="border:1px solid black;">Windows-Skriptdatei</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.mde</p></td>
-<td style="border:1px solid black;"><p>Microsoft Access-MDE-Datenbank</p></td>
-<td style="border:1px solid black;"><p>.wsh</p></td>
-<td style="border:1px solid black;"><p>Windows Scripting Host-Einstellungsdatei</p></td>
+<td style="border:1px solid black;">.mde</td>
+<td style="border:1px solid black;">Microsoft Access-MDE-Datenbank</td>
+<td style="border:1px solid black;">.wsh</td>
+<td style="border:1px solid black;">Windows Scripting Host-Einstellungsdatei</td>
 </tr>
 </tbody>
 </table>
@@ -609,7 +609,7 @@ In der folgenden Tabelle werden die Optionen für vertrauenswürdige Herausgeber
   
 **Tabelle 6.3: Aufgaben und Einstellungen für vertrauenswürdige Herausgeber**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -617,30 +617,30 @@ In der folgenden Tabelle werden die Optionen für vertrauenswürdige Herausgeber
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Einstellungsname</p></th>
-<th><p>Aufgabe</p></th>
+<th>Einstellungsname</th>
+<th>Aufgabe</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unternehmensadministratoren</p></td>
-<td style="border:1px solid black;"><p>Verwenden Sie diese Einstellung, um nur Unternehmensadministratoren zu erlauben, Entscheidungen zu signierten aktiven Inhalten zu treffen.</p></td>
+<td style="border:1px solid black;">Unternehmensadministratoren</td>
+<td style="border:1px solid black;">Verwenden Sie diese Einstellung, um nur Unternehmensadministratoren zu erlauben, Entscheidungen zu signierten aktiven Inhalten zu treffen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Administratoren des lokalen Computers</p></td>
-<td style="border:1px solid black;"><p>Verwenden Sie diese Einstellung, um Administratoren des lokalen Computers zu erlauben, alle Entscheidungen zu signierten aktiven Inhalten zu treffen.</p></td>
+<td style="border:1px solid black;">Administratoren des lokalen Computers</td>
+<td style="border:1px solid black;">Verwenden Sie diese Einstellung, um Administratoren des lokalen Computers zu erlauben, alle Entscheidungen zu signierten aktiven Inhalten zu treffen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Endbenutzer</p></td>
-<td style="border:1px solid black;"><p>Verwenden Sie diese Einstellung, um Benutzern zu erlauben, Entscheidungen zu signierten aktiven Inhalten zu treffen.</p></td>
+<td style="border:1px solid black;">Endbenutzer</td>
+<td style="border:1px solid black;">Verwenden Sie diese Einstellung, um Benutzern zu erlauben, Entscheidungen zu signierten aktiven Inhalten zu treffen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Herausgeber</p></td>
-<td style="border:1px solid black;"><p>Verwenden Sie diese Einstellung, um sicherzustellen, dass das Zertifikat des Softwareherausgebers nicht gesperrt wurde.</p></td>
+<td style="border:1px solid black;">Herausgeber</td>
+<td style="border:1px solid black;">Verwenden Sie diese Einstellung, um sicherzustellen, dass das Zertifikat des Softwareherausgebers nicht gesperrt wurde.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zeitstempel</p></td>
-<td style="border:1px solid black;"><p>Verwenden Sie diese Einstellung, um sicherzustellen, dass das von der Organisation für den Zeitstempel der aktiven Inhalte verwendete Zertifikat nicht gesperrt wurde.</p></td>
+<td style="border:1px solid black;">Zeitstempel</td>
+<td style="border:1px solid black;">Verwenden Sie diese Einstellung, um sicherzustellen, dass das von der Organisation für den Zeitstempel der aktiven Inhalte verwendete Zertifikat nicht gesperrt wurde.</td>
 </tr>
 </tbody>
 </table>
@@ -669,7 +669,7 @@ In diesem Abschnitt werden die beim Entwerfen und Bereitstellen einer Richtlinie
   
 **Tabelle 6.4: Wichtige Überlegungen beim Entwerfen von Richtlinien**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -677,45 +677,45 @@ In diesem Abschnitt werden die beim Entwerfen und Bereitstellen einer Richtlinie
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Entscheidung</p></th>
-<th><p>Zu berücksichtigende Faktoren</p></th>
+<th>Entscheidung</th>
+<th>Zu berücksichtigende Faktoren</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Laptops oder Arbeitsstationen</p></td>
-<td style="border:1px solid black;"><p>Prüfen Sie die Bedürfnisse der mobilen Benutzer in der Umgebung, um zu bestimmen, ob für die Laptops eine andere Richtlinie erforderlich ist als für Desktops. Laptops verlangen häufig eine größere Flexibilität als Desktops.</p></td>
+<td style="border:1px solid black;">Laptops oder Arbeitsstationen</td>
+<td style="border:1px solid black;">Prüfen Sie die Bedürfnisse der mobilen Benutzer in der Umgebung, um zu bestimmen, ob für die Laptops eine andere Richtlinie erforderlich ist als für Desktops. Laptops verlangen häufig eine größere Flexibilität als Desktops.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Serverfreigaben, Anmeldeskripts und Basislaufwerke</p></td>
-<td style="border:1px solid black;"><p>Sie müssen Pfadregeln für alle Anwendungen definieren, die von einer Serverfreigabe oder einem Basisverzeichnis gestartet werden. Sie können der Pfadregel Anmeldeskriptdateien hinzufügen. Wenn ein Skript andere Skripts aufruft, fügen Sie der Pfadregel außerdem die Speicherorte dieser ausführbaren Dateien hinzu.</p></td>
+<td style="border:1px solid black;">Serverfreigaben, Anmeldeskripts und Basislaufwerke</td>
+<td style="border:1px solid black;">Sie müssen Pfadregeln für alle Anwendungen definieren, die von einer Serverfreigabe oder einem Basisverzeichnis gestartet werden. Sie können der Pfadregel Anmeldeskriptdateien hinzufügen. Wenn ein Skript andere Skripts aufruft, fügen Sie der Pfadregel außerdem die Speicherorte dieser ausführbaren Dateien hinzu.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppenrichtlinienobjekt oder lokale Sicherheitsrichtlinie</p></td>
-<td style="border:1px solid black;"><p>In diesem Handbuch wird für den Entwurf ein Gruppenrichtlinienobjekt verwendet. Sie sollten sich jedoch auch über die Auswirkungen einer lokalen Sicherheitsrichtlinie auf den Entwurf bewusst sein.</p></td>
+<td style="border:1px solid black;">Gruppenrichtlinienobjekt oder lokale Sicherheitsrichtlinie</td>
+<td style="border:1px solid black;">In diesem Handbuch wird für den Entwurf ein Gruppenrichtlinienobjekt verwendet. Sie sollten sich jedoch auch über die Auswirkungen einer lokalen Sicherheitsrichtlinie auf den Entwurf bewusst sein.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Benutzer- oder Computerrichtlinie</p></td>
-<td style="border:1px solid black;"><p>Dieser Entwurf wendet alle Einstellungen auf Computerebene an.</p></td>
+<td style="border:1px solid black;">Benutzer- oder Computerrichtlinie</td>
+<td style="border:1px solid black;">Dieser Entwurf wendet alle Einstellungen auf Computerebene an.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Standardsicherheitsstufe</p></td>
-<td style="border:1px solid black;"><p>Es wird empfohlen, <strong>Nicht erlaubt</strong> als Standardeinstellung zu festzulegen und anschließend den Rest der Richtlinie entsprechend zu konfigurieren. Die Standardeinstellung <strong>Nicht eingeschränkt</strong> ist ebenfalls verfügbar.</p></td>
+<td style="border:1px solid black;">Standardsicherheitsstufe</td>
+<td style="border:1px solid black;">Es wird empfohlen, <strong>Nicht erlaubt</strong> als Standardeinstellung zu festzulegen und anschließend den Rest der Richtlinie entsprechend zu konfigurieren. Die Standardeinstellung <strong>Nicht eingeschränkt</strong> ist ebenfalls verfügbar.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zusätzliche Regeln</p></td>
-<td style="border:1px solid black;"><p>Wenn Sie die Standardrichtlinie <strong>Nicht erlaubt</strong> verwenden, müssen Sie je nach Bedarf zusätzliche Pfadregeln für das Betriebssystem anwenden. Bei Verwendung von <strong>Nicht erlaubt</strong> werden die vier Regeln automatisch erstellt.</p></td>
+<td style="border:1px solid black;">Zusätzliche Regeln</td>
+<td style="border:1px solid black;">Wenn Sie die Standardrichtlinie <strong>Nicht erlaubt</strong> verwenden, müssen Sie je nach Bedarf zusätzliche Pfadregeln für das Betriebssystem anwenden. Bei Verwendung von <strong>Nicht erlaubt</strong> werden die vier Regeln automatisch erstellt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Richtlinienoptionen</p></td>
-<td style="border:1px solid black;"><p>Wenn Sie eine lokale Sicherheitsrichtlinie verwenden und die Richtlinie nicht auf Administratoren auf den Clientcomputern in der Umgebung angewendet werden soll, wählen Sie für die Richtlinie die Erzwingungsoption zum <strong>Überspringen von Administratoren</strong> aus.</p>
-<p>Wenn Sie zusätzlich zu ausführbaren Dateien und Skripts auch DLLs überprüfen möchten, wählen Sie für die Richtlinie die Erzwingungsoption <strong>DLL-Prüfung</strong> aus.</p>
-<p>Wenn Sie Regeln für Dateitypen festlegen möchten, die nicht in der Standardliste der designierten Dateitypen aufgeführt werden, verwenden Sie je nach Bedarf die Option für das Hinzufügen zum Dialogfeld <strong>Eigenschaften von Designierte Dateitypen</strong>.</p>
-<p>Wenn Sie ändern möchten, welche Personen Entscheidungen zum Herunterladen von ActiveX-Steuerelementen und anderen signierten Inhalten treffen können, aktivieren Sie auf der Registerkarte <strong>Allgemein</strong> des Dialogfelds <strong>Eigenschaften von Vertrauenswürdigen Herausgebern</strong> das Kontrollkästchen <strong>Herausgeber</strong>.</p></td>
+<td style="border:1px solid black;">Richtlinienoptionen</td>
+<td style="border:1px solid black;">Wenn Sie eine lokale Sicherheitsrichtlinie verwenden und die Richtlinie nicht auf Administratoren auf den Clientcomputern in der Umgebung angewendet werden soll, wählen Sie für die Richtlinie die Erzwingungsoption zum <strong>Überspringen von Administratoren</strong> aus.
+Wenn Sie zusätzlich zu ausführbaren Dateien und Skripts auch DLLs überprüfen möchten, wählen Sie für die Richtlinie die Erzwingungsoption <strong>DLL-Prüfung</strong> aus.
+Wenn Sie Regeln für Dateitypen festlegen möchten, die nicht in der Standardliste der designierten Dateitypen aufgeführt werden, verwenden Sie je nach Bedarf die Option für das Hinzufügen zum Dialogfeld <strong>Eigenschaften von Designierte Dateitypen</strong>.
+Wenn Sie ändern möchten, welche Personen Entscheidungen zum Herunterladen von ActiveX-Steuerelementen und anderen signierten Inhalten treffen können, aktivieren Sie auf der Registerkarte <strong>Allgemein</strong> des Dialogfelds <strong>Eigenschaften von Vertrauenswürdigen Herausgebern</strong> das Kontrollkästchen <strong>Herausgeber</strong>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Anwenden der Richtlinie auf einen Standort, eine Domäne oder Organisationseinheit</p></td>
-<td style="border:1px solid black;"><p>Die Richtlinie befindet sich unter der Organisationseinheit für Desktops und Laptops.</p></td>
+<td style="border:1px solid black;">Anwenden der Richtlinie auf einen Standort, eine Domäne oder Organisationseinheit</td>
+<td style="border:1px solid black;">Die Richtlinie befindet sich unter der Organisationseinheit für Desktops und Laptops.</td>
 </tr>
 </tbody>
 </table>
@@ -796,7 +796,7 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
   
 **Tabelle 6.5: Sicherheitsstufen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -805,23 +805,23 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Standardregel in der Benutzeroberfläche</p></th>
-<th><p>Beschreibung</p></th>
-<th><p>Einstellung</p></th>
+<th>Standardregel in der Benutzeroberfläche</th>
+<th>Beschreibung</th>
+<th>Einstellung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nicht erlaubt</p></td>
-<td style="border:1px solid black;"><p>Software wird unabhängig von den Zugriffsrechten des Benutzers nicht ausgeführt.</p></td>
-<td style="border:1px solid black;"><p>Verwenden Sie diese Standardregel</p></td>
+<td style="border:1px solid black;">Nicht erlaubt</td>
+<td style="border:1px solid black;">Software wird unabhängig von den Zugriffsrechten des Benutzers nicht ausgeführt.</td>
+<td style="border:1px solid black;">Verwenden Sie diese Standardregel</td>
 </tr>
 </tbody>
 </table>
   
 **Tabelle 6.6: Zusätzliche Regeln**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -829,49 +829,49 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Pfadregel</p></th>
-<th><p>Einstellung</p></th>
+<th>Pfadregel</th>
+<th>Einstellung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%</p></td>
-<td style="border:1px solid black;"><p>Nicht eingeschränkt</p></td>
+<td style="border:1px solid black;">%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%</td>
+<td style="border:1px solid black;">Nicht eingeschränkt</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\*.exe</p></td>
-<td style="border:1px solid black;"><p>Nicht eingeschränkt</p></td>
+<td style="border:1px solid black;">%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\*.exe</td>
+<td style="border:1px solid black;">Nicht eingeschränkt</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\System32\*.exe</p></td>
-<td style="border:1px solid black;"><p>Nicht eingeschränkt</p></td>
+<td style="border:1px solid black;">%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\System32\*.exe</td>
+<td style="border:1px solid black;">Nicht eingeschränkt</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\ProgramFilesDir%</p></td>
-<td style="border:1px solid black;"><p>Nicht eingeschränkt</p></td>
+<td style="border:1px solid black;">%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\ProgramFilesDir%</td>
+<td style="border:1px solid black;">Nicht eingeschränkt</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>*.vbs</p></td>
-<td style="border:1px solid black;"><p>Nicht erlaubt</p></td>
+<td style="border:1px solid black;">*.vbs</td>
+<td style="border:1px solid black;">Nicht erlaubt</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>G:\Gruppenanwendungen</p></td>
-<td style="border:1px solid black;"><p>Nicht eingeschränkt</p></td>
+<td style="border:1px solid black;">G:\Gruppenanwendungen</td>
+<td style="border:1px solid black;">Nicht eingeschränkt</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logon.bat oder Anmeldeskript</p></td>
-<td style="border:1px solid black;"><p>Nicht eingeschränkt</p></td>
+<td style="border:1px solid black;">Logon.bat oder Anmeldeskript</td>
+<td style="border:1px solid black;">Nicht eingeschränkt</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>*\Programme</p></td>
-<td style="border:1px solid black;"><p>Nicht eingeschränkt</p></td>
+<td style="border:1px solid black;">*\Programme</td>
+<td style="border:1px solid black;">Nicht eingeschränkt</td>
 </tr>
 </tbody>
 </table>
   
 **Tabelle 6.7: Erzwingen für Dateien und Benutzer**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -879,25 +879,25 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Erzwingungsoptionen</p></th>
-<th><p>Empfehlung</p></th>
+<th>Erzwingungsoptionen</th>
+<th>Empfehlung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wenden Sie Richtlinien für Softwareeinschränkungen auf Folgendes an:</p></td>
-<td style="border:1px solid black;"><p>Alle Softwaredateien außer Bibliotheken (z. B. DLLs).</p></td>
+<td style="border:1px solid black;">Wenden Sie Richtlinien für Softwareeinschränkungen auf Folgendes an:</td>
+<td style="border:1px solid black;">Alle Softwaredateien außer Bibliotheken (z. B. DLLs).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wenden Sie Richtlinien für Softwareeinschränkungen auf folgende Benutzer an:</p></td>
-<td style="border:1px solid black;"><p>Alle Benutzer außer den lokalen Administratoren.</p></td>
+<td style="border:1px solid black;">Wenden Sie Richtlinien für Softwareeinschränkungen auf folgende Benutzer an:</td>
+<td style="border:1px solid black;">Alle Benutzer außer den lokalen Administratoren.</td>
 </tr>
 </tbody>
 </table>
   
 **Tabelle 6.8: Designierte Dateitypen**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -905,21 +905,21 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Dateitypen</p></th>
-<th><p>Empfehlung</p></th>
+<th>Dateitypen</th>
+<th>Empfehlung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eigenschaften von Designierte Dateitypen</p></td>
-<td style="border:1px solid black;"><p>Entfernen Sie die Dateitypen .mdb und .lnk, und fügen Sie den Dateityp .ocx hinzu.</p></td>
+<td style="border:1px solid black;">Eigenschaften von Designierte Dateitypen</td>
+<td style="border:1px solid black;">Entfernen Sie die Dateitypen .mdb und .lnk, und fügen Sie den Dateityp .ocx hinzu.</td>
 </tr>
 </tbody>
 </table>
   
 **Tabelle 6.9: Vertrauenswürdige Herausgeber**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -927,18 +927,18 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Vertrauenswürdige Herausgeber</p></th>
-<th><p>Empfehlung</p></th>
+<th>Vertrauenswürdige Herausgeber</th>
+<th>Empfehlung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Erlauben Sie den folgenden Benutzergruppen die Auswahl vertrauenswürdiger Herausgeber:</p></td>
-<td style="border:1px solid black;"><p><strong>Administratoren des lokalen Computers</strong></p></td>
+<td style="border:1px solid black;">Erlauben Sie den folgenden Benutzergruppen die Auswahl vertrauenswürdiger Herausgeber:</td>
+<td style="border:1px solid black;"><strong>Administratoren des lokalen Computers</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bestimmen Sie, ob das Zertifikat gesperrt wurde.</p></td>
-<td style="border:1px solid black;"><p>Wählen Sie die Option <strong>Herausgeber</strong> aus.</p></td>
+<td style="border:1px solid black;">Bestimmen Sie, ob das Zertifikat gesperrt wurde.</td>
+<td style="border:1px solid black;">Wählen Sie die Option <strong>Herausgeber</strong> aus.</td>
 </tr>
 </tbody>
 </table>

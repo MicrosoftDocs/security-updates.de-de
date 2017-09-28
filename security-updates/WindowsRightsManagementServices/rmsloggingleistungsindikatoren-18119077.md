@@ -13,7 +13,7 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Logging (Protok
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,16 +27,16 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Logging (Protok
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logging Failures</p></td>
-<td style="border:1px solid black;"><p>Gesamtanzahl der Protokollierungsversuche, die nicht vollständig verarbeitet wurden.</p></td>
+<td style="border:1px solid black;">Logging Failures</td>
+<td style="border:1px solid black;">Gesamtanzahl der Protokollierungsversuche, die nicht vollständig verarbeitet wurden.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Logging Processing Time</p></td>
-<td style="border:1px solid black;"><p>Die für die Verarbeitung von Protokollierungsanforderungen erforderliche Zeit in Mikrosekunden.</p></td>
+<td style="border:1px solid black;">Logging Processing Time</td>
+<td style="border:1px solid black;">Die für die Verarbeitung von Protokollierungsanforderungen erforderliche Zeit in Mikrosekunden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logging Requests</p></td>
-<td style="border:1px solid black;"><p>Die Gesamtanzahl der Protokollierungsanforderungen, die vom Protokollierungsdienst empfangen wurden.</p></td>
+<td style="border:1px solid black;">Logging Requests</td>
+<td style="border:1px solid black;">Die Gesamtanzahl der Protokollierungsanforderungen, die vom Protokollierungsdienst empfangen wurden.</td>
 </tr>
 </tbody>
 </table>

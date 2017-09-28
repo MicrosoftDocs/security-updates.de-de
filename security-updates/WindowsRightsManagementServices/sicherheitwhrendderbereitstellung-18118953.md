@@ -15,7 +15,7 @@ Während der Bereitstellung verwendet RMS (Rights Management Services oder Diens
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -31,23 +31,23 @@ Während der Bereitstellung verwendet RMS (Rights Management Services oder Diens
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Konto des angemeldeten Benutzers</p></td>
-<td style="border:1px solid black;"><p>Erstellt virtuelle Verzeichnisse und Anwendungspools. Für IIS (Internet Information Services oder Internetinformationsdienste) ist eine Windows-Authentifizierung erforderlich, und RMS verkörpert dabei den angemeldeten Benutzer, der lokal angemeldet sein muss.</p></td>
-<td style="border:1px solid black;"><p>Vollzugriff (der angemeldete Benutzer muss ein lokaler Administrator sein).</p></td>
+<td style="border:1px solid black;">Konto des angemeldeten Benutzers</td>
+<td style="border:1px solid black;">Erstellt virtuelle Verzeichnisse und Anwendungspools. Für IIS (Internet Information Services oder Internetinformationsdienste) ist eine Windows-Authentifizierung erforderlich, und RMS verkörpert dabei den angemeldeten Benutzer, der lokal angemeldet sein muss.</td>
+<td style="border:1px solid black;">Vollzugriff (der angemeldete Benutzer muss ein lokaler Administrator sein).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Systemkonto</p></td>
-<td style="border:1px solid black;"><p>Erstellt die temporäre Assemblierung für Serialisierung.</p></td>
-<td style="border:1px solid black;"><p>Berechtigungen Lesen und Schreiben für den temporären Windows-Ordner C:\Windows\Temp.</p></td>
+<td style="border:1px solid black;">Systemkonto</td>
+<td style="border:1px solid black;">Erstellt die temporäre Assemblierung für Serialisierung.</td>
+<td style="border:1px solid black;">Berechtigungen Lesen und Schreiben für den temporären Windows-Ordner C:\Windows\Temp.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ASPNET-Konto</p></td>
-<td style="border:1px solid black;"><p>Erstellt die temporäre Assemblierung der *.aspx-Dateien.</p></td>
-<td style="border:1px solid black;"><p>Zugriff auf das temporäre Assemblierungscacheverzeichnis, standardmäßig C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files.</p></td>
+<td style="border:1px solid black;">ASPNET-Konto</td>
+<td style="border:1px solid black;">Erstellt die temporäre Assemblierung der *.aspx-Dateien.</td>
+<td style="border:1px solid black;">Zugriff auf das temporäre Assemblierungscacheverzeichnis, standardmäßig C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Konto Netzwerkdienste</p></td>
-<td style="border:1px solid black;"><p>Registriert den Dienstverbindungspunkt in Active Directory.</p></td>
+<td style="border:1px solid black;">Konto Netzwerkdienste</td>
+<td style="border:1px solid black;">Registriert den Dienstverbindungspunkt in Active Directory.</td>
 <td style="border:1px solid black;"><ul>
 <li>Berechtigungen Nur lesen für die Site für den Bereitstellungsprozess (normalerweise C:\Inetpub\Wwwroot\Provisioning).<br />
 <br />
@@ -67,7 +67,7 @@ Auf Computern mit der 64-Bit-Version von Windows Server 2003<br />
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Während der Bereitstellung führt RMS folgende Aufgaben aus:
 

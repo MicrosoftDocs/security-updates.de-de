@@ -21,7 +21,7 @@ Sie können die folgenden Zahlen während der Kapazitätsplanung verwenden, um d
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -39,22 +39,22 @@ Sie können die folgenden Zahlen während der Kapazitätsplanung verwenden, um d
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lizenzanforderung</p></td>
-<td style="border:1px solid black;"><p>Wiederholt für jeden Benutzer und für jeden Inhalt</p></td>
-<td style="border:1px solid black;"><p>64</p></td>
-<td style="border:1px solid black;"><p>18</p></td>
+<td style="border:1px solid black;">Lizenzanforderung</td>
+<td style="border:1px solid black;">Wiederholt für jeden Benutzer und für jeden Inhalt</td>
+<td style="border:1px solid black;">64</td>
+<td style="border:1px solid black;">18</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rechtekontozertifizierung</p></td>
-<td style="border:1px solid black;"><p>Ausschließlich bei RMS-Initialisierungsverkehr</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Rechtekontozertifizierung</td>
+<td style="border:1px solid black;">Ausschließlich bei RMS-Initialisierungsverkehr</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Clientregistrierung</p></td>
-<td style="border:1px solid black;"><p>Ausschließlich bei RMS-Initialisierungsverkehr</p></td>
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Clientregistrierung</td>
+<td style="border:1px solid black;">Ausschließlich bei RMS-Initialisierungsverkehr</td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ In der folgenden Tabelle sind Basisdaten zur Bandbreitennutzung durch RMS-Transa
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -81,14 +81,14 @@ In der folgenden Tabelle sind Basisdaten zur Bandbreitennutzung durch RMS-Transa
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Herstellen von RMS-Verbindungen (ldap_bind)</p></td>
-<td style="border:1px solid black;"><p>1600</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
+<td style="border:1px solid black;">Herstellen von RMS-Verbindungen (ldap_bind)</td>
+<td style="border:1px solid black;">1600</td>
+<td style="border:1px solid black;">200</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auswertung der RMS-Gruppenzugehörigkeit (ldap_search)</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
+<td style="border:1px solid black;">Auswertung der RMS-Gruppenzugehörigkeit (ldap_search)</td>
+<td style="border:1px solid black;">200</td>
+<td style="border:1px solid black;">100</td>
 </tr>
 </tbody>
 </table>

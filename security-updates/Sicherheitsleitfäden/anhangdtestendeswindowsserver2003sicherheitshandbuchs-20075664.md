@@ -290,7 +290,7 @@ Die Schweregradskala für Bugs wird in der nachstehenden Tabelle beschrieben. Di
 
 **Tabelle D. 1 Klassifizierung des Fehlerschweregrads**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -299,51 +299,51 @@ Die Schweregradskala für Bugs wird in der nachstehenden Tabelle beschrieben. Di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Schweregrad</p></th>
-<th><p>Häufigste Typen</p></th>
-<th><p>Erforderliche Bedingungen</p></th>
+<th>Schweregrad</th>
+<th>Häufigste Typen</th>
+<th>Erforderliche Bedingungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>– Bug blockierte Aufbau oder weitere Tests.<br />
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">– Bug blockierte Aufbau oder weitere Tests.<br />
 – Bug hat unerwarteten Benutzerzugriff verursacht.<br />
 – Die in der Dokumentation definierten Schritte waren unklar.<br />
 – Ergebnisse oder Verhalten einer Funktion oder eines Prozesses widersprechen den erwarteten Ergebnissen (die in der funktionalen Spezifikation dokumentiert sind).<br />
-– Grobe Ungleichheit zwischen den Sicherheitsvorlagendateien und der funktionalen Spezifikation.</p></td>
-<td style="border:1px solid black;"><p>– Lösung hat nicht funktioniert.<br />
+– Grobe Ungleichheit zwischen den Sicherheitsvorlagendateien und der funktionalen Spezifikation.</td>
+<td style="border:1px solid black;">– Lösung hat nicht funktioniert.<br />
 – Benutzer konnte wichtige Teile des Computers oder Netzwerks nicht verwenden.<br />
 – Benutzer hatte unerlaubte Zugriffsberechtigungen.<br />
 – Benutzerzugriff für bestimmte Server, die Zugriff erhalten sollten, wurde blockiert.<br />
 – Erwartete Ergebnisse wurden nicht erzielt.<br />
-Testverfahren kann ohne Behebung nicht fortfahren.</p></td>
+Testverfahren kann ohne Behebung nicht fortfahren.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>– Im Handbuch definierte Schritte sind unklar.<br />
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">– Im Handbuch definierte Schritte sind unklar.<br />
 – Dokumentierte Funktionalität fehlt (Test wurde in diesem Fall blockiert).<br />
 – Dokumentation fehlt oder ist unzureichend.<br />
-– Inkonsistenz zwischen Sicherheitsvorlagendateien und Inhalt des Handbuchs, doch die Sicherheitsvorlagendatei ist mit der funktionalen Spezifikation synchron.</p></td>
-<td style="border:1px solid black;"><p>– Benutzer konnte auf keine Problemumgehung zur Linderung der Situation zurückgreifen.<br />
+– Inkonsistenz zwischen Sicherheitsvorlagendateien und Inhalt des Handbuchs, doch die Sicherheitsvorlagendatei ist mit der funktionalen Spezifikation synchron.</td>
+<td style="border:1px solid black;">– Benutzer konnte auf keine Problemumgehung zur Linderung der Situation zurückgreifen.<br />
 – Problemumgehung war für Benutzer nicht einfach.<br />
-– Computer oder Netzwerk konnte primäre Geschäftsanforderungen nicht erfüllen.</p></td>
+– Computer oder Netzwerk konnte primäre Geschäftsanforderungen nicht erfüllen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>– Dokumentiertes Formatproblem.<br />
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">– Dokumentiertes Formatproblem.<br />
 – Geringfügige Fehler und Ungenauigkeiten in der Dokumentation.<br />
-– Rechtschreibfehler im Text.</p></td>
-<td style="border:1px solid black;"><p>– Benutzer verfügt über eine einfache Problemumgehung.<br />
+– Rechtschreibfehler im Text.</td>
+<td style="border:1px solid black;">– Benutzer verfügt über eine einfache Problemumgehung.<br />
 – Benutzer kann leicht eine Problemumgehung finden.<br />
 – Bug beeinträchtigt Benutzerfreundlichkeit nicht.<br />
-– Wichtige Geschäftsanforderungen funktionieren noch.</p></td>
+– Wichtige Geschäftsanforderungen funktionieren noch.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>– Vorschläge.<br />
-– Zukünftige Verbesserungen.</p></td>
-<td style="border:1px solid black;"><p>– Bezieht sich eindeutig nicht auf diese Version.</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">– Vorschläge.<br />
+– Zukünftige Verbesserungen.</td>
+<td style="border:1px solid black;">– Bezieht sich eindeutig nicht auf diese Version.</td>
 </tr>
 </tbody>
 </table>
@@ -392,7 +392,7 @@ Alle vom Testteam durchgeführte Testfälle wurden mit den erwarteten Ergebnisse
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
