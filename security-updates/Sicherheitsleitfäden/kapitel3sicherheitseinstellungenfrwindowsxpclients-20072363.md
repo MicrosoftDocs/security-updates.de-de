@@ -51,9 +51,9 @@ In der folgenden Tabelle werden die in dieser Anleitung verfügbaren Infrastrukt
 </colgroup>
 <thead>
 <tr class="header">
-<th>Beschreibung</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher</th>
 </tr>
 </thead>
 <tbody>
@@ -113,11 +113,11 @@ In der folgenden Tabelle sind die Empfehlungen für Einstellungen für Überwach
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -329,11 +329,11 @@ IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -593,11 +593,11 @@ Aus diesem Grund ist die Einstellung **Computer und Benutzerkonten für Delegier
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -858,11 +858,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -955,11 +955,11 @@ In der folgenden Tabelle sind die empfohlenen Überwachungseinstellungen zusamme
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1022,11 +1022,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1130,11 +1130,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1238,11 +1238,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1378,11 +1378,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1449,11 +1449,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1518,11 +1518,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1697,11 +1697,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1823,11 +1823,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1885,11 +1885,11 @@ In der folgenden Tabelle sind die Empfehlungen für die Einstellungen der Sicher
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1939,11 +1939,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -1982,11 +1982,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen der Sicherheitsoptio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -2059,11 +2059,11 @@ In der folgenden Tabelle werden die empfohlenen Ereignisprotokolleinstellungen s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -2208,11 +2208,11 @@ Mit der Einstellung „Eingeschränkte Gruppen“ können Sie über die Gruppenr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lokale Gruppe</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Lokale Gruppe</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -2312,12 +2312,12 @@ In der folgenden Tabelle sind die empfohlenen Systemdiensteinstellungen sowohl f
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dienstname</th>
-<th>Anzeigename</th>
-<th>Unternehmensclient-Desktop</th>
-<th>Unternehmensclient-Laptop</th>
-<th>Hochsicher-Desktop</th>
-<th>Hochsicher-Laptop</th>
+<th style="border:1px solid black;" >Dienstname</th>
+<th style="border:1px solid black;" >Anzeigename</th>
+<th style="border:1px solid black;" >Unternehmensclient-Desktop</th>
+<th style="border:1px solid black;" >Unternehmensclient-Laptop</th>
+<th style="border:1px solid black;" >Hochsicher-Desktop</th>
+<th style="border:1px solid black;" >Hochsicher-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -2619,14 +2619,14 @@ Weitere Informationen zu jeder Einstellung finden Sie in den Unterabschnitten im
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellungsname</th>
-<th>Unternehmensclient-<br />
+<th style="border:1px solid black;" >Einstellungsname</th>
+<th style="border:1px solid black;" >Unternehmensclient-<br />
 Desktop</th>
-<th>Unternehmensclient-<br />
+<th style="border:1px solid black;" >Unternehmensclient-<br />
 Laptop</th>
-<th>Hochsicher-<br />
+<th style="border:1px solid black;" >Hochsicher-<br />
 Desktop</th>
-<th>Hochsicher-<br />
+<th style="border:1px solid black;" >Hochsicher-<br />
 Laptop</th>
 </tr>
 </thead>
@@ -3051,8 +3051,8 @@ Im Dialogfeld **Berechtigungen** können Sie Dateiberechtigungen mit mehr Steuer
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der erweiterter Berechtigung</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name der erweiterter Berechtigung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

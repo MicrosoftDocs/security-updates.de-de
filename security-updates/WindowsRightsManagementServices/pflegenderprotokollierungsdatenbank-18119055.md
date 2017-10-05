@@ -47,9 +47,9 @@ Zur Verdeutlichung: Beispielsweise stellt eine Organisation RMS für ihre 5000 B
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vorgang</th>
-<th>Protokollwachstum</th>
-<th>Gesamtgröße Protokoll</th>
+<th style="border:1px solid black;" >Vorgang</th>
+<th style="border:1px solid black;" >Protokollwachstum</th>
+<th style="border:1px solid black;" >Gesamtgröße Protokoll</th>
 </tr>
 </thead>
 <tbody>

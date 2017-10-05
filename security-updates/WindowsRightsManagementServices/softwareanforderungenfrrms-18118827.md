@@ -21,8 +21,8 @@ Die folgende Tabelle zeigt die Softwareanforderungen zum Ausführen von RMS-Serv
 </colgroup>
 <thead>
 <tr class="header">
-<th>Software</th>
-<th>Anforderung</th>
+<th style="border:1px solid black;" >Software</th>
+<th style="border:1px solid black;" >Anforderung</th>
 </tr>
 </thead>
 <tbody>

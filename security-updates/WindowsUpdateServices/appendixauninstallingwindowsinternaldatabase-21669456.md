@@ -18,7 +18,7 @@ It is not usually necessary to uninstall Windows Internal Database, which WSUS i
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939818.Important(WS.10).gif" />Wichtig</th>
+<th style="border:1px solid black;" ><img src="images/Dd939818.Important(WS.10).gif" />Wichtig</th>
 </tr>
 </thead>
 <tbody>
@@ -45,7 +45,7 @@ It is not usually necessary to uninstall Windows Internal Database, which WSUS i
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939818.Important(WS.10).gif" />Wichtig</th>
+<th style="border:1px solid black;" ><img src="images/Dd939818.Important(WS.10).gif" />Wichtig</th>
 </tr>
 </thead>
 <tbody>

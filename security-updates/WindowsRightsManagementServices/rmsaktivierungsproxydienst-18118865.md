@@ -25,8 +25,8 @@ Die Anwendungsdatei für den Aktivierungsproxydienst, Activation.asmx, befindet 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Benutzer oder Gruppe</th>
-<th>Standardberechtigung</th>
+<th style="border:1px solid black;" >Benutzer oder Gruppe</th>
+<th style="border:1px solid black;" >Standardberechtigung</th>
 </tr>
 </thead>
 <tbody>

@@ -242,8 +242,8 @@ In diesem Handbuch werden die folgenden typografischen Konventionen verwendet.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Element</th>
-<th>Bedeutung</th>
+<th style="border:1px solid black;" >Element</th>
+<th style="border:1px solid black;" >Bedeutung</th>
 </tr>
 </thead>
 <tbody>

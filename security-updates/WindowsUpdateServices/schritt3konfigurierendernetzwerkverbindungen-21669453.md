@@ -28,7 +28,7 @@ In der Standardeinstellung ist WSUS 3.0 SP2 so konfiguriert, dass Microsoft Upda
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Hinweis</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Hinweis</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ Schritt 3 umfasst die folgenden Verfahren:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Hinweis</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Hinweis</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ Bei den beiden folgenden Verfahren wird vorausgesetzt, dass Sie das WSUS-Verwalt
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Hinweis</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Hinweis</th>
 </tr>
 </thead>
 <tbody>

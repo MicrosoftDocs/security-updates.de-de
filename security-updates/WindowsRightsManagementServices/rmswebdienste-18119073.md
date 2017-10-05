@@ -30,8 +30,8 @@ In der folgenden Tabelle werden die RMS-Webdienste genauer beschrieben.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dienst</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Dienst</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

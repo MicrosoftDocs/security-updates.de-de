@@ -31,8 +31,8 @@ In der folgenden Tabelle werden die Entitäten, die in einer Sperrliste angegebe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entität</th>
-<th>Bezeichner</th>
+<th style="border:1px solid black;" >Entität</th>
+<th style="border:1px solid black;" >Bezeichner</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ Bei Sperrlisten handelt es sich um XrML-Dateien, die folgende Parameter angeben:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

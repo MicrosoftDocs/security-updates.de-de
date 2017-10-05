@@ -130,10 +130,10 @@ Weitere Informationen zu den einzelnen Einstellungen erhalten Sie in den nach de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -277,10 +277,10 @@ Weitere Informationen zu den einzelnen Einstellungen erhalten Sie in den nach de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -375,10 +375,10 @@ Die folgende Tabelle fasst die empfohlenen Sicherheitsoptionseinstellungen zusam
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>

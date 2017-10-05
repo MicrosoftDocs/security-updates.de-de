@@ -45,9 +45,9 @@ Die folgende Tabelle zeigt die Namen der Sicherheitsvorlagen für Infrastrukturs
 </colgroup>
 <thead>
 <tr class="header">
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>

@@ -45,9 +45,9 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Druckserver 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -95,10 +95,10 @@ Die meisten Sicherheitsoptionseinstellungen für Druckserver in den drei in dies
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>

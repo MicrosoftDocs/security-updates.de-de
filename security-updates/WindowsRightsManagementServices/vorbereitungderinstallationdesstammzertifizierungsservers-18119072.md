@@ -24,9 +24,9 @@ Sie müssen zunächst den Domänencontroller installieren und die Datenbankserve
 </colgroup>
 <thead>
 <tr class="header">
-<th>Infrastrukturkomponente</th>
-<th>So bereiten Sie den Server für die RMS-Installation vor</th>
-<th>Hinweise für die Bereitstellung in einer Produktionsumgebung</th>
+<th style="border:1px solid black;" >Infrastrukturkomponente</th>
+<th style="border:1px solid black;" >So bereiten Sie den Server für die RMS-Installation vor</th>
+<th style="border:1px solid black;" >Hinweise für die Bereitstellung in einer Produktionsumgebung</th>
 </tr>
 </thead>
 <tbody>

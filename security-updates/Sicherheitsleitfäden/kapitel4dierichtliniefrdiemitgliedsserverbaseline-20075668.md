@@ -94,9 +94,9 @@ Viele der folgenden Einstellungen in der Mitgliedsserver-Baselinie-Richtlinie f�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ Eine Zusammenfassung der in diesem Abschnitt beschriebenen Einstellungen finden 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -233,8 +233,8 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse aufgeführt, die vo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -309,8 +309,8 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die von 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -511,8 +511,8 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die von 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -661,8 +661,8 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die von 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -858,8 +858,8 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die von 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -990,8 +990,8 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die von 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -1029,8 +1029,8 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die von 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -1098,8 +1098,8 @@ In der folgenden Tabelle sind die nützlichsten, erfolgreich ausgeführten Ereig
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -1195,10 +1195,10 @@ Die folgende Tabelle enthält die empfohlenen Einstellungen für die Zuweisung v
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -1703,10 +1703,10 @@ Die Tabellen in den folgenden Abschnitten fassen die empfohlenen Einstellungen f
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -1763,10 +1763,10 @@ Die Einstellung **Konten: Lokale Kontenverwendung von leeren Kennwörtern auf Ko
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -1827,10 +1827,10 @@ Der zur Aktivierung der Einstellung **Überwachung: System sofort herunterfahren
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -1923,10 +1923,10 @@ Die Einstellung **Geräte: Verhalten bei der Installation von nicht signierten T
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2023,10 +2023,10 @@ Da die drei in diesem Handbuch beschriebenen Sicherheitsumgebungen Domänencontr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2175,10 +2175,10 @@ Die Einstellung **Interaktive Anmeldung: Verhalten beim Entfernen von Smartcards
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2235,10 +2235,10 @@ Die Einstellung **Microsoft-Netzwerk (Client): Unverschlüsseltes Kennwort an SM
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2307,10 +2307,10 @@ Die Einstellung **Microsoft-Netzwerk (Server): Clientverbindungen aufheben, wenn
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2532,10 +2532,10 @@ Die Einstellung **Netzwerkzugriff: Modell für gemeinsame Nutzung und Sicherheit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2594,8 +2594,8 @@ Durch diese Richtlinieneinstellung wird festgelegt, welches Anfrage/Antwort-Auth
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wert</th>
-<th>Protokoll</th>
+<th style="border:1px solid black;" >Wert</th>
+<th style="border:1px solid black;" >Protokoll</th>
 </tr>
 </thead>
 <tbody>
@@ -2668,10 +2668,10 @@ Die Einstellung **Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2724,10 +2724,10 @@ Um maximale Sicherheit zu erreichen, ist die Einstellung **Wiederherstellungskon
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2774,10 +2774,10 @@ Deshalb ist die Einstellung **Herunterfahren: Auslagerungsdatei des virtuellen A
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2822,10 +2822,10 @@ Deshalb ist die Einstellung **Systemkryptografie: FIPS-konformen Algorithmus fü
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2882,10 +2882,10 @@ Die Einstellung **Systemobjekte: Standardberechtigungen interner Systemobjekte (
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -2942,10 +2942,10 @@ In der folgenden Tabelle werden die Empfehlungen zu den Einstellungen für Ereig
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -3103,11 +3103,11 @@ hinzufügen.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Registrierungseintrag</th>
-<th>Format</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Registrierungseintrag</th>
+<th style="border:1px solid black;" >Format</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -3187,11 +3187,11 @@ Sonstige empfohlene, nicht TCP/IP-spezifische Registrierungseinträge sind in de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Registrierungseintrag</th>
-<th>Format</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Registrierungseintrag</th>
+<th style="border:1px solid black;" >Format</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -3540,10 +3540,10 @@ Das Konto „Vordefinierter Administrator“ kann einen neuen Namen aufweisen, w
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Einstellung in der Benutzeroberfläche</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Name der Einstellung in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -3658,10 +3658,10 @@ Diese Einstellung kann in der Gruppenrichtlinie in folgendem Verzeichnis konfigu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Einstellung in der Benutzeroberfläche</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Name der Einstellung in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -3686,8 +3686,8 @@ Die drei verfügbaren Verschlüsselungsstufen werden in der folgenden Tabelle be
 </colgroup>
 <thead>
 <tr class="header">
-<th>Verschlüsselungsstufe</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Verschlüsselungsstufe</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -3722,10 +3722,10 @@ Die drei verfügbaren Verschlüsselungsstufen werden in der folgenden Tabelle be
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>

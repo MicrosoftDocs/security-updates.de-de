@@ -28,9 +28,9 @@ Die folgenden Schritte dienen als Beispiel für einige der Punkte, die in Ihrem 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server</th>
-<th>Schritt</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Server</th>
+<th style="border:1px solid black;" >Schritt</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>

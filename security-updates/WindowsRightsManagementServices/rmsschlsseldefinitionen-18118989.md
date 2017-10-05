@@ -21,8 +21,8 @@ In der folgenden Tabelle werden die im RMS-System verwendeten Schlüssel aufgeli
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schlüssel</th>
-<th>Zweck</th>
+<th style="border:1px solid black;" >Schlüssel</th>
+<th style="border:1px solid black;" >Zweck</th>
 </tr>
 </thead>
 <tbody>

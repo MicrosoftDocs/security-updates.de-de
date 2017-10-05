@@ -23,8 +23,8 @@ Die Größe eines typischen Protokolleintrags beträgt etwa 300 Bytes. In der f
 </colgroup>
 <thead>
 <tr class="header">
-<th>Feld</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Feld</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

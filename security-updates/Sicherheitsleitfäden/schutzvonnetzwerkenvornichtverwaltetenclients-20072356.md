@@ -167,9 +167,9 @@ Das physische Isolieren von Computern und Netzwerken ist kein neues Konzept. Es 
 </colgroup>
 <thead>
 <tr class="header">
-<th>OSI-Schicht</th>
-<th>Methode</th>
-<th>Probleme</th>
+<th style="border:1px solid black;" >OSI-Schicht</th>
+<th style="border:1px solid black;" >Methode</th>
+<th style="border:1px solid black;" >Probleme</th>
 </tr>
 </thead>
 <tbody>

@@ -523,8 +523,8 @@ Beim Ausführen der Windows Installer-Datei (MSI-Datei) wird auf Ihrem Computer 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterverzeichnis\Datei</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Unterverzeichnis\Datei</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

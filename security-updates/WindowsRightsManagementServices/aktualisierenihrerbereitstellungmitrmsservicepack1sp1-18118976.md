@@ -86,10 +86,10 @@ Da RMS SP1 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwindigk
 </colgroup>
 <thead>
 <tr class="header">
-<th>Version der RMS-Serverkomponente</th>
-<th>Unterstützte Features bei RMS 1.0-Clients</th>
-<th>Unterstützte Features bei RMS SP1-Clients</th>
-<th>Unterstützte Features in gemischten Clientumgebungen (RMS 1.0 und RMS SP1)</th>
+<th style="border:1px solid black;" >Version der RMS-Serverkomponente</th>
+<th style="border:1px solid black;" >Unterstützte Features bei RMS 1.0-Clients</th>
+<th style="border:1px solid black;" >Unterstützte Features bei RMS SP1-Clients</th>
+<th style="border:1px solid black;" >Unterstützte Features in gemischten Clientumgebungen (RMS 1.0 und RMS SP1)</th>
 </tr>
 </thead>
 <tbody>

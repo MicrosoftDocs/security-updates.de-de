@@ -42,11 +42,11 @@ Mit BitLocker, EFS und RMS sowie mit der Gerätesteuerung können Sie vertraulic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Szenario</th>
-<th>    BitLocker</th>
-<th>        EFS</th>
-<th>        RMS</th>
-<th>Gerätesteuerung</th>
+<th style="border:1px solid black;" >Szenario</th>
+<th style="border:1px solid black;" >    BitLocker</th>
+<th style="border:1px solid black;" >        EFS</th>
+<th style="border:1px solid black;" >        RMS</th>
+<th style="border:1px solid black;" >Gerätesteuerung</th>
 </tr>
 </thead>
 <tbody>
@@ -249,9 +249,9 @@ Für die Konfiguration von BitLocker empfiehlt Microsoft zwei bestimmte Gruppenr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Richtlinieneinstellung</th>
-<th>Beschreibung</th>
-<th>Standardeinstellung in Windows Vista</th>
+<th style="border:1px solid black;" >Richtlinieneinstellung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -305,9 +305,9 @@ In der nachstehenden Tabelle werden die Gruppenrichtlinieneinstellungen aufgefü
 </colgroup>
 <thead>
 <tr class="header">
-<th>Richtlinieneinstellung</th>
-<th>Beschreibung</th>
-<th>Standardeinstellung in Windows Vista</th>
+<th style="border:1px solid black;" >Richtlinieneinstellung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -480,9 +480,9 @@ Auch die vier Gruppenrichtlinienvorlagen in der nachstehenden Tabelle enthalten 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vorlage und Einstellung</th>
-<th>Pfad und Beschreibung</th>
-<th>Standardeinstellung in Windows Vista</th>
+<th style="border:1px solid black;" >Vorlage und Einstellung</th>
+<th style="border:1px solid black;" >Pfad und Beschreibung</th>
+<th style="border:1px solid black;" >Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -691,9 +691,9 @@ Zur Steuerung der Geräteinstallation empfiehlt Microsoft, die Gruppenrichtlinie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Richtlinieneinstellung</th>
-<th>Beschreibung</th>
-<th>Standardeinstellung in Windows Vista</th>
+<th style="border:1px solid black;" >Richtlinieneinstellung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -777,9 +777,9 @@ Mit Windows Vista können Sie nicht nur die Installation von Geräten steuern, 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Richtlinieneinstellung</th>
-<th>Beschreibung</th>
-<th>Standardeinstellung in Windows Vista</th>
+<th style="border:1px solid black;" >Richtlinieneinstellung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -875,9 +875,9 @@ Die nachstehenden Einstellungen in der Vorlage „Autoplay.admx“ wirken sich a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Richtlinieneinstellung</th>
-<th>Beschreibung</th>
-<th>Standardeinstellung in Windows Vista</th>
+<th style="border:1px solid black;" >Richtlinieneinstellung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Standardeinstellung in Windows Vista</th>
 </tr>
 </thead>
 <tbody>

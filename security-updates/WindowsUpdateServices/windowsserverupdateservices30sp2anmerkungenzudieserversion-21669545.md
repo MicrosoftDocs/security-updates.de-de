@@ -62,7 +62,7 @@ In diesem Abschnitt werden die Anforderungen an die benötigte Software und Hard
         </colgroup>
         <thead>
         <tr class="header">
-        <th><img src="images/Dd939886.Warning(WS.10).gif" />Warnung</th>
+        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Warnung</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ In diesem Abschnitt werden die Anforderungen an die benötigte Software und Hard
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ Die folgende Liste enthält die Hardwaremindestanforderungen, die für eine grun
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ Beim Installieren von WSUS 3.0 SP2 müssen Antivirenprogramme möglicherweise 
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Caution(WS.10).gif" />Vorsicht</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Vorsicht</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Mithilfe des WSUS-Setupprogramms für die Befehlszeile können Sie unbeaufsichti
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -366,8 +366,8 @@ In dieser Tabelle werden die Befehlszeileneigenschaften für WSUS 3.0 SP2 aufg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Eigenschaft</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Eigenschaft</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (Installation im stillen Modus über Port 8
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
 </tr>
 </thead>
 <tbody>

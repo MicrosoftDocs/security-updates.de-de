@@ -202,9 +202,9 @@ In der nachstehenden Tabelle wird die erforderliche Software für die verschiede
 </colgroup>
 <thead>
 <tr class="header">
-<th>Betriebssystem</th>
-<th>Anforderungen</th>
-<th>Downloads</th>
+<th style="border:1px solid black;" >Betriebssystem</th>
+<th style="border:1px solid black;" >Anforderungen</th>
+<th style="border:1px solid black;" >Downloads</th>
 </tr>
 </thead>
 <tbody>

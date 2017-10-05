@@ -22,9 +22,9 @@ In der folgenden Tabelle werden die in RMS verwendeten Zertifikate und Lizenzen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zertifikat oder Lizenz</th>
-<th>Zweck</th>
-<th>Inhalt</th>
+<th style="border:1px solid black;" >Zertifikat oder Lizenz</th>
+<th style="border:1px solid black;" >Zweck</th>
+<th style="border:1px solid black;" >Inhalt</th>
 </tr>
 </thead>
 <tbody>

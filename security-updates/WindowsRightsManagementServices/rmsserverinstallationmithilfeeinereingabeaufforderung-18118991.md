@@ -35,8 +35,8 @@ In der untenstehenden Tabelle wird die Syntax für jeden Befehl erläutert.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Definition</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Definition</th>
 </tr>
 </thead>
 <tbody>

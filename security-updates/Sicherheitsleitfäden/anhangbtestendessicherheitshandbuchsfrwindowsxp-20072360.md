@@ -363,9 +363,9 @@ Die Schweregradskala für Bugs wird in der nachstehenden Tabelle beschrieben. Di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schweregrad</th>
-<th>Häufigste Typen</th>
-<th>Erforderliche Bedingungen</th>
+<th style="border:1px solid black;" >Schweregrad</th>
+<th style="border:1px solid black;" >Häufigste Typen</th>
+<th style="border:1px solid black;" >Erforderliche Bedingungen</th>
 </tr>
 </thead>
 <tbody>

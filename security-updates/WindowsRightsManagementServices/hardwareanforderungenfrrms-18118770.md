@@ -21,8 +21,8 @@ Die folgende Tabelle zeigt die Mindestanforderungen für Hardware und die Empfeh
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anforderung</th>
-<th>Empfehlung</th>
+<th style="border:1px solid black;" >Anforderung</th>
+<th style="border:1px solid black;" >Empfehlung</th>
 </tr>
 </thead>
 <tbody>

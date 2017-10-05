@@ -75,7 +75,7 @@ In Schritt 3 haben Sie die Konfiguration des Upstream- und des Proxyservers abg
     </colgroup>
     <thead>
     <tr class="header">
-    <th><img src="images/Dd939924.Important(WS.10).gif" />Wichtig</th>
+    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Wichtig</th>
     </tr>
     </thead>
     <tbody>

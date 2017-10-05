@@ -171,8 +171,8 @@ Stellen Sie sicher, dass der WSUS 3.0-Server den Anforderungen in dieser Liste 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anforderung</th>
-<th>Details</th>
+<th style="border:1px solid black;" >Anforderung</th>
+<th style="border:1px solid black;" >Details</th>
 </tr>
 </thead>
 <tbody>
@@ -255,8 +255,8 @@ Mithilfe der WSUS-Befehlszeilenparameter können Sie unbeaufsichtigte Installati
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -295,8 +295,8 @@ In dieser Tabelle werden die Befehlszeileneigenschaften für WSUS 3.0 aufgefüh
 </colgroup>
 <thead>
 <tr class="header">
-<th>Eigenschaft</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Eigenschaft</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -564,8 +564,8 @@ WSUS 3.0 unterstützt Windows Server 2008 in der 32-Bit- und in der 64-Bit-Ver
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anforderung</th>
-<th>Details</th>
+<th style="border:1px solid black;" >Anforderung</th>
+<th style="border:1px solid black;" >Details</th>
 </tr>
 </thead>
 <tbody>

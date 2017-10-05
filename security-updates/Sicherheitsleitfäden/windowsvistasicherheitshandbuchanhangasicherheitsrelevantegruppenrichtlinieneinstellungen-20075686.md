@@ -59,10 +59,10 @@ In der folgenden Tabelle werden einige Beispiele genannt, die Ihnen das Verstän
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPO des Handbuchs</th>
-<th>SSLF-Computer-GPO des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPO des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPO des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -124,11 +124,11 @@ In der nachstehenden Tabelle werden die Empfehlungen zu den Kennwortrichtlinien 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>Domänencontroller-Standardeinstellung</th>
-<th>EC-Domänen-GPO des Handbuchs</th>
-<th>SSLF-Domänen-GPO des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >Domänencontroller-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Domänen-GPO des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Domänen-GPO des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -265,11 +265,11 @@ Die nachstehende Tabelle enthält die empfohlenen Einstellungen für Kontosperru
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>Domänencontroller-Standardeinstellung</th>
-<th>EC-Domänen-GPO des Handbuchs</th>
-<th>SSLF-Domänen-GPO des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >Domänencontroller-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Domänen-GPO des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Domänen-GPO des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -434,10 +434,10 @@ In Windows Vista enthält die Überwachungskategorie „System“ die in der fol
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -496,10 +496,10 @@ In Windows Vista enthält die Ereignisüberwachungskategorie „An-/Abmeldung“
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -587,10 +587,10 @@ Die Ereignisüberwachungskategorie „Objektzugriff“ enthält die in der folge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -729,10 +729,10 @@ Die Ereignisüberwachungskategorie **Rechteverwendung** enthält die in der folg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -778,10 +778,10 @@ Die Ereignisüberwachungskategorie „Detaillierte Überwachung“ enthält die 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPO des Handbuchs</th>
-<th>SSLF-Computer-GPO des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPO des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPO des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -832,10 +832,10 @@ Die Ereignisüberwachungskategorie **Richtlinienänderung** enthält die in der 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -898,10 +898,10 @@ Die Ereignisüberwachungskategorie **Kontoverwaltung** enthält die in der folge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -964,10 +964,10 @@ Die Ereignisüberwachungskategorie „DS-Zugriff“ enthält die in der folgende
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -1018,10 +1018,10 @@ Die Ereignisüberwachungskategorie **Kontoanmeldung** enthält die in der folgen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unterkategorie</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Unterkategorie</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -1139,10 +1139,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -1237,10 +1237,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -1497,10 +1497,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -1792,10 +1792,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -1877,10 +1877,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Überwachungs
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -1949,10 +1949,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -2038,10 +2038,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -2132,10 +2132,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -2260,10 +2260,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -2323,10 +2323,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -2398,9 +2398,9 @@ Die folgende Tabelle bietet einen Überblick über die MSS-Einstellungen, die f�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -2619,10 +2619,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -2849,10 +2849,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -2957,10 +2957,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3013,10 +3013,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3067,10 +3067,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3106,10 +3106,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3158,10 +3158,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3335,10 +3335,10 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Sicherheitsei
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3441,10 +3441,10 @@ Dieses Profil kommt zur Anwendung, wenn ein Computer mit einem Netzwerk verbunde
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3525,10 +3525,10 @@ Dieses Profil gilt nur, wenn es von einem Benutzer mit lokalen Administratorrech
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3607,10 +3607,10 @@ Dieses Profil ist der standardmäßige Netzwerkstandorttyp, wenn der Computer ke
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Windows Vista-Standardeinstellung</th>
-<th>EC-Computer-GPOs des Handbuchs</th>
-<th>SSLF-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Windows Vista-Standardeinstellung</th>
+<th style="border:1px solid black;" >EC-Computer-GPOs des Handbuchs</th>
+<th style="border:1px solid black;" >SSLF-Computer-GPOs des Handbuchs</th>
 </tr>
 </thead>
 <tbody>
@@ -3764,11 +3764,11 @@ Mit den Einstellungen in diesem Abschnitt wird das Domänenprofil der Windows-Fi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -3892,11 +3892,11 @@ Diese empfohlenen Computereinstellungen können im Gruppenrichtlinienobjekt-Edit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4137,11 +4137,11 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4199,11 +4199,11 @@ Die empfohlene System-Computereinstellung kann im Gruppenrichtlinienobjekt-Edito
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4249,11 +4249,11 @@ In der folgenden Tabelle sind die empfohlenen Einstellungen für die Remoteunter
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4345,11 +4345,11 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4409,11 +4409,11 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4554,11 +4554,11 @@ Automatische Wiedergabe (Autoplay) ist eine Funktion von Windows, mit der Medien
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4601,11 +4601,11 @@ Die Einstellungen der Benutzeroberfläche für Anmeldeinformationen bestimmen, w
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4673,11 +4673,11 @@ Die folgende Tabelle bietet einen Überblick über zahlreiche empfohlene Einstel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4849,11 +4849,11 @@ Die empfohlene System-Computereinstellung kann im Gruppenrichtlinienobjekt-Edito
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4896,11 +4896,11 @@ Die empfohlene System-Computereinstellung kann im Gruppenrichtlinienobjekt-Edito
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4941,11 +4941,11 @@ Die empfohlene System-Computereinstellung kann im Gruppenrichtlinienobjekt-Edito
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -4988,11 +4988,11 @@ Die empfohlene System-Computereinstellung kann im Gruppenrichtlinienobjekt-Edito
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5035,11 +5035,11 @@ Die empfohlene System-Computereinstellung kann im Gruppenrichtlinienobjekt-Edito
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5080,11 +5080,11 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5125,11 +5125,11 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5170,11 +5170,11 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5215,11 +5215,11 @@ Diese empfohlenen Computereinstellungen können im Gruppenrichtlinienobjekt-Edit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5284,11 +5284,11 @@ Mit Microsoft NetMeeting® können über das Netzwerk Ihrer Organisation virtuel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5338,11 +5338,11 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5382,11 +5382,11 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5424,11 +5424,11 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5468,12 +5468,12 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-<br />
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-<br />
 Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5528,11 +5528,11 @@ Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5597,11 +5597,11 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Desktop</th>
-<th>EC-Laptop</th>
-<th>SSLF-Desktop</th>
-<th>SSLF-Laptop</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Desktop</th>
+<th style="border:1px solid black;" >EC-Laptop</th>
+<th style="border:1px solid black;" >SSLF-Desktop</th>
+<th style="border:1px solid black;" >SSLF-Laptop</th>
 </tr>
 </thead>
 <tbody>
@@ -5729,9 +5729,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Computer</th>
-<th>SSLF-Computer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Computer</th>
+<th style="border:1px solid black;" >SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>
@@ -5767,9 +5767,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Konfiguration
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Computer</th>
-<th>SSLF-Computer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Computer</th>
+<th style="border:1px solid black;" >SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>
@@ -5814,9 +5814,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Computer</th>
-<th>SSLF-Computer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Computer</th>
+<th style="border:1px solid black;" >SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>
@@ -5883,9 +5883,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Benutzer</th>
-<th>SSLF-Benutzer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Benutzer</th>
+<th style="border:1px solid black;" >SSLF-Benutzer</th>
 </tr>
 </thead>
 <tbody>
@@ -6078,9 +6078,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Benutzer</th>
-<th>SSLF-Benutzer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Benutzer</th>
+<th style="border:1px solid black;" >SSLF-Benutzer</th>
 </tr>
 </thead>
 <tbody>
@@ -6117,9 +6117,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Benutzer</th>
-<th>SSLF-Benutzer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Benutzer</th>
+<th style="border:1px solid black;" >SSLF-Benutzer</th>
 </tr>
 </thead>
 <tbody>
@@ -6178,9 +6178,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Benutzer</th>
-<th>SSLF-Benutzer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Benutzer</th>
+<th style="border:1px solid black;" >SSLF-Benutzer</th>
 </tr>
 </thead>
 <tbody>
@@ -6257,9 +6257,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Benutzer</th>
-<th>SSLF-Benutzer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Benutzer</th>
+<th style="border:1px solid black;" >SSLF-Benutzer</th>
 </tr>
 </thead>
 <tbody>
@@ -6300,9 +6300,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Benutzer</th>
-<th>SSLF-Benutzer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Benutzer</th>
+<th style="border:1px solid black;" >SSLF-Benutzer</th>
 </tr>
 </thead>
 <tbody>
@@ -6428,9 +6428,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Benutzer</th>
-<th>SSLF-Benutzer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Benutzer</th>
+<th style="border:1px solid black;" >SSLF-Benutzer</th>
 </tr>
 </thead>
 <tbody>
@@ -6799,9 +6799,9 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Benutzer</th>
-<th>SSLF-Benutzer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Benutzer</th>
+<th style="border:1px solid black;" >SSLF-Benutzer</th>
 </tr>
 </thead>
 <tbody>
@@ -6930,9 +6930,9 @@ In der folgenden Tabelle sind die empfohlenen Benutzerkonfigurationseinstellunge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>EC-Computer</th>
-<th>SSLF-Computer</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >EC-Computer</th>
+<th style="border:1px solid black;" >SSLF-Computer</th>
 </tr>
 </thead>
 <tbody>

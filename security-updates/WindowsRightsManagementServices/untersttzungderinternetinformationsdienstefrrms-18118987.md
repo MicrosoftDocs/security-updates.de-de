@@ -34,9 +34,9 @@ In der folgenden Tabelle werden die in IIS erstellten virtuellen Verzeichnisse u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Virtuelles Verzeichnis</th>
-<th>Dienst</th>
-<th>Webdienstdatei</th>
+<th style="border:1px solid black;" >Virtuelles Verzeichnis</th>
+<th style="border:1px solid black;" >Dienst</th>
+<th style="border:1px solid black;" >Webdienstdatei</th>
 </tr>
 </thead>
 <tbody>

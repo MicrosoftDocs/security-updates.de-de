@@ -50,9 +50,9 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Webserver f�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -164,9 +164,9 @@ In der folgenden Tabelle werden die Unterkomponenten des Anwendungsservers kurz 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Komponente in der Benutzeroberfläche</th>
-<th>Einstellung</th>
-<th>Einstellungslogik</th>
+<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
@@ -224,9 +224,9 @@ In der folgenden Tabelle werden die Unterkomponenten des IIS-Servers kurz beschr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Komponente in der Benutzeroberfläche</th>
-<th>Einstellung</th>
-<th>Einstellungslogik</th>
+<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
@@ -298,9 +298,9 @@ In der folgenden Tabelle werden die Unterkomponenten des Message Queuing kurz be
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Komponente in der Benutzeroberfläche</th>
-<th>Installationsoption</th>
-<th>Einstellungslogik</th>
+<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Installationsoption</th>
+<th style="border:1px solid black;" >Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
@@ -357,9 +357,9 @@ In der folgenden Tabelle werden die Unterkomponenten der BITS-Servererweiterunge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Komponente in der Benutzeroberfläche</th>
-<th>Installationsoption</th>
-<th>Einstellungslogik</th>
+<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Installationsoption</th>
+<th style="border:1px solid black;" >Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
@@ -396,9 +396,9 @@ In der folgenden Tabelle werden die Unterkomponenten des WWW-Dienstes kurz besch
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Komponente in der Benutzeroberfläche</th>
-<th>Installationsoption</th>
-<th>Einstellungslogik</th>
+<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Installationsoption</th>
+<th style="border:1px solid black;" >Einstellungslogik</th>
 </tr>
 </thead>
 <tbody>
@@ -462,8 +462,8 @@ In der folgenden Tabelle werden vordefinierte Webdiensterweiterungen aufgelistet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Webdiensterweiterung</th>
-<th>Bedingungen für die Aktivierung</th>
+<th style="border:1px solid black;" >Webdiensterweiterung</th>
+<th style="border:1px solid black;" >Bedingungen für die Aktivierung</th>
 </tr>
 </thead>
 <tbody>
@@ -538,8 +538,8 @@ Die folgende Tabelle enthält einige Empfehlungen zu NTFS-Berechtigungen, die de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dateityp</th>
-<th>Empfohlene NTFS-Berechtigungen</th>
+<th style="border:1px solid black;" >Dateityp</th>
+<th style="border:1px solid black;" >Empfohlene NTFS-Berechtigungen</th>
 </tr>
 </thead>
 <tbody>
@@ -589,8 +589,8 @@ Die folgende Tabelle werden die von IIS 6.0 unterstützten Websiteberechtigunge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Websiteberechtigung</th>
-<th>Gewährte Berechtigung</th>
+<th style="border:1px solid black;" >Websiteberechtigung</th>
+<th style="border:1px solid black;" >Gewährte Berechtigung</th>
 </tr>
 </thead>
 <tbody>
@@ -670,10 +670,10 @@ Außerdem müssen Sie u. U. das vordefinierte Administratorkonto gemäß der Em
 </colgroup>
 <thead>
 <tr class="header">
-<th>Standard für Mitgliedsserver</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Standard für Mitgliedsserver</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>

@@ -63,8 +63,8 @@ In der folgenden Tabelle sind die Erweiterungen des Gruppenrichtlinien-Snap-Ins 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Erweiterungen des Gruppenrichtlinien-Snap-Ins</th>
-<th>Im lokalen Gruppenrichtlinienobjekt verfügbar</th>
+<th style="border:1px solid black;" >Erweiterungen des Gruppenrichtlinien-Snap-Ins</th>
+<th style="border:1px solid black;" >Im lokalen Gruppenrichtlinienobjekt verfügbar</th>
 </tr>
 </thead>
 <tbody>
@@ -236,8 +236,8 @@ In der folgenden Liste werden die Parameter des Tools Secedit.exe erklärt.
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Bereichsname</th>
-    <th>Beschreibung</th>
+    <th style="border:1px solid black;" >Bereichsname</th>
+    <th style="border:1px solid black;" >Beschreibung</th>
     </tr>
     </thead>
     <tbody>
@@ -324,8 +324,8 @@ In den folgenden Tabellen sind die in diesem Handbuch enthaltenen Skripts und di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Skript- und Dateinamen</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Skript- und Dateinamen</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -386,8 +386,8 @@ In den folgenden Tabellen sind die in diesem Handbuch enthaltenen Skripts und di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Skript- und Dateinamen</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Skript- und Dateinamen</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

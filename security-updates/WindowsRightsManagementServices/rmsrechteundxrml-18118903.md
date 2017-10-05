@@ -21,8 +21,8 @@ In der folgenden Tabelle werden die Rechte, die Sie für eine Vorlage für Benut
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rechte</th>
-<th>XrML-Elemente</th>
+<th style="border:1px solid black;" >Rechte</th>
+<th style="border:1px solid black;" >XrML-Elemente</th>
 </tr>
 </thead>
 <tbody>

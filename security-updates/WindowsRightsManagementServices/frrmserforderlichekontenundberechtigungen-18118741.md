@@ -21,8 +21,8 @@ In der folgenden Tabelle werden die zum Bereitstellen und Verwalten von RMS erfo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aktion</th>
-<th>Benutzerkonto und Berechtigungen</th>
+<th style="border:1px solid black;" >Aktion</th>
+<th style="border:1px solid black;" >Benutzerkonto und Berechtigungen</th>
 </tr>
 </thead>
 <tbody>

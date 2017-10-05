@@ -30,9 +30,9 @@ Wenn Sie sich für MSDE 2000 als Datenbankserver entscheiden, sollten Sie berü
 </colgroup>
 <thead>
 <tr class="header">
-<th>Infrastrukturkomponente</th>
-<th>Schritte zum Einrichten eines Domänencontrollers und Datenbankservers</th>
-<th>Hinweise für die Bereitstellung in einer Produktionsumgebung</th>
+<th style="border:1px solid black;" >Infrastrukturkomponente</th>
+<th style="border:1px solid black;" >Schritte zum Einrichten eines Domänencontrollers und Datenbankservers</th>
+<th style="border:1px solid black;" >Hinweise für die Bereitstellung in einer Produktionsumgebung</th>
 </tr>
 </thead>
 <tbody>

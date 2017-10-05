@@ -71,8 +71,8 @@ Die folgende Liste enthlt eine 2007 Office-Einstellung, die Ihnen bei Verwendung
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Einstellung</th>
-<th>Betrifft</th>
+<th style="border:1px solid black;" >Name der Einstellung</th>
+<th style="border:1px solid black;" >Betrifft</th>
 </tr>
 </thead>
 <tbody>
@@ -142,9 +142,9 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vertrauenswrdige Standardspeicherorte</th>
-<th>Ordnerbeschreibung</th>
-<th>Vertrauenswrdige Unterordner</th>
+<th style="border:1px solid black;" >Vertrauenswrdige Standardspeicherorte</th>
+<th style="border:1px solid black;" >Ordnerbeschreibung</th>
+<th style="border:1px solid black;" >Vertrauenswrdige Unterordner</th>
 </tr>
 </thead>
 <tbody>
@@ -167,9 +167,9 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vertrauenswrdige Standardspeicherorte</th>
-<th>Ordnerbeschreibung</th>
-<th>Vertrauenswrdige Unterordner</th>
+<th style="border:1px solid black;" >Vertrauenswrdige Standardspeicherorte</th>
+<th style="border:1px solid black;" >Ordnerbeschreibung</th>
+<th style="border:1px solid black;" >Vertrauenswrdige Unterordner</th>
 </tr>
 </thead>
 <tbody>
@@ -217,9 +217,9 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vertrauenswrdige Standardspeicherorte</th>
-<th>Ordnerbeschreibung</th>
-<th>Vertrauenswrdige Unterordner</th>
+<th style="border:1px solid black;" >Vertrauenswrdige Standardspeicherorte</th>
+<th style="border:1px solid black;" >Ordnerbeschreibung</th>
+<th style="border:1px solid black;" >Vertrauenswrdige Unterordner</th>
 </tr>
 </thead>
 <tbody>
@@ -257,9 +257,9 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vertrauenswrdige Standardspeicherorte</th>
-<th>Ordnerbeschreibung</th>
-<th>Vertrauenswrdige Unterordner</th>
+<th style="border:1px solid black;" >Vertrauenswrdige Standardspeicherorte</th>
+<th style="border:1px solid black;" >Ordnerbeschreibung</th>
+<th style="border:1px solid black;" >Vertrauenswrdige Unterordner</th>
 </tr>
 </thead>
 <tbody>
@@ -293,8 +293,8 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Einstellung</th>
-<th>Betrifft</th>
+<th style="border:1px solid black;" >Name der Einstellung</th>
+<th style="border:1px solid black;" >Betrifft</th>
 </tr>
 </thead>
 <tbody>
@@ -359,8 +359,8 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Einstellung</th>
-<th>Betrifft</th>
+<th style="border:1px solid black;" >Name der Einstellung</th>
+<th style="border:1px solid black;" >Betrifft</th>
 </tr>
 </thead>
 <tbody>

@@ -24,9 +24,9 @@ Es gibt drei von RMS im Systemereignisprotokoll veröffentlichte Ereignisse, die
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Ereignisname</th>
-<th>Ereignistyp</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Ereignisname</th>
+<th style="border:1px solid black;" >Ereignistyp</th>
 </tr>
 </thead>
 <tbody>

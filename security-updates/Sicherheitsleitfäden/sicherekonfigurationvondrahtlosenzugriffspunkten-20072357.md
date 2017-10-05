@@ -161,8 +161,8 @@ Um das Sicherheitsniveau der verschiedenen Sicherheitslösungen einschätzen zu 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Bedrohung</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Bedrohung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -223,11 +223,11 @@ Abgesehen von der nahe liegendsten Lösung, dem Verzicht auf die Implementierung
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funktion</th>
-<th>WPA und WPA2</th>
-<th>Statisches WEP</th>
-<th>VPN</th>
-<th>IPsec</th>
+<th style="border:1px solid black;" >Funktion</th>
+<th style="border:1px solid black;" >WPA und WPA2</th>
+<th style="border:1px solid black;" >Statisches WEP</th>
+<th style="border:1px solid black;" >VPN</th>
+<th style="border:1px solid black;" >IPsec</th>
 </tr>
 </thead>
 <tbody>
@@ -448,8 +448,8 @@ Wie zuvor kurz angesprochen, sind für EAP-TLS mindestens vier Server erforderli
 </colgroup>
 <thead>
 <tr class="header">
-<th>Komponente</th>
-<th>Anforderung</th>
+<th style="border:1px solid black;" >Komponente</th>
+<th style="border:1px solid black;" >Anforderung</th>
 </tr>
 </thead>
 <tbody>
@@ -570,9 +570,9 @@ Es gibt zwei Ansätze für Lastenausgleich und Failover auf IAS-Servern hinsicht
 </colgroup>
 <thead>
 <tr class="header">
-<th>Methode</th>
-<th>Vorteile</th>
-<th>Nachteile</th>
+<th style="border:1px solid black;" >Methode</th>
+<th style="border:1px solid black;" >Vorteile</th>
+<th style="border:1px solid black;" >Nachteile</th>
 </tr>
 </thead>
 <tbody>
@@ -664,9 +664,9 @@ Darüber hinaus ist zu überlegen, ob es sinnvoll wäre, zusätzliche Server an 
 </colgroup>
 <thead>
 <tr class="header">
-<th>IAS-Standort</th>
-<th>Vorteile</th>
-<th>Nachteile</th>
+<th style="border:1px solid black;" >IAS-Standort</th>
+<th style="border:1px solid black;" >Vorteile</th>
+<th style="border:1px solid black;" >Nachteile</th>
 </tr>
 </thead>
 <tbody>
@@ -725,8 +725,8 @@ Beim Einschätzen der IAS-Serverkapazität ist es hilfreich, die Anzahl der Auth
 </colgroup>
 <thead>
 <tr class="header">
-<th>Authentifizierungstyp</th>
-<th>Authentifizierungen pro Sekunde</th>
+<th style="border:1px solid black;" >Authentifizierungstyp</th>
+<th style="border:1px solid black;" >Authentifizierungen pro Sekunde</th>
 </tr>
 </thead>
 <tbody>
@@ -805,9 +805,9 @@ In der folgenden Tabelle werden unternehmensspezifische Parameter aufgeführt, d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Konfigurationselement</th>
-<th>Referenz</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Konfigurationselement</th>
+<th style="border:1px solid black;" >Referenz</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>
@@ -874,9 +874,9 @@ Die in der folgenden Tabelle genannten Einstellungen müssen unter normalen Umst
 </colgroup>
 <thead>
 <tr class="header">
-<th>Konfigurationselement</th>
-<th>Referenz</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Konfigurationselement</th>
+<th style="border:1px solid black;" >Referenz</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>
@@ -1109,9 +1109,9 @@ Ein virtuelles Verzeichnis muss auf IIS erstellt werden, das als HTTP-Speicheror
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Benutzer/Gruppe</th>
-    <th>Berechtigung</th>
-    <th>Erlauben/Verweigern</th>
+    <th style="border:1px solid black;" >Benutzer/Gruppe</th>
+    <th style="border:1px solid black;" >Berechtigung</th>
+    <th style="border:1px solid black;" >Erlauben/Verweigern</th>
     </tr>
     </thead>
     <tbody>
@@ -1211,8 +1211,8 @@ Bei dieser Lösung werden mehrere Sicherheitsgruppen definiert, die unterschiedl
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Gruppenname</th>
-    <th>Aufgabe</th>
+    <th style="border:1px solid black;" >Gruppenname</th>
+    <th style="border:1px solid black;" >Aufgabe</th>
     </tr>
     </thead>
     <tbody>
@@ -1255,8 +1255,8 @@ Die Installationsverfahren im verbleibenden Dokument erfordern die Verwendung vo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Administratorfunktion</th>
-<th>Gruppenmitgliedschaft</th>
+<th style="border:1px solid black;" >Administratorfunktion</th>
+<th style="border:1px solid black;" >Gruppenmitgliedschaft</th>
 </tr>
 </thead>
 <tbody>
@@ -1294,8 +1294,8 @@ Es gibt eine Reihe von Gruppen und Benutzerkonten, die mit der Verwaltung und de
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Organisationseinheit</th>
-    <th>Aufgabe</th>
+    <th style="border:1px solid black;" >Organisationseinheit</th>
+    <th style="border:1px solid black;" >Aufgabe</th>
     </tr>
     </thead>
     <tbody>
@@ -1531,9 +1531,9 @@ Die zuvor erstellten Sicherheitsgruppen müssen Administratorfunktionen wie „P
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Gruppe</th>
-    <th>Berechtigung</th>
-    <th>Erlauben/Verweigern</th>
+    <th style="border:1px solid black;" >Gruppe</th>
+    <th style="border:1px solid black;" >Berechtigung</th>
+    <th style="border:1px solid black;" >Erlauben/Verweigern</th>
     </tr>
     </thead>
     <tbody>
@@ -1784,9 +1784,9 @@ Damit die in diesem Handbuch beschriebenen Administratorfunktionen verwendet wer
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Gruppe</th>
-    <th>Berechtigung</th>
-    <th>Erlauben/Verweigern</th>
+    <th style="border:1px solid black;" >Gruppe</th>
+    <th style="border:1px solid black;" >Berechtigung</th>
+    <th style="border:1px solid black;" >Erlauben/Verweigern</th>
     </tr>
     </thead>
     <tbody>
@@ -1891,8 +1891,8 @@ In der folgenden Tabelle werden Informationen aufgeführt, die für jedes einzel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Konfigurationselement</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Konfigurationselement</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>
@@ -1928,8 +1928,8 @@ In der folgenden Tabelle werden Einstellungen aufgeführt, die nur dann geänder
 </colgroup>
 <thead>
 <tr class="header">
-<th>Konfigurationselement</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Konfigurationselement</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>
@@ -2088,8 +2088,8 @@ In der folgenden Tabelle werden unternehmensspezifische Parameter aufgeführt, d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Konfigurationselement</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Konfigurationselement</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>
@@ -2125,8 +2125,8 @@ In der folgenden Tabelle werden Einstellungen aufgeführt, die nur dann geänder
 </colgroup>
 <thead>
 <tr class="header">
-<th>Konfigurationselement</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Konfigurationselement</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>

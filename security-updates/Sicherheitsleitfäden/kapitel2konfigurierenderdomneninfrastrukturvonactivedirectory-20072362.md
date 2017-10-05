@@ -196,10 +196,10 @@ In der folgenden Tabelle werden die Empfehlungen zu den Kennwortrichtlinien für
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Standard für Domänencontroller</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Standard für Domänencontroller</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher</th>
 </tr>
 </thead>
 <tbody>
@@ -322,10 +322,10 @@ Die folgende Tabelle enthält die Empfehlungen für die Einstellungen der Kontos
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Standard für Domänencontroller</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Standard für Domänencontroller</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher</th>
 </tr>
 </thead>
 <tbody>
@@ -406,10 +406,10 @@ Diese Richtlinieneinstellung ermöglicht es Benutzern, einer bestimmten Domäne 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Standard für Domänencontroller</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Standard für Domänencontroller</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher</th>
 </tr>
 </thead>
 <tbody>
@@ -454,10 +454,10 @@ In der folgenden Tabelle werden die Empfehlungen zu den Einstellungen der Sicher
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Standard für Domänenmitglieder</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Standard für Domänenmitglieder</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher</th>
 </tr>
 </thead>
 <tbody>

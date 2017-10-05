@@ -50,9 +50,9 @@ Die Domänencontrollervorlagen wurden speziell für die Sicherheitsanforderungen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -84,10 +84,10 @@ Die Einstellungen für Überwachungsrichtlinien für die Domänencontroller ents
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -120,8 +120,8 @@ In der folgenden Tabelle sind wichtige Sicherheitsereignisse enthalten, die die 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereigniskennung</th>
-<th>Ereignisbeschreibung</th>
+<th style="border:1px solid black;" >Ereigniskennung</th>
+<th style="border:1px solid black;" >Ereignisbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -158,10 +158,10 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen zum Zuweisen von B
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -326,10 +326,10 @@ Die meisten Einstellungen für Sicherheitsoptionen für Domänencontroller entsp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -388,10 +388,10 @@ Die Einstellung **Domänencontroller: Änderungen von Computerkontenkennwörtern
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -438,10 +438,10 @@ Wie im vorherigen Kapitel beschrieben, können Sie mit der Einstellung **Eingesc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lokale Gruppe</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Lokale Gruppe</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -526,10 +526,10 @@ Wenn Sie das vordefinierte Administratorkonto gemäß den Empfehlungen in Kapite
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -596,9 +596,9 @@ Das Systemschlüsseldienstprogramm (Syskey) bietet einen zusätzlichen Schutz vo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Systemschlüsseloptionen</th>
-<th>Sicherheitsstufe</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Systemschlüsseloptionen</th>
+<th style="border:1px solid black;" >Sicherheitsstufe</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -728,10 +728,10 @@ Konfigurieren Sie einen Dienst für die Ausführung im Sicherheitskontext eines 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Standard</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Standard</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -765,8 +765,8 @@ Die drei verfügbaren Verschlüsselungsstufen werden in der folgenden Tabelle be
 </colgroup>
 <thead>
 <tr class="header">
-<th>Verschlüsselungsstufe</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Verschlüsselungsstufe</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -801,10 +801,10 @@ Die drei verfügbaren Verschlüsselungsstufen werden in der folgenden Tabelle be
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>

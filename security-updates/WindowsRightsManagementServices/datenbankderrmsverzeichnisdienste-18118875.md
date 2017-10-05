@@ -25,8 +25,8 @@ In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabelle</th>
-<th>Attribut</th>
+<th style="border:1px solid black;" >Tabelle</th>
+<th style="border:1px solid black;" >Attribut</th>
 </tr>
 </thead>
 <tbody>

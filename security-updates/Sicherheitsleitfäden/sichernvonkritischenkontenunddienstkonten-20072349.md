@@ -153,9 +153,9 @@ Auch wenn Personen in jeder Umgebung beide Rollen einnehmen können, ist es ents
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Container</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Container</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -259,9 +259,9 @@ Die folgende Tabelle beschreibt die oben in Text und Bild dargestellten Szenarie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Szenario</th>
-<th>Beschreibung</th>
-<th>Risikostufe</th>
+<th style="border:1px solid black;" >Szenario</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Risikostufe</th>
 </tr>
 </thead>
 <tbody>
@@ -333,8 +333,8 @@ In der folgenden Tabelle sind Dienstkonten aufgelistet, die unter Windows Server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Service</th>
-<th>Anmelden als</th>
+<th style="border:1px solid black;" >Service</th>
+<th style="border:1px solid black;" >Anmelden als</th>
 </tr>
 </thead>
 <tbody>
@@ -879,10 +879,10 @@ In der folgenden Tabelle werden die gängigen Dienste unter Windows Server 2003
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dienst</th>
-<th>Dienstname</th>
-<th>Anmelden als</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Dienst</th>
+<th style="border:1px solid black;" >Dienstname</th>
+<th style="border:1px solid black;" >Anmelden als</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

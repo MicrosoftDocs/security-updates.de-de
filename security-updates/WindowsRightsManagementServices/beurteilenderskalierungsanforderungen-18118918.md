@@ -31,10 +31,10 @@ Sie können die folgenden Zahlen während der Kapazitätsplanung verwenden, um d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transaktion</th>
-<th>Vorkommen</th>
-<th>Client-Server-Bandbreitenverwendung (KB)</th>
-<th>Server-Client-Bandbreitenverwendung (KB)</th>
+<th style="border:1px solid black;" >Transaktion</th>
+<th style="border:1px solid black;" >Vorkommen</th>
+<th style="border:1px solid black;" >Client-Server-Bandbreitenverwendung (KB)</th>
+<th style="border:1px solid black;" >Server-Client-Bandbreitenverwendung (KB)</th>
 </tr>
 </thead>
 <tbody>
@@ -74,9 +74,9 @@ In der folgenden Tabelle sind Basisdaten zur Bandbreitennutzung durch RMS-Transa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transaktion</th>
-<th>Bandbreitennutzung – RMS an globalen Katalog (Byte)</th>
-<th>Bandbreitennutzung – Globaler Katalog an RMS (Byte)</th>
+<th style="border:1px solid black;" >Transaktion</th>
+<th style="border:1px solid black;" >Bandbreitennutzung – RMS an globalen Katalog (Byte)</th>
+<th style="border:1px solid black;" >Bandbreitennutzung – Globaler Katalog an RMS (Byte)</th>
 </tr>
 </thead>
 <tbody>

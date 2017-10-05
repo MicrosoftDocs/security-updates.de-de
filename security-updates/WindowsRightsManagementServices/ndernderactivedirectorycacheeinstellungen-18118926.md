@@ -33,10 +33,10 @@ In der folgenden Tabelle werden die Einträge aufgelistet, die das Verhalten des
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Typ</th>
-<th>Standardwert</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Standardwert</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

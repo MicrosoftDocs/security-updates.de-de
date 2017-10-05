@@ -80,8 +80,8 @@ Die folgende Tabelle enthält die empfohlenen Sicherheitsoptionseinstellungen f�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Unternehmensclient</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
 </tr>
 </thead>
 <tbody>
@@ -154,8 +154,8 @@ In der folgenden Tabelle sind die Zugriffssteuerungslisten des Dateisystems für
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pfad der Zugriffssteuerungsliste in der Benutzeroberfläche</th>
-<th>Unternehmensclient</th>
+<th style="border:1px solid black;" >Pfad der Zugriffssteuerungsliste in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
 </tr>
 </thead>
 <tbody>
@@ -198,9 +198,9 @@ Aufgrund der Bedeutung der Sicherheit von Zertifizierungsstellen wird die Datei�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dateipfad oder Registrierungspfad</th>
-<th>Überwachungstyp</th>
-<th>Überwachungseinstellung</th>
+<th style="border:1px solid black;" >Dateipfad oder Registrierungspfad</th>
+<th style="border:1px solid black;" >Überwachungstyp</th>
+<th style="border:1px solid black;" >Überwachungseinstellung</th>
 </tr>
 </thead>
 <tbody>

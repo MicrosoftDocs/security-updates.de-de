@@ -28,10 +28,10 @@ In der folgenden Tabelle wird ein Eintrag für jeden Protokollierungsdatensatz a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ In der folgenden Tabelle werden zusätzliche Daten für einen Protokollierungsda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -208,10 +208,10 @@ In der folgenden Tabelle werden die Felder aufgelistet, die vom Protokollierungs
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

@@ -131,8 +131,8 @@ Ein erfolgreiches CSIRT besteht aus mehreren Schlüsselmitgliedern.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Außerordentliches Mitglied</th>
-<th>Rollenbeschreibung</th>
+<th style="border:1px solid black;" >Außerordentliches Mitglied</th>
+<th style="border:1px solid black;" >Rollenbeschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -178,12 +178,12 @@ Wenn ein Angriff stattgefunden hat, koordiniert das CSIRT eine Reaktion des Kern
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aktivität</th>
-<th>Rolle</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th style="border:1px solid black;" >Aktivität</th>
+<th style="border:1px solid black;" >Rolle</th>
+<th style="border:1px solid black;" ></th>
+<th style="border:1px solid black;" ></th>
+<th style="border:1px solid black;" ></th>
+<th style="border:1px solid black;" ></th>
 </tr>
 </thead>
 <tbody>

@@ -34,11 +34,11 @@ In der folgenden Tabelle werden die Einträge aufgelistet, die Sie hinzufügen k
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Typ</th>
-<th>Standardwert</th>
-<th>Beschreibung</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Standardwert</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>

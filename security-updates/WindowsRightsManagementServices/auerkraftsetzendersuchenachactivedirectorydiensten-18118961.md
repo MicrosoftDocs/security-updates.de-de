@@ -52,9 +52,9 @@ Die folgende Tabelle enthält die Einträge, die Sie hinzufügen können, um die
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Typ</th>
-<th>Wert</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Wert</th>
 </tr>
 </thead>
 <tbody>
@@ -107,9 +107,9 @@ In der folgenden Tabelle sind die Registrierungsschlüssel aufgeführt, die Sie 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Typ</th>
-<th>Wert</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Wert</th>
 </tr>
 </thead>
 <tbody>

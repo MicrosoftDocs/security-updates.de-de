@@ -24,9 +24,9 @@ Während der Bereitstellung verwendet RMS (Rights Management Services oder Diens
 </colgroup>
 <thead>
 <tr class="header">
-<th>Konto</th>
-<th>Zweck</th>
-<th>Berechtigungen</th>
+<th style="border:1px solid black;" >Konto</th>
+<th style="border:1px solid black;" >Zweck</th>
+<th style="border:1px solid black;" >Berechtigungen</th>
 </tr>
 </thead>
 <tbody>

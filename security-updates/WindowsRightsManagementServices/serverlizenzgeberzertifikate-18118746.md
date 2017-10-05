@@ -26,9 +26,9 @@ In der folgenden Tabelle werden die Rechte aufgelistet, die Servern durch Server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Recht zum Ausstellen von Folgendem</th>
-<th>Server-Lizenzgeberzertifikat für einen Stammzertifizierungsserver</th>
-<th>Server-Lizenzgeberzertifikat für einen Lizenzierungsserver</th>
+<th style="border:1px solid black;" >Recht zum Ausstellen von Folgendem</th>
+<th style="border:1px solid black;" >Server-Lizenzgeberzertifikat für einen Stammzertifizierungsserver</th>
+<th style="border:1px solid black;" >Server-Lizenzgeberzertifikat für einen Lizenzierungsserver</th>
 </tr>
 </thead>
 <tbody>

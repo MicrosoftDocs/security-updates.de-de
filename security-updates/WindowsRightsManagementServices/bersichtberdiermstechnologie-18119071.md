@@ -21,8 +21,8 @@ Ein RMS-System enthält sowohl Server- als auch Clienttechnologien. In der folge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technologie</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Technologie</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

@@ -23,8 +23,8 @@ In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server oder Cluster</th>
-<th>Funktion</th>
+<th style="border:1px solid black;" >Server oder Cluster</th>
+<th style="border:1px solid black;" >Funktion</th>
 </tr>
 </thead>
 <tbody>

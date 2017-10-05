@@ -28,10 +28,10 @@ In der folgenden Tabelle werden Informationen zu ausgeschlossenen Anwendungen au
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -133,10 +133,10 @@ In der folgenden Tabelle werden Informationen zur Nachrichtenwarteschlange aufge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -184,10 +184,10 @@ In der folgenden Tabelle werden Informationen zu Zertifikatstypen aufgelistet, d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -235,10 +235,10 @@ In der folgenden Tabelle werden Informationen zum aktuellen Server-Lizenzgeberze
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -280,10 +280,10 @@ In der folgenden Tabelle werden Informationen zu den Speicherorten für die Clus
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -337,10 +337,10 @@ In der folgenden Tabelle werden Informationen zu den Servern im Cluster aufgelis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -388,10 +388,10 @@ In der folgenden Tabelle werden Informationen zu den ausgeschlossenen Rechtekont
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -457,10 +457,10 @@ In der folgenden Tabelle werden Informationen zum aktiven Server-Lizenzgeberzert
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -520,10 +520,10 @@ Die folgende Tabelle enthält Informationen zum privaten Schlüssel des aktiven 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -607,10 +607,10 @@ In der folgenden Tabelle werden Informationen zu Microsoft® .NET Passport-Kon
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -658,10 +658,10 @@ In der folgenden Tabelle werden Informationen zu Plug-Ins aufgelistet.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -757,10 +757,10 @@ In der folgenden Tabelle werden Informationen zu den Plug-In-Versionen aufgelist
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -802,10 +802,10 @@ In der folgenden Tabelle werden Informationen zu den Plug-In-Eigenschaften aufge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -865,10 +865,10 @@ In der folgenden Tabelle werden Informationen zum Plug-In-Typ aufgelistet.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -916,10 +916,10 @@ In der folgenden Tabelle werden Informationen zu den Vorlagen für Benutzerrecht
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -967,10 +967,10 @@ In der folgenden Tabelle werden Informationen zu vertrauenswürdigen Zertifizier
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -1030,10 +1030,10 @@ In der folgenden Tabelle werden Informationen zu E-Mail-Domänen aufgelistet, di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -1075,10 +1075,10 @@ In der folgenden Tabelle werden Informationen zu vertrauenswürdigen Benutzerdom
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -1156,10 +1156,10 @@ In der folgenden Tabelle werden Informationen zu den XrML-Server-Lizenzgeberzert
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

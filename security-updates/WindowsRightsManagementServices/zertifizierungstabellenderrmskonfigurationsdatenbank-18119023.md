@@ -28,10 +28,10 @@ In der folgenden Tabelle werden Informationen zu den Hardware-IDs für alle Comp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -73,10 +73,10 @@ In der folgenden Tabelle werden Informationen zu den Microsoft .NET Passport-Da
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -112,10 +112,10 @@ In der folgenden Tabelle werden zertifizierte Benutzer mit den entsprechenden Co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ In der folgenden Tabelle werden Informationen zu den Benutzerdaten aufgelistet.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -262,10 +262,10 @@ In der folgenden Tabelle werden die IDs aller authentifizierten und zertifiziert
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Datentyp</th>
-<th>NULL-Werte</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Name</th>
+<th style="border:1px solid black;" >Datentyp</th>
+<th style="border:1px solid black;" >NULL-Werte</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

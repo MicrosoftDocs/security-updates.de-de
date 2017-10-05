@@ -58,8 +58,8 @@ Zum Bereitstellen eines einzelnen RMS-Servers verwenden Sie die folgende Prüfli
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schritt</th>
-<th>Verweis</th>
+<th style="border:1px solid black;" >Schritt</th>
+<th style="border:1px solid black;" >Verweis</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ Verwenden Sie die folgenden Prüflisten zum Bereitstellen der Stammzertifizierun
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schritt</th>
-<th>Verweis</th>
+<th style="border:1px solid black;" >Schritt</th>
+<th style="border:1px solid black;" >Verweis</th>
 </tr>
 </thead>
 <tbody>
@@ -170,8 +170,8 @@ Verwenden Sie die folgenden Prüflisten zum gesamtstrukturübergreifenden Bereit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schritt</th>
-<th>Verweis</th>
+<th style="border:1px solid black;" >Schritt</th>
+<th style="border:1px solid black;" >Verweis</th>
 </tr>
 </thead>
 <tbody>
@@ -219,8 +219,8 @@ Verwenden Sie die folgende Prüfliste zum Implementieren einer Vorlage für Benu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schritt</th>
-<th>Verweis</th>
+<th style="border:1px solid black;" >Schritt</th>
+<th style="border:1px solid black;" >Verweis</th>
 </tr>
 </thead>
 <tbody>
@@ -260,8 +260,8 @@ Verwenden Sie die folgende Prüfliste zum Bereitstellen einer neuen Version des 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schritt</th>
-<th>Verweis</th>
+<th style="border:1px solid black;" >Schritt</th>
+<th style="border:1px solid black;" >Verweis</th>
 </tr>
 </thead>
 <tbody>
@@ -293,8 +293,8 @@ Verwenden Sie die folgende Prüfliste zum Hinzufügen einer vertrauenswürdigen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schritt</th>
-<th>Verweis</th>
+<th style="border:1px solid black;" >Schritt</th>
+<th style="border:1px solid black;" >Verweis</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Verwenden Sie die folgende Prüfliste zum Hinzufügen einer vertrauenswürdigen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schritt</th>
-<th>Verweis</th>
+<th style="border:1px solid black;" >Schritt</th>
+<th style="border:1px solid black;" >Verweis</th>
 </tr>
 </thead>
 <tbody>

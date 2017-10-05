@@ -21,8 +21,8 @@ In der folgenden Tabelle werden die für das RMS-Leistungsobjekt ActivationProxy
 </colgroup>
 <thead>
 <tr class="header">
-<th>Leistungsindikator</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Leistungsindikator</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

@@ -338,8 +338,8 @@ Bestimmen Sie anhand der Informationen in der folgenden Tabelle, welche Pfadrege
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aufgabe</th>
-<th>Empfohlene Regel</th>
+<th style="border:1px solid black;" >Aufgabe</th>
+<th style="border:1px solid black;" >Empfohlene Regel</th>
 </tr>
 </thead>
 <tbody>
@@ -476,10 +476,10 @@ Bei dem in diesem Handbuch definierten Entwurf eines Gruppenrichtlinienobjekts w
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dateierweiterung</th>
-<th>Beschreibung</th>
-<th>Dateierweiterung</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Dateierweiterung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Dateierweiterung</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -617,8 +617,8 @@ In der folgenden Tabelle werden die Optionen für vertrauenswürdige Herausgeber
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellungsname</th>
-<th>Aufgabe</th>
+<th style="border:1px solid black;" >Einstellungsname</th>
+<th style="border:1px solid black;" >Aufgabe</th>
 </tr>
 </thead>
 <tbody>
@@ -677,8 +677,8 @@ In diesem Abschnitt werden die beim Entwerfen und Bereitstellen einer Richtlinie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entscheidung</th>
-<th>Zu berücksichtigende Faktoren</th>
+<th style="border:1px solid black;" >Entscheidung</th>
+<th style="border:1px solid black;" >Zu berücksichtigende Faktoren</th>
 </tr>
 </thead>
 <tbody>
@@ -805,9 +805,9 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Standardregel in der Benutzeroberfläche</th>
-<th>Beschreibung</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Standardregel in der Benutzeroberfläche</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>
@@ -829,8 +829,8 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pfadregel</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Pfadregel</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>
@@ -879,8 +879,8 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Erzwingungsoptionen</th>
-<th>Empfehlung</th>
+<th style="border:1px solid black;" >Erzwingungsoptionen</th>
+<th style="border:1px solid black;" >Empfehlung</th>
 </tr>
 </thead>
 <tbody>
@@ -905,8 +905,8 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dateitypen</th>
-<th>Empfehlung</th>
+<th style="border:1px solid black;" >Dateitypen</th>
+<th style="border:1px solid black;" >Empfehlung</th>
 </tr>
 </thead>
 <tbody>
@@ -927,8 +927,8 @@ Nach ausgiebigen Tests der Richtlinie wenden Sie sie auf die Desktop- oder Lapto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vertrauenswürdige Herausgeber</th>
-<th>Empfehlung</th>
+<th style="border:1px solid black;" >Vertrauenswürdige Herausgeber</th>
+<th style="border:1px solid black;" >Empfehlung</th>
 </tr>
 </thead>
 <tbody>

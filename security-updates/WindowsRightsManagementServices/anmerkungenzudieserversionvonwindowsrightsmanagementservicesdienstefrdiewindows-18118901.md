@@ -30,8 +30,8 @@ Die Hardwareanforderungen für RMS SP2 werden in der folgenden Tabelle aufgefü
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anforderung</th>
-<th>Empfehlung</th>
+<th style="border:1px solid black;" >Anforderung</th>
+<th style="border:1px solid black;" >Empfehlung</th>
 </tr>
 </thead>
 <tbody>
@@ -66,8 +66,8 @@ Die Softwareanforderungen für die Serverkomponente von RMS SP2 werden in der f
 </colgroup>
 <thead>
 <tr class="header">
-<th>Komponente</th>
-<th>Anforderung</th>
+<th style="border:1px solid black;" >Komponente</th>
+<th style="border:1px solid black;" >Anforderung</th>
 </tr>
 </thead>
 <tbody>
@@ -117,8 +117,8 @@ Die Infrastrukturanforderungen für RMS mit SP2-Server werden in der folgenden T
 </colgroup>
 <thead>
 <tr class="header">
-<th>Komponente</th>
-<th>Anforderungen</th>
+<th style="border:1px solid black;" >Komponente</th>
+<th style="border:1px solid black;" >Anforderungen</th>
 </tr>
 </thead>
 <tbody>
@@ -156,8 +156,8 @@ In der folgenden Tabelle werden die zum Ausführen verschiedener Aktivitäten mi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aktivität</th>
-<th>Kontoanforderungen</th>
+<th style="border:1px solid black;" >Aktivität</th>
+<th style="border:1px solid black;" >Kontoanforderungen</th>
 </tr>
 </thead>
 <tbody>
@@ -204,8 +204,8 @@ Wenn Sie RMS in einer Bereitstellung mit Clustern verwenden, beachten Sie die Pu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zustand</th>
-<th>Empfehlung</th>
+<th style="border:1px solid black;" >Zustand</th>
+<th style="border:1px solid black;" >Empfehlung</th>
 </tr>
 </thead>
 <tbody>

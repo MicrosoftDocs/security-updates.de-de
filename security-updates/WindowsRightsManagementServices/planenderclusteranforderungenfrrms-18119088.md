@@ -21,8 +21,8 @@ Wenn Sie RMS in einer Clusterkonfiguration einsetzen, sollten Sie sicherstellen,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Bedingung</th>
-<th>Empfehlung</th>
+<th style="border:1px solid black;" >Bedingung</th>
+<th style="border:1px solid black;" >Empfehlung</th>
 </tr>
 </thead>
 <tbody>

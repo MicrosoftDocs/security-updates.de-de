@@ -70,8 +70,8 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Einstellung</th>
-<th>Betrifft</th>
+<th style="border:1px solid black;" >Name der Einstellung</th>
+<th style="border:1px solid black;" >Betrifft</th>
 </tr>
 </thead>
 <tbody>
@@ -189,8 +189,8 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Einstellung</th>
-<th>Betrifft</th>
+<th style="border:1px solid black;" >Name der Einstellung</th>
+<th style="border:1px solid black;" >Betrifft</th>
 </tr>
 </thead>
 <tbody>
@@ -264,8 +264,8 @@ In der folgenden Tabelle sind eine Reihe von 2007 Office-Einstellungen aufgefhrt
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Einstellung</th>
-<th>Betrifft</th>
+<th style="border:1px solid black;" >Name der Einstellung</th>
+<th style="border:1px solid black;" >Betrifft</th>
 </tr>
 </thead>
 <tbody>

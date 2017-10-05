@@ -593,8 +593,8 @@ Die folgende Tabelle enthält einige Fehlerbehebungsrichtlinien für die Smartca
 </colgroup>
 <thead>
 <tr class="header">
-<th>Problem</th>
-<th>Lösung</th>
+<th style="border:1px solid black;" >Problem</th>
+<th style="border:1px solid black;" >Lösung</th>
 </tr>
 </thead>
 <tbody>

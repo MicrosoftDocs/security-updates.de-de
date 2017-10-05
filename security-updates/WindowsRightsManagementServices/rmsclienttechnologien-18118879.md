@@ -23,10 +23,10 @@ Clientcomputer in einer RMS-Bereitstellung verwenden die folgenden Technologien,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technologie</th>
-<th>Beschreibung</th>
-<th>Ausgegeben von</th>
-<th>Weitere Informationen</th>
+<th style="border:1px solid black;" >Technologie</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Ausgegeben von</th>
+<th style="border:1px solid black;" >Weitere Informationen</th>
 </tr>
 </thead>
 <tbody>

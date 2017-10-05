@@ -182,8 +182,8 @@ Ereignis-Header umfassen die folgenden Felder:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Feld</th>
-<th>Definition</th>
+<th style="border:1px solid black;" >Feld</th>
+<th style="border:1px solid black;" >Definition</th>
 </tr>
 </thead>
 <tbody>
@@ -597,9 +597,9 @@ Eine der Entscheidungen, die ein Unternehmen zur Schadensbegrenzung treffen muss
 </colgroup>
 <thead>
 <tr class="header">
-<th>Speicherungsfaktoren</th>
-<th>Speichergrenzen</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Speicherungsfaktoren</th>
+<th style="border:1px solid black;" >Speichergrenzen</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -817,9 +817,9 @@ Die folgende Tabelle enthält eine Liste von Anmeldeüberwachungsereignissen, di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -899,9 +899,9 @@ Andere Malwareangriffe können in Form von E-Mail-Anhängen oder infizierten Web
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -948,9 +948,9 @@ Die Objektzugriff-Überwachungsereignisse in der folgenden Tabelle betreffen der
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -982,9 +982,9 @@ Kennwortänderungen sollten ausschließlich innerhalb eines genehmigten Rahmens 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1021,9 +1021,9 @@ Jede Kontoänderung, -hinzufügung und -löschung sollte in Einklang mit einem e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1079,9 +1079,9 @@ Die Kontoverwaltungsüberwachungsereignisse in der folgenden Tabelle beziehen si
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1134,9 +1134,9 @@ Die folgende Tabelle bietet eine Übersicht über Ereignisse, die mit nicht auto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1200,9 +1200,9 @@ Die folgende Tabelle enthält Kontoanmeldungs- und Anmeldeüberwachungsereigniss
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1246,9 +1246,9 @@ Die folgende Tabelle enthält Prozessverfolgungsereignisse, mit denen die Verwen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1282,9 +1282,9 @@ Die folgende Tabelle mit Objektzugriff-Überwachungsereignissen betrifft Zugriff
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1342,9 +1342,9 @@ Die Prozessverfolgungsereignisse in der folgenden Tabelle können zur Ermittlung
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1383,9 +1383,9 @@ Die Richtlinienänderung-Überwachungsereignisse in der folgenden Tabelle dienen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1446,9 +1446,9 @@ Die folgende Tabelle enthält Richtlinienänderung-Überwachungsereignisse, mit 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1495,9 +1495,9 @@ Die folgende Tabelle enthält eine Auflistung von Ereignissen, die infolge von A
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1570,9 +1570,9 @@ Zusätzlich zu den bereits erwähnten Ereignissen umfassen die beachtenswerteste
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1616,9 +1616,9 @@ Die folgende Tabelle enthält mehrere Ereignistypen, mit denen Versuche der Übe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1738,9 +1738,9 @@ Die in der folgenden Tabelle enthaltenen Ereignisse werden normalerweise von Sic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ereignis-ID</th>
-<th>Auftreten</th>
-<th>Anmerkungen</th>
+<th style="border:1px solid black;" >Ereignis-ID</th>
+<th style="border:1px solid black;" >Auftreten</th>
+<th style="border:1px solid black;" >Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -1853,9 +1853,9 @@ Dieser Anhang kann zur Überprüfung der aktuellen Einstellungen in einer Umgebu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Richtlinienpfad</th>
-<th>Richtlinie</th>
-<th>Richtlinieneinstellung und Anmerkungen</th>
+<th style="border:1px solid black;" >Richtlinienpfad</th>
+<th style="border:1px solid black;" >Richtlinie</th>
+<th style="border:1px solid black;" >Richtlinieneinstellung und Anmerkungen</th>
 </tr>
 </thead>
 <tbody>

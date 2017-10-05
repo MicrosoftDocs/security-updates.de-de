@@ -774,8 +774,8 @@ Microsoft-Datenschutztechnologien verknüpfen Entschlüsselungsschlüssel nicht 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anforderung</th>
-<th>Technologielösungsbereiche</th>
+<th style="border:1px solid black;" >Anforderung</th>
+<th style="border:1px solid black;" >Technologielösungsbereiche</th>
 </tr>
 </thead>
 <tbody>

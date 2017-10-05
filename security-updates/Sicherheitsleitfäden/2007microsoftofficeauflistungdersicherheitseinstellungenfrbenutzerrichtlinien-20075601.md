@@ -103,8 +103,8 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren die ActiveX-Si
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Wert</strong></th>
-<th><strong>Erläuterung</strong></th>
+<th style="border:1px solid black;" ><strong>Wert</strong></th>
+<th style="border:1px solid black;" ><strong>Erläuterung</strong></th>
 </tr>
 </thead>
 <tbody>

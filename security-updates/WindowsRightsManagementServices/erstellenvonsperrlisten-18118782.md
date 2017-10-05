@@ -175,8 +175,8 @@ Verwenden Sie zur Vervollständigung der Eingabeparameter des Befehls die folgen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -222,8 +222,8 @@ In den folgenden Beispielen wird beschrieben, wie Sie „RLsigner.exe“ an eine
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rückgabecode</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Rückgabecode</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>

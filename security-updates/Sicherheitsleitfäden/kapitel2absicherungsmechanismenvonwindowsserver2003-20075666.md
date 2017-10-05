@@ -338,9 +338,9 @@ In der folgenden Tabelle werden die in diesem Kapitel definierten Serverrollen u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Serverrolle</th>
-<th>Beschreibung</th>
-<th>Dateiname der Sicherheitsvorlage</th>
+<th style="border:1px solid black;" >Serverrolle</th>
+<th style="border:1px solid black;" >Beschreibung</th>
+<th style="border:1px solid black;" >Dateiname der Sicherheitsvorlage</th>
 </tr>
 </thead>
 <tbody>
@@ -422,8 +422,8 @@ Durch die empfohlenen Organisationseinheiten und Richtlinien, die im vorigen Abs
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name der Organisationseinheit</th>
-<th>Administrative Gruppe</th>
+<th style="border:1px solid black;" >Name der Organisationseinheit</th>
+<th style="border:1px solid black;" >Administrative Gruppe</th>
 </tr>
 </thead>
 <tbody>

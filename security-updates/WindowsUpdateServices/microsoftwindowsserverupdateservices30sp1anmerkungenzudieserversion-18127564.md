@@ -149,8 +149,8 @@ Stellen Sie sicher, dass der WSUS 3.0 SP1-Server diese Liste mit Anforderungen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anforderung</th>
-<th>Details</th>
+<th style="border:1px solid black;" >Anforderung</th>
+<th style="border:1px solid black;" >Details</th>
 </tr>
 </thead>
 <tbody>
@@ -237,8 +237,8 @@ Sie können unbeaufsichtigte Installationen von WSUS 3.0 SP1 mithilfe des Befeh
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -277,8 +277,8 @@ Diese Tabelle führt die Befehlszeileneigenschaften für WSUS 3.0 SP1 auf.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Eigenschaft</th>
-<th>Beschreibung</th>
+<th style="border:1px solid black;" >Eigenschaft</th>
+<th style="border:1px solid black;" >Beschreibung</th>
 </tr>
 </thead>
 <tbody>
@@ -529,8 +529,8 @@ WSUS 3.0 SP1 unterstützt die 32-Bit- und 64-Bit-Versionen von Windows Server 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anforderung</th>
-<th>Details</th>
+<th style="border:1px solid black;" >Anforderung</th>
+<th style="border:1px solid black;" >Details</th>
 </tr>
 </thead>
 <tbody>

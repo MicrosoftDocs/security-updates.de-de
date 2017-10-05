@@ -49,9 +49,9 @@ Für die zuvor in diesem Handbuch beschriebenen Serverrollen wurden Gruppenricht
 </colgroup>
 <thead>
 <tr class="header">
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -85,8 +85,8 @@ Die Datei „Hochsicher - Bastion-Host.inf“ enthält die BHLP-Zuweisungen von
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zuweisen von Benutzerrechten</th>
-<th>Einstellung</th>
+<th style="border:1px solid black;" >Zuweisen von Benutzerrechten</th>
+<th style="border:1px solid black;" >Einstellung</th>
 </tr>
 </thead>
 <tbody>
@@ -145,10 +145,10 @@ Das vordefinierte Administratorkonto kann außerdem entsprechend den Empfehlunge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
@@ -199,10 +199,10 @@ Die Auswirkung dieser Konfigurationsänderung hat sich in den letzten Jahren nac
 </colgroup>
 <thead>
 <tr class="header">
-<th>Einstellung</th>
-<th>Älterer Client</th>
-<th>Unternehmensclient</th>
-<th>Hochsicher (SSLF)</th>
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
 </tr>
 </thead>
 <tbody>
