@@ -15,8 +15,8 @@ Veröffentlicht: 11. Nov 2007
  
 
 Die Einstellungen im folgenden Abschnitt sind nach Namen aufgeführt.
-Auf dieser Seite
 
+Auf dieser Seite  
 [Informationen zu Benutzerrichtlinieneinstellungen](#ecd)    
 
 
@@ -262,9 +262,9 @@ Betrifft: **2007 Office System**
 
 Diese Einstellung steuert, ob Excel 2007 bestimmte Datentypen in Arbeitsmappen mit Smarttags kennzeichnet.
 
-**Wichtig:**
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
-Die Einstellung „Smarttags erkennen“ in „Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Verschiedenes“ funktioniert nicht wie vorgesehen und beeinträchtigt die Konfiguration der Einstellung „Smarttags in Excel erkennen“, wenn diese verwendet wird. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103492)  .
+Die Einstellung „Smarttags erkennen“ in „Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Verschiedenes“ funktioniert nicht wie vorgesehen und beeinträchtigt die Konfiguration der Einstellung „Smarttags in Excel erkennen“, wenn diese verwendet wird. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103492).
 
 #### Sicherheitsrisiko
 
@@ -392,7 +392,7 @@ Beim Speichern von VML-Grafiken speichern 2007 Office-Anwendungen standardmäßi
 
 Wenn diese Einstellung **deaktiviert** ist, wird das Kontrollkästchen **Für Grafikdarstellung in Browsern auf VML vertrauen** im Dialogfeld **Weboptionen** in Excel 2007, PowerPoint 2007 und Word 2007 nicht aktiviert, und Benutzer können die Einstellung nicht ändern.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Ist die Einstellung **aktiviert**, generieren 2007 Office-Anwendungen beim Speichern von Dokumenten als Webseiten keine alternativen Dateien für VML-Grafiken, was die Anzeige der Grafiken für Webseitenleser erschweren kann.
 
@@ -514,7 +514,7 @@ Standardmäßig klassifiziert Outlook eine Reihe von potenziell schädlichen Dat
 
 Wenn diese Einstellung **aktiviert** ist, können Administratoren mindestens eine der Erweiterungen in der Standardliste außer Kraft setzen, indem sie diese in das angezeigte Textfeld eingeben. Daraufhin werden die Erweiterungen effektiv aus der Liste entfernt. Mehrere Erweiterungen können durch ein Semikolon getrennt werden.
 
-**Wichtig:**
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn aus der Standardliste für Ebene 1 Erweiterungen entfernt werden, können Benutzer potenziell gefährliche Dateien öffnen, was die Sicherheit bedeutend verringern kann.
 
@@ -618,7 +618,7 @@ CCE-1631
 
 Die empfohlene Einstellung für EC- und SSLF-Umgebungen ist **Deaktiviert**. Alle bereits in der Liste enthaltenen Erweiterungen werden ignoriert, sodass Outlook 2007 den Zugriff darauf erneut blockiert. Diese Konfiguration könnte Benutzer beeinträchtigen, die für gewöhnlich derartige Dateien versenden und empfangen.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Sie können Exchange-Sicherheitsformulareinstellungen auch konfigurieren, indem Sie die Einstellung „Outlook-Sicherheitsmodus“ in „Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Microsoft Office Outlook 2007-Sicherheit“ aktivieren und **Outlook-Sicherheitsgruppenrichtlinie verwenden** aus der Dropdownliste auswählen.
 
@@ -634,7 +634,7 @@ Schädlicher Code wird oft per E-Mail verbreitet. Einige Viren können Kopien vo
 
 Outlook 2007 verwendet zwei Sicherheitsebenen, um den Zugriff von Benutzern auf Dateien einzuschränken, die E-Mail-Nachrichten oder anderen Elementen angehängt sind. Dateien mit bestimmten Erweiterungen können als Ebene 1 (Benutzer können die Datei nicht anzeigen) oder Ebene 2 (Benutzer können die Datei öffnen, nachdem sie auf den Datenträger gespeichert wurde) kategorisiert werden. Benutzer können ohne Einschränkung Dateien jeden Typs öffnen, der nicht als Ebene 1 oder Ebene 2 kategorisiert ist.
 
-Standardmäßig klassifiziert Outlook eine Reihe von potenziell schädlichen Dateitypen als Ebene 1. (Die vollständige Liste finden Sie in der Liste der [Anlagedateitypen, die von Outlook 2007 gesperrt werden](http://technet2.microsoft.com/office/en-us/library/bc667b4c-1645-42be-8dc0-af56dc11ef5b1033.mspx)  .) Outlook klassifiziert standardmäßig keine Dateitypen als Ebene 2, deshalb ist diese Einstellung allein genommen nicht besonders nützlich. Falls Erweiterungen in der Liste der Ebene 2 enthalten sind, wurden diese in der Regel über die Einstellung „Als Ebene 2 zu blockierende Dateierweiterungen hinzufügen“ eingefügt, über die sie wieder entfernt werden können.
+Standardmäßig klassifiziert Outlook eine Reihe von potenziell schädlichen Dateitypen als Ebene 1. (Die vollständige Liste finden Sie in der Liste der [Anlagedateitypen, die von Outlook 2007 gesperrt werden](http://technet2.microsoft.com/office/en-us/library/bc667b4c-1645-42be-8dc0-af56dc11ef5b1033.mspx).) Outlook klassifiziert standardmäßig keine Dateitypen als Ebene 2, deshalb ist diese Einstellung allein genommen nicht besonders nützlich. Falls Erweiterungen in der Liste der Ebene 2 enthalten sind, wurden diese in der Regel über die Einstellung „Als Ebene 2 zu blockierende Dateierweiterungen hinzufügen“ eingefügt, über die sie wieder entfernt werden können.
 
 Die von Outlook verwendeten kombinierten Listen mit blockierten und eingeschränkten Dateierweiterungen werden eigentlich durch Zusammenlegung verschiedener Richtlinien aufgestellt. Wenn eine Computerrichtlinie eine Erweiterung als Ebene 2 klassifiziert, könnte die Erweiterung in einigen Situationen mithilfe dieser Einstellung aus der Liste entfernt werden. Wie bei den Erweiterungen der Ebene 1 erleichtert das Entfernen von Einschränkungen für potenziell gefährliche Erweiterungen Benutzern allerdings das Öffnen gefährlicher Dateien, wodurch sich die Sicherheit deutlich verringern kann.
 
@@ -758,7 +758,7 @@ Standardmäßig versendet Outlook 2007 nur dann S/MIME-Bestätigungsanforderunge
 
 Wenn diese Einstellung **aktiviert** ist, fordert Outlook 2007 S/MIME-Bestätigungen an, wenn das Programm mit S/MIME signierte Nachrichten versendet, und Benutzer können diese Einstellung nicht ändern.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Ist die Einstellung **deaktiviert**, fordert Outlook beim Versenden signierter Nachrichten nicht automatisch S/MIME-Bestätigungen an, aber Benutzer können dennoch Bestätigungsanforderungen in einzelne Nachrichten einfügen.
 
@@ -862,7 +862,7 @@ CCE-153
 
 Wenn ein Benutzer eine Nachricht mit einer S/MIME-Bestätigungsanforderung sendet, wird die Bestätigung als Nachricht in den Posteingang des Benutzers übermittelt. Die Aktivierung dieser Einstellung führt dazu, dass Benutzer für jede versendete signierte Nachricht eine S/MIME-Bestätigung erhalten, es sei denn, die Empfänger können keine Bestätigungen generieren oder entscheiden sich gegen das Versenden der Bestätigung. Diese Konfiguration verursacht bei einigen Benutzern möglicherweise einen deutlichen Anstieg des E-Mail-Aufkommens.
 
-**Wichtig:**
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn die Einstellung „Alle E-Mail-Nachrichten signieren“ aktiviert ist, wie es bei der SSLF-Konfiguration der Fall ist, kann die Aktivierung dieser Einstellung die E-Mail-Infrastruktur erheblich belasten. Berücksichtigen Sie Ihre Anforderungen und Fähigkeiten, bevor Sie beide Einstellungen aktivieren.
 
@@ -987,9 +987,9 @@ CCE-1658
 
 Wenn diese Einstellung **aktiviert** ist, müssen Sie sich vergewissern, dass der vollständige, oben aufgelistete Satz Verschlüsselungsstandards und Algorithmen bereitgestellt wird und für die Benutzer in Ihrem Unternehmen verfügbar ist. Andernfalls werden sie einige S/MIME-Vorgänge nicht abschließen können.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
-Weitere Informationen über Suite B finden Sie in den [Fakten zur NSA Suite-B-Kryptografie (in englischer Sprache)](http://www.nsa.gov/ia/industry/crypto_suite_b.cfm)  .
+Weitere Informationen über Suite B finden Sie in den [Fakten zur NSA Suite-B-Kryptografie (in englischer Sprache)](http://www.nsa.gov/ia/industry/crypto_suite_b.cfm).
 
 ### Anwendungs-Add-Ins müssen von einem vertrauenswürdigen Herausgeber signiert sein
 
@@ -1005,7 +1005,7 @@ Standardmäßig führen 2007 Office-Anwendungen keine Überprüfung der digitale
 
 Wenn diese Einstellung **aktiviert** ist, überprüfen die angegebenen Anwendungen vor dem Laden die digitale Signatur für jedes Add-In. Wenn ein Add-In nicht digital signiert ist oder die Signatur nicht von einem vertrauenswürdigen Herausgeber stammt, deaktiviert die Anwendung das Add-In und benachrichtigt den Benutzer.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Microsoft bietet vier Zertifikate für die 2007 Office-Version an, die Sie der Liste vertrauenswürdiger Herausgeber hinzufügen können. Diese Zertifikate müssen der Liste vertrauenswürdiger Herausgeber hinzugefügt werden, wenn Sie digitale Signaturen von einem vertrauenswürdigen Herausgeber für alle Add-Ins verlangen. Wenn Sie die Zertifikate nicht der Liste vertrauenswürdiger Herausgeber hinzufügen und digitale Signaturen von einem vertrauenswürdigen Herausgeber für alle Add-Ins verlangen, werden Benutzern bei der Verwendung verschiedener Anwendungen und Anwendungsfunktionen möglicherweise Benachrichtigungen in der Statusleiste und in Dialogfeldern angezeigt. Diese Benachrichtigungen werden angezeigt, weil einige Anwendungen integrierte Add-Ins verwenden, die mit der 2007 Office-Version ausgeliefert werden. Wenn die Zertifikate für diese Add-Ins nicht der Liste vertrauenswürdiger Herausgeber hinzugefügt werden und Benutzer die Add-Ins aufrufen, werden die Add-Ins deaktiviert und die Benutzer aufgefordert, sie zu aktivieren. Die Zertifikate von Microsoft haben die Namen „Mscert01.cer“, „Mscert02.cer“, „Mscert03.cer“ und „Mscert04.cer“ und können von der Microsoft-Website heruntergeladen werden.
 
@@ -1025,14 +1025,14 @@ Microsoft bietet vier Zertifikate für die 2007 Office-Version an, die Sie der L
 <td>
 
 
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter
-
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Word-Optionen\Sicherheit\Vertrauensstellungscenter
 
 </td>
@@ -1117,7 +1117,7 @@ Access: CCE-1476Excel: CCE-1524InfoPath: CCE-1157PowerPoint: CCE-1107Word: CCE-1
 
 Die Aktivierung dieser Einstellung kann Beeinträchtigungen für Benutzer verursachen, die mit Add-Ins arbeiten, die nicht von vertrauenswürdigen Herausgebern signiert sind. Diese Benutzer müssen entweder signierte Versionen der Add-Ins erwerben oder die Verwendung der Add-Ins einstellen.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die 2007 Office-Version speichert Zertifikate für vertrauenswürdige Herausgeber in der Aufstellung der vertrauenswürdigen Herausgeber von Internet Explorer. In früheren Versionen von Office wurden Informationen zu Zertifikaten für vertrauenswürdige Herausgeber (insbesondere den Zertifikatfingerabdruck) in einer speziellen Office-Aufstellung der vertrauenswürdigen Herausgeber gespeichert. Die 2007 Office-Version liest weiterhin Informationen zu Zertifikaten für vertrauenswürdige Herausgeber aus der Office-Aufstellung der vertrauenswürdigen Herausgeber, schreibt aber keine Informationen in diese Aufstellung.
 
@@ -1142,7 +1142,8 @@ Standardmäßig vertraut Outlook 2007 allen Zertifizierungsstellen, die durch Ze
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, können Administratoren eine erforderliche Zertifizierungsstelle angeben, indem sie einen definierten X.509-Namen in das bereitgestellte Textfeld eingeben. Der Name muss exakt dem X.509-Zertifikatformat entsprechen. Zum Beispiel:
-CN = WoodgroveBankCA, DC = WoodgroveBank, DC = com  
+
+`CN = WoodgroveBankCA, DC = WoodgroveBank, DC = com` 
 
 **Tabelle 1.201: Erforderliche Zertifizierungsstelle**
 
@@ -1718,7 +1719,7 @@ CCE-1018
 
 Die Aktivierung dieser Einstellung schränkt die Algorithmen ein, die Outlook 2007 für die Signierung und Verschlüsselung von Nachrichten verwenden kann. Wenn Ihr Unternehmen verschiedene kryptografische Standards einhält, können Benutzer durch die Aktivierung des FIPS-kompatiblen Modus diese Standards möglicherweise nicht erfüllen.
 
-Weitere Informationen über FIPS finden Sie in den [allgemeinen Informationen zu FIPS (möglicherweise in englischer Sprache)](http://www.itl.nist.gov/fipspubs/geninfo.htm)  .
+Weitere Informationen über FIPS finden Sie in den [allgemeinen Informationen zu FIPS (möglicherweise in englischer Sprache)](http://www.itl.nist.gov/fipspubs/geninfo.htm).
 
 ### Programme ausführen
 
@@ -2408,7 +2409,7 @@ Nicht konfiguriert
 <td>
 
 
-Aktiviert – Excel-Arbeitsmappe (*.xlsx).
+Aktiviert – Excel-Arbeitsmappe (\*.xlsx).
 
 </td>
 
@@ -2438,7 +2439,7 @@ CCE-1039
 
 Die empfohlene Einstellung für die SSLF-Umgebung sieht **Excel-Arbeitsmappe (*.xlsx)** als Standarddateiformat für das Speichern von Arbeitsmappen vor. Die Konfiguration setzt die Standardkonfiguration in Excel 2007 durch und sollte daher für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die Aktivierung dieser Einstellung und die Auswahl eines anderen Formats als Standardformat für Excel 2007 verhindert nicht, dass Benutzer Dateien in anderen Formaten speichern können.
 
@@ -2593,7 +2594,7 @@ PowerPoint: CCE-1719Word: CCE-1656
 
 Die empfohlenen Einstellungen für die SSLF-Umgebung erzwingen die Standardkonfiguration in PowerPoint 2007 und Word 2007 und sollte deshalb für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die Aktivierung dieser Einstellung und die Auswahl eines anderen Formats als das Standardformat für Word 2007 und PowerPoint 2007 verhindert nicht, dass Benutzer Dateien in anderen Formaten speichern.
 
@@ -2612,11 +2613,12 @@ Um Benutzer vor gefährlichem Code zu schützen, werden bei der Standardkonfigur
 Wenn diese Einstellung **aktiviert** ist, stehen Administratoren vier Optionen für die Handhabung von Makros in Outlook 2007 zur Verfügung:
 * **Immer warnen**. Diese Option entspricht der Option **Warnungen für alle Makros** im Bereich **Makrosicherheit** des Outlook-Vertrauensstellungscenters. Outlook deaktiviert alle Makros, die nicht von einem vertrauenswürdigen Speicherort aus geöffnet werden, selbst wenn die Makros von einem vertrauenswürdigen Herausgeber signiert sind. Für jedes deaktivierte Makro zeigt Outlook ein Dialogfeld mit einer Sicherheitswarnung an, das Informationen über das Makro und seine digitale Signatur (wenn vorhanden) enthält. Benutzer können das Makro dann entweder aktivieren oder deaktiviert lassen.
 * **Nie warnen, alle deaktivieren**. Diese Option entspricht der Option **Keine Warnungen und alle Makros deaktivieren** im Vertrauensstellungscenter. Outlook deaktiviert alle Makros, die nicht von vertrauenswürdigen Speicherorten aus geöffnet werden und gibt keine Benachrichtigung an Benutzer aus.
-* **Warnung für signierte, nicht signierte deaktivieren**. Diese Option entspricht der Option **Warnungen für signierte Makros. Alle nicht signierten Makros sind deaktiviert** im Vertrauensstellungscenter. Outlook verarbeitet Makros wie folgt:* Wenn ein Makro von einem vertrauenswürdigen Herausgeber digital signiert ist, kann das Makro ausgeführt werden, wenn der Benutzer dem Herausgeber bereits vertraut hat.
-* Wenn ein Makro eine gültige Signatur von einem Herausgeber hat, dem der Benutzer nicht vertraut hat, lässt das Dialogfeld mit der Sicherheitswarnung für das Makro den Benutzer auswählen, ob das Makro für die aktuelle Sitzung aktiviert oder deaktiviert oder der Herausgeber der Liste vertrauenswürdiger Herausgeber hinzugefügt werden soll, sodass es in Zukunft ohne Aufforderung an den Benutzer ausgeführt wird.
-* Wenn ein Makro keine gültige Signatur besitzt, deaktiviert Outlook das Makro, ohne eine Bestätigung des Benutzers anzufordern, es sei denn, es wird von einem vertrauenswürdigen Speicherort aus geöffnet.
+* **Warnung für signierte, nicht signierte deaktivieren**. Diese Option entspricht der Option **Warnungen für signierte Makros. Alle nicht signierten Makros sind deaktiviert** im Vertrauensstellungscenter. Outlook verarbeitet Makros wie folgt:
+    * Wenn ein Makro von einem vertrauenswürdigen Herausgeber digital signiert ist, kann das Makro ausgeführt werden, wenn der Benutzer dem Herausgeber bereits vertraut hat.
+    * Wenn ein Makro eine gültige Signatur von einem Herausgeber hat, dem der Benutzer nicht    vertraut hat, lässt das Dialogfeld mit der Sicherheitswarnung für das Makro den Benutzer auswählen, ob das Makro für die aktuelle Sitzung aktiviert oder deaktiviert oder der Herausgeber der Liste vertrauenswürdiger Herausgeber hinzugefügt werden soll, sodass es in Zukunft ohne Aufforderung an den Benutzer ausgeführt wird.
+    * Wenn ein Makro keine gültige Signatur besitzt, deaktiviert Outlook das Makro, ohne eine Bestätigung des Benutzers anzufordern, es sei denn, es wird von einem vertrauenswürdigen Speicherort aus geöffnet.
 
-Diese Option ist die Standardkonfiguration in Outlook 2007.
+  Diese Option ist die Standardkonfiguration in Outlook 2007.
 
 * **Keine Sicherheitsüberprüfung**. Diese Option entspricht der Option **Keine Sicherheitsüberprüfung für Makros (nicht empfohlen)** im Vertrauensstellungscenter. Outlook führt alle Makros aus, ohne den Benutzer zur Bestätigung aufzufordern. Diese Konfiguration führt dazu, dass die Computer von Benutzern anfällig für potenziell schädlichen Code werden, und ist nicht empfehlenswert.
 
@@ -3076,7 +3078,7 @@ CCE-1596
 
 Die Aktivierung von **Nicht zulassen** verhindert, dass Outlook 2007 Anwesenheitsindikatoren anzeigt. Benutzern wird es dadurch möglicherweise erschwert, andere zu kontaktieren oder deren Verfügbarkeit sicherzustellen. Die anderen Optionen dürften für die meisten Benutzer keine größeren Nutzbarkeitsprobleme verursachen.
 
-**Wichtig:**
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Diese Einstellung wird außer Kraft gesetzt, wenn die Einstellung „Onlinestatus für Personennamen anzeigen“ aktiviert ist. Die Einstellung „Onlinestatus für Personennamen anzeigen“ konfiguriert Anwesenheitsoptionen für alle betroffenen Benutzer und verhindert, dass Benutzer diese ändern können. Weitere Informationen zu dieser Einstellung finden Sie unter dem entsprechenden Eintrag in diesem Handbuch.
 
@@ -3905,7 +3907,7 @@ CCE-1572
 
 Die optimale Auswahl für diese Einstellung hängt von den Richtlinien und Standards des jeweiligen Unternehmens ab. Ein Unternehmen kann entscheiden, die Office-Standardsignaturzeilen zu unterdrücken, um die Nutzung einer benutzerdefinierten Signaturzeile durchzusetzen, die den bestimmten Anforderungen des Unternehmens entspricht. (Ein Unternehmen kann beispielsweise eine Signaturzeile implementieren, die einen stärkeren Hashalgorithmus als SHA1 verwendet, der von den Standardsignaturzeilen benutzt wird.)
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Diese Einstellung betrifft nur sichtbare Signaturzeilen in Excel 2007-Arbeitsmappen und Word 2007-Dokumenten. Sie wirkt sich nicht auf Möglichkeit aus, dass Benutzer Excel 2007-Arbeitsmappen, PowerPoint 2007-Präsentationen und Word 2007-Dokumenten unsichtbare digitale Signaturen hinzufügen können.
 
@@ -4043,7 +4045,7 @@ Standardmäßig lassen Excel, Word und PowerPoint nicht zu, dass Automatisierung
 
 Wenn diese Einstellung **deaktiviert** ist, wird das Kontrollkästchen **Zugriff auf das VBA-Projektobjektmodell vertrauen** deaktiviert, und Benutzer können diese Einstellung nicht ändern.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Durch die Deaktivierung dieser Einstellung können VSTO-Projekte in der ausgewählten Anwendung nicht richtig mit dem VBA-Projektsystem interagieren.
 
@@ -4063,10 +4065,10 @@ Durch die Deaktivierung dieser Einstellung können VSTO-Projekte in der ausgewä
 <td>
 
 
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter
-
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Word-Optionen\Sicherheit\Vertrauensstellungscenter
 
 </td>
@@ -4271,9 +4273,9 @@ Betrifft: **Outlook**
 
 Diese Einstellung steuert, ob Smarttags für Personennamen in Outlook 2007 angezeigt werden.
 
-**Wichtig:**
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
-Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103514)  .
+Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103514).
 
 #### Sicherheitsrisiko
 
@@ -4513,7 +4515,7 @@ Wenn PowerPoint eine Präsentation öffnet, stellt das Programm standardmäßig 
 
 Wenn diese Einstellung **deaktiviert** ist, lädt PowerPoint 2007 keine Bilder, die an Remotespeicherorten gespeichert sind.
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn diese Einstellung **aktiviert** ist, lädt PowerPoint 2007 Bilder, die an Remotespeicherorten gespeichert sind, was möglicherweise die Sicherheit verringert.
 
@@ -4631,9 +4633,9 @@ Standardmäßig unterstreicht Access 2007 Hyperlinks, die in Tabellen, Abfragen,
 
 Wenn diese Einstellung **aktiviert** ist, unterstreicht Access 2007 alle Hyperlinks in Tabellen, Abfragen, Formularen und Berichten, wenn diese erstellt werden, und setzt alle Konfigurationsänderungen auf den Computern von Benutzern außer Kraft.
 
-**Wichtig:**
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
-Die Aktivierung oder Deaktivierung dieser Einstellung führt nicht zu der ordnungsgemäßen Deaktivierung des Kontrollkästchens **Hyperlinks unterstreichen** im Dialogfeld **Weboptionen** in Access 2007, wodurch Benutzer fälschlicherweise davon ausgehen könnten, dass die Option weiterhin durch den Benutzer konfigurierbar bleibt. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103507)  .
+Die Aktivierung oder Deaktivierung dieser Einstellung führt nicht zu der ordnungsgemäßen Deaktivierung des Kontrollkästchens **Hyperlinks unterstreichen** im Dialogfeld **Weboptionen** in Access 2007, wodurch Benutzer fälschlicherweise davon ausgehen könnten, dass die Option weiterhin durch den Benutzer konfigurierbar bleibt. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103507).
 
 **Tabelle 1.230: Hyperlinks unterstreichen**
 
@@ -5116,12 +5118,12 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren vier Optionen z
 <td>
 
 
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter
-
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Word-Optionen\Sicherheit\Vertrauensstellungscenter
 
 </td>
@@ -5206,7 +5208,7 @@ Access: CCE-427Excel: CCE-649PowerPoint: CCE-567 Word: CCE-659
 
 Die empfohlene Einstellung für die SSLF-Umgebung ist **Vertrauensstellungsleistenwarnung nur für digital signierte Makros (nicht signierte Makros werden deaktiviert)**. Diese Konfiguration führt dazu, dass Dokumente und Vorlagen, die nicht signierte Makros enthalten, alle von diesen Makros bereitgestellte Funktionalität verlieren. Um diesen Funktionalitätsverlust zu verhindern, können Benutzer die Makros an einem vertrauenswürdigen Speicherort installieren, es sei denn, die Option **Alle vertrauenswürdigen Speicherorte deaktivieren** ist auf **Aktiviert** gesetzt. Wenn Ihr Unternehmen keine offiziell genehmigten Makros verwendet, überlegen Sie, ob Sie für eine höhere Sicherheit die Option **Keine Warnungen für alle Makros, aber alle Makros deaktivieren** auswählen sollten.
 
-**Wichtig:**
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn **Vertrauensstellungsleistenwarnung nur für digital signierte Makros (nicht signierte Makros werden deaktiviert)** aktiviert ist, können Benutzer nicht signierte Access 2007-Datenbanken nicht öffnen.
 
@@ -5272,7 +5274,3 @@ Zum Seitenanfanq
 </tr>
 
 </table>
-
-
-
-
