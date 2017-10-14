@@ -22,10 +22,10 @@ Eine sichere Desktopkonfiguration ist ein wichtiger Bestandteil der tief greifen
 
 ##### Auf dieser Seite
 
-[Zugrunde liegende Sicherheitsprinzipien](#eyd)
-[Neuerungen und Änderungen in der 2007 Office-Version](#eng)
-[Risiken und Bedrohungen](#egac)
-[Die Merkmale einer sicheren 2007 Office-Umgebung](#egbc)
+[Zugrunde liegende Sicherheitsprinzipien](#eyd)  
+[Neuerungen und Änderungen in der 2007 Office-Version](#eng)  
+[Risiken und Bedrohungen](#egac)  
+[Die Merkmale einer sicheren 2007 Office-Umgebung](#egbc)  
 
 Zugrunde liegende Sicherheitsprinzipien
 ---------------------------------------
@@ -123,7 +123,7 @@ Die Statusleiste ist eine neue Funktion der Benutzeroberfläche, in der Benutzer
 
 **Abbildung 1.2. Statusleiste der 2007 Office-Version**
 
-![](images/Dd443664.note(de-de,TechNet.10).gif)**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif)**Hinweis:**  
 In Office Outlook 2007 und Office Publisher 2007 werden Sicherheitswarnungen in Dialogfeldern und nicht in der Statusleiste angezeigt.
 
 Die Statusleiste informiert Benutzer darüber, dass bestimmte Funktionen in einem Dokument blockiert sind. In früheren Versionen von Microsoft Office wurde den Benutzern in der Regel ein Warnungsdialogfeld angezeigt, auf das sie vor dem Arbeiten in einem Dokument reagieren mussten. Wenn ein Benutzer beispielsweise ein Dokument öffnete, das Makros enthielt, konnte er erst auf das Dokument zugreifen, nachdem er auf ein Warnungsdialogfeld reagiert und die Makros entweder aktiviert oder deaktiviert hatte. Die Statusleiste ermöglicht Benutzern jetzt, ein Dokument zu öffnen und darin zu arbeiten, ohne auf die Statusleistenaufforderung zu reagieren. Nicht vertrauenswürdige ActiveX-Steuerelemente, Makros und andere potenziell schädliche Inhalte sind so lange deaktiviert, bis der Benutzer auf die Statusleiste klickt und auf eine Benachrichtigung oder Warnung reagiert. Das folgende Bildschirmfoto enthält ein Beispiel für eine Warnmeldung, die Benutzern beim Klicken auf die Statusleiste anzeigt wird.
@@ -375,6 +375,10 @@ Diese Abbildung zeigt außerdem, wie die Sicherheitstechnologien und -einstellun
 -   Netzwerkfiltertechnologien wie Firewalls, Proxyserver und Angriffserkennungssysteme
 -   Antimalwaretechnologien auf Messagingservern und auf Clientcomputern, z. B. Antiviren- oder Antispywareprogramme
 -   Verschiedene mit der 2007 Office-Version bereitgestellte Sicherheitstechnologien und -einstellungen, z. B. Einstellungen für externe Datenverbindungen, VBA-Makros, Verschlüsselung, digitale Signaturen, Einstellungen für vertrauenswürdige Speicherorte und Einstellungen für vertrauenswürdige Herausgeber.
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
+
+Dies ist lediglich ein Teil der Liste und keine vollständige Auflistung aller Sicherheitsmaßnahmen, die Sie im Rahmen einer tief greifenden Schutzstrategie ergreifen sollten.
 
 ##### In diesem Beitrag
 
