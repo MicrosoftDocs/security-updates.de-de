@@ -22,14 +22,14 @@ Die 2007 Microsoft Office-Version bietet eine Reihe von Technologien und Einstel
 -   **Verschlsselungseinstellungen**. Diese Einstellungen tragen zum Schutz von Daten bei, die in Dokumenten, Prsentationen und Tabellenkalkulationen erstellt und gespeichert wurden.
 -   **Einstellungen zur Verwaltung von Informationsrechten (IRM)**. Diese Einstellungen helfen, per E-Mail gesendete Informationen zu schtzen.
 
-![](images/Dd443670.important(de-de,TechNet.10).gif)**Wichtig:**
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Neben der Bercksichtigung der in diesem Kapitel erluterten Einstellungen sollten Sie zudem sicherstellen, dass Ihre Computer zu jedem Zeitpunkt mit den neuesten Sicherheitspatches von Microsoft aktualisiert sind. Ein effektives Patchmanagement trgt entscheidend zur Verbesserung der Sicherheit in Unternehmen bei.
 
 ##### Auf dieser Seite
 
-[Mindern von Bedrohungen fr den Datenschutz](#exd)
-[Schutz von Informationen durch Verschlsselung](#esaac)
+[Mindern von Bedrohungen fr den Datenschutz](#exd)  
+[Schutz von Informationen durch Verschlsselung](#esaac)  
 [Schutz von Informationen durch IRM](#eldac)
 
 Mindern von Bedrohungen fr den Datenschutz
@@ -51,7 +51,7 @@ Standardmig trgt die 2007 Office-Version zur Minderung verschiedener Bedrohungen
 
 -   **Dokumentinspektor ist aktiviert**. Dokumentinspektor ist ein neues Tool, mit dem Benutzer Bedrohungen fr den Datenschutz mindern knnen, und zwar durch Entfernen von Metadaten, Revisionen, Kommentaren, benutzerdefinierten XML-Tags und anderen potenziell privaten und persnlichen Inhalten aus Dokumenten.
 
-    ![](images/Dd443670.note(de-de,TechNet.10).gif)**Hinweis:**
+    ![](images/Dd443670.note(de-de,TechNet.10).gif)**Hinweis:**  
     Dokumentinspektor ist erweiterbar und kann programmgesteuert gendert werden, um den Datenschutzanforderungen des Unternehmens durch Erstellen benutzerdefinierter Inspektormodule gerecht zu werden. Weitere Informationen finden Sie auf MSDN im Artikel ber das [Anpassen des Dokumentinspektors von 2007 Office System](http://go.microsoft.com/fwlink/?linkid=78577) (mglicherweise in englischer Sprache).
 
 -   **Metadaten werden in einem verschlsselten Dokument geschtzt**. Wenn Benutzer Dokumente mithilfe der Kennwortschutzfunktion verschlsseln, werden die Metadaten im Dokument ebenfalls verschlsselt. Diese Einstellung gilt nur fr Dateien im Office Open XML-Format.

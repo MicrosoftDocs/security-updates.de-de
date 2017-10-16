@@ -13,7 +13,7 @@ Windows Server 2003-Sicherheitshandbuch
 
 Aktualisiert: 27.12.2005
 
-In der in diesem Handbuch enthaltenen Microsoft® Excel®-Arbeitsmappe „Windows* *Server* *2003 Security Guide Settings.xls“ (in englischer Sprache) werden die Richtlinien- und Diensteinstellungen für sämtliche in diesem Handbuch enthaltenen Rollen und Umgebungen erläutert. Die Arbeitsmappe enthält zehn Arbeitsblätter, und zwar eines für jede Rolle im Handbuch:
+In der in diesem Handbuch enthaltenen Microsoft® Excel®-Arbeitsmappe „Windows Server 2003 Security Guide Settings.xls“ (in englischer Sprache) werden die Richtlinien- und Diensteinstellungen für sämtliche in diesem Handbuch enthaltenen Rollen und Umgebungen erläutert. Die Arbeitsmappe enthält zehn Arbeitsblätter, und zwar eines für jede Rolle im Handbuch:
 
 -   Das Arbeitsblatt **Domain** (Domäne) enthält die Gruppenrichtlinieneinstellungen, mit denen die Richtlinienobjekte auf Domänenebene konfiguriert werden (siehe dazu Kapitel 6, „Die Domänenrichtlinie“).
 
@@ -37,7 +37,7 @@ In der in diesem Handbuch enthaltenen Microsoft® Excel®-Arbeitsmappe „Window
 
 Jedes Arbeitsblatt enthält die folgenden Spalten:
 
--   Spalte H, **Policy Setting Name in User Interface** (Name der Richtlinieneinstellung in der Benutzeroberfläche), enthält den Namen der Einstellung, wie er im Snap-In „Gruppenrichtlinien-Editor“ von Windows* *Server* *2003 angezeigt wird.
+-   Spalte H, **Policy Setting Name in User Interface** (Name der Richtlinieneinstellung in der Benutzeroberfläche), enthält den Namen der Einstellung, wie er im Snap-In „Gruppenrichtlinien-Editor“ von Windows Server 2003 angezeigt wird.
 
 -   Spalte J, **Legacy Client** (Älterer Client), ist der empfohlene Wert für diese Einstellung in einer Umgebung mit älteren Clients.
 
@@ -83,9 +83,8 @@ Um die Lesbarkeit der Tabelle zu erhöhen, wurden zusätzliche Spalten verwendet
 
 **Feedback**
 
-[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
+[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)<br/>
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

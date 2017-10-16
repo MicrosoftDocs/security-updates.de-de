@@ -15,20 +15,20 @@ Aktualisiert: 27.12.2005
 
 ##### Auf dieser Seite
 
-[](#edaa)[Überblick](#edaa)
-[](#ecaa)[Testumgebung](#ecaa)
-[](#ebaa)[Testmethoden](#ebaa)
+[](#edaa)[Überblick](#edaa)  
+[](#ecaa)[Testumgebung](#ecaa)  
+[](#ebaa)[Testmethoden](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Überblick
 
-Das *Windows Server 2003-Sicherheitshandbuch* ist eine bewährte und reproduzierbare Konfigurationsanleitung für die Absicherung von Microsoft® Windows* *Server™* *2003 mit Service Pack 1 (SP1) in verschiedenen Umgebungen.
+Das *Windows Server 2003-Sicherheitshandbuch* ist eine bewährte und reproduzierbare Konfigurationsanleitung für die Absicherung von Microsoft® Windows Server™ 2003 mit Service Pack 1 (SP1) in verschiedenen Umgebungen.
 
 Das *Windows Server 2003-Sicherheitshandbuch* wurde in einer Testumgebung getestet, um sicherzustellen, dass die Anleitungen wie erwartet funktionieren. Die Dokumentation wurde vom Testteam des *Windows Server 2003-Sicherheitshandbuch*s auf ihre Konsistenz hin überprüft, und die empfohlenen Schritte wurden getestet. Zudem wurden Funktionstests durchgeführt, um die benötigten Ressourcen der Leser dieser Anleitung beim Einrichten und Testen der eigenen Implementierungen zu minimieren.
 
 #### Umfang
 
-Das *Windows Server 2003-Sicherheitshandbuch* wurde in drei verschiedenen simulierten Sicherheitsumgebungen getestet: der Umgebung mit älteren Clients, der Unternehmensclient-Umgebung und der Hochsicherheitsumgebung. Diese Umgebungen werden in Kapitel 1 „Einführung in das Windows* *Server* *2003-Sicherheitshandbuch“ erläutert. Tests wurden auf Grundlage der im folgenden Abschnitt „Ziele“ beschriebenen Kriterien durchgeführt.
+Das *Windows Server 2003-Sicherheitshandbuch* wurde in drei verschiedenen simulierten Sicherheitsumgebungen getestet: der Umgebung mit älteren Clients, der Unternehmensclient-Umgebung und der Hochsicherheitsumgebung. Diese Umgebungen werden in Kapitel 1 „Einführung in das Windows Server 2003-Sicherheitshandbuch“ erläutert. Tests wurden auf Grundlage der im folgenden Abschnitt „Ziele“ beschriebenen Kriterien durchgeführt.
 
 Eine Bewertung der Sicherheitsanfälligkeiten der Testumgebung, die zur Sicherung der Lösung des *Windows Server 2003-Sicherheitshandbuchs* verwendet wurde, konnte vom Testteam nicht vorgenommen werden.
 
@@ -38,7 +38,7 @@ Das Testteam des *Windows Server 2003-Sicherheitshandbuchs* ließ sich von fol
 
 -   Überprüfen der empfohlenen Änderungen an den Sicherheitseinstellungen für die drei im Handbuch definierten Sicherheitsstufen. Gründe für diese Änderungen beinhalten:
 
-    -   Durch die Veröffentlichung von SP1 für Windows* *Server* *2003 erforderliche Änderungen.
+    -   Durch die Veröffentlichung von SP1 für Windows Server 2003 erforderliche Änderungen.
 
     -   Einsatz des neuen in SP1 erhältlichen Tools Sicherheitskonfigurations-Assistent (SCW) sowie neuer Funktionen wie Windows Firewall.
 
@@ -79,7 +79,7 @@ Im folgenden Diagramm wird das für die Hochsicherheitsumgebung entwickelte Test
 
 **Abbildung D. 2 Logisches Diagramm des Testumgebungsnetzwerks für die Hochsicherheitsumgebung**
 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443721.apdxd_fg02_big(de-de,technet.10).gif)
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443721.apdxd_fg02_big(de-de,technet.10).gif)  
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
 
 ### Testmethoden
@@ -92,9 +92,9 @@ Bei einem Testzyklus wurden die folgenden Phasen durchlaufen:
 
 1.  Phase der Sicherheitskonfigurationseinrichtung
 
-    -   Manuelle Konfigurationsphase
+    - Manuelle Konfigurationsphase
 
-    -   Phase der Gruppenrichtlinienkonfiguration
+    - Phase der Gruppenrichtlinienkonfiguration
 
 2.  Phase der Testausführung
 
@@ -152,7 +152,7 @@ Diese Phase ist häufig die erste Aufbauphase für die Sicherheit. Die in den ei
 
 ###### Phase der Gruppenrichtlinienkonfiguration
 
-Diese Phase dient zur Erstellung und Anwendung der Gruppenrichtlinienobjekte (GPOs) auf Domänen- und Organisationseinheiten-Ebene. GPOs werden entsprechend den Empfehlungen in Kapitel 2, „Absicherungsmechanismen von Windows Server 2003* *Server* *2003“, auf die verschiedenen Organisationseinheiten angewendet.
+Diese Phase dient zur Erstellung und Anwendung der Gruppenrichtlinienobjekte (GPOs) auf Domänen- und Organisationseinheiten-Ebene. GPOs werden entsprechend den Empfehlungen in Kapitel 2, „Absicherungsmechanismen von Windows Server 2003 Server 2003“, auf die verschiedenen Organisationseinheiten angewendet.
 
 Service Pack 1 für Windows Server 2003 hat neue Tools und Funktionen eingeführt, die dazu geführt haben, dass die Implementierung des Gruppenrichtliniendesigns im Vergleich zur Vorversion geändert wurde.
 
@@ -168,11 +168,11 @@ Für die drei Sicherheitsumgebungen wurden jeweils die folgenden Schritte wieder
 
 1.  Stellen Sie sicher, dass alle erforderlichen Anwendungen, Dienste und Agents auf den einzelnen Domänenmitgliedern des Baseline-Netzwerks installiert wurden. Stellen Sie z. B. sicher, dass der MOM-Agent auf allen Domänenmitgliedsservern installiert wurde, die von MOM verwaltet werden.
 
-2.  Verwenden Sie das MMC-Snap-In „Active* *Directory-Benutzer und -Computer“ zum Erstellen der beschriebenen Organisationseinheitstruktur.
+2.  Verwenden Sie das MMC-Snap-In „Active Directory-Benutzer und -Computer“ zum Erstellen der beschriebenen Organisationseinheitstruktur.
 
 3.  Erstellen Sie das Gruppenrichtlinienobjekt der Domänenrichtlinie mit der INF-Sicherheitsvorlage. Für diesen Schritt ist der SCW nicht erforderlich.
 
-4.  Verwenden Sie das SCW-Tool zum Erstellen von XML-basierten Sicherheitsvorlagen für die einzelnen im Handbuch beschriebenen Serverrollen. Eine Anleitung ist in Kapitel 2, „Absicherungsmechanismen von Windows* *Server* *2003“, und den jeweiligen Kapiteln zu den einzelnen Serverrollen enthalten. Bei Durchführung dieses Schritts ist die entsprechende INF-Sicherheitsvorlage für die Serverrolle mit einzuschließen. Die Vorlagedateien sind in der Download-Version dieses Handbuchs enthalten.
+4.  Verwenden Sie das SCW-Tool zum Erstellen von XML-basierten Sicherheitsvorlagen für die einzelnen im Handbuch beschriebenen Serverrollen. Eine Anleitung ist in Kapitel 2, „Absicherungsmechanismen von Windows Server 2003“, und den jeweiligen Kapiteln zu den einzelnen Serverrollen enthalten. Bei Durchführung dieses Schritts ist die entsprechende INF-Sicherheitsvorlage für die Serverrolle mit einzuschließen. Die Vorlagedateien sind in der Download-Version dieses Handbuchs enthalten.
 
 5.  Verwenden Sie das Befehlszeilenprogramm Scwcmd zur Konvertierung der XML-Sicherheitsvorlagen, die im vorherigen Schritt zu GPOs erstellt wurden.
 
@@ -192,7 +192,7 @@ Die folgenden Schritte wurden ausgeführt, um die Phase der Sicherheitskonfigura
 
     **Hinweis**: Wenn bereits standardmäßige GPO-Verknüpfungen vorhanden sind oder mehrere GPOs existieren, müssen Sie u. U. die GPO-Verknüpfungen in der Prioritätenliste erhöhen.
 
-2.  Verwenden Sie die Gruppenrichtlinien-Verwaltungskonsole zum Verknüpfen des GPO für die Mitgliedsserver-Baseline-Richtlinie mit der Mitgliedsserver-Organisationseinheit. (Sie können diesen Schritt auch mit dem MMC-Snap-In „Active* *Directory-Benutzer und -Computer“ durchführen.)
+2.  Verwenden Sie die Gruppenrichtlinien-Verwaltungskonsole zum Verknüpfen des GPO für die Mitgliedsserver-Baseline-Richtlinie mit der Mitgliedsserver-Organisationseinheit. (Sie können diesen Schritt auch mit dem MMC-Snap-In „Active Directory-Benutzer und -Computer“ durchführen.)
 
 3.  Verknüpfen Sie die einzelnen Serverrollen-GPOs mit der jeweiligen Serverrollen-Organisationseinheit.
 
@@ -258,7 +258,7 @@ Einige der Client-Testszenarien wurden in VBScript erstellt. Diese Testfälle be
 
 ##### Serverseitige Tests
 
-Diese Testfälle wurden zur Prüfung der Funktionalität und Auswirkungen auf die Einrichtungsverfahren unter Windows* *Server* *2003 mit SP1-Servern entwickelt, die anhand der Empfehlungen in diesem Handbuch geschützt wurden. Alle in diesem Handbuch beschriebenen Serverrollen wurden getestet. Die zusätzlichen Serverrollen, die im Testnetzwerk enthalten sind, wie z. B. Exchange, MOM und SMS, wurden ebenfalls getestet.
+Diese Testfälle wurden zur Prüfung der Funktionalität und Auswirkungen auf die Einrichtungsverfahren unter Windows Server 2003 mit SP1-Servern entwickelt, die anhand der Empfehlungen in diesem Handbuch geschützt wurden. Alle in diesem Handbuch beschriebenen Serverrollen wurden getestet. Die zusätzlichen Serverrollen, die im Testnetzwerk enthalten sind, wie z. B. Exchange, MOM und SMS, wurden ebenfalls getestet.
 
 #### Erfolgs- und Misserfolgskriterien
 
@@ -272,7 +272,7 @@ Bevor Tests durchgeführt wurden, wurden die folgenden Kriterien festgelegt, um 
 
 #### Veröffentlichungskriterien
 
-Das wichtigste Kriterium für die Veröffentlichung des *Windows Server 2003-Sicherheitshandbuchs* stand in engem Zusammenhang mit dem Schweregrad der noch ungelösten Fehler. Es wurden jedoch auch andere Probleme erörtert, die nicht durch Bugs erfasst wurden. Die Veröffentlichungskriterien lauten wie folgt:
+Das wichtigste Kriterium für die Veröffentlichung des *Windows Server 2003-Sicherheitshandbuchs stand in engem Zusammenhang mit dem Schweregrad der noch ungelösten Fehler. Es wurden jedoch auch andere Probleme erörtert, die nicht durch Bugs erfasst wurden. Die Veröffentlichungskriterien lauten wie folgt:
 
 -   Keine offenen Bugs der Schweregrade 1 und 2.
 
@@ -392,7 +392,7 @@ Alle vom Testteam durchgeführte Testfälle wurden mit den erwarteten Ergebnisse
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
 
- 
+<br/>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
