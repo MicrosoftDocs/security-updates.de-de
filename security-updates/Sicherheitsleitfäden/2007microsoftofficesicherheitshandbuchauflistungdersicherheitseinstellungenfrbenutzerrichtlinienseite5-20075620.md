@@ -1,6 +1,6 @@
 ---
-Title: 2007 Microsoft Office-Sicherheitshandbuch: Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien – Seite 5
-TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch: Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien – Seite 5
+Title: 2007 Microsoft Office-Sicherheitshandbuch - Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien – Seite 5
+TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch - Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien – Seite 5
 ms:assetid: 30aec6b9-6584-4724-8f8e-46357eecddd6
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443677(v=TechNet.10)
 ms:contentKeyID: 20075620
@@ -14,9 +14,9 @@ ms:contentKeyID: 20075620
 Veröffentlicht: 11. Nov 2007
 
 Die Einstellungen im folgenden Abschnitt sind nach Namen aufgeführt.
-Auf dieser Seite
 
-Informationen zu Benutzerrichtlinieneinstellungen
+#### Auf dieser Seite
+[Informationen zu Benutzerrichtlinieneinstellungen](#ecd)
 
 ## Informationen zu Benutzerrichtlinieneinstellungen
 
@@ -1219,7 +1219,8 @@ CCE-967
 </tr>
 
 </table>
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die drei Optionen, die bei Aktivierung dieser Einstellung zur Verfügung gestellt werden, entsprechen den Benutzeroberflächenoptionen in Microsoft Office 2003, die den Zugriff auf die Onlinehilfe auf andere Weise steuerten. Wie bereits beschrieben, verhindert die Aktivierung der Option **Onlineinhalt oder Einstiegspunkte nie anzeigen** oder der Option **Nur Offlineinhalt soweit verfügbar durchsuchen**, dass das Hilfesystem auf Inhalte von Microsoft Office Online zugreift.
 
@@ -1584,14 +1585,16 @@ CCE-1516
 </tr>
 
 </table>
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Sie müssen diese Einstellung aktivieren, wenn Sie die anderen in diesem Handbuch erwähnten Outlook-Sicherheitseinstellungen anwenden möchten.
 
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung verhindert, dass Benutzer ihre eigenen Sicherheitseinstellungen ändern können, und kann daher möglicherweise zu mehr Supportanfragen führen. Dennoch ist diese Einstellung unerlässlich, wenn Sie sicherstellen möchten, dass die anderen in diesem Handbuch erwähnten Outlook 2007-Sicherheitseinstellungen wie vorgeschlagen angewendet werden.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn in früheren Versionen von Outlook Sicherheitseinstellungen in einem Formular in öffentlichen Ordnern von Exchange Server veröffentlicht wurden, mussten Benutzer auf den entsprechenden Computern den Registrierungsschlüssel „HKEY_CURRENT_USER\Software\Policies\Microsoft\Security\CheckAdminSettings“ einrichten, damit die Einstellungen angewendet wurden. In Outlook 2007 wird der Registrierungsschlüssel „CheckAdminSettings“ nicht mehr verwendet, um die Sicherheitseinstellungen von Benutzern zu bestimmen. Stattdessen kann über die Einstellung „Outlook-Sicherheitsmodus“ festgelegt werden, ob die Outlook-Sicherheit direkt über die Gruppenrichtlinie, über das Sicherheitsformular aus dem öffentlichen Ordner „Outlook-Sicherheitseinstellungen“ oder über die Einstellungen auf den Computern der Benutzer gesteuert werden.
 
@@ -2321,7 +2324,8 @@ In einigen Fällen kann eine Verarbeitung von Fehlern der Ebene 2 als Warnung da
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, verarbeitet Outlook 2007 Fehler der Ebene 2 als Fehlermeldungen statt als Warnungen. Dem Benutzer wird eine Fehlermeldung angezeigt, und er kann die Arbeit mit dem Zertifikat nicht fortsetzen.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Diese Einstellung funktioniert „umgekehrt“: Trotz des Namens stuft die Deaktivierung und nicht die Aktivierung der Einstellung Anlagen der Ebene 2 höher.
 
@@ -2430,7 +2434,8 @@ Die Deaktivierung dieser Einstellung kann zu Beeinträchtigungen für Benutzer f
 Betrifft: **2007 Office System**
 
 Diese Einstellung bestimmt, ob Metadaten verschlüsselt werden, wenn eine Office Open XML-Datei kennwortgeschützt ist.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103521)  .
 
@@ -2441,7 +2446,8 @@ Wenn ein Office Open XML-Dokument mit einem Kennwort geschützt ist und gespeich
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, verschlüsseln Excel 2007, PowerPoint 2007 und Word 2007 in kennwortgeschützten Office Open XML-Dateien gespeicherte Metadaten und setzen alle Konfigurationsänderungen auf Computern von Benutzern außer Kraft.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn diese Einstellung **deaktiviert** ist, können 2007 Office-Anwendungen Metadaten in kennwortgeschützten Office Open XML-Dateien nicht verschlüsseln. Dadurch kann sich die Sicherheit verringern.
 
@@ -2558,7 +2564,8 @@ Wenn die Verwaltung von Informationsrechten (IRM) verwendet wird, um den Zugriff
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, verschlüsseln Excel 2007, PowerPoint 2007 und Word 2007 Metadaten in Office Open XML-Dateien, deren Rechte verwaltet werden, und setzen alle Konfigurationsänderungen auf Computern von Benutzern außer Kraft.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn diese Einstellung **deaktiviert** ist, können 2007 Office-Anwendungen Metadaten in Office Open XML-Dateien, deren Rechte verwaltet werden, nicht verschlüsseln. Dadurch kann sich die Sicherheit verringern.
 
@@ -2707,7 +2714,3 @@ Zum Seitenanfanq
 </tr>
 
 </table>
-
-
-
-

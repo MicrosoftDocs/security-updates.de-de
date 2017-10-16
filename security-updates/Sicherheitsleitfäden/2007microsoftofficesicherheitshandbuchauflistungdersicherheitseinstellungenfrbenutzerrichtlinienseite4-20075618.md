@@ -1,6 +1,6 @@
 ---
-Title: 2007 Microsoft Office-Sicherheitshandbuch: Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien – Seite 4
-TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch: Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien – Seite 4
+Title: 2007 Microsoft Office-Sicherheitshandbuch - Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien – Seite 4
+TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch - Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien – Seite 4
 ms:assetid: 2324b4a2-1709-464a-ba66-7413a87d1188
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443675(v=TechNet.10)
 ms:contentKeyID: 20075618
@@ -14,9 +14,9 @@ ms:contentKeyID: 20075618
 Verffentlicht: 11. Nov 2007
 
 Die Einstellungen im folgenden Abschnitt sind nach Namen aufgefhrt.
-Auf dieser Seite
 
-Informationen zu Benutzerrichtlinieneinstellungen
+#### Auf dieser Seite
+[Informationen zu Benutzerrichtlinieneinstellungen](#ecd)
 
 ## Informationen zu Benutzerrichtlinieneinstellungen
 
@@ -159,7 +159,8 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren drei Optionen z
 * Benutzeroberflche nie anzeigen
 * Benutzeroberflche immer anzeigen
 * Benutzeroberflche anzeigen, falls sich XSN in der Internetzone befindet
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn die Einstellung **Deaktiviert** oder **Aktiviert**|**Benutzeroberflche nie anzeigen** ausgewhlt wird, werden Benutzer nicht vor Bedrohungen durch Webbeacons gewarnt. Diese Konfiguration kann die Sicherheit wesentlich beeintrchtigen.
 
@@ -386,7 +387,8 @@ Das Programm zur Verbesserung der Benutzerfreundlichkeit sendet Daten automatisc
 Betrifft: **Outlook**
 
 Diese Einstellung steuert, ob Hyperlinks in mutmalichen Phishing-E-Mails in Outlook 2007 aktiviert sind.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Kurzlich durchgefhrte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgem funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103500)  .
 
@@ -403,7 +405,8 @@ Benutzer knnen die Handhabung von Phishingnachrichten in Outlook im Dialogfeld *
 #### Gegenmanahme
 
 Wenn diese Einstellung **deaktiviert** ist, deaktiviert Outlook 2007 alle Links in mutmalichen Phishingnachrichten, selbst wenn diese nicht als Junk-E-Mail klassifiziert sind, und Benutzer knnen diese Einstellung nicht ndern.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn die Einstellung **aktiviert** ist, fhrt Outlook keine Deaktivierung von Links in mutmalichen Phishingnachrichten durch, die nicht auch als Junk-E-Mail klassifiziert sind. Diese Konfiguration kann die Sicherheit wesentlich verringern.
 
@@ -521,7 +524,8 @@ Standardmig ist der Kommunikationskanal fr Remoteprozeduraufrufe (RPCs) zwischen
 #### Gegenmanahme
 
 Wenn diese Einstellung **aktiviert** ist, verwendet Outlook 2007 fr die Kommunikation mit Microsoft Exchange-Servern die RPC-Verschlsselung.
- **Hinweis:**
+ 
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die RPC-Verschlsselung verschlsselt nur Daten, die vom Outlook-Clientcomputer zum Exchange-Server transportiert werden. Sie bietet keine Verschlsselung fr die Nachrichten selbst, whrend diese ber das Internet bertragen werden.
 
@@ -746,7 +750,8 @@ Die empfohlene Einstellung fr EC- und SSLF-Konfigurationen ist **Nicht konfiguri
 Betrifft: **2007 Office System**
 
 Mit dieser Einstellung knnen Administratoren einen Verschlsselungstypen fr kennwortgeschtzte Office 97-2003-Dateien festlegen.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Krzlich durchgefhrte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgem funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103501)  .
 
@@ -995,7 +1000,8 @@ Bercksichtigen Sie bei der Auswahl einer zu erzwingenden Verschlsselungsmethode 
 Betrifft: **Outlook**
 
 Diese Einstellung steuert, ob Outlook 2007 Sicherheitskennzeichen fr mit S/MIME signierte Nachrichten erfordert.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Krzlich durchgefhrte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgem funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103516)  .
 
@@ -1695,7 +1701,8 @@ CCE-1471
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung kann zu Beeintrchtigungen fr Benutzer fhren, die sich fr die Aktualisierung von Daten in Arbeitsmappen auf die DDE-Funktionalitt in Excel 2007 verlassen. Diese Benutzer mssen eine andere Methode zur Aktualisierung der von anderen Anwendungen bereitgestellten Daten verwenden.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung aktiviert ist, sehen Benutzer mglicherweise eine Fehlermeldung, wenn sie in Windows Explorer auf Excel-Arbeitsmappen doppelklicken, um diese zu ffnen. Weitere Informationen finden Sie im Knowledge Base-Artikel 211494 [Beim ffnen von Excel wird keine Arbeitsmappe angezeigt](http://support.microsoft.com/kb/211494)  .
 
@@ -1821,7 +1828,8 @@ Das Programm zur Verbesserung der Benutzerfreundlichkeit sendet Korrekturhilfeda
 Betrifft: **Outlook**
 
 Diese Einstellung steuert, ob Bilder und externe Inhalte in HTML-E-Mail-Nachrichten von nicht vertrauenswrdigen Absendern im Internet heruntergeladen werden, ohne dass sich Outlook 2007-Benutzer ausdrcklich dafr entscheiden.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Krzlich durchgefhrte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgem funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103511)  .
 
@@ -1834,7 +1842,8 @@ Standardmig ldt Outlook 2007 keine externen Inhalte in HTML-E-Mail-Nachrichten v
 #### Gegenmanahme
 
 Wenn diese Einstellung **deaktiviert** ist, betrachtet Outlook 2007 das Internet als unsichere Zone, was bedeutet, dass Outlook Inhalte von externen Servern nur dann automatisch herunterldt, wenn der Absender in der Liste der sicheren Absender enthalten ist. Empfnger knnen sich auf der Basis einzelner Nachrichten entscheiden, ob externe Inhalte von nicht vertrauenswrdigen Absendern heruntergeladen werden.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **aktiviert** ist, ldt Outlook automatisch externe Inhalte in allen ber das Internet versendeten E-Mail-Nachrichten herunter, und der Benutzer kann die Einstellung nicht ndern.
 
@@ -1944,7 +1953,8 @@ Die Deaktivierung dieser Einstellung setzt die Standardkonfiguration durch und d
 Betrifft: **Outlook**
 
 Diese Einstellung steuert, ob Bilder und externe Inhalte in HTML-E-Mail-Nachrichten von nicht vertrauenswrdigen Absendern im lokalen Intranet heruntergeladen werden, ohne dass sich Outlook 2007-Benutzer ausdrcklich dafr entscheiden.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Krzlich durchgefhrte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgem funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103512)  .
 
@@ -1957,7 +1967,8 @@ Standardmig ldt Outlook 2007 keine externen Inhalte in HTML-E-Mail-Nachrichten v
 #### Gegenmanahme
 
 Wenn diese Einstellung **deaktiviert** ist, betrachtet Outlook 2007 das Intranet nicht als sichere Zone, was bedeutet, dass Outlook Inhalte von anderen Servern in der lokalen Intranetzone nur dann automatisch herunterldt, wenn der Absender in der Liste der sicheren Absender enthalten ist. Empfnger knnen sich auf der Basis einzelner Nachrichten entscheiden, ob externe Inhalte von nicht vertrauenswrdigen Absendern heruntergeladen werden.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **aktiviert** ist, ldt Outlook automatisch externe Inhalte in allen ber das lokale Intranet versendeten E-Mail-Nachrichten herunter, und der Benutzer kann die Einstellung nicht ndern.
 
@@ -2075,7 +2086,8 @@ Standardmig knnen Benutzer IRM in InfoPath 2007 verwenden, um Formulare mit eing
 #### Gegenmanahme
 
 Wenn diese Einstellung **deaktiviert** ist, knnen InfoPath 2007-Benutzer Formulare mit IRM-Schutzmanahmen entwerfen.
- **Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wie bei anderen Einstellungen fr **Eingeschrnkte Features** ist die Funktion bei Aktivierung dieser Einstellung nicht verfgbar und bei Deaktivierung verfgbar.
 
@@ -2185,7 +2197,8 @@ Die Deaktivierung dieser Einstellung setzt die Standardkonfiguration in InfoPath
 Betrifft: **Excel**
 
 Diese Einstellung bestimmt, ob Excel 2007 automatisch Hyperlinks erzeugt, wenn Benutzer URL- oder UNC-Pfadinformationen eingeben.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Krzlich durchgefhrte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgem funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103522)  .
 
@@ -2196,7 +2209,8 @@ Wenn Benutzer eine Zeichenkette eingeben, die Excel 2007 als URL (Uniform Resour
 #### Gegenmanahme
 
 Wenn diese Einstellung **deaktiviert** ist, wird das Kontrollkstchen **Internet- und Netzwerkpfade als Hyperlinks** unter **Whrend der Eingabe ersetzen** im Dialogfeld **AutoKorrektur** deaktiviert, und Benutzer knnen die Einstellung nicht ndern.
- **Hinweis:**
+ 
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn die Einstellung **aktiviert** ist, verwandelt Excel 2007 URLs und UNC-Pfade automatisch in Hyperlinks, und Benutzer knnen diese Funktion nicht deaktivieren.
 
@@ -2806,7 +2820,8 @@ Wenn Sie zulassen, dass Excel in anderen Programmen erstellte Grafiken ldt, wird
 #### Gegenmanahme
 
 Wenn diese Einstellung **deaktiviert** ist, ldt Excel 2007 keine Bilder aus Webseiten, die nicht in Excel erstellt wurden.
- **Hinweis:**
+ 
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn die Einstellung **aktiviert** ist, ldt Excel Bilder aus Webseiten, die nicht in Excel erstellt wurden, und Benutzer knnen diese Konfiguration nicht ndern.
 
@@ -2915,7 +2930,8 @@ In diesem Beitrag
 * [berblick](https://technet.microsoft.com/de-de/library/fe58931e-25fa-4a32-8497-416dbe4929c3(v=TechNet.10))
 * [Auflistung der Sicherheitseinstellungen fr Benutzerrichtlinien Seite 1](https://technet.microsoft.com/de-de/library/2e2c33dc-f4b7-41a4-a54b-1e08dcf57479(v=TechNet.10))
 * [Auflistung der Sicherheitseinstellungen fr Benutzerrichtlinien Seite 2](https://technet.microsoft.com/de-de/library/b322971a-8efe-40a3-ba33-30a25cae5219(v=TechNet.10))
-* [Auflistung der Sicherheitseinstellungen fr Benutzerrichtlinien Seite 3](https://technet.microsoft.com/de-de/library/f3af8a5d-5067-4add-917b-f7ab8cdca16c(v=TechNet.10))* Auflistung der Sicherheitseinstellungen fr Benutzerrichtlinien Seite 4
+* [Auflistung der Sicherheitseinstellungen fr Benutzerrichtlinien Seite 3](https://technet.microsoft.com/de-de/library/f3af8a5d-5067-4add-917b-f7ab8cdca16c(v=TechNet.10))
+* Auflistung der Sicherheitseinstellungen fr Benutzerrichtlinien Seite 4
 * [Auflistung der Sicherheitseinstellungen fr Benutzerrichtlinien Seite 5](https://technet.microsoft.com/de-de/library/30aec6b9-6584-4724-8f8e-46357eecddd6(v=TechNet.10))
 * [Auflistung der Sicherheitseinstellungen fr Benutzerrichtlinien Seite 6](https://technet.microsoft.com/de-de/library/ae3203f0-f0eb-426b-9deb-a1faea298982(v=TechNet.10))
 * [Sicherheitseinstellungen fr Computerrichtlinien](https://technet.microsoft.com/de-de/library/e5d2501b-a96b-4c69-b912-59ad22c30503(v=TechNet.10))
@@ -2959,8 +2975,3 @@ In diesem Beitrag
 </tr>
 
 </table>
-
-
-
-
-
