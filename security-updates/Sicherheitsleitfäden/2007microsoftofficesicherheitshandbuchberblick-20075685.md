@@ -1,6 +1,6 @@
 ---
-Title: 2007 Microsoft Office-Sicherheitshandbuch: Überblick
-TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch: Überblick
+Title: 2007 Microsoft Office-Sicherheitshandbuch - Überblick
+TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch - Überblick
 ms:assetid: ab515417-1c5b-44a1-b871-152c2a3b6d9b
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443742(v=TechNet.10)
 ms:contentKeyID: 20075685
@@ -13,7 +13,7 @@ ms:contentKeyID: 20075685
 ### Überblick
 Veröffentlicht: 11. Nov 2007
 
-Willkommen beim [2007 Microsoft Office-Sicherheitshandbuch](http://www.microsoft.com/germany/technet/security/guidance/clientsecurity/2007office/default.mspx)  . Dieses Handbuch bietet ausführliche Empfehlungen zur Erkennung von Risiken und zur Minderung von Sicherheitsbedrohungen für die 2007 Microsoft® Office-Version. Es unterstützt Sie beim Vornehmen von Änderungen an der Standardkonfiguration von Desktop- und Laptopcomputern, auf denen die 2007 Office-Version in Active Directory®-Umgebungen ausgeführt wird.
+Willkommen beim [2007 Microsoft Office-Sicherheitshandbuch](http://www.microsoft.com/germany/technet/security/guidance/clientsecurity/2007office/default.mspx). Dieses Handbuch bietet ausführliche Empfehlungen zur Erkennung von Risiken und zur Minderung von Sicherheitsbedrohungen für die 2007 Microsoft® Office-Version. Es unterstützt Sie beim Vornehmen von Änderungen an der Standardkonfiguration von Desktop- und Laptopcomputern, auf denen die 2007 Office-Version in Active Directory®-Umgebungen ausgeführt wird.
 
 Dieses Handbuch ist Teil eines Solution Accelerators, in dem ausführliche Empfehlungen, bewährte Methoden und Schritt-für-Schritt-Verfahren bereitgestellt werden, mit deren Hilfe Sie die Bereitstellung der 2007 Office-Version planen und auf sichere Weise vornehmen können. Es enthält Informationen zum Bereitstellen empfohlener Sicherheitseinstellungen für zwei unterschiedliche Umgebungstypen:
 * Die empfohlenen Einstellungen für Enterprise Client (EC)-Umgebungen richten sich an Unternehmen, die ein ausgewogenes Verhältnis zwischen Sicherheit und Funktionalität schaffen wollen. Typische sicherheitsbewusste Unternehmen, Behörden und andere Organisationen sollten zunächst die EC-Empfehlungen berücksichtigen und diese dann ihren individuellen Umständen und Anforderungen gemäß anpassen.
@@ -21,7 +21,7 @@ Dieses Handbuch ist Teil eines Solution Accelerators, in dem ausführliche Empfe
 * Die empfohlenen Einstellungen für Umgebungen vom Typ „Specialized Security - Limited Functionality“ (SSLF) richten sich an Unternehmen mit äußerst strengen Sicherheitsstandards, für die Sicherheit einen höheren Stellenwert einnimmt als Anwendungsfunktionalität. Diese Einstellungen sind für Unternehmen und Behörden konzipiert, die Verantwortung für überregionale Sicherheitsbelange tragen und streng vertrauliche Daten handhaben. Sie könnten beschließen, die SSLF-Einstellungen einer Untergruppe von Computern in Ihrem Unternehmen zuzuweisen oder ihren Anforderungen entsprechend eine ausgewogene Mischung aus EC- und SSLF-Empfehlungen zu implementieren.
 
 
-Zum in diesem Handbuch bereitgestellten Solution Accelerator gehört auch der [GPOAccelerator](http://go.microsoft.com/fwlink/?linkid=103569)  , ein Tool zum Bereitstellen von Sicherheitseinstellungen. Dieses Tool erstellt alle Gruppenrichtlinienobjekte (Group Policy Objects, GPOs), die für das Bereitstellen der empfohlenen Sicherheitseinstellungen in Ihrer Umgebung erforderlich sind. Darüber hinaus enthält der Solution Accelerator eine umfassende Referenz der Sicherheitseinstellungen namens [Bedrohungen und Gegenmaßnahmen](https://technet.microsoft.com/de-de/library/fe58931e-25fa-4a32-8497-416dbe4929c3(v=TechNet.10))  . Dieses Dokument ermöglicht Sicherheitsarchitekten, Planern und Administratoren ein Verständnis der einzelnen Sicherheitseinstellungen, der jeweils empfohlenen Konfiguration sowie der Bedrohungen, die sich dadurch mindern lassen. Eine Zusammenfassung dieser Einstellungen finden Sie in der Office Excel®-Arbeitsmappe Sicherheitseinstellungen für Office 2007-Anwendungen.
+Zum in diesem Handbuch bereitgestellten Solution Accelerator gehört auch der [GPOAccelerator](http://go.microsoft.com/fwlink/?linkid=103569)  , ein Tool zum Bereitstellen von Sicherheitseinstellungen. Dieses Tool erstellt alle Gruppenrichtlinienobjekte (Group Policy Objects, GPOs), die für das Bereitstellen der empfohlenen Sicherheitseinstellungen in Ihrer Umgebung erforderlich sind. Darüber hinaus enthält der Solution Accelerator eine umfassende Referenz der Sicherheitseinstellungen namens [Bedrohungen und Gegenmaßnahmen](https://technet.microsoft.com/de-de/library/fe58931e-25fa-4a32-8497-416dbe4929c3(v=TechNet.10)). Dieses Dokument ermöglicht Sicherheitsarchitekten, Planern und Administratoren ein Verständnis der einzelnen Sicherheitseinstellungen, der jeweils empfohlenen Konfiguration sowie der Bedrohungen, die sich dadurch mindern lassen. Eine Zusammenfassung dieser Einstellungen finden Sie in der Office Excel®-Arbeitsmappe *Sicherheitseinstellungen für Office 2007-Anwendungen*.
 
 Entwicklungsteams, Berater, Supporttechniker, Partner und Kunden von Microsoft haben die Informationen in diesem Handbuch geprüft. Daher erfüllt er die folgenden Anforderungen:
 * **Bewährt**. Auf Grundlage praktischer Erfahrungen.
@@ -36,19 +36,20 @@ Entwicklungsteams, Berater, Supporttechniker, Partner und Kunden von Microsoft h
 
 
 Unabhängig davon, ob Sie Berater, Sicherheitsexperte oder IT-Experte in einem mittelgroßen oder großen Unternehmen sind, dieses Handbuch bietet Ihnen die technischen Ressourcen und Empfehlungen, die zum Entwickeln einer effektiven Sicherheitsstrategie für die 2007 Office-Version erforderlich sind.
-Auf dieser Seite
 
-Zweck und Umfang dieses Handbuchs
+#### Auf dieser Seite
 
-Zielgruppe
+[Zweck und Umfang dieses Handbuchs](#EYE)
 
-Warum ist Sicherheit ein wichtiges Thema für die 2007 Office-Version?
+[Zielgruppe](E6F)
 
-Anforderungen an die Infrastruktur
+[Warum ist Sicherheit ein wichtiges Thema für die 2007 Office-Version?](#ECH)
 
-Kapitelübersicht
+[Anforderungen an die Infrastruktur](#ENAAC)
 
-Danksagungen
+[Kapitelübersicht](#EXCAC)
+
+[Danksagungen](#EKFAC)
 
 ## Zweck und Umfang dieses Handbuchs
 
@@ -80,8 +81,9 @@ Die Informationen in diesem Handbuch beziehen sich ausschließlich auf die folge
 
 Dieses Handbuch bezieht sich nicht auf frühere Versionen von Microsoft Office, da viele der in diesem Handbuch erörterten Einstellungen und Funktionen in früheren Versionen nicht verfügbar waren. Die Empfehlungen in diesem Handbuch wurden unter Windows® XP Professional mit Service Pack 2 (SP2) und unter Windows Vista® getestet. Unter Windows Server® 2003 wurden keine Tests ausgeführt, die Empfehlungen in diesem Handbuch gelten jedoch möglicherweise für Computer, auf denen die 2007 Office-Version auf Windows Server 2003 SP1 oder später ausgeführt wird.
 
-Wie bereits erwähnt, bietet dieses Handbuch ausführliche Empfehlungen zu Sicherheitseinstellungen für zwei unterschiedliche Umgebungstypen: die EC-Umgebung, in der ein Gleichgewicht zwischen Sicherheit und Anwendungsfunktionalität erforderlich ist, und die SSLF-Umgebung, bei der die Sicherheit einen höheren Stellenwert einnimmt als die Anwendungsfunktionalität. Anhand der Informationen im begleitenden Handbuch [Bedrohungen und Gegenmaßnahmen](https://technet.microsoft.com/de-de/library/fe58931e-25fa-4a32-8497-416dbe4929c3(v=TechNet.10))  können Sie die empfohlenen Einstellungen so ändern, dass unterschiedliche Konfigurationen für weitere spezielle Umgebungen entstehen.
-Zum Seitenanfanq
+Wie bereits erwähnt, bietet dieses Handbuch ausführliche Empfehlungen zu Sicherheitseinstellungen für zwei unterschiedliche Umgebungstypen: die EC-Umgebung, in der ein Gleichgewicht zwischen Sicherheit und Anwendungsfunktionalität erforderlich ist, und die SSLF-Umgebung, bei der die Sicherheit einen höheren Stellenwert einnimmt als die Anwendungsfunktionalität. Anhand der Informationen im begleitenden Handbuch [Bedrohungen und Gegenmaßnahmen](https://technet.microsoft.com/de-de/library/fe58931e-25fa-4a32-8497-416dbe4929c3(v=TechNet.10))   können Sie die empfohlenen Einstellungen so ändern, dass unterschiedliche Konfigurationen für weitere spezielle Umgebungen entstehen.
+
+[Zum Seitenanfanq](#mainsection)
 
 ## Zielgruppe
 
@@ -96,7 +98,7 @@ Das [2007 Microsoft Office-Sicherheitshandbuch](http://www.microsoft.com/germany
 
 * **Berater**. Personen in dieser Rolle arbeiten in Unternehmen mit einer Größe von 50 bis 5.000 oder mehr Clientcomputern. IT-Berater kennen sich mit vielen Arten von Sicherheitsszenarien aus, die alle Geschäftsebenen eines Unternehmens umfassen. IT-Berater sowohl von Microsoft Services als auch von Partner nutzen Tools zur Wissensvermittlung für Partner und Unternehmenskunden.
 
-Zum Seitenanfanq
+[Zum Seitenanfanq](#mainsection)
 
 ## Warum ist Sicherheit ein wichtiges Thema für die 2007 Office-Version?
 
@@ -121,7 +123,8 @@ IT-Experten und IT-Sicherheitsexperten teilen die Risiken für die Datensicherhe
 Um zu gewährleisten, dass Ihr Unternehmen vor allen drei aufgeführten Risikokategorien geschützt ist, wird eine tief greifende Sicherheitsstrategie empfohlen. Dabei handelt es sich um eine Sicherheitsstrategie, die mehrere überlappende Schutzschichten zur Abwehr von unbefugten Benutzer und schädlichem Code umfasst. Zu diesen Schichten gehören in der Regel der Schutz des Umkreisnetzwerks, z. B. durch Firewalls, physische Sicherheitsmaßnahmen wie physisch sichere Datencenter und Serverräume sowie Tools für die Desktopsicherheit, z. B. persönliche Firewalls, Virenprüfprogramme und Spywareerkennung.
 
 Wenn die 2007 Office-Version Teil Ihrer Umgebung ist, sollte die tief greifende Schutzstrategie außerdem die in der 2007 Office-Version enthaltenen Mechanismen zur Risikominderung umfassen. Zu diesen Risikominderungsmechanismen gehören eine Vielzahl an Technologien, Einstellungen und Funktionen, beispielsweise vertrauenswürdige Herausgeber, Verschlüsselung, vertrauenswürdige Speicherorte, digitale Signaturen, Datenschutz- und Sicherheitseinstellungen für Microsoft ActiveX®-Steuerelemente, Add-Ins und Microsoft Visual Basic® for Applications (VBA)-Makros. Diese Technologien, Einstellungen und Funktionen können gemeinsam zur Minderung von Sicherheitsbedrohungen in Ihrer Umgebung beitragen. Durch Einsatz dieser Risikominderungsmechanismen lassen sich das geistige Eigentum, die Unternehmensressourcen sowie die Geschäftsprozesse schützen, die den Kern Ihres Unternehmens bilden.
-Zum Seitenanfanq
+
+[Zum Seitenanfanq](#mainsection)
 
 ## Anforderungen an die Infrastruktur
 
@@ -130,7 +133,7 @@ In diesem Handbuch wird vorausgesetzt, dass Sie bereits dem Industriestandard en
 
 * Implementierung der im [Windows XP-Sicherheitshandbuch](http://www.microsoft.com/germany/technet/security/prodtech/windowsxp/secwinxp/default.mspx)   oder im [Windows Vista-Sicherheitshandbuch](http://go.microsoft.com/fwlink/?linkid=74027)   enthaltenen Empfehlungen und bewährten Methoden. Diese Handbücher bieten ausführliche Anleitungen zum Schutz von Desktop- und Laptopcomputern, auf denen die Betriebssysteme Windows XP und Windows Vista ausgeführt werden. Sie sind im Microsoft Download Center und auf der Microsoft TechNet-Website verfügbar.
 
-* Absichern und Schutz Ihrer Server in Einklang mit dem [Windows Server 2003-Sicherheitshandbuch](http://www.microsoft.com/germany/technet/security/prodtech/windowsserver2003/w2003hg/sgch00.mspx)  . Dieses Handbuch bietet ausführliche Anleitungen zum Schutz von Servern, auf denen das Betriebssystem Windows Server 2003 ausgeführt wird. Es ist im Microsoft Download Center und auf der Microsoft TechNet-Website verfügbar.
+* Absichern und Schutz Ihrer Server in Einklang mit dem [Windows Server 2003-Sicherheitshandbuch](http://www.microsoft.com/germany/technet/security/prodtech/windowsserver2003/w2003hg/sgch00.mspx). Dieses Handbuch bietet ausführliche Anleitungen zum Schutz von Servern, auf denen das Betriebssystem Windows Server 2003 ausgeführt wird. Es ist im Microsoft Download Center und auf der Microsoft TechNet-Website verfügbar.
 
 
 Wenn Ihr Unternehmen diese Infrastrukturanforderungen nicht erfüllt, stehen die folgenden Ressourcen zur Verfügung, die Ihnen beim Schützen und Aktualisieren Ihrer Infrastruktur behilflich sind.
@@ -152,20 +155,23 @@ Wenn Ihr Unternehmen diese Infrastrukturanforderungen nicht erfüllt, stehen die
 
 * [Microsoft Learning](http://go.microsoft.com/fwlink/?linkid=65913)  -Website (enthält Informationen zur Microsoft-Zertifizierung, zu E-Learning sowie Onlinecomputerschulungen)
 
-Zum Seitenanfanq
+[Zum Seitenanfanq](#mainsection)
 
 ## Kapitelübersicht
 
-Das 2007 Microsoft Office-Sicherheitshandbuch besteht aus dieser Übersicht sowie fünf Kapiteln. Aus der folgenden Abbildung ist ersichtlich, wie Sie dieses Handbuch und andere 2007 Microsoft Office-Sicherheitshandbücher zum Planen und Bereitstellen von Sicherheitseinstellungen in Ihrer Umgebung verwenden können.
+Das *2007 Microsoft Office-Sicherheitshandbuch* besteht aus dieser Übersicht sowie fünf Kapiteln. Aus der folgenden Abbildung ist ersichtlich, wie Sie dieses Handbuch und andere *2007 Microsoft Office-Sicherheitshandbücher* zum Planen und Bereitstellen von Sicherheitseinstellungen in Ihrer Umgebung verwenden können.
 
-Wie in Schritt 2 der obigen Abbildung dargestellt, helfen Ihnen Kapitel 1 bis 4 dieses Handbuchs die für Ihre Umgebung am besten geeigneten Sicherheitseinstellungen zu bestimmen. Wenn Sie die vorgegebenen EC- bzw. SSLF-Einstellungen jedoch wie beschrieben ganz ohne Änderungen bereitstellen möchten (beispielsweise in einer Testumgebung), können Sie diese Schritte überspringen und mit Schritt 4 fortfahren. Befolgen Sie die Anleitungen in Kapitel 5 und in Verwendung von GPOAccelerator. Zum Bereitstellen der vorgegebenen EC- bzw. SSLF-Einstellungen ist es nicht erforderlich, Kapitel 1 bis 4 zu lesen.
- **Hinweis:**
+![](images/dd443742.c5ea805d-c994-4647-b046-46cf74e85187(de-de,TechNet.10).gif)
+
+Wie in Schritt 2 der obigen Abbildung dargestellt, helfen Ihnen Kapitel 1 bis 4 dieses Handbuchs die für Ihre Umgebung am besten geeigneten Sicherheitseinstellungen zu bestimmen. Wenn Sie die vorgegebenen EC- bzw. SSLF-Einstellungen jedoch wie beschrieben ganz ohne Änderungen bereitstellen möchten (beispielsweise in einer Testumgebung), können Sie diese Schritte überspringen und mit Schritt 4 fortfahren. Befolgen Sie die Anleitungen in Kapitel 5 und in *Verwendung von GPOAccelerator*. Zum Bereitstellen der vorgegebenen EC- bzw. SSLF-Einstellungen ist es nicht erforderlich, Kapitel 1 bis 4 zu lesen.
+ 
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Microsoft empfiehlt eine genaue Evaluierung der EC- und SSLF-Einstellungen, bevor diese in einer Produktionsumgebung eingesetzt werden.
 
 Es folgt eine Zusammenfassung der einzelnen Kapitel.
 
-### #### Kapitel 1: 2007 Office Releasea6a63525-874e-4820-9638-c008de0165d9.xml
+#### Kapitel 1: 2007 Office Releasea6a63525-874e-4820-9638-c008de0165d9.xml
 
 Dieses Kapitel enthält die folgenden Informationen:
 * Eine Übersicht über das Sicherheitsmodell der 2007 Office-Version mit einer Beschreibung der zugrunde liegenden Sicherheitsprinzipien.
@@ -174,7 +180,7 @@ Dieses Kapitel enthält die folgenden Informationen:
 
 * Eine Beschreibung der gängigen Bedrohungen und Angriffsmethoden, die für die 2007 Office-Version ein Risiko darstellen.
 
-Kapitel 2: Confidentiality c0b0250c-809e-4c2d-b2b5-94e3e54b36f4.xml
+#### Kapitel 2: Confidentiality c0b0250c-809e-4c2d-b2b5-94e3e54b36f4.xml
 
 Dieses Kapitel enthält einen Überblick über die Sicherheitstechnologien und -einstellungen in der 2007 Office-Version, mit denen sich Bedrohungen für vertrauliche Daten mindern lassen, darunter:
 * Sicherheitseinstellungen
@@ -185,7 +191,8 @@ Dieses Kapitel enthält einen Überblick über die Sicherheitstechnologien und -
 
 
 Diese Informationen können während der Konzept- und Planungsphasen eingesetzt werden, um die Bedrohungen für vertrauliche Daten besser einzuschätzen und mögliche Risikominderungsmechanismen zu verstehen, die zur Behandlung dieser Bedrohungen implementiert werden können.
-Kapitel 3: Integrity 62bde736-3e56-4412-a6a9-67f76c748618.xml
+
+#### Kapitel 3: Integrity 62bde736-3e56-4412-a6a9-67f76c748618.xml
 
 Dieses Kapitel enthält eine Übersicht über die Sicherheitstechnologien und -einstellungen der 2007 Office-Version, mit denen sich Bedrohungen der Integrität mindern lassen, darunter:
 * Einstellungen für vertrauenswürdige Herausgeber
@@ -196,7 +203,8 @@ Dieses Kapitel enthält eine Übersicht über die Sicherheitstechnologien und -e
 
 
 Diese Informationen können während der Konzept- und Planungsphasen eingesetzt werden, um die Bedrohungen für die Integrität besser einzuschätzen und mögliche Risikominderungsmechanismen zu verstehen, die zur Behandlung dieser Bedrohungen implementiert werden können.
-Kapitel 4: Availability 162c122b-7fb5-46db-ad5f-edc16cf1b40d.xml
+
+#### Kapitel 4: Availability 162c122b-7fb5-46db-ad5f-edc16cf1b40d.xml
 
 Dieses Kapitel bietet eine Übersicht über die Sicherheitstechnologien und -einstellungen in der 2007 Office-Version, mit denen sich Bedrohungen der Verfügbarkeit mindern lassen, darunter:
 * Einstellungen für ActiveX-Steuerelemente
@@ -213,10 +221,12 @@ Dieses Kapitel bietet eine Übersicht über die Sicherheitstechnologien und -ein
 
 
 Diese Informationen können während der Konzept- und Planungsphasen eingesetzt werden, um die Bedrohungen für vertrauliche Daten besser einzuschätzen und mögliche Risikominderungsmechanismen zu verstehen, die zur Behandlung dieser Bedrohungen implementiert werden können.
-Kapitel 5: Designing and Implementing Security Settings945fb590-e737-4359-8b9a-487aef94f9fd.xml
+
+#### Kapitel 5: Designing and Implementing Security Settings945fb590-e737-4359-8b9a-487aef94f9fd.xml
 
 Dieses Kapitel bietet ausführliche Empfehlungen zur Auswahl der Einstellungen für EC- bzw. SSLF-Umgebungen sowie ausführliche Anleitungen für den Entwurf einer Organisationseinheitsstruktur (Organizational Unit, OU).
-Zum Seitenanfanq
+
+[Zum Seitenanfanq](#mainsection)
 
 ## Danksagungen
 
@@ -224,37 +234,37 @@ Das SA-SC-Team möchte dem für die Produktion des 2007 Microsoft Office-Sicherh
 
 **Inhaltsentwicklung**
 
-Bill Gruber – Microsoft
+Bill Gruber – *Microsoft*
 
-Paul Henry – Wadeware LLC
+Paul Henry – *Wadeware LLC*
 
-Paul Slater – Wadeware LLC
+Paul Slater – *Wadeware LLC*
  
 
 **Entwicklungsleitung**
 
-Ross Carter – Microsoft
+Ross Carter – *Microsoft*
  
 
 **Lektoren**
 
-Jennifer Kerns – Wadeware LLC
+Jennifer Kerns – *Wadeware LLC*
 
-Steve Wacker – Wadeware LLC
+Steve Wacker – *Wadeware LLC*
  
 
 **Produktmanager**
 
-Alain Meeus – Microsoft
+Alain Meeus – *Microsoft*
 
-Jim Stuart – Microsoft
+Jim Stuart – *Microsoft*
 
-Eric Yaver – Volt Information Sciences
+Eric Yaver – *Volt Information Sciences*
  
 
 **Programm-Manager**
 
-Flicka Enloe – Microsoft
+Flicka Enloe – *Microsoft*
  
 
 **Release-Manager**
@@ -264,59 +274,59 @@ Karina Larson – Microsoft
 
 **Lektoren**
 
-Alex Vandurme – NCIRC/NATO
+Alex Vandurme – *NCIRC/NATO*
 
-Brad Albrecht – Microsoft
+Brad Albrecht – *Microsoft*
 
-Chase Carpenter – Microsoft
+Chase Carpenter – *Microsoft*
 
-David Vanophalvens – NCIRC/NATO
+David Vanophalvens – *NCIRC/NATO*
 
-Derick Campbell – Microsoft
+Derick Campbell – *Microsoft*
 
-Ed McGinn – Microsoft
+Ed McGinn – *Microsoft*
 
-Eugene Siu – Microsoft
+Eugene Siu – *Microsoft*
 
-Frank Simorjay – Microsoft
+Frank Simorjay – *Microsoft*
 
-Joshua Edwards – Microsoft
+Joshua Edwards – *Microsoft*
 
 Koreanische Regierung
 
-Kurt Dillard – Microsoft
+Kurt Dillard – *Microsoft*
 
-Mallikarjuna rao Nimmagadda – Microsoft
+Mallikarjuna rao Nimmagadda – *Microsoft*
 
-Mark Simos – Microsoft
+Mark Simos – *Microsoft*
 
-Norman Vadnais – Independent
+Norman Vadnais – *Independent*
 
-Padgett Peterson – Lockheed Martin
+Padgett Peterson – *Lockheed Martin*
 
-Raf Cox – Microsoft
+Raf Cox – *Microsoft*
 
-Tom Garity – Independent
+Tom Garity – *Independent*
 
-Waqas Nazir – V-Empower Inc.
+Waqas Nazir – *V-Empower Inc.*
 
 Das United States Department of Commerce National Institute of Standards and Technology (NIST) beteiligte sich ebenfalls an der Prüfung dieses Microsoft-Sicherheitshandbuchs und stellte Anmerkungen zur Verfügung, die in die veröffentlichte Version aufgenommen wurden.
   
 
 **Testmanager**
 
-Gaurav Singh Bora – Microsoft
+Gaurav Singh Bora – *Microsoft*
  
 
 **Tester**
 
-Harish Ananthapadmaanabhan – Infosys Technologies Ltd.
+Harish Ananthapadmaanabhan – *Infosys Technologies Ltd.*
 
-IndiraDevi Chandran – Infosys Technologies Ltd.
+IndiraDevi Chandran – *Infosys Technologies Ltd.*
 
-RaxitKumar Gajjar – Infosys Technologies Ltd.
+RaxitKumar Gajjar – *Infosys Technologies Ltd.*
 
-Sumit Parikh – Infosys Technologies Ltd.
+Sumit Parikh – *Infosys Technologies Ltd.*
  
  
 In diesem Beitrag
@@ -354,7 +364,7 @@ In diesem Beitrag
 
 <td>
 
-Zum Seitenanfanq
+[Zum Seitenanfanq](#mainsection)
 </td>
 
 <td>
@@ -365,8 +375,3 @@ Zum Seitenanfanq
 </tr>
 
 </table>
-
-
-
-
-
