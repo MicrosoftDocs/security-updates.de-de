@@ -1,6 +1,6 @@
 ---
-Title: 2007 Microsoft Office-Sicherheitshandbuch: Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien
-TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch: Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien
+Title: 2007 Microsoft Office-Sicherheitshandbuch - Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien
+TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch - Auflistung der Sicherheitseinstellungen für Benutzerrichtlinien
 ms:assetid: f3af8a5d-5067-4add-917b-f7ab8cdca16c
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443676(v=TechNet.10)
 ms:contentKeyID: 20075619
@@ -17,7 +17,9 @@ Veröffentlicht: 11. Nov 2007
 Die Einstellungen im folgenden Abschnitt sind nach Namen aufgeführt.
 
 #### Auf dieser Seite
-[Informationen zu Benutzerrichtlinieneinstellungen](#ecd)  ## Informationen zu Benutzerrichtlinieneinstellungen
+[Informationen zu Benutzerrichtlinieneinstellungen](#ecd)
+
+## Informationen zu Benutzerrichtlinieneinstellungen
 
 Für jede Einstellung werden neben einer Beschreibung auch Informationen über die betroffenen Anwendungen, das behandelte Sicherheitsrisiko, die Art und Weise, in der das Sicherheitsrisiko behandelt wird, und eventuelle andere Erwägungen bereitgestellt. Darüber hinaus ist für jede Einstellung eine Tabelle enthalten, die den Speicherort der Einstellung in der Gruppenrichtlinie, die ADM-Datei mit der Einstellung sowie die empfohlene Konfiguration für EC- und SSLF-Umgebungen aufführt.
 
@@ -36,7 +38,8 @@ Eine neue Datenbank, die in einem ungeeigneten Format erstellt wurde, kann mögl
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, können Administratoren angeben, ob neue Datenbankdateien standardmäßig im Access 2007- oder im Access 2002–2003-Format erstellt werden. Benutzer haben die Möglichkeit, die Standardeinstellung weiterhin außer Kraft zu setzen und beim Speichern von Dateien ein bestimmtes Format auszuwählen, können die Standardeinstellung aber nicht selbst über das Dialogfeld **Access-Optionen** einrichten.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn diese Einstellung **deaktiviert** ist, stehen Benutzern im Dialogfeld **Access-Optionen** drei Standarddateiformate zur Auswahl: Access 2000, Access 2002–2003 und Access 2007. Administratoren können mit dieser Einstellung entweder das Access 2002–2003- oder das Access 2007-Format, aber nicht das Access 2000-Format als Standardformat festlegen.
 
@@ -155,7 +158,8 @@ Standardmäßig werden diese verschlüsselten Makros deaktiviert, wenn sie nicht
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, deaktiviert Excel 2007 verschlüsselte Makros, bis sie auf Viren überprüft wurden.
-  **Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **aktiviert** ist, kann die Sicherheit durch die Verwendung verschlüsselter, nicht auf Viren überprüfter Makros deutlich verringert werden. Mit Ausnahme von besonderen Situationen, in denen eine Echtzeitprüfung von Arbeitsmappendateien nicht möglich ist, sollte diese Einstellung **deaktiviert** werden.
 
@@ -274,7 +278,8 @@ Wenn diese Einstellung **deaktiviert** ist, verlangt PowerPoint 2007 vor dem Lad
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, deaktiviert PowerPoint 2007 verschlüsselte Makros, bis sie auf Viren überprüft wurden.
-  **Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **deaktiviert** ist, kann die Sicherheit durch die Verwendung verschlüsselter, nicht auf Viren überprüfter Makros deutlich verringert werden. Mit Ausnahme von besonderen Situationen, in denen eine Echtzeitprüfung von Präsentationsdateien nicht möglich ist, sollte diese Einstellung **aktiviert** werden.
 
@@ -383,7 +388,8 @@ Die Aktivierung dieser Einstellung setzt die Standardkonfiguration in PowerPoint
 Betrifft: **Word**
 
 Diese Einstellung steuert, ob verschlüsselte Makros in Open XML-Dokumenten vor dem Öffnen mit Antivirensoftware überprüft werden müssen.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103498)  .
 
@@ -396,7 +402,8 @@ Wenn die Standardkonfiguration geändert wird, verlangt Word 2007 vor dem Laden 
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, deaktiviert Word 2007 verschlüsselte Makros, bis sie auf Viren überprüft werden.
-  **Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **deaktiviert** ist, kann die Sicherheit durch die Verwendung verschlüsselter, nicht auf Viren überprüfter Makros deutlich verringert werden. Mit Ausnahme von besonderen Situationen, in denen eine Echtzeitprüfung von Dokumentdateien nicht möglich ist, sollte diese Einstellung **aktiviert** werden.
 
@@ -888,14 +895,14 @@ Wenn diese Einstellung **aktiviert** ist, sind alle Add-Ins für die 2007-Versio
 <td>
 
 
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter
-
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Word-Optionen\Sicherheit\Vertrauensstellungscenter
 
 </td>
@@ -1130,12 +1137,12 @@ Wenn diese Einstellung **aktiviert** ist, werden alle vertrauenswürdigen Speich
 <td>
 
 
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte
-
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte  
+<br/>
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Word-Optionen\Sicherheit\Vertrauensstellungscenter\Vertrauenswürdige Speicherorte
 
 </td>
@@ -1724,14 +1731,14 @@ Administratoren können im Ordner **Benutzerdefiniert** für die ausgewählten A
 <td>
 
 
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
-
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)  
+<br/>
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
 
 </td>
@@ -1803,17 +1810,15 @@ Nicht konfiguriert
 
 <td>
 
-
-Access: CCE-1370, CCE-1268, CCE-1400, CCE-1440, CCE-581, CCE-1480, CCE-1489, CCE-1392, CCE-1414, CCE-1418, CCE-1405, CCE-1550
-
-Excel: CCE-1469, CCE-1473, CCE-1499, CCE-1024, CCE-1530, CCE-1120, CCE-1252, CCE-1151, CCE-1301, CCE-1310, CCE-1213, CCE-1362, CCE-1156, CCE-1429
-
-InfoPath: CCE-1065, CCE-1361, CCE-1096, CCE-1391, CCE-1519, CCE-1523, CCE-1171, CCE-1457, CCE-1426, CCE-805, CCE-1453, CCE-1351, CCE-620, CCE-1017
-
-PowerPoint: CCE-1327, CCE-1723, CCE-1366, CCE-1679, CCE-1173, CCE-1714, CCE-1485, CCE-1687, CCE-1709, CCE-1463
-
+Access: CCE-1370, CCE-1268, CCE-1400, CCE-1440, CCE-581, CCE-1480, CCE-1489, CCE-1392, CCE-1414, CCE-1418, CCE-1405, CCE-1550  
+<br/>
+Excel: CCE-1469, CCE-1473, CCE-1499, CCE-1024, CCE-1530, CCE-1120, CCE-1252, CCE-1151, CCE-1301, CCE-1310, CCE-1213, CCE-1362, CCE-1156, CCE-1429  
+<br/>
+InfoPath: CCE-1065, CCE-1361, CCE-1096, CCE-1391, CCE-1519, CCE-1523, CCE-1171, CCE-1457, CCE-1426, CCE-805, CCE-1453, CCE-1351, CCE-620, CCE-1017  
+<br/>
+PowerPoint: CCE-1327, CCE-1723, CCE-1366, CCE-1679, CCE-1173, CCE-1714, CCE-1485, CCE-1687, CCE-1709, CCE-1463  
+<br/>
 Word: CCE-1659, CCE-1329, CCE-1632, CCE-1425, CCE-1196, CCE-936, CCE-1354, CCE-1125, CCE-1742, CCE-1782, CCE-1306, CCE-1548
-
 </td>
 
 </tr>
@@ -1831,7 +1836,8 @@ Die Deaktivierung von Befehlen in den 2007-Versionen von Microsoft Office-Anwend
 Betrifft: **2007 Office System**
 
 Diese Einstellung steuert, ob 2007 Office-Benutzer von der Community bereitgestellte Vorlagen von Office Online herunterladen können.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Aufgrund eines Problems, das in einigen Fällen zu einem Absturz von Office-Anwendungen führen kann, wenn Benutzer eine von Kunden bereitgestellte Vorlage herunterladen möchten und diese Einstellung aktiviert ist, legt der GPOAccelerator sowohl für EC- als auch SSLF-Umgebungen **Nicht konfiguriert** fest. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103506)  .
 
@@ -2784,7 +2790,8 @@ Standardmäßig benachrichtigen 2007 Office-Anwendungen Benutzer über unsichere
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, können Hyperlinkwarnungen mit keinerlei Mitteln unterdrückt werden. 2007 Office-Benutzer werden über unsichere Links benachrichtigt und müssen diese manuell aktivieren, um sie benutzen zu können.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn die Einstellung **aktiviert** ist, werden Warnungen über unsichere Hyperlinks für alle Benutzer unterdrückt. Dadurch wird die Sicherheit möglicherweise wesentlich verringert. Mit Ausnahme von besonderen Umständen sollte diese Einstellung **deaktiviert** werden.
 
@@ -3003,7 +3010,8 @@ CCE-1166
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung ändert die Standardkonfiguration und verhindert, dass 2007 Office-Benutzer direkt auf Vorlagen von Office Online zugreifen können. Wenn Benutzer einen Zugriff auf einige dieser Vorlagen benötigen, müssen Sie diese innerhalb Ihres Unternehmens verfügbar machen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die Aktivierung dieser Einstellung verhindert nicht, dass Benutzer über ihren Webbrowser Vorlagen von der Office Online-Website herunterladen. Weitere Informationen über das Verhindern von Vorlagendownloads über Webbrowser finden Sie unter „Herunterladen von Vorlagen vom Client und von der Office Online-Website deaktivieren“ in diesem Handbuch.
 
@@ -3020,7 +3028,8 @@ Wenn die Add-Ins „Microsoft - Speichern als PDF“ oder „Microsoft - Speiche
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, werden Metadaten mit Dokumenteigenschaften nicht an PDF- und XPS-Dateien exportiert.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn die Einstellung **deaktiviert** ist, werden Metadaten mit Dokumenteigenschaften immer mit PDF- und XPS-Dateien gespeichert, und Benutzer können diese Einstellung nicht außer Kraft setzen. Diese Konfiguration kann die Sicherheit gefährden, wenn die Metadaten vertrauliche Daten enthalten.
 
@@ -3123,7 +3132,8 @@ CCE-1643
 #### Auswirkung
 
 Wenn diese Einstellung **aktiviert** ist, können Benutzer Metadaten mit Dokumenteigenschaften nicht an PDF- und XPS-Dateien exportieren. Wenn einige Benutzer diese Funktionalität als Teil eines unternehmenswichtigen Prozesses benötigen, kann die Einstellung für diese Benutzer möglicherweise nicht aktiviert werden.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unabhängig von der Aktivierung dieser Einstellung sollten Sie in Betracht ziehen, die Benutzer über den Dokumentinspektor zu informieren. Der Dokumentinspektor hilft, vertrauliche Daten in Excel 2007-Arbeitsmappen, PowerPoint 2007-Präsentationen und Word 2007-Dokumenten zu finden und daraus zu entfernen. Weitere Informationen über den Dokumentinspektor finden Sie unter [Entfernen von ausgeblendeten Daten und persönlichen Informationen aus Office-Dokumenten](http://office.microsoft.com/en-us/help/ha100375931033.aspx)  .
 
@@ -3830,7 +3840,8 @@ Diese Einstellung steuert, ob Benutzer Formatvorlagen gemeinsam mit InfoPath 200
 #### Sicherheitsrisiko
 
 Standardmäßig lässt InfoPath 2007 beim Versenden von E-Mail-Formularen das Anhängen von Formularvorlagen zu. Wenn Benutzer in E-Mail-Formularen enthaltene Formularvorlagen öffnen können, statt eine zwischengespeicherte und zuvor veröffentliche Version verwenden zu müssen, kann ein Angreifer eine schädliche Formularvorlage mit dem E-Mail-Formular versenden und sich Zugriff auf vertrauliche Daten verschaffen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die Formularvorlage wird nur dann direkt geöffnet, wenn das Formular mit einer eingeschränkten Sicherheitsstufe geöffnet wird. Andernfalls ist die Anlage tatsächlich ein Link zum veröffentlichten Speicherort.
 
@@ -4088,14 +4099,14 @@ Administratoren können im Ordner „Benutzerdefiniert“ für die angegebenen A
 <td>
 
 
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Elemente in Benutzeroberfläche deaktivieren\Vordefiniert
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
-
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Elemente in Benutzeroberfläche deaktivieren\Vordefiniert  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)  
+<br/>
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Elemente in Benutzeroberfläche deaktivieren\(Vordefiniert|Benutzerdefiniert)
 
 </td>
@@ -4168,14 +4179,14 @@ Nicht konfiguriert
 <td>
 
 
-Access: CCE-1075, CCE-709, CCE-1502
-
-Excel: CCE-1182, CCE-1525, CCE-1547, CCE-1300
-
-InfoPath: CCE-1021, CCE-1299, CCE-1197
-
-PowerPoint: CCE-1467, CCE-1740, CCE-1780, CCE-1661
-
+Access: CCE-1075, CCE-709, CCE-1502  
+<br/>
+Excel: CCE-1182, CCE-1525, CCE-1547, CCE-1300  
+<br/>
+InfoPath: CCE-1021, CCE-1299, CCE-1197  
+<br/>
+PowerPoint: CCE-1467, CCE-1740, CCE-1780, CCE-1661  
+<br/>
 Word: CCE-1716, CCE-1597, CCE-1689, CCE-1570, CCE-1720
 
 </td>
@@ -4655,7 +4666,8 @@ CCE-1545
 #### Auswirkung
 
 Wenn diese Einstellung **aktiviert** ist, können Benutzer die Liste veröffentlichter Links nicht verwenden, um Dateien direkt in 2007 Office-Anwendungen zu öffnen und zu speichern. Das beeinträchtigt möglicherweise die Verwendung von SharePoint Server für die Zusammenarbeit an Dokumenten.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Diese Einstellung betrifft speziell Microsoft Office SharePoint Server. Die Windows SharePoint Services (WSS) sind nicht betroffen.
 
@@ -4664,7 +4676,8 @@ Diese Einstellung betrifft speziell Microsoft Office SharePoint Server. Die Wind
 Betrifft: **2007 Office System**
 
 Diese Einstellung steuert, ob Benutzer Schulungs- und Übungsmaterialien von Microsoft Office Online herunterladen können.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103520)  .
 
@@ -4810,14 +4823,14 @@ Wenn diese Einstellung **aktiviert** ist, deaktivieren Anwendungen nicht signier
 <td>
 
 
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit\Vertrauensstellungscenter
-
-Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter
-
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Anwendungseinstellungen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Excel 2007\Excel-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit\Vertrauensstellungscenter  
+<br/>
+Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit\Vertrauensstellungscenter  
+<br/>
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Word 2007\Word-Optionen\Sicherheit\Vertrauensstellungscenter
 
 </td>
@@ -4890,14 +4903,14 @@ Aktiviert
 <td>
 
 
-Access: CCE-1423
-
-Excel: CCE-1422
-
-InfoPath: CCE-1434
-
-PowerPoint: CCE-743
-
+Access: CCE-1423  
+<br/>
+Excel: CCE-1422  
+<br/>
+InfoPath: CCE-1434  
+<br/>
+PowerPoint: CCE-743  
+<br/>
 Word: CCE-1333
 
 </td>
@@ -4925,7 +4938,8 @@ Standardmäßig laden 2007 Office-Anwendungen beim Öffnen eines Dokuments oder 
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, können 2007 Office-Anwendungen in Dokumenten oder Vorlagen enthaltenen Benutzeroberflächen-Anpassungscode nicht laden.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die Aktivierung dieser Einstellung verhindert nicht, dass Vorlagen Änderungen an der Symbolleiste für den Schnellzugriff vornehmen.
 
@@ -5288,7 +5302,8 @@ Standardmäßig können die meisten 2007 Office-Anwendungen einschließlich Exce
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, können die 2007-Versionen von Excel, Outlook, PowerPoint, Publisher, SharePoint Designer und Word keinen VBA-Code ausführen. VBA-bezogener Code oder entsprechende Dateien werden auf den Computern von Benutzern weder installiert noch davon entfernt.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Die Einstellung wirkt sich nicht auf VBA in Access 2007 aus. Da InfoPath 2007 kein VBA verwendet, ist die Anwendung von dieser Einstellung ebenfalls nicht betroffen.
 
@@ -5407,7 +5422,8 @@ Standardmäßig blockiert Outlook den Zugriff auf Dateien der Ebene 1 vollständ
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, werden Anlagen der Ebene 1 unter keinen Umständen angezeigt.
-  **Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **aktiviert** ist, können Outlook 2007-Benutzer Zugriff auf Anlagen vom Dateityp der Ebene 1 erhalten, indem sie die Anlagen wie bei Anlagen der Ebene 2 zuerst auf dem Datenträger speichern und dann öffnen. Diese Funktion kann die Sicherheit deutlich verringern.
 
@@ -5510,7 +5526,8 @@ CCE-1296
 #### Auswirkung
 
 Die vollständige Liste der standardmäßig als Ebene 1 klassifizierten Dateitypen finden Sie in der Liste der [Anlagedateitypen, die von Outlook 2007 gesperrt werden](http://technet2.microsoft.com/office/en-us/library/bc667b4c-1645-42be-8dc0-af56dc11ef5b1033.mspx)  .
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Zur Anwendung dieser Einstellung müssen Sie außerdem die Einstellung „Outlook-Sicherheitsmodus“ in „Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Microsoft Office Outlook 2007-Sicherheit“ aktivieren und die Option **Outlook-Sicherheitsgruppenrichtlinie verwenden** aus der Dropdownliste auswählen.
 
@@ -5519,7 +5536,8 @@ Zur Anwendung dieser Einstellung müssen Sie außerdem die Einstellung „Outloo
 Betrifft: **Outlook**
 
 Diese Einstellung bestimmt, an welcher Stelle Benutzer Anwesenheitsinformationen für Kontakte und E-Mail-Empfänger sehen, wenn sie ein kompatibles Instant Messaging-Clientprogramm ausführen.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103517)  .
 
@@ -5638,7 +5656,8 @@ CCE-1604
 #### Auswirkung
 
 Die Aktivierung von **Nie** verhindert, dass Outlook 2007 Anwesenheitsindikatoren anzeigt. Benutzern wird es dadurch möglicherweise erschwert, andere zu kontaktieren oder deren Verfügbarkeit zu ermitteln. Die anderen Optionen werden für die meisten Benutzer vermutlich keine wesentlichen Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die Aktivierung dieser Einstellung setzt die Einstellung „Maximale Onlinestatusebene für einen Personennamen festlegen“ außer Kraft, sodass Administratoren einschränken können, inwieweit Benutzer die Art und Weise der Onlinestatusanzeige ändern können. Weitere Informationen finden Sie im Eintrag für die Einstellung „Maximale Onlinestatusebene für einen Personennamen festlegen“ in diesem Handbuch.
 
@@ -5667,7 +5686,8 @@ Benutzer können steuern, welche Inhalte als sicher betrachtet werden, indem sie
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, lädt Outlook 2007 nur dann automatisch Inhalte von externen Servern herunter, wenn der Absender in der Liste der sicheren Absender aufgeführt ist. Empfänger können sich auf der Basis einzelner Nachrichten entscheiden, ob externe Inhalte von nicht vertrauenswürdigen Absendern heruntergeladen werden.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Gehen Sie bei der Konfiguration dieser Einstellung sorgfältig vor. Der Name dieser Einstellung und ihre Beschreibung in der ADM-Datei implizieren, dass die Einstellung automatische Downloads blockiert, obwohl tatsächlich das Gegenteil der Fall ist. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103523)  .
 
@@ -6016,7 +6036,8 @@ Standardmäßig lässt Outlook nicht zu, dass Benutzer Ordnerhomepages für Ordn
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, können Outlook 2007-Benutzer Ordnerhomepages für Ordner in anderen Speichern als Standardspeichern weder erstellen noch darauf zugreifen. Sie setzt alle Konfigurationsänderungen auf den Computern der Benutzer außer Kraft.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn diese Einstellung **deaktiviert** ist, können Benutzer Ordnerhomepages für Ordner in anderen als Standardspeichern erstellen und darauf zugreifen, auch wenn u. U. andere Einstellungen eine korrekte Funktionsweise der Seiten verhindern.
 
@@ -6135,7 +6156,8 @@ Standardmäßig ermöglicht Outlook die Ausführung von Skripts in benutzerdefin
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, kann Outlook 2007 keine mit öffentlichen Ordnern verknüpften Skripts ausführen. Die Aktivierung setzt außerdem alle Konfigurationsänderungen auf den Computern der Benutzer außer Kraft.
- **Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **deaktiviert** ist, führt Outlook automatisch alle mit benutzerdefinierten Formularen oder Ordnerhomepages für öffentliche Ordner verknüpften Skripts aus. Das kann die Sicherheit bedeutend verringern.
 
@@ -6254,7 +6276,8 @@ Standardmäßig lässt Outlook die Ausführung von Skripts in benutzerdefinierte
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, kann Outlook 2007 keine mit freigegebenen Ordnern verknüpften Skripts ausführen. Die Aktivierung setzt außerdem alle Konfigurationsänderungen auf den Computern der Benutzer außer Kraft.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **deaktiviert** ist, führt Outlook automatisch alle Skripts aus, die mit benutzerdefinierten Formularen oder Ordnerhomepages für freigegebene Ordner verknüpft sind. Das kann die Sicherheit bedeutend verringern.
 
@@ -6945,7 +6968,8 @@ Standardmäßig lädt Outlook 2007 automatisch Inhalte von Sites herunter, die p
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, lädt Outlook 2007 Inhalte aus sicheren Zonen nicht automatisch herunter. Empfänger können sich auf der Basis einzelner Nachrichten entscheiden, ob externe Inhalte von nicht vertrauenswürdigen Absendern heruntergeladen werden.
-  **Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Beachten Sie, dass diese Einstellung „umgekehrt“ funktioniert. Trotz des Namens verhindert die Deaktivierung der Einstellung den Download von Inhalten aus sicheren Zonen, und die Aktivierung der Einstellung lässt den Download zu. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103510)  .
 
@@ -7064,7 +7088,8 @@ Beim Schließen eines Elements, dem eine Datei der Ebene 1 angehängt wurde, war
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, gibt Outlook 2007 vor dem Schließen von Elementen mit Anlagen der Ebene 1 eine Warnung für den Benutzer aus und setzt alle Konfigurationsänderungen auf den Computern von Benutzern außer Kraft.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **aktiviert** ist, zeigt Outlook keine Warnung an, wenn Benutzer Elemente mit Anlagen der Ebene 1 schließen. Das führt möglicherweise zu einem Datenverlust.
 
@@ -7167,7 +7192,8 @@ CCE-1569
 #### Auswirkung
 
 Die Deaktivierung dieser Einstellung setzt die Standardkonfiguration in Outlook 2007 durch und sollte daher für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Zur Anwendung dieser Einstellung müssen Sie außerdem die Einstellung „Outlook-Sicherheitsmodus“ in „Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Microsoft Office Outlook 2007-Sicherheit“ aktivieren und die Option **Outlook-Sicherheitsgruppenrichtlinie verwenden** aus der Dropdownliste auswählen.
 
@@ -7186,7 +7212,8 @@ Beim Versenden eines Elements, dem eine Datei der Ebene 1 angehängt wurde, warn
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, gibt Outlook 2007 vor dem Versenden von Elementen mit Anlagen der Ebene 1 eine Warnung für den Benutzer aus und setzt alle Konfigurationsänderungen auf den Computern von Benutzern außer Kraft.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **aktiviert** ist, zeigt Outlook keine Warnung an, wenn ein Benutzer ein Element mit einer Anlage der Ebene 1 versendet. Das gefährdet möglicherweise die Daten des Benutzers.
 
@@ -7289,7 +7316,8 @@ CCE-1652
 #### Auswirkung
 
 Die Deaktivierung dieser Einstellung setzt die Standardkonfiguration in Outlook 2007 durch und sollte daher für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
- **Wichtig:**
+ 
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Zur Anwendung dieser Einstellung müssen Sie außerdem die Einstellung „Outlook-Sicherheitsmodus“ in „Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen\Microsoft Office Outlook 2007-Sicherheit“ aktivieren und die Option **Outlook-Sicherheitsgruppenrichtlinie verwenden** aus der Dropdownliste auswählen.
 
@@ -7927,8 +7955,3 @@ Diese Einstellung setzt die Standardkonfiguration durch und sollte daher für di
 </tr>
 
 </table>
-
-
-
-
-
