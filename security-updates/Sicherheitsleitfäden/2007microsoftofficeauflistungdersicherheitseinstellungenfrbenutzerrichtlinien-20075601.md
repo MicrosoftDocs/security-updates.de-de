@@ -17,7 +17,9 @@ Veröffentlicht: 11. Nov 2007
 Die Einstellungen im folgenden Abschnitt sind nach Namen aufgeführt.
 
 #### Auf dieser Seite
-[Informationen zu Benutzerrichtlinieneinstellungen](#ecd)  ## Informationen zu Benutzerrichtlinieneinstellungen
+[Informationen zu Benutzerrichtlinieneinstellungen](#ecd)
+
+## Informationen zu Benutzerrichtlinieneinstellungen
 
 Für jede Einstellung werden neben einer Beschreibung auch Informationen über die betroffenen Anwendungen, das behandelte Sicherheitsrisiko, die Art und Weise, in der das Sicherheitsrisiko behandelt wird, und andere Erwägungen bereitgestellt. Darüber hinaus ist für jede Einstellung eine Tabelle verfügbar, die den Speicherort der Einstellung in der Gruppenrichtlinie, die ADM-Datei mit der Einstellung, die empfohlene Konfiguration für EC- und SSLF-Umgebungen sowie zugehörige CCE-Bezeichner (Common Configuration Enumeration) aufführt.
 
@@ -160,8 +162,8 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren die ActiveX-Si
 <table>
 
 <tr>
-**Wert**
-</th>
+<th>**Wert**</th>
+<th>
 **Erläuterung**
 </th>
 
@@ -376,7 +378,8 @@ CCE-908
 #### Auswirkung
 
 Die empfohlene Einstellung für die EC-Umgebung ist **Aktiviert**, und Sicherheitsstufe 2 ist ausgewählt. Diese Einstellung setzt die Standardkonfiguration durch und verursacht deshalb für die meisten Benutzer kaum Nutzbarkeitsprobleme.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Manche ActiveX-Steuerelemente beachten die Registrierungseinstellung für den abgesicherten Modus nicht und laden daher möglicherweise permanente Daten, obwohl Sie die Einstellung so konfiguriert haben, dass das Steuerelement den abgesicherten Modus verwenden soll.
 
@@ -401,7 +404,8 @@ Standardmäßig werden die Empfänger ausgehender Nachrichten nicht automatisch 
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, werden Empfänger ausgehender Nachrichten nicht automatisch der Liste sicherer Absender hinzugefügt. Der Benutzer muss dieser Liste explizit Adressen hinzufügen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn diese Einstellung **aktiviert** ist, werden alle Empfänger ausgehender Nachrichten automatisch der Liste sicherer Absender hinzugefügt. Wenn Benutzer einem Absender von Junk-E-Mail antworten, wenn diese Einstellung **aktiviert** ist, werden alle zukünftigen Junk-E-Mails von dieser Adresse als sicher angesehen.
 
@@ -618,7 +622,8 @@ CCE-1617
 </tr>
 
 </table>
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Diese Einstellung wird nur verwendet, wenn die Gruppenrichtlinieneinstellung „Outlook-Sicherheitsmodus“ für **Outlook-Sicherheitsgruppenrichtlinie verwenden** konfiguriert ist. Weitere Informationen finden Sie unter „Outlook-Sicherheitsmodus“ weiter hinten in diesem Handbuch.
 
@@ -741,7 +746,8 @@ CCE-1155
 </tr>
 
 </table>
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Diese Einstellung wird nur verwendet, wenn die Gruppenrichtlinieneinstellung „Outlook-Sicherheitsmodus“ für **Outlook-Sicherheitsgruppenrichtlinie verwenden** konfiguriert ist. Weitere Informationen finden Sie unter „Outlook-Sicherheitsmodus“ weiter hinten in diesem Handbuch.
 
@@ -766,7 +772,8 @@ Wenn InfoPath-Formularen unsichere Dateitypen hinzugefügt werden, können sie f
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist und „Benutzer können Formularen keine unsicheren Dateitypen anfügen“ **deaktiviert** bzw. nicht konfiguriert ist, können Administratoren festlegen, welche Dateierweiterungen von der Standardliste nicht zugelassener Dateitypen in InfoPath 2007 entfernt werden sollen und somit Benutzern ermöglichen, Dateien der festgelegten Typen an Formulare anzuhängen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Informationen zum Hinzufügen weiterer zu blockierender Dateitypen zu InfoPath finden Sie unter der Einstellung „Bestimmte Dateitypen als Anlagen für Formulare blockieren“ in diesem Handbuch.
 
@@ -987,7 +994,8 @@ CCE-770
 #### Auswirkung
 
 Durch Deaktivieren dieser Einstellung ergeben sich Beeinträchtigungen für Benutzer, die im Vertrauensstellungscenter eigene vertrauenswürdige Speicherorte definiert haben. Anwendungen behandeln diese Speicherorte dann genau wie andere nicht vertrauenswürdige Speicherorte. Benutzern werden also beim Öffnen von Dateien Warnungen in der Statusleiste zu aktivem Inhalt wie ActiveX-Steuerelementen und VBA-Makros angezeigt, und sie müssen auswählen, ob die Steuerelemente bzw. Makros aktiviert werden oder deaktiviert bleiben sollen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 InfoPath 2007 und Outlook 2007 erkennen vertrauenswürdige Speicherorte nicht und sind daher von dieser Einstellung nicht betroffen.
 
@@ -1124,7 +1132,8 @@ Standardmäßig führt Outlook 2007 keine Skripts in Formularen aus, bei denen S
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, werden Skripts in einmaligen Outlook 2007-Formularen nicht ausgeführt.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn diese Einstellung **aktiviert** ist, können Skripts in einmaligen Outlook-Formularen ausgeführt werden, wodurch die Sicherheit möglicherweise erheblich verringert wird.
 
@@ -1223,7 +1232,8 @@ CCE-1595
 </tr>
 
 </table>
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Diese Einstellung wird nur verwendet, wenn die Gruppenrichtlinieneinstellung „Outlook-Sicherheitsmodus“ für **Outlook-Sicherheitsgruppenrichtlinie verwenden** konfiguriert ist. Weitere Informationen finden Sie unter „Outlook-Sicherheitsmodus“ weiter hinten in diesem Handbuch.
 
@@ -1248,7 +1258,8 @@ Standardmäßig können Benutzer vertrauenswürdige Speicherorte auf Netzwerkfre
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, ignoriert die ausgewählte Anwendung alle im Abschnitt **Vertrauenswürdige Speicherorte** des Vertrauensstellungscenters aufgeführten Netzwerkspeicherorte.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Durch Aktivieren dieser Einstellung werden keine Netzwerkspeicherorte aus der Liste vertrauenswürdiger Speicherorte entfernt. Stattdessen wird die ausgewählte Anwendung gezwungen, die Speicherorte als nicht vertrauenswürdig zu behandeln und Benutzer daran zu hindern, der Liste neue Netzwerkspeicherorte hinzuzufügen.
 
@@ -1359,7 +1370,8 @@ Word: CCE-1355
 </tr>
 
 </table>
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn Sie vertrauenswürdige Speicherorte auch über die Gruppenrichtlinie bereitstellen, sollten Sie überprüfen, ob es sich dabei um Remotespeicherorte handelt. Wenn Remotespeicherorte vorliegen und Sie über diese Einstellung keine Remotespeicherorte zulassen, werden die Richtlinienschlüssel, die auf Remotespeicherorte zeigen, auf den Clientcomputern ignoriert.
 
@@ -1492,7 +1504,8 @@ Wenn Benutzern erlaubt wird, Anlagen auf Stufe 2 herunterzustufen, stellt dies m
 Betrifft: **2007 Office System**
 
 Diese Einstellung steuert, ob IRM-aktivierte (Information Rights Management) Dateien von Office-Anwendungen in einem Format gespeichert werden, die in Microsoft Internet Explorer mit dem Windows® Rights Management-Add-On angezeigt werden können.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103504)  .
 
@@ -1961,7 +1974,8 @@ Standardmäßig werden Benutzer aufgefordert, automatische Verknüpfungen zu akt
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, fordert Excel 2007 Benutzer zum Aktualisieren automatischer Verknüpfungen auf, wodurch die Standardkonfiguration durchgesetzt wird.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn diese Einstellung **deaktiviert** ist, aktualisiert Excel automatische Verknüpfungen, ohne den Benutzer zu benachrichtigen oder zur Bestätigung aufzufordern. Hierdurch könnte die Integrität bestimmter Informationen in der Arbeitsmappe gefährdet werden.
 
@@ -2178,7 +2192,8 @@ CCE-1591
 #### Auswirkung
 
 Diese Einstellung setzt die Standardkonfiguration in Outlook 2007 durch und sollte daher für die meisten Benutzer keine größeren Nutzbarkeitsprobleme verursachen.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Wenn für Outlook-Anlagen ein bestimmter Ordner verwendet werden muss, empfiehlt Microsoft ein lokales Verzeichnis (für die beste Leistung), ein Platzieren des Ordners unterhalb des Ordners für temporäre Internetdateien (um von der erhöhten Sicherheit dieses Ordners zu profitieren) sowie einen eindeutigen und schwer zu erratenden Ordnernamen.
 
@@ -2435,7 +2450,8 @@ Standardmäßig lädt Outlook 2007 beim Abrufen von Internetkalenderterminen kei
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **deaktiviert** ist, lädt Outlook 2007 keine an Internetkalendertermine angehängten Dateien herunter. Diese Einstellung erzwingt das Standardverhalten.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Wenn diese Einstellung **aktiviert** ist, lädt Outlook automatisch alle Anlagen für Internetkalendertermine herunter. Dadurch werden Benutzer möglicherweise schädlichen Dateien ausgesetzt.
 
@@ -3380,7 +3396,8 @@ CCE-984
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, Dateien anzuzeigen oder zu bearbeiten, für die zum Öffnen in Word 2007 externe Konverter erforderlich sind. Wenn die Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen und diese Einstellung aktiviert ist, müssen sie ein anderes Tool verwenden, um diese Dateien in ein geeigneteres Format umzuwandeln. Benutzer, die nicht mit Dateien arbeiten, für die externe Konverter erforderlich sind, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -3499,7 +3516,8 @@ CCE-1490
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, Binary 12-Dateien in Excel 2007 anzuzeigen oder zu bearbeiten. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit Binary 12-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -3524,7 +3542,8 @@ Standardmäßig können Benutzer Binärdateiformate in Excel 2007, Word 2007 und
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, können Benutzer keine Binärdateien in der ausgewählten Anwendung öffnen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die Aktivierung dieser Einstellung verhindert nicht, dass Benutzer Dateien im XLSB-Format öffnen, einem neuen mit Excel 2007 eingeführten Binärdateiformat. Unter der Einstellung „Öffnen von Binary 12-Dateitypen blockieren“ in diesem Handbuch finden Sie Informationen dazu, wie Benutzer am Öffnen dieser Dateien gehindert werden können.
 
@@ -3635,7 +3654,8 @@ Word: CCE-1654
 #### Auswirkung
 
 Die empfohlene Einstellung für die SSLF-Umgebung hindert Benutzer am Öffnen von Binärdateien, die in Office 2003 und früheren Versionen von Office-Anwendungen erstellt wurden. Viele Unternehmen verwenden diese Dateien nach wie vor bzw. tauschen Dateien mit anderen Unternehmen aus, in denen sie verwendet werden. Wenn Benutzer mit unternehmenswichtigen Office-Binärdateien arbeiten müssen, führt ein Aktivieren dieser Einstellung zu erheblichen Beeinträchtigungen, es sei denn, Sie können diese Dokumente mithilfe eines anderen Tools in geeignetere Formate umwandeln.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -3644,7 +3664,8 @@ Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007
 Betrifft: **PowerPoint**
 
 Diese Einstellung steuert, ob PowerPoint 2007-Benutzer PowerPoint-Präsentationen öffnen können, die in Formaten aus PowerPoint-Versionen gespeichert wurden, die älter als PowerPoint 97 sind.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 In diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103508)   finden Sie weitere Informationen zu dieser Einstellung.
 
@@ -3757,7 +3778,8 @@ CCE-1216
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung könnte zu unerwarteten Beeinträchtigungen führen, wenn Benutzer mit PowerPoint-Präsentationen arbeiten, an denen über Jahre hinweg keine Änderungen vorgenommen wurden, beispielsweise aus Dokumentarchiven oder alten Sicherungskopien. Berücksichtigen Sie beim Konfigurieren dieser Einstellung, ob Benutzer in Zukunft Zugriff auf solche Dateien benötigen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -3876,7 +3898,8 @@ CCE-554
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, DIF- und SYLK-Dateien in Excel 2007 anzuzeigen oder zu ändern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit DIF- oder SYLK-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -4045,7 +4068,8 @@ CCE-1371
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung könnte zu unerwarteten Beeinträchtigungen führen, wenn Benutzer mit Word-Dokumenten arbeiten, an denen über Jahre hinweg keine Änderungen vorgenommen wurden, beispielsweise aus Dokumentarchiven oder alten Sicherungskopien. Berücksichtigen Sie beim Konfigurieren dieser Einstellung, ob Benutzer in Zukunft Zugriff auf solche Dokumente benötigen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -4054,7 +4078,8 @@ Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007
 Betrifft: **Excel**
 
 Diese Einstellung steuert, ob Excel 2007-Benutzer Open XML-Dateien öffnen können, die mit Vorabversionen von Excel 2007 gespeichert wurden.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht in allen Fällen erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103509)  .
 
@@ -4181,7 +4206,8 @@ CCE-1331
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung könnte zu unerwarteten Beeinträchtigungen führen, wenn sich Ihr Unternehmen an einer Betabereitstellung der 2007 Microsoft Office-Version beteiligt hat. Wenn Ihr Unternehmen keine Beta- oder Releasekandidatversion von Excel 2007 bereitgestellt hat, sollte diese Einstellung für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -4312,7 +4338,8 @@ CCE-1543
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, HTML- und XMLSS-Dateien in Excel 2007 anzuzeigen oder zu ändern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit HTML- und XMLSS-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -4443,7 +4470,8 @@ Word: CCE-1160
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, HTML-Dateien in Word 2007 und PowerPoint 2007 anzuzeigen oder zu bearbeiten. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit HTML-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -4560,7 +4588,8 @@ CCE-1503
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung kann zu unerwarteten Beeinträchtigungen führen, wenn die Benutzer in Ihrem Unternehmen in der Vergangenheit an einem Microsoft-Betaprogramm teilgenommen haben. Wenn Ihr Unternehmen noch nie Betaversionen von Word bereitgestellt hat, sollte diese Einstellung für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -4693,7 +4722,8 @@ Word: CCE-1504
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, Office Open XML-Dateien in den angegebenen Anwendungen anzuzeigen oder zu bearbeiten. Office Open XML ist das Standardformat der 2007 Microsoft Office-Version. Mit steigender Nutzung der 2007 Microsoft Office-Version und ihrer Nachfolger wird sich diese Art von Dateien immer mehr verbreiten.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -4826,7 +4856,8 @@ CCE-1194
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung hat erhebliche Auswirkungen auf Benutzer, die daran gewöhnt sind, PowerPoint-Präsentationsgliederungen in anderen Programmen zu erstellen. Diese Benutzer müssen Gliederungen innerhalb von PowerPoint 2007 erstellen. Andere Benutzer sind von dieser Einstellung nicht betroffen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -4955,7 +4986,8 @@ CCE-1431
 #### Auswirkung
 
 Diese Einstellung setzt die Standardkonfiguration durch und sollte daher für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -5092,7 +5124,8 @@ CCE-1688
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung könnte zu unerwarteten Beeinträchtigungen führen, wenn sich Ihr Unternehmen an einer Betabereitstellung der 2007 Microsoft Office-Version beteiligt hat. Wenn Ihr Unternehmen keine Beta- oder Releasekandidatversion von PowerPoint 2007 bereitgestellt hat, sollte diese Einstellung für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -5229,7 +5262,8 @@ CCE-1594
 #### Auswirkung
 
 Diese Einstellung setzt die Standardkonfiguration durch und sollte daher für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -5358,7 +5392,8 @@ CCE-1746
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung könnte zu unerwarteten Beeinträchtigungen führen, wenn sich Ihr Unternehmen an einer Betabereitstellung der 2007 Microsoft Office-Version beteiligt hat. Wenn Ihr Unternehmen keine Beta- oder Releasekandidatversion von Word 2007 bereitgestellt hat, sollte diese Einstellung für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -5487,7 +5522,8 @@ CCE-1549
 #### Auswirkung
 
 Diese Einstellung setzt die Standardkonfiguration durch und sollte daher für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -5606,7 +5642,8 @@ CCE-1579
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, RTF-Dateien in Word 2007 anzuzeigen oder zu bearbeiten. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit RTF-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -5727,7 +5764,8 @@ Word: CCE-1072
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, Textdateien in den ausgewählten Anwendungen anzuzeigen oder zu bearbeiten. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit Textdateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -5846,7 +5884,8 @@ CCE-958
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, WordprocessingML-Dateien in Word 2007 anzuzeigen oder zu bearbeiten. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit WordprocessingML-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -5963,7 +6002,8 @@ CCE-1437
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, XLL-Add-Ons in Excel 2007 zu laden. Wenn Ihr Unternehmen unternehmenswichtige XLL-Add-Ons verwendet, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die keine XLL-Add-Ons laden, sind von dieser Einstellung nicht betroffen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -6080,7 +6120,8 @@ CCE-1195
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, XML-Dateien in Excel 2007 anzuzeigen oder zu bearbeiten. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit XML-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -6201,7 +6242,8 @@ CCE-573
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, DIF- und SYLK-Dateien in Excel 2007 zu speichern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit DIF- oder SYLK-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
 
 Berücksichtigen Sie bei der Entscheidung, ob diese Einstellung aktiviert werden soll, die Konfiguration der Einstellung „Öffnen von DIF- und SYLK-Dateitypen blockieren“. Wenn „Öffnen von DIF- und SYLK-Dateitypen blockieren“ aktiviert und diese Einstellung deaktiviert oder nicht konfiguriert ist, können Benutzer Dateien in einem Format speichern, das sie nicht öffnen können. Dadurch kann möglicherweise auf wichtige Daten nicht mehr zugegriffen werden.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -6222,14 +6264,15 @@ Standardmäßig können Benutzer Binärdateiformate mit den folgenden Dateierwei
 
 * **Word**. .doc, .dot
 
-**Hinweis:**
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die in der administrativen Vorlagendatei in Excel 2007 bereitgestellte Beschreibung für diese Einstellung enthält eine fehlerhafte Liste der blockierten Dateitypen. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103933)  .
 
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, können Benutzer keine Binärdateien in den angegebenen Anwendungen speichern.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Die Aktivierung dieser Einstellung verhindert nicht, dass Benutzer Dateien im XLSB-Format speichern, einem neuen mit Excel 2007 eingeführten Binärdateiformat. Unter der Einstellung „Speichern von Binary12-Dateitypen blockieren“ in diesem Handbuch finden Sie Informationen dazu, wie Benutzer am Speichern dieser Dateien gehindert werden.
 
@@ -6342,7 +6385,8 @@ Word: CCE-1684
 Viele Unternehmen verwenden diese Dateien nach wie vor bzw. tauschen Dateien mit anderen Unternehmen aus, in denen sie verwendet werden. Wenn Benutzer mit unternehmenswichtigen Office-Binärdateien arbeiten müssen, führt ein Aktivieren dieser Einstellung zu erheblichen Beeinträchtigungen, es sei denn, Sie können diese Dokumente mithilfe eines anderen Tools in geeignetere Formate umwandeln.
 
 Berücksichtigen Sie bei der Entscheidung, ob diese Einstellung aktiviert werden soll, die Konfiguration der Einstellung „Öffnen von Binärdateitypen blockieren“ für die angegebene Anwendung. Wenn „Öffnen von Binärdateitypen blockieren“ aktiviert und diese Einstellung deaktiviert oder nicht konfiguriert ist, können Benutzer Dateien in einem Format speichern, das sie nicht öffnen können. Dadurch kann möglicherweise auf wichtige Daten nicht mehr zugegriffen werden.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -6463,7 +6507,8 @@ CCE-1098
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, XLSB-Dateien in Excel 2007 zu speichern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit XLSB-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
 
 Berücksichtigen Sie bei der Entscheidung, ob diese Einstellung aktiviert werden soll, die Konfiguration der Einstellung „Öffnen von Binary 12-Dateitypen blockieren“. Wenn „Öffnen von Binary 12-Dateitypen blockieren“ aktiviert und diese Einstellung deaktiviert oder nicht konfiguriert ist, können Benutzer Dateien in einem Format speichern, das sie nicht öffnen können. Dadurch kann möglicherweise auf wichtige Daten nicht mehr zugegriffen werden.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -6582,7 +6627,8 @@ CCE-1231
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, Dateien in Formaten zu speichern, für die zum Öffnen in Word 2007 externe Konverter erforderlich sind. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen und diese Einstellung aktiviert ist, müssen sie ein anderes Tool verwenden, um diese Dateien in ein geeigneteres Format umzuwandeln. Benutzer, die nicht mit Dateien arbeiten, für die externe Konverter erforderlich sind, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -6713,7 +6759,8 @@ CCE-1722
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung ergeben sich Beeinträchtigungen für Benutzer, die PowerPoint 2007-Präsentationen als Grafikdateien speichern. Andere Benutzer sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -6844,7 +6891,8 @@ CCE-1507
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, HTML- und XMLSS-Dateien in Excel 2007 zu speichern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit HTML- und XMLSS-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -6975,7 +7023,8 @@ Word: CCE-1675
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, HTML-Dateien in Word 2007 und PowerPoint 2007 zu speichern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit HTML-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -7116,7 +7165,8 @@ Word: CCE-1019
 #### Auswirkung
 
 Office Open XML ist das Standardformat in der 2007 Microsoft Office-Version. Ein Deaktivieren dieser Einstellung sollte daher für die meisten Benutzer keine Nutzbarkeitsprobleme verursachen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -7249,7 +7299,8 @@ CCE-1180
 #### Auswirkung
 
 Die Aktivierung dieser Einstellung hat erhebliche Auswirkungen auf Benutzer, die daran gewöhnt sind, PowerPoint 2007-Präsentationen als Gliederungen zu speichern, die in anderen Programmen geöffnet werden können. Diese Benutzer müssen Gliederungen innerhalb des Zielprogramms selbst erstellen. Andere Benutzer sind von dieser Einstellung nicht betroffen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -7368,7 +7419,8 @@ CCE-1741
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, RTF-Dateien in Word 2007 zu speichern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit RTF-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -7491,7 +7543,8 @@ Word: CCE-1755
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, Textdateien in den angegebenen Anwendungen zu speichern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit Textdateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -7610,7 +7663,8 @@ CCE-1200
 #### Auswirkung
 
 Durch Aktivieren dieser Einstellung werden Benutzer daran gehindert, WordprocessingML-Dateien in Word 2007 zu speichern. Wenn Benutzer mit unternehmenswichtigen Dateien dieser Art arbeiten müssen, führt ein Aktivieren dieser Einstellung möglicherweise zu erheblichen Beeinträchtigungen. Benutzer, die nicht mit WordprocessingML-Dateien arbeiten, sollten von dieser Einstellung nicht betroffen sein.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Unter dem Thema zum [Planen der Blockierung von Dateiformateinstellungen im 2007 Office System](http://go.microsoft.com/fwlink/?linkid=101654)   im 2007 Office Resource Kit (möglicherweise in englischer Sprache) finden Sie weitere Informationen zum Verwenden der Gruppenrichtlinie für das Verwalten und Erzwingen von Dateiformatanforderungen. Im Abschnitt „Dateiblockierungstechnologie“ in Kapitel 4 des 2007 Microsoft Office-Sicherheitshandbuchs finden Sie Informationen über Microsoft Office Isolated Conversion Environment (MOICE), wodurch eine weitere Methode bereitgestellt wird.
 
@@ -7629,7 +7683,8 @@ Standardmäßig kann ein Benutzer alle Dateitypen an Formulare anhängen, außer
 #### Gegenmaßnahme
 
 Wenn diese Einstellung **aktiviert** ist, können Administratoren zusätzlich zur Standardliste unzulässiger Dateitypen in InfoPath 2007 weitere zu blockierende Dateityperweiterungen festlegen.
-**Hinweis:**
+
+![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
 Informationen zum Entfernen von Dateitypen aus der Standardliste unzulässiger Dateitypen finden Sie unter der Einstellung „Dateitypen als Anlagen für Formulare zulassen“ in diesem Handbuch.
 
@@ -7856,7 +7911,8 @@ Die empfohlene Einstellung für eine SSLF-Umgebung ist **Aktiviert**, was bedeut
 Betrifft: **2007 Office System**
 
 Diese Einstellung steuert, ob Updates von der Office Update-Website angewendet werden.
-**Wichtig:**
+
+![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Kürzlich durchgeführte Tests dieser Einstellung ergaben, dass sie nicht erwartungsgemäß funktionierte. Weitere Informationen finden Sie in diesem [Microsoft Knowledge Base-Artikel](http://go.microsoft.com/fwlink/?linkid=103519)  .
 
