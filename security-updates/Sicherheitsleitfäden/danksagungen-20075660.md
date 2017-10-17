@@ -17,13 +17,13 @@ Die Microsoft Solutions for Security and Compliance-Gruppe (MSSC) möchte dem f�
 
 ##### Auf dieser Seite
 
-[](#ehaa)[Autoren](#ehaa)
-[](#egaa)[Bereitstellung von Inhalten](#egaa)
-[](#efaa)[Programmmanagement](#efaa)
-[](#eeaa)[Release Management](#eeaa)
-[](#edaa)[Tests](#edaa)
-[](#ecaa)[Lektoren](#ecaa)
-[](#ebaa)[Lektorat](#ebaa)
+[](#ehaa)[Autoren](#ehaa)  
+[](#egaa)[Bereitstellung von Inhalten](#egaa)  
+[](#efaa)[Programmmanagement](#efaa)  
+[](#eeaa)[Release Management](#eeaa)  
+[](#edaa)[Tests](#edaa)  
+[](#ecaa)[Lektoren](#ecaa)  
+[](#ebaa)[Lektorat](#ebaa)  
 [](#eaaa)[Weitere Beteiligte](#eaaa)
 
 ### Autoren
@@ -152,9 +152,7 @@ Joel Scambray
 
 Debra Littlejohn Shinder *(Security MVP)*
 
-Tom Shinder*   (ISA und Security MVP und*
-
-*  IT-Berater, TACTeam)*
+Tom Shinder *(ISA und Security MVP und IT-Berater, TACTeam)*
 
 Steve Smegner
 

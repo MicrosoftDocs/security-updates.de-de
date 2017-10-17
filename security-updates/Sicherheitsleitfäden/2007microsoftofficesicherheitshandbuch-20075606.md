@@ -30,9 +30,9 @@ Das 2007 Microsoft Office-Sicherheitshandbuch stellt IT-Fachleuten bewährte Met
 
 * Microsoft Office Word 2007
 
-Auf dieser Seite
+#### Auf dieser Seite
 
-2007 Microsoft Office-Sicherheitshandbuch – Komponenten
+[2007 Microsoft Office-Sicherheitshandbuch – Komponenten]((#eod))
 
 ## 2007 Microsoft Office-Sicherheitshandbuch – Komponenten
 
@@ -73,7 +73,4 @@ Das 2007 Microsoft Office-Sicherheitshandbuch umfasst die folgenden Komponenten:
 
 
  
-Zum Seitenanfanq
-
-
-
+[Zum Seitenanfanq](#mainsection)

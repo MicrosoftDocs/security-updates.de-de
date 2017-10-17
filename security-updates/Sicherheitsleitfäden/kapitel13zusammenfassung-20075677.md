@@ -13,19 +13,19 @@ Windows Server 2003-Sicherheitshandbuch
 
 Aktualisiert: 27.12.2005
 
-Herzlichen Glückwunsch! Nach dem Lesen dieses Handbuchs sollten Sie nun ein klares Verständnis davon haben, wie Sie die Risiken einschätzen können, die in Ihrer Organisation die Sicherheit von Computer beeinträchtigen, auf denen Microsoft® Windows* *Server™* *2003 mit SP1 ausgeführt wird. Sie haben Kenntnisse über die Planung und Entwicklung von Sicherheitsmaßnahmen für Ihre Netzwerkinfrastruktur gewonnen, wo solche Maßnahmen durchführbar sind.
+Herzlichen Glückwunsch! Nach dem Lesen dieses Handbuchs sollten Sie nun ein klares Verständnis davon haben, wie Sie die Risiken einschätzen können, die in Ihrer Organisation die Sicherheit von Computer beeinträchtigen, auf denen Microsoft® Windows Server™ 2003 mit SP1 ausgeführt wird. Sie haben Kenntnisse über die Planung und Entwicklung von Sicherheitsmaßnahmen für Ihre Netzwerkinfrastruktur gewonnen, wo solche Maßnahmen durchführbar sind.
 
-Dieses Handbuch enthält Anleitungen, die auf jede Organisation angewendet werden können. Dazu zählt Material, das von Beratern und Systemtechnikern zusammengetragen wurde, die Lösungen für Windows* *Server* *2003, Windows* *XP und Windows* *2000 in einer Vielzahl von Umgebungen implementiert haben. Aus diesem Material sind eine Reihe empfohlener Vorgehensweisen hervorgegangen, mit deren Hilfe Windows* *Server* *2003 so sicher wie nur möglich gestaltet werden kann.
+Dieses Handbuch enthält Anleitungen, die auf jede Organisation angewendet werden können. Dazu zählt Material, das von Beratern und Systemtechnikern zusammengetragen wurde, die Lösungen für Windows Server 2003, Windows XP und Windows 2000 in einer Vielzahl von Umgebungen implementiert haben. Aus diesem Material sind eine Reihe empfohlener Vorgehensweisen hervorgegangen, mit deren Hilfe Windows Server 2003 so sicher wie nur möglich gestaltet werden kann.
 
 Unabhängig von der Umgebung in Ihrer Organisation sind sicherheitsbezogene Angelegenheiten immer ernst zu nehmen. Viele Unternehmen schenken Sicherheitsfragen allerdings noch nicht die notwendige Aufmerksamkeit, da sie Sicherheit fälschlicherweise als etwas ansehen, das ihre Beweglichkeit und Flexibilität einschränkt. Wenn gut durchdachte Sicherheit zu einer Hauptgeschäftsanforderung wird und von Anfang an für jedes IT-Projekt geplant wird, kann eine korrekt implementierte Sicherheitsstrategie die Verfügbarkeit und Leistungsfähigkeit Ihrer Computersysteme verbessern. Umgekehrt können Sicherheitsmaßnahmen, die nachträglich zu einem Projekt hinzugefügt werden, die Benutzerfreundlichkeit, Stabilität und Verwaltungsflexibilität beeinträchtigen. Jede Organisation sollte der Sicherheit höchste Priorität einräumen.
 
-In diesem Handbuch wurde erläutert, wie in drei unterschiedlichen Umgebungen Sicherheitsrisiken für Computer, auf denen Windows* *Server* *2003 mit SP1 ausgeführt wird, vermindert werden können. Dabei wurden Methoden zum Planen und Entwerfen von Sicherheitsmaßnahmen für die Netzwerkinfrastruktur einer Organisation behandelt und umfassende Anleitungen zum Beheben spezifischer Sicherheitsanfälligkeiten bereitgestellt, die häufig auf Computern unter Windows* *Server* *2003 mit SP1 auftreten.
+In diesem Handbuch wurde erläutert, wie in drei unterschiedlichen Umgebungen Sicherheitsrisiken für Computer, auf denen Windows Server 2003 mit SP1 ausgeführt wird, vermindert werden können. Dabei wurden Methoden zum Planen und Entwerfen von Sicherheitsmaßnahmen für die Netzwerkinfrastruktur einer Organisation behandelt und umfassende Anleitungen zum Beheben spezifischer Sicherheitsanfälligkeiten bereitgestellt, die häufig auf Computern unter Windows Server 2003 mit SP1 auftreten.
 
 Die Gründe für die getroffenen Entscheidungen werden im Hinblick auf die Kompromisse erklärt, die eine Organisation bei Entscheidungen über das Implementieren von Gegenmaßnahmen berücksichtigen muss. Ausführliche Informationen wurden zu den Auswirkungen der Gegenmaßnahmen im Hinblick auf Funktionalität, Verwaltbarkeit, Leistung und Zuverlässigkeit von Computern bereitgestellt, sodass Sie fundierte Entscheidungen darüber treffen können, welche Gegenmaßnahmen in Ihrer eigenen Umgebung implementiert werden sollten.
 
 Es ist wichtig zu verstehen, dass die Sicherung der Server in einem Netzwerk kein einmaliges Projekt ist, sondern ein fortlaufender Prozess, den Organisationen in ihren Budgets und Zeitplänen berücksichtigen müssen.
 
-Die meisten Organisationen, die das Betriebssystem Windows* *Server* *2003 verwenden, würden ihre Sicherheit verbessern, wenn sie alle Gegenmaßnahmen implementieren, die in diesem Handbuch erörtert wurden. Beim Aufdecken der nächsten ernsten Sicherheitsanfälligkeit können diese Umgebungen allerdings erneut anfällig für Angriffe sein. Aus diesem Grund ist es äußerst wichtig, verschiedene Ressourcen zu überwachen, sodass Sie über Sicherheitsrisiken auf dem Laufenden bleiben, die mit den Betriebssystemen, Anwendungen und Geräten in Ihrer Umgebung in Zusammenhang stehen.
+Die meisten Organisationen, die das Betriebssystem Windows Server 2003 verwenden, würden ihre Sicherheit verbessern, wenn sie alle Gegenmaßnahmen implementieren, die in diesem Handbuch erörtert wurden. Beim Aufdecken der nächsten ernsten Sicherheitsanfälligkeit können diese Umgebungen allerdings erneut anfällig für Angriffe sein. Aus diesem Grund ist es äußerst wichtig, verschiedene Ressourcen zu überwachen, sodass Sie über Sicherheitsrisiken auf dem Laufenden bleiben, die mit den Betriebssystemen, Anwendungen und Geräten in Ihrer Umgebung in Zusammenhang stehen.
 
 Alle Teammitglieder, die bei der Erstellung dieses Handbuchs mitgewirkt haben, hoffen, dass das darin enthaltene Material für Sie nützlich, informativ und leicht verständlich ist.
 
@@ -71,7 +71,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Server
 
 **Feedback**
 
-[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
+[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)<br/><br/>
 
  
 <table style="border:1px solid black;">

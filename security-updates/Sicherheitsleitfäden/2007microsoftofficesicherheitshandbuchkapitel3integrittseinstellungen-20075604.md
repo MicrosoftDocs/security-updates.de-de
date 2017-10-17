@@ -30,8 +30,8 @@ Neben der Bercksichtigung der in diesem Kapitel erluterten Einstellungen sollten
 
 ##### Auf dieser Seite
 
-[Einstellungen fr vertrauenswrdige Herausgeber](#eyd)
-[Einstellungen fr vertrauenswrdige Speicherorte](#eng)
+[Einstellungen fr vertrauenswrdige Herausgeber](#eyd)  
+[Einstellungen fr vertrauenswrdige Speicherorte](#eng)  
 [Einstellungen fr digitale Signaturen](#e2gac)
 
 Einstellungen fr vertrauenswrdige Herausgeber
