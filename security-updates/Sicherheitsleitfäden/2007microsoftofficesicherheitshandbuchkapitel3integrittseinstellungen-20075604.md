@@ -179,7 +179,7 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 <td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</td>
+<td style="border:1px solid black;">Benutzer\\*&lt;benutzername&gt;*\Appdata\Roaming\Microsoft\Vorlagen</td>
 <td style="border:1px solid black;">Benutzervorlagen</td>
 <td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
@@ -189,7 +189,7 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 <td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming \Microsoft\Excel\XLSTART</td>
+<td style="border:1px solid black;">Benutzer\\*&lt;benutzername&gt;*\Appdata\Roaming \Microsoft\Excel\XLSTART</td>
 <td style="border:1px solid black;">Benutzer-Startup</td>
 <td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
@@ -208,7 +208,6 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
   
 **Tabelle 3.4. Vertrauenswrdige Standardspeicherorte fr Office PowerPoint 2007**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -229,12 +228,12 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 <td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</td>
+<td style="border:1px solid black;">Benutzer\\*&lt;benutzername&gt;*\Appdata\Roaming\Microsoft\Vorlagen</td>
 <td style="border:1px solid black;">Benutzervorlagen</td>
 <td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Add-Ins</td>
+<td style="border:1px solid black;">Benutzer\\*&lt;benutzername&gt;*\Appdata\Roaming\Microsoft\Add-Ins</td>
 <td style="border:1px solid black;">Add-Ins</td>
 <td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
@@ -269,12 +268,12 @@ Office InfoPath 2007 und Office Outlook 2007 verwenden keine vertrauenswrdigen S
 <td style="border:1px solid black;">Zugelassen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming\Microsoft\Vorlagen</td>
+<td style="border:1px solid black;">Benutzer\\*&lt;benutzername&gt;*\Appdata\Roaming\Microsoft\Vorlagen</td>
 <td style="border:1px solid black;">Benutzervorlagen</td>
 <td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">Benutzer\<em>&lt;benutzername&gt;</em>\Appdata\Roaming \Microsoft\Word\Startup</td>
+<td style="border:1px solid black;">Benutzer\\*&lt;benutzername&gt;*\Appdata\Roaming \Microsoft\Word\Startup</td>
 <td style="border:1px solid black;">Benutzer-Startup</td>
 <td style="border:1px solid black;">Nicht zugelassen</td>
 </tr>

@@ -1,29 +1,33 @@
 ---
-TOCTitle: 'Kapitel 9: Die Webserverrolle'
-Title: 'Kapitel 9: Die Webserverrolle'
-ms:assetid: '835865cd-ff71-43e6-88bf-91f5b35a00b9'
+Title: Kapitel 9: Die Webserverrolle
+TOCTitle: Kapitel 9: Die Webserverrolle
+ms:assetid: 835865cd-ff71-43e6-88bf-91f5b35a00b9
+ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443730(v=TechNet.10)
 ms:contentKeyID: 20075673
-ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Dd443730(v=TechNet.10)'
 ---
 
-Windows Server 2003-Sicherheitshandbuch
-=======================================
+
+# Windows Server 2003-Sicherheitshandbuch
+
+
 
 ### Kapitel 9: Die Webserverrolle
-
 Aktualisiert: 27.12.2005
+ 
 
-##### Auf dieser Seite
+Auf dieser Seite
 
-[](#eiaa)[Überblick](#eiaa)
-[](#ehaa)[Anonymer Zugriff und die Einstellungen für Hochsicherheitsumgebungen](#ehaa)
-[](#egaa)[Einstellungen für Überwachungsrichtlinien](#egaa)
-[](#efaa)[Zuweisen von Benutzerrechten](#efaa)
-[](#eeaa)[Sicherheitsoptionen](#eeaa)
-[](#edaa)[Ereignisprotokolleinstellungen](#edaa)
-[](#ecaa)[Zusätzliche Sicherheitseinstellungen](#ecaa)
-[](#ebaa)[Erstellen der Richtlinie mithilfe des SCW](#ebaa)
-[](#eaaa)[Zusammenfassung](#eaaa)
+[Überblick](#eiaa)  
+[Anonymer Zugriff und die Einstellungen für Hochsicherheitsumgebungen](#ehaa)  
+[Einstellungen für Überwachungsrichtlinien](#egaa)  
+[Zuweisen von Benutzerrechten](#efaa)  
+[Sicherheitsoptionen](#eeaa)  
+[Ereignisprotokolleinstellungen](#edaa)  
+[Zusätzliche Sicherheitseinstellungen](#ecaa)  
+[Erstellen der Richtlinie mithilfe des SCW](#ebaa)  
+[Zusammenfassung](#eaaa)  
+
+
 
 ### Überblick
 
@@ -41,535 +45,1397 @@ Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Webserver f�
 
 **Tabelle 9.1: Sicherheitsvorlagen für IIS-Server**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Älterer Client</th>
-<th style="border:1px solid black;" >Unternehmensclient</th>
-<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Älterer Client
+
+</th>
+
+<th style="border:1px solid black;">
+
+Unternehmensclient
+
+</th>
+
+<th style="border:1px solid black;">
+
+Hochsicher (SSLF)
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Älterer Client - Webserver.inf</td>
-<td style="border:1px solid black;">Unternehmensclient - Webserver.inf</td>
-<td style="border:1px solid black;">Hochsicher - Webserver.inf</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Älterer Client - Webserver.inf
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Unternehmensclient - Webserver.inf
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Hochsicher - Webserver.inf
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
 Weitere Informationen zu allen Standardeinstellungskonfigurationen finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen unter Windows Server 2003 und Windows XP*](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10)), das unter http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx verfügbar ist.
-  
+
 In diesem Handbuch wird dargestellt, wie IIS mit minimalen Funktionen installiert und aktiviert wird. Wenn Sie zusätzliche Funktionen in IIS verwenden möchten, müssen Sie möglicherweise einige Sicherheitseinstellungen anpassen. Wenn Sie zusätzliche Dienste wie z. B. SMTP, FTP oder NNTP installieren, müssen die bereitgestellten Vorlagen und Richtlinien angepasst werden.
-  
+
 Im Onlineartikel „[IIS und vordefinierte Konten (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx werden die Konten erklärt, die von den unterschiedlichen IIS-Funktionen verwendet werden, sowie die jeweils erforderlichen Berechtigungen. Um sicherere Einstellungen auf Webservern zu erzielen, auf denen komplexe Anwendungen zur Verfügung gestellt werden, sollten Sie sich die komplette [IIS 6.0-Dokumentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/848968f3-baa0-46f9-b1e6-ef81dd09b015.mspx) (in englischer Sprache) unter http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/848968f3-baa0-46f9-b1e6-ef81dd09b015.mspx durchlesen.
-  
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
-  
+[Zum Seitenanfanq](#mainsection)  
+
+
+
 ### Anonymer Zugriff und die Einstellungen für Hochsicherheitsumgebungen
-  
+
 Vier der Benutzerrechte, die explizit im Hochsicherheitsszenario in der Richtlinie für die Mitgliedsserver-Baseline definiert sind, dienen dem Schutz vor anonymem Zugriff auf IIS-Websites. Wenn Sie jedoch den anonymen Zugriff in einer Hochsicherheitsumgebung erlauben müssen, müssen Sie wichtige Änderungen an der Organisationseinheitenstruktur und den Gruppenrichtlinienobjekten vornehmen, die in den Kapiteln 2, 3 und 4 dieses Handbuchs beschrieben sind. Sie müssen dann eine neue Organisationseinheit erstellen, die nicht Teil der Hierarchie unter den Mitgliedsserver-Organisationseinheiten ist. Diese Organisationseinheit könnte direkt mit dem Domänenstamm verknüpft werden oder anderen Organisationseinheiten einer Hierarchie untergeordnet werden. Sie sollten jedoch in einem Gruppenrichtlinienobjekt, das Auswirkungen auf die in diese neue Organisationseinheit platzierten IIS-Server hat, keine Benutzerrechte zuweisen. Sie können die IIS-Server in die neue Organisationseinheit verschieben, ein neues Gruppenrichtlinienobjekt erstellen, die Richtlinie für die Mitgliedsserver-Baseline darauf anwenden und danach die Zuweisungen für die Benutzerrechte neu konfigurieren, damit sie von der lokalen Richtlinie und nicht vom domänenbasierten Gruppenrichtlinienobjekt gesteuert werden. Sie sollten also die folgenden Benutzerrechte in diesem neuen Gruppenrichtlinienobjekt auf **Nicht definiert** setzen.
-  
--   Auf diesen Computer vom Netzwerk aus zugreifen
-  
--   Lokal anmelden zulassen
-  
--   Auslassen der durchsuchenden Prüfung
-  
--   Anmelden als Stapelverarbeitungsauftrag
-  
+* Auf diesen Computer vom Netzwerk aus zugreifen
+
+* Lokal anmelden zulassen
+
+* Auslassen der durchsuchenden Prüfung
+
+* Anmelden als Stapelverarbeitungsauftrag
+
+ 
+
 Durch die zu aktivierenden IIS-Funktionen wird festgelegt, ob Sie auch andere Einstellungen für die Zuweisung von Benutzerrechten auf **Nicht definiert** setzen müssen.
-  
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
-  
+[Zum Seitenanfanq](#mainsection)  
+
+
+
 ### Einstellungen für Überwachungsrichtlinien
-  
+
 Die Einstellungen für Überwachungsrichtlinien für IIS-Server in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass alle relevanten Sicherheitsüberwachungsinformationen auf sämtlichen IIS-Servern protokolliert werden.
-  
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
-  
+[Zum Seitenanfanq](#mainsection)  
+
+
+
 ### Zuweisen von Benutzerrechten
-  
+
 Die Einstellungen für die Zuweisung von Benutzerrechten für IIS-Server in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass alle relevanten Sicherheitsüberwachungsinformationen auf sämtlichen IIS-Servern protokolliert werden.
-  
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
-  
+[Zum Seitenanfanq](#mainsection)  
+
+
+
 ### Sicherheitsoptionen
-  
+
 Die Sicherheitsoptionseinstellungen für IIS-Server in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass alle relevanten Sicherheitsoptionen auf sämtlichen IIS-Servern einheitlich konfiguriert werden.
-  
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
-  
+[Zum Seitenanfanq](#mainsection)  
+
+
+
 ### Ereignisprotokolleinstellungen
-  
+
 Die Ereignisprotokolleinstellungen für IIS-Server in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass die entsprechenden Ereignisprotokolleinstellungen auf allen IIS-Servern in einer Organisation einheitlich konfiguriert sind.
-  
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
-  
+[Zum Seitenanfanq](#mainsection)  
+
+
+
 ### Zusätzliche Sicherheitseinstellungen
-  
+
 Ist IIS auf einem Computer unter Windows* *Server* *2003 mit SP1 installiert, dann lässt die Standardeinstellung nur die Übertragung von statischem Webinhalt zu. Wenn Websites und Anwendungen dynamischen Inhalt enthalten oder eine oder mehrere zusätzliche IIS-Komponenten erfordern, muss jede zusätzliche IIS-Funktion einzeln aktiviert werden. Sie sollten darauf achten, dass Sie die Angriffsfläche der einzelnen IIS-Server Ihrer Umgebung minimieren. Wenn die Websites in Ihrer Organisation aus statischem Inhalt bestehen und keine weiteren IIS-Komponenten benötigen, ist die Standard-IIS-Konfiguration ausreichend, um die Angriffsfläche der IIS-Server zu minimieren.
-  
+
 Die Sicherheitseinstellungen, die durch die Richtlinie für die Mitgliedsserver-Baseline bereitgestellt werden, bieten eine deutlich erhöhte Sicherheit für IIS-Server. Es gilt jedoch noch einige zusätzliche Einstellungen zu beachten. Die Einstellungen in den folgenden Abschnitten können nicht über die Gruppenrichtlinie implementiert werden und müssen daher auf allen IIS-Servern manuell vorgenommen werden.
-  
+
+
 #### Installieren der notwendigen IIS-Komponenten
-  
+
 IIS 6.0 enthält neben dem WWW-Publishingdienst noch andere Komponenten und Dienste, wie z. B. Dienste zur Bereitstellung von FTP, NNTP und SMTP. Die IIS-Komponenten und -Dienste werden mithilfe des Assistenten für Windows-Komponenten installiert und aktiviert. Dieser kann über die Systemsteuerung und die Option „Software“ gestartet werden. Nach der Installation von IIS müssen Sie alle IIS-Komponenten und -Dienste aktivieren, die von Ihren Websites und Anwendungen benötigt werden.
-  
+
 **So installieren Sie Internet Information Services (IIS) 6.0**
-  
-1.  Doppelklicken Sie in der Systemsteuerung auf **Software**.
-  
-2.  Klicken Sie auf die Schaltfläche **Windows-Komponenten hinzufügen/entfernen**, um den Assistenten für Windows-Komponenten aufzurufen.
-  
-3.  Klicken Sie in der Liste **Komponenten** auf **Anwendungsserver** und anschließend auf **Details.**
-  
-4.  Klicken Sie im Dialogfeld **Anwendungsserver** unter **Unterkomponenten des Anwendungsservers** auf **Internetinformationsdienste (IIS)** und anschließend auf **Details.**
-  
-5.  Führen Sie im Dialogfeld **Internetinformationsdienste (IIS)** in der Liste **Unterkomponenten der Internetinformationsdienste (IIS)** einen der folgenden Schritte aus:
-  
-    -   Zum Hinzufügen optionaler Komponenten aktivieren Sie das Kontrollkästchen neben der zu installierenden Komponente.
-  
-    -   Zum Entfernen optionaler Komponenten deaktivieren Sie das Kontrollkästchen neben der zu entfernenden Komponente.
-  
-6.  Klicken Sie auf **OK**, bis Sie zum Assistenten für Windows-Komponenten zurückgekehrt sind.
-  
-7.  Klicken Sie auf **Weiter** und anschließend auf **Fertig stellen**.
-  
+* Doppelklicken Sie in der Systemsteuerung auf **Software.**  
+
+* Klicken Sie auf die Schaltfläche **Windows-Komponenten hinzufügen/entfernen**, um den Assistenten für Windows-Komponenten aufzurufen.
+
+* Klicken Sie in der Liste **Komponenten** auf **Anwendungsserver** und anschließend auf **Details.**
+
+* Klicken Sie im Dialogfeld **Anwendungsserver** unter **Unterkomponenten des Anwendungsservers** auf **Internetinformationsdienste (IIS)** und anschließend auf **Details.**
+
+* Führen Sie im Dialogfeld **Internetinformationsdienste (IIS)** in der Liste **Unterkomponenten der Internetinformationsdienste (IIS)** einen der folgenden Schritte aus:
+* Zum Hinzufügen optionaler Komponenten aktivieren Sie das Kontrollkästchen neben der zu installierenden Komponente.
+
+* Zum Entfernen optionaler Komponenten deaktivieren Sie das Kontrollkästchen neben der zu entfernenden Komponente.
+
+
+* Klicken Sie auf **OK**, bis Sie zum Assistenten für Windows-Komponenten zurückgekehrt sind.
+
+* Klicken Sie auf **Weiter** und anschließend auf **Fertig stellen.**  
+
+
 Sie sollten nur die grundlegenden IIS-Komponenten und -Dienste aktivieren, die von Websites und Anwendungen benötigt werden. Wenn Sie unnötige Komponenten und Dienste aktivieren, wird die Angriffsfläche eines IIS-Servers erhöht. In den folgenden Abbildungen und Tabellen werden Ort und empfohlene Einstellungen für IIS-Komponenten dargestellt.
-  
+
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Anwendungsserver**:
-  
-![](images/Dd443730.sgfg0901(de-de,TechNet.10).gif)
-  
+
+
 **Abbildung 9.1: Dialogfeld „Anwendungsserver“ mit Liste der Unterkomponenten**
-  
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0901_big(de-de,technet.10).gif)  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0901_big(de-de,technet.10).gif)
 In der folgenden Tabelle werden die Unterkomponenten des Anwendungsservers kurz beschrieben und Empfehlungen gegeben, wann sie aktiviert werden sollten.
-  
+
 **Tabelle 9.2: Empfohlene Einstellungen für die Unterkomponenten des Anwendungsservers**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
-<th style="border:1px solid black;" >Einstellung</th>
-<th style="border:1px solid black;" >Einstellungslogik</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Name der Komponente in der Benutzeroberfläche
+
+</th>
+
+<th style="border:1px solid black;">
+
+Einstellung
+
+</th>
+
+<th style="border:1px solid black;">
+
+Einstellungslogik
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Anwendungsserverkonsole</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet ein MMC-Snap-In (Microsoft Management Console), mit dem Sie alle Komponenten des Webanwendungsservers verwalten können. Diese Komponente ist auf einem dedizierten IIS-Server nicht erforderlich, da der IIS-Server-Manager verwendet werden kann.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Anwendungsserverkonsole
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet ein MMC-Snap-In (Microsoft Management Console), mit dem Sie alle Komponenten des Webanwendungsservers verwalten können. Diese Komponente ist auf einem dedizierten IIS-Server nicht erforderlich, da der IIS-Server-Manager verwendet werden kann.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">ASP.NET</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet Unterstützung für ASP.NET-Anwendungen. Aktivieren Sie diese Komponente, wenn ein IIS-Server ASP.NET-Anwendungen ausführt.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+ASP.NET
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Unterstützung für ASP.NET-Anwendungen. Aktivieren Sie diese Komponente, wenn ein IIS-Server ASP.NET-Anwendungen ausführt.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">COM+-Netzwerkzugriff aktivieren</td>
-<td style="border:1px solid black;">Aktiviert</td>
-<td style="border:1px solid black;">Ermöglicht einem IIS-Server, für verteilte Anwendungen als Host von COM+-Komponenten zu fungieren. Diese Komponente ist u. a. für FTP, BITS-Servererweiterungen, WWW-Dienst und IIS-Manager erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+COM+-Netzwerkzugriff aktivieren
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Aktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht einem IIS-Server, für verteilte Anwendungen als Host von COM+-Komponenten zu fungieren. Diese Komponente ist u. a. für FTP, BITS-Servererweiterungen, WWW-Dienst und IIS-Manager erforderlich.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">DTC-Netzwerkzugriff aktivieren</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Ermöglicht einem IIS-Server, als Host für Anwendungen zu fungieren, die an Netzwerkübertragungen über Distributed Transaction Coordinator (DTC) teilnehmen. Deaktivieren Sie diese Komponente, es sei denn, sie ist für die auf dem IIS-Server ausgeführten Anwendungen erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DTC-Netzwerkzugriff aktivieren
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht einem IIS-Server, als Host für Anwendungen zu fungieren, die an Netzwerkübertragungen über Distributed Transaction Coordinator (DTC) teilnehmen. Deaktivieren Sie diese Komponente, es sei denn, sie ist für die auf dem IIS-Server ausgeführten Anwendungen erforderlich.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Internetinformationsdienste (IIS)</td>
-<td style="border:1px solid black;">Aktiviert</td>
-<td style="border:1px solid black;">Bietet Web- und FTP-Basisdienste. Diese Komponente ist für dedizierte IIS-Server erforderlich.
-<strong>Hinweis</strong>: Wenn diese Komponente nicht aktiviert ist, sind alle Unterkomponenten deaktiviert.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Internetinformationsdienste (IIS)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Aktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Web- und FTP-Basisdienste. Diese Komponente ist für dedizierte IIS-Server erforderlich.
+
+**Hinweis**: Wenn diese Komponente nicht aktiviert ist, sind alle Unterkomponenten deaktiviert.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Message Queuing</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Microsoft Message Queuing (MSMQ) bietet eine Middleware-Schicht für Nachrichtenrouting, Speicherung und Weiterleitung für Webanwendungen von Unternehmen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Message Queuing
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Microsoft Message Queuing (MSMQ) bietet eine Middleware-Schicht für Nachrichtenrouting, Speicherung und Weiterleitung für Webanwendungen von Unternehmen.
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Internetinformationsdienste (IIS)**:
-  
-![](images/Dd443730.sgfg0902(de-de,TechNet.10).gif)
-  
+
+
 **Abbildung 9.2: Dialogfeld „Internetinformationsdienste (IIS)“ mit Liste der Unterkomponenten**
-  
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0902_big(de-de,technet.10).gif)  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0902_big(de-de,technet.10).gif)
 In der folgenden Tabelle werden die Unterkomponenten des IIS-Servers kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
-  
+
 **Tabelle 9.3: Empfohlene Einstellungen für die Unterkomponenten des IIS-Servers**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
-<th style="border:1px solid black;" >Einstellung</th>
-<th style="border:1px solid black;" >Einstellungslogik</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Name der Komponente in der Benutzeroberfläche
+
+</th>
+
+<th style="border:1px solid black;">
+
+Einstellung
+
+</th>
+
+<th style="border:1px solid black;">
+
+Einstellungslogik
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Servererweiterungen des Background Intelligent Transfer Service (BITS)</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Mithilfe der BITS-Servererweiterung kann der BITS auf den Clients im Hintergrund Dateien auf den Server hochladen. Sind die Clients mit einer Anwendung ausgestattet, die den BITS zum Hochladen von Dateien auf diesen Server verwendet, müssen Sie die BITS-Servererweiterung aktivieren und konfigurieren. Andernfalls sollten Sie sie deaktiviert lassen. Beachten Sie, dass es bei Windows Update, Microsoft Update, SUS, WSUS und Automatische Updates nicht nötig ist, diese Komponente auszuführen. Sie erfordern die BITS-Clientkomponente, die nicht zu IIS gehört.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Servererweiterungen des Background Intelligent Transfer Service (BITS)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mithilfe der BITS-Servererweiterung kann der BITS auf den Clients im Hintergrund Dateien auf den Server hochladen. Sind die Clients mit einer Anwendung ausgestattet, die den BITS zum Hochladen von Dateien auf diesen Server verwendet, müssen Sie die BITS-Servererweiterung aktivieren und konfigurieren. Andernfalls sollten Sie sie deaktiviert lassen. Beachten Sie, dass es bei Windows Update, Microsoft Update, SUS, WSUS und Automatische Updates nicht nötig ist, diese Komponente auszuführen. Sie erfordern die BITS-Clientkomponente, die nicht zu IIS gehört.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Gemeinsame Dateien</td>
-<td style="border:1px solid black;">Aktiviert</td>
-<td style="border:1px solid black;">Für IIS sind diese Dateien erforderlich. Daher müssen sie auf IIS-Servern immer aktiviert sein.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Gemeinsame Dateien
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Aktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Für IIS sind diese Dateien erforderlich. Daher müssen sie auf IIS-Servern immer aktiviert sein.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">FTP-Dienst (File Transfer Protocol)</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Ermöglicht IIS-Servern das Bereitstellen von FTP-Diensten. Dieser Dienst ist für dedizierte IIS-Server nicht erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+FTP-Dienst (File Transfer Protocol)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht IIS-Servern das Bereitstellen von FTP-Diensten. Dieser Dienst ist für dedizierte IIS-Server nicht erforderlich.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">FrontPage 2002-Servererweiterungen</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet Frontpage-Support zum Verwalten und Veröffentlichen von Websites. Deaktivieren Sie diesen Dienst auf dedizierten IIS-Servern, wenn von Websites keine FrontPage-Erweiterungen verwendet werden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+FrontPage 2002-Servererweiterungen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Frontpage-Support zum Verwalten und Veröffentlichen von Websites. Deaktivieren Sie diesen Dienst auf dedizierten IIS-Servern, wenn von Websites keine FrontPage-Erweiterungen verwendet werden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Internetinformationsdienste-Manager</td>
-<td style="border:1px solid black;">Aktiviert</td>
-<td style="border:1px solid black;">Administrative Schnittstelle für IIS</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Internetinformationsdienste-Manager
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Aktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Administrative Schnittstelle für IIS
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Internetdrucken</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet eine webbasierte Druckerverwaltung und ermöglicht die gemeinsame Verwendung von Druckern über HTTP. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Internetdrucken
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet eine webbasierte Druckerverwaltung und ermöglicht die gemeinsame Verwendung von Druckern über HTTP. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">NNTP-Dienst</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Verteilt Artikel über Usenet-Neuigkeiten, fordert diese Artikel an, ruft sie ab oder stellt sie ins Internet. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+NNTP-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verteilt Artikel über Usenet-Neuigkeiten, fordert diese Artikel an, ruft sie ab oder stellt sie ins Internet. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">SMTP-Dienst</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Unterstützt die Übertragung von elektronischer Post. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SMTP-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Unterstützt die Übertragung von elektronischer Post. Diese Komponente ist für dedizierte IIS-Server nicht erforderlich.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">WWW-Dienst</td>
-<td style="border:1px solid black;">Aktiviert</td>
-<td style="border:1px solid black;">Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung. Diese Komponente ist für dedizierte IIS-Server erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WWW-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Aktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung. Diese Komponente ist für dedizierte IIS-Server erforderlich.
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Message Queuing**:
-  
-![](images/Dd443730.sgfg0903(de-de,TechNet.10).gif)
-  
+
+
 **Abbildung 9.3: Dialogfeld „Message Queuing“ mit Liste der Unterkomponenten**
-  
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0903_big(de-de,technet.10).gif)  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0903_big(de-de,technet.10).gif)
 In der folgenden Tabelle werden die Unterkomponenten des Message Queuing kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
-  
+
 **Tabelle 9.4: Empfohlene Einstellungen für die Unterkomponenten des Message Queuing**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
-<th style="border:1px solid black;" >Installationsoption</th>
-<th style="border:1px solid black;" >Einstellungslogik</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Name der Komponente in der Benutzeroberfläche
+
+</th>
+
+<th style="border:1px solid black;">
+
+Installationsoption
+
+</th>
+
+<th style="border:1px solid black;">
+
+Einstellungslogik
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Active Directory-Integration</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet Integration mit dem Verzeichnisdienst Active<em> </em>Directory®, wenn ein IIS-Server einer Domäne angehört. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, Microsoft Message Queuing (MSMQ) verwenden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Active Directory-Integration
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Integration mit dem Verzeichnisdienst Active* *Directory®, wenn ein IIS-Server einer Domäne angehört. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, Microsoft Message Queuing (MSMQ) verwenden.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Allgemein</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, MSMQ verwenden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Allgemein
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, MSMQ verwenden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Unterstützung für kompatiblen Client</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet Zugriff auf Active<em> </em>Directory sowie Standorterkennung für kompatible Clients. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Unterstützung für kompatiblen Client
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Zugriff auf Active* *Directory sowie Standorterkennung für kompatible Clients. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">HTTP-Unterstützung für MSMQ</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Ermöglicht das Senden und Empfangen von Nachrichten über den HTTP-Transport. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+HTTP-Unterstützung für MSMQ
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht das Senden und Empfangen von Nachrichten über den HTTP-Transport. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Routingunterstützung</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet Nachrichtenübermittlung im Store-and-Forward-Betrieb (Speichern und Weiterleiten) sowie effiziente Routingdienste. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, MSMQ verwenden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Routingunterstützung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Nachrichtenübermittlung im Store-and-Forward-Betrieb (Speichern und Weiterleiten) sowie effiziente Routingdienste. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, MSMQ verwenden.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Auslöser</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Verknüpft die Ankunft eingehender Nachrichten bei einer Warteschlange mit der Funktionalität in einer COM-Komponente oder einem eigenständigen ausführbaren Programm.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Auslöser
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verknüpft die Ankunft eingehender Nachrichten bei einer Warteschlange mit der Funktionalität in einer COM-Komponente oder einem eigenständigen ausführbaren Programm.
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
 Die folgende Abbildung zeigt die Unterkomponenten des Dialogfelds **Servererweiterungen des Background Intelligent Transfer Service (BITS)**:
-  
-![](images/Dd443730.sgfg0904(de-de,TechNet.10).gif)
-  
+
+
 **Abbildung 9.4: BITS-Servererweiterungen mit Liste der Unterkomponenten**
-  
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0904_big(de-de,technet.10).gif)  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0904_big(de-de,technet.10).gif)
 In der folgenden Tabelle werden die Unterkomponenten der BITS-Servererweiterungen kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
-  
+
 **Tabelle 9.5: Empfohlene Einstellungen für die Unterkomponenten der BITS-Servererweiterungen**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
-<th style="border:1px solid black;" >Installationsoption</th>
-<th style="border:1px solid black;" >Einstellungslogik</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Name der Komponente in der Benutzeroberfläche
+
+</th>
+
+<th style="border:1px solid black;">
+
+Installationsoption
+
+</th>
+
+<th style="border:1px solid black;">
+
+Einstellungslogik
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">BITS-Verwaltungskonsolen-Snap-In</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Installiert ein MMC-Snap-In zur Verwaltung von BITS. Aktivieren Sie diese Komponente, wenn die BITS-Servererweiterung für ISAPI (Internet Server Application Programming Interface, Anwendungsprogrammierschnittstelle für den Internetserver) aktiviert ist.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+BITS-Verwaltungskonsolen-Snap-In
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Installiert ein MMC-Snap-In zur Verwaltung von BITS. Aktivieren Sie diese Komponente, wenn die BITS-Servererweiterung für ISAPI (Internet Server Application Programming Interface, Anwendungsprogrammierschnittstelle für den Internetserver) aktiviert ist.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">BITS-Servererweiterungs-ISAPI</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Installiert die ISAPI für BITS, damit ein IIS-Server Daten mithilfe von BITS übertragen kann. Mithilfe der BITS-Servererweiterungen kann der BITS auf den Clients im Hintergrund Dateien auf den Server hochladen. Sind die Clients mit einer Anwendung ausgestattet, die den BITS zum Hochladen von Dateien auf diesen Server verwendet, müssen Sie die BITS-Servererweiterung aktivieren und konfigurieren. Andernfalls sollten Sie sie deaktiviert lassen. Beachten Sie, dass es bei Windows Update, Microsoft Update, SUS, WSUS und Automatische Updates nicht nötig ist, diese Komponente auszuführen. Sie erfordern die BITS-Clientkomponente, die nicht zu IIS gehört.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+BITS-Servererweiterungs-ISAPI
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Installiert die ISAPI für BITS, damit ein IIS-Server Daten mithilfe von BITS übertragen kann. Mithilfe der BITS-Servererweiterungen kann der BITS auf den Clients im Hintergrund Dateien auf den Server hochladen. Sind die Clients mit einer Anwendung ausgestattet, die den BITS zum Hochladen von Dateien auf diesen Server verwendet, müssen Sie die BITS-Servererweiterung aktivieren und konfigurieren. Andernfalls sollten Sie sie deaktiviert lassen. Beachten Sie, dass es bei Windows Update, Microsoft Update, SUS, WSUS und Automatische Updates nicht nötig ist, diese Komponente auszuführen. Sie erfordern die BITS-Clientkomponente, die nicht zu IIS gehört.
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **WWW-Dienst**:
-  
-![](images/Dd443730.SGFG0905(de-de,TechNet.10).gif)
-  
+
+
 **Abbildung 9.5: Dialogfeld „WWW-Dienst“ mit Liste der Unterkomponenten**
-  
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0905_big(de-de,technet.10).gif)  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0905_big(de-de,technet.10).gif)
 In der folgenden Tabelle werden die Unterkomponenten des WWW-Dienstes kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
-  
+
 **Tabelle 9.6: Empfohlene Einstellungen der Unterkomponenten des WWW-Dienstes**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Name der Komponente in der Benutzeroberfläche</th>
-<th style="border:1px solid black;" >Installationsoption</th>
-<th style="border:1px solid black;" >Einstellungslogik</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Name der Komponente in der Benutzeroberfläche
+
+</th>
+
+<th style="border:1px solid black;">
+
+Installationsoption
+
+</th>
+
+<th style="border:1px solid black;">
+
+Einstellungslogik
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Active Server Pages</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet Unterstützung für ASP. Deaktivieren Sie diese Komponente, wenn keine Websites oder Anwendungen auf den IIS-Servern ASP verwenden, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Active Server Pages
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Unterstützung für ASP. Deaktivieren Sie diese Komponente, wenn keine Websites oder Anwendungen auf den IIS-Servern ASP verwenden, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Internetdaten-Connector</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet Unterstützung für dynamischen Inhalt, der durch Dateien mit der Erweiterung .idc bereitgestellt wird. Deaktivieren Sie diese Komponente, wenn keine Websites oder Anwendungen auf den IIS-Servern Dateien mit der Erweiterung .idc enthalten, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Internetdaten-Connector
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Unterstützung für dynamischen Inhalt, der durch Dateien mit der Erweiterung.idc bereitgestellt wird. Deaktivieren Sie diese Komponente, wenn keine Websites oder Anwendungen auf den IIS-Servern Dateien mit der Erweiterung.idc enthalten, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Remoteverwaltung (HTML)</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet eine HTML-Schnittstelle zur Verwaltung von IIS. Verwenden Sie stattdessen den IIS-Manager, um die Verwaltung zu erleichtern und die Angriffsfläche eines IIS-Servers zu verringern. Diese Funktion ist für dedizierte IIS-Server nicht erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Remoteverwaltung (HTML)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet eine HTML-Schnittstelle zur Verwaltung von IIS. Verwenden Sie stattdessen den IIS-Manager, um die Verwaltung zu erleichtern und die Angriffsfläche eines IIS-Servers zu verringern. Diese Funktion ist für dedizierte IIS-Server nicht erforderlich.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Remotedesktop-Webverbindung</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Umfasst Steuerungs- und Beispielseiten für Microsoft ActiveX®, um Clientverbindungen für Terminaldienste im Web zu hosten. Verwenden Sie stattdessen den IIS-Manager, um die Verwaltung zu erleichtern und die Angriffsfläche eines IIS-Servers zu verringern. Diese Komponente ist auf einem dedizierten IIS-Server nicht erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Remotedesktop-Webverbindung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Umfasst Steuerungs- und Beispielseiten für Microsoft ActiveX®, um Clientverbindungen für Terminaldienste im Web zu hosten. Verwenden Sie stattdessen den IIS-Manager, um die Verwaltung zu erleichtern und die Angriffsfläche eines IIS-Servers zu verringern. Diese Komponente ist auf einem dedizierten IIS-Server nicht erforderlich.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Serverseitige Includes</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">Bietet Unterstützung für .shtm-, .shtml- und .stm-Dateien. Deaktivieren Sie diese Komponenten, wenn keine Websites oder Anwendungen, die auf dem IIS-Server ausgeführt werden, eingebundene Dateien mit diesen Erweiterungen verwenden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Serverseitige Includes
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Unterstützung für.shtm-,.shtml- und.stm-Dateien. Deaktivieren Sie diese Komponenten, wenn keine Websites oder Anwendungen, die auf dem IIS-Server ausgeführt werden, eingebundene Dateien mit diesen Erweiterungen verwenden.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">WebDAV</td>
-<td style="border:1px solid black;">Deaktiviert</td>
-<td style="border:1px solid black;">WebDAV erweitert das HTTP/1.1-Protokoll, sodass Clients Ressourcen im Web veröffentlichen, sperren und verwalten können. Deaktivieren Sie diese Komponente auf dedizierten IIS-Servern, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WebDAV
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Deaktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+WebDAV erweitert das HTTP/1.1-Protokoll, sodass Clients Ressourcen im Web veröffentlichen, sperren und verwalten können. Deaktivieren Sie diese Komponente auf dedizierten IIS-Servern, oder deaktivieren Sie sie mithilfe der Webdiensterweiterungen. Weitere Informationen finden Sie im Abschnitt „Aktivieren von notwendigen Webdiensterweiterungen“ in diesem Kapitel.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">WWW-Dienst</td>
-<td style="border:1px solid black;">Aktiviert</td>
-<td style="border:1px solid black;">Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung. Diese Komponente ist für dedizierte IIS-Server erforderlich.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WWW-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Aktiviert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung. Diese Komponente ist für dedizierte IIS-Server erforderlich.
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
+
 #### Aktivieren von notwendigen Webdiensterweiterungen
-  
+
 Viele Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, weisen erweiterte Funktionen auf, die über statische Seiten hinaus gehen, einschließlich der Möglichkeit zum Erzeugen dynamischer Inhalte. Jeder dynamische Inhalt, der über Funktionen bereitgestellt oder erweitert wird, die von einem IIS-Server zur Verfügung gestellt werden, wird mithilfe von Webdiensterweiterungen verarbeitet.
-  
+
 Die erweiterten Sicherheitsfunktionen in IIS 6.0 ermöglichen das Aktivieren oder Deaktivieren einzelner Webdiensterweiterungen. Wie bereits erwähnt, übertragen IIS-Server nach einer neuen Installation nur statischen Inhalt. Die dynamischen Inhaltmöglichkeiten können über den Webdiensterweiterungs-Knoten im IIS-Manager aktiviert werden. Diese Erweiterungen umfassen ASP.NET, SSI, WebDAV und die FrontPage-Servererweiterungen.
-  
+
 Um höchstmögliche Kompatibilität mit vorhandenen Anwendungen sicherzustellen, können alle Webdiensterweiterungen aktiviert werden. Dabei handelt es sich aber auch um die Methode mit dem höchsten Sicherheitsrisiko, da die Angriffsfläche von IIS erhöht wird. Sie sollen nur jene Webdiensterweiterungen aktivieren, die von den auf IIS-Servern in Ihrer Umgebung ausgeführten Websites und Anwendungen benötigt werden. Dieser Ansatz minimiert die Serverfunktionalität und verringert die Angriffsfläche der einzelnen IIS-Server.
-  
+
 Um die Angriffsfläche von IIS-Servern so klein wie möglich zu halten, sind nur notwendige Webdiensterweiterungen auf IIS-Servern in den drei in dieser Anleitung definierten Umgebungen aktiviert.
-  
+
 In der folgenden Tabelle werden vordefinierte Webdiensterweiterungen aufgelistet und Informationen dazu bereitgestellt, wann die einzelnen Erweiterungen aktiviert werden sollten.
-  
+
 **Tabelle 9.7: Aktivieren von Webdiensterweiterungen**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Webdiensterweiterung</th>
-<th style="border:1px solid black;" >Bedingungen für die Aktivierung</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Webdiensterweiterung
+
+</th>
+
+<th style="border:1px solid black;">
+
+Bedingungen für die Aktivierung
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Active Server Pages</td>
-<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ASP-Inhalt.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Active Server Pages
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ASP-Inhalt.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">ASP.NET v1.1.4322</td>
-<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ASP.NET-Inhalt.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+ASP.NET v1.1.4322
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ASP.NET-Inhalt.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Alle unbekannten CGI-Erweiterungen</td>
-<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält CGI-Inhalt.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Alle unbekannten CGI-Erweiterungen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält CGI-Inhalt.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Alle unbekannten ISAPI-Erweiterungen</td>
-<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ISAPI-Erweiterungsinhalt.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Alle unbekannten ISAPI-Erweiterungen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, enthält ISAPI-Erweiterungsinhalt.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">FrontPage-Servererweiterungen 2002</td>
-<td style="border:1px solid black;">Mindestens eine Website, die auf IIS-Servern ausgeführt wird, verwendet FrontPage-Erweiterungen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+FrontPage-Servererweiterungen 2002
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mindestens eine Website, die auf IIS-Servern ausgeführt wird, verwendet FrontPage-Erweiterungen.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Internetdaten-Connector (IDC)</td>
-<td style="border:1px solid black;">Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, verwendet IDC zum Anzeigen von Datenbankinformationen (dieser Inhalt umfasst .idc- und .idx-Dateien).</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Internetdaten-Connector (IDC)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mindestens eine Website oder Anwendung, die auf IIS-Servern ausgeführt wird, verwendet IDC zum Anzeigen von Datenbankinformationen (dieser Inhalt umfasst.idc- und.idx-Dateien).
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Serverseitige Includes (SSI)</td>
-<td style="border:1px solid black;">Mindestens eine Website, die auf IIS-Servern ausgeführt wird, verwendet SSI-Anweisungen, um IIS-Server anzuweisen, wiederverwendbaren Inhalt (z. B. eine Navigationsleiste, eine Kopf- oder Fußzeile) in verschiedene Webseiten einzufügen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Serverseitige Includes (SSI)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mindestens eine Website, die auf IIS-Servern ausgeführt wird, verwendet SSI-Anweisungen, um IIS-Server anzuweisen, wiederverwendbaren Inhalt (z. B. eine Navigationsleiste, eine Kopf- oder Fußzeile) in verschiedene Webseiten einzufügen.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">WebDAV (Web Distributed Authoring and Versioning)</td>
-<td style="border:1px solid black;">WebDAV-Unterstützung ist auf IIS-Servern für Clients erforderlich, damit diese Webressourcen transparent veröffentlichen und verwalten können.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WebDAV (Web Distributed Authoring and Versioning)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+WebDAV-Unterstützung ist auf IIS-Servern für Clients erforderlich, damit diese Webressourcen transparent veröffentlichen und verwalten können.
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
+
 #### Ablegen von Inhalt auf einen ausgewiesenen Datenträger
-  
-Die Dateien für die Standardwebsites von IIS werden im Verzeichnis ***&lt;systemroot&gt;*\\inetpub\\wwwroot** abgelegt, wobei *&lt;systemroot&gt;* das Laufwerk ist, auf dem das Windows Server 2003-Betriebssystem installiert ist.
-  
+
+Die Dateien für die Standardwebsites von IIS werden im Verzeichnis ***&lt;systemroot&gt;*****\inetpub\wwwroot** abgelegt, wobei *&lt;systemroot&gt;* das Laufwerk ist, auf dem das Windows Server 2003-Betriebssystem installiert ist.
+
 In den drei in diesem Handbuch definierten Umgebungen sind alle Dateien und Ordner, die zu Websites und Anwendungen gehören, auf dedizierten, vom Betriebssystem getrennten Datenträgern abgelegt. Durch diesen Ansatz werden Directory-Traversal-Angriffe verhindert, bei denen ein Angreifer Anforderungen für eine Datei sendet, die sich außerhalb der Verzeichnisstruktur eines IIS-Servers befindet.
-  
-Die Datei Cmd. exe befindet sich z. B. im Ordner ***&lt;systemroot&gt;*System32**. Ein Angreifer kann nun eine Anforderung an folgenden Speicherort senden:
-  
-..\\..\\Windows\\system\\cmd.exe
-  
+
+Die Datei Cmd. exe befindet sich z. B. im Ordner ***&lt;systemroot&gt;*****System32.**   Ein Angreifer kann nun eine Anforderung an folgenden Speicherort senden:
+
+..\..\Windows\system\cmd.exe
+
 um zu versuchen, die Eingabeaufforderung aufzurufen.
-  
+
 Wenn sich der Websiteinhalt auf einem separaten Datenträger befindet, wäre ein solcher Directory-Traversal-Angriff aus zwei Gründen nicht ausführbar. Erstens wurden die Berechtigungen für Cmd.exe als Teil des Basisbuilds von Windows* *Server* *2003 mit SP1 zurückgesetzt, wodurch der Zugriff auf eine viel kleinere Benutzergruppe begrenzt wird. Zweitens befindet sich die Datei Cmd.exe nicht auf dem gleichen Datenträger wie der Webstamm. Derzeit ist keine Methode bekannt, um mit einem solchen Angriff auf Befehle auf einem anderen Laufwerk zuzugreifen.
-  
+
 Zusätzlich zu den Sicherheitsvorteilen sind Verwaltungsaufgaben wie das Sichern und Wiederherstellen leichter, wenn die Dateien und Ordner von Websites und Anwendungen auf einem dedizierten Datenträger gespeichert werden. Darüber hinaus kann der Einsatz eines separaten, dedizierten physischen Laufwerks Laufwerkskonflikte auf dem Systemdatenträger verringern und die Zugriffsleistung des Laufwerks insgesamt verbessern.
-  
+
+
 #### Festlegen von NTFS-Berechtigungen
-  
+
 Computer, auf denen Windows Server 2003 mit SP1 ausgeführt wird, überprüfen NTFS-Dateisystemberechtigungen, um die Zugriffstypen zu bestimmen, über die ein Benutzer oder ein Prozess in Bezug auf eine bestimmte Datei oder einen bestimmten Ordner verfügt. Sie sollten NTFS-Berechtigungen zuweisen, um bestimmten Benutzern Zugriff auf Websites zu gewähren oder zu verweigern, die sich auf IIS-Servern in den drei in dieser Anleitung definierten Umgebungen befinden.
-  
+
 Die NTFS-Berechtigungen haben nur Auswirkungen auf die Konten, denen der Zugriff auf den Website- und Anwendungsinhalt gewährt oder verweigert wurde. NTFS-Berechtigungen sollten in Verbindung mit und nicht anstatt von Webberechtigungen verwendet werden. Die Websiteberechtigungen betreffen alle Benutzer, die auf die Website oder Anwendung zugreifen. Wenn die Webberechtigungen mit den NTFS-Berechtigungen für ein Verzeichnis oder eine Datei in Konflikt stehen, werden restriktivere Einstellungen angewendet.
-  
+
 Sie sollten anonymen Konten explizit den Zugriff auf Websites und Anwendungen verweigern, für die kein anonymer Zugriff erwünscht ist. Anonymer Zugriff erfolgt, wenn ein Benutzer ohne Anmeldeinformationen auf Netzwerkressourcen zugreift. Anonyme Konten umfassen das vordefinierte Konto **Gast**, die Gruppe „Gäste“ sowie anonyme IIS-Konten. Entfernen Sie außerdem den Schreibzugriff sämtlicher Benutzer mit Ausnahme der IIS-Administratoren.
-  
+
 Die folgende Tabelle enthält einige Empfehlungen zu NTFS-Berechtigungen, die den unterschiedlichen Dateitypen auf einem IIS-Server zugewiesen werden sollten. Die verschiedenen Dateitypen können in einzelnen Ordnern zusammengefasst werden, um das Anwenden von NTFS-Berechtigungen zu vereinfachen.
-  
+
 **Tabelle 9.8: Empfohlene Einstellungen für NTFS-Berechtigungen**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Dateityp</th>
-<th style="border:1px solid black;" >Empfohlene NTFS-Berechtigungen</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Dateityp
+
+</th>
+
+<th style="border:1px solid black;">
+
+Empfohlene NTFS-Berechtigungen
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">CGI-Dateien (.exe, .dll, .cmd, .pl)</td>
-<td style="border:1px solid black;">Jeder (Ausführen)
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+CGI-Dateien (.exe,.dll,.cmd,.pl)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Jeder (Ausführen)
+
 Administratoren (Vollzugriff)
-System (Vollzugriff)</td>
+
+System (Vollzugriff)
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Skriptdateien (.asp)</td>
-<td style="border:1px solid black;">Jeder (Ausführen)
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Skriptdateien (.asp)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Jeder (Ausführen)
+
 Administratoren (Vollzugriff)
-System (Vollzugriff)</td>
+
+System (Vollzugriff)
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Dateien hinzufügen (.inc, .shtm, .shtml)</td>
-<td style="border:1px solid black;">Jeder (Ausführen)
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Dateien hinzufügen (.inc,.shtm,.shtml)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Jeder (Ausführen)
+
 Administratoren (Vollzugriff)
-System (Vollzugriff)</td>
+
+System (Vollzugriff)
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Statischer Inhalt (.txt, .gif, .jpg, .htm, .html)</td>
-<td style="border:1px solid black;">Jeder (Schreibgeschützt)
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Statischer Inhalt (.txt,.gif,.jpg,.htm,.html)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Jeder (Schreibgeschützt)
+
 Administratoren (Vollzugriff)
-System (Vollzugriff)</td>
+
+System (Vollzugriff)
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
- 
+
+
 
 #### Festlegen von IIS-Websiteberechtigungen
 
@@ -581,56 +1447,161 @@ Die folgende Tabelle werden die von IIS 6.0 unterstützten Websiteberechtigunge
 
 **Tabelle 9.9: IIS 6.0-Websiteberechtigungen**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Websiteberechtigung</th>
-<th style="border:1px solid black;" >Gewährte Berechtigung</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Websiteberechtigung
+
+</th>
+
+<th style="border:1px solid black;">
+
+Gewährte Berechtigung
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Lesen</td>
-<td style="border:1px solid black;">Benutzer können den Inhalt und die Eigenschaften von Verzeichnissen oder Dateien anzeigen. Diese Berechtigung ist in der Standardeinstellung ausgewählt.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Lesen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benutzer können den Inhalt und die Eigenschaften von Verzeichnissen oder Dateien anzeigen. Diese Berechtigung ist in der Standardeinstellung ausgewählt.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Schreiben</td>
-<td style="border:1px solid black;">Benutzer können den Inhalt und die Eigenschaften von Verzeichnissen oder Dateien ändern.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Schreiben
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benutzer können den Inhalt und die Eigenschaften von Verzeichnissen oder Dateien ändern.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Skriptzugriff</td>
-<td style="border:1px solid black;">Benutzer können auf Quelldateien zugreifen. Wenn der Lesezugriff aktiviert ist, kann die Quelle gelesen werden. Wenn Schreibzugriff aktiviert ist, kann der Quellcode des Skripts geändert werden. Der Skriptzugriff schließt den Quellcode für Skripte mit ein. Wenn weder der Lese- noch der Schreibzugriff aktiviert sind, ist diese Option nicht verfügbar.
-<strong>Wichtig</strong>: Wenn der Skriptzugriff aktiviert ist, können Benutzer möglicherweise wichtige Informationen anzeigen, wie z. B. einen Benutzernamen und ein Kennwort. Sie können möglicherweise auch den Quellcode ändern, der auf einem IIS-Server ausgeführt wird und dadurch die Sicherheit und die Leistung des Servers erheblich beeinträchtigen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Skriptzugriff
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benutzer können auf Quelldateien zugreifen. Wenn der Lesezugriff aktiviert ist, kann die Quelle gelesen werden. Wenn Schreibzugriff aktiviert ist, kann der Quellcode des Skripts geändert werden. Der Skriptzugriff schließt den Quellcode für Skripte mit ein. Wenn weder der Lese- noch der Schreibzugriff aktiviert sind, ist diese Option nicht verfügbar.
+
+**Wichtig**: Wenn der Skriptzugriff aktiviert ist, können Benutzer möglicherweise wichtige Informationen anzeigen, wie z. B. einen Benutzernamen und ein Kennwort. Sie können möglicherweise auch den Quellcode ändern, der auf einem IIS-Server ausgeführt wird und dadurch die Sicherheit und die Leistung des Servers erheblich beeinträchtigen.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Verzeichnis durchsuchen</td>
-<td style="border:1px solid black;">Benutzer können Dateilisten und -sammlungen anzeigen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Verzeichnis durchsuchen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benutzer können Dateilisten und -sammlungen anzeigen.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Besuche protokollieren</td>
-<td style="border:1px solid black;">Bei jedem Besuch der Website wird ein Protokolleintrag erstellt.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Besuche protokollieren
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bei jedem Besuch der Website wird ein Protokolleintrag erstellt.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Ressource indizieren</td>
-<td style="border:1px solid black;">Ermöglicht dem <strong>Indexdienst</strong> das Indexieren von Ressourcen, wodurch Suchen in den Ressourcen ausgeführt werden können.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Ressource indizieren
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht dem **Indexdienst** das Indexieren von Ressourcen, wodurch Suchen in den Ressourcen ausgeführt werden können.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Ausführen</td>
-<td style="border:1px solid black;">Die folgenden Optionen bestimmen die Ebene der Skriptausführung für Benutzer:
-<ul>
-<li><strong>Keine</strong>. Es dürfen keine ausführbaren Skripts auf dem Server ausgeführt werden.</li>
-<li><strong>Nur Skripts</strong>. Es dürfen nur Skripts auf dem Server ausgeführt werden.</li>
-<li><strong>Skripts und ausführbare Dateien</strong>. Es dürfen sowohl Skripts als auch ausführbare Dateien auf dem Server ausgeführt werden.</li>
-</ul></td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Ausführen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Die folgenden Optionen bestimmen die Ebene der Skriptausführung für Benutzer:
+* **Keine.**   Es dürfen keine ausführbaren Skripts auf dem Server ausgeführt werden.
+
+* **Nur Skripts.**   Es dürfen nur Skripts auf dem Server ausgeführt werden.
+
+* **Skripts und ausführbare Dateien.**   Es dürfen sowohl Skripts als auch ausführbare Dateien auf dem Server ausgeführt werden.
+
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
- 
+
+
 
 #### Konfigurieren der IIS-Protokollierung
 
@@ -650,47 +1621,90 @@ Für IIS-Server, die hunderte Sites hosten, kann die Protokollierungsleistung du
 
 Wenn die IIS-Protokolle auf IIS-Servern gespeichert werden, verfügen standardmäßig nur Serveradministratoren über die Berechtigung, auf diese Protokolle zuzugreifen. Wenn ein Protokolldateiverzeichnis- oder Dateibesitzer nicht in der Gruppe **Lokale Administratoren** enthalten ist, gibt die Datei HTTP.sys (der Kernelmodustreiber in IIS 6.0) eine Fehlermeldung im NT-Ereignisprotokoll aus. Diese Fehlermeldung gibt an, dass der Besitzer des Verzeichnisses oder der Datei nicht in der Gruppe **Lokale Administratoren** enthalten ist und dass die Protokollierung für diese Site ausgesetzt wird, bis der Besitzer der Gruppe **Lokale Administratoren** hinzugefügt oder das vorhandene Verzeichnis oder die vorhandene Datei gelöscht wird.
 
+
 #### Manuelles Hinzufügen von eindeutigen Sicherheitsgruppen zu den Zuweisungen von Benutzerrechten
 
 Für die meisten Zuweisungen von Benutzerrechten, die über die Richtlinie für die Mitgliedsserver-Baseline angewendet wurden, sind die richtigen Sicherheitsgruppen in den Sicherheitsvorlagen angegeben, die diesem Handbuch angefügt sind. Einige Konten und Sicherheitsgruppen konnten jedoch nicht in die Vorlagen aufgenommen werden, da ihre Sicherheits-IDs (SIDs) für einzelne Windows 2003-Domänen spezifisch sind. Zuweisungen von Benutzerrechten, die manuell konfiguriert werden müssen, sind in der folgenden Tabelle angegeben.
 
-**Warnung**: Die folgende Tabelle enthält Werte für das vordefinierte Administratorkonto. Verwechseln Sie das Administratorkonto nicht mit der vordefinierten Sicherheitsgruppe **Administratoren**. Wenn Sie die Sicherheitsgruppe **Administratoren** einem der nachfolgenden Benutzerrechte hinzufügen, die den Zugriff verweigern, müssen Sie sich lokal anmelden, um den Fehler zu beheben.
+**Warnung**: Die folgende Tabelle enthält Werte für das vordefinierte Administratorkonto. Verwechseln Sie das Administratorkonto nicht mit der vordefinierten Sicherheitsgruppe **Administratoren.**   Wenn Sie die Sicherheitsgruppe **Administratoren** einem der nachfolgenden Benutzerrechte hinzufügen, die den Zugriff verweigern, müssen Sie sich lokal anmelden, um den Fehler zu beheben.
 
 Außerdem müssen Sie u. U. das vordefinierte Administratorkonto gemäß der Empfehlung in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“, umbenennen. Stellen Sie beim Hinzufügen des Administratorkontos zu den Benutzerrechten sicher, dass das umbenannte Konto angegeben wird.
 
 **Tabelle 9.10: Manuell hinzugefügte Zuweisungen von Benutzerrechten**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Standard für Mitgliedsserver</th>
-<th style="border:1px solid black;" >Älterer Client</th>
-<th style="border:1px solid black;" >Unternehmensclient</th>
-<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Standard für Mitgliedsserver
+
+</th>
+
+<th style="border:1px solid black;">
+
+Älterer Client
+
+</th>
+
+<th style="border:1px solid black;">
+
+Unternehmensclient
+
+</th>
+
+<th style="border:1px solid black;">
+
+Hochsicher (SSLF)
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</td>
-<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
-Gast; alle betriebssystemfremden Dienstkonten</td>
-<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
-Gast; alle betriebssystemfremden Dienstkonten</td>
-<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
-Gast; alle betriebssystemfremden Dienstkonten</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Den Zugriff auf diesen Computer vom Netzwerk aus verweigern
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Vordefinierter Administrator; Support_388945a0;
+
+Gast; alle betriebssystemfremden Dienstkonten
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Vordefinierter Administrator; Support_388945a0;
+
+Gast; alle betriebssystemfremden Dienstkonten
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Vordefinierter Administrator; Support_388945a0;
+
+Gast; alle betriebssystemfremden Dienstkonten
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
- 
+
 
 **Wichtig**: „Alle betriebssystemfremden Dienstkonten“ schließt Dienstkonten mit ein, die unternehmensweit für bestimmte Anwendungen verwendet werden. Dazu gehören allerdings NICHT die Konten LOKALES SYSTEM, LOKALER DIENST und NETZWERKDIENST (die vom Betriebssystem verwendeten vordefinierten Konten).
+
 
 #### Sichern von bekannten Konten
 
@@ -701,22 +1715,24 @@ Das Konto „Gast“ ist auf Mitgliedsservern und Domänencontrollern standardm�
 Die Auswirkung dieser Konfigurationsänderung hat sich in den letzten Jahren nach dem Auftreten von Angriffstools verringert, die durch Angabe der Sicherheits-ID (SID) des vordefinierten Administratorkontos dessen wahren Namen in Erfahrung bringen und dadurch Zugriff auf den Server erhalten. Eine Sicherheits-ID ist ein Wert, der jeden Benutzer, jede Gruppe, jedes Computerkonto und jede Anmeldesitzung bei einem Netzwerk eindeutig identifiziert. Die Sicherheits-ID dieses vordefinierten Kontos kann nicht geändert werden. Ihre Betriebsgruppen können allerdings versuchte Angriffe auf dieses Administratorkonto überwachen, wenn Sie es umbenennen und mit einem eindeutigen Namen versehen.
 
 **So sichern Sie bekannte Konten auf IIS-Servern**
+* Benennen Sie die Administrator- und Gastkonten in jeder Domäne und auf jedem Server um, und ändern Sie die zugehörigen Kennwörter zu langen und komplexen Werten.
 
--   Benennen Sie die Administrator- und Gastkonten in jeder Domäne und auf jedem Server um, und ändern Sie die zugehörigen Kennwörter zu langen und komplexen Werten.
+* Verwenden Sie auf jedem Server verschiedene Namen und Kennwörter. Wenn auf allen Domänen und Servern die gleichen Kontonamen und -kennwörter verwendet werden, kann ein Angreifer, der sich Zugriff zu einem Mitgliedsserver verschafft hat, auch auf alle anderen Server zugreifen.
 
--   Verwenden Sie auf jedem Server verschiedene Namen und Kennwörter. Wenn auf allen Domänen und Servern die gleichen Kontonamen und -kennwörter verwendet werden, kann ein Angreifer, der sich Zugriff zu einem Mitgliedsserver verschafft hat, auch auf alle anderen Server zugreifen.
+* Ändern Sie die Standardkontobeschreibungen, um eine einfache Identifizierung der Konten zu verhindern.
 
--   Ändern Sie die Standardkontobeschreibungen, um eine einfache Identifizierung der Konten zu verhindern.
+* Notieren Sie die vorgenommenen Änderungen, und bewahren Sie diese Informationen an einem sicheren Ort auf.
 
--   Notieren Sie die vorgenommenen Änderungen, und bewahren Sie diese Informationen an einem sicheren Ort auf.
+**Hinweis**: Das vordefinierte Administratorkonto kann durch eine Gruppenrichtlinie umbenannt werden. Diese Einstellung wurde in den mit diesem Handbuch bereitgestellten Sicherheitsvorlagen nicht implementiert, da jede Organisation einen eindeutigen Namen für dieses Konto auswählen sollte. Sie können jedoch die Einstellung **Konten: Administratorkonto umbenennen** so konfigurieren, dass Administratorkonten in den drei in diesem Handbuch definierten Umgebungen umbenannt werden. Diese Richtlinieneinstellung ist Teil der Einstellungen für die Sicherheitsoptionen eines Gruppenrichtlinienobjekts.
 
-    **Hinweis**: Das vordefinierte Administratorkonto kann durch eine Gruppenrichtlinie umbenannt werden. Diese Einstellung wurde in den mit diesem Handbuch bereitgestellten Sicherheitsvorlagen nicht implementiert, da jede Organisation einen eindeutigen Namen für dieses Konto auswählen sollte. Sie können jedoch die Einstellung **Konten: Administratorkonto umbenennen** so konfigurieren, dass Administratorkonten in den drei in diesem Handbuch definierten Umgebungen umbenannt werden. Diese Richtlinieneinstellung ist Teil der Einstellungen für die Sicherheitsoptionen eines Gruppenrichtlinienobjekts.
+
 
 #### Sichern von Dienstkonten
 
 Konfigurieren Sie einen Dienst für die Ausführung im Sicherheitskontext eines Domänenkontos nur, wenn es sich nicht vermeiden lässt. Bei einem physischen Zugriff auf den Server könnten Domänenkontenkennwörter leicht durch Abbilden von geheimen LSA-Schlüsseln aufgedeckt werden. Weitere Informationen zum Sichern von Dienstkonten finden Sie im [Planungshandbuch für die Dienste- und Dienstekontensicherheit](http://www.microsoft.com/technet/security/topics/serversecurity/serviceaccount/default.mspx) (in englischer Sprache) unter www.microsoft.com/technet/security/topics/serversecurity/serviceaccount/default.mspx.
+[Zum Seitenanfanq](#mainsection)  
 
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
+
 
 ### Erstellen der Richtlinie mithilfe des SCW
 
@@ -727,38 +1743,39 @@ Wenn Sie Ihre eigene Richtlinie erstellen, müssen Sie die Abschnitte „Registr
 Es empfiehlt sich, das Betriebssystem zu Beginn der Konfigurationsarbeit neu zu installieren. Dadurch wird sichergestellt, dass keine älteren Einstellungen oder Software von früheren Konfigurationen verwendet werden. Wenn möglich, sollten Sie ähnliche Hardware wie in Ihrer Bereitstellungsumgebung verwenden, um eine möglichst hohe Kompatibilität zu gewährleisten. Die neue Installation wird als *Referenzcomputer* bezeichnet.
 
 **So erstellen Sie die IIS-Serverrichtlinie**
+* Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
 
-1.  Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
+* Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
 
-2.  Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
+* Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
 
-3.  Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
+* Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
 
-4.  Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
+* Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
 
-5.  Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
+* Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die Rollen der Anwendungsserver und Webserver.
 
-6.  Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die Rollen der Anwendungsserver und Webserver.
+* Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
 
-7.  Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
+* Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
 
-8.  Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
+* Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
 
-9.  Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
+* Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
 
-10. Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
+* Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
 
-11. Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter**. Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
+* Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-12. Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+* Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-13. Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+* Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - IIS-Server.inf“).
 
-14. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - IIS-Server.inf“).
+* Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. IIS-Server.xml).
 
-15. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. IIS-Server.xml).
+**Hinweis**: Die Richtlinie für die Mitgliedsserver-Baseline deaktiviert mehrere andere IIS-bezogene Dienste, einschließlich FTP, SMTP und NNTP. Die Webserverrichtlinie muss geändert werden, wenn einer dieser Dienste auf IIS-Servern in einer der drei in diesem Handbuch definierten Umgebungen aktiviert werden soll.
 
-    **Hinweis**: Die Richtlinie für die Mitgliedsserver-Baseline deaktiviert mehrere andere IIS-bezogene Dienste, einschließlich FTP, SMTP und NNTP. Die Webserverrichtlinie muss geändert werden, wenn einer dieser Dienste auf IIS-Servern in einer der drei in diesem Handbuch definierten Umgebungen aktiviert werden soll.
+
 
 #### Testen der Richtlinie mithilfe des SCW
 
@@ -772,29 +1789,31 @@ Die Richtlinie wird getestet, um sicherzustellen, dass ihre Anwendung auf den Zi
 
 Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd verwenden, um wie im folgenden Verfahren veranschaulicht die Richtlinien in Gruppenrichtlinienobjekte umzuwandeln.
 
-Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Deployment Guide for the Security Configuration Wizard](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx**sowie in der [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450) unter http://go.microsoft.com/fwlink/?linkid=43450 (jeweils in englischer Sprache).
+Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Security Configuration Wizard Documentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx">Deployment Guide for the Security Configuration Wizard unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx**sowie in der 
+
 
 #### Umwandeln und Bereitstellen der Richtlinie
 
 Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schritte aus, um sie in ein Gruppenrichtlinienobjekt umzuwandeln und bereitzustellen:
+* Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
 
-1.  Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
 
-    
-        ```
-    und drücken Sie anschließend die Eingabetaste. Beispiel:
+<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;</CodeSnippet>
+und drücken Sie anschließend die Eingabetaste. Beispiel:
 
-    
-        ```
-    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
 
-2.  Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
+<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IIS Server.xml" /g:"IIS Policy"</CodeSnippet>
+**Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
 
-Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, öffnen Sie die Systemsteuerung, und doppelklicken Sie auf **Windows-Firewall**.
+* Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
+
+
+Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, öffnen Sie die Systemsteuerung, und doppelklicken Sie auf **Windows-Firewall.**  
 
 Anschließend sollten Sie eine endgültige Prüfung vornehmen, um sicherzustellen, dass das Gruppenrichtlinienobjekt die gewünschten Einstellungen anwendet. Prüfen Sie zum Abschluss dieses Verfahrens, dass die entsprechenden Einstellungen vorgenommen wurden und die Funktionalität nicht beeinträchtigt ist.
+[Zum Seitenanfanq](#mainsection)  
 
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
+
 
 ### Zusammenfassung
 
@@ -802,72 +1821,88 @@ In diesem Kapitel wurden die Richtlinieneinstellungen behandelt, die in den drei
 
 Einige der erörterten Einstellungen können nicht über Gruppenrichtlinien angewendet werden. Für diese Einstellungen wurden Informationen für die manuelle Konfiguration bereitgestellt.
 
+
 #### Weitere Informationen
 
 Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IIS-Servern, auf denen Windows Server 2003 mit SP1 ausgeführt wird.
+* Informationen zum Aktivieren der Protokollierung in IIS finden Sie im Microsoft Knowledge Base-Artikel „[Aktivieren der Protokollierung in Internet Information Services](http://support.microsoft.com/?kbid=313437)“ (in englischer Sprache) unter http://support.microsoft.com/?kbid=313437.
 
--   Informationen zum Aktivieren der Protokollierung in IIS finden Sie im Microsoft Knowledge Base-Artikel „[Aktivieren der Protokollierung in Internet Information Services](http://support.microsoft.com/?kbid=313437)“ (in englischer Sprache) unter http://support.microsoft.com/?kbid=313437.
+* Zusätzliche Informationen zum Protokollieren finden Sie auf der Seite „[Aktivieren der Protokollierung (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/d29207e8-5274-4f4b-9a00-9433b73252d6.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/d29207e8-5274-4f4b-9a00-9433b73252d6.mspx.
 
--   Zusätzliche Informationen zum Protokollieren finden Sie auf der Seite „[Aktivieren der Protokollierung (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/d29207e8-5274-4f4b-9a00-9433b73252d6.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/d29207e8-5274-4f4b-9a00-9433b73252d6.mspx.
+* Informationen zum Protokollieren von Siteaktivitäten finden Sie auf der Seite „[Protokollieren von Siteaktivitäten (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/ab7e4070-e185-4110-b2b1-1bcac4b168e0.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/ab7e4070-e185-4110-b2b1-1bcac4b168e0.mspx.
 
--   Informationen zum Protokollieren von Siteaktivitäten finden Sie auf der Seite „[Protokollieren von Siteaktivitäten (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/ab7e4070-e185-4110-b2b1-1bcac4b168e0.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/ab7e4070-e185-4110-b2b1-1bcac4b168e0.mspx.
+* Informationen zum erweiterten Protokollieren finden Sie auf der Seite „[Anpassen der erweiterten W3C-Protokollierung (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/96af216b-e2c0-428e-9880-95cbd85d90a1.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/96af216b-e2c0-428e-9880-95cbd85d90a1.mspx.
 
--   Informationen zum erweiterten Protokollieren finden Sie auf der Seite „[Anpassen der erweiterten W3C-Protokollierung (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/96af216b-e2c0-428e-9880-95cbd85d90a1.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/96af216b-e2c0-428e-9880-95cbd85d90a1.mspx.
+* Informationen zur zentralen Binärprotokollierung finden Sie auf der Seite „[Zentrale Binärprotokollierung in IIS 6.0 (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/b9cdc076-403d-463e-9a36-5a14811d34c7.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/b9cdc076-403d-463e-9a36-5a14811d34c7.mspx.
 
--   Informationen zur zentralen Binärprotokollierung finden Sie auf der Seite „[Zentrale Binärprotokollierung in IIS 6.0 (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/b9cdc076-403d-463e-9a36-5a14811d34c7.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/b9cdc076-403d-463e-9a36-5a14811d34c7.mspx.
+* Informationen zur Remoteprotokollierung finden Sie auf der Seite „[Remoteprotokollierung (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/a6347ae3-39d1-4434-97c9-5756e5862c61.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/a6347ae3-39d1-4434-97c9-5756e5862c61.mspx
 
--   Informationen zur Remoteprotokollierung finden Sie auf der Seite „[Remoteprotokollierung (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/a6347ae3-39d1-4434-97c9-5756e5862c61.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/a6347ae3-39d1-4434-97c9-5756e5862c61.mspx
+* Zusätzliche Informationen zu IIS 6.0 finden Sie auf der Seite „[Internet Information Services](http://www.microsoft.com/windowsserver2003/iis/default.mspx)“ (in englischer Sprache) unter www.microsoft.com/WindowsServer2003/iis/default.mspx.
 
--   Zusätzliche Informationen zu IIS 6.0 finden Sie auf der Seite „[Internet Information Services](http://www.microsoft.com/windowsserver2003/iis/default.mspx)“ (in englischer Sprache) unter www.microsoft.com/WindowsServer2003/iis/default.mspx.
+ 
+[Zum Seitenanfanq](#mainsection)
 
-[](#mainsection)[Zum Seitenanfanq](#mainsection)
+In diesem Beitrag
+* [Überblick](https://technet.microsoft.com/de-de/library/303c53d5-6b76-46e1-8ee3-7d8c99891129(v=TechNet.10))
+* [Kapitel 1: Einführung in das Windows Server 2003-Sicherheitshandbuch](https://technet.microsoft.com/de-de/library/b0015e61-fe4e-4523-a875-ef8b971da55c(v=TechNet.10))
+* [Kapitel 2: Absicherungsmechanismen von Windows Server 2003](https://technet.microsoft.com/de-de/library/015a5e65-1d76-48df-9657-6fe516a5095a(v=TechNet.10))
+* [Kapitel 3: Die Domänenrichtlinie](https://technet.microsoft.com/de-de/library/70e3e562-9517-4fb9-b617-ef7854a0f03c(v=TechNet.10))
+* [Kapitel 4: Die Richtlinie für die Mitgliedsserver-Baseline](https://technet.microsoft.com/de-de/library/7fd4e7b6-32b3-4fe8-a323-7c01d0c86c51(v=TechNet.10))
+* [Kapitel 5: Die Richtlinie für die Domänencontroller-Baseline](https://technet.microsoft.com/de-de/library/f86f67bd-c150-4d0d-ad85-ff13a01afb01(v=TechNet.10))
+* [Kapitel 6: Die Infrastrukturserverrolle](https://technet.microsoft.com/de-de/library/5914ba9b-2fe2-4886-8171-a908521836ec(v=TechNet.10))
+* [Kapitel 7: Die Dateiserverrolle](https://technet.microsoft.com/de-de/library/2b1536d0-9610-4fb5-93b4-72f62d9e2ff3(v=TechNet.10))
+* [Kapitel 8: Die Druckserverrolle](https://technet.microsoft.com/de-de/library/a37f44cf-85b3-4ae6-8e32-0cd877c5e9ee(v=TechNet.10))
+* Kapitel 9: Die Webserverrolle
+* [Kapitel 10: Die IAS-Serverrolle](https://technet.microsoft.com/de-de/library/605c5b8e-d007-41c2-92a6-9260fe571bc7(v=TechNet.10))
+* [Kapitel 11: Die Zertifikatdienstserverrolle](https://technet.microsoft.com/de-de/library/7488b1dc-eb9b-4f4a-b597-b84d87717b57(v=TechNet.10))
+* [Kapitel 12: Die Bastion-Hostrolle](https://technet.microsoft.com/de-de/library/cb056f68-1a74-4a6a-ac25-5629fefe7cbb(v=TechNet.10))
+* [Kapitel 13: Zusammenfassung](https://technet.microsoft.com/de-de/library/4a4cf96c-802d-4aef-9478-da3242f961da(v=TechNet.10))
+* [Anhang A: Sicherheitstools und Formate](https://technet.microsoft.com/de-de/library/e15ff47c-bd77-4b34-9b58-c3f3fba2d135(v=TechNet.10))
+* [Anhang B: Zu berücksichtigende Schlüsseleinstellungen](https://technet.microsoft.com/de-de/library/ff6d4718-4179-4f5a-a09d-50d75e9f32e6(v=TechNet.10))
+* [Anhang C: Zusammenfassung der Einstellungen für Sicherheitsvorlagen](https://technet.microsoft.com/de-de/library/3a17dffb-0395-4656-ada8-28e3954307f5(v=TechNet.10))
+* [Anhang D: Testen des Windows Server 2003-Sicherheitshandbuchs](https://technet.microsoft.com/de-de/library/2698b276-4c42-4a18-9930-3d69974746f8(v=TechNet.10))
+* [Danksagungen](https://technet.microsoft.com/de-de/library/3ec7641e-0d9e-45a2-b3b2-b2a08960d871(v=TechNet.10))
+ 
 
-##### In diesem Beitrag
+**Download**  
 
--   [Überblick](https://technet.microsoft.com/de-de/library/303c53d5-6b76-46e1-8ee3-7d8c99891129(v=TechNet.10))
--   [Kapitel 1: Einführung in das Windows Server 2003-Sicherheitshandbuch](https://technet.microsoft.com/de-de/library/b0015e61-fe4e-4523-a875-ef8b971da55c(v=TechNet.10))
--   [Kapitel 2: Absicherungsmechanismen von Windows Server 2003](https://technet.microsoft.com/de-de/library/015a5e65-1d76-48df-9657-6fe516a5095a(v=TechNet.10))
--   [Kapitel 3: Die Domänenrichtlinie](https://technet.microsoft.com/de-de/library/70e3e562-9517-4fb9-b617-ef7854a0f03c(v=TechNet.10))
--   [Kapitel 4: Die Richtlinie für die Mitgliedsserver-Baseline](https://technet.microsoft.com/de-de/library/7fd4e7b6-32b3-4fe8-a323-7c01d0c86c51(v=TechNet.10))
--   [Kapitel 5: Die Richtlinie für die Domänencontroller-Baseline](https://technet.microsoft.com/de-de/library/f86f67bd-c150-4d0d-ad85-ff13a01afb01(v=TechNet.10))
--   [Kapitel 6: Die Infrastrukturserverrolle](https://technet.microsoft.com/de-de/library/5914ba9b-2fe2-4886-8171-a908521836ec(v=TechNet.10))
--   [Kapitel 7: Die Dateiserverrolle](https://technet.microsoft.com/de-de/library/2b1536d0-9610-4fb5-93b4-72f62d9e2ff3(v=TechNet.10))
--   [Kapitel 8: Die Druckserverrolle](https://technet.microsoft.com/de-de/library/a37f44cf-85b3-4ae6-8e32-0cd877c5e9ee(v=TechNet.10))
--   Kapitel 9: Die Webserverrolle
--   [Kapitel 10: Die IAS-Serverrolle](https://technet.microsoft.com/de-de/library/605c5b8e-d007-41c2-92a6-9260fe571bc7(v=TechNet.10))
--   [Kapitel 11: Die Zertifikatdienstserverrolle](https://technet.microsoft.com/de-de/library/7488b1dc-eb9b-4f4a-b597-b84d87717b57(v=TechNet.10))
--   [Kapitel 12: Die Bastion-Hostrolle](https://technet.microsoft.com/de-de/library/cb056f68-1a74-4a6a-ac25-5629fefe7cbb(v=TechNet.10))
--   [Kapitel 13: Zusammenfassung](https://technet.microsoft.com/de-de/library/4a4cf96c-802d-4aef-9478-da3242f961da(v=TechNet.10))
--   [Anhang A: Sicherheitstools und Formate](https://technet.microsoft.com/de-de/library/e15ff47c-bd77-4b34-9b58-c3f3fba2d135(v=TechNet.10))
--   [Anhang B: Zu berücksichtigende Schlüsseleinstellungen](https://technet.microsoft.com/de-de/library/ff6d4718-4179-4f5a-a09d-50d75e9f32e6(v=TechNet.10))
--   [Anhang C: Zusammenfassung der Einstellungen für Sicherheitsvorlagen](https://technet.microsoft.com/de-de/library/3a17dffb-0395-4656-ada8-28e3954307f5(v=TechNet.10))
--   [Anhang D: Testen des Windows Server 2003-Sicherheitshandbuchs](https://technet.microsoft.com/de-de/library/2698b276-4c42-4a18-9930-3d69974746f8(v=TechNet.10))
--   [Danksagungen](https://technet.microsoft.com/de-de/library/3ec7641e-0d9e-45a2-b3b2-b2a08960d871(v=TechNet.10))
 
-**Download**
+[Holen Sie sich das Windows Server 2003-Sicherheitshandbuch (engl.)](http://go.microsoft.com/fwlink/?linkid=14846&amp;clcid=0x409)
 
-[Holen Sie sich das Windows Server 2003-Sicherheitshandbuch (engl.)](http://go.microsoft.com/fwlink/?linkid=14846&clcid=0x409)
+**Benachrichtigung über Neuerungen**  
 
-**Benachrichtigung über Neuerungen**
 
 [Melden Sie sich an, um sich über Updates und neue Versionen zu informieren](http://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx)
 
-**Feedback**
+**Feedback**  
 
-[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
+
+[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows server 2003 security guide)
 
  
+
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;"><div>
-<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
-</div></td>
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/a37f44cf-85b3-4ae6-8e32-0cd877c5e9ee(v=TechNet.10)"><img src="images/Dd443730.pageLeft(de-de,TechNet.10).gif" /></a> 10 von 19 <a href="https://technet.microsoft.com/de-de/library/605c5b8e-d007-41c2-92a6-9260fe571bc7(v=TechNet.10)"><img src="images/Dd443730.pageRight(de-de,TechNet.10).gif" /></a></td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+[Zum Seitenanfanq](#mainsection)
+
+</td>
+
+<td style="border:1px solid black;">
+
+[![](https://technet.microsoft.com/de-de/Dd443730.pageLeft(de-de,TechNet.10).gif "Dd443730.pageLeft(de-de,TechNet.10).gif")](https://technet.microsoft.com/de-de/library/a37f44cf-85b3-4ae6-8e32-0cd877c5e9ee(v=TechNet.10))
+10 von 19[![](https://technet.microsoft.com/de-de/Dd443730.pageRight(de-de,TechNet.10).gif "Dd443730.pageRight(de-de,TechNet.10).gif")](https://technet.microsoft.com/de-de/library/605c5b8e-d007-41c2-92a6-9260fe571bc7(v=TechNet.10))
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
+
+
+
+
+
