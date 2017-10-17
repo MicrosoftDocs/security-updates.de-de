@@ -15,13 +15,13 @@ Aktualisiert: 20.10.2005
 
 ##### Auf dieser Seite
 
-[](#ehaa)[Überblick](#ehaa)
-[](#egaa)[Kurzzusammenfassung](#egaa)
-[](#efaa)[Zielgruppe](#efaa)
-[](#eeaa)[Themenumfang dieses Handbuchs](#eeaa)
-[](#edaa)[Kapitelüberblick](#edaa)
-[](#ecaa)[Inhalt des Downloads](#ecaa)
-[](#ebaa)[Typografische Elemente](#ebaa)
+[](#ehaa)[Überblick](#ehaa)  
+[](#egaa)[Kurzzusammenfassung](#egaa)  
+[](#efaa)[Zielgruppe](#efaa)  
+[](#eeaa)[Themenumfang dieses Handbuchs](#eeaa)  
+[](#edaa)[Kapitelüberblick](#edaa)  
+[](#ecaa)[Inhalt des Downloads](#ecaa)  
+[](#ebaa)[Typografische Elemente](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Überblick

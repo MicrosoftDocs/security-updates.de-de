@@ -17,12 +17,12 @@ Die Microsoft Solutions for Security and Compliance-Gruppe (MSSC) möchte dem f�
 
 ##### Auf dieser Seite
 
-[](#egaa)[Autoren](#egaa)
-[](#efaa)[Programmmanagement](#efaa)
-[](#eeaa)[Release Management](#eeaa)
-[](#edaa)[Tests](#edaa)
-[](#ecaa)[Lektoren](#ecaa)
-[](#ebaa)[Lektorat](#ebaa)
+[](#egaa)[Autoren](#egaa)  
+[](#efaa)[Programmmanagement](#efaa)  
+[](#eeaa)[Release Management](#eeaa)  
+[](#edaa)[Tests](#edaa)  
+[](#ecaa)[Lektoren](#ecaa)  
+[](#ebaa)[Lektorat](#ebaa)  
 [](#eaaa)[Zuarbeit](#eaaa)
 
 ### Autoren
@@ -41,19 +41,19 @@ Bob Partridge
 
 Tony Quinn
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)
 
 ### Programmmanagement
 
 Bomani Siwatu
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)
 
 ### Release Management
 
 Flicka Crandell
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)
 
 ### Tests
 
@@ -69,7 +69,7 @@ Varun Rastogi *(Infosys Technologies)*
 
 Avrojit Strahl *(Infosys Technologies)*
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)
 
 ### Lektoren
 
@@ -83,7 +83,7 @@ John Tobey *(Volt Information Sciences)*
 
 Steve Wacker *(Wadeware LLC)*
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)
 
 ### Lektorat
 
@@ -111,8 +111,7 @@ Mark Kradel
 
 Joe Porter
 
-Tom Shinder *(ISA and Security MVP, IT*
-*  Consultant TACTeam)*
+Tom Shinder *(ISA and Security MVP, IT Consultant TACTeam)*
 
 Ben Smith
 
@@ -124,7 +123,7 @@ Jim Whitney *(Configuresoft)*
 
 Jeff Williams
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)
 
 ### Zuarbeit
 
@@ -168,8 +167,7 @@ Rob Oikawa
 
 Bill Reid
 
-Stacey Tsurusaki *(Volt Information*
-*  Sciences)*
+Stacey Tsurusaki *(Volt Information Sciences)*
 
 David Visintainer *(Volt Information Sciences)*
 
@@ -196,4 +194,4 @@ Auf Anregung von Microsoft haben sich auch das Center for Internet Security (CIS
 
 [![](images/Cc163063.icon_exe(de-de,TechNet.10).gif)Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&clcid=0x409)
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)

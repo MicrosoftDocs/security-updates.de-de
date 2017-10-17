@@ -2703,7 +2703,7 @@ In diesem Beitrag
 
 <td>
 
-Zum Seitenanfanq
+[Zum Seitenanfanq](#mainsection)
 </td>
 
 <td>

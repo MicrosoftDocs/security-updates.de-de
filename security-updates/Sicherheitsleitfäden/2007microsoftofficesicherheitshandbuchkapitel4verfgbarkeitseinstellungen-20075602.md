@@ -26,17 +26,17 @@ Die 2007 Microsoft Office-Version bietet eine Reihe von Technologien und Einstel
 -   **Dateiblockierungstechnologien** umfassen zahlreiche Einstellungen, mit denen Benutzer am ffnen oder Speichern bestimmter Dateitypen und Dateiformate gehindert werden knnen.
 -   **Microsoft Internet Explorer-Funktionseinstellungen** tragen dazu bei, eine Reihe unterschiedlicher Internet Explorer-Funktionstypen vor einer Ausnutzung zu schtzen. Diese Einstellungen sind besonders ntzlich, wenn ein Dokument oder eine Anwendung Internet Explorer hostet.
 
-![](images/Dd443658.important(de-de,TechNet.10).gif)**Wichtig:**
+![](images/Dd443658.important(de-de,TechNet.10).gif) **Wichtig:**
 
 Neben der Bercksichtigung der in diesem Kapitel erluterten Einstellungen sollten Sie zudem sicherstellen, dass Ihre Computer zu jedem Zeitpunkt mit den neuesten Sicherheitspatches von Microsoft aktualisiert sind. Ein effektives Patchmanagement trgt entscheidend zur Verbesserung der Sicherheit in Unternehmen bei.
 
 ##### Auf dieser Seite
 
-[Verringern von Bedrohungen ber VBA-Makros](#eyd)
-[Mindern von Bedrohungen durch Add-Ins](#eng)
-[Einstellungen zur Minderung von Bedrohungen durch ActiveX-Steuerelemente](#egac)
-[Einstellungen zum Mindern von Bedrohungen durch externe Inhalte](#egbc)
-[Dateiblockierungstechnologie](#egcc)
+[Verringern von Bedrohungen ber VBA-Makros](#eyd)  
+[Mindern von Bedrohungen durch Add-Ins](#eng)  
+[Einstellungen zur Minderung von Bedrohungen durch ActiveX-Steuerelemente](#egac)  
+[Einstellungen zum Mindern von Bedrohungen durch externe Inhalte](#egbc)  
+[Dateiblockierungstechnologie](#egcc)  
 [Mindern von Bedrohungen durch Internet Explorer-Funktionen](#egdc)
 
 Verringern von Bedrohungen ber VBA-Makros
@@ -811,7 +811,9 @@ Beachten Sie die folgenden Richtlinien, um Bedrohungen durch Internet Explorer-F
   
 -   Machen Sie sich bewusst, dass andere Office-Anwendungen wie Office InfoPath 2007 Internet Explorer programmgesteuert hosten knnen.
   
-    ![](images/Dd443658.note(de-de,TechNet.10).gif)**Hinweis:**
+    ![](images/Dd443658.note(de-de,TechNet.10).gif) **Hinweis:**  
+
+    Die Empfehlungen im vorliegenden Handbuch wurden nicht mit einer Konfiguration getestet, bei der die Empfehlungen des Handbuchs zur Desktopsicherheit mit Internet Explorer 7 implementiert wurden.
   
 ##### In diesem Beitrag
   
