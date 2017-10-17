@@ -767,7 +767,7 @@ Wenn diese Einstellung **aktiviert** ist, knnen Administratoren den Verschlsselt
 
 Geben Sie den zu verwendenden Verschlsselungstypen an, indem Sie ihn in der folgenden Form in das bereitgestellte Textfeld eingeben:
 
-&lt;Verschlsselungsanbieter&gt;,&lt;Verschlsselungsalgorithmus&gt;,&lt;Lnge des Verschlsselungsschlssels&gt;
+*&lt;Verschlsselungsanbieter&gt;,&lt;Verschlsselungsalgorithmus&gt;,&lt;Lnge des Verschlsselungsschlssels&gt;*
 
 Zum Beispiel, Microsoft Enhanced Cryptographic Provider v1.0,RC4,128.
 
@@ -890,7 +890,7 @@ Wenn diese Einstellung **aktiviert** ist, knnen Administratoren den Verschlsselu
 
 Geben Sie den zu verwendenden Verschlsselungstypen an, indem Sie ihn in der folgenden Form in das bereitgestellte Textfeld eingeben:
 
-&lt;Verschlsselungsanbieter&gt;,&lt;Verschlsselungsalgorithmus&gt;,&lt;Lnge des Verschlsselungsschlssels&gt;
+*&lt;Verschlsselungsanbieter&gt;,&lt;Verschlsselungsalgorithmus&gt;,&lt;Lnge des Verschlsselungsschlssels&gt;*
 
 Zum Beispiel, Microsoft Enhanced Cryptographic Provider v1.0,RC4,128.
 

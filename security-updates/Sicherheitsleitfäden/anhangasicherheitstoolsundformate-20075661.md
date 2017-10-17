@@ -17,7 +17,7 @@ Das Erstellen, Testen, Bereitstellen und Verwalten eines kompletten Richtlinien-
 
 ##### Auf dieser Seite
 
-[](#ebaa)[Sicherheitstools](#ebaa)
+[](#ebaa)[Sicherheitstools](#ebaa)  
 [](#eaaa)[Sicherheitsdateiformate](#eaaa)
 
 ### Sicherheitstools
@@ -134,7 +134,7 @@ Richtlinienvorlagen können einen oder mehrere Abschnitte enthalten, in denen fo
 
 -   Berechtigungen im Dateisystem
 
-Richtlinienvorlagen werden von fast allen zuvor in diesem Anhang aufgelisteten Tools unterstützt. Außerdem kann das gleiche Vorlagenformat sowohl für lokale Computerrichtlinien als auch für Active* *Directory-Gruppenrichtlinien verwendet werden. Bevor die Vorlagen einsatzfähig sind, müssen sie vom entsprechenden Tool importiert werden.
+Richtlinienvorlagen werden von fast allen zuvor in diesem Anhang aufgelisteten Tools unterstützt. Außerdem kann das gleiche Vorlagenformat sowohl für lokale Computerrichtlinien als auch für Active Directory-Gruppenrichtlinien verwendet werden. Bevor die Vorlagen einsatzfähig sind, müssen sie vom entsprechenden Tool importiert werden.
 
 #### Gruppenrichtlinienobjekte (GPOs)
 
