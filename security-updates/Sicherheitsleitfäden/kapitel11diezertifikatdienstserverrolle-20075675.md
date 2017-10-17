@@ -324,7 +324,7 @@ Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schri
      `scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Certificate Services.xml"  /g:"Certificate Services Policy"`
     
     
-    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+**Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
   
 2.  Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
   
