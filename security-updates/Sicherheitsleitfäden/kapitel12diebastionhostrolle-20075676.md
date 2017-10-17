@@ -15,18 +15,18 @@ Aktualisiert: 27.12.2005
 
 #### Auf dieser Seite
 
-[](#ehaa)[Überblick](#ehaa)
-[](#egaa)[Einstellungen für Überwachungsrichtlinien](#egaa)
-[](#efaa)[Zuweisen von Benutzerrechten](#efaa)
-[](#eeaa)[Sicherheitsoptionen](#eeaa)
-[](#edaa)[Ereignisprotokolleinstellungen](#edaa)
-[](#ecaa)[Zusätzliche Sicherheitseinstellungen](#ecaa)
-[](#ebaa)[Erstellen der Richtlinie mithilfe des SCW](#ebaa)
+[](#ehaa)[Überblick](#ehaa)  
+[](#egaa)[Einstellungen für Überwachungsrichtlinien](#egaa)  
+[](#efaa)[Zuweisen von Benutzerrechten](#efaa)  
+[](#eeaa)[Sicherheitsoptionen](#eeaa)  
+[](#edaa)[Ereignisprotokolleinstellungen](#edaa)  
+[](#ecaa)[Zusätzliche Sicherheitseinstellungen](#ecaa)  
+[](#ebaa)[Erstellen der Richtlinie mithilfe des SCW](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Überblick
 
-Dieses Kapitel befasst sich mit der Absicherung von Bastion-Hosts in Ihrer Umgebung, auf denen Microsoft® Windows* *Server™* *2003* *mit Service Pack 1 (SP1) ausgeführt wird. Bastion-Hosts sind sichere, aber öffentlich zugängliche Computer, die sich im öffentlichen Bereich des Perimeternetzwerks einer Organisation befinden (wird auch als DMZ bzw. demilitarisierte Zone und überwachtes Subnetz bezeichnet). Bastion-Hosts werden nicht durch eine Firewall oder einen als Filter agierenden Router geschützt, wodurch sie Angriffen völlig ausgesetzt sind. Um die Möglichkeit einer Beeinträchtigung zu minimieren, müssen Bastion-Hosts umsichtig eingerichtet und konfiguriert werden.
+Dieses Kapitel befasst sich mit der Absicherung von Bastion-Hosts in Ihrer Umgebung, auf denen Microsoft® Windows Server™ 2003 mit Service Pack 1 (SP1) ausgeführt wird. Bastion-Hosts sind sichere, aber öffentlich zugängliche Computer, die sich im öffentlichen Bereich des Perimeternetzwerks einer Organisation befinden (wird auch als DMZ bzw. demilitarisierte Zone und überwachtes Subnetz bezeichnet). Bastion-Hosts werden nicht durch eine Firewall oder einen als Filter agierenden Router geschützt, wodurch sie Angriffen völlig ausgesetzt sind. Um die Möglichkeit einer Beeinträchtigung zu minimieren, müssen Bastion-Hosts umsichtig eingerichtet und konfiguriert werden.
 
 Bastion-Hosts werden in der Regel als Webserver, DNS-Server, FTP-Server (File Transfer Protocol), SMTP-Server (Simple Mail Transport Protocol) und NNTP-Server (Network News Transfer Protocol) eingesetzt. Im Idealfall müssen Bastion-Hosts nur eine dieser Funktionen ausführen, denn je mehr Rollen jeder Server übernimmt, desto größer ist die Wahrscheinlichkeit, dass eine Sicherheitslücke übersehen wird. Die Sicherung eines einzelnen Dienstes auf einem einzelnen Bastion-Host ist einfacher als die Sicherung mehrerer Dienste. Organisationen, die die Kosten für mehrere Bastion-Hosts aufbringen können, profitieren enorm von dieser Art der Netzwerkarchitektur.
 
@@ -36,7 +36,7 @@ In den folgenden Abschnitten dieses Kapitels werden verschiedene Sicherheitseins
 
 #### Lokale Bastion-Host-Richtlinie
 
-Für die zuvor in diesem Handbuch beschriebenen Serverrollen wurden Gruppenrichtlinien zum Konfigurieren der Server verwendet. Eine Gruppenrichtlinie kann nicht auf Bastion-Hostserver angewendet werden, weil diese als eigenständige Hosts konfiguriert sind, die nicht zu einer Active* *Directory®-Verzeichnisdienstdomäne gehören. Da sie einem Angriffsrisiko ausgesetzt sind und nicht durch andere Geräte geschützt werden, ist für Bastion-Hosts in den drei in diesem Handbuch definierten Umgebungen nur eine Anleitungsebene vorgeschrieben. Die in diesem Kapitel beschriebenen Sicherheitseinstellungen basieren für die Hochsicherheitsumgebung auf der Richtlinie für die Mitgliedsserver-Baseline (MSBP), die in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“, definiert wird. Die Einstellungen sind in einer Sicherheitsvorlage enthalten, die auf die lokale Bastion-Host-Richtlinie (BHLP) jedes Bastion-Hosts angewendet werden muss.
+Für die zuvor in diesem Handbuch beschriebenen Serverrollen wurden Gruppenrichtlinien zum Konfigurieren der Server verwendet. Eine Gruppenrichtlinie kann nicht auf Bastion-Hostserver angewendet werden, weil diese als eigenständige Hosts konfiguriert sind, die nicht zu einer Active Directory®-Verzeichnisdienstdomäne gehören. Da sie einem Angriffsrisiko ausgesetzt sind und nicht durch andere Geräte geschützt werden, ist für Bastion-Hosts in den drei in diesem Handbuch definierten Umgebungen nur eine Anleitungsebene vorgeschrieben. Die in diesem Kapitel beschriebenen Sicherheitseinstellungen basieren für die Hochsicherheitsumgebung auf der Richtlinie für die Mitgliedsserver-Baseline (MSBP), die in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“, definiert wird. Die Einstellungen sind in einer Sicherheitsvorlage enthalten, die auf die lokale Bastion-Host-Richtlinie (BHLP) jedes Bastion-Hosts angewendet werden muss.
 
 **Tabelle 12.1: Sicherheitsvorlagen für Bastion-Hostserver**
 
@@ -127,7 +127,7 @@ Durch die von der BHLP angewendeten Sicherheitseinstellungen wird die Sicherheit
   
 #### Manuelles Hinzufügen von eindeutigen Sicherheitsgruppen zu den Zuweisungen von Benutzerrechten
   
-Für die meisten Zuweisungen von Benutzerrechten, die über die Richtlinie für die Mitgliedsserver-Baseline angewendet wurden, sind die richtigen Sicherheitsgruppen in den Sicherheitsvorlagen angegeben, die diesem Handbuch angefügt sind. Einige Konten und Sicherheitsgruppen konnten jedoch nicht in die Vorlagen aufgenommen werden, da ihre Sicherheits-IDs spezifisch für einzelne Windows* *Server* *2003-Domänen sind. Die Einstellung zum Zuweisen von Benutzerrechten in der folgenden Tabelle muss manuell konfiguriert werden.
+Für die meisten Zuweisungen von Benutzerrechten, die über die Richtlinie für die Mitgliedsserver-Baseline angewendet wurden, sind die richtigen Sicherheitsgruppen in den Sicherheitsvorlagen angegeben, die diesem Handbuch angefügt sind. Einige Konten und Sicherheitsgruppen konnten jedoch nicht in die Vorlagen aufgenommen werden, da ihre Sicherheits-IDs spezifisch für einzelne Windows Server 2003-Domänen sind. Die Einstellung zum Zuweisen von Benutzerrechten in der folgenden Tabelle muss manuell konfiguriert werden.
   
 **Warnung**: Die folgende Tabelle enthält Werte für das vordefinierte Administratorkonto. Dieses Konto darf nicht mit der vordefinierten Sicherheitsgruppe **Administratoren** verwechselt werden. Wenn die Sicherheitsgruppe **Administratoren** dem angegebenen Benutzerrecht, das den Zugriff verweigert, zugewiesen wird, müssen Sie sich lokal anmelden, um den Fehler zu beheben.
   
@@ -301,7 +301,7 @@ Anschließend sollten Sie eine endgültige Prüfung vornehmen, um sicherzustelle
   
 ### Zusammenfassung
   
-Da Bastion-Hostserver, auf denen Windows* *Server* *2003 mit SP1 ausgeführt wird, nicht von anderen Geräten wie Firewalls geschützt werden, sind sie anfällig für externe Angriffe. Sie müssen so gut wie möglich geschützt werden, um ihre Verfügbarkeit zu maximieren und die Gefahr einer Beeinträchtigung zu minimieren. Die sichersten Bastion-Hostserver erlauben nur äußerst vertrauenswürdigen Konten den Zugriff und aktivieren nur jene Dienste, die zur vollen Ausführung ihrer Funktionen erforderlich sind.
+Da Bastion-Hostserver, auf denen Windows Server 2003 mit SP1 ausgeführt wird, nicht von anderen Geräten wie Firewalls geschützt werden, sind sie anfällig für externe Angriffe. Sie müssen so gut wie möglich geschützt werden, um ihre Verfügbarkeit zu maximieren und die Gefahr einer Beeinträchtigung zu minimieren. Die sichersten Bastion-Hostserver erlauben nur äußerst vertrauenswürdigen Konten den Zugriff und aktivieren nur jene Dienste, die zur vollen Ausführung ihrer Funktionen erforderlich sind.
   
 In diesem Kapitel wurden Einstellungen und Verfahren für die Absicherung der Bastion-Hostservern erklärt. Die meisten der Einstellungen können über lokale Gruppenrichtlinien angewendet werden. Außerdem wurden Anleitungen zum Konfigurieren und Anwenden manueller Einstellungen bereitgestellt.
   
@@ -359,7 +359,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Bastio
   
 **Feedback**
   
-[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
+[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)<br/>
 
  
 <table style="border:1px solid black;">

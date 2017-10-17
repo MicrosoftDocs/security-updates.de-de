@@ -23,8 +23,8 @@ In der folgenden Abbildung ist der gesamte Planungsprozess für die Bereitstellu
 
 ##### Auf dieser Seite
 
-[](#edaa)[Auswählen der Sicherheitseinstellungen für Ihre Umgebung](#edaa)
-[](#ecaa)[Entwerfen einer Gruppenrichtlinieninfrastruktur](#ecaa)
+[](#edaa)[Auswählen der Sicherheitseinstellungen für Ihre Umgebung](#edaa)  
+[](#ecaa)[Entwerfen einer Gruppenrichtlinieninfrastruktur](#ecaa)  
 [](#ebaa)[Vorbereiten der Bereitstellung von EC- oder SSLF-Einstellungen](#ebaa)
 
 #### Auswählen der Sicherheitseinstellungen für Ihre Umgebung
