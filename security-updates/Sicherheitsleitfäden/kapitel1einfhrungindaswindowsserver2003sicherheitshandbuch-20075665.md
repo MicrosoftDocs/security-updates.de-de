@@ -15,14 +15,14 @@ Aktualisiert: 27.12.2005
 
 ##### Auf dieser Seite
 
-[](#eiaa)[Überblick](#eiaa)
-[](#ehaa)[Kurzzusammenfassung](#ehaa)
-[](#egaa)[Zielgruppe](#egaa)
-[](#efaa)[Themenumfang dieses Handbuchs](#efaa)
-[](#eeaa)[Zusammenfassungen der Kapitel](#eeaa)
-[](#edaa)[Fertigkeiten](#edaa)
-[](#ecaa)[Softwareanforderungen](#ecaa)
-[](#ebaa)[Typografische Elemente](#ebaa)
+[](#eiaa)[Überblick](#eiaa)  
+[](#ehaa)[Kurzzusammenfassung](#ehaa)  
+[](#egaa)[Zielgruppe](#egaa)  
+[](#efaa)[Themenumfang dieses Handbuchs](#efaa)  
+[](#eeaa)[Zusammenfassungen der Kapitel](#eeaa)  
+[](#edaa)[Fertigkeiten](#edaa)  
+[](#ecaa)[Softwareanforderungen](#ecaa)  
+[](#ebaa)[Typografische Elemente](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Überblick
@@ -323,7 +323,7 @@ Unter den folgenden Links erhalten Sie zusätzliche Informationen zum Thema Sich
   
 **Feedback**
   
-[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
+[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)<br/>
 
  
 <table style="border:1px solid black;">
