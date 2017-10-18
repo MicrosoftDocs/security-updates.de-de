@@ -15,10 +15,10 @@ Aktualisiert: 27.12.2005
 
 ##### Auf dieser Seite
 
-[](#eeaa)[Überblick](#eeaa)
-[](#edaa)[Absicherung mit dem Sicherheitskonfigurations-Assistenten](#edaa)
-[](#ecaa)[Absichern von Servern mit der Active Directory-Gruppenrichtlinie](#ecaa)
-[](#ebaa)[Überblick über den Prozess](#ebaa)
+[](#eeaa)[Überblick](#eeaa)  
+[](#edaa)[Absicherung mit dem Sicherheitskonfigurations-Assistenten](#edaa)  
+[](#ecaa)[Absichern von Servern mit der Active Directory-Gruppenrichtlinie](#ecaa)  
+[](#ebaa)[Überblick über den Prozess](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Überblick
@@ -239,7 +239,7 @@ Gruppenrichtlinien werden in der dargestellten Reihenfolge (siehe folgende Abbil
 
 **Abbildung 2.2: Anwendungshierarchie von Gruppenrichtlinienobjekten**
 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443723.sgfg0202_big(de-de,technet.10).gif)
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443723.sgfg0202_big(de-de,technet.10).gif)  
 Wie in der Abbildung dargestellt, werden Richtlinien zunächst auf der lokalen Richtlinienebene des Computers angewendet. Anschließend werden alle Gruppenrichtlinienobjekte auf Standortebene und danach auf Domänenebene angewendet. Wenn der Server in mehreren Organisationseinheiten eingebettet ist, werden zuerst die Gruppenrichtlinienobjekte der Organisationseinheit der höchsten Ebene angewendet. Der Prozess der Anwendung der Gruppenrichtlinienobjekte wird entlang der Organisationseinheit-Hierarchie fortgeführt. Das letzte Gruppenrichtlinienobjekt wird auf der untergeordneten Organisationseinheitsebene angewendet, die das Serverobjekt enthält. Die Rangfolge für die Verarbeitung von Gruppenrichtlinien reicht von der höchsten Organisationseinheit (am weitesten vom Benutzer- oder Computerkonto entfernt) bis zur untersten Organisationseinheit (die das Benutzer- bzw. Computerkonto enthält).
 
 Beachten Sie beim Anwenden von Gruppenrichtlinien die folgenden grundlegenden Überlegungen:
@@ -522,15 +522,11 @@ Durch das folgende Verfahren wird sichergestellt, dass die Domänencontroller un
   
 1.  Öffnen Sie auf dem Domänencontroller mit der Betriebsmasterfunktion für die PDC-Emulation eine Eingabeaufforderung, und führen Sie den folgenden Befehl aus. *&lt;PeerListe&gt;* ist dabei eine durch Komma getrennte Liste mit DNS-Namen oder IP-Adressen für die gewünschten Zeitquellen:
   
-    ```  
- w32tm /config /syncfromflags:manual /manualpeerlist:&lt;PeerList&gt;  
-```
+    `w32tm /config /syncfromflags:manual /manualpeerlist:<PeerList>`
   
 2.  Führen Sie zum Aktualisieren der Konfiguration folgenden Befehl aus:
   
-    ```  
- w32tm /config /update  
-```
+    `w32tm /config /update`
   
 3.  Überprüfen Sie das Ereignisprotokoll. Wenn der Computer die Server nicht erreichen kann, schlägt der Vorgang fehl, und ein entsprechender Eintrag wird in das Ereignisprotokoll geschrieben.
   
@@ -676,26 +672,20 @@ Die Richtlinien werden getestet, um sicherzustellen, dass durch ihre Anwendung k
   
 Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd verwenden, um wie im folgenden Verfahren veranschaulicht die Richtlinien in Gruppenrichtlinienobjekte umzuwandeln.
   
-[](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx)**  
-**[](http://go.microsoft.com/fwlink/?linkid=43450)
-  
 #### Konvertieren der Baseline-Richtlinien in Gruppenrichtlinienobjekte
   
 Nachdem Sie die Baseline-Richtlinien gründlich getestet haben, führen Sie die folgenden Schritte aus, um sie in Gruppenrichtlinienobjekte zu konvertieren und mit den jeweiligen Organisationseinheiten zu verknüpfen:
   
 1.  Geben Sie an der Eingabeaufforderung Folgendes ein:
   
-    ```  
- scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
   
     und drücken Sie anschließend die Eingabetaste. Beispiel:
   
-    ```  
- scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
+    `scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml" 
+/g:"Infrastructure Policy"`
   
-    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+**Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
   
 2.  Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
   
@@ -759,17 +749,14 @@ Nachdem Sie die Rollenrichtlinien gründlich getestet haben, führen Sie die fol
   
 1.  Geben Sie an der Eingabeaufforderung Folgendes ein:
   
-    ```  
- scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
   
     und drücken Sie anschließend die Eingabetaste. Beispiel:
   
-    ```  
- scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
+    `scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml" 
+/g:"Infrastructure Policy"`
   
-    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+**Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
   
 2.  Mit der Gruppenrichtlinien-Verwaltungskonsole können Sie das neu erstellte Gruppenrichtlinienobjekt mit der entsprechenden Organisationseinheit verknüpfen. Stellen Sie sicher, dass es über der Standard-Domänencontrollerrichtlinie platziert wird, damit es höchste Priorität erhält.
   
