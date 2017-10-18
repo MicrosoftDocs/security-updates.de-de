@@ -1,6 +1,6 @@
 ---
-Title: Kapitel 3: Sicherheitseinstellungen für Windows XP-Clients
-TOCTitle: Kapitel 3: Sicherheitseinstellungen für Windows XP-Clients
+Title: Kapitel 3 - Sicherheitseinstellungen für Windows XP-Clients
+TOCTitle: Kapitel 3 - Sicherheitseinstellungen für Windows XP-Clients
 ms:assetid: bca34b8d-a1ca-42e4-b743-aa3ca12fd8f9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Cc163074(v=TechNet.10)
 ms:contentKeyID: 20072363
@@ -124,13 +124,13 @@ Hochsicher - Laptop.inf
 
 
 Ausführlichere Informationen zu den in diesem Kapitel behandelten Richtlinieneinstellungen finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen unter Windows Server 2003 und Windows XP*](http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx), das unter http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx heruntergeladen werden kann.
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Einstellungen für Kontorichtlinien
 
 Informationen zur Einstellungen für Kontorichtlinien werden in diesem Kapitel nicht bereitgestellt. Diese Einstellungen werden in Kapitel 2, „Konfigurieren der Domäneninfrastruktur von Active Directory“, dieses Handbuchs behandelt.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -599,44 +599,45 @@ Die Einstellung **Objektzugriffsversuche überwachen** ist in der Unternehmenscl
 Im Folgenden wird die manuelle Einrichtung von Überwachungsregeln für eine Datei oder einen Ordner beschrieben. Anschließend wird erklärt, wie die Überwachungsregeln für jedes Objekt in der angegebenen Datei oder dem Ordner getestet werden können. Das Testverfahren kann mithilfe einer Skriptdatei automatisiert werden.
 
 **So definieren Sie eine Überwachungsregel für eine Datei oder einen Ordner**
-* Suchen Sie die Datei in Windows Explorer, und wählen Sie sie aus.
 
-* Klicken Sie im Menü **Datei** auf **Eigenschaften.**  
+1.  Suchen Sie die Datei in Windows Explorer, und wählen Sie sie aus.
 
-* Wechseln Sie zur Registerkarte **Sicherheit**, und klicken Sie auf die Schaltfläche **Erweitert.**  
+2.  Klicken Sie im Menü **Datei** auf **Eigenschaften.**  
 
-* Klicken Sie auf die Registerkarte **Überwachung.**  
+3.  Wechseln Sie zur Registerkarte **Sicherheit**, und klicken Sie auf die Schaltfläche **Erweitert.**  
 
-* Klicken Sie auf die Schaltfläche **Hinzufügen.**   Das Dialogfeld **Benutzer, Computer oder Gruppe wählen** wird angezeigt.
+4.  Klicken Sie auf die Registerkarte **Überwachung.**  
 
-* Klicken Sie auf die Schaltfläche **Objekttypen**, und wählen Sie anschließend im Dialogfeld **Objekttypen** die zu suchenden Objekttypen aus.
+5.  Klicken Sie auf die Schaltfläche **Hinzufügen.**   Das Dialogfeld **Benutzer, Computer oder Gruppe wählen** wird angezeigt.
 
-**Hinweis**: Die Objekttypen „Benutzer“, „Gruppe“ und „Integriertes Sicherheitsprinzipal“ sind in der Standardeinstellung bereits ausgewählt.
+6.  Klicken Sie auf die Schaltfläche **Objekttypen**, und wählen Sie anschließend im Dialogfeld **Objekttypen** die zu suchenden Objekttypen aus.
 
-* Klicken Sie auf die Schaltfläche **Pfade...**, und wählen Sie im Dialogfeld **Pfad** entweder Ihre Domäne oder Ihren lokalen Computer aus.
+    **Hinweis**: Die Objekttypen „Benutzer“, „Gruppe“ und „Integriertes Sicherheitsprinzipal“ sind in der Standardeinstellung bereits ausgewählt.
 
-* Geben Sie im Dialogfeld **Benutzer oder Gruppe wählen** den Namen der zu überwachenden Gruppe bzw. des Benutzers ein. Geben Sie anschließend im Feld **Geben Sie die zu verwendenden Objektnamen ein** den Text **Authentifizierte Benutzer** ein, um die Zugriffe aller authentifizierten Benutzer zu überwachen, und klicken Sie auf **OK.**   Das Dialogfeld **Überwachungseintrag** wird angezeigt.
+7.  Klicken Sie auf die Schaltfläche **Pfade...**, und wählen Sie im Dialogfeld **Pfad** entweder Ihre Domäne oder Ihren lokalen Computer aus.
 
-* Geben Sie im Dialogfeld **Überwachungseintrag** an, welche Zugriffe auf die Datei oder den Ordner überwacht werden sollen.
+8.  Geben Sie im Dialogfeld **Benutzer oder Gruppe wählen** den Namen der zu überwachenden Gruppe bzw. des Benutzers ein. Geben Sie anschließend im Feld **Geben Sie die zu verwendenden Objektnamen ein** den Text **Authentifizierte Benutzer** ein, um die Zugriffe aller authentifizierten Benutzer zu überwachen, und klicken Sie auf **OK.**   Das Dialogfeld **Überwachungseintrag** wird angezeigt.
 
-**Hinweis**: Beachten Sie, dass durch jeden Zugriff mehrere Ereignisse im Ereignisprotokoll erzeugt werden können und dass das Protokoll entsprechend schnell anwächst.
+9.  Geben Sie im Dialogfeld **Überwachungseintrag** an, welche Zugriffe auf die Datei oder den Ordner überwacht werden sollen.
 
-* Wählen Sie im Dialogfeld **Überwachungseintrag** neben **Ordner auflisten / Daten lesen** die Option **Erfolgreich und Fehlgeschlagen** aus, und klicken Sie auf **OK.**  
+    **Hinweis**: Beachten Sie, dass durch jeden Zugriff mehrere Ereignisse im Ereignisprotokoll erzeugt werden können und dass das Protokoll entsprechend schnell anwächst.
 
-* Die aktivierten Überwachungseinträge werden im Dialogfeld **Erweiterte Sicherheitseinstellungen** auf der Registerkarte **Überwachung** angezeigt.
+10. Wählen Sie im Dialogfeld **Überwachungseintrag** neben **Ordner auflisten / Daten lesen** die Option **Erfolgreich und Fehlgeschlagen** aus, und klicken Sie auf **OK.**  
 
-* Klicken Sie zum Schließen des Dialogfelds **Eigenschaften** auf **OK.**  
+11. Die aktivierten Überwachungseinträge werden im Dialogfeld **Erweiterte Sicherheitseinstellungen** auf der Registerkarte **Überwachung** angezeigt.
+
+12. Klicken Sie zum Schließen des Dialogfelds **Eigenschaften** auf **OK.**  
 
  
 
 **So überprüfen Sie eine Überwachungsregel für eine Datei oder einen Ordner**
-* Öffnen Sie die Datei oder den Ordner.
+1.  Öffnen Sie die Datei oder den Ordner.
 
-* Schließen Sie die Datei oder den Ordner.
+2.  Schließen Sie die Datei oder den Ordner.
 
-* Starten Sie die Ereignisanzeige. Im Sicherheitsereignisprotokoll werden mehrere Objektzugriffsereignisse mit der **Ereignis-ID 560** angezeigt.
+3.  Starten Sie die Ereignisanzeige. Im Sicherheitsereignisprotokoll werden mehrere Objektzugriffsereignisse mit der **Ereignis-ID 560** angezeigt.
 
-* Doppelklicken Sie auf ein Ereignis, um die zugehörigen Detailinformationen anzuzeigen.
+4.  Doppelklicken Sie auf ein Ereignis, um die zugehörigen Detailinformationen anzuzeigen.
 
 
 
@@ -666,6 +667,7 @@ Die Einstellung **Prozessverfolgung überwachen** ist für die beiden in diesem 
 Diese Richtlinieneinstellung ist sehr wichtig, da auf diese Weise erfolgreiche und fehlgeschlagene Systemereignisse überwacht werden können. Anhand der Ereigniseinträge können daraufhin nicht autorisierte Systemzugriffe identifiziert werden. Zu Systemereignissen gehören das Starten und Herunterfahren von Computern in der Umgebung, zu große Ereignisprotokolldateien oder andere die Sicherheit betreffende Ereignisse mit Auswirkungen auf das gesamte System.
 
 Die Einstellung **Systemereignisse überwachen** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Erfolg** gesetzt.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -684,7 +686,7 @@ In der folgenden Tabelle sind Empfehlungen für die Einstellungen zum Zuweisen v
 
 Empfehlungen für Benutzerrechte, deren englisch Bezeichnungen mit den verbleibenden Buchstaben des Alphabets beginnen, sind in Tabelle 3.4 zusammengefasst. Weitere Informationen zu diesen Benutzerrechten finden Sie in den Unterabschnitten im Anschluss an die Tabelle.
 
-**Hinweis**: Viele Funktionen in Internet Information Server (IIS) erfordern, dass bestimmte Konten wie zum Beispiel IIS_WPG, IIS* *IUSR_*&lt;Computername&gt;* und IWAM_*&lt;Computername&gt;* über bestimmte Berechtigungen verfügen. Weitere Informationen dazu, welche Benutzerrechte für Konten erforderlich sind, die mit IIS in Zusammenhang stehen, finden Sie unter „[IIS und vordefinierte Konten (IIS 6.0)“](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx) (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/  
+**Hinweis**: Viele Funktionen in Internet Information Server (IIS) erfordern, dass bestimmte Konten wie zum Beispiel IIS_WPG, IIS IUSR_*&lt;Computername&gt;* und IWAM_*&lt;Computername&gt;* über bestimmte Berechtigungen verfügen. Weitere Informationen dazu, welche Benutzerrechte für Konten erforderlich sind, die mit IIS in Zusammenhang stehen, finden Sie unter „[IIS und vordefinierte Konten (IIS 6.0)“](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx) (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/  
 IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
 
 
@@ -1403,25 +1405,25 @@ Niemand
 </table>
 
 
-Auf diesen Computer vom Netzwerk aus zugreifen
+##### Auf diesen Computer vom Netzwerk aus zugreifen
 
 Diese Richtlinieneinstellung ermöglicht es anderen Benutzern im Netzwerk, eine Verbindung zum Computer herzustellen. Sie ist für verschiedene Netzwerkprotokolle erforderlich, wie z. B. SMB-basierte Protokolle (Server Message Block), NetBIOS (Network Basic Input/Output System), CIFS (Common Internet File System) und COM+ (Component Object Model Plus).
 
 Die Einstellung **Auf diesen Computer vom Netzwerk aus zugreifen** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Administratoren** gesetzt.
 
-Einsetzen als Teil des Betriebssystems
+##### Einsetzen als Teil des Betriebssystems
 
 Diese Richtlinieneinstellung ermöglicht es einem Prozess, die Identität eines beliebigen Benutzers anzunehmen und dadurch Zugriff auf die dem Benutzer zugänglichen Ressourcen zu erlangen.
 
 Aus diesem Grund ist die Einstellung **Einsetzen als Teil des Betriebssystems** für die beiden in diesem Kapitel behandelten Umgebungen auf den Wert **Niemand** beschränkt.
 
-Anpassen von Speicherkontingenten für einen Prozess
+##### Anpassen von Speicherkontingenten für einen Prozess
 
 Diese Richtlinieneinstellung ermöglicht es einem Benutzer, das maximale Arbeitsspeicherkontingent anzupassen, das einem Prozess zur Verfügung steht. Die Möglichkeit, Speicherkontingente festzulegen, ist für die Anpassung des Systems hilfreich, kann aber auch missbraucht werden. Dieses Recht könnte für einen DoS-Angriff verwendet werden.
 
 Aus diesem Grund ist die Einstellung **Anpassen von Speicherkontingenten für einen Prozess** für beide Computertypen in der Hochsicherheitsumgebung auf **Administratoren**, **Lokaler Dienst** und **Netzwerkdienst** beschränkt und für Computer in der Unternehmensclient-Umgebung auf **Nicht definiert** gesetzt.
 
-Lokal anmelden zulassen
+##### Lokal anmelden zulassen
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer sich interaktiv bei Computern in Ihrer Umgebung anmelden können. Dieses Benutzerrecht ist für Anmeldungen erforderlich, die durch Drücken der Tastenkombination STRG+ALT+ENTF auf der am Clientcomputer angeschlossenen Tastatur eingeleitet werden. Auch Benutzer, die versuchen, sich über Terminaldienste oder Microsoft Internet Information Services (IIS) anzumelden, müssen über dieses Benutzerrecht verfügen.
 
@@ -1429,7 +1431,7 @@ Dieses Benutzerrecht wird dem Konto **Gast** standardmäßig zugewiesen. Obwohl 
 
 Die Einstellung **Lokal anmelden zulassen** ist für die beiden in diesem Kapitel behandelten Umgebungen auf die Gruppen **Benutzer** und **Administratoren** beschränkt.
 
-Anmeldung über Terminaldienste zulassen
+##### Anmeldung über Terminaldienste zulassen
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer oder Gruppen das Recht haben, sich als Terminaldiensteclient anzumelden. Dieses Benutzerrecht ist für Remotedesktopbenutzer erforderlich. Wenn Ihre Organisation als Teil der Helpdeskstrategie Remoteunterstützung anbietet, erstellen Sie eine Gruppe, und weisen Sie ihr dieses Recht über eine Gruppenrichtlinie zu. Wenn in Ihrer Organisation keine Remoteunterstützung verwendet wird, gewähren Sie dieses Recht nur der Gruppe **Administratoren.**   Sie können auch die Funktion „Eingeschränkte Gruppen“ verwenden, um sicherzustellen, dass sich keine Benutzerkonten in der Gruppe **Remotedesktopbenutzer** befinden.
 
@@ -1437,19 +1439,19 @@ Beschränken Sie dieses Benutzerrecht auf die Gruppe **Administratoren** und mö
 
 Die Einstellung **Anmeldung über Terminaldienste zulassen** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** gesetzt. In der Hochsicherheitsumgebung ist diese Richtlinieneinstellung zur Erhöhung der Sicherheit auf **Niemand** gesetzt.
 
-Sichern von Dateien und Verzeichnissen
+##### Sichern von Dateien und Verzeichnissen
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, Datei- und Verzeichnisberechtigungen zum Sichern des Systems zu umgehen. Dieses Benutzerrecht wird nur dann aktiviert, wenn eine Anwendung wie z. B. NTBACKUP versucht, über die Dateisystemsicherungs-API (Application Programming Interface) für NTFS auf eine Datei oder ein Verzeichnis zuzugreifen. Andernfalls gelten die zugewiesenen Datei- und Verzeichnisberechtigungen.
 
 Die Einstellung **Sichern von Dateien und Verzeichnissen** ist für Computer in der Unternehmensclient-Umgebung auf **Nicht definiert** gesetzt. In der Hochsicherheitsumgebung ist diese Richtlinieneinstellung für die Gruppe **Administratoren** konfiguriert.
 
-Auslassen der durchsuchenden Prüfung
+##### Auslassen der durchsuchenden Prüfung
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, die nicht über die besondere Zugriffsberechtigung „Ordner durchsehen“ verfügen, bei der Navigation entlang eines Objektpfades im NTFS-Dateisystem oder in der Registrierung Ordner zu passieren. Dieses Benutzerrecht ermöglicht es Benutzern nicht, den Inhalt eines Ordners anzuzeigen. Die Verzeichnisse können lediglich passiert werden.
 
 Die Einstellung **Auslassen der durchsuchenden Überprüfung** ist für Computer in der Unternehmensclient-Umgebung auf **Nicht definiert** gesetzt. In der Hochsicherheitsumgebung ist die Einstellung für die Gruppen **Administratoren** und **Benutzer** konfiguriert.
 
-Ändern der Systemzeit
+##### Ändern der Systemzeit
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer und Gruppen die Uhrzeit und das Datum der internen Uhr der Computer in Ihrer Umgebung ändern können. Benutzer, denen dieses Benutzerrecht zugewiesen wird, können den Inhalt der Ereignisprotokolle beeinflussen. Wenn die Zeiteinstellung eines Computers geändert wird, wird bei den protokollierten Ereignissen die neue Uhrzeit wiedergegeben und nicht die tatsächliche Uhrzeit, zu der die Ereignisse stattgefunden haben.
 
@@ -1457,25 +1459,25 @@ Die Einstellung **Ändern der Systemzeit** ist für die beiden in diesem Kapitel
 
 **Hinweis**: Abweichungen zwischen der Uhrzeit auf dem lokalen Computer und auf den Domänencontrollern Ihrer Umgebung führen beim Authentifizierungsprotokoll Kerberos u. U. zu Problemen. Dies kann dazu führen, dass Benutzer sich nicht mehr an der Domäne anmelden können oder nach der Anmeldung am Netzwerk nicht für den Zugriff auf Domänenressourcen autorisiert werden. Außerdem treten Probleme auf, wenn Gruppenrichtlinien auf Clientcomputer angewendet werden und die Systemzeit nicht mit den Domänencontrollern synchronisiert ist.
 
-Auslagerungsdatei erstellen
+##### Auslagerungsdatei erstellen
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, die Größe der Auslagerungsdatei zu ändern. Wenn die Auslagerungsdatei extrem groß oder klein ist, kann ein Angreifer leicht die Leistung eines beeinträchtigten Computers beeinflussen.
 
 Die Einstellung **Auslagerungsdatei erstellen** ist für alle Computer sowohl in der Unternehmensclient-Umgebung als auch in der Hochsicherheitsumgebung für **Administratoren** konfiguriert.
 
-Permanente freigegebene Objekte erstellen
+##### Permanente freigegebene Objekte erstellen
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, im Objektmanager Verzeichnisobjekte zu erstellen. Dieses Benutzerrecht ist für Kernelmoduskomponenten nützlich, die den Objekt-/Namespace erweitern. Komponenten, die im Kernelmodus ausgeführt werden, verfügen grundsätzlich über dieses Benutzerrecht. Deshalb ist es in der Regel nicht notwendig, diese Benutzerberechtigung explizit zuzuweisen.
 
 Die Einstellung **Permanent freigegebene Objekte erstellen** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Niemand** gesetzt.
 
-Erstellen eines Tokenobjekts
+##### Erstellen eines Tokenobjekts
 
 Diese Richtlinieneinstellung ermöglicht es einem Prozess, ein Zugriffstoken zu erstellen, das erhöhte Berechtigungen für den Zugriff auf vertrauliche Daten bereitstellen kann. In Umgebungen, in denen die Sicherheit Priorität hat, sollte dieses Benutzerrecht keinem Benutzer zugewiesen werden. Alle Prozesse, die diese Funktion erfordern, sollten das lokale Systemkonto verwenden, dem dieses Benutzerrecht standardmäßig zugewiesen ist.
 
 Die Einstellung **Erstellen eines Tokenobjekts** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Niemand** gesetzt.
 
-Debuggen von Programmen
+##### Debuggen von Programmen
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer einen beliebigen Prozess oder einen Kernel debuggen können, der vollständigen Zugriff auf vertrauliche und kritische Betriebssystemkomponenten bereitstellt. Dieses Benutzerrecht ist erforderlich, wenn Administratoren die Vorteile von Patches nutzen möchten, die „In-Memory-Patching“ unterstützen, auch „Hotpatching“ genannt. Weitere Informationen zu den neuesten Funktionen im Microsoft Package Installer finden Sie in „[Der Package Installer (früher Update.exe genannt) für Microsoft Windows-Betriebssysteme und Windows-Komponenten](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/deployment/winupdte.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/deployment/winupdte.mspx. Da ein Angreifer dieses Benutzerrecht ausnutzen könnte, wird es standardmäßig nur der Gruppe **Administratoren** zugewiesen.
 
@@ -1483,31 +1485,31 @@ Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer einen belieb
 
 Das Benutzerrecht **Debuggen von Programmen** ist sehr umfassend. Daher ist diese Richtlinieneinstellung in der Unternehmensclient-Umgebung auf **Administratoren** gesetzt, während in der Hochsicherheitsumgebung die Standardeinstellung **Niemand** beibehalten wird.
 
-Den Zugriff auf diesen Computer vom Netzwerk aus verweigern
+##### Den Zugriff auf diesen Computer vom Netzwerk aus verweigern
 
 Durch diese Richtlinieneinstellung wird verhindert, dass Benutzer über das Netzwerk eine Verbindung zu einem Computer herstellen können, wodurch sie in die Lage versetzt würden, von Remotestandorten aus auf Daten zuzugreifen und diese möglicherweise zu verändern. In einer Hochsicherheitsumgebung sollte es für Remotebenutzer nicht erforderlich sein, auf Daten auf einem Computer zuzugreifen. Statt dessen sollte die Dateifreigabe durch Netzwerkserver erfolgen.
 
 Die Einstellung **Den Zugriff auf diesen Computer vom Netzwerk aus verweigern** ist für Computer in den beiden in diesem Kapitel behandelten Umgebungen für die Konten **Support_388945a0** und **Gast** konfiguriert.
 
-Anmeldung als Batchauftrag verweigern
+##### Anmeldung als Batchauftrag verweigern
 
 Diese Richtlinieneinstellung verhindert Benutzeranmeldungen über eine Batchwarteschlangeneinrichtung. Dies ist eine Funktion unter Windows Server 2003, mit der Aufträge für die künftige ein- oder mehrmalige automatische Ausführung geplant werden.
 
 Die Einstellung **Anmeldung als Batchauftrag verweigern** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Support_388945a0** und **Gast** gesetzt.
 
-Lokal anmelden verweigern
+##### Lokal anmelden verweigern
 
 Durch diese Richtlinieneinstellung wird verhindert, dass sich Benutzer lokal bei der Computerkonsole anmelden können. Wenn nicht autorisierte Benutzer sich lokal bei einem Computer anmelden können, könnten sie schädlichen Code herunterladen oder ihre Berechtigungen auf dem Computer erhöhen. (Wenn Angreifer physischen Zugriff auf die Konsole haben, müssen andere Risiken berücksichtigt werden). Dieses Benutzerrecht sollte nicht jenen Benutzern zugewiesen werden, die physischen Zugriff auf die Computerkonsole benötigen.
 
 Die Einstellung **Lokal anmelden verweigern** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Support_388945a0** und **Gast** gesetzt. Außerdem sollte dieses Benutzerrecht allen dem Computer hinzugefügten Dienstkonten zugewiesen werden, um deren Missbrauch zu verhindern.
 
-Anmeldung über Terminaldienste verweigern
+##### Anmeldung über Terminaldienste verweigern
 
 Durch diese Richtlinieneinstellung wird verhindert, dass sich Benutzer über Remotedesktopverbindungen bei Computern in Ihrer Umgebung anmelden können. Wenn Sie dieses Benutzerrecht der Gruppe **Jeder** zuweisen, halten Sie auch Mitglieder der Standardgruppe **Administratoren** davon ab, sich mithilfe von Terminaldiensten bei Computern in Ihrer Umgebung anzumelden.
 
 Die Einstellung **Anmeldung über Terminaldienste verweigern** ist für die Unternehmensclient-Umgebung auf **Nicht definiert** und für die Hochsicherheitsumgebung auf **Jeder** gesetzt.
 
-Computer und Benutzerkonten für Delegierungszwecke vertrauen
+##### Computer und Benutzerkonten für Delegierungszwecke vertrauen
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, die Einstellung **Für Delegierungszwecke vertrauenswürdig** in einem Computerobjekt in Active Directory zu ändern. Ein Missbrauch dieser Berechtigung könnte nicht autorisierten Benutzern ermöglichen, die Identität eines anderen Benutzers im Netzwerk anzunehmen.
 
@@ -2222,107 +2224,108 @@ Administratoren
 
 In dieser Tabelle sind Empfehlungen für die Einstellungen zum Zuweisen von Benutzerrechten zusammengefasst, deren englische Bezeichnungen mit den Buchstaben F bis T beginnen. Ausführlichere Informationen zu jeder Einstellung finden Sie in den folgenden Unterabschnitten.
 
-Erzwingen des Herunterfahrens von einem Remotesystem aus
+##### Erzwingen des Herunterfahrens von einem Remotesystem aus
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, Windows XP-basierte Computer von Remotestandorten im Netzwerk aus herunterzufahren. Jeder, dem dieses Benutzerrecht zugewiesen wurde, kann einen DoS-Situation (Denial of Service) herbeiführen und so verhindern, dass der Computer für Benutzeranfragen zur Verfügung steht. Daher empfiehlt Microsoft, dieses Benutzerrecht nur sehr vertrauenswürdigen Administratoren zuzuweisen.
 
 Die Einstellung **Erzwingen des Herunterfahrens von einem Remotesystem aus** ist in den beiden in diesem Kapitel behandelten Umgebungen für die Gruppe **Administratoren** konfiguriert.
 
-Generieren von Sicherheitsüberwachungen
+##### Generieren von Sicherheitsüberwachungen
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer oder Prozesse Überwachungseinträge im Sicherheitsprotokoll erzeugen können. Ein Angreifer könnte diese Funktion ausnutzen, um eine große Anzahl überwachter Ereignisse zu erzeugen, die es einem Systemadministrator erschweren würden, unberechtigte Aktivitäten aufzuspüren. Wenn außerdem das Ereignisprotokoll so konfiguriert ist, dass Ereignisse bei Bedarf überschrieben werden, könnte jeder Beweis über unberechtigte Aktivitäten von einer großen Anzahl nicht zugehöriger Ereignisse überschrieben werden.
 
 Aus diesem Grund ist die Einstellung **Generieren von Sicherheitsüberwachungen** für die beiden in diesem Kapitel behandelten Umgebungen für die Gruppen **Lokaler Dienst** und **Netzwerkdienst** konfiguriert.
 
-Anheben der Zeitplanungspriorität
+##### Anheben der Zeitplanungspriorität
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, die Zeitdauer zu verändern, für die ein Prozess den Prozessor beansprucht. Ein Angreifer könnte diese Möglichkeit ausnutzen, um die Priorität eines Prozesses auf Echtzeit zu erhöhen und eine DoS-Situation für einen Computer herbeizuführen.
 
 Aus diesem Grund ist die Einstellung **Anheben der Zeitplanungspriorität** in den beiden in diesem Kapitel behandelten Umgebungen für die Gruppe **Administratoren** konfiguriert.
 
-Laden und Entfernen von Gerätetreibern
+##### Laden und Entfernen von Gerätetreibern
 
 Diese Richtlinieneinstellung ermöglicht Benutzern das dynamische Laden eines neuen Gerätetreibers auf ein System. Ein Angreifer könnte diese Funktion möglicherweise dazu verwenden, schädlichen Code zu installieren, bei dem es sich um einen Gerätetreiber zu handeln scheint. Dieses Benutzerrecht und die Mitgliedschaft in entweder der Gruppe **Hauptbenutzer** oder der Gruppe **Administratoren** sind für Benutzer erforderlich, die unter Windows XP lokale Drucker oder Druckertreiber hinzufügen möchten.
 
 Da diese Benutzerberechtigung von einem Angreifer ausgenutzt werden könnte, ist die Einstellung **Laden und Entfernen von Gerätetreibern** in den beiden in diesem Kapitel behandelten Umgebungen für die Gruppe **Administratoren** konfiguriert.
 
-Seiten im Speicher sperren
+##### Seiten im Speicher sperren
 
 Diese Richtlinieneinstellung ermöglicht einem Prozess das Speichern von Daten in einem physischen Speicher, wodurch das System daran gehindert wird, die Daten in einen virtuellen Speicher auf der Festplatte auszulagern. Durch das Zuweisen dieses Benutzerrechts kann die Systemleistung erheblich beeinträchtigt werden.
 
 Aus diesem Grund ist die Einstellung **Seiten im Speicher sperren** in den beiden in diesem Kapitel behandelten Umgebungen auf **Niemand** gesetzt.
 
-Anmelden als Stapelverarbeitungsauftrag
+##### Anmelden als Stapelverarbeitungsauftrag
 
 Diese Richtlinieneinstellung ermöglicht es Konten, sich mithilfe des Taskplanerdienstes anzumelden. Da der Taskplaner häufig zu Verwaltungszwecken verwendet wird, wird er möglicherweise in der Unternehmensclient-Umgebung benötigt. In der Hochsicherheitsumgebung sollte seine Verwendung jedoch eingeschränkt werden, um den Missbrauch von Systemressourcen zu verhindern. Außerdem wird dadurch verhindert, dass Angreifer mithilfe der Berechtigung schädlichen Code starten, nachdem sie auf Benutzerebene Zugriff auf einen Computer erlangt haben.
 
 Daher ist das Benutzerrecht **Anmelden als Stapelverarbeitungsauftrag** in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Niemand** gesetzt.
 
-Als Dienst anmelden
+##### Als Dienst anmelden
 
 Diese Richtlinieneinstellung ermöglicht es Konten, Netzwerkdienste zu starten oder einen Prozess als auf dem System ausgeführten Dienst zu registrieren. Dieses Benutzerrecht sollte auf jedem Computer in einer Hochsicherheitsumgebung eingeschränkt werden. Da diese Berechtigung jedoch möglicherweise für viele Anwendungen erforderlich ist, sollte sie sorgfältig bewertet und getestet werden, bevor sie in einer Unternehmensclient-Umgebung konfiguriert wird.
 
 Die Einstellung **Als Dienst anmelden** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Netzwerkdienst** und **Lokaler Dienst** gesetzt.
 
-Verwalten von Überwachungs- und Sicherheitsprotokoll
+##### Verwalten von Überwachungs- und Sicherheitsprotokoll
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer die Überwachungsoptionen für Dateien und Verzeichnisse ändern und das Sicherheitsprotokoll löschen können.
 
 Da diese Möglichkeit eine relativ kleine Bedrohung darstellt, ist die Einstellung **Verwalten von Überwachungs- und Sicherheitsprotokoll** für die beiden in diesem Kapitel behandelten Umgebungen standardmäßig für die Gruppe **Administratoren** konfiguriert.
 
-Firmware-Umgebungsvariablen ändern
+##### Firmware-Umgebungsvariablen ändern
 
 Mit dieser Richtlinieneinstellung können Benutzer die systemweiten Umgebungsvariablen konfigurieren, die sich auf die Hardwarekonfiguration auswirken. Diese Informationen sind in der Regel in „Letzte als funktionierend bekannte Konfiguration“ gespeichert. Änderungen an diesen Werten könnten zu einem Hardwareversagen führen, was wiederum eine DoS-Situation verursacht.
 
 Da diese Möglichkeit eine relativ kleine Bedrohung darstellt, ist die Einstellung **Firmware-Umgebungsvariablen ändern** für die beiden in diesem Kapitel behandelten Umgebungen standardmäßig für die Gruppe **Administratoren** konfiguriert.
 
-Wartungsaufgaben für Speichermedien ausführen
+##### Wartungsaufgaben für Speichermedien ausführen
 
 Mit dieser Richtlinieneinstellung können Benutzer die Konfiguration von Datenträgern oder Laufwerken des Systems verwalten. Dadurch könnte ein Benutzer einen Datenträger löschen und Datenverluste sowie eine DoS-Situation verursachen.
 
 Die Einstellung **Wartungsaufgaben für Speichermedien ausführen** ist für die beiden in diesem Kapitel behandelten Umgebungen standardmäßig für die Gruppe **Administratoren** konfiguriert.
 
-Einzelprozessprofil erstellen
+##### Einzelprozessprofil erstellen
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer mithilfe von Tools die Leistung von systemfremden Prozessen überwachen können. In der Regel müssen Sie dieses Benutzerrecht nicht konfigurieren, um das Snap-In „Leistung“ der Microsoft Management Console (MMC) zu verwenden. Sie benötigen dieses Benutzerrecht jedoch, wenn der Systemmonitor mit der Windows-Verwaltungsinstrumentation (WMI) zum Sammeln von Daten konfiguriert ist. Wenn Sie das Benutzerrecht **Einzelprozessprofil erstellen** beschränken, wird verhindert, dass Angreifer zusätzliche Informationen erhalten, mit deren Hilfe sie das System angreifen können.
 
 Die Einstellung **Einzelprozessprofil erstellen** ist für Computer in der Unternehmensclient-Umgebung auf **Nicht definiert** gesetzt und in der Hochsicherheitsumgebung für die Gruppe **Administratoren** konfiguriert.
 
-Erstellen eines Profils der Systemleistung
+##### Erstellen eines Profils der Systemleistung
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, mithilfe von Tools die Leistung verschiedener Systemprozesse anzuzeigen, die von Angreifern missbraucht werden könnten, um die aktiven Prozesse eines Systems zu ermitteln und Einblick in die potenzielle Angriffsfläche des Computers zu erhalten.
 
 Die Einstellung **Erstellen eines Profils der Systemleistung** ist für die beiden in diesem Kapitel behandelten Umgebungen standardmäßig für die Gruppe **Administratoren** konfiguriert.
 
-Entfernen eines Computers aus der Dockingstation
+##### Entfernen eines Computers aus der Dockingstation
 
 Diese Richtlinieneinstellung ermöglicht es dem Benutzer eines tragbaren Computers, im Menü **Start** auf **PC trennen** zu klicken, um den Computer abzudocken.
 
 Die Einstellung **Entfernen eines Computers aus der Dockingstation** ist für die beiden in diesem Kapitel behandelten Umgebungen für die Gruppen **Administratoren** und **Benutzer** konfiguriert.
 
-Ersetzen eines Prozessebenentokens
+##### Ersetzen eines Prozessebenentokens
 
 Diese Richtlinieneinstellung ermöglicht es einem Prozess oder Dienst, einen weiteren Dienst oder Prozess mit einem anderen Sicherheitszugriffstoken zu starten, wodurch das Sicherheitszugriffstoken jenes Unterprozesses geändert und Berechtigungen erhöht werden können.
 
 Die Einstellung **Ersetzen eines Prozessebenentokens** ist in den beiden in diesem Kapitel behandelten Umgebungen auf die Standardwerte **Lokaler Dienst** und **Netzwerkdienst** gesetzt.
 
-Wiederherstellen von Dateien und Verzeichnissen
+##### Wiederherstellen von Dateien und Verzeichnissen
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer die Berechtigungen für Dateien, Verzeichnisse, die Registrierung und andere ständige Objekte umgehen können, wenn sie gesicherte Dateien und Verzeichnisse auf Computern mit Windows XP in Ihrer Umgebung wiederherstellen. Durch dieses Benutzerrecht wird außerdem festgelegt, welche Benutzer gültige Sicherheitsprinzipale als Objektbesitzer festlegen dürfen. Dieses Benutzerrecht ähnelt dem Benutzerrecht **Sichern von Dateien und Verzeichnissen.**  
 
 Die Einstellung **Wiederherstellen von Dateien und Verzeichnissen** ist für Computer in der Unternehmensclient-Umgebung auf **Nicht definiert** gesetzt und in der Hochsicherheitsumgebung für die Gruppe **Administratoren** konfiguriert.
 
-System herunterfahren
+##### System herunterfahren
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche lokal bei den Computern in Ihrer Umgebung angemeldeten Benutzer das Betriebssystem mit dem Befehl „Herunterfahren“ herunterfahren können. Der Missbrauch dieses Benutzerrechts kann zu einer DoS-Situation führen. Microsoft empfiehlt, dieses Recht in Hochsicherheitsumgebungen nur den Gruppen **Administratoren** und **Benutzer** zuzuweisen.
 
 Die Einstellung **System herunterfahren** ist für die beiden in diesem Kapitel behandelten Umgebungen für die Gruppen **Administratoren** und **Benutzer** konfiguriert.
 
-Übernehmen des Besitzes an Dateien und Objekten
+##### Übernehmen des Besitzes an Dateien und Objekten
 
 Diese Richtlinieneinstellung ermöglicht es Benutzern, den Besitz von Dateien, Ordnern, Registrierungsschlüsseln, Prozessen oder Threads zu übernehmen. Mit diesem Benutzerrecht werden alle Berechtigungen umgangen, die Objekte schützen und dem angegebenen Benutzer Besitzrechte zuweisen sollen.
 
 Die Einstellung **Übernehmen des Besitzes an Dateien und Objekten** ist in den beiden in diesem Kapitel behandelten Umgebungen standardmäßig für die Gruppe **Administratoren** konfiguriert.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -2580,25 +2583,25 @@ Empfohlen
 </table>
 
 
-Konten: Administratorkontostatus
+##### Konten: Administratorkontostatus
 
 Durch diese Richtlinieneinstellung wird das Administratorkonto während des normalen Betriebs aktiviert oder deaktiviert. Wenn ein Computer im sicheren Modus gestartet wird, ist das Administratorkonto unabhängig von der Konfiguration dieser Einstellung immer aktiviert.
 
 Die Einstellung **Konten: Administratorkontostatus** ist für die Unternehmensclient-Umgebung auf **Nicht definiert** und für die Hochsicherheitsumgebung auf **Aktiviert** gesetzt.
 
-Konten: Gastkontenstatus
+##### Konten: Gastkontenstatus
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob das Gastkonto aktiviert oder deaktiviert ist. Das Gastkonto ermöglicht nicht authentifizierten Netzwerkbenutzern, auf das System zuzugreifen.
 
 Die Sicherheitsoption **Konten: Gastkontostatus** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Deaktiviert** gesetzt.
 
-Konten: Lokale Kontenverwendung von leeren Kennwörtern auf Konsolenanmeldung beschränken
+##### Konten: Lokale Kontenverwendung von leeren Kennwörtern auf Konsolenanmeldung beschränken
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob lokale Konten, die nicht durch ein Kennwort geschützt sind, sich von anderen Orten als der physischen Computerkonsole aus anmelden können. Wenn Sie diese Richtlinieneinstellung aktivieren, sind lokale Konten mit leeren Kennwörtern nicht in der Lage, sich von Remoteclientcomputern aus beim Netzwerk anzumelden. Solche Konten können sich nur über die Tastatur des Computers anmelden.
 
 Die Einstellung **Konten: Lokale Kontenverwendung von leeren Kennwörtern auf Konsolenanmeldung beschränken** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Konten: Administratorkonto umbenennen
+##### Konten: Administratorkonto umbenennen
 
 Der vordefinierte Name des lokalen Administratorkontos ist ein bekannter Kontoname, auf den sich viele Angriffe richten. Microsoft empfiehlt, einen anderen Namen für dieses Konto zu wählen und Namen zu vermeiden, die auf administrative Konten oder erhöhte Zugriffsrechte hinweisen. Außerdem sollte die Standardbeschreibung für den lokalen Administrator über die Computerverwaltung geändert werden.
 
@@ -2606,7 +2609,7 @@ Die Empfehlung, die Einstellung **Konten: Administratorkonto umbenennen** zu ver
 
 **Hinweis**: Diese Richtlinieneinstellung ist in den Sicherheitsvorlagen nicht konfiguriert, und es wird in diesem Handbuch auch kein neuer Benutzername für das Konto vorgeschlagen. Vorgeschlagene Benutzernamen werden ausgelassen. Dadurch soll sichergestellt werden, dass Organisationen, die diese Anleitung implementieren, nicht den gleichen neuen Benutzernamen in ihren Umgebungen verwenden.
 
-Konten: Gastkonto umbenennen
+##### Konten: Gastkonto umbenennen
 
 Der Name des vordefinierten lokalen Gastkontos ist Hackern ebenfalls wohlbekannt. Microsoft empfiehlt, diesem Konto ebenfalls einen Namen zu geben, aus dem sich der Zweck des Kontos nicht erkennen lässt. Selbst wenn Sie dieses Konto deaktivieren (was empfohlen wird), sollten Sie es zur Erhöhung der Sicherheit umbenennen.
 
@@ -2777,19 +2780,19 @@ Nicht definiert
 </table>
 
 
-Überwachung: Zugriff auf globale Systemobjekte prüfen
+##### Überwachung: Zugriff auf globale Systemobjekte prüfen
 
 Mit dieser Richtlinieneinstellung wird eine standardmäßige Systemzugriffssteuerungsliste (SACL) für Systemobjekte wie z. B. Mutexe, Ereignisse, Semaphore und MS-DOS®-Geräte erstellt. Der Zugriff auf diese Systemobjekte wird daraufhin überwacht.
 
 Wenn die Einstellung **Überwachung: Zugriff auf globale Systemobjekte prüfen** aktiviert ist, könnte das Sicherheitsereignisprotokoll schnell mit einer sehr großen Anzahl von Sicherheitsereignissen gefüllt werden. Aus diesem Grund ist diese Richtlinieneinstellung für die Unternehmensclient-Umgebung auf **Nicht definiert** und für die Hochsicherheitsumgebung auf **Deaktiviert** gesetzt.
 
-Überwachung: Die Verwendung des Sicherungs- und Wiederherstellungsrechts überprüfen
+##### Überwachung: Die Verwendung des Sicherungs- und Wiederherstellungsrechts überprüfen
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob die Verwendung aller Benutzerrechte (einschließlich Sicherung und Wiederherstellung) überwacht wird, wenn die Einstellung **Rechteverwendung überwachen** aktiviert ist. Wenn Sie beide Richtlinien aktivieren, wird für jede gesicherte oder wiederhergestellte Datei ein Überwachungsereignis erzeugt.
 
 Wenn die Einstellung **Überwachung: Die Verwendung des Sicherungs- und Wiederherstellungsrechts überprüfen** aktiviert ist, könnte das Sicherheitsereignisprotokoll schnell mit einer sehr großen Anzahl von Sicherheitsereignissen gefüllt werden. Aus diesem Grund ist diese Richtlinieneinstellung für die Unternehmensclient-Umgebung auf **Nicht definiert** und für die Hochsicherheitsumgebung auf **Deaktiviert** gesetzt.
 
-Überwachung: System sofort herunterfahren, wenn Sicherheitsüberprüfungen nicht protokolliert werden können
+##### Überwachung: System sofort herunterfahren, wenn Sicherheitsüberprüfungen nicht protokolliert werden können
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob das System sofort heruntergefahren wird, wenn es Sicherheitsereignisse nicht protokollieren kann. Diese Einstellung ist für die TCSEC-C2-Zertifizierung (Trusted Computer System Evaluation Criteria) und die Common-Criteria-Zertifizierung erforderlich und verhindert, dass zu überwachende Ereignisse auftreten, wenn sie vom Überwachungssystem nicht protokolliert werden können. Microsoft erfüllt diese Anforderungen durch Anzeigen einer Abbruchmeldung und Herunterfahren des Systems, wenn das Überwachungssystem nicht ordnungsgemäß arbeitet. Wenn diese Richtlinieneinstellung aktiviert ist, wird das System heruntergefahren, wenn eine Sicherheitsüberwachung nicht protokolliert werden kann.
 
@@ -3075,37 +3078,37 @@ Warnen, aber Installation erlauben
 </table>
 
 
-Geräte: Entfernen ohne vorherige Anmeldung erlauben
+##### Geräte: Entfernen ohne vorherige Anmeldung erlauben
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob ein tragbarer Computer durch einen nicht beim System angemeldeten Benutzer abgedockt werden kann. Wenn diese Einstellung aktiviert ist, entfällt die Anmeldeanforderung, und der Computer kann über eine Schaltfläche zum Trennen externer Hardware abgedockt werden. Wenn Sie diese Richtlinieneinstellung deaktivieren, muss ein nicht angemeldeter Benutzer über das Benutzerrecht **Entfernen eines Computers aus der Dockingstation** verfügen. Dieses ist im vorliegenden Handbuch nicht definiert.
 
 Die Einstellung **Geräte:** **Entfernen ohne vorherige Anmeldung erlauben** ist für die Unternehmensclient-Umgebung auf **Nicht definiert** und für die Hochsicherheitsumgebung auf **Deaktiviert** gesetzt.
 
-Geräte: Formatieren und Auswerfen von Wechselmedien zulassen
+##### Geräte: Formatieren und Auswerfen von Wechselmedien zulassen
 
 Durch diese Richtlinieneinstellung wird festgelegt, wer Wechselmedien formatieren und auswerfen darf. Mit dieser Richtlinieneinstellung können Sie nicht autorisierte Benutzer davon abhalten, Daten von einem Computer zu entfernen und auf diese auf einem anderen Computer zuzugreifen, auf dem die Benutzer lokale Administratorrechte besitzen.
 
 Die Einstellung **Geräte:** **Formatieren und Auswerfen von Wechselmedien zulassen** ist zur Erhöhung der Sicherheit in der Unternehmensclient-Umgebung auf die Gruppen **Administratoren** und **Interaktive Benutzer** und in der Hochsicherheitsumgebung auf die Gruppe **Administratoren** beschränkt.
 
-Geräte: Anwendern das Installieren von Druckertreibern nicht erlauben
+##### Geräte: Anwendern das Installieren von Druckertreibern nicht erlauben
 
 Hacker verfügen über Möglichkeiten, einen Trojaner als Druckertreiber zu tarnen. Dadurch getäuschte Benutzer verwenden dieses Programm möglicherweise zum Drucken und führen damit schädlichen Code im Netzwerk aus. Zur Verringerung der Wahrscheinlichkeit eines solchen Ereignisses sollten nur Administratoren Druckertreiber installieren dürfen. Da Laptops mobile Geräte sind, kann es für Benutzer von Laptops jedoch notwendig sein, Druckertreiber von anderen Quellen zu installieren, um ihre Arbeit fortsetzen zu können. Diese Einstellung sollte für Laptopbenutzer deaktiviert und für Desktopbenutzer immer aktiviert werden.
 
 Die Einstellung **Geräte:** **Anwendern das Installieren von Druckertreibern nicht erlauben** ist für die Desktops in den beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** und für Laptopbenutzer in beiden Umgebungen auf **Deaktiviert** gesetzt.
 
-Geräte: Zugriff auf CD-ROM-Laufwerke auf lokal angemeldete Benutzer beschränken
+##### Geräte: Zugriff auf CD-ROM-Laufwerke auf lokal angemeldete Benutzer beschränken
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob sowohl lokale Benutzer als auch Remotebenutzer gleichzeitig auf das CD-ROM-Laufwerk zugreifen können. Wenn Sie diese Richtlinieneinstellung aktivieren, können nur interaktiv angemeldete Benutzer auf Medien im CD-ROM-Laufwerk zugreifen. Wenn diese Richtlinieneinstellung aktiviert und niemand angemeldet ist, kann über das Netzwerk auf das CD-ROM-Laufwerk zugegriffen werden. Wenn Sie diese Einstellung aktivieren, schlägt das Windows-Sicherungsprogramm fehl, wenn für den Sicherungsauftrag Volumenschattenkopien angegeben wurden. Sicherungssysteme von Drittanbietern, die Volumenschattenkopien verwenden, schlagen ebenfalls fehl.
 
 Die Einstellung **Geräte:** **Zugriff auf CD-ROM-Laufwerke auf lokal angemeldete Benutzer beschränken** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Deaktiviert** gesetzt.
 
-Geräte: Zugriff auf Diskettenlaufwerke auf lokal angemeldete Benutzer beschränken
+##### Geräte: Zugriff auf Diskettenlaufwerke auf lokal angemeldete Benutzer beschränken
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob sowohl lokale Benutzer als auch Remotebenutzer gleichzeitig auf das Diskettenlaufwerk zugreifen können. Wenn Sie diese Richtlinieneinstellung aktivieren, können nur interaktiv angemeldete Benutzer auf Medien in Diskettenlaufwerken zugreifen. Wenn die Einstellung aktiviert und niemand angemeldet ist, kann über das Netzwerk auf Medien im Diskettenlaufwerk zugegriffen werden. Wenn Sie diese Einstellung aktivieren, schlägt das Windows-Sicherungsprogramm fehl, wenn für den Sicherungsauftrag Volumenschattenkopien angegeben wurden. Sicherungssysteme von Drittanbietern, die Volumenschattenkopien verwenden, schlagen ebenfalls fehl.
 
 Die Einstellung **Geräte:** **Zugriff auf Diskettenlaufwerke auf lokal angemeldete Benutzer beschränken** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Deaktiviert** gesetzt.
 
-Geräte: Verhalten bei der Installation von nicht signierten Treibern
+##### Geräte: Verhalten bei der Installation von nicht signierten Treibern
 
 Durch diese Richtlinieneinstellung wird festgelegt, was passiert, wenn ein Benutzer versucht, einen nicht genehmigten und nicht vom Windows Hardware Quality Lab (WHQL) signierten Gerätetreiber zu installieren (mithilfe der Setup-API). Durch diese Option wird die Installation von nicht signierten Treibern verhindert, oder der Administrator wird gewarnt, wenn ein solcher Treiber installiert werden soll. Dadurch kann die Installation von Treibern verhindert werden, die nicht für Windows XP zertifiziert sind. Wenn Sie für diese Richtlinieneinstellung den Wert **Warnen, aber Installation erlauben** festlegen, besteht ein potenzielles Problem darin, dass unbeaufsichtigte Installationsskripts bei dem Versuch fehlschlagen, nicht signierte Treiber zu installieren.
 
@@ -3393,37 +3396,37 @@ Aktiviert
 </table>
 
 
-Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln oder signieren (immer)
+##### Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln oder signieren (immer)
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob der gesamte Datenverkehr vom sicheren Kanal, der vom Domänenmitglied initiiert wird, signiert oder verschlüsselt werden muss. Wenn ein System so konfiguriert ist, dass Daten des sicheren Kanals immer verschlüsselt oder signiert werden, kann es keinen sicheren Kanal mit einem Domänencontroller herstellen, der nicht in der Lage ist, den gesamten Verkehr durch den sicheren Kanal zu signieren oder zu verschlüsseln.
 
 Die Einstellung **Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln oder signieren (immer)** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln (wenn möglich)
+##### Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln (wenn möglich)
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob ein Domänenmitglied versuchen kann, für den gesamten von ihm initiierten Verkehr über den sicheren Kanal die Verschlüsselung auszuhandeln. Wenn Sie diese Richtlinieneinstellung aktivieren, fordert das Domänenmitglied für den gesamten Verkehr über den sicheren Kanal eine Verschlüsselung an. Wenn Sie diese Richtlinieneinstellung deaktivieren, kann das Domänenmitglied die Verschlüsselung für den sicheren Kanal nicht aushandeln.
 
 Die Einstellung **Domänenmitglied: Daten des sicheren Kanals digital verschlüsseln (wenn möglich)** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Domänenmitglied: Daten des sicheren Kanals digital signieren (wenn möglich)
+##### Domänenmitglied: Daten des sicheren Kanals digital signieren (wenn möglich)
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob ein Domänenmitglied versuchen kann, für den gesamten von ihm initiierten Verkehr über den sicheren Kanal die Signierung auszuhandeln. Durch die Signierung wird verhindert, dass der Verkehr geändert wird, wenn er bei der Übertragung über das Netzwerk abgefangen wird.
 
 Die Einstellung **Domänenmitglied: Daten des sicheren Kanals digital signieren (wenn möglich)** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Domänenmitglied: Änderungen von Computerkontenkennwörtern deaktivieren
+##### Domänenmitglied: Änderungen von Computerkontenkennwörtern deaktivieren
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob ein Domänenmitglied sein Computerkontenkennwort regelmäßig ändern kann. Wenn Sie diese Richtlinieneinstellung aktivieren, kann das Domänenmitglied sein Computerkontenkennwort nicht ändern. Wenn Sie diese Richtlinieneinstellung deaktivieren, kann das Domänenmitglied sein Computerkontenkennwort entsprechend der Einstellung für **Domänenmitglied: Maximalalter von Computerkontenkennwörtern** ändern. Der Standardwert dieser Einstellung beträgt 30 Tage. Computer, die ihre Kontenkennwörter nicht automatisch ändern können, sind potenziell angreifbar, weil ein Angreifer das Kennwort für das Domänenkonto des Systems ermitteln kann.
 
 Daher ist die Einstellung **Domänenmitglied: Änderungen von Computerkontenkennwörtern deaktivieren** für die beiden in diesem Kapitel behandelten Umgebungen auf **Deaktiviert** gesetzt.
 
-Domänenmitglied: Maximalalter von Computerkennwörtern
+##### Domänenmitglied: Maximalalter von Computerkennwörtern
 
 Durch diese Richtlinieneinstellung wird das maximal zulässige Alter für Computerkontenkennwörter festgelegt. Standardmäßig ändern Domänenmitglieder ihre Domänenkennwörter automatisch alle 30 Tage. Wenn Sie dieses Intervalls deutlich erhöhen oder auf 0 setzen, damit die Kennwörter von Computern nicht mehr geändert werden müssen, haben Angreifer mehr Zeit, um über Brute-Force-Angriffe das Kennwort von Computerkonten zu erraten.
 
 Daher ist die Einstellung **Domänenmitglied: Maximalalter von Computerkontenkennwörtern** für die beiden in diesem Kapitel behandelten Umgebungen auf **Deaktiviert** gesetzt.
 
-Domänenmitglied: Starker Sitzungsschlüssel erforderlich (Windows 2000 oder höher)
+##### Domänenmitglied: Starker Sitzungsschlüssel erforderlich (Windows 2000 oder höher)
 
 Wenn diese Richtlinieneinstellung aktiviert ist, kann ein sicherer Kanal nur mit Domänencontrollern eingerichtet werden, die Daten des sicheren Kanals mit einem starken Sitzungsschlüssel (128-Bit) verschlüsseln können.
 
@@ -3793,19 +3796,19 @@ Arbeitsstation sperren
 </table>
 
 
-Interaktive Anmeldung: Letzten Benutzernamen nicht anzeigen
+##### Interaktive Anmeldung: Letzten Benutzernamen nicht anzeigen
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob der Kontoname des zuletzt auf den Clientcomputern in Ihrer Organisation angemeldeten Benutzers auf dem Windows-Anmeldebildschirm jedes Computers angezeigt wird. Durch Aktivieren dieser Richtlinieneinstellung können Sie verhindern, dass Eindringlinge Kontonamen von den Bildschirmen der Desktop- oder Laptopcomputer in Ihrer Organisation ablesen können.
 
 Die Einstellung **Interaktive Anmeldung: Letzten Benutzernamen nicht anzeigen** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Interaktive Anmeldung: Kein STRG+ALT+ENTF erforderlich
+##### Interaktive Anmeldung: Kein STRG+ALT+ENTF erforderlich
 
 Mit der Tastenkombination STRG+ALT+ENTF wird ein vertrauenswürdiger Pfad zum Betriebssystem hergestellt, wenn der Benutzer Benutzernamen und Kennwort eingibt. Wenn diese Richtlinieneinstellung aktiviert ist, ist diese Tastenkombination nicht erforderlich, um sich im Netzwerk anzumelden. Diese Konfiguration stellt jedoch ein Sicherheitsrisiko dar, da sich Benutzer mit geringeren Anmeldeinformationen bei dem Client anmelden können.
 
 Die Einstellung **Interaktive Anmeldung: Kein STRG+ALT+ENTF erforderlich** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Interaktive Anmeldung: Nachricht für Benutzer, die sich anmelden möchten
+##### Interaktive Anmeldung: Nachricht für Benutzer, die sich anmelden möchten
 
 Durch diese Richtlinieneinstellung wird eine Textmeldung festgelegt, die bei der Anmeldung eines Benutzers angezeigt wird. Dieser Text wird häufig aus rechtlichen Gründen verwendet, z. B. um Benutzer auf die Auswirkungen eines Missbrauchs von Firmeninformationen hinzuweisen, oder um sie davor zu warnen, dass ihre Aktionen überwacht werden. Der in der vorangegangenen Tabelle angegebene Nachrichtentext ist ein empfohlenes Beispiel sowohl für Unternehmensclient- als auch für Hochsicherheitsumgebungen.
 
@@ -3813,7 +3816,7 @@ Die Einstellung **Interaktive Anmeldung: Nachricht für Benutzer, die sich anmel
 
 **Hinweis**: Jegliche angezeigte Warnung sollte zuerst von den juristischen Vertretern und der Personalabteilung der Organisation genehmigt werden. Außerdem müssen die Einstellungen **Interaktive Anmeldung: Nachricht für Benutzer, die sich anmelden möchten** und **Interaktive Anmeldung: Nachrichtentitel für Benutzer, die sich anmelden möchten** beide aktiviert sein, damit jede für sich korrekt funktionieren kann.
 
-Interaktive Anmeldung: Nachrichtentitel für Benutzer, die sich anmelden möchten
+##### Interaktive Anmeldung: Nachrichtentitel für Benutzer, die sich anmelden möchten
 
 Diese Richtlinieneinstellung ermöglicht das Festlegen von Text für die Titelleiste des Fensters, das Benutzer bei der Anmeldung beim System sehen. Der Grund für diese Richtlinieneinstellung ist derselbe wie für die vorangegangene Meldungstexteinstellung. Organisationen, die auf die Verwendung dieser Einstellung verzichten, sind rechtlich nicht gegen Unbefugte abgesichert, die das System angreifen.
 
@@ -3821,25 +3824,25 @@ Die Einstellung **Interaktive Anmeldung: Nachrichtentitel für Benutzer, die sic
 
 **Hinweis**: Jegliche angezeigte Warnung sollte zuerst von den juristischen Vertretern und der Personalabteilung der Organisation genehmigt werden. Außerdem müssen die Einstellungen **Interaktive Anmeldung: Nachricht für Benutzer, die sich anmelden möchten** und **Interaktive Anmeldung: Nachrichtentitel für Benutzer, die sich anmelden möchten** beide aktiviert sein, damit jede für sich korrekt funktionieren kann.
 
-Interaktive Anmeldung: Anzahl zwischenzuspeichernder vorheriger Anmeldungen (für den Fall, dass der Domänencontroller nicht verfügbar ist)
+##### Interaktive Anmeldung: Anzahl zwischenzuspeichernder vorheriger Anmeldungen (für den Fall, dass der Domänencontroller nicht verfügbar ist)
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob ein Benutzer sich mit zwischengespeicherten Kontoinformationen bei einer Windows-Domäne anmelden kann. Anmeldeinformationen für Domänenkonten können lokal zwischengespeichert werden, um Benutzern selbst dann die Anmeldung zu ermöglichen, wenn kein Domänencontroller erreichbar ist. Durch diese Einstellung wird die Anzahl von eindeutigen Benutzern festgelegt, für die Anmeldeinformationen lokal zwischengespeichert werden. Der Standardwert für diese Richtlinieneinstellung lautet 10. Wenn dieser Wert auf 0 gesetzt wird, wird der Anmeldecache deaktiviert. Ein Angreifer mit Zugriff auf das Dateisystem des Servers kann die zwischengespeicherten Informationen suchen und mit Brute-Force-Methoden versuchen, die Benutzerkennwörter zu ermitteln.
 
 Die Einstellung **Interaktive Anmeldung: Anzahl zwischenzuspeichernder vorheriger Anmeldungen (für den Fall, dass der Domänencontroller nicht verfügbar ist)** ist sowohl für Desktop- und Laptopcomputer in der Unternehmensclient-Umgebung und als auch für Laptopcomputer in der Hochsicherheitsumgebung auf **2** gesetzt. Für Desktops in der Hochsicherheitsumgebung ist diese Richtlinieneinstellung jedoch auf **0** gesetzt, da diese Computer immer eine sichere Verbindung zum Netzwerk der Organisation haben sollten.
 
-Interaktive Anmeldung: Anwender vor Ablauf des Kennworts zum Ändern des Kennworts auffordern
+##### Interaktive Anmeldung: Anwender vor Ablauf des Kennworts zum Ändern des Kennworts auffordern
 
 Durch diese Richtlinieneinstellung wird die Zeitspanne festgelegt, die Benutzer im Voraus auf den Ablauf ihrer Kennwörter hingewiesen werden. Microsoft empfiehlt, bei dieser Richtlinieneinstellung eine Frist von 14 Tagen einzugeben, damit Benutzer rechtzeitig über das Ablaufen des Kennworts informiert werden.
 
 Die Einstellung **Interaktive Anmeldung: Anwender vor Ablauf des Kennworts zum Ändern des Kennworts auffordern** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **14 Tage** gesetzt.
 
-Interaktive Anmeldung: Domänencontrollerauthentifizierung zum Aufheben der Sperrung der Arbeitsstation erforderlich
+##### Interaktive Anmeldung: Domänencontrollerauthentifizierung zum Aufheben der Sperrung der Arbeitsstation erforderlich
 
 Bei Aktivierung dieser Einstellung muss ein Domänencontroller das zum Entsperren des Computers verwendete Domänenkonto authentifizieren. Ist diese Richtlinieneinstellung deaktiviert, können zwischengespeicherte Anmeldeinformationen zum Aufheben der Sperrung des Computers verwendet werden. Microsoft empfiehlt, diese Richtlinieneinstellung für Laptopbenutzer in beiden Umgebungen zu deaktivieren, da mobile Benutzer keinen Netzwerkzugriff auf Domänencontrollern haben.
 
 Die Einstellung **Interaktive Anmeldung: Domänencontrollerauthentifizierung zum Aufheben der Sperrung der Arbeitsstation erforderlich** ist sowohl in der Unternehmensclient-Umgebung als auch in der Hochsicherheitsumgebung auf **Aktiviert** gesetzt. Diese Richtlinieneinstellung ist jedoch für Laptops in beiden Umgebungen auf **Deaktiviert** gesetzt, damit diese Benutzer auch außerhalb des Büros arbeiten können.
 
-Interaktive Anmeldung: Verhalten beim Entfernen von Smartcards
+##### Interaktive Anmeldung: Verhalten beim Entfernen von Smartcards
 
 Durch diese Richtlinieneinstellung wird festgelegt, was passiert, wenn die Smartcard für einen angemeldeten Benutzer aus dem Smartcard-Leser entfernt wird. Wenn diese Richtlinieneinstellung auf **Arbeitsstation sperren** gesetzt ist, wird die Arbeitsstation beim Entfernen der Smartcard gesperrt. Auf diese Weise können Benutzer beim Verlassen des Arbeitsplatzes ihre Smartcards mitnehmen und ihre Arbeitsstationen automatisch sperren lassen. Wenn Sie diese Richtlinieneinstellung auf **Abmeldung erzwingen** einstellen, werden Benutzer bei der Entnahme der Smartcard automatisch abgemeldet.
 
@@ -4008,7 +4011,7 @@ Deaktiviert
 </table>
 
 
-Microsoft-Netzwerk (Client): Kommunikation digital signieren (immer)
+##### Microsoft-Netzwerk (Client): Kommunikation digital signieren (immer)
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob die SMB-Clientkomponente die Signierung von Paketen erfordert. Wenn Sie diese Richtlinieneinstellung aktivieren, kann der Microsoft-Netzwerkclient nur dann mit einem Microsoft-Netzwerkserver kommunizieren, wenn der Server der SMB-Paketsignierung zustimmt. In gemischten Umgebungen mit älteren Clients sollte diese Option auf **Deaktiviert** gesetzt werden, da diese Computer sich nicht authentifizieren und nicht auf Domänencontroller zugreifen können. In Umgebungen mit Windows 2000 oder höher kann diese Richtlinieneinstellung jedoch verwendet werden.
 
@@ -4016,7 +4019,7 @@ Die Einstellung **Microsoft Netzwerk (Client): Kommunikation digital signieren (
 
 **Hinweis**: Wenn diese Richtlinieneinstellung auf Windows XP-Computern aktiviert ist und diese eine Verbindung zu Datei- oder Druckerfreigaben auf Remoteservern herstellen, muss die Einstellung unbedingt mit ihrer begleitenden Einstellung, **Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)**, auf diesen Servern synchronisiert werden. Weitere Informationen zu diesen Einstellungen finden Sie im Abschnitt „Microsoft Netzwerk (Client und Server): Kommunikation digital signieren (vier zugehörige Einstellungen)“ in Kapitel 5 des Begleithandbuchs [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen unter Windows Server 2003 und Windows XP*](http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx), das unter http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx heruntergeladen werden kann.
 
-Microsoft-Netzwerk (Client): Kommunikation digital signieren (wenn Server zustimmt)
+##### Microsoft-Netzwerk (Client): Kommunikation digital signieren (wenn Server zustimmt)
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob der SMB-Client versucht, die SMB-Paketsignierung auszuhandeln. Die Implementierung einer digitalen Signierung in Windows-Netzwerken trägt dazu bei, Sitzungsübernahmen zu verhindern. Wenn Sie diese Richtlinieneinstellung aktivieren, verwendet der Microsoft-Netzwerkclient die Signierung nur dann, wenn der Server, mit dem er kommuniziert, digital signierte Kommunikation akzeptiert.
 
@@ -4024,7 +4027,7 @@ Die Einstellung **Microsoft Netzwerk (Client): Kommunikationen digital signieren
 
 **Hinweis**: Aktivieren Sie diese Einstellung für SMB-Clients in Ihrem Netzwerk, damit Pakete bei der Kommunikation mit Clients und Servern in Ihrer Umgebung signiert werden.
 
-Microsoft-Netzwerk (Client): Unverschlüsseltes Kennwort an SMB-Server von Drittanbietern senden
+##### Microsoft-Netzwerk (Client): Unverschlüsseltes Kennwort an SMB-Server von Drittanbietern senden
 
 Deaktivieren Sie diese Richtlinieneinstellung, um den SMB-Redirector davon abzuhalten, während der Authentifizierung Klartextkennwörter an Nicht-Microsoft-SMB-Server zu senden, die die Kennwortverschlüsselung nicht unterstützen. Microsoft empfiehlt, diese Richtlinieneinstellung zu deaktivieren, wenn keine wichtigen geschäftlichen Anforderungen dagegen sprechen. Wenn diese Richtlinieneinstellung aktiviert ist, sind im gesamten Netzwerk unverschlüsselte Kennwörter zugelassen.
 
@@ -4193,19 +4196,19 @@ Aktiviert
 </table>
 
 
-Microsoft-Netzwerk (Server): Leerlaufzeitspanne bis zum Anhalten der Sitzung
+##### Microsoft-Netzwerk (Server): Leerlaufzeitspanne bis zum Anhalten der Sitzung
 
 Mit dieser Richtlinieneinstellung können Sie die Leerlaufzeitspanne in einer SMB-Sitzung festlegen, nach der die Sitzung aufgrund von Inaktivität angehalten wird. Administratoren können mit dieser Richtlinieneinstellung steuern, zu welchem Zeitpunkt eine nicht aktive Sitzung vom Computer angehalten wird. Wenn der Client seine Aktivität wieder aufnimmt, wird die Sitzung automatisch wiederhergestellt.
 
 Die Einstellung **Microsoft-Netzwerk (Server): Leerlaufzeitspanne bis zum Anhalten der Sitzung** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** und auf eine Zeitspanne von **15 Minuten** gesetzt.
 
-Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)
+##### Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob SMB-Pakete vom SMB-Server signiert werden müssen. Aktivieren Sie diese Richtlinieneinstellung in einer gemischten Umgebung, damit Downstream-Clients Arbeitsstationen nicht als Netzwerkserver verwenden können.
 
 Die Einstellung **Microsoft Netzwerk (Server): Kommunikation digital signieren (immer)** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Microsoft-Netzwerk (Server): Kommunikation digital signieren (wenn Client zustimmt)
+##### Microsoft-Netzwerk (Server): Kommunikation digital signieren (wenn Client zustimmt)
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob der serverseitige SMB-Dienst SMB-Pakete signieren kann, wenn dies von einem Client angefordert wird, der eine Verbindung herzustellen versucht. Wenn vom Client keine Signaturanforderung kommt, wird eine Verbindung ohne Signatur zugelassen, wenn die Einstellung **Microsoft-Netzwerk (Server): Kommunikation digital signieren (immer)** nicht aktiviert ist.
 
@@ -4610,37 +4613,37 @@ Klassisch – lokale Benutzer authentifizieren sich als sie selbst
 </table>
 
 
-Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen
+##### Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob anonyme Benutzer Sicherheits-ID-Attribute anderer Benutzer anfordern können oder eine Sicherheits-ID (SID) verwenden können, um den zugehörigen Benutzernamen zu erhalten. Deaktivieren Sie diese Richtlinieneinstellung, um zu verhindern, dass nicht autorisierte Benutzer Benutzernamen über die zugehörigen Sicherheits-IDs in Erfahrung bringen.
 
 Die Einstellung **Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Deaktiviert** gesetzt.
 
-Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben
+##### Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob anonyme Benutzer die Konten in der Sicherheitskontenverwaltung (SAM, Security Accounts Manager) anzeigen lassen können. Wenn Sie diese Richtlinieneinstellung aktivieren, sind Benutzer mit anonymen Verbindungen nicht in der Lage, Domänenkontonamen an einer Arbeitsstation in Ihrer Umgebung anzuzeigen. Durch diese Richtlinieneinstellung werden weitere Einschränkungen für anonyme Verbindungen ermöglicht.
 
 Die Einstellung **Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben
+##### Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob anonyme Benutzer SAM-Konten und -Freigaben anzeigen lassen können. Wenn Sie diese Richtlinieneinstellung aktivieren, sind anonyme Benutzer nicht in der Lage, Domänenkontonamen und Namen für Netzwerkfreigaben an einer Arbeitsstation in Ihrer Umgebung anzuzeigen.
 
 Die Einstellung **Netzwerkzugriff: Anonyme Aufzählung von SAM-Konten nicht erlauben** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Netzwerkzugriff: Speicherung von Anmeldeinformationen oder.NET-Passports für die Netzwerkauthentifikation nicht erlauben
+##### Netzwerkzugriff: Speicherung von Anmeldeinformationen oder.NET-Passports für die Netzwerkauthentifikation nicht erlauben
 
 Durch diese Richtlinieneinstellung wird die Speicherung der Anmeldeinformationen und Kennwörter auf dem lokalen System gesteuert.
 
 Die Einstellung **Netzwerkzugriff: Speicherung von Anmeldeinformationen oder.NET-Passports für die Netzwerkauthentifikation nicht erlauben** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
 
-Netzwerkzugriff: Die Verwendung von 'Jeder'-Berechtigungen für anonyme Benutzer ermöglichen
+##### Netzwerkzugriff: Die Verwendung von 'Jeder'-Berechtigungen für anonyme Benutzer ermöglichen
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche zusätzlichen Berechtigungen anonymen Verbindungen mit dem Computer gewährt werden. Wenn Sie diese Richtlinieneinstellung aktivieren, können anonyme Windows-Benutzer bestimmte Aktivitäten ausführen, z. B. Auflisten der Namen von Domänenkonten und Netzwerkfreigaben. Ein nicht autorisierter Benutzer könnte Kontennamen und freigegebene Ressourcen anonym auflisten und anhand dieser Informationen Kennwörter erraten oder Social Engineering-Angriffe durchführen.
 
 Deshalb ist die Einstellung **Netzwerkzugriff: Die Verwendung von 'Jeder'-Berechtigungen für anonyme Benutzer ermöglichen** für die beiden in diesem Kapitel behandelten Umgebungen auf **Deaktiviert** gesetzt.
 
-Netzwerkzugriff: Named Pipes, auf die anonym zugegriffen werden kann
+##### Netzwerkzugriff: Named Pipes, auf die anonym zugegriffen werden kann
 
 Durch diese Richtlinieneinstellung wird festgelegt, welche Kommunikationssitzungen oder Pipes über Attribute und Berechtigungen verfügen, die anonymen Zugriff zulassen.
 
@@ -4658,7 +4661,7 @@ Für die Unternehmensclient-Umgebung ist die Einstellung **Netzwerkzugriff: Name
 * Browser
 
 
-Netzwerkzugriff: Registrierungspfade, auf die von anderen Computern aus zugegriffen werden kann
+##### Netzwerkzugriff: Registrierungspfade, auf die von anderen Computern aus zugegriffen werden kann
 
 Durch diese Richtlinieneinstellung wird festgelegt, auf welche Registrierungspfade zugegriffen werden kann, nachdem der Schlüssel WinReg zur Feststellung der Zugriffsberechtigungen für diese Pfade ausgewertet wurde.
 
@@ -4684,7 +4687,7 @@ Für die Unternehmensclient-Umgebung ist die Einstellung **Netzwerkzugriff: Regi
 * Software\Microsoft\Windows NT\CurrentVersion
 
 
-Netzwerkzugriff: Freigaben, auf die anonym zugegriffen werden kann
+##### Netzwerkzugriff: Freigaben, auf die anonym zugegriffen werden kann
 
 Durch diese Richtlinieneinstellung werden die Netzwerkfreigaben festgelegt, auf die anonyme Benutzer zugreifen können. Die Standardeinstellung für diese Richtlinieneinstellung hat geringe Auswirkungen, da alle Benutzer authentifiziert werden müssen, bevor sie auf freigegebene Ressourcen auf dem Server zugreifen können.
 
@@ -4947,7 +4950,7 @@ Nachrichtvertraulichkeit erfordern, Nachrichtenintegrität erfordern, NTLMv2-Sit
 </table>
 
 
-Netzwerksicherheit: Keine LAN Manager-Hashwerte für nächste Kennwortänderung speichern
+##### Netzwerksicherheit: Keine LAN Manager-Hashwerte für nächste Kennwortänderung speichern
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob die bei der Änderung von Kennwörtern vom LAN Manager (LM) erzeugten Hashwerte für das neue Kennwort gespeichert werden. LM-Hashwerte sind anfälliger für Angriffe, weil für ihre Erzeugung im Vergleich zu Windows NT®-Hashwerten ein schwächerer kryptografischer Algorithmus verwendet wird.
 
@@ -4955,7 +4958,7 @@ Aus diesem Grund ist die Einstellung **Netzwerksicherheit: Keine LAN Manager-Has
 
 **Hinweis**: Sehr alte Betriebssysteme und einige Anwendungen von Drittanbietern fallen möglicherweise aus, wenn diese Einstellung aktiviert ist. Außerdem müssen Sie nach dem Aktivieren dieser Einstellung die Kennwörter sämtlicher Konten ändern.
 
-Netzwerksicherheit: LAN Manager-Authentifizierungsebene
+##### Netzwerksicherheit: LAN Manager-Authentifizierungsebene
 
 Durch diese Richtlinieneinstellung wird der Typ der Abfrage/Rückmeldung-Authentifizierung für Netzwerkanmeldungen von Clients festgelegt, die nicht Windows 2000 oder Windows XP Professional ausführen. Die Authentifizierung über LAN Manager (LM) ist die unsicherste Methode, da verschlüsselte Kennwörter leicht über das Netzwerk abgefangen und entschlüsselt werden können. NT LAN Manager (NTLM) ist etwas sicherer. NTLMv2 ist robuster als NTLM und kann unter Windows XP Professional, Windows 2000 und Windows NT 4.0 Service Pack 4 oder höher verwendet werden. NTLMv2 ist zusammen mit dem optionalen Client für Verzeichnisdienste auch unter Windows 95 und Windows 98 verfügbar.
 
@@ -4963,13 +4966,13 @@ Microsoft empfiehlt, für diese Richtlinieneinstellung in Ihrer Umgebung die hö
 
 Die Einstellung **Netzwerksicherheit: LAN Manager-Authentifizierungsebene** ist für die Unternehmensclient-Umgebung auf **Nur NTLMv2-Antworten senden\LM verweigern** gesetzt. Für die Hochsicherheitsumgebung ist diese Richtlinieneinstellung jedoch auf das stärker einschränkende **Nur NTLMv2-Antworten senden\LM und NTLM verweigern** gesetzt.
 
-Netzwerksicherheit: Signaturanforderungen für LDAP-Clients
+##### Netzwerksicherheit: Signaturanforderungen für LDAP-Clients
 
 Durch diese Richtlinieneinstellung wird die Datensignaturebene festgelegt, die im Auftrag von Clients angefordert wird, wenn diese LDAP-BIND-Anforderungen ausgeben. Nicht signierter Netzwerkverkehr ist für Man-in-the-Middle-Angriffe anfällig. Ein Angreifer könnte einen Server veranlassen, Entscheidungen zu treffen, die auf falschen Anfragen vom LDAP-Client basieren.
 
 Daher wird der Wert für die Einstellung **Netzwerksicherheit: Signaturanforderungen für LDAP-Clients** für die beiden in diesem Kapitel behandelten Umgebungen auf **Signatur aushandeln** gesetzt.
 
-Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Clients (einschließlich sicherer RPC-Clients)
+##### Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Clients (einschließlich sicherer RPC-Clients)
 
 Durch diese Richtlinieneinstellung werden die minimalen Sicherheitsstandards für die Kommunikation zwischen Anwendungen auf Clients festgelegt. Die Optionen für diese Richtlinieneinstellung lauten:
 * Nachrichtenintegrität erfordern
@@ -4986,7 +4989,7 @@ Wenn alle Computer in Ihrem Netzwerk NTLMv2- und 128-Bit-Verschlüsselung unters
 
 Für die Einstellung **Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Clients (einschließlich sicherer RPC-Clients)** sind in den beiden in diesem Kapitel behandelten Umgebungen alle vier Optionen aktiviert.
 
-Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Server (einschließlich sicherer RPC-Server)
+##### Netzwerksicherheit: Minimale Sitzungssicherheit für NTLM-SSP-basierte Server (einschließlich sicherer RPC-Server)
 
 Diese Richtlinieneinstellung ähnelt der vorherigen Einstellung, wirkt sich aber auf die serverseitige Kommunikation mit Anwendungen aus. Die Optionen für die Einstellung sind dieselben:
 * Nachrichtenintegrität erfordern
@@ -5127,13 +5130,13 @@ Deaktiviert
 </table>
 
 
-Wiederherstellungskonsole: Automatische administrative Anmeldungen zulassen
+##### Wiederherstellungskonsole: Automatische administrative Anmeldungen zulassen
 
 Die Wiederherstellungskonsole ist eine Befehlszeilenumgebung, mit der nach Systemproblemen eine Wiederherstellung vorgenommen werden kann. Wenn Sie diese Richtlinieneinstellung aktivieren, wird das Administratorkonto automatisch bei der Wiederherstellungskonsole angemeldet, wenn diese Einstellung beim Start aufgerufen wird. Microsoft empfiehlt, diese Richtlinieneinstellung zu deaktivieren, sodass Administratoren ein Kennwort eingeben müssen, um auf die Wiederherstellungskonsole zugreifen zu können.
 
 Die Einstellung **Wiederherstellungskonsole: Automatische administrative Anmeldungen zulassen** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Deaktiviert** gesetzt.
 
-Wiederherstellungskonsole: Kopieren von Disketten und Zugriff auf alle Laufwerke und alle Ordner zulassen
+##### Wiederherstellungskonsole: Kopieren von Disketten und Zugriff auf alle Laufwerke und alle Ordner zulassen
 
 Durch diese Richtlinieneinstellung wird in der Wiederherstellungskonsole der Befehl SET verfügbar, mit dem Sie die folgenden Umgebungsvariablen für die Wiederherstellungskonsole einstellen können:
 * **AllowWildCards.**   Aktiviert die Platzhalterunterstützung für einige Befehle (z. B. für den Befehl DEL).
@@ -5272,13 +5275,13 @@ Deaktiviert
 </table>
 
 
-Herunterfahren: Herunterfahren des Systems ohne Anmeldung zulassen
+##### Herunterfahren: Herunterfahren des Systems ohne Anmeldung zulassen
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob ein Computer heruntergefahren werden kann, wenn ein Benutzer nicht angemeldet ist. Wenn diese Richtlinieneinstellung aktiviert ist, steht im Windows-Anmeldebildschirm der Befehl „Herunterfahren“ zur Verfügung. Microsoft empfiehlt, diese Richtlinieneinstellung zu deaktivieren, um nur jenen Benutzern das Herunterfahren von Computern zu ermöglichen, die über Anmeldeinformationen im System verfügen.
 
 Die Einstellung **Herunterfahren: Herunterfahren des Systems ohne Anmeldung zulassen** ist in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Deaktiviert** gesetzt.
 
-Herunterfahren: Auslagerungsdatei des virtuellen Arbeitspeichers löschen
+##### Herunterfahren: Auslagerungsdatei des virtuellen Arbeitspeichers löschen
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob die Auslagerungsdatei des virtuellen Arbeitsspeichers beim Herunterfahren des Systems gelöscht wird. Wenn diese Richtlinieneinstellung aktiviert ist, wird die Auslagerungsdatei des Systems bei jedem fehlerfreien Herunterfahren des Systems gelöscht. Bei Aktivierung dieser Sicherheitsoption wird die Ruhezustanddatei (hiberfil.sys) auch dann gelöscht, wenn die Ruhezustandfunktion auf einem tragbaren Computer deaktiviert ist. Das Herunterfahren und Neustarten des Servers dauert länger, insbesondere auf Servern mit großen Auslagerungsdateien.
 
@@ -5369,7 +5372,7 @@ Deaktiviert
 </table>
 
 
-Systemkryptografie: FIPS-konformen Algorithmus für Verschlüsselung, Hashing und Signatur verwenden
+##### Systemkryptografie: FIPS-konformen Algorithmus für Verschlüsselung, Hashing und Signatur verwenden
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob der TLS/SSL-Sicherheitsdienst nur die Verschlüsselungssammlung TLS_RSA_WITH_3DES_EDE_CBC_SHA unterstützt. Obwohl durch diese Richtlinieneinstellung die Sicherheit erhöht wird, werden diese Algorithmen von den meisten öffentlichen Websites, die mit TLS oder SSL gesichert sind, nicht unterstützt. Clientcomputer, für die diese Richtlinieneinstellung aktiviert ist, können auch keine Verbindung zu Terminaldiensten auf Servern herstellen, die nicht für die Verwendung der FIPS-konformen Algorithmen konfiguriert sind.
 
@@ -5540,23 +5543,24 @@ Aktiviert
 </table>
 
 
-Systemobjekte: Standardbesitzer für Objekte, die von Mitgliedern der Administratorengruppe erstellt werden
+##### Systemobjekte: Standardbesitzer für Objekte, die von Mitgliedern der Administratorengruppe erstellt werden
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob die Gruppe **Administratoren** oder die Gruppe **Objektersteller** der Standardbesitzer neuer Systemobjekte ist.
 
 Um Verantwortlichkeiten übersichtlicher zu gestalten, ist die Einstellung **Systemobjekte: Standardbesitzer für Objekte, die von Mitgliedern der Administratorengruppe erstellt werden** für die beiden in diesem Kapitel behandelten Umgebungen auf **Objektersteller** gesetzt.
 
-Systemobjekte: Groß-/Kleinschreibung für Nicht-Windows-Subsysteme ignorieren
+##### Systemobjekte: Groß-/Kleinschreibung für Nicht-Windows-Subsysteme ignorieren
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob für alle Subsysteme das Ignorieren der Groß-/Kleinschreibung erzwungen wird. Für das Microsoft Win32®-Subsystem wird die Groß-/Kleinschreibung ignoriert. Der Kernel unterstützt jedoch die Beachtung der Groß-/Kleinschreibung für andere Subsysteme, z. B. POIX (Portable Operating System Interface für UNIX). Da unter Windows die Groß-/Kleinschreibung ignoriert wird (das POSIX-Subsystem jedoch die Beachtung der Groß-/Kleinschreibung unterstützt), kann ein Benutzer dieses Subsystems durch Mischen von Groß- und Kleinbuchstaben eine Datei mit einem bereits vorhandenen Namen erstellen, wenn diese Richtlinieneinstellung deaktiviert ist. In so einer Situation kann der Zugriff auf diese Dateien durch einen anderen Benutzer blockiert werden, der typische Win32-Tools verwendet, weil nur eine der Dateien zur Verfügung steht.
 
 Zum Gewährleisten der Konsistenz von Dateinamen ist die Einstellung **Systemobjekte: Groß-/Kleinschreibung für Nicht-Windows-Subsysteme ignorieren** in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Aktiviert** gesetzt.
 
-Systemobjekte: Standardberechtigungen interner Systemobjekte verstärken
+##### Systemobjekte: Standardberechtigungen interner Systemobjekte verstärken
 
 Durch diese Richtlinieneinstellung wird die Stärke der wahlfreien Zugriffssteuerungsliste (DACL) für Objekte festgelegt. Diese Einstellung trägt zur Sicherung von Objekten bei, die zwischen Projekten gesucht und freigegeben werden können. Die Standardkonfiguration der Einstellung verstärkt die DACL, wodurch Nicht-Administratoren das Lesen von freigegebenen Objekten ermöglicht wird. Sie können jedoch nur die von ihnen selbst erstellten Objekte ändern.
 
 Daher ist die Einstellung **Systemobjekte: Standardberechtigungen interner Systemobjekte verstärken** (z. B. symbolische Verknüpfungen) für die beiden in diesem Kapitel behandelten Umgebungen auf **Aktiviert** gesetzt.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -6027,6 +6031,7 @@ Die **Aufbewahrungsmethode des Sicherheitsprotokolls** ist für die beiden in di
 Durch diese Richtlinieneinstellung wird die „Umbruchmethode“ für das Systemprotokoll festgelegt. Das Systemprotokoll muss regelmäßig archiviert werden, wenn Verlaufsdaten für forensische Zwecke oder zur Problembehandlung aufbewahrt werden sollen. Das bedarfsabhängige Überschreiben von Ereignissen stellt sicher, dass im Protokoll immer die neuesten Ereignisse gespeichert werden. Dies kann jedoch auch zu einem Verlust von Verlaufsdaten führen.
 
 Die **Aufbewahrungsmethode des Systemprotokolls** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Bei Bedarf** gesetzt.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -6204,35 +6209,36 @@ Administratoren können eingeschränkte Gruppen für ein Gruppenrichtlinienobjek
 Ist eine Gruppe eingeschränkt, können deren Mitglieder und andere Gruppen, denen sie angehört, festgelegt werden. Wenn Sie diese Gruppenmitglieder nicht angeben, bleibt die Gruppe vollkommen eingeschränkt. Gruppen können nur durch die Verwendung von Sicherheitsvorlagen eingeschränkt werden.
 
 **So zeigen Sie die Einstellung „Eingeschränkte Gruppen“ an oder ändern diese**
-* Öffnen Sie die Sicherheitsvorlagen-Verwaltungskonsole.
+1.  Öffnen Sie die Sicherheitsvorlagen-Verwaltungskonsole.
 
 **Hinweis**: Die Sicherheitsvorlagen-Verwaltungskonsole ist standardmäßig nicht im Menü **Verwaltung** nicht vorhanden. Um sie hinzuzufügen, starten Sie die Microsoft Management Console (mmc.exe), und fügen Sie das Add-In „Sicherheitsvorlagen“ hinzu.
 
-* Doppelklicken Sie auf das Verzeichnis der Konfigurationsdatei und dann auf die Konfigurationsdatei.
+2.  Doppelklicken Sie auf das Verzeichnis der Konfigurationsdatei und dann auf die Konfigurationsdatei.
 
-* Doppelklicken Sie auf das Element **Eingeschränkte Gruppen.**  
+3.  Doppelklicken Sie auf das Element **Eingeschränkte Gruppen.**  
 
-* Klicken Sie mit der rechten Maustaste auf **Eingeschränkte Gruppen** und dann auf **Gruppe hinzufügen.**  
+4.  Klicken Sie mit der rechten Maustaste auf **Eingeschränkte Gruppen** und dann auf **Gruppe hinzufügen.**  
 
-* Klicken Sie auf **Durchsuchen** und dann auf **Pfad**, wählen Sie den gewünschten Pfad aus, und klicken Sie auf **OK.**  
+5.  Klicken Sie auf **Durchsuchen** und dann auf **Pfad**, wählen Sie den gewünschten Pfad aus, und klicken Sie auf **OK.**  
 
 **Hinweis**: Normalerweise wird der lokale Computer oben in der Liste angezeigt.
 
-* Geben Sie im Textfeld **Geben Sie die zu verwendenden Objektnamen ein** den Gruppennamen ein, und klicken Sie auf die Schaltfläche **Namen überprüfen.**  
+6.  Geben Sie im Textfeld **Geben Sie die zu verwendenden Objektnamen ein** den Gruppennamen ein, und klicken Sie auf die Schaltfläche **Namen überprüfen.**  
 
 – Oder –
 
 Klicken Sie auf **Erweitert** und anschließend auf **Suche starten**, um alle verfügbaren Gruppen aufzulisten.
 
-* Wählen Sie die einzuschränkenden Gruppen aus, und klicken Sie auf **OK.**  
+7.  Wählen Sie die einzuschränkenden Gruppen aus, und klicken Sie auf **OK.**  
 
-* Klicken Sie im Dialogfeld **Gruppen hinzufügen** auf **OK**, um das Dialogfeld zu schließen.
+8.  Klicken Sie im Dialogfeld **Gruppen hinzufügen** auf **OK**, um das Dialogfeld zu schließen.
 
  
 
 In diesem Handbuch wurden die Einstellungen für alle Mitglieder – Benutzer und Gruppen – der Gruppen „Hauptbenutzer“ und „Sicherungs-Operatoren“ entfernt, um sie in beiden Umgebungen vollständig einzuschränken. In der Hochsicherheitsumgebung wurden ebenfalls alle Mitglieder der Gruppe „Remotedesktopbenutzer“ entfernt. Microsoft empfiehlt, alle vordefinierten Gruppen, die in Ihrer Organisation nicht verwendet werden, einschränken.
 
 **Hinweis**: Die Konfiguration der in diesem Abschnitt beschriebenen Einstellung **Eingeschränkte Gruppen** ist sehr einfach. Versionen von Windows XP SP1 oder höher sowie Windows Server 2003 unterstützen komplexere Entwürfe. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel „[Updates to Restricted Groups ("Member of") Behavior of User-Defined Local Groups](http://support.microsoft.com/default.aspx?kbid=810076)“ (in englischer Sprache) unter http://support.microsoft.com/default.aspx?kbid=810076.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -7311,6 +7317,7 @@ Der Dienst **Universelles Plug &amp; Play** ist für die Unternehmensclient-Um
 Dieser Dienst bietet Webverbindungs- und Verwaltungsfunktionen über das MMC-Snap-In „IIS“. Er ermöglicht HTTP-Dienste für Anwendungen auf der Windows-Plattform und beinhaltet einen Prozess- und einen Konfigurations-Manager. Für die meisten Windows XP-Clients ist dieser Dienst jedoch nicht erforderlich.
 
 Der Dienst **WWW-Publishing** ist für die beiden in diesem Kapitel behandelten Umgebungen auf **Deaktiviert** gesetzt.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -8174,6 +8181,7 @@ Der Registrierungswert **WarningLevel** wurde der Vorlagendatei im Registrierung
 Diese Einstellung ist seit SP3 für Windows 2000 verfügbar. Durch diese neue Funktion wird im Sicherheitsereignisprotokoll ein Sicherheitsüberwachungseintrag erzeugt, wenn der vom Benutzer definierte Schwellwert des Sicherheitsprotokolls erreicht wird. Diese Richtlinieneinstellung ist für die Unternehmensclient-Umgebung auf **Nicht definiert** und für die Hochsicherheitsumgebung auf **90** gesetzt.
 
 **Hinweis**: Wenn Protokolleinstellungen auf **Ereignisse bei Bedarf überschreiben** oder **Ereignisse überschreiben, die älter sind als x Tage** gesetzt sind, wird dieses Ereignis nicht erzeugt.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -8193,50 +8201,50 @@ Eine Reihe der neuen Einstellungen, die im Sicherheitskonfigurations-Editor ange
 Mithilfe der im Folgenden beschriebenen Verfahren kann die Benutzeroberfläche des Sicherheitskonfigurations-Editors angepasst werden. Befolgen Sie die Anweisungen für die manuelle Durchführung, wenn Sie bereits andere Anpassungen im Sicherheitskonfigurations-Editor vorgenommen haben. Die Einstellungen können mithilfe eines bereitgestellten Skripts mit geringem Benutzereingriff hinzugefügt werden. Obwohl das Skript über integrierte Funktionen zur Fehlerermittlung und Wiederherstellung verfügt, kann ein Fehlschlagen des Skripts nicht ausgeschlossen werden. Wenn das Skript nicht ausgeführt werden kann, sollten Sie die Fehlerursache ermitteln und entweder das Problem beheben oder die Anweisungen für die manuelle Durchführung befolgen. Mit einem anderen bereitgestellten Skript können Sie die Benutzeroberfläche des Sicherheitskonfigurations-Editors wieder auf die Standardwerte zurücksetzen. Durch dieses Skript werden alle benutzerdefinierten Einstellungen entfernt, und der Sicherheitskonfigurations-Editor wird wieder so wie bei einer Standardinstallation von Windows XP mit SP2 oder Windows Server 2003 mit SP1 konfiguriert.
 
 **So aktualisieren Sie die Datei sceregvl.inf manuell**
-* Verwenden Sie einen Texteditor (z. B. Notepad), um die Datei **Values-sceregvl.txt** im Downloadordner **SCE Update** dieses Handbuchs zu öffnen.
+1.  Verwenden Sie einen Texteditor (z. B. Notepad), um die Datei **Values-sceregvl.txt** im Downloadordner **SCE Update** dieses Handbuchs zu öffnen.
 
-* Öffnen Sie ein weiteres Fenster im Texteditor, und öffnen Sie anschließend die Datei **%systemroot%\inf\sceregvl.inf.**  
+2.  Öffnen Sie ein weiteres Fenster im Texteditor, und öffnen Sie anschließend die Datei **%systemroot%\inf\sceregvl.inf.**  
 
-* Gehen Sie in der Datei **sceregvl.inf** zum Ende des Abschnitts „[Register Registry Values]“. Kopieren Sie den Text ohne Seitenumbrüche aus der Datei **Values-sceregvl.txt**, und fügen Sie ihn in diesen Abschnitt der Datei **sceregvl.inf** ein.
+3.  Gehen Sie in der Datei **sceregvl.inf** zum Ende des Abschnitts „[Register Registry Values]“. Kopieren Sie den Text ohne Seitenumbrüche aus der Datei **Values-sceregvl.txt**, und fügen Sie ihn in diesen Abschnitt der Datei **sceregvl.inf** ein.
 
-* Schließen Sie die Datei **Values-sceregvl.txt**, und öffnen Sie die Datei **Strings-sceregvl.txt** im Downloadordner **SCE Update.**  
+4.  Schließen Sie die Datei **Values-sceregvl.txt**, und öffnen Sie die Datei **Strings-sceregvl.txt** im Downloadordner **SCE Update.**  
 
-* Gehen Sie in der Datei **sceregvl.inf** zum Ende des Abschnitts „[Strings]“. Kopieren Sie den Text ohne Seitenumbrüche aus der Datei **Strings-sceregvl.txt**, und fügen Sie ihn in diesen Abschnitt der Datei **sceregvl.inf** ein.
+5.  Gehen Sie in der Datei **sceregvl.inf** zum Ende des Abschnitts „[Strings]“. Kopieren Sie den Text ohne Seitenumbrüche aus der Datei **Strings-sceregvl.txt**, und fügen Sie ihn in diesen Abschnitt der Datei **sceregvl.inf** ein.
 
-* Speichern Sie die Datei **sceregvl.inf**, und schließen Sie den Texteditor.
+6.   Speichern Sie die Datei **sceregvl.inf**, und schließen Sie den Texteditor.
 
-* Öffnen Sie eine Eingabeaufforderung, und führen Sie zum erneuten Registrieren der DLL-Datei den Befehl **regsvr32 scecli.dll** aus.
+7.  Öffnen Sie eine Eingabeaufforderung, und führen Sie zum erneuten Registrieren der DLL-Datei den Befehl **regsvr32 scecli.dll** aus.
 
  
 
 Bei jedem weiteren Start des Sicherheitskonfigurations-Editors werden die folgenden benutzerdefinierten Registrierungswerte angezeigt.
 
 **So aktualisieren Sie die Datei sceregvl.inf automatisch**
-* Die im Downloadordner **SCE Update** dieses Handbuchs befindlichen Dateien **Values-sceregvl.txt**, **Strings-sceregvl.txt** und **Update_SCE_with_MSS_Regkeys.vbs** müssen alle im selben Verzeichnis gespeichert sein, damit das Skript ausgeführt werden kann.
+1.  Die im Downloadordner **SCE Update** dieses Handbuchs befindlichen Dateien **Values-sceregvl.txt**, **Strings-sceregvl.txt** und **Update_SCE_with_MSS_Regkeys.vbs** müssen alle im selben Verzeichnis gespeichert sein, damit das Skript ausgeführt werden kann.
 
-* Führen Sie das Skript **Update_SCE_with_MSS_Regkeys.vbs** auf dem Computer aus, der aktualisiert werden soll.
+2.  Führen Sie das Skript **Update_SCE_with_MSS_Regkeys.vbs** auf dem Computer aus, der aktualisiert werden soll.
 
-* Befolgen Sie die Anweisungen auf dem Bildschirm.
+3.  Befolgen Sie die Anweisungen auf dem Bildschirm.
 
  
 
 Durch diese Vorgehensweise werden nur die benutzerdefinierten Einträge entfernt, die mit dem Skript **Update_sce_with_mss_regkeys.vbs** vorgenommen wurden, das im vorherigen Verfahren beschrieben wurde.
 
 **So machen Sie die Änderungen des Skripts Update_SCE_with_MSS_Regkeys.vbs rückgängig**
-* Führen Sie das Skript **Rollback_SCE_for_MSS_Regkeys.vbs** auf dem Computer aus, der aktualisiert werden soll.
+1.  Führen Sie das Skript **Rollback_SCE_for_MSS_Regkeys.vbs** auf dem Computer aus, der aktualisiert werden soll.
 
-* Befolgen Sie die Anweisungen auf dem Bildschirm.
+2.  Befolgen Sie die Anweisungen auf dem Bildschirm.
 
  
 
 Durch dieses Verfahren werden *alle* benutzerdefinierten Einträge entfernt, die der Benutzeroberfläche des Sicherheitskonfigurations-Editors hinzugefügt wurden. Dazu zählen auch die Einträge aus diesem Handbuch und andere Einträge, die u. U. in Vorgängerversionen dieses Handbuchs oder in anderen Sicherheitshandbüchern beschrieben wurden.
 
 **So stellen Sie den Standardzustand des Sicherheitskonfigurations-Editors in Windows XP mit SP2 oder Windows Server 2003 mit SP1 wieder her**
-* Die im Downloadordner **SCE Update** dieses Handbuchs befindlichen Dateien **sceregvl_W2K3_SP1.inf.txt**, **sceregvl_XPSP2.inf.txt** und **Restore_SCE_to_Default.vbs** müssen alle im selben Verzeichnis gespeichert sein, damit das Skript ausgeführt werden kann.
+1.  Die im Downloadordner **SCE Update** dieses Handbuchs befindlichen Dateien **sceregvl_W2K3_SP1.inf.txt**, **sceregvl_XPSP2.inf.txt** und **Restore_SCE_to_Default.vbs** müssen alle im selben Verzeichnis gespeichert sein, damit das Skript ausgeführt werden kann.
 
-* Führen Sie das Skript **Restore_SCE_to_Default.vbs** auf dem Computer aus, der aktualisiert werden soll.
+2.  Führen Sie das Skript **Restore_SCE_to_Default.vbs** auf dem Computer aus, der aktualisiert werden soll.
 
-* Befolgen Sie die Anweisungen auf dem Bildschirm.
+3.  Befolgen Sie die Anweisungen auf dem Bildschirm.
 
  
 [Zum Seitenanfang](#mainsection)  
@@ -8261,6 +8269,7 @@ SSDP/UPnP deaktivieren: SSDP/UPnP deaktivieren
 Einige Organisationen sind möglicherweise der Meinung, dass die universellen Plug &amp; Play-Funktionen in den Unterkomponenten von Windows XP vollständig deaktiviert werden sollten. Obwohl der Dienst **Host für universelles Plug &amp; Play** in diesem Handbuch deaktiviert ist, verwenden andere Anwendungen wie z. B. Windows Messenger den Prozess **SSDP-Suchdienst (Simple Service Discovery Protocol)**, um Netzwerkgateways oder andere Netzwerkgeräte zu identifizieren. Sie können sicherstellen, dass die in Windows XP enthaltenen SSDP- und UPnP-Funktionen nicht von Anwendungen verwendet werden. Fügen Sie dazu dem Registrierungsschlüssel **HKEY_LOCAL_MACHINE\Software\Microsoft\DirectPlayNATHelp\DPNHUPnP\** den REG_DWORD-Registrierungswert **UPnPMode** hinzu, und setzen Sie seinen Wert auf **2.**  
 
 Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel „[Verkehr wird nach Abschalten des SSDP-Erkennungsdienstes und des Universal Plug &amp; Play-Gerätehosts gesendet](http://support.microsoft.com/kb/317843/en-us)“ (in englischer Sprache), der online unter http://support.microsoft.com/kb/317843/en-us verfügbar ist.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -8659,9 +8668,6 @@ In diesem Beitrag
 
 Download
 
-[Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&amp;clcid=0x409">
+![](images/cc163074.icon_exe(de-de,technet.10).gif)[Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&clcid=0x409)
+
 [Zum Seitenanfang](#mainsection)
-
-
-
-
