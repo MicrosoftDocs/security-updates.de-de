@@ -676,7 +676,7 @@ Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd
   
 Nachdem Sie die Baseline-Richtlinien gründlich getestet haben, führen Sie die folgenden Schritte aus, um sie in Gruppenrichtlinienobjekte zu konvertieren und mit den jeweiligen Organisationseinheiten zu verknüpfen:
   
-1.  Geben Sie an der Eingabeaufforderung Folgendes ein:
+1. Geben Sie an der Eingabeaufforderung Folgendes ein:
   
     `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
   
@@ -686,9 +686,9 @@ Nachdem Sie die Baseline-Richtlinien gründlich getestet haben, führen Sie die 
     /g:"Infrastructure Policy"`
   
     
-     **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
   
-2.  Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
+2. Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
   
 Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, öffnen Sie die Systemsteuerung, und doppelklicken Sie auf **Windows-Firewall**.
   
@@ -748,7 +748,7 @@ Wie bei den Baseline-Richtlinien gibt es zwei verschiedene Möglichkeiten, die R
   
 Nachdem Sie die Rollenrichtlinien gründlich getestet haben, führen Sie die folgenden Schritte aus, um sie in Gruppenrichtlinienobjekte zu konvertieren und mit den jeweiligen Organisationseinheiten zu verknüpfen:
   
-1.  Geben Sie an der Eingabeaufforderung Folgendes ein:
+1. Geben Sie an der Eingabeaufforderung Folgendes ein:
   
     `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
   
@@ -759,7 +759,7 @@ Nachdem Sie die Rollenrichtlinien gründlich getestet haben, führen Sie die fol
     
     **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
   
-2.  Mit der Gruppenrichtlinien-Verwaltungskonsole können Sie das neu erstellte Gruppenrichtlinienobjekt mit der entsprechenden Organisationseinheit verknüpfen. Stellen Sie sicher, dass es über der Standard-Domänencontrollerrichtlinie platziert wird, damit es höchste Priorität erhält.
+2. Mit der Gruppenrichtlinien-Verwaltungskonsole können Sie das neu erstellte Gruppenrichtlinienobjekt mit der entsprechenden Organisationseinheit verknüpfen. Stellen Sie sicher, dass es über der Standard-Domänencontrollerrichtlinie platziert wird, damit es höchste Priorität erhält.
   
 Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, klicken Sie auf die Systemsteuerung, und doppelklicken Sie auf „Windows-Firewall“.
   
