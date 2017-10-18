@@ -16,7 +16,7 @@ Veröffentlicht: 11. Nov 2007
 
 Die Einstellungen im folgenden Abschnitt sind nach Namen aufgeführt.
 
-Auf dieser Seite  
+#### Auf dieser Seite  
 [Informationen zu Benutzerrichtlinieneinstellungen](#ecd)    
 
 
@@ -5263,7 +5263,7 @@ In diesem Beitrag
 
 <td>
 
-Zum Seitenanfanq
+[Zum Seitenanfanq](#mainsection)
 </td>
 
 <td>

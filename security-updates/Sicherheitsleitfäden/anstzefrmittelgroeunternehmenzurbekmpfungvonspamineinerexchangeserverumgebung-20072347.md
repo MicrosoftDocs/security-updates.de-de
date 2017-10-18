@@ -13,11 +13,11 @@ Veröffentlicht: 18. Aug 2006
 
 ##### Auf dieser Seite
 
-[](#efaa)[Einführung](#efaa)
-[](#eeaa)[Definition](#eeaa)
-[](#edaa)[Herausforderungen](#edaa)
-[](#ecaa)[Lösungen](#ecaa)
-[](#ebaa)[Zusammenfassung](#ebaa)
+[](#efaa)[Einführung](#efaa)  
+[](#eeaa)[Definition](#eeaa)  
+[](#edaa)[Herausforderungen](#edaa)  
+[](#ecaa)[Lösungen](#ecaa)  
+[](#ebaa)[Zusammenfassung](#ebaa)  
 [](#eaaa)[Referenzen](#eaaa)
 
 ### Einführung
@@ -38,7 +38,7 @@ Mit den Methoden dieses Frameworks haben sowohl Administratoren als auch Endbenu
 
 Das Hauptziel dieses Frameworks ist es, Administratoren und Benutzern Lösungen zur Verfügung zu stellen, die so flexibel sind, dass sie auf der Serverseite ebenso angewendet werden können wie auf der Clientseite. Im vorliegenden Dokument werden diese Methoden ausführlich beschrieben. Dabei wird sowohl die Funktionsweise der einzelnen Methoden innerhalb des Frameworks als auch ihre gemeinsame Wirkungsweise beschrieben. Im Abschnitt „Bereitstellung und Verwaltung“ finden Sie Bewertungs- und Entwicklungspläne sowie eine Schritt-für-Schritt-Anleitung.
 
-**Hinweis**   Microsoft bietet außerdem einen wichtigen Dienst zur Bekämpfung von Spam an. Dieser Dienst wird als EHS (Exchange Hosted Services) bezeichnet. EHS besteht im Grunde aus vier einzelnen Diensten, die einem Unternehmen helfen, sich vor E-Mail-gestützter Malware zu schützen, Aufbewahrungsbestimmungen zu erfüllen, Daten zur Wahrung der Vertraulichkeit zu verschlüsseln und auch während und nach Notsituationen E-Mail-Zugriff zu ermöglichen.
+**Hinweis**   Microsoft bietet außerdem einen wichtigen Dienst zur Bekämpfung von Spam an. Dieser Dienst wird als EHS (Exchange Hosted Services) bezeichnet. EHS besteht im Grunde aus vier einzelnen Diensten, die einem Unternehmen helfen, sich vor E-Mail-gestützter Malware zu schützen, Aufbewahrungsbestimmungen zu erfüllen, Daten zur Wahrung der Vertraulichkeit zu verschlüsseln und auch während und nach Notsituationen E-Mail-Zugriff zu ermöglichen.  
 Das Herzstück von EHS ist ein verteiltes Netzwerk von Datenzentren an Schlüsselstandorten entlang des Internet-Backbones. Jedes Datenzentrum enthält fehlertolerante Server, bei denen ein Lastenausgleich zwischen mehreren Standorten und Servern stattfindet.
 Eine ausführliche Beschreibung dieses Dienstes würde den Rahmen dieses Leitfadens sprengen. Weitere Informationen finden Sie jedoch im Whitepaper [Microsoft Exchange – Übersicht über gehostete Dienste](http://www.microsoft.com/exchange/services/services.mspx) (möglicherweise in englischer Sprache) unter www.microsoft.com/exchange/services/services.mspx.
 
@@ -120,7 +120,7 @@ Der Schutz auf Verbindungsebene ist eine der vorteilhaftesten Schutzschichten zu
 
 **Abbildung 2. Schutz auf Verbindungsebene**
 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese02_big(de-de,technet.10).gif)
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese02_big(de-de,technet.10).gif)  
 Wenn der verbindende SMTP-Host als Host identifiziert wird, der Spam sendet oder normalerweise keine SMTP-Nachrichten sendet, kann die Verbindung abgelehnt werden, wodurch eine aufwändige Prüfung der eingehenden Nachricht auf Spam entfällt. Hierzu stehen in Exchange Server 2003 zwei Arten der Filterung auf Verbindungsebene zur Verfügung.
 
 ###### IP-Verbindungsfilterung
@@ -145,7 +145,7 @@ Die Echtzeit-Sperrlistenfilterung läuft folgendermaßen ab (siehe nachstehende 
 
 ![](images/Cc875815.AFSESE03(de-de,TechNet.10).gif)
 
-**Abbildung 3. Funktionsweise der Echtzeit-Sperrlistenfilterung**
+**Abbildung 3. Funktionsweise der Echtzeit-Sperrlistenfilterung**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese03_big(de-de,technet.10).gif)
 
 Vor Exchange Server 2003 SP2 stand die Verbindungsfilterfunktion nicht zur Verfügung, wenn Firewalls oder SMTP-Zwischenhosts zwischen Exchange und der sendenden Identität vorhanden waren (Exchange befindet sich hinter dem Umkreisnetzwerk), da früher nur der verbindende Host berücksichtigt wurde. Wenn ein Zwischenhost (etwa eine Firewall oder ein anderes SMTP-Gerät) zwischen dem sendenden Host und Exchange vorhanden ist, wird nur der Zwischenhost berücksichtigt.
@@ -156,7 +156,7 @@ Seit Exchange Server 2003 SP2 kann der Exchange-Server an jeder Stelle des mit
 
 ![](images/Cc875815.AFSESE04(de-de,TechNet.10).gif)
 
-**Abbildung 4. Schutz auf Protokollebene**
+**Abbildung 4. Schutz auf Protokollebene**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese04_big(de-de,technet.10).gif)
 
 Nachdem die SMTP-Nachricht den Schutz auf Verbindungsebene durchlaufen hat, trifft sie auf der SMTP-Protokollebene auf die nächste Schutzschicht. Hier wird der SMTP-Dialog zwischen dem sendenden SMTP-Host und dem empfangenden SMTP-Host analysiert, um festzustellen, ob Absender und Empfänger zugelassen sind, und um den SMTP-Domänennamen des Absenders zu ermitteln.
@@ -187,7 +187,7 @@ Der SPF-Datensatz wird zur DNS-Zone hinzugefügt, so dass andere Organisationen 
 
 ![](images/Cc875815.AFSESE05(de-de,TechNet.10).gif)
 
-**Abbildung 5. Spam ohne Sender ID bzw. SPF-Datensatz dringt in ein Unternehmen ein**
+**Abbildung 5. Spam ohne Sender ID bzw. SPF-Datensatz dringt in ein Unternehmen ein**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese05_big(de-de,technet.10).gif)
 
 Anschließend fügt Northwind Traders den SPF-Datensatz der DNS-Zone von nwtraders.com folgendermaßen hinzu:
@@ -200,7 +200,7 @@ Anschließend fügt Northwind Traders den SPF-Datensatz der DNS-Zone von nwtrade
 
 ![](images/Cc875815.AFSESE06(de-de,TechNet.10).gif)
 
-**Abbildung 6. In einem Unternehmen erkannter Spam mit Sender ID bzw. SPF-Datensatz**
+**Abbildung 6. In einem Unternehmen erkannter Spam mit Sender ID bzw. SPF-Datensatz**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese06_big(de-de,technet.10).gif)
 
 Durch das Implementieren einer Sender ID können Sie die Menge an Spam, die vorgetäuschterweise von Domänen mit einem SPF-Datensatz stammen, weitgehend reduzieren. Sie sollten jedoch wissen, dass der Sender ID-Schutz nur funktioniert, wenn die jeweiligen Domäneninhaber tatsächlich SPF-Datensätze bereitstellen.
@@ -211,7 +211,7 @@ Bei Microsoft.com werden 59 Prozent der eingehenden Nachrichten, die die Filter
 
 ![](images/Cc875815.AFSESE07(de-de,TechNet.10).gif)
 
-**Abbildung 7. Schutz auf Inhaltsebene**
+**Abbildung 7. Schutz auf Inhaltsebene**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese07_big(de-de,technet.10).gif)
 
 Nachdem durch die Filterung auf Verbindungs- und Protokollebene bestimmt wurde, ob eine eingehende Nachricht Spam ist, besteht die nächste Verteidigungslinie in der Analyse des Nachrichteninhalts hinsichtlich typischer Merkmale, die auf unerwünschte E-Mail hinweisen. Spammer versuchen ständig neue Methoden zu erfinden, mit denen sich Inhaltsfilter überlisten lassen, so dass die Nachrichten in den Posteingang der Benutzer gelangen.
@@ -224,20 +224,20 @@ IMF wird auf Exchange-Servern installiert, die eingehende SMTP-Nachrichten aus d
 
 ![](images/Cc875815.AFSESE08(de-de,TechNet.10).gif)
 
-**Abbildung 8. Intelligente Nachrichtenfilterung mit Exchange**
+**Abbildung 8. Intelligente Nachrichtenfilterung mit Exchange**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese08_big(de-de,technet.10).gif)
 
 Nachdem IMF der Nachricht eine SCL-Bewertung zugewiesen hat, wird die Nachricht mit zwei vom Administrator konfigurierten Schwellenwerten verglichen:
 
 1.  **Gateway: Blockierungskonfiguration: Nachrichten blockieren, deren SCL-Bewertung größer oder gleich folgendem Wert ist**. Wenn die SCL-Bewertung einer Nachricht mindestens so hoch wie der festgelegte Schwellenwert ist, können folgende Aktionen in Bezug auf die Nachricht durchgeführt werden:
 
-    -   Archivieren
+    -  Archivieren
 
-    -   Löschen
+    -  Löschen
 
-    -   Keine Aktion
+    -  Keine Aktion
 
-    -   Ablehnen
+    -  Ablehnen
 
 2.  **Junk-E-Mail-Konfiguration für Informationsspeicher: Nachrichten verschieben, deren SCL-Bewertung größer oder gleich folgendem Wert ist**. Wenn die SCL-Bewertung der Nachricht größer als der festgelegte Schwellenwert ist, wird die Nachricht in den Junk-E-Mail-Ordner des Benutzerposteingangs gesendet, es sei denn, der Absender ist beim Benutzer auf der Liste der sicheren Absender angegeben.
 
@@ -279,7 +279,7 @@ Es ist wichtig, dass Exchange-Administratoren und -Implementierer verstehen, wie
 
 ![](images/Cc875815.AFSESE09(de-de,TechNet.10).gif)
 
-**Abbildung 9. Antispam-Framework von Exchange Server 2003**
+**Abbildung 9. Antispam-Framework von Exchange Server 2003**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875815.afsese09_big(de-de,technet.10).gif)
 
 [](#mainsection)[Zum Seitenanfang](#mainsection)
@@ -328,19 +328,19 @@ Dabei sollten die folgenden Fragen berücksichtigt werden:
 
     Wenn alle notwendigen Voraussetzungen bei Exchange Server 2003 und den Clients erfüllt sind, können die folgenden Methoden bereitgestellt werden:
 
-    -   Schutz auf Verbindungsebene
+    -  Schutz auf Verbindungsebene
 
         IP-Verbindungsfilterung
 
         Echtzeit-Sperrlisten
 
-    -   Schutz auf Protokollebene
+    -  Schutz auf Protokollebene
 
         Empfänger- und Absenderblockierung
 
         Sender ID
 
-    -   Schutz auf Inhaltsebene
+    -  Schutz auf Inhaltsebene
 
         Intelligenter Nachrichtenfilter für Exchange
 
@@ -544,7 +544,7 @@ Die Antworten auf die folgenden Fragen können bei der Auswahl des richtigen RBL
 
 9.  Wählen Sie im Dialogfeld **Rückgabestatuscode** eine der folgenden Optionen aus:
 
-    -   **Filterregel auf beliebigen Rückgabecode anwenden**. Diese Verbindungsfilterregel wird mit jedem Rückgabestatuscode verglichen, der vom Providerdienst gesendet wird. Bei dieser Regel wird der Standardwert, der dem Verbindungsfilter entspricht, auf einen beliebigen Rückgabestatus gesetzt.
+    -  **Filterregel auf beliebigen Rückgabecode anwenden**. Diese Verbindungsfilterregel wird mit jedem Rückgabestatuscode verglichen, der vom Providerdienst gesendet wird. Bei dieser Regel wird der Standardwert, der dem Verbindungsfilter entspricht, auf einen beliebigen Rückgabestatus gesetzt.
 
         Beispiele:
 
@@ -556,7 +556,7 @@ Die Antworten auf die folgenden Fragen können bei der Auswahl des richtigen RBL
 
     <!-- -->
 
-    -   **Filterregel auf folgende Maske anwenden**. Diese Verbindungsfilterregel wird mit vom Anbieter zurückgegebenen Rückgabestatuscodes verglichen, wobei die Codes mithilfe einer Maske interpretiert werden. Geben Sie nach den vom Anbieter verwendeten Masken die Maske ein, nach der die Filterung erfolgen soll.
+    -  **Filterregel auf folgende Maske anwenden**. Diese Verbindungsfilterregel wird mit vom Anbieter zurückgegebenen Rückgabestatuscodes verglichen, wobei die Codes mithilfe einer Maske interpretiert werden. Geben Sie nach den vom Anbieter verwendeten Masken die Maske ein, nach der die Filterung erfolgen soll.
 
         Beispiele:
 
@@ -576,7 +576,7 @@ Die Antworten auf die folgenden Fragen können bei der Auswahl des richtigen RBL
 
     <!-- -->
 
-    -   **Filterregel auf eine der folgenden Antworten anwenden**. Diese Verbindungsfilterregel wird mit vom Anbieter gesendeten Rückgabestatuscodes verglichen, wobei die spezifischen Werte der Rückgabestatuscodes verwendet werden.
+    -  **Filterregel auf eine der folgenden Antworten anwenden**. Diese Verbindungsfilterregel wird mit vom Anbieter gesendeten Rückgabestatuscodes verglichen, wobei die spezifischen Werte der Rückgabestatuscodes verwendet werden.
 
 10. Klicken Sie auf **OK**.
 
