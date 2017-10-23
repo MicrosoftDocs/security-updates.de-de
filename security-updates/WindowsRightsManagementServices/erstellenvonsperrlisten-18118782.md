@@ -33,7 +33,33 @@ Ein Beispiel für eine Sperrlistendatei ist unten dargestellt.
 
 | ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|
-        ```
+|Die Elemente ISSUEDTIME, PUBLICKEY und SIGNATURE sind nicht unbedingt erforderlich, da sie von „RLsigner.exe“ eingefügt oder überschrieben werden.|
+
+```
+<?xml version="1.0" ?>
+<XrML xml:space=”preserve” version=”1.2”>
+  <BODY type="LICENSE" version="3.0">
+    <ISSUEDTIME>...</ISSUEDTIME> 
+    <DESCRIPTOR>
+      <OBJECT type="Revocation-List">
+        <ID type="MS-GUID">{d6373cba-01f1-4f32-ac58-260f580af0f8}</ID>
+      </OBJECT>
+    </DESCRIPTOR>
+<ISSUER>
+      <OBJECT type="Revocation-List">
+        <ID type="acsii-tag">External revocation authority</ID>
+        <NAME>Revocation list name</NAME>
+        <ADDRESS type="URL">https://somedomain.com/revocation_list_file</ADDRESS>
+      </OBJECT>
+      <PUBLICKEY>...</PUBLICKEY>
+    </ISSUER>
+  <REVOCATIONLIST>
+    <REVOKE>...<\REVOKE>
+    <REVOKE>...<\REVOKE>
+  </REVOCATIONLIST>
+  <SIGNATURE>...</SIGNATURE>
+</XrML>        
+```
 | ![](images/Cc720208.Caution(WS.10).gif)Vorsicht                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Wenn Sie in der Sperrliste eine URL angeben, darf in RMS mit SP1 und RMS mit SP2 nicht mehr ein UNC-Pfad verwendet werden. Sie müssen zwingend eine URL angeben. |
@@ -56,69 +82,132 @@ Weitere Informationen zum Angeben von REVOKE-Elementen finden Sie in den folgend
 -   [Sperren von Prinzipalen anhand der Prinzipal-ID](#bkmk_10)
 -   [Sperren von Prinzipalen anhand der Windows Live-ID](#bkmk_7)
 
-<span id="BKMK_1"></span>
 #### Sperren von Prinzipalen anhand eines öffentlichen Schlüssels
+In diesem Beispiel wird ein Prinzipal anhand seines öffentlichen Schlüssels gesperrt. Der Inhalt des &lt;PUBLICKEY&gt;-Tags stammt aus dem Knoten &lt;BODY&gt;&lt;ISSUEDPRINCIPALS&gt;&lt;PRINCIPAL&gt;&lt;PUBLICKEY&gt; des Zertifikats, das den Schlüssel ausgestellt hat.
 
-        ```
+```
+     <REVOKE category="principal" type="principal-key">
+        <PUBLICKEY>
+          <ALGORITHM>RSA-1024</ALGORITHM>
+          <PARAMETER name="public exponent">
+            <VALUE encoding="integer32">65537</VALUE>
+          </PARAMETER>
+          <PARAMETER name="modulus">
+            <VALUE encoding="base64" size="1024">
+6Jn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2FjApkY1RxgL8VAKIuEvIy9hRrvY1YhJx/0Ite5fZeg2crUFrmoQgZzaJ50FvoakA2QMgZZgxoQmwiGE0y40cEJtIlE0=
+            </VALUE>
+          </PARAMETER>
+        </PUBLICKEY>
+      </REVOKE>
+```
 
-<span id="BKMK_2"></span>
 #### Sperren von Zertifikaten und Lizenzen anhand der GUID
+In diesem Beispiel wird ein Zertifikat oder eine Lizenz anhand der GUID gesperrt. Bei Verwendung dieser Sperrliste kann kein Zertifikat bzw. keine Lizenz mit einer übereinstimmenden GUID verwendet werden. Der Inhalt des „<ID>“-Tags in diesem Beispiel stammt aus dem Knoten „<BODY><DESCRIPTOR><OBJECT><ID>“ des Zertifikats oder der Lizenz, das bzw. die Sie sperren möchten. (Sie können auch Anwendungen mithilfe dieses Mechanismus sperren, indem Sie die ID des Anwendungsmanifests angeben.)
 
-        ```
+```
+<REVOKE category="license" type="license-id">
+        <OBJECT>
+          <ID type="MS-GUID">{06BCB94D-43E5-419f-B180-AA9FD321ED7A}</ID>
+        </OBJECT>
+      </REVOKE>
+```
 #### Sperren nach Anwendungsmanifest
 
 Zum Sperren nach Anwendungsmanifest müssen Sie die Aussteller-ID, den öffentlichen Schlüssel des Ausstellers, die Lizenz-ID oder den Lizenz-Hash aus dem Anwendungsmanifest extrahieren. Anwendungsmanifeste sind jedoch Base-64-kodiert. Daher sind diese Informationen in einfacher Textform nicht verfügbar. Mit dem RMS-SDK kann ein Programm entwickelt werden, das die Methoden „DRMConstructCertificateChain“, „DRMDeconstructCertificateChain“ und „DRMDecode“ verwendet, um das Anwendungsmanifest zu dekodieren und die erforderlichen Informationen abzurufen.
 
 Wenn Sie nicht möchten, dass eine bestimmte Anwendung durch Rechte geschützte Inhalte abrufen kann, sollten Sie mithilfe eines Anwendungsausschlusses verhindern, dass der RMS-Cluster dieser Anwendung Nutzungslizenzen erteilt. Ein Anwendungsausschluss kann jedoch nicht verhindern, dass ein Benutzer mit einer gültigen Nutzungslizenz durch Rechte geschützte Inhalte entschlüsselt. Weitere Informationen zum Anwendungsausschluss finden Sie weiter oben unter [Ausschließen von Anwendungen](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86).
 
-<span id="BKMK_3"></span>
 #### Sperren von Zertifikaten und Lizenzen anhand des Hashwerts
+In diesem Beispiel wird ein Zertifikat oder eine Lizenz mithilfe des Hashwerts gesperrt. Der Inhalt des „<VALUE>“-Tags ist der SHA-1-Hash der Unicode-Zeichen von „<BODY>“ bis „</BODY>“ (einschließlich der Tags) im Zertifikat oder in der Lizenz. Sie finden diesen Hashwert im Abschnitt „<SIGNATURE>“ des Zertifikats oder der Lizenz. (Sie können auch Anwendungen mithilfe dieses Mechanismus sperren, indem Sie den Hash des Anwendungsmanifests angeben.)
+```
+<REVOKE category="license" type="license-hash">
+        <DIGEST>
+          <ALGORITHM>SHA1</ALGORITHM>
+          <VALUE encoding="base64" size="160">
+            ABfB4mcEslVCMEZR9reACqXHCoQ=
+          </VALUE>
+        </DIGEST>
+      </REVOKE>
+```
 
-        ```
 #### Sperren nach Anwendungsmanifest
 
 Zum Sperren nach Anwendungsmanifest müssen Sie die Aussteller-ID, den öffentlichen Schlüssel des Ausstellers, die Lizenz-ID oder den Lizenz-Hash aus dem Anwendungsmanifest extrahieren. Anwendungsmanifeste sind jedoch Base-64-kodiert. Daher sind diese Informationen in einfacher Textform nicht verfügbar. Mit dem RMS-SDK kann ein Programm entwickelt werden, das die Methoden „DRMConstructCertificateChain“, „DRMDeconstructCertificateChain“ und „DRMDecode“ verwendet, um das Anwendungsmanifest zu dekodieren und die erforderlichen Informationen abzurufen.
 
 Wenn Sie nicht möchten, dass eine bestimmte Anwendung durch Rechte geschützte Inhalte abrufen kann, sollten Sie mithilfe eines Anwendungsausschlusses verhindern, dass der RMS-Cluster dieser Anwendung Nutzungslizenzen erteilt. Ein Anwendungsausschluss kann jedoch nicht verhindern, dass ein Benutzer mit einer gültigen Nutzungslizenz RMS-geschützte Inhalte entschlüsselt. Weitere Informationen zum Anwendungsausschluss finden Sie weiter oben unter [Ausschließen von Anwendungen](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86).
 
-<span id="BKMK_4"></span>
 #### Sperren von Zertifikaten und Lizenzen anhand des öffentlichen Schlüssels des Ausstellers
+In diesem Beispiel werden alle Zertifikate und Lizenzen gesperrt, die vom Besitzer des angegebenen öffentlichen Schlüssels ausgestellt wurden. Der Inhalt des „<PUBLICKEY>“-Tags stammt aus dem Knoten „<BODY><ISSUER><PUBLICKEY>“ der zu sperrenden Zertifikate oder Lizenzen.
+```
+<REVOKE category="license" type="issuer-key">
+        <PUBLICKEY>
+          <ALGORITHM>RSA-1024</ALGORITHM>
+          <PARAMETER name="public exponent">
+            <VALUE encoding="integer32">65537</VALUE>
+          </PARAMETER>
+          <PARAMETER name="modulus">
+            <VALUE encoding="base64" size="1024">
+AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2FjApkY1RxgL8VAKIuEvIy9hRrvY1YhJx/0Ite5fZeg2crUFrmoQgZzaJ50FvoakA2QMgZZgxoQmwiGE0y40cEJtIlE0=
+            </VALUE>
+          </PARAMETER>
+        </PUBLICKEY>
+      </REVOKE>
+```
 
-        ```
-
-<span id="BKMK_5"></span>
 #### Sperren von Zertifikaten und Lizenzen anhand der Aussteller-ID
-
-        ```
+In diesem Beispiel wird eine Gruppe von Zertifikaten oder Lizenzen anhand der Aussteller-ID gesperrt. Der Inhalt des „<ID>“-Tags stammt aus dem Knoten „<BODY><ISSUER><OBJECT><ID>“ der zu sperrenden Zertifikate oder Lizenzen.
+```
+      <REVOKE category="license" type="issuer-id">
+        <OBJECT type="MS-DRM-Server">
+          <ID type="MS-GUID">{2BE9E200-3040-41B9-8832-D4D0445EBBD6}</ID> 
+        </OBJECT>
+      </REVOKE>
+```
 | ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen GUID und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
 
-<span id="BKMK_6"></span>
 #### Sperren von Inhalten anhand der Inhalts-ID
-
-        ```
+In diesem Beispiel werden geschützte Inhalte anhand der Inhalts-ID gesperrt. Dies ist die Methode, die Sie zum Sperren von Inhalten bevorzugt verwenden sollten, da alle aus einer gegebenen Veröffentlichungslizenz erstellten Nutzungslizenzen über dieselbe Inhalts-ID verfügen. Der Wert des Knotens „<OBJECT>“ stammt aus dem Knoten „<BODY><WORK><OBJECT>“ einer Veröffentlichungslizenz oder einer Nutzungslizenz für die Inhalte.
+```
+<REVOKE category="content" type="content-id">
+        <OBJECT type="Microsoft Office Document">
+          <ID type="MS-GUID">{8702641D-3512-4AA4-A584-84C703A5B5C0}</ID>
+        </OBJECT>
+      </REVOKE>
+```
 | ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen GUID und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
 
-<span id="BKMK_10"></span>
 #### Sperren von Prinzipalen anhand des Windows-Kontos
-
-        ```
+In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand seines Windows-Kontos gesperrt. Der Inhalt des „<OBJECT>“-Elements hier stammt aus dem Knoten „<BODY><ISSUEDPRINCIPALS><PRINCIPAL><OBJECT>“ eines Rechtekontozertifikats oder einer Nutzungslizenz.
+```
+<REVOKE category="principal" type="principal-id">
+        <OBJECT type="Group-Identity">
+          <ID type="Windows">{Windows account SID}</ID> 
+          <NAME>{E-mail address}</NAME> 
+        </OBJECT>
+      </REVOKE>
+```
 | ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen Sicherheitskennung (SID) des Windows-Kontos und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
 
-<span id="BKMK_7"></span>
 #### Sperren von Prinzipalen anhand der Windows Live-ID
-
-        ```
+In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand seiner Windows Live-ID gesperrt. Der Inhalt des „<OBJECT>“-Elements hier stammt aus dem Knoten „<BODY><ISSUEDPRINCIPALS><PRINCIPAL><OBJECT>“ eines Rechtekontozertifikats oder einer Nutzungslizenz.
+```
+<REVOKE category="principal" type="principal-id">
+        <OBJECT type="Group-Identity">
+          <ID type="Passport">{PUID}</ID> 
+          <NAME>michael@contoso.com</NAME> 
+        </OBJECT>
+      </REVOKE>
+```
 | ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen PUID (Principal Unique Identifier) und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
 
-<span id="BKMK_8"></span>
 Einfügen einer Signatur in eine Sperrliste
 ------------------------------------------
 
@@ -131,7 +220,7 @@ Ihre Sperrlistendatei muss als Unicode-Datei gespeichert worden sein, um sie mit
 **So verwenden Sie „Sn.exe“, um ein neues Schlüsselpaar zu erzeugen und es in eine Datei zu schreiben**
 1.  Erstellen Sie den privaten Schlüssel. Geben Sie dazu an einer Eingabeaufforderung den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
 
-    **sn -k** *Privater-Schlüssel-Datei***.snk**
+    **sn -k** *Privater-Schlüssel-Datei* **.snk**
 
     wobei *Privater-Schlüssel-Datei* der Name der Schlüsseldatei ist.
 
@@ -149,7 +238,6 @@ Ihre Sperrlistendatei muss als Unicode-Datei gespeichert worden sein, um sie mit
 |--------------------------------------------------------------------------|
 | „RLsigner.exe“ unterstützt keine Dateinamen mit Leerzeichen.             |
 
-<span id="BKMK_9"></span>
 Verwenden von „RLsigner.exe“
 ----------------------------
 
@@ -165,9 +253,7 @@ Wenn Sie die Sperrliste mit „RLsigner.exe“ signieren möchten, geben Sie an 
 
 Verwenden Sie zur Vervollständigung der Eingabeparameter des Befehls die folgenden Informationen:
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -206,15 +292,15 @@ Verwenden Sie zur Vervollständigung der Eingabeparameter des Befehls die folgen
 In den folgenden Beispielen wird beschrieben, wie Sie „RLsigner.exe“ an einer Eingabeaufforderung mit anderen Kryptographiedienstanbietern verwenden können:
   
 -   Beispiel für eine Befehlszeilensyntax bei Verwendung einer Schlüsseldatei:  
+
     **rlsigner.exe rl.xml -f schluessel.dat ausgabe.xml**  
 -   Beispiel für eine Befehlszeilensyntax bei Verwendung eines Hardwaresicherheitsmoduls:  
+
     **rlsigner.exe rl.xml -h Container CSP ausgabe.xml**
   
 „RLsigner.exe“ stellt in seinem Rückgabecode grundlegende Informationen zu Fehlern und Erfolgen bereit. In der folgenden Tabelle werden die möglichen Rückgabecodes beschrieben.
   
-###  
-
- 
+<p></p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -262,5 +348,25 @@ Es empfiehlt sich möglicherweise, das automatische Signieren von Sperrlisten au
   
 Sie können das Signieren von Sperrlisten mithilfe eines Skripts automatisieren. Das folgende VBScript-Beispielskript ruft „RLsigner.exe“ auf und schreibt die Ergebnisse in das Systemereignisprotokoll.
   
-<codesnippet asp="http://msdn2.microsoft.com/asp" language displaylanguage="Visual Basic">const EVT\_SUCCESS = 0 const EVT\_ERROR = 1 const EVT\_WARNING = 2 const EVT\_INFORMATION = 4 const EVT\_AUDIT\_SUCCESS = 8 const EVT\_AUDIT\_FAILURE = 16 Dim WshShell, oExec Set WshShell = CreateObject( "WScript.Shell" ) Set oExec = WshShell.Exec("rlsigner.exe input\_file key\_file output\_file") Do While oExec.Status = 0 WScript.Sleep 100 Loop if WshShell.ExitCode &lt;&gt; 0 Then WshShell.LogEvent EVT\_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """" else WshShell.LogEvent EVT\_SUCCESS, "RLsigner completed successfully" end if  
+```
+const EVT_SUCCESS       = 0
+const EVT_ERROR         = 1
+const EVT_WARNING       = 2
+const EVT_INFORMATION   = 4
+const EVT_AUDIT_SUCCESS = 8
+const EVT_AUDIT_FAILURE = 16
+
+Dim WshShell, oExec
+
+Set WshShell = CreateObject( "WScript.Shell" )
+Set oExec = WshShell.Exec("rlsigner.exe input_file key_file output_file")
+Do While oExec.Status = 0
+     WScript.Sleep 100
+Loop
+
+if WshShell.ExitCode <> 0 Then
+    WshShell.LogEvent EVT_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """"
+else
+    WshShell.LogEvent EVT_SUCCESS, "RLsigner completed successfully"
+end if
 ```
