@@ -1,6 +1,6 @@
 ---
-Title: Kapitel 7: Zusammenfassung
-TOCTitle: Kapitel 7: Zusammenfassung
+Title: Kapitel 7 - Zusammenfassung
+TOCTitle: Kapitel 7 - Zusammenfassung
 ms:assetid: 8001f9fb-f330-4ab4-a134-ff756091ea0d
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Cc163082(v=TechNet.10)
 ms:contentKeyID: 20072367
@@ -21,7 +21,7 @@ Dieses Handbuch enthält Material von Beratern und Systemtechnikern, die Lösung
 
 Sicherheit ist ein wichtiges Thema, ungeachtet der Umgebung Ihrer Organisation. Viele Organisationen legen jedoch keinen großen Wert auf Sicherheit, da sie sie fälschlicherweise als etwas ansehen, das ihre Beweglichkeit und Flexibilität einschränkt. Wenn gut durchdachte Sicherheit zu einer Hauptgeschäftsanforderung wird und von Anfang an für jedes IT-Projekt geplant wird, kann eine korrekt implementierte Sicherheitsstrategie die Verfügbarkeit und Leistungsfähigkeit Ihrer Computersysteme verbessern. Umgekehrt kann eine Sicherheitsstrategie, die nachträglich zu einem Projekt hinzugefügt wird, die Benutzerfreundlichkeit, Stabilität und Verwaltungsflexibilität beeinträchtigen. Aus diesen Gründen wird vorgeschlagen, der Sicherheit in jeder Organisation höchste Priorität einzuräumen.
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Sichern des Clients](#ecaa)  
 [Richtlinie für Softwareeinschränkungen](#ebaa)  
@@ -46,17 +46,15 @@ In der Hochsicherheitsumgebung, die in diesem Handbuch beschrieben wird, stehen 
 
 #### Eigenständige Clients
 
-Obwohl für eigenständige Clientcomputer weniger Einstellungen für Sicherheitsrichtlinien zur Verfügung stehen als für jene, die einer Active Directory-Domäne angehören, stehen für solche Computer wichtige Sicherheitsfunktionen zur Verfügung. Durch die korrekte Konfiguration dieser Richtlinieneinstellungen auf eigenständigen Computern wird das Risiko der Ausnutzung von Sicherheitsanfälligkeiten minimiert. Die Umgebung mit eigenständigen Clients bringt einen höheren administrativen Aufwand mit sich, da diese Computer nicht mithilfe von domänenbasierten Gruppenrichtlinien verwaltet werden können. Die Verwendung der in diesem Handbuch beschriebenen Programme trägt jedoch dazu bei, den administrativen Aufwand zu verringern.
+Obwohl für eigenständige Clientcomputer weniger Einstellungen für Sicherheitsrichtlinien zur Verfügung stehen als für jene, die einer Active Directory-Domäne angehören, stehen für solche Computer wichtige Sicherheitsfunktionen zur Verfügung. Durch die korrekte Konfiguration dieser Richtlinieneinstellungen auf eigenständigen Computern wird das Risiko der Ausnutzung von Sicherheitsanfälligkeiten minimiert. Die Umgebung mit eigenständigen Clients bringt einen höheren administrativen Aufwand mit sich, da diese Computer nicht mithilfe von domänenbasierten Gruppenrichtlinien verwaltet werden können. Die Verwendung der in diesem Handbuch beschriebenen Programme trägt jedoch dazu bei, den administrativen Aufwand zu verringern.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Richtlinie für Softwareeinschränkungen
 
-Richtlinien für Softwareeinschränkungen stellen Administratoren eine Möglichkeit zur Identifizierung von Software zur Verfügung, die auf Clientcomputern in einer Domäne oder in einer Umgebung mit eigenständigen Clients ausgeführt werden. Außerdem wird damit gesteuert, ob Software ausgeführt werden kann. Damit können schädliche Skripts oder Codes blockiert und die Ausführung unerwünschter Anwendungen verhindert werden. Richtlinien für Softwareeinschränkungen können für eigenständige Systeme konfiguriert oder über domänenbasierte Gruppenrichtlinien verwaltet werden, um die Systemintegrität und Verwaltbarkeit zu verbessern.
+Richtlinien für Softwareeinschränkungen stellen Administratoren eine Möglichkeit zur Identifizierung von Software zur Verfügung, die auf Clientcomputern in einer Domäne oder in einer Umgebung mit eigenständigen Clients ausgeführt werden. Außerdem wird damit gesteuert, ob Software ausgeführt werden kann. Damit können schädliche Skripts oder Codes blockiert und die Ausführung unerwünschter Anwendungen verhindert werden. Richtlinien für Softwareeinschränkungen können für eigenständige Systeme konfiguriert oder über domänenbasierte Gruppenrichtlinien verwaltet werden, um die Systemintegrität und Verwaltbarkeit zu verbessern.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zusammenfassung
 
@@ -104,10 +102,6 @@ In diesem Beitrag
 
 Download
 
-[Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&amp;clcid=0x409"><img AltText="Cc163082.icon_exe(de-de,TechNet.10).gif)  
+![](images/cc163082.icon_exe(de-de,technet.10).gif)[Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&amp;clcid=0x409"><img AltText="Cc163082.icon_exe(de-de,TechNet.10).gif)  
 
 [Zum Seitenanfang](#mainsection)
-
-
-
-

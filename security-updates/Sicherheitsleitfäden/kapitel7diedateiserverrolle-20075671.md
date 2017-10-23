@@ -1,6 +1,6 @@
 ---
-Title: Kapitel 7: Die Dateiserverrolle
-TOCTitle: Kapitel 7: Die Dateiserverrolle
+Title: Kapitel 7 - Die Dateiserverrolle
+TOCTitle: Kapitel 7 - Die Dateiserverrolle
 ms:assetid: 2b1536d0-9610-4fb5-93b4-72f62d9e2ff3
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443728(v=TechNet.10)
 ms:contentKeyID: 20075671
@@ -15,7 +15,7 @@ ms:contentKeyID: 20075671
 Aktualisiert: 27.12.2005
  
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Überblick](#ehaa)  
 [Einstellungen für Überwachungsrichtlinien](#egaa)  
@@ -92,38 +92,33 @@ Hochsicher - Dateiserver.inf
 </table>
 
 
-Informationen zu den Einstellungen in der Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Informationen zu sämtlichen Standardeinstellungen finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen für Windows Server 2003 und Windows XP*](http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx)*,* das unter *http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx* erhältlich ist.
+Informationen zu den Einstellungen in der Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Informationen zu sämtlichen Standardeinstellungen finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen für Windows Server 2003 und Windows XP*](http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx)*,* das unter *http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx* erhältlich ist.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Einstellungen für Überwachungsrichtlinien
 
-Die Einstellungen für Überwachungsrichtlinien für Dateiserver in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen für diese Richtlinie wird die Protokollierung der Sicherheitsüberwachungsinformationen auf allen Dateiservern aktiviert.
+Die Einstellungen für Überwachungsrichtlinien für Dateiserver in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen für diese Richtlinie wird die Protokollierung der Sicherheitsüberwachungsinformationen auf allen Dateiservern aktiviert.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zuweisen von Benutzerrechten
 
-Die Einstellungen für die Zuweisung von Benutzerrechten für Dateiserver in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen für diese Richtlinie werden die Zuweisungen von Benutzerrechten auf allen Dateiservern einheitlich konfiguriert.
+Die Einstellungen für die Zuweisung von Benutzerrechten für Dateiserver in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen für diese Richtlinie werden die Zuweisungen von Benutzerrechten auf allen Dateiservern einheitlich konfiguriert.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Sicherheitsoptionen
 
-Die Einstellungen für die Sicherheitsoptionen für Dateiserver in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen für diese Richtlinie werden die relevanten Sicherheitsoptionen auf allen Dateiservern einheitlich konfiguriert.
+Die Einstellungen für die Sicherheitsoptionen für Dateiserver in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen für diese Richtlinie werden die relevanten Sicherheitsoptionen auf allen Dateiservern einheitlich konfiguriert.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Ereignisprotokolleinstellungen
 
-Die Ereignisprotokolleinstellungen für Dateiserver in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“.
+Die Ereignisprotokolleinstellungen für Dateiserver in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zusätzliche Sicherheitseinstellungen
 
@@ -147,16 +142,15 @@ Die Auswirkung dieser Konfigurationsänderung hat sich in den letzten Jahren nac
 
 * Notieren Sie die vorgenommenen Änderungen, und bewahren Sie diese Informationen an einem sicheren Ort auf.
 
-**Hinweis**: Das vordefinierte Administratorkonto kann durch eine Gruppenrichtlinie umbenannt werden. Diese Einstellung wurde in den mit diesem Handbuch bereitgestellten Sicherheitsvorlagen nicht implementiert, da jede Organisation einen eindeutigen Namen für dieses Konto auswählen sollte. Sie können jedoch die Einstellung **Konten: Administratorkonto umbenennen** so konfigurieren, dass Administratorkonten in den drei in diesem Handbuch definierten Umgebungen umbenannt werden. Diese Richtlinieneinstellung ist Teil der Einstellungen für die Sicherheitsoptionen eines Gruppenrichtlinienobjekts.
+    **Hinweis**: Das vordefinierte Administratorkonto kann durch eine Gruppenrichtlinie umbenannt werden. Diese Einstellung wurde in den mit diesem Handbuch bereitgestellten Sicherheitsvorlagen nicht implementiert, da jede Organisation einen eindeutigen Namen für dieses Konto auswählen sollte. Sie können jedoch die Einstellung **Konten: Administratorkonto umbenennen** so konfigurieren, dass Administratorkonten in den drei in diesem Handbuch definierten Umgebungen umbenannt werden. Diese Richtlinieneinstellung ist Teil der Einstellungen für die Sicherheitsoptionen eines Gruppenrichtlinienobjekts.
 
 
 
 #### Sichern von Dienstkonten
 
-Konfigurieren Sie einen Dienst für die Ausführung im Sicherheitskontext eines Domänenkontos nur, wenn es sich nicht vermeiden lässt. Bei einem physischen Zugriff auf den Server könnten Domänenkontenkennwörter leicht durch Abbilden von geheimen LSA-Schlüsseln aufgedeckt werden. Weitere Informationen zum Sichern von Dienstkonten finden Sie im [Planungshandbuch für die Dienste- und Dienstekontensicherheit](http://www.microsoft.com/technet/security/topics/serversecurity/serviceaccount/default.mspx) (in englischer Sprache) unter www.microsoft.com/technet/security/topics/serversecurity/serviceaccount/default.mspx.
+Konfigurieren Sie einen Dienst für die Ausführung im Sicherheitskontext eines Domänenkontos nur, wenn es sich nicht vermeiden lässt. Bei einem physischen Zugriff auf den Server könnten Domänenkontenkennwörter leicht durch Abbilden von geheimen LSA-Schlüsseln aufgedeckt werden. Weitere Informationen zum Sichern von Dienstkonten finden Sie im [Planungshandbuch für die Dienste- und Dienstekontensicherheit](http://www.microsoft.com/technet/security/topics/serversecurity/serviceaccount/default.mspx) (in englischer Sprache) unter www.microsoft.com/technet/security/topics/serversecurity/serviceaccount/default.mspx.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Erstellen der Richtlinie mithilfe des SCW
 
@@ -167,36 +161,35 @@ Wenn Sie Ihre eigene Richtlinie erstellen, müssen Sie die Abschnitte „Registr
 Es empfiehlt sich, das Betriebssystem zu Beginn der Konfigurationsarbeit neu zu installieren. Dadurch wird sichergestellt, dass keine älteren Einstellungen oder Software von früheren Konfigurationen verwendet werden. Wenn möglich, sollten Sie das Betriebssystem auf ähnlicher Hardware wie der bei der Bereitstellung verwendeten installieren, um eine möglichst hohe Kompatibilität zu gewährleisten. Die neue Installation wird als *Referenzcomputer* bezeichnet.
 
 **So erstellen Sie die Dateiserverrichtlinie**
-* Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
+1. Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
 
-* Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
+2. Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
 
-* Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
+3. Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
 
-* Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
+4. Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
 
-* Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
+5. Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
 
-* Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die Dateiserverrolle.
+6. Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die Dateiserverrolle.
 
-* Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
+7. Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
 
-* Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
+8. Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
 
-* Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
+9. Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
 
-* Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
+10. Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
 
-* Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
+11. Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
 
-* Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+12. Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-* Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+13. Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-* Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - Dateiserver.inf“).
+14. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - Dateiserver.inf“).
 
-* Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. Dateiserver.xml).
-
+15. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. Dateiserver.xml).
 
 
 #### Testen der Richtlinie mithilfe des SCW
@@ -218,25 +211,26 @@ library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspxsowie in der [Secu
 #### Umwandeln und Bereitstellen der Richtlinie
 
 Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schritte aus, um sie in ein Gruppenrichtlinienobjekt umzuwandeln und bereitzustellen:
-* Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
+1. Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
 
+    `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;</CodeSnippet>
-und drücken Sie anschließend die Eingabetaste. Beispiel:
+    und drücken Sie anschließend die Eingabetaste. Beispiel:
 
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\File 
+    Server.xml" /g:"File Server Policy"
+    ```
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:"C:\Windows\Security\msscw\Policies\File Server.xml" /g:"File Server Policy"</CodeSnippet>
-**Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
 
-* Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
-
+2. Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
 
 Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, öffnen Sie die Systemsteuerung, und doppelklicken Sie auf **Windows-Firewall.**  
 
 Anschließend sollten Sie eine endgültige Prüfung vornehmen, um sicherzustellen, dass das Gruppenrichtlinienobjekt die gewünschten Einstellungen anwendet. Prüfen Sie zum Abschluss dieses Verfahrens, dass die entsprechenden Einstellungen vorgenommen wurden und die Funktionalität nicht beeinträchtigt ist.
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zusammenfassung
 
@@ -316,9 +310,3 @@ In diesem Beitrag
 </tr>
 
 </table>
-
- 
-
-
-
-
