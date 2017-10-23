@@ -11,9 +11,7 @@ Planen der Clusteranforderungen für RMS
 
 Wenn Sie RMS in einer Clusterkonfiguration einsetzen, sollten Sie sicherstellen, dass Sie für die folgenden Bedingungen innerhalb Ihrer Organisation ein Konzept entwickelt haben.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
