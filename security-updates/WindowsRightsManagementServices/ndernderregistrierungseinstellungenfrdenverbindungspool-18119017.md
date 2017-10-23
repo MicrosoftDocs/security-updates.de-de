@@ -21,9 +21,7 @@ Auf Computern mit der 64-Bit-Version von Windows Server 2003 ist der folgende R
 
 In der folgenden Tabelle werden die Einträge aufgelistet, die Sie hinzufügen können, um die Standardeinstellungen des Active Directory-Verbindungspools außer Kraft zu setzen. Die angezeigten Werte sind die Standardwerte. Weitere Informationen zum Erstellen einer Abfrageliste und Verwenden dieser Einstellungen in RMS finden Sie oben unter „Optimieren der Einstellungen für den Active Directory-Verbindungspool“.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
