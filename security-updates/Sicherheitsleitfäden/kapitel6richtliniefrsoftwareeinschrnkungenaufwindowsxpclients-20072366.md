@@ -1,28 +1,25 @@
 ---
-Title: Kapitel 6: Richtlinie für Softwareeinschränkungen auf Windows XP-Clients
-TOCTitle: Kapitel 6: Richtlinie für Softwareeinschränkungen auf Windows XP-Clients
+Title: Kapitel 6 - Richtlinie für Softwareeinschränkungen auf Windows XP-Clients
+TOCTitle: Kapitel 6 - Richtlinie für Softwareeinschränkungen auf Windows XP-Clients
 ms:assetid: 548c007a-7c26-44fd-8723-563a1f72f21e
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Cc163080(v=TechNet.10)
 ms:contentKeyID: 20072366
 ---
 
-
 # Windows XP-Sicherheitshandbuch
-
 
 
 ### Kapitel 6: Richtlinie für Softwareeinschränkungen auf Windows XP-Clients
 Aktualisiert: 20.10.2005
  
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Überblick](#eeaa)  
 [Architektur der Richtlinie für Softwareeinschränkungen](#edaa)  
 [Optionen der Richtlinie für Softwareeinschränkungen](#ecaa)  
 [Entwerfen und Bereitstellen von Richtlinien für Softwareeinschränkungen](#ebaa)  
 [Zusammenfassung](#eaaa)  
-
 
 
 ### Überblick
@@ -68,15 +65,13 @@ Richtlinien für Softwareeinschränkungen bieten die folgenden leistungsfähigen
 
 
 Die Implementierung einer Richtlinie für Softwareeinschränkungen umfasst drei Phasen:
-* Der Administrator oder ein autorisierter Stellvertreter erstellt die Richtlinie mithilfe des Gruppenrichtlinien-Snap-Ins der MMC (Microsoft Management Console) für den Containerstandort, die Domäne oder Organisationseinheit in Active Directory. Microsoft empfiehlt, ein getrenntes Gruppenrichtlinienobjekt (GPO) für Richtlinien für Softwareeinschränkungen zu erstellen.
+1. Der Administrator oder ein autorisierter Stellvertreter erstellt die Richtlinie mithilfe des Gruppenrichtlinien-Snap-Ins der MMC (Microsoft Management Console) für den Containerstandort, die Domäne oder Organisationseinheit in Active Directory. Microsoft empfiehlt, ein getrenntes Gruppenrichtlinienobjekt (GPO) für Richtlinien für Softwareeinschränkungen zu erstellen.
 
-**Hinweis**: Zum Erstellen einer neuen Richtlinie für Softwareeinschränkungen für einen lokalen eigenständigen Computer müssen Sie Mitglied der Gruppe **Administratoren** auf dem lokalen Computer sein. Um diese Richtlinieneinstellungen zu konfigurieren, klicken Sie auf **Windows-Einstellungen**, auf **Sicherheitseinstellungen** und dann auf **Richtlinie für Softwareeinschränkungen.**  
+    **Hinweis**: Zum Erstellen einer neuen Richtlinie für Softwareeinschränkungen für einen lokalen eigenständigen Computer müssen Sie Mitglied der Gruppe **Administratoren** auf dem lokalen Computer sein. Um diese Richtlinieneinstellungen zu konfigurieren, klicken Sie auf **Windows-Einstellungen**, auf **Sicherheitseinstellungen** und dann auf **Richtlinie für Softwareeinschränkungen.**  
 
-* Die Richtlinie auf Computerebene wird heruntergeladen und tritt in Kraft, sobald Sie den Computer starten. Benutzerrichtlinien werden bei der Anmeldung des Benutzers am System oder an der Domäne wirksam. Führen Sie den Befehl **gpupdate.exe /force** aus, um die Richtlinie zu aktualisieren.
+2. Die Richtlinie auf Computerebene wird heruntergeladen und tritt in Kraft, sobald Sie den Computer starten. Benutzerrichtlinien werden bei der Anmeldung des Benutzers am System oder an der Domäne wirksam. Führen Sie den Befehl **gpupdate.exe /force** aus, um die Richtlinie zu aktualisieren.
 
-* Wenn ein Benutzer eine ausführbare Datei wie z. B. eine Anwendung oder ein Skript startet, wird durch die Richtlinie bestimmt, ob die Ausführung entsprechend den Vorrangsregeln zulässig ist.
-
-
+3. Wenn ein Benutzer eine ausführbare Datei wie z. B. eine Anwendung oder ein Skript startet, wird durch die Richtlinie bestimmt, ob die Ausführung entsprechend den Vorrangsregeln zulässig ist.
 
 #### Einstellungen für nicht eingeschränkte oder nicht erlaubte Ausführung
 
@@ -107,7 +102,7 @@ Eine Richtlinie für Softwareeinschränkungen verwendet die folgenden vier Regel
 * **Zonenregel.**   Verwendet die Internetursprungszone der ausführbaren Datei (wenn die Datei mit Microsoft Internet Explorer heruntergeladen wurde).
 
 
-Die Hashregel
+##### Die Hashregel
 
 Ein Hashwert ist ein digitaler Fingerabdruck, der ein Softwareprogramm oder eine ausführbare Datei eindeutig identifiziert, selbst wenn das Programm oder die ausführbare Datei verschoben oder umbenannt wird. Mithilfe eines Hashwertes können Administratoren eine bestimmte Version einer ausführbaren Datei oder eines Programms überwachen, die Benutzer nicht ausführen sollen.
 
@@ -127,35 +122,37 @@ Digital signierte Dateien verwenden den in der Signatur enthaltenen MD5- oder SH
 
 Hashregeln werden wie folgt formatiert:
 
+```
 [MD5- oder SHA-1-Hashwert]:[Dateilänge]:[Hashalgorithmus-ID]
 
-Die folgende Beispielhashregel bezeichnet eine Datei mit einer Länge von 126 Byte und einem Inhalt, der dem MD5-Hashwert (7bc04acc0d6480af862d22d724c3b049) und dem Hashalgorithmus mit der Hashalgorithmus-ID 32771 entspricht:
+Die folgende Beispielhashregel bezeichnet eine Datei mit einer Länge von 126 Byte und einem Inhalt, der dem MD5-Hashwert (7bc04acc0d6480af862d22d724c3b049) und dem Hashalgorithmus mit der Hashalgorithmus-ID 32771 entspricht:
 
 7bc04acc0d6480af862d22d724c3b049:126:32771
+```
 
 Für jede Datei, die der Administrator zulassen oder nicht zulassen möchte, muss eine Hashregel vorhanden sein. Wenn Software aktualisiert wird, muss der Administrator eine neue Hashregel für die einzelnen Anwendungen erstellen, da die Hashwerte der ursprünglichen ausführbaren Dateien nicht mit jenen der neuen Dateien übereinstimmen.
 
 Führen Sie die im Folgenden beschriebenen Schritte aus, um eine Hashregel für eine ausführbare Datei zu erstellen.
 
 **So erstellen Sie eine Hashregel für eine vorhandene ausführbare Datei**
-* Klicken Sie in der Symbolleiste des Gruppenrichtlinienobjekt-Editors auf **Windows-Einstellungen**, **Sicherheitseinstellungen**, **Richtlinien für Softwareeinschränkung**, und klicken Sie dann mit der rechten Maustaste auf **Zusätzliche Regeln.**  
+1. Klicken Sie in der Symbolleiste des Gruppenrichtlinienobjekt-Editors auf **Windows-Einstellungen**, **Sicherheitseinstellungen**, **Richtlinien für Softwareeinschränkung**, und klicken Sie dann mit der rechten Maustaste auf **Zusätzliche Regeln.**  
 
-* Klicken Sie im Kontextmenü auf **Neue Hashregel.**  
+2. Klicken Sie im Kontextmenü auf **Neue Hashregel.**  
+
+    ![](images/cc163080.xpsg0601(de-de,technet.10).gif)
+
+    **Abbildung 6.1: Dialogfeld „Neue Hashregel“**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0601_big(de-de,technet.10).gif)  
+
+3. Klicken Sie auf **Durchsuchen**, um die Datei auszuwählen, für die Sie eine Hashregel erstellen möchten. Die ausführbare Datei in diesem Beispiel ist **Excel.exe.**   Der neue Dateihashwert wird im Feld **Dateihash:** angezeigt, und die Anwendungsversion im Feld **Dateiinformationen:.**  
+
+4. Wählen Sie die für diese Regel gewünschte Standardeinstellung für die Sicherheitsstufe aus. Folgende Optionen stehen zur Auswahl:
+    - **Nicht erlaubt**
+
+    - **Nicht eingeschränkt**
 
 
-**Abbildung 6.1: Dialogfeld „Neue Hashregel“**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0601_big(de-de,technet.10).gif)  
-
-* Klicken Sie auf **Durchsuchen**, um die Datei auszuwählen, für die Sie eine Hashregel erstellen möchten. Die ausführbare Datei in diesem Beispiel ist **Excel.exe.**   Der neue Dateihashwert wird im Feld **Dateihash:** angezeigt, und die Anwendungsversion im Feld **Dateiinformationen:.**  
-
-* Wählen Sie die für diese Regel gewünschte Standardeinstellung für die Sicherheitsstufe aus. Folgende Optionen stehen zur Auswahl:
-* **Nicht erlaubt**
-
-* **Nicht eingeschränkt**
-
-
-
-Die Zertifikatsregel
+##### Die Zertifikatsregel
 
 Eine Zertifikatsregel gibt an, dass das Zertifikat eines Softwareherausgebers (das für die Codesignierung verwendet wird) vorhanden sein muss, bevor das Programm ausgeführt werden darf. Ein Administrator kann beispielsweise für alle Skripts und ActiveX-Steuerelemente signierte Zertifikate verlangen. Folgenden Quellen sind u. a. für die Zertifikatsregel zulässig:
 * Eine kommerzielle Zertifizierungsstelle (Certificate Authority, CA), z. B. VeriSign
@@ -167,18 +164,18 @@ Eine Zertifikatsregel gibt an, dass das Zertifikat eines Softwareherausgebers (d
 
 Eine Zertifikatsregel stellt ein starkes Verfahren der Softwareidentifizierung dar, da zum Prüfen der Dateien unabhängig vom Namen und Speicherort signierte Hashwerte verwendet werden, die in der Signatur der signierten Datei enthalten sind. Leider verwenden nur wenige Softwareanbieter Codesignierung. Selbst diejenigen, die es tun, signieren in der Regel nur einen kleinen Prozentsatz der von ihnen verteilten ausführbaren Dateien. Aus diesen Gründen werden Zertifikatsregeln im Allgemeinen für einige wenige spezielle Anwendungstypen wie z. B. ActiveX-Steuerelemente oder intern entwickelte Anwendungen verwendet. In diesem Handbuch wird Organisationen z. B. empfohlen, Skripts zur Verwaltung von Computern und Benutzern digital zu signieren, damit alle nicht signierten Skripts blockiert werden können. Mit einer Hashregel können Ausnahmen von einer Zertifikatsregel identifiziert werden.
 
-Aktivieren von Zertifikatsregeln
+##### Aktivieren von Zertifikatsregeln
 
 Zertifikatsregeln sind standardmäßig nicht aktiviert. Führen Sie zum Aktivieren von Zertifikatsregeln die im Folgenden beschriebenen Schritte aus.
 
 **So aktivieren Sie Zertifikatsregeln**
-* Öffnen Sie das Gruppenrichtlinienobjekt im Gruppenrichtlinienobjekt-Editor.
+1. Öffnen Sie das Gruppenrichtlinienobjekt im Gruppenrichtlinienobjekt-Editor.
 
-* Klicken Sie in der Konsolenstruktur auf **Sicherheitsoptionen.**  
+2. Klicken Sie in der Konsolenstruktur auf **Sicherheitsoptionen.**  
 
-* Doppelklicken Sie im Detailbereich auf **Systemeinstellungen: Zertifikatsregeln zur Durchsetzung von Softwareeinschränkungsrichtlinien auf Windows-Programme anwenden.**  
+3. Doppelklicken Sie im Detailbereich auf **Systemeinstellungen: Zertifikatsregeln zur Durchsetzung von Softwareeinschränkungsrichtlinien auf Windows-Programme anwenden.**  
 
-* Klicken Sie auf **Aktiviert**, um die Zertifikatsregeln verfügbar zu machen.
+4. Klicken Sie auf **Aktiviert**, um die Zertifikatsregeln verfügbar zu machen.
 
 
 Ausführliche Anweisungen zum digitalen Signieren von Dateien finden Sie im Abschnitt „Handbuch zum Digitalen Signieren von Dateien mit Testzertifikaten“ in „[Verwendung von Richtlinien für Softwareeinschränkungen zum Schutz vor nicht autorisierter Software](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/rstrplcy.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/winxppro/maintain/rstrplcy.mspx.
@@ -186,44 +183,50 @@ Ausführliche Anweisungen zum digitalen Signieren von Dateien finden Sie im Absc
 Viele kommerzielle Websites lassen ihren Softwarecode von einer kommerziellen Zertifizierungsstelle signieren. Die Gültigkeit dieser Zertifikate liegt meist zwischen einem und mehreren Jahren. Achten Sie bei der Verwendung von Zertifikatsregeln auf das Ablaufdatum der Zertifikate. Möglicherweise können Sie sich an den Softwareherausgeber wenden, um weitere Informationen zum Gültigkeitszeitraum der herausgegebenen Zertifikate zu erhalten. Wenn Sie ein Zertifikat von einer kommerziellen Zertifizierungsstelle erhalten, können Sie es zum Erstellen einer Zertifikatsregel in eine Datei exportieren. Führen Sie zum Exportieren eines Zertifikats die im Folgenden beschriebenen Schritte aus.
 
 **So exportieren Sie ein Zertifikat**
-* Wählen Sie den vertrauenswürdigen Herausgeber aus, der das Zertifikat herausgibt. In diesem Beispiel lautet der Herausgeber des Zertifikats Microsoft MSN®.
+1. Wählen Sie den vertrauenswürdigen Herausgeber aus, der das Zertifikat herausgibt. In diesem Beispiel lautet der Herausgeber des Zertifikats Microsoft MSN®.
+
+    ![](images/cc163080.xpsg0602(de-de,technet.10).jpg)
+
+    **Abbildung 6.2: Dialogfeld „Sicherheitswarnung“, in dem der vertrauenswürdige Herausgeber angezeigt wird**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0602_big(de-de,technet.10).jpg)  
+
+2. Klicken Sie auf die Registerkarte **Details** und dann auf **In Datei kopieren...**, um dieses Zertifikat in eine Datei zu kopieren und damit eine Zertifikatsregel zu erstellen.
+
+    ![](images/cc163080.xpsg0603(de-de,technet.10).jpg)
+
+    **Abbildung 6.3: Registerkarte „Details“ im Dialogfeld „Zertifikat“**  
+    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0603_big(de-de,technet.10).jpg)  
+
+3. Die Willkommensseite des **Zertifikatsexport-Assistenten** wird angezeigt. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
+
+    ![](images/cc163080.xpsg0604(de-de,technet.10).jpg)
+
+    **Abbildung 6.4: Willkommenseite des Zertifikatexport-Assistenten**    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0604_big(de-de,technet.10).jpg)  
+
+4. Wählen Sie auf der Seite **Exportdateiformat** die Option **DER-codiert-binär X.509 (.CER)** aus, und klicken Sie auf **Weiter**, um die Zertifikatdatei mit der Erweiterung.cer zu erstellen.
+
+    ![](images/cc163080.xpsg0605(de-de,technet.10).jpg)
+
+    **Abbildung 6.5: Seite „Exportdateiformat“ des Zertifikatexport-Assistenten mit der ausgewählten Codierungsmethode**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0605_big(de-de,technet.10).jpg)  
+
+5. Geben Sie auf der Seite **Exportdatei** einen beschreibenden Namen für die Zertifikatsregeldatei ein. Sie können das Zertifikat an einem beliebigen Speicherort unter einem beliebigen Dateinamen speichern.
+
+    ![](images/cc163080.xpsg0606(de-de,technet.10).jpg)
+
+    **Abbildung 6.6: Seite „Exportdatei“ des Zertifikatexport-Assistenten mit einem Beispieldateinamen**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0606_big(de-de,technet.10).jpg)  
+
+6. Die Seite **Fertigstellen des Assistenten** wird mit den ausgewählten Einstellungen der Zertifikatdatei angezeigt. Überprüfen Sie die Einstellungen, und klicken Sie zum Exportieren der Datei auf **Fertig stellen.**  
+
+    ![](images/cc163080.xpsg0607(de-de,technet.10).jpg)
+
+    **Abbildung 6.7: Seite „Fertigstellen des Assistenten“ mit den ausgewählten Einstellungen**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0607_big(de-de,technet.10).jpg)  
 
 
-**Abbildung 6.2: Dialogfeld „Sicherheitswarnung“, in dem der vertrauenswürdige Herausgeber angezeigt wird**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0602_big(de-de,technet.10).jpg)  
-
-* Klicken Sie auf die Registerkarte **Details** und dann auf **In Datei kopieren...**, um dieses Zertifikat in eine Datei zu kopieren und damit eine Zertifikatsregel zu erstellen.
-
-
-**Abbildung 6.3: Registerkarte „Details“ im Dialogfeld „Zertifikat“**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0603_big(de-de,technet.10).jpg)  
-
-* Die Willkommensseite des **Zertifikatsexport-Assistenten** wird angezeigt. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
-
-
-**Abbildung 6.4: Willkommenseite des Zertifikatexport-Assistenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0604_big(de-de,technet.10).jpg)  
-
-* Wählen Sie auf der Seite **Exportdateiformat** die Option **DER-codiert-binär X.509 (.CER)** aus, und klicken Sie auf **Weiter**, um die Zertifikatdatei mit der Erweiterung.cer zu erstellen.
-
-
-**Abbildung 6.5: Seite „Exportdateiformat“ des Zertifikatexport-Assistenten mit der ausgewählten Codierungsmethode**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0605_big(de-de,technet.10).jpg)  
-
-* Geben Sie auf der Seite **Exportdatei** einen beschreibenden Namen für die Zertifikatsregeldatei ein. Sie können das Zertifikat an einem beliebigen Speicherort unter einem beliebigen Dateinamen speichern.
-
-
-**Abbildung 6.6: Seite „Exportdatei“ des Zertifikatexport-Assistenten mit einem Beispieldateinamen**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0606_big(de-de,technet.10).jpg)  
-
-* Die Seite **Fertigstellen des Assistenten** wird mit den ausgewählten Einstellungen der Zertifikatdatei angezeigt. Überprüfen Sie die Einstellungen, und klicken Sie zum Exportieren der Datei auf **Fertig stellen.**  
-
-
-**Abbildung 6.7: Seite „Fertigstellen des Assistenten“ mit den ausgewählten Einstellungen**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0607_big(de-de,technet.10).jpg)  
-
-
-Die Pfadregel
+##### Die Pfadregel
 
 Eine Pfadregel gibt entweder einen Ordner oder den vollständigen Pfad zu einem Programm an. Wenn durch eine Pfadregel ein Ordner angegeben wird, trifft sie auf alle Programme zu, die sich in diesem Ordner und den entsprechenden Unterordnern befinden. Pfadregeln unterstützen lokale Pfade und UNC-Pfade.
 
@@ -231,7 +234,7 @@ Der Administrator muss in der Pfadregel alle Verzeichnisse definieren, von denen
 
 Bei der Installation von Dateien auf der Festplatte von Windows XP-basierten Computern verwenden viele Anwendungen die Variable *%ProgramFiles%*. Leider sind einige Anwendungen darauf programmiert, Dateien in das Unterverzeichnis **C:\Programme** zu kopieren, und tun dies selbst dann, wenn diese Variable auf ein anderes Verzeichnis in einem anderen Laufwerk gesetzt wird. Denken Sie an diese Beschränkung, wenn Sie Pfadregeln erstellen und testen.
 
-Verwenden von Umgebungsvariablen in Pfadregeln
+##### Verwenden von Umgebungsvariablen in Pfadregeln
 
 Bei der Definition einer Pfadregel können Sie Umgebungsvariablen verwenden. Da Pfadregeln in der Clientumgebung ausgewertet werden, ermöglicht die Verwendung von Umgebungsvariablen, eine Regel an die Umgebung eines bestimmten Benutzers anzupassen.
 
@@ -240,12 +243,12 @@ Die folgenden beiden Beispiele veranschaulichen die Anwendung von Umgebungsvaria
 
 * „%ProgramFiles%\*&lt;Anwendung&gt;*“ entspricht **C:\Programme\*****&lt;Anwendung&gt;*** und allen Unterordnern dieses Verzeichnisses.
 
-**Hinweis**: Umgebungsvariablen werden nicht durch Zugriffssteuerungslisten (Access Control Lists, ACLs) geschützt. Es werden zwei Arten von Umgebungsvariablen unterschieden: **Benutzervariablen** und **Systemvariablen.**   Benutzer, die eine Eingabeaufforderung öffnen dürfen, können die Umgebungsvariable **Benutzer** mit einem anderen Pfad neu definieren. Die Umgebungsvariable **System** können nur Benutzer ändern, die Mitglied der Gruppe **Administratoren** sind.
+    **Hinweis**: Umgebungsvariablen werden nicht durch Zugriffssteuerungslisten (Access Control Lists, ACLs) geschützt. Es werden zwei Arten von Umgebungsvariablen unterschieden: **Benutzervariablen** und **Systemvariablen.**   Benutzer, die eine Eingabeaufforderung öffnen dürfen, können die Umgebungsvariable **Benutzer** mit einem anderen Pfad neu definieren. Die Umgebungsvariable **System** können nur Benutzer ändern, die Mitglied der Gruppe **Administratoren** sind.
 
 
 Obwohl die beiden obigen Beispiele sehr nützlich sind, sollten Sie auch andere verfügbare Umgebungsvariablen in Erwägung ziehen. Eine vollständige Liste finden Sie in „[Überblick über Command Shell](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds_shelloverview.mspx)“ (in englischer Sprache) unter www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/ntcmds_shelloverview.mspx.
 
-Verwenden von Platzhaltern in Pfadregeln
+##### Verwenden von Platzhaltern in Pfadregeln
 
 In einer Pfadregel können die Platzhalter „?“ und „*“ verwendet werden. Die folgenden Beispiele veranschaulichen die Anwendung von Platzhaltern auf verschiedene Pfadregeln:
 * **\\DC – ??\login$** entspricht **\\DC – 01\login$**, **\\DC – 02\login$** und so weiter.
@@ -270,7 +273,7 @@ Diese Speicherorte können möglicherweise nicht einfach mithilfe bestimmter Ord
 
 Diese Art von Pfadregel, die als Registrierungspfadregel bezeichnet wird, hat folgendes Format:
 
-*%&lt;Registrierungsstruktur&gt;\**&lt;Registrierungsschlüssel&gt;\**&lt;Wertname&gt;*%
+*%&lt;Registrierungsstruktur&gt;\\ &lt;Registrierungsschlüssel&gt;\\ &lt;Wertname&gt;*%
 
 **Hinweis**: Das Suffix einer Registrierungspfadregel darf innerhalb der Regel unmittelbar nach dem letzten %-Zeichen kein \-Zeichen aufweisen. Für die Registrierungsstruktur muss der vollständige Name angegeben werden, Abkürzungen funktionieren nicht.
 
@@ -288,7 +291,7 @@ CurrentVersion\SystemRoot%\System32\*.exe
 CurrentVersion\ProgramFilesDir%
 
 
-Vorrang bei Pfadregeln
+##### Vorrang bei Pfadregeln
 
 Wenn mehrere Pfadregeln zutreffen, hat die am engsten gefasste Regel Vorrang vor den anderen Regeln. Die folgende Gruppe von Pfaden ist in der Reihenfolge vom höchsten Vorrang (genaueste Übereinstimmung) zum niedrigsten Vorrang (allgemeinste Übereinstimmung) angeordnet:
 * Laufwerk:\Ordner1\Ordner2\Dateiname.Erweiterung
@@ -302,7 +305,7 @@ Wenn mehrere Pfadregeln zutreffen, hat die am engsten gefasste Regel Vorrang vor
 * Laufwerk:\Ordner1\
 
 
-Zonenregel
+##### Zonenregel
 
 Mit einer Zonenregel können Sie Software identifizieren, die aus einer der folgenden in Internet Explorer definierten Zonen heruntergeladen wurde:
 * Internet
@@ -318,7 +321,7 @@ Mit einer Zonenregel können Sie Software identifizieren, die aus einer der folg
 
 Die aktuelle Version der Internetzonenregel gilt nur für Windows Installer-Pakete (*.msi). Außerdem gilt diese Regel nicht für über Internet Explorer heruntergeladene Software. Alle anderen Dateitypen, auf die sich Zonenregeln auswirken, sind in der Tabelle mit designierten Dateitypen weiter unten in diesem Kapitel aufgeführt. Es gibt nur eine Liste designierter Dateitypen, die von allen Zonenregeln verwendet wird.
 
-Empfehlungen für Regeln
+##### Empfehlungen für Regeln
 
 Bestimmen Sie anhand der Informationen in der folgenden Tabelle, welche Pfadregel sich am besten für die Benutzer und die Umgebung einer Anwendung eignet.
 
@@ -412,7 +415,7 @@ Identifizieren einer Gruppe von Skripts auf einem zentralen Server.
 
 
 **Pfadregel**  
-\\SERVER_NAME\Share
+\\\SERVER_NAME\Share
 
 </td>
 
@@ -431,7 +434,7 @@ Identifizieren einer Gruppe von Skripts auf einer Gruppe von Servern. Beispielsw
 
 
 **Pfadregel mit Platzhalter**  
-\\DC??\Share
+\\\DC??\Share
 
 </td>
 
@@ -449,11 +452,11 @@ Keine.vbs-Dateien erlauben, mit Ausnahme der Dateien in einem Anmeldeskriptverze
 <td style="border:1px solid black;">
 
 
-**Pfadregel mit Platzhalter**
+**Pfadregel mit Platzhalter**  
 
-*.VBS auf **Nicht erlaubt** gesetzt
+\*.VBS auf **Nicht erlaubt** gesetzt
 
-\\LOGIN_SRV\Share\*.VBS auf **Nicht eingeschränkt** gesetzt
+\\\LOGIN_SRV\Share\*.VBS auf **Nicht eingeschränkt** gesetzt
 
 </td>
 
@@ -522,23 +525,21 @@ Zulassen von Software, die von Websites in der vertrauenswürdigen Internetzone 
 </table>
 
 
-Vorrang von Regeln der Richtlinie für Softwareeinschränkungen
+##### Vorrang von Regeln der Richtlinie für Softwareeinschränkungen
 
 Regeln werden in einer bestimmten Reihenfolge ausgewertet. Regeln, denen ein Programm genauer entspricht, haben gegenüber Regeln Vorrang, denen das gleiche Programm weniger exakt entspricht. Wenn zwei identische Regeln mit unterschiedlichen Sicherheitsstufen für die gleiche Software festgelegt wurden, hat die Regel mit der höchsten Sicherheitsstufe Vorrang. Wenn z. B. zwei Hashregeln, von denen eine die Sicherheitsstufe **Nicht erlaubt** und die andere die Sicherheitsstufe **Nicht eingeschränkt** aufweist, auf das gleiche Softwareprogramm angewendet werden, hat die Regel mit der Sicherheitsstufe **Nicht erlaubt** Vorrang, und das Programm wird nicht ausgeführt. In der folgenden Liste wird die Vorrangsreihenfolge für Regeln von der genauesten zur am wenigsten genauen Regel definiert:
-* Hashregel
 
-* Zertifikatsregel
+1. Hashregel
 
-* Pfadregel
+2. Zertifikatsregel
 
-* Zonenregel
+3. Pfadregel
 
-* Standardregel
+4. Zonenregel
 
- 
+5. Standardregel
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Optionen der Richtlinie für Softwareeinschränkungen
 
@@ -552,7 +553,7 @@ Viele Programme bestehen aus einer ausführbaren Datei und vielen Hilfs-DLLs. St
 
 * Durch die DLL-Prüfung verringert sich die Systemleistung, da alle Bibliotheken überprüft werden müssen, die mit der Anwendung verknüpft sind. Wenn ein Benutzer z. B. während einer Anmeldesitzung zehn Programme ausführt, wertet die Richtlinie für Softwareeinschränkungen jedes einzelne Programm aus. Bei aktivierter DLL-Prüfung wertet die Richtlinie für Softwareeinschränkungen jede DLL aus, die in die einzelnen Programme geladen wird. Wenn jedes Programm 20 DLLs verwendet, ergeben sich daraus 10 Prüfungen von ausführbaren Programmen plus 200 DLL-Prüfungen. Die Richtlinie für Softwareeinschränkungen muss somit 210 Auswertungen durchführen.
 
-Ein Programm wie Internet Explorer besteht aus der ausführbaren Datei iexplore.exe und vielen Hilfs-DLLs.
+    Ein Programm wie Internet Explorer besteht aus der ausführbaren Datei iexplore.exe und vielen Hilfs-DLLs.
 
 * Wenn die Standardsicherheitsstufe auf **Nicht erlaubt** gesetzt ist, wird das System gezwungen, nicht nur die ausführbare Hauptdatei zu identifizieren, bevor diese ausgeführt werden darf, sondern auch alle zugehörigen DLLs der.exe-Datei, wodurch das System zusätzlich belastet wird.
 
@@ -564,9 +565,10 @@ Um sicherzustellen, dass ein Programm keine Viren enthält, können Sie eine Gru
 **So deaktivieren Sie die Option für die DLL-Prüfung**
 * Wenn Sie eine Richtlinie für Softwareeinschränkungen bearbeiten, wählen Sie im Dialogfeld **Eigenschaften von Erzwingen** die Option **Alle Softwaredateien außer Bibliotheken (z. B. DLLs)** aus, wie in der folgenden Abbildung dargestellt:
 
+    ![](images/cc163080.xpsg0608(de-de,technet.10).jpg)
 
-**Abbildung 6.8: Dialogfeld „Eigenschaften von Erzwingen“ mit Datei- und Benutzererzwingungsoptionen**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0608_big(de-de,technet.10).jpg)  
+    **Abbildung 6.8: Dialogfeld „Eigenschaften von Erzwingen“ mit Datei- und Benutzererzwingungsoptionen**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0608_big(de-de,technet.10).jpg)  
 
 
 
@@ -582,14 +584,15 @@ Wenn die Richtlinie für Softwareeinschränkungen in einem Gruppenrichtlinienobj
 * Wählen Sie in dem in Abbildung 6.8 dargestellten Dialogfeld **Eigenschaften von Erzwingen** die Option **Alle Benutzer außer den lokalen Administratoren** aus.
 
 
-Definieren von ausführbaren Dateien
+##### Definieren von ausführbaren Dateien
 
 In dem in der folgenden Abbildung dargestellten Dialogfeld **Eigenschaften von Designierte Dateitypen** werden die Dateitypen aufgeführt, die durch die Richtlinie für Softwareeinschränkungen gesteuert werden. Diese Dateitypen werden als ausführbare Dateien betrachtet. Beispielsweise gilt eine Bildschirmschonerdatei (.scr) als ausführbare Datei, da sie als Programm geladen wird, wenn Sie in Windows Explorer darauf doppelklicken.
 
 Die Regeln der Richtlinie für Softwareeinschränkungen gelten nur für die Dateitypen, die im Dialogfeld **Eigenschaften von Designierte Dateitypen** aufgeführt werden. Wenn in der Umgebung ein Dateityp verwendet wird, auf den Sie die Regeln anwenden möchten, fügen Sie ihn der Liste hinzu. Beispielsweise würden Sie bei Perl-Skriptdateien den Dateityp .pl und weitere Dateitypen, die dem Perl-Modul zugeordnet sind, der Liste **Designierte Dateitypen:** auf der Registerkarte **Allgemein** des Dialogfelds **Eigenschaften von Designierte Dateitypen** hinzufügen.
 
+![](images/cc163080.xpsg0609(de-de,technet.10).jpg)
 
-**Abbildung 6.9: Dialogfeld „Eigenschaften von Designierte Dateitypen“**
+**Abbildung 6.9: Dialogfeld „Eigenschaften von Designierte Dateitypen“**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0609_big(de-de,technet.10).jpg)  
 
 Bei dem in diesem Handbuch definierten Entwurf eines Gruppenrichtlinienobjekts werden die Dateitypen.mdb und.lnk entfernt und der Dateityp.ocx hinzugefügt. In der folgenden Tabelle werden die designierten Dateitypen aufgeführt.
@@ -1205,14 +1208,15 @@ Windows Scripting Host-Einstellungsdatei
 </table>
 
 
-Vertrauenswürdige Herausgeber
+##### Vertrauenswürdige Herausgeber
 
 Sie können das Dialogfeld **Eigenschaften von Vertrauenswürdigen Herausgebern** verwenden, um festzulegen, welche Benutzer vertrauenswürdige Herausgeber auswählen können. Sie können auch bestimmen, welche Zertifikatssperrungsprüfungen ggf. durchgeführt werden, bevor ein Herausgeber als vertrauenswürdig eingestuft wird. Bei aktivierten Zertifikatsregeln wird durch Richtlinien für Softwareeinschränkungen eine Zertifikatssperrliste geprüft, um die Gültigkeit des Zertifikats und der Signatur der Software sicherzustellen. Durch diesen Vorgang kann jedoch beim Starten von Programmen die Systemleistung verringert werden.
 
 Mit den Optionen auf der in der folgenden Abbildung dargestellten Registerkarte **Allgemein** des Dialogfelds **Eigenschaften von Vertrauenswürdigen Herausgebern** können Sie Einstellungen für ActiveX-Steuerelemente und andere signierte Inhalte konfigurieren.
 
+![](images/cc163080.xpsg0610(de-de,technet.10).jpg)
 
-**Abbildung 6.10: Dialogfeld „Eigenschaften von Vertrauenswürdigen Herausgebern“**
+**Abbildung 6.10: Dialogfeld „Eigenschaften von Vertrauenswürdigen Herausgebern“**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163080.xpsg0610_big(de-de,technet.10).jpg)  
 
 In der folgenden Tabelle werden die Optionen für vertrauenswürdige Herausgeber in Bezug auf ActiveX-Steuerelemente und andere signierte Inhalte aufgeführt.
@@ -1333,7 +1337,6 @@ Verwenden Sie diese Einstellung, um sicherzustellen, dass das von der Organisati
 [Zum Seitenanfang](#mainsection)  
 
 
-
 ### Entwerfen und Bereitstellen von Richtlinien für Softwareeinschränkungen
 
 In diesem Abschnitt wird beschrieben, wie Richtlinien für Softwareeinschränkungen mithilfe des Gruppenrichtlinien-Snap-Ins verwaltet werden, was bei der erstmaligen Bearbeitung einer Richtlinie zu berücksichtigen ist und wie eine Richtlinie für Softwareeinschränkungen auf eine Gruppe von Benutzern angewendet wird. Außerdem werden verschiedene Aspekte erörtert, die mit der Bereitstellung einer Richtlinie für Softwareeinschränkungen in Zusammenhang stehen.
@@ -1343,11 +1346,11 @@ In diesem Abschnitt wird beschrieben, wie Richtlinien für Softwareeinschränkun
 
 Sie können eine Richtlinie für Softwareeinschränkungen mithilfe des Gruppenrichtlinien-Snap-Ins für eine Gruppe von Clientcomputern sowie für alle Benutzer verwalten, die sich bei den Computern anmelden. Die Richtlinie wird auf die die in diesem Handbuch definierten Organisationseinheiten „Desktop“ und „Laptop“ angewendet.
 
-Domäne
+##### Domäne
 
 Der Administrator sollte für die Richtlinie für Softwareeinschränkungen ein eigenes Gruppenrichtlinienobjekt erstellen. So lässt sich die Gruppenrichtlinie deaktivieren, ohne andere auf das Objekt angewendete Richtlinien zu beeinträchtigen, wenn unerwartete Probleme auftreten sollten.
 
-Lokal
+##### Lokal
 
 Für die eigenständigen Clientcomputer in der Umgebung sollte eine lokale Richtlinie konfiguriert werden. Dieser Vorgang wird in diesem Handbuch in Kapitel 5, „Schützen eigenständiger Windows XP-Clients“, beschrieben.
 
@@ -1531,7 +1534,7 @@ Die Richtlinie befindet sich unter der Organisationseinheit für Desktops und La
 
 **Hinweis**: Obwohl in diesem Handbuch empfohlen wird, Richtlinien für Softwareeinschränkungen auf Computerebene zu erzwingen, gibt es viele Fälle, in denen eine Erzwingung auf Benutzerebene sinnvoll ist. Eine Organisation mit freigegebenen Computern wie z. B. Terminalserver-Anwendungsservern oder Callcenter-Arbeitsstationen lassen möglicherweise zu, dass bestimmte Benutzer eine Anwendungsfamilie ausführen, wobei jedoch allen anderen Benutzern der Zugriff verweigert wird.
 
-Empfohlene Vorgehensweisen
+##### Empfohlene Vorgehensweisen
 
 Microsoft empfiehlt, für die Richtlinie für Softwareeinschränkungen ein eigenes Gruppenrichtlinienobjekt zu erstellen. Dann hat es keine Auswirkungen auf die verbleibende Domänen- oder lokale Richtlinie, wenn Sie die Richtlinie notfalls deaktivieren müssen.
 
@@ -1574,7 +1577,7 @@ Nachdem Sie bestimmt haben, welche Anwendungen und Skripts auf den Arbeitsstatio
 * Genehmigte VBS-Skripts =*.vbs
 
 
-Schritt 4. Festlegen der Richtlinienoptionen
+##### Schritt 4. Festlegen der Richtlinienoptionen
 
 Die folgenden Optionen beinhalten die empfohlenen Richtlinieneinstellungen für den in diesem Handbuch definierten Entwurf. Diese Optionen ändern den Gültigkeitsbereich des Erzwingungsverhalten der Authenticode-Vertrauenseinstellungen für digital signierte Dateien.
 * **Erzwingen.**   Wenn der Computer Teil der Domäne ist, stellen Sie sicher, dass die Gruppe **Domänen-Admins** automatisch der Gruppe **Administratoren** hinzugefügt wird.
@@ -1590,7 +1593,7 @@ Die folgenden Optionen beinhalten die empfohlenen Richtlinieneinstellungen für 
 
 Bevor Sie einem Herausgeber vertrauen, wählen Sie beim Entwerfen eines Gruppenrichtlinienobjekts die Option **Überprüfen: Herausgeber**, um sicherzustellen, dass die Richtlinie Zertifikate überprüft.
 
-Schritt 5. Anwenden der Standardeinstellungen
+##### Schritt 5. Anwenden der Standardeinstellungen
 
 Es empfiehlt sich, die Richtlinie mit der Standardeinstellung **Nicht eingeschränkt** zu konfigurieren. Durch diese Methode wird sichergestellt, dass die Richtlinie korrekt initialisiert wird, bevor Softwareeinschränkungen angewendet werden. Setzen Sie die Standardeinstellung nach dem Überprüfen der Richtlinieneinstellungen auf **Nicht erlaubt** zurück.
 
@@ -2022,12 +2025,8 @@ In diesem Beitrag
 
 Download
 
-[Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&amp;clcid=0x409"><img AltText="Download)  
+![](images/cc163080.icon_exe(de-de,technet.10).gif)[Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&amp;clcid=0x409"><img AltText="Download)  
  
 
  
 [Zum Seitenanfang](#mainsection)
-
-
-
-
