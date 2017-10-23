@@ -15,9 +15,7 @@ Die RMS Service Group (RMS-Dienstgruppe) verfügt über die Berechtigungen Ausf�
 
 In der folgenden Tabelle werden die Active Directory-Attribute aufgelistet, die in den Datenbanktabellen der Verzeichnisdienste gespeichert sind.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

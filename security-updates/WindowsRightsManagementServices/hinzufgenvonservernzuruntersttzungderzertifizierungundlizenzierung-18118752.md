@@ -22,13 +22,11 @@ Die folgenden Themen bieten einen Leitfaden für diese Aufgabe:
 -   [Bereitstellungsprozesse für zusätzliche Zertifizierungs- und Lizenzierungsserver](#bkmk_2)
 -   [Einrichten der Cluster und des Lastenausgleichs](#bkmk_3)
 
-<span id="BKMK_1"></span>
 Für Installation und Bereitstellung erforderliche Rollen, Berechtigungen und Rechte
 -----------------------------------------------------------------------------------
 
 Beim Installieren und Bereitstellen zusätzlicher Server werden die gleichen Rollen, Berechtigungen und Rechte benötigt wie beim Einrichten des ersten Servers. Darüber hinaus benötigen Sie auch die Berechtigung vom Stammzertifizierungsserver, einen separaten Lizenzierungsserver einzurichten. Dies wird als Unterregistrierung bezeichnet. Der Stammzertifizierungsserver wird durch die Discretionary Access Control Lists (= DACL) der Datei SubEnrollService.asmx gesteuert. Mitglieder der RMS Service Group (RMS-Dienstgruppe), einschließlich des RMS-Dienstkontos, das von Ihnen im Rahmen der Bereitstellung des Stammzertifizierungsservers festgelegt wird, sind zur Durchführung einer Unterregistrierung berechtigt. Weitere Informationen finden Sie unter [Einrichten von Zertifizierungs- und Lizenzierungsdiensten auf dem ersten Server](https://technet.microsoft.com/cce29a2f-984f-48ed-9187-0eb68286ec5b) an früherer Stelle dieses Themas.
 
-<span id="BKMK_2"></span>
 Bereitstellungsprozesse für zusätzliche Zertifizierungs- und Lizenzierungsserver
 --------------------------------------------------------------------------------
 
@@ -43,7 +41,6 @@ Das Hinzufügen von Servern zu Zertifizierungs- und Lizenzierungsclustern erford
 
 Nach der Installation und Bereitstellung eines zusätzlichen Servers wird dieser automatisch als Teil des Clusters konfiguriert. Wenn Sie allerdings Lastenausgleich aktiviert haben, müssen Sie die Lastenausgleichssoftware für den Einsatz mit dem neuen Server konfigurieren.
 
-<span id="BKMK_3"></span>
 Einrichten der Cluster und des Lastenausgleichs
 -----------------------------------------------
 

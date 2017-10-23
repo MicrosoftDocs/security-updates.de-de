@@ -102,7 +102,7 @@ In diesem Beispiel wird ein Prinzipal anhand seines öffentlichen Schlüssels ge
 ```
 
 #### Sperren von Zertifikaten und Lizenzen anhand der GUID
-In diesem Beispiel wird ein Zertifikat oder eine Lizenz anhand der GUID gesperrt. Bei Verwendung dieser Sperrliste kann kein Zertifikat bzw. keine Lizenz mit einer übereinstimmenden GUID verwendet werden. Der Inhalt des „<ID>“-Tags in diesem Beispiel stammt aus dem Knoten „<BODY><DESCRIPTOR><OBJECT><ID>“ des Zertifikats oder der Lizenz, das bzw. die Sie sperren möchten. (Sie können auch Anwendungen mithilfe dieses Mechanismus sperren, indem Sie die ID des Anwendungsmanifests angeben.)
+In diesem Beispiel wird ein Zertifikat oder eine Lizenz anhand der GUID gesperrt. Bei Verwendung dieser Sperrliste kann kein Zertifikat bzw. keine Lizenz mit einer übereinstimmenden GUID verwendet werden. Der Inhalt des „\<ID>“-Tags in diesem Beispiel stammt aus dem Knoten „\<BODY>\<DESCRIPTOR>\<OBJECT>\<ID>“ des Zertifikats oder der Lizenz, das bzw. die Sie sperren möchten. (Sie können auch Anwendungen mithilfe dieses Mechanismus sperren, indem Sie die ID des Anwendungsmanifests angeben.)
 
 ```
 <REVOKE category="license" type="license-id">
@@ -118,7 +118,7 @@ Zum Sperren nach Anwendungsmanifest müssen Sie die Aussteller-ID, den öffentli
 Wenn Sie nicht möchten, dass eine bestimmte Anwendung durch Rechte geschützte Inhalte abrufen kann, sollten Sie mithilfe eines Anwendungsausschlusses verhindern, dass der RMS-Cluster dieser Anwendung Nutzungslizenzen erteilt. Ein Anwendungsausschluss kann jedoch nicht verhindern, dass ein Benutzer mit einer gültigen Nutzungslizenz durch Rechte geschützte Inhalte entschlüsselt. Weitere Informationen zum Anwendungsausschluss finden Sie weiter oben unter [Ausschließen von Anwendungen](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86).
 
 #### Sperren von Zertifikaten und Lizenzen anhand des Hashwerts
-In diesem Beispiel wird ein Zertifikat oder eine Lizenz mithilfe des Hashwerts gesperrt. Der Inhalt des „<VALUE>“-Tags ist der SHA-1-Hash der Unicode-Zeichen von „<BODY>“ bis „</BODY>“ (einschließlich der Tags) im Zertifikat oder in der Lizenz. Sie finden diesen Hashwert im Abschnitt „<SIGNATURE>“ des Zertifikats oder der Lizenz. (Sie können auch Anwendungen mithilfe dieses Mechanismus sperren, indem Sie den Hash des Anwendungsmanifests angeben.)
+In diesem Beispiel wird ein Zertifikat oder eine Lizenz mithilfe des Hashwerts gesperrt. Der Inhalt des „\<VALUE>“-Tags ist der SHA-1-Hash der Unicode-Zeichen von „\<BODY>“ bis „\</BODY>“ (einschließlich der Tags) im Zertifikat oder in der Lizenz. Sie finden diesen Hashwert im Abschnitt „\<SIGNATURE>“ des Zertifikats oder der Lizenz. (Sie können auch Anwendungen mithilfe dieses Mechanismus sperren, indem Sie den Hash des Anwendungsmanifests angeben.)
 ```
 <REVOKE category="license" type="license-hash">
         <DIGEST>
@@ -137,7 +137,7 @@ Zum Sperren nach Anwendungsmanifest müssen Sie die Aussteller-ID, den öffentli
 Wenn Sie nicht möchten, dass eine bestimmte Anwendung durch Rechte geschützte Inhalte abrufen kann, sollten Sie mithilfe eines Anwendungsausschlusses verhindern, dass der RMS-Cluster dieser Anwendung Nutzungslizenzen erteilt. Ein Anwendungsausschluss kann jedoch nicht verhindern, dass ein Benutzer mit einer gültigen Nutzungslizenz RMS-geschützte Inhalte entschlüsselt. Weitere Informationen zum Anwendungsausschluss finden Sie weiter oben unter [Ausschließen von Anwendungen](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86).
 
 #### Sperren von Zertifikaten und Lizenzen anhand des öffentlichen Schlüssels des Ausstellers
-In diesem Beispiel werden alle Zertifikate und Lizenzen gesperrt, die vom Besitzer des angegebenen öffentlichen Schlüssels ausgestellt wurden. Der Inhalt des „<PUBLICKEY>“-Tags stammt aus dem Knoten „<BODY><ISSUER><PUBLICKEY>“ der zu sperrenden Zertifikate oder Lizenzen.
+In diesem Beispiel werden alle Zertifikate und Lizenzen gesperrt, die vom Besitzer des angegebenen öffentlichen Schlüssels ausgestellt wurden. Der Inhalt des „\<PUBLICKEY>“-Tags stammt aus dem Knoten „\<BODY>\<ISSUER>\<PUBLICKEY>“ der zu sperrenden Zertifikate oder Lizenzen.
 ```
 <REVOKE category="license" type="issuer-key">
         <PUBLICKEY>
@@ -155,7 +155,7 @@ AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2
 ```
 
 #### Sperren von Zertifikaten und Lizenzen anhand der Aussteller-ID
-In diesem Beispiel wird eine Gruppe von Zertifikaten oder Lizenzen anhand der Aussteller-ID gesperrt. Der Inhalt des „<ID>“-Tags stammt aus dem Knoten „<BODY><ISSUER><OBJECT><ID>“ der zu sperrenden Zertifikate oder Lizenzen.
+In diesem Beispiel wird eine Gruppe von Zertifikaten oder Lizenzen anhand der Aussteller-ID gesperrt. Der Inhalt des „\<ID>“-Tags stammt aus dem Knoten „\<BODY>\<ISSUER>\<OBJECT>\<ID>“ der zu sperrenden Zertifikate oder Lizenzen.
 ```
       <REVOKE category="license" type="issuer-id">
         <OBJECT type="MS-DRM-Server">
@@ -168,7 +168,7 @@ In diesem Beispiel wird eine Gruppe von Zertifikaten oder Lizenzen anhand der Au
 | Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen GUID und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
 
 #### Sperren von Inhalten anhand der Inhalts-ID
-In diesem Beispiel werden geschützte Inhalte anhand der Inhalts-ID gesperrt. Dies ist die Methode, die Sie zum Sperren von Inhalten bevorzugt verwenden sollten, da alle aus einer gegebenen Veröffentlichungslizenz erstellten Nutzungslizenzen über dieselbe Inhalts-ID verfügen. Der Wert des Knotens „<OBJECT>“ stammt aus dem Knoten „<BODY><WORK><OBJECT>“ einer Veröffentlichungslizenz oder einer Nutzungslizenz für die Inhalte.
+In diesem Beispiel werden geschützte Inhalte anhand der Inhalts-ID gesperrt. Dies ist die Methode, die Sie zum Sperren von Inhalten bevorzugt verwenden sollten, da alle aus einer gegebenen Veröffentlichungslizenz erstellten Nutzungslizenzen über dieselbe Inhalts-ID verfügen. Der Wert des Knotens „\<OBJECT>“ stammt aus dem Knoten „\<BODY>\<WORK>\<OBJECT>“ einer Veröffentlichungslizenz oder einer Nutzungslizenz für die Inhalte.
 ```
 <REVOKE category="content" type="content-id">
         <OBJECT type="Microsoft Office Document">
@@ -181,7 +181,7 @@ In diesem Beispiel werden geschützte Inhalte anhand der Inhalts-ID gesperrt. Di
 | Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen GUID und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
 
 #### Sperren von Prinzipalen anhand des Windows-Kontos
-In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand seines Windows-Kontos gesperrt. Der Inhalt des „<OBJECT>“-Elements hier stammt aus dem Knoten „<BODY><ISSUEDPRINCIPALS><PRINCIPAL><OBJECT>“ eines Rechtekontozertifikats oder einer Nutzungslizenz.
+In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand seines Windows-Kontos gesperrt. Der Inhalt des „\<OBJECT>“-Elements hier stammt aus dem Knoten „\<BODY>\<ISSUEDPRINCIPALS>\<PRINCIPAL\><OBJECT>“ eines Rechtekontozertifikats oder einer Nutzungslizenz.
 ```
 <REVOKE category="principal" type="principal-id">
         <OBJECT type="Group-Identity">
@@ -195,7 +195,7 @@ In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand sei
 | Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen Sicherheitskennung (SID) des Windows-Kontos und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
 
 #### Sperren von Prinzipalen anhand der Windows Live-ID
-In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand seiner Windows Live-ID gesperrt. Der Inhalt des „<OBJECT>“-Elements hier stammt aus dem Knoten „<BODY><ISSUEDPRINCIPALS><PRINCIPAL><OBJECT>“ eines Rechtekontozertifikats oder einer Nutzungslizenz.
+In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand seiner Windows Live-ID gesperrt. Der Inhalt des „\<OBJECT>“-Elements hier stammt aus dem Knoten „\<BODY><ISSUEDPRINCIPALS>\<PRINCIPAL>\<OBJECT>“ eines Rechtekontozertifikats oder einer Nutzungslizenz.
 ```
 <REVOKE category="principal" type="principal-id">
         <OBJECT type="Group-Identity">
