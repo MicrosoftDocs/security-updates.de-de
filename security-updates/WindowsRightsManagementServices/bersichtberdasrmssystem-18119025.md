@@ -13,9 +13,7 @@ Dieses Thema enthält Informationen dazu, wie die RMS-Webdienste und RMS-Clientt
 
 In der folgenden Tabelle werden die Arten von Servern aufgelistet, die zu einer RMS-Bereitstellung gehören, und ihre Funktionen beschrieben. Weitere Informationen zur Bereitstellung finden Sie unter „Bereitstellen eines RMS-Systems“ in dieser Dokumentationssammlung.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -87,7 +85,7 @@ Lizenzierungsserver werden zur Unterstützung einzelner Abteilungen oder zum Ver
 </tr>
 </tbody>
 </table>
- 
+<p></p> 
 
 RMS verwendet die von Microsoft gehosteten Registrierungs- und Aktivierungsdienste, um einen gemeinsamen Vertrauensstamm für das System bereitzustellen. Weitere Informationen hierzu finden Sie unter „[RMS-Vertrauenshierarchie](https://technet.microsoft.com/2d44182f-a653-4383-aba1-dade53f7cf9a)“ weiter unten in diesem Thema.
 

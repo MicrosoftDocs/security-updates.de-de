@@ -22,7 +22,6 @@ Sie können RMS SP1 installieren, ohne die vorhandene Installation von RMS entf
 -   [Interoperabilität mit RMS Version 1.0](#bkmk_5)
 -   [Entfernen von RMS mit SP1](#bkmk_6)
 
-<span id="BKMK_1"></span>
 Vorbereiten auf das RMS SP1-Update
 ----------------------------------
 
@@ -33,13 +32,11 @@ Das RMS SP1-Update ist so ausgelegt, dass Sie RMS unterbrechungsfrei weiter aus
 -   Erstellen Sie eine Sicherungskopie der Protokollierungsdatenbank, sofern Sie die bisher protokollierten Statistiken behalten möchten.
 -   Stellen Sie sicher, dass auf den Clients und Servern die neuesten wichtigen Updates und Sicherheitsupdates für das Betriebssystem installiert sind. Klicken Sie dazu auf **Start** und dann auf **Windows Update**, und führen Sie die Anweisungen auf dem Bildschirm aus.
 
-<span id="BKMK_2"></span>
 Ausführen des RMS SP1-Updates
 -----------------------------
 
 Wenn der Assistent für das RMS SP1-Setup erkennt, dass bereits eine RMS-Installation vorhanden ist, fügt er nur neue Dateien hinzu bzw. ersetzt die Dateien, die für RMS SP1 geändert werden müssen. Wenn Sie RMS bereits erfolgreich ausführen, müssen Sie nach dem Installieren von RMS SP1 keine zusätzlichen Konfigurationsschritte vornehmen, um RMS weiter verwenden zu können.
 
-<span id="BKMK_3"></span>
 Aktualisieren von Clustern
 --------------------------
 
@@ -51,7 +48,6 @@ Wenn Sie RMS in einer Clusterkonfiguration installiert haben, sollten Sie die Ak
 -   Die Serverkomponenten von RMS SP1 und RMS 1.0 können parallel vorhanden sein und zusammenarbeiten.
 -   Das Setup-Paket für RMS SP1 kann auch für die Installation einer völlig neuen Version von RMS mit SP1 auf einem Server verwendet werden – RMS 1.0 wird in diesem Fall nicht vorausgesetzt.
 
-<span id="BKMK_4"></span>
 Aktualisieren von RMS-Clients
 -----------------------------
 
@@ -64,7 +60,6 @@ Dieser neue RMS-Client zeichnet sich durch die folgenden Features aus:
 -   Der RMS SP1-Client enthält eine neue Serverlockbox (wird auch als „Serversicherheitsprozessor“ bezeichnet), mit deren Hilfe Webdienste oder serverseitige Anwendungen, wie z. B. Windows SharePoint® Services und Exchange Server 2003, RMS-fähig gemacht werden können, sodass diese Dienste RMS-geschützte Inhalte abrufen und weiterverteilen können. Diese Lockbox ist beim Einsatz in vertrauenswürdigen Serveranwendungen hochgradig leistungsfähig und skalierbar.
 -   Der RMS-Client verwendet FIPS 140-2-zertifizierte kryptografische Algorithmen. Er kann daher in FIPS-konformen Umgebungen bereitgestellt werden.
 
-<span id="BKMK_5"></span>
 Interoperabilität mit RMS Version 1.0
 -------------------------------------
 
@@ -74,9 +69,7 @@ Da RMS SP1 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwindigk
 -   Nur Clients, auf denen RMS SP1 ausgeführt wird, sind selbstaktivierend.
 -   Der folgenden Tabelle können Sie entnehmen, welche Funktionen in gemischten Umgebungen unterstützt werden:
 
-###  
-
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -121,9 +114,8 @@ RMS 1.0-Clients müssen über das Internet aktiviert werden</td>
 </tr>
 </tbody>
 </table>
- 
+<p> </p>
 
-<span id="BKMK_6"></span>
 Entfernen von RMS mit SP1
 -------------------------
 
