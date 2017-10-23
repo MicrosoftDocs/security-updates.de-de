@@ -17,9 +17,7 @@ Wenn Sie RMS als Pilotprogramm bereitgestellt haben und den RMS-Server in der Pr
 
 Die folgenden Schritte dienen als Beispiel für einige der Punkte, die in Ihrem Migrationsplan nicht fehlen sollten. Zudem erfordert Ihre Bereitstellung möglicherweise noch zusätzliche Elemente.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -111,6 +109,6 @@ Wenn Benutzerkonten als Teil dieser Migration innerhalb der Gesamtstrukturen ver
 </tr>
 </tbody>
 </table>
- 
+<p></p> 
 
 Nach erfolgreicher Einrichtung des Produktionsservers überprüfen Sie, ob die Testbenutzer weiterhin zuvor geschützte Nachrichten lesen, sowie neue erstellen können. Sie können dann beliebig viele RMS-Server zum Cluster hinzufügen, um die Anzahl der Benutzer in Ihrer Organisation zu unterstützen.

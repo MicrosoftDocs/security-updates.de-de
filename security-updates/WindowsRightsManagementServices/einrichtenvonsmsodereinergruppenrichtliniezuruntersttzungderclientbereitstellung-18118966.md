@@ -21,7 +21,9 @@ Beim Einsatz von SMS zur Verteilung des RMS-Clients müssen Sie folgende Schritt
 
 -   Erstellen Sie eine neue Paketdefinitionsdatei.
 -   Extrahieren Sie die Windows-Installationsdateien aus der Datei „WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe“. Dazu müssen Sie zunächst die Datei „WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe“ speichern. Installieren Sie sie nicht. Nehmen wir an, die Datei ist im Pfad c:\\Ordnername gespeichert. Öffnen Sie ein Eingabeaufforderungsfenster, und geben Sie folgenden Befehl ein:
+
     `c:\folder_name\WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x/t:c:\folder_name`
+    
     Durch diesen Befehl werden die Dateien „MSDrmClient.msi“ und „RMClientBackCompat.msi“ aus der .exe-Datei extrahiert und unter dem Pfad c:\\*Ordnername* abgelegt.
 -   Verwenden Sie die Windows-Installationsdateien für die Paketdefinition und Quelle.
 -   Verbreiten Sie die Verfügbarkeit der Pakete über das Netzwerk.
