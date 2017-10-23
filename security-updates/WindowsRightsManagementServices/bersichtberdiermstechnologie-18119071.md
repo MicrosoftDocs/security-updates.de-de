@@ -11,9 +11,7 @@ ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc747721(v=WS.10)'
 
 Ein RMS-System enthält sowohl Server- als auch Clienttechnologien. In der folgenden Tabelle werden die RMS-Technologien beschrieben.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

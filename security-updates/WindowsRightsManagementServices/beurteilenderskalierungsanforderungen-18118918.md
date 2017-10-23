@@ -19,9 +19,7 @@ Für die Ermittlung eines Maßstabs wurde RMS mit einem Server mit 2,4-GHz Penti
 
 Sie können die folgenden Zahlen während der Kapazitätsplanung verwenden, um die Anforderungen für ein RMS-System zu bestimmen.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -63,9 +61,7 @@ Zusätzlich kann der Active Directory-Abfrageverkehr einen Einfluss auf den Netz
   
 In der folgenden Tabelle sind Basisdaten zur Bandbreitennutzung durch RMS-Transaktionen aufgeführt, mit deren Hilfe der Effekt des Abfrageverkehrs von Active Directory innerhalb des Organisationsnetzwerks ermittelt werden kann.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -104,13 +100,19 @@ Die werkseitig eingestellten Speicheranforderungen von RMS für ein Belastungsmu
 Jeder RMS-Server kann eine bestimmte Anzahl von Clientanfragen in einem bestimmten Zeitraum verarbeiten; etwa 30 bis 50 Lizenzen pro Sekunde. Das Hinzufügen von Servern vergrößert daher linear die Gesamtkapazität eines Clusters für die Lizenzausstellung und bietet eine höhere Zuverlässigkeit. Skalierbarkeit ist daher nicht nur für jeden einzelnen Server sondern auch für die Anzahl von bereitgestellten Servern empfehlenswert. Die folgenden Konfigurationsbeispiele verdeutlichen, wie mithilfe dieser Schätzungen die Skalierungsanforderungen für die RMS-Bereitstellung berechnet werden kann.
   
 -   Konfiguration für leichte Nutzung  
+
     Manche Organisationen haben nur recht geringe Nutzungsanforderungen an RMS. Beispiel: Eine Organisation mit 5.000 Benutzern, von denen 500 regelmäßig RMS für das Schützen von E-Mail-Inhalten verwenden, geht davon aus, dass ein durchschnittlicher Benutzer pro Stunde 3 E-Mail-Nachrichten schützt. Auf der Basis dieser Bedingungen müssten RMS-Server etwa 1.500 Lizenzen pro Stunde bereitstellen, also 0,42 Lizenzen pro Sekunde. Hierbei handelt es sich um die durchschnittliche Verwendungsanforderung. Die Multiplikation dieser Zahl mit dem Faktor 3 ergibt die maximale Verwendungsanforderung von 1,25 Lizenzen pro Sekunde.  
+
     Basierend auf dieser Berechnung kann die Verwendung als sehr gering bewertet werden. Für diese Organisation bietet sich daher die Bereitstellung eines einzelnen Servers mit RMS an.  
 -   Konfiguration für mittelschwere Nutzung  
+
     Viele Organisationen verfügen über recht große Benutzergruppen mit moderaten Verwendungsanforderungen. Beispiel: Eine Organisation mit 40.000 Benutzern, von denen 20.000 regelmäßig RMS für das Schützen von Inhalten verwenden, geht davon aus, dass ein durchschnittlicher Benutzer pro Stunde 7 E-Mail-Nachrichten und 1 Dokument schützt. Auf der Basis dieser Bedingungen müssten RMS-Server etwa 160.000 Lizenzen pro Stunde bereitstellen, also 44,4 Lizenzen pro Sekunde. Hierbei handelt es sich um die durchschnittliche Verwendungsanforderung. Die Multiplikation dieser Zahl mit dem Faktor 3 ergibt die maximale Verwendungsanforderung von 133.3 Lizenzen pro Sekunde.  
+
     Aus dieser Berechnung ergibt sich eine moderate Verwendung. Die Bereitstellung von 3 Servern mit RMS deckt in diesem Fall die aktuellen Benutzeranforderungen ab. Bei einer Anzahl von 6 Servern mit RMS können die aktuellen Benutzeranforderungen und mögliche zukünftige Skalierungsanforderungen erfüllt werden.  
 -   Konfiguration für schwere Nutzung  
-    Größere Organisationen verfügen häufig über extrem große Benutzergruppen mit hohen Verwendungsanforderungen. Beispiel: Eine Organisation mit 150.000 Benutzern, von denen 105.000 regelmäßig RMS für das Schützen von Inhalten verwenden, geht davon aus, dass ein durchschnittlicher Benutzer pro Stunde 15 E-Mail-Nachrichten und 3 Dokumente schützt. Auf der Basis dieser Bedingungen müssten RMS-Server etwa 1.890.000 Lizenzen pro Stunde bereitstellen, also 525 Lizenzen pro Sekunde. Hierbei handelt es sich um die durchschnittliche Verwendungsanforderung. Die Multiplikation dieser Zahl mit dem Faktor 3 ergibt die maximale Verwendungsanforderung von 1575 Lizenzen pro Sekunde.  
+
+    Größere Organisationen verfügen häufig über extrem große Benutzergruppen mit hohen Verwendungsanforderungen. Beispiel: Eine Organisation mit 150.000 Benutzern, von denen 105.000 regelmäßig RMS für das Schützen von Inhalten verwenden, geht davon aus, dass ein durchschnittlicher Benutzer pro Stunde 15 E-Mail-Nachrichten und 3 Dokumente schützt. Auf der Basis dieser Bedingungen müssten RMS-Server etwa 1.890.000 Lizenzen pro Stunde bereitstellen, also 525 Lizenzen pro Sekunde. Hierbei handelt es sich um die durchschnittliche Verwendungsanforderung. Die Multiplikation dieser Zahl mit dem Faktor 3 ergibt die maximale Verwendungsanforderung von 1575 Lizenzen pro Sekunde. 
+     
     Aus dieser Berechnung ergeben sich sehr hohe Verwendungsanforderungen. Die Bereitstellung von 32 Servern mit RMS deckt in diesem Fall die aktuellen Benutzeranforderungen ab. Bei einer Anzahl von 51 Servern mit RMS könnten die aktuellen Benutzeranforderungen und mögliche zukünftige Skalierungsanforderungen erfüllt werden.
   
 Wenn Ihre Berechnungen 30 bis 50 zu liefernde Lizenzen pro Sekunde ergeben, ist gewöhnlich ein weiterer Server mit RMS erforderlich.

@@ -1,6 +1,6 @@
 ---
-Title: 2007 Microsoft Office-Sicherheitshandbuch: Überblick
-TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch: Überblick
+Title: 2007 Microsoft Office-Sicherheitshandbuch - Überblick
+TOCTitle: 2007 Microsoft Office-Sicherheitshandbuch - Überblick
 ms:assetid: fe58931e-25fa-4a32-8497-416dbe4929c3
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443747(v=TechNet.10)
 ms:contentKeyID: 20075690
@@ -14,156 +14,158 @@ ms:contentKeyID: 20075690
 Veröffentlicht: 11. Nov 2007
  
 
-Dieses Handbuch ist eine Komponente des [2007 Microsoft Office-Sicherheitshandbuchs](http://www.microsoft.com/germany/technet/security/guidance/clientsecurity/2007office/default.mspx)  . Er bietet detaillierte Informationen zu Sicherheitsrisiken, Gegenmaßnahmen und Auswirkungen im Bereich sicherheitsbezogener Gruppenrichtlinieneinstellungen für die 2007 Microsoft® Office-Version sowie Empfehlungen für Einstellungen in zwei verschiedenen Sicherheitsumgebungen: Enterprise Client (EC) und Specialized Security Limited Functionality (SSLF). Dieses Handbuch soll Ihnen durch Bereitstellung relevanter Informationen zu den einzelnen Einstellungen zu fundierteren Entscheidungen verhelfen.
+Dieses Handbuch ist eine Komponente des [2007 Microsoft Office-Sicherheitshandbuchs](http://www.microsoft.com/germany/technet/security/guidance/clientsecurity/2007office/default.mspx). Er bietet detaillierte Informationen zu Sicherheitsrisiken, Gegenmaßnahmen und Auswirkungen im Bereich sicherheitsbezogener Gruppenrichtlinieneinstellungen für die 2007 Microsoft® Office-Version sowie Empfehlungen für Einstellungen in zwei verschiedenen Sicherheitsumgebungen: Enterprise Client (EC) und Specialized Security Limited Functionality (SSLF). Dieses Handbuch soll Ihnen durch Bereitstellung relevanter Informationen zu den einzelnen Einstellungen zu fundierteren Entscheidungen verhelfen.
 
-Außerdem enthält das Handbuch die CCE-IDs (Common Configuration Enumeration) für alle Einstellungen. CCE stellt Bezeichner für Systemkonfigurationen bereit, die eine schnelle und präzise Korrelation von Konfigurationsdaten aus mehreren Informationsquellen und Tools ermöglichen. Im Zusammenhang mit dem Security Content Automation Protocol (SCAP) wird CCE hauptsächlich zum Erkennen sicherheitsbezogener Konfigurationsprobleme verwendet. CCE-IDs könnten beispielsweise dazu eingesetzt werden, Überprüfungsergebnisse von Konfigurationsbewertungstools mit Aussagen in Dokumenten zu bewährten Methoden im Bereich Konfiguration zu verknüpfen. Weitere Informationen zu CCE finden Sie auf der [CCE-Website](http://cce.mitre.org/)  .
+Außerdem enthält das Handbuch die CCE-IDs (Common Configuration Enumeration) für alle Einstellungen. CCE stellt Bezeichner für Systemkonfigurationen bereit, die eine schnelle und präzise Korrelation von Konfigurationsdaten aus mehreren Informationsquellen und Tools ermöglichen. Im Zusammenhang mit dem Security Content Automation Protocol (SCAP) wird CCE hauptsächlich zum Erkennen sicherheitsbezogener Konfigurationsprobleme verwendet. CCE-IDs könnten beispielsweise dazu eingesetzt werden, Überprüfungsergebnisse von Konfigurationsbewertungstools mit Aussagen in Dokumenten zu bewährten Methoden im Bereich Konfiguration zu verknüpfen. Weitere Informationen zu CCE finden Sie auf der [CCE-Website](http://cce.mitre.org/).
 
 Bei den meisten Einstellungen handelt es sich um Benutzerrichtlinieneinstellungen, die im ersten Abschnitt aufgeführt sind. Es folgt ein zweiter, kürzerer Abschnitt mit Informationen zu Computerrichtlinieneinstellungen.
 
 Die Informationen unter **Betrifft:** für alle in diesem Handbuch erörterten Einstellungen geben den Speicherort bzw. die Speicherorte in der Gruppenrichtlinie an, in der die Einstellungen enthalten sind. Diese werden durch die administrativen Vorlagendateien bestimmt. Jede Einstellung betrifft eine oder mehrere 2007 Office-Anwendungen. Wenn angegeben ist, dass eine Einstellung das 2007 Microsoft Office System betrifft, heißt dies nicht unbedingt, dass die Einstellung für alle 2007 Office-Anwendungen gilt, auch wenn sie sich auf mehr als eine Anwendung beziehen kann.
 
 #### Auf dieser Seite
-[Danksagungen](#etd)  ## Danksagungen
+[Danksagungen](#etd)  
+
+## Danksagungen
 
 Das SA-SC-Team möchte dem für die Produktion des 2007 Microsoft Office-Sicherheitshandbuchs: Bedrohungen und Gegenmaßnahmen verantwortlichen Team danken: Die folgenden Personen waren entweder unmittelbar beteiligt oder lieferten wichtige Beiträge zum Erstellen, Entwickeln und Testen dieses Handbuchs.
 
 **Inhaltsentwicklung**
 
-Bill Gruber – Microsoft
+Bill Gruber – *Microsoft*
 
-Paul Henry – Wadeware LLC
+Paul Henry – *Wadeware LLC*
 
-Paul Slater – Wadeware LLC
+Paul Slater – *Wadeware LLC*
 
 **Entwicklungsleitung**
 
-Ross Carter – Microsoft
+Ross Carter – *Microsoft*
 
 **Lektoren**
 
-John Cobb – Wadeware LLC
+John Cobb – *Wadeware LLC*
 
-Jennifer Kerns – Wadeware LLC
+Jennifer Kerns – *Wadeware LLC*
 
-Steve Wacker – Wadeware LLC
+Steve Wacker – *Wadeware LLC*
 
 **Produktmanager**
 
-Alain Meeus – Microsoft
+Alain Meeus – *Microsoft*
 
-Jim Stuart – Microsoft
+Jim Stuart – *Microsoft*
 
 **Programm-Manager**
 
-Flicka Enloe – Microsoft
+Flicka Enloe – *Microsoft*
 
 **Release-Manager**
 
-Karina Larson – Microsoft
+Karina Larson – *Microsoft*
 
 **Lektoren**
 
-Alan Myrvold – Microsoft
+Alan Myrvold – *Microsoft*
 
-Alessio Roic – Microsoft
+Alessio Roic – *Microsoft*
 
-Alex Vandurme – NCIRC/NATO
+Alex Vandurme – *NCIRC/NATO*
 
-Amanda Hartin – Microsoft
+Amanda Hartin – *Microsoft*
 
-Amani Ahmed – Microsoft
+Amani Ahmed – *Microsoft*
 
-Ambrose Treacy – Microsoft
+Ambrose Treacy – *Microsoft*
 
-Anurag Jain – Microsoft
+Anurag Jain – *Microsoft*
 
-Benjamin Gay – Microsoft
+Benjamin Gay – *Microsoft*
 
-Brad Albrecht – Microsoft
+Brad Albrecht – *Microsoft*
 
-Bryan Staats – Microsoft
+Bryan Staats – *Microsoft*
 
-Chase Carpenter – Microsoft
+Chase Carpenter – *Microsoft*
 
-Dave Kesterson – Microsoft
+Dave Kesterson – *Microsoft*
 
-David Vanophalvens – NCIRC/NATO
+David Vanophalvens – *NCIRC/NATO*
 
-Dheeraj Sarpangal – Microsoft
+Dheeraj Sarpangal – *Microsoft*
 
-Ed McGinn – Microsoft
+Ed McGinn – *Microsoft*
 
-Emily Kao Messmer – Microsoft
+Emily Kao Messmer – *Microsoft*
 
-Eugene Siu – Microsoft
+Eugene Siu – *Microsoft*
 
-Harshal Doshi – Microsoft
+Harshal Doshi – *Microsoft*
 
-Howie Dickerman – Microsoft
+Howie Dickerman – *Microsoft*
 
-Jeremy Pankratz – Microsoft
+Jeremy Pankratz – *Microsoft*
 
-Joshua Edwards – Microsoft
+Joshua Edwards – *Microsoft*
 
 Koreanische Regierung
 
-Kurt Dillard – Microsoft
+Kurt Dillard – *Microsoft*
 
-Maithili Dandige – Microsoft
+Maithili Dandige – *Microsoft*
 
-Mark Simos – Microsoft
+Mark Simos – *Microsoft*
 
-Naresh Krishna Kumar Kulothungan – Infosys Technologies Ltd
+Naresh Krishna Kumar Kulothungan – *Infosys Technologies Ltd*
 
-Norman Vadnais – Independent
+Norman Vadnais – *Independent*
 
-Padgett Peterson – Lockheed Martin
+Padgett Peterson – *Lockheed Martin*
 
-Patrick Smith – Microsoft
+Patrick Smith – *Microsoft*
 
-Patty Nicholson – Microsoft
+Patty Nicholson – *Microsoft*
 
-Paul Prekeges – Microsoft
+Paul Prekeges – *Microsoft*
 
-Raf Cox – Microsoft
+Raf Cox – *Microsoft*
 
-Ryan Gregg – Microsoft
+Ryan Gregg – *Microsoft*
 
-Stacia Snapp – Microsoft
+Stacia Snapp – *Microsoft*
 
-Su-Piao Bill Wu – Microsoft
+Su-Piao Bill Wu – *Microsoft*
 
-Tim Getsch – Microsoft
+Tim Getsch – *Microsoft*
 
-Tom Garity – Independent
+Tom Garity – *Independent*
 
-Travis Ratnam – Microsoft
+Travis Ratnam – *Microsoft*
 
-Travis Rhodes – Microsoft
+Travis Rhodes – *Microsoft*
 
-Tristan Davis – Microsoft
+Tristan Davis – *Microsoft*
 
-Waqas Nazir – V-Empower Inc.
+Waqas Nazir – *V-Empower Inc.*
 
-Yuriko Kobayashi – Microsoft
+Yuriko Kobayashi – *Microsoft*
 
-Zeyad Rajabi – Microsoft
+Zeyad Rajabi – *Microsoft*
 
 Das United States Department of Commerce National Institute of Standards and Technology (NIST) beteiligte sich ebenfalls an der Prüfung dieses Microsoft-Sicherheitshandbuchs und stellte Anmerkungen zur Verfügung, die in die veröffentlichte Version aufgenommen wurden.
 
 **Testmanager**
 
-Gaurav Singh Bora – Microsoft
+Gaurav Singh Bora – *Microsoft*
 
 **Tester**
 
-Harish Ananthapadmaanabhan – Infosys Technologies Ltd.
+Harish Ananthapadmaanabhan – *Infosys Technologies Ltd.*
 
-IndiraDevi Chandran – Infosys Technologies Ltd.
+IndiraDevi Chandran – *Infosys Technologies Ltd.*
 
-RaxitKumar Gajjar – Infosys Technologies Ltd.
+RaxitKumar Gajjar – *Infosys Technologies Ltd.*
 
-Sumit Parikh – Infosys Technologies Ltd.
+Sumit Parikh – *Infosys Technologies Ltd.*
  
 
 #### In diesem Beitrag
@@ -215,8 +217,3 @@ Sumit Parikh – Infosys Technologies Ltd.
 </tr>
 
 </table>
-
-
-
-
-

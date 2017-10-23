@@ -39,10 +39,10 @@ Zur optimalen Nutzung dieser Unterlagen empfiehlt es sich, das gesamte Handbuch 
 
 ##### Auf dieser Seite
 
-[](#eeaa)[Zielgruppe](#eeaa)
-[](#edaa)[Überblick über den Leitfaden](#edaa)
-[](#ecaa)[Verwandte Themen](#ecaa)
-[](#ebaa)[Senden Sie uns Ihr Feedback](#ebaa)
+[](#eeaa)[Zielgruppe](#eeaa)  
+[](#edaa)[Überblick über den Leitfaden](#edaa)  
+[](#ecaa)[Verwandte Themen](#ecaa)  
+[](#ebaa)[Senden Sie uns Ihr Feedback](#ebaa)  
 [](#eaaa)[Consulting- und Supportdienstleistungen](#eaaa)
 
 ### Zielgruppe
@@ -157,9 +157,9 @@ Wir danken Ihnen schon jetzt für Ihre Unterstützung.
 
 Es stehen viele Dienste zur Verfügung, die Unternehmen und Organisationen bei der Optimierung ihrer Sicherheitsstrategie unterstützen. Verwenden Sie die folgenden Links, um auf die gewünschten Dienste zuzugreifen:
 
-Informationen zu Microsoft Gold Certified Partnern, Microsoft Certified Technical Education Centers (CTEC) und Microsoft Certified Partnern sowie zu Produkten von unabhängigen Softwareanbietern (Independent Software Vendors, ISV), die Microsoft-Technologie einsetzen, finden Sie im [Microsoft-Ressourcenverzeichnis](http://go.microsoft.com/fwlink/?linkid=43094) unter http://go.microsoft.com/fwlink/?LinkId=43094.
+Informationen zu Microsoft Gold Certified Partnern, Microsoft Certified Technical Education Centers (CTEC) und Microsoft Certified Partnern sowie zu Produkten von unabhängigen Softwareanbietern (Independent Software Vendors, ISV), die Microsoft-Technologie einsetzen, finden Sie im [Microsoft-Ressourcenverzeichnis](http://go.microsoft.com/fwlink/?linkid=43094) unter [http://go.microsoft.com/fwlink/?LinkId=43094](http://go.microsoft.com/fwlink/?LinkId=43094).
 
-Informationen zu Consulting- und Supportdienstleistungen, die für Ihre Organisation relevant sind, finden Sie im Bereich für [Microsoft Services](http://support.microsoft.com/msservices) unter http://support.microsoft.com/msservices.
+Informationen zu Consulting- und Supportdienstleistungen, die für Ihre Organisation relevant sind, finden Sie im Bereich für [Microsoft Services](http://support.microsoft.com/msservices) unter [http://support.microsoft.com/msservices](http://support.microsoft.com/msservices).
 
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
 

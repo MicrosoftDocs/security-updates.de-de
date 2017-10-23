@@ -20,9 +20,7 @@ Lesen Sie die folgenden Informationen, bevor Sie Microsoft® Windows®-Rechtever
 
 Die Hardwareanforderungen für RMS SP2 werden in der folgenden Tabelle aufgeführt.
 
-###  
-
- 
+<p></p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -49,6 +47,7 @@ Die Hardwareanforderungen für RMS SP2 werden in der folgenden Tabelle aufgefü
 </tr>
 </tbody>
 </table>
+<p></p>
   
 | ![](https://msdn.microsoft.com/de-de/Cc747637.note(WS.10).gif)Hinweis                                                                                                   |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -56,9 +55,7 @@ Die Hardwareanforderungen für RMS SP2 werden in der folgenden Tabelle aufgefü
   
 Die Softwareanforderungen für die Serverkomponente von RMS SP2 werden in der folgenden Tabelle aufgeführt.
   
-###  
-
- 
+<p></p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -99,7 +96,7 @@ Die Softwareanforderungen für die Serverkomponente von RMS SP2 werden in der f
 </tr>
 </tbody>
 </table>
- 
+<p></p> 
 
 | ![](https://msdn.microsoft.com/de-de/Cc747637.note(WS.10).gif)Hinweis                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -107,9 +104,7 @@ Die Softwareanforderungen für die Serverkomponente von RMS SP2 werden in der f
 
 Die Infrastrukturanforderungen für RMS mit SP2-Server werden in der folgenden Tabelle aufgeführt.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -146,9 +141,7 @@ Um herauszufinden, ob der Datenbankserver die oben aufgelisteten Kriterien erfü
   
 In der folgenden Tabelle werden die zum Ausführen verschiedener Aktivitäten mit RMS erforderlichen Benutzerrechte und Berechtigungen aufgelistet.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -187,16 +180,15 @@ In der folgenden Tabelle werden die zum Ausführen verschiedener Aktivitäten mi
 </tr>
 </tbody>
 </table>
-  
-| ![](https://msdn.microsoft.com/de-de/Cc747637.note(WS.10).gif)Hinweis                                                                                                                                                                                                                               |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+<p></p>
+
+| ![](https://msdn.microsoft.com/de-de/Cc747637.note(WS.10).gif)Hinweis|  
+|---------------|  
 | Weitere Informationen zur Windows-Serverkonfiguration, Active Directory, Message Queuing, IIS und Dateisystemen finden Sie im Windows Server 2003 TechCenter ([http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135)) (möglicherweise in englischer Sprache). |
   
 Wenn Sie RMS in einer Bereitstellung mit Clustern verwenden, beachten Sie die Punkte in der nachstehenden Tabelle.
   
-###  
-
- 
+<p></p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -223,7 +215,8 @@ Wenn Sie RMS in einer Bereitstellung mit Clustern verwenden, beachten Sie die Pu
 </tr>
 </tbody>
 </table>
-  
+<p></p>
+
 | ![](https://msdn.microsoft.com/de-de/Cc747637.Important(WS.10).gif)Wichtig                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Wird die DNS-Registrierung im Intranet nicht durchgeführt, schlagen Lizenzanforderungen von internen Clients fehl. Falls Sie die DNS-Einstellungen nicht ändern können, bearbeiten Sie die Hosttabelle für die einzelnen Server im Cluster, und ordnen Sie dort die Cluster-URL der virtuellen IP-Adresse des Clusters zu. Die DNS-Registrierung muss vor der Bereitstellung von RMS vorgenommen werden. Wenn Sie den Dienst schon bereitgestellt haben, muss RMS vom Server entfernt werden. Führen Sie anschließend den Bereitstellungsvorgang erneut durch. |
@@ -246,7 +239,6 @@ In RMS mit SP2 stehen zahlreiche neue Features zur Verfügung:
 -   [Größere Serverbatches](#bkmk_cif3)  
 -   [Kompatibilität mit Microsoft SQL Server 2005](#bkmk_cif4)
   
-<span id="BKMK_CIF1"></span>
 #### Verbesserte gesamtstrukturübergreifende Gruppenerweiterung
   
 #### Was nützt mir dieses Feature?
@@ -279,7 +271,6 @@ Die neue RMS-Pipeline für die Gruppenerweiterung wird in RMS mit SP2 standardm�
   
 RMS mit SP2 wurden neue Ereignisse hinzugefügt, um Sie über problematische Nachrichten zu informieren, die nicht in den Message Queuing-Dienst aufgenommen wurden. Diese neuen Ereignisprotokollierungen enthalten Ereignisse, die Sie darüber informieren, wenn eine Nachricht nicht digital signiert oder überprüft werden kann. Dazu gehören beispielsweise fehlerhafte Nachrichten, ein fehlender bzw. falscher Hashwert oder eine fehlende bzw. falsche Signatur.
   
-<span id="BKMK_CIF2"></span>
 #### Änderungen an Datenbankprotokollierungen
   
 #### Was nützt mir dieses Feature?
@@ -302,7 +293,6 @@ In RMS SP2 erhalten die Nachrichten, die über das RMS-Cluster versendet werden
   
 RMS mit SP2 wurden neue Ereignisse hinzugefügt, um Sie über problematische Nachrichten zu informieren, die nicht in den Message Queuing-Dienst aufgenommen wurden. Diese neuen Ereignisse werden in das Anwendungsprotokoll geschrieben und enthalten Nachrichten, die nicht digital signiert werden können bzw. bei denen die digitale Signatur nicht überprüft werden kann. Dazu gehören beispielsweise fehlerhafte Nachrichten, ein fehlender bzw. falscher Hashwert oder eine fehlende bzw. falsche Signatur.
   
-<span id="BKMK_CIF3"></span>
 #### Größere Serverbatches
   
 #### Was nützt mir dieses Feature?
@@ -327,7 +317,6 @@ In RMS-Versionen vor RMS mit SP2 unterstützte der RMS-Cluster eine maximale Bat
   
 In RMS mit SP2 wurde die Fehlerberichterstattung erweitert, sodass auch Batchanfragen berücksichtigt werden. Wenn Sie beispielsweise einen Batch mit zehn Anfragen senden und die zweite und dritte Anfrage fehlschlägt, wird für jedes Fehlschlagen ein Ereignis in das Ereignisprotokoll geschrieben.
   
-<span id="BKMK_CIF4"></span>
 #### Kompatibilität mit Microsoft SQL Server 2005
   
 #### Was nützt mir dieses Feature?

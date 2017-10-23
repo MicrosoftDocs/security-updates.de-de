@@ -15,18 +15,18 @@ Aktualisiert: 27.12.2005
 
 ##### Auf dieser Seite
 
-[](#ehaa)[Überblick](#ehaa)
-[](#egaa)[Überwachungsrichtlinie](#egaa)
-[](#efaa)[Zuweisen von Benutzerrechten](#efaa)
-[](#eeaa)[Sicherheitsoptionen](#eeaa)
-[](#edaa)[Ereignisprotokoll](#edaa)
-[](#ecaa)[Zusätzliche Sicherheitseinstellungen](#ecaa)
-[](#ebaa)[Erstellen der Richtlinie mithilfe des SCW](#ebaa)
+[](#ehaa)[Überblick](#ehaa)  
+[](#egaa)[Überwachungsrichtlinie](#egaa)  
+[](#efaa)[Zuweisen von Benutzerrechten](#efaa)  
+[](#eeaa)[Sicherheitsoptionen](#eeaa)  
+[](#edaa)[Ereignisprotokoll](#edaa)  
+[](#ecaa)[Zusätzliche Sicherheitseinstellungen](#ecaa)  
+[](#ebaa)[Erstellen der Richtlinie mithilfe des SCW](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Überblick
 
-In diesem Kapitel werden Empfehlungen und Ressourcen bereitgestellt, die Ihnen bei der Absicherung von Internetauthentifizierungsdienst (IAS)-Servern in Ihrer Umgebung helfen, auf denen Microsoft* *Windows* *Server* *2003 mit SP1 ausgeführt wird. IAS ist die Microsoft-Implementierung eines RADIUS-Servers und -Proxys (Remote Authentication Dial-in User Service), die die zentrale Verwaltung der Benutzerauthentifizierung, Autorisierung und Kontoführung ermöglicht. IAS kann für die Authentifizierung von Benutzern in Datenbanken auf Windows* *Server* *2003-, Windows* *NT®* *4.0- und Windows* *2000-Domänencontrollern verwendet werden. IAS unterstützt außerdem eine Vielzahl von Netzwerkzugriffsservern (NAS), einschließlich Routing und RAS (RRAS).
+In diesem Kapitel werden Empfehlungen und Ressourcen bereitgestellt, die Ihnen bei der Absicherung von Internetauthentifizierungsdienst (IAS)-Servern in Ihrer Umgebung helfen, auf denen Microsoft Windows Server 2003 mit SP1 ausgeführt wird. IAS ist die Microsoft-Implementierung eines RADIUS-Servers und -Proxys (Remote Authentication Dial-in User Service), die die zentrale Verwaltung der Benutzerauthentifizierung, Autorisierung und Kontoführung ermöglicht. IAS kann für die Authentifizierung von Benutzern in Datenbanken auf Windows Server 2003-, Windows NT® 4.0- und Windows 2000-Domänencontrollern verwendet werden. IAS unterstützt außerdem eine Vielzahl von Netzwerkzugriffsservern (NAS), einschließlich Routing und RAS (RRAS).
 
 Der RADIUS-Hiding-Mechanismus verwendet den gemeinsamen Schlüssel von RADIUS, den Anforderungsauthentifikator und den MD5-Hashing-Algorithmus, um das Benutzerkennwort und andere Attribute zu verschlüsseln, wie z. B. Tunnelkennwort und MS-CHAP-MPPE-Schlüssel. RFC 2865 erkennt, ob eine Bewertung der Bedrohungen vorgenommen werden sollte und ob zusätzliche Sicherheitsmaßnahmen erforderlich sind.
 
@@ -157,10 +157,12 @@ Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Deployment G
 Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schritte aus, um sie in ein Gruppenrichtlinienobjekt umzuwandeln und bereitzustellen:
 
 1.  Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
-        ```
+        
+    `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
 
     und drücken Sie anschließend die Eingabetaste. Beispiel:
-        ```
+
+    `scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IAS Server.xml" /g:"IAS Policy"`
 
     **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
 
@@ -174,8 +176,7 @@ Anschließend sollten Sie eine endgültige Prüfung vornehmen, um sicherzustelle
 
 ### Zusammenfassung
 
-In diesem Kapitel wurden die Richtlinieneinstellungen behandelt, die in der in diesem Handbuch definierten Unternehmensclient-Umgebung zum Absichern von IAS-Server verwendet werden können, auf denen Windows* *Server* *2003 mit SP1 ausgeführt wird. Diese Einstellungen sind möglicherweise auch für die anderen in diesem Handbuch definierten Umgebungen geeignet, jedoch wurden sie nicht geprüft oder getestet. Die Einstellungen wurden über ein Gruppenrichtlinienobjekt (GPO) konfiguriert und angewendet, das zur Ergänzung der Richtlinie für die Mitgliedsserver-Baseline entwickelt wurde. Gruppenrichtlinienobjekte können zur Erhöhung der Sicherheit mit den jeweiligen die IAS-Server enthaltenden Organisationseinheiten in Ihrer Organisation verknüpft werden.
-
+In diesem Kapitel wurden die Richtlinieneinstellungen behandelt, die in der in diesem Handbuch definierten Unternehmensclient-Umgebung zum Absichern von IAS-Server verwendet werden können, auf denen Windows Server 2003 mit SP1 ausgeführt wird. Diese Einstellungen sind möglicherweise auch für die anderen in diesem Handbuch definierten Umgebungen geeignet, jedoch wurden sie nicht geprüft oder getestet. Die Einstellungen wurden über ein Gruppenrichtlinienobjekt (GPO) konfiguriert und angewendet, das zur Ergänzung der Richtlinie für die Mitgliedsserver-Baseline entwickelt wurde. Gruppenrichtlinienobjekte können zur Erhöhung der Sicherheit mit den jeweiligen die IAS-Server enthaltenden Organisationseinheiten in Ihrer Organisation verknüpft werden.
 #### Weitere Informationen
 
 Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IAS-Servern, auf denen Windows Server 2003 mit SP1 ausgeführt wird.
@@ -221,7 +222,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IAS-Se
 **Feedback**
 
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
-
+<br/>
  
 <table style="border:1px solid black;">
 <colgroup>

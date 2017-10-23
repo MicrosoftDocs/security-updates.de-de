@@ -41,9 +41,7 @@ Auf Computern, auf denen die 64-Bit-Version von Windows Server 2003 ausgeführt
 
 Die folgende Tabelle enthält die Einträge, die Sie hinzufügen können, um die Dienstermittlung außer Kraft zu setzen.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -96,9 +94,7 @@ Der vollständige Pfad des Registrierungsteilschlüssels für clientseitige Dien
   
 In der folgenden Tabelle sind die Registrierungsschlüssel aufgeführt, die Sie auf RMS-Clientcomputern hinzufügen können, um die Dienstermittlung außer Kraft zu setzen.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -142,17 +138,19 @@ Das Importieren der richtigen Registrierungsschlüssel auf den einzelnen Servern
 **So importieren Sie die richtigen Registrierungsschlüssel auf die einzelnen Server im RMS-Cluster**  
 1.  Kopieren Sie die folgende Beispielregistrierungsdatei in den Microsoft Editor.
   
-    `Windows Registry Editor Version 5.00`
+    ```
+    Windows Registry Editor Version 5.00
+
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]`
+    @="http://<RMS_cluster_name>/_wmcs/certification"
   
-    `@="http://<RMS_cluster_name>/_wmcs/certification"`
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]`
-  
-    `@="http://<RMS_cluster_name>/_wmcs/licensing"`
+    @="http://<RMS_cluster_name>/_wmcs/licensing"
+    ```
   
 2.  Ersetzen Sie „&lt;RMS-Clustername&gt;“ durch den Namen Ihres RMS-Clusters.
   

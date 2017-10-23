@@ -36,9 +36,7 @@ Zu Beginn wird die Größe der Protokollierungsdatenbank im Bereich von 1,7 MB 
 
 Zur Verdeutlichung: Beispielsweise stellt eine Organisation RMS für ihre 5000 Benutzer bereit. Jeder Benutzer verfügt über einen Computer, und die Organisation verwendet zwei RMS-Server. Nach der Bereitstellung erstellt jeder Benutzer durchschnittlich eine RMS-geschützte E-Mail-Nachricht täglich, die an fünf andere Benutzer versendet wird. Darüber hinaus erstellt jeder Benutzer im Laufe eines Tages ein RMS-geschütztes Dokument, auf das drei andere Benutzer zugreifen. Die folgende Tabelle enthält geschätzte Zahlen, die verdeutlichen, wie sich diese Aktivitäten auf das Wachstum der Protokollierungsdatenbank auswirken.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
