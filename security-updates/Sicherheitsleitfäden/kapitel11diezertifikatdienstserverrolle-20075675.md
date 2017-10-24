@@ -15,19 +15,19 @@ Aktualisiert: 27.12.2005
 
 ##### Auf dieser Seite
 
-[](#eiaa)[Überblick](#eiaa)
-[](#ehaa)[Einstellungen für Überwachungsrichtlinien](#ehaa)
-[](#egaa)[Zuweisen von Benutzerrechten](#egaa)
-[](#efaa)[Sicherheitsoptionen](#efaa)
-[](#eeaa)[Ereignisprotokolleinstellungen](#eeaa)
-[](#edaa)[Zusätzliche Registrierungseinträge](#edaa)
-[](#ecaa)[Zusätzliche Sicherheitseinstellungen](#ecaa)
-[](#ebaa)[Erstellen der Richtlinie mithilfe des SCW](#ebaa)
+[](#eiaa)[Überblick](#eiaa)  
+[](#ehaa)[Einstellungen für Überwachungsrichtlinien](#ehaa)  
+[](#egaa)[Zuweisen von Benutzerrechten](#egaa)  
+[](#efaa)[Sicherheitsoptionen](#efaa)  
+[](#eeaa)[Ereignisprotokolleinstellungen](#eeaa)  
+[](#edaa)[Zusätzliche Registrierungseinträge](#edaa)  
+[](#ecaa)[Zusätzliche Sicherheitseinstellungen](#ecaa)  
+[](#ebaa)[Erstellen der Richtlinie mithilfe des SCW](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Überblick
 
-Dieses Kapitel enthält Anweisungen für die Absicherung von Servern in Ihrer Umgebung, auf denen Microsoft® Windows Server™* *2003 mit Service Pack 1 (SP1) und Microsoft-Zertifikatdienste ausgeführt werden. Obwohl dieses Kapitel alle Informationen für ein erfolgreiches Absichern dieser Servertypen enthält, sind darin keine detaillierten Informationen zur Erstellung einer sicheren Zertifikatdienstinfrastruktur in Ihrer Umgebung oder zur Bereitstellung einer Zertifizierungsstelle (CA) enthalten. Diese Themen werden in der Produktdokumentation zu Windows* *Server* *2003 ausführlich behandelt. Sie werden darüber hinaus im *Windows Server 2003 Ressource Kit* sowie in Whitepapers diskutiert, die auf der Microsoft-Website verfügbar sind. Weitere Informationen finden Sie im Begleithandbuch [*Sichern von Wireless LANs mit Zertifikatsdiensten*](http://go.microsoft.com/fwlink/?linkid=14843), das unter http://go.microsoft.com/fwlink/?LinkId=14843 verfügbar ist.
+Dieses Kapitel enthält Anweisungen für die Absicherung von Servern in Ihrer Umgebung, auf denen Microsoft® Windows Server™ 2003 mit Service Pack 1 (SP1) und Microsoft-Zertifikatdienste ausgeführt werden. Obwohl dieses Kapitel alle Informationen für ein erfolgreiches Absichern dieser Servertypen enthält, sind darin keine detaillierten Informationen zur Erstellung einer sicheren Zertifikatdienstinfrastruktur in Ihrer Umgebung oder zur Bereitstellung einer Zertifizierungsstelle (CA) enthalten. Diese Themen werden in der Produktdokumentation zu Windows Server 2003 ausführlich behandelt. Sie werden darüber hinaus im *Windows Server 2003 Ressource Kit* sowie in Whitepapers diskutiert, die auf der Microsoft-Website verfügbar sind. Weitere Informationen finden Sie im Begleithandbuch [*Sichern von Wireless LANs mit Zertifikatsdiensten*](http://go.microsoft.com/fwlink/?linkid=14843), das unter http://go.microsoft.com/fwlink/?LinkId=14843 verfügbar ist.
 
 Die Einstellungen in diesem Kapitel werden durch Gruppenrichtlinien konfiguriert und angewendet. Ein Gruppenrichtlinienobjekt (GPO), das die Richtlinie für die Mitgliedsserver-Baseline unterstützt, kann mit den jeweiligen die Zertifizierungsstellenserver enthaltenden Organisationseinheiten verknüpft werden, um die für diese Serverrollen erforderlichen Sicherheitseinstellungsänderungen bereitzustellen. In diesem Kapitel werden nur die Richtlinieneinstellungen erläutert, die von der Richtlinie für die Mitgliedsserver-Baseline abweichen.
 
@@ -103,7 +103,7 @@ Der TLS/SSL-Sicherheitsdienst verwendet folgende Algorithmen:
 -   Den auf öffentlichen Schlüsseln basierenden RSA-Algorithmus für TLS-Schlüsselaustausch und -Authentifizierung (RSA ist eine Verschlüsselungstechnologie, die von RSA Data Security, Inc. entwickelt wurde.)
   
 -   Den SHA 1-Hashingalgorithmus für die TLS-Hashinganforderungen
-  
+
 Für den EFS-Dienst (Encrypting File System, verschlüsselndes Dateisystem) unterstützt der TLS/SSL-Sicherheitsdienst nur den dreifachen DES-Verschlüsselungsalgorithmus, um Dateidaten zu verschlüsseln, die im NTFS-Dateisystem von Windows gespeichert werden. Standardmäßig verwendet der EFS-Dienst den DESX-Algorithmus für die Verschlüsselung von Dateidaten.
   
 Wenn Sie diese Richtlinieneinstellung aktivieren, verwenden Computer in dieser Serverrolle in Ihrer Umgebung die leistungsstärksten Algorithmen, die für die digitale Verschlüsselung sowie das Hashing und das Signieren zur Verfügung stehen. Durch die Verwendung dieser Algorithmen werden Risiken verringert, da sie unautorisierte Benutzer am Missbrauch digital verschlüsselter oder signierter Daten hindern.
@@ -124,7 +124,7 @@ Die Ereignisprotokolleinstellungen für Zertifikatdienstserver in der Unternehme
   
 ### Zusätzliche Registrierungseinträge
   
-Zusätzliche Registrierungseinträge wurden für die Vorlagendatei „Unternehmensclient - Zertifizierungsstellenserver.inf“ erstellt. Diese Einträge sind nicht in den administrativen Vorlagedateien (.adm) für die in diesem Handbuch beschriebene Unternehmensclient-Umgebung definiert. Die .adm-Dateien definieren die Systemrichtlinien und -beschränkungen für die Desktop-, Shell- und Sicherheitseinstellungen für Windows* *Server* *2003 mit SP1.
+Zusätzliche Registrierungseinträge wurden für die Vorlagendatei „Unternehmensclient - Zertifizierungsstellenserver.inf“ erstellt. Diese Einträge sind nicht in den administrativen Vorlagedateien (.adm) für die in diesem Handbuch beschriebene Unternehmensclient-Umgebung definiert. Die .adm-Dateien definieren die Systemrichtlinien und -beschränkungen für die Desktop-, Shell- und Sicherheitseinstellungen für Windows Server2003 mit SP1.
   
 Die zusätzlichen Registrierungseinträge sind zur Automatisierung ihrer Implementierung in der Sicherheitsvorlage konfiguriert. Wenn die inkrementelle Gruppenrichtlinie für Zertifikatdienste für diese Umgebung entfernt wird, werden die Einstellungen nicht automatisch entfernt. Sie müssen mit einem Programm zum Bearbeiten der Registrierung (wie Regedt32.exe) manuell geändert werden.
   
@@ -142,7 +142,7 @@ Die folgenden Zugriffssteuerungslisten (ACLs) werden empfohlen und können über
   
 Die Dateien, die nicht durch Zugriffssteuerungslisten geschützt sind, können von autorisierten Benutzern, die lokal oder über ein Netzwerk auf diese Dateien zugreifen können, leicht angezeigt, geändert oder gelöscht werden. Obwohl Dateien mithilfe von Zugriffssteuerungslisten geschützt werden können, kann durch die Verschlüsselung der Dateien ein viel höheres Maß an Sicherheit erzielt werden, insbesondere dann, wenn es sich um Dateien handelt, die nur von einem einzelnen Benutzer verwendet werden.
   
-In der folgenden Tabelle sind die Zugriffssteuerungslisten des Dateisystems für Zertifikatdienstserver in der Unternehmensclient-Umgebung enthalten, die auf Windows* *Server* *2003 basieren. In dieser Umgebung verwenden die Zertifikatdienstserver das Laufwerk **D:\\CertSrv** als Zertifikatdatenbankverzeichnis, und die Datenbankprotokolle werden im Standardordner **%SystemRoot%\\system32\\CertLog** gespeichert. Sie können die Protokolle auch vom Systemlaufwerk in ein physisch getrenntes, gespiegeltes Laufwerk verschieben, wie z. B. **E:\\CertLog**. Das separate Speichern der Datenbank und der Protokolle auf verschiedenen physischen Laufwerken ist keine Sicherheitsanforderung, wird aber als Schutz vor Laufwerksausfällen und zur Verbesserung der Leistung empfohlen. Die Standardinstallationsordner der Zertifikatdienste **%SystemRoot%\\system32\\CertLog** und **%SystemRoot%\\system32\\CertSrv** weisen standardmäßig die richtigen Zugriffssteuerungslisten auf, die in der folgenden Tabelle dargestellt werden.
+In der folgenden Tabelle sind die Zugriffssteuerungslisten des Dateisystems für Zertifikatdienstserver in der Unternehmensclient-Umgebung enthalten, die auf Windows Server 2003 basieren. In dieser Umgebung verwenden die Zertifikatdienstserver das Laufwerk **D:\\CertSrv** als Zertifikatdatenbankverzeichnis, und die Datenbankprotokolle werden im Standardordner **%SystemRoot%\\system32\\CertLog** gespeichert. Sie können die Protokolle auch vom Systemlaufwerk in ein physisch getrenntes, gespiegeltes Laufwerk verschieben, wie z. B. **E:\\CertLog**. Das separate Speichern der Datenbank und der Protokolle auf verschiedenen physischen Laufwerken ist keine Sicherheitsanforderung, wird aber als Schutz vor Laufwerksausfällen und zur Verbesserung der Leistung empfohlen. Die Standardinstallationsordner der Zertifikatdienste **%SystemRoot%\\system32\\CertLog** und **%SystemRoot%\\system32\\CertSrv** weisen standardmäßig die richtigen Zugriffssteuerungslisten auf, die in der folgenden Tabelle dargestellt werden.
   
 **Tabelle 11.2: Zugriffssteuerungslisten des Dateisystems**
 
@@ -231,7 +231,7 @@ Durch diese Richtlinieneinstellungen werden sämtliche fehlgeschlagenen Zugriffe
   
 #### Sichern von bekannten Konten
   
-Windows Server* *2003 mit SP1 verfügt über eine Reihe vordefinierter Benutzerkonten, die nicht gelöscht, aber umbenannt werden können. Die zwei bekanntesten vordefinierten Konten in Windows Server* *2003 sind die Konten „Gast“ und „Administrator“.
+Windows Server 2003 mit SP1 verfügt über eine Reihe vordefinierter Benutzerkonten, die nicht gelöscht, aber umbenannt werden können. Die zwei bekanntesten vordefinierten Konten in Windows Server 2003 sind die Konten „Gast“ und „Administrator“.
   
 Das Konto „Gast“ ist auf Mitgliedsservern und Domänencontrollern standardmäßig deaktiviert. Diese Konfiguration sollte nicht geändert werden. Viele verschiedene schädliche Codes verwenden das vordefinierte Administratorkonto bei einem ersten Versuch, einen Server anzugreifen. Daher sollte das vordefinierte Administratorkonto umbenannt und seine Beschreibung geändert werden, damit Angriffen von Remoteservern vorgebeugt wird, bei denen die Angreifer versuchen, dieses bekannte Konto zu nutzen.
   
@@ -317,15 +317,14 @@ Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schri
   
 1.  Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
   
-    <codesnippet language containsmarkup="false" displaylanguage="§">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
-    und drücken Sie anschließend die Eingabetaste. Beispiel:
-  
-    <codesnippet language containsmarkup="false" displaylanguage="§">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\ Certificate Services.xml" /g:"Certificate Services Policy"  
-```
-  
-    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+     `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
+
+     und drücken Sie anschließend die Eingabetaste. Beispiel:
+
+     `scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Certificate Services.xml"  /g:"Certificate Services Policy"`
+    
+    
+**Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
   
 2.  Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
   
@@ -343,9 +342,9 @@ In diesem Kapitel wurden die Richtlinieneinstellungen behandelt, die in den drei
   
 Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Servern, auf denen Windows Server 2003 mit SP1 und Zertifikatdienste ausgeführt werden.
   
--   Eine gute Einführung in PKI-Konzepte und die Funktionen der Windows* *2000-Zertifikatdienste finden Sie im Artikel „[Einführung in die Infrastruktur öffentlicher Schlüssel von Windows 2000](http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx)“ (in englischer Sprache) unter http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx.
+-   Eine gute Einführung in PKI-Konzepte und die Funktionen der Windows 2000-Zertifikatdienste finden Sie im Artikel „[Einführung in die Infrastruktur öffentlicher Schlüssel von Windows 2000](http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx)“ (in englischer Sprache) unter http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx.
   
--   Eine Beschreibung der verbesserten PKI-Funktionen von Windows* *Server* *2003 und Windows* *XP finden Sie in „[PKI-Verbesserungen in Windows XP Professional und Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx.
+-   Eine Beschreibung der verbesserten PKI-Funktionen von Windows Server 2003 und Windows XP finden Sie in „[PKI-Verbesserungen in Windows XP Professional und Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx.
   
 -   Weitere Hintergrundinformationen zu wichtigen PKI-Konzepten finden Sie auf der Seite [Infrastruktur öffentlicher Schlüssel](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/32aacfe8-83af-4676-a45c-75483545a978.mspx) (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/32aacfe8-83af-4676-a45c-75483545a978.mspx.
   
@@ -384,7 +383,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Server
 **Feedback**
   
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
-
+<br/>
  
 <table style="border:1px solid black;">
 <colgroup>

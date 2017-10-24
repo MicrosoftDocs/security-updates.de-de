@@ -60,6 +60,7 @@ Wenn bei dem Versuch, den ersten Stammzertifizierungsserver in einer Active Dir
 1.  Downloaden Sie das RMS Administration Toolkit, und installieren Sie es. Das Toolkit kann auf der [Microsoft-Website](http://go.microsoft.com/fwlink/?linkid=33841)gedownloaded werden.
 2.  Öffnen Sie die Eingabeaufforderung, indem Sie auf **Start**, **Ausführen** klicken. Geben Sie im Dialogfeld **Ausführen** den Befehl **cmd** ein, und klicken Sie dann auf **OK**.
 3.  Geben Sie auf der Befehlszeile folgenden Befehl ein:
+
     **ADSCPRegister.exeunregisterscp** &lt;*URLtoUnRegister*&gt;
 4.  Geben Sie für &lt;*URLtoUnRegister*&gt; den URL des RMS-Dienstverbindungspunktes ein, z. B. https://my\_domain/\_wmcs/Certification.
 

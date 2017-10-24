@@ -15,9 +15,9 @@ Aktualisiert: 20.10.2005
 
 ##### Auf dieser Seite
 
-[](#edaa)[Einführung](#edaa)
-[](#ecaa)[Testumgebung](#ecaa)
-[](#ebaa)[Testmethoden](#ebaa)
+[](#edaa)[Einführung](#edaa)  
+[](#ecaa)[Testumgebung](#ecaa)  
+[](#ebaa)[Testmethoden](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Einführung
@@ -60,14 +60,14 @@ Das Netzwerk enthielt außerdem zwei Clientcomputer, auf denen Windows XP Profe
 
 **Abbildung B.1: Das Netzwerk, mit dem das Windows XP-Sicherheitshandbuch im Domänen- sowie im eigenständigen Modus geprüft wurde**
 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163067.sgfg0b01_big(de-de,technet.10).jpg)
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163067.sgfg0b01_big(de-de,technet.10).jpg)  
 Das Netzwerk in der folgenden Abbildung wurde entwickelt, um die abwärtskompatiblen Vorlagen zu prüfen, die in diesem Handbuch enthalten sind.
 
 ![](images/Cc163067.SGFG0B02(de-de,TechNet.10).jpg)
 
 **Abbildung B.2: Das Netzwerk, mit dem die abwärtskompatiblen Sicherheitsvorlagen geprüft wurden, die in diesem Handbuch enthalten sind**
 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163067.sgfg0b02_big(de-de,technet.10).jpg)
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc163067.sgfg0b02_big(de-de,technet.10).jpg)  
 [](#mainsection)[Zum Seitenanfang](#mainsection)
 
 ### Testmethoden
@@ -220,13 +220,13 @@ In diesem Kapitel wird beschrieben, wie unter Verwendung von administrativen Vor
 
 2.  Erstellen Sie vier neue Gruppenrichtlinienobjekte, eines für jeden der vier Typen von Windows XP-Clientcomputern. Da die Richtlinieneinstellungen für Desktops und Laptops voneinander abweichen, wird vorgeschlagen, separate Gruppenrichtlinienobjekte zu erstellen.
 
-    -   Richtlinie administrativer Vorlagen für Unternehmensclient-Desktop
+    -  Richtlinie administrativer Vorlagen für Unternehmensclient-Desktop
 
-    -   Richtlinie administrativer Vorlagen für Unternehmensclient-Laptop
+    -  Richtlinie administrativer Vorlagen für Unternehmensclient-Laptop
 
-    -   Richtlinie administrativer Vorlagen für Hochsicherheits-Desktop
+    -  Richtlinie administrativer Vorlagen für Hochsicherheits-Desktop
 
-    -   Richtlinie administrativer Vorlagen für Hochsicherheits-Laptop
+    -  Richtlinie administrativer Vorlagen für Hochsicherheits-Laptop
 
 3.  Konfigurieren Sie in den administrativen Vorlagen die Computerkonfigurationseinstellungen und Benutzerkonfigurationseinstellungen für jedes der Gruppenrichtlinienobjekte gemäß der Anleitung in Kapitel 4, „Administrative Vorlagen für Windows XP“.
 
@@ -264,11 +264,11 @@ Mithilfe dieses Kapitels können Administratoren die in ihrer Domäne ausgeführ
 
 3.  Konfigurieren Sie die Richtlinie für Softwareeinschränkungen wie folgt:
 
-    1.  Erstellen Sie eine Standardrichtlinie für Softwareeinschränkungen.
+    a.  Erstellen Sie eine Standardrichtlinie für Softwareeinschränkungen.
 
-    2.  Richten Sie die Pfadregeln ein.
+    b.  Richten Sie die Pfadregeln ein.
 
-    3.  Legen Sie die Richtlinienoptionen gemäß den bereitgestellten Verordnungen fest, z. B. Erzwingung, designierte Dateitypen und vertrauenswürdige Herausgeber.
+    c.  Legen Sie die Richtlinienoptionen gemäß den bereitgestellten Verordnungen fest, z. B. Erzwingung, designierte Dateitypen und vertrauenswürdige Herausgeber.
 
 4.  Überprüfen Sie die Richtlinieneinstellungen, und setzen Sie dann die Standardrichtlinieneinstellung auf **Nicht erlaubt** zurück.
 
