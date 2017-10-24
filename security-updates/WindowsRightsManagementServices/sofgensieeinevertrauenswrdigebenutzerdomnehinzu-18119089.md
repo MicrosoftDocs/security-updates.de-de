@@ -31,7 +31,9 @@ Hinzufügen von vertrauenswürdigen Benutzerdomänen
 5.  Wählen Sie eine der folgenden Optionen für die Vertrauensstellungen aus:
 
     -   Wählen Sie die Option **Allen E-Mail-Domänen vertrauen** aus, um allen Benutzerkonten zu vertrauen, die Mitglied dieser Domäne sind.
+
         – oder –
+
     -   Wählen Sie die Option **Nur angegebenen E-Mail-Domänen vertrauen**, geben Sie dann den als vertrauenswürdig einzustufenden Domänennamen ein, z. B. Beispiel.com, und klicken Sie auf **Hinzufügen**. Dadurch wird die Domäne zur Liste Vertrauenswürdige E-Mail\_Domänen hinzugefügt. Zum Entfernen eines Namens aus der Liste wählen Sie den Namen aus, und klicken Sie dann auf **Entfernen**. Eine aufgelistete Domäne schließt alle zugehörigen Unterdomänen ein.
 
 6.  Wenn Sie RMS in einer Umgebung verwenden, in der Sie die Gruppenmitgliedschaft gesamtstrukturübergreifend erweitern müssen, aktivieren Sie das Kontrollkästchen **RM-Lizenzierungen an Sicherheits-ID (SIDs) für diese Benutzerdomäne vertrauen**.

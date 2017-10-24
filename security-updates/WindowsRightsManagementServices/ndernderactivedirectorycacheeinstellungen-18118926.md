@@ -21,9 +21,7 @@ Auf Computern mit der 64-Bit-Version von Windows Server 2003 ist der folgende R
 
 In der folgenden Tabelle werden die Einträge aufgelistet, die das Verhalten des Speichercaches steuern.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

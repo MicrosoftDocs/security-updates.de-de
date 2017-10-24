@@ -11,9 +11,7 @@ RMS-Zertifikate und -Lizenzen – Zusammenfassung
 
 In der folgenden Tabelle werden die in RMS verwendeten Zertifikate und Lizenzen aufgelistet. Sie werden ausführlich in den anderen Themen dieses Abschnitts erläutert.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

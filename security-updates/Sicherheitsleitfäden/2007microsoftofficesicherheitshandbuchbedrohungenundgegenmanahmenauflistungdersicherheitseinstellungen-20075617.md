@@ -17,9 +17,9 @@ Die Einstellungen im folgenden Abschnitt sind nach Namen aufgeführt.
 
 ##### Auf dieser Seite
 
-[](#ecd)[Informationen zu Benutzerrichtlinieneinstellungen](#ecd)
-Informationen zu Benutzerrichtlinieneinstellungen
--------------------------------------------------
+[Informationen zu Benutzerrichtlinieneinstellungen](#ecd)
+
+## Informationen zu Benutzerrichtlinieneinstellungen
 
 Für jede Einstellung werden neben einer Beschreibung auch Informationen über die betroffenen Anwendungen, das behandelte Sicherheitsrisiko, die Art und Weise, in der das Sicherheitsrisiko behandelt wird, und eventuelle andere Erwägungen bereitgestellt. Darüber hinaus ist für jede Einstellung eine Tabelle enthalten, die den Speicherort der Einstellung in der Gruppenrichtlinie, die ADM-Datei mit der Einstellung sowie die empfohlene Konfiguration für EC- und SSLF-Umgebungen aufführt.
 
@@ -41,7 +41,7 @@ Wenn eine nicht vertrauenswürdige Anwendung unter Verwendung der UserProperties
 
 Wenn ausgewählt ist, dass niemals Warnungen ausgegeben werden sollen, gewährt Outlook automatisch den programmgesteuerten Zugriff auf alle Programme, die diesen anfordern. Dadurch könnte ein schädliches Programm Zugriff auf vertrauliche Informationen erhalten.
 
-![](https://msdn.microsoft.com/de-de/Dd443674.note(de-de,TechNet.10).gif) Hinweis:
+![](https://msdn.microsoft.com/de-de/Dd443674.note(de-de,TechNet.10).gif) Hinweis:  
 Bei der beschriebenen Standardfunktionalität wird vorausgesetzt, dass Sie nicht der Empfehlung gefolgt sind, die Gruppenrichtlinieneinstellung „Outlook-Sicherheitsmodus“ zu aktivieren, um sicherzustellen, dass Outlook-Sicherheitseinstellungen durch die Gruppenrichtlinie konfiguriert werden. Wenn Gruppenrichtlinien-Sicherheitseinstellungen für Outlook verwendet werden, wird der Abschnitt „Programmgesteuerter Zugriff“ des Vertrauensstellungscenters nicht verwendet. In dieser Situation besteht die Standardeinstellung darin, den Benutzern eine Eingabeaufforderung auf Grundlage der Computersicherheit zu senden. Dies entspricht der Option „Nur wenn die Antivirensoftware veraltet ist oder nicht ausgeführt wird“ im Vertrauensstellungscenter, und hat keine Auswirkungen auf die Benutzer.
 
 #### Gegenmaßnahme

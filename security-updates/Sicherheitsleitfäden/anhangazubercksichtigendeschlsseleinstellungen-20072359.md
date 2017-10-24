@@ -19,7 +19,7 @@ Die Einstellungen, die in dieser Liste enthalten sein sollten, könnten ausführ
 
 ##### Auf dieser Seite
 
-[](#ebaa)[Wichtige Gegenmaßnahmen](#ebaa)
+[](#ebaa)[Wichtige Gegenmaßnahmen](#ebaa)  
 [](#eaaa)[Hauptsicherheitseinstellungen](#eaaa)
 
 ### Wichtige Gegenmaßnahmen

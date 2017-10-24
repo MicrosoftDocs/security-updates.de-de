@@ -27,10 +27,10 @@ Das Handbuch bietet für drei unterschiedliche Umgebungen spezifische Empfehlung
 
 ##### Auf dieser Seite
 
-[](#eeaa)[Zielgruppe](#eeaa)
-[](#edaa)[Inhaltswegweiser](#edaa)
-[](#ecaa)[Verwandte Themen](#ecaa)
-[](#ebaa)[Senden Sie uns Ihr Feedback](#ebaa)
+[](#eeaa)[Zielgruppe](#eeaa)  
+[](#edaa)[Inhaltswegweiser](#edaa)  
+[](#ecaa)[Verwandte Themen](#ecaa)  
+[](#ebaa)[Senden Sie uns Ihr Feedback](#ebaa)  
 [](#eaaa)[Consulting- und Supportdienstleistungen](#eaaa)
 
 ### Zielgruppe

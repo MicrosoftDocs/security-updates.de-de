@@ -19,9 +19,7 @@ Mithilfe der folgenden Verfahren werden ein Domänencontroller und ein Datenbank
 
 Wenn Sie sich für MSDE 2000 als Datenbankserver entscheiden, sollten Sie berücksichtigen, dass MSDE 2000 keine Netzwerkschnittstellen unterstützt und in den Nutzungsbedingungen für MSDE 2000 angegeben ist, dass SQL Server-Clienttools nicht zur Bearbeitung einer MSDE 2000-Datenbank verwendet werden können. Aufgrund dieser Einschränkung können Sie weder Protokollierungsinformationen anzeigen lassen noch in der Konfigurationsdatenbank gespeicherte Daten ändern. MSDE 2000 sollte deshalb nur zur Unterstützung von RMS-Datenbanken in Testumgebungen verwendet werden.
 
-###  
-
- 
+<p></p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

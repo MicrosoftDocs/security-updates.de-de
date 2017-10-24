@@ -11,9 +11,7 @@ Softwareanforderungen für RMS
 
 Die folgende Tabelle zeigt die Softwareanforderungen zum Ausführen von RMS-Servern.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -102,7 +100,5 @@ Weitere Informationen zu Active Directory, Message Queuing und IIS finden Sie im
   
 Siehe auch  
 ----------
-  
-####  
   
 [Planen der Datenbankserver-Infrastruktur](https://technet.microsoft.com/b12354bd-3143-4d1f-b5aa-450c4550653c)

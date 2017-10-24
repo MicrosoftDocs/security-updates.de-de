@@ -23,8 +23,8 @@ In der folgenden Abbildung ist der gesamte Planungsprozess für die Bereitstellu
 
 ##### Auf dieser Seite
 
-[](#edaa)[Auswählen der Sicherheitseinstellungen für Ihre Umgebung](#edaa)
-[](#ecaa)[Entwerfen einer Gruppenrichtlinieninfrastruktur](#ecaa)
+[](#edaa)[Auswählen der Sicherheitseinstellungen für Ihre Umgebung](#edaa)  
+[](#ecaa)[Entwerfen einer Gruppenrichtlinieninfrastruktur](#ecaa)  
 [](#ebaa)[Vorbereiten der Bereitstellung von EC- oder SSLF-Einstellungen](#ebaa)
 
 #### Auswählen der Sicherheitseinstellungen für Ihre Umgebung
@@ -159,9 +159,11 @@ Durch das Bereitstellen von Sicherheitseinstellungen über die Gruppenrichtlinie
 **Download**
 
 [2007 Microsoft Office-Sicherheitshandbuch herunterladen](http://www.microsoft.com/downloads/details.aspx?familyid=a12eca33-a20d-45e2-895c-5e021f3ae4c5&displaylang=en)[GPOAccelerator herunterladen](http://www.microsoft.com/downloads/details.aspx?familyid=a46f1dbe-760c-4807-a82f-4f02ae3c97b0&displaylang=en)
+
 **Update-Benachrichtigungen**
 
 [Melden Sie sich an, um über Updates und neue Versionen informiert zu werden](http://technet.microsoft.com/hi-in/solutionaccelerators/bb687756(en-us).aspx)
+
 **Feedback**
 
 [Senden Sie uns Ihre Kommentare und Anregungen](https://technet.microsoft.com/de-de/library/secwish%40microsoft.com(v=TechNet.10))
