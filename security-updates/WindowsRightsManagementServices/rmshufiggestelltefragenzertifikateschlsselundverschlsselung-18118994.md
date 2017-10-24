@@ -67,16 +67,24 @@ Nein, RMS stellt XrML-Zertifikate (eXtensible Rights Markup Language) aus. Die d
 Die folgenden von einem RMS-System verwendeten Zertifikate und Lizenzen werden in XrML auf dem Clientcomputer gespeichert.
 
 -   Computerzertifikat
+
     Dateiname: CERT-Machine.drm
+
     Speicherort: %USERPROFILE%\\Lokale Einstellungen\\Anwendungsdaten\\Microsoft\\DRM\\
 -   Rechtekontozertifikat
+
     Dateinamenpräfix: GIC
+
     Speicherort: %USERPROFILE%\\Lokale Einstellungen\\Anwendungsdaten\\Microsoft\\DRM
 -   Client-Lizenzgeberzertifikat
+
     Dateinamenpräfix: CLC
+
     Speicherort: %USERPROFILE%\\Lokale Einstellungen\\Anwendungsdaten\\Microsoft\\DRM
 -   Nutzungslizenz
+
     Dateinamenpräfix: EUL
+    
     Speicherort: %USERPROFILE%\\Lokale Einstellungen\\Anwendungsdaten\\Microsoft\\DRM
 
 | ![](images/Cc747725.note(WS.10).gif)Hinweis                                                                                        |

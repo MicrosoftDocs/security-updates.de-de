@@ -11,9 +11,7 @@ RMS-Clienttechnologien
 
 Clientcomputer in einer RMS-Bereitstellung verwenden die folgenden Technologien, mit denen Benutzer RMS-geschützten Inhalt erstellen, veröffentlichen und abrufen können.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

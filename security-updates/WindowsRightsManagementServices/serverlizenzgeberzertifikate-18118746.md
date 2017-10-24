@@ -15,9 +15,7 @@ Während der Bereitstellung erhält der erste Lizenzierungsserver eines Clusters
 
 In der folgenden Tabelle werden die Rechte aufgelistet, die Servern durch Server-Lizenzgeberzertifikate erteilt werden.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -13,8 +13,8 @@ Veröffentlicht: 18. Aug 2006
 
 ### Auf dieser Seite
 
-[](#ecaa)[Einführung](#ecaa)
-[](#ebaa)[Szenario zum Schutz der Vertraulichkeit von E-Mails](#ebaa)
+[](#ecaa)[Einführung](#ecaa)  
+[](#ebaa)[Szenario zum Schutz der Vertraulichkeit von E-Mails](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Einführung
@@ -163,7 +163,7 @@ Das folgende Verfahren zum Schutz der Vertraulichkeit von E-Mails bezieht sich a
 
 **Abbildung 1. E-Mail-Dienste in mittelgroßen IT-Umgebungen**
 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri01_big(de-de,technet.10).gif)
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri01_big(de-de,technet.10).gif)  
 Die Vertraulichkeit ist insbesondere für Benutzer erforderlich, die E-Mails an Empfänger sowohl an internen als auch an externen Standorten senden. Um dies zu erreichen, richten Sie Exchange Server 2003 und die E-Mail-Clients zur Unterstützung von S/MIME ein.
 
 ### Hilfe beim Schutz der Vertraulichkeit von E-Mails
@@ -201,8 +201,8 @@ Damit Exchange Server S/MIME-E-Mails speichern kann, muss die Nachrichtenspeiche
 2.  Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und danach auf **Microsoft Exchange**, und klicken Sie auf **System-Manager**. Der Exchange-System-Manager (siehe Abbildung) wird angezeigt.
 
     ![](images/Cc875813.PECRI02(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri02_big(de-de,technet.10).gif)
+
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri02_big(de-de,technet.10).gif)
 
 3.  Klicken Sie auf **Server**, auf ***&lt;servername&gt;*** und danach auf **Speichergruppe**. Klicken Sie mit der rechten Maustaste auf **Postfachspeicher**, und wählen Sie **Eigenschaften**.
 
@@ -235,8 +235,8 @@ Mit der automatischen Registrierungsfunktion können Clients automatisch Zertifi
 7.  Erweitern Sie in der Konsolenstruktur wie abgebildet **Windows-Einstellungen**, dann **Sicherheitseinstellungen**, und klicken Sie auf **Richtlinien für öffentliche Schlüssel**.
 
     ![](images/Cc875813.PECRI05(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri05_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri05_big(de-de,technet.10).gif)
 
 8.  Doppelklicken Sie im Detailbereich auf **Einstellung für die automatische Registrierung**. Vergewissern Sie sich, dass im Dialogfeld **Einstellung für die automatische Registrierung** die folgenden Einstellungen wie abgebildet ausgewählt sind:
 
@@ -293,8 +293,8 @@ Damit wurde Outlook für die Wahrung der Vertraulichkeit von E-Mails konfigurier
 5.  Achten Sie darauf, die Schaltfläche **Diese Nachricht digital signieren** auszuwählen. Da Sie lediglich die digitale Signatur testen möchten, wählen Sie die Schaltfläche **Nachrichteninhalte und Anlagen verschlüsseln** nicht aus.
 
     ![](images/Cc875813.PECRI09(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri09_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri09_big(de-de,technet.10).gif)
 
 6.  Klicken Sie auf **Senden**.
 
@@ -313,8 +313,8 @@ Damit wurde die digital signierte Nachricht an den Empfänger versendet, der dar
 5.  Vergewissern Sie sich, dass auf der Symbolleiste die Schaltfläche **Nachrichteninhalte und Anlagen verschlüsseln** ausgewählt ist. Da Sie lediglich die Verschlüsselung testen möchten, wählen Sie die Schaltfläche **Diese Nachricht digital signieren** nicht aus.
 
     ![](images/Cc875813.PECRI10(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri10_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri10_big(de-de,technet.10).gif)
 
 Damit wurde die verschlüsselte Nachricht an den Empfänger versendet, der diese öffnen und lesen kann.
 
@@ -347,8 +347,8 @@ Um eine verschlüsselte E-Mail-Nachricht versenden zu können, muss der Empfäng
 10. Auf der Symbolleiste befinden sich zwei neue Symbole: eines zum Verschlüsseln und eines zum Signieren von Nachrichten. Stellen Sie sicher, dass die Schaltfläche **Signieren** wie abgebildet ausgewählt ist. Da Sie lediglich die digitale Signatur testen möchten, wählen Sie die Schaltfläche **Verschlüsseln** nicht aus.
 
     ![](images/Cc875813.PECRI12(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri12_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri12_big(de-de,technet.10).gif)
 
 11. Klicken Sie auf **Senden**.
 
@@ -377,8 +377,8 @@ Damit wurde die digital signierte Nachricht an den Empfänger versendet, der dar
 10. Stellen Sie sicher, dass die Schaltfläche **Verschlüsseln** auf der Symbolleiste wie abgebildet ausgewählt ist. Da Sie lediglich die Verschlüsselung testen möchten, wählen Sie die Schaltfläche **Signieren** nicht aus.
 
     ![](images/Cc875813.PECRI13(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri13_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri13_big(de-de,technet.10).gif)
 
 11. Klicken Sie auf **Senden**.
 
@@ -397,8 +397,8 @@ Mit „Active Directory-Benutzer und -Computer“ können Sie überprüfen, ob A
 3.  Klicken Sie wie abgebildet auf **Anzeigen** und danach auf **Erweiterte Funktionen**.
 
     ![](images/Cc875813.PECRI14(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri14_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri14_big(de-de,technet.10).gif)
 
 4.  Klicken Sie im linken Fensterbereich auf den Ordner **Benutzer**.
 
@@ -447,8 +447,8 @@ Sie können mit Outlook 2003 überprüfen, ob Sie E-Mail-Nachrichten empfangen 
 4.  Wenn die Nachricht geöffnet wird, klicken Sie auf die Schaltfläche **Signatur überprüfen** (siehe Abbildung), um die Signatur zu überprüfen.
 
     ![](images/Cc875813.PECRI17(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri17_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri17_big(de-de,technet.10).gif)
 
     Nach Klicken auf **Signatur überprüfen** wird das Dialogfeld **Digitale Signatur** geöffnet (siehe Abbildung), in dem die Gültigkeit der digitalen Signatur bestätigt wird.
 
@@ -467,8 +467,8 @@ Damit ist die Überprüfung der digitalen Signatur der Nachricht abgeschlossen.
 4.  Wenn die Nachricht geöffnet wird, klicken Sie auf die Schaltfläche **Verschlüsselung überprüfen** (siehe Abbildung), um die Verschlüsselung zu überprüfen.
 
     ![](images/Cc875813.PECRI19(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri19_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri19_big(de-de,technet.10).gif)
 
 5.  Nach Klicken auf **Verschlüsselung überprüfen** wird das Dialogfeld **Eigenschaften der Nachrichtensicherheit** geöffnet, in dem die Gültigkeit der verschlüsselten Nachricht bestätigt wird.
 
@@ -495,8 +495,8 @@ Sie können mit Outlook Express überprüfen, ob Sie E-Mail-Nachrichten empfange
 5.  Wenn die Nachricht geöffnet wird, zeigt Outlook Express folgende Meldung zur Erläuterung von digitalen Signaturen an. Aktivieren Sie das Kontrollkästchen **Diesen Hilfebildschirm nicht mehr anzeigen**, und klicken Sie auf **Weiter**.
 
     ![](images/Cc875813.PECRI21(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri21_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri21_big(de-de,technet.10).gif)
 
 6.  Klicken Sie zur Überprüfung der Signatur auf die Schaltfläche **Signatur überprüfen**.
 
@@ -519,8 +519,8 @@ Damit ist die Überprüfung der digitalen Signatur der Nachricht abgeschlossen.
 5.  Wenn die Nachricht geöffnet wird, zeigt Outlook Express folgende Meldung zur Erläuterung der Verschlüsselung an. Aktivieren Sie das Kontrollkästchen **Diesen Hilfebildschirm nicht mehr anzeigen**, und klicken Sie auf **Weiter**.
 
     ![](images/Cc875813.PECRI23(de-de,TechNet.10).gif)
-    [
-    Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri23_big(de-de,technet.10).gif)
+    
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875813.pecri23_big(de-de,technet.10).gif)
 
 6.  Klicken Sie zur Überprüfung der Signatur auf **Verschlüsselung überprüfen**.
 

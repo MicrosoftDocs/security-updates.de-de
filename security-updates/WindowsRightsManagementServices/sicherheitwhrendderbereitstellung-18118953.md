@@ -13,9 +13,7 @@ Sie können die RMS-Verwaltungswebsite dazu verwenden, RMS-Ressourcen auf einer 
 
 Während der Bereitstellung verwendet RMS (Rights Management Services oder Dienste für die Rechteverwaltung) die Konten, die in der folgenden Tabelle beschrieben werden.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

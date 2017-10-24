@@ -11,13 +11,13 @@ Reagieren auf IT-Sicherheitsverletzungen
 
 ##### Auf dieser Seite
 
-[](#ehaa)[Einführung](#ehaa)
-[](#egaa)[Bevor Sie beginnen](#egaa)
-[](#efaa)[Minimieren der Zahl und des Schweregrads der Sicherheitsverletzungen](#efaa)
-[](#eeaa)[Zusammenstellen des Kernteams zur Bekämpfung von Computersicherheitsverletzungen](#eeaa)
-[](#edaa)[Definieren eines Vorfallreaktionsplans](#edaa)
-[](#ecaa)[Schadensbegrenzung und Risikominimierung](#ecaa)
-[](#ebaa)[Verwandte Informationen](#ebaa)
+[](#ehaa)[Einführung](#ehaa)  
+[](#egaa)[Bevor Sie beginnen](#egaa)  
+[](#efaa)[Minimieren der Zahl und des Schweregrads der Sicherheitsverletzungen](#efaa)  
+[](#eeaa)[Zusammenstellen des Kernteams zur Bekämpfung von Computersicherheitsverletzungen](#eeaa)  
+[](#edaa)[Definieren eines Vorfallreaktionsplans](#edaa)  
+[](#ecaa)[Schadensbegrenzung und Risikominimierung](#ecaa)  
+[](#ebaa)[Verwandte Informationen](#ebaa)  
 
 ### Einführung
 
@@ -142,19 +142,24 @@ Ein erfolgreiches CSIRT besteht aus mehreren Schlüsselmitgliedern.
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Rechtsvertreter</td>
-<td style="border:1px solid black;">Dieses Mitglied ist ein Rechtsanwalt, der mit den festgelegten Richtlinien für die Behandlung von Sicherheitsverletzungen sehr vertraut ist. Der Rechtsvertreter bestimmt das Vorgehen bei einer Sicherheitsverletzung mit minimaler gesetzlicher Haftung und maximaler Möglichkeit, Täter strafrechtlich zu verfolgen.
-Bevor ein Vorfall stattfindet, sollte der Rechtsvertreter Informationen zu den Überwachungs- und Reaktionsrichtlinien erhalten, um sicherzustellen, dass die Organisation kein rechtliches Risiko während einer Bereinigungs- oder Eindämmungsmaßnahme eingeht. Es ist sehr wichtig festzustellen, welche gesetzlichen Implikationen und möglichen Verstöße gegen Vereinbarungen zum Servicelevel und gegen Mitgliedschaftsabkommen mit Ihren Kunden entstehen können, wenn ein betroffenes System heruntergefahren wird. Außerdem sollte die Frage der Haftung für Schäden untersucht werden, die durch die von diesem System ausgehenden Angriffe entstehen, wenn das System nicht heruntergefahren wird.
+<td style="border:1px solid black;">Dieses Mitglied ist ein Rechtsanwalt, der mit den festgelegten Richtlinien für die Behandlung von Sicherheitsverletzungen sehr vertraut ist. Der Rechtsvertreter bestimmt das Vorgehen bei einer Sicherheitsverletzung mit minimaler gesetzlicher Haftung und maximaler Möglichkeit, Täter strafrechtlich zu verfolgen.  
+
+Bevor ein Vorfall stattfindet, sollte der Rechtsvertreter Informationen zu den Überwachungs- und Reaktionsrichtlinien erhalten, um sicherzustellen, dass die Organisation kein rechtliches Risiko während einer Bereinigungs- oder Eindämmungsmaßnahme eingeht. Es ist sehr wichtig festzustellen, welche gesetzlichen Implikationen und möglichen Verstöße gegen Vereinbarungen zum Servicelevel und gegen Mitgliedschaftsabkommen mit Ihren Kunden entstehen können, wenn ein betroffenes System heruntergefahren wird. Außerdem sollte die Frage der Haftung für Schäden untersucht werden, die durch die von diesem System ausgehenden Angriffe entstehen, wenn das System nicht heruntergefahren wird.  
+
 Jegliche Kommunikation mit Strafverfolgungsbehörden außerhalb der Organisation oder mit externen Untersuchungseinrichtungen sollte auch mit dem Rechtsvertreter koordiniert werden.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Beauftragter für Öffentlichkeitsarbeit</td>
-<td style="border:1px solid black;">Im Allgemeinen gehört dieses Mitglied der Abteilung für an und ist für den Schutz und die Förderung des Images der Organisation verantwortlich.
+<td style="border:1px solid black;">Im Allgemeinen gehört dieses Mitglied der Abteilung für an und ist für den Schutz und die Förderung des Images der Organisation verantwortlich.  
+
 Diese Person hat zwar möglicherweise keinen direkten Kontakt zu den Medien und den Kunden, ist aber verantwortlich für die Formulierung der Mitteilungen. (Für Inhalt und Ziel der Nachricht ist in der Regel das Management verantwortlich.) Alle Medienanfragen sollten direkt an die Abteilung für Öffentlichkeitsarbeit geleitet werden.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Management</td>
-<td style="border:1px solid black;">Je nach Vorfall haben Sie die Wahl, nur die Abteilungsmanager oder aber die abteilungsübergreifenden Manager an der Behandlung des Vorfalls zu beteiligen. Das jeweilige Managementmitglied hängt von den Auswirkungen, dem Ort, dem Schweregrad und der Art des Vorfalls ab.
-Wenn Sie einen Ansprechpartner im Management haben, können Sie schnell die am besten geeignete Person für die jeweiligen Umstände identifizieren. Das Management ist verantwortlich für die Genehmigung und Steuerung der Sicherheitsmaßnahmen.
+<td style="border:1px solid black;">Je nach Vorfall haben Sie die Wahl, nur die Abteilungsmanager oder aber die abteilungsübergreifenden Manager an der Behandlung des Vorfalls zu beteiligen. Das jeweilige Managementmitglied hängt von den Auswirkungen, dem Ort, dem Schweregrad und der Art des Vorfalls ab.  
+
+Wenn Sie einen Ansprechpartner im Management haben, können Sie schnell die am besten geeignete Person für die jeweiligen Umstände identifizieren. Das Management ist verantwortlich für die Genehmigung und Steuerung der Sicherheitsmaßnahmen.  
+
 Außerdem ist das Management verantwortlich für die Bestimmung aller (sowohl finanzieller als auch sonstiger) Vorfallauswirkungen auf die Organisation. Das Management weist das Kommunikationspersonal an, welche Informationen den Medien mitgeteilt werden, und bestimmt die Interaktionsebene zwischen dem Rechtsvertreter und den Strafverfolgungsbehörden.</td>
 </tr>
 </tbody>
