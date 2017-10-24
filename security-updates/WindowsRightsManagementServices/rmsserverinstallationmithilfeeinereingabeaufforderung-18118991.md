@@ -15,19 +15,17 @@ Sie können RMS (Rights Management Services oder Dienste für die Rechteverwaltu
 
 Für die Installation mithilfe der Windows® Installer (.msi) Dateien müssen Sie zuerst die MSI-Dateien aus den RMS mit der ausführbaren Datei des SP2 extrahieren. Der folgende Befehl kann über eine Eingabeaufforderung ausgeführt werden, um die Dateien msdrmclient.msi und RmClientBackCompat.msi zu extrahieren:
 
-**WindowsRightsManagementServiceSP2-KB917275-Server-ENU.exe /X:C:\\RMS***Installationsort*
+**WindowsRightsManagementServiceSP2-KB917275-Server-ENU.exe /X:C:\\RMS** *Installationsort*
 
 Nachdem Sie die MSI-Dateien extrahiert haben, können Sie folgende Befehle zur Installation von RMS verwenden:
 
-**msiexec.exe /I MSDrmClient.msi /qn ALLUSERS=2 /m MSIDHOG /lei logfile.log DISPLYPAGE="NO" TARGETDIR=c:\\***Installationsort*
+**msiexec.exe /I MSDrmClient.msi /qn ALLUSERS=2 /m MSIDHOG /lei logfile.log DISPLYPAGE="NO" TARGETDIR=c:\\** *Installationsort*
 
-**msiexec.exe /I RMClientBackCompat.msi /qn ALLUSERS=2 /m MSIDHOG /lei logfile.log DISPLYPAGE="NO" TARGETDIR=c:\\***Installationsort*
+**msiexec.exe /I RMClientBackCompat.msi /qn ALLUSERS=2 /m MSIDHOG /lei logfile.log DISPLYPAGE="NO" TARGETDIR=c:\\** *Installationsort*
 
 In der untenstehenden Tabelle wird die Syntax für jeden Befehl erläutert.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

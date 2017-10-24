@@ -24,7 +24,7 @@ Protokollierung aktivieren und deaktivieren
 
 2.  Klicken Sie im Bereich **Verwaltungsverknüpfungen** auf **Protokollierungseinstellungen**.
 
-3.  Aktivieren Sie im Bereich **Protokollierungsserver und -datenbank** das Kontrollkästchen **Protokollierung aktivieren**, und klicken Sie dann auf **Aktualisieren**.
+3.  Aktivieren Sie im Bereich **Protokollierungsserver und-datenbank** das Kontrollkästchen **Protokollierung aktivieren**, und klicken Sie dann auf **Aktualisieren**.
 
     Deaktivieren Sie das Kontrollkästchen, und klicken Sie dann auf **Aktualisieren**, um die Protokollierung zu deaktivieren.
 
