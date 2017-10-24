@@ -1,6 +1,6 @@
 ---
-Title: Kapitel 5: Die Richtlinie für die Domänencontroller-Baseline
-TOCTitle: Kapitel 5: Die Richtlinie für die Domänencontroller-Baseline
+Title: Kapitel 5 - Die Richtlinie für die Domänencontroller-Baseline
+TOCTitle: Kapitel 5 - Die Richtlinie für die Domänencontroller-Baseline
 ms:assetid: f86f67bd-c150-4d0d-ad85-ff13a01afb01
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443726(v=TechNet.10)
 ms:contentKeyID: 20075669
@@ -15,7 +15,7 @@ ms:contentKeyID: 20075669
 Aktualisiert: 27.12.2005
  
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Überblick](#eiaa)  
 [Einstellungen für Überwachungsrichtlinien](#ehaa)  
@@ -98,10 +98,9 @@ Hochsicher - Domänencontroller.inf
 </table>
 
 
-**Hinweis**: Domänenvorgänge könnten ernsthaft beeinträchtigt werden, wenn ein falsch konfiguriertes Gruppenrichtlinienobjekt (GPO) mit der Domänencontroller-Organisationseinheit verknüpft wird. Seien Sie beim Importieren dieser Sicherheitsvorlagen äußerst vorsichtig, und stellen Sie sicher, dass alle importierten Richtlinieneinstellungen korrekt sind, bevor Sie ein Gruppenrichtlinienobjekt mit der Domänencontroller-Organisationseinheit verknüpfen.
+**Hinweis**: Domänenvorgänge könnten ernsthaft beeinträchtigt werden, wenn ein falsch konfiguriertes Gruppenrichtlinienobjekt (GPO) mit der Domänencontroller-Organisationseinheit verknüpft wird. Seien Sie beim Importieren dieser Sicherheitsvorlagen äußerst vorsichtig, und stellen Sie sicher, dass alle importierten Richtlinieneinstellungen korrekt sind, bevor Sie ein Gruppenrichtlinienobjekt mit der Domänencontroller-Organisationseinheit verknüpfen.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Einstellungen für Überwachungsrichtlinien
 
@@ -669,10 +668,9 @@ Durch diese Richtlinieneinstellung wird festgelegt, welche Benutzer den lokalen 
 
 Angreifer mit der Fähigkeit, Domänencontroller herunterzufahren, können auf einfache Weise eine DoS-Angriff (Denial of Service) starten, die schwerwiegende Auswirkungen auf eine gesamte Domäne oder Gesamtstruktur haben kann. Ein Angreifer könnte dieses Benutzerrecht ausnutzen, um das Konto eines Domänencontrollers mit dem Ziel der Erweiterung von Berechtigungen anzugreifen, wenn der Domänencontroller einen Neustart der Dienste durchführt. Ein erfolgreicher Angriff auf einen Domänencontroller zur Erweiterung von Berechtigungen beeinträchtigt die Sicherheit einer Domäne oder Gesamtstruktur.
 
-Standardmäßig wird das Benutzerrecht **System herunterfahren** den Gruppen **Administratoren**, **Server-Operatoren**, **Druck-Operatoren** und **Sicherungs-Operatoren** zugewiesen. In sicheren Umgebungen benötigt keine dieser Gruppen mit Ausnahme der Gruppe **Administratoren** dieses Recht, um administrative Aufgaben ausführen zu können. Aus diesem Grund wird das Benutzerrecht **System herunterfahren** in der DCBP für alle drei in diesem Handbuch definierten Umgebungen nur der Gruppe **Administratoren** zugewiesen.
+Standardmäßig wird das Benutzerrecht **System herunterfahren** den Gruppen **Administratoren**, **Server-Operatoren**, **Druck-Operatoren** und **Sicherungs-Operatoren** zugewiesen. In sicheren Umgebungen benötigt keine dieser Gruppen mit Ausnahme der Gruppe **Administratoren** dieses Recht, um administrative Aufgaben ausführen zu können. Aus diesem Grund wird das Benutzerrecht **System herunterfahren** in der DCBP für alle drei in diesem Handbuch definierten Umgebungen nur der Gruppe **Administratoren** zugewiesen.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Sicherheitsoptionen
 
@@ -909,17 +907,15 @@ Durch diese Richtlinieneinstellung wird festgelegt, ob die bei der Änderung von
 
 Aus diesem Grund wird die Einstellung **Netzwerksicherheit: Keine LAN Manager-Hashwerte für nächste Kennwortänderung speichern** durch die DCBP in allen drei in diesem Handbuch definierten Umgebungen aktiviert.
 
-**Hinweis**: Wenn Sie diese Richtlinieneinstellung aktivieren, kann es bei älteren Betriebssystemen und einige Anwendungen von Drittanbietern zu Fehlern kommen. So kommt es z. B. bei Windows 95 und Windows 98 zu Fehlern, wenn Active Directory Client Extension nicht installiert wurde. Darüber hinaus müssen, wenn Sie diese Richtlinieneinstellung aktivieren, die Kennwörter aller Konten geändert werden.
+**Hinweis**: Wenn Sie diese Richtlinieneinstellung aktivieren, kann es bei älteren Betriebssystemen und einige Anwendungen von Drittanbietern zu Fehlern kommen. So kommt es z. B. bei Windows 95 und Windows 98 zu Fehlern, wenn Active Directory Client Extension nicht installiert wurde. Darüber hinaus müssen, wenn Sie diese Richtlinieneinstellung aktivieren, die Kennwörter aller Konten geändert werden.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Ereignisprotokolleinstellungen
 
-Die Ereignisprotokolleinstellungen für die Domänencontroller entsprechen den in der Richtlinie für die Mitgliedsserver-Baseline festgelegten Einstellungen. Weitere Informationen finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Die Richtlinieneinstellungen der DCBP stellen sicher, dass alle relevanten Sicherheitsüberwachungsinformationen, einschließlich des Verzeichnisdienstzugriffs, auf den Domänencontrollern protokolliert werden.
+Die Ereignisprotokolleinstellungen für die Domänencontroller entsprechen den in der Richtlinie für die Mitgliedsserver-Baseline festgelegten Einstellungen. Weitere Informationen finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Die Richtlinieneinstellungen der DCBP stellen sicher, dass alle relevanten Sicherheitsüberwachungsinformationen, einschließlich des Verzeichnisdienstzugriffs, auf den Domänencontrollern protokolliert werden.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Eingeschränkte Gruppen
 
@@ -1035,39 +1031,38 @@ Um eingeschränkte Gruppen für ein Gruppenrichtlinienobjekt zu konfigurieren, k
 Ist eine Gruppe eingeschränkt, können deren Mitglieder und andere Gruppen, denen sie angehört, festgelegt werden. Wenn Sie diese Gruppenmitglieder nicht angeben, bleibt die Gruppe vollkommen eingeschränkt. Gruppen können nur mithilfe von Sicherheitsvorlagen eingeschränkt werden.
 
 **So zeigen Sie die Einstellung „Eingeschränkte Gruppen“ an oder ändern diese**
-* Öffnen Sie die Sicherheitsvorlagen-Verwaltungskonsole.
+1. Öffnen Sie die Sicherheitsvorlagen-Verwaltungskonsole.
 
-**Hinweis**: Die Sicherheitsvorlagen-Verwaltungskonsole ist standardmäßig nicht im Menü **Verwaltung** nicht vorhanden. Um sie hinzuzufügen, starten Sie die Microsoft Management Console (mmc.exe), und fügen Sie das Add-In „Sicherheitsvorlagen“ hinzu.
+    **Hinweis**: Die Sicherheitsvorlagen-Verwaltungskonsole ist standardmäßig nicht im Menü **Verwaltung** nicht vorhanden. Um sie hinzuzufügen, starten Sie die Microsoft Management Console (mmc.exe), und fügen Sie das Add-In „Sicherheitsvorlagen“ hinzu.
 
-* Doppelklicken Sie auf das Verzeichnis der Konfigurationsdatei und dann auf die Konfigurationsdatei.
+2. Doppelklicken Sie auf das Verzeichnis der Konfigurationsdatei und dann auf die Konfigurationsdatei.
 
-* Doppelklicken Sie auf das Element **Eingeschränkte Gruppen.**  
+3. Doppelklicken Sie auf das Element **Eingeschränkte Gruppen.**  
 
-* Klicken Sie mit der rechten Maustaste auf **Eingeschränkte Gruppen.**  
+4. Klicken Sie mit der rechten Maustaste auf **Eingeschränkte Gruppen.**  
 
-* Wählen Sie die Option **Gruppe hinzufügen** aus.
+5. Wählen Sie die Option **Gruppe hinzufügen** aus.
 
-* Klicken Sie auf **Durchsuchen** und anschließend auf **Pfad**, wählen Sie den zu durchsuchenden Pfad aus, und klicken Sie auf **OK.**  
+6. Klicken Sie auf **Durchsuchen** und anschließend auf **Pfad**, wählen Sie den zu durchsuchenden Pfad aus, und klicken Sie auf **OK.**  
 
-**Hinweis**: Einem lokaler Computer wird dadurch in der Regel oben in der Liste angezeigt.
+    **Hinweis**: Einem lokaler Computer wird dadurch in der Regel oben in der Liste angezeigt.
 
-* Geben Sie im Textfeld **Geben Sie die zu verwendenden Objektnamen ein** den Gruppennamen ein, und klicken Sie auf die Schaltfläche **Namen überprüfen.**  
+7. Geben Sie im Textfeld **Geben Sie die zu verwendenden Objektnamen ein** den Gruppennamen ein, und klicken Sie auf die Schaltfläche **Namen überprüfen.**  
 
 – oder –
 
-Klicken Sie auf **Erweitert** und anschließend auf **Suche starten**, um alle verfügbaren Gruppen aufzulisten.
+  Klicken Sie auf **Erweitert** und anschließend auf **Suche starten**, um alle verfügbaren Gruppen aufzulisten.
 
-* Wählen Sie die einzuschränkenden Gruppen aus, und klicken Sie auf **OK.**  
+8. Wählen Sie die einzuschränkenden Gruppen aus, und klicken Sie auf **OK.**  
 
-* Klicken Sie im Dialogfeld **Gruppen hinzufügen** auf **OK**, um das Dialogfeld zu schließen.
+9. Klicken Sie im Dialogfeld **Gruppen hinzufügen** auf **OK**, um das Dialogfeld zu schließen.
 
 
 Alle Mitglieder (Benutzer und Gruppen) der Gruppen **Server-Operatoren** und **Sicherungs-Operatoren** wurden in dieser Anleitung entfernt, um sie in beiden Umgebungen vollkommen einzuschränken. Für die Hochsicherheitsumgebung wurden zudem alle Mitglieder der Gruppe **Remotedesktopbenutzer** entfernt. Microsoft empfiehlt, alle vordefinierten Gruppen, die in Ihrer Organisation nicht verwendet werden, einschränken.
 
-**Hinweis**: Die Konfiguration der in diesem Abschnitt beschriebenen Einstellung **Eingeschränkte Gruppen** ist sehr einfach. Versionen von Windows XP mit SP1 und SP2 sowie Windows Server 2003 unterstützen komplexere Entwürfe. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel „[Updates to Restricted Groups ("Member of") Behavior of User-Defined Local Groups](http://support.microsoft.com/kb/810076/en-us)“ (in englischer Sprache) unter http://support.microsoft.com/kb/810076/en-us.
+**Hinweis**: Die Konfiguration der in diesem Abschnitt beschriebenen Einstellung **Eingeschränkte Gruppen** ist sehr einfach. Versionen von Windows XP mit SP1 und SP2 sowie Windows Server 2003 unterstützen komplexere Entwürfe. Weitere Informationen finden Sie im Microsoft Knowledge Base-Artikel „[Updates to Restricted Groups ("Member of") Behavior of User-Defined Local Groups](http://support.microsoft.com/kb/810076/en-us)“ (in englischer Sprache) unter http://support.microsoft.com/kb/810076/en-us.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zusätzliche Sicherheitseinstellungen
 
@@ -1226,7 +1221,7 @@ Vordefinierter Administrator; alle betriebssystemfremden Dienstkonten
 
 Domänencontroller, auf denen Windows Server 2003 mit SP 1 ausgeführt wird, speichern Verzeichnisdaten und verwalten Benutzer- und Domäneninteraktionen, einschließlich Benutzeranmeldungen, Authentifizierungen und Verzeichnissuchen.
 
-Verschieben von Daten – Active Directory-Datenbank und -Protokolldateien
+##### Verschieben von Daten – Active Directory-Datenbank und -Protokolldateien
 
 Zur Aufrechterhaltung der Integrität und Zuverlässigkeit von Verzeichnissen ist es wesentlich, dass Sie die Aktive Directory-Datenbank und ihre Protokolldateien schützen.
 
@@ -1234,7 +1229,7 @@ Sie können die Dateien Ntds.dit, Edb.log und Temp.edb aus dem Standardspeichero
 
 Deshalb wird empfohlen, dass die Datenbank und die Protokolldateien von Active Directory für die Domänencontroller auf einem Stripeset-Datenträger bzw. gespiegelten Stripeset-Datenträger gespeichert werden, der kein Betriebssystem enthält. Diese Dateien sollten für alle drei in diesem Handbuch definierten Umgebungen verschoben werden.
 
-Ändern der Größe von Active Directory-Protokolldateien
+##### Ändern der Größe von Active Directory-Protokolldateien
 
 Um Integrität, Zuverlässigkeit und Verfügbarkeit von Active Directory effektiv zu überwachen und aufrechterhalten zu können, muss eine ausreichende Menge an Informationen protokolliert werden. Informationen von sämtlichen Domänencontrollern in der Umgebung sind erforderlich.
 
@@ -1242,7 +1237,7 @@ Sie können die maximale Größe der Protokolldateien erhöhen, um diese Bemühu
 
 In diesem Handbuch wird empfohlen, dass Sie die maximale Größe der Protokolldateien des Verzeichnisdienstes und des Dateireplikationsdienstes auf den Domänencontrollern in den drei in diesem Handbuch definierten Umgebungen von standardmäßig 512 KB auf 16 MB erhöhen.
 
-Verwenden von Syskey
+##### Verwenden von Syskey
 
 Auf Domänencontrollern werden Kennwortinformationen in Active Directory gespeichert. Software zum Entschlüsseln von Kennwörtern zielt häufig auf die Datenbank der Sicherheitskontenverwaltung (Security Accounts Manager, SAM) oder auf Verzeichnisdienste, um auf Kennwörter für Benutzerkonten zuzugreifen.
 
@@ -1365,11 +1360,11 @@ Außerdem könnte der Domänencontroller bei Verlust des Syskey-Kennworts bzw. d
 Syskey kann mit den entsprechenden Betriebsprozessen eine erhöhte Sicherheit bieten, um vertrauliche Verzeichnisinformationen auf Domänencontrollern zu schützen. Aus diesen Gründen werden Syskey-Modus 2 und 3 für Domänencontroller an Orten empfohlen, die physisch nicht gut gesichert sind. Diese Konfiguration gilt für Domänencontroller in allen drei in diesem Handbuch beschriebenen Umgebungen.
 
 **So erstellen oder aktualisieren Sie einen Systemschlüssel**
-* Klicken Sie auf **Start** und dann auf **Ausführen**, geben Sie **syskey** ein, und klicken Sie auf **OK.**  
+1. Klicken Sie auf **Start** und dann auf **Ausführen**, geben Sie **syskey** ein, und klicken Sie auf **OK.**  
 
-* Klicken Sie auf **Verschlüsselung aktiviert** und dann auf **Aktualisieren.**  
+2. Klicken Sie auf **Verschlüsselung aktiviert** und dann auf **Aktualisieren.**  
 
-* Klicken Sie auf die gewünschte Option und anschließend auf **OK.**  
+3. Klicken Sie auf die gewünschte Option und anschließend auf **OK.**  
 
 
 
@@ -1441,7 +1436,7 @@ Führen Sie die folgenden Schritte aus, um bekannte Konten auf Domänen und Serv
 
 * Notieren Sie die vorgenommenen Änderungen, und bewahren Sie diese Informationen an einem sicheren Ort auf.
 
-**Hinweis**: Das vordefinierte Administratorkonto kann durch Gruppenrichtlinien umbenannt werden. Diese Richtlinieneinstellung wurde in den mit diesem Handbuch bereitgestellten Sicherheitsvorlagen nicht implementiert, da jede Organisation Ihren eigenen eindeutigen Namen für dieses Konto auswählen sollte. Sie können jedoch die Einstellung **Konten: Administratorkonto umbenennen** so konfigurieren, dass Administratorkonten in den drei in diesem Handbuch definierten Umgebungen umbenannt werden. Diese Richtlinieneinstellung ist Teil der Einstellungen für die Sicherheitsoptionen eines Gruppenrichtlinienobjekts.
+    **Hinweis**: Das vordefinierte Administratorkonto kann durch Gruppenrichtlinien umbenannt werden. Diese Richtlinieneinstellung wurde in den mit diesem Handbuch bereitgestellten Sicherheitsvorlagen nicht implementiert, da jede Organisation Ihren eigenen eindeutigen Namen für dieses Konto auswählen sollte. Sie können jedoch die Einstellung **Konten: Administratorkonto umbenennen** so konfigurieren, dass Administratorkonten in den drei in diesem Handbuch definierten Umgebungen umbenannt werden. Diese Richtlinieneinstellung ist Teil der Einstellungen für die Sicherheitsoptionen eines Gruppenrichtlinienobjekts.
 
 
 
@@ -1689,10 +1684,9 @@ Diese Richtlinieneinstellung kann unter Windows Server 2003 im Gruppenrichtlini
 
 **Computerkonfiguration\Administrative Vorlagen\System\Internetkommunikationsmanagement\Internetkommunikationseinstellungen**
 
-Setzen Sie die Einstellung zum Deaktivieren der **Windows**-**Fehlerberichterstattung** in der Domänencontroller-Baseline-Richtlinie für alle drei in diesem Handbuch definierten Umgebungen auf **Aktiviert.**  
+Setzen Sie die Einstellung zum Deaktivieren der **Windows**-**Fehlerberichterstattung** in der Domänencontroller-Baseline-Richtlinie für alle drei in diesem Handbuch definierten Umgebungen auf **Aktiviert.**    
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Erstellen der Richtlinie mithilfe des SCW
 
@@ -1705,35 +1699,33 @@ Es empfiehlt sich, das Betriebssystem zu Beginn der Konfigurationsarbeit neu zu 
 **So erstellen Sie die Richtlinie für die Domänencontroller-Baseline (DCBP)**
 
 Sie müssen zum Erstellen einer Richtlinie für die Domänencontroller-Baseline einen Computer verwenden, der als Domänencontroller konfiguriert ist. Sie können entweder einen vorhandenen Domänencontroller verwenden oder einen Referenzcomputer erstellen und diesen mit dem Dcpromo-Tool zum Domänencontroller machen. Die meisten Organisationen entscheiden sich jedoch dafür, keinen Domänencontroller zu ihrer Produktionsumgebung hinzuzufügen, weil sie dadurch u. U. gegen die vorhandene Sicherheitsrichtlinie verstoßen. Wenn Sie einen vorhandenen Domänencontroller verwenden, müssen Sie sicherstellen, dass Sie mit dem SCW keine Einstellungen auf ihn anwenden und dass Sie seine Konfiguration nicht ändern.
-* Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
+1. Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
 
-* Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
+2. Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
 
-* Stellen Sie sicher, dass die ermittelten Serverrollen für Ihre Umgebung geeignet sind. Entfernen Sie nicht die Dateiserverrolle, da sie für den ordnungsgemäßen Betrieb der Domänencontroller erforderlich ist.
+3. Stellen Sie sicher, dass die ermittelten Serverrollen für Ihre Umgebung geeignet sind. Entfernen Sie nicht die Dateiserverrolle, da sie für den ordnungsgemäßen Betrieb der Domänencontroller erforderlich ist.
 
-* Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
+4. Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
 
-* Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
+5. Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
 
-**Hinweis**: Wenn Ihre Umgebung auf mehrere Standorte verteilte Domänencontroller enthält, stellen Sie sicher, dass die Option für die **Mail-basierte Active Directory-Replikation** ausgewählt ist.
+    **Hinweis**: Wenn Ihre Umgebung auf mehrere Standorte verteilte Domänencontroller enthält, stellen Sie sicher, dass die Option für die **Mail-basierte Active Directory-Replikation** ausgewählt ist.
 
-* Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
+6. Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
 
-* Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
+7. Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
 
-* Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
+8. Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
 
-**Hinweis:** Stellen Sie sicher, dass die Option für die **Ports für RPC-Anwendungen des Systems** ausgewählt ist.
+    **Hinweis:** Stellen Sie sicher, dass die Option für die **Ports für RPC-Anwendungen des Systems** ausgewählt ist.
 
-* Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+9. Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-* Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+10. Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-* Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. Unternehmensclient-Domänencontroller.inf).
+11. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. Unternehmensclient-Domänencontroller.inf).
 
-* Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. Domänencontroller.xml**).**  
-
-
+12. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. Domänencontroller.xml).  
 
 #### Testen der Richtlinie mithilfe des SCW
 
@@ -1747,31 +1739,35 @@ Die Richtlinie wird getestet, um sicherzustellen, dass ihre Anwendung auf den Zi
 
 Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd verwenden, um wie im folgenden Verfahren veranschaulicht die Richtlinien in Gruppenrichtlinienobjekte umzuwandeln.
 
-Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Security Configuration Wizard Documentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx">Deployment Guide for the Security Configuration Wizard unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspxsowie in der 
+Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Deployment Guide for the Security Configuration Wizard](https://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx sowie in der [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450) unter http://go.microsoft.com/fwlink/?linkid=43450 (jeweils in englischer Sprache).
 
 
 #### Umwandeln und Bereitstellen der Richtlinie
 
 Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schritte aus, um sie in ein Gruppenrichtlinienobjekt umzuwandeln und bereitzustellen:
-* Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
+
+1. Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
 
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;</CodeSnippet>
-und drücken Sie anschließend die Eingabetaste. Beispiel:
+      `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
 
+    und drücken Sie anschließend die Eingabetaste. Beispiel:
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:"C:\Windows\Security\msscw\Policies\DomainController.xml" /g:"Domain Controller Policy"</CodeSnippet>
-**Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Domain
+    Controller.xml" /g:"Domain Controller Policy"
+    ```
 
-* Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der Domänencontroller-Organisationseinheit und stellen Sie sicher, dass es sich oberhalb der Standarddomänencontrollerrichtlinie befindet, damit es höchste Priorität erhält.
+    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+
+2. Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der Domänencontroller-Organisationseinheit und stellen Sie sicher, dass es sich oberhalb der Standarddomänencontrollerrichtlinie befindet, damit es höchste Priorität erhält.
 
 
 Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, öffnen Sie die Systemsteuerung, und doppelklicken Sie auf **Windows-Firewall.**  
 
-Bedenken Sie, dass es eine Weile dauern kann, bis das neu erstellte Gruppenrichtlinienobjekt auf allen Domänencontrollern repliziert ist, besonders in Umgebungen mit Domänencontrollern an mehreren Standorten. Nachdem Sie sich von der erfolgreichen Replikation des Gruppenrichtlinienobjekts überzeugt haben, sollten Sie einen abschließenden Test durchführen, um sicherzustellen, dass das Gruppenrichtlinienobjekt die gewünschten Richtlinieneinstellungen anwendet. Prüfen Sie zum Abschluss dieses Verfahrens, dass die entsprechenden Einstellungen vorgenommen wurden und die Funktionalität nicht beeinträchtigt ist.
+Bedenken Sie, dass es eine Weile dauern kann, bis das neu erstellte Gruppenrichtlinienobjekt auf allen Domänencontrollern repliziert ist, besonders in Umgebungen mit Domänencontrollern an mehreren Standorten. Nachdem Sie sich von der erfolgreichen Replikation des Gruppenrichtlinienobjekts überzeugt haben, sollten Sie einen abschließenden Test durchführen, um sicherzustellen, dass das Gruppenrichtlinienobjekt die gewünschten Richtlinieneinstellungen anwendet. Prüfen Sie zum Abschluss dieses Verfahrens, dass die entsprechenden Einstellungen vorgenommen wurden und die Funktionalität nicht beeinträchtigt ist.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zusammenfassung
 
@@ -1847,7 +1843,6 @@ In diesem Beitrag
 [Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows server 2003 security guide)
 
  
-
 <table style="border:1px solid black;">
 
 <tr>
@@ -1868,8 +1863,3 @@ In diesem Beitrag
 </tr>
 
 </table>
-
-
-
-
-
