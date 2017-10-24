@@ -11,9 +11,7 @@ Für RMS erforderliche Konten und Berechtigungen
 
 In der folgenden Tabelle werden die zum Bereitstellen und Verwalten von RMS erforderlichen Benutzerrechte und Berechtigungen angegeben.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

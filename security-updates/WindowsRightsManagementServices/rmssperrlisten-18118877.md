@@ -21,9 +21,7 @@ Sperrlisten geben die Inhalte, Anwendungen, Benutzer oder anderen Prinzipale an,
 
 In der folgenden Tabelle werden die Entitäten, die in einer Sperrliste angegeben werden können, zusammen mit den Informationen zum Identifizieren der einzelnen Entitäten beschrieben.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -69,9 +67,7 @@ In der folgenden Tabelle werden die Entitäten, die in einer Sperrliste angegebe
   
 Bei Sperrlisten handelt es sich um XrML-Dateien, die folgende Parameter angeben:
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

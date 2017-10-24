@@ -11,9 +11,7 @@ RMS: „Enrollment“-Leistungsindikatoren
 
 In der folgenden Tabelle werden die für das RMS-Leistungsobjekt Enrollment (Registrierung) verfügbaren Leistungsindikatoren aufgelistet.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

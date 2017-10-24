@@ -85,9 +85,16 @@ Sie können die Ablaufverfolgung implementieren, indem Sie die Datei „Web.conf
 
 **So aktivieren Sie die Ablaufverfolgung**
 1.  Öffnen Sie die Datei „Machine.config“ oder „Web.config“, und fügen Sie unter dem Abschnitt „&lt;system.diagnostics&gt;“ folgende Zeilen hinzu:
-
-    
-        ```
+    ```
+        <system.diagnostics>
+        <switches>
+        <add name="Microsoft Windows Rights Management Services-Global" value="4" />
+        <add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
+        <add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
+        </switches>
+        <trace autoflush="false" indentsize="4"/>
+        </system.diagnostics>
+    ```
 2.  Starten Sie IIS neu, indem Sie an einer Eingabeaufforderung IISRESET ausführen.
 
 3.  Entfernen Sie die in Schritt 1 hinzugefügten Zeilen wieder aus der CONFIG-Datei, nachdem Sie die nötigen Daten gesammelt haben.

@@ -20,7 +20,15 @@ Die folgenden Aufgaben werden von RMS-Setup übergenommen:
 -   Erstellt einen Anwendungspool (WMCSProvisioningAppPool) und verknüpft ihn mit der RMS-Verwaltungswebsite. Dieser Anwendungspool verwendet das Dienstkonto Netzwerkdienste.
 -   Installiert Leistungsindikatoren.
 -   Gewährt der RMS-Dienstgruppe Lese- und Schreibrechte für den folgenden Registrierungsschlüssel.
+
     Auf Computern mit der 32-Bit-Version von Windows Server 2003:
-    `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0`
+
+    ```
+    HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0
+    ```
+
     Auf Computern mit der 64-Bit-Version von Windows Server 2003:
-    `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0`
+
+    ```
+    HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0
+    ```

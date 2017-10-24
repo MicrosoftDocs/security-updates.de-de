@@ -11,9 +11,7 @@ RMS: „DirectoryServices“ (Leistungsindikatoren)
 
 In der folgenden Tabelle werden die für das RMS-Leistungsobjekt DirectoryServices (Verzeichnisdienste) verfügbaren Leistungsindikatoren aufgelistet.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

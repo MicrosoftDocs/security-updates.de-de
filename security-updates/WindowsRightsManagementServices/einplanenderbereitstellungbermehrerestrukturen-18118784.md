@@ -18,4 +18,6 @@ Es gibt zwei Möglichkeiten, um die Unterstützung von Gruppenerweiterungen bei 
 
 Wenn Sie RMS nur für eine Struktur verwenden möchten, können Sie den Ausstellungsvorgang für Benutzerlizenzen optimieren, indem Sie in der RMS-Konfigurationsdatenbank die Clusterrichtlinie **MaxCrossForestCalls** anpassen. Diese Richtlinie gibt an, über wie viele Strukturgrenzen sich die Zugehörigkeit zu einer Gruppe maximal erstrecken kann. Der Standardwert ist 10. Wenn Sie diesen Wert beispielsweise in 0 ändern möchten, verwenden Sie dafür den folgenden SQL-Befehl:
 
-`update DRMS_ClusterPolicies set PolicyData=0 where PolicyName='MaxCrossForestCalls'`
+```
+update DRMS_ClusterPolicies set PolicyData=0 where PolicyName='MaxCrossForestCalls'
+```
