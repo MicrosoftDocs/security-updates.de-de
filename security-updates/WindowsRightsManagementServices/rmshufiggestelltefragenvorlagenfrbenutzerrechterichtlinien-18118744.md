@@ -29,7 +29,7 @@ Der Speicherort der Vorlagen wird von der RMS-fähigen Anwendung bestimmt. Bei O
 
 **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\11.0\\Common\\DRM\\AdminTemplatePath**
 
-- oder -
+\- oder -
 
 **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\12.0\\Common\\DRM\\AdminTemplatePath** bei Microsoft Office 2007.
 
