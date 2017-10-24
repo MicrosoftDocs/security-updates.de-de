@@ -1049,9 +1049,9 @@ Ist eine Gruppe eingeschränkt, können deren Mitglieder und andere Gruppen, den
 
 7. Geben Sie im Textfeld **Geben Sie die zu verwendenden Objektnamen ein** den Gruppennamen ein, und klicken Sie auf die Schaltfläche **Namen überprüfen.**  
 
-– oder –
+    – oder –
 
-  Klicken Sie auf **Erweitert** und anschließend auf **Suche starten**, um alle verfügbaren Gruppen aufzulisten.
+    Klicken Sie auf **Erweitert** und anschließend auf **Suche starten**, um alle verfügbaren Gruppen aufzulisten.
 
 8. Wählen Sie die einzuschränkenden Gruppen aus, und klicken Sie auf **OK.**  
 
@@ -1745,21 +1745,19 @@ Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Deployment G
 #### Umwandeln und Bereitstellen der Richtlinie
 
 Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schritte aus, um sie in ein Gruppenrichtlinienobjekt umzuwandeln und bereitzustellen:
-
 1. Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
 
-
-      `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
+    `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
 
     und drücken Sie anschließend die Eingabetaste. Beispiel:
-
+    
     ```
     scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Domain
     Controller.xml" /g:"Domain Controller Policy"
     ```
 
     **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
-
+    
 2. Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der Domänencontroller-Organisationseinheit und stellen Sie sicher, dass es sich oberhalb der Standarddomänencontrollerrichtlinie befindet, damit es höchste Priorität erhält.
 
 
