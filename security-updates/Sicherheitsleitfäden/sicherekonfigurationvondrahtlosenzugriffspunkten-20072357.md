@@ -11,7 +11,7 @@ ms:contentKeyID: 20072357
 
 Veröffentlicht: 29. Aug 2006
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Einführung](#eeaa)  
 [Definition](#edaa)  
@@ -45,21 +45,18 @@ Dieses Dokument besteht aus vier Hauptabschnitten, die sich mit den Details beim
 * **Herausforderungen.**   Dieser Abschnitt beschreibt einige der häufigen Probleme, die mittelgroße Unternehmen in Hinblick auf drahtlose Netzwerke berücksichtigen müssen. Darüber hinaus enthält der Abschnitt Hintergrundinformationen für die Lösung, die in diesem Dokument angesprochen wird.
 
 * **Lösungen.**   In diesem Abschnitt erhalten Sie detaillierte schrittweise Anleitungen zum Planen, Entwickeln, Bereitstellen und Unterstützen einer sicheren drahtlosen Infrastruktur. Daher ist der Abschnitt mit den Lösungen in drei große Unterabschnitte unterteilt:
-* **Bewerten der WLAN-Sicherheit.**   Dieser Abschnitt behandelt einführende Informationen und potenzielle Optionen zum Erarbeiten einer Grundlage, auf der eine spätere Lösung aufbaut.
+    - **Bewerten der WLAN-Sicherheit.**   Dieser Abschnitt behandelt einführende Informationen und potenzielle Optionen zum Erarbeiten einer Grundlage, auf der eine spätere Lösung aufbaut.
 
-* **Entwickeln einer sicheren WLAN-Lösung.**   Dieser Abschnitt verwendet die Informationen, die zuvor in der Bewertungsphase ermittelt wurden, um eine Entscheidung zu treffen und einen Plan zu erstellen. Danach wird die Grundlage der Lösung entwickelt.
+    - **Entwickeln einer sicheren WLAN-Lösung.**   Dieser Abschnitt verwendet die Informationen, die zuvor in der Bewertungsphase ermittelt wurden, um eine Entscheidung zu treffen und einen Plan zu erstellen. Danach wird die Grundlage der Lösung entwickelt.
 
-* **Bereitstellung und Verwaltung.**   In diesem Abschnitt wird die tatsächliche schrittweise Lösung detailliert vorgestellt. Dazu zählen auch Informationen, die Sie beim Verwalten und Überprüfen der sicheren drahtlosen Netzwerklösung unterstützen, die in diesem Dokument beschrieben wird.
-
-
+    - **Bereitstellung und Verwaltung.**   In diesem Abschnitt wird die tatsächliche schrittweise Lösung detailliert vorgestellt. Dazu zählen auch Informationen, die Sie beim Verwalten und Überprüfen der sicheren drahtlosen Netzwerklösung unterstützen, die in diesem Dokument beschrieben wird.
 
 
 #### Zielgruppe dieses Dokuments
 
 Dieses Dokument richtet sich an IT-Mitarbeiter in mittelgroßen Unternehmen und für die Implementierung zuständige Mitarbeiter und Führungskräfte im technischen Bereich, die die Verwendung von WPA (Wi-Fi Protected Access) oder WPA2 (Wi-Fi Protected Access 2) zum Sichern ihrer drahtlosen Infrastruktur in Betracht ziehen. In diesem Dokument wird davon ausgegangen, dass der Leser über allgemeine technische Kenntnisse in folgenden Bereichen verfügt: drahtlose Geräte, grundlegende Netzwerkkonzepte, Microsoft® Windows Server™ 2003, Internetauthentifizierungsdienst (IAS), Zertifikatsdienste, den Verzeichnisdienst Active Directory® sowie die Konfiguration und Anwendung einer Gruppenrichtlinie.
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Definition
 
@@ -92,8 +89,8 @@ Der Leser sollte mit den folgenden Themen und Konzepten vertraut sein, die in di
 **WPA.**   Um die Schwächen zu beseitigen, die im WEP-Standard gefunden wurden, erfolgte die Einführung von Wi-Fi Protected Access (WPA) im Jahr 2003. Dabei handelt es sich um eine interoperable drahtlose Sicherheitsspezifikation, die eine Untergruppe des Standards IEEE 802.11 darstellt. Dieser Standard stellt Authentifizierungsfunktionen zur Verfügung und verwendet TKIP für die Datenverschlüsselung.
 
 **WPA2.**   WPA2 wurde im September 2004 durch die Wi-Fi Alliance eingeführt und ist die zertifizierte interoperable Version der vollständigen Spezifikation IEEE 802.11i, die im Juni 2004 ratifiziert wurde. Wie der Vorgängerstandard unterstützt WPA2 die IEEE 802.1X/EAP-Authentifizierung oder PSK-Technologie, enthält jedoch auch einen neuen fortschrittlichen Verschlüsselungsmechanismus unter Verwendung des Counter-Mode/CBC-MAC-Protokolls (CCMP) mit der Bezeichnung Advanced Encryption Standard (AES).
-[Zum Seitenanfang](#mainsection)  
 
+[Zum Seitenanfang](#mainsection)  
 
 
 ### Herausforderungen
@@ -812,6 +809,7 @@ WPA oder WPA2 mit PEAP-MS-CHAPv2 stellt geringere Anforderungen an die technisch
 
 Verwenden von WPA oder WPA2 mit EAP-TLS ist die sicherste verfügbare Option zum Sichern eines WLAN, bringt aber höhere Kosten für Implementierung und Verwaltung mit sich, da diese Methode auf einer zugrunde liegenden Infrastruktur für Zertifikate beruht. Allerdings sind in vielen mittelgroßen Unternehmensumgebungen bereits Systeme vorhanden, die die erforderlichen Anforderungen für WPA2 mit EAP-TLS erfüllen. Daher wäre dies tatsächlich für viele Unternehmen die attraktivere Option. Selbst ohne das Vorhandensein der erforderlichen Technologie benötigen viele Unternehmen dieselbe Technologie, auf der diese Lösung beruht, nämlich Zertifikate und RADIUS. Daher gibt es sogar in diesem Fall einige sehr gute wirtschaftliche und technische Gründe zum Implementieren dieser Lösung.
 
+![](images/cc875845.swcg1(de-de,technet.10).gif)
 
 **Abbildung 1. Der Microsoft WLAN-Entscheidungsbaum**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875845.swcg1_big(de-de,technet.10).gif)
@@ -912,9 +910,9 @@ Datenträgerspeicher
 <td style="border:1px solid black;">
 
 
-IDE- oder SCSI-RAID-Controller
+IDE- oder SCSI-RAID-Controller<br/><br/>
 
-2 x 18-GB-Festplatte, konfiguriert als einzelnes RAID 1-Volume (Laufwerk C)
+2 x 18-GB-Festplatte, konfiguriert als einzelnes RAID 1-Volume (Laufwerk C)<br/><br/>
 
 Lokaler Wechseldatenträger für Datenübertragung (Stammzertifikat)
 
@@ -969,6 +967,7 @@ Hierarchie der Zertifizierungsstellen
 
 Der in diesem Handbuch beschriebene Entwurf verwendet ein hierarchisches Vertrauensmodell mit einem einzelnen internen Stamm. Dieser Ansatz weist eine Reihe von Vor- und Nachteilen auf. Daher ist möglicherweise eine weitere Diskussion erforderlich, um zu bestimmen, ob dieser spezielle Ansatz in dem Unternehmen geeignet ist, in dem er implementiert werden soll. Weitere Informationen zu diesem Thema finden Sie im Kapitel [Designing a Public Key Infrastructure](http://technet2.microsoft.com/windowsserver/en/library/b1ee9920-d7ef-4ce5-b63c-3661c72e0f0b1033.mspx) (Entwerfen einer Public Key-Infrastruktur; in englischer Sprache) des Windows Server 2003-Bereitstellungskits unter http://technet2.microsoft.com/WindowsServer/en/library/b1ee9920-d7ef-4ce5-b63c-3661c72e0f0b1033.mspx.
 
+![](images/cc875845.swcg2(de-de,technet.10).gif)
 
 **Abbildung 2. Hierarchie der Zertifizierungsstellen**
  
@@ -1046,22 +1045,22 @@ IAS-Proxys mit RADIUS-Servergruppen
 
 <td style="border:1px solid black;">
 
-* Ausfallerkennung für RADIUS-Dienste mit Failover und Failback
+<strong><strong>&#x2022;</strong></strong> Ausfallerkennung für RADIUS-Dienste mit Failover und Failback
 
-* Verteilung der Datenverkehrslast gemäß den Eigenschaften des Datenverkehrs
+<strong>&#x2022;</strong> Verteilung der Datenverkehrslast gemäß den Eigenschaften des Datenverkehrs
 
-* Behält den EAP-Sitzungszustand während des Lastenausgleichs bei
+<strong>&#x2022;</strong> Behält den EAP-Sitzungszustand während des Lastenausgleichs bei
 
-* Konfigurierbare Anforderungsverteilung an Server gemäß Prioritäts- und Lasteinstellungen
+<strong>&#x2022;</strong> Konfigurierbare Anforderungsverteilung an Server gemäß Prioritäts- und Lasteinstellungen
 
 
 </td>
 
 <td style="border:1px solid black;">
 
-* Zusätzliche IAS-Server erforderlich
+<strong>&#x2022;</strong> Zusätzliche IAS-Server erforderlich
 
-* Erfordert weiterhin die Konfiguration von primären und sekundären Proxy-RADIUS-Serveradressen
+<strong>&#x2022;</strong> Erfordert weiterhin die Konfiguration von primären und sekundären Proxy-RADIUS-Serveradressen
 
 
 </td>
@@ -1079,20 +1078,20 @@ Primäre und sekundäre RADIUS-Servereinstellungen an drahtlosen Zugriffspunkten
 
 <td style="border:1px solid black;">
 
-* Einfachere Konfiguration für kleinere Umgebungen
+<strong>&#x2022;</strong> Einfachere Konfiguration für kleinere Umgebungen
 
-* Drahtloser Zugriffspunkt erkennt Ausfall bei Datenverkehr und führt Failover aus
+<strong>&#x2022;</strong> Drahtloser Zugriffspunkt erkennt Ausfall bei Datenverkehr und führt Failover aus
 
-* Verwendet die systemeigene Funktionalität von drahtlosen Zugriffspunkten
+<strong>&#x2022;</strong> Verwendet die systemeigene Funktionalität von drahtlosen Zugriffspunkten
 
 
 </td>
 
 <td style="border:1px solid black;">
 
-* Erfordert mehr Aufwand für Planung und Überwachung für primäre und sekundäre RADIUS-Datenverkehrsverteilung
+<strong>&#x2022;</strong> Erfordert mehr Aufwand für Planung und Überwachung für primäre und sekundäre RADIUS-Datenverkehrsverteilung
 
-* Einige drahtlose Zugriffspunkte unterstützen weiterhin nicht die Failbackfunktionalität, was zu nicht ausgeglichenen Datenverkehrslasten führen kann.
+<strong>&#x2022;</strong> Einige drahtlose Zugriffspunkte unterstützen weiterhin nicht die Failbackfunktionalität, was zu nicht ausgeglichenen Datenverkehrslasten führen kann.
 
 
 </td>
@@ -1106,6 +1105,8 @@ Größere Unternehmen sollten die Verwendung von RADIUS-Proxys in Betracht ziehe
 
 Die einfachere Funktionalität zum RADIUS-Serverfailover, die in die drahtlosen Zugriffspunkte integriert ist, kann ein ausreichendes Maß an Ausfallsicherheit für die meisten Unternehmen bereitstellen, ist aber im Vergleich zur Verwendung von Proxyservergruppen keine sehr leistungsfähige Lösung. Allerdings ist der Migrationspfad von dieser Architektur zu Failover und Lastenausgleich auf der Grundlage von RADIUS-Proxyservern relativ einfach, so dass diese Lösung durchaus ausbaufähig ist. Bei Unternehmen, die lediglich eine kleine oder begrenzte Abdeckung mit Drahtlostechnologie in Betracht ziehen, kann diese Lösung einfach implementiert werden und bietet gute Effizienz. Allerdings wachsen die Anforderungen an Verwaltung und Implementierung, wenn die Größe und Komplexität eines drahtlosen Netzwerks wächst, da jedes Gerät sorgfältig überwacht und geplant werden muss, um einen effizienten Lastenausgleich über alle Server hinweg zu gewährleisten.
 
+
+![](images/cc875845.swcg3(de-de,technet.10).gif)
 
 **Abbildung 3. Methoden für RADIUS WLAN-Failover und Lastenausgleich**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875845.swcg3_big(de-de,technet.10).gif)
@@ -1132,6 +1133,7 @@ Einige Unternehmen sind möglicherweise nicht in der Lage, eine zentralisierte A
 
 Ein weiterer Ansatz besteht in der Verwendung einer Mischung aus beiden Lösungen. Dabei werden IAS-Server strategisch an Standorten platziert, die die Infrastruktur unterstützen können. Diese Server stellen die Authentifizierung für Zweigniederlassungen bereit, die möglicherweise nicht über eine zugrunde liegende Serverbasis verfügen, wie dies in der folgenden Abbildung gezeigt wird.
 
+![](images/cc875845.swcg4(de-de,technet.10).gif)
 
 **Abbildung 4. Gemischter Ansatz für IAS WLAN-Infrastruktur**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875845.swcg4_big(de-de,technet.10).gif)
@@ -1186,18 +1188,18 @@ Gemeinsam auf Domänencontroller platziert
 
 <td style="border:1px solid black;">
 
-* Leistung von Authentifizierung und Autorisierung für Benutzer und Computer steigt
+<strong>&#x2022;</strong> Leistung von Authentifizierung und Autorisierung für Benutzer und Computer steigt
 
-* Verringert die Anforderungen an zusätzliche Serverhardware
+<strong>&#x2022;</strong> Verringert die Anforderungen an zusätzliche Serverhardware
 
 
 </td>
 
 <td style="border:1px solid black;">
 
-* Keine Trennung der administrativen IAS-Gruppen von Domänenadministratoren
+<strong>&#x2022;</strong> Keine Trennung der administrativen IAS-Gruppen von Domänenadministratoren
 
-* Keine inhärente Trennung von Problemen mit Fehlern oder Leistung, die auf gemeinsam gehostete Dienste zurückzuführen sind
+<strong><strong>&#x2022;</strong></strong> Keine inhärente Trennung von Problemen mit Fehlern oder Leistung, die auf gemeinsam gehostete Dienste zurückzuführen sind
 
 
 </td>
@@ -1215,16 +1217,16 @@ Unabhängige IAS-Server
 
 <td style="border:1px solid black;">
 
-* Trennung der IAS-Verwaltung von den Domänenadministratoren
+<strong>&#x2022;</strong> Trennung der IAS-Verwaltung von den Domänenadministratoren
 
-* IAS-Last und -Verhalten beeinträchtigt nicht den Domänencontroller
+<strong>&#x2022;</strong> IAS-Last und -Verhalten beeinträchtigt nicht den Domänencontroller
 
 
 </td>
 
 <td style="border:1px solid black;">
 
-* Zusätzliche Serverhardware erforderlich.
+<strong>&#x2022;</strong> Zusätzliche Serverhardware erforderlich.
 
 
 </td>
@@ -2470,25 +2472,38 @@ IIS kann mit „Windows-Komponenten hinzufügen/entfernen“ installiert werden.
 
 
 **So installieren Sie IIS**
-* Führen Sie folgenden Befehl an einer Eingabeaufforderung aus:
-Sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_AddIIS.txt
-Dieser Befehl weist den Manager für die Installation optionaler Komponenten an, die Komponentenkonfigurationen zu verwenden, die in der Installationsdatei „C:\MSSScripts\OC_AddIIS.txt“ für unbeaufsichtigte Installationen gespeichert sind. Dort wurde folgende Konfiguration gespeichert:
-[Components]complusnetwork = Oniis_common = Oniis_asp = Oniis_inetmgr = Oniis_www = On
-**Hinweis**    ASP (Active Server Pages) ist in dieser Konfigurationsdatei aktiviert. Wenn die webbasierten Registrierungsseiten der Zertifikatsdienste nicht benötigt werden, sollte ASP durch Löschen der Zeile **iis_asp = on** vor dem Ausführen von „sysocmgr.exe“ deaktiviert werden. Diese Einstellung kann bei Bedarf später aktiviert werden.
+1. Führen Sie folgenden Befehl an einer Eingabeaufforderung aus:
 
-* Führen Sie den Manager für die Installation optionaler Komponenten nochmals aus, und überprüfen Sie, ob die installierten Komponenten mit den zuvor aufgeführten Komponenten übereinstimmen.
-sysocmgr /i:sysoc.inf
-Es sind keine weiteren Unterkomponenten des Anwendungsservers erforderlich. Daher müssen keine anderen Komponenten ausgewählt werden.
+    `Sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_AddIIS.txt`  
+
+    Dieser Befehl weist den Manager für die Installation optionaler Komponenten an, die Komponentenkonfigurationen zu verwenden, die in der Installationsdatei „C:\MSSScripts\OC_AddIIS.txt“ für unbeaufsichtigte Installationen gespeichert sind. Dort wurde folgende Konfiguration gespeichert:
+
+    ```
+    [Components]
+    complusnetwork = On
+    iis_common = On
+    iis_asp = On
+    iis_inetmgr = On
+    iis_www = On
+    ```
+
+    **Hinweis**    ASP (Active Server Pages) ist in dieser Konfigurationsdatei aktiviert. Wenn die webbasierten Registrierungsseiten der Zertifikatsdienste nicht benötigt werden, sollte ASP durch Löschen der Zeile **iis_asp = on** vor dem Ausführen von „sysocmgr.exe“ deaktiviert werden. Diese Einstellung kann bei Bedarf später aktiviert werden.
+
+2. Führen Sie den Manager für die Installation optionaler Komponenten nochmals aus, und überprüfen Sie, ob die installierten Komponenten mit den zuvor aufgeführten Komponenten übereinstimmen.
+
+    `sysocmgr /i:sysoc.inf`
+
+    Es sind keine weiteren Unterkomponenten des Anwendungsservers erforderlich. Daher müssen keine anderen Komponenten ausgewählt werden.
 
 Konfigurieren von IIS für AIA und Veröffentlichung des Verteilungspunkts der Zertifikatssperrlisten auf der ausstellenden Zertifizierungsstelle
 Ein virtuelles Verzeichnis muss auf IIS erstellt werden, das als HTTP-Speicherort für das Zertifikat der Zertifizierungsstelle und CRL-Publishingpoints (als AIA (Authority Information Access, Zugriff auf Stelleninformationen) bzw. CDP (CRL Distribution Point, Sperrlisten-Verteilungspunkt) bezeichnet) verwendet wird.
 
 **So erstellen Sie ein virtuelles Verzeichnis auf IIS**
-* Melden Sie sich am IIS-Server mit lokalen Administratorrechten an.
+1. Melden Sie sich am IIS-Server mit lokalen Administratorrechten an.
 
-* Erstellen Sie einen Ordner mit der Bezeichnung **C:\CAWWWPub**, der die Zertifikate und CRLs der Zertifizierungsstelle enthält.
+2. Erstellen Sie einen Ordner mit der Bezeichnung **C:\CAWWWPub**, der die Zertifikate und CRLs der Zertifizierungsstelle enthält.
 
-* Legen Sie folgende Sicherheitseinstellungen für den Ordner gemäß Tabelle fest:
+3. Legen Sie folgende Sicherheitseinstellungen für den Ordner gemäß Tabelle fest:
 
 **Tabelle 9. Berechtigungen für das virtuelle Verzeichnis**
 
@@ -2669,15 +2684,15 @@ Verweigern
 </table>
 
 
-* Verwenden Sie die IIS-Verwaltungskonsole, um ein neues virtuelles Verzeichnis unter der standardmäßigen Website zu erstellen:
-* Geben Sie dem virtuellen Verzeichnis den Namen **pki**
+4. Verwenden Sie die IIS-Verwaltungskonsole, um ein neues virtuelles Verzeichnis unter der standardmäßigen Website zu erstellen:
+    - Geben Sie dem virtuellen Verzeichnis den Namen **pki**
 
-* Geben Sie **C:\CAWWWPub** als Pfad an.
+    - Geben Sie **C:\CAWWWPub** als Pfad an.
 
 
-* Deaktivieren Sie das Kontrollkästchen **Skripts ausführen** unter den Zugriffsberechtigungen für das virtuelle Verzeichnis.
+5. Deaktivieren Sie das Kontrollkästchen **Skripts ausführen** unter den Zugriffsberechtigungen für das virtuelle Verzeichnis.
 
-* Vergewissern Sie sich, dass die anonyme Authentifizierung für das virtuelle Verzeichnis aktiviert ist.
+6. Vergewissern Sie sich, dass die anonyme Authentifizierung für das virtuelle Verzeichnis aktiviert ist.
 
 Auswählen eines DNS-Alias für den HTTP-Publishingpoint
 Ein generischer DNS-Alias (CNAME) sollte erstellt werden, um den IIS-Server aufzulösen, der CDP und AIA hostet. Dieser DNS-Alias sollte beim Konfigurieren der CDP- und AIA-Pfade für die Zertifizierungsstellen in den nachfolgenden Abschnitten verwendet werden. Durch die Verwendung von Aliasen können die Publishingpoints von Zertifizierungsstellen einfach auf andere Server oder Netzwerkstandorte verschoben werden, ohne dass Zertifikate der Zertifizierungsstelle neu ausgestellt werden müssen.
@@ -2686,9 +2701,16 @@ Weitere Komponenten für Konfiguration und Betriebssystem
 
 Zusätzlich zu den bislang genannten Konfigurationsschritten sollten einige weitere Elemente beachtet werden:
 * Aktualisieren Sie den Stammzertifikatdienst. Der Dienst zum Aktualisieren der Stammzertifikate sollte deaktiviert werden, da es nicht empfehlenswert ist, die Stammvertrauensstellung der Zertifizierungsstellen automatisch zu aktualisieren. Um diesen Dienst zu entfernen, müssen Sie lediglich den folgenden Befehl an einer Eingabeaufforderung ausführen:
-sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_RemoveRootUpdate.txt
-Die Datei „OC_RemoveRootUpdate.txt“ enthält die folgenden Zeilen:
-[Components]rootautoupdate = off
+
+    `sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_RemoveRootUpdate.txt`
+
+    `Die Datei „OC_RemoveRootUpdate.txt“ enthält die folgenden Zeilen:`
+    
+    ```
+    [Components]  
+    rootautoupdate = off
+    ```
+
 * Stellen Sie sicher, dass die Stammzertifizierungsstelle über keine Netzwerkkonnektivität verfügt und dass die ausstellende Zertifizierungsstelle weder eingehende noch ausgehende Internetkonnektivität aufweist.
 
 * Überprüfen Sie, ob durch die Installation von IIS möglicherweise zusätzliche Service Packs und Updates erforderlich werden.
@@ -2707,11 +2729,13 @@ Erstellen von administrativen Gruppen für PKI und Zertifizierungsstelle
 Bei dieser Lösung werden mehrere Sicherheitsgruppen definiert, die unterschiedlichen Administratorfunktionen entsprechen. Dieser Ansatz ermöglicht ein hohes Maß an Kontrolle über die Delegation bei der Verwaltung der Zertifizierungsstelle gemäß dem Sicherheitsprinzip, wonach immer nur das Mindestmaß an Rechten eingeräumt wird. Allerdings gibt es keine weiteren Gründe, aus denen sie unbedingt verwendet werden müssten, falls sie nicht mit einem spezifischen Verwaltungsmodell in einem Unternehmen übereinstimmen.
 
 **So erstellen Sie administrative Gruppen für die Zertifizierungsstelle in einer Domäne**
-* Melden Sie sich an einem Computer in der Domäne mit einem Konto an, das Ihnen die Rechte zum Erstellen von Benutzer- und Gruppenobjekten im Container „Benutzer“ einräumt.
+1. Melden Sie sich an einem Computer in der Domäne mit einem Konto an, das Ihnen die Rechte zum Erstellen von Benutzer- und Gruppenobjekten im Container „Benutzer“ einräumt.
 
-* Führen Sie den folgenden Befehl aus, um die Verwaltungsgruppen für die Zertifizierungsstelle der Domäne zu erstellen:
-Cscript //job:CertDomainGroups C:\MSSScripts\ca_setup.wsf
-Dieses Skript erstellt die Sicherheitsgruppen, die in der folgenden Tabelle aufgeführt werden. Diese Gruppen werden als universelle Gruppen im Container „Benutzer“ der Domäne erstellt und können in eine besser geeignete OU verschoben werden, falls dies durch bereits vorhandene Unternehmensrichtlinien verlangt werden sollte.
+2. Führen Sie den folgenden Befehl aus, um die Verwaltungsgruppen für die Zertifizierungsstelle der Domäne zu erstellen:
+    
+    `Cscript //job:CertDomainGroups C:\MSSScripts\ca_setup.wsf`
+
+    Dieses Skript erstellt die Sicherheitsgruppen, die in der folgenden Tabelle aufgeführt werden. Diese Gruppen werden als universelle Gruppen im Container „Benutzer“ der Domäne erstellt und können in eine besser geeignete OU verschoben werden, falls dies durch bereits vorhandene Unternehmensrichtlinien verlangt werden sollte.
 
 **Tabelle 10. Gruppennamen und Aufgaben**
 
@@ -2927,9 +2951,9 @@ Empfohlene OU-Struktur der Domäne
 Es gibt eine Reihe von Gruppen und Benutzerkonten, die mit der Verwaltung und dem Betrieb einer PKI verknüpft sind. In Abhängigkeit von den vorhandenen Richtlinien ist es möglicherweise erforderlich, diese Gruppen und Benutzer in einer spezifischen OU-Struktur zu organisieren. Da diese Struktur möglicherweise durch bereits vorhandene Unternehmensrichtlinien vorgegeben wird, handelt es sich beim Folgenden um eine empfohlene Struktur, die nach Bedarf geändert werden kann.
 
 **So erstellen Sie eine OU-Hierarchie der Zertifikatsdienste**
-* Melden Sie sich mit einem Konto an, das über Berechtigungen zum Erstellen von OUs verfügt, und delegieren Sie Berechtigungen innerhalb dieser OUs.
+1. Melden Sie sich mit einem Konto an, das über Berechtigungen zum Erstellen von OUs verfügt, und delegieren Sie Berechtigungen innerhalb dieser OUs.
 
-* Erstellen Sie eine OU-Struktur anhand der folgenden Tabelle:
+2. Erstellen Sie eine OU-Struktur anhand der folgenden Tabelle:
 
 **Tabelle 12. Beispiel für eine OU-Struktur**
 
@@ -2974,7 +2998,7 @@ Zertifikatsdienste
 <td style="border:1px solid black;">
 
 
-\-Zertifikatsdienste-Administration
+\\-Zertifikatsdienste-Administration
 
 </td>
 
@@ -2992,7 +3016,7 @@ Enthält administrative Gruppen für das Verwalten der Zertifizierungsstellen un
 <td style="border:1px solid black;">
 
 
-\-Zertifikatvorlagen-Verwaltung
+\\-Zertifikatvorlagen-Verwaltung
 
 </td>
 
@@ -3010,7 +3034,7 @@ Enthält Gruppen für das Verwalten der einzelnen Zertifikatvorlagen.
 <td style="border:1px solid black;">
 
 
-\-Zertifikatvorlagen-Registrierung
+\\-Zertifikatvorlagen-Registrierung
 
 </td>
 
@@ -3028,7 +3052,7 @@ Enthält Gruppen mit Berechtigungen zum Registrieren oder automatischen Registri
 <td style="border:1px solid black;">
 
 
-\-Zertifikatsdienste-Testbenutzer
+\\-Zertifikatsdienste-Testbenutzer
 
 </td>
 
@@ -3044,7 +3068,7 @@ Enthält vorübergehende Testkonten.
 </table>
 
 
-* Räumen Sie der Gruppe „Enterprise PKI Admins“ die Berechtigungen zum Erstellen und Löschen von Gruppen innerhalb der Zertifikatsdienste-OU und deren untergeordneten Containern ein.
+3. Räumen Sie der Gruppe „Enterprise PKI Admins“ die Berechtigungen zum Erstellen und Löschen von Gruppen innerhalb der Zertifikatsdienste-OU und deren untergeordneten Containern ein.
 
 Einräumen von Berechtigungen für den Container „Public Key Services“
 Die Sicherheitseinstellung des Containers „Public Key Services“ muss geändert werden, um „Enterprise PKI Admins“ das Installieren von Zertifizierungsstellen des Unternehmens und das Konfigurieren von Zertifikatvorlagen zu ermöglichen, ohne dass die Konten der Gruppe Mitglieder der Gruppe „Enterprise Admins“ sein müssen. Dies ist auch erforderlich um „Enterprise PKI Publishers“ das Veröffentlichen der Zertifikatssperrlisten und Zertifikate der Zertifizierungsstelle zu ermöglichen, ohne hierfür über die Rechte von „Enterprise Admin“ verfügen zu müssen.
@@ -3052,42 +3076,41 @@ Die Sicherheitseinstellung des Containers „Public Key Services“ muss geände
 Um die folgenden Änderungen vorzunehmen, muss ein Konto verwendet werden, das dem Unternehmensadministrator in Active Directory entspricht.
 
 **So gewähren Sie „Enterprise PKI Admins“ Berechtigungen**
-* Melden Sie sich als Mitglied der Sicherheitsgruppe „Enterprise Admins“ an.
+1. Melden Sie sich als Mitglied der Sicherheitsgruppe „Enterprise Admins“ an.
 
-* Zeigen Sie im MMC-Snap-In für Active Directory-Standorte und -Dienste im Menü **Ansicht** den Knoten **Dienste** an, wechseln Sie dann zum untergeordneten Container „Public Key Services“, und öffnen Sie dessen Eigenschaften.
+2. Zeigen Sie im MMC-Snap-In für Active Directory-Standorte und -Dienste im Menü **Ansicht** den Knoten **Dienste** an, wechseln Sie dann zum untergeordneten Container „Public Key Services“, und öffnen Sie dessen Eigenschaften.
 
-* Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe „Enterprise PKI Admins“ hinzu, und räumen Sie dieser Gruppe Vollzugriff auf diese Gruppe ein.
+3. Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe „Enterprise PKI Admins“ hinzu, und räumen Sie dieser Gruppe Vollzugriff auf diese Gruppe ein.
 
-* Bearbeiten Sie in **Erweiterte Ansicht** die Berechtigungen dieser Gruppe, um sicherzustellen, dass Vollzugriff für dieses Objekt und alle untergeordneten Objekte vorhanden ist.
+4. Bearbeiten Sie in **Erweiterte Ansicht** die Berechtigungen dieser Gruppe, um sicherzustellen, dass Vollzugriff für dieses Objekt und alle untergeordneten Objekte vorhanden ist.
 
-* Wählen Sie den Container **Dienste** aus, und öffnen Sie dessen Eigenschaften.
+5. Wählen Sie den Container **Dienste** aus, und öffnen Sie dessen Eigenschaften.
 
-* Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe „Enterprise PKI Admins“ hinzu, und gewähren Sie dieser Gruppe Vollzugriff.
+6. Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe „Enterprise PKI Admins“ hinzu, und gewähren Sie dieser Gruppe Vollzugriff.
 
-* Bearbeiten Sie in **Erweiterte Ansicht** die Berechtigungen dieser Gruppe, um sicherzustellen, dass Vollzugriff nur für dieses Objekt vorhanden ist.
-
+7. Bearbeiten Sie in **Erweiterte Ansicht** die Berechtigungen dieser Gruppe, um sicherzustellen, dass Vollzugriff nur für dieses Objekt vorhanden ist.
 
 **So gewähren Sie Berechtigungen für „Enterprise PKI Publishers“**
-* Melden Sie sich als Mitglied der Sicherheitsgruppe „Enterprise Admins“ an.
+1. Melden Sie sich als Mitglied der Sicherheitsgruppe „Enterprise Admins“ an.
 
-* Zeigen Sie im MMS-Snap-In für Active Directory-Standorte und -Dienste den Knoten **Dienste** an, und öffnen Sie die Eigenschaften für den Container „Public Key Services\AIA“.
+2. Zeigen Sie im MMS-Snap-In für Active Directory-Standorte und -Dienste den Knoten **Dienste** an, und öffnen Sie die Eigenschaften für den Container „Public Key Services\AIA“.
 
-* Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe „Enterprise PKI Publishers“ hinzu, und gewähren Sie dieser Gruppe die folgenden Berechtigungen:
-* Lesen
+3. Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe „Enterprise PKI Publishers“ hinzu, und gewähren Sie dieser Gruppe die folgenden Berechtigungen:
+    - Lesen
 
-* Schreiben
+    - Schreiben
 
-* Alle untergeordneten Objekte erstellen
+    - Alle untergeordneten Objekte erstellen
 
-* Alle untergeordneten Objekte löschen
+    - Alle untergeordneten Objekte löschen
 
 
-* Bearbeiten Sie in **Erweiterte Ansicht** die Berechtigungen dieser Gruppe, um sicherzustellen, dass die Berechtigungen auf dieses Objekt und alle untergeordneten Objekte angewendet werden.
+4. Bearbeiten Sie in **Erweiterte Ansicht** die Berechtigungen dieser Gruppe, um sicherzustellen, dass die Berechtigungen auf dieses Objekt und alle untergeordneten Objekte angewendet werden.
 
-* Wiederholen Sie die Schritte 2 bis 4 für die folgenden Container:
-* Public Key Services\CDP
+5. Wiederholen Sie die Schritte 2 bis 4 für die folgenden Container:
+    - Public Key Services\CDP
 
-* Public Key Services\Zertifizierungsstellen
+    - Public Key Services\Zertifizierungsstellen
 
 
 Gewähren von Berechtigungen für die Gruppe „Zertifikatherausgeber“
@@ -3096,25 +3119,25 @@ Alle Computerkonten der Unternehmenszertifizierungsstelle in der Domäne befinde
 Um den Mitgliedern der Gruppe „Enterprise PKI Admins“ das Installieren von Unternehmenszertifizierungsstellen zu erlauben, müssen die Berechtigungen für diese Gruppe geändert werden.
 
 **So gewähren Sie den Zertifikatherausgebern die Berechtigungen zum Ändern der Mitgliedschaft**
-* Melden Sie sich als Mitglied der Domänenadministratoren für die Domäne an, in der die ausstellenden Zertifizierungsstellen installiert werden.
+1. Melden Sie sich als Mitglied der Domänenadministratoren für die Domäne an, in der die ausstellenden Zertifizierungsstellen installiert werden.
 
-* Öffnen Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer.
+2. Öffnen Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer.
 
-* Vergewissern Sie sich im Menü **Ansicht** der MMC, dass **Erweiterte Funktionen** ausgewählt ist.
+3. Vergewissern Sie sich im Menü **Ansicht** der MMC, dass **Erweiterte Funktionen** ausgewählt ist.
 
-* Suchen Sie die Gruppe „Zertifikatherausgeber“ (standardmäßig im Container „Benutzer“), und zeigen Sie die Eigenschaften der Gruppe an.
+4. Suchen Sie die Gruppe „Zertifikatherausgeber“ (standardmäßig im Container „Benutzer“), und zeigen Sie die Eigenschaften der Gruppe an.
 
-* Fügen Sie von der Registerkarte **Sicherheit** die Gruppe „Enterprise PKI Admins“ hinzu, und klicken Sie auf die Schaltfläche **Erweitert.**  
+5. Fügen Sie von der Registerkarte **Sicherheit** die Gruppe „Enterprise PKI Admins“ hinzu, und klicken Sie auf die Schaltfläche **Erweitert.**  
 
-* Wählen Sie die Gruppe „Enterprise PKI Admins“ in der Liste aus, und klicken Sie auf die Schaltfläche **Bearbeiten.**  
+6. Wählen Sie die Gruppe „Enterprise PKI Admins“ in der Liste aus, und klicken Sie auf die Schaltfläche **Bearbeiten.**  
 
-* Wählen Sie die Registerkarte **Eigenschaften** aus, und stellen Sie sicher, dass **Nur dieses Objekt** im Feld **Übernehmen für** ausgewählt ist.
+7. Wählen Sie die Registerkarte **Eigenschaften** aus, und stellen Sie sicher, dass **Nur dieses Objekt** im Feld **Übernehmen für** ausgewählt ist.
 
-* Führen Sie den Bildlauf nach unten aus, und klicken Sie für die Gruppe „Mitglieder“ auf das Feld **Schreiben** in der Spalte **Zulassen.**  
+8. Führen Sie den Bildlauf nach unten aus, und klicken Sie für die Gruppe „Mitglieder“ auf das Feld **Schreiben** in der Spalte **Zulassen.**  
 
-* Speichern Sie die Änderungen, und schließen Sie jedes Dialogfeld jeweils durch Klicken auf **OK.**  
+9. Speichern Sie die Änderungen, und schließen Sie jedes Dialogfeld jeweils durch Klicken auf **OK.**  
 
-* Starten Sie den Server der ausstellenden Zertifizierungsstelle neu, bevor Sie die Komponente Zertifikatsdienste installieren. Ein Neustart ermöglicht dem Server die Übernahme der neuen Gruppenmitgliedschaft in sein Zugriffstoken.
+10. Starten Sie den Server der ausstellenden Zertifizierungsstelle neu, bevor Sie die Komponente Zertifikatsdienste installieren. Ein Neustart ermöglicht dem Server die Übernahme der neuen Gruppenmitgliedschaft in sein Zugriffstoken.
 
 Gewähren von Wiederherstellungsberechtigungen für „Enterprise PKI Admins“
 Der Vorgang zum Installieren von Zertifikatsdiensten erfordert das Benutzerrecht zum Wiederherstellen von Dateien und Verzeichnissen in der Domäne, in der die Unternehmenszertifizierungsstelle platziert wird. Dieses Recht ist insbesondere erforderlich, um das Zusammenführen von Sicherheitsbeschreibungen für die Vorlagen und andere Verzeichnisobjekte zu ermöglichen, wodurch den Domänen-PKI-Objekten die richtigen Berechtigungen gewährt werden. Die vordefinierten Domänengruppen „Administratoren“, „Server-Operatoren“ und „Sicherungs-Operatoren“ weisen standardmäßig dieses Recht auf.
@@ -3122,21 +3145,21 @@ Der Vorgang zum Installieren von Zertifikatsdiensten erfordert das Benutzerrecht
 Da die Gruppe „Enterprise PKI Admins“ zum Installieren der Zertifizierungsstelle verwendet wird, muss das Benutzerrecht zum Wiederherstellen von Dateien und Verzeichnissen dieser Gruppe gewährt werden.
 
 **So gewähren Sie die Wiederherstellungsrechte für „Enterprise PKI Admins“**
-* Melden Sie sich als Mitglied der Domänenadministratoren innerhalb der Domäne an, in der die ausstellende Zertifizierungsstelle installiert wird.
+1. Melden Sie sich als Mitglied der Domänenadministratoren innerhalb der Domäne an, in der die ausstellende Zertifizierungsstelle installiert wird.
 
-* Öffnen Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer.
+2. Öffnen Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer.
 
-* Wählen Sie die OU „Domänencontroller“ aus, und öffnen Sie die Eigenschaften dieser OU.
+3. Wählen Sie die OU „Domänencontroller“ aus, und öffnen Sie die Eigenschaften dieser OU.
 
-* Wählen Sie auf der Registerkarte **Gruppenrichtlinie** das Gruppenrichtlinienobjekt **Standard-Domänencontrollerrichtlinie** aus, und klicken Sie dann auf **Bearbeiten.**  
+4. Wählen Sie auf der Registerkarte **Gruppenrichtlinie** das Gruppenrichtlinienobjekt **Standard-Domänencontrollerrichtlinie** aus, und klicken Sie dann auf **Bearbeiten.**  
 
-* Wechseln Sie zu Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen\Lokale Richtlinien\Zuweisen von Benutzerrechten, und doppelklicken Sie auf **Wiederherstellen von Dateien und Verzeichnissen.**  
+5. Wechseln Sie zu Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen\Lokale Richtlinien\Zuweisen von Benutzerrechten, und doppelklicken Sie auf **Wiederherstellen von Dateien und Verzeichnissen.**  
 
-* Fügen Sie die Gruppe „Enterprise PKI Admins“ zur angezeigten Liste hinzu.
+6. Fügen Sie die Gruppe „Enterprise PKI Admins“ zur angezeigten Liste hinzu.
 
-* Schließen Sie das Dialogfeld und die MMC zum Bearbeiten von Gruppenrichtlinienobjekten.
+7. Schließen Sie das Dialogfeld und die MMC zum Bearbeiten von Gruppenrichtlinienobjekten.
 
-**Hinweis**   Wenn es weitere Gruppenrichtlinienobjekte gibt, die das Benutzerrecht zum Wiederherstellen von Dateien und Verzeichnissen festlegen, muss dieses Verfahren für das Gruppenrichtlinienobjekt mit der höchsten Priorität statt für die Standard-Domänencontrollerrichtlinie ausgeführt werden. Die Einstellungen für die Benutzerrechte sind nicht kumulativ, und nur das zuletzt angewendete Gruppenrichtlinienobjekt, das über dieses Recht verfügt, ist wirksam.
+    **Hinweis**   Wenn es weitere Gruppenrichtlinienobjekte gibt, die das Benutzerrecht zum Wiederherstellen von Dateien und Verzeichnissen festlegen, muss dieses Verfahren für das Gruppenrichtlinienobjekt mit der höchsten Priorität statt für die Standard-Domänencontrollerrichtlinie ausgeführt werden. Die Einstellungen für die Benutzerrechte sind nicht kumulativ, und nur das zuletzt angewendete Gruppenrichtlinienobjekt, das über dieses Recht verfügt, ist wirksam.
 
 
 Bereitstellen eines Servers für die Stammzertifizierungsstelle
@@ -3152,63 +3175,90 @@ Nach dem Vorbereiten der erforderlichen Serverhardware für einen Server für di
 CRL- und AIA-Informationen sind für ein Zertifikat der Stammzertifizierungsstelle nicht erforderlich. Daher wird für die Parameter „CRLDistributionPoint“ und „AuthorityInformationAccess“ in der Datei „capolicy.inf“ der Wert „Empty“ eingetragen.
 
 **So erstellen Sie eine Datei „capolicy.inf“**
-* Erstellen Sie mit einem Texteditor wie Editor eine Textdatei mit dem folgenden Text:
-[version]Signature=”$Windows NT$”[Certsrv_server]RednewalKeyLength=4096RenewalValidityPeriod=YearsRenewalValidityPeriodUnits=16[CRLDistributionPoint]Empty=true[AuthorityInformationAccess]Empty=true
-* Wenn eine Zertifikatverwendungserklärung (CPS) für diese Zertifizierungsstelle definiert wurde, nehmen Sie folgende Zeilen in die Datei „capolicy.inf“ auf, wobei Sie die kursiv gedruckten Werte durch die spezifischen Werte für diese Implementierung ersetzen:
-[CAPolicy]Policies=company CPS name[company CPS name]OID=the.company.OIDURL=”http://www.companyurl.com/cpspagename.htm”
-* Speichern Sie diese Textdatei als *%windir%*\capolicy.inf (ersetzen Sie *%windir%* durch den absoluten Pfad des Ordners, in dem Windows installiert ist, beispielsweise „C:\Windows“). Ein Administrator oder Konto mit entsprechenden Berechtigungen muss verwendet werden, um die Datei im Windows-Ordner zu speichern und diesen Schritt abzuschließen.
+1. Erstellen Sie mit einem Texteditor wie Editor eine Textdatei mit dem folgenden Text:
+
+    ```
+    [version]
+    Signature=”$Windows NT$”
+
+    [Certsrv_server]
+    RednewalKeyLength=4096
+    RenewalValidityPeriod=Years
+    RenewalValidityPeriodUnits=16
+
+    [CRLDistributionPoint]
+    Empty=true
+
+    [AuthorityInformationAccess]
+    Empty=true
+    ```
+
+2. Wenn eine Zertifikatverwendungserklärung (CPS) für diese Zertifizierungsstelle definiert wurde, nehmen Sie folgende Zeilen in die Datei „capolicy.inf“ auf, wobei Sie die kursiv gedruckten Werte durch die spezifischen Werte für diese Implementierung ersetzen:
+
+    ```
+    [CAPolicy]
+    Policies=company CPS name
+
+    [company CPS name]
+    OID=the.company.OID
+    URL=”http://www.companyurl.com/cpspagename.htm”
+    ```
+
+3. Speichern Sie diese Textdatei als *%windir%*\capolicy.inf (ersetzen Sie *%windir%* durch den absoluten Pfad des Ordners, in dem Windows installiert ist, beispielsweise „C:\Windows“). Ein Administrator oder Konto mit entsprechenden Berechtigungen muss verwendet werden, um die Datei im Windows-Ordner zu speichern und diesen Schritt abzuschließen.
 
 Installieren der Softwarekomponenten für Zertifikatsdienste
 Verwenden Sie den Assistenten für Windows-Komponenten, um die Softwarekomponenten der Zertifizierungsstelle zu installieren. Bitte beachten Sie, dass Sie das Installationsmedium von Windows Server 2003 benötigen, um diese Installation abzuschließen.
 
 **So installieren Sie Zertifikatsdienste**
-* Melden Sie sich als Mitglied der lokalen Administratorgruppe an, und führen Sie den Manager für die Installation optionaler Komponenten aus, oder verwenden Sie die Systemsteuerung und dort die Option „Software“ und „Programme ändern oder entfernen“ bzw. „Windows-Komponenten hinzufügen/entfernen“.
+1. Melden Sie sich als Mitglied der lokalen Administratorgruppe an, und führen Sie den Manager für die Installation optionaler Komponenten aus, oder verwenden Sie die Systemsteuerung und dort die Option „Software“ und „Programme ändern oder entfernen“ bzw. „Windows-Komponenten hinzufügen/entfernen“.
 sysocmgr /i:sysoc.inf
-* Wählen Sie die Komponente „Zertifikatsdienste“ aus (klicken Sie auf **Ja**, um die Warnung zum Umbenennen zu bestätigen).
+2. Wählen Sie die Komponente „Zertifikatsdienste“ aus (klicken Sie auf **Ja**, um die Warnung zum Umbenennen zu bestätigen).
 
-* Wählen Sie für den Typ der Zertifizierungsstelle **Eigenständige Stammzertifizierungsstelle** aus, und vergewissern Sie sich, dass das Kontrollkästchen **Schlüsselpaar und ein Zertifizierungsstellenzertifikat mit diesen Einstellungen erstellen** aktiviert ist.
+3. Wählen Sie für den Typ der Zertifizierungsstelle **Eigenständige Stammzertifizierungsstelle** aus, und vergewissern Sie sich, dass das Kontrollkästchen **Schlüsselpaar und ein Zertifizierungsstellenzertifikat mit diesen Einstellungen erstellen** aktiviert ist.
 
-* Lassen Sie die Einstellungen im Dialogfeld **Öffentlich-privates Schlüsselpaar** unverändert bei den Standardwerten mit Ausnahme des Feldes **Schlüssellänge**, in dem der Wert **4096** eingegeben werden sollte, und des **Anbietertyps**, in dem die Einstellung **Microsoft Strong Cryptographic Provider** festgelegt werden sollte.
+4. Lassen Sie die Einstellungen im Dialogfeld **Öffentlich-privates Schlüsselpaar** unverändert bei den Standardwerten mit Ausnahme des Feldes **Schlüssellänge**, in dem der Wert **4096** eingegeben werden sollte, und des **Anbietertyps**, in dem die Einstellung **Microsoft Strong Cryptographic Provider** festgelegt werden sollte.
 
-* Geben Sie die Erkennungsdaten der Zertifizierungsstelle ein, die Sie in der vorbereitenden Phase für die folgenden Felder gesammelt haben:
-* Allgemeiner Name der Zertifizierungsstelle:
+5. Geben Sie die Erkennungsdaten der Zertifizierungsstelle ein, die Sie in der vorbereitenden Phase für die folgenden Felder gesammelt haben:
+    - Allgemeiner Name der Zertifizierungsstelle:
 
-* Suffix des definierten Namens:
+    - Suffix des definierten Namens:
 
-* Gültigkeitsdauer: 8 Jahre
+    - Gültigkeitsdauer: 8 Jahre
 
 
-Zu diesem Zeitpunkt erstellt der Anbietertyp das Schlüsselpaar, das in den Schlüsselspeicher des lokalen Computers geschrieben wird.
+    Zu diesem Zeitpunkt erstellt der Anbietertyp das Schlüsselpaar, das in den Schlüsselspeicher des lokalen Computers geschrieben wird.
 
-**Hinweis**   Wenn eine Zertifizierungsstelle zuvor auf diesem System installiert wurde, werden Sie in einem Dialogfeld gewarnt, dass der private Schlüssel der vorherigen Installation überschrieben wird. Vergewissern Sie sich, dass dieser Schlüssel vor dem Fortfahren nie wieder benötigt wird.
+    **Hinweis**   Wenn eine Zertifizierungsstelle zuvor auf diesem System installiert wurde, werden Sie in einem Dialogfeld gewarnt, dass der private Schlüssel der vorherigen Installation überschrieben wird. Vergewissern Sie sich, dass dieser Schlüssel vor dem Fortfahren nie wieder benötigt wird.
 
-* Belassen Sie die Speicherorte der Zertifikatsdatenbank, Datenbankprotokolle und des Konfigurationsordners bei dem jeweiligen Standardwert. Zu diesem Zeitpunkt installiert der Manager für die Installation optionaler Komponenten die Komponenten der Zertifikatsdienste, und das Installationsmedium von Windows Server 2003 ist erforderlich.
+6. Belassen Sie die Speicherorte der Zertifikatsdatenbank, Datenbankprotokolle und des Konfigurationsordners bei dem jeweiligen Standardwert. Zu diesem Zeitpunkt installiert der Manager für die Installation optionaler Komponenten die Komponenten der Zertifikatsdienste, und das Installationsmedium von Windows Server 2003 ist erforderlich.
 
-* Klicken Sie auf **OK**, um Warnungen über IIS zu bestätigen und mit der Installation bis zum Abschluss fortzufahren.
+7. Klicken Sie auf **OK**, um Warnungen über IIS zu bestätigen und mit der Installation bis zum Abschluss fortzufahren.
 
 Konfigurieren der Eigenschaften der Stammzertifizierungsstelle
 Eine Reihe von umgebungsspezifischen Parametern wird verwendet, wenn die Stammzertifizierungsstelle gemäß Beschreibung in diesem Abschnitt konfiguriert wird. Diese Parameter sollten gemäß vorheriger Beschreibung im Abschnitt zu den erforderlichen Informationen in diesem Handbuch gesammelt werden, bevor fortgefahren wird.
 
 **So konfigurieren Sie die Eigenschaften der Stammzertifizierungsstelle**
-* Melden Sie sich am Server mit der Zertifizierungsstelle als Gruppenmitglied der lokalen Administratoren an.
+1. Melden Sie sich am Server mit der Zertifizierungsstelle als Gruppenmitglied der lokalen Administratoren an.
 
-* Passen Sie das Skript „C:\MSSScripts\pkiparams.vbs“ an, um folgende Zeile aufzunehmen:
-* Ändern Sie den Wert der Einstellung AD_ROOT_DN, um ihn an den Stammdomänen-DN der Active Directory-Gesamtstruktur anzupassen.
+2. Passen Sie das Skript „C:\MSSScripts\pkiparams.vbs“ an, um folgende Zeile aufzunehmen:
+    
+    - Ändern Sie den Wert der Einstellung AD_ROOT_DN, um ihn an den Stammdomänen-DN der Active Directory-Gesamtstruktur anzupassen.
 
-* Ändern Sie die Einstellung HTTP_PKI_VROOT, um sie an den HTTP-Pfad zum virtuellen IIS-Verzeichnis anzupassen, das zuvor eingerichtet wurde.
+    - Ändern Sie die Einstellung HTTP_PKI_VROOT, um sie an den HTTP-Pfad zum virtuellen IIS-Verzeichnis anzupassen, das zuvor eingerichtet wurde.
 
+3. Führen Sie das folgende Skript aus:
 
-* Führen Sie das folgende Skript aus:
-Cscript //job:RootCAConfig C:\MSSScripts\ca_setup.wsf
+    `Cscript //job:RootCAConfig C:\MSSScripts\ca_setup.wsf`
+
 Konfigurieren der Administratorfunktionen
 Die zuvor erstellten Sicherheitsgruppen müssen Administratorfunktionen wie „Prüfer“ und „Zertifikatverwaltung“ zugeordnet werden, um verwendet werden zu können.
 
 **Hinweis**   Obwohl die meisten mittelgroßen Unternehmen vermutlich das vereinfachte Delegationsmodell verwenden, das zuvor in diesem Handbuch erwähnt wurde, wird hier ein flexibleres Modell gezeigt, falls eine stärkere Trennung erforderlich ist.
 
 **So konfigurieren Sie Administratorfunktionen für die Stammzertifizierungsstelle**
-* Klicken Sie in der Verwaltungskonsole für die Zertifizierungsstelle auf **Eigenschaften.**  
+1. Klicken Sie in der Verwaltungskonsole für die Zertifizierungsstelle auf **Eigenschaften.**  
 
-* Klicken Sie auf die Registerkarte **Sicherheit**, und fügen Sie die lokalen Sicherheitsgruppen hinzu, die in der folgenden Tabelle aufgeführt werden. Fügen Sie die gezeigte Berechtigung für jede Gruppe hinzu.
+2. Klicken Sie auf die Registerkarte **Sicherheit**, und fügen Sie die lokalen Sicherheitsgruppen hinzu, die in der folgenden Tabelle aufgeführt werden. Fügen Sie die gezeigte Berechtigung für jede Gruppe hinzu.
 
 **Tabelle 13. Einträge für die Berechtigung der Zertifizierungsstelle**
 
@@ -3289,20 +3339,23 @@ Erlauben
 </table>
 
 
-* Weitere Sicherheitsfunktionen für die Zertifizierungsstelle für diesen Server wurden bereits über die zuvor angewendete Sicherheitsrichtlinie definiert.
+3. Weitere Sicherheitsfunktionen für die Zertifizierungsstelle für diesen Server wurden bereits über die zuvor angewendete Sicherheitsrichtlinie definiert.
 
 Übertragen des Zertifikats der Stammzertifizierungsstelle und der CRL auf Datenträger
 Das Zertifikat der Stammzertifizierungsstelle und die CRL müssen von der Zertifizierungsstelle kopiert werden, damit sie für Active Directory und das IIS-Zertifikat und den CRL-Veröffentlichungsserver veröffentlicht werden können. Obwohl in diesem Beispiel die Verwendung eines Datenträgers beschrieben wird, kann jedes tragbare Medium verwendet werden (einschließlich USB-Laufwerke).
 
 **So kopieren Sie das Zertifikat der Stammzertifizierungsstelle und die CRL auf einen Datenträger**
-* Melden Sie sich an der Stammzertifizierungsstelle als Mitglied der lokalen Gruppe „CA Admins“ an, und legen Sie das tragbare Medium in den Server ein.
+1. Melden Sie sich an der Stammzertifizierungsstelle als Mitglied der lokalen Gruppe „CA Admins“ an, und legen Sie das tragbare Medium in den Server ein.
 
-* Führen Sie das folgende Skript aus, um das Zertifikat der Zertifizierungsstelle auf einen Datenträger zu kopieren:
-Cscript //job:GetCACerts C:\MSSScripts\CA_Operations.wsf
-* Führen Sie das folgende Skript aus, um die CRL der Zertifizierungsstelle auf einen Datenträger zu kopieren:
-Cscript //job:GetCRLs C:\MSSScripts\CA_Operations.wsf
-* Beschriften Sie den Datenträger mit einem aussagekräftigen Titel und dem Datum, und bewahren Sie ihn für die spätere Verwendung auf.
+2. Führen Sie das folgende Skript aus, um das Zertifikat der Zertifizierungsstelle auf einen Datenträger zu kopieren:
 
+    `Cscript //job:GetCACerts C:\MSSScripts\CA_Operations.wsf`
+
+3. Führen Sie das folgende Skript aus, um die CRL der Zertifizierungsstelle auf einen Datenträger zu kopieren:
+
+    `Cscript //job:GetCRLs C:\MSSScripts\CA_Operations.wsf`
+
+4. Beschriften Sie den Datenträger mit einem aussagekräftigen Titel und dem Datum, und bewahren Sie ihn für die spätere Verwendung auf.
 
 Veröffentlichen der Informationen zur Stammzertifizierungsstelle
 
@@ -3311,45 +3364,59 @@ Vor der Installation der ausstellenden Zertifizierungsstelle muss das Zertifikat
 Es empfiehlt sich, die ausstellende Zertifizierungsstelle zum Ausführen dieses Verfahrens zu verwenden, da dort die erforderliche Datei „Certutil.exe“ ebenso vorhanden ist wie die Bibliotheken „certadm.dll“ und „certcli.dll“. Es könnte jedoch jeder Mitgliedserver verwendet werden, solange „certutil.exe“ und die unterstützenden DLL-Dateien auf diesem Windows Server 2003-basierten System installiert sind.
 
 **So veröffentlichen Sie das Zertifikat der Stammzertifizierungsstelle und die CRL für Active Directory**
-* Melden Sie sich an einem Mitgliedscomputer der Domäne an, der die zuvor erwähnten Anforderungen als Mitglied der Gruppe „Enterprise PKI Admins“ erfüllt, und legen Sie den Datenträger ein, der zum Speichern des Zertifikats der Stammzertifizierungsstelle und der CRL erstellt wurde.
+1. Melden Sie sich an einem Mitgliedscomputer der Domäne an, der die zuvor erwähnten Anforderungen als Mitglied der Gruppe „Enterprise PKI Admins“ erfüllt, und legen Sie den Datenträger ein, der zum Speichern des Zertifikats der Stammzertifizierungsstelle und der CRL erstellt wurde.
 
-* Führen Sie das folgende Skript aus, um das Zertifikat der Zertifizierungsstelle für Active Directory zu veröffentlichen.
-Cscript //job:PublishCertstoAD C:\MSSScripts\CA_Operations.wsf
-* Führen Sie das folgende Skript aus, um die CRL für Active Directory zu veröffentlichen
-Cscript //job:PublishCRLstoAD C:\MSSScript\CA_Operations.wsf
+2. Führen Sie das folgende Skript aus, um das Zertifikat der Zertifizierungsstelle für Active Directory zu veröffentlichen.
+
+    `Cscript //job:PublishCertstoAD C:\MSSScripts\CA_Operations.wsf`
+
+3. Führen Sie das folgende Skript aus, um die CRL für Active Directory zu veröffentlichen
+
+    `Cscript //job:PublishCRLstoAD C:\MSSScript\CA_Operations.wsf`
+
 Veröffentlichen des Zertifikats der Stammzertifizierungsstelle und der CRL auf dem Webserver
 Diese Aufgabe ist erforderlich, da HTTP-Versionen der CDP- und AIA-URLs in den Erweiterungen der von dieser Zertifizierungsstelle ausgestellten Zertifikate angegeben sind. Wenn diese Erweiterungen vorhanden sind, müssen sie von den veröffentlichenden CRLs und Zertifikaten für die darin konfigurierten URLs berücksichtigt werden.
 
 **Hinweis**   Dieses Verfahren hängt nicht davon ab, ob sich der veröffentlichende CDP- und AIA-Webserver in der ausstellenden Zertifizierungsstelle befindet. Es wird jedoch davon ausgegangen, dass das virtuelle Verzeichnis mit dem Verzeichnis übereinstimmt, das zuvor für die Konfiguration von IIS eingerichtet wurde („C:\CAWWWPub“). Wenn ein unterschiedlicher Pfad ausgewählt wurde, muss der Wert WWW_LOCAL_PUB_PATH im Skript „PKIParams.vbs“ geändert werden.
 
 **So veröffentlichen Sie das Zertifikat der Stammzertifizierungsstelle und die CRL für die Web-URL**
-* Melden Sie sich am Webserver als lokaler Administrator oder unter einem gleichwertigen Konto an.
+1. Melden Sie sich am Webserver als lokaler Administrator oder unter einem gleichwertigen Konto an.
 
-* Stellen Sie sicher, dass der Datenträger mit dem Zertifikat der Stammzertifizierungsstelle und der CRL eingelegt ist
+2. Stellen Sie sicher, dass der Datenträger mit dem Zertifikat der Stammzertifizierungsstelle und der CRL eingelegt ist
 
-* Führen Sie das folgende Skript aus, um das Zertifikat der Zertifizierungsstelle im Ordner des Webservers zu veröffentlichen:
-Cscript //job:PublishRootCerttoIISC:\MSSScripts\CA_Operations.wsf
-* Führen Sie das folgende Skript aus, um die CRLs der Zertifizierungsstelle im Ordner des Webservers zu veröffentlichen:
-Cscript //job:PublishRootCRLstoIISC:\MSSScripts\CA_Operations.wsf
+3. Führen Sie das folgende Skript aus, um das Zertifikat der Zertifizierungsstelle im Ordner des Webservers zu veröffentlichen:
+
+    ```
+    Cscript //job:PublishRootCerttoIIS
+    C:\MSSScripts\CA_Operations.wsf
+    ```
+
+4. Führen Sie das folgende Skript aus, um die CRLs der Zertifizierungsstelle im Ordner des Webservers zu veröffentlichen:
+
+    ```
+    Cscript //job:PublishRootCRLstoIIS
+    C:\MSSScripts\CA_Operations.wsf
+    ```
 
 Bereitstellen eines Servers mit einer ausstellenden Zertifizierungsstelle
 
 Nachdem nun die Stammzertifizierungsstelle installiert und deren Zertifikate veröffentlicht wurden, kann der Server mit der ausstellenden Zertifizierungsstelle bereitgestellt werden. Das Installieren von Zertifikatsdiensten erfordert eine komplexe Reihe von Interaktionen zwischen der ausstellenden Zertifizierungsstelle, der Stammzertifizierungsstelle, Active Directory und dem Webserver. Diese Interaktionen können einfacher nachvollzogen werden, wenn das folgende Diagramm als Referenz herangezogen wird.
 
+![](images/cc875845.swcg5(de-de,technet.10).gif)
 
 **Abbildung 5. Prozess zur Zertifikatsinstallation**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875845.swcg5_big(de-de,technet.10).gif)
 
 Dieses Diagramm enthält folgende durchnummerierte interaktive Schritte:
-* Veröffentlichen des Zertifikats der Stammzertifizierungsstelle und der CRL für Active Directory mit einem Wechselmedium.
+1. Veröffentlichen des Zertifikats der Stammzertifizierungsstelle und der CRL für Active Directory mit einem Wechselmedium.
 
-* Veröffentlichen des Zertifikats der Stammzertifizierungsstelle und der CRL für den Webserver mit einem Wechselmedium.
+2. Veröffentlichen des Zertifikats der Stammzertifizierungsstelle und der CRL für den Webserver mit einem Wechselmedium.
 
-* Installieren der Software für Zertifikatsdienste, welche eine Zertifikatsanforderung erzeugt, die mit einem Wechselmedium an die Stammzertifizierungsstelle übergeben wird, wo ein Zertifikat auf Grundlage dieser Anforderung ausgestellt wird.
+3. Installieren der Software für Zertifikatsdienste, welche eine Zertifikatsanforderung erzeugt, die mit einem Wechselmedium an die Stammzertifizierungsstelle übergeben wird, wo ein Zertifikat auf Grundlage dieser Anforderung ausgestellt wird.
 
-* Installieren des entsprechenden Zertifikats der ausstellenden Zertifizierungsstelle mit einem Wechselmedium.
+4. Installieren des entsprechenden Zertifikats der ausstellenden Zertifizierungsstelle mit einem Wechselmedium.
 
-* Veröffentlichen des Zertifikats der ausstellenden Zertifizierungsstelle und der CRL für den Webserver.
+5. Veröffentlichen des Zertifikats der ausstellenden Zertifizierungsstelle und der CRL für den Webserver.
 
 
     x.   Dieser Schritt erfolgt automatisch während der Installationsroutine der Unternehmenszertifizierungsstelle.
@@ -3357,55 +3424,73 @@ Vorbereiten der Datei „capolicy.inf“ für die ausstellende Zertifizierungsst
 Obwohl eine Datei „capolicy.inf“ nicht für die ausstellende Zertifizierungsstelle erforderlich ist, wird diese Datei benötigt, falls die von der Zertifizierungsstelle verwendete Schlüsselgröße geändert werden muss. Diese Datei sollte erstellt werden, bevor die ausstellende Zertifizierungsstelle eingerichtet wird. Dies ist empfehlenswert, obwohl diese Datei bei Bedarf später hinzugefügt werden kann, gefolgt von der Erneuerung des Zertifikats der Zertifizierungsstelle.
 
 **So erstellen Sie eine Datei „capolicy.inf“**
-* Melden Sie sich am Server mit der ausstellenden Zertifizierungsstelle mit einem lokalen Administratorkonto oder einem gleichwertigen Konto an.
+1. Melden Sie sich am Server mit der ausstellenden Zertifizierungsstelle mit einem lokalen Administratorkonto oder einem gleichwertigen Konto an.
 
-* Erstellen Sie mit einem Texteditor wie Editor eine Textdatei mit den folgenden Informationen:
-[Version]Signature= “$Windows NT$”[Certsrv_Server]RenewalKeyLength=2048
-* Wenn eine Zertifikatverwendungserklärung (CPS) für diese Zertifizierungsstelle definiert ist, nehmen Sie die folgenden Zeilen in die Datei „capolicy.inf“ auf:
-[CAPolicy]Policies=policyname[policyname]OID=the.org.oidURL=”http://the.org.url/TheCPSPage.htm”
-**Hinweis**   Kursiv formatierte Elemente müssen durch unternehmensspezifische Informationen ersetzt werden.
+2. Erstellen Sie mit einem Texteditor wie Editor eine Textdatei mit den folgenden Informationen:
 
-* Speichern Sie die Datei als *%windir%*\Capolicy.inf (ersetzen Sie *%windir%* durch den absoluten Pfad zum Windows-Installationsordner wie „C:\Windows“).
+    ```
+    [Version]
+    Signature= “$Windows NT$”
+
+    [Certsrv_Server]
+    RenewalKeyLength=2048
+    ```
+
+3. Wenn eine Zertifikatverwendungserklärung (CPS) für diese Zertifizierungsstelle definiert ist, nehmen Sie die folgenden Zeilen in die Datei „capolicy.inf“ auf:
+
+    ```
+    [CAPolicy]
+    Policies=policyname
+
+    [policyname]
+    OID=the.org.oid
+    URL=”http://the.org.url/TheCPSPage.htm”
+    ```
+
+    **Hinweis**   Kursiv formatierte Elemente müssen durch unternehmensspezifische Informationen ersetzt werden.
+
+4. Speichern Sie die Datei als *%windir%*\Capolicy.inf (ersetzen Sie *%windir%* durch den absoluten Pfad zum Windows-Installationsordner wie „C:\Windows“).
 
 Installieren der Softwarekomponenten für Zertifikatsdienste
 Wie beim Installieren der Zertifikatsdienste auf der Stammzertifizierungsstelle ist auch bei diesem Schritt die Verwendung des Windows Server 2003-Installationsmediums gemeinsam mit dem Assistenten für Windows-Komponenten erforderlich.
 
 **So installieren Sie Zertifikatsdienste**
-* Melden Sie sich an der ausstellenden Zertifizierungsstelle als Mitglied der lokalen Administratorgruppe oder mit einem gleichwertigen Konto an, und führen Sie den Manager für die Installation optionaler Komponenten aus:
-sysocmgr /i:sysoc.inf
-* Wählen Sie die Komponente der Zertifikatsdienste aus, und klicken Sie auf **OK**, um das Dialogfeld mit einer Warnung zum Umbenennen zu bestätigen.
+1. Melden Sie sich an der ausstellenden Zertifizierungsstelle als Mitglied der lokalen Administratorgruppe oder mit einem gleichwertigen Konto an, und führen Sie den Manager für die Installation optionaler Komponenten aus:
 
-* Wählen Sie den Zertifizierungsstellentyp als untergeordnete Zertifizierungsstelle des Unternehmens aus, und vergewissern Sie sich, dass das Kontrollkästchen **Schlüsselpaar und ein Zertifizierungsstellenzertifikat mit diesen Einstellungen erstellen** aktiviert ist.
+    `sysocmgr /i:sysoc.inf`
 
-* Behalten Sie die Standardeinstellungen im Dialogfeld **Öffentlich-privates Schlüsselpaar** bei, mit Ausnahme folgender Einstellung:
-* Schlüssellänge – 2048 Bit
+2. Wählen Sie die Komponente der Zertifikatsdienste aus, und klicken Sie auf **OK**, um das Dialogfeld mit einer Warnung zum Umbenennen zu bestätigen.
 
-* Anbietertyp – Microsoft Strong Cryptographic Provider
+3. Wählen Sie den Zertifizierungsstellentyp als untergeordnete Zertifizierungsstelle des Unternehmens aus, und vergewissern Sie sich, dass das Kontrollkästchen **Schlüsselpaar und ein Zertifizierungsstellenzertifikat mit diesen Einstellungen erstellen** aktiviert ist.
 
+4. Behalten Sie die Standardeinstellungen im Dialogfeld **Öffentlich-privates Schlüsselpaar** bei, mit Ausnahme folgender Einstellung:
+    - Schlüssellänge – 2048 Bit
 
-* Geben Sie die kennzeichnenden Informationen zur Zertifizierungsstelle wie folgt ein:
-* Allgemeiner Name der Zertifizierungsstelle
-
-* Suffix des definierten Namens
-
-* Gültigkeitsdauer: (gemäß Vorgabe durch übergeordnete Zertifizierungsstelle)
+    - Anbietertyp – Microsoft Strong Cryptographic Provider
 
 
-* Der Anbieter erstellt zu diesem Zeitpunkt ein Schlüsselpaar und schreibt es in den Schlüsselspeicher des lokalen Computers.
+5. Geben Sie die kennzeichnenden Informationen zur Zertifizierungsstelle wie folgt ein:
+    - Allgemeiner Name der Zertifizierungsstelle
 
-* Geben Sie die Speicherorte von Zertifikatsdatenbank, Datenbankprotokollen und Konfiguration wie folgt an:
-* Zertifikatsdatenbank: D:\CertLog
+    - Suffix des definierten Namens
 
-* Zertifikatsdatenbankprotokoll: %windir%\System32\CertLog
-
-* Freigegebener Ordner: Deaktiviert
+    - Gültigkeitsdauer: (gemäß Vorgabe durch übergeordnete Zertifizierungsstelle)
 
 
-Die Datenbank und die Protokolle der Zertifizierungsstelle sollten nach Möglichkeit auf verschiedenen physischen Volumes gespeichert werden, um Leistung und Stabilität zu steigern. Die Zertifikatsdatenbank und die Datenbankprotokolle müssen sich jeweils auf lokalen NTFS-formatierten Laufwerken befinden.
+6. Der Anbieter erstellt zu diesem Zeitpunkt ein Schlüsselpaar und schreibt es in den Schlüsselspeicher des lokalen Computers.
 
-* Zu diesem Zeitpunkt wird eine Anforderungsdatei für Zertifikatsdienste erstellt, die auf einen Datenträger kopiert werden sollte. Der Manager für die Installation optionaler Komponenten installiert dann die Komponenten der Zertifikatsdienste, wofür Zugriff auf die Installationsmedien von Windows Server 2003 erforderlich ist.
+7. Geben Sie die Speicherorte von Zertifikatsdatenbank, Datenbankprotokollen und Konfiguration wie folgt an:
+    - Zertifikatsdatenbank: D:\CertLog
 
-* Klicken Sie auf **OK**, um die Warnung zu IIS zu bestätigen, und setzen Sie die Installation bis zum Abschluss fort. Der Setup-Assistent zeigt die Mitteilung an, dass ein Zertifikat von der übergeordneten Zertifizierungsstelle vor dem Fortfahren erforderlich ist.
+    - Zertifikatsdatenbankprotokoll: %windir%\System32\CertLog
+
+    * Freigegebener Ordner: Deaktiviert
+
+    Die Datenbank und die Protokolle der Zertifizierungsstelle sollten nach Möglichkeit auf verschiedenen physischen Volumes gespeichert werden, um Leistung und Stabilität zu steigern. Die Zertifikatsdatenbank und die Datenbankprotokolle müssen sich jeweils auf lokalen NTFS-formatierten Laufwerken befinden.
+
+8. Zu diesem Zeitpunkt wird eine Anforderungsdatei für Zertifikatsdienste erstellt, die auf einen Datenträger kopiert werden sollte. Der Manager für die Installation optionaler Komponenten installiert dann die Komponenten der Zertifikatsdienste, wofür Zugriff auf die Installationsmedien von Windows Server 2003 erforderlich ist.
+
+9. Klicken Sie auf **OK**, um die Warnung zu IIS zu bestätigen, und setzen Sie die Installation bis zum Abschluss fort. Der Setup-Assistent zeigt die Mitteilung an, dass ein Zertifikat von der übergeordneten Zertifizierungsstelle vor dem Fortfahren erforderlich ist.
 
 Übergeben der Zertifikatsanforderung an die Stammzertifizierungsstelle
 Zu diesem Zeitpunkt muss die Zertifikatsanforderung der ausstellenden Zertifizierungsstelle an die Stammzertifizierungsstelle übergeben werden, damit die Anforderung signiert und ein Zertifikat für die ausstellende Zertifizierungsstelle ausgestellt wird.
@@ -3425,49 +3510,53 @@ Aktualisieren der Zertifikatsinformationen für die ausstellende Zertifizierungs
 Das Zertifikat der Stammzertifizierungsstelle wurde bereits für den vertrauenswürdigen Stammspeicher von Active Directory veröffentlicht. Jetzt sollte überprüft werden, ob die ausstellende Zertifizierungsstelle diese Informationen heruntergeladen und das Zertifikat in ihrem eigenen Stammspeicher platziert hat.
 
 **So aktualisieren und überprüfen Sie die Zertifikatvertrauensinformationen auf der ausstellenden Zertifizierungsstelle**
-* Melden Sie sich an der ausstellenden Zertifizierungsstelle als lokaler Administrator oder unter einem gleichwertigen Konto an.
+1. Melden Sie sich an der ausstellenden Zertifizierungsstelle als lokaler Administrator oder unter einem gleichwertigen Konto an.
 
-* Führen Sie folgenden Befehl an einer Eingabeaufforderung aus:
-certutil –pulse
-Dieser Befehl zwingt die Zertifizierungsstelle zum Herunterladen der neuen vertrauenswürdigen Stamminformationen aus dem Verzeichnis sowie zum Einfügen des Zertifikats der Stammzertifizierungsstelle in den eigenen vertrauenswürdigen Stammspeicher. Obwohl dieser Schritt nicht notwendig ist, kann er vor dem Fortfahren zur Überprüfung herangezogen werden, ob die früheren Schritte zur Veröffentlichung erfolgreich waren.
+2. Führen Sie folgenden Befehl an einer Eingabeaufforderung aus:
 
-* Führen Sie „mmc.exe“ aus, und fügen Sie das Snap-In Zertifikate hinzu.
+    `certutil –pulse`
 
-* Wählen Sie **Computerkonto** als zu verwaltenden Zertifikatspeicher aus.
+    Dieser Befehl zwingt die Zertifizierungsstelle zum Herunterladen der neuen vertrauenswürdigen Stamminformationen aus dem Verzeichnis sowie zum Einfügen des Zertifikats der Stammzertifizierungsstelle in den eigenen vertrauenswürdigen Stammspeicher. Obwohl dieser Schritt nicht notwendig ist, kann er vor dem Fortfahren zur Überprüfung herangezogen werden, ob die früheren Schritte zur Veröffentlichung erfolgreich waren.
 
-* Vergewissern Sie sich, dass sich das Zertifikat der Stammzertifizierungsstelle im Ordner „Vertrauenswürdige Ursprungszertifizierungsagenturen“ befindet.
+3. Führen Sie „mmc.exe“ aus, und fügen Sie das Snap-In Zertifikate hinzu.
+
+4. Wählen Sie **Computerkonto** als zu verwaltenden Zertifikatspeicher aus.
+
+5. Vergewissern Sie sich, dass sich das Zertifikat der Stammzertifizierungsstelle im Ordner „Vertrauenswürdige Ursprungszertifizierungsagenturen“ befindet.
 
 Installieren des Zertifikats auf der ausstellenden Zertifizierungsstelle
 Die signierte Antwort der Stammzertifizierungsstelle wurde als PKCS#7-Zertifikatspaket erstellt und kann jetzt auf der ausstellenden Zertifizierungsstelle installiert werden. Um das Zertifikat der Zertifizierungsstelle im NTAuth-Speicher von Active Directory zu veröffentlichen, in dem die Zertifizierungsstelle als Unternehmenszertifizierungsstelle gekennzeichnet wird, muss das Zertifikat der Zertifizierungsstelle mit einem Konto installiert werden, das sowohl Mitglieder der Gruppe „Enterprise PKI Admins“ als auch der lokalen Administratorgruppe auf der ausstellenden Zertifizierungsstelle ist. Die zuerst genannte Gruppe hat die Rechte zum Installieren des Zertifikats der Zertifizierungsstelle im Verzeichnis, und die danach genannte Gruppe hat die Rechte zum Installieren des Zertifikats auf dem Server der Zertifizierungsstelle. Wenn das einfache Administrationsmodell verwendet wird, das zuvor erwähnt wurde, ist die Funktion „CA Admins“ bereits ein Mitglied in beiden Gruppen.
 
 **So installieren Sie das Zertifikat der ausstellenden Zertifizierungsstelle**
-* Melden Sie sich an der ausstellenden Zertifizierungsstelle mit einem Konto an, das sowohl ein Mitglied der Gruppe „Enterprise PKI Admins“ als auch der lokalen Administratorgruppe ist.
+1. Melden Sie sich an der ausstellenden Zertifizierungsstelle mit einem Konto an, das sowohl ein Mitglied der Gruppe „Enterprise PKI Admins“ als auch der lokalen Administratorgruppe ist.
 
-* Legen Sie den Datenträger ein, auf dem das signierte, von der Stammzertifizierungsstelle ausgestellte Zertifikat gespeichert wurde.
+2. Legen Sie den Datenträger ein, auf dem das signierte, von der Stammzertifizierungsstelle ausgestellte Zertifikat gespeichert wurde.
 
-* Wählen Sie im Menü **CA-Aufgaben** die Option **Zertifikat installieren** in der Verwaltungskonsole für die Zertifizierungsstelle aus, um das Zertifikat der ausstellenden Zertifizierungsstelle vom Datenträger zu installieren.
+3. Wählen Sie im Menü **CA-Aufgaben** die Option **Zertifikat installieren** in der Verwaltungskonsole für die Zertifizierungsstelle aus, um das Zertifikat der ausstellenden Zertifizierungsstelle vom Datenträger zu installieren.
 
-Die Zertifizierungsstelle sollte zu diesem Zeitpunkt gestartet werden.
+    Die Zertifizierungsstelle sollte zu diesem Zeitpunkt gestartet werden.
 
 Konfigurieren der Eigenschaften der ausstellenden Zertifizierungsstelle
 Mit dem folgenden Verfahren werden die umgebungsspezifischen Parameter konfiguriert, die während des Abschnitts zur Ermittlung der erforderlichen Informationen auf der ausstellenden Zertifizierungsstelle gesammelt wurden. Bevor Sie mit diesem Schritt fortfahren, müssen Sie sicherstellen, dass die in den vorherigen Schritten gesammelten unternehmensspezifischen Informationen in die Datei „C:\MSSScripts\pkiparams.vbs“ auf der Stammzertifizierungsstelle eingefügt wurden und dass diese Änderungen auch auf die ausstellende Zertifizierungsstelle übertragen wurden.
 
 **So konfigurieren Sie die Eigenschaften der ausstellenden Zertifizierungsstelle**
-* Melden Sie sich am Server der ausstellenden Zertifizierungsstelle als Mitglied der lokalen Administratorgruppe an.
+1. Melden Sie sich am Server der ausstellenden Zertifizierungsstelle als Mitglied der lokalen Administratorgruppe an.
 
-* Überprüfen Sie, ob die an „C:\MSSScripts\pkiparams.vbs“ vorgenommenen Änderungen den umgebungsspezifischen Einstellungen entsprechen, die zuvor in diesem Abschnitt beschrieben wurden.
+2. Überprüfen Sie, ob die an „C:\MSSScripts\pkiparams.vbs“ vorgenommenen Änderungen den umgebungsspezifischen Einstellungen entsprechen, die zuvor in diesem Abschnitt beschrieben wurden.
 
-* Führen Sie das folgende Skript aus:
-Cscript //job:IssCAConfig C:\MSSScripts\ca_setup.wsf
+3. Führen Sie das folgende Skript aus:
+
+    `Cscript //job:IssCAConfig C:\MSSScripts\ca_setup.wsf`
+
 Konfigurieren der Administratorfunktionen der ausstellenden Zertifizierungsstelle
 Damit die in diesem Handbuch beschriebenen Administratorfunktionen verwendet werden können, müssen sie Sicherheitsgruppen zugewiesen sein. Wie zuvor erwähnt, werden bei diesem Verfahren die detaillierten Funktionen implementiert, die mit Blick auf höchste Flexibilität und Trennung der Verantwortlichkeiten entworfen wurde. Dennoch muss festgehalten werden, dass auch die vereinfachten Funktionen für die meisten mittelgroßen Unternehmen ausreichend wären.
 
 **So konfigurieren Sie Funktionen für die ausstellende Zertifizierungsstelle**
-* Melden Sie sich am Server der ausstellenden Zertifizierungsstelle als Mitglied der lokalen Administratorgruppe an.
+1. Melden Sie sich am Server der ausstellenden Zertifizierungsstelle als Mitglied der lokalen Administratorgruppe an.
 
-* Klicken Sie in der Verwaltungskonsole für die Zertifizierungsstelle auf „Eigenschaften“, um die Eigenschaften der Zertifizierungsstelle zu bearbeiten.
+2. Klicken Sie in der Verwaltungskonsole für die Zertifizierungsstelle auf „Eigenschaften“, um die Eigenschaften der Zertifizierungsstelle zu bearbeiten.
 
-* Klicken Sie auf die Registerkarte **Sicherheit**, und fügen Sie die Domänensicherheitsgruppen hinzu, die in der folgenden Tabelle aufgeführt werden. Fügen Sie die gezeigten Berechtigungen für jede Gruppe hinzu.
+3. Klicken Sie auf die Registerkarte **Sicherheit**, und fügen Sie die Domänensicherheitsgruppen hinzu, die in der folgenden Tabelle aufgeführt werden. Fügen Sie die gezeigten Berechtigungen für jede Gruppe hinzu.
 
 **Tabelle 14. Berechtigungen für die ausstellende Zertifizierungsstelle**
 
@@ -3548,7 +3637,7 @@ Erlauben
 </table>
 
 
-* Die Gruppe „CA Auditors“ sollte zur lokalen Administratorgruppe hinzugefügt werden, obwohl diese Gruppe bereits durch die zuvor angewendete Sicherheitsrichtlinie teilweise definiert wurde.
+4. Die Gruppe „CA Auditors“ sollte zur lokalen Administratorgruppe hinzugefügt werden, obwohl diese Gruppe bereits durch die zuvor angewendete Sicherheitsrichtlinie teilweise definiert wurde.
 
 
 Veröffentlichen der Informationen zur ausstellenden Zertifizierungsstelle
@@ -3558,54 +3647,65 @@ Obwohl Zertifikate und CRLs automatisch von der ausstellenden Zertifizierungsste
 Die Zertifikate der Zertifizierungsstelle werden sehr selten aktualisiert. Daher können sie mit dem folgenden Prozess manuell für AIA veröffentlicht werden.
 
 **So veröffentlichen Sie das Zertifikat der ausstellenden Zertifizierungsstelle**
-* Melden Sie sich an der ausstellenden Zertifizierungsstelle mit einem Konto an, das über die Berechtigungen zum Schreiben in den veröffentlichten Webserverordner verfügt.
+1. Melden Sie sich an der ausstellenden Zertifizierungsstelle mit einem Konto an, das über die Berechtigungen zum Schreiben in den veröffentlichten Webserverordner verfügt.
 
-* Aktualisieren Sie den Parameter WWW_REMOTE_PUB_PATH in „C:\MSSScripts\PKIParams.vbs“, um diesen an den Zielpfad des Webserverordners anzupassen.
-* Wenn sich der Webserver auf einem Remoteserver befindet, müssen Sie sicherstellen, dass der Webserverordner freigegeben ist. Zudem müssen Sie diesen UNC-Pfad für den freigegebenen Ordner aufzeichnen.
+2. Aktualisieren Sie den Parameter WWW_REMOTE_PUB_PATH in „C:\MSSScripts\PKIParams.vbs“, um diesen an den Zielpfad des Webserverordners anzupassen.
+    
+    a. Wenn sich der Webserver auf einem Remoteserver befindet, müssen Sie sicherstellen, dass der Webserverordner freigegeben ist. Zudem müssen Sie diesen UNC-Pfad für den freigegebenen Ordner aufzeichnen.
 
-* Wenn sich der Webserver auf demselben Server wie die Zertifizierungsstelle befindet, müssen Sie den lokalen Pfad zu diesem Ordner aufzeichnen. (Standardmäßig lautet der lokale Pfad „C:\CAWWWPub“)
+    b. Wenn sich der Webserver auf demselben Server wie die Zertifizierungsstelle befindet, müssen Sie den lokalen Pfad zu diesem Ordner aufzeichnen. (Standardmäßig lautet der lokale Pfad „C:\CAWWWPub“)
 
+3. Führen Sie das folgende Skript aus, um das Zertifikat der Zertifizierungsstelle auf dem Webserver zu veröffentlichen:
 
-* Führen Sie das folgende Skript aus, um das Zertifikat der Zertifizierungsstelle auf dem Webserver zu veröffentlichen:
-Cscript //job:PublishIssCertsToIIS C:\MSSScripts\CA_Operations.wsf
-**Hinweis**   Bei diesem Verfahren wird vom Vorhandensein interner Webserver ausgegangen. Wenn die Zertifikate für einen mit dem Internet verbundenen Webserver herausgegeben werden sollen, sind zusätzliche Schritte erforderlich, da diese Lösung auf der Windows-Netzwerkdateifreigabe beruht, die normalerweise von Internetfirewalls blockiert werden.
+    ```
+    Cscript //job:PublishIssCertsToIIS 
+    C:\MSSScripts\CA_Operations.wsf
+    ```
+
+    **Hinweis**   Bei diesem Verfahren wird vom Vorhandensein interner Webserver ausgegangen. Wenn die Zertifikate für einen mit dem Internet verbundenen Webserver herausgegeben werden sollen, sind zusätzliche Schritte erforderlich, da diese Lösung auf der Windows-Netzwerkdateifreigabe beruht, die normalerweise von Internetfirewalls blockiert werden.
 
 
 CRLs werden häufiger als Zertifikate der Zertifizierungsstelle veröffentlicht. Daher ist eine automatisierte Methode zu deren Veröffentlichung auf dem Webserver erforderlich.
 
 **So automatisieren Sie die Veröffentlichung von CRLs**
-* Melden Sie sich an der ausstellenden Zertifizierungsstelle mit einem Konto an, das Mitglied der lokalen Administratoren ist.
+1. Melden Sie sich an der ausstellenden Zertifizierungsstelle mit einem Konto an, das Mitglied der lokalen Administratoren ist.
 
-* Vergewissern Sie sich, dass auf den Webserverordner von diesem Server zugegriffen werden kann.
+2. Vergewissern Sie sich, dass auf den Webserverordner von diesem Server zugegriffen werden kann.
 
-* Wenn sich der Webserver an einem Remotestandort befindet, benötigt die ausstellende Zertifizierungsstelle Schreibzugriff auf den Dateisystemordner (Änderungszugriff zulassen) und auf die Freigabe (Freigabezugriff zulassen). Wenn der Remotewebserver ein Mitglied der Gesamtstruktur ist, sollte die Gruppe „Zertifikatherausgeber“ der Domäne verwendet werden, um Zugriff zu erteilen. Dadurch wird sichergestellt, dass jede Unternehmenszertifizierungsstelle Zertifikate und CRLs veröffentlichen kann.
+3. Wenn sich der Webserver an einem Remotestandort befindet, benötigt die ausstellende Zertifizierungsstelle Schreibzugriff auf den Dateisystemordner (Änderungszugriff zulassen) und auf die Freigabe (Freigabezugriff zulassen). Wenn der Remotewebserver ein Mitglied der Gesamtstruktur ist, sollte die Gruppe „Zertifikatherausgeber“ der Domäne verwendet werden, um Zugriff zu erteilen. Dadurch wird sichergestellt, dass jede Unternehmenszertifizierungsstelle Zertifikate und CRLs veröffentlichen kann.
 
-* Erstellen Sie mit dem folgenden Befehl einen geplanten Auftrag, um die CRLs zu kopieren:
+4. Erstellen Sie mit dem folgenden Befehl einen geplanten Auftrag, um die CRLs zu kopieren:
 
-**Hinweis**   Einige Teile des folgenden Codeausschnitts werden nur aus Gründen der besseren Lesbarkeit in mehreren Zeilen angezeigt. Der Code sollte jedoch in einer einzelnen Zeile eingegeben werden.
-schtasks /creat /tn “Publish CRLs” /tr “cscript.exe //job:PublishIssCRLsToIIS C:\MSSScripts\CA_Operations.wsf” /sc Hourly /ru “System”
+    **Hinweis**   Einige Teile des folgenden Codeausschnitts werden nur aus Gründen der besseren Lesbarkeit in mehreren Zeilen angezeigt. Der Code sollte jedoch in einer einzelnen Zeile eingegeben werden.
+
+    ```
+    schtasks /creat /tn “Publish CRLs” /tr “cscript.exe //job:PublishIssCRLsToIIS C:\
+    MSSScripts\CA_Operations.wsf” /sc Hourly /ru “System”
+    ```
+
 Entfernen von unerwünschten Vorlagen der ausstellenden Zertifizierungsstelle
 Es wird allgemein empfohlen, Vorlagen zu entfernen, die nicht verwendeten Zertifikattypen entsprechen, damit diese nicht versehentlich veröffentlicht werden können. Diese Vorlagen können bei Bedarf auf einfache Weise neu erstellt werden, da sie immer im Verzeichnis verfügbar sind.
 
 **So entfernen Sie unerwünschte Vorlagen aus der ausstellenden Zertifizierungsstelle**
-* Melden Sie sich als Mitglied der Domänengruppe „CA Admins“ an.
+1. Melden Sie sich als Mitglied der Domänengruppe „CA Admins“ an.
 
-* Wählen Sie den Container „Zertifikatvorlagen“ in der Verwaltungskonsole für die Zertifizierungsstelle aus.
+2. Wählen Sie den Container „Zertifikatvorlagen“ in der Verwaltungskonsole für die Zertifizierungsstelle aus.
 
-* Entfernen Sie die folgenden Vorlagentypen:
-* EFS-Wiederherstellungs-Agent
+3. Entfernen Sie die folgenden Vorlagentypen:
 
-* Basis-EFS
+    - EFS-Wiederherstellungs-Agent
 
-* Webserver
+    - Basis-EFS
 
-* Computer
+    - Webserver
 
-* Benutzer
+    - Computer
 
-* Untergeordnete Zertifizierungsstelle
+    - Benutzer
 
-* Administrator
+    - Untergeordnete Zertifizierungsstelle
+
+    - Administrator
 
 
 
@@ -3934,17 +4034,20 @@ Installieren der Konfigurationsskripts
 Zahlreiche Unterstützungsskripts wurden mit dieser Lösung bereitgestellt, um die Implementierung zu vereinfachen. Diese Skripts müssen auf jedem Server installiert werden, bevor fortgefahren wird. Sie dürfen nicht gelöscht werden, selbst wenn die in diesem Handbuch beschriebenen Schritte abgeschlossen wurden.
 
 **So installieren Sie die Setupskripts**
-* Erstellen Sie einen Ordner mit dem Namen „C:\MSSScripts“.
+1. Erstellen Sie einen Ordner mit dem Namen „C:\MSSScripts“.
 
-* Kopieren Sie die Skripts von der Verteilerquelle in den oben erstellten Ordner.
+2. Kopieren Sie die Skripts von der Verteilerquelle in den oben erstellten Ordner.
 
 Zusätzliche Anforderungen an die Serversoftware
 Zusätzlich zum Serverbetriebssystem und allen anderen Anwendungen, die gemäß einer festgelegten Richtlinie zur Serverkonfiguration erforderlich sein könnten, müssen die Programmdatei CAPICOM 2.1 und die unterstützende DLL-Bibliothek installiert werden, um die von diesem Handbuch bereitgestellten Skripts zu unterstützen.
 
 Weitere Informationen zu [CAPICOM](http://www.microsoft.com/downloads/details.aspx?familyid=860ee43a-a843-462f-abb5-ff88ea5896f6&amp;displaylang=en) einschließlich des Links für den Download und der Installationsanweisungen finden Sie unter www.microsoft.com/downloads/details.aspx?FamilyID=860ee43a-a843-462f-abb5-ff88ea5896f6&amp;DisplayLang=en
+
 Konfigurieren der administrativen Gruppen für IAS
 Der folgende Skriptbefehl erstellt die Sicherheitsgruppen „IAS Admins“ und „IAS Security Auditors“:
-Cscript //job:CreateIASGroups C:\MSSScripts\IAS_Tools.wsf
+
+    `Cscript //job:CreateIASGroups C:\MSSScripts\IAS_Tools.wsf`
+
 In Umgebungen mit mehreren Domänen sollten diese Gruppen in derselben Domäne erstellt werden, in der sich die IAS-Server befinden.
 
 Nach dem Erstellen der erforderlichen Gruppen müssen sie konfiguriert werden, um IAS-Konfigurationsaufgaben auszuführen. Gehen Sie hierzu wie folgt vor:
@@ -3962,21 +4065,28 @@ Installieren und Konfigurieren von IAS
 Der folgende Abschnitt beschreibt die Installation von IAS auf Servern. Es ist wichtig, dass jeder Installations- und Konfigurationsschritt auf jedem IAS-Server ausgeführt wird.
 
 Die Installation von IAS erfolgt durch Auswählen der Komponente „Netzwerkdienste – Internetauthentifizierungsdienst“ im Windows Manager für die Installation optionaler Komponenten (zugänglich über „Windows-Komponenten hinzufügen/entfernen“ in der Systemsteuerung). Zum Vereinfachen dieses Prozesses verwenden Sie das folgende Skript:
-sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_AddIAS.txtRegistrieren von IAS in Active Directory
+
+`sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_AddIAS.txt`
+
+Registrieren von IAS in Active Directory
 Die IAS-Server müssen in jeder Domäne registriert werden. Hierzu muss das Computerkonto eines jeden IAS-Servers zu einem Mitglied der Sicherheitsgruppe „RAS and IAS Servers“ innerhalb jeder Domäne gemacht werden, die für die Authentifizierung erforderlich sind. Die Mitgliedschaft in diesen Gruppen stellt sicher, dass die IAS-Server über die Berechtigung zum Lesen der Remotezugriffseigenschaften aller Benutzer- und Computerkonten in den Domänen verfügen.
 
 **So registrieren Sie IAS in Active Directory**
-* Melden Sie sich an jedem Server mit einem Konto an, das über die Domänenadministratorberechtigung für die Domänen verfügt, in denen der IAS-Server registriert werden muss.
+1. Melden Sie sich an jedem Server mit einem Konto an, das über die Domänenadministratorberechtigung für die Domänen verfügt, in denen der IAS-Server registriert werden muss.
 
-* Führen Sie für die Standarddomäne den folgenden Befehl an einer Eingabeaufforderung aus:
+2. Führen Sie für die Standarddomäne den folgenden Befehl an einer Eingabeaufforderung aus:
 netsh ras add registeredserver
-* Führen Sie für andere Domänen als die Standarddomäne den folgenden Befehl an einer Eingabeaufforderung aus:
-netsh ras add registeredserver domain = DomainName
-**Hinweis**   Als Alternative kann das Computerobjekt „IAS Server“ über das MMC-Snap-In für Active Directory-Benutzer und -Computer zu den Sicherheitsgruppen „RAS and IAS Servers“ hinzugefügt werden.
+3. Führen Sie für andere Domänen als die Standarddomäne den folgenden Befehl an einer Eingabeaufforderung aus:
+
+    `netsh ras add registeredserver domain = DomainName`
+
+    **Hinweis**   Als Alternative kann das Computerobjekt „IAS Server“ über das MMC-Snap-In für Active Directory-Benutzer und -Computer zu den Sicherheitsgruppen „RAS and IAS Servers“ hinzugefügt werden.
 
 Erstellen und Sichern von IAS-Datenverzeichnissen
 Es gibt einige Verzeichnisanforderungen für das Speichern von Konfigurations- und Protokolldaten auf IAS-Servern. Um den Konfigurationsprozess zum Erstellen und Sichern dieser Verzeichnisse zu vereinfachen, kann die folgende Batchdatei an der Eingabeaufforderung verwendet werden:
-C:\MSSScripts\IAS_Data.bat
+
+`C:\MSSScripts\IAS_Data.bat`
+
 **Hinweis**   Möglicherweise ist es erforderlich, die Einträge für %*DomainName*% zu bearbeiten und zu ersetzen, um dem NETBIOS-Domänennamen der spezifischen Umgebung in dieser Batchdatei Rechnung zu tragen, bevor sie ausgeführt wird.
 
 Konfigurieren des primären IAS-Servers
@@ -3986,11 +4096,11 @@ Protokollieren von Authentifizierungs- und Kontoführungsanforderungen
 IAS führt in der Standardeinstellung die Protokollierung von RADIUS-Authentifizierungs- und Kontoführungsanforderungen aus. Beides sollte jedoch aktiviert werden, um sicherzustellen, dass Sicherheitsereignisse aufgezeichnet werden und verwendet werden können, falls eine Untersuchung erforderlich wird.
 
 **So konfigurieren Sie die Protokollierung von Authentifizierungs- und Kontoführungsanforderungen**
-* Wählen Sie im MMC-Snap-In für den Internetauthentifizierungsdienst die Einstellung „RAS-Protokollierung“ aus, und zeigen Sie dann die Eigenschaften der Protokollierungsmethode „Lokale Datei“ an.
+1. Wählen Sie im MMC-Snap-In für den Internetauthentifizierungsdienst die Einstellung „RAS-Protokollierung“ aus, und zeigen Sie dann die Eigenschaften der Protokollierungsmethode „Lokale Datei“ an.
 
-* Wählen Sie Kontoführungsanforderungen und Authentifizierungsanforderungen aus.
+2. Wählen Sie Kontoführungsanforderungen und Authentifizierungsanforderungen aus.
 
-* Vergewissern Sie sich, dass für das Protokolldateiverzeichnis die Einstellung „D:\IASLogs“ sowie ein datenbankkompatibles Format ausgewählt wurden (auf diese Weise können die Protokolle direkt in Datenbanken wie Microsoft SQL Server™ importiert werden).
+3. Vergewissern Sie sich, dass für das Protokolldateiverzeichnis die Einstellung „D:\IASLogs“ sowie ein datenbankkompatibles Format ausgewählt wurden (auf diese Weise können die Protokolle direkt in Datenbanken wie Microsoft SQL Server™ importiert werden).
 
 
 WLAN 802.1X-Authentifizierung
@@ -4412,7 +4522,9 @@ Client-Computer drahtlose Konfiguration
 
 Erstellen der erforderlichen Active Directory-Gruppen für WLAN-Zugriff
 Das folgende Skript muss mit einem Konto ausgeführt werden, das über die Berechtigung zum Erstellen von Active Directory-Sicherheitsgruppen verfügt, da es die erforderlichen Gruppen zum Implementieren der Registrierung für drahtlose Authentifizierungszertifikate, der RAS-Richtlinie und der Gruppenrichtlinie für drahtlose Netzwerke erstellt:
-Cscript //job:CreateWirelessGroups C:\MSSScripts\wl_tools.wsf
+
+`Cscript //job:CreateWirelessGroups C:\MSSScripts\wl_tools.wsf`
+
 **Hinweis**   In Gesamtstrukturumgebungen mit mehreren Domänen sollten die Gruppen in derselben Domäne wie die Drahtlosbenutzer erstellt werden.
 Überprüfen der DHCP-Einstellungen
 Um drahtlose Netzwerke zu unterstützen, sollten die DHCP-Server mit spezifischen Bereichen für die Drahtlostechnologie und einer Leasedauer für IP-Adressen konfiguriert werden, die kürzer als bei anderen drahtgebundenen Clients sind. Klären Sie dies mit den DHCP-Serveradministratoren, um sicherzustellen, dass DHCP ordnungsgemäß konfiguriert wurde. Weitere Informationen zur DHCP-Planung für WLANs finden Sie im [Windows Server 2003-Bereitstellungskit](http://www.microsoft.com/windowsserver2003/techinfo/reskit/deploykit.mspx) unter www.microsoft.com/windowsserver2003/techinfo/reskit/deploykit.mspx.
@@ -4430,79 +4542,79 @@ Erstellen einer Zertifikatvorlage für die IAS-Serverauthentifizierung
 IAS-Server benötigen ein Serverzertifikat zum Authentifizieren von Computern für Clients während des EAP-TLS-Protokollhandshakes. Der Administrator der Zertifikatsdienste muss die folgenden Schritte ausführen, um eine Zertifikatvorlage für die Serverauthentifizierung für die Verwendung durch die IAS-Server zu erstellen.
 
 **So erstellen Sie eine Zertifikatvorlage für die Serverauthentifizierung**
-* Melden Sie sich an der ausstellenden Zertifizierungsstelle mit einem Konto der administrativen Gruppe der Zertifizierungsstelle an, und führen Sie die MMC für Zertifikatvorlagen aus.
+1. Melden Sie sich an der ausstellenden Zertifizierungsstelle mit einem Konto der administrativen Gruppe der Zertifizierungsstelle an, und führen Sie die MMC für Zertifikatvorlagen aus.
 
-* Erstellen Sie ein Duplikat der RAS- und IAS-Server-Zertifikatvorlage. Geben Sie auf der Registerkarte **Allgemein** der Eigenschaften für die neue Vorlage im Feld **Vorlagenanzeigename** den Namen **RAS und IAS Server Authentication** ein.
+2. Erstellen Sie ein Duplikat der RAS- und IAS-Server-Zertifikatvorlage. Geben Sie auf der Registerkarte **Allgemein** der Eigenschaften für die neue Vorlage im Feld **Vorlagenanzeigename** den Namen **RAS und IAS Server Authentication** ein.
 
-* Vergewissern Sie sich auf der Registerkarte **Erweiterungen**, dass die Ausstellungsrichtlinien nur die Serverauthentifizierung (OID 1.3.6.1.5.5.7.3.1) umfassen.
+3. Vergewissern Sie sich auf der Registerkarte **Erweiterungen**, dass die Ausstellungsrichtlinien nur die Serverauthentifizierung (OID 1.3.6.1.5.5.7.3.1) umfassen.
 
-* Bearbeiten Sie ebenfalls auf der Registerkarte **Erweiterungen** die Ausstellungsrichtlinien zum Hinzufügen der Richtlinie „Mittlere Zusicherung“.
+4. Bearbeiten Sie ebenfalls auf der Registerkarte **Erweiterungen** die Ausstellungsrichtlinien zum Hinzufügen der Richtlinie „Mittlere Zusicherung“.
 
-* Wählen Sie auf der Registerkarte **Antragstellername** die Option **Aus diesen Informationen in Active Directory erstellen** aus. Stellen Sie auch sicher, dass für **Format des Antragstellernamen** die Einstellung **Allgemeiner Name** ausgewählt wurde und dass nur **DNS-Name** unter **Informationen im alternativen Antragstellernamen****einbeziehen** ausgewählt wurde.
+5. Wählen Sie auf der Registerkarte **Antragstellername** die Option **Aus diesen Informationen in Active Directory erstellen** aus. Stellen Sie auch sicher, dass für **Format des Antragstellernamen** die Einstellung **Allgemeiner Name** ausgewählt wurde und dass nur **DNS-Name** unter **Informationen im alternativen Antragstellernamen****einbeziehen** ausgewählt wurde.
 
-* Klicken Sie auf der Registerkarte **Anforderungsverarbeitung** auf die Schaltfläche **Kryptografiedienstanbieter**, stellen Sie sicher, dass **Einen der folgenden Kryptografiedienstanbieter verwenden** ausgewählt wurde und dass ausschließlich **Microsoft RSA SChannel Cryptographic Provider** ausgewählt ist.
+6. Klicken Sie auf der Registerkarte **Anforderungsverarbeitung** auf die Schaltfläche **Kryptografiedienstanbieter**, stellen Sie sicher, dass **Einen der folgenden Kryptografiedienstanbieter verwenden** ausgewählt wurde und dass ausschließlich **Microsoft RSA SChannel Cryptographic Provider** ausgewählt ist.
 
-* Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe **AutoEnroll RAS und IAS Server Authentication Certificate** mit den Berechtigungen Lesen, Registrieren und Autoregistrierung hinzu, und entfernen Sie alle anderen Gruppen, die möglicherweise Berechtigungen zum manuellen oder automatischen Registrieren dieser Zertifikatvorlage haben.
+7. Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe **AutoEnroll RAS und IAS Server Authentication Certificate** mit den Berechtigungen Lesen, Registrieren und Autoregistrierung hinzu, und entfernen Sie alle anderen Gruppen, die möglicherweise Berechtigungen zum manuellen oder automatischen Registrieren dieser Zertifikatvorlage haben.
 
-**Hinweis**   Es könnte vorteilhaft sein, für dieses Zertifikat die Genehmigung durch die Zertifikatsverwaltung zu erfordern, da es einen relativ hohen Sicherheitswert aufweist. Durch Aktivieren dieses Werts wird dazu beigetragen, dass ein riskanter IAS-Server nicht registriert wird, sondern manuelle Genehmigung erfordert, nachdem die Zertifikate ausgestellt und automatisch vom IAS-Server gesendet wurden.
+    **Hinweis**   Es könnte vorteilhaft sein, für dieses Zertifikat die Genehmigung durch die Zertifikatsverwaltung zu erfordern, da es einen relativ hohen Sicherheitswert aufweist. Durch Aktivieren dieses Werts wird dazu beigetragen, dass ein riskanter IAS-Server nicht registriert wird, sondern manuelle Genehmigung erfordert, nachdem die Zertifikate ausgestellt und automatisch vom IAS-Server gesendet wurden.
 
 Erstellen einer Zertifikatvorlage für die Benutzerauthentifizierung
 Endbenutzer benötigen Benutzerzertifikate für die Authentifizierung am IAS-Server während des EAP-TLS-Handshakeprozesses. Wiederum sollten die folgenden Schritte von einem Konto aus durchgeführt werden, das über Administratorrechte für Zertifikatsdienste verfügt.
 
 **So erstellen Sie eine Zertifikatvorlage für die Benutzerauthentifizierung**
-* Starten Sie das MMC-Snap-In für Zertifikatvorlagen auf dem Server für die ausstellende Zertifizierungsstelle.
+1. Starten Sie das MMC-Snap-In für Zertifikatvorlagen auf dem Server für die ausstellende Zertifizierungsstelle.
 
-* Erstellen Sie ein Duplikat der Vorlage „Authentifizierte Sitzung“, und geben Sie auf der Registerkarte **Allgemein** der neuen Vorlage im Feld **Vorlagenanzeigename** den Namen **Clientauthentifizierung – Benutzer** ein.
+2. Erstellen Sie ein Duplikat der Vorlage „Authentifizierte Sitzung“, und geben Sie auf der Registerkarte **Allgemein** der neuen Vorlage im Feld **Vorlagenanzeigename** den Namen **Clientauthentifizierung – Benutzer** ein.
 
-* Klicken Sie auf der Registerkarte **Anforderungsverarbeitung** auf die Schaltfläche **Kryptografiedienstanbieter**, und deaktivieren Sie die Kontrollkästchen **Microsoft Base DSS** **Cryptographic Provider.**  
+3. Klicken Sie auf der Registerkarte **Anforderungsverarbeitung** auf die Schaltfläche **Kryptografiedienstanbieter**, und deaktivieren Sie die Kontrollkästchen **Microsoft Base DSS** **Cryptographic Provider.**  
 
-* Stellen Sie sicher, dass auf der Registerkarte **Antragstellername** die Einstellung **Aus diesen Informationen in Active Directory erstellen** ausgewählt ist. Wählen Sie unter **Format des Antragstellernamen** die Einstellung **Allgemeiner Name** aus. Vergewissern Sie sich, dass **Benutzerprinzipalname** **(UPN)** als einzige Option unter **Informationen im alternativen Antragstellernamen einbeziehen** ausgewählt ist.
+4. Stellen Sie sicher, dass auf der Registerkarte **Antragstellername** die Einstellung **Aus diesen Informationen in Active Directory erstellen** ausgewählt ist. Wählen Sie unter **Format des Antragstellernamen** die Einstellung **Allgemeiner Name** aus. Vergewissern Sie sich, dass **Benutzerprinzipalname** **(UPN)** als einzige Option unter **Informationen im alternativen Antragstellernamen einbeziehen** ausgewählt ist.
 
-* Stellen Sie sicher, dass auf der Registerkarte **Erweiterungen** nur **Clientauthentifizierung (OID 1.3.6.1.5.5.7.3.2)** in **Anwendungsrichtlinien** enthalten ist. Bearbeiten Sie auch die Ausstellungsrichtlinien, und fügen Sie die Richtlinie **Niedrige Zusicherung** hinzu.
+5. Stellen Sie sicher, dass auf der Registerkarte **Erweiterungen** nur **Clientauthentifizierung (OID 1.3.6.1.5.5.7.3.2)** in **Anwendungsrichtlinien** enthalten ist. Bearbeiten Sie auch die Ausstellungsrichtlinien, und fügen Sie die Richtlinie **Niedrige Zusicherung** hinzu.
 
-* Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe **AutoEnroll Client Authentication – User Certificate** mit den Berechtigungen Lesen, Registrieren und Autoregistrierung hinzu. Außerdem sollten alle anderen Gruppen entfernt werden, die über Berechtigungen zum Registrieren oder automatischen Registrieren verfügen.
+6. Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe **AutoEnroll Client Authentication – User Certificate** mit den Berechtigungen Lesen, Registrieren und Autoregistrierung hinzu. Außerdem sollten alle anderen Gruppen entfernt werden, die über Berechtigungen zum Registrieren oder automatischen Registrieren verfügen.
 
 Erstellen einer Zertifikatvorlage für die Computerauthentifizierung
 Dieses Zertifikat wird von Computern beim Authentifizieren mit dem IAS-Server während des EAP-TLS-Handshakes verwendet. Wieder sollte der Administrator für Zertifikatsdienste die folgenden Aufgaben ausführen.
 
 **So erstellen Sie eine Zertifikatvorlage für die Computerauthentifizierung**
-* Starten Sie das MMC-Snap-In für Zertifikatvorlagen auf der ausstellenden Zertifizierungsstelle.
+1. Starten Sie das MMC-Snap-In für Zertifikatvorlagen auf der ausstellenden Zertifizierungsstelle.
 
-* Erstellen Sie ein Duplikat der Vorlage „Arbeitsstationsauthentifizierung“. Geben Sie auf der Registerkarte **Allgemein** der neuen Vorlage im Feld **Vorlagenanzeigename** den Namen **Clientauthentifizierung Computer** ein.
+2. Erstellen Sie ein Duplikat der Vorlage „Arbeitsstationsauthentifizierung“. Geben Sie auf der Registerkarte **Allgemein** der neuen Vorlage im Feld **Vorlagenanzeigename** den Namen **Clientauthentifizierung Computer** ein.
 
-* Stellen Sie sicher, dass auf der Registerkarte **Antragstellername** die Einstellung **Aus diesen Informationen in Active Directory erstellen** ausgewählt ist. Wählen Sie unter **Format des Antragstellernamen** die Einstellung **Allgemeiner Name** aus. Vergewissern Sie sich, dass **DNS-Name** als einzige Option unter **Informationen im alternativen Antragstellernamen einbeziehen** ausgewählt ist.
+3. Stellen Sie sicher, dass auf der Registerkarte **Antragstellername** die Einstellung **Aus diesen Informationen in Active Directory erstellen** ausgewählt ist. Wählen Sie unter **Format des Antragstellernamen** die Einstellung **Allgemeiner Name** aus. Vergewissern Sie sich, dass **DNS-Name** als einzige Option unter **Informationen im alternativen Antragstellernamen einbeziehen** ausgewählt ist.
 
-* Bearbeiten Sie auf der Registerkarte **Erweiterungen** die Anwendungsrichtlinien, und stellen Sie sicher, dass nur **Clientauthentifizierung (OID 1.3.6.1.5.5.7.3.2)** enthalten ist. Bearbeiten Sie auch die **Ausstellungsrichtlinien**, und fügen Sie die Richtlinie **Niedrige Zusicherung** hinzu.
+4. Bearbeiten Sie auf der Registerkarte **Erweiterungen** die Anwendungsrichtlinien, und stellen Sie sicher, dass nur **Clientauthentifizierung (OID 1.3.6.1.5.5.7.3.2)** enthalten ist. Bearbeiten Sie auch die **Ausstellungsrichtlinien**, und fügen Sie die Richtlinie **Niedrige Zusicherung** hinzu.
 
-* Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe **AutoEnroll Client Authentication – Computer Certificate** mit den Berechtigungen Lesen, Registrieren und Autoregistrierung hinzu. Alle anderen Gruppen mit Berechtigungen sollten entfernt werden.
+5. Fügen Sie auf der Registerkarte **Sicherheit** die Sicherheitsgruppe **AutoEnroll Client Authentication – Computer Certificate** mit den Berechtigungen Lesen, Registrieren und Autoregistrierung hinzu. Alle anderen Gruppen mit Berechtigungen sollten entfernt werden.
 
 Hinzufügen von WLAN-Authentifizierungszertifikaten zur Zertifizierungsstelle
 Nachdem nun die Zertifikatvorlagen konfiguriert wurden, müssen sie zur Zertifizierungsstelle hinzugefügt werden, um die Registrierung zu ermöglichen. Hierzu muss der Administrator für die Zertifikatsdienste die folgenden Aufgaben ausführen.
 
 **So fügen Sie Zertifikatvorlagen zur Zertifizierungsstelle hinzu**
 * Starten Sie auf der ausstellenden Zertifizierungsstelle das MMC-Snap-In für die Zertifizierungsstelle, und klicken Sie mit der rechten Maustaste auf den Ordner **Zertifikatvorlagen.**   Klicken Sie auf **Neu**, und klicken Sie dann auf **Auszustellende Zertifikatvorlage.**   Wählen Sie die folgenden Zertifikate aus, und klicken Sie dann auf **OK**:
-* Clientauthentifizierung Computer
+    - Clientauthentifizierung Computer
 
-* Clientauthentifizierung Benutzer
+    - Clientauthentifizierung Benutzer
 
-* RAS und IAS Server Authentication
+    - RAS und IAS Server Authentication
 
 
 Registrieren für das IAS-Serverzertifikat
 Das Bereitstellen der Serverauthentifizierungszertifikate für IAS-Server ist ein relativ einfacher und automatisierter Vorgang.
 
 **So registrieren Sie einen IAS-Server**
-* Starten Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer, und fügen Sie die IAS-Computerkonten zur Sicherheitsgruppe „AutoEnroll RAS und IAS Server Authentication Certificate“ hinzu.
+1. Starten Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer, und fügen Sie die IAS-Computerkonten zur Sicherheitsgruppe „AutoEnroll RAS und IAS Server Authentication Certificate“ hinzu.
 
-* Starten Sie den IAS-Server neu, und melden Sie sich als Mitglied der lokalen Administratorgruppe an.
+2. Starten Sie den IAS-Server neu, und melden Sie sich als Mitglied der lokalen Administratorgruppe an.
 
-* Führen Sie an einer Eingabeaufforderung GPUPDATE /force aus.
+3. Führen Sie an einer Eingabeaufforderung GPUPDATE /force aus.
 
-* Öffnen Sie die MMC, und fügen Sie dann das Snap-In für Zertifikate hinzu. Wählen Sie bei der entsprechenden Abfrage die Option „Computerkonto“ aus, und wählen Sie dann „Lokaler Computer“ aus.
+4. Öffnen Sie die MMC, und fügen Sie dann das Snap-In für Zertifikate hinzu. Wählen Sie bei der entsprechenden Abfrage die Option „Computerkonto“ aus, und wählen Sie dann „Lokaler Computer“ aus.
 
-* Wählen Sie in der Konsolenstruktur **Zertifikate (Lokaler Computer)** aus, klicken Sie im Menü **Aktion** auf **Alle Tasks**, und klicken Sie dann auf **Zertifikate automatisch registrieren.**  
+5. Wählen Sie in der Konsolenstruktur **Zertifikate (Lokaler Computer)** aus, klicken Sie im Menü **Aktion** auf **Alle Tasks**, und klicken Sie dann auf **Zertifikate automatisch registrieren.**  
 
-**Hinweis**   Wenn die Option zum Erfordern der Genehmigung durch die Zertifikatsverwaltung aktiviert war, muss der Administrator der Zertifizierungsstelle die Gültigkeit dieser Anforderung überprüfen und das Zertifikat ausstellen.
+    **Hinweis**   Wenn die Option zum Erfordern der Genehmigung durch die Zertifikatsverwaltung aktiviert war, muss der Administrator der Zertifizierungsstelle die Gültigkeit dieser Anforderung überprüfen und das Zertifikat ausstellen.
 
 Hinzufügen von Benutzern und Computern zu Gruppen für die Autoregistrierung
 Benutzer und Computer, die WLAN-Konnektivität verwenden möchten, benötigen Benutzer- und Computerzertifikate, bevor sie eine Authentifizierung am Netzwerk über eine drahtlose Verbindung ausführen und auf das Netzwerk zugreifen können. Der Prozess zum Ausstellen und Erneuern dieser Zertifikate ist für den Endbenutzer transparent, da zuvor Autoregistrierungsgruppen eingerichtet wurden.
@@ -4518,38 +4630,39 @@ Erstellen einer IAS RAS-Richtlinie für WLANs
 Verwenden Sie das MMC-Snap-In für den Internetauthentifizierungsdienst auf dem primären IAS-Server, um IAS wie folgt mit einer RAS-Richtlinie zu konfigurieren.
 
 **So erstellen Sie eine RAS-Richtlinie**
-* Klicken Sie mit der rechten Maustaste auf den Ordner **RAS-Richtlinien**, und klicken Sie dann auf **Neue RAS-Richtlinie erstellen.**  
+1. Klicken Sie mit der rechten Maustaste auf den Ordner **RAS-Richtlinien**, und klicken Sie dann auf **Neue RAS-Richtlinie erstellen.**  
 
-* Nennen Sie die neue Richtlinie **Drahtlosen Zugriff zulassen**, und legen Sie im Assistenten die Einstellung **Typische Richtlinie für ein allgemeines Szenario** fest.
+2. Nennen Sie die neue Richtlinie **Drahtlosen Zugriff zulassen**, und legen Sie im Assistenten die Einstellung **Typische Richtlinie für ein allgemeines Szenario** fest.
 
-* Wählen Sie als Zugriffsmethode **Drahtlos** aus.
+3. Wählen Sie als Zugriffsmethode **Drahtlos** aus.
 
-* Gewähren Sie Zugriff basierend auf Gruppen, und verwenden Sie die Sicherheitsgruppe „RAS-Richtlinie Drahtloser Zugriff“.
+4. Gewähren Sie Zugriff basierend auf Gruppen, und verwenden Sie die Sicherheitsgruppe „RAS-Richtlinie Drahtloser Zugriff“.
 
-* Wählen Sie **Smartcard oder anderes Zertifikat für das Extensible Authentication Protocol (EAP)**, und wählen Sie dann das für IAS installierte Serverauthentifizierungszertifikat aus.
+5. Wählen Sie **Smartcard oder anderes Zertifikat für das Extensible Authentication Protocol (EAP)**, und wählen Sie dann das für IAS installierte Serverauthentifizierungszertifikat aus.
 
-* Beenden Sie den Assistenten.
+6. Beenden Sie den Assistenten.
 
-* Öffnen Sie die Eigenschaften der Richtlinie „Drahtlosen Zugriff zulassen“, und klicken Sie dann auf **Profil bearbeiten.**  
+7. Öffnen Sie die Eigenschaften der Richtlinie „Drahtlosen Zugriff zulassen“, und klicken Sie dann auf **Profil bearbeiten.**  
 
-* Fügen Sie auf der Registerkarte **Erweitert** das Attribut **Ignore-User-Dialin-Properties** hinzu, legen Sie dafür den Wert **Wahr** fest, und fügen Sie dann das Attribut **Termination-Action** hinzu, und legen Sie dafür den Wert **RADIUS-Anforderung** fest.
+8. Fügen Sie auf der Registerkarte **Erweitert** das Attribut **Ignore-User-Dialin-Properties** hinzu, legen Sie dafür den Wert **Wahr** fest, und fügen Sie dann das Attribut **Termination-Action** hinzu, und legen Sie dafür den Wert **RADIUS-Anforderung** fest.
 
-**Hinweis**   Die Richtlinie „Drahtlosen Zugriff zulassen“ kann gleichzeitig mit anderen, von Benutzern erstellten Richtlinien oder den standardmäßigen Zugriffsrichtlinien verwendet werden. Die standardmäßige RAS-Richtlinie muss jedoch erst nach der Richtlinie „Drahtlosen Zugriff zulassen“ im Ordner mit den RAS-Richtlinien aufgeführt werden, um ordnungsgemäß zu funktionieren.
+    **Hinweis**   Die Richtlinie „Drahtlosen Zugriff zulassen“ kann gleichzeitig mit anderen, von Benutzern erstellten Richtlinien oder den standardmäßigen Zugriffsrichtlinien verwendet werden. Die standardmäßige RAS-Richtlinie muss jedoch erst nach der Richtlinie „Drahtlosen Zugriff zulassen“ im Ordner mit den RAS-Richtlinien aufgeführt werden, um ordnungsgemäß zu funktionieren.
 
 Hinzufügen von RADIUS-Clients zu IAS
 Drahtlose Zugriffspunkte und RADIUS-Proxys müssen zu IAS als RADIUS-Clients hinzugefügt werden, damit sie die Authentifizierungs- und Kontoführungsdienste über das RADIUS-Protokoll verwenden können.
 
 **So fügen Sie RADIUS-Clients zu IAS hinzu**
-* Starten Sie das MMC-Snap-In für den Internetauthentifizierungsserver.
+1. Starten Sie das MMC-Snap-In für den Internetauthentifizierungsserver.
 
-* Klicken Sie mit der rechten Maustaste auf den Ordner **RADIUS-Clients**, und klicken Sie dann auf **Neuer RADIUS-Client.**  
+2. Klicken Sie mit der rechten Maustaste auf den Ordner **RADIUS-Clients**, und klicken Sie dann auf **Neuer RADIUS-Client.**  
 
-* Geben Sie den Anzeigenamen und die IP-Adresse des drahtlosen Zugriffspunkts ein.
+3. Geben Sie den Anzeigenamen und die IP-Adresse des drahtlosen Zugriffspunkts ein.
 
-* Wählen Sie „RADIUS Standard“ als Herstellerattribut des Clients, und geben Sie den gemeinsamen geheimen Schlüssel für den spezifischen drahtlosen Zugriffspunkt ein. Wählen Sie dann das Attribut **Anforderung muss das Attribut „Message Authenticator“ enthalten** aus.
+4. Wählen Sie „RADIUS Standard“ als Herstellerattribut des Clients, und geben Sie den gemeinsamen geheimen Schlüssel für den spezifischen drahtlosen Zugriffspunkt ein. Wählen Sie dann das Attribut **Anforderung muss das Attribut „Message Authenticator“ enthalten** aus.
 
-**Hinweis**   Dieser Prozess sollte auf jedem IAS-Server wiederholt werden, um sicherzustellen, dass jeder Server über eine eindeutige Sammlung von drahtlosen Zugriffspunktclients und gemeinsamen geheimen Schlüsseln verfügt. Um diesen Prozess zu vereinfachen, enthält dieses Handbuch ein Skript, das zum Erzeugen gemeinsamer geheimer Schlüssel verwendet werden kann. Diese können dann an einem sicheren Ort gespeichert werden, falls eine Systemwiederherstellung erforderlich ist. Geben Sie zum Verwenden dieses Skripts folgenden Befehl an einer Eingabeaufforderung ein:
-Cscript //job:GenPWD C:\MSSScripts\wl_tools.wsf /client:ClientName
+    **Hinweis**   Dieser Prozess sollte auf jedem IAS-Server wiederholt werden, um sicherzustellen, dass jeder Server über eine eindeutige Sammlung von drahtlosen Zugriffspunktclients und gemeinsamen geheimen Schlüsseln verfügt. Um diesen Prozess zu vereinfachen, enthält dieses Handbuch ein Skript, das zum Erzeugen gemeinsamer geheimer Schlüssel verwendet werden kann. Diese können dann an einem sicheren Ort gespeichert werden, falls eine Systemwiederherstellung erforderlich ist. Geben Sie zum Verwenden dieses Skripts folgenden Befehl an einer Eingabeaufforderung ein:
+
+`Cscript //job:GenPWD C:\MSSScripts\wl_tools.wsf /client:ClientName`
 
 Bereitstellen von Konfigurationen für mehrere IAS-Server
 
@@ -4580,14 +4693,18 @@ Die folgenden Typen von Einstellungen sollten in Textdateien exportiert werden, 
 
 
 Um diesen Prozess zu vereinfachen, sind diesem Handbuch Batchdateien beigefügt, die die Befehle **netsh** enthalten. Dieser Befehl kann die gemeinsamen Konfigurationsinformationen in Textdateien im Verzeichnis „D:\IASConfig“ exportieren. Hierzu muss folgender Befehl an einer Eingabeaufforderung eingegeben werden:
-C:\MSSScripts\IASExport.batImportieren von Konfigurationsinformationen vom primären IAS-Server
+
+`C:\MSSScripts\IASExport.bat`
+
+Importieren von Konfigurationsinformationen vom primären IAS-Server
 Wie zuvor erwähnt, verwendet IAS den Befehl **netsh** zum Übertragen von Konfigurationszuständen zwischen Servern. Dieser Prozess gestaltet die Bereitstellung effizienter und verringert zugleich die Gefahr von Fehlern während des Konfigurationsprozesses. Nachdem nun die Konfigurationsinformationen des primären IAS-Servers exportiert wurden, können die sekundären IAS-Server den Konfigurationszustand importieren.
 
 **So importieren Sie den Konfigurationszustand des primären IAS-Servers auf andere IAS-Server**
-* Kopieren Sie alle Konfigurationsdateien aus dem Verzeichnis „D:\IASConfig“ auf dem primären IAS-Server in das entsprechende Verzeichnis „D:\IASConfig“ auf anderen IAS-Servern.
+1. Kopieren Sie alle Konfigurationsdateien aus dem Verzeichnis „D:\IASConfig“ auf dem primären IAS-Server in das entsprechende Verzeichnis „D:\IASConfig“ auf anderen IAS-Servern.
 
-* Verwenden Sie die folgende Batchdatei (diesem Handbuch beigefügt) an einer Eingabeaufforderung auf den sekundären Servern, um den Konfigurationszustand zu importieren:
-C:\MSSScripts\IASImport.bat
+2. Verwenden Sie die folgende Batchdatei (diesem Handbuch beigefügt) an einer Eingabeaufforderung auf den sekundären Servern, um den Konfigurationszustand zu importieren:
+
+    `C:\MSSScripts\IASImport.bat`
 
 Drahtlose Zugriffspunkte und Clients
 
@@ -4610,33 +4727,33 @@ Bereitstellen von WLAN-Authentifizierungszertifikaten
 Dieser Abschnitt beschreibt einige wichtige Konfigurationsaufgaben, die erforderlich sind, um die automatische Zertifikatregistrierung für Windows XP-basierte Clients zu aktivieren. Obwohl sich frühere Abschnitte mit den zugrunde liegenden Richtlinien und Vorlagen für die Unterstützung der automatischen Zertifikatregistrierung in der Infrastruktur für Zertifikate beschäftigt haben, ist die Unterstützung von Windows XP für diese Funktionalität standardmäßig deaktiviert. Um die Unterstützung für die automatische Zertifikatregistrierung zu aktivieren, müssen die richtigen Einstellungen mit einer Gruppenrichtlinie konfiguriert werden. Durch die Verwendung von Sicherheitsgruppen zum Steuern der automatischen Registrierung kann diese Funktion für alle Benutzer und Computer in einer Domäne aktiviert werden. Mit den Sicherheitsgruppen kann bestimmt werden, wer die Zertifikate der einzelnen Typen erhält.
 
 **So aktivieren Sie die automatische Registrierung für alle Benutzer und Computer in einer Domäne**
-* Melden Sie sich mit einem Konto an, das über Berechtigungen zum Erstellen von Gruppenrichtlinienobjekten verfügt, und verknüpfen Sie Gruppenrichtlinienobjekte mit der Domäne.
+1. Melden Sie sich mit einem Konto an, das über Berechtigungen zum Erstellen von Gruppenrichtlinienobjekten verfügt, und verknüpfen Sie Gruppenrichtlinienobjekte mit der Domäne.
 
-* Wählen Sie in Active Directory-Benutzer und -Computer das Domänenobjekt durch Klicken mit der rechten Maustaste aus, und klicken Sie dann auf „Eigenschaften“.
+2. Wählen Sie in Active Directory-Benutzer und -Computer das Domänenobjekt durch Klicken mit der rechten Maustaste aus, und klicken Sie dann auf „Eigenschaften“.
 
-* Klicken Sie auf der Registerkarte **Gruppenrichtlinie** auf **Neu**, und geben Sie dann einen Namen für das Gruppenrichtlinienobjekt ein (beispielsweise „Domain PKI Policies“).
+3. Klicken Sie auf der Registerkarte **Gruppenrichtlinie** auf **Neu**, und geben Sie dann einen Namen für das Gruppenrichtlinienobjekt ein (beispielsweise „Domain PKI Policies“).
 
-* Klicken Sie auf **Bearbeiten**, und wechseln Sie dann zu **Richtlinien öffentlicher Schlüssel** unter Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen.
+4. Klicken Sie auf **Bearbeiten**, und wechseln Sie dann zu **Richtlinien öffentlicher Schlüssel** unter Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen.
 
-* Doppelklicken Sie im Bereich **Details** auf **Einstellung für die automatische Registrierung.**  
+5. Doppelklicken Sie im Bereich **Details** auf **Einstellung für die automatische Registrierung.**  
 
-* Vergewissern Sie sich, dass die folgenden Einstellungen ausgewählt sind:
-* Zertifikate automatisch registrieren
+6. Vergewissern Sie sich, dass die folgenden Einstellungen ausgewählt sind:
+    - Zertifikate automatisch registrieren
 
-* Abgelaufene Zertifikate erneuern, ausstehende Zertifikate aktualisieren und gesperrte Zertifikate entfernen
+    - Abgelaufene Zertifikate erneuern, ausstehende Zertifikate aktualisieren und gesperrte Zertifikate entfernen
 
-* Zertifikate aktualisieren, die Zertifikatvorlagen verwenden
+    - Zertifikate aktualisieren, die Zertifikatvorlagen verwenden
 
 
-* Wiederholen Sie die Schritte 5 und 6 für die Einstellung zur automatischen Registrierung unter Benutzerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen\Richtlinien öffentlicher Schlüssel.
+7. Wiederholen Sie die Schritte 5 und 6 für die Einstellung zur automatischen Registrierung unter Benutzerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen\Richtlinien öffentlicher Schlüssel.
 
-* Schließen Sie das Gruppenrichtlinienobjekt.
+8. Schließen Sie das Gruppenrichtlinienobjekt.
 
-* Vergewissern Sie sich, dass das Gruppenrichtlinienobjekt über eine höhere Priorität als das standardmäßige Gruppenrichtlinienobjekt für Domänenrichtlinien verfügt.
+9. Vergewissern Sie sich, dass das Gruppenrichtlinienobjekt über eine höhere Priorität als das standardmäßige Gruppenrichtlinienobjekt für Domänenrichtlinien verfügt.
 
-* Wiederholen Sie dieses Verfahren für jede Domäne, in der die automatische Zertifikatregistrierung aktiviert wird, wenn eine Gesamtstruktur mit mehreren Domänen vorliegt.
+10. Wiederholen Sie dieses Verfahren für jede Domäne, in der die automatische Zertifikatregistrierung aktiviert wird, wenn eine Gesamtstruktur mit mehreren Domänen vorliegt.
 
-**Hinweis**   Wenn Benutzer keine Roamingprofile verwenden und die automatische Registrierung universell erlaubt ist, werden Zertifikate an jedem Computer für Benutzer ausgestellt, an dem sie sich anmelden. Dies könnte unerwünscht sein, wenn sich administrative Benutzer an Servern anmelden. Um dies zu verhindern, wird empfohlen, ein Gruppenrichtlinienobjekt für Server zu erstellen, um die automatische Registrierung zu deaktivieren. Wenn die automatische Registrierung für alle Benutzer Nachteile mit sich bringt, kann ein Gruppenrichtlinienobjekt mit OUs verknüpft werden, das die Untergruppe von Benutzern enthält, die automatische Registrierung benötigen.
+    **Hinweis**   Wenn Benutzer keine Roamingprofile verwenden und die automatische Registrierung universell erlaubt ist, werden Zertifikate an jedem Computer für Benutzer ausgestellt, an dem sie sich anmelden. Dies könnte unerwünscht sein, wenn sich administrative Benutzer an Servern anmelden. Um dies zu verhindern, wird empfohlen, ein Gruppenrichtlinienobjekt für Server zu erstellen, um die automatische Registrierung zu deaktivieren. Wenn die automatische Registrierung für alle Benutzer Nachteile mit sich bringt, kann ein Gruppenrichtlinienobjekt mit OUs verknüpft werden, das die Untergruppe von Benutzern enthält, die automatische Registrierung benötigen.
 
 
 Aktivieren des WLAN-Zugriffs für Benutzer und Computer
@@ -4652,39 +4769,39 @@ Die IAS RAS-Richtlinie verwendet Active Directory-basierte Sicherheitsgruppen zu
 
 
 **So fügen Sie Benutzer und Computer zu den WLAN-Zugriffsgruppen hinzu**
-* Öffnen Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer.
+1. Öffnen Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer.
 
-* Fügen Sie die Gruppe „RAS-Richtlinie Drahtlose Benutzer“ und die Gruppe „RAS-Richtlinie Drahtlose Computer“ zur Gruppe „RAS-Richtlinie – Drahtloser Zugriff“ hinzu.
+2. Fügen Sie die Gruppe „RAS-Richtlinie Drahtlose Benutzer“ und die Gruppe „RAS-Richtlinie Drahtlose Computer“ zur Gruppe „RAS-Richtlinie – Drahtloser Zugriff“ hinzu.
 
-* Fügen Sie Benutzer, die zum Zugriff auf das WLAN berechtigt sind, zur Gruppe „RAS-Richtlinie Drahtlose Benutzer“ hinzu.
+3. Fügen Sie Benutzer, die zum Zugriff auf das WLAN berechtigt sind, zur Gruppe „RAS-Richtlinie Drahtlose Benutzer“ hinzu.
 
-* Fügen Sie Computer hinzu, die zum Zugriff auf das WLAN berechtigt sind, zur Gruppe „RAS-Richtlinie Drahtlose Computer“ hinzu.
+4. Fügen Sie Computer hinzu, die zum Zugriff auf das WLAN berechtigt sind, zur Gruppe „RAS-Richtlinie Drahtlose Computer“ hinzu.
 
-**Hinweis**   Wenn beschlossen wird, dass standardmäßig allen Benutzern und Computern der Zugriff auf das WLAN eingeräumt werden soll, können die Gruppen „Domänenbenutzer“ und „Domänencomputer“ zu ihren jeweiligen Richtliniengruppen hinzugefügt werden, um die Verwaltung zu vereinfachen.
+    **Hinweis**   Wenn beschlossen wird, dass standardmäßig allen Benutzern und Computern der Zugriff auf das WLAN eingeräumt werden soll, können die Gruppen „Domänenbenutzer“ und „Domänencomputer“ zu ihren jeweiligen Richtliniengruppen hinzugefügt werden, um die Verwaltung zu vereinfachen.
 
 Erstellen der WLAN-Gruppenrichtlinie für Active Directory
 Gruppenrichtlinien können verwendet werden, um die WLAN-Konfigurationseinstellungen für Clientcomputer zu automatisieren und durchzusetzen, da die MMC für Gruppenrichtlinien in Windows Server 2003 Richtlinieneinstellungen für drahtlose Netzwerke enthält, die auf den Standards 802.1X und 802.11 beruhen.
 
 **So erstellen Sie eine Gruppenrichtlinie für drahtlose Netzwerke**
-* Öffnen Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer auf einem Windows Server 2003-basierten Server oder einer Arbeitsstation, auf der die Verwaltungstools von Windows Server 2003 installiert sind.
+1. Öffnen Sie das MMC-Snap-In für Active Directory-Benutzer und -Computer auf einem Windows Server 2003-basierten Server oder einer Arbeitsstation, auf der die Verwaltungstools von Windows Server 2003 installiert sind.
 
-* Wählen Sie die Eigenschaften des Domänenobjekts auf der Registerkarte **Gruppenrichtlinie** aus, klicken Sie auf **Neu**, und nennen Sie das Gruppenrichtlinienobjekt dann „Drahtlosnetzwerkrichtlinie“.
+2. Wählen Sie die Eigenschaften des Domänenobjekts auf der Registerkarte **Gruppenrichtlinie** aus, klicken Sie auf **Neu**, und nennen Sie das Gruppenrichtlinienobjekt dann „Drahtlosnetzwerkrichtlinie“.
 
-* Klicken Sie auf die Schaltfläche **Eigenschaften**, und gewähren Sie auf der Registerkarte **Sicherheit** der Sicherheitsgruppe „Drahtlosnetzwerkrichtlinie Computersicherheit“ die Gruppenrichtlinienberechtigungen zum Lesen und Übernehmen. Entfernen Sie zudem beim Gruppenrichtlinienobjekt aus „Authentifizierte Benutzer“ die Berechtigungen zum Übernehmen der Gruppenrichtlinie.
+3. Klicken Sie auf die Schaltfläche **Eigenschaften**, und gewähren Sie auf der Registerkarte **Sicherheit** der Sicherheitsgruppe „Drahtlosnetzwerkrichtlinie Computersicherheit“ die Gruppenrichtlinienberechtigungen zum Lesen und Übernehmen. Entfernen Sie zudem beim Gruppenrichtlinienobjekt aus „Authentifizierte Benutzer“ die Berechtigungen zum Übernehmen der Gruppenrichtlinie.
 
-* Wählen Sie auf der Registerkarte **Allgemein** die Einstellung **Benutzerdefinierte Konfigurationseinstellungen deaktivieren** für das Richtlinienobjekt, und klicken Sie bei allen angezeigten Warnmeldungen auf **Ja.**   Übernehmen Sie die Änderungen, und schließen Sie das Fenster.
+4. Wählen Sie auf der Registerkarte **Allgemein** die Einstellung **Benutzerdefinierte Konfigurationseinstellungen deaktivieren** für das Richtlinienobjekt, und klicken Sie bei allen angezeigten Warnmeldungen auf **Ja.**   Übernehmen Sie die Änderungen, und schließen Sie das Fenster.
 
-* Klicken Sie auf die Schaltfläche **Bearbeiten**, und wechseln Sie zu \Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen\Richtlinien für Drahtlosnetzwerke (IEEE 802.11).
+5. Klicken Sie auf die Schaltfläche **Bearbeiten**, und wechseln Sie zu \Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen\Richtlinien für Drahtlosnetzwerke (IEEE 802.11).
 
-* Wählen Sie das Objekt „Richtlinien für Drahtlosnetzwerke (IEEE 802.11)“ im Navigationsfenster aus, und klicken Sie dann im Menü **Aktion** auf **Drahtlosnetzwerkrichtlinie erstellen.**   Verwenden Sie den Assistenten, um die Richtlinie **Drahtloskonfiguration für Clientcomputer** zu nennen. Lassen Sie die Option **Eigenschaften bearbeiten** ausgewählt, und klicken Sie dann auf **Fertig stellen**, um den Assistenten zu schließen.
+6. Wählen Sie das Objekt „Richtlinien für Drahtlosnetzwerke (IEEE 802.11)“ im Navigationsfenster aus, und klicken Sie dann im Menü **Aktion** auf **Drahtlosnetzwerkrichtlinie erstellen.**   Verwenden Sie den Assistenten, um die Richtlinie **Drahtloskonfiguration für Clientcomputer** zu nennen. Lassen Sie die Option **Eigenschaften bearbeiten** ausgewählt, und klicken Sie dann auf **Fertig stellen**, um den Assistenten zu schließen.
 
-* Wählen Sie in der Richtlinie **Drahtloskonfiguration der Clientcomputer** die Registerkarte **Bevorzugte Netzwerke** aus, klicken Sie auf **Hinzufügen**, und geben Sie dann den Netzwerknamen oder die SSID (Service Set ID) des drahtlosen Netzwerks ein.
+7. Wählen Sie in der Richtlinie **Drahtloskonfiguration der Clientcomputer** die Registerkarte **Bevorzugte Netzwerke** aus, klicken Sie auf **Hinzufügen**, und geben Sie dann den Netzwerknamen oder die SSID (Service Set ID) des drahtlosen Netzwerks ein.
 
-* Klicken Sie auf die Registerkarte **IEEE 802.1X**, und öffnen Sie dann die Einstellungen für **Smartcard oder anderes Zertifikat für das Extensible Authentication Protocol (EAP).**   Wählen Sie unter **Vertrauenswürdige Ursprungszertifizierungsagenturen** das Zertifikat der Stammzertifizierungsstelle für die PKI aus, in der die IAS-Serverzertifikate ausgestellt wurden.
+8. Klicken Sie auf die Registerkarte **IEEE 802.1X**, und öffnen Sie dann die Einstellungen für **Smartcard oder anderes Zertifikat für das Extensible Authentication Protocol (EAP).**   Wählen Sie unter **Vertrauenswürdige Ursprungszertifizierungsagenturen** das Zertifikat der Stammzertifizierungsstelle für die PKI aus, in der die IAS-Serverzertifikate ausgestellt wurden.
 
-* Schließen Sie die Eigenschaften für die Drahtloskonfiguration der Clientcomputer und den Gruppenrichtlinienobjekt-Editor.
+9. Schließen Sie die Eigenschaften für die Drahtloskonfiguration der Clientcomputer und den Gruppenrichtlinienobjekt-Editor.
 
-**Hinweis**   WPA2 kann derzeit nicht mithilfe von Gruppenrichtlinienobjekten angewendet werden. Allerdings ist die Unterstützung durch Gruppenrichtlinienobjekte für WPA2 mit der Veröffentlichung von Windows Vista und Longhorn geplant. Zudem werden Updates verfügbar sein, um auch die Unterstützung für die aktuellen Windows-Versionen anzubieten.
+    **Hinweis**   WPA2 kann derzeit nicht mithilfe von Gruppenrichtlinienobjekten angewendet werden. Allerdings ist die Unterstützung durch Gruppenrichtlinienobjekte für WPA2 mit der Veröffentlichung von Windows Vista und Longhorn geplant. Zudem werden Updates verfügbar sein, um auch die Unterstützung für die aktuellen Windows-Versionen anzubieten.
 
 Hinzufügen von Computern zu Sicherheitsgruppen für die WLAN-Gruppenrichtlinie
 Active Directory-basierte Sicherheitsgruppen werden verwendet, um zu bestimmen, auf welche Computer Richtlinien für drahtlose Netzwerke angewendet werden, um automatisch die erforderlichen 802.11- und 802.1X-Einstellungen zu konfigurieren. Diese Einstellungen sollten bereitgestellt werden, bevor die 802.1X-Einstellungen auf drahtlosen Zugriffspunkten konfiguriert werden und das WLAN aktiviert wird. Dieser Ansatz stellt sicher, dass die Clientcomputer über ausreichende Möglichkeiten verfügen, um die computerbasierte Gruppenrichtlinie herunterzuladen und zu übernehmen, selbst wenn sie selten eine Verbindung mit dem drahtgebundenen Netzwerk herstellen.
@@ -4700,9 +4817,8 @@ WPA2-Clientanforderungen
 Die in diesem Handbuch skizzierte Lösung wurde für Clientcomputer mit Unterstützung für Drahtlostechnologie entworfen, die Windows XP Professional mit SP2 oder Windows XP Tablet Edition als Betriebssystem verwenden. Diese Versionen von Windows bieten integrierte Unterstützung für 802.1X und WLAN. Außerdem stellen Clients auf der Grundlage von Windows XP die Funktionalität für automatische Registrierung und Erneuerung von Zertifikaten bereit, was eine zertifikatbasierte Lösung wie diese besonders dann sehr kostengünstig gestaltet, wenn sie an eine Infrastruktur für Zertifikate angebunden ist.
 
 Wenngleich Windows XP SP2 integrierte Unterstützung für WPA aufweist, muss ein zusätzliches Update installiert werden, um die Unterstützung für IEEE 802.11i WPA2 auf Windows XP SP2-basierten Clients zu ermöglichen. Weitere Informationen über dieses zusätzliche Update sowie Downloadanweisungen finden Sie unter [Wi-Fi Protected Access 2 (WPA2)/Wireless Provisioning Service Information Element (WPS IE) update for Windows XP with Service Pack 2](http://support.microsoft.com/default.aspx?scid=kb;en-us;893357) (Update für Windows XP mit Service Pack 2 und WPA2/WPS IE; in englischer Sprache) unter http://support.microsoft.com/default.aspx?scid=kb;en-us;893357.
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zusammenfassung
 
@@ -4715,7 +4831,3 @@ Nach Prüfung der zahllosen verfügbaren Lösungen zum Beheben der allseits beka
 [Dokument „Sichere Konfiguration von drahtlosen Zugriffspunkten“ herunterladen](http://go.microsoft.com/fwlink/?linkid=71716)
  
 [Zum Seitenanfang](#mainsection)
-
-
-
-
