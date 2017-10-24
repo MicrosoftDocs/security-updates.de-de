@@ -26,7 +26,7 @@ Sie können RMS mit SP2 installieren, ohne die vorhandene Installation von RMS m
 -   [Interoperabilität mit RMS Version 1.0](#bkmk_interop)
 -   [Entfernen von RMS mit SP2](#bkmk_removingrms)
 
-<span id="bkmk_PreparingForSP2Update"></span>
+
 Vorbereiten auf das RMS mit SP2-Update
 --------------------------------------
 
@@ -37,13 +37,11 @@ Das RMS mit SP2-Update ist so ausgelegt, dass Sie RMS unterbrechungsfrei weiter 
 -   Erstellen Sie eine Sicherungskopie der Protokollierungsdatenbank, sofern Sie die bisher protokollierten Statistiken behalten möchten.
 -   Stellen Sie sicher, dass auf den Clients und Servern die neuesten wichtigen Updates und Sicherheitsupdates für das Betriebssystem installiert sind. Klicken Sie dazu auf **Start** und dann auf **Windows Update**, und führen Sie die Anweisungen auf dem Bildschirm aus.
 
-<span id="bkmk_PerformingSP2Update"></span>
 Ausführen des RMS mit SP2-Updates
 ---------------------------------
 
 Wenn der Assistent für das Setup von Windows Rights Management Services mit Service Pack 2 die vorhandene RMS-Installation erkennt, prüft er die vorhandene RMS mit SP1-Installation und fügt nur neue Dateien hinzu bzw. ersetzt die Dateien, die für RMS mit SP2 geändert werden müssen. Wenn Sie RMS bereits erfolgreich ausführen, müssen Sie nach dem Installieren von RMS mit SP2 keine zusätzlichen Konfigurationsschritte vornehmen, um RMS weiter verwenden zu können.
 
-<span id="bkmk_UpdateClusters"></span>
 Aktualisieren von Clustern
 --------------------------
 
@@ -55,7 +53,6 @@ Wenn Sie RMS in einer Clusterkonfiguration installiert haben, sollten Sie die Ak
 -   Die Serverkomponenten von RMS mit SP2, RMS mit SP1 und RMS Version 1.0 können nur dann nebeneinander existieren, wenn sie sich in verschiedenen Active Directory-Gesamtstrukturen befinden. Das gleichzeitige Vorhandensein verschiedener Versionen von RMS-Servern in ein und demselben Cluster wird nicht empfohlen.
 -   Das Setup-Paket für RMS mit SP2 kann auch für die Installation einer völlig neuen Bereitstellung von RMS mit SP2 auf einem Server verwendet werden – RMS mit SP1 wird in diesem Fall nicht vorausgesetzt.
 
-<span id="bkmk_UpdateClients"></span>
 Aktualisieren von RMS-Clients
 -----------------------------
 
@@ -63,7 +60,6 @@ In Windows Update und im Microsoft Download Center steht ein neuer RMS mit SP2-C
 
 Weitere Informationen zum Aktualisieren und Installieren des RMS-Clients finden Sie im Thema zum Verteilen des RMS-Clients ([http://go.microsoft.com/fwlink/?LinkId=75070](http://go.microsoft.com/fwlink/?linkid=75070)) (möglicherweise in englischer Sprache).
 
-<span id="bkmk_InterOp"></span>
 Interoperabilität mit RMS Version 1.0
 -------------------------------------
 
@@ -73,9 +69,7 @@ Da RMS mit SP2 viele Verbesserungen bei der Funktionalität und Arbeitsgeschwind
 -   Nur Clients, auf denen RMS mit SP1 und später ausgeführt wird, sind selbstaktivierend.
 -   Der folgenden Tabelle können Sie entnehmen, welche Funktionen in gemischten Umgebungen unterstützt werden:
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -121,9 +115,8 @@ RMS 1.0-Clients müssen über das Internet aktiviert werden</td>
 </tr>
 </tbody>
 </table>
- 
+<p></p> 
 
-<span id="bkmk_RemovingRMS"></span>
 Entfernen von RMS mit SP2
 -------------------------
 

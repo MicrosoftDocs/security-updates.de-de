@@ -1,21 +1,17 @@
 ---
-Title: Kapitel 5: Schützen eigenständiger Windows XP-Clients
-TOCTitle: Kapitel 5: Schützen eigenständiger Windows XP-Clients
+Title: Kapitel 5 - Schützen eigenständiger Windows XP-Clients
+TOCTitle: Kapitel 5 - Schützen eigenständiger Windows XP-Clients
 ms:assetid: a134d1cb-2ad1-4549-99c8-2a5e0128f2dc
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Cc163078(v=TechNet.10)
 ms:contentKeyID: 20072365
 ---
 
-
 # Windows XP-Sicherheitshandbuch
-
-
 
 ### Kapitel 5: Schützen eigenständiger Windows XP-Clients
 Aktualisiert: 20.10.2005
  
-
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Überblick](#eeaa)  
 [Windows XP in einer Windows NT 4.0-Domäne](#edaa)  
@@ -24,15 +20,13 @@ Auf dieser Seite
 [Zusammenfassung](#eaaa)  
 
 
-
 ### Überblick
 
 Computer mit Microsoft® Windows® XP Professional, die nicht Mitglied einer Active Directory®-Verzeichnisdienstdomäne sind, stellen einige besondere Herausforderungen an die Verwaltung. In diesem Kapitel wird erörtert, wie die in den vorangegangenen Kapiteln des Handbuchs empfohlenen Richtlinieneinstellungen am effektivsten angewendet und verwaltet werden können. Die empfohlenen Richtlinieneinstellungen tragen zur Sicherheit von eigenständigen Desktop- und Laptopcomputern in Ihrer Organisation bei, auf denen Windows XP Professional ausgeführt wird. Die Einstellungen werden mithilfe lokaler Richtlinien angewendet. Diese gelten für alle Benutzer, die sich beim Clientcomputer anmelden, einschließlich des lokalen Administrators.
 
-In diesem Kapitel werden nicht alle unter Windows XP verfügbaren Richtlinieneinstellungen behandelt. Die empfohlenen Richtlinieneinstellungen stellen jedoch eine Betriebssystemumgebung bereit, die vor den meisten aktuellen Bedrohungen geschützt ist und es Benutzern ermöglicht, ihre Computer weiterhin zu verwenden. Alle angewendeten Richtlinieneinstellungen sollten auf die Sicherheitsziele Ihrer Organisation ausgerichtet sein.
+In diesem Kapitel werden nicht alle unter Windows XP verfügbaren Richtlinieneinstellungen behandelt. Die empfohlenen Richtlinieneinstellungen stellen jedoch eine Betriebssystemumgebung bereit, die vor den meisten aktuellen Bedrohungen geschützt ist und es Benutzern ermöglicht, ihre Computer weiterhin zu verwenden. Alle angewendeten Richtlinieneinstellungen sollten auf die Sicherheitsziele Ihrer Organisation ausgerichtet sein.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Windows XP in einer Windows NT 4.0-Domäne
 
@@ -49,10 +43,9 @@ Um die Kommunikation mit einem Windows NT 4.0-Domänencontroller zu ermöglich
 
  
 
-Diese Richtlinieneinstellungen sind in den in diesem Handbuch enthaltenen Sicherheitsvorlagendateien für ältere Clients vorkonfiguriert.
+Diese Richtlinieneinstellungen sind in den in diesem Handbuch enthaltenen Sicherheitsvorlagendateien für ältere Clients vorkonfiguriert.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Einstellungen für das Richtlinienobjekt einer lokalen Gruppe
 
@@ -219,10 +212,9 @@ In der Regel werden Kontorichtlinien auf Ebene der Domäne festgelegt und daher 
 
 #### Lokale Richtlinien
 
-Die unter **Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen** vorhandenen lokalen Richtlinien werden unter Verwendung der in Kapitel 3, „Sicherheitseinstellungen für Windows XP-Clients“, dieses Handbuchs beschriebenen Vorlagen auf den Client angewendet. Es wird eine Kombination aus diesen Vorlagen und den Vorlagen, die für die eigenständigen Clientcomputer erstellt wurden, verwendet. Sie können die Anwendung der Sicherheitsvorlagen mithilfe von Skripts automatisieren, die Sie auf mehrere Computer in der Umgebung anwenden können. Im nächsten Abschnitt wird das Verfahren zum Erstellen und Bereitstellen lokaler Richtlinien beschrieben.
+Die unter **Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen** vorhandenen lokalen Richtlinien werden unter Verwendung der in Kapitel 3, „Sicherheitseinstellungen für Windows XP-Clients“, dieses Handbuchs beschriebenen Vorlagen auf den Client angewendet. Es wird eine Kombination aus diesen Vorlagen und den Vorlagen, die für die eigenständigen Clientcomputer erstellt wurden, verwendet. Sie können die Anwendung der Sicherheitsvorlagen mithilfe von Skripts automatisieren, die Sie auf mehrere Computer in der Umgebung anwenden können. Im nächsten Abschnitt wird das Verfahren zum Erstellen und Bereitstellen lokaler Richtlinien beschrieben.  
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Importieren von Sicherheitsvorlagen in Windows XP
 
@@ -238,25 +230,23 @@ Erstellen einer Sicherheitsdatenbank
 Wenn Sie das Importieren der Sicherheitseinstellungen auf einen eigenständigen Clientcomputer automatisieren möchten, muss eine Referenzdatenbank erstellt werden, mit der die lokale Sicherheitsrichtlinie geschrieben wird. Die Basisdatenbank wurde mithilfe des MMC-Snap-Ins „Sicherheitskonfiguration und -analyse“ erstellt. Die Datenbank „XP-Standardsicherheit.sdb“ wurde mit den im Folgenden beschriebenen Schritten erstellt. Bei der Festlegung der Standardrichtlinieneinstellungen für den eigenständigen Clientcomputer wurde von der Datenbank die Datei „Setup security.inf“ als Vorlage verwendet.
 
 **So erstellen Sie eine neue Standardsicherheitsdatenbank**
-* Klicken Sie im Menü **Start** auf **Ausführen**, geben Sie **mmc** ein, und klicken Sie anschließend auf **OK.**  
+1. Klicken Sie im Menü **Start** auf **Ausführen**, geben Sie **mmc** ein, und klicken Sie anschließend auf **OK.**  
 
-* Klicken Sie zum Erstellen einer neuen Konsole im Menü **Datei** auf **Neu.**  
+2. Klicken Sie zum Erstellen einer neuen Konsole im Menü **Datei** auf **Neu.**  
 
-* Klicken Sie im Menü **Datei** auf **Snap-In hinzufügen/entfernen.**   Klicken Sie dann auf der Registerkarte **Eigenständig** des Dialogfelds **Snap-In** **hinzufügen/entfernen** auf **Hinzufügen.**  
+3. Klicken Sie im Menü **Datei** auf **Snap-In hinzufügen/entfernen.**   Klicken Sie dann auf der Registerkarte **Eigenständig** des Dialogfelds **Snap-In** **hinzufügen/entfernen** auf **Hinzufügen.**  
 
-* Wählen Sie **Sicherheitskonfiguration und -analyse** aus, klicken Sie auf **Hinzufügen** und auf **Schließen**, und klicken Sie anschließend auf **OK.**  
+4. Wählen Sie **Sicherheitskonfiguration und -analyse** aus, klicken Sie auf **Hinzufügen** und auf **Schließen**, und klicken Sie anschließend auf **OK.**  
 
-* Klicken Sie mit der rechten Maustaste auf das Bereichselement **Sicherheitskonfiguration und -analyse**, und klicken Sie anschließend auf **Datenbank öffnen.**  
+5. Klicken Sie mit der rechten Maustaste auf das Bereichselement **Sicherheitskonfiguration und -analyse**, und klicken Sie anschließend auf **Datenbank öffnen.**  
 
-* Geben Sie einen neuen Namen für die Datenbank ein (**XP-Standardsicherheit**), und klicken Sie auf Öffnen.
+6. Geben Sie einen neuen Namen für die Datenbank ein (**XP-Standardsicherheit**), und klicken Sie auf Öffnen.
 
-* Wählen Sie eine zu importierende Sicherheitsvorlage aus (**setup security.inf**), und klicken Sie auf **Öffnen.**  
+7. Wählen Sie eine zu importierende Sicherheitsvorlage aus (**setup security.inf**), und klicken Sie auf **Öffnen.**  
 
-* Klicken Sie mit der rechten Maustaste auf das Bereichselement **Sicherheitskonfiguration und -analyse**, und klicken Sie dann auf **Computer jetzt konfigurieren.**  
+8. Klicken Sie mit der rechten Maustaste auf das Bereichselement **Sicherheitskonfiguration und -analyse**, und klicken Sie dann auf **Computer jetzt konfigurieren.**  
 
-* Geben Sie im Dialogfeld **System konfigurieren** den Namen der zu verwendenden Protokolldatei ein, und klicken Sie auf **OK.**  
-
- 
+9. Geben Sie im Dialogfeld **System konfigurieren** den Namen der zu verwendenden Protokolldatei ein, und klicken Sie auf **OK.**  
 
 Durch diesen Vorgang wird eine Datenbankdatei mit den Standardsicherheitseinstellungen erstellt, die bei der Automatisierung verwendet werden. Kopieren Sie die Sicherheitsdatenbank in denselben Ordner, in den Sie die Skripts und die Informationsdateien kopiert haben. Mit den benutzerdefinierten Skripts wird die Datenbank konfiguriert, die wiederum die lokale Sicherheitsrichtlinie konfiguriert. Durch Ausführen ähnlicher Schritte kann der Administrator anstelle der in diesem Handbuch enthaltenen auch eine eigene Datenbank erstellen.
 
@@ -265,29 +255,27 @@ Erstellen benutzerdefinierter Vorlagen
 Mit dem MMC-Snap-In „Sicherheitsvorlagen“ können Sie in den Vorlagen Einstellungen für Sicherheitsrichtlinien definieren, die Sie dann auf einen lokalen Computer anwenden können. Die Vorlagen „SA Unternehmensclient - Konto.inf“ und „SA Hochsicher - Konto.inf“ wurden mit den im Folgenden beschriebenen Schritten erstellt. Dabei wurden die Richtlinieneinstellungen aus den in Kapitel 2, „Konfigurieren der Domäneninfrastruktur von Active Directory“, aufgeführten Tabellen zu Kontenrichtlinien verwendet.
 
 **So erstellen Sie eine benutzerdefinierte Vorlage**
-* Klicken Sie im Menü **Start** auf **Ausführen**, geben Sie **mmc** ein, und klicken Sie auf **OK.**  
+1. Klicken Sie im Menü **Start** auf **Ausführen**, geben Sie **mmc** ein, und klicken Sie auf **OK.**  
 
-* Klicken Sie zum Erstellen einer neuen Konsole im Menü **Datei** auf **Neu.**  
+2. Klicken Sie zum Erstellen einer neuen Konsole im Menü **Datei** auf **Neu.**  
 
-* Klicken Sie im Menü **Datei** auf **Snap-In hinzufügen/entfernen.**   Klicken Sie dann auf der Registerkarte **Eigenständig** des Dialogfelds **Snap-In** **hinzufügen/entfernen** auf **Hinzufügen.**  
+3. Klicken Sie im Menü **Datei** auf **Snap-In hinzufügen/entfernen.**   Klicken Sie dann auf der Registerkarte **Eigenständig** des Dialogfelds **Snap-In** **hinzufügen/entfernen** auf **Hinzufügen.**  
 
-* Klicken Sie auf **Sicherheitsvorlagen**, dann auf **Hinzufügen** und auf **Schließen** und anschließend auf **OK.**  
+4. Klicken Sie auf **Sicherheitsvorlagen**, dann auf **Hinzufügen** und auf **Schließen** und anschließend auf **OK.**  
 
-* Öffnen Sie **Sicherheitsvorlagen.**  
+5. Öffnen Sie **Sicherheitsvorlagen.**  
 
-* Wählen Sie zum Speichern der neuen Vorlage den Standardordner aus, und klicken Sie auf **Neue Vorlage.**  
+6. Wählen Sie zum Speichern der neuen Vorlage den Standardordner aus, und klicken Sie auf **Neue Vorlage.**  
 
-* Geben Sie im Textfeld **Vorlagenname** den Namen für die neue Sicherheitsvorlage ein.
+7. Geben Sie im Textfeld **Vorlagenname** den Namen für die neue Sicherheitsvorlage ein.
 
-* Geben Sie im Textfeld **Beschreibung** eine Beschreibung der neuen Sicherheitsvorlage ein, und klicken Sie auf **OK.**  
+8. Geben Sie im Textfeld **Beschreibung** eine Beschreibung der neuen Sicherheitsvorlage ein, und klicken Sie auf **OK.**  
 
-* Doppelklicken Sie in der Konsolenstruktur zum Anzeigen der Sicherheitsbereiche auf die neue Sicherheitsvorlage, und wechseln Sie zu der zu konfigurierenden Richtlinieneinstellung, sodass diese im Detailfenster angezeigt wird.
+9. Doppelklicken Sie in der Konsolenstruktur zum Anzeigen der Sicherheitsbereiche auf die neue Sicherheitsvorlage, und wechseln Sie zu der zu konfigurierenden Richtlinieneinstellung, sodass diese im Detailfenster angezeigt wird.
 
-* Klicken Sie im Detailfenster mit der rechten Maustaste auf die zu konfigurierende Richtlinieneinstellung, und klicken Sie auf **Eigenschaften.**  
+10. Klicken Sie im Detailfenster mit der rechten Maustaste auf die zu konfigurierende Richtlinieneinstellung, und klicken Sie auf **Eigenschaften.**  
 
-* Aktivieren Sie im Dialogfeld **Eigenschaften** das Kontrollkästchen **Diese Richtlinieneinstellung in der Vorlage definieren**, bearbeiten Sie die Einstellungen, und klicken Sie anschließend auf **OK.**  
-
- 
+11. Aktivieren Sie im Dialogfeld **Eigenschaften** das Kontrollkästchen **Diese Richtlinieneinstellung in der Vorlage definieren**, bearbeiten Sie die Einstellungen, und klicken Sie anschließend auf **OK.**  
 
 Nachdem die Dateien erstellt sind, können Sie sie unter **%windir%\security\templates** finden. Kopieren Sie die Sicherheitsvorlagen in denselben Ordner, in dem die Sicherheitsdatenbank zum Ausführen der Skripts erstellt wurde. Diese Dateien werden im nächsten Schritt zum automatisierten Importieren der Vorlagen verwendet.
 
@@ -303,28 +291,24 @@ Verwenden Sie das MMC-Snap-In „Sicherheitskonfiguration und -analyse“, um al
 Verwenden Sie zum Importieren und Anwenden der Sicherheitsvorlage das Snap-In „Sicherheitskonfiguration und -analyse“, und führen Sie die im Folgenden beschriebenen Schritte aus.
 
 **So importieren Sie eine Sicherheitsvorlage**
-* Starten Sie das MMC-Snap-In „Sicherheitskonfiguration und -analyse“.
+1. Starten Sie das MMC-Snap-In „Sicherheitskonfiguration und -analyse“.
 
-* Klicken Sie mit der rechten Maustaste auf das Bereichselement **Sicherheitskonfiguration und -analyse.**  
+2. Klicken Sie mit der rechten Maustaste auf das Bereichselement **Sicherheitskonfiguration und -analyse.**  
 
-* Klicken Sie auf **Datenbank öffnen.**  
+3. Klicken Sie auf **Datenbank öffnen.**  
 
-* Geben Sie einen neuen Namen für die Datenbank ein, und klicken Sie auf **Öffnen.**  
+4. Geben Sie einen neuen Namen für die Datenbank ein, und klicken Sie auf **Öffnen.**  
 
-* Wählen Sie die zu importierende Sicherheitsvorlage aus (.inf-Datei), und klicken Sie auf **Öffnen.**  
-
- 
+5. Wählen Sie die zu importierende Sicherheitsvorlage aus (.inf-Datei), und klicken Sie auf **Öffnen.**  
 
 Alle Richtlinieneinstellungen in der Vorlage werden importiert, und können anschließend überprüft oder angewendet werden.
 
 **So wenden Sie die Richtlinieneinstellungen an**
-* Klicken Sie mit der rechten Maustaste auf das Bereichselement **Sicherheitskonfiguration und -analyse.**  
+1. Klicken Sie mit der rechten Maustaste auf das Bereichselement **Sicherheitskonfiguration und -analyse.**  
 
-* Wählen Sie **Computer jetzt konfigurieren** aus.
+2. Wählen Sie **Computer jetzt konfigurieren** aus.
 
-* Geben Sie im Dialogfeld **Computer jetzt konfigurieren** den Namen der zu verwendenden Protokolldatei ein, und klicken Sie auf **OK.**  
-
- 
+3. Geben Sie im Dialogfeld **Computer jetzt konfigurieren** den Namen der zu verwendenden Protokolldatei ein, und klicken Sie auf **OK.**  
 
 Für die einzelnen Umgebungen müssen jeweils beide Vorlagen importiert werden. Alle relevanten Richtlinieneinstellungen der Sicherheitsvorlage werden auf die lokale Richtlinie des Clientcomputers angewendet. In den folgenden Abschnitten werden die Richtlinieneinstellungen beschrieben, die durch die lokale Richtlinie angewendet werden.
 
@@ -480,14 +464,47 @@ Umfasst Einstellungen für Systemdienste.
 * **/quiet.**   Gibt an, dass der Konfigurationsvorgang ohne Eingabeaufforderung an den Benutzer durchgeführt wird.
 
 
-Automatisierte Skripts
+##### Automatisierte Skripts
 
 Mithilfe von Skripts können identische Richtlinieneinstellungen auf einfache Weise auf viele Clientcomputer angewendet werden. Das weiter oben in diesem Kapitel beschriebene Tool Secedit.exe ermöglicht es Ihnen, die Anwendung lokaler Richtlinien mithilfe eines einfachen Skripts automatisieren. Kopieren Sie das Skript und alle zugehörigen Dateien in ein Unterverzeichnis auf der lokalen Festplatte, und führen Sie das Skript dann vom Unterverzeichnis aus.
 
 Mit dem folgenden Skript können Sie Sicherheitsvorlagen in das lokale Gruppenrichtlinienobjekt importieren, um eigenständige Windows XP-Clientcomputer in Ihrer Umgebung abzusichern.
 
 **Wichtig**: Stellen Sie sicher, dass die Sicherheitsdatenbankdatei **XP-Standardsicherheit.sdb** nicht als schreibgeschützt gekennzeichnet ist. Damit das folgende Skript richtig funktioniert, muss es Änderungen an der Datei vornehmen können.
-REM (c) Microsoft Corporation 1997-2005REM Script for Securing Stand-Alone Windows XP Client ComputersREMREM Name:        Standalone-EC-Desktop.cmdREM Version: 2.0REM This CMD file provides the proper secedit.exe syntax for importingREM the security policy for a secure stand-alone Windows XP desktop REM client computer. Please read the entire guide before using this REM CMD file.REM Resets the Policy to Default Valuessecedit.exe /configure /cfg %windir%\repair\secsetup.inf /db secsetup.sdb /verboseREM Sets the Account Settingssecedit.exe /configure /db "XP Default Security.sdb" /cfg "Standalone-EC-Account.inf" /overwrite /quietREM Sets the Security Settingssecedit.exe /configure /db "XP Default Security.sdb" /cfg "EC-Desktop.inf"REM Deletes the Shared Folderreg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\DelegateFolders\{59031a47-3f72-44a7-89c5-5595fe6b30ee}" /fREM Updates the Local Policygpupdate.exe /force  
+
+```
+REM (c) Microsoft Corporation 1997-2005
+
+REM Script for Securing Stand-Alone Windows XP Client Computers
+REM
+REM Name:        Standalone-EC-Desktop.cmd
+REM Version:     2.0
+
+REM This CMD file provides the proper secedit.exe syntax for importing
+REM the security policy for a secure stand-alone Windows XP desktop 
+REM client computer. Please read the entire guide before using this 
+REM CMD file.
+
+REM Resets the Policy to Default Values
+secedit.exe /configure /cfg %windir%\repair\secsetup.inf 
+/db secsetup.sdb /verbose
+
+REM Sets the Account Settings
+secedit.exe /configure /db "XP Default Security.sdb" 
+/cfg "Standalone-EC-Account.inf" /overwrite /quiet
+
+REM Sets the Security Settings
+secedit.exe /configure /db "XP Default Security.sdb" 
+/cfg "EC-Desktop.inf"
+
+REM Deletes the Shared Folder
+reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\
+MyComputer\NameSpace\DelegateFolders\
+{59031a47-3f72-44a7-89c5-5595fe6b30ee}" /f
+
+REM Updates the Local Policy
+gpupdate.exe /force
+``` 
 
 In den folgenden Tabellen sind die in diesem Handbuch enthaltenen Skripts und die zugehörigen Dateien aufgeführt. Für jede Umgebung gibt es Dateien sowohl für Desktop- als auch für Laptopclientcomputer.
 
@@ -934,10 +951,7 @@ Datenbank mit Standardrichtlinien.
 
 </table>
 
- 
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zusammenfassung
 
@@ -962,7 +976,6 @@ www.microsoft.com/downloads/details.aspx?FamilyId=B24BF2D5-0D7A-4FC5-A14D-E91D21
 
 * Weitere Informationen zu [Die Rolle administrativer Vorlagen](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/adminad.mspx) (in englischer Sprache) finden Sie auf der Webseite unter www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/adminad.mspx.
 
- 
 [Zum Seitenanfang](#mainsection)
 
 In diesem Beitrag
@@ -981,12 +994,6 @@ In diesem Beitrag
 
 Download
 
-[Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&amp;clcid=0x409"><img AltText="Cc163078.icon_exe(de-de,TechNet.10).gif)  
+![](images/cc163078.icon_exe(de-de,technet.10).gif)[Windows XP-Sicherheitshandbuch herunterladen (engl.)](http://go.microsoft.com/fwlink/?linkid=14840&amp;clcid=0x409"><img AltText="Cc163078.icon_exe(de-de,TechNet.10).gif)  
  
- 
-
 [Zum Seitenanfang](#mainsection)
-
-
-
-
