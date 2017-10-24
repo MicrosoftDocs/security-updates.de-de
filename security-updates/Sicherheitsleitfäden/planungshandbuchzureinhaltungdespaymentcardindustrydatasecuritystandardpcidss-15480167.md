@@ -306,18 +306,19 @@ Weitere Informationen finden Sie auf der Homepage von Windows Server Update Serv
 </li>
 Zum Verwalten der Einstellungen der Gruppenrichtlinien kann die Gruppenrichtlinien-Verwaltungskonsole von Microsoft (GPMC) verwendet werden. Die GPMC bietet einen Ort für die Verwaltung der Kernaspekte von Gruppenrichtlinien und vereinfacht damit den Prozess. Sie erfüllt gemäß den Kundenansprüchen die höchsten Anforderungen für die Bereitstellung von Gruppenrichtlinien und bietet Folgendes:
 
--   Eine Benutzeroberfläche, die die Verwendung von Gruppenrichtlinien deutlich vereinfacht
+<ul style="list-style-type:circle">
+<li>Eine Benutzeroberfläche, die die Verwendung von Gruppenrichtlinien deutlich vereinfacht</li>
 
--   Die Fähigkeit zum Sichern und Wiederherstellen von GPOs
+<li>Die Fähigkeit zum Sichern und Wiederherstellen von GPOs</li>
 
--   Die Fähigkeit zum Importieren, Exportieren, Kopieren und Einfügen von GPOs und Filtern für die Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)
+<li>Die Fähigkeit zum Importieren, Exportieren, Kopieren und Einfügen von GPOs und Filtern für die Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)</li>
 
--   Eine vereinfachte Möglichkeit zum Verwalten der Sicherheit hinsichtlich Gruppenrichtlinien
+<li>Eine vereinfachte Möglichkeit zum Verwalten der Sicherheit hinsichtlich Gruppenrichtlinien</li>
 
--   Die Fähigkeit, HTML-Berichte für GPO-Einstellungen und die Daten des Richtlinienergebnissatzes (Resultant Set of Policy, RSoP) zu generieren
+<li>Die Fähigkeit, HTML-Berichte für GPO-Einstellungen und die Daten des Richtlinienergebnissatzes (Resultant Set of Policy, RSoP) zu generieren</li>
 
--   Die Fähigkeit zum Schreiben und Ausführen von Skripts für GPO-Operationen, die von der GPMC zur Verfügung gestellt werden (Einstellungen innerhalb eines GPO können jedoch nicht in ein Skript geschrieben werden)
-
+<li>Die Fähigkeit zum Schreiben und Ausführen von Skripts für GPO-Operationen, die von der GPMC zur Verfügung gestellt werden (Einstellungen innerhalb eines GPO können jedoch nicht in ein Skript geschrieben werden)</li>
+</ul>
 </ul>
 
 #### Änderungsmanagement
@@ -680,12 +681,14 @@ Weitere Informationen finden Sie in der Übersicht über Active Directory Federa
 </li>
 <br/>
 ILM bietet Ihrem Unternehmen folgende Vorteile:
+<ul style="list-style-type:circle">
 
- - Synchronisieren von Identitätsdaten in verschiedenen heterogenen Identitätsspeichern mit und ohne Verzeichnissen. Auf diese Weise können Sie Identitätsinformationen auf unterschiedlichen Plattformen automatisch aktualisieren und gleichzeitig die Integrität und Besitzrechte an diesen Daten im gesamten Unternehmen aufrecht erhalten.
+<li> Synchronisieren von Identitätsdaten in verschiedenen heterogenen Identitätsspeichern mit und ohne Verzeichnissen. Auf diese Weise können Sie Identitätsinformationen auf unterschiedlichen Plattformen automatisch aktualisieren und gleichzeitig die Integrität und Besitzrechte an diesen Daten im gesamten Unternehmen aufrecht erhalten.</li>
 
- - System- und plattformübergreifendes Bereitstellen und Entfernen von Benutzerkonten und Identitätsinformationen beispielsweise für Verteilung, E-Mail-Konten und Sicherheitsgruppen. Neue Konten für Mitarbeiter können bei Ereignissen oder Änderungen schnell in autorisierenden Speichern wie dem Personalsystem erstellt werden. Außerdem können aus dem Unternehmen ausgeschiedene Mitarbeiter sofort aus diesen Systemen entfernt werden.
+ <li> System- und plattformübergreifendes Bereitstellen und Entfernen von Benutzerkonten und Identitätsinformationen beispielsweise für Verteilung, E-Mail-Konten und Sicherheitsgruppen. Neue Konten für Mitarbeiter können bei Ereignissen oder Änderungen schnell in autorisierenden Speichern wie dem Personalsystem erstellt werden. Außerdem können aus dem Unternehmen ausgeschiedene Mitarbeiter sofort aus diesen Systemen entfernt werden.</li>
 
- - Verwalten von Zertifikaten und Smartcards. ILM umfasst eine workflow- und richtlinienbasierte Lösung zur einfachen Verwaltung des Lebenszyklus digitaler Zertifikate und Smartcards durch Unternehmen. Dabei werden Active Directory-Dienste und Active Directory-Zertifikatdienste genutzt, um digitale Zertifikate und Smartcards bereitzustellen und mithilfe eines automatischen Workflows den gesamten Lebenszyklus von zertifikatbasier-ten Anmeldeinformationen zu verwalten. ILM senkt dank der effizienten Bereitstellung, Verwaltung und Pflege einer zertifikatbasierten Infrastruktur deutlich die mit digitalen Zertifikaten und Smartcards verbundenen Kosten eines Unternehmens. Zudem wird die Bereitstellung, Konfiguration und Verwaltung von digitalen Zertifikaten und Smartcards optimiert und gleichzeitig der Schutz durch eine sichere mehrstufige Authentifizierungstechnologie erhöht.
+ <li> Verwalten von Zertifikaten und Smartcards. ILM umfasst eine workflow- und richtlinienbasierte Lösung zur einfachen Verwaltung des Lebenszyklus digitaler Zertifikate und Smartcards durch Unternehmen. Dabei werden Active Directory-Dienste und Active Directory-Zertifikatdienste genutzt, um digitale Zertifikate und Smartcards bereitzustellen und mithilfe eines automatischen Workflows den gesamten Lebenszyklus von zertifikatbasier-ten Anmeldeinformationen zu verwalten. ILM senkt dank der effizienten Bereitstellung, Verwaltung und Pflege einer zertifikatbasierten Infrastruktur deutlich die mit digitalen Zertifikaten und Smartcards verbundenen Kosten eines Unternehmens. Zudem wird die Bereitstellung, Konfiguration und Verwaltung von digitalen Zertifikaten und Smartcards optimiert und gleichzeitig der Schutz durch eine sichere mehrstufige Authentifizierungstechnologie erhöht.</li>
+ </ul>
 
 Weitere Informationen finden Sie auf der Homepage von Microsoft Identity Lifecycle Manager unter <http://www.microsoft.com/windowsserver/ilm2007/default.mspx> (möglicherweise in englischer Sprache).  
 
