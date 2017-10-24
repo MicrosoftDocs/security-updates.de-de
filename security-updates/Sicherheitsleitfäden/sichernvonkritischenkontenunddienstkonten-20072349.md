@@ -49,11 +49,11 @@ Dieses Dokument ist in vier Hauptteile untergliedert, in denen Sie Informationen
 * **Herausforderungen**: In diesem Abschnitt werden einige der häufig auftretenden Probleme beschrieben, die mittelgroße Unternehmen bei der Ermittlung des Sicherungsbedarfs von Konten zu bewältigen haben. Daneben werden einige der mit der Sicherung von Administrator- und Dienstkonten verbundenen Probleme behandelt.
 
 * **Lösungen**: Dieser Abschnitt ist in drei Unterabschnitte aufgegliedert, in denen Sie Informationen zur Abfolge der Maßnahmen finden, mit denen sich kritische Konten und Dienstkonten in einem mittelgroßen Unternehmen sichern lassen. Diese Unterabschnitte umfassen folgende Elemente:
-* **Einschätzung**: Dieser Unterabschnitt zeigt, welche grundsätzlichen Überlegungen bei der Sicherung von kritischen Konten und Dienstkonten angestellt werden müssen. Daneben wird die Grundlage für das Planen von Lösungen geschaffen.
+    - **Einschätzung**: Dieser Unterabschnitt zeigt, welche grundsätzlichen Überlegungen bei der Sicherung von kritischen Konten und Dienstkonten angestellt werden müssen. Daneben wird die Grundlage für das Planen von Lösungen geschaffen.
 
-* **Entwicklung**: In diesem Unterabschnitt werden auf der Grundlage der im Abschnitt „Einschätzung“ dargestellten Informationen Lösungen bereitgestellt, mit deren Hilfe Pläne aufgestellt werden können, über die sich die Sicherheit von kritischen Konten und Dienstkonten erhöhen lässt.
+    - **Entwicklung**: In diesem Unterabschnitt werden auf der Grundlage der im Abschnitt „Einschätzung“ dargestellten Informationen Lösungen bereitgestellt, mit deren Hilfe Pläne aufgestellt werden können, über die sich die Sicherheit von kritischen Konten und Dienstkonten erhöhen lässt.
 
-* **Bereitstellung und Verwaltung**: In diesem Unterabschnitt werden empfehlenswerte Methoden zur Implementierung gesicherter Administrator- und Dienstkonten in einem mittelgroßen Unternehmen beschrieben.
+    - **Bereitstellung und Verwaltung**: In diesem Unterabschnitt werden empfehlenswerte Methoden zur Implementierung gesicherter Administrator- und Dienstkonten in einem mittelgroßen Unternehmen beschrieben.
 
 
 
@@ -61,6 +61,7 @@ Dieses Dokument ist in vier Hauptteile untergliedert, in denen Sie Informationen
 #### Zielgruppe dieses Dokuments
 
 Dieses technische Dokument ist zur Unterstützung von Fachleuten und Managern im technischen Bereich gedacht, die um die Sicherheit von Konten auf Dienst-, Anwendungs- und Administratorebene innerhalb eines Microsoft-Netzwerks bedacht sind. Obgleich auch ein Leser ohne technischen Hintergrund aus diesem Dokument einen Informationszugewinn hinsichtlich der Prinzipien einer sicheren Kontoverwaltung erzielen kann, ist dennoch ein Verständnis der Kontoverwaltungskonzepte von Microsoft Windows® und Active Directory erforderlich, um den größtmöglichen Nutzen aus den in diesem Dokument dargestellten Informationen zu ziehen.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -82,10 +83,7 @@ In diesem Abschnitt werden einige Begriffen definiert, die in diesem Dokument Ve
 
 * **Prinzip der geringsten Rechte**: Bei den Kriterien des amerikanischen Verteidigungsministeriums zur Beurteilung eines vertrauenswürdigen Computersystems („Department of Defense Trusted Computer System Evaluation Criteria“, DOD-5200.28-STD) – dem so genannten „Orange Book“ – handelt es sich um einen anerkannten Computersicherheitsstandard. Das Prinzip der „geringsten Rechte“ sieht entsprechend dieser Publikation vor, „dass jedem Benutzer innerhalb eines Systems nur die eingeschränktesten Rechte (bzw. die niedrigsten Freigabestufen) zugewiesen werden, die er zur Ausführung der Aufgaben benötigt, zu denen er berechtigt ist. Durch die Anwendung dieses Prinzips lassen sich Schäden, die durch Unfälle, Fehler oder unberechtigte Nutzung verursacht werden, begrenzen.“
 
- 
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Herausforderungen
 
@@ -423,10 +421,10 @@ Diese Beispiele gehen davon aus, dass es sich bei den Dienstkonten um Domänenko
 
 * Konto E verfügt nur für einen einzigen Mitgliedsserver über administratorähnliche Rechte.
 
+![](images/cc875826.scasa1(de-de,technet.10).gif)
 
 **Abbildung 1 – Szenarien hinsichtlich der Sicherheitsanfälligkeit von Domänendienstkonten**
 
- 
 
 Die folgende Tabelle beschreibt die oben in Text und Bild dargestellten Szenarien und ordnet sie nach den mit ihnen verbundenen Sicherheitsanfälligkeiten.
 
@@ -1098,21 +1096,20 @@ Eine weitere Best Practice-Methode besteht in der Verwendung eines sicheren Kenn
 * Sie unterscheiden sich wesentlich von vorher benutzten Kennwörtern und sind nicht inkrementell.
 
 * Sie weisen mindestens drei der folgenden Zeichenarten auf:
-* Großbuchstaben (A, B, C...)
+    - Großbuchstaben (A, B, C...)
 
-* Kleinbuchstaben (a, b, c...)
+    - Kleinbuchstaben (a, b, c...)
 
-* Ziffern (0, 1, 2...)
+    - Ziffern (0, 1, 2...)
 
-* Nicht-alphanumerische Symbole (@, &amp;, $...)
+    - Nicht-alphanumerische Symbole (@, &amp;, $...)
 
-* Unicode-Zeichen (€, ƒ, ?...)
-
-
+    - Unicode-Zeichen (€, ƒ, ?...)
 
 Automatisches Erkennen von unsicheren Kennwörtern
 
 Es gibt zwei grundlegende Ansätze, die bei Tools zum Überprüfen von Kennwörtern eingesetzt werden, um nach unsicheren oder leeren Kennwörtern zu suchen. Hierbei handelt es sich um die folgenden Ansätze:
+
 * **Onlinescannen von Kennwörtern**: Beim Onlinescannen werden mehrere Versuche unternommen, sich mithilfe von verbreiteten Kennwortmängeln anzumelden. Ein Beispiel hierfür ist die Verwendung des Kennworts „Kennwort“ oder sogar eines leeren Kennworts. Das Tool Microsoft Baseline Security Analyzer (MBSA) funktioniert z. B. nach dieser Methode.
 
 * **Offlinescannen von Kennwörtern**: Das Offlinescannen beinhaltet eine Reihe von Mechanismen, bei denen zwischengespeicherte Anmeldeinformationen genutzt werden, um die Sicherheit von Kennwörtern für verschiedene Konten zu testen und sogar entsprechend einer Rangfolge zu ordnen. Tools, die nach dieser Methode funktionieren, weisen gegenüber der zuvor beschriebenen Methode einige Vorteile auf, erfordern jedoch Software von Drittanbietern.
@@ -1211,7 +1208,7 @@ Jeder Server in einer Umgebung sollte dokumentiert und überwacht werden, um sä
 
 * Skripts
 
-Wie bereits erwähnt, kann WMIC genutzt werden, um die Verwaltung von Remotecomputern und lokalen Rechnern mithilfe von Skripts zu automatisieren.
+    Wie bereits erwähnt, kann WMIC genutzt werden, um die Verwaltung von Remotecomputern und lokalen Rechnern mithilfe von Skripts zu automatisieren.
 
 
 * **Weitere Unternehmensverwaltungstools**: Es sind einige weitere Verwaltungstools erhältlich, die für die Überwachung von Serverdiensten eingesetzt werden können. Im Folgenden sind einige Beispiele aufgeführt:
@@ -1244,17 +1241,17 @@ Verwenden des Sicherheitskonfigurations-Assistenten
 Der Sicherheitskonfigurations-Assistent (Security Configuration Wizard, SCW) ist ein Bestandteil von Windows Server 2003 Service Pack 1 (SP1) und kann verwendet werden, um eine schnelle Konfiguration von Servern vorzunehmen, die auf funktionellen Anforderungen beruhen, z. B. Webserver oder Domänencontroller. Administratoren können gleichzeitig Sicherheitsrichtlinien festlegen, um Sicherheitsanfälligkeiten zu minimieren. Über den Sicherheitskonfigurations-Assistenten kann ermittelt werden, welche Dienste auf den Servern innerhalb eines Netzwerks ausgeführt werden und welche Abhängigkeiten bei diesen Diensten besteht.
 
 **So installieren Sie den Sicherheitskonfigurations-Assistenten auf einem Server mit Windows Server 2003**
-* Öffnen Sie die Systemsteuerung.
+1. Öffnen Sie die Systemsteuerung.
 
-* Doppelklicken Sie auf **Software.**  
+2. Doppelklicken Sie auf **Software.**  
 
-* Klicken Sie auf **Windows-Komponenten hinzufügen/entfernen.**  
+3. Klicken Sie auf **Windows-Komponenten hinzufügen/entfernen.**  
 
-* Aktivieren Sie auf der Anzeige für **Windows-Komponenten** unter **Komponenten** das Kontrollkästchen **Sicherheitskonfigurations-Assistent.**  
+4. Aktivieren Sie auf der Anzeige für **Windows-Komponenten** unter **Komponenten** das Kontrollkästchen **Sicherheitskonfigurations-Assistent.**  
 
-* Klicken Sie auf **Weiter.**  
+5. Klicken Sie auf **Weiter.**  
 
-* Klicken Sie auf **Beenden**, wenn der Installationsvorgang abgeschlossen ist.
+6. Klicken Sie auf **Beenden**, wenn der Installationsvorgang abgeschlossen ist.
 
 
 Mithilfe des Sicherheitskonfigurations-Assistenten lässt sich die Angriffsfläche von Computern unter Windows Server 2003 mit SP1 verringern. Administratoren werden von dem Assistenten durch den Prozess zur Erstellung von Sicherheitsrichtlinien geführt, die auf den Rollen basieren, die jeweils von einem bestimmten Server ausgeführt werden. Der Begriff *Serverrolle* definiert die Hauptfunktion, die ein Computer innerhalb eines Netzwerks einnimmt. Die benötigten Dienste, eingehenden Ports und Einstellungen variieren in Abhängigkeit von der Rolle, die ein Server einnimmt. Nach der Erstellung von Richtlinien können diese entsprechend der Konfiguration auf Server angewendet werden.
@@ -1306,19 +1303,19 @@ Bei Hochsicherheitsservern handelt es sich – einfach ausgedrückt – um Ser
 
 
 Die Erstellung einer Hochsicherheits-Servergruppe beinhaltet im Allgemeinen die folgenden Aktivitäten:
-* Es werden Server identifiziert, die als Hochsicherheitsserver gekennzeichnet werden sollten.
+1. Es werden Server identifiziert, die als Hochsicherheitsserver gekennzeichnet werden sollten.
 
-* In jeder Gesamtstruktur wird eine universelle Sicherheitsgruppe für die Hochsicherheitsserver erstellt.
+2. In jeder Gesamtstruktur wird eine universelle Sicherheitsgruppe für die Hochsicherheitsserver erstellt.
 
-* Die Computerkonten der ausgewählten Server werden in die neuen universellen Gruppen aufgenommen.
+3. Die Computerkonten der ausgewählten Server werden in die neuen universellen Gruppen aufgenommen.
 
-* In jeder Domäne wird eine lokale Gruppe für Domänenadministratorkonten erstellt.
+4. In jeder Domäne wird eine lokale Gruppe für Domänenadministratorkonten erstellt.
 
-* Die domänenadministratorähnlichen Benutzerkonten werden der neuen lokalen Gruppe zugewiesen.
+5. Die domänenadministratorähnlichen Benutzerkonten werden der neuen lokalen Gruppe zugewiesen.
 
-* In jeder Domäne wird ein Gruppenrichtlinienobjekt erstellt, das die Verwendung von Administratorkonten auf Domänenebene für Dienste auf sämtlichen Computern beschränkt, indem die Benutzerrechte **Anmelden als Dienst verweigern** und **Anmelden als Batchauftrag verweigern** zugewiesen werden. Darüber hinaus werden die Berechtigungen **Lesezugriff zulassen** und **Anwenden zulassen** auf das Gruppenrichtlinienobjekt in der zuvor erstellten lokalen Gruppe für Domänenadministratorkonten angewendet.
+6. In jeder Domäne wird ein Gruppenrichtlinienobjekt erstellt, das die Verwendung von Administratorkonten auf Domänenebene für Dienste auf sämtlichen Computern beschränkt, indem die Benutzerrechte **Anmelden als Dienst verweigern** und **Anmelden als Batchauftrag verweigern** zugewiesen werden. Darüber hinaus werden die Berechtigungen **Lesezugriff zulassen** und **Anwenden zulassen** auf das Gruppenrichtlinienobjekt in der zuvor erstellten lokalen Gruppe für Domänenadministratorkonten angewendet.
 
-* Auf jedes Gruppenrichtlinienobjekt werden Gruppenrichtlinienfilter für die Hochsicherheits-Servergruppe angewendet, so dass die Mitglieder dieser Gruppe auch weiterhin Domänenadministratorkonten für Dienste verwenden können. Diese Funktionalität wird über die Zuweisung der Berechtigungen **Lesezugriff zulassen** und **Anwenden verweigern** zum Gruppenrichtlinienobjekt für die betreffende Hochsicherheits-Servergruppe erreicht.
+7. Auf jedes Gruppenrichtlinienobjekt werden Gruppenrichtlinienfilter für die Hochsicherheits-Servergruppe angewendet, so dass die Mitglieder dieser Gruppe auch weiterhin Domänenadministratorkonten für Dienste verwenden können. Diese Funktionalität wird über die Zuweisung der Berechtigungen **Lesezugriff zulassen** und **Anwenden verweigern** zum Gruppenrichtlinienobjekt für die betreffende Hochsicherheits-Servergruppe erreicht.
 
 
 Die Verwaltung der Mitgliedschaft in der Hochsicherheits-Servergruppe sollte über einen internen Workflowprozess erfolgen, über den Anträge zur Aufnahme neuer Server bewertet werden. Dieser Prozess sollte Schritte zur Prüfung der Anträge sowie zur Einschätzung der Sicherheitsrisiken für den Fall beinhalten, dass ein Server in die Gruppe aufgenommen wird. Dieser Prozess kann dabei entweder auf einer ganz einfachen Grundlage beruhen, etwa auf E-Mail-Anforderungen an ein bestimmtes Konto, oder auf einem detaillierten automatisierten Prozess aufgebaut sein, für den mehrere Provisioningtools, z. B. Zero Touch Provisioning (ZTP), verwendet werden.
@@ -1330,13 +1327,13 @@ Verwalten der Kennwortänderungen bei Dienstkonten
 Wenn Konten einem Dienst zugeordnet sind, benötigt der Dienststeuerungs-Manager (Service Control Manager, SCM) das richtige Kennwort für das betreffende Konto, bevor die Zuweisung erfolgen kann. Bei Eingabe eines falschen Kennworts wird die Zuweisung vom Dienststeuerungs-Manager verweigert. Wenn Dienste so konfiguriert werden, dass sie lokale Systemkonten, lokalen Dienstkonten oder Netzwerkdienstkonten verwenden, besteht keine Notwendigkeit, Kennwörter für Konten zu verwalten, da die Kennwortverwaltung in diesem Fall über das Betriebssystem erfolgt.
 
 Für andere Dienstkonten werden die Kennwörter vom Dienststeuerungs-Manager in der Datenbank für Dienste gespeichert. Nach der Zuweisung eines Kennworts überprüft der Dienststeuerungs-Manager die in dieser Datenbank gespeicherten Kennwörter nicht. Das Kennwort, das einem Benutzerkonto in Active Directory zugewiesen wurde, wird weiterhin akzeptiert. Dies kann in einer Situation wie der Folgenden zu Problemen führen:
-* Ein Dienst ist so konfiguriert, dass er ein bestimmtes Benutzerkonto verwendet.
+1. Ein Dienst ist so konfiguriert, dass er ein bestimmtes Benutzerkonto verwendet.
 
-* Der Dienst wird durch die Verwendung des betreffenden Kontos mit dem aktuellen Kennwort gestartet.
+2. Der Dienst wird durch die Verwendung des betreffenden Kontos mit dem aktuellen Kennwort gestartet.
 
-* Das Kennwort für das betreffende Benutzerkonto wird geändert, während der Dienst weiterhin ausgeführt wird.
+3. Das Kennwort für das betreffende Benutzerkonto wird geändert, während der Dienst weiterhin ausgeführt wird.
 
-* Der Dienst wird solange weiter ausgeführt, bis er angehalten wird. Nachdem der Dienst angehalten wurde, ist es nicht möglich, den Dienst erneut zu starten, da der Dienststeuerungs-Manager weiterhin versucht, das alte Kennwort zu verwenden. In Active Directory geänderte Kennwörter werden nicht mit den Kennwörtern synchronisiert, die in der Datenbank für Dienste gespeichert sind.
+4. Der Dienst wird solange weiter ausgeführt, bis er angehalten wird. Nachdem der Dienst angehalten wurde, ist es nicht möglich, den Dienst erneut zu starten, da der Dienststeuerungs-Manager weiterhin versucht, das alte Kennwort zu verwenden. In Active Directory geänderte Kennwörter werden nicht mit den Kennwörtern synchronisiert, die in der Datenbank für Dienste gespeichert sind.
 
 
 Jeder Dienst, für den ein Standarddomänenkonto oder ein lokales Standardbenutzerkonto verwendet wird, muss jedes Mal mit neuen Authentifizierungsdaten aktualisiert werden, wenn das Kennwort für ein Benutzerkonto geändert wird. Dies kann sehr mühevoll und zeitraubend sein, wenn Dienste und die von ihnen verwendeten Konten nicht angemessen dokumentiert sind.
@@ -1374,6 +1371,7 @@ Beim Einsatz von MBSA wird auf der Grundlage der aufgelisteten Mängel ein neues
 Unter www.microsoft.com/technet/security/tools/mbsahome.mspx können Sie auf der Webseite [Microsoft Baseline Security Analyzer](http://www.microsoft.com/technet/security/tools/mbsahome.mspx) mehr über MBSA erfahren oder das Tool herunterladen (möglicherweise in Englisch).
 
 **Hinweis:**   Bei MBSA werden auf einem Computer festgestellte Kontensperrrichtlinien zurückgesetzt, um zu verhindern, dass Konten während des Scannens gesperrt werden. Außerdem werden mit MBSA keine Kennwörter auf Computern gescannt, die als Domänencontroller gekennzeichnet sind.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -1383,9 +1381,8 @@ Unter www.microsoft.com/technet/security/tools/mbsahome.mspx können Sie auf der
 Selbstverständlich kann eine ganze Reihe von Maßnahmen ergriffen werden, um die Sicherheit von kritischen Konten und Dienstkonten in Netzwerken mittelgroßer Unternehmen zu erhöhen. Im Grunde beruht jeder dieser Ansätze auf einigen wenigen Schlüsselkonzepten, etwa auf der Einrichtung gut dokumentierter Prozesse oder auf der Orientierung am Prinzip der geringsten Rechte. Es reicht bereits aus, diese wenigen Schlüsselkonzepte zu verstehen und als Grundlage für die Kontoverwaltung anzuwenden, um die Sicherheit eines Netzwerks beträchtlich zu erhöhen.
 
 In der Umgebung eines mittelgroßen Unternehmens kann eine beliebige Anzahl der auf Best Practices basierenden Methoden, die in diesem Dokument beschrieben werden, eingesetzt werden, sofern sie als für die Unternehmensanforderungen geeignet eingestuft werden. Auch wenn sich mit einer Kombination aus allen beschriebenen Methoden zweifellos die Sicherheit eines jeden Netzwerks erhöhen ließe, ist es empfehlenswert, zunächst die potenziellen Auswirkungen zu analysieren, die jede dieser Methoden auf ein Unternehmensnetzwerk haben könnte. Auf diese Weise lässt sich die für das jeweilige Netzwerk geeignete Kombination von Verfahrensweisen ermitteln.
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Anhang A: Gängige Dienste
 
@@ -5994,7 +5991,3 @@ Ermöglicht das Herunterladen und Verwalten von XML-Konfigurationsdateien aus Ne
 [Leitfaden „Sichern von kritischen Konten und Dienstkonten“ herunterladen](http://go.microsoft.com/fwlink/?linkid=73609)
  
 [Zum Seitenanfang](#mainsection)
-
-
-
-

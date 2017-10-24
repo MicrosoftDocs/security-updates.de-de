@@ -47,15 +47,15 @@ Das Hauptziel eines Systems zur Sicherheitsüberwachung und Angriffsermittlung b
 
 Dieses Dokument besteht aus vier Hauptabschnitten, die sich mit grundlegenden Begriffen und Aspekten bezüglich des Entwurfs und der Implementierung einer wirksamen Sicherheitsüberwachungs- und Angriffsermittlungslösung befassen. Der erste Abschnitt ist die Einführung, die Sie gerade lesen. Die anderen Abschnitte sind folgende:
 
-Definition
+##### Definition
 
 Dieser Abschnitt enthält Informationen, die für das Verständnis der mit der Erstellung und Anwendung der in diesem Dokument beschriebenen Lösung hilfreich sind.
 
-Die Herausforderung für mittelgroße Unternehmen
+##### Die Herausforderung für mittelgroße Unternehmen
 
 In diesem Abschnitt werden einige der häufigen Herausforderungen beschrieben, denen sich mittelgroße Unternehmen in Bezug auf Sicherheitsüberwachungs- und Angriffsermittlungssystemen gegenübersehen.
 
-Lösungen
+##### Lösungen
 
 Dieser Abschnitt enthält detaillierte Informationen zur Entwicklung, Implementierung, Verwaltung und Überprüfung der in diesem Dokument vorgestellten Lösung. Er ist in zwei Unterabschnitte aufgeteilt. „Entwickeln der Lösung“ befasst sich mit Vorabmaßnahmen und Planungsschritten. „Bereitstellen und Verwalten der Lösung“ enthält Informationen, die Ihnen bei der Bereitstellung, Verwaltung und Überprüfung eines Sicherheitsüberwachungs- und Angriffsermittlungssystems behilflich sind.
 
@@ -65,6 +65,7 @@ Dieser Abschnitt enthält detaillierte Informationen zur Entwicklung, Implementi
 Dieses Dokument befasst sich mit Datenschutz- und Sicherheitsaspekten für mittelgroße Unternehmen, insbesondere für solche, die aufgrund von gesetzlichen Vorgaben Identitätsschutz und Kontrolle über den Datenzugriff gewährleisten müssen. Dementsprechend richtet sich dieses Dokument an Technikmanager und Entscheidungsträger ebenso wie an IT-Experten und Techniker, die für die Planung, Bereitstellung, den Betrieb oder speziell für die Sicherheit eines Unternehmensnetzwerks zuständig sind.
 
 Teile dieses Dokuments enthalten Informationen, die für die meisten technischen Entscheidungsträger hilfreich sind. Zur Umsetzung aller in diesem Dokument vorgestellten Informationen sollten Leser jedoch mit Sicherheits- und Risikoaspekten in der eigenen Netzwerkumgebung sowie mit den Konzepten der Ereignisprotokollierungsdienste in Windows vertraut sein.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -75,6 +76,7 @@ In diesem Dokument findet das Prozessmodell von Microsoft Operations Framework (
 
 Für die hier vorgestellte Lösung wird insbesondere die Verwendung eines Ansatzes mit kontinuierlichen Prozessen statt eines Ansatzes der linearen Bereitstellung für die Sicherheitsüberwachung und Angriffsermittlung empfohlen. Konkret sollten die in der folgenden Abbildung dargestellten Schritte für diese Lösung berücksichtigt werden:
 
+![](images/cc875806.smaad1(de-de,technet.10).gif)
 
 **Abbildung 1. Anwenden von MOF**
 
@@ -95,8 +97,8 @@ Die Anwendung dieses Prozesses auf die Sicherheitsüberwachung entspricht der Di
 Weitere Informationen zu MOF finden Sie auf der [Microsoft Operations Framework](http://www.microsoft.com/mof)-Website unter www.microsoft.com/mof. Weitere Informationen zur [Dienstverwaltungsfunktion „Sicherheitsverwaltung“](http://www.microsoft.com/technet/itsolutions/cits/mo/smf/mofsmsmf.mspx) finden Sie unter www.microsoft.com/technet/itsolutions/cits/mo/smf/mofsmsmf.mspx.
 
 Das Risikomanagement umfasst die Ermittlung eines akzeptablen Risikopotenzials für ein Unternehmen, die Bewertung der aktuellen Risiken, die Entwicklung von Methoden zum Erreichen des akzeptablen Risikopotenzials sowie die Verwaltung dieses Risikos. Wenngleich in diesem Dokument einige Risikomanagementkonzepte sowie einige Schritte zur Risikoabschätzung genannt werden, ist eine eingehende Behandlung des Risikomanagements ein Thema für sich und verdient somit spezielle Aufmerksamkeit. Weitere Informationen zur Risikoanalyse und -beurteilung finden Sie im [*Leitfaden zum Sicherheitsrisikomanagement*](http://go.microsoft.com/fwlink/?linkid=30794) unter http://go.microsoft.com/fwlink/?linkid=30794.
-[Zum Seitenanfang](#mainsection)  
 
+[Zum Seitenanfang](#mainsection)  
 
 
 ### Die Herausforderung für mittelgroße Unternehmen
@@ -149,7 +151,7 @@ Wie bereits erwähnt, werden Sicherheitsprotokolle häufig reaktiv bei forensisc
 
 Systemsicherheitsprotokollen gilt zwar das Hauptaugenmerk dieses Dokuments, doch bilden sie lediglich das Kernstück der Sicherheitsüberwachungs- und Angriffsermittlungsmethodik. Weitere zu berücksichtigende Aspekte schließen die Art der Identifizierung und Abhilfe hinsichtlich Systemen ein, die vorhandenen Sicherheitsrichtlinien nicht entsprechen oder auf denen empfohlene Patches gegen Sicherheitslücken nicht implementiert wurden. Die interne Netzwerkinfrastruktur sollte ebenfalls überwacht werden, was idealerweise Sicherheitsberichte zu Switchports (um zu verhindern, dass nicht verwaltete Systeme Zugriff auf das Netzwerk erhalten) und zur drahtlosen Sicherheitsüberwachung (um nicht autorisierte Verbindungen oder das Mitlesen des Datenverkehrs zu verhindern) einschließt. Viele dieser Überwachungsthemen gehen über den Rahmen dieses Dokuments hinaus, sollten aber in jeder ausgereiften Sicherheitsüberwachungslösung berücksichtigt werden.
 
-Implementieren der Sicherheitsüberwachung
+##### Implementieren der Sicherheitsüberwachung
 
 Die folgenden Unterabschnitte enthalten Informationen zu verschiedenen Implementierungsgesichtspunkten hinsichtlich eines Sicherheitsüberwachungssystems.
 
@@ -157,9 +159,10 @@ Windows-Sicherheitsereignisprotokollierung
 
 In allen Versionen von Microsoft Windows (Microsoft Windows NT® 3.1 und höher) können Sicherheitsereignisse anhand von integrierten Protokolldateifunktionen aufgezeichnet werden. In einer Microsoft Windows-basierten Umgebung bildet diese Funktion die Basis für die Sicherheitsüberwachung. Ohne zusätzliche Dienstprogramme oder Hilfsmittel zur Korrelation dieser Informationen gestaltet sich die proaktive Verwendung jedoch schwierig, da die Informationen verstreut sind.
 
+![](images/cc875806.smaad2(de-de,technet.10).gif)
 
-**Abbildung 2. Sicherheitsprotokoll in der Ereignisanzeige**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875806.smaad2_big(de-de,technet.10).gif)
+**Abbildung 2. Sicherheitsprotokoll in der Ereignisanzeige**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875806.smaad2_big(de-de,technet.10).gif)  
 Für das Sicherheitsereignisprotokoll (siehe Abbildung oben) wird ein benutzerdefiniertes Dateiformat zur Aufzeichnung von Sicherheitsüberwachungsdaten verwendet. Teile dieser Aufzeichnungen können zwar in einem Textbearbeitungsprogramm gelesen werden, doch ist ein geeignetes Programm wie die Ereignisanzeige notwendig, um alle in diesen Protokollen enthaltenen Informationen anzuzeigen. Die Sicherheitsereignisprotokolldatei (SecEvent.evt) befindet sich im Verzeichnis %systemroot%\System32\config. Der Zugriff auf die Ereignisprotokolle erfolgt stets über den Ereignisprotokolldienst, der Zugriffskontrolle für jedes Protokoll bietet.  Die Standardberechtigungen im Sicherheitsprotokoll sind im Vergleich zu anderen Protokollen im System sehr strikt. Standardmäßig können nur Administratoren auf das Sicherheitsprotokoll zugreifen.
 
 Es werden zwei Ereignistypen im Sicherheitsereignisprotokoll aufgezeichnet: Erfolgsüberwachungen und Fehlerüberwachungen. Erfolgsüberwachungsereignisse kennzeichnen von einem Benutzer, Dienst oder Programm erfolgreich durchgeführte Vorgänge. Fehlerüberwachungsereignisse betreffen Vorgänge, die nicht erfolgreich abgeschlossen wurden. Eine fehlgeschlagene Benutzeranmeldung ist ein Beispiel für ein Fehlerüberwachungsereignis und würde im Sicherheitsereignisprotokoll aufgezeichnet werden, sofern Anmeldungsüberwachungen aktiviert sind.
@@ -170,6 +173,7 @@ Interpretieren von Überwachungsereignissen
 
 Im gesamten Dokument wird genauer auf Überwachungsereignisse eingegangen, daher sind grundlegende Kenntnisse der Überwachungsereignisstruktur und der in Überwachungsereignissen enthaltenen Informationen wichtig.
 
+![](images/cc875806.smaad3(de-de,technet.10).gif)
 
 **Abbildung 3. Fenster „Ereigniseigenschaften“**
 
@@ -477,21 +481,22 @@ Die Bedrohungsmodellierung ist ein technisches Verfahren, mit dem Bedrohungen un
 Die Untersuchung einer Netzwerkumgebung aus der Sicht eines Angreifers umfasst die Ermittlung, welche Ziele am aussichtsreichsten für jemanden sind, der Zugriff auf ein Netzwerk erhalten möchte, und welche Bedingungen für einen erfolgreichen Angriff auf solche Ziele erfüllt sein müssen. Wenn potenziell anfällige Ziele erkannt wurden, kann die Umgebung hinsichtlich der Auswirkung von vorhandenen Schutzeinrichtungen auf die Angriffsbedingungen untersucht werden. Dieser Vorgang gibt Aufschluss über relevante Bedrohungen, die sich daraufhin entsprechend ihrem Risikopotenzial, den wirksamsten Abhilfemaßnahmen für die jeweilige Bedrohung sowie dem Maß der möglichen positiven oder negativen Auswirkungen auf andere Bereiche, die Einfluss auf den Wert der Abhilfemaßnahme haben könnten, einstufen lassen.
 
 Dementsprechend gibt es einige konkrete Schritte für eine erfolgreiche Netzwerkbedrohungsmodellierung, die auf diesen Anforderungen basieren:
-* **Identifizieren wichtiger Anlagen.**   Zur Ermittlung des geeignetsten Einsatzes von Sicherheitsressourcen gehört auch die Auflistung der Anlagen, die für den Geschäftsbetrieb von grundlegender Bedeutung sind. Dieser Vorgang sollte sowohl die Zuständigen für den Unternehmensprozess als auch für die Technologie einschließen, da beide Parteien relevante Ansichten darüber haben, welche Anlagen dem Unternehmen bei Kompromittierung Schaden zufügen könnten.
 
-* **Erkennen möglicher Angriffspunkte.**   Diese Erkennungsphase umfasst ebenfalls zwei unterschiedliche Perspektiven. Erstens ist es erforderlich, die Arten der Grenzen zu klassifizieren, innerhalb derer sich Daten im Netzwerk befinden können. Diese Grenzen gelten je nach dem potenziellen Schaden, der durch Offenlegung der entsprechenden Daten für den kritischen, vertraulichen oder öffentlichen Bereich entstehen könnte. Zweitens werden aus Technologieperspektive die Angriffspunkte anhand von Vektoren sowie Schwachpunkte, durch die Zugang zu kritischen und vertraulichen Anlagen ermöglicht werden könnte, untersucht. Die Kombination dieser Informationen kann dazu beitragen, Sicherheitsmaßnahmen auf solche Schwachpunkte zu konzentrieren, durch die auf kritische Daten zugegriffen werden könnte.
+1. **Identifizieren wichtiger Anlagen.**   Zur Ermittlung des geeignetsten Einsatzes von Sicherheitsressourcen gehört auch die Auflistung der Anlagen, die für den Geschäftsbetrieb von grundlegender Bedeutung sind. Dieser Vorgang sollte sowohl die Zuständigen für den Unternehmensprozess als auch für die Technologie einschließen, da beide Parteien relevante Ansichten darüber haben, welche Anlagen dem Unternehmen bei Kompromittierung Schaden zufügen könnten.
 
-* **Erkennen tatsächlicher Bedrohungen.**   Nachdem die kritischen Anlagen und potenziellen Zugriffspunkte erkannt wurden, kann eine Liste mit denkbaren schädlichen Angreiferaktionen angefertigt werden. Anhand dieser Liste lassen sich die Anstrengungen auf tatsächliche, konkrete Bedrohungen konzentrieren.
+2. **Erkennen möglicher Angriffspunkte.**   Diese Erkennungsphase umfasst ebenfalls zwei unterschiedliche Perspektiven. Erstens ist es erforderlich, die Arten der Grenzen zu klassifizieren, innerhalb derer sich Daten im Netzwerk befinden können. Diese Grenzen gelten je nach dem potenziellen Schaden, der durch Offenlegung der entsprechenden Daten für den kritischen, vertraulichen oder öffentlichen Bereich entstehen könnte. Zweitens werden aus Technologieperspektive die Angriffspunkte anhand von Vektoren sowie Schwachpunkte, durch die Zugang zu kritischen und vertraulichen Anlagen ermöglicht werden könnte, untersucht. Die Kombination dieser Informationen kann dazu beitragen, Sicherheitsmaßnahmen auf solche Schwachpunkte zu konzentrieren, durch die auf kritische Daten zugegriffen werden könnte.
 
-Es können verschiedene Methoden zur Identifizierung tatsächlicher Bedrohungen verwendet werden. Das STRIDE-Modell ist eine Methode, mit der Bedrohungen auf Basis der verwendbaren Angriffsarten untersucht werden (Spoofing, unerlaubte Änderungen, Zurückweisung, Offenlegung von Informationen, DoS und Erhöhung von Berechtigungen). Es gibt noch weitere Varianten, etwa das Unterteilen von Bedrohungen nach logischen Ebenen (z. B. Netzwerk, Host und Anwendung). Jedes Unternehmen muss selbst entscheiden, welcher Ansatz in einer konkreten Umgebung am sinnvollsten ist.
+3. **Erkennen tatsächlicher Bedrohungen.**   Nachdem die kritischen Anlagen und potenziellen Zugriffspunkte erkannt wurden, kann eine Liste mit denkbaren schädlichen Angreiferaktionen angefertigt werden. Anhand dieser Liste lassen sich die Anstrengungen auf tatsächliche, konkrete Bedrohungen konzentrieren.
 
-* **Kategorisieren und Einstufen von Bedrohungen.**   In diesem Schritt finden allgemeine Risikoabschätzungs- und Managementprinzipien Anwendung, anhand derer Bedrohungen auf Basis ihrer Verwendungswahrscheinlichkeit und ihrer potenziellen Auswirkungen auf ein Unternehmen eingestuft werden. Die verwendete Standardformel lautet:
+    Es können verschiedene Methoden zur Identifizierung tatsächlicher Bedrohungen verwendet werden. Das STRIDE-Modell ist eine Methode, mit der Bedrohungen auf Basis der verwendbaren Angriffsarten untersucht werden (Spoofing, unerlaubte Änderungen, Zurückweisung, Offenlegung von Informationen, DoS und Erhöhung von Berechtigungen). Es gibt noch weitere Varianten, etwa das Unterteilen von Bedrohungen nach logischen Ebenen (z. B. Netzwerk, Host und Anwendung). Jedes Unternehmen muss selbst entscheiden, welcher Ansatz in einer konkreten Umgebung am sinnvollsten ist.
 
-Risiko = Verwendungswahrscheinlichkeit x potenzielle Auswirkungen auf ein Unternehmen
+4. **Kategorisieren und Einstufen von Bedrohungen.**   In diesem Schritt finden allgemeine Risikoabschätzungs- und Managementprinzipien Anwendung, anhand derer Bedrohungen auf Basis ihrer Verwendungswahrscheinlichkeit und ihrer potenziellen Auswirkungen auf ein Unternehmen eingestuft werden. Die verwendete Standardformel lautet:
 
-Für diesen Prozess stehen mehrere Methoden sowie verschiedene Hilfsmittel zur Verfügung, die die Risikoabschätzung unterstützen. Auf sie genauer einzugehen würde jedoch den Rahmen dieses Dokuments sprengen. Weitere Informationen zum Risikomanagement sowie zu diesen Methoden finden Sie im [*Leitfaden zum Sicherheitsrisikomanagement*](http://go.microsoft.com/fwlink/?linkid=30794) unter http://go.microsoft.com/fwlink/?linkid=30794.
+    Risiko = Verwendungswahrscheinlichkeit x potenzielle Auswirkungen auf ein Unternehmen
 
-* **Abhilfe und Neubewertung.**   Nach Durchführung der bisherigen Schritte lässt sich eine Liste der tatsächlichen Bedrohungen erstellen, die sich auf das Unternehmen auswirken könnten, und diese Bedrohungen können entsprechend ihren Risiken für das Unternehmen eingestuft werden. Anhand solch einer Liste sind gezielte Abhilfemaßnahmen möglich, die wiederum hinsichtlich ihres Kosten-Nutzen-Verhältnisses bewertet werden sollten. Es können sich mehrere unterschiedliche Arten der Risikominderung als geeignet erweisen, von denen einige möglicherweise weitere Sicherheitsanfälligkeiten berücksichtigen, was dann zu einer weiteren Erhöhung der Effizienz derartiger Sicherheitsmaßnahmen führt.
+    Für diesen Prozess stehen mehrere Methoden sowie verschiedene Hilfsmittel zur Verfügung, die die Risikoabschätzung unterstützen. Auf sie genauer einzugehen würde jedoch den Rahmen dieses Dokuments sprengen. Weitere Informationen zum Risikomanagement sowie zu diesen Methoden finden Sie im [*Leitfaden zum Sicherheitsrisikomanagement*](http://go.microsoft.com/fwlink/?linkid=30794) unter http://go.microsoft.com/fwlink/?linkid=30794.
+
+5. **Abhilfe und Neubewertung.**   Nach Durchführung der bisherigen Schritte lässt sich eine Liste der tatsächlichen Bedrohungen erstellen, die sich auf das Unternehmen auswirken könnten, und diese Bedrohungen können entsprechend ihren Risiken für das Unternehmen eingestuft werden. Anhand solch einer Liste sind gezielte Abhilfemaßnahmen möglich, die wiederum hinsichtlich ihres Kosten-Nutzen-Verhältnisses bewertet werden sollten. Es können sich mehrere unterschiedliche Arten der Risikominderung als geeignet erweisen, von denen einige möglicherweise weitere Sicherheitsanfälligkeiten berücksichtigen, was dann zu einer weiteren Erhöhung der Effizienz derartiger Sicherheitsmaßnahmen führt.
 
 
 Auch nach Umsetzung eines Abhilfeplans bleibt die Methode der Bedrohungsmodellierung ein iterativer Prozess, der in regelmäßigen Abständen und unter kontinuierlicher Neubewertung durchgeführt werden sollte, um sicherzustellen, dass Sicherheitsmaßnahmen so effektiv und umfassend wie möglich sind.
@@ -566,7 +571,7 @@ Viele Angriffe von internen Quellen ließen sich laut Untersuchungen vom CERT un
 
 Das Personal eines Unternehmens kann eine wichtige „Schutzschicht“ gegen interne und externe Bedrohungen bilden. Richtlinien, die zum Melden von beunruhigenden Verhaltensweisen von Kollegen ermutigen, sowie die Sensibilisierung des Supportpersonals, alle Meldungen über ungewöhnliche Computeraktivitäten von Mitarbeitern ernst zu nehmen, können in erheblichem Maß zur Minderung von Einbruchsversuchen oder Malwarevorfällen beitragen. Internes Training stellt ebenfalls eine wichtige Methode zur Unterrichtung von Mitarbeitern über die Erkennung jener Arten von Computerverhalten dar, die gemeldet werden sollten. Training dient außerdem als eine Vorbeugungsmaßnahme gegen Social-Engineering-Angriffe.
 
-Korrelieren von Sicherheitsrichtlinienverletzungen mit Überwachungsereignissen
+#### Korrelieren von Sicherheitsrichtlinienverletzungen mit Überwachungsereignissen
 
 Die Korrelation von Sicherheitsereignisdaten umfasst das Erfassen von Sicherheitsereignissen aus mehreren Systemen und die Aufbewahrung dieser Daten an sicherer zentraler Stelle. Nach der Korrelation von Sicherheitsdaten kann das zuständige Personal diese zentrale Datenbank analysieren, um Sicherheitsverletzungen oder externe Angriffe zu erkennen. Die Datenbank spielt nicht nur für forensische Analysen eine wichtige Rolle, sie ist auch ein Hilfsmittel zum Erkennen von Angriffen und Sicherheitsanfälligkeiten. Es gibt für diesen Zweck verschiedene Lösungen von Drittanbietern. Die folgenden Produkte und Tools von Microsoft unterstützen diese Notwendigkeit durch Korrelation von Sicherheitsereignisprotokollen und anderen Sicherheitsüberwachungsdaten in einer zentralen Datenbank.
 
@@ -583,10 +588,10 @@ EventCombMT (Multithread) ist eine Komponente des [*Windows Server 2003-Sicherh
 
 * Ereignisalter in Minuten, Stunden oder Tagen
 
+![](images/cc875806.smaad4(de-de,technet.10).gif)
 
-
-**Abbildung 4. EventCombMT**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875806.smaad4_big(de-de,technet.10).gif)
+**Abbildung 4. EventCombMT**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875806.smaad4_big(de-de,technet.10).gif)  
 Bestimmte Suchkategorien sind in EventCombMT integriert, z. B. Kontensperrungen (siehe Abbildung oben), wodurch Suchfunktionalität für die folgenden Ereignisse gegeben ist:
 * **529.**   Anmeldefehler (Benutzername oder Kennwort ungültig)
 
@@ -614,7 +619,9 @@ Dieses befehlszeilenbasierte Scripting-Tool kann als eine Ressource zur Korrelat
 EventQuery.vbs
 
 EventQuery.vbs ist ein Tool, das mit Windows XP veröffentlicht wurde. Es kann zur Auflistung von Ereignissen und Ereigniseigenschaften aus einem oder mehreren Ereignisprotokollen verwendet werden. Zur Nutzung dieses Skripts muss der befehlsbasierte Skripthost (CScript.exe) ausgeführt werden. Wurde der standardmäßige Windows Script Host nicht auf CScript eingestellt, können Sie dies durch Ausführen des folgenden Befehls tun:
-Cscript //h:cscript //s //nologo
+
+`Cscript //h:cscript //s //nologo`
+
 Dieses befehlszeilenbasierte Skriptdienstprogramm ist äußerst flexibel und kann eine Vielzahl verschiedener Parameter zur Anpassung der Filterung und des Formats für die Ausgabe verarbeiten. Weitere Informationen zur Verwendung dieses Tools und zu den verfügbaren Parametern finden Sie auf der Seite [Managing event logs from the Command Line](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/event_commandline.mspx?mfr=true) (Ereignisprotokollverwaltung in der Befehlszeile; in englischer Sprache) in der Windows XP Professional-Produktdokumentation unter www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/event_commandline.mspx?mfr=true.
 
 Internetinformationsdienst-Protokollierung
@@ -641,9 +648,10 @@ Microsoft Internet Security &amp; Acceleration (ISA) Server ist ein erweitertes 
 
 Neben dem Dienstprogramm für aktiven Schutz bietet ISA eine Sicherheitsüberwachungsfunktion, die durch die Nutzbarkeit als zentralisiertes Protokollierungstool für die Überwachung aller im Umkreis eines Netzwerks auftretenden Aktivitäten gegeben ist. Die Protokollierungsfunktionen in ISA Server schließen die Möglichkeit ein, Firewallverkehr, Webproxyaktivitäten und SMTP-Nachrichtenüberwachungsprotokolle zu erfassen. Diese Protokolle können gefiltert, abgefragt und anhand der integrierten Protokollanzeige (siehe Abbildung unten) oder des Überwachungsdashboards in Echtzeit überwacht werden.
 
+![](images/cc875806.smaad5(de-de,technet.10).gif)
 
-**Abbildung 5. Echtzeit-Protokollanzeige in Microsoft ISA Server 2004**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875806.smaad5_big(de-de,technet.10).gif)
+**Abbildung 5. Echtzeit-Protokollanzeige in Microsoft ISA Server 2004**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875806.smaad5_big(de-de,technet.10).gif)  
 Neben der integrierten Protokollierungsfunktionalität verfügt ISA Server über eine Funktion, die Warnungen per E-Mail oder als Einträge im Ereignisprotokoll ausgeben und Dienste starten oder stoppen kann. Die Möglichkeit, verdächtige Aktivitäten in das Ereignisprotokoll aufzunehmen, ist in Hinblick auf das Thema dieses Dokuments besonders hilfreich. Mit ihr können Daten zu möglichen Angriffen aufgezeichnet und zusammen mit anderen Überwachungsereignisprotokolldaten an zentraler Stelle gespeichert werden.
 
 Neben diesen Protokollierungs- und Warnfunktionalitäten steht ein integriertes Tool zur Einbruchserkennung zur Verfügung, das in ISA Server aktiviert werden kann. Diese grundlegenden Einbruchserkennungsdienste werden unter Lizenz von Internet Security Systems verwendet und umfassen mehrere Filter für IP-Pakete und DNS-Anwendungen sowie einen POP-Anwendungsfilter. Mit diesen Diensten lassen sich viele häufig auftretende Angriffe erkennen.
@@ -949,11 +957,15 @@ Das zur Einstellung der Richtlinie zur selektiven Überwachung einzelner Benutze
 Wird Auditusr.exe ohne Parameter auf der Befehlszeile ausgeführt, werden die aktuellen selektiven Überwachungseinstellungen angezeigt, die anfangs leer sind. Die Parameter können auf zwei Arten festgelegt werden: manuelle Eingabe von Befehlszeilenparametern für einzelne Benutzer oder Eingabe mehrerer Parameter durch Importieren einer entsprechenden Überwachungseinstellungsdatei.
 
 Audituser.exe wird folgendermaßen verwendet:
-Audituser.exe /parameter useraccount:”kategorie”
+
+`Audituser.exe /parameter useraccount:”kategorie”`
+
 (oder eine durch Kommata getrennte Liste von Kategorien).
 
 Um beispielsweise die Fehlerüberwachung bei Systemereignissen und Anmelde-/Abmeldeereignissen des Kontos „LocalUser“ zu aktivieren, ist die folgende Befehlszeileneingabe erforderlich:
-Audituser /if LocalUser:”Systemereignis”,”An-/Abmeldung”
+
+`Audituser /if LocalUser:”Systemereignis”,”An-/Abmeldung”`
+
 Die folgenden Parameter können in der Befehlszeile verwendet werden:
 * **/is** – Eintrag zum Erfolgseinschluss hinzufügen oder ändern
 
@@ -974,13 +986,16 @@ Die folgenden Parameter können in der Befehlszeile verwendet werden:
 
 Bei einer Überwachungseinstellungsdatei für einzelne Benutzer handelt es sich um eine reine Textdatei, für die das in der folgenden Abbildung dargestellte Format verwendet wird.
 
+![](images/cc875806.smaad6(de-de,technet.10).gif)
 
 **Abbildung 6. Beispiel für eine Importdatei für Auditusr.exe**
 
 **Hinweis**   Für einen erfolgreichen Import muss die Importdatei wie abgebildet mit der Zeile „Auditusr 1.0“ beginnen.
 
 Zum Importieren der in der Abbildung oben dargestellten Überwachungseinstellungsdatei wäre daher die folgende Befehlseingabe erforderlich:
-Audituser /i path\audit.txt
+
+`Audituser /i path\audit.txt`
+
 Sie können dieses Dienstprogramm beim Festlegen von Schwellwerten für Überwachungsprotokollierungsdaten nutzen, wodurch sich der Speicherbedarf reduzieren und die Erkennungswahrscheinlichkeit bei Einbruchsversuchen erhöhen lässt.
 
 Korrelation zwischen Sicherheitsrichtlinienverletzungen und Überwachungsereignissen
@@ -2533,29 +2548,29 @@ Nicht autorisierte Sicherheitsrichtlinienänderungen
 
 Diese Art der Sicherheitsrichtlinienänderung umfasst Folgendes:
 * Gruppenrichtlinieneinstellungen
-* Benutzerkontokennwortrichtlinie
+    - Benutzerkontokennwortrichtlinie
 
-* Benutzerkontensperrrichtlinie
+    - Benutzerkontensperrrichtlinie
 
-* Überwachungsrichtlinie
+    - Überwachungsrichtlinie
 
-* Ereignisprotokolleinstellungen, die für das Sicherheitsereignisprotokoll gelten
+    - Ereignisprotokolleinstellungen, die für das Sicherheitsereignisprotokoll gelten
 
-* IPsec-Richtlinie
+    - IPsec-Richtlinie
 
-* Richtlinien für drahtlose Netzwerke (IEEE 802.1x)
+    - Richtlinien für drahtlose Netzwerke (IEEE 802.1x)
 
-* Richtlinien für öffentliche Schlüssel und EFS (Encrypting File System)
+    - Richtlinien für öffentliche Schlüssel und EFS (Encrypting File System)
 
-* Richtlinien für Softwareeinschränkungen
+    - Richtlinien für Softwareeinschränkungen
 
 
 * Sicherheitseinstellungen
-* Einstellungen für Benutzerrechte
+    - Einstellungen für Benutzerrechte
 
-* Benutzerkontokennwortrichtlinie
+    - Benutzerkontokennwortrichtlinie
 
-* Sicherheitsoptionen
+    - Sicherheitsoptionen
 
 
 
@@ -3417,6 +3432,7 @@ Es gibt drei Hauptfaktoren, nach denen der Speicherbedarf für ein Programm für
 
 
 Ein Verständnis des Geschäftsbedarfs sowie die in den vorherigen Abschnitten enthaltenen Informationen dürften für die Bestimmung dieser drei Faktoren hilfreich sein, so dass ein angemessener Speicherbedarf ermittelt werden kann.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -3851,6 +3867,7 @@ Diese Ereignisse betreffen nicht die Sicherheit.
 
 
 **Hinweis**   Der Ausschluss von Informationen aus der Überwachung ist mit einigen Risiken verbunden, doch sollte dieses Risiko mit den Vorteilen verglichen werden, die die Auslastungsreduzierung für einen Analyse-Agent bringt.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -4345,7 +4362,3 @@ Aktivieren Sie in Hochsicherheitsumgebungen die Einstellung „Ereignisse nicht 
 [Dokument „Sicherheitsüberwachung und Angriffsermittlung“ herunterladen](http://go.microsoft.com/fwlink/?linkid=71717)
  
 [Zum Seitenanfang](#mainsection)
-
-
-
-
