@@ -670,17 +670,19 @@ Microsoft bietet zahlreiche Technologien zur Erfüllung der Identitätsverwaltun
 **Microsoft Active Directory**. Active Directory unterstützt zahlreiche Technologien, mit denen Sie steuern können, welche Mitarbeiter auf Karteninhaberdaten innerhalb und außerhalb Ihres Netzwerks zugreifen können. Erstens unterstützt Active Directory die Kerberos-Authentifizierung, eine der Standard-Authentifizierungs-techniken von Windows. Kerberos bietet eine sichere Benutzerauthentifizierung mit einem Industriestandard, der Interoperabilität zulässt. Der Active Directory-Domänencontroller verwaltet Benutzerkonten- und Anmeldeinformationen, um den Kerberos-Dienst zu unterstützen. Zweitens unterstützt Active Directory die Smartcard-Authentifizierung. Sie können festlegen, dass Remotebenutzer oder Administratoren von Systemen mit Karteninhaberdaten nur mit einer Smartcard und einer PIN auf Ihr Netzwerk zugreifen können. Außerdem unterstützt Active Directory die Serverspeicherung von Anmeldeinformationen, einen Dienst, der es Benutzern ermöglicht, beim Zugriff auf mehrere Computer stets dieselben Anmeldeinformati-onen zu verwenden. Zudem können Sie mit Active Directory die Anmeldeinformati-onsanbieter anpassen, die zur Authentifizierung der Benutzer verwendet werden. Mit diesen Funktionen können Sie die Zugriffsweise von Active Directory-Konten auf Karteninhaberdaten bis ins Detail steuern und Zugriffsrechte für diese Daten gezielt an ausgewählte Konten vergeben.
 
 </li>
+<br/>
 Weitere Informationen finden Sie im Technologiecenter für Server 2003 Active Directory unter <http://www.microsoft.com/windowsserver2003/technologies/directory/activedirectory/default.mspx> (möglicherweise in englischer Sprache).  
-
+<br/><br/>
 <li>
 
 **Microsoft Active Directory Federation Services**. Mit Active Directory Federation Services (ADFS) können Sie Identitätsverwaltungslösungen erstellen, die über die traditionellen Grenzen Ihrer Active Directory-Struktur hinausgehen. ADFS ermöglicht es Ihrem Unternehmen, seine bestehende Active Directory-Infrastruktur zu erweitern und Zugriff auf Ressourcen zu bieten, die von vertrauenswürdigen Partnern über das Internet angeboten werden. Diese vertrauenswürdigen Partner können zum Beispiel Drittanbieter oder andere Abteilungen oder Niederlassungen innerhalb des gleichen Unternehmens sein.
 
+<br/>
 </li>
-ADFS ist eng in Active Directory integriert. Benutzerattribute werden von Active Directory abgerufen und Benutzer mit Active Directory authentifiziert. ADFS verwendet zudem die integrierte Windows-Authentifizierung. Die Anwendung ist unter den Betriebssystemen Windows Server 2003 R2 und Windows Server „Longhorn“ verfügbar.
+ADFS ist eng in Active Directory integriert. Benutzerattribute werden von Active Directory abgerufen und Benutzer mit Active Directory authentifiziert. ADFS verwendet zudem die integrierte Windows-Authentifizierung. Die Anwendung ist unter den Betriebssystemen Windows Server 2003 R2 und Windows Server „Longhorn“ verfügbar.<br/>
 
 Weitere Informationen finden Sie in der Übersicht über Active Directory Federation Services (ADFS) in Windows Server 2003 R2 unter [http://www.microsoft.com/WindowsServer2003/R2/Identity\_Management/ADFSwhitepaper.mspx](http://www.microsoft.com/windowsserver2003/r2/identity_management/adfswhitepaper.mspx) (möglicherweise in englischer Sprache).
-
+<br/><br/>
 <li>
 
 **Microsoft Identity Lifecycle Manager**. Microsoft Identity Lifecycle Manager (ILM) vereinfacht das Zuordnen und Verwalten von Identitätsdatensätzen aus unterschiedlichen Datenrepositorys und verhindert Anomalien wie aktive Datensätze für Mitarbeiter, die aus dem Unternehmen ausgeschieden sind. ILM bietet Ihrem Unternehmen ein Richtlinienframework, mit dem Sie die Identität und den Datenzugriff kontrollieren und verfolgen können, um die Anforderungen zu erfüllen. Die Lösung umfasst zudem Selbsthilfetools für Endbenutzer, mit denen Sie die Effizienz Ihrer IT-Abteilung steigern können, da sich zahlreiche Aufgaben sicher an Endbenutzer übertragen lassen. Eine weitere wichtige Funktion von ILM ist die integrierte Windows-basierte Zertifikatverwaltungslösung, die sich in Windows Server 2003 und Active Directory integrieren lässt, um eine Komplettlösung zur Verwaltung des gesamten Lebenszyklus von Smartcards und digitalen Zertifikaten für die Zertifizierungsstelle von Windows Server 2003 zu bieten.
