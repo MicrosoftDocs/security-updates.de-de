@@ -256,24 +256,29 @@ Microsoft bietet eine Reihe von Technologien, die Sie zusammen oder einzeln zum 
 **Microsoft Baseline Security Analyzer (MBSA)**. MBSA ist eins der primären Tools zur Risikobewertung für Karteninhaberdaten in Ihrem Unternehmen. Das einfach anzuwendende Tool ermöglicht die Ermittlung gängiger fehlerhafte Sicherheitskonfi-gurationen in einigen Microsoft-Produkten. Zu den unterstützten Produkten zählen Microsoft Windows-Betriebssysteme, Internetinformationsdienste (Internet Information Services, IIS), SQL Server™, Microsoft Internet Explorer® und Microsoft Office. MBSA sucht außerdem nach fehlenden Sicherheitsupdates, Update-Rollups und Service Packs, die unter Microsoft Update veröffentlicht wurden. Sie können MBSA über die Eingabeaufforderung oder in der eigenen GUI ausführen und zusammen mit Microsoft Update und Microsoft Windows Server® Update Services verwenden. Da es extrem wichtig ist, Ihre Systeme auf dem aktuellen Stand zu halten, um Karteninhaberdaten so gut wie möglich zu schützen, kann MBSA bei der Bewertung von Sicherheitsrisiken im Unternehmen von unschätzbarem Wert sein.
 
 </li>
+<br/>
 <li>
 Weiterte Informationen zu MBSA finden Sie auf der Website von Microsoft Baseline Security Analyzer unter <http://www.microsoft.com/technet/security/tools/mbsahome.mspx> (möglicherweise in englischer Sprache).
 
 </li>
+<br/>
 <li>
 
 **Microsoft Systems Management Server**. Wenn Ihr Unternehmen Clientcomputer und -server mit Microsoft Systems Management Server (SMS) verwaltet, besitzen Sie möglicherweise bereits einige der Tools zur Bewertung des Sicherheitsrisikos für Karteninhaberdaten. Mit SMS können Sie Sicherheitseinstellungen in verteilten Netzwerken auf Computern mit Windows-Betriebssystemen remote verwalten. Sie können feststellen, ob Computer in Ihrem Netzwerk erforderliche Softwareupdates installiert haben, und den Status von Update-Rollouts an diese Computer verfolgen. Mithilfe von SMS können Sie zudem Berichte über Ihren gesamten Hardware- und Softwarebestand, Konfigurationsdetails und den Status von Netzwerkcomputern, Softwarebereitstellungen und Bereitstellungsfehlern generieren. Diese SMS-Funktionen können bei der Ermittlung des Risikos für Karteninhaberdaten innerhalb des Unternehmens eine große Rolle spielen.
 
 </li>
+<br/>
 <li>
 Weitere Informationen zu SMS finden Sie auf der Homepage von Microsoft Systems Management Server unter <http://www.microsoft.com/smserver/default.mspx> (möglicherweise in englischer Sprache).
 
 </li>
+<br/>
 <li>
 
 **Microsoft System Center Operations Manager – Überwachungssammlung**. Operations Manager 2007 kann Sicherheitsprotokolle sicher und effektiv aus Windows-Betriebssystemen extrahieren, sammeln und für spätere Analyse- und Berichtszwecke speichern. Die extrahierten Protokolle werden in einer separaten Überwachungssammlungsdatenbank gespeichert. Im Lieferumfang von Operations Manager sind Berichte für Überwachungssammlungsdaten enthalten. Mithilfe der Überwachungssammlung können verschiedene Kompatibilitätsberichte beispielsweise für Sarbanes-Oxley-Prüfungen erstellt werden. Zudem sind damit Sicherheitsanalysen wie die Angriffserkennung und unbefugte Zugriffsversuche möglich.
 
 </li>
+<br/>
 <li>
 Weitere Informationen finden Sie im Abschnitt über Überwachungssammlungs-dienste unter <http://technet.microsoft.com/en-us/library/bb381258.aspx> (möglicherweise in englischer Sprache).
 
@@ -282,13 +287,17 @@ Weitere Informationen finden Sie im Abschnitt über Überwachungssammlungs-diens
 
 **Windows Server Update Services**. Mithilfe von Windows Server Update Services (WSUS) mit Service Pack 1 kann Ihr Unternehmen viele der neuesten Microsoft-Produktupdates bereitstellen, die auf der Microsoft Update-Website veröffentlicht werden. WSUS ist eine Updatekomponente von Windows Server, die einen schnellen und effektiven Weg bietet, um Systeme auf dem aktuellen Stand zu halten. Sie erhalten damit eine Infrastruktur zur Risikobewertung mit folgenden Komponenten:
 
--   **Microsoft Update**. Die Microsoft-Website, von der WSUS-Komponenten Microsoft-Produktupdates herunterladen.
+<ul style="list-style-type:circle">
 
--   **Windows Server Update Services-Server**.  Die Serverkomponente, die innerhalb der Unternehmensfirewall auf einem Computer mit Microsoft Windows 2000 Server mit Service Pack 4 (SP4) oder dem Betriebssystem Windows Server 2003 installiert wird. Der Windows Server Update Services-Server bietet Administratoren die erforderlichen Funktionen zum Verwalten und Verteilen von Updates mit einem webbasierten Tool, auf das von jedem Windows-Computer innerhalb des Unternehmensnetzwerks über Internet Explorer zugegriffen werden kann. Darüber hinaus kann ein Windows Server Update Services-Server als Updatequelle für andere Windows Server Update Services-Server dienen.
-
--   **Automatische Updates**. Die Clientcomputerkomponente, die in die Microsoft-Betriebssysteme Windows Vista, Windows Server 2003, Windows XP und Windows 2000 mit Service Pack 3 integriert ist. Mithilfe von automatischen Updates können Server- und Clientcomputer Updates von Microsoft Update oder einem Windows Server Update Services-Server empfangen.
+<li>   <strong>Microsoft Update</strong>. Die Microsoft-Website, von der WSUS-Komponenten Microsoft-Produktupdates herunterladen.</li>
+<br/>
+<li>   <strong>Windows Server Update Services-Server</strong>.  Die Serverkomponente, die innerhalb der Unternehmensfirewall auf einem Computer mit Microsoft Windows 2000 Server mit Service Pack 4 (SP4) oder dem Betriebssystem Windows Server 2003 installiert wird. Der Windows Server Update Services-Server bietet Administratoren die erforderlichen Funktionen zum Verwalten und Verteilen von Updates mit einem webbasierten Tool, auf das von jedem Windows-Computer innerhalb des Unternehmensnetzwerks über Internet Explorer zugegriffen werden kann. Darüber hinaus kann ein Windows Server Update Services-Server als Updatequelle für andere Windows Server Update Services-Server dienen.</li>
+<br/>
+<li>   <strong>Automatische Updates</strong>. Die Clientcomputerkomponente, die in die Microsoft-Betriebssysteme Windows Vista, Windows Server 2003, Windows XP und Windows 2000 mit Service Pack 3 integriert ist. Mithilfe von automatischen Updates können Server- und Clientcomputer Updates von Microsoft Update oder einem Windows Server Update Services-Server empfangen.</li>
+</ul>
 
 </li>
+<br/>
 Diese Dienste bieten Ihnen die Möglichkeit, allen Hostumgebungen in Ihrem Netzwerk den jeweils neuesten Sicherheitsfix von Microsoft für die auf dem gegebenen Host installierten Produkte bereitzustellen.  
 
 Weitere Informationen finden Sie auf der Homepage von Windows Server Update Services unter <http://www.microsoft.com/windowsserversystem/updateservices/default.mspx> (möglicherweise in englischer Sprache).
@@ -300,19 +309,24 @@ Weitere Informationen finden Sie auf der Homepage von Windows Server Update Serv
 </li>
 Zum Verwalten der Einstellungen der Gruppenrichtlinien kann die Gruppenrichtlinien-Verwaltungskonsole von Microsoft (GPMC) verwendet werden. Die GPMC bietet einen Ort für die Verwaltung der Kernaspekte von Gruppenrichtlinien und vereinfacht damit den Prozess. Sie erfüllt gemäß den Kundenansprüchen die höchsten Anforderungen für die Bereitstellung von Gruppenrichtlinien und bietet Folgendes:
 
--   Eine Benutzeroberfläche, die die Verwendung von Gruppenrichtlinien deutlich vereinfacht
+<ul style="list-style-type:circle">
 
--   Die Fähigkeit zum Sichern und Wiederherstellen von GPOs
-
--   Die Fähigkeit zum Importieren, Exportieren, Kopieren und Einfügen von GPOs und Filtern für die Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)
-
--   Eine vereinfachte Möglichkeit zum Verwalten der Sicherheit hinsichtlich Gruppenrichtlinien
-
--   Die Fähigkeit, HTML-Berichte für GPO-Einstellungen und die Daten des Richtlinienergebnissatzes (Resultant Set of Policy, RSoP) zu generieren
-
--   Die Fähigkeit zum Schreiben und Ausführen von Skripts für GPO-Operationen, die von der GPMC zur Verfügung gestellt werden (Einstellungen innerhalb eines GPO können jedoch nicht in ein Skript geschrieben werden)
+<li>   Eine Benutzeroberfläche, die die Verwendung von Gruppenrichtlinien deutlich vereinfacht</li>
+<br/>
+<li>   Die Fähigkeit zum Sichern und Wiederherstellen von GPOs</li>
+<br/>
+<li>   Die Fähigkeit zum Importieren, Exportieren, Kopieren und Einfügen von GPOs und Filtern für die Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)</li>
+<br/>
+<li>   Eine vereinfachte Möglichkeit zum Verwalten der Sicherheit hinsichtlich Gruppenrichtlinien</li>
+<br/>
+<li>   Die Fähigkeit, HTML-Berichte für GPO-Einstellungen und die Daten des Richtlinienergebnissatzes (Resultant Set of Policy, RSoP) zu generieren</li>
+<br/>
+<li>   Die Fähigkeit zum Schreiben und Ausführen von Skripts für GPO-Operationen, die von der GPMC zur Verfügung gestellt werden (Einstellungen innerhalb eines GPO können jedoch nicht in ein Skript geschrieben werden)</li>
+</ul>
 
 </ul>
+
+Weitere Informationen finden Sie in den Windows Server 2003-Gruppenrichtlinien unter [http://technet2.microsoft.com/windowsserver/en/technologies/featured/gp/default.mspx](http://technet2.microsoft.com/windowsserver/en/technologies/featured/gp/default.mspx) und in der Einführung in die Gruppenrichtlinien-Verwaltungskonsole unter [http://www.microsoft.com/windowsserver2003/gpmc/gpmcintro.mspx](https://www.microsoft.com/windowsserver2003/gpmc/gpmcintro.mspx) (möglicherweise in englischer Sprache).
 
 #### Änderungsmanagement
 
@@ -674,11 +688,14 @@ Weitere Informationen finden Sie in der Übersicht über Active Directory Federa
 </li>
 ILM bietet Ihrem Unternehmen folgende Vorteile:
 
--   Synchronisieren von Identitätsdaten in verschiedenen heterogenen Identitätsspeichern mit und ohne Verzeichnissen. Auf diese Weise können Sie Identitätsinformationen auf unterschiedlichen Plattformen automatisch aktualisieren und gleichzeitig die Integrität und Besitzrechte an diesen Daten im gesamten Unternehmen aufrecht erhalten.
+<ul style="list-style-type:circle">
 
--   System- und plattformübergreifendes Bereitstellen und Entfernen von Benutzerkonten und Identitätsinformationen beispielsweise für Verteilung, E-Mail-Konten und Sicherheitsgruppen. Neue Konten für Mitarbeiter können bei Ereignissen oder Änderungen schnell in autorisierenden Speichern wie dem Personalsystem erstellt werden. Außerdem können aus dem Unternehmen ausgeschiedene Mitarbeiter sofort aus diesen Systemen entfernt werden.
-
--   Verwalten von Zertifikaten und Smartcards. ILM umfasst eine workflow- und richtlinienbasierte Lösung zur einfachen Verwaltung des Lebenszyklus digitaler Zertifikate und Smartcards durch Unternehmen. Dabei werden Active Directory-Dienste und Active Directory-Zertifikatdienste genutzt, um digitale Zertifikate und Smartcards bereitzustellen und mithilfe eines automatischen Workflows den gesamten Lebenszyklus von zertifikatbasier-ten Anmeldeinformationen zu verwalten. ILM senkt dank der effizienten Bereitstellung, Verwaltung und Pflege einer zertifikatbasierten Infrastruktur deutlich die mit digitalen Zertifikaten und Smartcards verbundenen Kosten eines Unternehmens. Zudem wird die Bereitstellung, Konfiguration und Verwaltung von digitalen Zertifikaten und Smartcards optimiert und gleichzeitig der Schutz durch eine sichere mehrstufige Authentifizierungstechnologie erhöht.
+<li>   Synchronisieren von Identitätsdaten in verschiedenen heterogenen Identitätsspeichern mit und ohne Verzeichnissen. Auf diese Weise können Sie Identitätsinformationen auf unterschiedlichen Plattformen automatisch aktualisieren und gleichzeitig die Integrität und Besitzrechte an diesen Daten im gesamten Unternehmen aufrecht erhalten.</li>
+<br/>
+<li>   System- und plattformübergreifendes Bereitstellen und Entfernen von Benutzerkonten und Identitätsinformationen beispielsweise für Verteilung, E-Mail-Konten und Sicherheitsgruppen. Neue Konten für Mitarbeiter können bei Ereignissen oder Änderungen schnell in autorisierenden Speichern wie dem Personalsystem erstellt werden. Außerdem können aus dem Unternehmen ausgeschiedene Mitarbeiter sofort aus diesen Systemen entfernt werden.</li>
+<br/>
+<li>   Verwalten von Zertifikaten und Smartcards. ILM umfasst eine workflow- und richtlinienbasierte Lösung zur einfachen Verwaltung des Lebenszyklus digitaler Zertifikate und Smartcards durch Unternehmen. Dabei werden Active Directory-Dienste und Active Directory-Zertifikatdienste genutzt, um digitale Zertifikate und Smartcards bereitzustellen und mithilfe eines automatischen Workflows den gesamten Lebenszyklus von zertifikatbasier-ten Anmeldeinformationen zu verwalten. ILM senkt dank der effizienten Bereitstellung, Verwaltung und Pflege einer zertifikatbasierten Infrastruktur deutlich die mit digitalen Zertifikaten und Smartcards verbundenen Kosten eines Unternehmens. Zudem wird die Bereitstellung, Konfiguration und Verwaltung von digitalen Zertifikaten und Smartcards optimiert und gleichzeitig der Schutz durch eine sichere mehrstufige Authentifizierungstechnologie erhöht.</li>
+</ul>
 
 Weitere Informationen finden Sie auf der Homepage von Microsoft Identity Lifecycle Manager unter <http://www.microsoft.com/windowsserver/ilm2007/default.mspx> (möglicherweise in englischer Sprache).  
 
