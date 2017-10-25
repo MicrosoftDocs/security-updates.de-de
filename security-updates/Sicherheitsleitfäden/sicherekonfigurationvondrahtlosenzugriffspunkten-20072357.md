@@ -1188,7 +1188,7 @@ Gemeinsam auf Domänencontroller platziert
 
 <td style="border:1px solid black;">
 
-<strong>&#x2022;</strong> Leistung von Authentifizierung und Autorisierung für Benutzer und Computer steigt
+<strong>&#x2022;</strong> Leistung von Authentifizierung und Autorisierung für Benutzer und Computer steigt<br/>
 
 <strong>&#x2022;</strong> Verringert die Anforderungen an zusätzliche Serverhardware
 
@@ -1197,7 +1197,7 @@ Gemeinsam auf Domänencontroller platziert
 
 <td style="border:1px solid black;">
 
-<strong>&#x2022;</strong> Keine Trennung der administrativen IAS-Gruppen von Domänenadministratoren
+<strong>&#x2022;</strong> Keine Trennung der administrativen IAS-Gruppen von Domänenadministratoren<br/>
 
 <strong><strong>&#x2022;</strong></strong> Keine inhärente Trennung von Problemen mit Fehlern oder Leistung, die auf gemeinsam gehostete Dienste zurückzuführen sind
 
@@ -1217,7 +1217,7 @@ Unabhängige IAS-Server
 
 <td style="border:1px solid black;">
 
-<strong>&#x2022;</strong> Trennung der IAS-Verwaltung von den Domänenadministratoren
+<strong>&#x2022;</strong> Trennung der IAS-Verwaltung von den Domänenadministratoren<br/>
 
 <strong>&#x2022;</strong> IAS-Last und -Verhalten beeinträchtigt nicht den Domänencontroller
 
@@ -3219,16 +3219,16 @@ sysocmgr /i:sysoc.inf
 4. Lassen Sie die Einstellungen im Dialogfeld **Öffentlich-privates Schlüsselpaar** unverändert bei den Standardwerten mit Ausnahme des Feldes **Schlüssellänge**, in dem der Wert **4096** eingegeben werden sollte, und des **Anbietertyps**, in dem die Einstellung **Microsoft Strong Cryptographic Provider** festgelegt werden sollte.
 
 5. Geben Sie die Erkennungsdaten der Zertifizierungsstelle ein, die Sie in der vorbereitenden Phase für die folgenden Felder gesammelt haben:
+
     - Allgemeiner Name der Zertifizierungsstelle:
 
     - Suffix des definierten Namens:
 
     - Gültigkeitsdauer: 8 Jahre
 
+Zu diesem Zeitpunkt erstellt der Anbietertyp das Schlüsselpaar, das in den Schlüsselspeicher des lokalen Computers geschrieben wird.
 
-    Zu diesem Zeitpunkt erstellt der Anbietertyp das Schlüsselpaar, das in den Schlüsselspeicher des lokalen Computers geschrieben wird.
-
-    **Hinweis**   Wenn eine Zertifizierungsstelle zuvor auf diesem System installiert wurde, werden Sie in einem Dialogfeld gewarnt, dass der private Schlüssel der vorherigen Installation überschrieben wird. Vergewissern Sie sich, dass dieser Schlüssel vor dem Fortfahren nie wieder benötigt wird.
+**Hinweis**   Wenn eine Zertifizierungsstelle zuvor auf diesem System installiert wurde, werden Sie in einem Dialogfeld gewarnt, dass der private Schlüssel der vorherigen Installation überschrieben wird. Vergewissern Sie sich, dass dieser Schlüssel vor dem Fortfahren nie wieder benötigt wird.
 
 6. Belassen Sie die Speicherorte der Zertifikatsdatenbank, Datenbankprotokolle und des Konfigurationsordners bei dem jeweiligen Standardwert. Zu diesem Zeitpunkt installiert der Manager für die Installation optionaler Komponenten die Komponenten der Zertifikatsdienste, und das Installationsmedium von Windows Server 2003 ist erforderlich.
 

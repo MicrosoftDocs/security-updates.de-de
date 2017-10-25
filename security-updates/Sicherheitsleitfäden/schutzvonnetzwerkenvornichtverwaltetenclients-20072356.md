@@ -850,21 +850,21 @@ Ein weiterer Aspekt der Verwaltung ist die Frage, wie verdächtige Computer bei 
 
 * **Isolation in vordefinierten Gruppen.**   Indem Sie statt des Kerberos-Protokolls vordefinierte Schlüssel oder Zertifikate für die IPsec-Authentifizierung verwenden, können Sie Isolationsgruppen erstellen, bei denen mit verschiedenen Schlüsseln oder Zertifikaten dieselbe Art von Isolationsfunktionalität erzielt wird.
 
+VPN-Quarantänedienste zum Schutz vor nicht verwalteten Remotecomputern
 
-    VPN-Quarantänedienste zum Schutz vor nicht verwalteten Remotecomputern
+Die eigentliche Bereitstellung der VPN-Quarantänesteuerung erfordert sechs Schritte zusätzlich zu allen anderen Anforderungsprozessen des Änderungsmanagements und Testprozessen vor der Bereitstellung, die in einem Unternehmen vorhanden sein können. Dabei handelt es sich um die folgenden sechs Schritte:
 
-    Die eigentliche Bereitstellung der VPN-Quarantänesteuerung erfordert sechs Schritte zusätzlich zu allen anderen Anforderungsprozessen des Änderungsmanagements und Testprozessen vor der Bereitstellung, die in einem Unternehmen vorhanden sein können. Dabei handelt es sich um die folgenden sechs Schritte:
-    1. Erstellen von Quarantäneressourcen
+1. Erstellen von Quarantäneressourcen
 
-    2. Erstellen von Skripts zum Überprüfen der Clientkonfigurationen
+2. Erstellen von Skripts zum Überprüfen der Clientkonfigurationen
 
-    3. Installieren der Listenerkomponente Rqs.exe auf RAS-Servern
+3. Installieren der Listenerkomponente Rqs.exe auf RAS-Servern
 
-    4. Erstellen von Verbindungs-Manager-Profilen (CM-Profilen) für die Quarantäne mit Windows Server 2003 CMAK
+4. Erstellen von Verbindungs-Manager-Profilen (CM-Profilen) für die Quarantäne mit Windows Server 2003 CMAK
 
-    5. Verteilen der CM-Profile an RAS-Clientcomputer
+5. Verteilen der CM-Profile an RAS-Clientcomputer
 
-    6. Konfigurieren der Quarantäne-RAS-Richtlinie
+6. Konfigurieren der Quarantäne-RAS-Richtlinie
 
 1. Erstellen von Quarantäneressourcen
 
