@@ -2505,183 +2505,183 @@ Ein virtuelles Verzeichnis muss auf IIS erstellt werden, das als HTTP-Speicheror
 
 3. Legen Sie folgende Sicherheitseinstellungen für den Ordner gemäß Tabelle fest:
 
-**Tabelle 9. Berechtigungen für das virtuelle Verzeichnis**
+    **Tabelle 9. Berechtigungen für das virtuelle Verzeichnis**
 
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
 
-<tr>
+    <tr>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Benutzer/Gruppe
+    Benutzer/Gruppe
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Berechtigung
+    Berechtigung
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Erlauben/Verweigern
+    Erlauben/Verweigern
 
-</th>
+    </th>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Administratoren
+    Administratoren
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Vollzugriff
+    Vollzugriff
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Erlauben
+    Erlauben
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-System
+    System
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Vollzugriff
+    Vollzugriff
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Erlauben
+    Erlauben
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Ersteller-Besitzer
+    Ersteller-Besitzer
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Vollzugriff (nur Unterordner und Dateien)
+    Vollzugriff (nur Unterordner und Dateien)
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Erlauben
+    Erlauben
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Benutzer
+    Benutzer
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Ordnerinhalte lesen und auflisten
+    Ordnerinhalte lesen und auflisten
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Erlauben
+    Erlauben
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-IIS_WPG
+    IIS_WPG
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Ordnerinhalte lesen und auflisten
+    Ordnerinhalte lesen und auflisten
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Erlauben
+    Erlauben
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Internetgastkonto
+    Internetgastkonto
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Schreiben
+    Schreiben
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Verweigern
+    Verweigern
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-</table>
+    </table>
 
 
 4. Verwenden Sie die IIS-Verwaltungskonsole, um ein neues virtuelles Verzeichnis unter der standardmäßigen Website zu erstellen:
@@ -2955,117 +2955,117 @@ Es gibt eine Reihe von Gruppen und Benutzerkonten, die mit der Verwaltung und de
 
 2. Erstellen Sie eine OU-Struktur anhand der folgenden Tabelle:
 
-    **Tabelle 12. Beispiel für eine OU-Struktur**
+**Tabelle 12. Beispiel für eine OU-Struktur**
 
-    <table style="border:1px solid black;">
+<table style="border:1px solid black;">
 
-    <tr>
+<tr>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Organisationseinheit
+Organisationseinheit
 
-    </th>
+</th>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Aufgabe
+Aufgabe
 
-    </th>
+</th>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
-
-
-    Zertifikatsdienste
-
-    </td>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Übergeordnete OU
+Zertifikatsdienste
 
-    </td>
+</td>
 
-    </tr>
-
-    <tr>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    \\-Zertifikatsdienste-Administration
+Übergeordnete OU
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+</tr>
 
+<tr>
 
-    Enthält administrative Gruppen für das Verwalten der Zertifizierungsstellen und die Konfiguration der Unternehmens-PKI.
-
-    </td>
-
-    </tr>
-
-    <tr>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    \\-Zertifikatvorlagen-Verwaltung
+\\-Zertifikatsdienste-Administration
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
-
-
-    Enthält Gruppen für das Verwalten der einzelnen Zertifikatvorlagen.
-
-    </td>
-
-    </tr>
-
-    <tr>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    \\-Zertifikatvorlagen-Registrierung
+Enthält administrative Gruppen für das Verwalten der Zertifizierungsstellen und die Konfiguration der Unternehmens-PKI.
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+</tr>
 
+<tr>
 
-    Enthält Gruppen mit Berechtigungen zum Registrieren oder automatischen Registrieren für Vorlagen desselben Namens. Die Kontrolle dieser Gruppen kann an das entsprechende Personal delegiert werden, ohne die Vorlagen ändern zu müssen.
-
-    </td>
-
-    </tr>
-
-    <tr>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    \\-Zertifikatsdienste-Testbenutzer
+\\-Zertifikatvorlagen-Verwaltung
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Enthält vorübergehende Testkonten.
+Enthält Gruppen für das Verwalten der einzelnen Zertifikatvorlagen.
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    </table>
+<tr>
+
+<td style="border:1px solid black;">
+
+
+\\-Zertifikatvorlagen-Registrierung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Enthält Gruppen mit Berechtigungen zum Registrieren oder automatischen Registrieren für Vorlagen desselben Namens. Die Kontrolle dieser Gruppen kann an das entsprechende Personal delegiert werden, ohne die Vorlagen ändern zu müssen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+\\-Zertifikatsdienste-Testbenutzer
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Enthält vorübergehende Testkonten.
+
+</td>
+
+</tr>
+
+</table>
 
 3. Räumen Sie der Gruppe „Enterprise PKI Admins“ die Berechtigungen zum Erstellen und Löschen von Gruppen innerhalb der Zertifikatsdienste-OU und deren untergeordneten Containern ein.
 
@@ -3263,81 +3263,81 @@ Die zuvor erstellten Sicherheitsgruppen müssen Administratorfunktionen wie „P
 
     **Tabelle 13. Einträge für die Berechtigung der Zertifizierungsstelle**
 
-    <table style="border:1px solid black;">
+<table style="border:1px solid black;">
 
-    <tr>
+<tr>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Gruppe
+Gruppe
 
-    </th>
+</th>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Berechtigung
+Berechtigung
 
-    </th>
+</th>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Erlauben/Verweigern
+Erlauben/Verweigern
 
-    </th>
+</th>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
-
-
-    CA Admins
-
-    </td>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Verwalten der Zertifizierungsstelle
+CA Admins
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
-
-
-    Erlauben
-
-    </td>
-
-    </tr>
-
-    <tr>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Certificate Managers
+Verwalten der Zertifizierungsstelle
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
-
-
-    Ausstellen und Verwalten von Zertifikaten
-
-    </td>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Erlauben
+Erlauben
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    </table>
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Certificate Managers
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ausstellen und Verwalten von Zertifikaten
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Erlauben
+
+</td>
+
+</tr>
+
+</table>
 
 
 3. Weitere Sicherheitsfunktionen für die Zertifizierungsstelle für diesen Server wurden bereits über die zuvor angewendete Sicherheitsrichtlinie definiert.
@@ -3561,81 +3561,81 @@ Damit die in diesem Handbuch beschriebenen Administratorfunktionen verwendet wer
 
     **Tabelle 14. Berechtigungen für die ausstellende Zertifizierungsstelle**
 
-    <table style="border:1px solid black;">
+<table style="border:1px solid black;">
 
-    <tr>
+<tr>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Gruppe
+Gruppe
 
-    </th>
+</th>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Berechtigung
+Berechtigung
 
-    </th>
+</th>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Erlauben/Verweigern
+Erlauben/Verweigern
 
-    </th>
+</th>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
-
-
-    CA Admins
-
-    </td>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Verwalten der Zertifizierungsstelle
+CA Admins
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
-
-
-    Erlauben
-
-    </td>
-
-    </tr>
-
-    <tr>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Certificate Managers
+Verwalten der Zertifizierungsstelle
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
-
-
-    Ausstellen und Verwalten von Zertifikaten
-
-    </td>
-
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Erlauben
+Erlauben
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    </table>
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Certificate Managers
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ausstellen und Verwalten von Zertifikaten
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Erlauben
+
+</td>
+
+</tr>
+
+</table>
 
 4. Die Gruppe „CA Auditors“ sollte zur lokalen Administratorgruppe hinzugefügt werden, obwohl diese Gruppe bereits durch die zuvor angewendete Sicherheitsrichtlinie teilweise definiert wurde.
 

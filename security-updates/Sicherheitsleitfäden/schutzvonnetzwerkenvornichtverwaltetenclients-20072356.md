@@ -904,10 +904,10 @@ Ein weiterer Schritt beim Installationsprozess besteht darin, die Skriptversions
 
 4. Erstellen von Quarantäne-CM-Profilen
 
-Ein Quarantäne-CM-Profil ist eigentlich nur ein typisches Remotezugriffs-CM-Profil mit folgenden Zusätzen:
-* Eine Nachverbindungsaktion, die das Skript ausführt, um die Netzwerkrichtlinienkonformität und das Skript als solches zu überprüfen. Dies erfolgt über die Seite „Benutzerdefinierte Aktionen“ des CMAK-Assistenten.
+    Ein Quarantäne-CM-Profil ist eigentlich nur ein typisches Remotezugriffs-CM-Profil mit folgenden Zusätzen:
+    * Eine Nachverbindungsaktion, die das Skript ausführt, um die Netzwerkrichtlinienkonformität und das Skript als solches zu überprüfen. Dies erfolgt über die Seite „Benutzerdefinierte Aktionen“ des CMAK-Assistenten.
 
-* Eine Benachrichtungskomponente muss dem Profil ebenfalls hinzugefügt werden, wie dies auch über den Bildschirm **Zusätzliche Dateien** des CMAK-Assistenten getan wird.
+    * Eine Benachrichtungskomponente muss dem Profil ebenfalls hinzugefügt werden, wie dies auch über den Bildschirm **Zusätzliche Dateien** des CMAK-Assistenten getan wird.
 
 
 5. Verteilen von CM-Profilen
@@ -919,6 +919,7 @@ Die Verteilung dieser Profile kann manuell erfolgen, wobei diese Profile beispie
 6. Konfigurieren einer Quarantäne-RAS-Richtlinie
 
 Das zum Konfigurieren einer Quarantäne-RAS-Richtlinie anzuwendende Verfahren unterscheidet sich je nachdem, ob die Konfiguration auf einem IAS-Server oder einem anderen Authentifizierungsanbieter erfolgt:
+
 * Für die Konfiguration auf einem IAS RADIUS-Server ist das IAS-Snap-In (Internet Authentication Service) zu verwenden.
 
 * Für die Konfiguration auf einem Windows-Authentifizierungsanbieter ist das Routing- und Remotezugriffs-Snap-In zu verwenden.
