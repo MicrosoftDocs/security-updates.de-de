@@ -1,24 +1,27 @@
 ---
-TOCTitle: Sichern von kritischen Konten und Dienstkonten
 Title: Sichern von kritischen Konten und Dienstkonten
-ms:assetid: 'aed37382-e798-437b-8740-8a03412ed1ef'
+TOCTitle: Sichern von kritischen Konten und Dienstkonten
+ms:assetid: aed37382-e798-437b-8740-8a03412ed1ef
+ms:mtpsurl: https://technet.microsoft.com/de-de/library/Cc875826(v=TechNet.10)
 ms:contentKeyID: 20072349
-ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc875826(v=TechNet.10)'
 ---
 
-Sichern von kritischen Konten und Dienstkonten
-==============================================
+
+# Sichern von kritischen Konten und Dienstkonten
 
 Veröffentlicht: 26. Sep 2006
+ 
 
-##### Auf dieser Seite
+#### Auf dieser Seite
 
-[](#ehaa)[Einführung](#ehaa)
-[](#egaa)[Definition](#egaa)
-[](#efaa)[Herausforderungen](#efaa)
-[](#eeaa)[Lösungen](#eeaa)
-[](#edaa)[Zusammenfassung](#edaa)
-[](#ecaa)[Anhang A: Gängige Dienste](#ecaa)
+[Einführung](#ehaa)  
+[Definition](#egaa)  
+[Herausforderungen](#efaa)  
+[Lösungen](#eeaa)  
+[Zusammenfassung](#edaa)  
+[Anhang A: Gängige Dienste](#ecaa)  
+
+
 
 ### Einführung
 
@@ -28,6 +31,7 @@ Bei Netzwerken mittelgroßer Unternehmen werden standardmäßige Benutzerkonten 
 
 Neben den durch externe Bedrohungen verursachten Risiken für die Netzwerke mittelgroßer Unternehmen können auch interne Bedrohungen sehr großen Schaden anrichten. Interne Bedrohungen gehen nicht nur von Benutzern mit böswilligen Absichten aus, sondern auch von solchen, die unbeabsichtigt Schaden anrichten könnten. Die scheinbar harmlosen Versuche von Benutzern, sich unter Umgehung von Sicherheitsmaßnahmen Zugriff auf Ressourcen zu verschaffen, sind dabei nur ein Beispiel. Aus praktischen Gründen erhalten Benutzer und Dienste viel zu häufig Zugriff auf höhere Rechte, als es erforderlich wäre. Diese Praktik stellt zwar sicher, dass Benutzer Zugriff auf die von ihnen zur Ausführung ihrer Aufgaben benötigten Ressourcen erhalten, erhöht aber gleichzeitig das Risiko, dass ein Angriff auf das Netzwerk Erfolg zeigt.
 
+
 #### Kurzzusammenfassung
 
 Wie in der Einführung bereits dargestellt wurde, ist das Sicherheitsmanagement bei allen Kontentypen innerhalb eines Netzwerks von größter Wichtigkeit, um Risiken für Netzwerke mittelgroßer Unternehmen in den Griff zu bekommen. Interne und externe Bedrohungen müssen gleichermaßen berücksichtigt werden. Die entsprechenden Maßnahmen müssen dabei so ausgerichtet sein, dass kein Konflikt zwischen den Sicherheitsanforderungen und der Funktionalität entsteht, die ein mittelgroßes Unternehmen von seinen Netzwerkressourcen erwartet.
@@ -36,65 +40,70 @@ Mithilfe dieses Dokuments können mittelgroße Unternehmen ein besseres Verstän
 
 Im Rahmen der Trustworthy Computing Initiative von Microsoft wurden die Standardeinstellungen von Microsoft® Windows Server™ 2003 darauf ausgerichtet, den Verzeichnisdienst Active Directory® vor vielen unterschiedlichen Bedrohungen zu schützen. Einige Einstellungen für Administratorkonten lassen sich jedoch noch weiter optimieren, um das Sicherheitsniveau der Netzwerkumgebung eines mittelgroßen Unternehmens zu erhöhen. Darüber hinaus müssen auch die Dienste gesichert werden, die nicht Teil des Betriebssystems Windows Server 2003 sind und im Zusammenhang mit anderen Anwendungen installiert wurden. In diesem Dokument werden Methoden zur Sicherung dieser Konten und Dienste erläutert sowie Best Practices (bewährte Methoden) zur Bereitstellung und Verwaltung von Administratorrechten.
 
+
 #### Übersicht
 
 Dieses Dokument ist in vier Hauptteile untergliedert, in denen Sie Informationen zur Sicherung von Administrator- und Dienstkonten in mittelgroßen Unternehmen finden. Der erste Abschnitt ist die Einführung, die Sie gerade lesen. Die übrigen Teile des Dokuments sind folgendermaßen gegliedert:
+* **Definition**: In diesem Abschnitt finden Sie Hintergrundinformationen sowie einige Erläuterungen zur Terminologie, die in diesem Dokument Verwendung findet.
 
--   **Definition**: In diesem Abschnitt finden Sie Hintergrundinformationen sowie einige Erläuterungen zur Terminologie, die in diesem Dokument Verwendung findet.
+* **Herausforderungen**: In diesem Abschnitt werden einige der häufig auftretenden Probleme beschrieben, die mittelgroße Unternehmen bei der Ermittlung des Sicherungsbedarfs von Konten zu bewältigen haben. Daneben werden einige der mit der Sicherung von Administrator- und Dienstkonten verbundenen Probleme behandelt.
 
--   **Herausforderungen**: In diesem Abschnitt werden einige der häufig auftretenden Probleme beschrieben, die mittelgroße Unternehmen bei der Ermittlung des Sicherungsbedarfs von Konten zu bewältigen haben. Daneben werden einige der mit der Sicherung von Administrator- und Dienstkonten verbundenen Probleme behandelt.
+* **Lösungen**: Dieser Abschnitt ist in drei Unterabschnitte aufgegliedert, in denen Sie Informationen zur Abfolge der Maßnahmen finden, mit denen sich kritische Konten und Dienstkonten in einem mittelgroßen Unternehmen sichern lassen. Diese Unterabschnitte umfassen folgende Elemente:
+    - **Einschätzung**: Dieser Unterabschnitt zeigt, welche grundsätzlichen Überlegungen bei der Sicherung von kritischen Konten und Dienstkonten angestellt werden müssen. Daneben wird die Grundlage für das Planen von Lösungen geschaffen.
 
--   **Lösungen**: Dieser Abschnitt ist in drei Unterabschnitte aufgegliedert, in denen Sie Informationen zur Abfolge der Maßnahmen finden, mit denen sich kritische Konten und Dienstkonten in einem mittelgroßen Unternehmen sichern lassen. Diese Unterabschnitte umfassen folgende Elemente:
+    - **Entwicklung**: In diesem Unterabschnitt werden auf der Grundlage der im Abschnitt „Einschätzung“ dargestellten Informationen Lösungen bereitgestellt, mit deren Hilfe Pläne aufgestellt werden können, über die sich die Sicherheit von kritischen Konten und Dienstkonten erhöhen lässt.
 
-    -   **Einschätzung**: Dieser Unterabschnitt zeigt, welche grundsätzlichen Überlegungen bei der Sicherung von kritischen Konten und Dienstkonten angestellt werden müssen. Daneben wird die Grundlage für das Planen von Lösungen geschaffen.
+    - **Bereitstellung und Verwaltung**: In diesem Unterabschnitt werden empfehlenswerte Methoden zur Implementierung gesicherter Administrator- und Dienstkonten in einem mittelgroßen Unternehmen beschrieben.
 
-    -   **Entwicklung**: In diesem Unterabschnitt werden auf der Grundlage der im Abschnitt „Einschätzung“ dargestellten Informationen Lösungen bereitgestellt, mit deren Hilfe Pläne aufgestellt werden können, über die sich die Sicherheit von kritischen Konten und Dienstkonten erhöhen lässt.
 
-    -   **Bereitstellung und Verwaltung**: In diesem Unterabschnitt werden empfehlenswerte Methoden zur Implementierung gesicherter Administrator- und Dienstkonten in einem mittelgroßen Unternehmen beschrieben.
+
 
 #### Zielgruppe dieses Dokuments
 
 Dieses technische Dokument ist zur Unterstützung von Fachleuten und Managern im technischen Bereich gedacht, die um die Sicherheit von Konten auf Dienst-, Anwendungs- und Administratorebene innerhalb eines Microsoft-Netzwerks bedacht sind. Obgleich auch ein Leser ohne technischen Hintergrund aus diesem Dokument einen Informationszugewinn hinsichtlich der Prinzipien einer sicheren Kontoverwaltung erzielen kann, ist dennoch ein Verständnis der Kontoverwaltungskonzepte von Microsoft Windows® und Active Directory erforderlich, um den größtmöglichen Nutzen aus den in diesem Dokument dargestellten Informationen zu ziehen.
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)  
+
+
 
 ### Definition
 
 In diesem Abschnitt werden einige Begriffen definiert, die in diesem Dokument Verwendung finden und möglicherweise näher erläutert werden müssen.
+* **Dienste**: Dienste sind ausführbare Dateien, die beim Systemstart ausgeführt werden bzw. durch andere Ereignisse oder geplante Instanzen ausgelöst werden können. Dienste werden häufig im Hintergrund ausgeführt. Der Benutzer wird dabei kaum zu Eingaben bzw. anderen Interaktionen aufgefordert.
 
--   **Dienste**: Dienste sind ausführbare Dateien, die beim Systemstart ausgeführt werden bzw. durch andere Ereignisse oder geplante Instanzen ausgelöst werden können. Dienste werden häufig im Hintergrund ausgeführt. Der Benutzer wird dabei kaum zu Eingaben bzw. anderen Interaktionen aufgefordert.
+* **Dienstkonten**: Unter einem Dienstkonto versteht man – einfach ausgedrückt – jede Art von Konto, das nicht einer Person zugeordnet ist. Dabei handelt es sich häufig um integrierte Konten, über die Dienste auf Ressourcen zugreifen, die zur Ausführung der für den jeweiligen Dienst festgelegten Aktionen erforderlich sind. Für einige Dienste werden jedoch tatsächliche Benutzerkonten zur Ausführung bestimmter Funktionen benötigt, und zahlreiche Unternehmen verwenden auch für die Ausführung von Diensten noch immer Domänenkonten.
 
--   **Dienstkonten**: Unter einem Dienstkonto versteht man – einfach ausgedrückt – jede Art von Konto, das nicht einer Person zugeordnet ist. Dabei handelt es sich häufig um integrierte Konten, über die Dienste auf Ressourcen zugreifen, die zur Ausführung der für den jeweiligen Dienst festgelegten Aktionen erforderlich sind. Für einige Dienste werden jedoch tatsächliche Benutzerkonten zur Ausführung bestimmter Funktionen benötigt, und zahlreiche Unternehmen verwenden auch für die Ausführung von Diensten noch immer Domänenkonten.
+* **Administratorkonto**: Auch wenn bei jeder Neuinstallation einer Microsoft Windows- oder Active Directory-Domäne ein standardmäßiges Administratorkonto eingerichtet wird, bezieht sich der Begriff „Administratorkonto“ häufig ganz allgemein auf jede Art von Konto, das Rechte auf Administratorebene gewährt. Aus Gründen der Klarheit wird in diesem Dokument zwischen diesen beiden Verwendungszusammenhängen unterschieden.
 
--   **Administratorkonto**: Auch wenn bei jeder Neuinstallation einer Microsoft Windows- oder Active Directory-Domäne ein standardmäßiges Administratorkonto eingerichtet wird, bezieht sich der Begriff „Administratorkonto“ häufig ganz allgemein auf jede Art von Konto, das Rechte auf Administratorebene gewährt. Aus Gründen der Klarheit wird in diesem Dokument zwischen diesen beiden Verwendungszusammenhängen unterschieden.
+* **Administrative Gruppen**: Diese Gruppen können in Abhängigkeit von den installierten Diensten variieren. Dennoch können sie auch die Gruppen umfassen, die automatisch in den vordefinierten Containern und den Benutzercontainern erstellt wurden. Dazu zählen auch alle Gruppen, denen bei ihrer Erstellung Administratorrechte gewährt wurden.
 
--   **Administrative Gruppen**: Diese Gruppen können in Abhängigkeit von den installierten Diensten variieren. Dennoch können sie auch die Gruppen umfassen, die automatisch in den vordefinierten Containern und den Benutzercontainern erstellt wurden. Dazu zählen auch alle Gruppen, denen bei ihrer Erstellung Administratorrechte gewährt wurden.
+* **Kritische Konten**: Der Begriff „kritische Konten“ wird in diesem Dokument zur Beschreibung von Standardkonten verwendet, die als sehr risikoreich eingestuft werden, da sie mit hohen Berechtigungen verbunden sind. Auch aufgrund der Tatsache, dass diese Konten praktisch ständig und überall zum Einsatz kommen, stellen sie ein erhöhtes Risiko dar.
 
--   **Kritische Konten**: Der Begriff „kritische Konten“ wird in diesem Dokument zur Beschreibung von Standardkonten verwendet, die als sehr risikoreich eingestuft werden, da sie mit hohen Berechtigungen verbunden sind. Auch aufgrund der Tatsache, dass diese Konten praktisch ständig und überall zum Einsatz kommen, stellen sie ein erhöhtes Risiko dar.
+* **Eingeschränkte Konten**: Unter einem eingeschränkten Konto versteht man ein Konto, das nicht zu einer administrativen Gruppe gehört und mit dem keine erhöhten Berechtigungen verbunden sind, die denen eines lokalen oder eines Domänenadministratorkontos entsprechen. In der Regel ist ein eingeschränktes Konto Mitglied der Gruppe „Domänenbenutzer“ oder der lokalen Benutzergruppe.
 
--   **Eingeschränkte Konten**: Unter einem eingeschränkten Konto versteht man ein Konto, das nicht zu einer administrativen Gruppe gehört und mit dem keine erhöhten Berechtigungen verbunden sind, die denen eines lokalen oder eines Domänenadministratorkontos entsprechen. In der Regel ist ein eingeschränktes Konto Mitglied der Gruppe „Domänenbenutzer“ oder der lokalen Benutzergruppe.
+* **Prinzip der geringsten Rechte**: Bei den Kriterien des amerikanischen Verteidigungsministeriums zur Beurteilung eines vertrauenswürdigen Computersystems („Department of Defense Trusted Computer System Evaluation Criteria“, DOD-5200.28-STD) – dem so genannten „Orange Book“ – handelt es sich um einen anerkannten Computersicherheitsstandard. Das Prinzip der „geringsten Rechte“ sieht entsprechend dieser Publikation vor, „dass jedem Benutzer innerhalb eines Systems nur die eingeschränktesten Rechte (bzw. die niedrigsten Freigabestufen) zugewiesen werden, die er zur Ausführung der Aufgaben benötigt, zu denen er berechtigt ist. Durch die Anwendung dieses Prinzips lassen sich Schäden, die durch Unfälle, Fehler oder unberechtigte Nutzung verursacht werden, begrenzen.“
 
--   **Prinzip der geringsten Rechte**: Bei den Kriterien des amerikanischen Verteidigungsministeriums zur Beurteilung eines vertrauenswürdigen Computersystems („Department of Defense Trusted Computer System Evaluation Criteria“, DOD-5200.28-STD) – dem so genannten „Orange Book“ – handelt es sich um einen anerkannten Computersicherheitsstandard. Das Prinzip der „geringsten Rechte“ sieht entsprechend dieser Publikation vor, „dass jedem Benutzer innerhalb eines Systems nur die eingeschränktesten Rechte (bzw. die niedrigsten Freigabestufen) zugewiesen werden, die er zur Ausführung der Aufgaben benötigt, zu denen er berechtigt ist. Durch die Anwendung dieses Prinzips lassen sich Schäden, die durch Unfälle, Fehler oder unberechtigte Nutzung verursacht werden, begrenzen.“
-
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+[Zum Seitenanfang](#mainsection)  
 
 ### Herausforderungen
 
 Wie bereits im vorangegangenen Abschnitt erwähnt wurde, stellen ungesicherte Konten auf Administratorebene sowie ungesicherte Dienstkonten ein beträchtliches Risiko für die Sicherheit des Netzwerks eines mittelgroßen Unternehmens dar. Angesichts der Komplexität von Netzwerkumgebungen und der hohen Wachstumsraten, die in den meisten Unternehmensnetzwerken zu verzeichnen sind, weisen Kontoverwaltungsverfahren häufig große Sicherheitsrisiken auf. Aufgrund dieser Faktoren kann die Sicherung der kritischen Konten und der Dienste, die in einem Netzwerk ausgeführt werden, eine echte Herausforderung sein.
 
 Im Folgenden sind einige häufig anzutreffende Probleme aufgelistet, die sich für mittelgroße Unternehmen ergeben, wenn die richtige Vorgehensweise zur Lösung dieser Sicherheitsfragen bestimmt werden soll:
+* Schützen des Unternehmens gegen interne und externe Bedrohungen, die sich aus der Kontoverwaltung ergeben oder daraus, dass Mitarbeiter versuchen, Sicherheitsvorkehrungen zu umgehen
 
--   Schützen des Unternehmens gegen interne und externe Bedrohungen, die sich aus der Kontoverwaltung ergeben oder daraus, dass Mitarbeiter versuchen, Sicherheitsvorkehrungen zu umgehen
+* Identifizieren aller Dienstkonten und anwendungsbezogenen Konten, die im Netzwerk und auf den lokalen Computern verwendet werden
 
--   Identifizieren aller Dienstkonten und anwendungsbezogenen Konten, die im Netzwerk und auf den lokalen Computern verwendet werden
+* Sichern von sicherheitskritischen Dienst-, Administrator- und anwendungsbezogenen Konten
 
--   Sichern von sicherheitskritischen Dienst-, Administrator- und anwendungsbezogenen Konten
+* Bestimmen, welche Konten mit Diensten und Anwendungen verbunden sind
 
--   Bestimmen, welche Konten mit Diensten und Anwendungen verbunden sind
+* Trennen der Dienstkonten von Benutzerkonto-Kennwortrichtlinien
 
--   Trennen der Dienstkonten von Benutzerkonto-Kennwortrichtlinien
+ 
+[Zum Seitenanfang](#mainsection)  
 
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+
 
 ### Lösungen
 
@@ -106,1653 +115,5877 @@ Die Befolgung dieses Prinzips ermöglicht nicht nur den Schutz vor böswilligen 
 
 Beispielsweise sollte entsprechend dem Prinzip der geringsten Rechte eine Person, die die Funktion des Domänenadministrators ausübt, nur dann ein Konto verwenden, das über Berechtigungen auf Domänenadministratorebene verfügt, wenn Aufgaben ausgeführt werden, die Zugriffsrechte auf dieser Ebene erfordern. Wenn dagegen keine Aufgaben ausgeführt werden, die höhere Berechtigungen erfordern, sollte ein Administrator ein Konto mit Standardzugriffsrechten verwenden. Mit dieser Verfahrensweise ließen sich Sicherheitsbedrohungen verringern, die auf menschlichen Fehlern beruhen. Daneben würde auch weniger Schaden entstehen, wenn die Arbeitsstation eines Administrators mit Malware infiziert würde.
 
+
 #### Einschätzung
 
 Für die Sicherung von Dienstkonten und kritischen Konten muss bestimmt werden, wie diese Konten definiert sind und welche Bedrohungen mit ihnen verbunden sind. Es muss jedoch auch klar ersichtlich sein, welche Folgen sich im Falle der Modifizierung dieser Konten ergeben, so dass negative Auswirkungen auf das Unternehmen auf ein erträgliches Maß begrenzt bleiben.
 
-##### Verwaltung von kritischen Konten und Administratorkonten
+Verwaltung von kritischen Konten und Administratorkonten
 
 Um kritische Konten und Administratorkonten sowie die ihnen zugeordneten Gruppen sichern zu können, muss bekannt sein, welche Konten und Gruppen dieses Kriterium erfüllen. Auch ist es wichtig zu wissen, welchen Umfang Rechte auf Administratorebene haben und auf welche Systeme sie sich erstrecken, insbesondere dann, wenn über sie Domänencontroller gesteuert werden.
 
 Daher ist es maßgeblich, dass die Leser dieses Dokuments genaue Kenntnisse über die Konten auf Administratorebene in ihrer Systemumgebung haben. Daneben müssen sie sämtliche Domänencontroller kennen sowie die Konten, die von diesen verwaltet werden.
 
-###### Administratorkonten und administrative Gruppen
+Administratorkonten und administrative Gruppen
 
 Folgende Konten zählen zu den Konten auf Administratorebene in einem Active Directory-Netzwerk:
+* Das Standardadministratorkonto, das erstellt wird, wenn Active Directory auf dem ersten Domänencontroller einer Domäne installiert wird. Dieses Konto ist das höchste Konto in einer Domäne. Bei der Erstellung des Kontos muss ein Kennwort dafür eingerichtet werden.
 
--   Das Standardadministratorkonto, das erstellt wird, wenn Active Directory auf dem ersten Domänencontroller einer Domäne installiert wird. Dieses Konto ist das höchste Konto in einer Domäne. Bei der Erstellung des Kontos muss ein Kennwort dafür eingerichtet werden.
+* Zu einem späteren Zeitpunkt erstellte Konten, denen Administratorrechte entweder auf direktem Weg oder durch die Aufnahme in einer administrative Gruppe gewährt werden.
 
--   Zu einem späteren Zeitpunkt erstellte Konten, denen Administratorrechte entweder auf direktem Weg oder durch die Aufnahme in einer administrative Gruppe gewährt werden.
 
 Administrative Gruppen innerhalb einer Active Directory-Domäne variieren in Abhängigkeit von den in dieser Domäne installierten Diensten. Eine Active Directory-Domäne in der Basisausführung umfasst folgende Elemente:
+* Automatisch im vordefinierten Container erstellte administrative Gruppen
 
--   Automatisch im vordefinierten Container erstellte administrative Gruppen
+* Automatisch im Benutzercontainer erstellte administrative Gruppen
 
--   Automatisch im Benutzercontainer erstellte administrative Gruppen
+* Zu einem späteren Zeitpunkt erstellte Gruppen, die entweder in Gruppen mit Administratorrechten aufgenommen werden oder denen Administratorrechte zugewiesen werden.
 
--   Zu einem späteren Zeitpunkt erstellte Gruppen, die entweder in Gruppen mit Administratorrechten aufgenommen werden oder denen Administratorrechte zugewiesen werden.
 
-###### Dienstadministratoren und Datenadministratoren
+Dienstadministratoren und Datenadministratoren
 
 In einer Windows Server 2003 Active Directory-Umgebung gibt es zwei unterschiedliche Arten von Administratorrechten: Dienstadministratoren und Datenadministratoren.
+* Über Dienstadministratorkonten wird die Verwaltung und Bereitstellung von Verzeichnisdiensten gesteuert, einschließlich der Verwaltung von Domänencontrollern und Active Directory.
 
--   Über Dienstadministratorkonten wird die Verwaltung und Bereitstellung von Verzeichnisdiensten gesteuert, einschließlich der Verwaltung von Domänencontrollern und Active Directory.
+* Über Datenadministratorkonten werden die im Verzeichnisdienst gespeicherten Daten auf Domänenmitgliedsservern und Arbeitsstationen in der Domäne verwaltet.
 
--   Über Datenadministratorkonten werden die im Verzeichnisdienst gespeicherten Daten auf Domänenmitgliedsservern und Arbeitsstationen in der Domäne verwaltet.
 
 Auch wenn Personen in jeder Umgebung beide Rollen einnehmen können, ist es entscheidend, die Standardkonten und -gruppen zu kennen, die dem Kompetenzbereich nach Dienstadministratoren entsprechen. Dienstadministratorkonten haben innerhalb einer Netzwerkumgebung eine große Handlungsfreiheit und müssen daher am stärksten geschützt werden. Diese Konten sind verantwortlich für Einstellungen, die das gesamte Verzeichnis betreffen, für die Installation und Verwaltung von Software sowie für die Installation von Service Packs und Updates für Betriebssysteme auf Domänencontrollern.
 
 **Tabelle 1 – Standardmäßige Dienstadministratorgruppen und -konten**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Name</th>
-<th style="border:1px solid black;" >Container</th>
-<th style="border:1px solid black;" >Beschreibung</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Name
+
+</th>
+
+<th style="border:1px solid black;">
+
+Container
+
+</th>
+
+<th style="border:1px solid black;">
+
+Beschreibung
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Administratoren</td>
-<td style="border:1px solid black;">Vordefiniert</td>
-<td style="border:1px solid black;">Diese Gruppe hat Vollzugriff auf alle Domänencontroller sowie auf sämtliche in einer Domäne gespeicherten Verzeichnisinhalte. Bei dieser Gruppe handelt es sich um die höchste Dienstadministratorgruppe. Sie kann die Mitgliedschaft aller anderen administrativen Gruppen verändern.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Administratoren
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Vordefiniert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Diese Gruppe hat Vollzugriff auf alle Domänencontroller sowie auf sämtliche in einer Domäne gespeicherten Verzeichnisinhalte. Bei dieser Gruppe handelt es sich um die höchste Dienstadministratorgruppe. Sie kann die Mitgliedschaft aller anderen administrativen Gruppen verändern.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Organisations-Admins</td>
-<td style="border:1px solid black;">Benutzer</td>
-<td style="border:1px solid black;">Diese Gruppe wird in jeder Domäne automatisch der Gruppe „Administratoren“ hinzugefügt und hat Vollzugriff auf die Konfiguration sämtlicher Domänencontroller.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Organisations-Admins
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benutzer
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Diese Gruppe wird in jeder Domäne automatisch der Gruppe „Administratoren“ hinzugefügt und hat Vollzugriff auf die Konfiguration sämtlicher Domänencontroller.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Domänen-Admins</td>
-<td style="border:1px solid black;">Benutzer</td>
-<td style="border:1px solid black;">Diese Gruppe wird in jeder Domäne einer Gesamtstruktur automatisch der Gruppe „Administratoren“ hinzugefügt Daher haben die Domänen-Admins Zugriffsrechte auf alle Domänencontroller sowie auf Daten, die im Verzeichnis einer Domäne gespeichert sind. Sie können die Mitgliedschaft aller administrativen Gruppen modifizieren.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Domänen-Admins
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benutzer
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Diese Gruppe wird in jeder Domäne einer Gesamtstruktur automatisch der Gruppe „Administratoren“ hinzugefügt Daher haben die Domänen-Admins Zugriffsrechte auf alle Domänencontroller sowie auf Daten, die im Verzeichnis einer Domäne gespeichert sind. Sie können die Mitgliedschaft aller administrativen Gruppen modifizieren.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Schema-Admins</td>
-<td style="border:1px solid black;">Benutzer</td>
-<td style="border:1px solid black;">Diese Gruppe verfügt über volle Administratorrechte für das Active Directory-Schema.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Schema-Admins
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benutzer
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Diese Gruppe verfügt über volle Administratorrechte für das Active Directory-Schema.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Konten-Operatoren</td>
-<td style="border:1px solid black;">Vordefiniert</td>
-<td style="border:1px solid black;">Diese Gruppe kann Konten und Gruppen in der Domäne erstellen und verwalten, jedoch keine Dienstadministratorkonten verwalten. Diese Gruppe hat standardmäßig keine Mitglieder und sollte bei einer auf Best Practices basierenden Verfahrensweise nicht zur Delegierung von Verwaltungsaufgaben verwendet werden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Konten-Operatoren
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Vordefiniert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Diese Gruppe kann Konten und Gruppen in der Domäne erstellen und verwalten, jedoch keine Dienstadministratorkonten verwalten. Diese Gruppe hat standardmäßig keine Mitglieder und sollte bei einer auf Best Practices basierenden Verfahrensweise nicht zur Delegierung von Verwaltungsaufgaben verwendet werden.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Sicherungs-Operatoren</td>
-<td style="border:1px solid black;">Vordefiniert</td>
-<td style="border:1px solid black;">Diese Gruppe gewährt Berechtigungen zur Ausführung von Sicherungs- und Wiederherstellungsaufgaben auf Domänencontrollern. Sie hat standardmäßig keine Mitglieder.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Sicherungs-Operatoren
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Vordefiniert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Diese Gruppe gewährt Berechtigungen zur Ausführung von Sicherungs- und Wiederherstellungsaufgaben auf Domänencontrollern. Sie hat standardmäßig keine Mitglieder.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Server-Operatoren</td>
-<td style="border:1px solid black;">Vordefiniert</td>
-<td style="border:1px solid black;">Diese Gruppe kann Wartungsaufgaben auf Domänencontrollern ausführen. Sie hat standardmäßig keine Mitglieder.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Server-Operatoren
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Vordefiniert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Diese Gruppe kann Wartungsaufgaben auf Domänencontrollern ausführen. Sie hat standardmäßig keine Mitglieder.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">DS-Wiederherstellungsmodus-Administrator</td>
-<td style="border:1px solid black;">Nicht in Active Directory gespeichert</td>
-<td style="border:1px solid black;">Dieses Konto wird während des Active Directory-Installationsvorgangs erstellt. Dieses Konto wird verwendet, um den Domänencontroller im Modus „Verzeichnisdienste wiederherstellen“ zu starten. Auch wenn dieses Konto nicht dem Administratorkonto entspricht, verfügt es über Vollzugriff auf den Domänencontroller, solange dieser sich im Modus „Verzeichnisdienste wiederherstellen“ befindet.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DS-Wiederherstellungsmodus-Administrator
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Nicht in Active Directory gespeichert
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dieses Konto wird während des Active Directory-Installationsvorgangs erstellt. Dieses Konto wird verwendet, um den Domänencontroller im Modus „Verzeichnisdienste wiederherstellen“ zu starten. Auch wenn dieses Konto nicht dem Administratorkonto entspricht, verfügt es über Vollzugriff auf den Domänencontroller, solange dieser sich im Modus „Verzeichnisdienste wiederherstellen“ befindet.
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
 Die in der vorangehenden Tabelle aufgeführten Dienstadministratorgruppen und -konten werden durch einen Hintergrundprozess geschützt, der in gewissen Zeitabständen eine bestimmte Sicherheitsbeschreibung prüft und anwendet, die diesem geschützten Objekt zugeordnete Sicherheitsinformationen enthält. Dieser Prozess erstreckt sich alle Mitglieder einer Dienstadministratorgruppe und gewährleistet, dass jeder erfolgreiche unbefugte Versuch, diese Sicherheitsbeschreibung für ein Mitglied einer administrativen Gruppe zu verändern, mit den geschützten Einstellungen aus der Datenstruktur der Sicherheitsbeschreibung überschrieben wird.
-  
+
 Die Datenstruktur der Sicherheitsbeschreibung befindet sich im Objekt „AdminSDHolder“. Um also die Berechtigungen einer Dienstadministratorgruppe oder eines ihrer Mitgliederkonten zu verändern, muss die Sicherheitsbeschreibung im Objekt „AdminSDHolder“ so modifiziert werden, dass die Änderungen einheitlich vorgenommen werden. Alle an der Sicherheitsbeschreibung vorgenommenen Änderungen werden auf die Standardeinstellungen für sämtliche geschützte Administratorkonten angewendet. Berechtigungen dürfen auf diese Weise also nur mit größter Vorsicht verändert werden.
-  
-Weitere Informationen zum Ändern von Berechtigungen für Dienstadministratorkonten finden Sie im [Leitfaden mit Best Practices zur Sicherung von Active Directory-Installationen](http://www.microsoft.com/downloads/details.aspx?familyid=4e734065-3f18-488a-be1e-f03390ec5f91&displaylang=en) (möglicherweise in Englisch). Diese Veröffentlichung kann unter der folgenden Adresse heruntergeladen werden: www.microsoft.com/downloads/details.aspx?FamilyID=4e734065-3f18-488a-be1e-f03390ec5f91&DisplayLang=en.
-  
+
+Weitere Informationen zum Ändern von Berechtigungen für Dienstadministratorkonten finden Sie im [Leitfaden mit Best Practices zur Sicherung von Active Directory-Installationen](http://www.microsoft.com/downloads/details.aspx?familyid=4e734065-3f18-488a-be1e-f03390ec5f91&amp;displaylang=en) (möglicherweise in Englisch). Diese Veröffentlichung kann unter der folgenden Adresse heruntergeladen werden: www.microsoft.com/downloads/details.aspx?FamilyID=4e734065-3f18-488a-be1e-f03390ec5f91&amp;DisplayLang=en.
+
+
 #### Verwaltung von Dienst- und Anwendungskonten
-  
+
 Dienste sind ausführbare Dateien, bei deren Ausführung häufig keine Interaktion mit dem Benutzer stattfindet. Ihr Start erfolgt automatisch mit dem Start eines Betriebssystems. Aus diesem Grund werden Dienste und Dienstkonten als beträchtliches Sicherheitsrisiko in einem Unternehmensnetzwerk oft übersehen. Auch wenn die Sicherheitsrisiken erkannt werden, kann sich die Dienstkontenverwaltung als ziemlich komplexes Unterfangen erweisen, wenn man bedenkt, dass selbst die einfache Änderung eines Kennworts möglicherweise einige weitere Änderungen erfordert, damit es nicht zu einem Systemausfall kommt.
-  
+
 Windows Server 2003 verfügt zwar über standardmäßige Dienste und Dienstkonten, die vor Bedrohungen geschützt sind, doch zahlreiche Dienste von Drittanbietern und selbst andere Zusatzdienste von Microsoft müssen geschützt werden, da sie zum ordnungsgemäßen Betrieb Dienstkonten erfordern. Dies trifft besonders auf Unternehmensverwaltungstools wie Microsoft Systems Management Server oder IBM Tivoli zu, da diese oft die Verwendung eines Kontos voraussetzen, das mit Rechten für die gesamte Domäne oder sogar für andere Domänen mit Vertrauensstellung ausgestattet ist.
-  
+
 Darüber hinaus werden für das Ausführen von Diensten häufig immer noch Domänenkonten eingesetzt, da es – ungeachtet der mit dieser Methode verbundenen Sicherheitsrisiken – bisher als einfacher angesehen wurde, Dienste domänenübergreifend zu verwalten statt auf einzelnen Servern. Dienste speichern die Informationen zu den von ihnen verwendeten Benutzerkonten und Kennwörtern in der Registrierung, unabhängig davon, ob lokale Konten oder Domänenkonten verwendet werden. Wenn also die Sicherheit eines einzelnen Computers verletzt wird, kann der Angreifer diese Informationen nutzen, um seine Berechtigungen zu erhöhen, wenn diese Dienste Domänenkonten verwenden. Wenn ein Dienst ein Domänenkonto auf Administratorebene verwendet, könnte ein derartiges Szenario das gesamte Netzwerk gefährden.
-  
-##### Szenarien hinsichtlich der Sicherheitsanfälligkeit von Dienstkonten
-  
+
+Szenarien hinsichtlich der Sicherheitsanfälligkeit von Dienstkonten
+
 Die Praktik, Dienste so zu konfigurieren, dass sie Domänenkonten zur Authentifizierung verwenden, führt zu potenziellen Sicherheitsanfälligkeiten. Das Ausmaß der möglichen Risiken hängt von zahlreichen Faktoren ab:
-  
--   **Die Anzahl der Server, auf denen Dienste für eine Verwendung von Dienstkonten konfiguriert sind**: Das Sicherheitsanfälligkeitsprofil eines Netzwerks erhöht sich mit jedem Server, der über Dienste verfügt, die über das Domänenkonto authentifiziert und auf diesem Server ausgeführt werden. Mit steigender Anzahl solcher Server steigt auch die Wahrscheinlichkeit, dass ein Angreifer Zugriff auf diesen Server erhält und so anderen Netzwerkressourcen höhere Berechtigungen zuweisen kann.
-  
--   **Der Wirkungsbereich der Berechtigungen eines Domänenkontos, das von Diensten verwendet wird**: Je größer der Wirkungsbereich der mit einem Dienstkonto verbundenen Rechte ist, desto mehr Ressourcen können durch dieses Konto in ihrer Sicherheit verletzt werden. Berechtigungen auf Domänenadministratorebene stellen ein besonders hohes Risiko dar, da jeder Computer des Netzwerks, einschließlich des Domänencontrollers, vom Ausmaß der Sicherheitsanfälligkeit solcher Konten betroffen ist. Da diese Konten über Administratorrechte für sämtliche Mitgliederserver verfügen, hätte eine Sicherheitsverletzung bei einem solchen Konto schwerwiegende Folgen, da sämtliche Computer und Daten der Domäne dann nicht mehr vertrauenswürdig wären.
-  
--   **Die Anzahl der Dienste, die auf einem bestimmten Server für die Verwendung von Domänenkonten konfiguriert sind**: Einige Dienste weisen besondere Sicherheitsanfälligkeiten auf, die sie leichter zum Ziel von Angriffen werden lassen. Angreifer versuchen in der Regel zuerst, bekannte Sicherheitsanfälligkeiten auszunutzen. Wenn ein Domänenkonto einen Dienst verwendet, der Sicherheitsanfälligkeiten aufweist, bedeutet dies ein erhöhtes Risiko für andere Systeme, das andernfalls auf einem einzelnen Server hätte isoliert werden können.
-  
--   **Die Anzahl der Domänenkonten, die zum Ausführen von Diensten in einer Domäne verwendet werden**: Die Sicherheit von Dienstkonten muss mit mehr Sorgfalt überwacht und verwaltet werden als die Sicherheit von gewöhnlichen Benutzerkonten. Mit jedem zusätzlichen, von Diensten verwendeten Domänenkonto wird auch die Verwaltung dieser Konten weiter verkompliziert. Die Tatsache, dass Administratoren und Sicherheitsadministratoren wissen müssen, wo das jeweilige Dienstkonto verwendet wird, wenn sie verdächtige Vorgänge identifizieren möchten, unterstreicht noch einmal mehr, wie wichtig es ist, die Anzahl solcher Konten zu minimieren.
-  
+* **Die Anzahl der Server, auf denen Dienste für eine Verwendung von Dienstkonten konfiguriert sind**: Das Sicherheitsanfälligkeitsprofil eines Netzwerks erhöht sich mit jedem Server, der über Dienste verfügt, die über das Domänenkonto authentifiziert und auf diesem Server ausgeführt werden. Mit steigender Anzahl solcher Server steigt auch die Wahrscheinlichkeit, dass ein Angreifer Zugriff auf diesen Server erhält und so anderen Netzwerkressourcen höhere Berechtigungen zuweisen kann.
+
+* **Der Wirkungsbereich der Berechtigungen eines Domänenkontos, das von Diensten verwendet wird**: Je größer der Wirkungsbereich der mit einem Dienstkonto verbundenen Rechte ist, desto mehr Ressourcen können durch dieses Konto in ihrer Sicherheit verletzt werden. Berechtigungen auf Domänenadministratorebene stellen ein besonders hohes Risiko dar, da jeder Computer des Netzwerks, einschließlich des Domänencontrollers, vom Ausmaß der Sicherheitsanfälligkeit solcher Konten betroffen ist. Da diese Konten über Administratorrechte für sämtliche Mitgliederserver verfügen, hätte eine Sicherheitsverletzung bei einem solchen Konto schwerwiegende Folgen, da sämtliche Computer und Daten der Domäne dann nicht mehr vertrauenswürdig wären.
+
+* **Die Anzahl der Dienste, die auf einem bestimmten Server für die Verwendung von Domänenkonten konfiguriert sind**: Einige Dienste weisen besondere Sicherheitsanfälligkeiten auf, die sie leichter zum Ziel von Angriffen werden lassen. Angreifer versuchen in der Regel zuerst, bekannte Sicherheitsanfälligkeiten auszunutzen. Wenn ein Domänenkonto einen Dienst verwendet, der Sicherheitsanfälligkeiten aufweist, bedeutet dies ein erhöhtes Risiko für andere Systeme, das andernfalls auf einem einzelnen Server hätte isoliert werden können.
+
+* **Die Anzahl der Domänenkonten, die zum Ausführen von Diensten in einer Domäne verwendet werden**: Die Sicherheit von Dienstkonten muss mit mehr Sorgfalt überwacht und verwaltet werden als die Sicherheit von gewöhnlichen Benutzerkonten. Mit jedem zusätzlichen, von Diensten verwendeten Domänenkonto wird auch die Verwaltung dieser Konten weiter verkompliziert. Die Tatsache, dass Administratoren und Sicherheitsadministratoren wissen müssen, wo das jeweilige Dienstkonto verwendet wird, wenn sie verdächtige Vorgänge identifizieren möchten, unterstreicht noch einmal mehr, wie wichtig es ist, die Anzahl solcher Konten zu minimieren.
+
+
 Ausgehend von den oben genannten Faktoren sind im Hinblick auf Sicherheitsanfälligkeiten verschiedene Szenarien denkbar. Jedes dieser Szenarien ist mit einem unterschiedlich hohen potenziellen Sicherheitsrisiko verbunden. Diese Szenarien werden in der im Folgenden abgebildeten Grafik und Tabelle beschrieben.
-  
+
 Diese Beispiele gehen davon aus, dass es sich bei den Dienstkonten um Domänenkonten handelt und dass jedes Konto über mindestens einen Dienst auf jedem Server verfügt und diesen zur Authentifizierung verwendet. Die folgenden Informationen beschreiben die unten dargestellten Domänenkonten.
-  
--   Konto A verfügt über administratorähnliche Rechte für mehr als einen Domänencontroller.
-  
--   Konto B verfügt über administratorähnliche Rechte für alle Mitgliedsserver.
-  
--   Konto C verfügt über administratorähnliche Rechte für Server 2 und 3.
-  
--   Konto D verfügt über administratorähnliche Rechte für Server 4 und 5.
-  
--   Konto E verfügt nur für einen einzigen Mitgliedsserver über administratorähnliche Rechte.
-  
-    ![](images/Cc875826.SCASA1(de-de,TechNet.10).gif)
-  
-    **Abbildung 1 – Szenarien hinsichtlich der Sicherheitsanfälligkeit von Domänendienstkonten**
-  
+* Konto A verfügt über administratorähnliche Rechte für mehr als einen Domänencontroller.
+
+* Konto B verfügt über administratorähnliche Rechte für alle Mitgliedsserver.
+
+* Konto C verfügt über administratorähnliche Rechte für Server 2 und 3.
+
+* Konto D verfügt über administratorähnliche Rechte für Server 4 und 5.
+
+* Konto E verfügt nur für einen einzigen Mitgliedsserver über administratorähnliche Rechte.
+
+![](images/cc875826.scasa1(de-de,technet.10).gif)
+
+**Abbildung 1 – Szenarien hinsichtlich der Sicherheitsanfälligkeit von Domänendienstkonten**
+
+
 Die folgende Tabelle beschreibt die oben in Text und Bild dargestellten Szenarien und ordnet sie nach den mit ihnen verbundenen Sicherheitsanfälligkeiten.
-  
+
 **Tabelle 2 – Rangordnung der Szenarien hinsichtlich unterschiedlicher Sicherheitsanfälligkeiten**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Szenario</th>
-<th style="border:1px solid black;" >Beschreibung</th>
-<th style="border:1px solid black;" >Risikostufe</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Szenario
+
+</th>
+
+<th style="border:1px solid black;">
+
+Beschreibung
+
+</th>
+
+<th style="border:1px solid black;">
+
+Risikostufe
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">1</td>
-<td style="border:1px solid black;">Konto A wird von einem Dienst auf Server 1 verwendet. Nach einer Sicherheitsverletzung auf Server 1 werden die Authentifizierungsdaten für Konto A offen gelegt. Daraufhin hat der Angreifer Zugriff auf den DC1-Domänencontroller. Ausgehend von diesem werden alle Ressourcen auf der Domäne und alle darin enthaltenen Daten anfällig gegenüber Sicherheitsverletzungen.
-Diese Situation stellt ein kritisches Risikoszenario dar. Domänenkonten mit administratorähnlichen Rechten für die Domäne oder den Domänencontroller sollten nie eingesetzt werden, um Dienste auf einem Mitgliedsserver auszuführen.</td>
-<td style="border:1px solid black;">Kritisch</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+1
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Konto A wird von einem Dienst auf Server 1 verwendet. Nach einer Sicherheitsverletzung auf Server 1 werden die Authentifizierungsdaten für Konto A offen gelegt. Daraufhin hat der Angreifer Zugriff auf den DC1-Domänencontroller. Ausgehend von diesem werden alle Ressourcen auf der Domäne und alle darin enthaltenen Daten anfällig gegenüber Sicherheitsverletzungen.
+
+Diese Situation stellt ein kritisches Risikoszenario dar. Domänenkonten mit administratorähnlichen Rechten für die Domäne oder den Domänencontroller sollten nie eingesetzt werden, um Dienste auf einem Mitgliedsserver auszuführen.
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Kritisch
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">2</td>
-<td style="border:1px solid black;">Konto B wird von einem Dienst auf Server 2 verwendet. Konto B verfügt auch über Berechtigungen für Server 1, auf dem Konto A einen Dienst ausführt. Nachdem eine Sicherheitsverletzung von Konto B auf Server 2 aufgetreten ist, verfügt der Angreifer über denselben Zugriff wie in Szenario 1. Damit ist der Domänencontroller sowie die gesamte Domäne für Angriffe anfällig.
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+2
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Konto B wird von einem Dienst auf Server 2 verwendet. Konto B verfügt auch über Berechtigungen für Server 1, auf dem Konto A einen Dienst ausführt. Nachdem eine Sicherheitsverletzung von Konto B auf Server 2 aufgetreten ist, verfügt der Angreifer über denselben Zugriff wie in Szenario 1. Damit ist der Domänencontroller sowie die gesamte Domäne für Angriffe anfällig.
+
 Konto C setzt das Netzwerk demselben Risiko aus, da es über einen Angriff auf Server 3 für eine Sicherheitsverletzung auf Server 2 verwendet werden kann. Dadurch wird Konto A anfällig für eine Ausnutzung, was wiederum die gesamte Domäne gefährdet.
-Hierbei handelt es sich um Szenarien mit hohem Risiko, doch sind in dieser Situation Lösungen möglich, wenn Maßnahmen gegen die potenziellen Bedrohungen aus Szenario 1 ergriffen wurden.</td>
-<td style="border:1px solid black;">Hoch</td>
+
+Hierbei handelt es sich um Szenarien mit hohem Risiko, doch sind in dieser Situation Lösungen möglich, wenn Maßnahmen gegen die potenziellen Bedrohungen aus Szenario 1 ergriffen wurden.
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Hoch
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">3</td>
-<td style="border:1px solid black;">Konto D wird von einem auf Server 4 und 5 ausgeführten Dienst verwendet. Nach einer Sicherheitsverletzung von Konto D erhält ein Angreifer Zugriff auf sämtliche Server, auf denen Konto D über Berechtigungen verfügt. Wenn auf diesen Servern keine Dienste ausgeführt werden, die Konten mit höheren oder umfangreicheren Rechten verwenden, stellt dieses Szenario eine Gefahr mittlerer Priorität dar, weil die Durchlässigkeit für Sicherheitsverletzungen aus Szenario 2 nicht vorhanden ist.</td>
-<td style="border:1px solid black;">Mittel</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+3
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Konto D wird von einem auf Server 4 und 5 ausgeführten Dienst verwendet. Nach einer Sicherheitsverletzung von Konto D erhält ein Angreifer Zugriff auf sämtliche Server, auf denen Konto D über Berechtigungen verfügt. Wenn auf diesen Servern keine Dienste ausgeführt werden, die Konten mit höheren oder umfangreicheren Rechten verwenden, stellt dieses Szenario eine Gefahr mittlerer Priorität dar, weil die Durchlässigkeit für Sicherheitsverletzungen aus Szenario 2 nicht vorhanden ist.
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Mittel
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">4</td>
-<td style="border:1px solid black;">Konto E wird von einem Dienst verwendet, der auf einem einzigen Server – Server 5 – ausgeführt wird, und verfügt über keine weiteren Berechtigungen oder zugeordneten Dienste. Dieses Szenario stellt eine geringe Bedrohung dar, denn hier ist es nicht möglich, Berechtigungen über einen einzigen Server hinaus zu erhöhen.</td>
-<td style="border:1px solid black;">Gering</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+4
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Konto E wird von einem Dienst verwendet, der auf einem einzigen Server – Server 5 – ausgeführt wird, und verfügt über keine weiteren Berechtigungen oder zugeordneten Dienste. Dieses Szenario stellt eine geringe Bedrohung dar, denn hier ist es nicht möglich, Berechtigungen über einen einzigen Server hinaus zu erhöhen.
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Gering
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
 Die jeweilige Risikostufe der oben beschriebenen Szenarien lässt sich am besten wie folgt erklären:
-  
--   **Kritische Risikostufe**: Dieses Risiko würde die Sicherheit des gesamten Netzwerks und Unternehmens unmittelbar gefährden.
-  
--   **Hohe Risikostufe**: Dieses Risiko kann potenziell zu Verletzungen der Sicherheit des gesamten Netzwerks führen, ist jedoch nicht so unmittelbar wie ein kritisches Risiko.
-  
--   **Mittlere Risikostufe**: Es ist wichtig, dieses Risiko zu thematisieren. Es könnten mehrere Server davon betroffen sein, doch es wird kein kritischer Server einer Sicherheitsgefahr ausgesetzt.
-  
--   **Geringe Risikostufe**: Hierbei könnte es zu einer Sicherheitsverletzung auf einem einzigen Server kommen, doch kritische Server werden nicht gefährdet.
-  
+* **Kritische Risikostufe**: Dieses Risiko würde die Sicherheit des gesamten Netzwerks und Unternehmens unmittelbar gefährden.
+
+* **Hohe Risikostufe**: Dieses Risiko kann potenziell zu Verletzungen der Sicherheit des gesamten Netzwerks führen, ist jedoch nicht so unmittelbar wie ein kritisches Risiko.
+
+* **Mittlere Risikostufe**: Es ist wichtig, dieses Risiko zu thematisieren. Es könnten mehrere Server davon betroffen sein, doch es wird kein kritischer Server einer Sicherheitsgefahr ausgesetzt.
+
+* **Geringe Risikostufe**: Hierbei könnte es zu einer Sicherheitsverletzung auf einem einzigen Server kommen, doch kritische Server werden nicht gefährdet.
+
+
+
 #### Systemkonten
-  
+
 Dienste erfordern Konten, um auf Ressourcen und Objekte zuzugreifen, die von dem Betriebssystem verwaltet werden, auf dem die Dienste ausgeführt werden. Wenn ein von einem Dienst verwendetes Konto nicht über ausreichende Berechtigungen zur Anmeldung verfügt, gewährt das Snap-In „Dienste“ in der Microsoft Management Console (MMC) automatisch das für das Konto benötigte Benutzerrecht „Als Dienst anmelden“ auf dem verwalteten Computer.
-  
+
 Windows Server 2003 bietet die folgenden drei vordefinierten lokalen Konten, die als Anmeldekonten für eine Reihe von Systemdiensten verwendet werden.
-  
--   **Lokales System**: Das lokale Systemkonto, das im Netzwerk als DOMAIN*\\&lt;Computername&gt;*$ und lokal als NT AUTHORITY\\System dargestellt wird, ist ein vordefiniertes lokales Konto, mit dem Dienste gestartet werden können und das den Sicherheitskontext für den betreffenden Dienst bietet. Diesem mit hohen Rechten ausgestatteten Konto hat Vollzugriff auf den lokalen Computer. Im Falle einer Verwendung auf Domänencontrollern besteht zudem Vollzugriff auf die Verzeichnisdienste. Auch wenn einige Dienste so konfiguriert sind, dass sie dieses Konto unter Windows Server 2003 standardmäßig verwenden, sollte es nicht anderweitig verwendet werden, da es ein offensichtliches Sicherheitsrisiko darstellt, insbesondere auf Domänencontrollern.
-  
--   **Lokaler Dienst**: Das lokale Dienstkonto (NT AUTHORITY\\LocalService) ist ein vordefiniertes Konto, das mit eingeschränkten Rechten ausgestattet ist, die einem authentifizierten lokalen Benutzerkonto entsprechen. Dieser eingeschränkte Zugriff dient als Sicherungsmechanismus für den Fall, dass der Dienst oder Prozess, der das Konto verwendet, Ziel einer Sicherheitsverletzung geworden ist. Dienste, die als das lokale Dienstkonto ausgeführt werden, greifen als NULL-Sitzung auf Netzwerkressourcen zu. Anders ausgedrückt, verwenden sie anonyme Anmeldeinformationen.
-  
--   **Netzwerkdienst**: Beim Netzwerkdienstkonto (NT AUTHORITY\\NetworkService) handelt es sich um ein vordefiniertes Konto, das ähnlich wie das lokale Dienstkonto über eingeschränkte Rechte verfügt. Die Dienste und Prozesse, die dieses Konto verwenden, nutzen für den Zugriff auf Netzwerkressourcen jedoch keine anonymen Anmeldeinformationen, sondern die des Computerkontos.
-  
+* **Lokales System**: Das lokale Systemkonto, das im Netzwerk als DOMAIN*\&lt;Computername&gt;*$ und lokal als NT AUTHORITY\System dargestellt wird, ist ein vordefiniertes lokales Konto, mit dem Dienste gestartet werden können und das den Sicherheitskontext für den betreffenden Dienst bietet. Diesem mit hohen Rechten ausgestatteten Konto hat Vollzugriff auf den lokalen Computer. Im Falle einer Verwendung auf Domänencontrollern besteht zudem Vollzugriff auf die Verzeichnisdienste. Auch wenn einige Dienste so konfiguriert sind, dass sie dieses Konto unter Windows Server 2003 standardmäßig verwenden, sollte es nicht anderweitig verwendet werden, da es ein offensichtliches Sicherheitsrisiko darstellt, insbesondere auf Domänencontrollern.
+
+* **Lokaler Dienst**: Das lokale Dienstkonto (NT AUTHORITY\LocalService) ist ein vordefiniertes Konto, das mit eingeschränkten Rechten ausgestattet ist, die einem authentifizierten lokalen Benutzerkonto entsprechen. Dieser eingeschränkte Zugriff dient als Sicherungsmechanismus für den Fall, dass der Dienst oder Prozess, der das Konto verwendet, Ziel einer Sicherheitsverletzung geworden ist. Dienste, die als das lokale Dienstkonto ausgeführt werden, greifen als NULL-Sitzung auf Netzwerkressourcen zu. Anders ausgedrückt, verwenden sie anonyme Anmeldeinformationen.
+
+* **Netzwerkdienst**: Beim Netzwerkdienstkonto (NT AUTHORITY\NetworkService) handelt es sich um ein vordefiniertes Konto, das ähnlich wie das lokale Dienstkonto über eingeschränkte Rechte verfügt. Die Dienste und Prozesse, die dieses Konto verwenden, nutzen für den Zugriff auf Netzwerkressourcen jedoch keine anonymen Anmeldeinformationen, sondern die des Computerkontos.
+
+
 **Hinweis:**   Die Änderung der Standardeinstellungen von Diensten kann möglicherweise die Funktionsfähigkeit von wichtigen Diensten beeinträchtigen. Die Einstellungen **Starttyp** und **Anmelden als** für Dienste, die standardmäßig automatisch beim Systemstart gestartet werden, sollten nur mit Vorsicht geändert werden.
-  
+
+
 #### Standardsicherheitseinstellungen für Windows Server 2003-Dienste
-  
+
 Vor Windows XP und Windows Server 2003 verwendeten fast alle vom Betriebssystem erstellten Dienste standardmäßig das lokale Systemkonto. Mit dieser Funktionalität waren einige offensichtliche Sicherheitsrisiken verbunden, da solche Dienste mit unbeschränkten Rechten für den lokalen Computer ausgestattet waren. Die Standardeinstellungen wurden mit der Entwicklung von Windows Server 2003 geändert, um die inhärente Sicherheit des Betriebssystems zu verbessern. Demzufolge verwenden nun viele derselben Dienste standardmäßig die Konten „Lokaler Dienst“ oder „Netzwerkdienst“ und stellen so ein geringeres Sicherheitsrisiko dar.
-  
+
 Es sind noch immer einige Dienste vorhanden, die die Verwendung des lokalen Systemkontos erfordern. Dazu gehören die Dienste „Automatische Updates“, „Computerbrowser“, „Nachrichtendienst“ und „Windows Installer“. Dienste, die immer noch das lokale Systemkonto zur Authentifizierung verwenden, sollten nicht dahingehend geändert werden, dass sie andere Konten verwenden. Dies könnte nämlich schwerwiegende Probleme verursachen und potenziell die Funktionsfähigkeit solcher Dienste beeinträchtigen.
-  
+
 In der folgenden Tabelle sind Dienstkonten aufgelistet, die unter Windows Server 2003 nicht mehr das lokale Systemkonto verwenden. Daneben wird der nun verwendete Kontotyp angegeben:
-  
+
 **Tabelle 3 – Windows Server 2003: Neue Dienstkontoeinstellungen**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Service</th>
-<th style="border:1px solid black;" >Anmelden als</th>
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Service
+
+</th>
+
+<th style="border:1px solid black;">
+
+Anmelden als
+
+</th>
+
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Warndienst</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Warndienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Gatewaydienst auf Anwendungsebene</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Gatewaydienst auf Anwendungsebene
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Remoteregistrierung</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Remoteregistrierung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Smartcard</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Smartcard
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">TCP/IP-NetBIOS-Hilfsprogramm</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+TCP/IP-NetBIOS-Hilfsprogramm
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Telnet</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Telnet
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Unterbrechungsfreie Stromversorgung (USV)</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Unterbrechungsfreie Stromversorgung (USV)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">WebClient</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WebClient
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Windows-Bilderfassung</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Windows-Bilderfassung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Windows-Zeitgeber</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Windows-Zeitgeber
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">WinHTTP-Web Proxy Auto-Discovery-Dienst</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WinHTTP-Web Proxy Auto-Discovery-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">DHCP-Client</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DHCP-Client
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Distributed Transaction Coordinator</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Distributed Transaction Coordinator
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">DNS-Client</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DNS-Client
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Lizenzprotokollierung</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Lizenzprotokollierung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Leistungsprotokollierung</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Leistungsprotokollierung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Remote Procedure Call (RPC) Locator</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Remote Procedure Call (RPC) Locator
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
+
+
+
 #### Entwicklung
-  
+
 Für die Entwicklung eines Plans zur Sicherung von Administratorkonten und kritischen Konten ist es wichtig, die grundlegenden Elemente zu verstehen, auf denen sämtliche Best Practices aufgebaut sind. Jeder Schritt, der zur Sicherung von Konten und Diensten unternommen wird, beruht auf denselben Grundprinzipien. Diese Grundprinzipien sind wiederum Teil der Prozesse und Verfahrensweisen sämtlicher Best Practice-Prozesse und -Verfahren. In diesem Abschnitt werden diese Prinzipien und Grundüberlegungen dargestellt.
-  
-##### Verwaltung von kritischen Konten und Administratorkonten
-  
+
+Verwaltung von kritischen Konten und Administratorkonten
+
 Best Practice-Richtlinien für die Sicherung von Administratorkonten unter Windows Server 2003 beruhen auf der Anwendung des Prinzips der geringsten Rechte und der Verwendung von Benutzerkonten mit eingeschränkten Rechten. Der erste Schritt bei diesem Prozess besteht darin, die aktuelle Systemumgebung gründlich zu erfassen. Den folgenden drei Punkten kommt eine Schlüsselbedeutung bei der Entwicklung eines effektiven Plans zur Verbesserung der Sicherheit von Administratorkonten und kritischen Konten zu:
-  
--   Erfassen und Dokumentieren der Systemumgebung
-  
--   Anwendung des Prinzips der geringsten Rechte
-  
--   Vergabe von Benutzerkonten mit möglichst geringen Berechtigungen
-  
-###### Erfassen und Dokumentieren der Systemumgebung
-  
+* Erfassen und Dokumentieren der Systemumgebung
+
+* Anwendung des Prinzips der geringsten Rechte
+
+* Vergabe von Benutzerkonten mit möglichst geringen Berechtigungen
+
+
+Erfassen und Dokumentieren der Systemumgebung
+
 Auch wenn dieser erste und wichtigste Schritt zur Verbesserung der Sicherheit von Konten mit administratorähnlichen Rechten offensichtlich scheint, kann darin manchmal der schwierigste Schritt in diesem Prozess bestehen. Wenn ein Unternehmen die Verwendung von Berechtigungen auf Administratorebene nicht beschränkt und dokumentiert hat, kann es sich als ziemlich schwierig erweisen festzustellen, wo Berechtigungen auf Administratorebene bestehen – insbesondere im Hinblick auf lokale Konten.
-  
+
 In Bezug auf Konten auf Administratorebene und andere sicherheitskritische Konten geht es beim Erfassen und Dokumentieren einer Netzwerkumgebung um die Klärung folgender Fragen: Wer, weshalb, was und wo. Das heißt: *Wer* ist berechtigt, Administratorkonten zu verwenden? *Weshalb* verfügen die betreffenden Personen über den Zugriff auf Administratorkonten? Für *welche* Aufgaben ist die Gewährung von administrativen Anmeldeinformationen angemessen? *Wo* ist die Sicherheit für den Einsatz solcher Anmeldeinformationen gewährleistet?
-  
+
 Der wichtigste Aspekt beim Dokumentieren dieser Informationen besteht in der Festlegung von Prozessen und Verfahrensweisen, über die geprüft wird, wo Administratorkonten verwendet werden, weshalb sie verwendet werden, wer sie verwendet hat und welche Aufgaben bei ihrer Verwendung ausgeführt wurden. Die Aufzeichnung dieser Informationen erfolgt am besten proaktiv durch den Einsatz von Bereitstellungs-, Änderungssteuerungs- und Vorfallsmanagementprozessen, über die erreicht wird, dass jede Aktion autorisiert und aufgezeichnet werden muss, bevor eine Aufgabe abgeschlossen wird. Derartige Prozesse ermöglichen die genaue Überprüfung der Nutzung von Administratorrechten, was es zudem wesentlich einfacher macht, verdächtige Vorgänge zu identifizieren.
-  
+
 Wie aus der weiteren Lektüre dieses Dokuments noch ersichtlich wird, ist das Erfassen und Dokumentieren einer Netzwerkumgebung der wichtigste Schritt zur Verbesserung der Sicherheit von kritischen Konten. Ein grundlegender Teil dieses Prozesses besteht darin, für die Verwendung und Vergabe von sicherheitskritischen Konten an Best Practices ausgerichtete Prozesse und Verfahrensweisen festzulegen. Dies sollte noch vor der Implementierung aller weiteren in diesem Dokument enthaltenen Richtlinien erfolgen.
-  
-###### Anwendung des Prinzips der geringsten Rechte
-  
+
+Anwendung des Prinzips der geringsten Rechte
+
 Einer der wohl wichtigsten Schritte, den ein Unternehmen zur Optimierung seiner Netzwerkumgebung ergreifen kann, besteht in der Anwendung des Prinzips der geringsten Rechte. Die Vergabe von Berechtigungen auf Administratorebene ist zwar häufig der einfachste und schnellste Weg, um komplexe Probleme im Zusammenhang mit Rechten bzw. Berechtigungen zu lösen, doch gleichzeitig ist dies auch die mit den größten Risiken verbundene Methode. Gleichfalls ist es für Systemadministratoren zwar wesentlich leichter, für alle Aufgaben ein Konto mit Administratorberechtigungen zu verwenden, doch erhöht sich durch eine solche Vorgehensweise auch das Risikoprofil des Netzwerks, für das die Systemadministratoren verantwortlich sind.
-  
+
 In seiner grundlegendsten Form lässt sich das Prinzip folgendermaßen anwenden: Die Verwendung von Berechtigungen auf Administratorebene sollte auf die berechtigten Mitarbeiter beschränkt bleiben und nur dann erfolgen, wenn die Bearbeitung der anstehenden Aufgabe derartig hohe Berechtigungen erfordert. Auch wenn eine Implementierung von Verfahrensweisen, bei denen dieses Prinzip berücksichtigt wird, beschwerlich scheint, dürfen die mit einer Nichtbefolgung dieses Prinzips verbundenen Risiken nicht ignoriert werden.
-  
+
 Bei Anwendung dieses Prinzips lässt sich das Risiko im Zusammenhang mit den häufigsten Sicherheitsanfälligkeiten, denen ein Netzwerk ausgesetzt sein kann, reduzieren. Im Folgenden sind einige Beispiele für diese Sicherheitsanfälligkeiten aufgelistet:
-  
--   Kernelmodusrootkits
-  
--   Programme zur Aufzeichnung von Tastaturanschlägen, die auf Systemebene ausgeführt werden
-  
--   Versuche, Kennwörter abzufangen
-  
--   Vorfälle in Zusammenhang mit Spyware und Adware
-  
--   Nicht autorisierter Zugriff auf Daten
-  
--   Installation von Trojanern
-  
--   Ereignisprotokollmanipulationen
-  
+* Kernelmodusrootkits
+
+* Programme zur Aufzeichnung von Tastaturanschlägen, die auf Systemebene ausgeführt werden
+
+* Versuche, Kennwörter abzufangen
+
+* Vorfälle in Zusammenhang mit Spyware und Adware
+
+* Nicht autorisierter Zugriff auf Daten
+
+* Installation von Trojanern
+
+* Ereignisprotokollmanipulationen
+
+
 Bei reduziertem Einsatz von Administratorkonten bestehen auch weniger Möglichkeiten, die mit solchen Konten verbundenen hohen Berechtigungen für bösartige Aktivitäten zu missbrauchen. Dadurch wird das Sicherheitsprofil des Netzwerks verbessert. Wenn die Möglichkeit zur Vornahme größerer Änderungen am Betriebssystem nicht mehr gegeben ist, werden damit auch die Möglichkeiten zur Installation und Ausführung von Malware und Spyware beschränkt. Aus diesen Gründen kann sich die Anwendung des Prinzips der geringsten Rechte derartig stark auf die Netzwerksicherheit auswirken.
-  
-###### Vergabe von Benutzerkonten mit möglichst geringen Berechtigungen
-  
+
+Vergabe von Benutzerkonten mit möglichst geringen Berechtigungen
+
 In vielen Unternehmen ist es üblich, den Benutzern Administratorrechte für ihre eigenen Computer zu gewähren, insbesondere bei tragbaren Computern. Auch wenn es durchaus gute Gründe für die Gewährung solch hoher Berechtigungen geben mag, wird das Unternehmen dadurch einem höheren Risiko ausgesetzt.
-  
+
 Bei der Vergabe von Benutzerkonten mit möglichst geringen Berechtigungen werden Empfehlungen auf der Grundlage von Best Practices kombiniert, durch die es Unternehmen ermöglicht wird, Konten ohne Administratorrechte für die Bedienung von Windows XP-basierten Computern zu verwenden. Diese Verfahrensweisen führen zu einer praktischen Anwendung des Prinzips der geringsten Rechte für Windows XP-Clientgeräte.
-  
+
 In diesem Dokument werden die Grundsätze der Vergabe von Administratorkonten erörtert, wobei Berechtigungen auf Netzwerkebene eine besondere Berücksichtigung erfahren. Deshalb ist es ebenfalls wichtig zu bedenken, welche Konsequenzen sich für lokale Benutzerkonten auf Arbeitsstationen ergeben. Ein derartig konzentrierter Ansatz geht zwar über den Rahmen dieses Dokuments hinaus, doch können Sie ausführlichere Erläuterungen zur Vergabe von Benutzerkonten mit möglichst geringen Berechtigungen auf der Website von Microsoft finden. Weitere Informationen hierzu finden Sie im Whitepaper zur [Anwendung des Prinzips der geringsten Rechte für Benutzerkonten unter Windows XP](http://go.microsoft.com/fwlink/?linkid=58445) (möglicherweise in Englisch) unter http://go.microsoft.com/fwlink/?LinkId=58445 sowie im Artikel über die [Verwendung eines Benutzerkontos mit möglichst geringen Berechtigungen](http://www.microsoft.com/technet/security/secnews/articles/lpuseacc.mspx) (möglicherweise in Englisch) unter www.microsoft.com/technet/security/secnews/articles/lpuseacc.mspx.
-  
-##### Dienstkontenverwaltung
-  
+
+Dienstkontenverwaltung
+
 Wie bei der Verwaltung von Administratorkonten und kritischen Konten gibt es auch hier drei grundlegende Punkte, denen für die Entwicklung eines erfolgreichen Plans zur Verbesserung der Sicherheit von Diensten in einem mittelgroßen Unternehmen eine Schlüsselbedeutung zukommt. Es ist wichtig, dass die folgenden drei Punkte während der Entwicklungsphasen thematisiert und in Sicherheitsrichtlinienverfahren integriert werden.
-  
--   Erfassen und Dokumentieren der Systemumgebung
-  
--   Anwendung des Prinzips der geringsten Rechte
-  
--   Anwendung des Prinzips der geringsten Dienstanzahl
-  
-###### Erfassen und Dokumentieren der Systemumgebung
-  
+* Erfassen und Dokumentieren der Systemumgebung
+
+* Anwendung des Prinzips der geringsten Rechte
+
+* Anwendung des Prinzips der geringsten Dienstanzahl
+
+
+Erfassen und Dokumentieren der Systemumgebung
+
 Dieser empfohlene Schritt mag offensichtlich erscheinen, doch zahlreiche Unternehmen sind sich nicht sämtlicher Rollen und Dienste bewusst, die in ihrer Netzwerkumgebung vorhanden sind. Die Tatsache, dass die Rollen und Dienste nicht bekannt und dokumentiert sind, kann eine Reihe von Gründen haben. Meistens besteht der Grund jedoch im raschen Wachstum von Netzwerkumgebungen sowie einem Mangel von Zeit und Ressourcen, um sich in angemessener Weise der Notwendigkeit einer Dokumentierung zu widmen.
-  
+
 Um zu erkennen, ob die Sicherheit von Computern gewährleistet ist, muss bekannt sein, welche Dienste auf diesen Computern ausgeführt werden und welche Folgen sich aus den Eigenschaften dieser Dienste ergeben könnten. Diese Informationen sind überaus wichtig, um sowohl die Server und ihre jeweiligen Dienste zu sichern als auch die Konten, die diese Dienste erfordern könnten. Zu diesem Zweck ist es normalerweise hilfreich, eine Tabelle von Diensten, Diensteigenschaften und Computern zu erstellen, auf denen diese Dienste verwendet werden. Die Erstellung solch einer Liste mag eine gewisse Herausforderung darstellen, aber die Ergebnisse sind der Mühe wert. Nachdem die Tabelle erstellt wurde und einen Bestandteil des Prozesses zur Serverkonfiguration und Anwendungsbereitstellung darstellt, ist es zudem relativ einfach, sie auf aktuellem Stand zu halten.
-  
+
 Es sind einige Tools verfügbar, die die Dokumentierung der Dienste und Diensteigenschaften innerhalb eines Netzwerks erleichtern. Im Folgenden sind einige dieser Tools aufgelistet:
-  
--   **Service Controller Tool (sc.exe)**: Dieses Befehlszeilenprogramm ist in Windows Server 2003 und Windows XP integriert. Dieses Tool bietet eine einfache Methode, um zum Abfragen und Einstellen von Diensteigenschaften über die Befehlszeile mit der Dienststeuerungs-Manager-Komponente zu kommunizieren.
-  
--   **Service Controller List Tool (sclist.exe)**: Windows 2000 Server Resource Kit bietet ein Tool, das die auf lokalen oder Remotecomputern ausgeführten und angehaltenen Dienste auflistet. Mithilfe von Sclist.exe können Dienste identifiziert werden, die auf Remoteservern ausgeführt werden und nicht über Bildschirme verfügen bzw. vom Administrator räumlich getrennt sind.
-  
--   **Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)**: Diese Komponente ist in Windows Server 2003 und Windows XP integriert und stellt Verwaltungsinformationen und Verwaltungssteuerungsmechanismen in Unternehmensumgebungen bereit. WMI kann von Administratoren genutzt werden, um auf Computern, in Netzwerken, Anwendungen und Diensten Daten abzufragen und Einstellungen vorzunehmen. Neben der Möglichkeit, Skripts für die Bewältigung von Verwaltungsaufgaben zu verwenden, können Administratoren mithilfe von WMI Abhängigkeiten von Diensten sowie Dienste identifizieren, von denen diese Dienste ihrerseits abhängen.
-  
--   **Windows-Verwaltungsinstrumentations-Befehlszeile (Windows Management Instrumentation Command Line, WMIC)**: WMI enthält auch ein Befehlszeilenprogramm namens WMIC. Dieses Tool bietet eine einfache WMI-Befehlszeilenschnittstelle für Abfragen und Remotecomputerverwaltung. Abfrageergebnisse von WMIC lassen sich als leicht lesbare HTML-Tabellen formatieren, die mit einem Browser wie Internet Explorer angezeigt werden können.
-  
-###### Anwendung des Prinzips der geringsten Rechte
-  
+* **Service Controller Tool (sc.exe)**: Dieses Befehlszeilenprogramm ist in Windows Server 2003 und Windows XP integriert. Dieses Tool bietet eine einfache Methode, um zum Abfragen und Einstellen von Diensteigenschaften über die Befehlszeile mit der Dienststeuerungs-Manager-Komponente zu kommunizieren.
+
+* **Service Controller List Tool (sclist.exe)**: Windows 2000 Server Resource Kit bietet ein Tool, das die auf lokalen oder Remotecomputern ausgeführten und angehaltenen Dienste auflistet. Mithilfe von Sclist.exe können Dienste identifiziert werden, die auf Remoteservern ausgeführt werden und nicht über Bildschirme verfügen bzw. vom Administrator räumlich getrennt sind.
+
+* **Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)**: Diese Komponente ist in Windows Server 2003 und Windows XP integriert und stellt Verwaltungsinformationen und Verwaltungssteuerungsmechanismen in Unternehmensumgebungen bereit. WMI kann von Administratoren genutzt werden, um auf Computern, in Netzwerken, Anwendungen und Diensten Daten abzufragen und Einstellungen vorzunehmen. Neben der Möglichkeit, Skripts für die Bewältigung von Verwaltungsaufgaben zu verwenden, können Administratoren mithilfe von WMI Abhängigkeiten von Diensten sowie Dienste identifizieren, von denen diese Dienste ihrerseits abhängen.
+
+* **Windows-Verwaltungsinstrumentations-Befehlszeile (Windows Management Instrumentation Command Line, WMIC)**: WMI enthält auch ein Befehlszeilenprogramm namens WMIC. Dieses Tool bietet eine einfache WMI-Befehlszeilenschnittstelle für Abfragen und Remotecomputerverwaltung. Abfrageergebnisse von WMIC lassen sich als leicht lesbare HTML-Tabellen formatieren, die mit einem Browser wie Internet Explorer angezeigt werden können.
+
+
+Anwendung des Prinzips der geringsten Rechte
+
 Wir bei Microsoft verstehen, wie wichtig das Thema Sicherheit ist und welche Bedeutung dem Prinzip der geringsten Rechte bei der Sicherung von Netzwerkumgebungen zukommt. Bei Microsoft wurde das Prinzip der geringsten Rechte bei der Entwicklung von Windows Server 2003 angewendet, um sicherzustellen, dass die Dienste im Betriebssystemkern bereits das Konto mit den geringsten Rechten verwenden. Aus diesem Grund sollte keine weitere Konfiguration dieser Dienste erforderlich sein. Dieser Ansatz sollte sich schwerpunktmäßig darauf konzentrieren, Dienste zu sichern, die nicht zum Betriebssystem gehören. Dazu zählen die Dienste, die als Komponenten anderer Produkte bereitgestellt werden, beispielsweise Microsoft SQL Server, Microsoft Operations Manager oder andere Softwareprodukte von Drittanbietern.
-  
+
 Dementsprechend sollte das Prinzip der geringsten Rechte ebenfalls angewendet werden, wenn andere Dienste ausgeführt werden, selbst wenn es häufig leichter ist, bei Einführung neuer Produkte einfach höhere Berechtigungen zu gewähren. Dienste sollten z. B. überall, wo dies möglich ist, das lokale Dienstkonto verwenden, um einen Angriff in seinem Erfolg auf den lokalen Computer zu beschränken und nicht die gesamte Domäne in Mitleidenschaft zu ziehen. Dienste, die einen authentifizierten Netzwerkzugriff erfordern, sollten den Netzwerkdienst verwenden, wann immer dies möglich ist. Für Dienste, die breit angelegte Berechtigungen erfordern, sollte das lokale Dienstkonto verwendet werden. Wenn ein Dienst schließlich die Verwendung eines Administratorkontos auf Domänenebene erfordert, sollten die Server, auf denen dieser Dienst ausgeführt wird, als Hochsicherheitssysteme betrachtet werden, die auf dieselbe Weise geschützt werden wie andere vertrauliche bzw. kritische Netzwerkressourcen und Domänencontroller.
-  
-Gruppenrichtlinien können ebenfalls zur Steuerung bestimmter Dienste verwendet werden, die auf Computern ausgeführt werden dürfen. Zahlreiche Eigenschaften können unter **Computerkonfiguration\\Windows-Einstellungen\\Sicherheitseinstellungen\\Systemdienste** gesteuert werden, indem dort die Seite **Eigenschaften** für den entsprechenden Dienst geöffnet wird. Einstellungen wie etwa der Startmodus und die Berechtigungen dafür, welche Konten verwendet werden dürfen, um bestimmte Vorgänge für diesen Dienst auszuführen (z. B. Starten oder Beenden), können geändert werden.
-  
+
+Gruppenrichtlinien können ebenfalls zur Steuerung bestimmter Dienste verwendet werden, die auf Computern ausgeführt werden dürfen. Zahlreiche Eigenschaften können unter **Computerkonfiguration\Windows-Einstellungen\Sicherheitseinstellungen\Systemdienste** gesteuert werden, indem dort die Seite **Eigenschaften** für den entsprechenden Dienst geöffnet wird. Einstellungen wie etwa der Startmodus und die Berechtigungen dafür, welche Konten verwendet werden dürfen, um bestimmte Vorgänge für diesen Dienst auszuführen (z. B. Starten oder Beenden), können geändert werden.
+
 Die Implementierung des Prinzips der geringsten Rechte setzt eine genaue Kenntnisse der Systeme in der jeweiligen Umgebung voraus. Durch die Kombination dieser beiden zentralen Konzepte ist es möglich festzustellen, welche Dienste auf welchen Computern ausgeführt werden. Darüber hinaus ist der Status der Dienste zu erkennen sowie die Anmeldeinformationen, die für jeden Dienst bzw. für jeden Server verwendet werden. Nur dann ist es möglich, über Änderungssteuerungsprozesse methodisch und effektiv jeden einzelnen Dienst auf die Verwendung der geringsten Rechte zu beschränken, die für die weitere Funktionsfähigkeit erforderlich sind. Auf diese Weise wird zudem die Dokumentierung der Umgebung erleichtert.
-  
-###### Anwendung des Prinzips der geringsten Dienstanzahl
-  
+
+Anwendung des Prinzips der geringsten Dienstanzahl
+
 Abschließend ist noch das Prinzip der geringsten Dienstanzahl zu nennen. Es sagt aus, dass die für Netzwerkressourcen verfügbaren Betriebssystem- und Netzwerkprotokolle nur genau die Dienste und Protokolle ausführen sollten, die für das Funktionieren der Betriebsabläufe erforderlich sind. Wenn ein Server beispielsweise nicht als Host für Internetanwendungen benötigt wird, sollte der WWW-Dienst (World Wide Web) deaktiviert oder deinstalliert werden.
-  
+
 Bei der Standardinstallation der meisten Betriebssysteme und Programme werden weit mehr Dienste und Protokolle installiert, als tatsächlich für gängige Nutzungsszenarien erforderlich sind. Daher sollte, wann immer möglich, ein benutzerdefinierter Installationsvorgang gewählt werden, damit gesteuert werden kann, welche Dienste und Protokolle während eines Anwendungsprozesses aktiviert bzw. installiert werden. Auf diese Weise ist es möglich zu dokumentieren, welche Prozesse während der Installation erstellt werden. Dies ist nützlich für den Fall, dass zu einem späteren Zeitpunkt festgestellt wird, dass ein bei der Installation erstellter Dienst nicht mehr benötigt wird.
-  
+
 Bei der Bereitstellung von neuen Servern oder der Entwicklung von Serverimages gilt es als Best Practice, Schritte in das Verfahren aufzunehmen, bei denen der Systemadministrator alle bis auf die vom Betriebssystem benötigten Dienste herunterfährt. Die deaktivierten Dienste können zu einem späteren Zeitpunkt für jede Anwendung, die auf dem Server ausgeführt werden muss, erneut aktiviert werden. So war es z. B. vor Windows Server 2003 üblich, die Warn- und Nachrichtendienste von Windows-Betriebssystemen zu deaktivieren, da derartige Dienste im Allgemeinen nicht benötigt wurden. Durch das Deaktivieren dieser Dienste wurde das Sicherheitsprofil des bereitgestellten Servers erhöht, ohne dabei die Funktionalität zu beeinträchtigen.
-  
+
 Ein weiterer wichtiger Bestandteil dieses Prinzips ist auch der jeweilige Installationsort von Diensten. Der Routing- und RAS-Dienst oder der Internetinformationsdienst sollten beispielsweise nie auf Domänencontrollern installiert werden, da diese Hintergrunddienste die Sicherheitsanfälligkeit von Domänencontrollern erhöhen. Nach einer aufgetretenen Sicherheitsverletzung könnte ein Domänencontroller uneingeschränkten Zugriff auf die übrige Domäne gewähren. Auf der Grundlage der Best Practices von Microsoft empfiehlt es sich deshalb, nur die Dienste auf einem Domänencontroller bereitzustellen, die für dessen Betrieb absolut erforderlich sind.
-  
+
+
 #### Bereitstellung und Verwaltung
-  
+
 Nach der Darstellung der zentralen Überlegungen und grundlegenden Prinzipien kann nun eine Reihe von speziellen Empfehlungen betrachtet werden, die auf diesen Konzepten beruhen. Schon durch das Ergreifen einer einzigen dieser Maßnahmen lässt sich die Sicherheit eines Unternehmensnetzwerks erhöhen, doch in der Kombination können die Maßnahmen Teil eines umfassenden Sicherheitsframeworks werden, über das die Sicherheitsanfälligkeit des Netzwerks eines mittelgroßen Unternehmens erheblich reduziert werden kann.
-  
-##### Verwaltung von kritischen Konten und Administratorkonten
-  
+
+Verwaltung von kritischen Konten und Administratorkonten
+
 Es kann eine Reihe von auf Best Practices basierenden Ansätzen zur Sicherung von Administratorkonten in einem Microsoft Windows-Netzwerk umgesetzt werden. Mithilfe der folgenden Methoden lässt sich erwiesenermaßen die mit derartigen Konten verbundene Sicherheitsanfälligkeit reduzieren. Die Methoden werden häufig bei Netzwerken von mittelgroßen Unternehmen eingesetzt.
-  
-###### Trennen von Domänenadministrator- und Unternehmensadministratorrollen
-  
+
+Trennen von Domänenadministrator- und Unternehmensadministratorrollen
+
 Die Unternehmensadministratorrolle ist die höchste Rolle innerhalb einer Active Directory-Gesamtstruktur. Es müssen Schritte unternommen werden, um zu gewährleisten, dass dieser Kontotyp gesichert und seine Verwendung genauen Regelungen unterworfen wird. Es bestehen zwei Möglichkeiten zur Verwaltung dieses Kontotyps:
-  
--   **Kontrolliertes Einzelkonto**: Die erste Methode besteht darin, diese Rolle auf ein einzelnes Konto zu beschränken, das streng überwacht und kontrolliert wird, um zu gewährleisten, dass das Konto nur verwendet wird, wenn autorisierte Anforderungen zur Änderungssteuerung für Aufgaben bestehen, die seine Verwendung erfordern würden. Jedes überwachte Ereignis, das im Namen dieses Kontos stattfindet, erfordert eine unmittelbare Nachforschung und muss in irgendeiner Form von autorisiertem Änderungsanforderungsereignis begleitet sein.
-  
--   **Temporäres Konto**: Ein anderer Ansatz besteht darin, ein derartiges Konto erst dann zu erstellen, wenn es zur Ausführung einer autorisierten Aufgabe benötigt wird. In so einem autorisierten Fall kann dann ein temporäres Konto erstellt werden, das zur Ausführung der Aufgabe genutzt und anschließend wieder gelöscht wird. Da nur selten die Notwendigkeit für ein Konto mit derartig hohen Berechtigungen besteht, würden solche Schritte den Verwaltungsaufwand nur unwesentlich erhöhen.
-  
-###### Trennen von Benutzer- und Administratorkonten
-  
+* **Kontrolliertes Einzelkonto**: Die erste Methode besteht darin, diese Rolle auf ein einzelnes Konto zu beschränken, das streng überwacht und kontrolliert wird, um zu gewährleisten, dass das Konto nur verwendet wird, wenn autorisierte Anforderungen zur Änderungssteuerung für Aufgaben bestehen, die seine Verwendung erfordern würden. Jedes überwachte Ereignis, das im Namen dieses Kontos stattfindet, erfordert eine unmittelbare Nachforschung und muss in irgendeiner Form von autorisiertem Änderungsanforderungsereignis begleitet sein.
+
+* **Temporäres Konto**: Ein anderer Ansatz besteht darin, ein derartiges Konto erst dann zu erstellen, wenn es zur Ausführung einer autorisierten Aufgabe benötigt wird. In so einem autorisierten Fall kann dann ein temporäres Konto erstellt werden, das zur Ausführung der Aufgabe genutzt und anschließend wieder gelöscht wird. Da nur selten die Notwendigkeit für ein Konto mit derartig hohen Berechtigungen besteht, würden solche Schritte den Verwaltungsaufwand nur unwesentlich erhöhen.
+
+
+Trennen von Benutzer- und Administratorkonten
+
 Konten werden normalerweise Benutzern zugeordnet. Bei der Anwendung des Prinzips der geringsten Rechte können Konten nicht nur mit Rollen, sondern auch mit Aufgaben verknüpft werden, insbesondere dann, wenn es um Verwaltungsfunktionen geht. Für jede Person, die eine Administratorrolle erfüllt, sollten zwei Konten bestehen: eines für den täglichen Gebrauch – ein typisches Benutzerkonto – und ein weiteres mit Administratorrechten, das nur zur Ausführung von Verwaltungsaufgaben an der Arbeitsstation eines Administrators verwendet wird.
-  
+
 Administratorkonten sollten auf die Ausführung von Verwaltungsaufgaben und die Verwendung an Administratorarbeitsstationen eingeschränkt werden, die – ähnlich wie Domänencontroller – zu einem vertrauenswürdigen Netzwerk gehören. Administratorkonten und die damit verbundenen Arbeitsstationen sollten keinen Zugriff auf E-Mail oder das Internet haben. Zudem sollten diese Konten nur dann angemeldet sein, wenn sie auch genutzt werden. Administratoren sollten über unterschiedliche Kennwörter für ihre Standardbenutzer- und Administratorkonten verfügen. Administratorkennwörter sollten den höchstmöglichen Sicherheitsstandard innerhalb eines Netzwerks aufweisen.
-  
+
 Diese einfachen Vorsichtsmaßnahmen senken deutlich die Sicherheitsgefahren, die mit derartigen Konten verbunden sind, da sie weniger Angriffsfläche nach außen bieten und sie für kürze Zeiträume genutzt werden.
-  
-###### Verwenden des sekundären Anmeldedienstes
-  
+
+Verwenden des sekundären Anmeldedienstes
+
 Programme können unter einem anderen als dem aktuell angemeldeten Konto ausgeführt werden, wenn Microsoft Windows 2000 Run als Dienst verwendet wird. Bei Windows Server 2003 und Windows XP Professional hat diese Funktionalität den neuen Namen „sekundärer Anmeldedienst“ erhalten.
-  
+
 Der sekundäre Anmeldedienst ermöglicht es Administratoren, sich mit einem Konto ohne Administratorrechte an einem Computer anzumelden und Verwaltungsaufgaben auszuführen. Dabei werden, vertrauenswürdige Verwaltungsaufgaben mit einer Administratoranmeldung ausgeführt, ohne dass zuvor eine Abmeldung erfolgen muss. Mithilfe dieser Funktionalität lassen sich die mit einer Administratoranmeldung verbundenen Risiken verringern, indem eine Form des weiter oben beschriebenen Konzepts der Trennung von Benutzer- und Administratorkonten eingesetzt wird.
-  
-###### Ausführen separater Terminaldienstsitzungen für die Administration
-  
+
+Ausführen separater Terminaldienstsitzungen für die Administration
+
 Terminaldienste und Remotedesktopverbindungen werden häufig zur Serververwaltung verwendet, ohne dass dabei ein physischer Zugriff auf die Serverkonsole erforderlich ist. Diese Methode ist nicht nur effizienter, sondern auch sicherer als die Verwendung eines Administratorkontos, um sich interaktiv am Server anzumelden. Dies gilt besonders dann, wenn an dem Computer, von dem aus die Verbindung hergestellt wurde, kein Konto auf Administratorebene verwendet wird. Wenn eine Verwaltungsaufgabe abgeschlossen ist, sollte eine Abmeldung des Administratorkontos erfolgen und die Verbindung der Sitzung beendet werden.
-  
-###### Umbenennen der standardmäßigen Administratorkonten
-  
+
+Umbenennen der standardmäßigen Administratorkonten
+
 Das Umbenennen des standardmäßigen Administratorkontos bleibt in zahlreichen mittelgroßen Unternehmen eine häufig angewendete Methode und trägt bis zu einem gewissen Grad zu einer Verbesserung des Risikoprofils des betreffenden Kontos bei. Mit dieser Methode kann allerdings nur eine geringe Anzahl von Angriffsarten verhindert werden, da zahlreiche Tools und Techniken vorhanden sind, mit denen Angreifer feststellen können, bei welchem Konto es sich um das vordefinierte Administratorkonto handelt. Auch wenn es durchaus hilfreich sein kann, das Standardkonto umzubenennen, ist es tatsächlich effektiver, sekundäre Administratorkonten zu erstellen und anschließend die ursprünglichen vordefinierten Konten zu deaktivieren, so wie es später in diesem Dokument behandelt wird.
-  
-###### Erstellen von Köderadministratorkonten
-  
+
+Erstellen von Köderadministratorkonten
+
 Zusammen mit einem Eindringschutzmechanismus, der Warnmeldungen über bestimmte Kontoaktivitäten erkennen und senden kann, kann die Verwendung eines Köderadministratorkontos als zusätzliche Verteidigungsschicht gegen die auf ein Netzwerk ausgeführten Angriffsversuche dienen. Diese Technik allein kann schon einige Angreifer dadurch aufhalten, wenn diesem Konto mehr Kennworteingabeversuche gewährt werden, als dies normalerweise bei Konten der Fall ist, und sichere Kennwörter verwendet werden. Köderadministratorkonten sollten keine Mitglieder von mit Berechtigungen ausgestatteten Sicherheitsgruppen sein und sollten auf jegliche Aktivität überwacht werden. Jeder Versuch, ein derartiges Konto zu nutzen, sollte eine umgehende Untersuchung auslösen.
-  
-###### Erstellen von sekundären Administratorkonten und Deaktivieren von vordefinierten Konten
-  
+
+Erstellen von sekundären Administratorkonten und Deaktivieren von vordefinierten Konten
+
 Auch wenn nicht jede Person, die über eine Administratorrolle verfügt, ein eigenes administratorähnliches Konto für die Ausführung von Verwaltungsaufgaben erhält – und selbst wenn die Terminaldienste nicht für die Serververwaltung genutzt werden –, gilt es dennoch als Best Practice, ein sekundäres Administratorkonto zu erstellen. Ein sekundäres Administratorkonto dient als Absicherung gegen eine Sicherheitsverletzung bei einem primären Administratorkonto und sollte erstellt werden, bevor das vordefinierte Administratorkonto deaktiviert wird.
-  
-**Hinweis:**    Es ist wichtig sicherzustellen, dass ein weiteres Konto mit den entsprechenden Administratorberechtigungen erstellt wurde, bevor das vordefinierte Administratorkonto deaktiviert wird. Wird das vordefinierte Administratorkonto deaktiviert, ohne dass ein weiteres entsprechendes Konto besteht, könnte dies zu Einbußen bei der Verwaltbarkeit der Domäne führen und eine Systemwiederherstellung bzw. eine Neuinstallation erforderlich machen, um das Problem zu beheben.
-  
-###### Aktivieren der Kontosperrung für Remoteadministratoranmeldungen
-  
+
+**Hinweis:**   Es ist wichtig sicherzustellen, dass ein weiteres Konto mit den entsprechenden Administratorberechtigungen erstellt wurde, bevor das vordefinierte Administratorkonto deaktiviert wird. Wird das vordefinierte Administratorkonto deaktiviert, ohne dass ein weiteres entsprechendes Konto besteht, könnte dies zu Einbußen bei der Verwaltbarkeit der Domäne führen und eine Systemwiederherstellung bzw. eine Neuinstallation erforderlich machen, um das Problem zu beheben.
+
+Aktivieren der Kontosperrung für Remoteadministratoranmeldungen
+
 Auch wenn das vordefinierte Administratorkonto nicht gesperrt werden kann, so ist doch die Sperrung von Remoteanmeldungen möglich, die vom Administratorkonto ausgehen. Zu diesem Zweck bietet das Microsoft Windows 2000 Server Resource Kit ein Befehlszeilenprogramm namens Passprop.exe, über das die Kontosperrung für Remoteanmeldungen aktiviert werden kann. Wenn dieses Befehlszeilenprogramm mit der Option /ADMINLOCKOUT verwendet wird, gelten sowohl für die interaktive als auch für die Remoteanmeldung beim Administratorkonto die bestehenden Sperrrichtlinien von Windows 2000 Server.
-  
-**Hinweis:**    Das Verwenden von Passprop.exe /ADMINLOCKOUT unter Windows Server 2003 hat Auswirkungen auf die Remoteanmeldung und die interaktive Anmeldung beim Administratorkonto. Diese Funktion sollte mit Vorsicht eingesetzt werden, da es unmöglich ist, das Administratorkonto zur Serververwaltung einzusetzen, solange das Konto gesperrt ist.
-  
-###### Erstellen von sicheren Administratorkennwörtern
-  
+
+**Hinweis:**   Das Verwenden von Passprop.exe /ADMINLOCKOUT unter Windows Server 2003 hat Auswirkungen auf die Remoteanmeldung und die interaktive Anmeldung beim Administratorkonto. Diese Funktion sollte mit Vorsicht eingesetzt werden, da es unmöglich ist, das Administratorkonto zur Serververwaltung einzusetzen, solange das Konto gesperrt ist.
+
+Erstellen von sicheren Administratorkennwörtern
+
 Eine weitere Best Practice-Methode besteht in der Verwendung eines sicheren Kennworts für Konten mit Administratorberechtigungen sowie für vordefinierte Administratorkonten. Sichere Kennwörter mindern die Wahrscheinlichkeit, dass ein Angreifer Brute-Force-Angriffe zur Erhöhung von Berechtigungen nutzt. Sichere Kennwörter weisen typischerweise die folgenden Merkmale auf:
-  
--   Sie sind mindestens 15 Zeichen lang.
-  
--   Sie enthalten niemals Kontonamen, echte Namen oder den Namen des Unternehmens in irgendeiner Form.
-  
--   Sie enthalten niemals vollständige Wörter, umgangssprachliche Ausdrücke oder andere Begriffe, nach denen gesucht werden kann.
-  
--   Sie unterscheiden sich wesentlich von vorher benutzten Kennwörtern und sind nicht inkrementell.
-  
--   Sie weisen mindestens drei der folgenden Zeichenarten auf:
-  
-    -   Großbuchstaben (A, B, C...)
-  
-    -   Kleinbuchstaben (a, b, c...)
-  
-    -   Ziffern (0, 1, 2...)
-  
-    -   Nicht-alphanumerische Symbole (@, &, $...)
-  
-    -   Unicode-Zeichen (€, ƒ, ?...)
-  
-###### Automatisches Erkennen von unsicheren Kennwörtern
-  
+* Sie sind mindestens 15 Zeichen lang.
+
+* Sie enthalten niemals Kontonamen, echte Namen oder den Namen des Unternehmens in irgendeiner Form.
+
+* Sie enthalten niemals vollständige Wörter, umgangssprachliche Ausdrücke oder andere Begriffe, nach denen gesucht werden kann.
+
+* Sie unterscheiden sich wesentlich von vorher benutzten Kennwörtern und sind nicht inkrementell.
+
+* Sie weisen mindestens drei der folgenden Zeichenarten auf:
+    - Großbuchstaben (A, B, C...)
+
+    - Kleinbuchstaben (a, b, c...)
+
+    - Ziffern (0, 1, 2...)
+
+    - Nicht-alphanumerische Symbole (@, &amp;, $...)
+
+    - Unicode-Zeichen (€, ƒ, ?...)
+
+Automatisches Erkennen von unsicheren Kennwörtern
+
 Es gibt zwei grundlegende Ansätze, die bei Tools zum Überprüfen von Kennwörtern eingesetzt werden, um nach unsicheren oder leeren Kennwörtern zu suchen. Hierbei handelt es sich um die folgenden Ansätze:
-  
--   **Onlinescannen von Kennwörtern**: Beim Onlinescannen werden mehrere Versuche unternommen, sich mithilfe von verbreiteten Kennwortmängeln anzumelden. Ein Beispiel hierfür ist die Verwendung des Kennworts „Kennwort“ oder sogar eines leeren Kennworts. Das Tool Microsoft Baseline Security Analyzer (MBSA) funktioniert z. B. nach dieser Methode.
-  
--   **Offlinescannen von Kennwörtern**: Das Offlinescannen beinhaltet eine Reihe von Mechanismen, bei denen zwischengespeicherte Anmeldeinformationen genutzt werden, um die Sicherheit von Kennwörtern für verschiedene Konten zu testen und sogar entsprechend einer Rangfolge zu ordnen. Tools, die nach dieser Methode funktionieren, weisen gegenüber der zuvor beschriebenen Methode einige Vorteile auf, erfordern jedoch Software von Drittanbietern.
-  
+
+* **Onlinescannen von Kennwörtern**: Beim Onlinescannen werden mehrere Versuche unternommen, sich mithilfe von verbreiteten Kennwortmängeln anzumelden. Ein Beispiel hierfür ist die Verwendung des Kennworts „Kennwort“ oder sogar eines leeren Kennworts. Das Tool Microsoft Baseline Security Analyzer (MBSA) funktioniert z. B. nach dieser Methode.
+
+* **Offlinescannen von Kennwörtern**: Das Offlinescannen beinhaltet eine Reihe von Mechanismen, bei denen zwischengespeicherte Anmeldeinformationen genutzt werden, um die Sicherheit von Kennwörtern für verschiedene Konten zu testen und sogar entsprechend einer Rangfolge zu ordnen. Tools, die nach dieser Methode funktionieren, weisen gegenüber der zuvor beschriebenen Methode einige Vorteile auf, erfordern jedoch Software von Drittanbietern.
+
+
 Es sind zwar Tools von Drittanbietern erhältlich, mit denen nach unsicheren Kennwörtern gesucht werden kann, doch Microsoft Baseline Security Analyzer (MBSA) ist als kostenloser Download verfügbar. Mit MBSA werden alle deaktivierten oder gesperrten Konten angezeigt, die erkannt werden, während alle Benutzerkonten aufgelistet werden, um nach den folgenden Kennwortmängeln zu suchen.
-  
--   Leere Kennwörter
-  
--   Verwendung von Benutzernamen als Kennwort
-  
--   Verwendung von Computernamen als Kennwort
-  
--   Verwendung der Wörter „Kennwort“, „Admin“ oder „Administrator“ als Kennwort
-  
+* Leere Kennwörter
+
+* Verwendung von Benutzernamen als Kennwort
+
+* Verwendung von Computernamen als Kennwort
+
+* Verwendung der Wörter „Kennwort“, „Admin“ oder „Administrator“ als Kennwort
+
+
 Weitere Informationen hierzu finden Sie auf der Webseite [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx) unter www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx.
-  
-###### Einschränken von Verwaltungsaufgaben auf vertrauenswürdige Computer
-  
+
+Einschränken von Verwaltungsaufgaben auf vertrauenswürdige Computer
+
 Administratoranmeldeinformationen stellen für Angreifer, die in das Netzwerk eindringen möchten, ein verlockendes Ziel dar. Die Methoden, über die sie versuchen, sich Zugriff auf diese Informationen zu verschaffen, können manchmal nur schwer erkannt werden. Um an diese vertraulichen Daten zu gelangen, werden typischerweise Tools eingesetzt, mit denen die Tastatureingaben aufgezeichnet oder die Bildschirminhalte eines Computers erfasst werden können, dessen Sicherheit bereits nicht mehr intakt ist. Malware in dieser Form kann sehr versteckt zum Einsatz kommen. Dadurch ist es außerordentlich schwierig, diese schädlichen Programme nach der Installation auf einem Computer aufzuspüren oder gar zu entfernen.
-  
+
 Deshalb gilt als Best Practice, dass administratorähnliche Konten in ihrer Verwendung auf so wenig Computer wie möglich beschränkt bleiben, damit die Sicherheitsanfälligkeit gegenüber derartigen Bedrohungen verringert wird. Bei Beschränkung der Ressourcen, auf denen Administratorkonten verwendet werden sollen, muss darüber hinaus sichergestellt werden, dass derartige Systeme vertrauenswürdig und gut geschützt sind. Es sind zahlreiche Techniken für den Schutz von sicherheitskritischen Ressourcen verfügbar, über die die Sicherheit bei bestimmten Geräten erhöht werden kann, ohne dabei die Verwendbarkeit des Netzwerks zu beeinträchtigen. Zu diesen Techniken gehört beispielsweise die Netzwerkisolation über IPSec.
-  
+
 Weitere Informationen zur Verwendung von IPSec zur Isolierung von Domänen und Servern finden Sie auf der Technology Center-Seite zur [Isolierung von Domänen und Servern](http://www.microsoft.com/technet/itsolutions/network/sdiso/default.mspx) (möglicherweise in Englisch) unter www.microsoft.com/technet/itsolutions/network/sdiso/default.mspx.
-  
-###### Überwachen von Konten und Kennwörtern
-  
+
+Überwachen von Konten und Kennwörtern
+
 Die regelmäßige Überwachung von Konten trägt dazu bei, die Sicherheit der Domäne vor Angriffen zu gewährleisten, die mit der Erhöhung von Berechtigungen verbunden sind. Wenn es einem Angreifer gelingt, Zugriff auf ein Konto auf Administratorebene zu erhalten, kann er Schwachstellen erzeugen und Sicherheitsmaßnahmen umgehen. Angreifer, die Zugriff auf ein administratorähnliches Konto erlangen, können beispielsweise Proxybenutzerkonten erstellen, Kontomitgliedschaften ändern und sogar Ereignisprotokolle modifizieren, um ihre Spuren zu verwischen.
-  
+
 Alle administrativen Benutzer und Gruppen auf Domänenebene sowie sämtliche lokalen Administratorkonten und -gruppen auf sicherheitskritischen Servern sollten regelmäßig überwacht werden. Die Verwendung derartiger Administratoranmeldeinformationen muss überwacht werden, um zu gewährleisten, dass sie ausschließlich im Rahmen der internen Richtlinien und in Übereinstimmung mit festgelegten und gut dokumentierten internen Prozessen, z. B. Änderungssteuerungsverfahren, eingesetzt werden. Durch eine regelmäßige Überwachung von Konten wird sichergestellt, dass bei der Ausführung von Verwaltungsaufgaben adäquate Verfahrensweisen zur Anwendung kommen. Außerdem kann überprüft werden, ob die Richtlinien hinsichtlich der Kennwortsicherheit eingehalten werden.
-  
+
 Die Ereignisanzeige kann sich als nützliches Tool im Überwachungsprozess erweisen, wenn Maßnahmen ergriffen wurden, um die Manipulation von Ereignisprotokollen auszuschließen. Weitere Informationen zur Verwendung von Ereignisprotokollen zur Überwachung der Netzwerksicherheit sowie Informationen zur Sicherung von Ereignisprotokolldaten finden Sie im [*Planungshandbuch zur Überwachung der Sicherheit und Erkennung von Angriffen*](http://go.microsoft.com/fwlink/?linkid=41309) (möglicherweise in Englisch) unter http://go.microsoft.com/fwlink/?LinkId=41309.
-  
-###### Untersagen der Kontoübertragung
-  
+
+Untersagen der Kontoübertragung
+
 Delegierte Authentifizierung findet statt, wenn ein Netzwerkdienst die Anforderung eines Benutzers akzeptiert und die Identität dieses Benutzers annimmt, um eine neue Verbindung zu einem anderen Netzwerkdienst zu initiieren. Delegierte Authentifizierung ist sinnvoll für mehrstufige Anwendungen, die im Netzwerk Funktionalität für einmaliges Anmelden (SSO) verwenden. Bei Microsoft Outlook Web Access (OWA) wird dieser Mechanismus genutzt, um eine Schnittstelle zu Datenbanken auf anderen Computern bereitzustellen.
-  
+
 Administratorkonten sollten als „Konto kann nicht delegiert werden“ gekennzeichnet sein. Mithilfe dieser Methode können administratorähnliche Berechtigungen vor einer Identitätsübertragung durch Server geschützt werden, die als „Für Delegierungszwecke vertraut“ gekennzeichnet sind. Computerkonten in Active Directory, die Computern ohne physische Absicherung zugeordnet sind, sollte die Möglichkeit zur delegierten Authentifizierung nicht gewährt werden. Für Domänenadministratorkonten sollte die delegierte Authentifizierung ebenfalls ausgeschlossen werden, da über sie der Zugriff auf sicherheitskritische Informationen und Ressourcen im Netzwerk ermöglicht wird.
-  
+
 Weitere Informationen zur Kontoübertragung finden Sie im Artikel zum Thema [Aktivieren delegierter Authentifizierung](http://technet2.microsoft.com/windowsserver/germany/library/72612d01-622c-46b7-ab4a-69955d0687c81033.mspx?mfr=true) (möglicherweise in Englisch) unter http://technet2.microsoft.com/WindowsServer/germany/Library/72612d01-622c-46b7-ab4a-69955d0687c81033.mspx?mfr=true.
-  
-###### Erzwingen einer Mehrfaktor-Authentifizierung für Administratorkonten
-  
+
+Erzwingen einer Mehrfaktor-Authentifizierung für Administratorkonten
+
 Die Gruppen „Administratoren“, „Organisations-Admins“ und „Domänen-Admins“ enthalten die Konten mit den höchsten Berechtigungen in einem Unternehmensnetzwerk. Folglich sollten diese Konten auch am besten geschützt sein.
-  
+
 Mehrfaktor-Authentifizierungsmethoden tragen zur Sicherheit des Anmeldevorgangs bei, indem autorisierte Benutzer zu ihrer Identifikation zusätzliche Angaben machen müssen. Dadurch wird der Umfang von Informationen erhöht, die ein Angreifer erlangen müsste, um Zugriff auf ein Konto zu erhalten. Wie der Name schon sagt, werden bei einer Mehrfaktor-Authentifizierungsmethode mehrere zur Identifikation dienende Informationen benötigt. Diese Methode könnte typischerweise die folgenden Elemente erfordern:
-  
--   Ein Gegenstand im Besitz des Benutzers, etwa eine Smartcard.
-  
--   Eine Angabe, die dem Benutzer bekannt ist, etwa eine PIN-Nummer.
-  
--   Ein Merkmal des Benutzers (normalerweise als biometrische Daten bezeichnet). Die Authentifizierung kann über etwas so einfaches wie einen Fingerabdruckscanner erfolgen.
-  
+* Ein Gegenstand im Besitz des Benutzers, etwa eine Smartcard.
+
+* Eine Angabe, die dem Benutzer bekannt ist, etwa eine PIN-Nummer.
+
+* Ein Merkmal des Benutzers (normalerweise als biometrische Daten bezeichnet). Die Authentifizierung kann über etwas so einfaches wie einen Fingerabdruckscanner erfolgen.
+
+
 Durch die Verwendung der Mehrfaktor-Authentifizierung werden die Sicherheitsanfälligkeiten vermieden, die mit Authentifizierungsmethoden verbunden sind, die auf Benutzernamen in Klartext und Kennwörtern basieren. Der Kontoinhaber kann hier durch einen auf Zufallsbasis erzeugten Code identifiziert werden, der auf einer Smartcard gespeichert ist. Jede Smartcard enthält einen eindeutigen privaten Schlüssel, durch den sichergestellt wird, dass die Authentifizierungsdaten nicht mehrmals vorhanden sind.
-  
+
 Eine Smartcard erfordert zusätzlich eine PIN-Nummer, bei der es sich um einen weiteren verschlüsselten Code handelt, den der Karteninhaber festlegt und auf der Karte speichert. Über diese PIN-Nummer wird die Benutzung des in der Smartcard enthaltenen privaten Schlüssels bei der Authentifizierung ermöglicht. Zu allen anderen Zeiten bleibt der Schlüssel verschlüsselt und kann nicht genutzt werden.
-  
+
 Weitere Informationen zu Mehrfaktor-Authentifizierungsmethoden sowie zu Smartcards finden Sie Artikel [*Planungshandbuch für sicheren Zugriff unter Verwendung von Smartcards*](http://go.microsoft.com/fwlink/?linkid=41313) unter http://go.microsoft.com/fwlink/?LinkID=41313.
-  
+
+
 #### Verwaltung von Dienst- und Anwendungskonten
-  
+
 Es stehen zudem verschiedene, auf Best Practices basierende Methoden zur Verfügung, mit denen die Sicherheit von Diensten und Dienstkonten erhöht werden kann. In diesem Abschnitt werden die Methoden dargestellt, über die sich die Sicherheit in realen Netzwerkumgebungen erwiesenermaßen steigern lässt. Auch wenn der kombinierte Einsatz all dieser Methoden die Sicherheit von Netzwerken mittelgroßer Unternehmen beträchtlich erhöhen kann, ist es am besten, jede einzelne Methode zu betrachten, um für jede individuelle Unternehmensumgebung die beste Kombination der Methoden zu bestimmen.
-  
-##### Überwachen von Diensten auf wichtige Eigenschaften
-  
+
+Überwachen von Diensten auf wichtige Eigenschaften
+
 Wie bereits erwähnt, besteht der erste Schritt bei der Entwicklung eines Plans zur Sicherung von Diensten in einer Umgebung darin, diese Dienste zu kennen und zu erfassen, wo sie zur Anwendung kommen und warum sie ausgeführt werden. Dies klingt zwar nach einer relativ einfachen Aufgabe, doch es kann sich als überraschend schwierig erweisen, herauszufinden, welche Dienste auf den jeweiligen Computern ausgeführt werden und welches Ausmaß an Verwaltung diese Dienste erfordern.
-  
+
 Jeder Server in einer Umgebung sollte dokumentiert und überwacht werden, um sämtliche Dienste zu identifizieren, die auf dem Server ausgeführt werden, und zu ermitteln, welche Anmeldeinformationen von jedem Dienst zur Authentifizierung verwendet werden. Um Administratoren bei dieser Aufgabe zu unterstützen, stehen eine Reihe von Tools zur Verfügung. Im Folgenden sind einige Beispiele aufgelistet:
-  
--   **Systeminformationen in Microsoft Windows Server 2003**: Die Systeminformationen bieten eine umfassende Liste von Einstellungen für sämtliche Dienste, die auf einem lokalen Computer ausgeführt werden. Allerdings ist dieses Tool nicht besonders effektiv, um eine große Anzahl von Servern zu überwachen.
-  
--   **Diensteverwaltungskonsole**: In der Diensteverwaltungskonsole kann anhand der Registerkarte **Anmelden** auf der Seite **Eigenschaften** eines Dienstes festgestellt werden, welches Konto von einem Dienst zur Authentifizierung verwendet wird. Es kann auch mithilfe der Registerkarte **Abhängigkeiten** ermittelt werden, von welchen anderen Diensten der betreffende Dienst abhängt und welche Dienste wiederum von dem angezeigten Dienst abhängen. Leider ist auch diese Methode nicht besonders zur Überwachung einer großen Anzahl von Servern geeignet.
-  
--   **Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)**: Über WMI können Informationen über die Dienste abgerufen werden, die auf sämtlichen Servern in einem Netzwerk ausgeführt werden. Wenn WMI zusammen mit Skripts und anderen Programmiertools verwendet wird, ist es über WMI möglich, in weiten Bereichen die Konfigurationsdetails der Netzwerkcomputer zu ermitteln sowie Änderungen an diesen vorzunehmen.
-  
--   **Windows-Verwaltungsinstrumentations-Befehlszeile (Windows Management Instrumentation Command Line, WMIC)**: WMIC bietet dieselbe Funktionalität wie WMI in Form eines Befehlszeilenprogramms, das mit bestehenden Shells und anderen Dienstprogrammbefehlen zusammenarbeiten kann, die durch Skripts und anderen Anwendungen erweitert werden können.
-  
-    Über den WMIC-Dienst kann eine Reihe von Informationen über die in einem Netzwerk ausgeführten Dienste ermittelt werden. Im Folgenden finden sich einige Beispiele dafür:
-  
-    -   Beschreibung
-  
-    -   DisplayName
-  
-    -   ErrorControl
-  
-    -   InstallDate
-  
-    -   PathName
-  
-    -   ProcessID
-  
-    -   StartMode
-  
-    -   StartName
-  
-    -   Status
-  
-    -   Skripts
-  
-        Wie bereits erwähnt, kann WMIC genutzt werden, um die Verwaltung von Remotecomputern und lokalen Rechnern mithilfe von Skripts zu automatisieren.
-  
--   **Weitere Unternehmensverwaltungstools**: Es sind einige weitere Verwaltungstools erhältlich, die für die Überwachung von Serverdiensten eingesetzt werden können. Im Folgenden sind einige Beispiele aufgeführt:
-  
-    -   Microsoft Systems Management Server (SMS)
-  
-    -   IBM Tivoli
-  
-    -   HP OpenView
-  
-    -   Lieberman Software Service Account Manager
-  
-##### Feststellen, welche Dienste notwendig sind
-  
+* **Systeminformationen in Microsoft Windows Server 2003**: Die Systeminformationen bieten eine umfassende Liste von Einstellungen für sämtliche Dienste, die auf einem lokalen Computer ausgeführt werden. Allerdings ist dieses Tool nicht besonders effektiv, um eine große Anzahl von Servern zu überwachen.
+
+* **Diensteverwaltungskonsole**: In der Diensteverwaltungskonsole kann anhand der Registerkarte **Anmelden** auf der Seite **Eigenschaften** eines Dienstes festgestellt werden, welches Konto von einem Dienst zur Authentifizierung verwendet wird. Es kann auch mithilfe der Registerkarte **Abhängigkeiten** ermittelt werden, von welchen anderen Diensten der betreffende Dienst abhängt und welche Dienste wiederum von dem angezeigten Dienst abhängen. Leider ist auch diese Methode nicht besonders zur Überwachung einer großen Anzahl von Servern geeignet.
+
+* **Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)**: Über WMI können Informationen über die Dienste abgerufen werden, die auf sämtlichen Servern in einem Netzwerk ausgeführt werden. Wenn WMI zusammen mit Skripts und anderen Programmiertools verwendet wird, ist es über WMI möglich, in weiten Bereichen die Konfigurationsdetails der Netzwerkcomputer zu ermitteln sowie Änderungen an diesen vorzunehmen.
+
+* **Windows-Verwaltungsinstrumentations-Befehlszeile (Windows Management Instrumentation Command Line, WMIC)**: WMIC bietet dieselbe Funktionalität wie WMI in Form eines Befehlszeilenprogramms, das mit bestehenden Shells und anderen Dienstprogrammbefehlen zusammenarbeiten kann, die durch Skripts und anderen Anwendungen erweitert werden können.
+
+Über den WMIC-Dienst kann eine Reihe von Informationen über die in einem Netzwerk ausgeführten Dienste ermittelt werden. Im Folgenden finden sich einige Beispiele dafür:
+* Beschreibung
+
+* DisplayName
+
+* ErrorControl
+
+* InstallDate
+
+* PathName
+
+* ProcessID
+
+* StartMode
+
+* StartName
+
+* Status
+
+* Skripts
+
+    Wie bereits erwähnt, kann WMIC genutzt werden, um die Verwaltung von Remotecomputern und lokalen Rechnern mithilfe von Skripts zu automatisieren.
+
+* **Weitere Unternehmensverwaltungstools**: Es sind einige weitere Verwaltungstools erhältlich, die für die Überwachung von Serverdiensten eingesetzt werden können. Im Folgenden sind einige Beispiele aufgeführt:
+*   Microsoft Systems Management Server (SMS)
+
+*   IBM Tivoli
+
+*   HP OpenView
+
+*   Lieberman Software Service Account Manager
+
+
+Feststellen, welche Dienste notwendig sind
+
 Bei der Erstinstallation von Windows Server 2003 werden einige standardmäßige Dienste erstellt und für die Ausführung beim Systemstart konfiguriert. Diese standardmäßigen Dienste sorgen für Anwendungskompatibilität und Clientkompatibilität oder vereinfachen die Systemverwaltung. Allerdings ist es nicht in jeder Umgebung erforderlich, dass all diese Dienste eingesetzt werden müssen. Sämtliche Dienste sollten dahingehend übergeprüft werden, ob einige davon deaktiviert werden können, wodurch sich die Sicherheitsanfälligkeit der Server verringern lässt, auf denen die Dienste ausgeführt werden.
-  
+
 Es kann sehr kompliziert sein zu bestimmen, welche Dienste benötigt werden und welche deaktiviert werden können. Bei manchen Diensten ist die Antwort offensichtlich, doch bei anderen sind die Optionen keineswegs so klar definiert. Welche Dienste deaktiviert werden können, kann dabei anhand von zwei Hauptkriterien bestimmt werden:
-  
--   Wenn kein Grund zur Verwendung eines bestimmten Dienstes vorliegt, kann er deaktiviert werden.
-  
--   Wenn zum gegenwärtigen Zeitpunkt keine Notwendigkeit zur Verwendung eines Dienstes besteht, dies aber in der Zukunft der Fall sein könnte, kann der betreffende Dienst bis zum Bedarfsfall deaktiviert werden.
-  
+* Wenn kein Grund zur Verwendung eines bestimmten Dienstes vorliegt, kann er deaktiviert werden.
+
+* Wenn zum gegenwärtigen Zeitpunkt keine Notwendigkeit zur Verwendung eines Dienstes besteht, dies aber in der Zukunft der Fall sein könnte, kann der betreffende Dienst bis zum Bedarfsfall deaktiviert werden.
+
+
 Die Dienste, die auf einem bestimmten Server benötigt werden, hängen in erster Linie von der Rolle dieses Servers ab. So sollte IIS (Internet Information Services, Internetinformationsdienste) nur auf einem Webserver oder einem Anwendungsserver ausgeführt werden, für den ein webbasierter Verteilungsmechanismus genutzt wird. Wenn auf diesem Server keine Telnet- oder Remotezugriffsdienste eingesetzt werden, sollten diese auf dem betreffenden Server deaktiviert werden.
-  
+
 Dienste können auch Bestandteil von Software sein, die auf einem Server installiert ist. So wird bei Microsoft Systems Management Services der Dienst Wuser32 Remote Control Agent installiert, um die Remoteclientfunktionalität für Softwareupdates oder die Remoteverwaltung bereitzustellen. Um bestimmen zu können, welche Dienste deaktiviert werden sollten, muss bekannt sein, welche Dienste bei einem Softwarepaket möglicherweise installiert werden bzw. welche Dienste für die Funktionsfähigkeit der Software erforderlich sind.
-  
-##### Verwenden des Sicherheitskonfigurations-Assistenten
-  
+
+Verwenden des Sicherheitskonfigurations-Assistenten
+
 Der Sicherheitskonfigurations-Assistent (Security Configuration Wizard, SCW) ist ein Bestandteil von Windows Server 2003 Service Pack 1 (SP1) und kann verwendet werden, um eine schnelle Konfiguration von Servern vorzunehmen, die auf funktionellen Anforderungen beruhen, z. B. Webserver oder Domänencontroller. Administratoren können gleichzeitig Sicherheitsrichtlinien festlegen, um Sicherheitsanfälligkeiten zu minimieren. Über den Sicherheitskonfigurations-Assistenten kann ermittelt werden, welche Dienste auf den Servern innerhalb eines Netzwerks ausgeführt werden und welche Abhängigkeiten bei diesen Diensten besteht.
-  
+
 **So installieren Sie den Sicherheitskonfigurations-Assistenten auf einem Server mit Windows Server 2003**
-  
-1.  Öffnen Sie die Systemsteuerung.
-  
-2.  Doppelklicken Sie auf **Software**.
-  
-3.  Klicken Sie auf **Windows-Komponenten hinzufügen/entfernen**.
-  
-4.  Aktivieren Sie auf der Anzeige für **Windows-Komponenten** unter **Komponenten** das Kontrollkästchen **Sicherheitskonfigurations-Assistent**.
-  
-5.  Klicken Sie auf **Weiter**.
-  
-6.  Klicken Sie auf **Beenden**, wenn der Installationsvorgang abgeschlossen ist.
-  
+1. Öffnen Sie die Systemsteuerung.
+
+2. Doppelklicken Sie auf **Software.**  
+
+3. Klicken Sie auf **Windows-Komponenten hinzufügen/entfernen.**  
+
+4. Aktivieren Sie auf der Anzeige für **Windows-Komponenten** unter **Komponenten** das Kontrollkästchen **Sicherheitskonfigurations-Assistent.**  
+
+5. Klicken Sie auf **Weiter.**  
+
+6. Klicken Sie auf **Beenden**, wenn der Installationsvorgang abgeschlossen ist.
+
+
 Mithilfe des Sicherheitskonfigurations-Assistenten lässt sich die Angriffsfläche von Computern unter Windows Server 2003 mit SP1 verringern. Administratoren werden von dem Assistenten durch den Prozess zur Erstellung von Sicherheitsrichtlinien geführt, die auf den Rollen basieren, die jeweils von einem bestimmten Server ausgeführt werden. Der Begriff *Serverrolle* definiert die Hauptfunktion, die ein Computer innerhalb eines Netzwerks einnimmt. Die benötigten Dienste, eingehenden Ports und Einstellungen variieren in Abhängigkeit von der Rolle, die ein Server einnimmt. Nach der Erstellung von Richtlinien können diese entsprechend der Konfiguration auf Server angewendet werden.
-  
-##### Eliminieren der Verwendung von Domänenadministratorkonten für Dienste
-  
+
+Eliminieren der Verwendung von Domänenadministratorkonten für Dienste
+
 Nach Abschluss einer Serverüberprüfung sollten genug Informationen zur Umgebung vorliegen, um alle infrage kommenden Domänenadministratorkonten zu identifizieren und zu entfernen, die zur Authentifizierung von Diensten verwendet werden. Die erneute Bereitstellung von Diensten sollte möglichst immer unter Verwendung der Konten „Lokaler Dienst“, „Netzwerkdienst“ oder „Lokales System“ erfolgen.
-  
+
 Der Versuch, korrigierend in die Verwendung von administratorähnlichen Konten durch Dienste einzugreifen, sollte vor allem in den folgenden Fällen unternommen werden:
-  
--   Bei Benutzerkonten mit administratorähnlichen Berechtigungen, bei denen die Anmeldung als Dienst erfolgt.
-  
--   Bei vordefinierten Administratorkonten, bei denen die Anmeldung als Dienst erfolgt.
-  
--   Bei Domänenadministratorkonten, bei denen die Anmeldung als Dienst auf einen Computer mit niedrigem Sicherheitsniveau erfolgt.
-  
-##### Verwenden von Hierarchien der geringsten Rechte zur Bereitstellung von Diensten
-  
+* Bei Benutzerkonten mit administratorähnlichen Berechtigungen, bei denen die Anmeldung als Dienst erfolgt.
+
+* Bei vordefinierten Administratorkonten, bei denen die Anmeldung als Dienst erfolgt.
+
+* Bei Domänenadministratorkonten, bei denen die Anmeldung als Dienst auf einen Computer mit niedrigem Sicherheitsniveau erfolgt.
+
+
+Verwenden von Hierarchien der geringsten Rechte zur Bereitstellung von Diensten
+
 Wie bereits in diesem Dokument erläutert wurde, sollte für Dienste stets ein Konto mit Berechtigungen verwendet werden, die zur Ausführung des betreffenden Dienstes gerade ausreichend sind. Jegliche Dienste, die über höhere Berechtigungen verfügen, als es zur Ausführung erforderlich wäre, sollten unter Verwendung von Konten mit geringeren Berechtigungen erneut bereitgestellt werden.
-  
+
 In einer Hierarchie der geringsten Rechte wären die von Diensten verwendeten Konten wie folgt geordnet. Die Rangordnung verläuft dabei von der besten zur schlechtesten Variante:
-  
--   Lokaler Dienst
-  
--   Netzwerkdienst
-  
--   Einzelnes lokales Benutzerkonto
-  
--   Einzelnes Domänenbenutzerkonto
-  
--   Lokales System
-  
--   Lokales Administratorkonto
-  
--   Domänenadministratorkonto
-  
-##### Erstellen von Hochsicherheits-Servergruppen für Ausnahmefälle
-  
+* Lokaler Dienst
+
+* Netzwerkdienst
+
+* Einzelnes lokales Benutzerkonto
+
+* Einzelnes Domänenbenutzerkonto
+
+* Lokales System
+
+* Lokales Administratorkonto
+
+* Domänenadministratorkonto
+
+
+Erstellen von Hochsicherheits-Servergruppen für Ausnahmefälle
+
 Bei Hochsicherheitsservern handelt es sich – einfach ausgedrückt – um Server, auf denen Ressourcen oder Dienste bereitgestellt werden, auf die das Unternehmen angewiesen ist oder mit denen ein erhöhtes Sicherheitsrisiko verbunden ist. Folgende Server erfüllen im Allgemeinen diese Kriterien:
-  
--   Domänencontroller
-  
--   Server, auf denen Dienste verwendet werden, für deren Ausführung eine Authentifizierung über ein Domänenadministratorkonto erfolgen muss
-  
--   Server, die in einer Gesamtstruktur als vertrauenswürdig für Delegierungszwecke angesehen werden
-  
--   Server, die von sicherheitskritischen Unternehmensgruppen verwendet werden oder auf denen kritische Unternehmensdaten gespeichert sind, etwa ein Server der Personalabteilung, auf dem Angaben zu Gehältern gespeichert sind.
-  
--   Server, auf denen Dienste ausgeführt werden, die innerhalb einer Gesamtstruktur als „Für Delegierungszwecke vertraut“ eingestuft wurden und auf denen eine eingeschränkte Delegierung unter Windows Server 2003 verwendet wird.
-  
+* Domänencontroller
+
+* Server, auf denen Dienste verwendet werden, für deren Ausführung eine Authentifizierung über ein Domänenadministratorkonto erfolgen muss
+
+* Server, die in einer Gesamtstruktur als vertrauenswürdig für Delegierungszwecke angesehen werden
+
+* Server, die von sicherheitskritischen Unternehmensgruppen verwendet werden oder auf denen kritische Unternehmensdaten gespeichert sind, etwa ein Server der Personalabteilung, auf dem Angaben zu Gehältern gespeichert sind.
+
+* Server, auf denen Dienste ausgeführt werden, die innerhalb einer Gesamtstruktur als „Für Delegierungszwecke vertraut“ eingestuft wurden und auf denen eine eingeschränkte Delegierung unter Windows Server 2003 verwendet wird.
+
+
 Die Erstellung einer Hochsicherheits-Servergruppe beinhaltet im Allgemeinen die folgenden Aktivitäten:
-  
-1.  Es werden Server identifiziert, die als Hochsicherheitsserver gekennzeichnet werden sollten.
-  
-2.  In jeder Gesamtstruktur wird eine universelle Sicherheitsgruppe für die Hochsicherheitsserver erstellt.
-  
-3.  Die Computerkonten der ausgewählten Server werden in die neuen universellen Gruppen aufgenommen.
-  
-4.  In jeder Domäne wird eine lokale Gruppe für Domänenadministratorkonten erstellt.
-  
-5.  Die domänenadministratorähnlichen Benutzerkonten werden der neuen lokalen Gruppe zugewiesen.
-  
-6.  In jeder Domäne wird ein Gruppenrichtlinienobjekt erstellt, das die Verwendung von Administratorkonten auf Domänenebene für Dienste auf sämtlichen Computern beschränkt, indem die Benutzerrechte **Anmelden als Dienst verweigern** und **Anmelden als Batchauftrag verweigern** zugewiesen werden. Darüber hinaus werden die Berechtigungen **Lesezugriff zulassen** und **Anwenden zulassen** auf das Gruppenrichtlinienobjekt in der zuvor erstellten lokalen Gruppe für Domänenadministratorkonten angewendet.
-  
-7.  Auf jedes Gruppenrichtlinienobjekt werden Gruppenrichtlinienfilter für die Hochsicherheits-Servergruppe angewendet, so dass die Mitglieder dieser Gruppe auch weiterhin Domänenadministratorkonten für Dienste verwenden können. Diese Funktionalität wird über die Zuweisung der Berechtigungen **Lesezugriff zulassen** und **Anwenden verweigern** zum Gruppenrichtlinienobjekt für die betreffende Hochsicherheits-Servergruppe erreicht.
-  
+1. Es werden Server identifiziert, die als Hochsicherheitsserver gekennzeichnet werden sollten.
+
+2. In jeder Gesamtstruktur wird eine universelle Sicherheitsgruppe für die Hochsicherheitsserver erstellt.
+
+3. Die Computerkonten der ausgewählten Server werden in die neuen universellen Gruppen aufgenommen.
+
+4. In jeder Domäne wird eine lokale Gruppe für Domänenadministratorkonten erstellt.
+
+5. Die domänenadministratorähnlichen Benutzerkonten werden der neuen lokalen Gruppe zugewiesen.
+
+6. In jeder Domäne wird ein Gruppenrichtlinienobjekt erstellt, das die Verwendung von Administratorkonten auf Domänenebene für Dienste auf sämtlichen Computern beschränkt, indem die Benutzerrechte **Anmelden als Dienst verweigern** und **Anmelden als Batchauftrag verweigern** zugewiesen werden. Darüber hinaus werden die Berechtigungen **Lesezugriff zulassen** und **Anwenden zulassen** auf das Gruppenrichtlinienobjekt in der zuvor erstellten lokalen Gruppe für Domänenadministratorkonten angewendet.
+
+7. Auf jedes Gruppenrichtlinienobjekt werden Gruppenrichtlinienfilter für die Hochsicherheits-Servergruppe angewendet, so dass die Mitglieder dieser Gruppe auch weiterhin Domänenadministratorkonten für Dienste verwenden können. Diese Funktionalität wird über die Zuweisung der Berechtigungen **Lesezugriff zulassen** und **Anwenden verweigern** zum Gruppenrichtlinienobjekt für die betreffende Hochsicherheits-Servergruppe erreicht.
+
+
 Die Verwaltung der Mitgliedschaft in der Hochsicherheits-Servergruppe sollte über einen internen Workflowprozess erfolgen, über den Anträge zur Aufnahme neuer Server bewertet werden. Dieser Prozess sollte Schritte zur Prüfung der Anträge sowie zur Einschätzung der Sicherheitsrisiken für den Fall beinhalten, dass ein Server in die Gruppe aufgenommen wird. Dieser Prozess kann dabei entweder auf einer ganz einfachen Grundlage beruhen, etwa auf E-Mail-Anforderungen an ein bestimmtes Konto, oder auf einem detaillierten automatisierten Prozess aufgebaut sein, für den mehrere Provisioningtools, z. B. Zero Touch Provisioning (ZTP), verwendet werden.
-  
+
 ZTP geht über den Rahmen dieses Dokuments hinaus, da es sich hierbei um ein Tool handelt, das auf die Erfordernisse der Umgebungen von Großunternehmen abgestimmt ist. Weitere Informationen zu ZTP und anderen vergleichbaren Tools finden Sie auf der Microsoft-Website [Desktop Deployment Center](http://www.microsoft.com/technet/desktopdeployment/default.mspx) (möglicherweise in Englisch) unter www.microsoft.com/technet/desktopdeployment/default.mspx.
-  
-##### Verwalten der Kennwortänderungen bei Dienstkonten
-  
+
+Verwalten der Kennwortänderungen bei Dienstkonten
+
 Wenn Konten einem Dienst zugeordnet sind, benötigt der Dienststeuerungs-Manager (Service Control Manager, SCM) das richtige Kennwort für das betreffende Konto, bevor die Zuweisung erfolgen kann. Bei Eingabe eines falschen Kennworts wird die Zuweisung vom Dienststeuerungs-Manager verweigert. Wenn Dienste so konfiguriert werden, dass sie lokale Systemkonten, lokalen Dienstkonten oder Netzwerkdienstkonten verwenden, besteht keine Notwendigkeit, Kennwörter für Konten zu verwalten, da die Kennwortverwaltung in diesem Fall über das Betriebssystem erfolgt.
-  
+
 Für andere Dienstkonten werden die Kennwörter vom Dienststeuerungs-Manager in der Datenbank für Dienste gespeichert. Nach der Zuweisung eines Kennworts überprüft der Dienststeuerungs-Manager die in dieser Datenbank gespeicherten Kennwörter nicht. Das Kennwort, das einem Benutzerkonto in Active Directory zugewiesen wurde, wird weiterhin akzeptiert. Dies kann in einer Situation wie der Folgenden zu Problemen führen:
-  
-1.  Ein Dienst ist so konfiguriert, dass er ein bestimmtes Benutzerkonto verwendet.
-  
-2.  Der Dienst wird durch die Verwendung des betreffenden Kontos mit dem aktuellen Kennwort gestartet.
-  
-3.  Das Kennwort für das betreffende Benutzerkonto wird geändert, während der Dienst weiterhin ausgeführt wird.
-  
-4.  Der Dienst wird solange weiter ausgeführt, bis er angehalten wird. Nachdem der Dienst angehalten wurde, ist es nicht möglich, den Dienst erneut zu starten, da der Dienststeuerungs-Manager weiterhin versucht, das alte Kennwort zu verwenden. In Active Directory geänderte Kennwörter werden nicht mit den Kennwörtern synchronisiert, die in der Datenbank für Dienste gespeichert sind.
-  
+1. Ein Dienst ist so konfiguriert, dass er ein bestimmtes Benutzerkonto verwendet.
+
+2. Der Dienst wird durch die Verwendung des betreffenden Kontos mit dem aktuellen Kennwort gestartet.
+
+3. Das Kennwort für das betreffende Benutzerkonto wird geändert, während der Dienst weiterhin ausgeführt wird.
+
+4. Der Dienst wird solange weiter ausgeführt, bis er angehalten wird. Nachdem der Dienst angehalten wurde, ist es nicht möglich, den Dienst erneut zu starten, da der Dienststeuerungs-Manager weiterhin versucht, das alte Kennwort zu verwenden. In Active Directory geänderte Kennwörter werden nicht mit den Kennwörtern synchronisiert, die in der Datenbank für Dienste gespeichert sind.
+
+
 Jeder Dienst, für den ein Standarddomänenkonto oder ein lokales Standardbenutzerkonto verwendet wird, muss jedes Mal mit neuen Authentifizierungsdaten aktualisiert werden, wenn das Kennwort für ein Benutzerkonto geändert wird. Dies kann sehr mühevoll und zeitraubend sein, wenn Dienste und die von ihnen verwendeten Konten nicht angemessen dokumentiert sind.
-  
+
 Natürlich stellt es ein ganz eigenes Sicherheitsrisiko dar, wenn in einem Dokument die Kontodaten für sämtliche Dienste gespeichert sind, die auf allen Servern ausgeführt werden. Deshalb sollten Maßnahmen zum Schutz eines solchen Dokuments ergriffen werden. Bei größeren Unternehmen kann die Aufzeichnung derartiger Informationen in einer verschlüsselten Datei erfolgen, die offline an einem sicheren Ort gespeichert wird. Kleinere Unternehmen könnten solche Daten möglicherweise einfach in einem Hefter notieren und diesen in einem Tresor oder an einem anderen gesicherten Ort aufbewahren.
-  
+
 Bei einigen Anwendungen werden möglicherweise auch Kennwörter für Dienstkonten verwendet, etwa bei Exchange Server oder SQL Server™. Deshalb sollte darauf geachtet werden, dass die relevanten Kennwörter in diesen Fällen an der Anwendungsschnittstelle geändert werden.
-  
-Informationen zum Erstellen von Tools zur Automatisierung des Prozesses zur Änderung von Kennwörtern für Dienstkonten finden Sie im Artikel über das [Ändern von Kennwörtern für das Benutzerkonto eines Dienstes](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ad/ad/changing_the_password_on_a_serviceampaposs_user_account.asp) (möglicherweise in Englisch) unter http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ad/ad/changing\_the\_password\_on\_a\_serviceampaposs\_user\_account.asp.
-  
-##### Durchsetzen der Verwendung von sicheren Kennwörtern
-  
+
+Informationen zum Erstellen von Tools zur Automatisierung des Prozesses zur Änderung von Kennwörtern für Dienstkonten finden Sie im Artikel über das [Ändern von Kennwörtern für das Benutzerkonto eines Dienstes](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ad/ad/changing_the_password_on_a_serviceampaposs_user_account.asp) (möglicherweise in Englisch) unter http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ad/ad/changing_the_password_on_a_serviceampaposs_user_account.asp.
+
+Durchsetzen der Verwendung von sicheren Kennwörtern
+
 Wie im entsprechenden Abschnitt über Administratorkonten bereits erwähnt wurde, sollte es strikt durchgesetzt werden, dass für administratorähnliche Konten sowie für sämtliche Dienstkonten Richtlinien für sichere Kennwörter befolgt werden. Zur Durchsetzung solcher Regeln können Gruppenrichtlinien genutzt werden, um ein Ablaufdatum für Kennwörter, eine Mindestlängenbeschränkung sowie andere Regeln für sichere Kennwörter durchzusetzen.
-  
+
 Weitere Informationen zu Richtlinien für sichere Kennwörter finden Sie im Whitepaper über [Kontenkennwörter und Richtlinien](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/technologies/security/bpactlck.mspx) (möglicherweise in Englisch) unter http://www.microsoft.com/technet/prodtechnol/windowsserver2003/technologies/security/bpactlck.mspx 
-  
+
 Weitere Informationen zur Durchsetzung der Verwendung von sicheren Kennwörtern finden Sie im [*Windows Server 2003-Sicherheitshandbuch*](http://go.microsoft.com/fwlink/?linkid=14845) unter http://go.microsoft.com/fwlink/?linkid=14845.
-  
+
 Unsichere Kennwörter stellen eine der häufigsten Sicherheitsschwachstellen in einem Netzwerk dar. Ihre Verwendung bei administratorähnlichen Konten macht es einem Angreifer leicht, Zugriff auf Netzwerkressourcen zu erhalten. Automatisierte Testtools zur Identifizierung von administratorähnlichen Konten mit unsicheren Kennwörtern sollten regelmäßig von den Personen eingesetzt werden, die für die Sicherheit oder Verwaltung eines Netzwerks verantwortlich sind.
-  
+
 Um dies zu erreichen, kann das Tool Microsoft Baseline Security Analyzer (MBSA) jeden Computer innerhalb des Netzwerks scannen und nach unsicheren Kennwörtern suchen. Mithilfe von MBSA können sämtliche Benutzerkonten aufgelistet und auf die folgenden Kennwortmängel hin überprüft werden:
-  
--   Leere Kennwörter
-  
--   Kennwörter, die mit dem Namen eines Benutzerkontos übereinstimmen
-  
--   Kennwörter, die mit einem Computernamen übereinstimmen
-  
--   Kennwörter, in denen die Wörter „Kennwort“, „Admin“ oder „Administrator“ enthalten sind
-  
+* Leere Kennwörter
+
+* Kennwörter, die mit dem Namen eines Benutzerkontos übereinstimmen
+
+* Kennwörter, die mit einem Computernamen übereinstimmen
+
+* Kennwörter, in denen die Wörter „Kennwort“, „Admin“ oder „Administrator“ enthalten sind
+
+
 Beim Einsatz von MBSA wird auf der Grundlage der aufgelisteten Mängel ein neues Kennwort vorgeschlagen. Wenn ein unsicheres Kennwort gefunden wird, wird es nicht einfach geändert, sondern MBSA meldet, dass dieses Kennwort ein Sicherheitsrisiko darstellt. Mit MBSA werden zudem deaktivierte oder gesperrte Konten gemeldet.
-  
+
 Über MBSA lassen sich zwar die gängigsten Praktiken hinsichtlich mangelhafter Kennwortwahl identifizieren, doch verfügt das Tool nicht über umfassende Funktionen zur Kennwortüberwachung. Für diese Zwecke sind verschiedene Tools von Drittanbietern für das Offlinescannen von Kennwörtern verfügbar.
-  
+
 Unter www.microsoft.com/technet/security/tools/mbsahome.mspx können Sie auf der Webseite [Microsoft Baseline Security Analyzer](http://www.microsoft.com/technet/security/tools/mbsahome.mspx) mehr über MBSA erfahren oder das Tool herunterladen (möglicherweise in Englisch).
-  
-**Hinweis:**    Bei MBSA werden auf einem Computer festgestellte Kontensperrrichtlinien zurückgesetzt, um zu verhindern, dass Konten während des Scannens gesperrt werden. Außerdem werden mit MBSA keine Kennwörter auf Computern gescannt, die als Domänencontroller gekennzeichnet sind.
-  
-[](#mainsection)[Zum Seitenanfang](#mainsection)
-  
+
+**Hinweis:**   Bei MBSA werden auf einem Computer festgestellte Kontensperrrichtlinien zurückgesetzt, um zu verhindern, dass Konten während des Scannens gesperrt werden. Außerdem werden mit MBSA keine Kennwörter auf Computern gescannt, die als Domänencontroller gekennzeichnet sind.
+
+[Zum Seitenanfang](#mainsection)  
+
+
+
 ### Zusammenfassung
-  
+
 Selbstverständlich kann eine ganze Reihe von Maßnahmen ergriffen werden, um die Sicherheit von kritischen Konten und Dienstkonten in Netzwerken mittelgroßer Unternehmen zu erhöhen. Im Grunde beruht jeder dieser Ansätze auf einigen wenigen Schlüsselkonzepten, etwa auf der Einrichtung gut dokumentierter Prozesse oder auf der Orientierung am Prinzip der geringsten Rechte. Es reicht bereits aus, diese wenigen Schlüsselkonzepte zu verstehen und als Grundlage für die Kontoverwaltung anzuwenden, um die Sicherheit eines Netzwerks beträchtlich zu erhöhen.
-  
+
 In der Umgebung eines mittelgroßen Unternehmens kann eine beliebige Anzahl der auf Best Practices basierenden Methoden, die in diesem Dokument beschrieben werden, eingesetzt werden, sofern sie als für die Unternehmensanforderungen geeignet eingestuft werden. Auch wenn sich mit einer Kombination aus allen beschriebenen Methoden zweifellos die Sicherheit eines jeden Netzwerks erhöhen ließe, ist es empfehlenswert, zunächst die potenziellen Auswirkungen zu analysieren, die jede dieser Methoden auf ein Unternehmensnetzwerk haben könnte. Auf diese Weise lässt sich die für das jeweilige Netzwerk geeignete Kombination von Verfahrensweisen ermitteln.
-  
-[](#mainsection)[Zum Seitenanfang](#mainsection)
-  
+
+[Zum Seitenanfang](#mainsection)  
+
 ### Anhang A: Gängige Dienste
-  
+
 In der folgenden Tabelle werden die gängigen Dienste unter Windows Server 2003 und Windows XP in alphabetischer Reihenfolge aufgeführt und beschrieben. Auch wenn diese Liste sowohl Standarddienste als auch Dienste beinhaltet, die auf einem Computer hinzugefügt werden können, handelt es sich nicht um eine vollständige Liste aller möglichen Dienste, die auf einem Computer installiert werden können, da keine Dienste enthalten sind, die als Bestandteil von Softwarepaketen von Drittanbietern installiert werden könnten.
-  
+
 **Tabelle A.1 Beschreibung von Diensten unter Windows XP und Windows Server 2003**
 
- 
 <table style="border:1px solid black;">
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" >Dienst</th>
-<th style="border:1px solid black;" >Dienstname</th>
-<th style="border:1px solid black;" >Anmelden als</th>
-<th style="border:1px solid black;" >Beschreibung</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">IP6-zu-IP4</td>
-<td style="border:1px solid black;">IPv6-Hilfsdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht IPv6-Konnektivität über IPv4-Netzwerke</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">AELookupSvc</td>
-<td style="border:1px solid black;">Anwendungskompatibilitäts-Suchdienst</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Verarbeitet Suchanfragen zur Anwendungskompatibilität für Anwendungen, wenn diese gestartet werden. Muss für Anwendungskompatibilitäts-Softwareupdates aktiviert sein.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Alerter</td>
-<td style="border:1px solid black;">Warndienst</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Dieser Dienst benachrichtigt ausgewählte Benutzer und Computer über administrative Warnungen und ist für die Zustellung vom Nachrichtendienst auf Clientcomputern abhängig.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">ALG</td>
-<td style="border:1px solid black;">Gatewaydienst auf Anwendungsebene</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Unterstützt im Hintergrund von ICS arbeitende Plug-Ins, über die Netzwerkprotokolle die Firewall passieren können.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">AppMgmt</td>
-<td style="border:1px solid black;">Anwendungsverwaltung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Softwareinstallationsdienste wie Zuweisung, Veröffentlichung und Deinstallation. Im Falle der Deaktivierung ist es nicht möglich, Anwendungen über Active Directory-Dienste wie IntelliMirror® zu installieren.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">AppMgr</td>
-<td style="border:1px solid black;">Remoteserver-Manager</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Funktioniert als WMI-Instanzenanbieter für Warnobjekte bei der Remoteverwaltung und als WMI-Methodenanbieter für Remoteverwaltungsaufgaben.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">aspnet_state</td>
-<td style="border:1px solid black;">ASP.NET-Statusdienst</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Stellt die Unterstützung für Out-of-Process-Sitzungszustände von ASP.NET bereit.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">AudioSrv</td>
-<td style="border:1px solid black;">Windows-Audio</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet Audiogeräte für Windows-basierte Programme.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">BINLSVC</td>
-<td style="border:1px solid black;">Remoteinstallation</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Dies ist die Hauptkomponente des Remoteinstallationsservers (Remote Installation Server, RIS) zur Beantwortung von PXE-Anfragen für remotestartfähige Computer.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">BITS</td>
-<td style="border:1px solid black;">Intelligenter Hintergrundübertragungsdienst</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Stellt einen Mechanismus für im Hintergrund ablaufende Dateiübertragungen für Warteschlangen-Manager bereit. Wenn dieser Dienst angehalten wird, können auf dem Computer keine automatischen Updatefunktionen verwendet werden.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Browser</td>
-<td style="border:1px solid black;">Computerbrowser</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Führt eine aktuelle Liste der Computer im Netzwerk.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">CertSvc</td>
-<td style="border:1px solid black;">Zertifikatdienste</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bestandteil des Betriebssystemkerns, der digitale Zertifikate ausstellt und verwaltet.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">cisvc</td>
-<td style="border:1px solid black;">Indexdienstleistung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet über eine Abfragesprache schnellen Zugriff auf Dateien durch die Indizierung der Dateiinhalte und -eigenschaften.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">ClipSrv</td>
-<td style="border:1px solid black;">Ablagemappe</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht der Ablagemappe das Erstellen und Freigeben von Datenseiten für die Überprüfung durch Remotebenutzer.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">ClusSvc</td>
-<td style="border:1px solid black;">Clusterdienste</td>
-<td style="border:1px solid black;">Domänenkonto</td>
-<td style="border:1px solid black;">Steuert Clustervorgänge von Servern und verwaltet die Clusterdatenbank.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">COMSysApp</td>
-<td style="border:1px solid black;">COM+-Systemanwendung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet die Konfiguration und Verfolgung von COM+-basierten Komponenten. COM+-Komponenten funktionieren nicht ordnungsgemäß, wenn dieser Dienst deaktiviert wird.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">CORRTSvc</td>
-<td style="border:1px solid black;">.NET Framework-Support Service</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Benachrichtigt Abonnentenclients, wenn bestimmte Prozesse den Clientlaufzeitdienst initialisieren.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">CryptSvc</td>
-<td style="border:1px solid black;">Kryptografiedienste</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet kryptografische Schlüsselverwaltungsdienste für Windows-basierte Computer.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">DcomLaunch</td>
-<td style="border:1px solid black;">DCOM-Serverprozess-Startprogramm</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet einen Teil der RPC-Dienste, die in der Kombination mit dem RPCSS-Dienst Berechtigungen für „Lokales System“ erfordern.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">DFS</td>
-<td style="border:1px solid black;">Verteiltes Dateisystem (Distributed File System, DFS)</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Integriert unterschiedliche Dateifreigaben innerhalb des Netzwerks in einen einzigen logischen Namenspace. Dieses System wird für die Meldung der SYSVOL-Freigabe benötigt.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">DFSR</td>
-<td style="border:1px solid black;">DFS-Replikation</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Kopiert automatisch Updates in Dateien und Ordner von Computern, die Bestandteil einer gemeinsamen Replikationsgruppe sind (in Windows Server 2003 R2 hinzugefügt).</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">Dhcp</td>
-<td style="border:1px solid black;">DHCP-Client</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Verwaltet Konfigurationsdaten von DHCP-Netzwerken durch das Registrieren und Aktualisieren von IP-Adressen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">DHCPServer</td>
-<td style="border:1px solid black;">DHCP-Server</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Dieser Dienst verwaltet DHCP und weist Clientcomputern IP-Adressen zu.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">dmadmin</td>
-<td style="border:1px solid black;">Dienst für die Verwaltung logischer Datenträger</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Führt administrative Dienste für Datenträgerverwaltungsanforderungen aus und konfiguriert Datenträger. Dieser Dienst wird ausschließlich im Rahmen solcher Konfigurationsprozesse ausgeführt.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">dmserver</td>
-<td style="border:1px solid black;">Logischer Diskettenmanager</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Erkennt und überwacht neue Laufwerke und sendet Datenträgerinformationen an den dmadmin-Dienst. Dieser Dienst darf nicht deaktiviert werden, wenn dynamische Datenträger verwendet werden.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">DNS</td>
-<td style="border:1px solid black;">DNS-Server</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die DNS-Namensauflösung durch die Beantwortung von Abfragen und Updateanforderungen für DNS-Namen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Dnscache</td>
-<td style="border:1px solid black;">DNS-Client</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Ist für das Auflösen und Zwischenspeichern von DNS-Namen zuständig und muss auf jedem Computer ausgeführt werden, auf dem die DNS-Namensauflösung durchgeführt wird.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">ERSvc</td>
-<td style="border:1px solid black;">Fehlerberichterstattungsdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Sammelt, speichert und meldet Fälle, in denen unerwartete Anwendungsfehler auftreten oder Anwendungen unerwartet beendet werden.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Eventlog</td>
-<td style="border:1px solid black;">Ereignisprotokoll</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Zeichnet Ereignisse, die von Programmen, Diensten sowie vom Betriebssystem gesendet werden, in Ereignisprotokollen auf.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">EventSystem</td>
-<td style="border:1px solid black;">COM+-Ereignissystem</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verteilt Ereignisse automatisch an abonnierte COM-Komponenten.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">FastUser Switching Compatibility</td>
-<td style="border:1px solid black;">Kompatibilität für schnelle Benutzerumschaltung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet Anwendungen, die Unterstützung in mehreren Benutzerumgebungen erfordern.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">Fax</td>
-<td style="border:1px solid black;">Faxdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet TAPI-kompatible Faxfunktionen an.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Groveler</td>
-<td style="border:1px solid black;">SIS-Groveler</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Integraler Bestandteil des Remoteinstallationsdienstes (RIS), der Dateiduplikate ermittelt und das Original in SIS (Single Instance Storage) kopiert.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">helpsvc</td>
-<td style="border:1px solid black;">Hilfe und Support</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Zugriff auf Speicher und Dienste, in denen Metadaten und Informationen über Hilfethemen für die Hilfe- und Supportcenteranwendung enthalten sind.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">HidServ</td>
-<td style="border:1px solid black;">Eingabegerätzugriff</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht allgemeinen Eingabezugriff auf USB-Geräte wie Tastaturen und Mäuse.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">HTTPFilter</td>
-<td style="border:1px solid black;">HTTP-SSL</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht IIS die Ausführung von SSL-Funktionen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">IAS</td>
-<td style="border:1px solid black;">Internetauthentifizierungsdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet zentralisierte Authentifizierungs-, Autorisierungs-, Überwachungs- und Kontoführungsdienste für Benutzer, die eine Verbindung zu einem Netzwerk herstellen.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">IASJet</td>
-<td style="border:1px solid black;">IAS-Jet-Datenbankzugriff</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Authentifizierungs-, Autorisierungs- und Kontoführungsdienste über das RADIUS-Protokoll.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">IISADMIN</td>
-<td style="border:1px solid black;">IIS-Verwaltungsdienst</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Ermöglicht die Verwaltung von IIS-Komponenten wie FTP und Webdiensterweiterungen.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">ImapiService</td>
-<td style="border:1px solid black;">COM-Dienst für IMAPI-CD-Brennen</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet das Erstellen von CDs über die IMAPI COM-Schnittstelle und führt auf Anforderung CD-R-Schreibvorgänge durch.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Irmon</td>
-<td style="border:1px solid black;">Infrarotüberwachung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die Dateifreigabe über Infrarotverbindungen.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">IsmServ</td>
-<td style="border:1px solid black;">Standortübergreifender Messagingdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht den Austausch von Nachrichten zwischen Computern unter Windows Server.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">kdc</td>
-<td style="border:1px solid black;">Kerberos-Schlüsselverteilungscenter</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht Benutzern die Anmeldung über das Kerberos-Authentifizierungsprotokoll. Wenn dieser Dienst angehalten wird, können Clients sich nicht mehr bei einer Domäne anmelden.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">lanmanserver</td>
-<td style="border:1px solid black;">Server</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet RPC-Unterstützung und ermöglicht Datei-, Drucker- und Named-Piped-Freigabe über das Netzwerk.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">lanman-workstation</td>
-<td style="border:1px solid black;">Arbeitsstation</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Netzwerkverbindungen und Kommunikation für Clientdienste.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">LicenseService</td>
-<td style="border:1px solid black;">Lizenzprotokollierung</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Wurde ursprünglich entwickelt, um die mit Windows NT® Server 3.51 eingeführten CALs zu verwalten. Der Dienst sollte nur von Benutzern aktiviert werden, die Microsoft Small Business Server verwenden.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">LMHosts</td>
-<td style="border:1px solid black;">TCP/IP-NetBIOS-Hilfsprogramm</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Bietet NetBIOS-über-TCP/IP-Unterstützung sowie NetBIOS-Namensauflösung für Clients.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">LPDSVC</td>
-<td style="border:1px solid black;">TCP/IP-Druckserver</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht TCP/IP-basiertes Drucken durch Verwenden des LPD-Protokolls zum Empfang von Dokumenten von LPD-Dienstprogrammen auf UNIX-basierten Plattformen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">LSASS</td>
-<td style="border:1px solid black;">Lokale Sicherheitsautorität</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet eine Schnittstelle zur Verwaltung der lokalen Sicherheit, der Domänenauthentifizierung sowie von Active Directory-Prozessen.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">MacFile</td>
-<td style="border:1px solid black;">Dateiserver für Macintosh</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht Macintosh-Benutzern, Dateien unter Windows Server 2003 zu speichern und darauf zuzugreifen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">MacPrint</td>
-<td style="border:1px solid black;">Druckserver für Macintosh</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht Macintosh-Benutzern die Verwendung von Windows Server 2003-Druckdiensten.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">MDM</td>
-<td style="border:1px solid black;">Machine Debug Manager</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Verwaltet das lokales Debuggen sowie Remotedebuggen von Anwendungen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Messenger</td>
-<td style="border:1px solid black;">Nachrichtendienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Sendet Nachrichten an den Warndienst oder empfängt Nachrichten von diesem. Dieser Nachrichtendienst besitzt keine Beziehung zu Windows Messenger. Im Falle seiner Deaktivierung ist es nicht möglich, die Befehle „net send“ und „net name“ zu verwenden.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">mnmsrvc</td>
-<td style="border:1px solid black;">NetMeeting-Remotedesktopfreigabe</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht autorisierten Benutzern über Windows NetMeeting®-Dienste den Remotezugriff auf den Windows-Desktop von anderen Computern aus.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">mqds</td>
-<td style="border:1px solid black;">Message Queuing Down Level Clients</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Active Directory-Zugriff für ältere Versionen von Windows, die den Message Queuing-Dienst verwenden.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">Mqtgsvc</td>
-<td style="border:1px solid black;">Message Queuing-Trigger</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet ein regelbasiertes System zur Überwachung von Nachrichten, die über eine Warteschlange des Message Queuing-Dienstes eingehen, und ruft Nachrichtenverarbeitungsdienste auf.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">MSDTC</td>
-<td style="border:1px solid black;">Distributed Transaction Coordinator</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Koordiniert Transaktionen, die über mehrere Computer, Datenbanken, Dateisysteme, Nachrichtenwarteschlangen und andere transaktionsgeschützte Ressourcenmanager verteilt sind.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">MSExchange MTA</td>
-<td style="border:1px solid black;">Microsoft Exchange MTA-Stacks</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Bietet einen abwärtskompatiblen Nachrichtenübertragungsdienst in einer Umgebung im gemischten Modus.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">MSFTPSVC</td>
-<td style="border:1px solid black;">FTP-Publishingdienst</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Bietet FTP-Konnektivität und Verwaltung über das IIS-Snap-In.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">MSIServer</td>
-<td style="border:1px solid black;">Windows Installer</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet die Installation und Deinstallation von Anwendungen durch die Anwendung einer Reihe von zentral definierten Setupregeln während des Installationsvorgangs.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">msmq</td>
-<td style="border:1px solid black;">Message Queuing</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Fungiert als Messaginginfrastruktur und Entwicklungstool zum Erstellen verteilter Messaginganwendungen für Windows-Programme.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">MSSQL$UDDI</td>
-<td style="border:1px solid black;">MSSQL$UDDI</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Bietet UDDI-Dienste (Universal Description, Discovery, and Integration) für das SQL Server-Datenbankmodul.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">MSSQL SERVER</td>
-<td style="border:1px solid black;">MS SQL-Server</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Bietet konfigurierbare MS SQL Server-Dienste.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">MSSQLServer ADHelper</td>
-<td style="border:1px solid black;">MS SQL Server AD Helper</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht SQL Server und SQL Server Analysis Services das Veröffentlichen von Informationen in Active Directory.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">NetDDE</td>
-<td style="border:1px solid black;">Netzwerk-DDE</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Netzwerktransport und Sicherheit für DDE bei Programmen, die auf demselben Computer oder auf verschiedenen Computern ausgeführt werden.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">NetDDEdsdm</td>
-<td style="border:1px solid black;">Netzwerk-DDE-Serverdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet DDE-Netzwerkfreigaben.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Netlogon</td>
-<td style="border:1px solid black;">Netlogon</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Erhält einen Sicherheitskanal zwischen Clientcomputern und Domänencontrollern für die Authentifizierung von Diensten und Benutzern aufrecht.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">Netman</td>
-<td style="border:1px solid black;">Netzwerkverbindungen</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet Objekte im Ordner „Netzwerkverbindungen“.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Network Connections</td>
-<td style="border:1px solid black;">Netzwerkverbindungen</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet Objekte im Order „Netzwerk- und DFÜ-Verbindungen“, über den Netzwerk- und Remoteverbindungen angezeigt werden können.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">NLA</td>
-<td style="border:1px solid black;">Dienst für Netzwerkadressinformationen</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Sammelt und speichert Netzwerkkonfigurationsdaten und verarbeitet Informationen über Netzwerkadressenänderungen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">NntpSvc</td>
-<td style="border:1px solid black;">Network News Transfer-Protokoll</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die Verwendung von Computern als NNTP-Newsserver.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">NtFrs</td>
-<td style="border:1px solid black;">Dateireplikation</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Kopiert automatisch Updates in Dateien und Ordner von Computern, die einen gemeinsamen Replikatsatz des Dateireplikationsdienstes nutzen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">NtLmSsp</td>
-<td style="border:1px solid black;">NTLM Security Support Provider</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verantwortlich für Authentifizierung und Verwaltung von lokalen Sicherheitsrichtlinienobjekten.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">NWC Workstation</td>
-<td style="border:1px solid black;">Client Service für NetWare</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Bietet Zugriff auf NetWare-Datei- und -Druckressourcen.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">nwsapagent</td>
-<td style="border:1px solid black;">SAP-Agent</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Meldet Netzwerkdienste in IPX-Netzwerken, die das IPX SAP-Protokoll verwenden.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">One Point</td>
-<td style="border:1px solid black;">Microsoft Operations Manager 2000-Agent</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">MOM 2000-Agent (Microsoft Operations Manager)</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">PlugPlay</td>
-<td style="border:1px solid black;">Plug-and-Play</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die Erkennung von Hardwareänderungen ohne Benutzereingaben.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">PolicyAgent</td>
-<td style="border:1px solid black;">IPsec-Dienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet IPsec-Richtlinien, startet IKE und koordiniert die Einstellungen für IPsec-Richtlinien im IPsec-Treiber.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">POP3SVC</td>
-<td style="border:1px solid black;">Microsoft Pop3-Dienst</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Bietet Dienste für E-Mail-Transfer- und -abruf.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">Protected-Storage</td>
-<td style="border:1px solid black;">Geschützter Speicher</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Stellt einen geschützten Speicher für vertrauliche Daten bereit.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">RasAuto</td>
-<td style="border:1px solid black;">Verwaltung für automatische RAS-Verbindung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Erstellt jedes Mal Verbindungen zu Remotecomputern, wenn Programme auf DNS- oder NetBIOS-Remotenamen oder -adressen verweisen.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">RasMan</td>
-<td style="border:1px solid black;">RAS-Verbindungsverwaltung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet DFÜ- und VPN-Verbindungen zu Remotenetzwerken.</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">RDSessMgr</td>
-<td style="border:1px solid black;">Sitzungs-Manager für Remotedesktophilfe</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet und steuert die Funktion „Remoteunterstützung“ innerhalb der Hilfe- und Supportcenteranwendung.</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;">Remote_
-Storage_Server</td>
-<td style="border:1px solid black;">Remotespeicherserver</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verschieben und Abrufen von Dateien aus sekundären Speichermedien</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;">Remote_
+
+<tr>
+
+<th style="border:1px solid black;">
+
+Dienst
+
+</th>
+
+<th style="border:1px solid black;">
+
+Dienstname
+
+</th>
+
+<th style="border:1px solid black;">
+
+Anmelden als
+
+</th>
+
+<th style="border:1px solid black;">
+
+Beschreibung
+
+</th>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+IP6-zu-IP4
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+IPv6-Hilfsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht IPv6-Konnektivität über IPv4-Netzwerke
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+AELookupSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Anwendungskompatibilitäts-Suchdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verarbeitet Suchanfragen zur Anwendungskompatibilität für Anwendungen, wenn diese gestartet werden. Muss für Anwendungskompatibilitäts-Softwareupdates aktiviert sein.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Alerter
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Warndienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dieser Dienst benachrichtigt ausgewählte Benutzer und Computer über administrative Warnungen und ist für die Zustellung vom Nachrichtendienst auf Clientcomputern abhängig.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+ALG
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Gatewaydienst auf Anwendungsebene
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Unterstützt im Hintergrund von ICS arbeitende Plug-Ins, über die Netzwerkprotokolle die Firewall passieren können.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+AppMgmt
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Anwendungsverwaltung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Softwareinstallationsdienste wie Zuweisung, Veröffentlichung und Deinstallation. Im Falle der Deaktivierung ist es nicht möglich, Anwendungen über Active Directory-Dienste wie IntelliMirror® zu installieren.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+AppMgr
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Remoteserver-Manager
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Funktioniert als WMI-Instanzenanbieter für Warnobjekte bei der Remoteverwaltung und als WMI-Methodenanbieter für Remoteverwaltungsaufgaben.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+aspnet_state
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ASP.NET-Statusdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Stellt die Unterstützung für Out-of-Process-Sitzungszustände von ASP.NET bereit.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+AudioSrv
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows-Audio
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet Audiogeräte für Windows-basierte Programme.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+BINLSVC
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Remoteinstallation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dies ist die Hauptkomponente des Remoteinstallationsservers (Remote Installation Server, RIS) zur Beantwortung von PXE-Anfragen für remotestartfähige Computer.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+BITS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Intelligenter Hintergrundübertragungsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Stellt einen Mechanismus für im Hintergrund ablaufende Dateiübertragungen für Warteschlangen-Manager bereit. Wenn dieser Dienst angehalten wird, können auf dem Computer keine automatischen Updatefunktionen verwendet werden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Browser
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Computerbrowser
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Führt eine aktuelle Liste der Computer im Netzwerk.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+CertSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Zertifikatdienste
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bestandteil des Betriebssystemkerns, der digitale Zertifikate ausstellt und verwaltet.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+cisvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Indexdienstleistung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet über eine Abfragesprache schnellen Zugriff auf Dateien durch die Indizierung der Dateiinhalte und -eigenschaften.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+ClipSrv
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ablagemappe
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht der Ablagemappe das Erstellen und Freigeben von Datenseiten für die Überprüfung durch Remotebenutzer.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+ClusSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Clusterdienste
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Domänenkonto
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Steuert Clustervorgänge von Servern und verwaltet die Clusterdatenbank.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+COMSysApp
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+COM+-Systemanwendung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet die Konfiguration und Verfolgung von COM+-basierten Komponenten. COM+-Komponenten funktionieren nicht ordnungsgemäß, wenn dieser Dienst deaktiviert wird.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+CORRTSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+.NET Framework-Support Service
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benachrichtigt Abonnentenclients, wenn bestimmte Prozesse den Clientlaufzeitdienst initialisieren.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+CryptSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Kryptografiedienste
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet kryptografische Schlüsselverwaltungsdienste für Windows-basierte Computer.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DcomLaunch
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+DCOM-Serverprozess-Startprogramm
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet einen Teil der RPC-Dienste, die in der Kombination mit dem RPCSS-Dienst Berechtigungen für „Lokales System“ erfordern.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DFS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verteiltes Dateisystem (Distributed File System, DFS)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Integriert unterschiedliche Dateifreigaben innerhalb des Netzwerks in einen einzigen logischen Namenspace. Dieses System wird für die Meldung der SYSVOL-Freigabe benötigt.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DFSR
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+DFS-Replikation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Kopiert automatisch Updates in Dateien und Ordner von Computern, die Bestandteil einer gemeinsamen Replikationsgruppe sind (in Windows Server 2003 R2 hinzugefügt).
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Dhcp
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+DHCP-Client
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet Konfigurationsdaten von DHCP-Netzwerken durch das Registrieren und Aktualisieren von IP-Adressen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DHCPServer
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+DHCP-Server
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dieser Dienst verwaltet DHCP und weist Clientcomputern IP-Adressen zu.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+dmadmin
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dienst für die Verwaltung logischer Datenträger
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Führt administrative Dienste für Datenträgerverwaltungsanforderungen aus und konfiguriert Datenträger. Dieser Dienst wird ausschließlich im Rahmen solcher Konfigurationsprozesse ausgeführt.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+dmserver
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Logischer Diskettenmanager
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Erkennt und überwacht neue Laufwerke und sendet Datenträgerinformationen an den dmadmin-Dienst. Dieser Dienst darf nicht deaktiviert werden, wenn dynamische Datenträger verwendet werden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+DNS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+DNS-Server
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die DNS-Namensauflösung durch die Beantwortung von Abfragen und Updateanforderungen für DNS-Namen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Dnscache
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+DNS-Client
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ist für das Auflösen und Zwischenspeichern von DNS-Namen zuständig und muss auf jedem Computer ausgeführt werden, auf dem die DNS-Namensauflösung durchgeführt wird.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+ERSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Fehlerberichterstattungsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Sammelt, speichert und meldet Fälle, in denen unerwartete Anwendungsfehler auftreten oder Anwendungen unerwartet beendet werden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Eventlog
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ereignisprotokoll
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Zeichnet Ereignisse, die von Programmen, Diensten sowie vom Betriebssystem gesendet werden, in Ereignisprotokollen auf.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+EventSystem
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+COM+-Ereignissystem
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verteilt Ereignisse automatisch an abonnierte COM-Komponenten.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+FastUser Switching Compatibility
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Kompatibilität für schnelle Benutzerumschaltung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet Anwendungen, die Unterstützung in mehreren Benutzerumgebungen erfordern.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Fax
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Faxdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet TAPI-kompatible Faxfunktionen an.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Groveler
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+SIS-Groveler
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Integraler Bestandteil des Remoteinstallationsdienstes (RIS), der Dateiduplikate ermittelt und das Original in SIS (Single Instance Storage) kopiert.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+helpsvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Hilfe und Support
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Zugriff auf Speicher und Dienste, in denen Metadaten und Informationen über Hilfethemen für die Hilfe- und Supportcenteranwendung enthalten sind.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+HidServ
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Eingabegerätzugriff
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht allgemeinen Eingabezugriff auf USB-Geräte wie Tastaturen und Mäuse.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+HTTPFilter
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+HTTP-SSL
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht IIS die Ausführung von SSL-Funktionen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+IAS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Internetauthentifizierungsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet zentralisierte Authentifizierungs-, Autorisierungs-, Überwachungs- und Kontoführungsdienste für Benutzer, die eine Verbindung zu einem Netzwerk herstellen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+IASJet
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+IAS-Jet-Datenbankzugriff
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Authentifizierungs-, Autorisierungs- und Kontoführungsdienste über das RADIUS-Protokoll.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+IISADMIN
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+IIS-Verwaltungsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die Verwaltung von IIS-Komponenten wie FTP und Webdiensterweiterungen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+ImapiService
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+COM-Dienst für IMAPI-CD-Brennen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet das Erstellen von CDs über die IMAPI COM-Schnittstelle und führt auf Anforderung CD-R-Schreibvorgänge durch.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Irmon
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Infrarotüberwachung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die Dateifreigabe über Infrarotverbindungen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+IsmServ
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Standortübergreifender Messagingdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht den Austausch von Nachrichten zwischen Computern unter Windows Server.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+kdc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Kerberos-Schlüsselverteilungscenter
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht Benutzern die Anmeldung über das Kerberos-Authentifizierungsprotokoll. Wenn dieser Dienst angehalten wird, können Clients sich nicht mehr bei einer Domäne anmelden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+lanmanserver
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Server
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet RPC-Unterstützung und ermöglicht Datei-, Drucker- und Named-Piped-Freigabe über das Netzwerk.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+lanman-workstation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Arbeitsstation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Netzwerkverbindungen und Kommunikation für Clientdienste.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+LicenseService
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lizenzprotokollierung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Wurde ursprünglich entwickelt, um die mit Windows NT® Server 3.51 eingeführten CALs zu verwalten. Der Dienst sollte nur von Benutzern aktiviert werden, die Microsoft Small Business Server verwenden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+LMHosts
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+TCP/IP-NetBIOS-Hilfsprogramm
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet NetBIOS-über-TCP/IP-Unterstützung sowie NetBIOS-Namensauflösung für Clients.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+LPDSVC
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+TCP/IP-Druckserver
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht TCP/IP-basiertes Drucken durch Verwenden des LPD-Protokolls zum Empfang von Dokumenten von LPD-Dienstprogrammen auf UNIX-basierten Plattformen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+LSASS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokale Sicherheitsautorität
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet eine Schnittstelle zur Verwaltung der lokalen Sicherheit, der Domänenauthentifizierung sowie von Active Directory-Prozessen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MacFile
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dateiserver für Macintosh
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht Macintosh-Benutzern, Dateien unter Windows Server 2003 zu speichern und darauf zuzugreifen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MacPrint
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Druckserver für Macintosh
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht Macintosh-Benutzern die Verwendung von Windows Server 2003-Druckdiensten.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MDM
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Machine Debug Manager
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet das lokales Debuggen sowie Remotedebuggen von Anwendungen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Messenger
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Nachrichtendienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Sendet Nachrichten an den Warndienst oder empfängt Nachrichten von diesem. Dieser Nachrichtendienst besitzt keine Beziehung zu Windows Messenger. Im Falle seiner Deaktivierung ist es nicht möglich, die Befehle „net send“ und „net name“ zu verwenden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+mnmsrvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+NetMeeting-Remotedesktopfreigabe
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht autorisierten Benutzern über Windows NetMeeting®-Dienste den Remotezugriff auf den Windows-Desktop von anderen Computern aus.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+mqds
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Message Queuing Down Level Clients
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Active Directory-Zugriff für ältere Versionen von Windows, die den Message Queuing-Dienst verwenden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Mqtgsvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Message Queuing-Trigger
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet ein regelbasiertes System zur Überwachung von Nachrichten, die über eine Warteschlange des Message Queuing-Dienstes eingehen, und ruft Nachrichtenverarbeitungsdienste auf.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MSDTC
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Distributed Transaction Coordinator
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Koordiniert Transaktionen, die über mehrere Computer, Datenbanken, Dateisysteme, Nachrichtenwarteschlangen und andere transaktionsgeschützte Ressourcenmanager verteilt sind.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MSExchange MTA
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Microsoft Exchange MTA-Stacks
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet einen abwärtskompatiblen Nachrichtenübertragungsdienst in einer Umgebung im gemischten Modus.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MSFTPSVC
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+FTP-Publishingdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet FTP-Konnektivität und Verwaltung über das IIS-Snap-In.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MSIServer
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows Installer
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet die Installation und Deinstallation von Anwendungen durch die Anwendung einer Reihe von zentral definierten Setupregeln während des Installationsvorgangs.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+msmq
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Message Queuing
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Fungiert als Messaginginfrastruktur und Entwicklungstool zum Erstellen verteilter Messaginganwendungen für Windows-Programme.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MSSQL$UDDI
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+MSSQL$UDDI
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet UDDI-Dienste (Universal Description, Discovery, and Integration) für das SQL Server-Datenbankmodul.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MSSQL SERVER
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+MS SQL-Server
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet konfigurierbare MS SQL Server-Dienste.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+MSSQLServer ADHelper
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+MS SQL Server AD Helper
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht SQL Server und SQL Server Analysis Services das Veröffentlichen von Informationen in Active Directory.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+NetDDE
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerk-DDE
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Netzwerktransport und Sicherheit für DDE bei Programmen, die auf demselben Computer oder auf verschiedenen Computern ausgeführt werden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+NetDDEdsdm
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerk-DDE-Serverdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet DDE-Netzwerkfreigaben.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Netlogon
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netlogon
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Erhält einen Sicherheitskanal zwischen Clientcomputern und Domänencontrollern für die Authentifizierung von Diensten und Benutzern aufrecht.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Netman
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkverbindungen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet Objekte im Ordner „Netzwerkverbindungen“.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Network Connections
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkverbindungen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet Objekte im Order „Netzwerk- und DFÜ-Verbindungen“, über den Netzwerk- und Remoteverbindungen angezeigt werden können.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+NLA
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dienst für Netzwerkadressinformationen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Sammelt und speichert Netzwerkkonfigurationsdaten und verarbeitet Informationen über Netzwerkadressenänderungen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+NntpSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Network News Transfer-Protokoll
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die Verwendung von Computern als NNTP-Newsserver.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+NtFrs
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dateireplikation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Kopiert automatisch Updates in Dateien und Ordner von Computern, die einen gemeinsamen Replikatsatz des Dateireplikationsdienstes nutzen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+NtLmSsp
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+NTLM Security Support Provider
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verantwortlich für Authentifizierung und Verwaltung von lokalen Sicherheitsrichtlinienobjekten.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+NWC Workstation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Client Service für NetWare
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Zugriff auf NetWare-Datei- und -Druckressourcen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+nwsapagent
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+SAP-Agent
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Meldet Netzwerkdienste in IPX-Netzwerken, die das IPX SAP-Protokoll verwenden.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+One Point
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Microsoft Operations Manager 2000-Agent
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+MOM 2000-Agent (Microsoft Operations Manager)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+PlugPlay
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Plug-and-Play
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die Erkennung von Hardwareänderungen ohne Benutzereingaben.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+PolicyAgent
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+IPsec-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet IPsec-Richtlinien, startet IKE und koordiniert die Einstellungen für IPsec-Richtlinien im IPsec-Treiber.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+POP3SVC
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Microsoft Pop3-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Dienste für E-Mail-Transfer- und -abruf.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Protected-Storage
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Geschützter Speicher
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Stellt einen geschützten Speicher für vertrauliche Daten bereit.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RasAuto
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltung für automatische RAS-Verbindung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Erstellt jedes Mal Verbindungen zu Remotecomputern, wenn Programme auf DNS- oder NetBIOS-Remotenamen oder -adressen verweisen.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RasMan
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+RAS-Verbindungsverwaltung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet DFÜ- und VPN-Verbindungen zu Remotenetzwerken.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RDSessMgr
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Sitzungs-Manager für Remotedesktophilfe
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet und steuert die Funktion „Remoteunterstützung“ innerhalb der Hilfe- und Supportcenteranwendung.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Remote_
+
+Storage_Server
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Remotespeicherserver
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verschieben und Abrufen von Dateien aus sekundären Speichermedien
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Remote_
+
 Storage_User_
-Link</td>
-<td style="border:1px solid black;">Remotespeicherbenachrichtigung</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Der Remote_Storage_User_Link-Dienst benachrichtigt Benutzer, wenn diese versuchen, Dateien zu lesen oder zu schreiben, die nur auf sekundären Speichermedien verfügbar sind.</td>
+
+Link
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Remotespeicherbenachrichtigung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Der Remote_Storage_User_Link-Dienst benachrichtigt Benutzer, wenn diese versuchen, Dateien zu lesen oder zu schreiben, die nur auf sekundären Speichermedien verfügbar sind.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">RemoteAccess</td>
-<td style="border:1px solid black;">Routing und Remotezugriff</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Multiprotokoll-Routingdienste sowie DFÜ- und VPN-Remotezugriffsdienste.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RemoteAccess
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Routing und Remotezugriff
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Multiprotokoll-Routingdienste sowie DFÜ- und VPN-Remotezugriffsdienste.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">RemoteRegistry</td>
-<td style="border:1px solid black;">Remoteregistrierungsdienst</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Ermöglicht Remotebenutzern mit den entsprechenden Berechtigungen das Ändern von Registrierungseinstellungen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RemoteRegistry
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Remoteregistrierungsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht Remotebenutzern mit den entsprechenden Berechtigungen das Ändern von Registrierungseinstellungen.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">RpcLocator</td>
-<td style="border:1px solid black;">Remote Procedure Call Locator</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Verwaltet die RPC-Namensdienstdatenbank, um RPC-Clients das Auffinden von RPC-Servern zu ermöglichen. Standardmäßig deaktiviert</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RpcLocator
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Remote Procedure Call Locator
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet die RPC-Namensdienstdatenbank, um RPC-Clients das Auffinden von RPC-Servern zu ermöglichen. Standardmäßig deaktiviert
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">RpcSs</td>
-<td style="border:1px solid black;">Remoteprozeduraufruf</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Dient als RPC-Endpunktzuweisungs- und COM-Dienst (Component Object Model).</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RpcSs
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Remoteprozeduraufruf
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Dient als RPC-Endpunktzuweisungs- und COM-Dienst (Component Object Model).
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">RSoPProv</td>
-<td style="border:1px solid black;">Richtlinienergebnissatz-Provider</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht Verbindungen zu Windows-Domänencontrollern sowie den Zugriff auf die WMI-Datenbank und simuliert den Richtlinienergebnissatz für Gruppenrichtlinieneinstellungen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RSoPProv
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Richtlinienergebnissatz-Provider
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht Verbindungen zu Windows-Domänencontrollern sowie den Zugriff auf die WMI-Datenbank und simuliert den Richtlinienergebnissatz für Gruppenrichtlinieneinstellungen.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">RSVP</td>
-<td style="border:1px solid black;">QoS RSVP</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet die Verwendung allgemeiner API-Dienstqualitätsanforderungen von Anwendungen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+RSVP
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+QoS RSVP
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet die Verwendung allgemeiner API-Dienstqualitätsanforderungen von Anwendungen.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Sacsvr</td>
-<td style="border:1px solid black;">Hilfsprogramm für spezielle Verwaltungskonsole</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Führt Remoteverwaltungsaufgaben aus, wenn ein Betriebssystem der Windows Server-Familie aufgrund von STOP-Fehlermeldungen nicht mehr funktioniert.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Sacsvr
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Hilfsprogramm für spezielle Verwaltungskonsole
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Führt Remoteverwaltungsaufgaben aus, wenn ein Betriebssystem der Windows Server-Familie aufgrund von STOP-Fehlermeldungen nicht mehr funktioniert.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">SamSs</td>
-<td style="border:1px solid black;">Sicherheitskontenverwaltung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet die Daten von Benutzer- und Gruppenkonten</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SamSs
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Sicherheitskontenverwaltung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet die Daten von Benutzer- und Gruppenkonten
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">SCardSvr</td>
-<td style="border:1px solid black;">Smartcard</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Verwaltet und steuert den Zugriff auf Smartcards, wenn diese in ein entsprechendes Lesegerät am Computer eingeführt werden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SCardSvr
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Smartcard
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet und steuert den Zugriff auf Smartcards, wenn diese in ein entsprechendes Lesegerät am Computer eingeführt werden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Schedule</td>
-<td style="border:1px solid black;">Taskplaner</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die Ausführung von automatisierten Aufgaben.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Schedule
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Taskplaner
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die Ausführung von automatisierten Aufgaben.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">seclogon</td>
-<td style="border:1px solid black;">Sekundärer Anmeldedienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die Erstellung von Prozessen im Kontext verschiedener Sicherheitsprinzipale.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+seclogon
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Sekundärer Anmeldedienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die Erstellung von Prozessen im Kontext verschiedener Sicherheitsprinzipale.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">SENS</td>
-<td style="border:1px solid black;">Systemereignisbenachrichtigung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verfolgt Ereignisse im Zusammenhang mit dem System und der Stromversorgung und benachrichtigt COM+-Ereignissystem-Abonnenten von diesen Ereignissen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SENS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Systemereignisbenachrichtigung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verfolgt Ereignisse im Zusammenhang mit dem System und der Stromversorgung und benachrichtigt COM+-Ereignissystem-Abonnenten von diesen Ereignissen.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">SharedAccess</td>
-<td style="border:1px solid black;">Windows-Verbindungsfirewall/Gemeinsame Nutzung der Internetverbindung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet NAT-, Adressen- und Namenauflösungsdienste für sämtliche Computer in einem Netzwerk, wenn die gemeinsame Nutzung der Internetverbindung aktiviert ist.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SharedAccess
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows-Verbindungsfirewall/Gemeinsame Nutzung der Internetverbindung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet NAT-, Adressen- und Namenauflösungsdienste für sämtliche Computer in einem Netzwerk, wenn die gemeinsame Nutzung der Internetverbindung aktiviert ist.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">ShellHW
-Detection</td>
-<td style="border:1px solid black;">Shellhardwareerkennung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Benachrichtigt über AutoPlay-Hardwareereignisse.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+ShellHW
+
+Detection
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Shellhardwareerkennung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Benachrichtigt über AutoPlay-Hardwareereignisse.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">SimpTcp</td>
-<td style="border:1px solid black;">Einfache TCP/IP-Dienste</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Bietet einfache TCP/IP-Dienste wie Echo, Discard, Daytime, Zeichengenerator und Zitat des Tages.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SimpTcp
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Einfache TCP/IP-Dienste
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet einfache TCP/IP-Dienste wie Echo, Discard, Daytime, Zeichengenerator und Zitat des Tages.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">SMTPSVC</td>
-<td style="border:1px solid black;">Simple Mail Transport Protocol</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Fungiert als SMTP-Übermittlungs- und Relay-Agent, indem E-Mails, die von Remotezielen eingehen oder dorthin gesendet, angenommen und in Warteschlangen eingereiht werden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SMTPSVC
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Simple Mail Transport Protocol
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Fungiert als SMTP-Übermittlungs- und Relay-Agent, indem E-Mails, die von Remotezielen eingehen oder dorthin gesendet, angenommen und in Warteschlangen eingereiht werden.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">SNMP</td>
-<td style="border:1px solid black;">SNMP-Dienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht, dass eingehende SNMP-Anforderungen vom lokalen Computer bedient werden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SNMP
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+SNMP-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht, dass eingehende SNMP-Anforderungen vom lokalen Computer bedient werden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">SNMPTRAP</td>
-<td style="border:1px solid black;">SNMP-Trap-Dienst</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Empfängt SNMP-Trap-Nachrichten, die von lokalen oder von Remote-SNMP-Agenten erstellt wurden, und leitet diese Nachrichten an SNMP-Verwaltungsserver weiter.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SNMPTRAP
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+SNMP-Trap-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Empfängt SNMP-Trap-Nachrichten, die von lokalen oder von Remote-SNMP-Agenten erstellt wurden, und leitet diese Nachrichten an SNMP-Verwaltungsserver weiter.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Spooler</td>
-<td style="border:1px solid black;">Druckerspooler</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet alle lokalen und Netzwerkdruckwarteschlangen und steuert sämtliche Druckaufträge.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Spooler
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Druckerspooler
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet alle lokalen und Netzwerkdruckwarteschlangen und steuert sämtliche Druckaufträge.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">SQLAgent$
-WEBDB</td>
-<td style="border:1px solid black;">SQL Agent$ UDDI oder WebDB</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"> </td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SQLAgent$
+
+WEBDB
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+SQL Agent$ UDDI oder WebDB
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">SrvcSurg</td>
-<td style="border:1px solid black;">Remoteverwaltungsdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verantwortlich für die Ausführung von Remoteverwaltungsaufgaben beim Serverstart. Dazu zählt auch die Bootcount-Inkrementierung des Servers sowie die Ausgabe von Warnmeldungen, wenn Datum und Uhrzeit des Servers nicht eingestellt wurden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SrvcSurg
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Remoteverwaltungsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verantwortlich für die Ausführung von Remoteverwaltungsaufgaben beim Serverstart. Dazu zählt auch die Bootcount-Inkrementierung des Servers sowie die Ausgabe von Warnmeldungen, wenn Datum und Uhrzeit des Servers nicht eingestellt wurden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">StiSvc</td>
-<td style="border:1px solid black;">Windows-Bilderfassung</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Bietet Bilderfassungsdienste für Scanner und Kameras.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+StiSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows-Bilderfassung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Bilderfassungsdienste für Scanner und Kameras.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">srservice</td>
-<td style="border:1px solid black;">Systemwiederherstellungsdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Überwacht Systemveränderungen sowie Anwendungsdateien und erstellt anschließend leicht identifizierbare Wiederherstellungspunkte.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+srservice
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Systemwiederherstellungsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Überwacht Systemveränderungen sowie Anwendungsdateien und erstellt anschließend leicht identifizierbare Wiederherstellungspunkte.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">SSDPSRV</td>
-<td style="border:1px solid black;">SSDP-Suchdienst</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Verwaltet Meldungen über vorhandene Geräte, Cacheupdates sowie SSDP-Benachrichtigungen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SSDPSRV
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+SSDP-Suchdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet Meldungen über vorhandene Geräte, Cacheupdates sowie SSDP-Benachrichtigungen.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">StiSvc</td>
-<td style="border:1px solid black;">Windows-Bilderfassung (Windows Image Acquisition, WIA)</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Ermöglicht die stabile Kommunikation zwischen Anwendungen und Bilderfassungsgeräten für die effiziente Übertragung von Bildern an den Computer.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+StiSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows-Bilderfassung (Windows Image Acquisition, WIA)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die stabile Kommunikation zwischen Anwendungen und Bilderfassungsgeräten für die effiziente Übertragung von Bildern an den Computer.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">SwPrv</td>
-<td style="border:1px solid black;">Microsoft Software Shadow Copy Provider</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet die Software-basierten Schattenkopien des Volumeschattenkopie-Dienstes.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SwPrv
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Microsoft Software Shadow Copy Provider
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet die Software-basierten Schattenkopien des Volumeschattenkopie-Dienstes.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">SysmonLog</td>
-<td style="border:1px solid black;">Leistungsprotokolle und Warnungen</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Sammelt Daten zu Leistungsprotokollen und Warnungen. Wird nur ausgeführt, wenn mindestens ein Leistungsdatensammelereignis geplant ist.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+SysmonLog
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Leistungsprotokolle und Warnungen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Sammelt Daten zu Leistungsprotokollen und Warnungen. Wird nur ausgeführt, wenn mindestens ein Leistungsdatensammelereignis geplant ist.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">TapiSrv</td>
-<td style="border:1px solid black;">Telefonie</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet TAPI-Unterstützung für Programme, die Telefoniegeräte und IP-basierte Sprachverbindungen steuern.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+TapiSrv
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Telefonie
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet TAPI-Unterstützung für Programme, die Telefoniegeräte und IP-basierte Sprachverbindungen steuern.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">TermService</td>
-<td style="border:1px solid black;">Terminaldienste</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht mehreren Clients den Zugriff auf virtuelle Windows-Desktopsitzungen, die auf dem Server ausgeführt werden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+TermService
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Terminaldienste
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht mehreren Clients den Zugriff auf virtuelle Windows-Desktopsitzungen, die auf dem Server ausgeführt werden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">TermServ
-Licensing</td>
-<td style="border:1px solid black;">Terminaldienstelizenzierung</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Gewährt registrierten Clients Lizenzen, wenn sie eine Verbindung zu einem Terminalserver herstellen, und verfolgt diese Lizenzen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+TermServ
+
+Licensing
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Terminaldienstelizenzierung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Gewährt registrierten Clients Lizenzen, wenn sie eine Verbindung zu einem Terminalserver herstellen, und verfolgt diese Lizenzen.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">tftpd</td>
-<td style="border:1px solid black;">Daemon für „Trivial FTP“</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Registriert und antwortet auf TFTP-Anforderungen.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+tftpd
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Daemon für „Trivial FTP“
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+ 
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Registriert und antwortet auf TFTP-Anforderungen.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Design</td>
-<td style="border:1px solid black;">Design</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Renderingunterstützung für die grafische Benutzeroberfläche von Windows XP.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Design
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Design
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Renderingunterstützung für die grafische Benutzeroberfläche von Windows XP.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">TlntSvr</td>
-<td style="border:1px solid black;">Telnet</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet Windows-Benutzern Telnet-Dienste und unterstützt Terminalsitzungen vom Typ ANSI, VT-100, VT52 und VTNT.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+TlntSvr
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Telnet
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet Windows-Benutzern Telnet-Dienste und unterstützt Terminalsitzungen vom Typ ANSI, VT-100, VT52 und VTNT.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">TrkSvr</td>
-<td style="border:1px solid black;">Server für die Überwachung verteilter Verknüpfungen</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Speichert Informationen, so dass Dateien, die zwischen Volumes verschoben werden, zu jedem Volume innerhalb der Domäne verfolgt werden können. Dieser Dienst wird auf jedem Domänencontroller ausgeführt.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+TrkSvr
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Server für die Überwachung verteilter Verknüpfungen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Speichert Informationen, so dass Dateien, die zwischen Volumes verschoben werden, zu jedem Volume innerhalb der Domäne verfolgt werden können. Dieser Dienst wird auf jedem Domänencontroller ausgeführt.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">TrkWks</td>
-<td style="border:1px solid black;">Client für die Überwachung verteilter Verknüpfungen</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verantwortlich für die Aufrechterhaltung von Verknüpfungen zwischen den NTFS-Dateisystemdateien auf dem Computer oder im Netzwerk. Stellt sicher, dass Verknüpfungen und OLE-Verknüpfungen funktionieren, nachdem Zieldateien verschoben oder umbenannt wurden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+TrkWks
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Client für die Überwachung verteilter Verknüpfungen
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verantwortlich für die Aufrechterhaltung von Verknüpfungen zwischen den NTFS-Dateisystemdateien auf dem Computer oder im Netzwerk. Stellt sicher, dass Verknüpfungen und OLE-Verknüpfungen funktionieren, nachdem Zieldateien verschoben oder umbenannt wurden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Tssdis</td>
-<td style="border:1px solid black;">Terminaldienste-Sitzungsverzeichnis</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verfolgt unterbrochene Terminaldienstesitzungen in einem Cluster, um sicherzustellen, dass für die Benutzer die Verbindung zu diesen Sitzungen wiederhergestellt wird.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Tssdis
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Terminaldienste-Sitzungsverzeichnis
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verfolgt unterbrochene Terminaldienstesitzungen in einem Cluster, um sicherzustellen, dass für die Benutzer die Verbindung zu diesen Sitzungen wiederhergestellt wird.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Uploadmgr</td>
-<td style="border:1px solid black;">Upload-Manager</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet synchrone und asynchrone Dateiübertragungen zwischen Clients und Servern im Netzwerk.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Uploadmgr
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Upload-Manager
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet synchrone und asynchrone Dateiübertragungen zwischen Clients und Servern im Netzwerk.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">upnphost</td>
-<td style="border:1px solid black;">Universeller Plug &amp; Play-Gerätehost</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Implementiert sämtliche Komponenten, die zur Geräteregistrierung, Steuerung und Reaktion auf Ereignisse für Hostgeräte erforderlich sind.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+upnphost
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Universeller Plug &amp; Play-Gerätehost
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Implementiert sämtliche Komponenten, die zur Geräteregistrierung, Steuerung und Reaktion auf Ereignisse für Hostgeräte erforderlich sind.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">UPS</td>
-<td style="border:1px solid black;">Unterbrechungsfreie Stromversorgung</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Verwaltet die Kommunikation mit einer unterbrechungsfreien Stromversorgung (Uninterruptible Power Supply, UPS), die über einen seriellen Anschluss mit den Computer verbunden ist.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+UPS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Unterbrechungsfreie Stromversorgung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet die Kommunikation mit einer unterbrechungsfreien Stromversorgung (Uninterruptible Power Supply, UPS), die über einen seriellen Anschluss mit den Computer verbunden ist.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">VDS</td>
-<td style="border:1px solid black;">Virtueller Datenträgerdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Bietet eine einzige Schnittstelle zur Verwaltung der Block-Storage-Virtualisierung, unabhängig davon, ob dafür Betriebssystemsoftware, RAID-Speicher oder andere Virtualisierungsmodule verwendet werden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+VDS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Virtueller Datenträgerdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Bietet eine einzige Schnittstelle zur Verwaltung der Block-Storage-Virtualisierung, unabhängig davon, ob dafür Betriebssystemsoftware, RAID-Speicher oder andere Virtualisierungsmodule verwendet werden.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">VSS</td>
-<td style="border:1px solid black;">Volumeschattenkopie</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verwaltet Volumesnapshots, die von Sicherungsanwendungen verwendet werden.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+VSS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Volumeschattenkopie
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verwaltet Volumesnapshots, die von Sicherungsanwendungen verwendet werden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">W32Time</td>
-<td style="border:1px solid black;">Windows-Zeitgeber</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Verantwortlich für die Datums- und Zeitsynchronisierung mit NTP.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+W32Time
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows-Zeitgeber
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Verantwortlich für die Datums- und Zeitsynchronisierung mit NTP.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">W3SVC</td>
-<td style="border:1px solid black;">WWW-Publishingdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Enthält einen Prozess- und Konfigurationsmanager zur Bereitstellung von WWW-Publishingdiensten.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+W3SVC
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+WWW-Publishingdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Enthält einen Prozess- und Konfigurationsmanager zur Bereitstellung von WWW-Publishingdiensten.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">WebClient</td>
-<td style="border:1px solid black;">WebClient</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Ermöglicht Win32-Anwendungen den Zugriff auf Dokumente aus dem Internet.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WebClient
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+WebClient
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht Win32-Anwendungen den Zugriff auf Dokumente aus dem Internet.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">WindowsSystem
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WindowsSystem
+
 Resource
-Manager</td>
-<td style="border:1px solid black;">Windows-Verwaltungsinstrumentation</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die richtlinienbasierte Verwaltung des CPU- und Speicherbedarfs für Prozesse, die über eine einzige Betriebssysteminstanz ausgeführt werden.</td>
+
+Manager
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows-Verwaltungsinstrumentation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die richtlinienbasierte Verwaltung des CPU- und Speicherbedarfs für Prozesse, die über eine einzige Betriebssysteminstanz ausgeführt werden.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">WinHttpAutoSvc</td>
-<td style="border:1px solid black;">WinHTTP-Web Proxy Auto-Discovery-Dienst</td>
-<td style="border:1px solid black;">Lokaler Dienst</td>
-<td style="border:1px solid black;">Implementiert die Proxykonfigurationsermittlung für WinHttp-Clients.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WinHttpAutoSvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+WinHTTP-Web Proxy Auto-Discovery-Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokaler Dienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Implementiert die Proxykonfigurationsermittlung für WinHttp-Clients.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">winmgmt</td>
-<td style="border:1px solid black;">Windows-Verwaltungsinstrumentation</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Stellt Systemverwaltungsinformationen über mehrere Schnittstellen bereit.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+winmgmt
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows-Verwaltungsinstrumentation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Stellt Systemverwaltungsinformationen über mehrere Schnittstellen bereit.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">WINS</td>
-<td style="border:1px solid black;">WINS-Dienst (Windows Internet Naming Service)</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die NetBIOS-Namensauflösung sowie die WINS-Replikation.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WINS
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+WINS-Dienst (Windows Internet Naming Service)
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die NetBIOS-Namensauflösung sowie die WINS-Replikation.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">WmdmPmSN</td>
-<td style="border:1px solid black;">Seriennummer der tragbaren Medien</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht, dass WMDM die Seriennummern von tragbaren Musikgeräten abrufen kann, die an den Computer angeschlossen sind.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WmdmPmSN
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Seriennummer der tragbaren Medien
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht, dass WMDM die Seriennummern von tragbaren Musikgeräten abrufen kann, die an den Computer angeschlossen sind.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">Wmi</td>
-<td style="border:1px solid black;">Treibererweiterungen für Windows-Verwaltungsinstrumentation</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Überwacht sämtliche Treiber und Ereignisablaufverfolgungsanbieter, die für die Veröffentlichung von WMI-Daten oder Ereignisablaufverfolgungsdaten konfiguriert sind.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Wmi
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Treibererweiterungen für Windows-Verwaltungsinstrumentation
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Überwacht sämtliche Treiber und Ereignisablaufverfolgungsanbieter, die für die Veröffentlichung von WMI-Daten oder Ereignisablaufverfolgungsdaten konfiguriert sind.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">WmiApSrv</td>
-<td style="border:1px solid black;">WMI-Leistungsadapter</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Wandelt von WMI-Anbietern bereitgestellte Leistungsindikatoren in Indikatoren um, die über die Reverse Adapter Performance Library von PDH verarbeitet werden können.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WmiApSrv
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+WMI-Leistungsadapter
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Wandelt von WMI-Anbietern bereitgestellte Leistungsindikatoren in Indikatoren um, die über die Reverse Adapter Performance Library von PDH verarbeitet werden können.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">WMServer</td>
-<td style="border:1px solid black;">Windows Media-Dienste</td>
-<td style="border:1px solid black;">Netzwerkdienst</td>
-<td style="border:1px solid black;">Ermöglicht die Bereitstellung von Windows Media-Diensten.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WMServer
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Windows Media-Dienste
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die Bereitstellung von Windows Media-Diensten.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">wscsvc</td>
-<td style="border:1px solid black;">Sicherheitscenter</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Überwacht Sicherheitseinstellungen und Konfigurationsdaten des Systems.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+wscsvc
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Sicherheitscenter
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Überwacht Sicherheitseinstellungen und Konfigurationsdaten des Systems.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">wuauserv</td>
-<td style="border:1px solid black;">Automatische Updates</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht das Herunterladen von Updates auf der Windows Update-Website von Microsoft.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+wuauserv
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Automatische Updates
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht das Herunterladen von Updates auf der Windows Update-Website von Microsoft.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">Wuser32</td>
-<td style="border:1px solid black;">SMS Remote Control Agent</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Stellt Remotecomputerverwaltungsdienste bereit, beispielsweise Remotesteuerungs- und Remotedateiübertragungsdienste für SMS 2003.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+Wuser32
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+SMS Remote Control Agent
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Stellt Remotecomputerverwaltungsdienste bereit, beispielsweise Remotesteuerungs- und Remotedateiübertragungsdienste für SMS 2003.
+
+</td>
+
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;">WZCSVC</td>
-<td style="border:1px solid black;">Konfigurationsfreie drahtlose Verbindung</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht die automatische Konfiguration für drahtlose Adapter vom Typ IEEE 802.11 für die drahtlose Kommunikation.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+WZCSVC
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Konfigurationsfreie drahtlose Verbindung
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht die automatische Konfiguration für drahtlose Adapter vom Typ IEEE 802.11 für die drahtlose Kommunikation.
+
+</td>
+
 </tr>
-<tr class="even">
-<td style="border:1px solid black;">xmlprov</td>
-<td style="border:1px solid black;">Netzwerkbereitstellungsdienst</td>
-<td style="border:1px solid black;">Lokales System</td>
-<td style="border:1px solid black;">Ermöglicht das Herunterladen und Verwalten von XML-Konfigurationsdateien aus Netzwerkbereitstellungsdiensten wie Wireless Provisioning Service (WPS) von Microsoft.</td>
+
+<tr>
+
+<td style="border:1px solid black;">
+
+
+xmlprov
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Netzwerkbereitstellungsdienst
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Lokales System
+
+</td>
+
+<td style="border:1px solid black;">
+
+
+Ermöglicht das Herunterladen und Verwalten von XML-Konfigurationsdateien aus Netzwerkbereitstellungsdiensten wie Wireless Provisioning Service (WPS) von Microsoft.
+
+</td>
+
 </tr>
-</tbody>
+
 </table>
-  
-[](#mainsection)[Zum Seitenanfang](#mainsection)
-  
-**Download**
-  
+
+[Zum Seitenanfang](#mainsection)
+ 
+
+**Download**  
+
+
 [Leitfaden „Sichern von kritischen Konten und Dienstkonten“ herunterladen](http://go.microsoft.com/fwlink/?linkid=73609)
-  
-[](#mainsection)[Zum Seitenanfang](#mainsection)
+ 
+[Zum Seitenanfang](#mainsection)
