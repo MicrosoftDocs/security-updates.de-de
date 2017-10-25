@@ -356,7 +356,7 @@ So werden Code- und Skriptbeispiele dargestellt.
 
 <td style="border:1px solid black;">
 
-**Hinweis**
+<strong>Hinweis</strong>
 
 </td>
 
