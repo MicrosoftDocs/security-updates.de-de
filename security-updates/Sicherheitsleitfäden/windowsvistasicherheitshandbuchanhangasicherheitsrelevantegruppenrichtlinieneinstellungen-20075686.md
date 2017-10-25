@@ -1,3 +1,4 @@
+
 ---
 Title: Windows Vista-Sicherheitshandbuch – Anhang A (Sicherheitsrelevante Gruppenrichtlinieneinstellungen)
 TOCTitle: Windows Vista-Sicherheitshandbuch – Anhang A (Sicherheitsrelevante Gruppenrichtlinieneinstellungen)
@@ -2912,27 +2913,26 @@ Für Änderungen an den Unterkategorien und Einstellungen der Überwachungsricht
 
 3. Löschen Sie die aktuellen Überwachungsrichtlinieneinstellungen. Geben Sie hierzu die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie anschließend die Eingabetaste:
   
-
-    `auditpol /clear`
+   `auditpol /clear`
 
 4. Konfigurieren Sie mit dem Befehlszeilentool Auditpol.exe die gewünschten benutzerdefinierten Überwachungsrichtlinieneinstellungen. Geben Sie beispielsweise die nachstehenden Zeilen an der Eingabeaufforderung ein. Drücken Sie nach jeder Zeile die Eingabetaste.
 
     **Hinweis:** Einige Teile des folgenden Codeausschnitts werden nur aus Gründen der besseren Lesbarkeit in mehreren Zeilen angezeigt. Der Code sollte jedoch in einer einzelnen Zeile eingegeben werden.
  
+   `auditpol /set /subcategory:"user account management" /success:enable /failure:enable`
 
-    `auditpol /set /subcategory:"user account management" /success:enable /failure:enable`
-
-    `auditpol /set /subcategory:"logon" /success:enable /failure:enable`
+   `auditpol /set /subcategory:"logon" /success:enable /failure:enable`
     
-    `auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable`
+   `auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable`
 
-    **Hinweis:** Wenn Sie alle mögliche Kategorien und Unterkategorien anzeigen möchten, geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:   
-**auditpol /list /subcategory:***
+
+   **Hinweis:** Wenn Sie alle mögliche Kategorien und Unterkategorien anzeigen möchten, geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:   
+    **auditpol /list /subcategory:***
+
 
     Geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:
   
-
-    `auditpol /backup /file:EC-AuditPolicy.txt (oder SSLF-AuditPolicy.txt)`  
+`auditpol /backup /file:EC-AuditPolicy.txt (oder SSLF-AuditPolicy.txt)`  
 
 5. Kopieren Sie die neue Datei **EC-AuditPolicy.txt** (bzw. **SSLF-AuditPolicy.txt** für Hochsicherheitsumgebungen) in die Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung, und überschreiben Sie dabei die bestehende Version.
 
@@ -2954,7 +2954,6 @@ Wie bereits erwähnt, erstellt die Lösung, die durch die Gruppenrichtlinienobje
 
     - EC-VSGAuditPolicy.txt
 
-
     Für die Hochsicherheitsumgebung:
 
     - SSLF-VSGAuditPolicy.cmd
@@ -2962,7 +2961,6 @@ Wie bereits erwähnt, erstellt die Lösung, die durch die Gruppenrichtlinienobje
     - SSLF-VSGApplyAuditPolicy.cmd
 
     - SSLF-VSGAuditPolicy.txt
-
 
 2. Erstellen Sie eine leere Textdatei, geben Sie ihr den Namen DeleteVSGAudit.txt, und kopieren Sie sie in die Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung. Die Textdatei wird automatisch in allen Domänencontrollern Ihrer Umgebung repliziert.
 
@@ -7441,10 +7439,10 @@ Netzwerkzugriff: Registrierungspfade, auf die von anderen Computern aus zugegrif
 
 
 System\CurrentControlSet\  
-Control\ProductOptions
+Control\ProductOptions<br/>
 
 System\CurrentControlSet\  
-Control\Server Applications
+Control\Server Applications<br/>
 
 Software\Microsoft\Windows NT\CurrentVersion
 
@@ -7460,11 +7458,11 @@ Nicht definiert
 <td style="border:1px solid black;">
 
 
-System\CurrentControlSet\  
-Control\ProductOptions
+System\CurrentControlSet\
+Control\ProductOptions<br/>
 
-System\CurrentControlSet\  
-Control\Server Applications
+System\CurrentControlSet\
+Control\Server Applications<br/>
 
 Software\Microsoft\Windows NT\CurrentVersion
 
@@ -7484,31 +7482,31 @@ Software\Microsoft\Windows NT\CurrentVersion
 <td style="border:1px solid black;">
 
 
-System\CurrentControlSet\  
-Control\Print\Printers
+System\CurrentControlSet\ 
+Control\Print\Printers<br/> 
+
+System\CurrentControlSet\
+Services\Eventlog<br/> 
+
+Software\Microsoft\OLAP Server<br/>
+
+Software\Microsoft\Windows NT\CurrentVersion\Print<br/>
+
+Software\Microsoft\Windows NT\CurrentVersion\Windows<br/>
 
 System\CurrentControlSet\  
-Services\Eventlog
-
-Software\Microsoft\OLAP Server
-
-Software\Microsoft\Windows NT\CurrentVersion\Print
-
-Software\Microsoft\Windows NT\CurrentVersion\Windows
+ContentIndex<br/> 
 
 System\CurrentControlSet\  
-ContentIndex
+Control\Terminal Server<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server
+Control\Terminal Server\User Config<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server\User Config
+Control\Terminal Server\Default User Config<br/> 
 
-System\CurrentControlSet\  
-Control\Terminal Server\Default User Config
-
-Software\Microsoft\Windows NT\CurrentVersion\perflib
+Software\Microsoft\Windows NT\CurrentVersion\perflib<br/> 
 
 System\CurrentControlSet\  
 Services\SysmonLog
@@ -7526,30 +7524,30 @@ Nicht definiert
 
 
 System\CurrentControlSet\  
-Control\Print\Printers
+Control\Print\Printers<br/> 
 
 System\CurrentControlSet\  
-Services\Eventlog
+Services\Eventlog<br/> 
 
-Software\Microsoft\OLAP Server
+Software\Microsoft\OLAP Server<br/> 
 
-Software\Microsoft\Windows NT\CurrentVersion\Print
+Software\Microsoft\Windows NT\CurrentVersion\Print<br/> 
 
-Software\Microsoft\Windows NT\CurrentVersion\Windows
-
-System\CurrentControlSet\  
-ContentIndex
+Software\Microsoft\Windows NT\CurrentVersion\Windows<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server
+ContentIndex<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server\User Config
+Control\Terminal Server<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server\Default User Config
+Control\Terminal Server\User Config<br/> 
 
-Software\Microsoft\Windows NT\CurrentVersion\perflib
+System\CurrentControlSet\  
+Control\Terminal Server\Default User Config<br/> 
+
+Software\Microsoft\Windows NT\CurrentVersion\perflib<br/> 
 
 System\CurrentControlSet\  
 Services\SysmonLog
@@ -7709,7 +7707,6 @@ Für die Unternehmensclient-Umgebung ist die Einstellung **Netzwerkzugriff: Regi
 * Software\Microsoft\Windows NT\CurrentVersion
 
  
-
 **Netzwerkzugriff: Registrierungspfade und -unterpfade, auf die von anderen Computern aus zugegriffen werden kann**  
 Durch diese Richtlinieneinstellung wird festgelegt, auf welche Registrierungspfade und -unterpfade zugegriffen werden kann, wenn eine Anwendung oder ein Prozess den Schlüssel **WinReg** zur Feststellung der Zugriffsberechtigungen auswertet.
 

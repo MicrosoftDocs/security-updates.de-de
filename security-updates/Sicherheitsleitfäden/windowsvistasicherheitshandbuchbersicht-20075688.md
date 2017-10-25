@@ -356,7 +356,6 @@ So werden Code- und Skriptbeispiele dargestellt.
 
 <td style="border:1px solid black;">
 
-
 **Hinweis**
 
 </td>
@@ -468,8 +467,6 @@ Die folgenden Links stellen zusätzliche Informationen zu Sicherheitsthemen sowi
 * [*Windows XP Professional Resource Kit*](http://www.microsoft.com/germany/technet/prodtechnol/winxppro/reskit/default.mspx)
 
 * [*Windows XP-Sicherheitshandbuch*](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10))
-
-
 
 
 #### Support und Feedback
