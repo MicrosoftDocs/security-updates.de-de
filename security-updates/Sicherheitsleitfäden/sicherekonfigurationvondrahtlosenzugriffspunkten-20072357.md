@@ -1045,20 +1045,20 @@ IAS-Proxys mit RADIUS-Servergruppen
 
 <td style="border:1px solid black;">
 
-<strong><strong>&#x2022;</strong></strong> Ausfallerkennung für RADIUS-Dienste mit Failover und Failback
+<strong>&#x2022;</strong> Ausfallerkennung für RADIUS-Dienste mit Failover und Failback<br/>
 
-<strong>&#x2022;</strong> Verteilung der Datenverkehrslast gemäß den Eigenschaften des Datenverkehrs
+<strong>&#x2022;</strong> Verteilung der Datenverkehrslast gemäß den Eigenschaften des Datenverkehrs<br/>
 
-<strong>&#x2022;</strong> Behält den EAP-Sitzungszustand während des Lastenausgleichs bei
+<strong>&#x2022;</strong> Behält den EAP-Sitzungszustand während des Lastenausgleichs bei<br/>
 
-<strong>&#x2022;</strong> Konfigurierbare Anforderungsverteilung an Server gemäß Prioritäts- und Lasteinstellungen
+<strong>&#x2022;</strong> Konfigurierbare Anforderungsverteilung an Server gemäß Prioritäts- und Lasteinstellungen<br/>
 
 
 </td>
 
 <td style="border:1px solid black;">
 
-<strong>&#x2022;</strong> Zusätzliche IAS-Server erforderlich
+<strong>&#x2022;</strong> Zusätzliche IAS-Server erforderlich<br/>
 
 <strong>&#x2022;</strong> Erfordert weiterhin die Konfiguration von primären und sekundären Proxy-RADIUS-Serveradressen
 
@@ -1078,9 +1078,9 @@ Primäre und sekundäre RADIUS-Servereinstellungen an drahtlosen Zugriffspunkten
 
 <td style="border:1px solid black;">
 
-<strong>&#x2022;</strong> Einfachere Konfiguration für kleinere Umgebungen
+<strong>&#x2022;</strong> Einfachere Konfiguration für kleinere Umgebungen<br/>
 
-<strong>&#x2022;</strong> Drahtloser Zugriffspunkt erkennt Ausfall bei Datenverkehr und führt Failover aus
+<strong>&#x2022;</strong> Drahtloser Zugriffspunkt erkennt Ausfall bei Datenverkehr und führt Failover aus<br/>
 
 <strong>&#x2022;</strong> Verwendet die systemeigene Funktionalität von drahtlosen Zugriffspunkten
 
@@ -1089,7 +1089,7 @@ Primäre und sekundäre RADIUS-Servereinstellungen an drahtlosen Zugriffspunkten
 
 <td style="border:1px solid black;">
 
-<strong>&#x2022;</strong> Erfordert mehr Aufwand für Planung und Überwachung für primäre und sekundäre RADIUS-Datenverkehrsverteilung
+<strong>&#x2022;</strong> Erfordert mehr Aufwand für Planung und Überwachung für primäre und sekundäre RADIUS-Datenverkehrsverteilung<br/>
 
 <strong>&#x2022;</strong> Einige drahtlose Zugriffspunkte unterstützen weiterhin nicht die Failbackfunktionalität, was zu nicht ausgeglichenen Datenverkehrslasten führen kann.
 
