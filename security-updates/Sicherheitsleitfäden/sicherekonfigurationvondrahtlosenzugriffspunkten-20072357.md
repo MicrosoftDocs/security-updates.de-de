@@ -2683,7 +2683,6 @@ Ein virtuelles Verzeichnis muss auf IIS erstellt werden, das als HTTP-Speicheror
 
     </table>
 
-
 4. Verwenden Sie die IIS-Verwaltungskonsole, um ein neues virtuelles Verzeichnis unter der standardmäßigen Website zu erstellen:
     - Geben Sie dem virtuellen Verzeichnis den Namen **pki**
 
@@ -4045,7 +4044,7 @@ Weitere Informationen zu [CAPICOM](http://www.microsoft.com/downloads/details.as
 Konfigurieren der administrativen Gruppen für IAS
 Der folgende Skriptbefehl erstellt die Sicherheitsgruppen „IAS Admins“ und „IAS Security Auditors“:
 
-    `Cscript //job:CreateIASGroups C:\MSSScripts\IAS_Tools.wsf`
+`Cscript //job:CreateIASGroups C:\MSSScripts\IAS_Tools.wsf`
 
 In Umgebungen mit mehreren Domänen sollten diese Gruppen in derselben Domäne erstellt werden, in der sich die IAS-Server befinden.
 
