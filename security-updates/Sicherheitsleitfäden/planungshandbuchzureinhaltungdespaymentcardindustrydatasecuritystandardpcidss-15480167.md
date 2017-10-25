@@ -258,7 +258,6 @@ Microsoft bietet eine Reihe von Technologien, die Sie zusammen oder einzeln zum 
 </li>
 <br/>
 <li>
-
 Weiterte Informationen zu MBSA finden Sie auf der Website von Microsoft Baseline Security Analyzer unter <http://www.microsoft.com/technet/security/tools/mbsahome.mspx> (möglicherweise in englischer Sprache).
 
 </li>
@@ -284,20 +283,21 @@ Weitere Informationen zu SMS finden Sie auf der Homepage von Microsoft Systems M
 Weitere Informationen finden Sie im Abschnitt über Überwachungssammlungs-dienste unter <http://technet.microsoft.com/en-us/library/bb381258.aspx> (möglicherweise in englischer Sprache).
 
 </li>
-<br/>
 <li>
 
 **Windows Server Update Services**. Mithilfe von Windows Server Update Services (WSUS) mit Service Pack 1 kann Ihr Unternehmen viele der neuesten Microsoft-Produktupdates bereitstellen, die auf der Microsoft Update-Website veröffentlicht werden. WSUS ist eine Updatekomponente von Windows Server, die einen schnellen und effektiven Weg bietet, um Systeme auf dem aktuellen Stand zu halten. Sie erhalten damit eine Infrastruktur zur Risikobewertung mit folgenden Komponenten:
 
 <ul style="list-style-type:circle">
-<li>  <strong>Microsoft Update</strong>. Die Microsoft-Website, von der WSUS-Komponenten Microsoft-Produktupdates herunterladen.<br/><br/></li>
 
-<li>  <strong>Windows Server Update Services-Server</strong>.  Die Serverkomponente, die innerhalb der Unternehmensfirewall auf einem Computer mit Microsoft Windows 2000 Server mit Service Pack 4 (SP4) oder dem Betriebssystem Windows Server 2003 installiert wird. Der Windows Server Update Services-Server bietet Administratoren die erforderlichen Funktionen zum Verwalten und Verteilen von Updates mit einem webbasierten Tool, auf das von jedem Windows-Computer innerhalb des Unternehmensnetzwerks über Internet Explorer zugegriffen werden kann. Darüber hinaus kann ein Windows Server Update Services-Server als Updatequelle für andere Windows Server Update Services-Server dienen.<br/><br/></li>
-
-<li>  <strong>Automatische Updates</strong>. Die Clientcomputerkomponente, die in die Microsoft-Betriebssysteme Windows Vista, Windows Server 2003, Windows XP und Windows 2000 mit Service Pack 3 integriert ist. Mithilfe von automatischen Updates können Server- und Clientcomputer Updates von Microsoft Update oder einem Windows Server Update Services-Server empfangen.</li>
+<li>   <strong>Microsoft Update</strong>. Die Microsoft-Website, von der WSUS-Komponenten Microsoft-Produktupdates herunterladen.</li>
+<br/>
+<li>   <strong>Windows Server Update Services-Server</strong>.  Die Serverkomponente, die innerhalb der Unternehmensfirewall auf einem Computer mit Microsoft Windows 2000 Server mit Service Pack 4 (SP4) oder dem Betriebssystem Windows Server 2003 installiert wird. Der Windows Server Update Services-Server bietet Administratoren die erforderlichen Funktionen zum Verwalten und Verteilen von Updates mit einem webbasierten Tool, auf das von jedem Windows-Computer innerhalb des Unternehmensnetzwerks über Internet Explorer zugegriffen werden kann. Darüber hinaus kann ein Windows Server Update Services-Server als Updatequelle für andere Windows Server Update Services-Server dienen.</li>
+<br/>
+<li>   <strong>Automatische Updates</strong>. Die Clientcomputerkomponente, die in die Microsoft-Betriebssysteme Windows Vista, Windows Server 2003, Windows XP und Windows 2000 mit Service Pack 3 integriert ist. Mithilfe von automatischen Updates können Server- und Clientcomputer Updates von Microsoft Update oder einem Windows Server Update Services-Server empfangen.</li>
 </ul>
 
 </li>
+<br/>
 Diese Dienste bieten Ihnen die Möglichkeit, allen Hostumgebungen in Ihrem Netzwerk den jeweils neuesten Sicherheitsfix von Microsoft für die auf dem gegebenen Host installierten Produkte bereitzustellen.  
 
 Weitere Informationen finden Sie auf der Homepage von Windows Server Update Services unter <http://www.microsoft.com/windowsserversystem/updateservices/default.mspx> (möglicherweise in englischer Sprache).
@@ -310,19 +310,23 @@ Weitere Informationen finden Sie auf der Homepage von Windows Server Update Serv
 Zum Verwalten der Einstellungen der Gruppenrichtlinien kann die Gruppenrichtlinien-Verwaltungskonsole von Microsoft (GPMC) verwendet werden. Die GPMC bietet einen Ort für die Verwaltung der Kernaspekte von Gruppenrichtlinien und vereinfacht damit den Prozess. Sie erfüllt gemäß den Kundenansprüchen die höchsten Anforderungen für die Bereitstellung von Gruppenrichtlinien und bietet Folgendes:
 
 <ul style="list-style-type:circle">
-<li>Eine Benutzeroberfläche, die die Verwendung von Gruppenrichtlinien deutlich vereinfacht</li>
 
-<li>Die Fähigkeit zum Sichern und Wiederherstellen von GPOs</li>
-
-<li>Die Fähigkeit zum Importieren, Exportieren, Kopieren und Einfügen von GPOs und Filtern für die Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)</li>
-
-<li>Eine vereinfachte Möglichkeit zum Verwalten der Sicherheit hinsichtlich Gruppenrichtlinien</li>
-
-<li>Die Fähigkeit, HTML-Berichte für GPO-Einstellungen und die Daten des Richtlinienergebnissatzes (Resultant Set of Policy, RSoP) zu generieren</li>
-
-<li>Die Fähigkeit zum Schreiben und Ausführen von Skripts für GPO-Operationen, die von der GPMC zur Verfügung gestellt werden (Einstellungen innerhalb eines GPO können jedoch nicht in ein Skript geschrieben werden)</li>
+<li>   Eine Benutzeroberfläche, die die Verwendung von Gruppenrichtlinien deutlich vereinfacht</li>
+<br/>
+<li>   Die Fähigkeit zum Sichern und Wiederherstellen von GPOs</li>
+<br/>
+<li>   Die Fähigkeit zum Importieren, Exportieren, Kopieren und Einfügen von GPOs und Filtern für die Windows-Verwaltungsinstrumentation (Windows Management Instrumentation, WMI)</li>
+<br/>
+<li>   Eine vereinfachte Möglichkeit zum Verwalten der Sicherheit hinsichtlich Gruppenrichtlinien</li>
+<br/>
+<li>   Die Fähigkeit, HTML-Berichte für GPO-Einstellungen und die Daten des Richtlinienergebnissatzes (Resultant Set of Policy, RSoP) zu generieren</li>
+<br/>
+<li>   Die Fähigkeit zum Schreiben und Ausführen von Skripts für GPO-Operationen, die von der GPMC zur Verfügung gestellt werden (Einstellungen innerhalb eines GPO können jedoch nicht in ein Skript geschrieben werden)</li>
 </ul>
+
 </ul>
+
+Weitere Informationen finden Sie in den Windows Server 2003-Gruppenrichtlinien unter [http://technet2.microsoft.com/windowsserver/en/technologies/featured/gp/default.mspx](http://technet2.microsoft.com/windowsserver/en/technologies/featured/gp/default.mspx) und in der Einführung in die Gruppenrichtlinien-Verwaltungskonsole unter [http://www.microsoft.com/windowsserver2003/gpmc/gpmcintro.mspx](https://www.microsoft.com/windowsserver2003/gpmc/gpmcintro.mspx) (möglicherweise in englischer Sprache).
 
 #### Änderungsmanagement
 
@@ -665,34 +669,35 @@ Microsoft bietet zahlreiche Technologien zur Erfüllung der Identitätsverwaltun
 
 **Microsoft Active Directory**. Active Directory unterstützt zahlreiche Technologien, mit denen Sie steuern können, welche Mitarbeiter auf Karteninhaberdaten innerhalb und außerhalb Ihres Netzwerks zugreifen können. Erstens unterstützt Active Directory die Kerberos-Authentifizierung, eine der Standard-Authentifizierungs-techniken von Windows. Kerberos bietet eine sichere Benutzerauthentifizierung mit einem Industriestandard, der Interoperabilität zulässt. Der Active Directory-Domänencontroller verwaltet Benutzerkonten- und Anmeldeinformationen, um den Kerberos-Dienst zu unterstützen. Zweitens unterstützt Active Directory die Smartcard-Authentifizierung. Sie können festlegen, dass Remotebenutzer oder Administratoren von Systemen mit Karteninhaberdaten nur mit einer Smartcard und einer PIN auf Ihr Netzwerk zugreifen können. Außerdem unterstützt Active Directory die Serverspeicherung von Anmeldeinformationen, einen Dienst, der es Benutzern ermöglicht, beim Zugriff auf mehrere Computer stets dieselben Anmeldeinformati-onen zu verwenden. Zudem können Sie mit Active Directory die Anmeldeinformati-onsanbieter anpassen, die zur Authentifizierung der Benutzer verwendet werden. Mit diesen Funktionen können Sie die Zugriffsweise von Active Directory-Konten auf Karteninhaberdaten bis ins Detail steuern und Zugriffsrechte für diese Daten gezielt an ausgewählte Konten vergeben.
 
-Weitere Informationen finden Sie im Technologiecenter für Server 2003 Active Directory unter <http://www.microsoft.com/windowsserver2003/technologies/directory/activedirectory/default.mspx> (möglicherweise in englischer Sprache).  
 </li>
 <br/>
-
+Weitere Informationen finden Sie im Technologiecenter für Server 2003 Active Directory unter <http://www.microsoft.com/windowsserver2003/technologies/directory/activedirectory/default.mspx> (möglicherweise in englischer Sprache).  
+<br/><br/>
 <li>
 
 **Microsoft Active Directory Federation Services**. Mit Active Directory Federation Services (ADFS) können Sie Identitätsverwaltungslösungen erstellen, die über die traditionellen Grenzen Ihrer Active Directory-Struktur hinausgehen. ADFS ermöglicht es Ihrem Unternehmen, seine bestehende Active Directory-Infrastruktur zu erweitern und Zugriff auf Ressourcen zu bieten, die von vertrauenswürdigen Partnern über das Internet angeboten werden. Diese vertrauenswürdigen Partner können zum Beispiel Drittanbieter oder andere Abteilungen oder Niederlassungen innerhalb des gleichen Unternehmens sein.
 
-ADFS ist eng in Active Directory integriert. Benutzerattribute werden von Active Directory abgerufen und Benutzer mit Active Directory authentifiziert. ADFS verwendet zudem die integrierte Windows-Authentifizierung. Die Anwendung ist unter den Betriebssystemen Windows Server 2003 R2 und Windows Server „Longhorn“ verfügbar.
+<br/>
+</li>
+ADFS ist eng in Active Directory integriert. Benutzerattribute werden von Active Directory abgerufen und Benutzer mit Active Directory authentifiziert. ADFS verwendet zudem die integrierte Windows-Authentifizierung. Die Anwendung ist unter den Betriebssystemen Windows Server 2003 R2 und Windows Server „Longhorn“ verfügbar.<br/>
 
 Weitere Informationen finden Sie in der Übersicht über Active Directory Federation Services (ADFS) in Windows Server 2003 R2 unter [http://www.microsoft.com/WindowsServer2003/R2/Identity\_Management/ADFSwhitepaper.mspx](http://www.microsoft.com/windowsserver2003/r2/identity_management/adfswhitepaper.mspx) (möglicherweise in englischer Sprache).
-</li>
-<br/>
+<br/><br/>
 <li>
 
 **Microsoft Identity Lifecycle Manager**. Microsoft Identity Lifecycle Manager (ILM) vereinfacht das Zuordnen und Verwalten von Identitätsdatensätzen aus unterschiedlichen Datenrepositorys und verhindert Anomalien wie aktive Datensätze für Mitarbeiter, die aus dem Unternehmen ausgeschieden sind. ILM bietet Ihrem Unternehmen ein Richtlinienframework, mit dem Sie die Identität und den Datenzugriff kontrollieren und verfolgen können, um die Anforderungen zu erfüllen. Die Lösung umfasst zudem Selbsthilfetools für Endbenutzer, mit denen Sie die Effizienz Ihrer IT-Abteilung steigern können, da sich zahlreiche Aufgaben sicher an Endbenutzer übertragen lassen. Eine weitere wichtige Funktion von ILM ist die integrierte Windows-basierte Zertifikatverwaltungslösung, die sich in Windows Server 2003 und Active Directory integrieren lässt, um eine Komplettlösung zur Verwaltung des gesamten Lebenszyklus von Smartcards und digitalen Zertifikaten für die Zertifizierungsstelle von Windows Server 2003 zu bieten.
 
 </li>
-<br/>
 ILM bietet Ihrem Unternehmen folgende Vorteile:
+
 <ul style="list-style-type:circle">
 
-<li> Synchronisieren von Identitätsdaten in verschiedenen heterogenen Identitätsspeichern mit und ohne Verzeichnissen. Auf diese Weise können Sie Identitätsinformationen auf unterschiedlichen Plattformen automatisch aktualisieren und gleichzeitig die Integrität und Besitzrechte an diesen Daten im gesamten Unternehmen aufrecht erhalten.</li>
-
- <li> System- und plattformübergreifendes Bereitstellen und Entfernen von Benutzerkonten und Identitätsinformationen beispielsweise für Verteilung, E-Mail-Konten und Sicherheitsgruppen. Neue Konten für Mitarbeiter können bei Ereignissen oder Änderungen schnell in autorisierenden Speichern wie dem Personalsystem erstellt werden. Außerdem können aus dem Unternehmen ausgeschiedene Mitarbeiter sofort aus diesen Systemen entfernt werden.</li>
-
- <li> Verwalten von Zertifikaten und Smartcards. ILM umfasst eine workflow- und richtlinienbasierte Lösung zur einfachen Verwaltung des Lebenszyklus digitaler Zertifikate und Smartcards durch Unternehmen. Dabei werden Active Directory-Dienste und Active Directory-Zertifikatdienste genutzt, um digitale Zertifikate und Smartcards bereitzustellen und mithilfe eines automatischen Workflows den gesamten Lebenszyklus von zertifikatbasier-ten Anmeldeinformationen zu verwalten. ILM senkt dank der effizienten Bereitstellung, Verwaltung und Pflege einer zertifikatbasierten Infrastruktur deutlich die mit digitalen Zertifikaten und Smartcards verbundenen Kosten eines Unternehmens. Zudem wird die Bereitstellung, Konfiguration und Verwaltung von digitalen Zertifikaten und Smartcards optimiert und gleichzeitig der Schutz durch eine sichere mehrstufige Authentifizierungstechnologie erhöht.</li>
- </ul>
+<li>   Synchronisieren von Identitätsdaten in verschiedenen heterogenen Identitätsspeichern mit und ohne Verzeichnissen. Auf diese Weise können Sie Identitätsinformationen auf unterschiedlichen Plattformen automatisch aktualisieren und gleichzeitig die Integrität und Besitzrechte an diesen Daten im gesamten Unternehmen aufrecht erhalten.</li>
+<br/>
+<li>   System- und plattformübergreifendes Bereitstellen und Entfernen von Benutzerkonten und Identitätsinformationen beispielsweise für Verteilung, E-Mail-Konten und Sicherheitsgruppen. Neue Konten für Mitarbeiter können bei Ereignissen oder Änderungen schnell in autorisierenden Speichern wie dem Personalsystem erstellt werden. Außerdem können aus dem Unternehmen ausgeschiedene Mitarbeiter sofort aus diesen Systemen entfernt werden.</li>
+<br/>
+<li>   Verwalten von Zertifikaten und Smartcards. ILM umfasst eine workflow- und richtlinienbasierte Lösung zur einfachen Verwaltung des Lebenszyklus digitaler Zertifikate und Smartcards durch Unternehmen. Dabei werden Active Directory-Dienste und Active Directory-Zertifikatdienste genutzt, um digitale Zertifikate und Smartcards bereitzustellen und mithilfe eines automatischen Workflows den gesamten Lebenszyklus von zertifikatbasier-ten Anmeldeinformationen zu verwalten. ILM senkt dank der effizienten Bereitstellung, Verwaltung und Pflege einer zertifikatbasierten Infrastruktur deutlich die mit digitalen Zertifikaten und Smartcards verbundenen Kosten eines Unternehmens. Zudem wird die Bereitstellung, Konfiguration und Verwaltung von digitalen Zertifikaten und Smartcards optimiert und gleichzeitig der Schutz durch eine sichere mehrstufige Authentifizierungstechnologie erhöht.</li>
+</ul>
 
 Weitere Informationen finden Sie auf der Homepage von Microsoft Identity Lifecycle Manager unter <http://www.microsoft.com/windowsserver/ilm2007/default.mspx> (möglicherweise in englischer Sprache).  
 
@@ -843,7 +848,7 @@ Dieser Abschnitt enthält häufig von Kunden gestellte Fragen zu den Technologie
 
 #### Häufig gestellte Fragen (FAQ)
 
-**F: Warum ist es wichtig, dass mein Unternehmen den Payment Card Industry Data Security Standard einhält? Ist dies nicht ein weiterer unnötiger und kostspieliger Standard?**
+**F: Warum ist es wichtig,** **dass mein Unternehmen den Payment Card Industry Data Security Standard einhält? Ist dies nicht ein weiterer unnötiger und kostspieliger Standard?**
 
 A: Es gibt drei Gründe, warum Ihr Unternehmen den PCI DSS erfüllen sollte. Erstens haben es sich Kartenmarken wie Visa zur Regel gemacht, finanzielle Vorteile für die Einhaltung des PCI-Standards zu bieten und Strafen für die Nichteinhaltung aufzuerle-gen. Zweitens kann die Einhaltung des Standards im Fall von Datenverlust den Haftungsumfang verringern. Drittens kann der Prozess nach einer sorgfältigen Analyse und entsprechenden Konfiguration Ihrer Systeme dazu beitragen, dass Sie Kundendaten leichter verfolgen und damit den Kundendienst und die Kundenzufriedenheit weiter verbessern können.
 
@@ -851,15 +856,15 @@ A: Es gibt drei Gründe, warum Ihr Unternehmen den PCI DSS erfüllen sollte. Er
 
 A: Die Situation jedes Unternehmens ist unterschiedlich und dieses Handbuch soll so umfassend wie möglich sein. Microsoft entwickelt möglicherweise spezielle Anleitungen für vertikale Branchen. Sie können auch Ihren Microsoft-Vertreter um Unterstützung bitten. Wie bereits erwähnt können Sie bessere Geschäftsergebnisse erzielen, wenn Sie dies nicht einfach als Kompatibilitätsprojekt sehen, sondern als Verbesserung zum Verfolgen und Verwalten von Kundeninformationen.
 
-**F: Dieses Whitepaper beschreibt zahlreiche Technologien zur Einhaltung des PCI DSS, aber nur wenige Kompatibilitätslösungen. Warum?**
+**F: Dieses Whitepaper beschreibt zahlreiche Technologien zur Einhaltung des PCI DSS,** **aber nur wenige Kompatibilitätslösungen. Warum?**
 
 A: Jede Situation ist einzigartig, weshalb es nicht möglich ist, eine generelle Lösung für alle anzubieten. Microsoft hat es sich zum Ziel gesetzt, Ihrem Unternehmen, wie in der Zusammenfassung erwähnt, weitere Detailinformationen bereitzustellen.
 
-**F: Wie kann Microsoft dazu beitragen, dass mein Unternehmen eine PCI DSS-Zertifizierung erhält?**
+**F: Wie kann Microsoft dazu beitragen,** **dass mein Unternehmen eine PCI DSS-Zertifizierung erhält?**
 
 A: Microsoft kann Ihnen Software und Dienste zur Erfüllung der PCI DSS-Anforderungen anbieten, damit jedoch nicht die Kompatibilität Ihres Unternehmens gewährleisten. Als Händler liegt uns sehr daran, Ihrem Unternehmen zu helfen, diese Anforderungen zu erfüllen, die Kompatibilität Ihres Unternehmens wird jedoch von Ihren Prüfern und den Kartenmarken bestimmt, mit denen Sie arbeiten.
 
-**F: Besagt Abschnitt 3.4.1, dass Microsoft-Datenschutztechnologien nicht verwendet werden können?**
+**F: Besagt Abschnitt 3.4.1,** **dass Microsoft-Datenschutztechnologien nicht verwendet werden können?**
 
 A: Nein. Der vollständige Abschnitt lautet:
 

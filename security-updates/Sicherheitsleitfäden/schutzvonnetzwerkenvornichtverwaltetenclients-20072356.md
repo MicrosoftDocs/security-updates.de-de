@@ -11,7 +11,7 @@ ms:contentKeyID: 20072356
 
 Veröffentlicht: 29. Aug 2006
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Einführung](#efaa)  
 [Definition](#eeaa)  
@@ -94,8 +94,9 @@ Im Besonderen wird bei den hierin vorgestellten Lösungen die Verwendung eines k
 
 Die Anwendung dieser Lösungen sollte mit den in der folgenden Abbildung dargestellten Schritten einhergehen:
 
+![](images/cc875843.pnfuc01(de-de,technet.10).gif)
 
-**Abbildung 1. Anwenden von MOF**
+**Abbildung 1. Anwenden von MOF**
  
 
 Wie aus der Abbildung hervorgeht, sollten alle Antworten auf die Sicherheitsprobleme durch nicht verwaltete Systeme kontinuierliche Test- und Justierungsprozesse sein und sich nicht nur auf die Planung und Bereitstellung beschränken. Die Bedrohungen, denen das Netzwerk eines mittelgroßen Unternehmens ausgesetzt ist, ändern sich ständig, und die Systeme, die ein Unternehmensnetzwerk schützen, müssen fortlaufend an diese Bedrohungen angepasst werden.
@@ -117,6 +118,7 @@ Näheres über MOF finden Sie auf der [Microsoft Operations Framework](http://ww
 Weitere Informationen über die Dienstverwaltungsfunktion „Sicherheitsverwaltung“ finden Sie auf der Seite [Sicherheitsverwaltungsfunktionen](http://go.microsoft.com/fwlink/?linkid=37696) (möglicherweise in englischer Sprache) unter http://go.Microsoft.com/fwlink/?LinkId=37696.
 
 Das Risikomanagement umfasst das Ermitteln eines akzeptablen Risikopotenzials eines Unternehmens, das Beurteilen der aktuellen Risiken, das Entwickeln von Methoden zum Erreichen des akzeptablen Risikopotenzials sowie das Verwalten des Risikos. Wenngleich in diesem Dokument einige Risikomanagementkonzepte genannt werden, ist eine eingehende Behandlung des Risikomanagements ein Thema für sich und verdient somit spezielle Aufmerksamkeit. Weitere Informationen über Risikoanalyse und -beurteilung finden Sie im [*Leitfaden zum Sicherheitsrisikomanagement*](http://go.microsoft.com/fwlink/?linkid=30794) unter http://go.Microsoft.com/fwlink/?LinkId=30794.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -209,13 +211,13 @@ Separate Verkabelung für Segmente verwenden, die vom vertrauenswürdigen Netzwe
 
 <td style="border:1px solid black;">
 
-* Kostenaufwand für das Verlegen neuer Kabel für jede neue Verbindung
+&#x2022; Kostenaufwand für das Verlegen neuer Kabel für jede neue Verbindung<br/>
 
-* Höherer Verwaltungsaufwand für jeweils neue Kabelanschlüsse bei räumlicher Verlagerung von Benutzern
+&#x2022; Höherer Verwaltungsaufwand für jeweils neue Kabelanschlüsse bei räumlicher Verlagerung von Benutzern<br/>
 
-* Mangelnde Flexibilität und schwierige Handhabung bei Expansion des Unternehmens
+&#x2022; Mangelnde Flexibilität und schwierige Handhabung bei Expansion des Unternehmens<br/>
 
-* Erhöhte Wahrscheinlichkeit versehentlicher Fehler aufgrund des höheren Verwaltungsaufwands
+&#x2022; Erhöhte Wahrscheinlichkeit versehentlicher Fehler aufgrund des höheren Verwaltungsaufwands
 
 
 </td>
@@ -240,11 +242,11 @@ Mithilfe von VLANs logische Subnetze erstellen, die vom vertrauenswürdigen Netz
 
 <td style="border:1px solid black;">
 
-* Zusätzliche Kosten in Zusammenhang mit der Aktualisierung der Switchstruktur zur Unterstützung der VLANs
+&#x2022; Zusätzliche Kosten in Zusammenhang mit der Aktualisierung der Switchstruktur zur Unterstützung der VLANs<br/>
 
-* Höherer Verwaltungsaufwand für Netzwerkänderungen, räumliche Verlagerung von Benutzern und Beantwortung von Gastverbindungsanforderungen
+&#x2022; Höherer Verwaltungsaufwand für Netzwerkänderungen, räumliche Verlagerung von Benutzern und Beantwortung von Gastverbindungsanforderungen<br/>
 
-* Anfälligkeit für versehentliche Fehler bei räumlicher Verlagerung mehrerer Benutzer oder bei Verwendung mobiler Geräte
+&#x2022; Anfälligkeit für versehentliche Fehler bei räumlicher Verlagerung mehrerer Benutzer oder bei Verwendung mobiler Geräte
 
 
 </td>
@@ -288,6 +290,7 @@ Einfach ausgedrückt müssen zur Schaffung eines isolierten Netzwerks die versch
 
 Bei der IPsec-Domänen- und -Serverisolation werden bestehende Domänenstrukturen mittels Gruppenrichtlinieneinstellungen genutzt. Alles, was für die Erstellung eines isolierten Netzwerks benötigt wird, ist auf Computern mit Windows XP, Windows 2000 Server und Windows Server 2003 bereits vorhanden. Wenn die notwendigen Gruppenrichtlinieneinstellungen konfiguriert wurden, muss ein neuer Computer, der in ein isoliertes Netwerk eingebunden werden soll, lediglich der jeweiligen Domäne hinzugefügt werden.
 
+![](images/cc875843.pnfuc02(de-de,technet.10).gif)
 
 **Abbildung 2. Netzwerkisolation mittels Active Directory-Domänen**
  
@@ -296,6 +299,7 @@ Wie in der obigen Abbildung dargestellt, gilt jeder Computer, der der Domäne ni
 
 Viele Unternehmen besitzen natürlich Computer und Server, die zwar verwaltet und vertrauenswürdig sind, aber keiner Active Directory-Domäne angehören oder aus verschiedenen Gründen nicht IPsec-fähig sind, aber dennoch in der Lage sein müssen, mit Systemen innerhalb des isolierten Netzwerks zu kommunizieren. Zur Lösung dieses Dilemmas kann mithilfe von Ausnahmelisten eine weitere isolierte Gruppe (eine so genannte Grenzgruppe) eingerichtet werden, wie aus der folgenden Abbildung hervorgeht.
 
+![](images/cc875843.pnfuc03(de-de,technet.10).gif)
 
 **Abbildung 3. Netzwerkisolation und Grenzgruppen**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875843.pnfuc03_big(de-de,technet.10).gif)
@@ -329,6 +333,7 @@ Weitere Informationen hierzu finden Sie auf der Microsoft-Seite [Server und Dom�
 
 Tief greifende Verteidigung
 
+![](images/cc875843.pnfuc04(de-de,technet.10).gif)
 
 **Abbildung 4. Das Modell der tief greifenden Verteidigung mit logischer Isolation**
 
@@ -344,7 +349,7 @@ Die obige Abbildung verdeutlicht, wie sich die logische Isolation in das Modell 
 
 Es ist wichtig, sich bewusst zu machen, welche Rolle die logische Isolation in einer umfassenden, tief greifenden Verteidigung spielt. Von sich aus kann diese Lösung nicht alle Aspekte der Infrastruktur eines mittelgroßen Unternehmens sichern. Bei Verwendung im Rahmen einer umfassenden Lösung kann die logische Isolation jedoch eine wichtige Rolle spielen.
 
-VPN-Quarantänedienste zum Schutz vor nicht verwalteten Remotecomputern
+##### VPN-Quarantänedienste zum Schutz vor nicht verwalteten Remotecomputern
 
 Remotesysteme, die VPN-Lösungen für den Zugriff auf ein Unternehmensnetzwerk verwenden, stellen in Hinblick auf Sicherheitsrichtlinie ein besonderes Problem dar. Die meisten Remotezugriffslösungen überprüfen nur die Anmeldeinformationen eines Remotebenutzers, überprüfen aber nicht, ob der Remotecomputer den Sicherheitsrichtlinien entspricht. Diese begrenzte Überprüfung ist insofern problematisch, als Bemühungen um den Schutz eines Netzwerks vor Bedrohungen wie veralteten Antimalware-Signaturdateien, veralteten Sicherheitsupdates, falschen Routingeinstellungen und mangelndem Firewallschutz ignoriert werden.
 
@@ -366,6 +371,7 @@ Die Quarantänesteuerung für IAS-Netzwerkzugriff kann als Teil einer umfassende
 
 Komponenten der Quarantänesteuerung für IAS-Netzwerkzugriff
 
+![](images/cc875843.pnfuc05(de-de,technet.10).gif)
 
 **Abbildung 5. Komponenten der Windows-Quarantänesteuerung für IAS-Netzwerkzugriff**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875843.pnfuc05_big(de-de,technet.10).gif)
@@ -387,6 +393,7 @@ In der obigen Abbildung sind die typischen Komponenten einer Windows-Remotezugri
 
 Tief greifende Verteidigung
 
+![](images/cc875843.pnfuc06(de-de,technet.10).gif)
 
 **Abbildung 6. Tief greifende Verteidigung und Quarantänesteuerung für IAS-Netzwerkzugriff**
 
@@ -424,6 +431,7 @@ Sie sind der Grund, weshalb für die Domänen- und Serverisolation IPsec statt 8
 
 Tief greifende Verteidigung
 
+![](images/cc875843.pnfuc07(de-de,technet.10).gif)
 
 **Abbildung 7. Tief greifende Verteidigung mit 802.1X-Sicherheit für drahtlose Netzwerke**
 
@@ -583,32 +591,33 @@ Auch hierbei ist die IPsec-basierte Netzwerkisolation nur ein Teil einer umfasse
 VPN-Quarantänedienste zum Schutz vor nicht verwalteten Remotecomputern
 
 Bei einer standardmäßigen Windows-basierten RAS-Server-Sitzung führt der Server die folgenden Aktionen aus, wenn ein RAS-Client eine Sitzung initiiert:
-* Der RAS-Server überprüft den RAS-Client auf Einhaltung der konfigurierten RAS-Richtlinien und lässt die Verbindung zu.
+1. Der RAS-Server überprüft den RAS-Client auf Einhaltung der konfigurierten RAS-Richtlinien und lässt die Verbindung zu.
 
-* Der Server überprüft die Remotezugriffsberechtigungen des Benutzers.
+2. Der Server überprüft die Remotezugriffsberechtigungen des Benutzers.
 
-* Anschließend authentifiziert der Server die Anmeldeinformationen des Benutzers mittels Active Directory oder eines anderen Authentifizierungsdiensts.
+3. Anschließend authentifiziert der Server die Anmeldeinformationen des Benutzers mittels Active Directory oder eines anderen Authentifizierungsdiensts.
 
-* Der Server weist dem Remoteclient eine IP-Adresse zu.
+4. Der Server weist dem Remoteclient eine IP-Adresse zu.
 
 
 Ab diesem Zeitpunkt hat der Remoteclient vollen Zugriff auf das Netzwerk, wobei noch keine Überprüfungen bezüglich Updateversionen, Vorhandensein oder Aktualisierungsstatus von Antivirensoftware oder sonstigen Informationen in Zusammenhang mit Sicherheitsrichtlinien vorgenommen wurden. Diese Funktionalität ist nicht optimal, da sie mitunter dazu führt, dass Updates, Konfigurationsänderungen oder Patches auf Remote- oder Roaming-Computer nicht angewendet werden.
 
 Eine VPN-Quarantäneverbindung unterscheidet sich hiervon grundlegend, wie aus der folgenden Abbildung und der nummerierten Liste hervorgeht:
 
+![](images/cc875843.pnfuc08(de-de,technet.10).gif)
 
 **Abbildung 8. VPN-Quarantäneprozess**  
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875843.pnfuc08_big(de-de,technet.10).gif)
  
-* Der Remoteclient führt ein Verbindungs-Manager-Vorverbindungsskript aus, das die wichtigsten Verbindungsvoraussetzungen überprüft (z. B. Sicherheitsupdateversion und Datum der Virensignaturdatei) und das Ergebnis speichert. Nachdem dieses Skript ausgeführt wurde, stellt der Client eine Remotezugriffssitzung über einen VPN-Tunnel her.
+1. Der Remoteclient führt ein Verbindungs-Manager-Vorverbindungsskript aus, das die wichtigsten Verbindungsvoraussetzungen überprüft (z. B. Sicherheitsupdateversion und Datum der Virensignaturdatei) und das Ergebnis speichert. Nachdem dieses Skript ausgeführt wurde, stellt der Client eine Remotezugriffssitzung über einen VPN-Tunnel her.
 
-* Der RAS-Server authentifiziert die Benutzeranmeldeinformationen mittels RADIUS. Dabei werden die Anmeldeinformationen mithilfe von Active Directory überprüft.
+2. Der RAS-Server authentifiziert die Benutzeranmeldeinformationen mittels RADIUS. Dabei werden die Anmeldeinformationen mithilfe von Active Directory überprüft.
 
-* Nachdem der Benutzer durch Active Directory authentifiziert wurde, stellt der RAS-Server den Client unter Quarantäne, indem er die RAS-Richtlinie anwendet. Während des Verweilens im Quarantänezustand beschränkt sich der Netzwerkzugriff auf die in der Quarantänerichtlinie definierten Bereiche. Dieser eingeschränkte Zugriff lässt sich durch einen IP-Filter erzielen, der den Zugriff auf bestimmte Ressourcen beschränkt, durch die der Client in Einklang mit den Richtlinien gebracht werden kann, oder durch ein Zeitlimit, nach dessen Überschreitung die Verbindung zum Client getrennt wird.
+3. Nachdem der Benutzer durch Active Directory authentifiziert wurde, stellt der RAS-Server den Client unter Quarantäne, indem er die RAS-Richtlinie anwendet. Während des Verweilens im Quarantänezustand beschränkt sich der Netzwerkzugriff auf die in der Quarantänerichtlinie definierten Bereiche. Dieser eingeschränkte Zugriff lässt sich durch einen IP-Filter erzielen, der den Zugriff auf bestimmte Ressourcen beschränkt, durch die der Client in Einklang mit den Richtlinien gebracht werden kann, oder durch ein Zeitlimit, nach dessen Überschreitung die Verbindung zum Client getrennt wird.
 
-* Ein Nachverbindungsskript informiert den RAS-Server darüber, ob der Client den festgelegten Anforderungen entspricht. Wenn die Verbindung innerhalb eines bestimmten Zeitlimits nicht den Anforderungen entspricht, wird dies dem Benutzer mitgeteilt, und die Verbindung wird abgebrochen.
+4. Ein Nachverbindungsskript informiert den RAS-Server darüber, ob der Client den festgelegten Anforderungen entspricht. Wenn die Verbindung innerhalb eines bestimmten Zeitlimits nicht den Anforderungen entspricht, wird dies dem Benutzer mitgeteilt, und die Verbindung wird abgebrochen.
 
-* Wenn das Nachverbindungsskript meldet, dass der Client die festgelegten Anforderungen erfüllt, befreit der RAS-Server den Client aus dem Quarantänemodus, indem er die IP-Filterbeschränkungen aufhebt, und gewährt dem Client dadurch Zugriff auf die in der RAS-Richtlinie definierten Netzwerkressourcen.
+5. Wenn das Nachverbindungsskript meldet, dass der Client die festgelegten Anforderungen erfüllt, befreit der RAS-Server den Client aus dem Quarantänemodus, indem er die IP-Filterbeschränkungen aufhebt, und gewährt dem Client dadurch Zugriff auf die in der RAS-Richtlinie definierten Netzwerkressourcen.
 
 
 Ein RAS-Client kann nur auf Ressourcen zugreifen, die sich innerhalb des festgelegten Quarantänenetzwerks befinden, egal, ob dieses Netzwerk ein separates Subnetz oder eine definierte Gruppe von Internet-orientierten Servern ist. Ein Quarantänenetzwerk sollte die Ressourcen bereitstellen, mit denen ein Remoteclient die nötigen Aktivitäten ausführen kann, um einen Remotecomputer mit den Sicherheitsstandards in Einklang zu bringen. Im Allgemeinen zählen dazu folgende Ressourcen: die Zugriffsmöglichkeit auf einen DNS-Server für die Namensauflösung, ein Dateiserver, von dem Updates abgerufen werden können sowie eventuell ein Webserver für Anweisungen oder webbasierte Updates.
@@ -697,6 +706,7 @@ Der Entscheidungsprozess für 802.1X
 
 Damit Sie leichter entscheiden können, welche Implementierung von 802.1X sich für Ihre jeweilige Netzwerkumgebung am besten eignet, hat Microsoft den folgenden Entscheidungsbaum für die 802.1X-Authentifizierung entwickelt.
 
+![](images/cc875843.pnfuc09(de-de,technet.10).gif)
 
 **Abbildung 9. Der Entscheidungsbaum für 802.1X**
 
@@ -742,6 +752,7 @@ Netzwerkermittlungsprozess
 
 Einer der Nachteile dieses Ansatzes zur Ermittlung nicht verwalteter Systeme ist die Tatsache, dass SMS unter Umständen nicht die Details von Computern erkennt, die andere Betriebssysteme als Microsoft Windows verwenden. Tatsächlich lassen sich selbst Vorgängerversionen von Microsoft Windows 98 SE nicht unbedingt mit den SMS 2003-Ermittlungsmethoden aufspüren, da sie die WMI-Implementierungen (Windows Management Interface) nicht unterstützen. Deshalb ist es notwendig, diesem Lösungsprozess Skripts hinzuzufügen, so dass jedes neue Gerät erkannt wird, sobald es an das Netzwerk angeschlossen wird. Die folgende Abbildung verdeutlicht, wie ein solcher Prozess abläuft.
 
+![](images/cc875843.pnfuc10(de-de,technet.10).gif)
 
 **Abbildung 10. Ermittlung nicht verwalteter Computer mittels SMS**
 
@@ -839,22 +850,21 @@ Ein weiterer Aspekt der Verwaltung ist die Frage, wie verdächtige Computer bei 
 
 * **Isolation in vordefinierten Gruppen.**   Indem Sie statt des Kerberos-Protokolls vordefinierte Schlüssel oder Zertifikate für die IPsec-Authentifizierung verwenden, können Sie Isolationsgruppen erstellen, bei denen mit verschiedenen Schlüsseln oder Zertifikaten dieselbe Art von Isolationsfunktionalität erzielt wird.
 
-
 VPN-Quarantänedienste zum Schutz vor nicht verwalteten Remotecomputern
 
 Die eigentliche Bereitstellung der VPN-Quarantänesteuerung erfordert sechs Schritte zusätzlich zu allen anderen Anforderungsprozessen des Änderungsmanagements und Testprozessen vor der Bereitstellung, die in einem Unternehmen vorhanden sein können. Dabei handelt es sich um die folgenden sechs Schritte:
-* Erstellen von Quarantäneressourcen
 
-* Erstellen von Skripts zum Überprüfen der Clientkonfigurationen
+1. Erstellen von Quarantäneressourcen
 
-* Installieren der Listenerkomponente Rqs.exe auf RAS-Servern
+2. Erstellen von Skripts zum Überprüfen der Clientkonfigurationen
 
-* Erstellen von Verbindungs-Manager-Profilen (CM-Profilen) für die Quarantäne mit Windows Server 2003 CMAK
+3. Installieren der Listenerkomponente Rqs.exe auf RAS-Servern
 
-* Verteilen der CM-Profile an RAS-Clientcomputer
+4. Erstellen von Verbindungs-Manager-Profilen (CM-Profilen) für die Quarantäne mit Windows Server 2003 CMAK
 
-* Konfigurieren der Quarantäne-RAS-Richtlinie
+5. Verteilen der CM-Profile an RAS-Clientcomputer
 
+6. Konfigurieren der Quarantäne-RAS-Richtlinie
 
 1. Erstellen von Quarantäneressourcen
 
@@ -875,17 +885,17 @@ Einige Beispielsskripts können von der Seite* *[VPN-Quarantäne-Beispielskript
 Das Installieren des Diensts RAS-Quarantäne-Agent (Rqs.exe) auf einem Microsoft Windows Server 2003 unterscheidet sich je nachdem, ob Service Pack 1 (SP1) installiert ist oder nicht. In diesem Abschnitt wird um der Kürze willen nur die Installation von Windows Server 2003 mit SP1 beschrieben, da davon auszugehen ist, dass alle Systeme mit sämtlichen aktuellen Service Packs und Sicherheitsupdates ausgestattet sind.
 
 **So installieren Sie Rqs.exe auf einem Server mit Windows Server 2003 und SP1**
-* Klicken Sie auf **Start** und dann auf **Systemsteuerung.**  
+1. Klicken Sie auf **Start** und dann auf **Systemsteuerung.**  
 
-* Klicken Sie auf **Software.**  
+2. Klicken Sie auf **Software.**  
 
-* Klicken Sie auf **Windows-Komponenten hinzufügen/entfernen.**  
+3. Klicken Sie auf **Windows-Komponenten hinzufügen/entfernen.**  
 
-* Wählen Sie **Komponenten** aus, und klicken Sie dann auf **Netzwerkdienste.**  
+4. Wählen Sie **Komponenten** aus, und klicken Sie dann auf **Netzwerkdienste.**  
 
-* Klicken Sie auf **Details.**  
+5. Klicken Sie auf **Details.**  
 
-* Wählen Sie **Unterkomponenten von „Netzwerkdienste“**, klicken Sie auf **RAS-Quarantänedienst** und anschließend auf **OK.**  
+6. Wählen Sie **Unterkomponenten von „Netzwerkdienste“**, klicken Sie auf **RAS-Quarantänedienst** und anschließend auf **OK.**  
 
 
 Mit diesem Prozess wird der Quarantänedienst installiert, aber nicht gestartet. Er muss manuell von einem Administrator gestartet werden, nachdem die Lösung komplett konfiguriert und die Umgebung für die Implementierung vorbereitet wurde.
@@ -894,10 +904,10 @@ Ein weiterer Schritt beim Installationsprozess besteht darin, die Skriptversions
 
 4. Erstellen von Quarantäne-CM-Profilen
 
-Ein Quarantäne-CM-Profil ist eigentlich nur ein typisches Remotezugriffs-CM-Profil mit folgenden Zusätzen:
-* Eine Nachverbindungsaktion, die das Skript ausführt, um die Netzwerkrichtlinienkonformität und das Skript als solches zu überprüfen. Dies erfolgt über die Seite „Benutzerdefinierte Aktionen“ des CMAK-Assistenten.
+    Ein Quarantäne-CM-Profil ist eigentlich nur ein typisches Remotezugriffs-CM-Profil mit folgenden Zusätzen:
+    * Eine Nachverbindungsaktion, die das Skript ausführt, um die Netzwerkrichtlinienkonformität und das Skript als solches zu überprüfen. Dies erfolgt über die Seite „Benutzerdefinierte Aktionen“ des CMAK-Assistenten.
 
-* Eine Benachrichtungskomponente muss dem Profil ebenfalls hinzugefügt werden, wie dies auch über den Bildschirm **Zusätzliche Dateien** des CMAK-Assistenten getan wird.
+    * Eine Benachrichtungskomponente muss dem Profil ebenfalls hinzugefügt werden, wie dies auch über den Bildschirm **Zusätzliche Dateien** des CMAK-Assistenten getan wird.
 
 
 5. Verteilen von CM-Profilen
@@ -909,6 +919,7 @@ Die Verteilung dieser Profile kann manuell erfolgen, wobei diese Profile beispie
 6. Konfigurieren einer Quarantäne-RAS-Richtlinie
 
 Das zum Konfigurieren einer Quarantäne-RAS-Richtlinie anzuwendende Verfahren unterscheidet sich je nachdem, ob die Konfiguration auf einem IAS-Server oder einem anderen Authentifizierungsanbieter erfolgt:
+
 * Für die Konfiguration auf einem IAS RADIUS-Server ist das IAS-Snap-In (Internet Authentication Service) zu verwenden.
 
 * Für die Konfiguration auf einem Windows-Authentifizierungsanbieter ist das Routing- und Remotezugriffs-Snap-In zu verwenden.
@@ -960,19 +971,17 @@ Es kann mehrere Gründe geben, weshalb an ein Netzwerk angeschlossene Computer v
 
 Um für solche Fälle gerüstet zu sein, ist eine benutzerdefinierte Lösung erforderlich, die die Vorteile von SMS mit Skripts kombiniert, mit denen die Lücken von SMS kompensiert werden. Mit benutzerdefinierten Skripts kann das Netzwerk mit einem Planerprozess in regelmäßigen Abständen überprüft werden. Dabei können auch Geräte ermittelt werden, die möglicherweise nur für kurze Zeit eingeschaltet sind. Solche Skripts können auch von Arbeitsstationen oder Servern ausgeführt werden, die sich in ansonsten isolierten Subnetzen befinden. Damit kann erkannt werden, wann nicht verwaltete Systeme eine Verbindung zu diesen ansonsten nicht überwachten Netzwerksegmenten herstellen. Solche Skripts versuchen nicht, WMI-basierte Ermittlungsprozesse durchzuführen, so dass es für sie ohne Bedeutung ist, welches Betriebssystem auf den nicht verwalteten Clients verwendet wird.
 
-Weitere Informationen darüber, wie Sie SMS zum Ermitteln von Geräten im Netzwerk verwenden können, finden Sie auf der Solution Accelerator-Seite [Microsoft Systems Management Server](http://www.microsoft.com/technet/itsolutions/cits/mo/swdist/pmsms/2003/pmsms031.mspx">Patchverwaltung mit Systems Management Server 2003 (möglicherweise in englischer Sprache) unter www.microsoft.com/technet/itsolutions/cits/mo/swdist/pmsms/2003/pmsms031.mspx oder auf der 
+Weitere Informationen darüber, wie Sie SMS zum Ermitteln von Geräten im Netzwerk verwenden können, finden Sie auf der Solution Accelerator-Seite [Patchverwaltung mit Systems Management Server 2003](https://www.microsoft.com/technet/itsolutions/cits/mo/swdist/pmsms/2003/pmsms031.mspx) (möglicherweise in englischer Sprache) unter www.microsoft.com/technet/itsolutions/cits/mo/swdist/pmsms/2003/pmsms031.mspx oder auf der [Microsoft Systems Management Server](https://www.microsoft.com/smserver/default.mspx)-Homepage unter www.microsoft.com/smserver/default.mspx. Dort finden Sie weitere Links, unter anderem zu Ressourcen für SMS-Skripterstellungslösungen. 
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Zusammenfassung
 
 In diesem Dokument wurde gezeigt, dass umfassende Methoden zur Verfügung stehen, mit denen sich die Probleme in Zusammenhang mit nicht verwalteten Systemen lösen lassen. Mithilfe der IPsec-Netzwerkisolation wird weitgehend verhindert, dass nicht verwaltete Systeme Zugriff auf vertrauenswürdige Netzwerkressourcen erhalten, und zur Durchsetzung der Konformität beigetragen, indem nicht konformen Computern der Dienst verweigert wird. Die VPN-Quarantänedienste tragen zur Durchsetzung der Konformität bei mobilen Computern bei, die eine Remotezugriffslösung verwenden, aber selten Verbindungen zum lokalen Netzwerk herstellen. IEEE 802.1X und WPA/WPA2 tragen zum Schutz vor Rogue-Geräten in drahtlosen LANs bei. Mit SMS und Erkennungsskripts lassen sich nicht verwaltete Systeme erkennen und verwaltete Computer mit den jeweils aktuellen Patches und Sicherheitsupdates versorgen.
 
 Wenngleich diese technischen Lösungen zur Beseitigung vieler Probleme mit nicht verwalteten Geräten und Rogue-Geräten beitragen, lassen sie sich nur dann optimal einsetzen, wenn auch sinnvolle Sicherheitsrichtlinien erstellt und strenge Änderungsmanagementprozesse festgelegt werden. Die Kombination all dieser Lösungen, Richtlinien und Prozesse ergibt eine handhabbare Infrastruktur für mittelgroße Unternehmen, die eine Senkung von Verwaltungskosten und eine Reduzierung der Sicherheitsrisiken auf ein akzeptables Maß ermöglichen kann.
+
 [Zum Seitenanfang](#mainsection)  
-
-
 
 ### Anhang A: Netzwerkzugriffsschutz
 
@@ -989,7 +998,3 @@ Weitere Informationen über NAP finden Sie auf der Hompage zum Thema [Netzwerkzu
 [Dokument „Schutz von Netzwerken vor nicht verwalteten Clients“ herunterladen](http://go.microsoft.com/fwlink/?linkid=71713)
  
 [Zum Seitenanfang](#mainsection)
-
-
-
-
