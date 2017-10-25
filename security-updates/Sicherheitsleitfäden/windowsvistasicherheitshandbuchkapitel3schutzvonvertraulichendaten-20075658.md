@@ -82,14 +82,14 @@ Datenschutz für Laptops
 <td style="border:1px solid black;">
 
 
-          
+![](images/dd443715.check(de-de,technet.10).gif)
 
 </td>
 
 <td style="border:1px solid black;">
 
 
-          
+![](images/dd443715.check(de-de,technet.10).gif)          
 
 </td>
 
@@ -103,7 +103,7 @@ Datenschutz für Laptops
 <td style="border:1px solid black;">
 
 
-          
+![](images/dd443715.check(de-de,technet.10).gif)          
 
 </td>
 
@@ -121,7 +121,7 @@ Datenschutz für Server in Zweigstellen
 <td style="border:1px solid black;">
 
 
-          
+![](images/dd443715.check(de-de,technet.10).gif)          
 
 </td>
 
@@ -142,7 +142,7 @@ Datenschutz für Server in Zweigstellen
 <td style="border:1px solid black;">
 
 
-          
+![](images/dd443715.check(de-de,technet.10).gif)          
 
 </td>
 
@@ -159,14 +159,14 @@ Schutz für lokale Dateien und Ordner, die nur von einem einzelnen Benutzer verw
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -198,14 +198,14 @@ Datenschutz für Desktops
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -220,7 +220,7 @@ Datenschutz für Desktops
 <td style="border:1px solid black;">
 
 
-          
+![](images/dd443715.check(de-de,technet.10).gif)          
 
 </td>
 
@@ -244,7 +244,7 @@ Schutz für Dateien und Ordner auf gemeinsam genutzten Computern
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -283,7 +283,7 @@ Schutz für Remotedateien und -ordner
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -322,7 +322,7 @@ Schutz vor nicht vertrauenswürdigen Netzwerkadministratoren
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -368,7 +368,7 @@ Durchsetzung von Richtlinien für Remotedokumente
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -407,7 +407,7 @@ Schutz von Inhalten beim Transport
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -446,7 +446,7 @@ Schutz von Inhalten bei der Zusammenarbeit
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -492,7 +492,7 @@ Schutz vor Datendiebstahl
 
 <td style="border:1px solid black;">
 
-
+![](images/dd443715.check(de-de,technet.10).gif)
           
 
 </td>
@@ -502,7 +502,7 @@ Schutz vor Datendiebstahl
 </table>
 
 
-Auf dieser Seite
+**Auf dieser Seite**
 
 [BitLocker-Laufwerkverschlüsselung](#eeaa)  
 [Verschlüsselndes Dateisystem](#edaa)  
@@ -533,20 +533,14 @@ Wenn ein Angreifer physischen Zugriff auf einen Computer erhält, ist mit den fo
 * Der Angreifer kann sich bei Windows Vista anmelden und Dateien kopieren.
 
 * Der Angreifer kann den Clientcomputer zu folgenden Zwecken mit einem anderen Betriebssystem starten:
-* Anzeigen von Dateinamen
- 
 
-* Kopieren von Dateien
+    * Anzeigen von Dateinamen
  
-
-* Lesen des Inhalts der Ruhezustandsdatei oder der Auslagerungsdatei, um so ggf. Kopien von derzeit bearbeiteten Dokumenten in Klartext aufzufinden
+    * Kopieren von Dateien
  
-
-* Lesen des Inhalts der Ruhezustandsdatei, um so eventuell Klartextkopien von privaten Softwareschlüsseln aufzufinden
+    * Lesen des Inhalts der Ruhezustandsdatei oder der Auslagerungsdatei, um so ggf. Kopien von derzeit bearbeiteten Dokumenten in Klartext aufzufinden
  
-
- 
-
+    * Lesen des Inhalts der Ruhezustandsdatei, um so eventuell Klartextkopien von privaten Softwareschlüsseln aufzufinden
  
 
 Selbst wenn die Dateien mit EFS verschlüsselt werden, könnte ein unvorsichtiger Benutzer eine Datei aus einem verschlüsselten in ein unverschlüsseltes Verzeichnis kopieren oder verschieben, so dass der Inhalt der Datei als Klartext vorliegt. Außerdem können uninformierte IT-Mitarbeiter die Verschlüsselung von verborgenen Ordnern, in denen Sicherungskopien der derzeit bearbeiteten Dateien durch die Anwendungen abgelegt werden, schlichtweg übersehen. Darüber hinaus bestehen einige Risiken im Hinblick auf die Bedienung (z. B. Manipulation und Bearbeitung von System- und Bootdateien durch nicht autorisierte Benutzer), die einen normalen Systembetrieb unmöglich machen können.
@@ -577,14 +571,11 @@ Mit BitLocker lassen sich die Risiken aus dem vorangegangenen Abschnitt „Risik
 * Falls der Computer nicht über TPM verfügt, sollte der Computer die Verwendung von USB-Geräten bei seinem Start unterstützen, so dass das Volume während der Bootsequenz mithilfe eines Systemstartschlüssels entsperrt werden kann.
 
 * Wenn Software- oder Systemaktualisierungen im Remoteverfahren und außerhalb der normalen Geschäftszeiten verteilt werden und Sie die Benutzercomputer in Abwesenheit der Benutzer neu starten, kann sich BitLocker auf die Verfahren zur Softwareverteilung auswirken. Beispiel:
-* Ein Computer ist mit TPM und einer PIN-Nummer oder mit TPM und einem Systemstartschlüssel geschützt. Um 2:00 Uhr in der Nacht stellen Sie eine Softwareaktualisierung für den Computer bereit, bei der ein Neustart erforderlich ist. Der Computer kann jedoch ohne die PIN-Nummer oder den Systemstartschlüssel nicht gestartet werden.
+    * Ein Computer ist mit TPM und einer PIN-Nummer oder mit TPM und einem Systemstartschlüssel geschützt. Um 2:00 Uhr in der Nacht stellen Sie eine Softwareaktualisierung für den Computer bereit, bei der ein Neustart erforderlich ist. Der Computer kann jedoch ohne die PIN-Nummer oder den Systemstartschlüssel nicht gestartet werden.
  
 
-* Auch Computer, die Sie derzeit für Wartungsarbeiten bei Bedarf über die Funktion „Wake-on-LAN“ oder über eine BIOS-Funktion zum automatischen Einschalten starten, sind durch den Schutz mit TPM und PIN-Nummer oder Systemstartschlüssel betroffen.
+    * Auch Computer, die Sie derzeit für Wartungsarbeiten bei Bedarf über die Funktion „Wake-on-LAN“ oder über eine BIOS-Funktion zum automatischen Einschalten starten, sind durch den Schutz mit TPM und PIN-Nummer oder Systemstartschlüssel betroffen.
  
-
- 
-
 * Updates für BIOS/TPM-Firmware, die von OEMs vertrieben werden, können sich auf für BitLocker aktivierte Computer auswirken. Ermitteln Sie anhand der Installationsanweisungen des OEM, ob Wiederherstellungsinformationen (Wiederherstellungskennwörter und Schlüssel) auch nach der Aktualisierung noch vorhanden sind und ob zusätzliche Schutzvorkehrungen (PINs oder Systemstartschlüssel) beibehalten werden.
 
 * Anwendungsaktualisierungen können sich auf für BitLocker aktivierte Computer auswirken. Wenn der Boot-Manager oder von BitLocker überwachte Dateien im Rahmen der Installation oder Aktualisierung geändert werden, schlägt das Starten des Systems fehl, und der Computer wird in den Wiederherstellungsmodus versetzt. Vor dem Installieren oder Aktualisieren von Anwendungen, die sich auf die Bootumgebung von Windows Vista auswirken, sollten Sie diese Anwendungen daher auf für BitLocker aktivierten Computern testen.
@@ -601,27 +592,27 @@ Mit BitLocker lassen sich die Risiken aus dem vorangegangenen Abschnitt „Risik
 Ermitteln Sie die bestmögliche Konfiguration von BitLocker zum Schutz vertraulicher Daten auf den verwalteten Clientcomputern mithilfe des nachstehenden Verfahrens zur Risikominderung.
 
 **So verwenden Sie dieses Verfahren zur Risikominderung**
-* Informieren Sie sich über die Technologien und Funktionen von BitLocker.
+1. Informieren Sie sich über die Technologien und Funktionen von BitLocker.
 
-**Hinweis:** Weitere Informationen zu BitLocker finden Sie auf der Webseite [BitLocker-Laufwerkverschlüsselung – Überblick](https://technet.microsoft.com/de-de/library/c32fc2a2-5b2f-4360-99ea-8258b04e5f45(v=TechNet.10)).
+    **Hinweis:** Weitere Informationen zu BitLocker finden Sie auf der Webseite [BitLocker-Laufwerkverschlüsselung – Überblick](https://technet.microsoft.com/de-de/library/c32fc2a2-5b2f-4360-99ea-8258b04e5f45(v=TechNet.10)).
 
-* Beurteilen Sie die Notwendigkeit von BitLocker in Ihrer Arbeitsumgebung.
+2. Beurteilen Sie die Notwendigkeit von BitLocker in Ihrer Arbeitsumgebung.
 
-* Stellen Sie fest, ob die Hardware, Firmware und Software in Ihrem Unternehmen den Anforderungen von BitLocker entspricht.
+3. Stellen Sie fest, ob die Hardware, Firmware und Software in Ihrem Unternehmen den Anforderungen von BitLocker entspricht.
 
-* Bestimmen Sie die Systeme im Unternehmen, die durch BitLocker geschützt werden sollen.
+4. Bestimmen Sie die Systeme im Unternehmen, die durch BitLocker geschützt werden sollen.
 
-* Ermitteln Sie den Umfang des Schutzes, der für diese Systeme erforderlich ist. Unter Umständen kann das Betriebssystem nur mit einer PIN-Nummer oder einem USB-Schlüssel, der wiederum Verschlüsselungsschlüssel enthält, gestartet werden. Ohne diese Schlüssel ist das Starten das Betriebssystem nicht möglich.
+5. Ermitteln Sie den Umfang des Schutzes, der für diese Systeme erforderlich ist. Unter Umständen kann das Betriebssystem nur mit einer PIN-Nummer oder einem USB-Schlüssel, der wiederum Verschlüsselungsschlüssel enthält, gestartet werden. Ohne diese Schlüssel ist das Starten das Betriebssystem nicht möglich.
 
-* Installieren Sie die notwendigen Treiber auf einem Testsystem.
+6. Installieren Sie die notwendigen Treiber auf einem Testsystem.
 
-* Konfigurieren Sie BitLocker mithilfe von Gruppenrichtlinienobjekten (GPOs) auf Testsystemen.
+7. Konfigurieren Sie BitLocker mithilfe von Gruppenrichtlinienobjekten (GPOs) auf Testsystemen.
 
-* Nachdem die Tests erfolgreich abgeschlossen wurden, installieren Sie die Treiber, und konfigurieren Sie BitLocker auf Produktionssystemen.
+8. Nachdem die Tests erfolgreich abgeschlossen wurden, installieren Sie die Treiber, und konfigurieren Sie BitLocker auf Produktionssystemen.
 
  
 
-Risikominderung bei BitLocker mithilfe von Gruppenrichtlinien
+**Risikominderung bei BitLocker mithilfe von Gruppenrichtlinien**
 
 Für die Konfiguration von BitLocker empfiehlt Microsoft zwei bestimmte Gruppenrichtlinienvorlagen. Mit diesen Vorlagen sind Sie in der Lage, die TPM-Konfiguration völlig getrennt von den übrigen Bestandteilen von BitLocker zu verwalten. In der nachstehenden Tabelle werden die Gruppenrichtlinieneinstellungen aufgeführt, die für BitLocker in der Vorlage „VolumeEncryption.admx“ zur Verfügung stehen. Diese Einstellungen können im Gruppenrichtlinienobjekt-Editor im folgenden Verzeichnis konfiguriert werden:
 
@@ -1039,14 +1030,10 @@ Mit EFS in Windows Vista lassen sich die Risiken aus dem vorangegangenen Abschn
 * Falls notwendig, stellen Sie weitere Skripts bereit, mit denen Ordner mit vertraulichen Daten verschlüsselt werden, und testen Sie diese Skripts.
 
 * Benutzer und IT-Mitarbeiter müssen richtig geschult werden, um die folgenden Probleme zu vermeiden:
-* Kopieren oder Verschieben von Dateien von einem verschlüsselten an einen unverschlüsselten Speicherort, wobei die Gefahr besteht, dass die Dateien als Dateien mit Klartext formatiert werden.
+    * Kopieren oder Verschieben von Dateien von einem verschlüsselten an einen unverschlüsselten Speicherort, wobei die Gefahr besteht, dass die Dateien als Dateien mit Klartext formatiert werden.
  
-
-* Kein Verschlüsseln von verborgenen Ordnern, in denen Sicherungskopien der derzeit bearbeiteten Dateien durch die Anwendungen abgelegt werden.
+    * Kein Verschlüsseln von verborgenen Ordnern, in denen Sicherungskopien der derzeit bearbeiteten Dateien durch die Anwendungen abgelegt werden.
  
-
- 
-
 * Testen Sie die EFS-Konfiguration gründlich, und stellen Sie so sicher, dass die Verschlüsselung für alle Ordner mit vertraulichen Dateien aktiviert ist (z. B. Ordner mit den eigenen Dateien, Desktop, temporäre Ordner).
 
  
@@ -1059,23 +1046,23 @@ Mit EFS in Windows Vista lassen sich die Risiken aus dem vorangegangenen Abschn
 Ermitteln Sie die bestmögliche Konfiguration von EFS zum Schutz vertraulicher Daten auf den verwalteten Clientcomputern mithilfe des nachstehenden Verfahrens zur Risikominderung.
 
 **So verwenden Sie dieses Verfahren zur Risikominderung**
-* Informieren Sie sich über die Technologien und Funktionen von EFS.
+1. Informieren Sie sich über die Technologien und Funktionen von EFS.
 
-**Hinweis**: Weitere Informationen finden Sie im Artikel [Vorgehensweisen bei Verwendung des Verschlüsselnden Dateisystems](http://support.microsoft.com/kb/223316).
+    **Hinweis**: Weitere Informationen finden Sie im Artikel [Vorgehensweisen bei Verwendung des Verschlüsselnden Dateisystems](http://support.microsoft.com/kb/223316).
 
-* Beurteilen Sie die Notwendigkeit von EFS in Ihrer Arbeitsumgebung.
+2. Beurteilen Sie die Notwendigkeit von EFS in Ihrer Arbeitsumgebung.
 
-* Ziehen Sie die Konfiguration von EFS mithilfe von Gruppenrichtlinien in Erwägung.
+3. Ziehen Sie die Konfiguration von EFS mithilfe von Gruppenrichtlinien in Erwägung.
 
-* Ermitteln Sie, welche Computersysteme und Benutzer EFS benötigen.
+4. Ermitteln Sie, welche Computersysteme und Benutzer EFS benötigen.
 
-* Ermitteln Sie den Umfang des erforderlichen Schutzes. Beispiel: Ist der Einsatz von Smartcards mit EFS in Ihrer Organisation vorgeschrieben?
+5. Ermitteln Sie den Umfang des erforderlichen Schutzes. Beispiel: Ist der Einsatz von Smartcards mit EFS in Ihrer Organisation vorgeschrieben?
 
-* Konfigurieren Sie EFS gemäß Ihrer Arbeitsumgebung mithilfe von Gruppenrichtlinien.
+6. Konfigurieren Sie EFS gemäß Ihrer Arbeitsumgebung mithilfe von Gruppenrichtlinien.
 
  
 
-Spezielle Schritte zur Risikominderung bei EFS
+**Spezielle Schritte zur Risikominderung bei EFS**
 
 Die Einstellungen im folgenden Abschnitt ermöglichen die Verwaltung von EFS mit Gruppenrichtlinien:
 
@@ -1083,6 +1070,7 @@ Die Einstellungen im folgenden Abschnitt ermöglichen die Verwaltung von EFS mit
 
 Um einen Datenwiederherstellungs-Agenten (Data Recovery Agent, DRA) hinzuzufügen oder zu erstellen, klicken Sie mit der rechten Maustaste auf **Verschlüsselndes Dateisystem**, und klicken Sie dann im Dialogfeld **Eigenschaften von Verschlüsselndes Dateisystem** auf **Eigenschaften.**  
 
+![](images/dd443715.vsgf0301(de-de,technet.10).gif)
 
 **Abbildung 3.1 Das Dialogfeld „Eigenschaften von Verschlüsselndes Dateisystem“**
  
@@ -1189,7 +1177,7 @@ Offlinedateicache verschlüsseln
 **Computerkonfiguration\**  
 **Administrative Vorlagen\**  
 **Netzwerk\Offlinedateien\**  
-Mit dieser Einstellung legen Sie fest, ob Offlinedateien verschlüsselt werden sollen.
+Mit dieser Einstellung legen Sie fest, ob Offlinedateien verschlüsselt werden sollen.  
 
 **Hinweis**   Bei Windows XP werden diese Dateien mit dem Systemschlüssel verschlüsselt, bei Windows Vista hingegen mit dem Schlüssel des Benutzers.
 
@@ -1221,7 +1209,7 @@ Indizierung verschlüsselter Dateien zulassen
 **Administrative Vorlagen\**  
 **Windows-Komponenten\**  
 **Suche\**  
-Diese Einstellung ermöglicht die Indizierung verschlüsselter Objekte durch die Windows-Suche.
+Diese Einstellung ermöglicht die Indizierung verschlüsselter Objekte durch die Windows-Suche.  
 
 **Hinweis**   Die Indizierung verschlüsselter Dateien kann zu Problemen im Hinblick auf die Datensicherheit führen. Der Index ist zudem nicht angemessen durch EFS oder andere Maßnahmen geschützt.
 
@@ -1303,33 +1291,27 @@ Ermitteln Sie die bestmögliche Konfiguration von RMS zum Schutz vertraulicher D
 
 **Hinweis**   Weitere Informationen zu RMS finden Sie im Windows Server 2003 Technology Center zu [Windows Rights Management Services](http://www.microsoft.com/windowsserver2003/technologies/rightsmgmt/default.mspx) (engl.).
 
-* Beurteilen Sie die Notwendigkeit von RMS in Ihrer Arbeitsumgebung.
+1. Beurteilen Sie die Notwendigkeit von RMS in Ihrer Arbeitsumgebung.
 
-* Ermitteln Sie den Grad der Unterstützung von RMS durch die Anwendungen und Dienste.
+2. Ermitteln Sie den Grad der Unterstützung von RMS durch die Anwendungen und Dienste.
 
-* Erwägen Sie potenzielle Architekturen für die RMS-Bereitstellung, beispielsweise:
-* Einzelner Server (oder einzelner Cluster)
+3. Erwägen Sie potenzielle Architekturen für die RMS-Bereitstellung, beispielsweise:
+
+4. Einzelner Server (oder einzelner Cluster)
  
-
-* Einzelne Zertifizierung, einzelne Lizenz
+    * Einzelne Zertifizierung, einzelne Lizenz
  
-
-* Einzelne Zertifizierung, mehrere Lizenzen
+    * Einzelne Zertifizierung, mehrere Lizenzen
  
-
-* Mehrere Zertifizierungen, einzelne Lizenz
+    * Mehrere Zertifizierungen, einzelne Lizenz
  
-
-* Mehrere Zertifizierungen, mehrere Lizenzen
+    * Mehrere Zertifizierungen, mehrere Lizenzen
  
+5. Ermitteln Sie die Daten, die mit RMS geschützt werden sollen.
 
- 
+6. Ermitteln Sie die Benutzer und Gruppen, die Zugriff auf bestimmte Daten benötigen.
 
-* Ermitteln Sie die Daten, die mit RMS geschützt werden sollen.
-
-* Ermitteln Sie die Benutzer und Gruppen, die Zugriff auf bestimmte Daten benötigen.
-
-* Konfigurieren Sie RMS so, dass nur der wirklich benötigte Zugriff auf Daten möglich ist.
+7. Konfigurieren Sie RMS so, dass nur der wirklich benötigte Zugriff auf Daten möglich ist.
 
  
 
@@ -1393,21 +1375,21 @@ Mit Gruppenrichtlinien in Windows Vista lassen sich die Risiken aus dem vorange
 Ermitteln Sie die bestmögliche Konfiguration der Gerätesteuerung zum Schutz vertraulicher Daten auf den verwalteten Clientcomputern mithilfe des nachstehenden Verfahrens zur Risikominderung.
 
 **So verwenden Sie dieses Verfahren zur Risikominderung**
-* Informieren Sie sich über die Gerätesteuerungsfunktionen von Windows Vista.
+1. Informieren Sie sich über die Gerätesteuerungsfunktionen von Windows Vista.
 
-**Hinweis**: Weitere Informationen finden Sie in der [*Schritt-für-Schritt-Anleitung zur Steuerung der Geräteinstallation über Gruppenrichtlinien*](https://technet.microsoft.com/de-de/library/1495196d-06d0-4ddc-85f3-953ddbb41e7e(v=TechNet.10)) (engl.).
+    **Hinweis**: Weitere Informationen finden Sie in der [*Schritt-für-Schritt-Anleitung zur Steuerung der Geräteinstallation über Gruppenrichtlinien*](https://technet.microsoft.com/de-de/library/1495196d-06d0-4ddc-85f3-953ddbb41e7e(v=TechNet.10)) (engl.).
 
-* Beurteilen Sie die Notwendigkeit der Gerätesteuerung in Ihrer Arbeitsumgebung.
+2. Beurteilen Sie die Notwendigkeit der Gerätesteuerung in Ihrer Arbeitsumgebung.
 
-* Untersuchen Sie die Gruppenrichtlinieneinstellungen für die Gerätesteuerung.
+3. Untersuchen Sie die Gruppenrichtlinieneinstellungen für die Gerätesteuerung.
 
-* Ermitteln Sie die notwendigen Wechselspeichergeräte in der Arbeitsumgebung, und halten Sie die erforderliche Hardware- oder Kompatibilitäts-IDs dieser Geräte fest.
+4. Ermitteln Sie die notwendigen Wechselspeichergeräte in der Arbeitsumgebung, und halten Sie die erforderliche Hardware- oder Kompatibilitäts-IDs dieser Geräte fest.
 
-* Ermitteln Sie, welche Computersysteme und Benutzer die Wechselspeichergeräte benötigen.
+5. Ermitteln Sie, welche Computersysteme und Benutzer die Wechselspeichergeräte benötigen.
 
-* Konfigurieren Sie die Gruppenrichtlinien so, dass die Installation explizit erforderlicher Geräteklassen zugelassen wird.
+6. Konfigurieren Sie die Gruppenrichtlinien so, dass die Installation explizit erforderlicher Geräteklassen zugelassen wird.
 
-* Konfigurieren Sie die Gruppenrichtlinien so, dass die Installation von Geräten auf Computersystemen zugelassen wird, die diese Geräte explizit benötigen.
+7. Konfigurieren Sie die Gruppenrichtlinien so, dass die Installation von Geräten auf Computersystemen zugelassen wird, die diese Geräte explizit benötigen.
 
  
 
