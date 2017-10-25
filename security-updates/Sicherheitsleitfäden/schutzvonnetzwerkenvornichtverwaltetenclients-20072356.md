@@ -851,38 +851,38 @@ Ein weiterer Aspekt der Verwaltung ist die Frage, wie verdächtige Computer bei 
 * **Isolation in vordefinierten Gruppen.**   Indem Sie statt des Kerberos-Protokolls vordefinierte Schlüssel oder Zertifikate für die IPsec-Authentifizierung verwenden, können Sie Isolationsgruppen erstellen, bei denen mit verschiedenen Schlüsseln oder Zertifikaten dieselbe Art von Isolationsfunktionalität erzielt wird.
 
 
-VPN-Quarantänedienste zum Schutz vor nicht verwalteten Remotecomputern
+    VPN-Quarantänedienste zum Schutz vor nicht verwalteten Remotecomputern
 
-Die eigentliche Bereitstellung der VPN-Quarantänesteuerung erfordert sechs Schritte zusätzlich zu allen anderen Anforderungsprozessen des Änderungsmanagements und Testprozessen vor der Bereitstellung, die in einem Unternehmen vorhanden sein können. Dabei handelt es sich um die folgenden sechs Schritte:
-1. Erstellen von Quarantäneressourcen
-
-2. Erstellen von Skripts zum Überprüfen der Clientkonfigurationen
-
-3. Installieren der Listenerkomponente Rqs.exe auf RAS-Servern
-
-4. Erstellen von Verbindungs-Manager-Profilen (CM-Profilen) für die Quarantäne mit Windows Server 2003 CMAK
-
-5. Verteilen der CM-Profile an RAS-Clientcomputer
-
-6. Konfigurieren der Quarantäne-RAS-Richtlinie
-
+    Die eigentliche Bereitstellung der VPN-Quarantänesteuerung erfordert sechs Schritte zusätzlich zu allen anderen Anforderungsprozessen des Änderungsmanagements und Testprozessen vor der Bereitstellung, die in einem Unternehmen vorhanden sein können. Dabei handelt es sich um die folgenden sechs Schritte:
     1. Erstellen von Quarantäneressourcen
 
-    Wenn unter Quarantäne gestellte Clients interne Ressourcen verwenden sollen, um sich in einen Zustand zu bringen, der den geltenden Sicherheitsrichtlinien entspricht, muss eine Gruppe von zugänglichen Ressourcen vorhanden sein, mit denen die Clients die nötigen Updates und andere Software installieren können, die für die Sicherheit benötigt werden. Wie im vorangegangen Abschnitt ausführlich beschrieben, gehören zu diesen Ressourcen normalerweise ein Namensserver sowie Dateiserver und mitunter auch Webserver. Das Festlegen dieser Quarantäneressourcen kann auf verschiedene Art erfolgen, beispielsweise durch das Festlegen vorhandener Server, die sich im internen Netzwerk befinden, oder durch Platzieren der erforderlichen Ressourcen in einem eigenen separaten Subnetz.
+    2. Erstellen von Skripts zum Überprüfen der Clientkonfigurationen
 
-    Mit der ersten Methode, dem Festlegen einzelner Server, lassen sich eventuell die Kosten für die Anschaffung von Servern zur Bereitstellung von Updates einsparen, da ja bereits vorhandene Server verwendet werden. Allerdings sind für diese Methode komplexe Paketfilter erforderlich, da jede Ressource eine eigene Gruppe von Filtern im Attribut „MS-Quarantine-IPFilter“ der Quarantäne-RAS-Richtlinie benötigt.
+    3. Installieren der Listenerkomponente Rqs.exe auf RAS-Servern
 
-    Für die andere Methode, das Platzieren sämtlicher Quarantäneressourcen in einem eigenen Subnetz für Quarantänedienste, müssen der Netzwerkumgebung möglicherweise zusätzliche Server hinzugefügt werden, allerdings wird hierbei nur ein einziger Eingangs- und Ausgangsfilter für alle Quarantäneressourcen benötigt.
+    4. Erstellen von Verbindungs-Manager-Profilen (CM-Profilen) für die Quarantäne mit Windows Server 2003 CMAK
 
-    2. Erstellen von Überprüfungsskripts
+    5. Verteilen der CM-Profile an RAS-Clientcomputer
 
-    Quarantäneskripts führen eine Reihe von Tests durch, um sicherzustellen, dass RAS-Computer den Sicherheitsrichtlinien entsprechen. Nach Abschluss dieser Tests muss das Skript entweder die Clientkomponente RQC.exe starten (bei positivem Testergebnis) oder den Clientcomputer an entsprechende Ressourcen weiterleiten, um ihn in Einklang mit den Richtlinien zu bringen. Natürlich könnte das Skript auch einfach ein Netzwerkzeitlimit anwenden und eine Fehlermeldung anzeigen, wenn die Netzwerkrichtlinien diese Vorgehensweise diktieren. Diese Skripts können einfache Befehlszeilen-Batchdateien oder komplexe ausführbare Dateien sein.
+    6. Konfigurieren der Quarantäne-RAS-Richtlinie
 
-    Einige Beispielsskripts können von der Seite* *[VPN-Quarantäne-Beispielskripts](http://www.microsoft.com/downloads/details.aspx?familyid=a290f2ee-0b55-491e-bc4c-8161671b2462&amp;displaylang=en) (möglicherweise in englischer Sprache) im Microsoft Download Center unter www.microsoft.com/downloads/details.aspx?FamilyID=a290f2ee-0b55-491e-bc4c-8161671b2462&amp;displaylang=en heruntergeladen werden.
+1. Erstellen von Quarantäneressourcen
 
-    3. Installieren von RQS.exe auf RAS-Servern
+Wenn unter Quarantäne gestellte Clients interne Ressourcen verwenden sollen, um sich in einen Zustand zu bringen, der den geltenden Sicherheitsrichtlinien entspricht, muss eine Gruppe von zugänglichen Ressourcen vorhanden sein, mit denen die Clients die nötigen Updates und andere Software installieren können, die für die Sicherheit benötigt werden. Wie im vorangegangen Abschnitt ausführlich beschrieben, gehören zu diesen Ressourcen normalerweise ein Namensserver sowie Dateiserver und mitunter auch Webserver. Das Festlegen dieser Quarantäneressourcen kann auf verschiedene Art erfolgen, beispielsweise durch das Festlegen vorhandener Server, die sich im internen Netzwerk befinden, oder durch Platzieren der erforderlichen Ressourcen in einem eigenen separaten Subnetz.
 
-    Das Installieren des Diensts RAS-Quarantäne-Agent (Rqs.exe) auf einem Microsoft Windows Server 2003 unterscheidet sich je nachdem, ob Service Pack 1 (SP1) installiert ist oder nicht. In diesem Abschnitt wird um der Kürze willen nur die Installation von Windows Server 2003 mit SP1 beschrieben, da davon auszugehen ist, dass alle Systeme mit sämtlichen aktuellen Service Packs und Sicherheitsupdates ausgestattet sind.
+Mit der ersten Methode, dem Festlegen einzelner Server, lassen sich eventuell die Kosten für die Anschaffung von Servern zur Bereitstellung von Updates einsparen, da ja bereits vorhandene Server verwendet werden. Allerdings sind für diese Methode komplexe Paketfilter erforderlich, da jede Ressource eine eigene Gruppe von Filtern im Attribut „MS-Quarantine-IPFilter“ der Quarantäne-RAS-Richtlinie benötigt.
+
+Für die andere Methode, das Platzieren sämtlicher Quarantäneressourcen in einem eigenen Subnetz für Quarantänedienste, müssen der Netzwerkumgebung möglicherweise zusätzliche Server hinzugefügt werden, allerdings wird hierbei nur ein einziger Eingangs- und Ausgangsfilter für alle Quarantäneressourcen benötigt.
+
+2. Erstellen von Überprüfungsskripts
+
+Quarantäneskripts führen eine Reihe von Tests durch, um sicherzustellen, dass RAS-Computer den Sicherheitsrichtlinien entsprechen. Nach Abschluss dieser Tests muss das Skript entweder die Clientkomponente RQC.exe starten (bei positivem Testergebnis) oder den Clientcomputer an entsprechende Ressourcen weiterleiten, um ihn in Einklang mit den Richtlinien zu bringen. Natürlich könnte das Skript auch einfach ein Netzwerkzeitlimit anwenden und eine Fehlermeldung anzeigen, wenn die Netzwerkrichtlinien diese Vorgehensweise diktieren. Diese Skripts können einfache Befehlszeilen-Batchdateien oder komplexe ausführbare Dateien sein.
+
+Einige Beispielsskripts können von der Seite* *[VPN-Quarantäne-Beispielskripts](http://www.microsoft.com/downloads/details.aspx?familyid=a290f2ee-0b55-491e-bc4c-8161671b2462&amp;displaylang=en) (möglicherweise in englischer Sprache) im Microsoft Download Center unter www.microsoft.com/downloads/details.aspx?FamilyID=a290f2ee-0b55-491e-bc4c-8161671b2462&amp;displaylang=en heruntergeladen werden.
+
+3. Installieren von RQS.exe auf RAS-Servern
+
+Das Installieren des Diensts RAS-Quarantäne-Agent (Rqs.exe) auf einem Microsoft Windows Server 2003 unterscheidet sich je nachdem, ob Service Pack 1 (SP1) installiert ist oder nicht. In diesem Abschnitt wird um der Kürze willen nur die Installation von Windows Server 2003 mit SP1 beschrieben, da davon auszugehen ist, dass alle Systeme mit sämtlichen aktuellen Service Packs und Sicherheitsupdates ausgestattet sind.
 
 **So installieren Sie Rqs.exe auf einem Server mit Windows Server 2003 und SP1**
 1. Klicken Sie auf **Start** und dann auf **Systemsteuerung.**  
