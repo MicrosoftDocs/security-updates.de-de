@@ -374,7 +374,7 @@ Weist den Leser auf zusätzliche Informationen hin.
 <td style="border:1px solid black;">
 
 
-**Wichtig**
+<strong>Wichtig</strong>
 
 </td>
 
@@ -392,7 +392,7 @@ Ein wichtiger Hinweis enthält Informationen, die für die Ausführung einer Auf
 <td style="border:1px solid black;">
 
  
-![](images/dd443745.warning(de-de,technet.10).gif) **Achtung:**
+![](images/dd443745.warning(de-de,technet.10).gif) <strong>Achtung:</strong>
 
 </td>
 
