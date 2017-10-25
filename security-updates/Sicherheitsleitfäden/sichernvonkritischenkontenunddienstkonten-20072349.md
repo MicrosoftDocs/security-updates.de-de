@@ -12,7 +12,7 @@ ms:contentKeyID: 20072349
 Veröffentlicht: 26. Sep 2006
  
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Einführung](#ehaa)  
 [Definition](#egaa)  
@@ -1210,16 +1210,14 @@ Jeder Server in einer Umgebung sollte dokumentiert und überwacht werden, um sä
 
     Wie bereits erwähnt, kann WMIC genutzt werden, um die Verwaltung von Remotecomputern und lokalen Rechnern mithilfe von Skripts zu automatisieren.
 
-
 * **Weitere Unternehmensverwaltungstools**: Es sind einige weitere Verwaltungstools erhältlich, die für die Überwachung von Serverdiensten eingesetzt werden können. Im Folgenden sind einige Beispiele aufgeführt:
-* Microsoft Systems Management Server (SMS)
+*   Microsoft Systems Management Server (SMS)
 
-* IBM Tivoli
+*   IBM Tivoli
 
-* HP OpenView
+*   HP OpenView
 
-* Lieberman Software Service Account Manager
-
+*   Lieberman Software Service Account Manager
 
 
 Feststellen, welche Dienste notwendig sind

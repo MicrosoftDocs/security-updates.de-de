@@ -1199,7 +1199,7 @@ Gemeinsam auf Domänencontroller platziert
 
 <strong>&#x2022;</strong> Keine Trennung der administrativen IAS-Gruppen von Domänenadministratoren<br/>
 
-<strong><strong>&#x2022;</strong></strong> Keine inhärente Trennung von Problemen mit Fehlern oder Leistung, die auf gemeinsam gehostete Dienste zurückzuführen sind
+<strong>&#x2022;</strong> Keine inhärente Trennung von Problemen mit Fehlern oder Leistung, die auf gemeinsam gehostete Dienste zurückzuführen sind
 
 
 </td>
@@ -2955,118 +2955,117 @@ Es gibt eine Reihe von Gruppen und Benutzerkonten, die mit der Verwaltung und de
 
 2. Erstellen Sie eine OU-Struktur anhand der folgenden Tabelle:
 
-**Tabelle 12. Beispiel für eine OU-Struktur**
+    **Tabelle 12. Beispiel für eine OU-Struktur**
 
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
 
-<tr>
+    <tr>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Organisationseinheit
+    Organisationseinheit
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Aufgabe
+    Aufgabe
 
-</th>
+    </th>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
-
-
-Zertifikatsdienste
-
-</td>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Übergeordnete OU
+    Zertifikatsdienste
 
-</td>
+    </td>
 
-</tr>
-
-<tr>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-\\-Zertifikatsdienste-Administration
+    Übergeordnete OU
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    </tr>
 
+    <tr>
 
-Enthält administrative Gruppen für das Verwalten der Zertifizierungsstellen und die Konfiguration der Unternehmens-PKI.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-\\-Zertifikatvorlagen-Verwaltung
+    \\-Zertifikatsdienste-Administration
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
-
-
-Enthält Gruppen für das Verwalten der einzelnen Zertifikatvorlagen.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-\\-Zertifikatvorlagen-Registrierung
+    Enthält administrative Gruppen für das Verwalten der Zertifizierungsstellen und die Konfiguration der Unternehmens-PKI.
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    </tr>
 
+    <tr>
 
-Enthält Gruppen mit Berechtigungen zum Registrieren oder automatischen Registrieren für Vorlagen desselben Namens. Die Kontrolle dieser Gruppen kann an das entsprechende Personal delegiert werden, ohne die Vorlagen ändern zu müssen.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-\\-Zertifikatsdienste-Testbenutzer
+    \\-Zertifikatvorlagen-Verwaltung
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Enthält vorübergehende Testkonten.
+    Enthält Gruppen für das Verwalten der einzelnen Zertifikatvorlagen.
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-</table>
+    <tr>
 
+    <td style="border:1px solid black;">
+
+
+    \\-Zertifikatvorlagen-Registrierung
+
+    </td>
+
+    <td style="border:1px solid black;">
+
+
+    Enthält Gruppen mit Berechtigungen zum Registrieren oder automatischen Registrieren für Vorlagen desselben Namens. Die Kontrolle dieser Gruppen kann an das entsprechende Personal delegiert werden, ohne die Vorlagen ändern zu müssen.
+
+    </td>
+
+    </tr>
+
+    <tr>
+
+    <td style="border:1px solid black;">
+
+
+    \\-Zertifikatsdienste-Testbenutzer
+
+    </td>
+
+    <td style="border:1px solid black;">
+
+
+    Enthält vorübergehende Testkonten.
+
+    </td>
+
+    </tr>
+
+    </table>
 
 3. Räumen Sie der Gruppe „Enterprise PKI Admins“ die Berechtigungen zum Erstellen und Löschen von Gruppen innerhalb der Zertifikatsdienste-OU und deren untergeordneten Containern ein.
 
@@ -3211,7 +3210,9 @@ Verwenden Sie den Assistenten für Windows-Komponenten, um die Softwarekomponent
 
 **So installieren Sie Zertifikatsdienste**
 1. Melden Sie sich als Mitglied der lokalen Administratorgruppe an, und führen Sie den Manager für die Installation optionaler Komponenten aus, oder verwenden Sie die Systemsteuerung und dort die Option „Software“ und „Programme ändern oder entfernen“ bzw. „Windows-Komponenten hinzufügen/entfernen“.
-sysocmgr /i:sysoc.inf
+
+    `sysocmgr /i:sysoc.inf`
+
 2. Wählen Sie die Komponente „Zertifikatsdienste“ aus (klicken Sie auf **Ja**, um die Warnung zum Umbenennen zu bestätigen).
 
 3. Wählen Sie für den Typ der Zertifizierungsstelle **Eigenständige Stammzertifizierungsstelle** aus, und vergewissern Sie sich, dass das Kontrollkästchen **Schlüsselpaar und ein Zertifizierungsstellenzertifikat mit diesen Einstellungen erstellen** aktiviert ist.
@@ -3226,9 +3227,9 @@ sysocmgr /i:sysoc.inf
 
     - Gültigkeitsdauer: 8 Jahre
 
-Zu diesem Zeitpunkt erstellt der Anbietertyp das Schlüsselpaar, das in den Schlüsselspeicher des lokalen Computers geschrieben wird.
+    Zu diesem Zeitpunkt erstellt der Anbietertyp das Schlüsselpaar, das in den Schlüsselspeicher des lokalen Computers geschrieben wird.
 
-**Hinweis**   Wenn eine Zertifizierungsstelle zuvor auf diesem System installiert wurde, werden Sie in einem Dialogfeld gewarnt, dass der private Schlüssel der vorherigen Installation überschrieben wird. Vergewissern Sie sich, dass dieser Schlüssel vor dem Fortfahren nie wieder benötigt wird.
+    **Hinweis**   Wenn eine Zertifizierungsstelle zuvor auf diesem System installiert wurde, werden Sie in einem Dialogfeld gewarnt, dass der private Schlüssel der vorherigen Installation überschrieben wird. Vergewissern Sie sich, dass dieser Schlüssel vor dem Fortfahren nie wieder benötigt wird.
 
 6. Belassen Sie die Speicherorte der Zertifikatsdatenbank, Datenbankprotokolle und des Konfigurationsordners bei dem jeweiligen Standardwert. Zu diesem Zeitpunkt installiert der Manager für die Installation optionaler Komponenten die Komponenten der Zertifikatsdienste, und das Installationsmedium von Windows Server 2003 ist erforderlich.
 
@@ -3260,88 +3261,88 @@ Die zuvor erstellten Sicherheitsgruppen müssen Administratorfunktionen wie „P
 
 2. Klicken Sie auf die Registerkarte **Sicherheit**, und fügen Sie die lokalen Sicherheitsgruppen hinzu, die in der folgenden Tabelle aufgeführt werden. Fügen Sie die gezeigte Berechtigung für jede Gruppe hinzu.
 
-**Tabelle 13. Einträge für die Berechtigung der Zertifizierungsstelle**
+    **Tabelle 13. Einträge für die Berechtigung der Zertifizierungsstelle**
 
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
 
-<tr>
+    <tr>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Gruppe
+    Gruppe
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Berechtigung
+    Berechtigung
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Erlauben/Verweigern
+    Erlauben/Verweigern
 
-</th>
+    </th>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
-
-
-CA Admins
-
-</td>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Verwalten der Zertifizierungsstelle
+    CA Admins
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
-
-
-Erlauben
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Certificate Managers
+    Verwalten der Zertifizierungsstelle
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
-
-
-Ausstellen und Verwalten von Zertifikaten
-
-</td>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Erlauben
+    Erlauben
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-</table>
+    <tr>
+
+    <td style="border:1px solid black;">
+
+
+    Certificate Managers
+
+    </td>
+
+    <td style="border:1px solid black;">
+
+
+    Ausstellen und Verwalten von Zertifikaten
+
+    </td>
+
+    <td style="border:1px solid black;">
+
+
+    Erlauben
+
+    </td>
+
+    </tr>
+
+    </table>
 
 
 3. Weitere Sicherheitsfunktionen für die Zertifizierungsstelle für diesen Server wurden bereits über die zuvor angewendete Sicherheitsrichtlinie definiert.
 
-Übertragen des Zertifikats der Stammzertifizierungsstelle und der CRL auf Datenträger
+Übertragen des Zertifikats der Stammzertifizierungsstelle und der CRL auf Datenträger  
 Das Zertifikat der Stammzertifizierungsstelle und die CRL müssen von der Zertifizierungsstelle kopiert werden, damit sie für Active Directory und das IIS-Zertifikat und den CRL-Veröffentlichungsserver veröffentlicht werden können. Obwohl in diesem Beispiel die Verwendung eines Datenträgers beschrieben wird, kann jedes tragbare Medium verwendet werden (einschließlich USB-Laufwerke).
 
 **So kopieren Sie das Zertifikat der Stammzertifizierungsstelle und die CRL auf einen Datenträger**
@@ -3418,8 +3419,8 @@ Dieses Diagramm enthält folgende durchnummerierte interaktive Schritte:
 
 5. Veröffentlichen des Zertifikats der ausstellenden Zertifizierungsstelle und der CRL für den Webserver.
 
+x.  Dieser Schritt erfolgt automatisch während der Installationsroutine der Unternehmenszertifizierungsstelle.  
 
-    x.   Dieser Schritt erfolgt automatisch während der Installationsroutine der Unternehmenszertifizierungsstelle.
 Vorbereiten der Datei „capolicy.inf“ für die ausstellende Zertifizierungsstelle
 Obwohl eine Datei „capolicy.inf“ nicht für die ausstellende Zertifizierungsstelle erforderlich ist, wird diese Datei benötigt, falls die von der Zertifizierungsstelle verwendete Schlüsselgröße geändert werden muss. Diese Datei sollte erstellt werden, bevor die ausstellende Zertifizierungsstelle eingerichtet wird. Dies ist empfehlenswert, obwohl diese Datei bei Bedarf später hinzugefügt werden kann, gefolgt von der Erneuerung des Zertifikats der Zertifizierungsstelle.
 
@@ -3496,15 +3497,15 @@ Wie beim Installieren der Zertifikatsdienste auf der Stammzertifizierungsstelle 
 Zu diesem Zeitpunkt muss die Zertifikatsanforderung der ausstellenden Zertifizierungsstelle an die Stammzertifizierungsstelle übergeben werden, damit die Anforderung signiert und ein Zertifikat für die ausstellende Zertifizierungsstelle ausgestellt wird.
 
 **So übergeben Sie die Zertifikatsanforderung an die Stammzertifizierungsstelle**
-* Melden Sie sich an der Stammzertifizierungsstelle mit einem Mitgliedskonto der Gruppe „Certificate Managers“ an.
+1. Melden Sie sich an der Stammzertifizierungsstelle mit einem Mitgliedskonto der Gruppe „Certificate Managers“ an.
 
-* Vergewissern Sie sich, dass sich der Datenträger im Laufwerk befindet, der zum Speichern der Anforderungsdatei für Zertifikatsdienste verwendet wird.
+2. Vergewissern Sie sich, dass sich der Datenträger im Laufwerk befindet, der zum Speichern der Anforderungsdatei für Zertifikatsdienste verwendet wird.
 
-* Wählen Sie im Menü **CA-Aufgaben** in der Verwaltungskonsole für die Zertifizierungsstelle **Neue Anforderung einreichen**, und reichen Sie dann die Anforderung ein, die von der ausstellenden Zertifizierungsstelle übertragen wurde.
+3. Wählen Sie im Menü **CA-Aufgaben** in der Verwaltungskonsole für die Zertifizierungsstelle **Neue Anforderung einreichen**, und reichen Sie dann die Anforderung ein, die von der ausstellenden Zertifizierungsstelle übertragen wurde.
 
-* Suchen Sie nach dem neu ausgestellten Zertifikat im Container „Ausgestellte Zertifikate“, und öffnen Sie es.
+4. Suchen Sie nach dem neu ausgestellten Zertifikat im Container „Ausgestellte Zertifikate“, und öffnen Sie es.
 
-* Überprüfen Sie, dass die Zertifikatdetails korrekt sind, und exportieren Sie dann durch Klicken auf „In Datei kopieren“ das Zertifikat in eine Datei. Speichern Sie diese Datei als PKCS#7-Datei auf einen Datenträger, und wählen Sie die Option, dass alle möglichen Zertifikate in die Kette aufgenommen werden sollen.
+5. Überprüfen Sie, dass die Zertifikatdetails korrekt sind, und exportieren Sie dann durch Klicken auf „In Datei kopieren“ das Zertifikat in eine Datei. Speichern Sie diese Datei als PKCS#7-Datei auf einen Datenträger, und wählen Sie die Option, dass alle möglichen Zertifikate in die Kette aufgenommen werden sollen.
 
 Aktualisieren der Zertifikatsinformationen für die ausstellende Zertifizierungsstelle
 Das Zertifikat der Stammzertifizierungsstelle wurde bereits für den vertrauenswürdigen Stammspeicher von Active Directory veröffentlicht. Jetzt sollte überprüft werden, ob die ausstellende Zertifizierungsstelle diese Informationen heruntergeladen und das Zertifikat in ihrem eigenen Stammspeicher platziert hat.
@@ -3558,87 +3559,85 @@ Damit die in diesem Handbuch beschriebenen Administratorfunktionen verwendet wer
 
 3. Klicken Sie auf die Registerkarte **Sicherheit**, und fügen Sie die Domänensicherheitsgruppen hinzu, die in der folgenden Tabelle aufgeführt werden. Fügen Sie die gezeigten Berechtigungen für jede Gruppe hinzu.
 
-**Tabelle 14. Berechtigungen für die ausstellende Zertifizierungsstelle**
+    **Tabelle 14. Berechtigungen für die ausstellende Zertifizierungsstelle**
 
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
 
-<tr>
+    <tr>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Gruppe
+    Gruppe
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Berechtigung
+    Berechtigung
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Erlauben/Verweigern
+    Erlauben/Verweigern
 
-</th>
+    </th>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
-
-
-CA Admins
-
-</td>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Verwalten der Zertifizierungsstelle
+    CA Admins
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
-
-
-Erlauben
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Certificate Managers
+    Verwalten der Zertifizierungsstelle
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
-
-
-Ausstellen und Verwalten von Zertifikaten
-
-</td>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Erlauben
+    Erlauben
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-</table>
+    <tr>
 
+    <td style="border:1px solid black;">
+
+
+    Certificate Managers
+
+    </td>
+
+    <td style="border:1px solid black;">
+
+
+    Ausstellen und Verwalten von Zertifikaten
+
+    </td>
+
+    <td style="border:1px solid black;">
+
+
+    Erlauben
+
+    </td>
+
+    </tr>
+
+    </table>
 
 4. Die Gruppe „CA Auditors“ sollte zur lokalen Administratorgruppe hinzugefügt werden, obwohl diese Gruppe bereits durch die zuvor angewendete Sicherheitsrichtlinie teilweise definiert wurde.
-
 
 Veröffentlichen der Informationen zur ausstellenden Zertifizierungsstelle
 
@@ -4075,7 +4074,9 @@ Die IAS-Server müssen in jeder Domäne registriert werden. Hierzu muss das Comp
 1. Melden Sie sich an jedem Server mit einem Konto an, das über die Domänenadministratorberechtigung für die Domänen verfügt, in denen der IAS-Server registriert werden muss.
 
 2. Führen Sie für die Standarddomäne den folgenden Befehl an einer Eingabeaufforderung aus:
-netsh ras add registeredserver
+
+    `netsh ras add registeredserver`
+
 3. Führen Sie für andere Domänen als die Standarddomäne den folgenden Befehl an einer Eingabeaufforderung aus:
 
     `netsh ras add registeredserver domain = DomainName`
@@ -4091,7 +4092,8 @@ Es gibt einige Verzeichnisanforderungen für das Speichern von Konfigurations- u
 
 Konfigurieren des primären IAS-Servers
 
-Der Server, der als primärer IAS-Server ausgewählt wird, muss vor allen anderen IAS-Servern in der Umgebung konfiguriert werden, da er als Vorlage für das Konfigurieren der Einstellungen auf allen nachfolgenden IAS-Servern dient.
+Der Server, der als primärer IAS-Server ausgewählt wird, muss vor allen anderen IAS-Servern in der Umgebung konfiguriert werden, da er als Vorlage für das Konfigurieren der Einstellungen auf allen nachfolgenden IAS-Servern dient.  
+
 Protokollieren von Authentifizierungs- und Kontoführungsanforderungen
 IAS führt in der Standardeinstellung die Protokollierung von RADIUS-Authentifizierungs- und Kontoführungsanforderungen aus. Beides sollte jedoch aktiviert werden, um sicherzustellen, dass Sicherheitsereignisse aufgezeichnet werden und verwendet werden können, falls eine Untersuchung erforderlich wird.
 
@@ -4803,7 +4805,7 @@ Gruppenrichtlinien können verwendet werden, um die WLAN-Konfigurationseinstellu
 
     **Hinweis**   WPA2 kann derzeit nicht mithilfe von Gruppenrichtlinienobjekten angewendet werden. Allerdings ist die Unterstützung durch Gruppenrichtlinienobjekte für WPA2 mit der Veröffentlichung von Windows Vista und Longhorn geplant. Zudem werden Updates verfügbar sein, um auch die Unterstützung für die aktuellen Windows-Versionen anzubieten.
 
-Hinzufügen von Computern zu Sicherheitsgruppen für die WLAN-Gruppenrichtlinie
+Hinzufügen von Computern zu Sicherheitsgruppen für die WLAN-Gruppenrichtlinie  
 Active Directory-basierte Sicherheitsgruppen werden verwendet, um zu bestimmen, auf welche Computer Richtlinien für drahtlose Netzwerke angewendet werden, um automatisch die erforderlichen 802.11- und 802.1X-Einstellungen zu konfigurieren. Diese Einstellungen sollten bereitgestellt werden, bevor die 802.1X-Einstellungen auf drahtlosen Zugriffspunkten konfiguriert werden und das WLAN aktiviert wird. Dieser Ansatz stellt sicher, dass die Clientcomputer über ausreichende Möglichkeiten verfügen, um die computerbasierte Gruppenrichtlinie herunterzuladen und zu übernehmen, selbst wenn sie selten eine Verbindung mit dem drahtgebundenen Netzwerk herstellen.
 
 Die Gruppenrichtlinieneinstellungen können sogar vor der Installation eines WLAN-Schnittstellenadapters (NIC) installiert werden, da automatisch die richtigen Gruppenrichtlinieneinstellungen für Netzwerke abgerufen und übernommen werden.
@@ -4812,7 +4814,7 @@ Um Computer zu den Gruppen für die Gruppenrichtlinie für drahtlose Netzwerke h
 
 **Hinweis**   Die Gruppenrichtlinieneinstellungen für drahtlose Netzwerke werden auf den Clientcomputern während des nächsten Aktualisierungsintervalls für Computergruppenrichtlinien aktualisiert. Um eine Aktualisierung zu erzwingen, geben Sie den Befehl GPUPDATE /force ein.
 
-WPA2-Clientanforderungen
+WPA2-Clientanforderungen  
 
 Die in diesem Handbuch skizzierte Lösung wurde für Clientcomputer mit Unterstützung für Drahtlostechnologie entworfen, die Windows XP Professional mit SP2 oder Windows XP Tablet Edition als Betriebssystem verwenden. Diese Versionen von Windows bieten integrierte Unterstützung für 802.1X und WLAN. Außerdem stellen Clients auf der Grundlage von Windows XP die Funktionalität für automatische Registrierung und Erneuerung von Zertifikaten bereit, was eine zertifikatbasierte Lösung wie diese besonders dann sehr kostengünstig gestaltet, wenn sie an eine Infrastruktur für Zertifikate angebunden ist.
 
