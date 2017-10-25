@@ -2925,13 +2925,12 @@ Für Änderungen an den Unterkategorien und Einstellungen der Überwachungsricht
     
    `auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable`
 
-
-   **Hinweis:** Wenn Sie alle mögliche Kategorien und Unterkategorien anzeigen möchten, geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:   
+    **Hinweis:** Wenn Sie alle mögliche Kategorien und Unterkategorien anzeigen möchten, geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:   
     **auditpol /list /subcategory:***
 
     Geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:
   
-    `auditpol /backup /file:EC-AuditPolicy.txt (oder SSLF-AuditPolicy.txt)`  
+   `auditpol /backup /file:EC-AuditPolicy.txt (oder SSLF-AuditPolicy.txt)`  
 
 5. Kopieren Sie die neue Datei **EC-AuditPolicy.txt** (bzw. **SSLF-AuditPolicy.txt** für Hochsicherheitsumgebungen) in die Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung, und überschreiben Sie dabei die bestehende Version.
 
