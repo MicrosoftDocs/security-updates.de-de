@@ -15,7 +15,7 @@ ms:contentKeyID: 20075686
 Veröffentlicht: 08. Nov 2006
  
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Übersicht](#eeaa)  
 [Domänenrichtlinien](#edaa)  
@@ -160,6 +160,7 @@ Zudem werden in diesem Handbuch mehrere Einstellungen empfohlen, die bestimmte U
 **Achtung:**
 
 Die Funktionalität vieler Einstellungen in diesem Anhang hängt von anderen Einstellungen ab. Diese Abhängigkeiten sind systembedingt. Außerdem ist zu beachten, dass die Werte einiger Einstellungen auf die individuellen Erfordernisse Ihrer Umgebung abgestimmt werden müssen, um ordnungsgemäß zu funktionieren. Wenn Sie also die empfohlenen Einstellungswerte für die Unternehmensclient- oder die Hochsicherheitsumgebung ändern, sollten Sie aus den genannten Gründen darauf vorbereitet sein, die Clientcomputer in Ihrer Umgebung eingehend zu testen, um sicherzugehen, dass sie in vollem Umfang funktionieren.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -493,13 +494,13 @@ Wenn diese Richtlinie aktiviert ist, müssen Kennwörter die folgenden Mindestvo
 * Sie müssen mindesten sechs Zeichen lang sein.
 
 * Sie müssen Zeichen aus den folgenden vier Kategorien enthalten:
-* Englische Großbuchstaben (A bis Z)
+    - Englische Großbuchstaben (A bis Z)
 
-* Englische Kleinbuchstaben (a bis z)
+    - Englische Kleinbuchstaben (a bis z)
 
-* Grundzahlen (0 bis 9)
+    - Grundzahlen (0 bis 9)
 
-* Nicht-alphabetische Zeichen (z. B. !, $, #, %)
+    - Nicht-alphabetische Zeichen (z. B. !, $, #, %)
 
 
 
@@ -709,9 +710,9 @@ Setzen Sie den Wert für die Einstellung **Kontosperrungsschwelle** in Unternehm
 
 Einem Angreifer ist es möglich, diesen Sperrzustand für einen Denial-of-Service-Angriff (DoS) auszunutzen, indem er bei einer großen Anzahl von Konten eine Sperrung auslöst. Ihre Organisation sollte daher im Hinblick auf identifizierte Bedrohungen und zu mindernde Risiken abwägen, ob diese Richtlinieneinstellung verwendet werden soll. Für diese Richtlinieneinstellung kommen zwei Möglichkeiten in Betracht.
 * Legen Sie für die **Kontosperrungsschwelle** den Wert **0** fest, um sicherzustellen, dass keine Konten gesperrt werden. Durch diesen Einstellungswert werden DoS-Angriffe verhindert, bei denen versucht wird, die Konten Ihrer Organisation zu sperren. Dadurch werden auch die Anzahl von Anfragen beim Helpdesk verringert, da die Benutzer ihre Konten nicht unabsichtlich sperren können. Durch diese Einstellungswert können jedoch keine Brute-Force-Angriffe verhindert werden. Die folgenden Verteidigungsmaßnahmen sollten ebenfalls berücksichtigt werden:
-* Eine Kennwortrichtlinie, durch die alle Benutzer gezwungen sind, komplexe Kennwörter mit acht oder mehr Zeichen zu verwenden.
+    * Eine Kennwortrichtlinie, durch die alle Benutzer gezwungen sind, komplexe Kennwörter mit acht oder mehr Zeichen zu verwenden.
 
-* Ein wirksamer Überwachungsmechanismus, durch den Administratoren gewarnt werden, wenn in der Umgebung mehrere Kontosperrungen auftreten. Die Überwachungslösung sollte z. B. das Auftreten des Sicherheitsereignisses 539, „Anmeldungsfehler“, überwachen. Dieses Ereignis weist darauf hin, dass das Konto zum Zeitpunkt des Anmeldeversuchs gesperrt war.
+    * Ein wirksamer Überwachungsmechanismus, durch den Administratoren gewarnt werden, wenn in der Umgebung mehrere Kontosperrungen auftreten. Die Überwachungslösung sollte z. B. das Auftreten des Sicherheitsereignisses 539, „Anmeldungsfehler“, überwachen. Dieses Ereignis weist darauf hin, dass das Konto zum Zeitpunkt des Anmeldeversuchs gesperrt war.
 
 
 
@@ -18192,6 +18193,7 @@ Veröffentlichen Sie Ihre Kommentare in der Newsgroup [Diskussionen zum Thema Si
 Sie können Ihr Feedback auch an die folgende E-Mail-Adresse senden: [secwish@microsoft.com](mailto:secwish@microsoft.com?subject=windows%20vista%20security%20guide).
 
 Wir freuen uns, von Ihnen zu hören.
+
 [Zum Seitenanfanq](#mainsection)
 
 In diesem Beitrag
@@ -18239,8 +18241,3 @@ In diesem Beitrag
 </tr>
 
 </table>
-
-
-
-
-
