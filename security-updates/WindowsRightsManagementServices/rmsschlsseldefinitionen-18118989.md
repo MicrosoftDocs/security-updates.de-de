@@ -11,9 +11,7 @@ RMS-Schlüsseldefinitionen
 
 In der folgenden Tabelle werden die im RMS-System verwendeten Schlüssel aufgelistet.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

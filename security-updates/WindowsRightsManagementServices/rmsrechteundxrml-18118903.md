@@ -11,9 +11,7 @@ RMS-Rechte und XrML
 
 In der folgenden Tabelle werden die Rechte, die Sie für eine Vorlage für Benutzerrechterichtlinien auswählen können, den entsprechenden Rechteelementen in XrML gegenübergestellt.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

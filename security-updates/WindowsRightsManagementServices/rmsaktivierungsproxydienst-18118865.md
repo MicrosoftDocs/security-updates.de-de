@@ -15,9 +15,7 @@ Der Aktivierungsproxydienst leitet Computeraktivierungsanforderungen von Clients
 
 Die Anwendungsdatei für den Aktivierungsproxydienst, Activation.asmx, befindet sich im virtuellen Verzeichnis Certification von IIS (Internet Information Services oder Internetinformationsdienste). Die Standardzugriffsteuerungsliste bei diesem Dienst wird in folgender Tabelle gezeigt:
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
