@@ -12,7 +12,7 @@ ms:contentKeyID: 20072349
 Veröffentlicht: 26. Sep 2006
  
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Einführung](#ehaa)  
 [Definition](#egaa)  
@@ -1188,6 +1188,7 @@ Jeder Server in einer Umgebung sollte dokumentiert und überwacht werden, um sä
 * **Windows-Verwaltungsinstrumentations-Befehlszeile (Windows Management Instrumentation Command Line, WMIC)**: WMIC bietet dieselbe Funktionalität wie WMI in Form eines Befehlszeilenprogramms, das mit bestehenden Shells und anderen Dienstprogrammbefehlen zusammenarbeiten kann, die durch Skripts und anderen Anwendungen erweitert werden können.
 
 Über den WMIC-Dienst kann eine Reihe von Informationen über die in einem Netzwerk ausgeführten Dienste ermittelt werden. Im Folgenden finden sich einige Beispiele dafür:
+
 * Beschreibung
 
 * DisplayName
@@ -1210,16 +1211,15 @@ Jeder Server in einer Umgebung sollte dokumentiert und überwacht werden, um sä
 
     Wie bereits erwähnt, kann WMIC genutzt werden, um die Verwaltung von Remotecomputern und lokalen Rechnern mithilfe von Skripts zu automatisieren.
 
-
 * **Weitere Unternehmensverwaltungstools**: Es sind einige weitere Verwaltungstools erhältlich, die für die Überwachung von Serverdiensten eingesetzt werden können. Im Folgenden sind einige Beispiele aufgeführt:
-* Microsoft Systems Management Server (SMS)
 
-* IBM Tivoli
+    *   Microsoft Systems Management Server (SMS)
 
-* HP OpenView
+    *   IBM Tivoli
 
-* Lieberman Software Service Account Manager
+    *   HP OpenView
 
+    *   Lieberman Software Service Account Manager
 
 
 Feststellen, welche Dienste notwendig sind

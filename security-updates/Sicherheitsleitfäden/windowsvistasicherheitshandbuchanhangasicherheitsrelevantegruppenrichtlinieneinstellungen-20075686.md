@@ -1,3 +1,4 @@
+
 ---
 Title: Windows Vista-Sicherheitshandbuch – Anhang A (Sicherheitsrelevante Gruppenrichtlinieneinstellungen)
 TOCTitle: Windows Vista-Sicherheitshandbuch – Anhang A (Sicherheitsrelevante Gruppenrichtlinieneinstellungen)
@@ -15,7 +16,7 @@ ms:contentKeyID: 20075686
 Veröffentlicht: 08. Nov 2006
  
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Übersicht](#eeaa)  
 [Domänenrichtlinien](#edaa)  
@@ -160,6 +161,7 @@ Zudem werden in diesem Handbuch mehrere Einstellungen empfohlen, die bestimmte U
 **Achtung:**
 
 Die Funktionalität vieler Einstellungen in diesem Anhang hängt von anderen Einstellungen ab. Diese Abhängigkeiten sind systembedingt. Außerdem ist zu beachten, dass die Werte einiger Einstellungen auf die individuellen Erfordernisse Ihrer Umgebung abgestimmt werden müssen, um ordnungsgemäß zu funktionieren. Wenn Sie also die empfohlenen Einstellungswerte für die Unternehmensclient- oder die Hochsicherheitsumgebung ändern, sollten Sie aus den genannten Gründen darauf vorbereitet sein, die Clientcomputer in Ihrer Umgebung eingehend zu testen, um sicherzugehen, dass sie in vollem Umfang funktionieren.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -493,13 +495,14 @@ Wenn diese Richtlinie aktiviert ist, müssen Kennwörter die folgenden Mindestvo
 * Sie müssen mindesten sechs Zeichen lang sein.
 
 * Sie müssen Zeichen aus den folgenden vier Kategorien enthalten:
-* Englische Großbuchstaben (A bis Z)
+    
+    - Englische Großbuchstaben (A bis Z)
 
-* Englische Kleinbuchstaben (a bis z)
+    - Englische Kleinbuchstaben (a bis z)
 
-* Grundzahlen (0 bis 9)
+    - Grundzahlen (0 bis 9)
 
-* Nicht-alphabetische Zeichen (z. B. !, $, #, %)
+    - Nicht-alphabetische Zeichen (z. B. !, $, #, %)
 
 
 
@@ -709,9 +712,10 @@ Setzen Sie den Wert für die Einstellung **Kontosperrungsschwelle** in Unternehm
 
 Einem Angreifer ist es möglich, diesen Sperrzustand für einen Denial-of-Service-Angriff (DoS) auszunutzen, indem er bei einer großen Anzahl von Konten eine Sperrung auslöst. Ihre Organisation sollte daher im Hinblick auf identifizierte Bedrohungen und zu mindernde Risiken abwägen, ob diese Richtlinieneinstellung verwendet werden soll. Für diese Richtlinieneinstellung kommen zwei Möglichkeiten in Betracht.
 * Legen Sie für die **Kontosperrungsschwelle** den Wert **0** fest, um sicherzustellen, dass keine Konten gesperrt werden. Durch diesen Einstellungswert werden DoS-Angriffe verhindert, bei denen versucht wird, die Konten Ihrer Organisation zu sperren. Dadurch werden auch die Anzahl von Anfragen beim Helpdesk verringert, da die Benutzer ihre Konten nicht unabsichtlich sperren können. Durch diese Einstellungswert können jedoch keine Brute-Force-Angriffe verhindert werden. Die folgenden Verteidigungsmaßnahmen sollten ebenfalls berücksichtigt werden:
-* Eine Kennwortrichtlinie, durch die alle Benutzer gezwungen sind, komplexe Kennwörter mit acht oder mehr Zeichen zu verwenden.
+    
+    * Eine Kennwortrichtlinie, durch die alle Benutzer gezwungen sind, komplexe Kennwörter mit acht oder mehr Zeichen zu verwenden.
 
-* Ein wirksamer Überwachungsmechanismus, durch den Administratoren gewarnt werden, wenn in der Umgebung mehrere Kontosperrungen auftreten. Die Überwachungslösung sollte z. B. das Auftreten des Sicherheitsereignisses 539, „Anmeldungsfehler“, überwachen. Dieses Ereignis weist darauf hin, dass das Konto zum Zeitpunkt des Anmeldeversuchs gesperrt war.
+    * Ein wirksamer Überwachungsmechanismus, durch den Administratoren gewarnt werden, wenn in der Umgebung mehrere Kontosperrungen auftreten. Die Überwachungslösung sollte z. B. das Auftreten des Sicherheitsereignisses 539, „Anmeldungsfehler“, überwachen. Dieses Ereignis weist darauf hin, dass das Konto zum Zeitpunkt des Anmeldeversuchs gesperrt war.
 
 
 
@@ -758,7 +762,7 @@ Folgende Einstellungsgruppen werden im Unterverzeichnis Computerkonfiguration\Wi
 
 
 
-Einstellungen für Überwachungsrichtlinien
+#### Einstellungen für Überwachungsrichtlinien
 
 Durch eine Überwachungsrichtlinie wird festgelegt, bei welchen Sicherheitsereignissen die Administratoren benachrichtigt werden, so dass eine Aufzeichnung von Benutzer- und Systemaktivitäten in festgelegten Ereigniskategorien vorhanden ist. Der Administrator kann dann die sicherheitsrelevanten Aktivitäten überwachen. Dazu gehört z. B. die Überwachung der für Objektzugriffe verwendeten Konten, der An- und Abmeldezeiten der Benutzer oder der Änderungen, die an den Einstellungen der Überwachungsrichtlinien vorgenommen werden. Aus diesen Gründen wird das Erstellen einer Überwachungsrichtlinie empfohlen, die der Administrator in Ihrer Umgebung implementieren kann.
 
@@ -1757,45 +1761,45 @@ Im Folgenden wird die Konfiguration von Überwachungsregeln für eine Datei oder
 **Hinweis:**   Sie müssen mit *Auditpol.exe* die Unterkategorie „Dateisystem“ so konfigurieren, dass **Erfolg- und Fehler**-Ereignisse hinsichtlich der folgenden Schritte für das Protokollieren von Ereignissen im Sicherheitsereignisprotokoll überwacht werden.
 
 **So definieren Sie eine Überwachungsregel für eine Datei oder einen Ordner**
-* Suchen Sie die Datei oder den Ordner in Windows Explorer, und klicken Sie darauf.
+1. Suchen Sie die Datei oder den Ordner in Windows Explorer, und klicken Sie darauf.
 
-* Klicken Sie im Menü **Datei** auf **Eigenschaften.**  
+2. Klicken Sie im Menü **Datei** auf **Eigenschaften.**  
 
-* Wechseln Sie zur Registerkarte **Sicherheit**, und klicken Sie auf die Schaltfläche **Erweitert.**  
+3. Wechseln Sie zur Registerkarte **Sicherheit**, und klicken Sie auf die Schaltfläche **Erweitert.**  
 
-* Klicken Sie auf die Registerkarte **Überwachung.**  
+4. Klicken Sie auf die Registerkarte **Überwachung.**  
 
-* Wenn Sie zur Eingabe von Administrator-Anmeldeinformationen aufgefordert werden, klicken Sie auf **Weiter**, geben Sie Ihren Benutzernamen und Ihr Kennwort ein, und drücken Sie die Eingabetaste.
+5. Wenn Sie zur Eingabe von Administrator-Anmeldeinformationen aufgefordert werden, klicken Sie auf **Weiter**, geben Sie Ihren Benutzernamen und Ihr Kennwort ein, und drücken Sie die Eingabetaste.
 
-* Klicken Sie auf die Schaltfläche **Hinzufügen.**   Das Dialogfeld **Benutzer****,****Computer****oder Gruppe wählen** wird angezeigt.
+6. Klicken Sie auf die Schaltfläche **Hinzufügen.**   Das Dialogfeld **Benutzer****,****Computer****oder Gruppe wählen** wird angezeigt.
 
-* Klicken Sie auf die Schaltfläche **Objekttypen**, und wählen Sie anschließend im Dialogfeld **Objekttypen** die zu suchenden Objekttypen aus.
+7. Klicken Sie auf die Schaltfläche **Objekttypen**, und wählen Sie anschließend im Dialogfeld **Objekttypen** die zu suchenden Objekttypen aus.
 
-**Hinweis:**   Die Objekttypen **Benutzer**, **Gruppe** und **Integriertes Sicherheitsprinzipal** sind in der Standardeinstellung bereits ausgewählt.
+    **Hinweis:**   Die Objekttypen **Benutzer**, **Gruppe** und **Integriertes Sicherheitsprinzipal** sind in der Standardeinstellung bereits ausgewählt.
 
-* Klicken Sie auf die Schaltfläche **Pfade**, und wählen Sie im Dialogfeld **Pfad** entweder Ihre Domäne oder Ihren lokalen Computer aus.
+8. Klicken Sie auf die Schaltfläche **Pfade**, und wählen Sie im Dialogfeld **Pfad** entweder Ihre Domäne oder Ihren lokalen Computer aus.
 
-* Geben Sie im Dialogfeld **Benutzer oder Gruppe wählen** den Namen der zu überwachenden Gruppe bzw. des Benutzers ein. Geben Sie anschließend im Feld **Geben Sie die zu verwendenden Objektnamen ein** den Text **Authentifizierte Benutzer** ein, um die Zugriffe aller authentifizierten Benutzer zu überwachen, und klicken Sie auf **OK.**   Das Dialogfeld **Überwachungseintrag** wird angezeigt.
+9. Geben Sie im Dialogfeld **Benutzer oder Gruppe wählen** den Namen der zu überwachenden Gruppe bzw. des Benutzers ein. Geben Sie anschließend im Feld **Geben Sie die zu verwendenden Objektnamen ein** den Text **Authentifizierte Benutzer** ein, um die Zugriffe aller authentifizierten Benutzer zu überwachen, und klicken Sie auf **OK.**   Das Dialogfeld **Überwachungseintrag** wird angezeigt.
 
-* Geben Sie im Dialogfeld **Überwachungseintrag** an, welche Zugriffe auf die Datei oder den Ordner überwacht werden sollen.
+10. Geben Sie im Dialogfeld **Überwachungseintrag** an, welche Zugriffe auf die Datei oder den Ordner überwacht werden sollen.
 
-**Hinweis**   Beachten Sie, dass durch jeden Zugriff mehrere Ereignisse im Ereignisprotokoll erzeugt werden können und dass das Protokoll entsprechend schnell anwächst.
+    **Hinweis**   Beachten Sie, dass durch jeden Zugriff mehrere Ereignisse im Ereignisprotokoll erzeugt werden können und dass das Protokoll entsprechend schnell anwächst.
 
-* Wählen Sie im Dialogfeld **Überwachungseintrag** neben **Ordner auflisten / Daten lesen** die Option **Erfolgreich und Fehlgeschlagen** aus, und klicken Sie auf **OK.**  
+11. Wählen Sie im Dialogfeld **Überwachungseintrag** neben **Ordner auflisten / Daten lesen** die Option **Erfolgreich und Fehlgeschlagen** aus, und klicken Sie auf **OK.**  
 
-* Die aktivierten Überwachungseinträge werden im Dialogfeld **Erweiterte Sicherheitseinstellungen** auf der Registerkarte **Überwachung** angezeigt.
+12. Die aktivierten Überwachungseinträge werden im Dialogfeld **Erweiterte Sicherheitseinstellungen** auf der Registerkarte **Überwachung** angezeigt.
 
-* Klicken Sie zum Schließen des Dialogfelds **Eigenschaften** auf **OK.**  
+13. Klicken Sie zum Schließen des Dialogfelds **Eigenschaften** auf **OK.**  
 
 
 **So testen Sie eine Überwachungsregel für die Datei oder den Ordner**
-* Öffnen Sie die Datei oder den Ordner.
+1. Öffnen Sie die Datei oder den Ordner.
 
-* Schließen Sie die Datei oder den Ordner.
+2. Schließen Sie die Datei oder den Ordner.
 
-* Starten Sie die Ereignisanzeige. Im Sicherheitsereignisprotokoll werden mehrere Objektzugriffsereignisse mit **Ereignis-ID 560** angezeigt.
+3. Starten Sie die Ereignisanzeige. Im Sicherheitsereignisprotokoll werden mehrere Objektzugriffsereignisse mit **Ereignis-ID 560** angezeigt.
 
-* Doppelklicken Sie auf ein Ereignis, um die zugehörigen Detailinformationen anzuzeigen.
+4. Doppelklicken Sie auf ein Ereignis, um die zugehörigen Detailinformationen anzuzeigen.
 
 
 
@@ -2903,38 +2907,32 @@ Keine Überwachung
 Für Änderungen an den Unterkategorien und Einstellungen der Überwachungsrichtlinien, die durch die Gruppenrichtlinienobjekte dieses Handbuchs konfiguriert werden, muss mit Auditpol.exe die Konfiguration eines einzelnen Computers in Ihrer Umgebung geändert und eine Datei generiert werden, die die Überwachungsrichtlinieneinstellungen für Ihre Umgebung enthält. Die Computer-Gruppenrichtlinienobjekte dieses Handbuchs wenden dann die geänderte Überwachungsrichtlinie auf Computer in Ihrer Umgebung an.
 
 **So ändern Sie die Konfiguration Ihrer Überwachungsrichtlinien**
-* Melden Sie sich als Domänenadministrator an einem Computer mit Windows Vista an, der über Active Directory mit der Domäne verbunden ist, in der Sie die Gruppenrichtlinienobjekte erstellen möchten.
+1. Melden Sie sich als Domänenadministrator an einem Computer mit Windows Vista an, der über Active Directory mit der Domäne verbunden ist, in der Sie die Gruppenrichtlinienobjekte erstellen möchten.
 
-* Klicken Sie auf dem Desktop auf die Windows Vista-Startschaltfläche, klicken Sie auf **Alle Programme** und auf **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung**, und klicken Sie dann auf **Als Administrator ausführen.**  
+2. Klicken Sie auf dem Desktop auf die Windows Vista-Startschaltfläche, klicken Sie auf **Alle Programme** und auf **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung**, und klicken Sie dann auf **Als Administrator ausführen.**  
 
-* Löschen Sie die aktuellen Überwachungsrichtlinieneinstellungen. Geben Sie hierzu die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie anschließend die Eingabetaste:
+3. Löschen Sie die aktuellen Überwachungsrichtlinieneinstellungen. Geben Sie hierzu die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie anschließend die Eingabetaste:
   
+   `auditpol /clear`
 
+4. Konfigurieren Sie mit dem Befehlszeilentool Auditpol.exe die gewünschten benutzerdefinierten Überwachungsrichtlinieneinstellungen. Geben Sie beispielsweise die nachstehenden Zeilen an der Eingabeaufforderung ein. Drücken Sie nach jeder Zeile die Eingabetaste.
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">auditpol /clear</CodeSnippet>  
-
-* Konfigurieren Sie mit dem Befehlszeilentool Auditpol.exe die gewünschten benutzerdefinierten Überwachungsrichtlinieneinstellungen. Geben Sie beispielsweise die nachstehenden Zeilen an der Eingabeaufforderung ein. Drücken Sie nach jeder Zeile die Eingabetaste.
-
-**Hinweis:** Einige Teile des folgenden Codeausschnitts werden nur aus Gründen der besseren Lesbarkeit in mehreren Zeilen angezeigt. Der Code sollte jedoch in einer einzelnen Zeile eingegeben werden.
+    **Hinweis:** Einige Teile des folgenden Codeausschnitts werden nur aus Gründen der besseren Lesbarkeit in mehreren Zeilen angezeigt. Der Code sollte jedoch in einer einzelnen Zeile eingegeben werden.
  
+   `auditpol /set /subcategory:"user account management" /success:enable /failure:enable`
 
+   `auditpol /set /subcategory:"logon" /success:enable /failure:enable`
+    
+   `auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable`
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">auditpol /set /subcategory:"user account management" /success:enable /failure:enable</CodeSnippet>
+    **Hinweis:** Wenn Sie alle mögliche Kategorien und Unterkategorien anzeigen möchten, geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:   
+    **auditpol /list /subcategory:***
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">auditpol /set /subcategory:"logon" /success:enable /failure:enable</CodeSnippet>
-
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable</CodeSnippet>  
-
-**Hinweis:** Wenn Sie alle mögliche Kategorien und Unterkategorien anzeigen möchten, geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:   
-**auditpol /list /subcategory:***
-
-Geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:
+    Geben Sie die folgende Zeile an der Eingabeaufforderung ein, und drücken Sie die Eingabetaste:
   
+   `auditpol /backup /file:EC-AuditPolicy.txt (oder SSLF-AuditPolicy.txt)`  
 
-
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">auditpol /backup /file:EC-AuditPolicy.txt (oder SSLF-AuditPolicy.txt)</CodeSnippet>  
-
-* Kopieren Sie die neue Datei **EC-AuditPolicy.txt** (bzw. **SSLF-AuditPolicy.txt** für Hochsicherheitsumgebungen) in die Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung, und überschreiben Sie dabei die bestehende Version.
+5. Kopieren Sie die neue Datei **EC-AuditPolicy.txt** (bzw. **SSLF-AuditPolicy.txt** für Hochsicherheitsumgebungen) in die Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung, und überschreiben Sie dabei die bestehende Version.
 
 
 Die Computer-Gruppenrichtlinienobjekte dieses Handbuchs verwenden die neue Datei EC-AuditPolicy.txt (bzw. SSLF-AuditPolicy.txt) zum Ändern und Konfigurieren der Überwachungsrichtlinieneinstellungen auf Ihren Computern.
@@ -2944,25 +2942,25 @@ Entfernen der Überwachungsrichtlinienkonfiguration
 Wie bereits erwähnt, erstellt die Lösung, die durch die Gruppenrichtlinienobjekte dieses Handbuchs zur Konfiguration der Überwachungsrichtlinien-Unterkategorien implementiert wird, den geplanten Task VSGAudit auf allen Computern in Ihrer Umgebung. Falls Sie die Gruppenrichtlinienobjekte dieses Handbuchs aus Ihrer Umgebung entfernt haben, kann es sinnvoll sein, den geplanten Task VSGAudit zu löschen. Der geplante Task VSGAudit sollte sich nicht auf die Leistung von Computern auswirken, auf denen Windows Vista ausgeführt wird, selbst wenn Sie die Gruppenrichtlinienobjekte dieses Handbuchs aus Ihrer Umgebung entfernt haben.
 
 **So löschen Sie den geplanten Task VSGAudit auf allen Computern in Ihrer Umgebung**
-* Löschen Sie je nach Ihrer Umgebung die folgenden drei Dateien aus der Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung:
+1. Löschen Sie je nach Ihrer Umgebung die folgenden drei Dateien aus der Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung:
 
-Für die Unternehmensclient-Umgebung:
-* EC-VSGAuditPolicy.cmd
+    Für die Unternehmensclient-Umgebung:
 
-* EC-VSGApplyAuditPolicy.cmd
+    - EC-VSGAuditPolicy.cmd
 
-* EC-VSGAuditPolicy.txt
+    - EC-VSGApplyAuditPolicy.cmd
 
+    - EC-VSGAuditPolicy.txt
 
-Für die Hochsicherheitsumgebung:
-* SSLF-VSGAuditPolicy.cmd
+    Für die Hochsicherheitsumgebung:
 
-* SSLF-VSGApplyAuditPolicy.cmd
+    - SSLF-VSGAuditPolicy.cmd
 
-* SSLF-VSGAuditPolicy.txt
+    - SSLF-VSGApplyAuditPolicy.cmd
 
+    - SSLF-VSGAuditPolicy.txt
 
-* Erstellen Sie eine leere Textdatei, geben Sie ihr den Namen DeleteVSGAudit.txt, und kopieren Sie sie in die Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung. Die Textdatei wird automatisch in allen Domänencontrollern Ihrer Umgebung repliziert.
+2. Erstellen Sie eine leere Textdatei, geben Sie ihr den Namen DeleteVSGAudit.txt, und kopieren Sie sie in die Freigabe NETLOGON eines der Domänencontroller in Ihrer Umgebung. Die Textdatei wird automatisch in allen Domänencontrollern Ihrer Umgebung repliziert.
 
 
 Der geplante Task VSGAudit sucht jedes Mal, wenn er ausgeführt wird, nach der Datei DeleteVSGAudit.txt. Wenn er sie findet, löscht der Task sich selbst. Da der geplante Task VSGAudit so konfiguriert ist, dass er stündlich ausgeführt wird, sollte es nicht allzu lange dauern, bis er auf allen Computern der Umgebung gelöscht ist.
@@ -3320,7 +3318,7 @@ Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen
 
 Empfehlungen für Benutzerrechte, deren englische Bezeichnungen mit den verbleibenden Buchstaben des Alphabets beginnen, sind in Tabelle A15 zusammengefasst. Weitere Informationen zu diesen Benutzerrechten finden Sie in den Unterabschnitten im Anschluss an die Tabelle.
 
-**Hinweis:** Viele Funktionen in IIS erfordern, dass bestimmte Konten wie zum Beispiel IIS_WPG, IIS* *IUSR_*&lt;Computername&gt;* und IWAM_*&lt;Computername&gt;* über bestimmte Berechtigungen verfügen. Näheres über die erforderlichen Benutzerrechte für Konten, die sich auf IIS beziehen, finden Sie im Artikel [IIS and Built-in Accounts](http://technet2.microsoft.com/windowsserver/en/library/f1727156-e480-4e05-b168-b764a6e13f881033.mspx?mfr=true) (engl.).
+**Hinweis:** Viele Funktionen in IIS erfordern, dass bestimmte Konten wie zum Beispiel IIS_WPG, IIS IUSR_*&lt;Computername&gt;* und IWAM_*&lt;Computername&gt;* über bestimmte Berechtigungen verfügen. Näheres über die erforderlichen Benutzerrechte für Konten, die sich auf IIS beziehen, finden Sie im Artikel [IIS and Built-in Accounts](http://technet2.microsoft.com/windowsserver/en/library/f1727156-e480-4e05-b168-b764a6e13f881033.mspx?mfr=true) (engl.).
 
 Benutzerrechte, deren englische Bezeichnungen mit den Buchstaben A bis E beginnen
 
@@ -4077,7 +4075,7 @@ Benutzer mit der Berechtigung zur Erstellung globaler Objekte können Prozesse b
 Die Einstellung **Erstellen globaler Objekte** ist für die Unternehmensclient-Umgebung auf **Nicht definiert** und für die Hochsicherheitsumgebung auf **Administratoren**, **Dienst**, **Lokaler Dienst**, und **Netzwerkdienst** gesetzt.
 
 **Erstellen symbolischer Verknüpfungen**  
-Diese Richtlinieneinstellung bestimmt, welche Benutzer symbolische Verknüpfungen erstellen können. In Windows Vista kann auf bestehende NTFS-Dateisystemobjekte wie Dateien und Ordner durch Verweis auf eine neue Art von Dateisystemobjekt, eine so genannte symbolische Verknüpfung, zugegriffen werden. Eine symbolische Verknüpfung ist ein Verweis (ähnlich einer herkömmlichen Verknüpfung oder einer.lnk-Datei) auf ein anderes Dateisystemobjekt. Dieses Objekt kann eine Datei, ein Ordner, eine herkömmliche Verknüpfung oder eine andere symbolische Verknüpfung sein. Der Unterschied zwischen einer herkömmlichen Verknüpfung und einer symbolischen Verknüpfung besteht darin, dass eine herkömmliche Verknüpfung nur aus der Windows-Shell heraus funktioniert. Für andere Programme und Anwendungen sind herkömmliche Verknüpfungen nichts anderes als gewöhnliche Dateien. Bei symbolischen Verknüpfungen ist das Konzept einer herkömmlichen Verknüpfung jedoch als Funktion des NTFS-Dateisystems implementiert.
+Diese Richtlinieneinstellung bestimmt, welche Benutzer symbolische Verknüpfungen erstellen können. In Windows Vista kann auf bestehende NTFS-Dateisystemobjekte wie Dateien und Ordner durch Verweis auf eine neue Art von Dateisystemobjekt, eine so genannte symbolische Verknüpfung, zugegriffen werden. Eine symbolische Verknüpfung ist ein Verweis (ähnlich einer herkömmlichen Verknüpfung oder einer .lnk-Datei) auf ein anderes Dateisystemobjekt. Dieses Objekt kann eine Datei, ein Ordner, eine herkömmliche Verknüpfung oder eine andere symbolische Verknüpfung sein. Der Unterschied zwischen einer herkömmlichen Verknüpfung und einer symbolischen Verknüpfung besteht darin, dass eine herkömmliche Verknüpfung nur aus der Windows-Shell heraus funktioniert. Für andere Programme und Anwendungen sind herkömmliche Verknüpfungen nichts anderes als gewöhnliche Dateien. Bei symbolischen Verknüpfungen ist das Konzept einer herkömmlichen Verknüpfung jedoch als Funktion des NTFS-Dateisystems implementiert.
 
 Symbolische Verknüpfungen können u. U. Sicherheitsanfälligkeiten in Anwendungen darstellen, die nicht für die Verwendung solcher Verknüpfungen vorgesehen sind. Aus diesem Grund sollten nur vertrauenswürdige Benutzer das Recht erhalten, symbolische Verknüpfungen zu erstellen. Standardmäßig können symbolische Verknüpfungen nur von Administratoren erstellt werden.
 
@@ -4115,7 +4113,7 @@ Diese Richtlinieneinstellung ermöglicht es Benutzern, die Einstellung **Für De
 
 Aus diesem Grund ist die Einstellung **Ermöglichen, dass Computer- und Benutzerkonten für Delegierungszwecke vertraut wird** in der Unternehmensclient-Umgebung auf **Nicht definiert** und in der Hochsicherheitsumgebung auf **Niemand** gesetzt.
 
-Benutzerrechte, deren englische Bezeichnungen mit den Buchstaben F bis T beginnen
+Benutzerrechte, deren englische Bezeichnungen mit den Buchstaben F bis T beginnen
 
 Die folgende Tabelle bietet einen Überblick über die empfohlenen Einstellungen für die Zuweisung der Benutzerrechte, deren englische Bezeichnungen mit den Buchstaben F bis T beginnen. In den auf die Tabelle folgenden Unterabschnitten werden die einzelnen Einstellungen ausführlicher beschrieben.
 
@@ -7439,10 +7437,10 @@ Netzwerkzugriff: Registrierungspfade, auf die von anderen Computern aus zugegrif
 
 
 System\CurrentControlSet\  
-Control\ProductOptions
+Control\ProductOptions<br/>
 
 System\CurrentControlSet\  
-Control\Server Applications
+Control\Server Applications<br/>
 
 Software\Microsoft\Windows NT\CurrentVersion
 
@@ -7458,11 +7456,11 @@ Nicht definiert
 <td style="border:1px solid black;">
 
 
-System\CurrentControlSet\  
-Control\ProductOptions
+System\CurrentControlSet\
+Control\ProductOptions<br/>
 
-System\CurrentControlSet\  
-Control\Server Applications
+System\CurrentControlSet\
+Control\Server Applications<br/>
 
 Software\Microsoft\Windows NT\CurrentVersion
 
@@ -7482,31 +7480,31 @@ Software\Microsoft\Windows NT\CurrentVersion
 <td style="border:1px solid black;">
 
 
-System\CurrentControlSet\  
-Control\Print\Printers
+System\CurrentControlSet\ 
+Control\Print\Printers<br/> 
+
+System\CurrentControlSet\
+Services\Eventlog<br/> 
+
+Software\Microsoft\OLAP Server<br/>
+
+Software\Microsoft\Windows NT\CurrentVersion\Print<br/>
+
+Software\Microsoft\Windows NT\CurrentVersion\Windows<br/>
 
 System\CurrentControlSet\  
-Services\Eventlog
-
-Software\Microsoft\OLAP Server
-
-Software\Microsoft\Windows NT\CurrentVersion\Print
-
-Software\Microsoft\Windows NT\CurrentVersion\Windows
+ContentIndex<br/> 
 
 System\CurrentControlSet\  
-ContentIndex
+Control\Terminal Server<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server
+Control\Terminal Server\User Config<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server\User Config
+Control\Terminal Server\Default User Config<br/> 
 
-System\CurrentControlSet\  
-Control\Terminal Server\Default User Config
-
-Software\Microsoft\Windows NT\CurrentVersion\perflib
+Software\Microsoft\Windows NT\CurrentVersion\perflib<br/> 
 
 System\CurrentControlSet\  
 Services\SysmonLog
@@ -7524,30 +7522,30 @@ Nicht definiert
 
 
 System\CurrentControlSet\  
-Control\Print\Printers
+Control\Print\Printers<br/> 
 
 System\CurrentControlSet\  
-Services\Eventlog
+Services\Eventlog<br/> 
 
-Software\Microsoft\OLAP Server
+Software\Microsoft\OLAP Server<br/> 
 
-Software\Microsoft\Windows NT\CurrentVersion\Print
+Software\Microsoft\Windows NT\CurrentVersion\Print<br/> 
 
-Software\Microsoft\Windows NT\CurrentVersion\Windows
-
-System\CurrentControlSet\  
-ContentIndex
+Software\Microsoft\Windows NT\CurrentVersion\Windows<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server
+ContentIndex<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server\User Config
+Control\Terminal Server<br/> 
 
 System\CurrentControlSet\  
-Control\Terminal Server\Default User Config
+Control\Terminal Server\User Config<br/> 
 
-Software\Microsoft\Windows NT\CurrentVersion\perflib
+System\CurrentControlSet\  
+Control\Terminal Server\Default User Config<br/> 
+
+Software\Microsoft\Windows NT\CurrentVersion\perflib<br/> 
 
 System\CurrentControlSet\  
 Services\SysmonLog
@@ -7707,7 +7705,6 @@ Für die Unternehmensclient-Umgebung ist die Einstellung **Netzwerkzugriff: Regi
 * Software\Microsoft\Windows NT\CurrentVersion
 
  
-
 **Netzwerkzugriff: Registrierungspfade und -unterpfade, auf die von anderen Computern aus zugegriffen werden kann**  
 Durch diese Richtlinieneinstellung wird festgelegt, auf welche Registrierungspfade und -unterpfade zugegriffen werden kann, wenn eine Anwendung oder ein Prozess den Schlüssel **WinReg** zur Feststellung der Zugriffsberechtigungen auswertet.
 
@@ -10128,7 +10125,7 @@ Diese Einstellung bestimmt das Verhalten für eingehende Verbindungen, die keine
 **Ausgehende Verbindungen**  
 Diese Einstellung bestimmt das Verhalten für ausgehende Verbindungen, die keiner ausgehenden Firewallregel entsprechen. Standardmäßig werden Verbindungen zugelassen, sofern keine Firewallregeln vorliegen, die diese Verbindungen explizit blocken.
 
-**Wichtig:  ** Wenn Sie für **Ausgehende Verbindungen** die Einstellung **Blocken** festlegen und dann die Firewallrichtlinie mithilfe eines Gruppenrichtlinienobjekts bereitstellen, können Computer, die die Gruppenrichtlinienobjekt-Einstellungen erhalten, nachfolgend keine Gruppenrichtlinienupdates erhalten, es sei denn, Sie stellen eine ausgehende Regel bereit, die die Gruppenrichtlinie in Kraft setzt. Vordefinierte Kernnetzwerkregeln enthalten auch ausgehende Regeln, die die Gruppenrichtlinie in Kraft setzen. Vergewissern Sie sich, dass diese ausgehenden Regeln aktiv sind, und testen Sie alle Firewallprofile gründlich, bevor Sie sie bereitstellen.
+**Wichtig: Wenn Sie für Ausgehende Verbindungen** die Einstellung **Blocken** festlegen und dann die Firewallrichtlinie mithilfe eines Gruppenrichtlinienobjekts bereitstellen, können Computer, die die Gruppenrichtlinienobjekt-Einstellungen erhalten, nachfolgend keine Gruppenrichtlinienupdates erhalten, es sei denn, Sie stellen eine ausgehende Regel bereit, die die Gruppenrichtlinie in Kraft setzt. Vordefinierte Kernnetzwerkregeln enthalten auch ausgehende Regeln, die die Gruppenrichtlinie in Kraft setzen. Vergewissern Sie sich, dass diese ausgehenden Regeln aktiv sind, und testen Sie alle Firewallprofile gründlich, bevor Sie sie bereitstellen.
 
 **Benachrichtigung anzeigen**  
 Wählen Sie diese Option, wenn die Windows-Firewall mit erweiterter Sicherheit den Benutzer benachrichtigen soll, wenn bei einem Programm das Empfangen von eingehenden Verbindungen geblockt ist.
@@ -10154,48 +10151,47 @@ Die folgenden Einstellungsgruppen für die Computerrichtlinie enthalten Einstell
 
 * [System](#_system)
 
-* [Anmeldung](#_logon)
+    - [Anmeldung](#_logon)
 
 
-* [Gruppenrichtlinie](#_group_policy)
+    - [Gruppenrichtlinie](#_group_policy)
 
 
-* [Remoteunterstützung](#_remote_assistance)
+    - [Remoteunterstützung](#_remote_assistance)
 
 
-* [Remoteprozeduraufruf](#_remote_procedure_call)
+    - [Remoteprozeduraufruf](#_remote_procedure_call)
 
 
-* [Internetkommunikationsverwaltung\Internetkommunikationseinstellungen](#_internet_communication_management--)
+    - [Internetkommunikationsverwaltung\Internetkommunikationseinstellungen](#_internet_communication_management--)
 
 
 
 * [Windows-Komponenten](#_windows_components_2)
 
-* [Richtlinien für automatische Wiedergabe](#_autoplay_policies)
+    - [Richtlinien für automatische Wiedergabe](#_autoplay_policies)
 
 
-* [Benutzeroberfläche für Anmeldeinformationen](#_credential_user_interface)
+    - [Benutzeroberfläche für Anmeldeinformationen](#_credential_user_interface)
 
 
-* [Internet Explorer](#_internet_explorer_2)
+    - [Internet Explorer](#_internet_explorer_2)
 
 
-* [NetMeeting](#_netmeeting)
+    - [NetMeeting](#_netmeeting)
 
 
-* [Terminaldienste](#_terminal_services)
+    - [Terminaldienste](#_terminal_services)
 
 
-* [Windows Messenger](#_windows_messenger)
+    - [Windows Messenger](#_windows_messenger)
 
 
-* [Windows Update](#_windows_update)
+    - [Windows Update](#_windows_update)
 
 
 
-
-Netzwerkverbindungen
+#### Netzwerkverbindungen
 
 Es gibt keine bestimmten sicherheitsrelevanten Konfigurationen im Netzwerkcontainer der Gruppenrichtlinie. Es gibt jedoch eine Reihe sehr wichtiger Einstellungen im Container **Netzwerkverbindungen\Windows Firewall.**  
 
@@ -11841,14 +11837,13 @@ Wenn diese Richtlinieneinstellung aktiviert ist, stehen folgende Optionen zur Ve
 Beim Konfigurieren dieser Richtlinieneinstellung können Sie eine Liste mit Benutzern oder Benutzergruppen angeben, die als „Helfer“ Remoteunterstützung anbieten können.
 
 **So konfigurieren Sie die Liste der Helfer**
-* Klicken Sie im Einstellungsfenster **Remoteunterstützung anbieten** auf **Anzeigen.**   Im daraufhin geöffneten neuen Fenster können Sie die Namen der Helfer eingeben.
+1. Klicken Sie im Einstellungsfenster **Remoteunterstützung anbieten** auf **Anzeigen.**   Im daraufhin geöffneten neuen Fenster können Sie die Namen der Helfer eingeben.
 
-* Verwenden Sie beim Hinzufügen von Benutzern oder Gruppen zur Liste **Helfer** eines der folgenden Formate:
-* *&lt;Domänenname&gt;*\*&lt;Benutzername&gt;*
+2. Verwenden Sie beim Hinzufügen von Benutzern oder Gruppen zur Liste **Helfer** eines der folgenden Formate:
 
-* *&lt;Domänenname&gt;*\*&lt;Gruppenname&gt;*
+    - *&lt;Domänenname&gt;*\\*&lt;Benutzername&gt;*
 
-
+    - *&lt;Domänenname&gt;*\\*&lt;Gruppenname&gt;*
 
 Wenn diese Richtlinieneinstellung deaktiviert oder nicht konfiguriert ist, können Benutzer oder Gruppen Computerbenutzern in Ihrer Umgebung keine unangeforderte Remoteunterstützung anbieten.
 
@@ -14073,13 +14068,12 @@ Wenn Sie die Einstellung **Add-On-Liste** aktivieren, müssen Sie eine Liste von
 * **Name des Wertes.**   Die CLSID (Klassen-ID) für das Add-On, das der Liste hinzugefügt werden soll. Die CLSID sollte in Klammern stehen, z. B. {000000000-0000-0000-0000-0000000000000}. Die CLSID für ein Add-On lässt sich aus dem OBJECT-Tag einer Webseite ablesen, auf der auf das Add-On verwiesen wird.
 
 * **Wert.**   Eine Zahl, die anzeigt, ob Internet Explorer das Laden des Add-Ons verweigern oder zulassen soll. Folgende Werte sind gültig:
-* **0** Dieses Add-On verweigern
 
-* **1** Dieses Add-On zulassen
+    - **0** Dieses Add-On verweigern
 
-* **2** Dieses Add-On zulassen und dem Benutzer erlauben, es mithilfe des Befehls „Add-Ons verwalten“ zu verwalten
+    - **1** Dieses Add-On zulassen
 
-
+    - **2** Dieses Add-On zulassen und dem Benutzer erlauben, es mithilfe des Befehls „Add-Ons verwalten“ zu verwalten
 
 Wenn Sie die Einstellung **Add-On-Liste** deaktivieren, wird die Liste gelöscht. Sie sollten erwägen, sowohl **Alle Add-Ons sperren, soweit diese nicht explizit in der Add-On-Liste aufgeführt sind** als auch die **Add-On-Liste** zu verwenden, um zu steuern, welche Add-Ons in Ihrer Umgebung verwendet werden können. Dieser Ansatz sorgt dafür, dass nur autorisierte Add-Ons verwendet werden.
 
@@ -14088,7 +14082,7 @@ NetMeeting
 
 Mit Microsoft NetMeeting® können über das Netzwerk Ihrer Organisation virtuelle Besprechungen durchgeführt werden. Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobjekt-Editor in folgendem Verzeichnis konfiguriert werden:
 
-**Computerkonfiguration\Administrative Vorlagen\Windows-Komponenten\**  
+**Computerkonfiguration\Administrative Vorlagen\Windows-Komponenten\\**  
 **NetMeeting**
 
 **Tabelle A54: Empfohlene NetMeeting-Einstellungen**
@@ -14460,9 +14454,10 @@ Aktiviert
 **Laufwerkumleitung nicht zulassen**  
 Durch diese Richtlinieneinstellung wird verhindert, dass Benutzer die lokalen Laufwerke auf ihren Clientcomputern für Terminalserver freigeben, auf die sie Zugriff haben. Zugeordnete Laufwerke werden in der Sitzungsordnerstruktur von Windows Explorer im folgenden Format angezeigt:
 
-\\TSClient\*&lt;Laufwerkbuchstabe&gt;*$
+\\\TSClient\\*&lt;Laufwerkbuchstabe&gt;*$
 
-Wenn lokale Laufwerke freigegeben werden, besteht die Möglichkeit, dass sich Eindringlinge unerlaubt Zugang zu den Daten auf diesen Laufwerken verschaffen. Aus diesem Grund ist die Einstellung **Laufwerkumleitung nicht zulassen** in der Hochsicherheitsumgebung auf **Aktiviert** gesetzt. Für die Unternehmensclient-Umgebung ist diese Richtlinieneinstellung jedoch auf **Nicht konfiguriert** gesetzt.
+Wenn lokale Laufwerke freigegeben werden, besteht die Möglichkeit, dass sich Eindringlinge unerlaubt Zugang zu den Daten auf diesen Laufwerken verschaffen. Aus diesem Grund ist die Einstellung **Laufwerkumleitung nicht zulassen** in der Hochsicherheitsumgebung auf **Aktiviert** gesetzt. Für die Unternehmensclient-Umgebung ist diese Richtlinieneinstellung jedoch auf **Nicht konfiguriert** gesetzt.  
+
 Terminaldienste\Terminalserver\Sicherheit
 Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobjekt-Editor in folgendem Verzeichnis konfiguriert werden:
 
@@ -14722,7 +14717,7 @@ Es gibt mehrere Einstellungen für Windows Update. Damit Windows Update funktion
 
 Die folgenden empfohlenen Computereinstellungen können im Gruppenrichtlinienobjekt-Editor in folgendem Verzeichnis konfiguriert werden:
 
-**Computerkonfiguration\Administrative Vorlagen\Windows-Komponenten\**  
+**Computerkonfiguration\Administrative Vorlagen\Windows-Komponenten\\**  
 **\Windows Update**
 
 Die in diesem Abschnitt beschriebenen Einstellungen stehen nicht explizit in Zusammenhang mit bestimmten Sicherheitsrisiken. Sie dienen hauptsächlich einer Anpassung der Umgebung an die vom Administrator festgelegten Konfigurationsvorgaben. Ungeachtet dessen ist die Konfiguration von Windows Update unerlässlich, da zur Sicherheit der Umgebung nur dann beigetragen werden kann, wenn die Clientcomputer möglichst bald nach der Bereitstellung neuer Microsoft-Sicherheitsupdates entsprechend aktualisiert werden.
@@ -17708,7 +17703,7 @@ Diese empfohlenen Benutzereinstellungen können im Gruppenrichtlinienobjekt-Edit
 
 Die folgende Tabelle bietet einen Überblick über die empfohlenen Benutzerkonfigurationseinstellungen für Internet Explorer. Weitere Informationen zu jeder Einstellung finden Sie in den Unterabschnitten im Anschluss an die Tabelle.
 
-**Hinweis:  ** Diese Einstellungen gelten nicht für Internet Explorer 7. Sie werden nur für die Unternehmensclient-Umgebung konfiguriert, da in dieser Umgebung auch Computer mit Windows XP und Internet Explorer 6.0 vorhanden sein könnten.
+**Hinweis:** Diese Einstellungen gelten nicht für Internet Explorer 7. Sie werden nur für die Unternehmensclient-Umgebung konfiguriert, da in dieser Umgebung auch Computer mit Windows XP und Internet Explorer 6.0 vorhanden sein könnten.
 
 **Tabelle A71: Empfohlene Einstellungen für Offlineseiten**
 
@@ -18192,6 +18187,7 @@ Veröffentlichen Sie Ihre Kommentare in der Newsgroup [Diskussionen zum Thema Si
 Sie können Ihr Feedback auch an die folgende E-Mail-Adresse senden: [secwish@microsoft.com](mailto:secwish@microsoft.com?subject=windows%20vista%20security%20guide).
 
 Wir freuen uns, von Ihnen zu hören.
+
 [Zum Seitenanfanq](#mainsection)
 
 In diesem Beitrag
@@ -18239,8 +18235,3 @@ In diesem Beitrag
 </tr>
 
 </table>
-
-
-
-
-

@@ -17,7 +17,7 @@ Veröffentlicht: 08. Nov 2006
 
 Die SSLF-Sicherheitsbasis (Specialized Security – Limited Functionality) in diesem Handbuch erfüllt die Nachfrage nach Hochsicherheitsumgebungen für Computer, auf denen Windows Vista™ ausgeführt wird. Sicherheit spielt in diesen Umgebungen eine so wichtige Rolle, dass ein beträchtlicher Verlust an Funktionalität und Verwaltbarkeit akzeptabel ist. Die Unternehmensclient-Sicherheitsbasis (EC) trägt zur Bereitstellung einer größeren Sicherheit bei, die in den meisten Unternehmen für ausreichende Funktionalität des Betriebssystems und der Anwendungen sorgt.
 
-**Achtung:**
+![](images/dd443746.warning(de-de,technet.10).gif)**Achtung:**
 
 Die SSLF-Sicherheitseinstellungen sind nicht für die Mehrzahl der Unternehmen vorgesehen. Die Konfiguration für diese Einstellungen wurde für Organisationen entwickelt, in denen Sicherheit wichtiger ist als Funktionalität.
 
@@ -27,7 +27,7 @@ Es sollte unbedingt beachtet werden, dass die SSLF-Sicherheitsbasis keine Ergän
 
 **Wichtig**: Falls Sie die Verwendung der SSLF-Sicherheitsbasis in Ihrer Umgebung in Betracht ziehen, stellen Sie sich darauf ein, die Computer in Ihrer Umgebung im Anschluss an die Zuweisung der SSLF-Sicherheitseinstellungen gründlichst zu testen. Damit stellen Sie sicher, dass die Sicherheitseinstellungen keine erforderliche Funktionalität für die Computer in der Umgebung abblocken.
 
-Auf dieser Seite
+**Auf dieser Seite**
 
 [Besondere Sicherheitsumgebung](#edaa)  
 [Arbeitsumgebung mit eingeschränkter Funktionalität](#ecaa)  
@@ -41,6 +41,7 @@ Auf dieser Seite
 Unternehmen, in denen Computer und Netzwerke zum Einsatz kommen, sollten Sicherheitsproblemen im System- und Netzwerkentwurf sowie der Konfiguration und Bereitstellung der Computer hohe Priorität zukommen lassen. Dies gilt insbesondere dann, wenn das Unternehmen auch auf externe Ressourcen wie das Internet zugreift. Fähigkeiten wie Prozessautomatisierung, Remoteverwaltung, Remotezugriff, Verfügbarkeit rund um die Uhr, weltweite Zugriffsmöglichkeiten und Geräteunabhängigkeit der Software versetzen ein Unternehmen in die Lage, am modernen Markt rationeller und produktiver vorzugehen. Jedoch werden die Computer dieser Unternehmen dadurch auch potenziellen Bedrohungen ausgesetzt.
 
 Im Allgemeinen ergreifen Administratoren angemessene Vorsichtsmaßnahmen, mit denen der unbefugte Zugriff auf Daten, die Beeinträchtigung des laufenden Betriebs und der Missbrauch von Computern unterbunden werden soll. Bestimmte Organisationen (z. B. Stellen im Militär, Behörden in Staat und Gemeinden, Finanzunternehmen) müssen einige oder alle verwendeten Dienste, Systeme und Daten mit einer besonderen Sicherheitsstufe schützen. Die SSLF-Sicherheitsbasis bietet diesen Organisationen die gesuchte Sicherheitsstufe. Eine Übersicht der SSLF-Einstellungen finden Sie in Anhang A, „Sicherheitsrelevante Gruppenrichtlinieneinstellungen“.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -155,16 +156,16 @@ Die in diesem Leitfaden beschriebene Hochsicherheitslösung beruht auf der Grupp
 **Wichtig**:   Sie müssen alle Anweisungen in diesem Handbuch auf einem Clientcomputer mit Windows Vista ausführen, der mit dem Active Directory®-Verzeichnisdienst einer Domäne hinzugefügt wurde. Der Benutzer, der die Schritte ausführt, muss außerdem über Domänenadministratorrechte verfügen. Wenn Sie das Betriebssystem Microsoft Windows® XP oder Windows Server® 2003 verwenden, werden die Windows Vista–spezifischen Sicherheitseinstellungen nicht in der GPMC angezeigt.
 
 Zum Implementieren des Sicherheitsentwurfs müssen Sie drei Hauptaufgaben ausführen:
-* Erstellen der Hochsicherheitsumgebung
+1. Erstellen der Hochsicherheitsumgebung
 
-* Verknüpfen der Domänenrichtlinie „VSG SSLF Domain Policy“ mit der Domäne mithilfe der GPMC
+2. Verknüpfen der Domänenrichtlinie „VSG SSLF Domain Policy“ mit der Domäne mithilfe der GPMC
 
-* Überprüfen der Ergebnisse mithilfe der Gruppenrichtlinien-Verwaltungskonsole
+3. Überprüfen der Ergebnisse mithilfe der Gruppenrichtlinien-Verwaltungskonsole
 
 
 In diesem Abschnitt des Kapitels werden diese Aufgaben und Verfahren sowie die Funktionsweise des Skripts „GPOAccelerator.wsf“ beschrieben, das automatisch die vorgeschriebenen Gruppenrichtlinienobjekte erstellt.
 
-Das Skript „GPOAccelerator.wsf“
+**Das Skript „GPOAccelerator.wsf“**
 
 Mit dem Skript **GPOAccelerator.wsf**, das diesem Handbuch beiliegt, werden alle erforderlichen Gruppenrichtlinienobjekte erstellt. Sie müssen nicht mit großem Zeitaufwand manuell Richtlinieneinstellungen bearbeiten oder Vorlagen anwenden. Zum Aufbau der Hochsicherheitsumgebung werden die folgenden vier Gruppenrichtlinienobjekte durch das Skript erstellt:
 * **VSG SSLF Domain Policy** für die Domäne.
@@ -259,7 +260,7 @@ Mit der GPMC können Sie die Ergebnisse des Skripts überprüfen. Im Folgenden w
 
 Alle Gruppenrichtlinienobjekte, die vom Skript „GPOAccelerator.wsf“ erstellt werden, enthalten sämtliche in diesem Handbuch empfohlene Einstellungen. Sie können nun mit dem Tool „Active Directory-Benutzer und -Computer“ den Entwurf testen, indem Sie Benutzer und Computer in die entsprechenden Organisationseinheiten verschieben. Details zu den Einstellungen der einzelnen Gruppenrichtlinienobjekte finden Sie in Anhang A, „Sicherheitsrelevante Gruppenrichtlinieneinstellungen“.
 
-Bereitstellen des Entwurfs in einer Produktionsumgebung
+**Bereitstellen des Entwurfs in einer Produktionsumgebung**
 
 Um Zeit zu sparen, können Sie mit dem Skript „GPOAccelerator.wsf“ die Gruppenrichtlinienobjekte für die Hochsicherheitsumgebung erstellen. Sie können dann die Gruppenrichtlinienobjekte mit den entsprechenden Organisationseinheiten in der vorhandenen Struktur verknüpfen. In größeren Domänen mit einer größeren Anzahl von Organisationseinheiten müssen Sie beachten, wie Sie die vorhandene Organisationseinheitsstruktur zum Bereitstellen der Gruppenrichtlinienobjekte verwenden.
 
@@ -399,7 +400,7 @@ Daher müssen Sie diese Tools erweitern, so dass Sie die Sicherheitseinstellunge
     * Das *Windows* *Vista-Sicherheitshandbuch*-Verzeichnis **GPOAccelerator** **Tool** wurde installiert.
 
 
-    **Hinweis:**   Sie können das Verzeichnis „GPOAccelerator Tool“ einfach von einem Computer, auf dem das Verzeichnis installiert ist, auf einen anderen Computer kopieren, auf dem Sie das Skript verwenden möchten. Der Ordner „GPOAccelerator Tool“ und die entsprechenden Unterordner müssen sich auf dem lokalen Computer befinden, damit das Skript wie im folgenden Verfahren beschrieben ausgeführt wird.
+   **Hinweis:**   Sie können das Verzeichnis „GPOAccelerator Tool“ einfach von einem Computer, auf dem das Verzeichnis installiert ist, auf einen anderen Computer kopieren, auf dem Sie das Skript verwenden möchten. Der Ordner „GPOAccelerator Tool“ und die entsprechenden Unterordner müssen sich auf dem lokalen Computer befinden, damit das Skript wie im folgenden Verfahren beschrieben ausgeführt wird.
 
 2. Melden Sie sich am Computer als Administrator an.
 
@@ -438,7 +439,7 @@ Mit dem folgenden Verfahren werden die zusätzlichen MSS-Sicherheitseinstellunge
 
 6. Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
 
-**Hinweis:**   Bei Durchführen dieser Schritte wird der Sicherheitskonfigurations-Editor auf dem Computer auf die Standardeinstellungen in Windows Vista zurückgesetzt. Alle zum Sicherheitskonfigurations-Editor hinzugefügten Einstellungen werden entfernt. Dies hat nur Auswirkungen auf die Fähigkeit zur Anzeige der Einstellungen im Sicherheitskonfigurations-Editor. Konfigurierte Einstellungen für Gruppenrichtlinienobjekte bleiben unverändert.
+    **Hinweis:**   Bei Durchführen dieser Schritte wird der Sicherheitskonfigurations-Editor auf dem Computer auf die Standardeinstellungen in Windows Vista zurückgesetzt. Alle zum Sicherheitskonfigurations-Editor hinzugefügten Einstellungen werden entfernt. Dies hat nur Auswirkungen auf die Fähigkeit zur Anzeige der Einstellungen im Sicherheitskonfigurations-Editor. Konfigurierte Einstellungen für Gruppenrichtlinienobjekte bleiben unverändert.
 
 7. Klicken Sie im Meldungsfeld **The Security Configuration Editor is updated** (Der Sicherheitskonfigurations-Editor wurde aktualisiert) auf **OK.**  
 
@@ -490,7 +491,7 @@ Mit den mit diesem Handbuch bereitgestellten Sicherheitsvorlagen können Sie auc
 
 4. Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
 
-**Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
+    **Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
 
 5. Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /SSLF /Desktop** oder **cscript GPOAccelerator.wsf /SSLF /Laptop** ein, und drücken Sie dann die EINGABETASTE.
 

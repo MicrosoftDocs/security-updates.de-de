@@ -11,7 +11,7 @@ ms:contentKeyID: 20072356
 
 Veröffentlicht: 29. Aug 2006
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Einführung](#efaa)  
 [Definition](#eeaa)  
@@ -211,11 +211,11 @@ Separate Verkabelung für Segmente verwenden, die vom vertrauenswürdigen Netzwe
 
 <td style="border:1px solid black;">
 
-&#x2022; Kostenaufwand für das Verlegen neuer Kabel für jede neue Verbindung
+&#x2022; Kostenaufwand für das Verlegen neuer Kabel für jede neue Verbindung<br/>
 
-&#x2022; Höherer Verwaltungsaufwand für jeweils neue Kabelanschlüsse bei räumlicher Verlagerung von Benutzern
+&#x2022; Höherer Verwaltungsaufwand für jeweils neue Kabelanschlüsse bei räumlicher Verlagerung von Benutzern<br/>
 
-&#x2022; Mangelnde Flexibilität und schwierige Handhabung bei Expansion des Unternehmens
+&#x2022; Mangelnde Flexibilität und schwierige Handhabung bei Expansion des Unternehmens<br/>
 
 &#x2022; Erhöhte Wahrscheinlichkeit versehentlicher Fehler aufgrund des höheren Verwaltungsaufwands
 
@@ -242,9 +242,9 @@ Mithilfe von VLANs logische Subnetze erstellen, die vom vertrauenswürdigen Netz
 
 <td style="border:1px solid black;">
 
-&#x2022; Zusätzliche Kosten in Zusammenhang mit der Aktualisierung der Switchstruktur zur Unterstützung der VLANs
+&#x2022; Zusätzliche Kosten in Zusammenhang mit der Aktualisierung der Switchstruktur zur Unterstützung der VLANs<br/>
 
-&#x2022; Höherer Verwaltungsaufwand für Netzwerkänderungen, räumliche Verlagerung von Benutzern und Beantwortung von Gastverbindungsanforderungen
+&#x2022; Höherer Verwaltungsaufwand für Netzwerkänderungen, räumliche Verlagerung von Benutzern und Beantwortung von Gastverbindungsanforderungen<br/>
 
 &#x2022; Anfälligkeit für versehentliche Fehler bei räumlicher Verlagerung mehrerer Benutzer oder bei Verwendung mobiler Geräte
 
@@ -904,10 +904,10 @@ Ein weiterer Schritt beim Installationsprozess besteht darin, die Skriptversions
 
 4. Erstellen von Quarantäne-CM-Profilen
 
-Ein Quarantäne-CM-Profil ist eigentlich nur ein typisches Remotezugriffs-CM-Profil mit folgenden Zusätzen:
-* Eine Nachverbindungsaktion, die das Skript ausführt, um die Netzwerkrichtlinienkonformität und das Skript als solches zu überprüfen. Dies erfolgt über die Seite „Benutzerdefinierte Aktionen“ des CMAK-Assistenten.
+    Ein Quarantäne-CM-Profil ist eigentlich nur ein typisches Remotezugriffs-CM-Profil mit folgenden Zusätzen:
+    * Eine Nachverbindungsaktion, die das Skript ausführt, um die Netzwerkrichtlinienkonformität und das Skript als solches zu überprüfen. Dies erfolgt über die Seite „Benutzerdefinierte Aktionen“ des CMAK-Assistenten.
 
-* Eine Benachrichtungskomponente muss dem Profil ebenfalls hinzugefügt werden, wie dies auch über den Bildschirm **Zusätzliche Dateien** des CMAK-Assistenten getan wird.
+    * Eine Benachrichtungskomponente muss dem Profil ebenfalls hinzugefügt werden, wie dies auch über den Bildschirm **Zusätzliche Dateien** des CMAK-Assistenten getan wird.
 
 
 5. Verteilen von CM-Profilen
@@ -919,6 +919,7 @@ Die Verteilung dieser Profile kann manuell erfolgen, wobei diese Profile beispie
 6. Konfigurieren einer Quarantäne-RAS-Richtlinie
 
 Das zum Konfigurieren einer Quarantäne-RAS-Richtlinie anzuwendende Verfahren unterscheidet sich je nachdem, ob die Konfiguration auf einem IAS-Server oder einem anderen Authentifizierungsanbieter erfolgt:
+
 * Für die Konfiguration auf einem IAS RADIUS-Server ist das IAS-Snap-In (Internet Authentication Service) zu verwenden.
 
 * Für die Konfiguration auf einem Windows-Authentifizierungsanbieter ist das Routing- und Remotezugriffs-Snap-In zu verwenden.
