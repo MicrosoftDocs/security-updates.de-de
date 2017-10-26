@@ -15,17 +15,17 @@ Aktualisiert: 20.10.2005
 
 ##### Auf dieser Seite
 
-[](#elaa)[Überblick](#elaa)
-[](#ekaa)[Organisationseinheitenentwurf zum Unterstützen der Sicherheitsverwaltung](#ekaa)
-[](#ejaa)[Entwurf von Gruppenrichtlinienobjekten zum Unterstützen der Sicherheitsverwaltung](#ejaa)
-[](#eiaa)[Gruppenrichtlinien auf Domänenebene](#eiaa)
-[](#ehaa)[Kennwortrichtlinieneinstellungen](#ehaa)
-[](#egaa)[Einstellungen der Kontosperrungsrichtlinie](#egaa)
-[](#efaa)[Einstellungen zum Zuweisen von Benutzerrechten](#efaa)
-[](#eeaa)[Einstellungen der Sicherheitsoptionen](#eeaa)
-[](#edaa)[Kerberos-Richtlinie](#edaa)
-[](#ecaa)[Gruppenrichtlinie auf Ebene der Organisationseinheiten](#ecaa)
-[](#ebaa)[Gruppenrichtlinientools](#ebaa)
+[](#elaa)[Überblick](#elaa)  
+[](#ekaa)[Organisationseinheitenentwurf zum Unterstützen der Sicherheitsverwaltung](#ekaa)  
+[](#ejaa)[Entwurf von Gruppenrichtlinienobjekten zum Unterstützen der Sicherheitsverwaltung](#ejaa)  
+[](#eiaa)[Gruppenrichtlinien auf Domänenebene](#eiaa)  
+[](#ehaa)[Kennwortrichtlinieneinstellungen](#ehaa)  
+[](#egaa)[Einstellungen der Kontosperrungsrichtlinie](#egaa)  
+[](#efaa)[Einstellungen zum Zuweisen von Benutzerrechten](#efaa)  
+[](#eeaa)[Einstellungen der Sicherheitsoptionen](#eeaa)  
+[](#edaa)[Kerberos-Richtlinie](#edaa)  
+[](#ecaa)[Gruppenrichtlinie auf Ebene der Organisationseinheiten](#ecaa)  
+[](#ebaa)[Gruppenrichtlinientools](#ebaa)  
 [](#eaaa)[Zusammenfassung](#eaaa)
 
 ### Überblick
@@ -110,7 +110,7 @@ In der folgenden Abbildung wird eine Erweiterung der vorläufigen Organisationse
 
 Im obigen Beispiel sind die Laptopcomputer Mitglied der Organisationseinheit „Laptop“. Die lokale Sicherheitsrichtlinie wird zuerst auf die Laptopcomputer unter Windows XP angewendet. Da es in diesem Beispiel nur einen Standort gibt, wird auf Standortebene kein Gruppenrichtlinienobjekt angewendet. Folglich wird als nächstes das Gruppenrichtlinienobjekt der Domäne angewendet. Zum Schluss wird das Gruppenrichtlinienobjekt für Laptopcomputer angewendet.
 
-**Hinweis**:** **Die Desktoprichtlinie wird nicht auf Laptops angewendet, da sie mit keiner der Organisationseinheiten der Hierarchie verknüpft ist, die die Organisationseinheit „Laptop“ enthält. Außerdem verfügt die Organisationseinheit „Geschützte Windows XP-Benutzer“ über keine entsprechende Sicherheitsvorlage (INF-Datei), da nur Einstellungen aus den administrativen Vorlagen enthalten sind.
+**Hinweis**: Die Desktoprichtlinie wird nicht auf Laptops angewendet, da sie mit keiner der Organisationseinheiten der Hierarchie verknüpft ist, die die Organisationseinheit „Laptop“ enthält. Außerdem verfügt die Organisationseinheit „Geschützte Windows XP-Benutzer“ über keine entsprechende Sicherheitsvorlage (INF-Datei), da nur Einstellungen aus den administrativen Vorlagen enthalten sind.
 
 Die Umsetzung der Vorrangsregeln wird im folgenden Beispielszenario veranschaulicht, in dem die Richtlinieneinstellung **Anmeldung über Terminaldienste zulassen** der Organisationseinheit „Windows XP“ für die Gruppe **Administratoren** und die Laptop-Gruppenrichtlinieneinstellung **Anmeldung über Terminaldienste zulassen** für die Gruppen **Hauptbenutzer** und **Administratoren** festgelegt ist. In diesem Beispiel kann ein Benutzer, dessen Konto sich in der Gruppe **Hauptbenutzer** befindet, sich über Terminaldienste bei einem Laptop anmelden, da die Organisationseinheit „Laptop“ eine untergeordnete Organisationseinheit der Organisationseinheit Windows XP ist. Wenn im Windows XP-Gruppenrichtlinienobjekt die Richtlinienoption **Kein Vorrang** aktiviert wird, können sich nur jene Benutzer über die Terminaldienste am Clientcomputer anmelden, die über Konten in der Gruppe **Administratoren** verfügen.
 
@@ -486,7 +486,7 @@ In der folgenden Tabelle werden die Empfehlungen zu den Einstellungen der Sicher
   
 Durch diese Richtlinieneinstellung wird festgelegt, ob Verbindungen zu Benutzern getrennt werden, wenn diese außerhalb der für ihr Konto gültigen Anmeldezeiten mit einem lokalen Computer verbunden sind. Diese Richtlinieneinstellung betrifft die SMB-Komponente (Server Message Block). Wenn diese Richtlinieneinstellung aktiviert wird, werden die Clientcomputersitzungen mit dem SMB-Dienst bei Überschreiten der Anmeldezeit des Clients abgebrochen. Wenn diese Einstellung deaktiviert wird, wird eine bestehende Clientcomputersitzung nach Ablauf der Anmeldezeit des Clients aufrechterhalten. Wenn Sie diese Richtlinieneinstellung aktivieren, stellen Sie sicher, dass die Einstellung **Netzwerksicherheit: Abmeldung nach Ablauf der Anmeldezeit erzwingen** ebenfalls aktiviert ist.
   
-**Hinweis**:** **SMB ist die Grundlage für freigegebene Ressourcen in Windows-Netzwerken. Daher wirken sich Einstellungen, die SMB beeinflussen, auch auf freigegebene Ressourcen wie z. B. Ordner und Drucker aus.
+**Hinweis**: SMB ist die Grundlage für freigegebene Ressourcen in Windows-Netzwerken. Daher wirken sich Einstellungen, die SMB beeinflussen, auch auf freigegebene Ressourcen wie z. B. Ordner und Drucker aus.
   
 Wenn in Ihrer Organisation Anmeldezeiten für Benutzer festgelegt wurden, ist es sinnvoll, die Einstellung **Microsoft-Netzwerk (Server): Clientverbindungen aufheben, wenn die Anmeldezeit überschritten wird** zu aktivieren. Andernfalls können Benutzer, die außerhalb ihrer Anmeldezeiten normalerweise nicht in der Lage sind, auf das Netzwerk zuzugreifen, die Ressourcen in Sitzungen weiterverwenden, die während der genehmigten Zeiten eingerichtet wurden.
   

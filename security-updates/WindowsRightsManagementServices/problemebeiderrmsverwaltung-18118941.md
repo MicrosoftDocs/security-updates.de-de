@@ -116,6 +116,7 @@ Führen Sie folgende Schritte aus, um eine gesicherte Datenbank wiederherzustell
 6.  Führen Sie dazu einen der folgenden Schritte aus:
 
     -   Klicken Sie neben der Website, auf der RMS bereitgestellt werden soll, auf „RMS auf dieser Website bereitstellen“, um die Datenbank für einen einzelnen Server statt für einen Cluster wiederherzustellen.
+    
         – Oder –
     -   Klicken Sie neben der Website, auf der RMS bereitgestellt werden soll, auf „Diesen Server zu einem Cluster hinzufügen“, um die Datenbank für einen Cluster wiederherzustellen.
 
