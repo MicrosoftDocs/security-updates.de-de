@@ -305,15 +305,13 @@ Zuerst ist die Zertifizierungsstelle für die Zuordnung der erforderlichen Zerti
 
 4. Erweitern Sie **Dienste**, klicken Sie auf **Public Key Services** und danach auf **Zertifikatvorlagen** (siehe Abbildung).
 
- 
-    ![](images/cc875840.sclvpn02(de-de,technet.10).gif)
+     ![](images/cc875840.sclvpn02(de-de,technet.10).gif)
 
     [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn02_big(de-de,technet.10).gif)
 
 5. Klicken Sie mit der rechten Maustaste auf die Zertifikatvorlage **EnrollmentAgent**, und wählen Sie **Eigenschaften** aus.
 
 6. Fügen Sie die Sicherheitsgruppe für die Registrierungs-Agenten hinzu, die Sie im Rahmen der Bereitstellungsvoraussetzungen eingerichtet haben, und weisen Sie **Lese**- und **Registrierungsberechtigungen** zu (siehe Abbildung). Klicken Sie danach auf **OK.**  
-
 
     ![](images/cc875840.sclvpn03(de-de,technet.10).gif)
 
@@ -405,7 +403,6 @@ Nun können Sie EAP in RAS-Richtlinien aktivieren. Die RAS-Richtlinienkomponente
 
 2. Doppelklicken Sie im rechten Bereich auf **Verbindungen mit dem Microsoft Routing- und RAS-Server.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
 
-    
     ![](images/cc875840.sclvpn09(de-de,technet.10).gif)
 
     [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn09_big(de-de,technet.10).gif)
@@ -431,7 +428,6 @@ Nun können Sie EAP in RAS-Richtlinien aktivieren. Die RAS-Richtlinienkomponente
 6. Markieren Sie in der Dropdownliste das Zertifikat, das für die EAP-Authentifizierung verwendet werden soll, und klicken Sie danach dreimal auf **OK.**  
 
 7. Vergewissern Sie sich, dass **RAS-Berechtigung erteilen** ausgewählt ist, klicken Sie auf **OK**, und schließen Sie dann „Routing und RAS“.
-
 
 
 #### Konfiguration von VPN-Clients für die Smartcard-Authentifizierung
@@ -464,11 +460,9 @@ Konfigurieren Sie den Telefonbucheintrag nach dessen Erstellung für die Verwend
 
 **So konfigurieren Sie eine vorhandene Verbindung für die Verwendung der Smartcard-Authentifizierung**
 1. Klicken Sie mit der rechten Maustaste auf die Verbindung, wählen Sie **Eigenschaften** aus, und klicken Sie danach auf die Registerkarte **Sicherheit.**   Der folgende Bildschirm wird angezeigt.
-
  
     ![](images/cc875840.sclvpn15(de-de,technet.10).gif)
  
-
 2. Vergewissern Sie sich, dass **Typisch (empfohlene Einstellungen)** ausgewählt ist, und klicken Sie danach in der Dropdownliste **Identität folgendermaßen bestätigen** auf die Option **Smartcard verwenden.**  
 
 3. Wählen Sie **Erweitert (benutzerdefinierte Einstellungen)** aus, und klicken Sie auf **Einstellungen.**  
@@ -525,7 +519,6 @@ Falls VPN-Verbindungen für mehrere Clients zu konfigurieren sind, können Sie d
 
 7. Auf dem Bildschirm **VPN-Unterstützung** (siehe Abbildung) können Sie ein Telefonbuch aus dem Profil erstellen und den bzw. die VPN-Server für Ihre VPN-Clients konfigurieren.
 
-
     ![](images/cc875840.sclvpn18(de-de,technet.10).gif)
 
     Ein Telefonbuch enthält Informationen wie z. B. Vorwahl, Anschlussnummer und Benutzerauthentifizierungsmethoden. Das Telefonbuch des Verbindungs-Managers umfasst außerdem verschiedene Netzwerkeinstellungen, die Sie bei der Ausführung des Assistenten für das Microsoft Verbindungs-Manager-Verwaltungskit konfigurieren.
@@ -542,7 +535,6 @@ Falls VPN-Verbindungen für mehrere Clients zu konfigurieren sind, können Sie d
 
 9. Wählen Sie in der Dropdownliste **Sicherheitseinstellungen** die Option **Erweiterte Sicherheitseinstellungen verwenden** aus, und klicken Sie auf **Konfigurieren.**   Das folgende Dialogfeld wird angezeigt.
 
-
     ![](images/cc875840.sclvpn21(de-de,technet.10).gif)
 
 10. Stellen Sie sicher, dass in der Dropdownliste **Datenverschlüsselung** der Eintrag **Verschlüsselung ist erforderlich** aktiviert ist, und dass Sie das korrekte Tunneling-Protokoll in der Dropdownliste „VPN-Strategie“ auswählen.
@@ -551,7 +543,6 @@ Falls VPN-Verbindungen für mehrere Clients zu konfigurieren sind, können Sie d
 
     ![](images/cc875840.sclvpn22(de-de,technet.10).gif)
  
-
 11. Vergewissern Sie sich, dass **Eigene Smartcard verwenden** ausgewählt ist. Wählen Sie außerdem **Serverzertifikat überprüfen** aus, sofern der Client die Gültigkeit des Servers bestätigen soll. Sie können darüber hinaus den Namen von einem oder mehreren Servern, zu denen die Verbindung hergestellt werden soll, sowie die Stammzertifizierungsstelle für die Serverüberprüfung eingeben. Falls Ihr Client sich anhand eines anderen Benutzernamens als dem im Zertifikat authentifizieren muss, wählen Sie **Anderen Benutzernamen für die Verbindung verwenden** aus. Klicken Sie dreimal auf **OK** und danach auf **Weiter.**  
 
 12. Auf dem Bildschirm **Telefonbuch** können Sie eine zusätzliche Telefonbuchdatei in das Profil einschließen und Updates für das Telefonbuch automatisch herunterladen. Das Telefonbuch enthält Informationen wie z. B. Vorwahl, Anschlussnummer und unterstützte Benutzerauthentifizierungsmethoden. Das Telefonbuch des Verbindungs-Managers umfasst außerdem verschiedene Netzwerkeinstellungen, die Sie bei der Ausführung des Assistenten für das Microsoft Verbindungs-Manager-Verwaltungskit konfigurieren. Bei Auswahl von **Automatischer Download von Telefonbuchupdates** müssen Sie den Speicherort angeben, von dem die Updates heruntergeladen werden. Sind keine Telefonbuchupdates erforderlich, wählen Sie diese Option nicht aus. Klicken Sie auf **Weiter.**  
@@ -585,7 +576,6 @@ Falls VPN-Verbindungen für mehrere Clients zu konfigurieren sind, können Sie d
 26. Wählen Sie auf dem Bildschirm **Dienstprofil erstellen** die Option **Erweiterte Anpassung** aus, und klicken Sie auf **Weiter.**  
 
 27. auf dem Bildschirm **Erweiterte Anpassung** (siehe Abbildung) können Sie die Werte der Einstellungen in Ihren Profilkonfigurationsdateien konfigurieren. Sie sollten für Smartcard-fähige VPN-Verbindungen die Einwahl durch Festlegen des Werts 0 deaktivieren. Die Einstellungen HideDomain, HideUserName und HidePassword wurden ebenfalls aktiviert.
-
 
     ![](images/cc875840.sclvpn23(de-de,technet.10).gif)
 
