@@ -10,13 +10,12 @@ ms:contentKeyID: 20072351
 # Unterstützung von Smartcard-Anmeldungen für VPN-Verbindungen für den Remotezugriff
 
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Einführung](#edaa)  
 [Smartcard-Technologien](#ecaa)  
 [Szenario für die Smartcard-Anmeldung für den VPN-Remotezugriff](#ebaa)  
 [Zusammenfassung](#eaaa)  
-
 
 
 ### Einführung
@@ -91,6 +90,7 @@ Verwenden Sie zur Unterstützung einer möglichst breiten Palette von Microsoft-
 Bei Verwendung von Microsoft Windows® 2000 oder höher lässt sich mit EAP, L2TP und IPsec eine höhere Sicherheitsstufe erreichen.
 
 Weitere Informationen zu VPN-Authentifizierung, Tunneling und Verschlüsselung erhalten Sie im Whitepaper [Virtual Private-Netzwerkbetrieb: Ein Überblick](http://www.microsoft.com/technet/prodtechnol/windows2000serv/plan/vpnoverview.mspx) (möglicherweise in englischer Sprache) auf Microsoft TechNet unter www.microsoft.com/technet/prodtechnol/windows2000serv/plan/vpnoverview.mspx.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -147,11 +147,11 @@ Der Verbindungs-Manager ist eine Standardfunktion unter Windows XP, mit der Net
 
 Die Smartcard-Bereitstellung kann Kartenverwaltungssoftware auf dem Client einschließen. Diese Software umfasst Tools zur Verwaltung, Konnektivität und Sicherheit von Smartcards, mit denen der Inhalt von Smartcards eingesehen, PINs zurückgesetzt und zusätzliche Zertifikate hinzugefügt werden können.
 
-Voraussetzungen für die VPN-Serverhardware
+#### Voraussetzungen für die VPN-Serverhardware
 
 VPN-Verbindungen bedeuten zusätzliche Prozessorauslastungen auf dem Remotezugriffsserver. Sichere Smartcard-Anmeldungen tragen nur geringfügig dazu bei. VPN-Remotezugriffsserver mit einem hohen Aufkommen an eingehenden Verbindungen benötigen neben der Tauglichkeit für starken Netzwerkverkehr schnelle Prozessoren, möglichst in einer Mehrprozessorkonfiguration. Unternehmen, die durch IPsec gesicherte VPNs verwenden, können Netzwerkkarten einsetzen, die den IPsec-Verschlüsselungsvorgang auf einen separaten Prozessor auf der Netzwerkkarte umlagern.
 
-Voraussetzungen für die VPN-Serversoftware
+#### Voraussetzungen für die VPN-Serversoftware
 
 Die Voraussetzungen für die VPN-Serversoftware für den Smartcard-Zugriff sind relativ einfach. Auf den Remotezugriffsservern muss Windows 2000 Server oder höher ausgeführt werden, und Routing und RAS muss aktiviert sein. Außerdem ist Unterstützung von EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) erforderlich.
 
@@ -180,11 +180,11 @@ Für Smartcards ist eine geeignete Infrastruktur erforderlich, die vom Betriebss
 * Registrierungsstellen und -Agenten
 
 
-Benutzeranforderungen
+#### Benutzeranforderungen
 
 Die Identifizierung von Benutzern und Gruppen, die VPN-Zugriff benötigen, ist ein wichtiger Bestandteil der Smartcard-Bereitstellung. Ermitteln Sie diese Konten zu einem frühen Zeitpunkt des Vorgangs, um den Projektumfang festlegen und die Kosten kontrollieren zu können.
 
-Public Key-Infrastruktur (PKI)
+#### Public Key-Infrastruktur (PKI)
 
 Für Smartcard-Lösungen ist eine PKI erforderlich, um Zertifikate mit Paaren aus öffentlichen und privaten Schlüsseln bereitzustellen, mit denen Konten in Active Directory zugeordnet werden können. Solch eine PKI lässt sich auf zwei Arten implementieren: Überlassen Sie die interne Zertifikatsstruktur einer externen Organisation, oder nutzen Sie die Zertifikatsdienste unter Windows Server 2003. Zur Nutzung der Zertifikatsdienste unter Windows Server 2003 für Ihre Smartcard-Lösung muss die Zertifizierungsstelle eine Unternehmensstelle sein, für die Active Directory erforderlich ist.
 
@@ -198,7 +198,7 @@ Verwenden Sie die PKI zur Zuordnung eines Zertifikats zu jeder Smartcard in Ihre
 
 Für die gegenseitige Authentifizierung müssen Sie dem VPN-Server ein Zertifikat von einer Zertifizierungsstelle zuordnen, die vom Client als vertrauenswürdig eingestuft wird. Achten Sie bei der Nutzung der Zertifikatsdienste unter Windows Server 2003 darauf, das PKI-Stammzertifikat auf dem VPN-Client zu installieren.
 
-Zertifikatvorlagen
+#### Zertifikatvorlagen
 
 Windows Server 2003 umfasst spezielle Zertifikatvorlagen für die Ausstellung digitaler Zertifikate zur Verwendung mit Smartcard-Lösungen. Die folgenden drei Zertifikatvorlagen stehen für die Smartcard-Verwendung zur Verfügung:
 * Der Registrierungs-Agent, mit dem ein autorisierter Benutzer Zertifikate für andere Personen anfordern kann.
@@ -214,7 +214,7 @@ Für Ihre VPN-Lösung ist mindestens ein Administrator mit einem Registrierungs-
 
 Weitere Informationen zu Zertifikatvorlagen finden Sie im Artikel über [Zertifikatvorlagen](http://technet2.microsoft.com/windowsserver/en/library/7d82b420-10ef-4f20-a56f-17ee7ee352d21033.mspx?mfr=true) (möglicherweise in englischer Sprache) im TechNet unter http://technet2.microsoft.com/WindowsServer/en/Library/7d82b420-10ef-4f20-a56f-17ee7ee352d21033.mspx?mfr=true.
 
-Active Directory
+#### Active Directory
 
 Active Directory stellt die Mittel zur Verwaltung der Identitäten und Beziehungen zur Verfügung, aus denen Netzwerkumgebungen bestehen, und ist eine Schlüsselkomponente für die Implementierung von Smartcard-Lösungen. Unter Windows Server 2003 bietet Active Directory Unterstützung für die Erzwingung von Smartcard-Anmeldungen sowie die Möglichkeit, Konten Zertifikaten zuzuordnen. Durch diese Möglichkeit wird der private Schlüssel auf der Smartcard mit dem Zertifikat in Active Directory verknüpft.
 
@@ -225,7 +225,7 @@ Weitere Informationen zur Zertifikatszuordnung finden Sie im Artikel [Zuordnen v
 Weitere Informationen zu Active Directory finden Sie auf der Seite über [Windows Server 2003 Active Directory](http://www.microsoft.com/windowsserver2003/technologies/directory/activedirectory/default.mspx) unter www.microsoft.com/windowsserver2003/technologies/directory/activedirectory/  
 default.mspx.
 
-Sicherheitsgruppen
+#### Sicherheitsgruppen
 
 Der Smartcard-Bereitstellungs- und -Verwaltungsprozess ist bedeutend einfacher, wenn innerhalb von Active Directory Sicherheitsgruppen zum Organisieren von Benutzern verwendet werden. Für eine typische Smartcard-Bereitstellung kann z. B. die Einrichtung der folgenden Sicherheitsgruppen erforderlich sein:
 * **Smartcard-Registrierungs-Agenten.**   Smartcard-Registrierungs-Agenten sind für die Verteilung von Smartcards an Benutzer zuständig.
@@ -241,7 +241,7 @@ Der Smartcard-Bereitstellungs- und -Verwaltungsprozess ist bedeutend einfacher, 
 
 Für Ihre VPN-Lösung sind zumindest Gruppen für Registrierungs-Agenten und Smartcard-Benutzer erforderlich. Die Einrichtung dieser Gruppen ermöglicht Ihnen eine vereinfachte Verwaltung und Konfiguration mehrerer Benutzer.
 
-Registrierungsstellen und -Agenten
+#### Registrierungsstellen und -Agenten
 
 Um Smartcards für Benutzer auszustellen bzw. Benutzer für Smartcards zu registrieren, kann zwar eine webbasierte Oberfläche verwendet werden, doch wird diese Vorgehensweise nicht empfohlen. Da Benutzer zum Erhalt von Smartcards ihre Benutzernamen und Kennwörter angeben müssen, wird hierbei die Sicherheit der Smartcard im Endeffekt auf die Stufe herabgesetzt, die für die Eingabe von Anmeldeinformationen im Web gilt. Die empfohlene Vorgehensweise besteht darin, Registrierungsstellen einzurichten und mindestens einen Administrator als Registrierungs-Agenten einzusetzen.
 
@@ -267,7 +267,7 @@ Folgende Punkte sind in die Erwägungen einzubeziehen:
 
 * **Berücksichtigung privater Anlagen.**   Vergessen Sie nicht, dass die Heimcomputer von Mitarbeitern deren Besitz sind und nicht von der IT-Abteilung eines Unternehmens verwaltet werden. Für den Fall, dass ein Mitarbeiter nicht in der Lage ist, die für den sicheren Smartcard-Remotezugriff erforderliche Hardware und Software zu installieren, gibt es andere Optionen. So bietet z. B. Microsoft Outlook® Web Access (OWA) Mitarbeitern Zugriff auf ihre Microsoft Exchange Server-Postfächer über verschlüsselte SSL- (Secure Sockets Layer-)Verbindungen.
 
-Weitere Informationen zur E-Mail-Sicherheit finden Sie im Dokument [Schutz der Vertraulichkeit von E-Mails in regulierten Branchen](http://go.microsoft.com/fwlink/?linkid=71176) dieser Serie unter http://go.microsoft.com/fwlink/?LinkId=71176.
+    Weitere Informationen zur E-Mail-Sicherheit finden Sie im Dokument [Schutz der Vertraulichkeit von E-Mails in regulierten Branchen](http://go.microsoft.com/fwlink/?linkid=71176) dieser Serie unter http://go.microsoft.com/fwlink/?LinkId=71176.
 
 * **Verwalten von Änderungen an der Lösung.**   Jegliche Änderungen und Verbesserungen, die an der Lösung vorgenommen werden, müssen anhand ähnlicher Prozesse wie die für die anfängliche Bereitstellung verwaltet werden.
 
@@ -282,6 +282,7 @@ Weitere Informationen zur E-Mail-Sicherheit finden Sie im Dokument [Schutz der V
 
 Der in diesem Abschnitt beschriebene Prozess zur Konfiguration der Smartcard-Anmeldung für Remotezugriff-VPNs ist für kleine und mittelgroße Unternehmen gedacht. Die folgende Abbildung stellt das Netzwerk eines mittelgroßen Unternehmens dar. In Ihrer eigenen Umgebung können einige oder alle der angegebenen Dienste vorhanden sein.
 
+![](images/cc875840.sclvpn01(de-de,technet.10).gif)
 
 **Abbildung 1. Remotezugriff in mittelgroßen IT-Umgebungen**
  
@@ -296,42 +297,45 @@ Die folgenden Verfahren helfen Ihnen bei der Vorbereitung, Bereitstellung und Ko
 Zuerst ist die Zertifizierungsstelle für die Zuordnung der erforderlichen Zertifikate, des Registrierungs-Agenten und der Smartcard-Anmeldung vorzubereiten.
 
 **So bereiten Sie eine Zertifizierungsstelle für die Ausstellung von Smartcard-Zertifikaten vor**
-* Melden Sie sich mit Administratorrechten an.
+1. Melden Sie sich mit Administratorrechten an.
 
-* Öffnen Sie **Active Directory-Standorte und -Dienste.**  
+2. Öffnen Sie **Active Directory-Standorte und -Dienste.**  
 
-* Klicken Sie im Menü **Ansicht** auf **Dienstknoten anzeigen.**  
+3. Klicken Sie im Menü **Ansicht** auf **Dienstknoten anzeigen.**  
 
-* Erweitern Sie **Dienste**, klicken Sie auf **Public Key Services** und danach auf **Zertifikatvorlagen** (siehe Abbildung).
+4. Erweitern Sie **Dienste**, klicken Sie auf **Public Key Services** und danach auf **Zertifikatvorlagen** (siehe Abbildung).
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn02_big(de-de,technet.10).gif)
+     ![](images/cc875840.sclvpn02(de-de,technet.10).gif)
 
-* Klicken Sie mit der rechten Maustaste auf die Zertifikatvorlage **EnrollmentAgent**, und wählen Sie **Eigenschaften** aus.
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn02_big(de-de,technet.10).gif)
 
-* Fügen Sie die Sicherheitsgruppe für die Registrierungs-Agenten hinzu, die Sie im Rahmen der Bereitstellungsvoraussetzungen eingerichtet haben, und weisen Sie **Lese**- und **Registrierungsberechtigungen** zu (siehe Abbildung). Klicken Sie danach auf **OK.**  
+5. Klicken Sie mit der rechten Maustaste auf die Zertifikatvorlage **EnrollmentAgent**, und wählen Sie **Eigenschaften** aus.
 
-&gt;  
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn03_big(de-de,technet.10).gif)
+6. Fügen Sie die Sicherheitsgruppe für die Registrierungs-Agenten hinzu, die Sie im Rahmen der Bereitstellungsvoraussetzungen eingerichtet haben, und weisen Sie **Lese**- und **Registrierungsberechtigungen** zu (siehe Abbildung). Klicken Sie danach auf **OK.**  
 
-* Schließen Sie **Active Directory-Standorte und -Dienste.**  
+    ![](images/cc875840.sclvpn03(de-de,technet.10).gif)
 
-* Öffnen Sie **Zertifizierungsstelle.**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn03_big(de-de,technet.10).gif)
 
-* Erweitern Sie den Servernamen, und wählen Sie **Zertifikatvorlagen** aus. Im rechten Fensterbereich sehen Sie die Liste der Zertifikate, die von der Zertifizierungsstelle zugeordnet werden können (siehe Abbildung).
+7. Schließen Sie **Active Directory-Standorte und -Dienste.**  
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn04_big(de-de,technet.10).gif)
+8. Öffnen Sie **Zertifizierungsstelle.**  
 
-* Klicken Sie mit der rechten Maustaste auf **Zertifikatvorlagen**, zeigen Sie auf **Neu**, und klicken Sie danach auf **Auszustellende Zertifikatvorlage.**  
+9. Erweitern Sie den Servernamen, und wählen Sie **Zertifikatvorlagen** aus. Im rechten Fensterbereich sehen Sie die Liste der Zertifikate, die von der Zertifizierungsstelle zugeordnet werden können (siehe Abbildung).
 
-* Halten Sie die STRG-Taste gedrückt, während Sie in der Liste **Zertifikatvorlagen aktivieren** die Einträge **Registrierungs-Agent** und **Smartcard-Anmeldung** markieren (siehe Abbildung). Klicken Sie danach auf **OK.**  
+    ![](images/cc875840.sclvpn04(de-de,technet.10).gif)
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn05_big(de-de,technet.10).gif)
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn04_big(de-de,technet.10).gif)
 
-* Schließen Sie **Zertifizierungsstelle.**  
+10. Klicken Sie mit der rechten Maustaste auf **Zertifikatvorlagen**, zeigen Sie auf **Neu**, und klicken Sie danach auf **Auszustellende Zertifikatvorlage.**  
 
+11. Halten Sie die STRG-Taste gedrückt, während Sie in der Liste **Zertifikatvorlagen aktivieren** die Einträge **Registrierungs-Agent** und **Smartcard-Anmeldung** markieren (siehe Abbildung). Klicken Sie danach auf **OK.**  
+
+    ![](images/cc875840.sclvpn05(de-de,technet.10).gif)
+
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn05_big(de-de,technet.10).gif)
+
+12. Schließen Sie **Zertifizierungsstelle.**  
 
 
 #### Bereitstellung von Zertifikaten für Smartcards
@@ -339,31 +343,33 @@ Zuerst ist die Zertifizierungsstelle für die Zuordnung der erforderlichen Zerti
 Nun können Sie Zertifikate Smartcards und Remotebenutzern zuordnen. Melden Sie sich als Registrierungs-Agent für die Domäne an, in der sich das betreffende Benutzerkonto befindet.
 
 **So stellen Sie Zertifikate für Smartcards bereit**
-* Öffnen Sie Microsoft Internet Explorer®.
+1. Öffnen Sie Microsoft Internet Explorer®.
 
-* Geben Sie in der Adressleiste die Adresse der Zertifizierungsstelle ein, die Smartcard-Anmeldezertifikate ausstellt, und drücken Sie die Eingabetaste.
+2. Geben Sie in der Adressleiste die Adresse der Zertifizierungsstelle ein, die Smartcard-Anmeldezertifikate ausstellt, und drücken Sie die Eingabetaste.
 
-* Klicken Sie auf **Ein Zertifikat anfordern** und danach auf **Erweiterte Zertifikatanforderung.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
+3. Klicken Sie auf **Ein Zertifikat anfordern** und danach auf **Erweiterte Zertifikatanforderung.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn06_big(de-de,technet.10).gif)
+    ![](images/cc875840.sclvpn06(de-de,technet.10).gif)
 
-* Klicken Sie auf **Ein Smartcardzertifikat für einen anderen Benutzer mit Hilfe der Smartcard-Zertifikatregistrierungsstelle anfordern.**   Klicken Sie bei der Aufforderung, ein Microsoft ActiveX®-Steuerelement anzunehmen, auf **Ja.**   Sie müssen die Verwendung von ActiveX-Steuerelementen in Internet Explorer aktivieren.
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn06_big(de-de,technet.10).gif)
 
-* Wählen Sie auf dem Bildschirm **Smartcard-Zertifikatregistrierungsstelle** (siehe Abbildung) **Smartcard-Anmeldung** aus. Es sollten die Namen der **Zertifizierungsstelle**, des **Kryptografiedienstanbieters** und des **Administratorsignaturzertifikats** angezeigt werden. Falls kein Administratorsignaturzertifikat ausgewählt werden kann, wurde dem angemeldeten Benutzer kein Registrierungs-Agent-Zertifikat zugeordnet.
+4. Klicken Sie auf **Ein Smartcardzertifikat für einen anderen Benutzer mit Hilfe der Smartcard-Zertifikatregistrierungsstelle anfordern.**   Klicken Sie bei der Aufforderung, ein Microsoft ActiveX®-Steuerelement anzunehmen, auf **Ja.**   Sie müssen die Verwendung von ActiveX-Steuerelementen in Internet Explorer aktivieren.
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn07_big(de-de,technet.10).gif)
+5. Wählen Sie auf dem Bildschirm **Smartcard-Zertifikatregistrierungsstelle** (siehe Abbildung) **Smartcard-Anmeldung** aus. Es sollten die Namen der **Zertifizierungsstelle**, des **Kryptografiedienstanbieters** und des **Administratorsignaturzertifikats** angezeigt werden. Falls kein Administratorsignaturzertifikat ausgewählt werden kann, wurde dem angemeldeten Benutzer kein Registrierungs-Agent-Zertifikat zugeordnet.
 
-* Wählen Sie in der Dropdownliste **Zertifizierungsstelle** den Namen der Zertifizierungsstelle aus, die das Smartcard-Zertifikat ausstellen soll.
+    ![](images/cc875840.sclvpn07(de-de,technet.10).gif)
 
-* Wählen Sie in der Dropdownliste **Kryptografiedienstanbieter** den Hersteller der Smartcard aus.
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn07_big(de-de,technet.10).gif)
 
-* Geben Sie unter **Administratorsignaturzertifikat** den Namen des Registrierungs-Agent-Zertifikats ein, das die Registrierungsanforderung signieren wird, oder klicken Sie auf **Zertifikat auswählen**, um einen Namen auszuwählen.
+6. Wählen Sie in der Dropdownliste **Zertifizierungsstelle** den Namen der Zertifizierungsstelle aus, die das Smartcard-Zertifikat ausstellen soll.
 
-* Klicken Sie auf **Benutzer wählen**, und wählen Sie danach das gewünschte Benutzerkonto aus. Klicken Sie auf **Registrieren.**  
+7. Wählen Sie in der Dropdownliste **Kryptografiedienstanbieter** den Hersteller der Smartcard aus.
 
-* Schieben Sie bei Aufforderung die Smartcard in den Smartcard-Leser an Ihrem Computer ein, und klicken Sie auf **OK.**   Geben Sie bei Aufforderung die PIN-Nummer für die Smartcard ein.
+8. Geben Sie unter **Administratorsignaturzertifikat** den Namen des Registrierungs-Agent-Zertifikats ein, das die Registrierungsanforderung signieren wird, oder klicken Sie auf **Zertifikat auswählen**, um einen Namen auszuwählen.
+
+9. Klicken Sie auf **Benutzer wählen**, und wählen Sie danach das gewünschte Benutzerkonto aus. Klicken Sie auf **Registrieren.**  
+
+10. Schieben Sie bei Aufforderung die Smartcard in den Smartcard-Leser an Ihrem Computer ein, und klicken Sie auf **OK.**   Geben Sie bei Aufforderung die PIN-Nummer für die Smartcard ein.
 
 
 
@@ -372,18 +378,19 @@ Nun können Sie Zertifikate Smartcards und Remotebenutzern zuordnen. Melden Sie 
 Nun können Sie den VPN-Server konfigurieren.
 
 **So konfigurieren Sie den Routing- und RAS-Dienst zur Annahme der EAP-Authentifizierung**
-* Starten Sie das Routing- und RAS-Snap-In.
+1. Starten Sie das Routing- und RAS-Snap-In.
 
-* Klicken Sie mit der rechten Maustaste auf ***&lt;servername&gt;***, und klicken Sie auf **Eigenschaften** und danach auf die Registerkarte **Sicherheit.**  
+2. Klicken Sie mit der rechten Maustaste auf ***&lt;servername&gt;***, und klicken Sie auf **Eigenschaften** und danach auf die Registerkarte **Sicherheit.**  
 
-* Klicken Sie auf **Authentifizierungsmethoden.**  
+3. Klicken Sie auf **Authentifizierungsmethoden.**  
 
-* Aktivieren Sie das Kontrollkästchen **Extensible Authentication-Protokoll (EAP)** (siehe Abbildung), und klicken Sie auf **OK.**  
+4. Aktivieren Sie das Kontrollkästchen **Extensible Authentication-Protokoll (EAP)** (siehe Abbildung), und klicken Sie auf **OK.**  
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn08_big(de-de,technet.10).gif)
+    ![](images/cc875840.sclvpn08(de-de,technet.10).gif)
 
-* Klicken Sie auf **OK.**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn08_big(de-de,technet.10).gif)
+
+5. Klicken Sie auf **OK.**  
 
 
 
@@ -392,32 +399,35 @@ Nun können Sie den VPN-Server konfigurieren.
 Nun können Sie EAP in RAS-Richtlinien aktivieren. Die RAS-Richtlinienkomponente ist standardmäßig im Routing- und RAS-Snap-In enthalten. Sofern der Internetauthentifizierungsdienst (IAS; auch als RADIUS-Protokoll für Remoteauthentifizierung bezeichnet) installiert ist, ist die RAS-Richtlinienkomponente stattdessen im IAS-Snap-In enthalten.
 
 **So aktivieren Sie EAP mit RAS-Richtlinien**
-* Klicken Sie im linken Bereich von „Routing und RAS“ auf **RAS-Richtlinien.**  
+1. Klicken Sie im linken Bereich von „Routing und RAS“ auf **RAS-Richtlinien.**  
 
-* Doppelklicken Sie im rechten Bereich auf **Verbindungen mit dem Microsoft Routing- und RAS-Server.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
+2. Doppelklicken Sie im rechten Bereich auf **Verbindungen mit dem Microsoft Routing- und RAS-Server.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn09_big(de-de,technet.10).gif)
+    ![](images/cc875840.sclvpn09(de-de,technet.10).gif)
 
-* Klicken Sie auf **Profil bearbeiten**, auf die Registerkarte **Authentifizierung** und danach auf **EAP-Methoden** (siehe Abbildung).
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn09_big(de-de,technet.10).gif)
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn10_big(de-de,technet.10).gif)
+3. Klicken Sie auf **Profil bearbeiten**, auf die Registerkarte **Authentifizierung** und danach auf **EAP-Methoden** (siehe Abbildung).
 
-* Falls **Smartcard oder anderes Zertifikat** in der Liste **EAP-Typen** nicht wie in der folgenden Abbildung dargestellt angezeigt wird, klicken Sie auf **Hinzufügen**, markieren Sie **Smartcard oder anderes Zertifikat**, und klicken Sie auf **OK.**  
+    ![](images/cc875840.sclvpn10(de-de,technet.10).gif)
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn11_big(de-de,technet.10).gif)
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn10_big(de-de,technet.10).gif)
 
-* Markieren Sie **Smartcard oder anderes Zertifikat**, und klicken Sie auf **Bearbeiten.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
+4. Falls **Smartcard oder anderes Zertifikat** in der Liste **EAP-Typen** nicht wie in der folgenden Abbildung dargestellt angezeigt wird, klicken Sie auf **Hinzufügen**, markieren Sie **Smartcard oder anderes Zertifikat**, und klicken Sie auf **OK.**  
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn12_big(de-de,technet.10).gif)
+    ![](images/cc875840.sclvpn11(de-de,technet.10).gif)
 
-* Markieren Sie in der Dropdownliste das Zertifikat, das für die EAP-Authentifizierung verwendet werden soll, und klicken Sie danach dreimal auf **OK.**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn11_big(de-de,technet.10).gif)
 
-* Vergewissern Sie sich, dass **RAS-Berechtigung erteilen** ausgewählt ist, klicken Sie auf **OK**, und schließen Sie dann „Routing und RAS“.
+5. Markieren Sie **Smartcard oder anderes Zertifikat**, und klicken Sie auf **Bearbeiten.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
 
+    ![](images/cc875840.sclvpn12(de-de,technet.10).gif)
+
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn12_big(de-de,technet.10).gif)
+
+6. Markieren Sie in der Dropdownliste das Zertifikat, das für die EAP-Authentifizierung verwendet werden soll, und klicken Sie danach dreimal auf **OK.**  
+
+7. Vergewissern Sie sich, dass **RAS-Berechtigung erteilen** ausgewählt ist, klicken Sie auf **OK**, und schließen Sie dann „Routing und RAS“.
 
 
 #### Konfiguration von VPN-Clients für die Smartcard-Authentifizierung
@@ -425,53 +435,51 @@ Nun können Sie EAP in RAS-Richtlinien aktivieren. Die RAS-Richtlinienkomponente
 Als nächstes konfigurieren Sie den Client für die Verwendung der EAP-Authentifizierung zur Unterstützung von Smartcards.
 
 **So erstellen Sie einen Telefonbucheintrag**
-* Klicken Sie auf **Start**, zeigen Sie auf **Verbinden mit** und danach auf **Alle Verbindungen anzeigen**, und klicken Sie in der Liste **Netzwerkaufgaben** auf **Neue Verbindung erstellen.**   Klicken Sie danach auf der Willkommensseite des **Assistenten für neue Verbindungen** auf **Weiter.**   Der folgende Bildschirm wird angezeigt.
+1. Klicken Sie auf **Start**, zeigen Sie auf **Verbinden mit** und danach auf **Alle Verbindungen anzeigen**, und klicken Sie in der Liste **Netzwerkaufgaben** auf **Neue Verbindung erstellen.**   Klicken Sie danach auf der Willkommensseite des **Assistenten für neue Verbindungen** auf **Weiter.**   Der folgende Bildschirm wird angezeigt.
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn13_big(de-de,technet.10).gif)
+    ![](images/cc875840.sclvpn13(de-de,technet.10).gif)
 
-* Wählen Sie **Verbindung mit dem Netzwerk am Arbeitsplatz herstellen** aus, und klicken Sie auf **Weiter.**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn13_big(de-de,technet.10).gif)
 
-* Wählen Sie **VPN-Verbindung** aus, und klicken Sie auf **Weiter.**  
+2. Wählen Sie **Verbindung mit dem Netzwerk am Arbeitsplatz herstellen** aus, und klicken Sie auf **Weiter.**  
 
-* Geben Sie einen Namen für die Verbindung im Feld **Firmenname** ein, und klicken Sie auf **Weiter.**   Der folgende Bildschirm wird angezeigt.
+3. Wählen Sie **VPN-Verbindung** aus, und klicken Sie auf **Weiter.**  
 
+4. Geben Sie einen Namen für die Verbindung im Feld **Firmenname** ein, und klicken Sie auf **Weiter.**   Der folgende Bildschirm wird angezeigt.
 
- 
+    ![](images/cc875840.sclvpn14(de-de,technet.10).gif)
 
-* Sofern Sie permanent mit dem Internet verbunden sind, wählen Sie **Keine Anfangsverbindung automatisch wählen** aus, und klicken Sie danach auf **Weiter.**   Falls Sie vor der Einrichtung eines VPN eine Verbindung per Einwahl herstellen müssen, können Sie alternativ **Automatisch diese Anfangsverbindung wählen** und danach die Einwählverbindung in der Dropdownliste auswählen und auf **Weiter** klicken.
+5. Sofern Sie permanent mit dem Internet verbunden sind, wählen Sie **Keine Anfangsverbindung automatisch wählen** aus, und klicken Sie danach auf **Weiter.**   Falls Sie vor der Einrichtung eines VPN eine Verbindung per Einwahl herstellen müssen, können Sie alternativ **Automatisch diese Anfangsverbindung wählen** und danach die Einwählverbindung in der Dropdownliste auswählen und auf **Weiter** klicken.
 
-* Geben Sie den VPN-Servernamen oder die IP-Adresse im Feld **Hostname oder IP-Adresse** ein, und klicken Sie auf **Weiter.**  
+6. Geben Sie den VPN-Servernamen oder die IP-Adresse im Feld **Hostname oder IP-Adresse** ein, und klicken Sie auf **Weiter.**  
 
-* Wählen Sie **Eigene Smartcard verwenden** aus, klicken Sie auf **Weiter** und danach auf **Fertig stellen.**  
+7. Wählen Sie **Eigene Smartcard verwenden** aus, klicken Sie auf **Weiter** und danach auf **Fertig stellen.**  
 
 
 Konfigurieren Sie den Telefonbucheintrag nach dessen Erstellung für die Verwendung von EAP.
 
 **So konfigurieren Sie eine vorhandene Verbindung für die Verwendung der Smartcard-Authentifizierung**
-* Klicken Sie mit der rechten Maustaste auf die Verbindung, wählen Sie **Eigenschaften** aus, und klicken Sie danach auf die Registerkarte **Sicherheit.**   Der folgende Bildschirm wird angezeigt.
-
-
+1. Klicken Sie mit der rechten Maustaste auf die Verbindung, wählen Sie **Eigenschaften** aus, und klicken Sie danach auf die Registerkarte **Sicherheit.**   Der folgende Bildschirm wird angezeigt.
  
+    ![](images/cc875840.sclvpn15(de-de,technet.10).gif)
+ 
+2. Vergewissern Sie sich, dass **Typisch (empfohlene Einstellungen)** ausgewählt ist, und klicken Sie danach in der Dropdownliste **Identität folgendermaßen bestätigen** auf die Option **Smartcard verwenden.**  
 
-* Vergewissern Sie sich, dass **Typisch (empfohlene Einstellungen)** ausgewählt ist, und klicken Sie danach in der Dropdownliste **Identität folgendermaßen bestätigen** auf die Option **Smartcard verwenden.**  
+3. Wählen Sie **Erweitert (benutzerdefinierte Einstellungen)** aus, und klicken Sie auf **Einstellungen.**  
 
-* Wählen Sie **Erweitert (benutzerdefinierte Einstellungen)** aus, und klicken Sie auf **Einstellungen.**  
+4. Klicken Sie auf **Smartcard oder anderes Zertifikat (Verschlüsselung aktiviert).**  
 
-* Klicken Sie auf **Smartcard oder anderes Zertifikat (Verschlüsselung aktiviert).**  
+5. Klicken Sie auf **Eigenschaften** und danach auf **Eigene Smartcard verwenden.**  
 
-* Klicken Sie auf **Eigenschaften** und danach auf **Eigene Smartcard verwenden.**  
+6. Vergewissern Sie sich, dass die Option **Serverzertifikat überprüfen** aktiviert ist.
 
-* Vergewissern Sie sich, dass die Option **Serverzertifikat überprüfen** aktiviert ist.
+7. Aktivieren Sie bei Bedarf das Kontrollkästchen **Verbindung herstellen, wenn Servername folgendermaßen endet.**  
 
-* Aktivieren Sie bei Bedarf das Kontrollkästchen **Verbindung herstellen, wenn Servername folgendermaßen endet.**  
+8. Klicken Sie im Feld **Vertrauenswürdige Stammzertifizierungsstellen** auf den Namen der Zertifizierungsstelle, die das Zertifikat zur Verwendung mit einer Smartcard ausgestellt hat, oder auf das installierte Benutzerzertifikat.
 
-* Klicken Sie im Feld **Vertrauenswürdige Stammzertifizierungsstellen** auf den Namen der Zertifizierungsstelle, die das Zertifikat zur Verwendung mit einer Smartcard ausgestellt hat, oder auf das installierte Benutzerzertifikat.
+9. Aktivieren Sie bei Bedarf das Kontrollkästchen **Anderen Benutzernamen für die Verbindung verwenden.**  
 
-* Aktivieren Sie bei Bedarf das Kontrollkästchen **Anderen Benutzernamen für die Verbindung verwenden.**  
-
-* Der Benutzer muss beim Computer angemeldet sein, um EAP mit einem Benutzerzertifikat zu nutzen.
-
+10. Der Benutzer muss beim Computer angemeldet sein, um EAP mit einem Benutzerzertifikat zu nutzen.
 
 
 #### Konfiguration von VPN-Clients für die Smartcard-Authentifizierung mit dem Verbindungs-Manager
@@ -479,114 +487,111 @@ Konfigurieren Sie den Telefonbucheintrag nach dessen Erstellung für die Verwend
 Falls VPN-Verbindungen für mehrere Clients zu konfigurieren sind, können Sie den Verbindungs-Manager verwenden.
 
 **So installieren Sie das Verbindungs-Manager-Verwaltungskit auf einem Windows Server 2003-Computer**
-* Klicken Sie auf **Start**, **Systemsteuerung** und anschließend auf **Software.**  
+1. Klicken Sie auf **Start**, **Systemsteuerung** und anschließend auf **Software.**  
 
-* Klicken Sie im Dialogfeld **Software** auf **Windows-Komponenten hinzufügen/entfernen.**  
+2. Klicken Sie im Dialogfeld **Software** auf **Windows-Komponenten hinzufügen/entfernen.**  
 
-* Markieren Sie auf dem Bildschirm **Assistent für Windows-Komponenten** die Option **Verwaltungs- und Überwachungsprogramme**, und klicken Sie auf **Details.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
+3. Markieren Sie auf dem Bildschirm **Assistent für Windows-Komponenten** die Option **Verwaltungs- und Überwachungsprogramme**, und klicken Sie auf **Details.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn16_big(de-de,technet.10).gif)
+    ![](images/cc875840.sclvpn16(de-de,technet.10).gif)  
 
-* Markieren Sie im Dialogfeld **Verwaltungs- und Überwachungsprogramme** die Option **Verbindungs-Manager-Verwaltungskit**, und klicken Sie auf **OK**, auf **Weiter** und schließlich auf **Fertig stellen.**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn16_big(de-de,technet.10).gif)
+
+4. Markieren Sie im Dialogfeld **Verwaltungs- und Überwachungsprogramme** die Option **Verbindungs-Manager-Verwaltungskit**, und klicken Sie auf **OK**, auf **Weiter** und schließlich auf **Fertig stellen.**  
 
 
 **So verwenden Sie das Verbindungs-Manager-Verwaltungskit zur Einrichtung eines VPN-Verbindungsprofils zur Verteilung an Benutzer**
-* Klicken Sie auf **Start**, **Verwaltung** und danach auf **Verbindungs-Manager-Verwaltungskit.**  
+1. Klicken Sie auf **Start**, **Verwaltung** und danach auf **Verbindungs-Manager-Verwaltungskit.**  
 
-* Klicken Sie auf dem Bildschirm **Willkommen** auf **Weiter.**  
+2. Klicken Sie auf dem Bildschirm **Willkommen** auf **Weiter.**  
 
-* Vergewissern Sie sich, dass **Neues Profil** ausgewählt ist, und klicken Sie auf **Weiter.**  
+3. Vergewissern Sie sich, dass **Neues Profil** ausgewählt ist, und klicken Sie auf **Weiter.**  
 
-* Geben Sie im Feld **Dienstname** einen Profilnamen und im Feld **Dateiname** einen Namen für die ausführbare Datei ein, die Sie an die Clients verteilen.
+4. Geben Sie im Feld **Dienstname** einen Profilnamen und im Feld **Dateiname** einen Namen für die ausführbare Datei ein, die Sie an die Clients verteilen.
 
-* Auf dem Bildschirm **Bereichsname** (siehe Abbildung) können Sie einen Bereichsnamen zum Benutzernamen hinzufügen. Sie müssen u. U. einen Bereichsnamen zur Identifizierung der Benutzer hinzufügen, falls diese die Verbindung zu Ihrem VPN über den Netzwerkzugriffsserver eines Dritten herstellen, der RADIUS zur Übertragung von Netzwerkauthentifizierungsinformationen auf Ihre Internetauthentifizierungsdienst- (IAS-)Server verwendet.
+5. Auf dem Bildschirm **Bereichsname** (siehe Abbildung) können Sie einen Bereichsnamen zum Benutzernamen hinzufügen. Sie müssen u. U. einen Bereichsnamen zur Identifizierung der Benutzer hinzufügen, falls diese die Verbindung zu Ihrem VPN über den Netzwerkzugriffsserver eines Dritten herstellen, der RADIUS zur Übertragung von Netzwerkauthentifizierungsinformationen auf Ihre Internetauthentifizierungsdienst- (IAS-)Server verwendet.
 
-Wählen Sie **Keinen Bereichsnamen zum Benutzernamen hinzufügen** aus (es sei denn, dies ist erforderlich), und klicken Sie auf **Weiter.**  
+    Wählen Sie **Keinen Bereichsnamen zum Benutzernamen hinzufügen** aus (es sei denn, dies ist erforderlich), und klicken Sie auf **Weiter.**  
 
-
+      ![](images/cc875840.sclvpn17(de-de,technet.10).gif)  
  
+6. Auf dem Bildschirm **Profilinformation zusammenführen** können Sie zuvor konfigurierte Verbindungs-Manager-Profile zusammenführen. Dies dient dazu, in anderen Profilen vorhandene Informationen (etwa Netzwerkzugriffsnummern) in das aktuelle Profil zu übernehmen. Fügen Sie jegliche erforderlichen Profile hinzu, und klicken Sie auf **Weiter.**  
 
-* Auf dem Bildschirm **Profilinformation zusammenführen** können Sie zuvor konfigurierte Verbindungs-Manager-Profile zusammenführen. Dies dient dazu, in anderen Profilen vorhandene Informationen (etwa Netzwerkzugriffsnummern) in das aktuelle Profil zu übernehmen. Fügen Sie jegliche erforderlichen Profile hinzu, und klicken Sie auf **Weiter.**  
+7. Auf dem Bildschirm **VPN-Unterstützung** (siehe Abbildung) können Sie ein Telefonbuch aus dem Profil erstellen und den bzw. die VPN-Server für Ihre VPN-Clients konfigurieren.
 
-* Auf dem Bildschirm **VPN-Unterstützung** (siehe Abbildung) können Sie ein Telefonbuch aus dem Profil erstellen und den bzw. die VPN-Server für Ihre VPN-Clients konfigurieren.
+    ![](images/cc875840.sclvpn18(de-de,technet.10).gif)
 
+    Ein Telefonbuch enthält Informationen wie z. B. Vorwahl, Anschlussnummer und Benutzerauthentifizierungsmethoden. Das Telefonbuch des Verbindungs-Managers umfasst außerdem verschiedene Netzwerkeinstellungen, die Sie bei der Ausführung des Assistenten für das Microsoft Verbindungs-Manager-Verwaltungskit konfigurieren.
 
+    Soll Ihr Client die Option erhalten, Verbindungen mit mehreren VPN-Servern herzustellen, können Sie eine VPN-Serverliste in einer Textdatei erstellen (siehe Abbildung). Soll für die Verbindung eine VPN-Serverliste verwendet werden, wählen Sie **Benutzer kann VPN-Server selbst wählen** aus, navigieren Sie zur Textdatei, und klicken Sie danach auf **Weiter.**  
+
+    ![](images/cc875840.sclvpn19(de-de,technet.10).gif)
+
+8. Wählen Sie auf dem Bildschirm **VPN-Einträge** das Profil aus, das Sie erstellen, und klicken Sie auf **Bearbeiten** und danach auf die Registerkarte **Sicherheit.**   Das folgende Dialogfeld wird angezeigt.
+
+    ![](images/cc875840.sclvpn20(de-de,technet.10).gif)
+
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn20_big(de-de,technet.10).gif)
+
+9. Wählen Sie in der Dropdownliste **Sicherheitseinstellungen** die Option **Erweiterte Sicherheitseinstellungen verwenden** aus, und klicken Sie auf **Konfigurieren.**   Das folgende Dialogfeld wird angezeigt.
+
+    ![](images/cc875840.sclvpn21(de-de,technet.10).gif)
+
+10. Stellen Sie sicher, dass in der Dropdownliste **Datenverschlüsselung** der Eintrag **Verschlüsselung ist erforderlich** aktiviert ist, und dass Sie das korrekte Tunneling-Protokoll in der Dropdownliste „VPN-Strategie“ auswählen.
+
+    Wählen Sie **Extensible-Authentication-Protokoll (EAP) verwenden** und „Smartcard oder anderes Zertifikat (Verschlüsselung aktiviert)“ in der entsprechenden Dropdownliste aus, und klicken Sie danach auf **Eigenschaften.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
+
+    ![](images/cc875840.sclvpn22(de-de,technet.10).gif)
  
+11. Vergewissern Sie sich, dass **Eigene Smartcard verwenden** ausgewählt ist. Wählen Sie außerdem **Serverzertifikat überprüfen** aus, sofern der Client die Gültigkeit des Servers bestätigen soll. Sie können darüber hinaus den Namen von einem oder mehreren Servern, zu denen die Verbindung hergestellt werden soll, sowie die Stammzertifizierungsstelle für die Serverüberprüfung eingeben. Falls Ihr Client sich anhand eines anderen Benutzernamens als dem im Zertifikat authentifizieren muss, wählen Sie **Anderen Benutzernamen für die Verbindung verwenden** aus. Klicken Sie dreimal auf **OK** und danach auf **Weiter.**  
 
-Ein Telefonbuch enthält Informationen wie z. B. Vorwahl, Anschlussnummer und Benutzerauthentifizierungsmethoden. Das Telefonbuch des Verbindungs-Managers umfasst außerdem verschiedene Netzwerkeinstellungen, die Sie bei der Ausführung des Assistenten für das Microsoft Verbindungs-Manager-Verwaltungskit konfigurieren.
+12. Auf dem Bildschirm **Telefonbuch** können Sie eine zusätzliche Telefonbuchdatei in das Profil einschließen und Updates für das Telefonbuch automatisch herunterladen. Das Telefonbuch enthält Informationen wie z. B. Vorwahl, Anschlussnummer und unterstützte Benutzerauthentifizierungsmethoden. Das Telefonbuch des Verbindungs-Managers umfasst außerdem verschiedene Netzwerkeinstellungen, die Sie bei der Ausführung des Assistenten für das Microsoft Verbindungs-Manager-Verwaltungskit konfigurieren. Bei Auswahl von **Automatischer Download von Telefonbuchupdates** müssen Sie den Speicherort angeben, von dem die Updates heruntergeladen werden. Sind keine Telefonbuchupdates erforderlich, wählen Sie diese Option nicht aus. Klicken Sie auf **Weiter.**  
 
-Soll Ihr Client die Option erhalten, Verbindungen mit mehreren VPN-Servern herzustellen, können Sie eine VPN-Serverliste in einer Textdatei erstellen (siehe Abbildung). Soll für die Verbindung eine VPN-Serverliste verwendet werden, wählen Sie **Benutzer kann VPN-Server selbst wählen** aus, navigieren Sie zur Textdatei, und klicken Sie danach auf **Weiter.**  
+13. Markieren Sie bei Verwendung des DFÜ-Netzwerkbetriebs für die Verbindung den Eintrag, und klicken Sie auf dem Bildschirm „DFÜ-Netzwerkeinträge“ auf **Bearbeiten.**   (Verwenden Sie den DFÜ-Netzwerkbetrieb nicht für die Verbindung, erfahren Sie später mehr über die Deaktivierung.) Sobald die erforderliche Konfiguration vorgenommen wurde oder falls der DFÜ-Netzwerkbetrieb nicht gebraucht wird, klicken Sie auf **Weiter.**   Die in den Aufgaben 14 bis 25 erläuterten Bildschirme des Assistenten dienen zur Konfiguration optionaler Komponenten, die hauptsächlich das Erscheinungsbild der Verbindung ändern.
 
+14. Sie können die Einstellungen auf dem Bildschirm **Routingtabellenaktualisierung** zur Konfiguration der Routinginformationen für die Verbindung verwenden. Bei Verwendung der Standardeinstellung stellt der VPN-Client die Verbindung zu allen nicht direkt verbundenen Netzwerken über die VPN-Schnittstelle her. Wird der VPN-Client jedoch nicht zur Verwendung der VPN-Verbindung als Standardgateway konfiguriert, können Sie angepasste Routingtabelleneinträge erstellen, mit denen der VPN-Client auf ausgewählte Subnetze im internen Netzwerk zugreifen kann. Klicken Sie zum Abschluss auf **Weiter.**  
 
- 
+15. Sie können anhand der Einstellungen auf dem Bildschirm **Automatische Proxykonfiguration** die Verwendung des VPN-Servers als Webproxyserver durch die VPN-Clients erzwingen. Klicken Sie auf **Weiter.**  
 
-* Wählen Sie auf dem Bildschirm **VPN-Einträge** das Profil aus, das Sie erstellen, und klicken Sie auf **Bearbeiten** und danach auf die Registerkarte **Sicherheit.**   Das folgende Dialogfeld wird angezeigt.
+16. Sie können anhand der Einstellungen auf dem Bildschirm **Benutzerdefinierte Aktionen** Programme angeben, die automatisch vor, nach oder während der VPN-Verbindung gestartet werden. Klicken Sie auf **Weiter.**  
 
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn20_big(de-de,technet.10).gif)
+17. Sie können anhand der Einstellungen auf dem Bildschirm **Anmeldungsbitmap** eine Grafik erstellen, die dem Benutzer beim Öffnen der VPN-Verbindung angezeigt wird. Eine benutzerdefinierte Grafik muss 330 x 140 Pixel groß sein. Klicken Sie auf **Weiter.**  
 
-* Wählen Sie in der Dropdownliste **Sicherheitseinstellungen** die Option **Erweiterte Sicherheitseinstellungen verwenden** aus, und klicken Sie auf **Konfigurieren.**   Das folgende Dialogfeld wird angezeigt.
+18. Sie können anhand der Einstellungen auf dem Bildschirm **Telefonbuchbitmap** eine Grafik erstellen, die dem Benutzer beim Öffnen des Telefonbuchs angezeigt wird. Eine benutzerdefinierte Grafik muss 114 x 309 Pixel groß sein. Klicken Sie auf **Weiter.**  
 
+19. Sie können anhand der Einstellungen auf dem Bildschirm **Symbole** Symbole festlegen, die in der Benutzeroberfläche des Verbindungs-Managers angezeigt werden sollen. Klicken Sie auf **Weiter.**  
 
- 
+20. Sie können anhand der Einstellungen auf dem Bildschirm **Infobereichkontextmenü** Elemente in die Kontextmenüs des Verbindungs-Managers aufnehmen. Klicken Sie auf **Weiter.**  
 
-* Stellen Sie sicher, dass in der Dropdownliste **Datenverschlüsselung** der Eintrag **Verschlüsselung ist erforderlich** aktiviert ist, und dass Sie das korrekte Tunneling-Protokoll in der Dropdownliste „VPN-Strategie“ auswählen.
+21. Sie können anhand der Einstellungen auf dem Bildschirm **Hilfedatei** eine benutzerdefinierte Hilfedatei für Ihre Benutzer verwenden. Klicken Sie auf **Weiter.**  
 
-Wählen Sie **Extensible-Authentication-Protokoll (EAP) verwenden** und „Smartcard oder anderes Zertifikat (Verschlüsselung aktiviert)“ in der entsprechenden Dropdownliste aus, und klicken Sie danach auf **Eigenschaften.**   Ein Bildschirm ähnlich dem folgenden wird angezeigt.
+22. Sie können anhand der Einstellungen auf dem Bildschirm **Supportinformationen** Ihren Benutzern Supportinformationen zur Verfügung stellen. Klicken Sie auf **Weiter.**  
 
+23. Sie können nun die Einstellungen auf dem Bildschirm **Verbindungs-Manager-Software** erneut überprüfen. Sie haben die Möglichkeit, Version 1.3 des Verbindungs-Managers auf Clients zu installieren, auf deren Computern das Programm noch nicht installiert wurde. Klicken Sie auf **Weiter.**  
 
- 
+24. Sie können anhand der Einstellungen auf dem Bildschirm **Lizenzvertrag** einen benutzerdefinierten Lizenzvertrag für die Verbindung einschließen. Klicken Sie auf **Weiter.**  
 
-* Vergewissern Sie sich, dass **Eigene Smartcard verwenden** ausgewählt ist. Wählen Sie außerdem **Serverzertifikat überprüfen** aus, sofern der Client die Gültigkeit des Servers bestätigen soll. Sie können darüber hinaus den Namen von einem oder mehreren Servern, zu denen die Verbindung hergestellt werden soll, sowie die Stammzertifizierungsstelle für die Serverüberprüfung eingeben. Falls Ihr Client sich anhand eines anderen Benutzernamens als dem im Zertifikat authentifizieren muss, wählen Sie **Anderen Benutzernamen für die Verbindung verwenden** aus. Klicken Sie dreimal auf **OK** und danach auf **Weiter.**  
+25. Sie können auf dem Bildschirm **Weitere Dateien** zusätzliche Dateien in das Verbindungs-Manager-Profil aufnehmen. Klicken Sie auf **Weiter.**  
 
-* Auf dem Bildschirm **Telefonbuch** können Sie eine zusätzliche Telefonbuchdatei in das Profil einschließen und Updates für das Telefonbuch automatisch herunterladen. Das Telefonbuch enthält Informationen wie z. B. Vorwahl, Anschlussnummer und unterstützte Benutzerauthentifizierungsmethoden. Das Telefonbuch des Verbindungs-Managers umfasst außerdem verschiedene Netzwerkeinstellungen, die Sie bei der Ausführung des Assistenten für das Microsoft Verbindungs-Manager-Verwaltungskit konfigurieren. Bei Auswahl von **Automatischer Download von Telefonbuchupdates** müssen Sie den Speicherort angeben, von dem die Updates heruntergeladen werden. Sind keine Telefonbuchupdates erforderlich, wählen Sie diese Option nicht aus. Klicken Sie auf **Weiter.**  
+26. Wählen Sie auf dem Bildschirm **Dienstprofil erstellen** die Option **Erweiterte Anpassung** aus, und klicken Sie auf **Weiter.**  
 
-* Markieren Sie bei Verwendung des DFÜ-Netzwerkbetriebs für die Verbindung den Eintrag, und klicken Sie auf dem Bildschirm „DFÜ-Netzwerkeinträge“ auf **Bearbeiten.**   (Verwenden Sie den DFÜ-Netzwerkbetrieb nicht für die Verbindung, erfahren Sie später mehr über die Deaktivierung.) Sobald die erforderliche Konfiguration vorgenommen wurde oder falls der DFÜ-Netzwerkbetrieb nicht gebraucht wird, klicken Sie auf **Weiter.**   Die in den Aufgaben 14 bis 25 erläuterten Bildschirme des Assistenten dienen zur Konfiguration optionaler Komponenten, die hauptsächlich das Erscheinungsbild der Verbindung ändern.
+27. auf dem Bildschirm **Erweiterte Anpassung** (siehe Abbildung) können Sie die Werte der Einstellungen in Ihren Profilkonfigurationsdateien konfigurieren. Sie sollten für Smartcard-fähige VPN-Verbindungen die Einwahl durch Festlegen des Werts 0 deaktivieren. Die Einstellungen HideDomain, HideUserName und HidePassword wurden ebenfalls aktiviert.
 
-* Sie können die Einstellungen auf dem Bildschirm **Routingtabellenaktualisierung** zur Konfiguration der Routinginformationen für die Verbindung verwenden. Bei Verwendung der Standardeinstellung stellt der VPN-Client die Verbindung zu allen nicht direkt verbundenen Netzwerken über die VPN-Schnittstelle her. Wird der VPN-Client jedoch nicht zur Verwendung der VPN-Verbindung als Standardgateway konfiguriert, können Sie angepasste Routingtabelleneinträge erstellen, mit denen der VPN-Client auf ausgewählte Subnetze im internen Netzwerk zugreifen kann. Klicken Sie zum Abschluss auf **Weiter.**  
+    ![](images/cc875840.sclvpn23(de-de,technet.10).gif)
 
-* Sie können anhand der Einstellungen auf dem Bildschirm **Automatische Proxykonfiguration** die Verwendung des VPN-Servers als Webproxyserver durch die VPN-Clients erzwingen. Klicken Sie auf **Weiter.**  
+28. Die Profilkonfigurationsdateien sind textbasiert und weisen die Erweiterungen.inf,.cms und.cmp auf. Der Assistent liest die Standarddateien template.inf, template.cms und template.cmp ein, die mit dem Verbindungs-Manager-Verwaltungskit installiert wurden.
 
-* Sie können anhand der Einstellungen auf dem Bildschirm **Benutzerdefinierte Aktionen** Programme angeben, die automatisch vor, nach oder während der VPN-Verbindung gestartet werden. Klicken Sie auf **Weiter.**  
+    Nach Abschluss des Assistenten werden neue Konfigurationsdateien für das Profil mit den Namen profilename.inf, profilename.cms und profilename.cmp erstellt. Sie können in die standardmäßigen Vorlagedateien zusätzliche Einstellungen einfügen, die von jedem Benutzer des Assistenten konfiguriert werden können.
 
-* Sie können anhand der Einstellungen auf dem Bildschirm **Anmeldungsbitmap** eine Grafik erstellen, die dem Benutzer beim Öffnen der VPN-Verbindung angezeigt wird. Eine benutzerdefinierte Grafik muss 330 x 140 Pixel groß sein. Klicken Sie auf **Weiter.**  
+    Weitere Informationen zu erweiterten Anpassungsoptionen für den Verbindungs-Manager finden Sie auf der Seite [Erweiterte Anpassungsoptionen für den Verbindungs-Manager](http://www.microsoft.com/resources/documentation/windows/2000/server/reskit/en-us/ierk/ch14_d.asp) (möglicherweise in englischer Sprache) unter www.microsoft.com/resources/documentation/Windows/2000/server/reskit/en-us/ierk/Ch14_d.asp.
 
-* Sie können anhand der Einstellungen auf dem Bildschirm **Telefonbuchbitmap** eine Grafik erstellen, die dem Benutzer beim Öffnen des Telefonbuchs angezeigt wird. Eine benutzerdefinierte Grafik muss 114 x 309 Pixel groß sein. Klicken Sie auf **Weiter.**  
+    Die Datei **template.cms** (siehe Abbildung) wurde dahingehend bearbeitet, dass die Felder für die Domäne, den Benutzernamen und das Kennwort ausgeblendet werden können, sodass die Funktionalität bei Bedarf eingeschlossen werden kann. MPPE zieht beim Verschlüsselungsprozess das Benutzerkennwort heran, sodass für die Lösung in einigen Fällen die Felder für Benutzername und Kennwort erforderlich sind.
 
-* Sie können anhand der Einstellungen auf dem Bildschirm **Symbole** Symbole festlegen, die in der Benutzeroberfläche des Verbindungs-Managers angezeigt werden sollen. Klicken Sie auf **Weiter.**  
+    ![](images/cc875840.sclvpn24(de-de,technet.10).gif)
 
-* Sie können anhand der Einstellungen auf dem Bildschirm **Infobereichkontextmenü** Elemente in die Kontextmenüs des Verbindungs-Managers aufnehmen. Klicken Sie auf **Weiter.**  
+    [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn24_big(de-de,technet.10).gif)
 
-* Sie können anhand der Einstellungen auf dem Bildschirm **Hilfedatei** eine benutzerdefinierte Hilfedatei für Ihre Benutzer verwenden. Klicken Sie auf **Weiter.**  
-
-* Sie können anhand der Einstellungen auf dem Bildschirm **Supportinformationen** Ihren Benutzern Supportinformationen zur Verfügung stellen. Klicken Sie auf **Weiter.**  
-
-* Sie können nun die Einstellungen auf dem Bildschirm **Verbindungs-Manager-Software** erneut überprüfen. Sie haben die Möglichkeit, Version 1.3 des Verbindungs-Managers auf Clients zu installieren, auf deren Computern das Programm noch nicht installiert wurde. Klicken Sie auf **Weiter.**  
-
-* Sie können anhand der Einstellungen auf dem Bildschirm **Lizenzvertrag** einen benutzerdefinierten Lizenzvertrag für die Verbindung einschließen. Klicken Sie auf **Weiter.**  
-
-* Sie können auf dem Bildschirm **Weitere Dateien** zusätzliche Dateien in das Verbindungs-Manager-Profil aufnehmen. Klicken Sie auf **Weiter.**  
-
-* Wählen Sie auf dem Bildschirm **Dienstprofil erstellen** die Option **Erweiterte Anpassung** aus, und klicken Sie auf **Weiter.**  
-
-* auf dem Bildschirm **Erweiterte Anpassung** (siehe Abbildung) können Sie die Werte der Einstellungen in Ihren Profilkonfigurationsdateien konfigurieren. Sie sollten für Smartcard-fähige VPN-Verbindungen die Einwahl durch Festlegen des Werts 0 deaktivieren. Die Einstellungen HideDomain, HideUserName und HidePassword wurden ebenfalls aktiviert.
-
-
- 
-
-* Die Profilkonfigurationsdateien sind textbasiert und weisen die Erweiterungen.inf,.cms und.cmp auf. Der Assistent liest die Standarddateien template.inf, template.cms und template.cmp ein, die mit dem Verbindungs-Manager-Verwaltungskit installiert wurden.
-
-Nach Abschluss des Assistenten werden neue Konfigurationsdateien für das Profil mit den Namen profilename.inf, profilename.cms und profilename.cmp erstellt. Sie können in die standardmäßigen Vorlagedateien zusätzliche Einstellungen einfügen, die von jedem Benutzer des Assistenten konfiguriert werden können.
-
-Weitere Informationen zu erweiterten Anpassungsoptionen für den Verbindungs-Manager finden Sie auf der Seite [Erweiterte Anpassungsoptionen für den Verbindungs-Manager](http://www.microsoft.com/resources/documentation/windows/2000/server/reskit/en-us/ierk/ch14_d.asp) (möglicherweise in englischer Sprache) unter www.microsoft.com/resources/documentation/Windows/2000/server/reskit/en-us/ierk/Ch14_d.asp.
-
-Die Datei **template.cms** (siehe Abbildung) wurde dahingehend bearbeitet, dass die Felder für die Domäne, den Benutzernamen und das Kennwort ausgeblendet werden können, sodass die Funktionalität bei Bedarf eingeschlossen werden kann. MPPE zieht beim Verschlüsselungsprozess das Benutzerkennwort heran, sodass für die Lösung in einigen Fällen die Felder für Benutzername und Kennwort erforderlich sind.
-
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/cc875840.sclvpn24_big(de-de,technet.10).gif)
-
-* Wenn Sie alle Einstellungsänderungen vorgenommen haben, klicken Sie auf **Weiter**, um die ausführbaren und die Konfigurationsdateien zu erstellen. Merken Sie sich den Speicherort der Dateien, und klicken Sie auf **Fertig stellen.**   Die ausführbare Datei wird über Ihre standardmäßigen Softwareverteilungsmechanismen an die Clients verteilt. Auf einem Client kann die Datei manuell ausgeführt werden, Sie können den Vorgang zur Installation der VPN-Verbindung jedoch auch automatisieren.
+29. Wenn Sie alle Einstellungsänderungen vorgenommen haben, klicken Sie auf **Weiter**, um die ausführbaren und die Konfigurationsdateien zu erstellen. Merken Sie sich den Speicherort der Dateien, und klicken Sie auf **Fertig stellen.**   Die ausführbare Datei wird über Ihre standardmäßigen Softwareverteilungsmechanismen an die Clients verteilt. Auf einem Client kann die Datei manuell ausgeführt werden, Sie können den Vorgang zur Installation der VPN-Verbindung jedoch auch automatisieren.
 
 
 
@@ -811,6 +816,7 @@ Vergewissern Sie sich, dass die Smartcard ein Zertifikat aufweist, das vom VPN-S
 
 
 Weitere Informationen zur allgemeinen Fehlerbehebung bei VPN-Verbindungen finden Sie im Artikel [VPN-Fehlerbehebung](http://technet2.microsoft.com/windowsserver/en/library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx) (möglicherweise in englischer Sprache) im Microsoft TechNet unter http://technet2.microsoft.com/WindowsServer/en/Library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx.
+
 [Zum Seitenanfang](#mainsection)  
 
 
@@ -825,10 +831,6 @@ Durch die Smartcard-Authentifizierung für Benutzer mit Remotezugriff lässt sic
 **Download**  
 
 
-[Dokument „Unterstützung von Smartcard-Anmeldungen für VPN-Verbindungen für den Remotezugriff“ herunterladen](http://go.microsoft.com/fwlink/?linkid=71173)
+![](images/cc875840.icon_exe(de-de,technet.10).gif)[Dokument „Unterstützung von Smartcard-Anmeldungen für VPN-Verbindungen für den Remotezugriff“ herunterladen](http://go.microsoft.com/fwlink/?linkid=71173)
  
 [Zum Seitenanfang](#mainsection)
-
-
-
-

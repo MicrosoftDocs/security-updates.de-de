@@ -2505,183 +2505,183 @@ Ein virtuelles Verzeichnis muss auf IIS erstellt werden, das als HTTP-Speicheror
 
 3. Legen Sie folgende Sicherheitseinstellungen für den Ordner gemäß Tabelle fest:
 
-    **Tabelle 9. Berechtigungen für das virtuelle Verzeichnis**
+**Tabelle 9. Berechtigungen für das virtuelle Verzeichnis**
 
-    <table style="border:1px solid black;">
+<table style="border:1px solid black;">
 
-    <tr>
+<tr>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Benutzer/Gruppe
+Benutzer/Gruppe
 
-    </th>
+</th>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Berechtigung
+Berechtigung
 
-    </th>
+</th>
 
-    <th style="border:1px solid black;">
+<th style="border:1px solid black;">
 
-    Erlauben/Verweigern
+Erlauben/Verweigern
 
-    </th>
+</th>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Administratoren
+Administratoren
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Vollzugriff
+Vollzugriff
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Erlauben
+Erlauben
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    System
+System
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Vollzugriff
+Vollzugriff
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Erlauben
+Erlauben
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Ersteller-Besitzer
+Ersteller-Besitzer
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Vollzugriff (nur Unterordner und Dateien)
+Vollzugriff (nur Unterordner und Dateien)
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Erlauben
+Erlauben
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Benutzer
+Benutzer
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Ordnerinhalte lesen und auflisten
+Ordnerinhalte lesen und auflisten
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Erlauben
+Erlauben
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    IIS_WPG
+IIS_WPG
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Ordnerinhalte lesen und auflisten
+Ordnerinhalte lesen und auflisten
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Erlauben
+Erlauben
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Internetgastkonto
+Internetgastkonto
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Schreiben
+Schreiben
 
-    </td>
+</td>
 
-    <td style="border:1px solid black;">
+<td style="border:1px solid black;">
 
 
-    Verweigern
+Verweigern
 
-    </td>
+</td>
 
-    </tr>
+</tr>
 
-    </table>
+</table>
 
 4. Verwenden Sie die IIS-Verwaltungskonsole, um ein neues virtuelles Verzeichnis unter der standardmäßigen Website zu erstellen:
     - Geben Sie dem virtuellen Verzeichnis den Namen **pki**

@@ -40,7 +40,7 @@ Microsoft hat Handbücher für Windows XP mit Service Pack 1 (SP1) und Windows
 
 **Hinweis:**   Alle Verweise auf Windows XP in diesem Handbuch beziehen sich auf Windows XP mit SP2, sofern nicht anders angegeben.
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Kurzzusammenfassung](#egaa)  
 [Zielgruppe dieses Leitfadens](#efaa)  
@@ -63,7 +63,7 @@ Dieses Handbuch baut auf dem [*Windows XP-Sicherheitshandbuch*](https://technet.
 
 * **Hochsicherheit (SSLF).**   Sicherheit spielt in dieser Umgebung eine so wichtige Rolle, dass ein beträchtlicher Verlust an Funktionalität und Verwaltbarkeit akzeptabel ist. Beispielsweise werden Computer bei militärischen oder nachrichtendienstlichen Einrichtungen in dieser Art von Umgebung betrieben. Auf den Clientcomputern in dieser Umgebung wird nur Windows Vista ausgeführt. Anweisungen zum Testen und Bereitstellen der Hochsicherheitsumgebung finden Sie in Kapitel 5, „Hochsicherheit (SSLF)“. Informationen zu den SSLF-Einstellungen, die in dieser Umgebung verwendet werden, finden Sie in Anhang A, „Sicherheitsrelevante Gruppenrichtlinieneinstellungen“.
 
-**Achtung:**
+![](images/dd443745.warning(de-de,technet.10).gif) **Achtung:**
 
 Die SSLF-Sicherheitseinstellungen sind nicht für die Mehrzahl der Unternehmen vorgesehen. Die Konfiguration für diese Einstellungen wurde für Organisationen entwickelt, in denen Sicherheit wichtiger als Funktionalität ist.
 
@@ -78,6 +78,7 @@ Der Aufbau des Handbuchs ermöglicht Ihnen das rasche Auffinden der benötigten 
  
 
 Obwohl dieses Handbuch für Unternehmenskunden entworfen wurde, können die meisten Anweisungen für Organisationen jeder Größe angewendet werden. Zur optimalen Nutzung dieser Unterlagen empfiehlt es sich, das gesamte Handbuch zu lesen. Allerdings ist es möglich, einzelne Abschnitte des Handbuchs zu lesen, um bestimmte Ziele zu erreichen. Der Abschnitt „Zusammenfassung der Kapitel“ in diesem Überblick enthält eine knappe Einführung in den Inhalt des Handbuchs. Weitere Informationen zu Sicherheitsthemen und -einstellungen für Windows XP finden Sie im [*Windows XP-Sicherheitshandbuch*](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10)) und dem zugehörigen Handbuch mit der Bezeichnung [*Bedrohungen und Gegenmaßnahmen*](https://technet.microsoft.com/de-de/library/5289ecb9-b6a3-4c58-8832-3774bdb04053(v=TechNet.10)).
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -140,6 +141,7 @@ Dieses Handbuch beschäftigt sich mit dem Erstellen und Verwalten einer sicheren
 Auf den Clientcomputern in der Unternehmensclient-Umgebung kann entweder Windows XP oder Windows Vista ausgeführt werden. Allerdings muss auf den Computern, die diese Clientcomputer im Netzwerk verwalten, Windows Server 2003 R2 oder Windows Server 2003 mit SP1 ausgeführt werden. Auf den Clientcomputern in der Hochsicherheitsumgebung darf nur Windows Vista ausgeführt werden.
 
 Das Handbuch umfasst lediglich die Sicherheitseinstellungen, die im empfohlenen Betriebssystem verfügbar sind. Eine gründliche Besprechung aller Sicherheitseinstellungen in Windows Vista finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen*](https://technet.microsoft.com/de-de/library/5289ecb9-b6a3-4c58-8832-3774bdb04053(v=TechNet.10)).
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -148,7 +150,8 @@ Das Handbuch umfasst lediglich die Sicherheitseinstellungen, die im empfohlenen 
 
 Das *Windows* *Vista-Sicherheitshandbuch* besteht aus fünf Kapiteln und einem Anhang, in dem Sie Beschreibungen von Einstellungen, Überlegungen und Werte finden. Die Datei „Windows Vista Security Guide Settings.xls“, die diesem Handbuch beigefügt ist, ermöglicht Ihnen zudem das Vergleichen von Einstellungswerten. Die folgende Abbildung zeigt die Struktur des Handbuchs. Sie soll Ihnen helfen, sich über die optimale Vorgehensweise zur Implementierung und Bereitstellung der hier enthaltenen Anleitungen zu informieren.
 
- 
+ ![](images/dd443745.vsgover(de-de,technet.10).gif)
+
 [Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443745.vsgover_big(de-de,technet.10).gif)
 
 
@@ -228,7 +231,7 @@ Dieses Kapitel enthält Empfehlungen zur Verwendungsweise der neuen und verbesse
 
 Dieses Kapitel enthält eine Erklärung der Hochsicherheitsumgebung und der großen Unterschiede zwischen dieser Umgebung und der Unternehmensclient-Umgebung. Das Kapitel stellt Anweisungen und Prozesse zum Implementieren der Einstellungen für die SSLF-Sicherheitsbasis sowie Sicherheitsanweisungen bereit. Es enthält Anweisungen, in denen erläutert wird, wie Sie die Gruppenrichtlinien-Verwaltungskonsole mithilfe eines Skripts optimal einsetzen können, um zum Einrichten dieser Umgebung Organisationseinheiten und Gruppenrichtlinienobjekte zu erstellen, zu testen und bereitzustellen.
 
-**Achtung:**
+![](images/dd443745.warning(de-de,technet.10).gif) **Achtung:**
 
 Die Anleitungen in diesem Kapitel ermöglichen Ihnen die Einrichtung der Hochsicherheitsumgebung, die sich grundlegend von der Unternehmensclient-Umgebung unterscheidet, die in Kapitel 1, „Implementieren der Sicherheitsbasis“, beschrieben wird. Die Anleitungen in diesem Kapitel sind nur für Hochsicherheitsumgebungen vorgesehen und stellen keine Ergänzung zu den Anleitungen in Kapitel 1 dar.
 
@@ -236,6 +239,7 @@ Die Anleitungen in diesem Kapitel ermöglichen Ihnen die Einrichtung der Hochsic
 #### Anhang A: Sicherheitsrelevante Gruppenrichtlinieneinstellungen
 
 Der Anhang enthält Beschreibungen und Tabellen, in denen die vorgeschriebenen Einstellungen für die jeweilige EC- und SSLF-Sicherheitsbasis für das Handbuch beschrieben werden. Der Anhang beschreibt jede Einstellung und den Grund für deren Konfiguration oder Wert. Der Anhang enthält zudem Informationen zu Unterschieden bei den Einstellungen zwischen Windows Vista und Windows XP.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -247,6 +251,7 @@ Dieser Solution Accelerator enthält mehrere Dateien wie „Windows Vista Securi
 **Hinweis**:   Wenn Sie die Installation des *Windows Vista-Sicherheitshandbuchs* starten, wird das Tool GPOAccelerator standardmäßig mit den anderen Leitfäden für die Installation ausgewählt, die diesem Tool beigefügt sind. Für die Verwendung des Tools sind Administratorrechte erforderlich. Der Solution Accelerator wird standardmäßig im Ordner „Dokumente“ gespeichert. Bei der Installation wird eine Verknüpfung mit dem Handbuch erstellt, die den Ordner mit dem Windows Vista-Sicherheitshandbuch öffnet.
 
 Sie können die Tools und Vorlagen für beide in diesem Handbuch definierten Sicherheitsbasiskonfigurationen mithilfe der Gruppenrichtlinien-Verwaltungskonsole (GPMC) anwenden. Die Kapitel „Implementieren der Sicherheitsbasis“ und „Hochsicherheit (SSLF)“ beschreiben die Verfahren, die zum Ausführen dieser Aufgaben erforderlich sind.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -351,8 +356,7 @@ So werden Code- und Skriptbeispiele dargestellt.
 
 <td style="border:1px solid black;">
 
-
-**Hinweis**
+<strong>Hinweis</strong>
 
 </td>
 
@@ -370,7 +374,7 @@ Weist den Leser auf zusätzliche Informationen hin.
 <td style="border:1px solid black;">
 
 
-**Wichtig**
+<strong>Wichtig</strong>
 
 </td>
 
@@ -388,7 +392,7 @@ Ein wichtiger Hinweis enthält Informationen, die für die Ausführung einer Auf
 <td style="border:1px solid black;">
 
  
-**Achtung:**
+![](images/dd443745.warning(de-de,technet.10).gif) <strong>Achtung:</strong>
 
 </td>
 
@@ -465,8 +469,6 @@ Die folgenden Links stellen zusätzliche Informationen zu Sicherheitsthemen sowi
 * [*Windows XP-Sicherheitshandbuch*](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10))
 
 
-
-
 #### Support und Feedback
 
 Das SASC-Team (Solution Accelerators – Security and Compliance) würde sich über Ihre Rückmeldung zu diesem und anderen Solution Accelerators freuen.
@@ -476,6 +478,7 @@ Bitte tragen Sie Ihre Anmerkungen in der Newsgroup [Discussions in Security](htt
 Sie können Ihr Feedback auch per E-Mail an folgende Adresse senden: [secwish@microsoft.com](mailto:secwish@microsoft.com?subject=windows vista security guide).
 
 Wir freuen uns auf Ihre Rückmeldung.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -592,11 +595,12 @@ Bill Sisk, Jason Joyce
 
 **Extern**
 
-Mehul Mediwala,* Infosys Technologies Ltd*
+Mehul Mediwala, *Infosys Technologies Ltd*
 
 **Hinweise**  
 Auf Anregung von Microsoft beteiligte sich das National Security Agency Information Assurance Directorate an der Prüfung dieses Microsoft-Sicherheitshandbuchs und stellte Anmerkungen zur Verfügung, die in die veröffentlichte Version aufgenommen wurden.  
 Das United States Department of Commerce National Institute of Standards and Technology (NIST) beteiligt sich ebenfalls an der Prüfung dieses Microsoft-Sicherheitshandbuchs und stellte Anmerkungen zur Verfügung, die in die veröffentlichte Version aufgenommen wurden.
+
 [Zum Seitenanfanq](#mainsection)
 
 In diesem Beitrag
@@ -644,8 +648,3 @@ In diesem Beitrag
 </tr>
 
 </table>
-
-
-
-
-
