@@ -1,6 +1,6 @@
 ---
-Title: Kapitel 9: Die Webserverrolle
-TOCTitle: Kapitel 9: Die Webserverrolle
+Title: Kapitel 9 - Die Webserverrolle
+TOCTitle: Kapitel 9 - Die Webserverrolle
 ms:assetid: 835865cd-ff71-43e6-88bf-91f5b35a00b9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443730(v=TechNet.10)
 ms:contentKeyID: 20075673
@@ -15,7 +15,7 @@ ms:contentKeyID: 20075673
 Aktualisiert: 27.12.2005
  
 
-Auf dieser Seite
+#### Auf dieser Seite
 
 [Überblick](#eiaa)  
 [Anonymer Zugriff und die Einstellungen für Hochsicherheitsumgebungen](#ehaa)  
@@ -31,7 +31,7 @@ Auf dieser Seite
 
 ### Überblick
 
-Dieses Kapitel enthält Anleitungen zur Absicherung der Webserver in Ihrer Umgebung, auf denen Microsoft® Windows* *Server™* *2003 mit SP1 ausgeführt wird. Um eine umfassende Sicherheit für die Webserver und Anwendungen im Intranet ihrer Organisation zu gewährleisten, sollten Sie jeden IIS-Server (Microsoft Internet Information Services) sowie jede Website und jede Anwendung, die auf diesen Servern von Clientcomputern aus ausgeführt werden, schützen. Die Websites und Anwendungen sollten auch vor den Websites und Anwendungen geschützt werden, die auf den anderen IIS-Servern im Intranet ihrer Organisation ausgeführt werden.
+Dieses Kapitel enthält Anleitungen zur Absicherung der Webserver in Ihrer Umgebung, auf denen Microsoft® Windows Server™ 2003 mit SP1 ausgeführt wird. Um eine umfassende Sicherheit für die Webserver und Anwendungen im Intranet ihrer Organisation zu gewährleisten, sollten Sie jeden IIS-Server (Microsoft Internet Information Services) sowie jede Website und jede Anwendung, die auf diesen Servern von Clientcomputern aus ausgeführt werden, schützen. Die Websites und Anwendungen sollten auch vor den Websites und Anwendungen geschützt werden, die auf den anderen IIS-Servern im Intranet ihrer Organisation ausgeführt werden.
 
 Zum Schutz vor böswilligen Benutzern und Angreifern wird IIS von der Standardkonfiguration für Mitglieder der Windows Server 2003-Produktfamilie nicht installiert. Im Falle einer Installation wird IIS in einem hochsicheren „gesperrten“ Modus installiert. IIS sichert z. B. standardmäßig nur statischen Inhalt. Funktionen wie Active Server Pages (ASP), ASP.NET, Server Side Includes (SSI), WebDAV-Veröffentlichungen (Web Distributed Authoring und Versioning) und Microsoft FrontPage®-Servererweiterungen können aufgrund der Gefahr ihrer Ausnutzung durch Angreifer nur verwendet werden, wenn ein Administrator sie aktiviert. Diese Funktionen und Dienste können über den Webdiensterweiterungsknoten im IIS-Manager aktiviert werden. Der IIS-Manager verfügt über eine grafische Benutzeroberfläche, die die Verwaltung von IIS vereinfacht. Sie enthält Ressourcen für die Dateiverwaltung, die Verzeichnisverwaltung, die Konfiguration von Anwendungspools sowie für Sicherheits-, Leistungs- und Zuverlässigkeitsfunktionen.
 
@@ -41,7 +41,7 @@ Die meisten Einstellungen in diesem Kapitel werden durch Gruppenrichtlinien konf
 
 Sofern möglich, werden diese Richtlinieneinstellungen in einer inkrementellen Gruppenrichtlinienvorlage gesammelt, die auf die Webserver-Organisationseinheit angewendet wird. Einige Einstellungen in diesem Kapitel können nicht durch Gruppenrichtlinien angewendet werden. Ausführliche Informationen zur Konfiguration dieser manuellen Einstellungen werden bereitgestellt.
 
-Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Webserver für die drei in diesem Handbuch definierten Umgebungen. Diese Sicherheitsvorlagen für Webserver enthalten die Richtlinieneinstellungen für die inkrementelle Webservervorlage. Sie können diese Vorlage zum Erstellen eines neuen Gruppenrichtlinienobjekts verwenden, das mit der Webserver-Organisationseinheit in der jeweiligen Umgebung verknüpft ist. In Kapitel 2, „Absicherungsmechanismen von Windows* *Server* *2003“, finden Sie ausführliche Anweisungen zum Erstellen der Organisationseinheiten und Gruppenrichtlinien und zum darauf folgenden Import in die jeweilige Sicherheitsvorlage der einzelnen Gruppenrichtlinienobjekte.
+Die folgende Tabelle enthält die Namen der Sicherheitsvorlagen der Webserver für die drei in diesem Handbuch definierten Umgebungen. Diese Sicherheitsvorlagen für Webserver enthalten die Richtlinieneinstellungen für die inkrementelle Webservervorlage. Sie können diese Vorlage zum Erstellen eines neuen Gruppenrichtlinienobjekts verwenden, das mit der Webserver-Organisationseinheit in der jeweiligen Umgebung verknüpft ist. In Kapitel 2, „Absicherungsmechanismen von Windows Server 2003“, finden Sie ausführliche Anweisungen zum Erstellen der Organisationseinheiten und Gruppenrichtlinien und zum darauf folgenden Import in die jeweilige Sicherheitsvorlage der einzelnen Gruppenrichtlinienobjekte.
 
 **Tabelle 9.1: Sicherheitsvorlagen für IIS-Server**
 
@@ -102,6 +102,7 @@ Weitere Informationen zu allen Standardeinstellungskonfigurationen finden Sie im
 In diesem Handbuch wird dargestellt, wie IIS mit minimalen Funktionen installiert und aktiviert wird. Wenn Sie zusätzliche Funktionen in IIS verwenden möchten, müssen Sie möglicherweise einige Sicherheitseinstellungen anpassen. Wenn Sie zusätzliche Dienste wie z. B. SMTP, FTP oder NNTP installieren, müssen die bereitgestellten Vorlagen und Richtlinien angepasst werden.
 
 Im Onlineartikel „[IIS und vordefinierte Konten (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx werden die Konten erklärt, die von den unterschiedlichen IIS-Funktionen verwendet werden, sowie die jeweils erforderlichen Berechtigungen. Um sicherere Einstellungen auf Webservern zu erzielen, auf denen komplexe Anwendungen zur Verfügung gestellt werden, sollten Sie sich die komplette [IIS 6.0-Dokumentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/848968f3-baa0-46f9-b1e6-ef81dd09b015.mspx) (in englischer Sprache) unter http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/848968f3-baa0-46f9-b1e6-ef81dd09b015.mspx durchlesen.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -120,6 +121,7 @@ Vier der Benutzerrechte, die explizit im Hochsicherheitsszenario in der Richtlin
  
 
 Durch die zu aktivierenden IIS-Funktionen wird festgelegt, ob Sie auch andere Einstellungen für die Zuweisung von Benutzerrechten auf **Nicht definiert** setzen müssen.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -127,6 +129,7 @@ Durch die zu aktivierenden IIS-Funktionen wird festgelegt, ob Sie auch andere Ei
 ### Einstellungen für Überwachungsrichtlinien
 
 Die Einstellungen für Überwachungsrichtlinien für IIS-Server in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass alle relevanten Sicherheitsüberwachungsinformationen auf sämtlichen IIS-Servern protokolliert werden.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -134,6 +137,7 @@ Die Einstellungen für Überwachungsrichtlinien für IIS-Server in den drei in d
 ### Zuweisen von Benutzerrechten
 
 Die Einstellungen für die Zuweisung von Benutzerrechten für IIS-Server in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass alle relevanten Sicherheitsüberwachungsinformationen auf sämtlichen IIS-Servern protokolliert werden.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -141,6 +145,7 @@ Die Einstellungen für die Zuweisung von Benutzerrechten für IIS-Server in den 
 ### Sicherheitsoptionen
 
 Die Sicherheitsoptionseinstellungen für IIS-Server in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass alle relevanten Sicherheitsoptionen auf sämtlichen IIS-Servern einheitlich konfiguriert werden.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -148,13 +153,14 @@ Die Sicherheitsoptionseinstellungen für IIS-Server in den drei in diesem Handbu
 ### Ereignisprotokolleinstellungen
 
 Die Ereignisprotokolleinstellungen für IIS-Server in den drei in diesem Handbuch definierten Umgebungen werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass die entsprechenden Ereignisprotokolleinstellungen auf allen IIS-Servern in einer Organisation einheitlich konfiguriert sind.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
 
 ### Zusätzliche Sicherheitseinstellungen
 
-Ist IIS auf einem Computer unter Windows* *Server* *2003 mit SP1 installiert, dann lässt die Standardeinstellung nur die Übertragung von statischem Webinhalt zu. Wenn Websites und Anwendungen dynamischen Inhalt enthalten oder eine oder mehrere zusätzliche IIS-Komponenten erfordern, muss jede zusätzliche IIS-Funktion einzeln aktiviert werden. Sie sollten darauf achten, dass Sie die Angriffsfläche der einzelnen IIS-Server Ihrer Umgebung minimieren. Wenn die Websites in Ihrer Organisation aus statischem Inhalt bestehen und keine weiteren IIS-Komponenten benötigen, ist die Standard-IIS-Konfiguration ausreichend, um die Angriffsfläche der IIS-Server zu minimieren.
+Ist IIS auf einem Computer unter Windows Server 2003 mit SP1 installiert, dann lässt die Standardeinstellung nur die Übertragung von statischem Webinhalt zu. Wenn Websites und Anwendungen dynamischen Inhalt enthalten oder eine oder mehrere zusätzliche IIS-Komponenten erfordern, muss jede zusätzliche IIS-Funktion einzeln aktiviert werden. Sie sollten darauf achten, dass Sie die Angriffsfläche der einzelnen IIS-Server Ihrer Umgebung minimieren. Wenn die Websites in Ihrer Organisation aus statischem Inhalt bestehen und keine weiteren IIS-Komponenten benötigen, ist die Standard-IIS-Konfiguration ausreichend, um die Angriffsfläche der IIS-Server zu minimieren.
 
 Die Sicherheitseinstellungen, die durch die Richtlinie für die Mitgliedsserver-Baseline bereitgestellt werden, bieten eine deutlich erhöhte Sicherheit für IIS-Server. Es gilt jedoch noch einige zusätzliche Einstellungen zu beachten. Die Einstellungen in den folgenden Abschnitten können nicht über die Gruppenrichtlinie implementiert werden und müssen daher auf allen IIS-Servern manuell vorgenommen werden.
 
@@ -164,32 +170,33 @@ Die Sicherheitseinstellungen, die durch die Richtlinie für die Mitgliedsserver-
 IIS 6.0 enthält neben dem WWW-Publishingdienst noch andere Komponenten und Dienste, wie z. B. Dienste zur Bereitstellung von FTP, NNTP und SMTP. Die IIS-Komponenten und -Dienste werden mithilfe des Assistenten für Windows-Komponenten installiert und aktiviert. Dieser kann über die Systemsteuerung und die Option „Software“ gestartet werden. Nach der Installation von IIS müssen Sie alle IIS-Komponenten und -Dienste aktivieren, die von Ihren Websites und Anwendungen benötigt werden.
 
 **So installieren Sie Internet Information Services (IIS) 6.0**
-* Doppelklicken Sie in der Systemsteuerung auf **Software.**  
+1. Doppelklicken Sie in der Systemsteuerung auf **Software.**  
 
-* Klicken Sie auf die Schaltfläche **Windows-Komponenten hinzufügen/entfernen**, um den Assistenten für Windows-Komponenten aufzurufen.
+2. Klicken Sie auf die Schaltfläche **Windows-Komponenten hinzufügen/entfernen**, um den Assistenten für Windows-Komponenten aufzurufen.
 
-* Klicken Sie in der Liste **Komponenten** auf **Anwendungsserver** und anschließend auf **Details.**
+3. Klicken Sie in der Liste **Komponenten** auf **Anwendungsserver** und anschließend auf **Details.**
 
-* Klicken Sie im Dialogfeld **Anwendungsserver** unter **Unterkomponenten des Anwendungsservers** auf **Internetinformationsdienste (IIS)** und anschließend auf **Details.**
+4. Klicken Sie im Dialogfeld **Anwendungsserver** unter **Unterkomponenten des Anwendungsservers** auf **Internetinformationsdienste (IIS)** und anschließend auf **Details.**
 
-* Führen Sie im Dialogfeld **Internetinformationsdienste (IIS)** in der Liste **Unterkomponenten der Internetinformationsdienste (IIS)** einen der folgenden Schritte aus:
-* Zum Hinzufügen optionaler Komponenten aktivieren Sie das Kontrollkästchen neben der zu installierenden Komponente.
+5. Führen Sie im Dialogfeld **Internetinformationsdienste (IIS)** in der Liste **Unterkomponenten der Internetinformationsdienste (IIS)** einen der folgenden Schritte aus:
+    - Zum Hinzufügen optionaler Komponenten aktivieren Sie das Kontrollkästchen neben der zu installierenden Komponente.
 
-* Zum Entfernen optionaler Komponenten deaktivieren Sie das Kontrollkästchen neben der zu entfernenden Komponente.
+    - Zum Entfernen optionaler Komponenten deaktivieren Sie das Kontrollkästchen neben der zu entfernenden Komponente.
 
 
-* Klicken Sie auf **OK**, bis Sie zum Assistenten für Windows-Komponenten zurückgekehrt sind.
+6. Klicken Sie auf **OK**, bis Sie zum Assistenten für Windows-Komponenten zurückgekehrt sind.
 
-* Klicken Sie auf **Weiter** und anschließend auf **Fertig stellen.**  
+7. Klicken Sie auf **Weiter** und anschließend auf **Fertig stellen.**  
 
 
 Sie sollten nur die grundlegenden IIS-Komponenten und -Dienste aktivieren, die von Websites und Anwendungen benötigt werden. Wenn Sie unnötige Komponenten und Dienste aktivieren, wird die Angriffsfläche eines IIS-Servers erhöht. In den folgenden Abbildungen und Tabellen werden Ort und empfohlene Einstellungen für IIS-Komponenten dargestellt.
 
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Anwendungsserver**:
 
+![](images/dd443730.sgfg0901(de-de,technet.10).gif)
 
-**Abbildung 9.1: Dialogfeld „Anwendungsserver“ mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0901_big(de-de,technet.10).gif)
+**Abbildung 9.1: Dialogfeld „Anwendungsserver“ mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0901_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten des Anwendungsservers kurz beschrieben und Empfehlungen gegeben, wann sie aktiviert werden sollten.
 
 **Tabelle 9.2: Empfohlene Einstellungen für die Unterkomponenten des Anwendungsservers**
@@ -375,9 +382,10 @@ Microsoft Message Queuing (MSMQ) bietet eine Middleware-Schicht für Nachrichten
 
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Internetinformationsdienste (IIS)**:
 
+![](images/dd443730.sgfg0902(de-de,technet.10).gif)
 
-**Abbildung 9.2: Dialogfeld „Internetinformationsdienste (IIS)“ mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0902_big(de-de,technet.10).gif)
+**Abbildung 9.2: Dialogfeld „Internetinformationsdienste (IIS)“ mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0902_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten des IIS-Servers kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
 
 **Tabelle 9.3: Empfohlene Einstellungen für die Unterkomponenten des IIS-Servers**
@@ -636,9 +644,10 @@ Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung.
 
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Message Queuing**:
 
+![](images/dd443730.sgfg0903(de-de,technet.10).gif)
 
-**Abbildung 9.3: Dialogfeld „Message Queuing“ mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0903_big(de-de,technet.10).gif)
+**Abbildung 9.3: Dialogfeld „Message Queuing“ mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0903_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten des Message Queuing kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
 
 **Tabelle 9.4: Empfohlene Einstellungen für die Unterkomponenten des Message Queuing**
@@ -686,7 +695,7 @@ Deaktiviert
 <td style="border:1px solid black;">
 
 
-Bietet Integration mit dem Verzeichnisdienst Active* *Directory®, wenn ein IIS-Server einer Domäne angehört. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, Microsoft Message Queuing (MSMQ) verwenden.
+Bietet Integration mit dem Verzeichnisdienst Active Directory®, wenn ein IIS-Server einer Domäne angehört. Diese Komponente ist erforderlich, wenn Websites und Anwendungen, die auf IIS-Servern ausgeführt werden, Microsoft Message Queuing (MSMQ) verwenden.
 
 </td>
 
@@ -736,7 +745,7 @@ Deaktiviert
 <td style="border:1px solid black;">
 
 
-Bietet Zugriff auf Active* *Directory sowie Standorterkennung für kompatible Clients. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.
+Bietet Zugriff auf Active Directory sowie Standorterkennung für kompatible Clients. Diese Komponente ist erforderlich, wenn die Websites und Anwendungen eines IIS-Servers MSMQ verwenden.
 
 </td>
 
@@ -822,9 +831,10 @@ Verknüpft die Ankunft eingehender Nachrichten bei einer Warteschlange mit der F
 
 Die folgende Abbildung zeigt die Unterkomponenten des Dialogfelds **Servererweiterungen des Background Intelligent Transfer Service (BITS)**:
 
+![](images/dd443730.sgfg0904(de-de,technet.10).gif)
 
-**Abbildung 9.4: BITS-Servererweiterungen mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0904_big(de-de,technet.10).gif)
+**Abbildung 9.4: BITS-Servererweiterungen mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0904_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten der BITS-Servererweiterungen kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
 
 **Tabelle 9.5: Empfohlene Einstellungen für die Unterkomponenten der BITS-Servererweiterungen**
@@ -908,9 +918,10 @@ Installiert die ISAPI für BITS, damit ein IIS-Server Daten mithilfe von BITS ü
 
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **WWW-Dienst**:
 
+![](images/dd443730.sgfg0905(de-de,technet.10).gif)
 
-**Abbildung 9.5: Dialogfeld „WWW-Dienst“ mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0905_big(de-de,technet.10).gif)
+**Abbildung 9.5: Dialogfeld „WWW-Dienst“ mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0905_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten des WWW-Dienstes kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
 
 **Tabelle 9.6: Empfohlene Einstellungen der Unterkomponenten des WWW-Dienstes**
@@ -1306,11 +1317,11 @@ In den drei in diesem Handbuch definierten Umgebungen sind alle Dateien und Ordn
 
 Die Datei Cmd. exe befindet sich z. B. im Ordner ***&lt;systemroot&gt;*****System32.**   Ein Angreifer kann nun eine Anforderung an folgenden Speicherort senden:
 
-..\..\Windows\system\cmd.exe
+..\\..\Windows\system\cmd.exe
 
 um zu versuchen, die Eingabeaufforderung aufzurufen.
 
-Wenn sich der Websiteinhalt auf einem separaten Datenträger befindet, wäre ein solcher Directory-Traversal-Angriff aus zwei Gründen nicht ausführbar. Erstens wurden die Berechtigungen für Cmd.exe als Teil des Basisbuilds von Windows* *Server* *2003 mit SP1 zurückgesetzt, wodurch der Zugriff auf eine viel kleinere Benutzergruppe begrenzt wird. Zweitens befindet sich die Datei Cmd.exe nicht auf dem gleichen Datenträger wie der Webstamm. Derzeit ist keine Methode bekannt, um mit einem solchen Angriff auf Befehle auf einem anderen Laufwerk zuzugreifen.
+Wenn sich der Websiteinhalt auf einem separaten Datenträger befindet, wäre ein solcher Directory-Traversal-Angriff aus zwei Gründen nicht ausführbar. Erstens wurden die Berechtigungen für Cmd.exe als Teil des Basisbuilds von Windows Server 2003 mit SP1 zurückgesetzt, wodurch der Zugriff auf eine viel kleinere Benutzergruppe begrenzt wird. Zweitens befindet sich die Datei Cmd.exe nicht auf dem gleichen Datenträger wie der Webstamm. Derzeit ist keine Methode bekannt, um mit einem solchen Angriff auf Befehle auf einem anderen Laufwerk zuzugreifen.
 
 Zusätzlich zu den Sicherheitsvorteilen sind Verwaltungsaufgaben wie das Sichern und Wiederherstellen leichter, wenn die Dateien und Ordner von Websites und Anwendungen auf einem dedizierten Datenträger gespeichert werden. Darüber hinaus kann der Einsatz eines separaten, dedizierten physischen Laufwerks Laufwerkskonflikte auf dem Systemdatenträger verringern und die Zugriffsleistung des Laufwerks insgesamt verbessern.
 
@@ -1513,7 +1524,7 @@ Skriptzugriff
 <td style="border:1px solid black;">
 
 
-Benutzer können auf Quelldateien zugreifen. Wenn der Lesezugriff aktiviert ist, kann die Quelle gelesen werden. Wenn Schreibzugriff aktiviert ist, kann der Quellcode des Skripts geändert werden. Der Skriptzugriff schließt den Quellcode für Skripte mit ein. Wenn weder der Lese- noch der Schreibzugriff aktiviert sind, ist diese Option nicht verfügbar.
+Benutzer können auf Quelldateien zugreifen. Wenn der Lesezugriff aktiviert ist, kann die Quelle gelesen werden. Wenn Schreibzugriff aktiviert ist, kann der Quellcode des Skripts geändert werden. Der Skriptzugriff schließt den Quellcode für Skripte mit ein. Wenn weder der Lese- noch der Schreibzugriff aktiviert sind, ist diese Option nicht verfügbar.  
 
 **Wichtig**: Wenn der Skriptzugriff aktiviert ist, können Benutzer möglicherweise wichtige Informationen anzeigen, wie z. B. einen Benutzernamen und ein Kennwort. Sie können möglicherweise auch den Quellcode ändern, der auf einem IIS-Server ausgeführt wird und dadurch die Sicherheit und die Leistung des Servers erheblich beeinträchtigen.
 
@@ -1588,11 +1599,9 @@ Ausführen
 
 
 Die folgenden Optionen bestimmen die Ebene der Skriptausführung für Benutzer:
-* **Keine.**   Es dürfen keine ausführbaren Skripts auf dem Server ausgeführt werden.
-
-* **Nur Skripts.**   Es dürfen nur Skripts auf dem Server ausgeführt werden.
-
-* **Skripts und ausführbare Dateien.**   Es dürfen sowohl Skripts als auch ausführbare Dateien auf dem Server ausgeführt werden.
+- **Keine.**   Es dürfen keine ausführbaren Skripts auf dem Server ausgeführt werden.
+- **Nur Skripts.**   Es dürfen nur Skripts auf dem Server ausgeführt werden.
+- **Skripts und ausführbare Dateien.**   Es dürfen sowohl Skripts als auch ausführbare Dateien  auf dem Server ausgeführt werden.
 
 
 </td>
@@ -1730,6 +1739,7 @@ Die Auswirkung dieser Konfigurationsänderung hat sich in den letzten Jahren nac
 #### Sichern von Dienstkonten
 
 Konfigurieren Sie einen Dienst für die Ausführung im Sicherheitskontext eines Domänenkontos nur, wenn es sich nicht vermeiden lässt. Bei einem physischen Zugriff auf den Server könnten Domänenkontenkennwörter leicht durch Abbilden von geheimen LSA-Schlüsseln aufgedeckt werden. Weitere Informationen zum Sichern von Dienstkonten finden Sie im [Planungshandbuch für die Dienste- und Dienstekontensicherheit](http://www.microsoft.com/technet/security/topics/serversecurity/serviceaccount/default.mspx) (in englischer Sprache) unter www.microsoft.com/technet/security/topics/serversecurity/serviceaccount/default.mspx.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -1743,37 +1753,37 @@ Wenn Sie Ihre eigene Richtlinie erstellen, müssen Sie die Abschnitte „Registr
 Es empfiehlt sich, das Betriebssystem zu Beginn der Konfigurationsarbeit neu zu installieren. Dadurch wird sichergestellt, dass keine älteren Einstellungen oder Software von früheren Konfigurationen verwendet werden. Wenn möglich, sollten Sie ähnliche Hardware wie in Ihrer Bereitstellungsumgebung verwenden, um eine möglichst hohe Kompatibilität zu gewährleisten. Die neue Installation wird als *Referenzcomputer* bezeichnet.
 
 **So erstellen Sie die IIS-Serverrichtlinie**
-* Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
+1. Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
 
-* Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
+2. Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
 
-* Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
+3. Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
 
-* Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
+4. Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
 
-* Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
+5. Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
 
-* Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die Rollen der Anwendungsserver und Webserver.
+6. Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die Rollen der Anwendungsserver und Webserver.
 
-* Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
+7. Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
 
-* Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
+8. Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
 
-* Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
+9. Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
 
-* Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
+10. Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
 
-* Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
+11. Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
 
-* Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+12. Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-* Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+13. Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-* Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - IIS-Server.inf“).
+14. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - IIS-Server.inf“).
 
-* Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. IIS-Server.xml).
+15. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. IIS-Server.xml).
 
-**Hinweis**: Die Richtlinie für die Mitgliedsserver-Baseline deaktiviert mehrere andere IIS-bezogene Dienste, einschließlich FTP, SMTP und NNTP. Die Webserverrichtlinie muss geändert werden, wenn einer dieser Dienste auf IIS-Servern in einer der drei in diesem Handbuch definierten Umgebungen aktiviert werden soll.
+    **Hinweis**: Die Richtlinie für die Mitgliedsserver-Baseline deaktiviert mehrere andere IIS-bezogene Dienste, einschließlich FTP, SMTP und NNTP. Die Webserverrichtlinie muss geändert werden, wenn einer dieser Dienste auf IIS-Servern in einer der drei in diesem Handbuch definierten Umgebungen aktiviert werden soll.
 
 
 
@@ -1789,28 +1799,32 @@ Die Richtlinie wird getestet, um sicherzustellen, dass ihre Anwendung auf den Zi
 
 Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd verwenden, um wie im folgenden Verfahren veranschaulicht die Richtlinien in Gruppenrichtlinienobjekte umzuwandeln.
 
-Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Security Configuration Wizard Documentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx">Deployment Guide for the Security Configuration Wizard unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx**sowie in der 
+Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Deployment Guide for the Security Configuration Wizard](https://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspxsowie in der [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450) unter http://go.microsoft.com/fwlink/?linkid=43450 (jeweils in englischer Sprache). 
 
 
 #### Umwandeln und Bereitstellen der Richtlinie
 
 Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schritte aus, um sie in ein Gruppenrichtlinienobjekt umzuwandeln und bereitzustellen:
-* Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
+1. Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
 
+    `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;</CodeSnippet>
-und drücken Sie anschließend die Eingabetaste. Beispiel:
+    und drücken Sie anschließend die Eingabetaste. Beispiel:
 
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IIS 
+    Server.xml" /g:"IIS Policy"
+    ```
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IIS Server.xml" /g:"IIS Policy"</CodeSnippet>
-**Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
+    **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
 
-* Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
+2. Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
 
 
 Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, öffnen Sie die Systemsteuerung, und doppelklicken Sie auf **Windows-Firewall.**  
 
 Anschließend sollten Sie eine endgültige Prüfung vornehmen, um sicherzustellen, dass das Gruppenrichtlinienobjekt die gewünschten Einstellungen anwendet. Prüfen Sie zum Abschluss dieses Verfahrens, dass die entsprechenden Einstellungen vorgenommen wurden und die Funktionalität nicht beeinträchtigt ist.
+
 [Zum Seitenanfanq](#mainsection)  
 
 
@@ -1901,8 +1915,3 @@ In diesem Beitrag
 </tr>
 
 </table>
-
-
-
-
-

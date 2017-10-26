@@ -11,9 +11,7 @@ Hardwareanforderungen für RMS
 
 Die folgende Tabelle zeigt die Mindestanforderungen für Hardware und die Empfehlungen für das Ausführen von RMS-Servern.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
