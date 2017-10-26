@@ -44,40 +44,40 @@ Dieser Abschnitt enthält Anleitungen zum Prüfen und Bewerten der Anwendungskom
  
 
 **So testen Sie eine Anwendung mit einer vollständig neuen Installation von Windows Vista**
-* Installieren Sie Windows Vista auf einem Testcomputer.
+1. Installieren Sie Windows Vista auf einem Testcomputer.
 
-* Melden Sie sich als Administrator auf dem Testcomputer an, auf dem Windows Vista ausgeführt wird.
+2. Melden Sie sich als Administrator auf dem Testcomputer an, auf dem Windows Vista ausgeführt wird.
 
-* Installieren Sie die Anwendung, die Sie unter Windows Vista testen möchten. Wenn Sie in einem Dialogfeld gefragt werden, ob die Anwendung installiert werden darf, klicken Sie auf **Zulassen**, um mit der Installation fortzufahren. Wenn die Installation erfolgreich war, fahren Sie mit Schritt 6 fort.
+3. Installieren Sie die Anwendung, die Sie unter Windows Vista testen möchten. Wenn Sie in einem Dialogfeld gefragt werden, ob die Anwendung installiert werden darf, klicken Sie auf **Zulassen**, um mit der Installation fortzufahren. Wenn die Installation erfolgreich war, fahren Sie mit Schritt 6 fort.
 
-* Wenn die Installation der Anwendung nicht erfolgreich war und kein Dialogfeld angezeigt wurde, in dem Sie um Erlaubnis zur Installation gefragt wurden, klicken Sie mit der rechten Maustaste auf die Installationsdatei, klicken Sie auf die Option **Als Administrator ausführen**, und installieren Sie die Anwendung erneut. Wenn die Installation erfolgreich war, fahren Sie mit Schritt 7 fort.
+4. Wenn die Installation der Anwendung nicht erfolgreich war und kein Dialogfeld angezeigt wurde, in dem Sie um Erlaubnis zur Installation gefragt wurden, klicken Sie mit der rechten Maustaste auf die Installationsdatei, klicken Sie auf die Option **Als Administrator ausführen**, und installieren Sie die Anwendung erneut. Wenn die Installation erfolgreich war, fahren Sie mit Schritt 7 fort.
 
-**Hinweis**:   Dieser Schritt ist nicht notwendig, wenn Sie eine MSI-Datei (Microsoft Installer) zum Installieren der Anwendung verwenden.
+    **Hinweis**:   Dieser Schritt ist nicht notwendig, wenn Sie eine MSI-Datei (Microsoft Installer) zum Installieren der Anwendung verwenden.
 
-* Wenn Fehler zu Betriebssystemversion, Anwendungsregistrierung oder Dateikopie angezeigt werden, klicken Sie mit der rechten Maustaste auf die Installationsdatei, klicken Sie auf **Kompatibilität**, und wählen Sie dann den Windows XP SP2-Kompatibilitätsmodus aus.
+5. Wenn Fehler zu Betriebssystemversion, Anwendungsregistrierung oder Dateikopie angezeigt werden, klicken Sie mit der rechten Maustaste auf die Installationsdatei, klicken Sie auf **Kompatibilität**, und wählen Sie dann den Windows XP SP2-Kompatibilitätsmodus aus.
 
-* Wiederholen Sie Schritt 2. Wenn Sie die Anwendung immer noch nicht installieren können, gehen Sie zu Schritt 8.
+6. Wiederholen Sie Schritt 2. Wenn Sie die Anwendung immer noch nicht installieren können, gehen Sie zu Schritt 8.
 
-* Melden Sie sich als Benutzer ohne Administratorechte an dem Testcomputer an, auf dem Windows Vista ausgeführt wird.
+7. Melden Sie sich als Benutzer ohne Administratorechte an dem Testcomputer an, auf dem Windows Vista ausgeführt wird.
 
-* Starten Sie die Anwendung. Wenn die Anwendung nicht ordnungsgemäß startet oder Fehlermeldungen angezeigt werden, aktivieren Sie den Windows XP SP2-Kompatibilitätsmodus für die Anwendungsprogrammdatei, und versuchen Sie dann erneut, die Datei unter dem Betriebssystem zu installieren.
+8. Starten Sie die Anwendung. Wenn die Anwendung nicht ordnungsgemäß startet oder Fehlermeldungen angezeigt werden, aktivieren Sie den Windows XP SP2-Kompatibilitätsmodus für die Anwendungsprogrammdatei, und versuchen Sie dann erneut, die Datei unter dem Betriebssystem zu installieren.
 
-* Wenn die Anwendung erfolgreich startet, führen Sie die vollständige Reihe von Tests aus, die Sie typischerweise auf einem Computer verwenden würden, auf dem Windows XP ausgeführt wird. Überprüfen Sie die Funktionalität Ihrer Anwendung, um zu bestätigen, dass sie ordnungsgemäß ausgeführt wird. Wenn die Anwendung alle wichtigen Funktionalitätstests besteht, kann sie problemlos mit Windows Vista verwendet werden.
+9. Wenn die Anwendung erfolgreich startet, führen Sie die vollständige Reihe von Tests aus, die Sie typischerweise auf einem Computer verwenden würden, auf dem Windows XP ausgeführt wird. Überprüfen Sie die Funktionalität Ihrer Anwendung, um zu bestätigen, dass sie ordnungsgemäß ausgeführt wird. Wenn die Anwendung alle wichtigen Funktionalitätstests besteht, kann sie problemlos mit Windows Vista verwendet werden.
 
-* Wenn die Anwendung nicht erfolgreich installiert und gestartet werden kann, nicht mehr reagiert, Fehler verursacht oder einen der wichtigsten Funktionalitätstests nicht besteht, gehört sie möglicherweise zu der kleinen Anzahl von Anwendungen, bei denen Kompatibilitätsprobleme mit Windows Vista auftreten. Ziehen Sie die anderen Ressourcen in den Referenzen dieses Kapitels heran, um Ihre Anwendung weiter zu untersuchen und zu testen.
+10. Wenn die Anwendung nicht erfolgreich installiert und gestartet werden kann, nicht mehr reagiert, Fehler verursacht oder einen der wichtigsten Funktionalitätstests nicht besteht, gehört sie möglicherweise zu der kleinen Anzahl von Anwendungen, bei denen Kompatibilitätsprobleme mit Windows Vista auftreten. Ziehen Sie die anderen Ressourcen in den Referenzen dieses Kapitels heran, um Ihre Anwendung weiter zu untersuchen und zu testen.
 
  
 
 **So testen Sie eine Anwendung mit einem Upgrade auf Windows Vista von Windows XP SP2**
-* Installieren Sie Windows XP mit SP2 auf einem Testcomputer, und installieren Sie dann die Anwendung, die Sie testen möchten. Überprüfen Sie die gesamte Funktionalität der Anwendung, bevor Sie fortfahren.
+1. Installieren Sie Windows XP mit SP2 auf einem Testcomputer, und installieren Sie dann die Anwendung, die Sie testen möchten. Überprüfen Sie die gesamte Funktionalität der Anwendung, bevor Sie fortfahren.
 
-* Aktualisieren Sie den Testcomputer auf Windows Vista. Befolgen Sie die Anweisungen zu Installation und Upgrade für Windows Vista. Nachdem das Upgrade abgeschlossen ist, melden Sie sich am Testcomputer in gleicher Weise an wie unter Windows XP.
+2. Aktualisieren Sie den Testcomputer auf Windows Vista. Befolgen Sie die Anweisungen zu Installation und Upgrade für Windows Vista. Nachdem das Upgrade abgeschlossen ist, melden Sie sich am Testcomputer in gleicher Weise an wie unter Windows XP.
 
-* Starten Sie die Anwendung. Wenn die Anwendung nicht ordnungsgemäß startet oder wenn Fehlermeldungen angezeigt werden, aktivieren Sie den Windows XP SP2-Kompatibilitätsmodus für die Anwendungsprogrammdatei, und versuchen Sie dann erneut, die Datei zu installieren.
+3. Starten Sie die Anwendung. Wenn die Anwendung nicht ordnungsgemäß startet oder wenn Fehlermeldungen angezeigt werden, aktivieren Sie den Windows XP SP2-Kompatibilitätsmodus für die Anwendungsprogrammdatei, und versuchen Sie dann erneut, die Datei zu installieren.
 
-* Wenn die Anwendung erfolgreich startet, führen Sie die vollständige Reihe von Tests aus, die Sie typischerweise auf einem Computer verwenden würden, auf dem Windows XP ausgeführt wird. Überprüfen Sie die Funktionalität Ihrer Anwendung, um zu bestätigen, dass sie ordnungsgemäß ausgeführt wird. Wenn die Anwendung alle wichtigen Funktionalitätstests besteht, kann sie problemlos mit Windows Vista verwendet werden.
+4. Wenn die Anwendung erfolgreich startet, führen Sie die vollständige Reihe von Tests aus, die Sie typischerweise auf einem Computer verwenden würden, auf dem Windows XP ausgeführt wird. Überprüfen Sie die Funktionalität Ihrer Anwendung, um zu bestätigen, dass sie ordnungsgemäß ausgeführt wird. Wenn die Anwendung alle wichtigen Funktionalitätstests besteht, kann sie problemlos mit Windows Vista verwendet werden.
 
-* Wenn die Anwendung nicht erfolgreich installiert und gestartet werden kann, nicht mehr reagiert, Fehler verursacht oder einen der wichtigsten Funktionalitätstests nicht besteht, gehört sie möglicherweise zu der kleinen Anzahl von Anwendungen mit Kompatibilitätsproblemen, die durch die Änderungen in Windows Vista verursacht wurden. Ziehen Sie die anderen Ressourcen in den Referenzen dieses Kapitels heran, um Ihre Anwendung weiter zu untersuchen und zu testen.
+5. Wenn die Anwendung nicht erfolgreich installiert und gestartet werden kann, nicht mehr reagiert, Fehler verursacht oder einen der wichtigsten Funktionalitätstests nicht besteht, gehört sie möglicherweise zu der kleinen Anzahl von Anwendungen mit Kompatibilitätsproblemen, die durch die Änderungen in Windows Vista verursacht wurden. Ziehen Sie die anderen Ressourcen in den Referenzen dieses Kapitels heran, um Ihre Anwendung weiter zu untersuchen und zu testen.
 
  
 
@@ -149,7 +149,7 @@ Zum Zugriff auf den Programmkompatibilitäts-Assistenten doppelklicken Sie auf d
 
 Weitere Informationen finden Sie unter [Make Older Programs Run in this Version of Windows](http://windowshelp.microsoft.com/windows/en-us/help/bf416877-c83f-4476-a3da-8ec98dcf5f101033.mspx) (engl.).
 
-**Achtung:**
+![](images/dd443668.warning(de-de,technet.10).gif)**Achtung:**
 
 Führen Sie den Programmkompatibilitäts-Assistenten nicht für ältere Antivirenprogramme, Datenträgerdienstprogramme oder andere Systemprogramme aus, da dies zu Datenverlusten oder Sicherheitsrisiken führen könnte. Verwenden Sie stattdessen nur Versionen dieser Programme und Dienstprogramme, die speziell für die Nutzung mit Windows Vista entwickelt wurden.
 
@@ -188,7 +188,7 @@ Zu den Verbesserungen in diesem Toolkit zählen unter anderem:
 
 Weitere Informationen zum Toolkit finden Sie auf der Seite [Windows Vista – Anwendungskompatibilität](http://www.microsoft.com/germany/technet/prodtechnol/windowsvista/appcompat/default.mspx) (engl.).
 
-Vorübergehende Lösungen
+**Vorübergehende Lösungen**
 
 Neben spezifischen Tools und Ressourcen für die Anwendungskompatibilität gibt es weitere Microsoft-Technologien, die Sie bei Problemen mit der Anwendungskompatibilität einsetzen können, deren vollständige Lösung möglicherweise längere Zeit erfordert. Diese Technologien sollen Sie bei der Migration zu Windows Vista unterstützen und es Ihnen ermöglichen, weiterhin unternehmenskritische Anwendungen auszuführen, die nicht mit Windows Vista kompatibel sind. Zu diesen Technologien zählen unter anderem:
 * **Virtual PC:** Mit Virtual PC können Sie Anwendungen unter Windows Vista ausführen, die nur mit älteren Versionen von Windows ordnungsgemäß funktionieren. Virtual PC ermöglicht es Benutzern, eine frühere Version von Windows verfügbar zu halten, um nicht kompatible Anwendungen innerhalb ihrer Windows Vista-Umgebung auszuführen. Auf diese Weise kann die Zeit überbrückt werden, bis aktualisierte Versionen nicht kompatibler Anwendungen entwickelt werden. Weitere Informationen finden Sie auf der Website zu [Microsoft Virtual PC](http://www.microsoft.com/germany/windows/virtualpc/default.mspx).

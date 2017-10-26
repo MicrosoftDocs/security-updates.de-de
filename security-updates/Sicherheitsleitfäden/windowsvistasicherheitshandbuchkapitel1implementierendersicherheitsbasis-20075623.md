@@ -30,7 +30,7 @@ Zum Bereitstellen dieser Richtlinien müssen Sie folgende Aktionen ausführen:
 
  
 
-**Achtung:**
+![](images/dd443680.warning(de-de,technet.10).gif)**Achtung:**
 
 Sie müssen die Organisations- und Gruppenrichtlinienentwürfe unbedingt gründlich testen, bevor Sie sie in einer Produktionsumgebung bereitstellen. Im Abschnitt „Implementieren der Sicherheitsrichtlinien“ in diesem Kapitel finden Sie Anweisungen zum Erstellen und Bereitstellen der Organisationseinheitsstruktur und Sicherheitsgruppenrichtlinienobjekte während der Test- und Produktionsphase der Implementierung.
 
@@ -43,7 +43,7 @@ Die mit diesem Handbuch bereitgestellten Baseline-Gruppenrichtlinienobjekte biet
 
 In diesem Kapitel wird die Unternehmensclient-Umgebung behandelt. Eine Erläuterung der SSLF-Umgebung und des Verfahrens zum Anwenden der entsprechenden Sicherheitseinstellungen finden Sie in Kapitel 5, „Hochsicherheit (SSLF)“.
 
-Auf dieser Seite
+**Auf dieser Seite**
 
 [Unternehmensclient-Umgebung](#edaa)  
 [Sicherheitsentwurf und Implementierung](#ecaa)  
@@ -83,25 +83,25 @@ Mithilfe des Assistenten zum Erstellen neuer Delegierungen, der Bestandteil des 
 
 Eine der Hauptaufgaben eines Organisationseinheitsentwurfs für eine Umgebung ist das Bereitstellen einer Grundlage für eine nahtlose Implementierung von Gruppenrichtlinien, die auf alle Clientcomputer in Active Directory angewendet wird. So wird sichergestellt, dass die Clientcomputer die Sicherheitsstandards Ihres Unternehmens erfüllen. Der Organisationseinheitsentwurf muss außerdem eine geeignete Struktur für die verschiedenen Sicherheitseinstellungen für bestimmte Typen von Benutzern in einem Unternehmen bereitstellen. Entwickler müssen beispielsweise in einer Weise auf ihre Computer zugreifen können, die für normale Benutzer nicht erforderlich ist. Auch können für Laptopbenutzer andere Sicherheitsstandards gelten als für Desktopbenutzer. Die folgende Abbildung enthält ein Beispiel einer einfachen Organisationseinheitsstruktur, das für die Erläuterung von Gruppenrichtlinien in diesem Kapitel ausreichend ist. Diese Organisationseinheitsstruktur unterscheidet sich möglicherweise von den Anforderungen in der Umgebung Ihres Unternehmens.
  
-
+![](images/dd443680.vsgf0101(de-de,technet.10).gif)
 
 **Abbildung 1.1 Beispielstruktur für Organisationseinheiten für Computer unter Windows Vista**
  
 
-Organisationseinheit „Abteilung“
+**Organisationseinheit „Abteilung“**
 
 Da es innerhalb einer Organisation oft unterschiedliche Sicherheitsanforderungen gibt, ist es sinnvoll, in Ihrer Umgebung Organisationseinheiten für Abteilungen zu erstellen. Mithilfe dieser Organisationseinheiten können Sie Sicherheitseinstellungen über ein Gruppenrichtlinienobjekt auf Computer und Benutzer in den jeweiligen Abteilungsorganisationseinheiten anwenden.
 
-Organisationseinheit „Windows Vista-Benutzer“
+**Organisationseinheit „Windows Vista-Benutzer“**
 
 Diese Organisationseinheit enthält die Benutzerkonten für die EC-Umgebung. Die auf diese Organisationseinheit angewendeten Einstellungen werden detailliert in Anhang A, „Sicherheitsrelevante Gruppenrichtlinieneinstellungen“, beschrieben.
 
-Organisationseinheit „Windows Vista-Computer“
+**Organisationseinheit „Windows Vista-Computer“**
 
 Diese Organisationseinheit enthält untergeordnete Organisationseinheiten für alle Typen von Clientcomputern mit Windows Vista in der EC-Umgebung. Dieses Handbuch beschäftigt sich schwerpunktmäßig mit Anleitungen zur Sicherheit für Desktop- und Laptop-Computer. Für dieses Handbuch wurden daher die folgenden Computer-Organisationseinheiten erstellt:
-* **Organisationseinheit „Desktop“.**   In dieser Organisationseinheit sind Desktopcomputer enthalten, die permanent mit dem Netzwerk verbunden sind. Die auf diese Organisationseinheit angewendeten Einstellungen werden detailliert in Anhang A, „Sicherheitsrelevante Gruppenrichtlinieneinstellungen“, beschrieben.
+   * **Organisationseinheit „Desktop“.**   In dieser Organisationseinheit sind Desktopcomputer enthalten, die permanent mit dem Netzwerk verbunden sind. Die auf diese Organisationseinheit angewendeten Einstellungen werden detailliert in Anhang A, „Sicherheitsrelevante Gruppenrichtlinieneinstellungen“, beschrieben.
 
-* **Organisationseinheit „Laptop“.**   In dieser Organisationseinheit sind Laptopcomputer mobiler Benutzer enthalten, die nicht permanent mit dem Netzwerk verbunden sind. In Anhang A finden Sie außerdem Einzelheiten zu den Einstellungen für diese Organisationseinheit.
+   * **Organisationseinheit „Laptop“.**   In dieser Organisationseinheit sind Laptopcomputer mobiler Benutzer enthalten, die nicht permanent mit dem Netzwerk verbunden sind. In Anhang A finden Sie außerdem Einzelheiten zu den Einstellungen für diese Organisationseinheit.
 
  
 
@@ -112,7 +112,7 @@ Ein Gruppenrichtlinienobjekt ist eine Sammlung von Gruppenrichtlinieneinstellung
 
 Mithilfe von Gruppenrichtlinienobjekten können Sie sicherstellen, dass bestimmte Richtlinieneinstellungen, Benutzereinstellungen, Benutzerberechtigungen und Computerverhalten für alle Clientcomputer oder Benutzer in einer Organisationseinheit gelten. Das Verwenden von Gruppenrichtlinien anstelle einer manuellen Konfiguration vereinfacht das Verwalten und Aktualisieren von Änderungen für eine große Anzahl von Computern und Benutzern. Die manuelle Konfiguration ist nicht nur ineffizient, da ein Techniker jeden einzelnen Computer vor Ort konfigurieren muss, sondern potenziell auch nicht wirkungsvoll. Der Hauptgrund hierfür liegt darin, dass bei einer Abweichung der Richtlinieneinstellungen in domänenbasierten Gruppenrichtlinienobjekten von den lokalen Einstellungen die domänenbasierten Einstellungen für Gruppenrichtlinienobjekte die lokal angewendeten Richtlinieneinstellungen überschreiben.
  
-
+![](images/dd443680.vsgf0102(de-de,technet.10).gif)
 
 **Abbildung 1.2 Rangfolge der Gruppenrichtlinienobjekte**
  
@@ -122,6 +122,7 @@ Die Abbildung oben zeigt die Rangfolge, mit der Gruppenrichtlinienobjekte auf ei
 Auf Windows Vista-Clients, die auf mehreren Schichten von Organisationseinheiten verschachtelt sind, werden Gruppenrichtlinienobjekte in absteigender Reihenfolge von der übergeordneten zur niedrigsten untergeordneten Ebene der Organisationseinheiten in der Hierarchie angewendet. Das letzte Gruppenrichtlinienobjekt wird aus der Organisationseinheit angewendet, die den Clientcomputer enthält. Diese Reihenfolge der Verarbeitung von Gruppenrichtlinienobjekten – lokale Sicherheitsrichtlinie, Standort, Domäne, übergeordnete Organisationseinheit und untergeordnete Organisationseinheit – ist bedeutsam, weil Gruppenrichtlinienobjekte, die später im Prozess angewendet werden, zu einem früheren Zeitpunkt angewendete überschreiben. Gruppenrichtlinienobjekte für Benutzer werden in gleicher Weise angewendet.
 
 Beim Entwerfen von Gruppenrichtlinien sollten Sie die folgenden Punkte berücksichtigen:
+
 * Der Administrator muss die Reihenfolge festlegen, in der mehrere Gruppenrichtlinienobjekte mit einer Organisationseinheit verknüpft werden. Andernfalls werden die Gruppenrichtlinien standardmäßig in der Reihenfolge angewendet, in der sie mit der Organisationseinheit verknüpft wurden. Wenn in mehreren Richtlinien die gleiche Einstellung festgelegt wird, hat die Richtlinie Vorrang, die sich in der Richtlinienliste für den Container am weitesten oben befindet.
 
 * Ein Gruppenrichtlinienobjekt kann mithilfe der Option **Erzwungen** konfiguriert werden. Wenn Sie diese Option auswählen, können die in diesem Gruppenrichtlinienobjekt festgelegten Einstellungen nicht von anderen Gruppenrichtlinienobjekten außer Kraft gesetzt werden.
@@ -134,9 +135,10 @@ Beim Entwerfen von Gruppenrichtlinien sollten Sie die folgenden Punkte berücksi
 
  
 
-Empfohlene Gruppenrichtlinienobjekte
+**Empfohlene Gruppenrichtlinienobjekte**
 
 Zum Implementieren des oben beschriebenen Entwurfs für Organisationseinheiten werden mindestens vier Gruppenrichtlinienobjekte benötigt:
+
 * Eine Richtlinie für die Domäne
 
 * Eine Richtlinie für die Organisationseinheit „Windows Vista-Benutzer“
@@ -178,18 +180,20 @@ Zum Implementieren des Sicherheitsentwurfs für die beiden in diesem Handbuch be
 **Wichtig:**   Sie müssen alle Anweisungen in diesem Handbuch auf einem Clientcomputer mit Windows Vista ausführen, der mit Active Directory einer Domäne hinzugefügt wurde. Darüber hinaus muss der Benutzer, der die Schritte ausführt, über Domänenadministratorrechte verfügen. Wenn Sie das Betriebssystem Microsoft Windows® XP oder Windows Server® 2003 verwenden, werden die Windows Vista–spezifischen Sicherheitseinstellungen nicht in der GPMC angezeigt.
 
 Zum Implementieren des Sicherheitsentwurfs müssen Sie drei Hauptaufgaben ausführen:
-* Erstellen der Unternehmensclient-Umgebung
 
-* Verknüpfen der Domänenrichtlinie „VSG EC Domain Policy“ mit der Domäne mithilfe der Gruppenrichtlinien-Verwaltungskonsole
+1. Erstellen der Unternehmensclient-Umgebung
 
-* Überprüfen der Ergebnisse in der Gruppenrichtlinien-Verwaltungskonsole
+2. Verknüpfen der Domänenrichtlinie „VSG EC Domain Policy“ mit der Domäne mithilfe der Gruppenrichtlinien-Verwaltungskonsole
+
+3. Überprüfen der Ergebnisse in der Gruppenrichtlinien-Verwaltungskonsole
 
 
 In diesem Abschnitt des Kapitels werden diese Aufgaben und Verfahren sowie die Funktionsweise des Skripts „GPOAccelerator.wsf“ beschrieben, das automatisch die empfohlenen Gruppenrichtlinienobjekte erstellt.
 
-Das Skript „GPOAccelerator.wsf“
+**Das Skript „GPOAccelerator.wsf“**
 
 Das wichtigste Tool, das durch die Datei „Windows Vista Security Guide.msi“ installiert wird, ist das Skript „GPOAccelerator.wsf“. Die Hauptfunktion dieses Skripts ist das automatische Erstellen aller Gruppenrichtlinienobjekte, die Sie zum Ausführen dieser Anleitungen benötigen. Sie müssen nicht mit großem Zeitaufwand manuell Richtlinieneinstellungen bearbeiten und Vorlagen anwenden. Für die Clientcomputer in der Unternehmensclient-Umgebung erstellt das Skript die folgenden vier Gruppenrichtlinienobjekte:
+
 * **VSG EC Domain Policy** für die Domäne.
 
 * **VSG EC Users Policy** für Benutzer.
@@ -209,7 +213,7 @@ Verwenden Sie das Skript „GPOAccelerator.wsf“ für die folgenden Aufgaben:
 
  
 
-Testen des Entwurfs in einer Testumgebung
+**Testen des Entwurfs in einer Testumgebung**
 
 Die mit diesem Handbuch bereitgestellten Gruppenrichtlinienobjekte wurden intensiv getestet. Sie müssen jedoch unbedingt eigene Tests in Ihrer Umgebung durchführen. Um Zeit zu sparen, können Sie mit dem Skript „GPOAccelerator.wsf“ die vorgeschriebenen Gruppenrichtlinienobjekte und die empfohlene Organisationseinheitsstruktur erstellen und die GPOs und die Organisationseinheiten dann automatisch verknüpfen.
 
@@ -219,30 +223,30 @@ Die mit diesem Handbuch bereitgestellten Gruppenrichtlinienobjekte wurden intens
 Das Skript „GPOAccelerator.wsf“ befindet sich im folgenden Ordner: Windows Vista Security Guide\  
 GPOAccelerator Tool. Dieser wird von der Microsoft Windows Installer-Datei (MSI-Datei) erstellt.
 
-**Hinweis:  ** Der Ordner „GPOAccelerator Tool“ und die entsprechenden Unterordner müssen sich auf dem lokalen Computer befinden, damit das Skript wie im folgenden Verfahren beschrieben ausgeführt wird.
+**Hinweis:** Der Ordner „GPOAccelerator Tool“ und die entsprechenden Unterordner müssen sich auf dem lokalen Computer befinden, damit das Skript wie im folgenden Verfahren beschrieben ausgeführt wird.
 
 **So erstellen Sie die Gruppenrichtlinienobjekte und verknüpfen sie mit den entsprechenden Organisationseinheiten in der Testumgebung**
-* Melden Sie sich als Domänenadministrator an einem Computer mit Windows Vista an, der mit Active Directory der Domäne hinzugefügt wurde, in der Sie die Gruppenrichtlinienobjekte erstellen.
+1. Melden Sie sich als Domänenadministrator an einem Computer mit Windows Vista an, der mit Active Directory der Domäne hinzugefügt wurde, in der Sie die Gruppenrichtlinienobjekte erstellen.
 
-* Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide.**  
+2. Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide.**  
 
-* Öffnen Sie den Ordner **GPOAccelerator Tool\Security Group Policy Objects.**  
+3. Öffnen Sie den Ordner **GPOAccelerator Tool\Security Group Policy Objects.**  
 
-* Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Domänenadministratorrechten zu öffnen.
+4. Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Domänenadministratorrechten zu öffnen.
 
-**Hinweis:**   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
+    **Hinweis:**   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
 
-* Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Enterprise /LAB** ein, und drücken Sie dann die EINGABETASTE.
+5. Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Enterprise /LAB** ein, und drücken Sie dann die EINGABETASTE.
 
-* Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
+6. Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
 
-**Hinweis:**   Dieser Schritt kann einige Minuten in Anspruch nehmen.
+    **Hinweis:**   Dieser Schritt kann einige Minuten in Anspruch nehmen.
 
-* Klicken Sie im Meldungsfeld **The** **Enterprise Lab Environment is created** (Die Unternehmenstestumgebung wurde erstellt) auf **OK.**  
+7. Klicken Sie im Meldungsfeld **The** **Enterprise Lab Environment is created** (Die Unternehmenstestumgebung wurde erstellt) auf **OK.**  
 
-* Klicken Sie im Meldungsfeld **Make sure to link the Enterprise Domain GPO to your domain** (Gruppenrichtlinienobjekt für Unternehmensdomäne mit der Domäne verknüpfen) auf **OK**, und führen Sie dann die Schritte in der nächsten Aufgabe aus, um die Domänenrichtlinie „VSG EC Domain Policy“ zu verknüpfen.
+8. Klicken Sie im Meldungsfeld **Make sure to link the Enterprise Domain GPO to your domain** (Gruppenrichtlinienobjekt für Unternehmensdomäne mit der Domäne verknüpfen) auf **OK**, und führen Sie dann die Schritte in der nächsten Aufgabe aus, um die Domänenrichtlinie „VSG EC Domain Policy“ zu verknüpfen.
 
-**Hinweis:**   Die Gruppenrichtlinie auf Domänenebene enthält Einstellungen, die auf alle Computer und Benutzer in der Domäne angewendet werden. Sie müssen entscheiden können, wann das Domänen-GPO verknüpft wird, da dieses Gruppenrichtlinienobjekt auf *alle* Benutzer und Computer angewendet wird. Aus diesem Grund wird das Domänen-GPO vom Skript „GPOAccelerator.wsf“ nicht automatisch mit der Domäne verknüpft.
+    **Hinweis:**   Die Gruppenrichtlinie auf Domänenebene enthält Einstellungen, die auf alle Computer und Benutzer in der Domäne angewendet werden. Sie müssen entscheiden können, wann das Domänen-GPO verknüpft wird, da dieses Gruppenrichtlinienobjekt auf *alle* Benutzer und Computer angewendet wird. Aus diesem Grund wird das Domänen-GPO vom Skript „GPOAccelerator.wsf“ nicht automatisch mit der Domäne verknüpft.
 
 
 
@@ -251,15 +255,15 @@ GPOAccelerator Tool. Dieser wird von der Microsoft Windows Installer-Datei (MSI-
 Sie können nun das Domänen-Gruppenrichtlinienobjekt mit der Domäne verknüpfen. Im Folgenden wird beschrieben, wie Sie mit der GPMC auf einem Clientcomputer mit Windows Vista die Domänenrichtlinie „VSG EC Domain Policy“ mit der Domäne verknüpfen.
 
 **So verknüpfen Sie die Domänenrichtlinie „VSG EC Domain Policy“**
-* Klicken Sie auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, und klicken Sie dann auf **Ausführen.**   (Sie können auch die Windows-Logo-Taste + R drücken.)
+1. Klicken Sie auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, und klicken Sie dann auf **Ausführen.**   (Sie können auch die Windows-Logo-Taste + R drücken.)
 
-* Geben Sie im Textfeld **Öffnen** die Zeichenfolge **gpmc.msc** ein, und klicken Sie dann auf **OK.**  
+2. Geben Sie im Textfeld **Öffnen** die Zeichenfolge **gpmc.msc** ein, und klicken Sie dann auf **OK.**  
 
-* Klicken Sie in der Domänenstruktur mit der rechten Maustaste auf die Domäne, und klicken Sie dann auf **Vorhandenes Gruppenrichtlinienobjekt verknüpfen.**  
+3. Klicken Sie in der Domänenstruktur mit der rechten Maustaste auf die Domäne, und klicken Sie dann auf **Vorhandenes Gruppenrichtlinienobjekt verknüpfen.**  
 
-* Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Domain Policy**, und klicken Sie dann auf **OK.**  
+4. Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Domain Policy**, und klicken Sie dann auf **OK.**  
 
-* Wählen Sie im Detailbereich **VSG EC Domain Policy** aus, und klicken Sie dann auf die Schaltfläche **Verknüpfung an den Anfang verschieben.**  
+5. Wählen Sie im Detailbereich **VSG EC Domain Policy** aus, und klicken Sie dann auf die Schaltfläche **Verknüpfung an den Anfang verschieben.**  
 
 
 **Wichtig:**   Stellen Sie sicher, dass für **VSG EC Domain Policy** die Option **Verknüpfungsreihenfolge** auf **1** festgelegt ist. Wenn dies nicht der Fall ist, überschreiben andere mit der Domäne verknüpfte Gruppenrichtlinienobjekte, z. B. das Gruppenrichtlinienobjekt für die Standarddomänenrichtlinie, die Einstellungen des *Windows Vista-Sicherheitshandbuchs*.
@@ -270,17 +274,17 @@ Sie können nun das Domänen-Gruppenrichtlinienobjekt mit der Domäne verknüpfe
 Mit der GPMC können Sie die Ergebnisse des Skripts überprüfen. Im Folgenden wird beschrieben, wie Sie mit der GPMC auf einem Clientcomputer mit Windows Vista die Gruppenrichtlinienobjekte und die Struktur der Organisationseinheiten überprüfen können, die vom Skript „GPOAccelerator.wsf“ erstellt wurden.
 
 **So überprüfen Sie die Ergebnisse des Skripts „GPOAccelerator.wsf“**
-* Klicken Sie auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, und klicken Sie dann auf **Ausführen.**  
+1. Klicken Sie auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, und klicken Sie dann auf **Ausführen.**  
 
-* Geben Sie im Textfeld **Öffnen** die Zeichenfolge **gpmc.msc** ein, und klicken Sie dann auf **OK.**  
+2. Geben Sie im Textfeld **Öffnen** die Zeichenfolge **gpmc.msc** ein, und klicken Sie dann auf **OK.**  
 
-* Klicken Sie auf die entsprechende Struktur, klicken Sie auf **Domänen**, und klicken Sie dann auf die Domäne.
+3. Klicken Sie auf die entsprechende Struktur, klicken Sie auf **Domänen**, und klicken Sie dann auf die Domäne.
 
-* Klicken Sie auf **Vista Security Guide EC Client OU** (EC-Client-Organisationseinheit für Vista Security Guide), erweitern Sie diese Organisationseinheit, und klicken Sie dann auf die fünf Organisationseinheiten darunter, um sie zu öffnen.
+4. Klicken Sie auf **Vista Security Guide EC Client OU** (EC-Client-Organisationseinheit für Vista Security Guide), erweitern Sie diese Organisationseinheit, und klicken Sie dann auf die fünf Organisationseinheiten darunter, um sie zu öffnen.
 
-* Stellen Sie sicher, dass die Organisationseinheitsstruktur und die Verknüpfungen der Gruppenrichtlinienobjekte mit der folgenden Abbildung übereinstimmen.
+5. Stellen Sie sicher, dass die Organisationseinheitsstruktur und die Verknüpfungen der Gruppenrichtlinienobjekte mit der folgenden Abbildung übereinstimmen.
  
-
+![](images/dd443680.vsgf0104(de-de,technet.10).gif)
 
 **Abbildung 1.4 GPMC-Ansicht der Organisationseinheitsstruktur und Verknüpfungen der Gruppenrichtlinienobjekte, die vom Skript „GPOAccelerator.wsf“ erstellt wurden**
  
@@ -288,7 +292,7 @@ Mit der GPMC können Sie die Ergebnisse des Skripts überprüfen. Im Folgenden w
 
 Alle Gruppenrichtlinienobjekte, die vom Skript „GPOAccelerator.wsf“ erstellt werden, enthalten sämtliche in diesem Handbuch empfohlene Einstellungen. Sie können nun mit dem Tool „Active Directory-Benutzer und -Computer“ den Entwurf testen, indem Sie Benutzer und Computer in die entsprechenden Organisationseinheiten verschieben. Details zu den Einstellungen der einzelnen Gruppenrichtlinienobjekte finden Sie in Anhang A, „Sicherheitsrelevante Gruppenrichtlinieneinstellungen“.
 
-Bereitstellen des Entwurfs in einer Produktionsumgebung
+**Bereitstellen des Entwurfs in einer Produktionsumgebung**
 
 Um Zeit zu sparen, können Sie mit dem Skript „GPOAccelerator.wsf“ die Gruppenrichtlinienobjekte für die Unternehmensclient-Umgebung erstellen. Sie können dann die Gruppenrichtlinienobjekte mit den entsprechenden Organisationseinheiten in der vorhandenen Struktur verknüpfen. In größeren Domänen mit einer größeren Anzahl von Organisationseinheiten müssen Sie beachten, wie Sie die vorhandene Organisationseinheitsstruktur zum Bereitstellen der Gruppenrichtlinienobjekte verwenden.
 
@@ -305,25 +309,25 @@ Sie erstellen die in diesem Handbuch beschriebenen Gruppenrichtlinienobjekte fü
 **Hinweis:**   Sie können das Verzeichnis „GPOAccelerator Tool“ einfach von einem Computer, auf dem das Verzeichnis installiert ist, auf einen anderen Computer kopieren, auf dem Sie das Skript verwenden möchten. Der Ordner „GPOAccelerator Tool“ und die entsprechenden Unterordner müssen sich auf dem lokalen Computer befinden, damit das Skript wie im folgenden Verfahren beschrieben ausgeführt wird.
 
 **So erstellen Sie die Gruppenrichtlinienobjekte in einer Produktionsumgebung**
-* Melden Sie sich als Domänenadministrator an einem Computer mit Windows Vista an, der mit Active Directory der Domäne hinzugefügt wurde, in der Sie die Gruppenrichtlinienobjekte erstellen.
+1. Melden Sie sich als Domänenadministrator an einem Computer mit Windows Vista an, der mit Active Directory der Domäne hinzugefügt wurde, in der Sie die Gruppenrichtlinienobjekte erstellen.
 
-* Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
+2. Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
 
-* Öffnen Sie den Ordner **GPOAccelerator Tool\Security Group Policy Objects.**  
+3. Öffnen Sie den Ordner **GPOAccelerator Tool\Security Group Policy Objects.**  
 
-* Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Domänenadministratorrechten zu öffnen.
+4. Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Domänenadministratorrechten zu öffnen.
 
-**Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
+    **Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
 
-* Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Enterprise** ein, und drücken Sie dann die EINGABETASTE.
+5. Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Enterprise** ein, und drücken Sie dann die EINGABETASTE.
 
-* Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
+6. Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
 
-**Hinweis:**   Dieser Schritt kann einige Minuten in Anspruch nehmen.
+    **Hinweis:**   Dieser Schritt kann einige Minuten in Anspruch nehmen.
 
-* Klicken Sie im Meldungsfeld **The Enterprise GPOs are created** (Die Unternehmens-Gruppenrichtlinienobjekte wurden erstellt) auf **OK.**  
+7. Klicken Sie im Meldungsfeld **The Enterprise GPOs are created** (Die Unternehmens-Gruppenrichtlinienobjekte wurden erstellt) auf **OK.**  
 
-* Klicken Sie im Meldungsfeld **Make sure to link the Enterprise GPOs to the appropriate OUs** (Unternehmens-Gruppenrichtlinienobjekte mit den entsprechenden OUs verknüpfen) auf **OK.**  
+8. Klicken Sie im Meldungsfeld **Make sure to link the Enterprise GPOs to the appropriate OUs** (Unternehmens-Gruppenrichtlinienobjekte mit den entsprechenden OUs verknüpfen) auf **OK.**  
 
 
 
@@ -332,15 +336,15 @@ Sie erstellen die in diesem Handbuch beschriebenen Gruppenrichtlinienobjekte fü
 Mithilfe der GPMC können Sie sicherstellen, dass das Skript alle Gruppenrichtlinienobjekte erfolgreich erstellt hat. Im Folgenden wird beschrieben, wie Sie mit der GPMC auf einem Clientcomputer mit Windows Vista die Gruppenrichtlinienobjekte überprüfen können, die vom Skript „GPOAccelerator.wsf“ erstellt wurden.
 
 **So überprüfen Sie die Ergebnisse des Skripts „GPOAccelerator.wsf“**
-* Klicken Sie auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, und klicken Sie dann auf **Ausführen.**  
+1. Klicken Sie auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, und klicken Sie dann auf **Ausführen.**  
 
-* Geben Sie im Textfeld **Öffnen** die Zeichenfolge **gpmc.msc** ein, und klicken Sie dann auf **OK.**  
+2. Geben Sie im Textfeld **Öffnen** die Zeichenfolge **gpmc.msc** ein, und klicken Sie dann auf **OK.**  
 
-* Klicken Sie auf die entsprechende Struktur, klicken Sie auf **Domänen**, und klicken Sie dann auf die Domäne.
+3. Klicken Sie auf die entsprechende Struktur, klicken Sie auf **Domänen**, und klicken Sie dann auf die Domäne.
 
-* Klicken Sie auf **Gruppenrichtlinienobjekte**, erweitern Sie den Eintrag, und stellen Sie sicher, dass alle vier VSG EC-Gruppenrichtlinienobjekte wie in der folgenden Abbildung dargestellt erstellt wurden.
+4. Klicken Sie auf **Gruppenrichtlinienobjekte**, erweitern Sie den Eintrag, und stellen Sie sicher, dass alle vier VSG EC-Gruppenrichtlinienobjekte wie in der folgenden Abbildung dargestellt erstellt wurden.
  
-
+![](images/dd443680.vsgf0105(de-de,technet.10).gif)
 
 **Abbildung 1.5 GPMC-Ansicht der Gruppenrichtlinienobjekte für Unternehmensclients, die vom Skript „GPOAccelerator.wsf“ erstellt wurden**
 
@@ -353,31 +357,31 @@ Sie können nun mit der GPMC die einzelnen Gruppenrichtlinienobjekte mit den ent
 Im Folgenden wird beschrieben, wie Sie diese Aufgabe mithilfe der GPMC auf einem Clientcomputer mit Windows Vista ausführen.
 
 **So verknüpfen Sie die Gruppenrichtlinienobjekte in einer Produktionsumgebung**
-* Klicken Sie auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, und klicken Sie dann auf **Ausführen.**  
+1. Klicken Sie auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, und klicken Sie dann auf **Ausführen.**  
 
-* Geben Sie im Textfeld **Öffnen** die Zeichenfolge **gpmc.msc** ein, und klicken Sie dann auf **OK.**  
+2. Geben Sie im Textfeld **Öffnen** die Zeichenfolge **gpmc.msc** ein, und klicken Sie dann auf **OK.**  
 
-* Klicken Sie in der Domänenstruktur mit der rechten Maustaste auf die Domäne, und klicken Sie dann auf **Vorhandenes Gruppenrichtlinienobjekt verknüpfen.**  
+3. Klicken Sie in der Domänenstruktur mit der rechten Maustaste auf die Domäne, und klicken Sie dann auf **Vorhandenes Gruppenrichtlinienobjekt verknüpfen.**  
 
-* Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Domain Policy**, und klicken Sie dann auf **OK.**  
+4. Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Domain Policy**, und klicken Sie dann auf **OK.**  
 
-* Wählen Sie im Detailbereich **VSG EC Domain Policy** aus, und klicken Sie dann auf die Schaltfläche **Verknüpfung an den Anfang verschieben.**  
+5. Wählen Sie im Detailbereich **VSG EC Domain Policy** aus, und klicken Sie dann auf die Schaltfläche **Verknüpfung an den Anfang verschieben.**  
 
-**Wichtig:**   Stellen Sie sicher, dass für **VSG EC Domain Policy** die Option **Verknüpfungsreihenfolge** auf **1** festgelegt ist. Wenn dies nicht der Fall ist, überschreiben andere mit der Domäne verknüpfte Gruppenrichtlinienobjekte, z. B. das Gruppenrichtlinienobjekt für die Standarddomänenrichtlinie, die Einstellungen des *Windows* *Vista-Sicherheitshandbuchs*.
+    **Wichtig:**   Stellen Sie sicher, dass für **VSG EC Domain Policy** die Option **Verknüpfungsreihenfolge** auf **1** festgelegt ist. Wenn dies nicht der Fall ist, überschreiben andere mit der Domäne verknüpfte Gruppenrichtlinienobjekte, z. B. das Gruppenrichtlinienobjekt für die Standarddomänenrichtlinie, die Einstellungen des *Windows* *Vista-Sicherheitshandbuchs*.
 
-* Klicken Sie mit der rechten Maustaste auf den Knoten „Windows Vista Users OU“, und wählen Sie dann die Option **Vorhandenes Gruppenrichtlinienobjekt verknüpfen** aus.
+6. Klicken Sie mit der rechten Maustaste auf den Knoten „Windows Vista Users OU“, und wählen Sie dann die Option **Vorhandenes Gruppenrichtlinienobjekt verknüpfen** aus.
 
-* Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Users Policy**, und klicken Sie dann auf **OK.**  
+7. Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Users Policy**, und klicken Sie dann auf **OK.**  
 
-* Klicken Sie mit der rechten Maustaste auf den Knoten **Desktop OU**, und wählen Sie dann die Option **Vorhandenes Gruppenrichtlinienobjekt verknüpfen** aus.
+8. Klicken Sie mit der rechten Maustaste auf den Knoten **Desktop OU**, und wählen Sie dann die Option **Vorhandenes Gruppenrichtlinienobjekt verknüpfen** aus.
 
-* Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Desktop Policy**, und klicken Sie dann auf **OK.**  
+9. Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Desktop Policy**, und klicken Sie dann auf **OK.**  
 
-* Klicken Sie mit der rechten Maustaste auf den Knoten **Laptop OU**, und wählen Sie dann die Option **Vorhandenes Gruppenrichtlinienobjekt verknüpfen** aus.
+10. Klicken Sie mit der rechten Maustaste auf den Knoten **Laptop OU**, und wählen Sie dann die Option **Vorhandenes Gruppenrichtlinienobjekt verknüpfen** aus.
 
-* Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Laptop Policy**, und klicken Sie dann auf **OK.**  
+11. Klicken Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** auf das Gruppenrichtlinienobjekt **VSG EC Laptop Policy**, und klicken Sie dann auf **OK.**  
 
-* Wiederholen Sie diese Schritte für alle weiteren erstellten Benutzer- oder Computer-Organisationseinheiten, um diese zusätzlichen Organisationseinheiten mit den entsprechenden Gruppenrichtlinienobjekten zu verknüpfen.
+12. Wiederholen Sie diese Schritte für alle weiteren erstellten Benutzer- oder Computer-Organisationseinheiten, um diese zusätzlichen Organisationseinheiten mit den entsprechenden Gruppenrichtlinienobjekten zu verknüpfen.
 
 
 **Hinweis:**   Sie können ein Gruppenrichtlinienobjekt, das sich unter dem Knoten „Gruppenrichtlinienobjekte“ befindet, in eine Organisationseinheit ziehen. Drag &amp; Drop-Vorgänge sind jedoch nur innerhalb einer Domäne möglich.
@@ -396,9 +400,10 @@ Im Folgenden wird beschrieben, wie Sie diese Aufgabe mithilfe der GPMC auf einem
 
 Alle Gruppenrichtlinienobjekte, die vom Skript „GPOAccelerator.wsf“ erstellt werden, enthalten sämtliche in diesem Handbuch empfohlene Einstellungen. Sie können nun mit dem Tool „Active Directory-Benutzer und -Computer“ den Entwurf testen, indem Sie Benutzer und Computer in die entsprechenden Organisationseinheiten verschieben. Details zu den Einstellungen der einzelnen Gruppenrichtlinienobjekte finden Sie in Anhang A, „Sicherheitsrelevante Gruppenrichtlinieneinstellungen“.
 
-Migrieren von Gruppenrichtlinienobjekten in eine andere Domäne (Optional)
+**Migrieren von Gruppenrichtlinienobjekten in eine andere Domäne (Optional)**
 
 Wenn Sie in dieser Lösung die Gruppenrichtlinienobjekte geändert oder eigene Gruppenrichtlinienobjekte erstellt haben und diese in mehreren Domänen verwenden möchten, müssen Sie die Gruppenrichtlinienobjekte migrieren. Für das Migrieren eines in einer Domäne funktionierenden Gruppenrichtlinienobjekts in eine andere Domäne ist etwas Planung erforderlich, das grundlegende Verfahren ist jedoch relativ einfach. Bei der Planung sind im Hinblick auf Daten bei Gruppenrichtlinienobjekten zwei wichtige Aspekte zu beachten:
+
 * **Komplexe Daten.**   Die Daten, aus denen ein Gruppenrichtlinienobjekt besteht, sind komplex und werden an mehreren Speicherorten gespeichert. Durch die Verwendung der GPMC zum Migrieren eines Gruppenrichtlinienobjekts wird sichergestellt, dass alle relevanten Daten ordnungsgemäß migriert werden.
 
 * **Domänenspezifische Daten.**   Einige Daten in einem Gruppenrichtlinienobjekt können domänenspezifisch sein und sind daher möglicherweise ungültig, wenn Sie sie direkt in eine andere Domäne kopieren. Zum Beheben dieses Problems werden in der GPMC Migrationstabellen verwendet, mit denen Sie domänenspezifische Daten in einem Gruppenrichtlinienobjekt bei der Migration auf neue Werte aktualisieren können. Dies ist nur erforderlich, wenn das Gruppenrichtlinienobjekt Sicherheits-IDs (SIDs) oder UNC-Pfade (Universal Naming Convention) enthält, die für eine Domäne spezifisch sind.
@@ -408,7 +413,6 @@ Wenn Sie in dieser Lösung die Gruppenrichtlinienobjekte geändert oder eigene G
 Weitere Informationen zum Migrieren von Gruppenrichtlinienobjekten finden Sie in der Hilfe zur Gruppenrichtlinien-Verwaltungskonsole. Im Whitepaper [Migrating GPOs Across Domains with GPMC](http://www.microsoft.com/windowsserver2003/gpmc/migrgpo.mspx) (engl.) finden Sie ebenfalls weitere Informationen zu diesem Thema.
  
 [Zum Seitenanfanq](#mainsection)  
-
 
 
 ### Das GPOAccelerator-Tool
@@ -425,32 +429,28 @@ In der in diesem Handbuch vorgestellten Lösung werden Einstellungen für Gruppe
 Daher müssen Sie diese Tools erweitern, so dass Sie die Sicherheitseinstellungen anzeigen und ggf. ändern können. Hierzu aktualisiert das Skript „GPOAccelerator.wsf“ beim Erstellen der Gruppenrichtlinienobjekte automatisch den Computer. Wenn Sie die Gruppenrichtlinienobjekte des *Windows* *Vista-Sicherheitshandbuchs* von einem anderen Computer mit Windows Vista aus verwalten möchten, aktualisieren Sie den Sicherheitskonfigurations-Editor auf diesem Computer wie folgt.
 
 **So ändern Sie den Sicherheitskonfigurations-Editor zum Anzeigen von MSS-Einstellungen**
-* Stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-* Der Computer wurde mit Active Directory der Domäne hinzugefügt, in der die Gruppenrichtlinienobjekte erstellt wurden.
+1. Stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+    * Der Computer wurde mit Active Directory der Domäne hinzugefügt, in der die Gruppenrichtlinienobjekte erstellt wurden.
  
-
-* Das *Windows* *Vista-Sicherheitshandbuch*-Verzeichnis **GPOAccelerator** **Tool** wurde installiert.
+    * Das *Windows* *Vista-Sicherheitshandbuch*-Verzeichnis **GPOAccelerator** **Tool** wurde installiert.
  
-
- 
-
 **Hinweis:**   Sie können das Verzeichnis „GPOAccelerator Tool“ einfach von einem Computer, auf dem das Verzeichnis installiert ist, auf einen anderen Computer kopieren, auf dem Sie das Skript verwenden möchten. Der Ordner „GPOAccelerator Tool“ und die entsprechenden Unterordner müssen sich auf dem lokalen Computer befinden, damit das Skript wie im folgenden Verfahren beschrieben ausgeführt wird.
 
-* Melden Sie sich am Computer als Administrator an.
+2. Melden Sie sich am Computer als Administrator an.
 
-* Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
+3. Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
 
-* Öffnen Sie den Ordner GPOAccelerator Tool\Security Group Policy Objects.
+4. Öffnen Sie den Ordner GPOAccelerator Tool\Security Group Policy Objects.
 
-* Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
+5. Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
 
-**Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
+    **Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
 
-* Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /ConfigSCE** ein, und drücken Sie dann die EINGABETASTE.
+6. Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /ConfigSCE** ein, und drücken Sie dann die EINGABETASTE.
 
-* Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
+7. Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
 
-* Klicken Sie im Meldungsfeld **The** **Security Configuration Editor is updated** (Der Sicherheitskonfigurations-Editor wurde aktualisiert) auf **OK.**  
+8. Klicken Sie im Meldungsfeld **The** **Security Configuration Editor is updated** (Der Sicherheitskonfigurations-Editor wurde aktualisiert) auf **OK.**  
 
 
 **Wichtig**:   Dieses Skript ändert den Sicherheitskonfigurations-Editor nur insofern, dass MSS-Einstellungen angezeigt werden. Es werden keine Gruppenrichtlinienobjekte oder Organisationseinheiten erstellt.
@@ -458,23 +458,23 @@ Daher müssen Sie diese Tools erweitern, so dass Sie die Sicherheitseinstellunge
 Mit dem folgenden Verfahren werden die zusätzlichen MSS-Sicherheitseinstellungen entfernt, und das SCE-Tool wird auf die Standardeinstellungen in Windows Vista zurückgesetzt.
 
 **So setzen Sie das SCE-Tool auf die Standardeinstellungen in Windows Vista zurück**
-* Melden Sie sich am Computer als Administrator an.
+1. Melden Sie sich am Computer als Administrator an.
 
-* Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
+2. Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
 
-* Öffnen Sie den Ordner GPOAccelerator Tool\Security Group Policy Objects.
+3. Öffnen Sie den Ordner GPOAccelerator Tool\Security Group Policy Objects.
 
-* Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
+4. Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
 
-**Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
+    **Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
 
-* Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /ResetSCE** ein, und drücken Sie dann die EINGABETASTE.
+5. Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /ResetSCE** ein, und drücken Sie dann die EINGABETASTE.
 
-* Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
+6. Klicken Sie im Meldungsfeld **Click Yes to continue****,****or No to exit the script** (Fortfahren mit „Ja“, Skript beenden mit „Nein“) auf **Yes** (Ja).
 
-**Hinweis:**   Bei Durchführen dieser Schritte wird der Sicherheitskonfigurations-Editor auf dem Computer auf die Standardeinstellungen in Windows Vista zurückgesetzt. Alle zum Sicherheitskonfigurations-Editor hinzugefügten Einstellungen werden entfernt. Dies hat nur Auswirkungen auf die Fähigkeit zur Anzeige der Einstellungen im Sicherheitskonfigurations-Editor. Konfigurierte Einstellungen für Gruppenrichtlinienobjekte bleiben unverändert.
+    **Hinweis:**   Bei Durchführen dieser Schritte wird der Sicherheitskonfigurations-Editor auf dem Computer auf die Standardeinstellungen in Windows Vista zurückgesetzt. Alle zum Sicherheitskonfigurations-Editor hinzugefügten Einstellungen werden entfernt. Dies hat nur Auswirkungen auf die Fähigkeit zur Anzeige der Einstellungen im Sicherheitskonfigurations-Editor. Konfigurierte Einstellungen für Gruppenrichtlinienobjekte bleiben unverändert.
 
-* Klicken Sie im Meldungsfeld **The** **Security Configuration Editor is updated** (Der Sicherheitskonfigurations-Editor wurde aktualisiert) auf **OK.**  
+7. Klicken Sie im Meldungsfeld **The** **Security Configuration Editor is updated** (Der Sicherheitskonfigurations-Editor wurde aktualisiert) auf **OK.**  
 
 
 
@@ -483,11 +483,11 @@ Mit dem folgenden Verfahren werden die zusätzlichen MSS-Sicherheitseinstellunge
 Es werden Sicherheitsvorlagen bereitgestellt, damit Sie, falls Sie eigene Richtlinien erstellen möchten, nicht die mit diesem Handbuch gelieferten Richtlinien verwenden oder ändern müssen, sondern die relevanten Sicherheitseinstellungen importieren können. Sicherheitsvorlagen sind Textdateien, die Werte für Sicherheitseinstellungen enthalten. Sie sind Unterkomponenten von Gruppenrichtlinienobjekten. Sie können die Richtlinieneinstellungen in den Sicherheitsvorlagen im MMC-Snap-In „Gruppenrichtlinienobjekt-Editor“ ändern. Im Gegensatz zu älteren Versionen des Windows-Betriebssystems umfasst Windows Vista keine vordefinierten Sicherheitsvorlagen. Sie können die vorhandenen Sicherheitsvorlagen bei Bedarf jedoch weiter verwenden.
 
 Sicherheitsvorlagen sind in der Windows Installer-Datei (MSI-Datei) enthalten, die mit diesem Handbuch geliefert wird. Die folgenden Vorlagen für die Unternehmensclient-Umgebung befinden sich im Ordner „GPOAccelerator Tool\Security Templates“:
-* VSG EC Desktop.inf
+    * VSG EC Desktop.inf
 
-* VSG EC Domain.inf
+    * VSG EC Domain.inf
 
-* VSG EC Laptop.inf
+    * VSG EC Laptop.inf
 
  
 
@@ -498,51 +498,51 @@ Verwenden von Sicherheitsvorlagen
 Wenn Sie die Sicherheitsvorlagen verwenden möchten, müssen Sie zunächst den Sicherheitskonfigurations-Editor erweitern, damit benutzerdefinierte MSS-Sicherheitseinstellungen in der Benutzeroberfläche angezeigt werden. Das Verfahren wird weiter oben in diesem Kapitel unter „Erweiterungen für Gruppenrichtlinien-Verwaltungskonsole und Sicherheitskonfigurations-Editor“ ausführlich beschrieben. Wenn Sie die Vorlagen anzeigen können, können Sie sie anhand des folgenden Verfahrens in die Gruppenrichtlinienobjekte importieren, die Sie für Ihren Bedarf erstellt haben.
 
 **So importieren Sie eine Sicherheitsvorlage in ein Gruppenrichtlinienobjekt**
-* Öffnen Sie im Gruppenrichtlinienobjekt-Editor das zu ändernde Gruppenrichtlinienobjekt. In der GPMC klicken Sie hierzu mit der rechten Maustaste auf das Gruppenrichtlinienobjekt und anschließend auf **Bearbeiten.**  
+1. Öffnen Sie im Gruppenrichtlinienobjekt-Editor das zu ändernde Gruppenrichtlinienobjekt. In der GPMC klicken Sie hierzu mit der rechten Maustaste auf das Gruppenrichtlinienobjekt und anschließend auf **Bearbeiten.**  
 
-* Navigieren Sie im Gruppenrichtlinienobjekt-Editor zum Ordner **Windows-Einstellungen.**  
+2. Navigieren Sie im Gruppenrichtlinienobjekt-Editor zum Ordner **Windows-Einstellungen.**  
 
-* Erweitern Sie den Ordner **Windows-Einstellungen**, und wählen Sie dann **Sicherheitseinstellungen** aus.
+3. Erweitern Sie den Ordner **Windows-Einstellungen**, und wählen Sie dann **Sicherheitseinstellungen** aus.
 
-* Klicken Sie mit der rechten Maustaste auf den Ordner **Sicherheitseinstellungen**, und klicken Sie anschließend auf **Richtlinie importieren.**  
+4. Klicken Sie mit der rechten Maustaste auf den Ordner **Sicherheitseinstellungen**, und klicken Sie anschließend auf **Richtlinie importieren.**  
 
-* Navigieren Sie zum Ordner **Security Templates** im Ordner **Windows Vista Security Guide.**  
+5. Navigieren Sie zum Ordner **Security Templates** im Ordner **Windows Vista Security Guide.**  
 
-* Wählen Sie die Sicherheitsvorlage aus, die Sie importieren möchten, und klicken Sie dann auf **Öffnen.**  
+6. Wählen Sie die Sicherheitsvorlage aus, die Sie importieren möchten, und klicken Sie dann auf **Öffnen.**  
 
-Durch den letzten Schritt dieses Verfahrens werden die Einstellungen aus der Datei in das Gruppenrichtlinienobjekt importiert.
+   Durch den letzten Schritt dieses Verfahrens werden die Einstellungen aus der Datei in das Gruppenrichtlinienobjekt importiert.
 
 
 Mit den mit diesem Handbuch bereitgestellten Sicherheitsvorlagen können Sie auch die lokale Sicherheitsrichtlinie auf eigenständigen Clientcomputern mit Windows Vista ändern. Das Skript „GPOAccelerator.wsf“ vereinfacht den Prozess zum Anwenden der Vorlagen.
 
 **So wenden Sie die Sicherheitsvorlagen zum Erstellen einer lokalen Gruppenrichtlinie auf einem eigenständigen Clientcomputer mit Windows Vista an**
-* Melden Sie sich als Administrator auf einem Computer mit Windows Vista an.
+1. Melden Sie sich als Administrator auf einem Computer mit Windows Vista an.
 
-* Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
+2. Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
 
-* Öffnen Sie den Ordner GPOAccelerator Tool\Security Group Policy Objects.
+3. Öffnen Sie den Ordner GPOAccelerator Tool\Security Group Policy Objects.
 
-* Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
+4. Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
 
-**Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
+    **Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
 
-* Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Enterprise /Desktop** oder **cscript GPOAccelerator.wsf /Enterprise /Laptop** ein, und drücken Sie dann die EINGABETASTE.
+5. Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Enterprise /Desktop** oder **cscript GPOAccelerator.wsf /Enterprise /Laptop** ein, und drücken Sie dann die EINGABETASTE.
 
 Durch dieses Verfahren werden die lokalen Sicherheitsrichtlinieneinstellungen mit den Werten in den Sicherheitsvorlagen für die Unternehmensclient-Umgebung geändert.
 
 
 **So setzen Sie die lokale Gruppenrichtlinie auf die Standardeinstellungen in Windows Vista zurück**
-* Melden Sie sich als Administrator auf einem Clientcomputer mit Windows Vista an.
+1. Melden Sie sich als Administrator auf einem Clientcomputer mit Windows Vista an.
 
-* Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
+2. Klicken Sie auf dem Desktop auf die Windows Vista-Schaltfläche **Start**, klicken Sie auf **Alle Programme**, und klicken Sie dann auf **Windows Vista Security Guide** (Windows Vista-Sicherheitshandbuch)
 
-* Öffnen Sie den Ordner GPOAccelerator Tool\Security Group Policy Objects.
+3. Öffnen Sie den Ordner GPOAccelerator Tool\Security Group Policy Objects.
 
-* Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
+4. Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
 
 **Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
 
-* Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Restore** ein, und drücken Sie dann die EINGABETASTE.
+5. Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Restore** ein, und drücken Sie dann die EINGABETASTE.
 
 Durch dieses Verfahren werden die lokalen Sicherheitsrichtlinieneinstellungen auf die Standardwerte in Windows Vista zurückgesetzt.
 
@@ -721,7 +721,7 @@ Security Group Policy Objects
 Das Haupttool, das ein Skript zum Implementieren der empfohlenen Anleitungen ausführt.  
 
 
-**Achtung:**
+![](images/dd443680.warning(de-de,technet.10).gif)**Achtung:**
 
 Führen Sie das Skript erst aus, wenn Sie alle Informationen in diesem Kapitel gelesen haben.
 
@@ -745,7 +745,7 @@ GPMCFiles
 Das Skript, das die Gruppenrichtlinienobjekte und die Organisationseinheitsstruktur erstellt.  
 
 
-**Achtung:**
+![](images/dd443680.warning(de-de,technet.10).gif)**Achtung:**
 
 Ändern Sie diese Datei nicht.
 
