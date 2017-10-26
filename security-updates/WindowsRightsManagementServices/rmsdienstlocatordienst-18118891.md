@@ -15,9 +15,7 @@ Die Anwendungsdatei für den Dienstlocatordienst, ServiceLocator.asmx, befindet 
 
 Die Standardzugriffsteuerungsliste bei diesem Dienst wird in folgender Tabelle gezeigt:
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

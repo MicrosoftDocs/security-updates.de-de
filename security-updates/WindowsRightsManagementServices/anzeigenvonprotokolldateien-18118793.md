@@ -13,9 +13,7 @@ Je nachdem, wie Sie RMS bereitgestellt haben, werden Protokolldateien in einem D
 
 Die Größe eines typischen Protokolleintrags beträgt etwa 300 Bytes. In der folgenden Tabelle werden die protokollierten Felder beschrieben.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
