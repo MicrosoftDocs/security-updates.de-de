@@ -542,7 +542,6 @@ Wenn ein Angreifer physischen Zugriff auf einen Computer erhält, ist mit den fo
  
     * Lesen des Inhalts der Ruhezustandsdatei, um so eventuell Klartextkopien von privaten Softwareschlüsseln aufzufinden
  
-
 Selbst wenn die Dateien mit EFS verschlüsselt werden, könnte ein unvorsichtiger Benutzer eine Datei aus einem verschlüsselten in ein unverschlüsseltes Verzeichnis kopieren oder verschieben, so dass der Inhalt der Datei als Klartext vorliegt. Außerdem können uninformierte IT-Mitarbeiter die Verschlüsselung von verborgenen Ordnern, in denen Sicherungskopien der derzeit bearbeiteten Dateien durch die Anwendungen abgelegt werden, schlichtweg übersehen. Darüber hinaus bestehen einige Risiken im Hinblick auf die Bedienung (z. B. Manipulation und Bearbeitung von System- und Bootdateien durch nicht autorisierte Benutzer), die einen normalen Systembetrieb unmöglich machen können.
 
 
@@ -582,7 +581,7 @@ Mit BitLocker lassen sich die Risiken aus dem vorangegangenen Abschnitt „Risik
 
 * Auf allen Domänencontroller in der Domäne muss Microsoft® Windows Server® 2003 mit Service Pack 1 (SP1) oder höher ausgeführt werden.
 
-**Hinweis**:   Bei Windows Server 2003 muss das Schema so erweitert werden, dass die Speicherung der BitLocker-Wiederherstellungsinformationen im Active Directory®-Verzeichnisdienst unterstützt wird.
+    **Hinweis**:   Bei Windows Server 2003 muss das Schema so erweitert werden, dass die Speicherung der BitLocker-Wiederherstellungsinformationen im Active Directory®-Verzeichnisdienst unterstützt wird.
 
  
 
@@ -1287,17 +1286,17 @@ Mit RMS lassen sich die Risiken aus dem vorangegangenen Abschnitt „Risikobewer
 Ermitteln Sie die bestmögliche Konfiguration von RMS zum Schutz vertraulicher Daten auf den verwalteten Clientcomputern mithilfe des nachstehenden Verfahrens zur Risikominderung.
 
 **So verwenden Sie dieses Verfahren zur Risikominderung**
-* Informieren Sie sich über die Technologien und Funktionen von RMS.
+1. Informieren Sie sich über die Technologien und Funktionen von RMS.
 
-**Hinweis**   Weitere Informationen zu RMS finden Sie im Windows Server 2003 Technology Center zu [Windows Rights Management Services](http://www.microsoft.com/windowsserver2003/technologies/rightsmgmt/default.mspx) (engl.).
+    **Hinweis**   Weitere Informationen zu RMS finden Sie im Windows Server 2003 Technology Center zu [Windows Rights Management Services](http://www.microsoft.com/windowsserver2003/technologies/rightsmgmt/default.mspx) (engl.).
 
-1. Beurteilen Sie die Notwendigkeit von RMS in Ihrer Arbeitsumgebung.
+2. Beurteilen Sie die Notwendigkeit von RMS in Ihrer Arbeitsumgebung.
 
-2. Ermitteln Sie den Grad der Unterstützung von RMS durch die Anwendungen und Dienste.
+3. Ermitteln Sie den Grad der Unterstützung von RMS durch die Anwendungen und Dienste.
 
-3. Erwägen Sie potenzielle Architekturen für die RMS-Bereitstellung, beispielsweise:
+4. Erwägen Sie potenzielle Architekturen für die RMS-Bereitstellung, beispielsweise:
 
-4. Einzelner Server (oder einzelner Cluster)
+    * Einzelner Server (oder einzelner Cluster)
  
     * Einzelne Zertifizierung, einzelne Lizenz
  
@@ -1393,7 +1392,7 @@ Ermitteln Sie die bestmögliche Konfiguration der Gerätesteuerung zum Schutz ve
 
  
 
-Steuern der Geräteinstallation mithilfe von Gruppenrichtlinien
+**Steuern der Geräteinstallation mithilfe von Gruppenrichtlinien**
 
 Zur Steuerung der Geräteinstallation empfiehlt Microsoft, die Gruppenrichtlinienvorlage „DeviceInstallation.admx“ zu verwenden. Tabelle 3.5 enthält die Gruppenrichtlinieneinstellungen, die in dieser Vorlage zur Verfügung stehen. Diese Einstellungen können im Gruppenrichtlinienobjekt-Editor im folgenden Verzeichnis konfiguriert werden:
 
@@ -2055,7 +2054,7 @@ Nicht konfiguriert
 
 In dieser Tabelle werden die einzelnen Einstellungen kurz beschrieben. Weitere Informationen zu einer bestimmten Einstellung finden Sie im Gruppenrichtlinienobjekt-Editor auf der Registerkarte **Erklärung** dieser Einstellung.
 
-Steuern der Funktionen für automatische Wiedergabe und AutoAusführen mithilfe von Gruppenrichtlinien
+**Steuern der Funktionen für automatische Wiedergabe und AutoAusführen mithilfe von Gruppenrichtlinien**
 
 Die nachstehenden Einstellungen in der Vorlage „Autoplay.admx“ wirken sich auf das Verhalten der automatischen Wiedergabe und der AutoAusführen-Funktion von Wechselspeichergeräten und Wechselmedien in Windows Vista aus. Die Einstellungen für diese Vorlage finden Sie im Gruppenrichtlinienobjekt-Editor im folgenden Verzeichnis:
 
