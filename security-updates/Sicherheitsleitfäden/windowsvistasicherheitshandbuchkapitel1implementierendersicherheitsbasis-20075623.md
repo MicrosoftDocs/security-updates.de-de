@@ -127,7 +127,7 @@ Beim Entwerfen von Gruppenrichtlinien sollten Sie die folgenden Punkte berücksi
 
 * Ein Gruppenrichtlinienobjekt kann mithilfe der Option **Erzwungen** konfiguriert werden. Wenn Sie diese Option auswählen, können die in diesem Gruppenrichtlinienobjekt festgelegten Einstellungen nicht von anderen Gruppenrichtlinienobjekten außer Kraft gesetzt werden.
 
-**Hinweis**:   In Windows 2000 trägt die Option **Erzwungen** die Bezeichnung **Kein Vorrang.**  
+    **Hinweis**:   In Windows 2000 trägt die Option **Erzwungen** die Bezeichnung **Kein Vorrang.**  
 
 * Die Option **Richtlinienvererbung deaktivieren** kann für Active Directory, einen Standort, eine Domäne oder eine Organisationseinheit festgelegt werden. Durch diese Option werden die Einstellungen der Gruppenrichtlinienobjekte für in der Active Directory-Hierarchie höher stehende Gruppenrichtlinienobjekte gesperrt, sofern für diese nicht die Option **Erzwungen** ausgewählt wurde. Das bedeutet, dass die Option **Erzwungen** Vorrang vor der Option **Richtlinienvererbung deaktivieren** hat.
 
@@ -151,7 +151,7 @@ Zum Implementieren des oben beschriebenen Entwurfs für Organisationseinheiten w
 
 In der folgenden Abbildung wird die vorläufige Organisationseinheitsstruktur erweitert, um die Verknüpfung zwischen diesen Gruppenrichtlinienobjekten und dem Organisationseinheitsentwurf darzustellen.
  
-
+![](images/dd443680.vsgf0103(de-de,technet.10).gif)
 
 **Abbildung 1.3 Beispiel-Organisationeneinheitsstruktur und Verknüpfungen von Gruppenrichtlinienobjekten für Computer unter Windows Vista**
  
@@ -434,7 +434,7 @@ Daher müssen Sie diese Tools erweitern, so dass Sie die Sicherheitseinstellunge
  
     * Das *Windows* *Vista-Sicherheitshandbuch*-Verzeichnis **GPOAccelerator** **Tool** wurde installiert.
  
-**Hinweis:**   Sie können das Verzeichnis „GPOAccelerator Tool“ einfach von einem Computer, auf dem das Verzeichnis installiert ist, auf einen anderen Computer kopieren, auf dem Sie das Skript verwenden möchten. Der Ordner „GPOAccelerator Tool“ und die entsprechenden Unterordner müssen sich auf dem lokalen Computer befinden, damit das Skript wie im folgenden Verfahren beschrieben ausgeführt wird.
+    **Hinweis:**   Sie können das Verzeichnis „GPOAccelerator Tool“ einfach von einem Computer, auf dem das Verzeichnis installiert ist, auf einen anderen Computer kopieren, auf dem Sie das Skript verwenden möchten. Der Ordner „GPOAccelerator Tool“ und die entsprechenden Unterordner müssen sich auf dem lokalen Computer befinden, damit das Skript wie im folgenden Verfahren beschrieben ausgeführt wird.
 
 2. Melden Sie sich am Computer als Administrator an.
 
@@ -540,7 +540,7 @@ Durch dieses Verfahren werden die lokalen Sicherheitsrichtlinieneinstellungen mi
 
 4. Klicken Sie mit der rechten Maustaste auf die Datei **Command-line Here.cmd**, und klicken Sie dann auf **Als Administrator ausführen**, um eine Eingabeaufforderung mit Administratorrechten zu öffnen.
 
-**Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
+    **Hinweis**:   Wenn Sie aufgefordert werden, Anmeldeinformationen einzugeben, geben Sie den Benutzernamen und das Kennwort ein, und drücken Sie dann die EINGABETASTE.
 
 5. Geben Sie an der Eingabeaufforderung **cscript GPOAccelerator.wsf /Restore** ein, und drücken Sie dann die EINGABETASTE.
 
