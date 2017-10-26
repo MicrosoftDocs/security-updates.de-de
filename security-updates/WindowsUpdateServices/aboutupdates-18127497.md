@@ -34,6 +34,9 @@ Updates are made available by product. For each product, updates are differentia
 > [!Hinweis]  
 > WSUS only supports updating products by computer, not by user.
 
+> [!NOTE]  
+> **Note**. The update changes default Restricted Admin mode functionality for Windows 8.1, Windows Server 2012 R2, and Windows RT 8.1. See the **Advisory FAQ** section for details.
+
 
 Updates Available by Product
 ----------------------------
