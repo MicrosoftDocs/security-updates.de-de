@@ -34,6 +34,9 @@ Updates are made available by product. For each product, updates are differentia
 > [!Hinweis]  
 > WSUS only supports updating products by computer, not by user.
 
+> [!NOTE]  
+> WSUS only supports updating products by computer, not by user.
+
 
 Updates Available by Product
 ----------------------------

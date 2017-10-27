@@ -27,6 +27,9 @@ Use the **Update Files** section to determine whether update files will be store
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | You can always change from storing updates on Microsoft Update to storing updates locally. However, you must make sure that the disk on which you choose to store updates has enough space for the updates. See [Determine WSUS Capacity Requirements](https://technet.microsoft.com/92170771-83e7-47bb-abbc-7d93ee5d7867) for a discussion of disk space for local storage. If there is not enough disk space to make the change, you may damage the WSUS installation. |
 
+> [!IMPORTANT]  
+> You can always change from storing updates on Microsoft Update to storing updates locally. However, you must make sure that the disk on which you choose to store updates has enough space for the updates. See [Determine WSUS Capacity Requirements](https://technet.microsoft.com/92170771-83e7-47bb-abbc-7d93ee5d7867) for a discussion of disk space for local storage. If there is not enough disk space to make the change, you may damage the WSUS installation.
+
 Deferred downloads options
 --------------------------
 
@@ -66,5 +69,5 @@ Use the **Languages** section to select the language of the updates to synchroni
     -   **Download updates in all languages, including new languages**: This means that all languages will be downloaded during synchronization. If a new language is added, it will be automatically downloaded.
     -   **Download updates only in these languages**: This means that only updates targeted to the languages you select will be downloaded during synchronization. If you choose this option, you must also choose each language you want from the list of those available.
 
-> [!Hinweis]  
+> [!NOTE]  
 > If you change language options, Microsoft recommends that you manually synchronize them between the centrally managed WSUS server and its replica servers. Changing language options on the centrally managed server alone might result in a mismatch between the number of updates that are approved on it and the number of updates approved on the replica servers.
