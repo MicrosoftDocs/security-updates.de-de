@@ -39,9 +39,9 @@ Eine neue Datenbank, die in einem ungeeigneten Format erstellt wurde, kann mögl
 
 Wenn diese Einstellung **aktiviert** ist, können Administratoren angeben, ob neue Datenbankdateien standardmäßig im Access 2007- oder im Access 2002–2003-Format erstellt werden. Benutzer haben die Möglichkeit, die Standardeinstellung weiterhin außer Kraft zu setzen und beim Speichern von Dateien ein bestimmtes Format auszuwählen, können die Standardeinstellung aber nicht selbst über das Dialogfeld **Access-Optionen** einrichten.
 
-![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
+> ![](images/Dd443664.note(de-de,TechNet.10).gif) **Hinweis:**
 
-Wenn diese Einstellung **deaktiviert** ist, stehen Benutzern im Dialogfeld **Access-Optionen** drei Standarddateiformate zur Auswahl: Access 2000, Access 2002–2003 und Access 2007. Administratoren können mit dieser Einstellung entweder das Access 2002–2003- oder das Access 2007-Format, aber nicht das Access 2000-Format als Standardformat festlegen.
+> Wenn diese Einstellung **deaktiviert** ist, stehen Benutzern im Dialogfeld **Access-Optionen** drei Standarddateiformate zur Auswahl: Access 2000, Access 2002–2003 und Access 2007. Administratoren können mit dieser Einstellung entweder das Access 2002–2003- oder das Access 2007-Format, aber nicht das Access 2000-Format als Standardformat festlegen.
 
 **Tabelle 1.80: Standarddateiformat**
 
@@ -279,9 +279,9 @@ Wenn diese Einstellung **deaktiviert** ist, verlangt PowerPoint 2007 vor dem Lad
 
 Wenn diese Einstellung **aktiviert** ist, deaktiviert PowerPoint 2007 verschlüsselte Makros, bis sie auf Viren überprüft wurden.
 
-![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
+> ![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
-Wenn diese Einstellung **deaktiviert** ist, kann die Sicherheit durch die Verwendung verschlüsselter, nicht auf Viren überprüfter Makros deutlich verringert werden. Mit Ausnahme von besonderen Situationen, in denen eine Echtzeitprüfung von Präsentationsdateien nicht möglich ist, sollte diese Einstellung **aktiviert** werden.
+> Wenn diese Einstellung **deaktiviert** ist, kann die Sicherheit durch die Verwendung verschlüsselter, nicht auf Viren überprüfter Makros deutlich verringert werden. Mit Ausnahme von besonderen Situationen, in denen eine Echtzeitprüfung von Präsentationsdateien nicht möglich ist, sollte diese Einstellung **aktiviert** werden.
 
 **Tabelle 1.82: Bestimmen, ob das Überprüfen verschlüsselter Makros in Microsoft PowerPoint Open XML-Präsentationen erzwungen wird**
 

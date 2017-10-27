@@ -18,22 +18,9 @@ Setting up WSUS for remote SQL is a three-step process:
 3.  Install WSUS 3.0 SP2 on the front-end computer, and configure it to use the database on the back-end computer.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939912.note(WS.10).gif" />Hinweis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">For a remote SQL installation on WSUS 3.0 SP2, you install WSUS on the front-end computer only. You do not need to install WSUS on the back-end computer.
-</td>
-</tr>
-</tbody>
-</table>
+> [!Hinweis]  
+> For a remote SQL installation on WSUS 3.0 SP2, you install WSUS on the front-end computer only. You do not need to install WSUS on the back-end computer.
+
  
 
 Remote SQL Limitations and Requirements
@@ -66,7 +53,10 @@ Install a SQL Server 2005 database on the back-end computer and enable remote c
 
 2.  Choose **Surface Configuration for Services and Connections**.
 
-![](images/Dd939912.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif)**Enable Remote SQL Connections**
+![](images/Dd939912.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif)
+
+
+**Enable Remote SQL Connections**
 1.  In the left window, click the **Remote Connections** node.
 
 2.  Select **Local and remote connections** and then select **Using TCP/IP only**.
@@ -119,29 +109,17 @@ Step 3: Install WSUS on the front-end computer
 
 Now install WSUS on the front-end computer. This server will need access to the Internet or to another WSUS server to obtain updates. You need to prepare this computer with all the prerequisites for a normal WSUS installation, except for database software.
 
-Run WSUS Setup from the command line, using the **SQLINSTANCE\_NAME=***servername\\instancename* command-line option, where *servername* is the name of the remote computer, and *instancename* is the name of the SQL Server instance that you will use for WSUS. This option installs WSUS as the front end of a remote SQL pair and installs the database setup portion of the WSUS setup process on the remote machine.
+Run WSUS Setup from the command line, using the **SQLINSTANCE\_NAME=** *servername\\instancename* command-line option, where *servername* is the name of the remote computer, and *instancename* is the name of the SQL Server instance that you will use for WSUS. This option installs WSUS as the front end of a remote SQL pair and installs the database setup portion of the WSUS setup process on the remote machine.
 
 **To install WSUS on the front-end computer**
 1.  At the command prompt, navigate to the folder containing the WSUS Setup program, and type:
 
-    **WSUSSetup.exe SQLINSTANCE\_NAME=***servername\\instancename*
+    **WSUSSetup.exe SQLINSTANCE\_NAME=** *servername\\instancename*
 
 2.  You will see the **Welcome** page of the installation wizard. Continue installing WSUS as in the procedure given in [Run WSUS 3.0 SP2 Server Setup](https://technet.microsoft.com/3bc2933c-8d26-4594-b989-e64b406f3147).
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939912.note(WS.10).gif" />Hinweis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Optionally, after you have completed the WSUS 3.0 SP2 installation, you can delete the SQL Server account set up in Step 2.
-</td>
-</tr>
-</tbody>
-</table>
+> [!Hinweis]  
+> Optionally, after you have completed the WSUS 3.0 SP2 installation, you can delete the SQL Server account set up in Step 2.
+
+

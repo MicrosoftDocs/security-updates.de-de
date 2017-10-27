@@ -71,10 +71,6 @@ If you need help with WSUSutil.exe, you can use the **/help** command to display
 
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Property</th>
@@ -96,7 +92,7 @@ If you need help with WSUSutil.exe, you can use the **/help** command to display
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">SQLINSTANCE_NAME</td>
-<td style="border:1px solid black;">The name should appear in the format <em>ServerName</em>\<em>SQLInstanceName</em>. If the database instance is on the local machine, use the %COMPUTERNAME% environment variable. If an existing instance is not present, the default is %COMPUTERNAME%\WSUS.</td>
+<td style="border:1px solid black;">The name should appear in the format <em>ServerName\SQLInstanceName</em>. If the database instance is on the local machine, use the %COMPUTERNAME% environment variable. If an existing instance is not present, the default is %COMPUTERNAME%\WSUS.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">DEFAULT_WEBSITE</td>
