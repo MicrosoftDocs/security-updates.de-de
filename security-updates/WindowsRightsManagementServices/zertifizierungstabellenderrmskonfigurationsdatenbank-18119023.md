@@ -16,9 +16,7 @@ UD\_Machines
 
 In der folgenden Tabelle werden Informationen zu den Hardware-IDs für alle Computer aufgelistet.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -61,9 +59,7 @@ UD\_PassportAuthIdentities
   
 In der folgenden Tabelle werden Informationen zu den Microsoft .NET Passport-Daten von Benutzern aufgelistet.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -100,9 +96,7 @@ UD\_UserMachine
   
 In der folgenden Tabelle werden zertifizierte Benutzer mit den entsprechenden Computerinformationen verknüpft.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -145,9 +139,7 @@ UD\_Users
   
 In der folgenden Tabelle werden Informationen zu den Benutzerdaten aufgelistet.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -250,9 +242,7 @@ UD\_Windows AuthIdentities
   
 In der folgenden Tabelle werden die IDs aller authentifizierten und zertifizierten Windows-Benutzer aufgelistet.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

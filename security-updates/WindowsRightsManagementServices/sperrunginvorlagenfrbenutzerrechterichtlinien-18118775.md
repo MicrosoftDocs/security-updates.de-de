@@ -13,9 +13,7 @@ Sperrbedingungen werden in Vorlagen für Benutzerrechterichtlinien angegeben. Di
 
 In der folgenden Tabelle werden die Parameter für das REFRESH-Tag aufgelistet.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

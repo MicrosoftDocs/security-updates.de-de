@@ -48,9 +48,7 @@ Bereitstellen einer Installation mit einem einzelnen Server
 
 Zum Bereitstellen eines einzelnen RMS-Servers verwenden Sie die folgende Prüfliste.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -97,9 +95,7 @@ Bereitstellen von Stammzertifizierungs- und Lizenzierungsclustern
   
 Verwenden Sie die folgenden Prüflisten zum Bereitstellen der Stammzertifizierungs- und Lizenzierungscluster.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -160,9 +156,7 @@ Gesamtstrukturübergreifendes Bereitstellen von RMS
   
 Verwenden Sie die folgenden Prüflisten zum gesamtstrukturübergreifenden Bereitstellen von RMS.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -209,9 +203,7 @@ Implementieren von Vorlagen für Benutzerrechterichtlinien
   
 Verwenden Sie die folgende Prüfliste zum Implementieren einer Vorlage für Benutzerrechterichtlinien.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -250,9 +242,7 @@ Bereitstellen von neuen RMS-Clients
   
 Verwenden Sie die folgende Prüfliste zum Bereitstellen einer neuen Version des RMS-Clients.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -283,9 +273,7 @@ Hinzufügen von vertrauenswürdigen Benutzerdomänen
   
 Verwenden Sie die folgende Prüfliste zum Hinzufügen einer vertrauenswürdigen Benutzerdomäne.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -316,9 +304,7 @@ Hinzufügen von vertrauenswürdigen Veröffentlichungsdomänen
   
 Verwenden Sie die folgende Prüfliste zum Hinzufügen einer vertrauenswürdigen Veröffentlichungsdomäne.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

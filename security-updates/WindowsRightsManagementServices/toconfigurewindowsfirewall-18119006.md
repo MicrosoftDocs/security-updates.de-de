@@ -17,9 +17,7 @@ Windows Firewall is a host-based firewall application that is installed with Mic
 
 On the Active Directory domain controllers, the following Windows Firewall exceptions should be made:
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -45,9 +43,7 @@ On the Active Directory domain controllers, the following Windows Firewall excep
   
 The following table shows the port exceptions that should be made on the RMS servers in the RMS cluster. Both of the ports do not have to be open at the same time. For HTTP transmission, you should open only TCP port 80. If your RMS environment is using SSL or HTTPS, you should open only TCP port 443. If your organization is using a port number other than the default for RMS, you should use that port instead.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -73,9 +69,7 @@ The following table shows the port exceptions that should be made on the RMS ser
   
 If the logging database server is not on a server in the RMS cluster, the following port exceptions should be created on the database server that is hosting the RMS logging database. This following table assumes that you are using Microsoft SQL Server 2000 or later.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
