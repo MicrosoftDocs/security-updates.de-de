@@ -27,7 +27,7 @@ Use the **Update Files** section to determine whether update files will be store
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | You can always change from storing updates on Microsoft Update to storing updates locally. However, you must make sure that the disk on which you choose to store updates has enough space for the updates. See [Determine WSUS Capacity Requirements](https://technet.microsoft.com/92170771-83e7-47bb-abbc-7d93ee5d7867) for a discussion of disk space for local storage. If there is not enough disk space to make the change, you may damage the WSUS installation. |
 
-> [!IMPORTANT] 
+> [!IMPORTANT]  
 > You can always change from storing updates on Microsoft Update to storing updates locally. However, you must make sure that the disk on which you choose to store updates has enough space for the updates. See [Determine WSUS Capacity Requirements](https://technet.microsoft.com/92170771-83e7-47bb-abbc-7d93ee5d7867) for a discussion of disk space for local storage. If there is not enough disk space to make the change, you may damage the WSUS installation.
 
 Deferred downloads options
