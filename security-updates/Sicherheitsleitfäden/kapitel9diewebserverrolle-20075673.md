@@ -1,6 +1,6 @@
 ---
-Title: Kapitel 9: Die Webserverrolle
-TOCTitle: Kapitel 9: Die Webserverrolle
+Title: Kapitel 9 - Die Webserverrolle
+TOCTitle: Kapitel 9 - Die Webserverrolle
 ms:assetid: 835865cd-ff71-43e6-88bf-91f5b35a00b9
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443730(v=TechNet.10)
 ms:contentKeyID: 20075673
@@ -170,32 +170,33 @@ Die Sicherheitseinstellungen, die durch die Richtlinie für die Mitgliedsserver-
 IIS 6.0 enthält neben dem WWW-Publishingdienst noch andere Komponenten und Dienste, wie z. B. Dienste zur Bereitstellung von FTP, NNTP und SMTP. Die IIS-Komponenten und -Dienste werden mithilfe des Assistenten für Windows-Komponenten installiert und aktiviert. Dieser kann über die Systemsteuerung und die Option „Software“ gestartet werden. Nach der Installation von IIS müssen Sie alle IIS-Komponenten und -Dienste aktivieren, die von Ihren Websites und Anwendungen benötigt werden.
 
 **So installieren Sie Internet Information Services (IIS) 6.0**
-* Doppelklicken Sie in der Systemsteuerung auf **Software.**  
+1. Doppelklicken Sie in der Systemsteuerung auf **Software.**  
 
-* Klicken Sie auf die Schaltfläche **Windows-Komponenten hinzufügen/entfernen**, um den Assistenten für Windows-Komponenten aufzurufen.
+2. Klicken Sie auf die Schaltfläche **Windows-Komponenten hinzufügen/entfernen**, um den Assistenten für Windows-Komponenten aufzurufen.
 
-* Klicken Sie in der Liste **Komponenten** auf **Anwendungsserver** und anschließend auf **Details.**
+3. Klicken Sie in der Liste **Komponenten** auf **Anwendungsserver** und anschließend auf **Details.**
 
-* Klicken Sie im Dialogfeld **Anwendungsserver** unter **Unterkomponenten des Anwendungsservers** auf **Internetinformationsdienste (IIS)** und anschließend auf **Details.**
+4. Klicken Sie im Dialogfeld **Anwendungsserver** unter **Unterkomponenten des Anwendungsservers** auf **Internetinformationsdienste (IIS)** und anschließend auf **Details.**
 
-* Führen Sie im Dialogfeld **Internetinformationsdienste (IIS)** in der Liste **Unterkomponenten der Internetinformationsdienste (IIS)** einen der folgenden Schritte aus:
-* Zum Hinzufügen optionaler Komponenten aktivieren Sie das Kontrollkästchen neben der zu installierenden Komponente.
+5. Führen Sie im Dialogfeld **Internetinformationsdienste (IIS)** in der Liste **Unterkomponenten der Internetinformationsdienste (IIS)** einen der folgenden Schritte aus:
+    - Zum Hinzufügen optionaler Komponenten aktivieren Sie das Kontrollkästchen neben der zu installierenden Komponente.
 
-* Zum Entfernen optionaler Komponenten deaktivieren Sie das Kontrollkästchen neben der zu entfernenden Komponente.
+    - Zum Entfernen optionaler Komponenten deaktivieren Sie das Kontrollkästchen neben der zu entfernenden Komponente.
 
 
-* Klicken Sie auf **OK**, bis Sie zum Assistenten für Windows-Komponenten zurückgekehrt sind.
+6. Klicken Sie auf **OK**, bis Sie zum Assistenten für Windows-Komponenten zurückgekehrt sind.
 
-* Klicken Sie auf **Weiter** und anschließend auf **Fertig stellen.**  
+7. Klicken Sie auf **Weiter** und anschließend auf **Fertig stellen.**  
 
 
 Sie sollten nur die grundlegenden IIS-Komponenten und -Dienste aktivieren, die von Websites und Anwendungen benötigt werden. Wenn Sie unnötige Komponenten und Dienste aktivieren, wird die Angriffsfläche eines IIS-Servers erhöht. In den folgenden Abbildungen und Tabellen werden Ort und empfohlene Einstellungen für IIS-Komponenten dargestellt.
 
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Anwendungsserver**:
 
+![](images/dd443730.sgfg0901(de-de,technet.10).gif)
 
-**Abbildung 9.1: Dialogfeld „Anwendungsserver“ mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0901_big(de-de,technet.10).gif)
+**Abbildung 9.1: Dialogfeld „Anwendungsserver“ mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0901_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten des Anwendungsservers kurz beschrieben und Empfehlungen gegeben, wann sie aktiviert werden sollten.
 
 **Tabelle 9.2: Empfohlene Einstellungen für die Unterkomponenten des Anwendungsservers**
@@ -381,9 +382,10 @@ Microsoft Message Queuing (MSMQ) bietet eine Middleware-Schicht für Nachrichten
 
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Internetinformationsdienste (IIS)**:
 
+![](images/dd443730.sgfg0902(de-de,technet.10).gif)
 
-**Abbildung 9.2: Dialogfeld „Internetinformationsdienste (IIS)“ mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0902_big(de-de,technet.10).gif)
+**Abbildung 9.2: Dialogfeld „Internetinformationsdienste (IIS)“ mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0902_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten des IIS-Servers kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
 
 **Tabelle 9.3: Empfohlene Einstellungen für die Unterkomponenten des IIS-Servers**
@@ -642,9 +644,10 @@ Stellt Clients Webdienste sowie statische und dynamische Inhalte zur Verfügung.
 
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **Message Queuing**:
 
+![](images/dd443730.sgfg0903(de-de,technet.10).gif)
 
-**Abbildung 9.3: Dialogfeld „Message Queuing“ mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0903_big(de-de,technet.10).gif)
+**Abbildung 9.3: Dialogfeld „Message Queuing“ mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0903_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten des Message Queuing kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
 
 **Tabelle 9.4: Empfohlene Einstellungen für die Unterkomponenten des Message Queuing**
@@ -828,9 +831,10 @@ Verknüpft die Ankunft eingehender Nachrichten bei einer Warteschlange mit der F
 
 Die folgende Abbildung zeigt die Unterkomponenten des Dialogfelds **Servererweiterungen des Background Intelligent Transfer Service (BITS)**:
 
+![](images/dd443730.sgfg0904(de-de,technet.10).gif)
 
-**Abbildung 9.4: BITS-Servererweiterungen mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0904_big(de-de,technet.10).gif)
+**Abbildung 9.4: BITS-Servererweiterungen mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0904_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten der BITS-Servererweiterungen kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
 
 **Tabelle 9.5: Empfohlene Einstellungen für die Unterkomponenten der BITS-Servererweiterungen**
@@ -914,9 +918,10 @@ Installiert die ISAPI für BITS, damit ein IIS-Server Daten mithilfe von BITS ü
 
 Die folgende Abbildung zeigt die Unterkomponenten im Dialogfeld **WWW-Dienst**:
 
+![](images/dd443730.sgfg0905(de-de,technet.10).gif)
 
-**Abbildung 9.5: Dialogfeld „WWW-Dienst“ mit Liste der Unterkomponenten**
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0905_big(de-de,technet.10).gif)
+**Abbildung 9.5: Dialogfeld „WWW-Dienst“ mit Liste der Unterkomponenten**  
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443730.sgfg0905_big(de-de,technet.10).gif)  
 In der folgenden Tabelle werden die Unterkomponenten des WWW-Dienstes kurz beschrieben und Empfehlungen gegeben, wann diese aktiviert werden sollten.
 
 **Tabelle 9.6: Empfohlene Einstellungen der Unterkomponenten des WWW-Dienstes**
@@ -1594,11 +1599,9 @@ Ausführen
 
 
 Die folgenden Optionen bestimmen die Ebene der Skriptausführung für Benutzer:
-* **Keine.**   Es dürfen keine ausführbaren Skripts auf dem Server ausgeführt werden.
-
-* **Nur Skripts.**   Es dürfen nur Skripts auf dem Server ausgeführt werden.
-
-* **Skripts und ausführbare Dateien.**   Es dürfen sowohl Skripts als auch ausführbare Dateien auf dem Server ausgeführt werden.
+- **Keine.**   Es dürfen keine ausführbaren Skripts auf dem Server ausgeführt werden.
+- **Nur Skripts.**   Es dürfen nur Skripts auf dem Server ausgeführt werden.
+- **Skripts und ausführbare Dateien.**   Es dürfen sowohl Skripts als auch ausführbare Dateien  auf dem Server ausgeführt werden.
 
 
 </td>
@@ -1750,37 +1753,37 @@ Wenn Sie Ihre eigene Richtlinie erstellen, müssen Sie die Abschnitte „Registr
 Es empfiehlt sich, das Betriebssystem zu Beginn der Konfigurationsarbeit neu zu installieren. Dadurch wird sichergestellt, dass keine älteren Einstellungen oder Software von früheren Konfigurationen verwendet werden. Wenn möglich, sollten Sie ähnliche Hardware wie in Ihrer Bereitstellungsumgebung verwenden, um eine möglichst hohe Kompatibilität zu gewährleisten. Die neue Installation wird als *Referenzcomputer* bezeichnet.
 
 **So erstellen Sie die IIS-Serverrichtlinie**
-* Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
+1. Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
 
-* Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
+2. Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
 
-* Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
+3. Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
 
-* Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
+4. Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
 
-* Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
+5. Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
 
-* Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die Rollen der Anwendungsserver und Webserver.
+6. Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die Rollen der Anwendungsserver und Webserver.
 
-* Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
+7. Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
 
-* Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
+8. Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
 
-* Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
+9. Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
 
-* Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
+10. Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
 
-* Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
+11. Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
 
-* Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+12. Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-* Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+13. Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-* Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - IIS-Server.inf“).
+14. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - IIS-Server.inf“).
 
-* Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. IIS-Server.xml).
+15. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. IIS-Server.xml).
 
-**Hinweis**: Die Richtlinie für die Mitgliedsserver-Baseline deaktiviert mehrere andere IIS-bezogene Dienste, einschließlich FTP, SMTP und NNTP. Die Webserverrichtlinie muss geändert werden, wenn einer dieser Dienste auf IIS-Servern in einer der drei in diesem Handbuch definierten Umgebungen aktiviert werden soll.
+    **Hinweis**: Die Richtlinie für die Mitgliedsserver-Baseline deaktiviert mehrere andere IIS-bezogene Dienste, einschließlich FTP, SMTP und NNTP. Die Webserverrichtlinie muss geändert werden, wenn einer dieser Dienste auf IIS-Servern in einer der drei in diesem Handbuch definierten Umgebungen aktiviert werden soll.
 
 
 
