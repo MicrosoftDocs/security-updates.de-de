@@ -14,27 +14,14 @@ Network load balancing (NLB) is a strategy that can keep networks running even i
 Confirm that you have completed WSUS setup and configured your SQL Server 2005 or SQL Server 2008 database as a failover cluster before configuring the NLB cluster. For more information about how to set up an NLB cluster, see [Network Load Balancing Clusters](http://go.microsoft.com/fwlink/?linkid=76491) at http://go.microsoft.com/fwlink/?LinkId=76491.
 
 
-> [!Hinweis]  
+> [!NOTE]  
 > None of the servers taking part in the cluster should be a front-end domain controller.
 
 <p></p>
 
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.Important(WS.10).gif" />Wichtig</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">The maximum number of front-end WSUS servers per database instance is four.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> The maximum number of front-end WSUS servers per database instance is four.
+
  
 
 Step 1: Configure remote SQL
@@ -57,7 +44,7 @@ In this step you will install WSUS on the other front-end WSUS servers without c
 2.  You will see the **Welcome** page of the installation wizard. Continue installing WSUS using the procedure in [Run WSUS 3.0 SP2 Server Setup](https://technet.microsoft.com/3bc2933c-8d26-4594-b989-e64b406f3147).
 
  
-> [!Hinweis]  
+> [!NOTE]  
 > If you are using the default SQL instance, leave the instance name blank. For example, if you are using the default instance on a server named MySQLServer, SQLINSTANCE_NAME should be MySQLServer.
 
  
@@ -80,7 +67,7 @@ Step 4: Set up a DFS share
 You should create a single file location that is available to all the front-end WSUS servers. Even if you do not store updates locally, you will need a location for End User License Agreement files. You may choose to store them on a Distributed File System share.
 
 
-> [!Hinweis]  
+> [!NOTE]  
 > It is not necessary to use a DFS share with an NLB cluster. You can use a standard network share, and you can ensure redundancy by storing updates on a RAID controller. 
 
 This step explains how to set up DFS on one of the servers in your cluster on a Windows Server 2003 server.
@@ -109,7 +96,7 @@ This step explains how to set up DFS on one of the servers in your cluster on a 
     After you install a WSUS update, verify the NTFS permissions on the WSUSContent folder. The NTFS permissions on the WSUSContent folder may be reset to the default values by the installer.
 
  
-> [!Hinweis]  
+> [!NOTE]  
 > For more information about setting permissions on DFS shares, see <a href="http://go.microsoft.com/fwlink/?linkid=86550">KB 308568</a>, &quot;How To Set File Permissions for Shares in DFS Replica Sets to Apply to All Replicas&quot; (http://go.microsoft.com/fwlink/?LinkId=86550).
 
  
@@ -135,6 +122,7 @@ In order to access the updates on the DFS share, the front-end WSUS servers must
 7.  Click **Connect As**, and enter the user name and password that can be used to access that share.
 
 8.  Be sure to follow these steps for each of the front-end WSUS servers that are not on the same machine as the DFS share.
+
 
 Step 6: Move the local content directory on the first front-end WSUS server to the DFS share
 --------------------------------------------------------------------------------------------
@@ -193,28 +181,16 @@ Step 9: Configure WSUS clients to sync from the DFS share
 Instructions for configuring WSUS client machines are given in [Update and Configure the Automatic Updates Client](https://technet.microsoft.com/d3d56210-9f71-49b7-b0d1-a04fb52d4e53). However, in the case of WSUS on NLB clusters, you should specify the virtual address of the NLB cluster rather than one of the individual servers. For example, if you are setting up your clients with a Group Policy object or Local Group Policy object, the setting for the **Specify intranet Microsoft update service location** setting should be the virtual Web address.
 
 <p></p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.Important(WS.10).gif" />Wichtig</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you are using a DFS share, be careful when uninstalling WSUS from one but not all of the front-end servers. If you allow the WSUS content directory to be deleted, this will affect all the WSUS front-end servers.
-</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]
+> If you are using a DFS share, be careful when uninstalling WSUS from one but not all of the front-end servers. If you allow the WSUS content directory to be deleted, this will affect all the WSUS front-end servers.
+
  
 
 Upgrading NLB
 -------------
 
-> [!Hinweis]  
+> [!NOTE]  
 > Check to see if you have followed all the steps mentioned above to configure WSUS for NLB.If the steps have not been followed then reconfigure the WSUS for NLB following all the above mentioned steps.
 
 
