@@ -17,9 +17,9 @@ Setting up WSUS for remote SQL is a three-step process:
 2.  Check that the administrator who is going to install WSUS 3.0 also has permissions on SQL Server
 3.  Install WSUS 3.0 on the front-end computer, and configure it to use the database on the back-end computer.
 
-| ![](images/Cc708595.note(WS.10).gif)Hinweis                                                                              |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| For a remote SQL installation on WSUS 3.0, you install WSUS on the front-end computer only. You do not need to install WSUS on the back-end computer. |
+> [!Hinweis]  
+> For a remote SQL installation on WSUS 3.0, you install WSUS on the front-end computer only. You do not need to install WSUS on the back-end computer.
+
 
 Remote SQL limitations
 ----------------------
@@ -47,7 +47,9 @@ Install a SQL Server 2005 database on the back-end computer and enable remote c
 
 2.  Choose **Surface Configuration for Services and Connections**.
 
-![](images/Cc708595.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif) **Enable Remote SQL Connections**
+![](images/Cc708595.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif) 
+
+**Enable Remote SQL Connections**
 1.  In the left window, click the **Remote Connections** node.
 
 2.  Select **Local and remote connections** and then select **Using TCP/IP only**.
@@ -90,10 +92,14 @@ Run WSUS Setup from the command line, using the **SQLINSTANCE\_NAME=***servernam
 **To install WSUS on the front-end computer**
 1.  At the command prompt, navigate to the folder containing the WSUS Setup program, and type:
 
-    **WSUSSetup.exe SQLINSTANCE\_NAME=***servername\\instancename*
+    **WSUSSetup.exe SQLINSTANCE\_NAME=** *servername\\instancename*
 
 2.  You will see the **Welcome** page of the installation wizard. Continue installing WSUS as in the procedure given in [Run WSUS 3.0 Server Setup](https://technet.microsoft.com/0562aa65-72ce-4d86-b1cb-dbee34c51de3).
 
-| ![](images/Cc708595.note(WS.10).gif)Hinweis                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------|
-| After you have completed the WSUS 3.0 installation, you can delete the SQL Server account set up in Step 2, if you wish to do so. |
+
+> [!Hinweis]  
+> After you have completed the WSUS 3.0 installation, you can delete the SQL Server account set up in Step 2, if you wish to do so.
+
+
+
+
