@@ -16,9 +16,7 @@ DRMS\_Log\_Master
 
 In der folgenden Tabelle wird ein Eintrag für jeden Protokollierungsdatensatz aufgelistet.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -145,9 +143,7 @@ DRMS\_Log\_Detail
   
 In der folgenden Tabelle werden zusätzliche Daten für einen Protokollierungsdatensatz aufgelistet. Normalerweise werden die XrML-Daten in dieser Tabelle protokolliert.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -196,9 +192,7 @@ DRMS\_Log\_Filter
   
 In der folgenden Tabelle werden die Felder aufgelistet, die vom Protokollierungslistenerdienst protokolliert werden.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

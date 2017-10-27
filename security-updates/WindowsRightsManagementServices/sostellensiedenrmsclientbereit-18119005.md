@@ -47,8 +47,10 @@ Bereitstellen des RMS-Clients mithilfe einer unbeaufsichtigten Installation
 ---------------------------------------------------------------------------
 
 Das Extrahieren der Dateien zur Installation der Windows-Installationsprogrammdateien ist optional. Sie können den RMS-Client auch durch eine unbeaufsichtigte Installation bereitstellen. Geben Sie hierzu den folgenden Befehl in eine Befehlszeile ein:
-
-`WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q`
+```
+WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi 
+REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q
+```
 
 Durch diesen Befehl wird die unbeaufsichtigte Installation des RMS-Client gestartet.
 
@@ -71,6 +73,7 @@ Bereitstellen des RMS-Clients mithilfe eines SMS
     **Allgemein**:
 
     -   Geben Sie unter **Befehlszeile** Folgendes ein:
+
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
         | ![](images/Cc747749.note(WS.10).gif)Hinweis                                                                                               |
         |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -147,7 +150,31 @@ Das folgende Verfahren bietet eine Kurzanleitung für Administratoren, die nicht
 Aktualisieren von einer vorherigen Version
 ------------------------------------------
 
-        ```
+Es ist möglich, eine unbeaufsichtigte Installationsmethode in einem Skript zu verwenden, die erkennt, ob der RMS SP2-Client installiert ist. Wenn der Client nicht installiert ist, aktualisiert das Skript entweder den vorhandenen Client oder installiert den RMS SP2-Client. Das Skript ist folgendermaßen aufgebaut:
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+Set objWindowsInstaller = Wscript.CreateObject("WindowsInstaller.Installer") 
+Set colProducts = objWindowsInstaller.Products 
+
+For Each product In colProducts 
+strProductName = objWindowsInstaller.ProductInfo (product, "ProductName")
+
+if strProductName = "Windows Rights Management Client with Service Pack 2" then
+strInstallFlag = "False"
+Exit For
+else
+strInstallFlag = "True"
+end if
+Next
+
+if strInstallFlag = "True" then
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q "
+else
+wscript.echo "No installation required"
+end if
+```
+
 | ![](images/Cc747749.note(WS.10).gif)Hinweis                                    |
 |-------------------------------------------------------------------------------------------------------------|
 | Dieses Skript funktioniert nicht mit Windows Vista, da der RMS-Client in das Betriebssystem integriert ist. |

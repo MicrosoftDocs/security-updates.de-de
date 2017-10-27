@@ -13,9 +13,7 @@ Server-Lizenzgeberzertifikate laufen nach dem angegebenen Zeitraum ab. Dieser Ze
 
 Es gibt drei von RMS im Systemereignisprotokoll veröffentlichte Ereignisse, die Sie überwachen sollten. Diese Ereignisse teilen Ihnen mit, dass das Erneuerungsdatum des Server-Lizenzgeberzertifikats bevorsteht oder dass das Zertifikat abgelaufen ist. In der folgenden Tabelle sind die Ereignis-IDs und -namen aufgeführt:
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -23,9 +23,7 @@ Standardmäßig werden die Webdienstdateien und virtuellen Verzeichnisse durch f
 
 In der folgenden Tabelle werden die in IIS erstellten virtuellen Verzeichnisse und die in diesen Verzeichnissen installierten Dienste aufgelistet.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

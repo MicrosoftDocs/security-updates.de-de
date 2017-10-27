@@ -13,9 +13,7 @@ Im Testinstallationsbeispiel ist nur ein Stammzertifizierungsserver vorhanden. S
 
 Sie müssen zunächst den Domänencontroller installieren und die Datenbankserver – gemäß den Anweisungen in den vorigen Abschnitten – einrichten. Nachdem Sie alle in der folgenden Tabelle angeführten Schritte abgeschlossen haben, können Sie mit der Installation von RMS beginnen.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

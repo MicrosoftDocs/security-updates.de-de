@@ -29,7 +29,12 @@ Windows Update stellt die einfachste Möglichkeit zur Installation des RMS-Clien
 
 Zur höchstmöglichen Kontrolle über das Verfahren der Clientinstallation können Sie die Software erwerben und danach deren Integrität bei jedem Schritt des Installationsverfahrens durch das Ausführen eines Skripts validieren. Dieses Skript kann geschrieben und einem Gruppenrichtlinienobjekt (Group Policy Object oder GPO) als Startskript hinzugefügt werden. Mit dieser Methode muss der Benutzer nicht als lokaler Administrator auf dem Computer angemeldet sein, und der RMS-Client wird automatisch beim Neustart installiert.
 
-        ```
+Im Folgenden finden Sie ein Beispielskript:
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q"
+```
 Grundlegende Informationen über das Verteilen des RMS-Clients anhand einer Gruppenrichtlinie finden Sie nachstehend unter [Einrichten von SMS oder einer Gruppenrichtlinie zur Unterstützung der Clientbereitstellung](https://technet.microsoft.com/9e37c27b-8cc1-40c6-adb7-0937aa64c8db).
 
 Verfahrensrichtlinien zur RMS-Clientbereitstellung finden Sie nachstehend unter [So stellen Sie den RMS-Client bereit](https://technet.microsoft.com/c84f1724-cf71-4385-9003-ff68bc23c927).
