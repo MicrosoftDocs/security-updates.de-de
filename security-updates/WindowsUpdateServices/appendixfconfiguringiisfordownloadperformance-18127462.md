@@ -25,9 +25,9 @@ Limiting bandwidth on all Web sites
 
 5.  Click **OK**.
 
-| ![](images/Cc720543.note(WS.10).gif)Hinweis                                 |
-|----------------------------------------------------------------------------------------------------------|
-| You must be logged on as an administrator or have run IIS as an administrator to perform this procedure. |
+
+> [!NOTE]  
+> You must be logged on as an administrator or have run IIS as an administrator to perform this procedure.
 
 Limiting bandwidth on a specific Web site
 -----------------------------------------
@@ -43,6 +43,6 @@ Limiting bandwidth on a specific Web site
 
 5.  Click **OK**.
 
-| ![](images/Cc720543.note(WS.10).gif)Hinweis                                 |
-|----------------------------------------------------------------------------------------------------------|
-| You must be logged on as an administrator or have run IIS as an administrator to perform this procedure. |
+
+> [!NOTE]  
+> You must be logged on as an administrator or have run IIS as an administrator to perform this procedure.
