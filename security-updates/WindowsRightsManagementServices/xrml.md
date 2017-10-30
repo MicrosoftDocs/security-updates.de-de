@@ -1,0 +1,29 @@
+---
+TOCTitle: XrML
+Title: XrML
+ms:assetid: 'eac518b8-c040-4618-94a1-4353500c355c'
+ms:contentKeyID: 18119085
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc747717(v=WS.10)'
+---
+
+XrML
+====
+
+Zur Festlegung digitaler Rechte bedient sich die RMS-Technologie des XML-Vokabulars in Form der XrML-Sprache (eXtensible Rights Markup Language) Version 1.2.1.
+
+Microsoft ist überzeugt von den Vorteilen von Industriestandards und gut dokumentierten technischen Spezifikationen, wie z. B. HTTP (Hypertext Transfer Protocol), TCP/IP (Transmission Control Protocol/Internet Protocol) (und XML, die von einer Normungsinstitution getestet und überprüft wurden. Industriestandards müssen technische Fähigkeiten zeigen. Deshalb überprüfen Normungsinstitutionen, wie W3C (World Wide Web Consortium) und MPEG (Moving Picture Experts Group), vorgeschlagene Standards, um sicherzustellen, dass die Entwickler die Richtlinien eingehalten haben. Darüber hinaus testen sie vorgeschlagene Standards in zahlreichen unabhängigen Szenarien und Netzwerkszenarien.
+
+Durch die freiwillige Einhaltung einer Standardsprache für Rechtsausdrücke (Rights-Expression Language oder REL) werden wichtige, zurzeit latente Interoperabilitätsvorteile der Rechteverwaltung entwickelt. Der (von MPEG anerkannte) neue Standard, XrML, bietet viele Interoperabilitätsvorteile. XrML stellt digitale Eigenschaften in einer einfachen, universellen Methode zum Formulieren von Rechten bereit, die mit der Verwendung und dem Schutz digitaler Informationen, einschließlich Webdiensten, verbunden sind. Entwickler können neue und vorhandene Rechteverwaltungssysteme problemlos in XrML integrieren. Darüber hinaus ist XrML zurzeit die einzige Sprache für Rechtsausdrücke (Rights Expression Language oder REL), die zum Implementieren von Rechteverwaltungslösungen verwendet wird. Bei Microsoft, wo XrML von Anfang an eingesetzt wurde, wird mit großem Interesse die vielen wichtigen Vorteile erwartet, die die Interoperabilität der Rechteverwaltung (basierend auf dem XrML-Standard) mit sich bringen wird.
+
+Funktionsweise von XrML
+-----------------------
+
+XrML gibt eine Sprache für Rechtsausdrücke an, mit der vertrauenswürdige Systeme in einer vertrauenswürdigen Umgebung Richtlinien für digitale Informationen formulieren können. Sie können XrML-Lizenzen auf vertrauenswürdige Informationen in jedem beliebigen Format anwenden, z. B. auf E-Mail, Büroproduktivitätsprogramme, Datenbankinhalte, E-Commerce-Downloads, Geschäftsbereichsprogramme und CRM-Systeme (Customer Relationship Management). Anschließend können Sie XrML-Lizenzen über vertrauenswürdige Rechteverwaltungssysteme, die den XrML-Standard verwenden, erzwingen.
+
+Die zu verwaltenden Rechte werden in einer XrML-Veröffentlichungslizenz formuliert, die der Datei als Anlage hinzugefügt wird. In der Veröffentlichungslizenz legt der Besitzer der Informationen fest, wie diese verwendet, geschützt und verteilt werden sollen. Die Veröffentlichungslizenz und die Identität des Benutzers werden an das Rechteverwaltungssystem übergeben, das eine Lizenz erstellt.
+
+Diese Lizenzen können von verschiedenen kompatiblen Rechteverwaltungssystemen auf einfache Weise interpretiert und verwaltet werden, weil alle den XrML-Standard verwenden. Durch die Onlineverwaltung von Informationen mithilfe von Lizenzen ist der Zugriff darauf von jedem Standort aus problemlos möglich. Nach dem Download der Lizenz ist die Rechteverwaltung online und offline wirksam, da die Rechte mit der Datei unabhängig vom Dateiziel verbunden sind.
+
+XrML unterstützt eine umfangreiche Liste von Rechten. Darüber hinaus können Anwendungen bei Bedarf zusätzliche Rechte definieren. Durch das Definieren zusätzlicher Rechte können Unternehmen viele Geschäfts-, Verwendungs- und Workflow-Modelle für ihren ganz individuellen Bedarf erstellen.
+
+Weitere Informationen zu XrML finden Sie auf der [XrML-Website](http://go.microsoft.com/fwlink/?linkid=6347)(http://go.microsoft.com/fwlink/?LinkId=6347).
