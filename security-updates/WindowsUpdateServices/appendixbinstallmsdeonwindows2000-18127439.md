@@ -37,7 +37,7 @@ Use a command prompt and command-line options to run MSDE Setup, set the sa pass
 
 2.  Type the following:
 
-    **setup sapwd="***password***" instancename="***WSUS***"**
+    **setup sapwd="**<em>password</em>**" instancename="**</em>WSUS</em>**"**
 
     where *password* is a strong password for the sa account on this instance of MSDE. This command launches the MSDE setup program, sets the sa password, and names this instance of MSDE to WSUS.
 
