@@ -22,15 +22,10 @@ Enable audit events to ensure that adequate logs are collected for system activi
 
 Audit Policy Settings
 
-###  
+ 
 
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Option</th>
@@ -93,15 +88,10 @@ Configure Windows Server 2003 security settings to help ensure optional security
   
 Security Options Settings
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Option</th>
@@ -439,7 +429,7 @@ Configure Event Log settings to help ensure an adequate level of activity monito
   
 Event Log Settings
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -525,15 +515,10 @@ Enable only services that are required for WSUS.
   
 Enabled Operating System Services
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Option</th>
@@ -829,13 +814,13 @@ Enabled Operating System Services
   
 Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
-| ![](images/Cc708591.Caution(WS.10).gif)Vorsicht                                                                                                                                                                                                     |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk. |
+
+> [!CAUTION]  
+> If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk.
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\SynAttackProtect**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -859,7 +844,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\TcpMaxPortsExhausted**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -883,7 +868,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\TCPMAxHALFOPEN**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -907,7 +892,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\TCPmaxhalfopenretired**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -931,7 +916,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CURRENTCONTROLSET\\SERVICES\\AFd\\parameters\\enabledICMPredirect**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -955,7 +940,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CURRENTCONTROLSET\\SERVICES\\tcpip\\parameters\\enableddeadgwdetect**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -979,7 +964,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CURRENTCONTROLSET\\SERVICES\\tcpip\\parameters\\disableipsourcerouting**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1003,7 +988,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CURRENTCONTROLSET\\SERVICES\\tcpip\\parameters\\ipenabledrouter**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1034,15 +1019,10 @@ The following are security recommendations for IIS 6.0 with WSUS.
   
 Use the following settings in URLScan to help protect the administrative Web page for WSUS. The complete Urlscan.ini file is located at the end of this topic.
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Option</th>
@@ -1059,11 +1039,11 @@ Use the following settings in URLScan to help protect the administrative Web pag
 <tr class="even">
 <td style="border:1px solid black;">UseAllowExtensions</td>
 <td style="border:1px solid black;">0</td>
-<td style="border:1px solid black;">Uses the [DenyExtensions] section of Urlscan.ini. Allow the following:
-ASP Request: .asp, .cer, .cdx, .asa
-Executables: .bat, .cmd, .com
-- Note that .exe must be enabled for WSUS.
-Scripts: .htw, .ida, .idq, .htr, .idc, .shtm, .shtml, .stm, .printer
+<td style="border:1px solid black;">Uses the [DenyExtensions] section of Urlscan.ini. Allow the following:<br/>
+ASP Request: .asp, .cer, .cdx, .asa<br/>
+Executables: .bat, .cmd, .com<br/>
+- Note that .exe must be enabled for WSUS.<br/>
+Scripts: .htw, .ida, .idq, .htr, .idc, .shtm, .shtml, .stm, .printer<br/>
 Static Files: .ini, .log, .pol, .dat</td>
 </tr>
 <tr class="odd">
@@ -1183,7 +1163,7 @@ Use access control permissions to secure the SQL Server 2000 registry keys.
   
 **HKLM\\SOFTWARE\\MICROSOFT\\MSSQLSERVER**
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1213,7 +1193,7 @@ Remove all stored procedures that are unnecessary and that have the ability to c
   
 Unnecessary SQL Server 2000 Stored Procedures
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1231,8 +1211,8 @@ Unnecessary SQL Server 2000 Stored Procedures
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;">Delete the following stored procedure by using the following command:
-<strong>use master exec sp_dropextendedproc</strong> <em>stored procedure</em>
+<td style="border:1px solid black;">Delete the following stored procedure by using the following command:<br/><br/>
+<strong>use master exec sp_dropextendedproc</strong> <em>stored procedure</em><br/><br/>
 where <em>stored procedure</em> is the name of the stored procedure to be deleted.</td>
 <td style="border:1px solid black;"><ul>
 <li>Sp_OACreate<br />
@@ -1381,6 +1361,225 @@ Urlscan.ini file
   
 The following is a facsimile of the complete Urlscan.ini file.
   
-```  
-\[options\] UseAllowVerbs=1 ; If 1, use \[AllowVerbs\] section, else use the ; \[DenyVerbs\] section. UseAllowExtensions=0 ; If 1, use \[AllowExtensions\] section, else use ; the \[DenyExtensions\] section. NormalizeUrlBeforeScan=1 ; If 1, canonicalize URL before processing. VerifyNormalization=1 ; If 1, canonicalize URL twice and reject request ; if a change occurs. AllowHighBitCharacters=0 ; If 1, allow high bit (ie. UTF8 or MBCS) ; characters in URL. AllowDotInPath=0 ; If 1, allow dots that are not file extensions. RemoveServerHeader=1 ; If 1, remove the 'Server' header from response. EnableLogging=1 ; If 1, log UrlScan activity. PerProcessLogging=1 ; If 1, the UrlScan.log filename will contain a PID ; (ie. UrlScan.123.log). AllowLateScanning=0 ; If 1, then UrlScan will load as a low priority ; filter. PerDayLogging=1 ; If 1, UrlScan will produce a new log each day with ; activity in the form 'UrlScan.010101.log'. UseFastPathReject=0 ; If 1, then UrlScan will not use the ; RejectResponseUrl or allow IIS to log the request. LogLongUrls=0 ; If 1, then up to 128K per request can be logged. ; If 0, then only 1k is allowed. ; ; If UseFastPathReject is 0, then UrlScan will send ; rejected requests to the URL specified by RejectResponseUrl. ; If not specified, '/&lt;Rejected-by-UrlScan&gt;' will be used. ; RejectResponseUrl= ; ; LoggingDirectory can be used to specify the directory where the ; log file will be created. This value should be the absolute path ; (ie. c:\\some\\path). If not specified, then UrlScan will create ; the log in the same directory where the UrlScan.dll file is located. ; LoggingDirectory=C:\\WINDOWS\\system32\\inetsrv\\urlscan\\logs ; ; If RemoveServerHeader is 0, then AlternateServerName can be ; used to specify a replacement for IIS's built in 'Server' header ; AlternateServerName= \[RequestLimits\] ; ; The entries in this section impose limits on the length ; of allowed parts of requests reaching the server. ; ; It is possible to impose a limit on the length of the ; value of a specific request header by prepending "Max-" to the ; name of the header. For example, the following entry would ; impose a limit of 100 bytes to the value of the ; 'Content-Type' header: ; ; Max-Content-Type=100 ; ; To list a header and not specify a maximum value, use 0 ; (ie. 'Max-User-Agent=0'). Also, any headers not listed ; in this section will not be checked for length limits. ; ; There are 3 special case limits: ; ; - MaxAllowedContentLength specifies the maximum allowed ; numeric value of the Content-Length request header. For ; example, setting this to 1000 would cause any request ; with a content length that exceeds 1000 to be rejected. ; The default is 30000000. ; ; - MaxUrl specifies the maximum length of the request URL, ; not including the query string. The default is 260 (which ; is equivalent to MAX\_PATH). ; ; - MaxQueryString specifies the maximum length of the query ; string. The default is 2048. ; MaxAllowedContentLength=30000000 MaxUrl=260 MaxQueryString=2048 \[AllowVerbs\] ; ; The verbs (aka HTTP methods) listed here are those commonly ; processed by a typical IIS server. ; ; Note that these entries are effective if "UseAllowVerbs=1" ; is set in the \[Options\] section above. ; GET HEAD POST \[DenyVerbs\] ; ; The verbs (aka HTTP methods) listed here are used for publishing ; content to an IIS server via WebDAV. ; ; Note that these entries are effective if "UseAllowVerbs=0" ; is set in the \[Options\] section above. ; PROPFIND PROPPATCH MKCOL DELETE PUT COPY MOVE LOCK UNLOCK OPTIONS SEARCH \[DenyHeaders\] ; ; The following request headers alter processing of a ; request by causing the server to process the request ; as if it were intended to be a WebDAV request, instead ; of a request to retrieve a resource. ; Translate: If: Lock-Token: Transfer-Encoding: \[AllowExtensions\] ; ; Extensions listed here are commonly used on a typical IIS server. ; ; Note that these entries are effective if "UseAllowExtensions=1" ; is set in the \[Options\] section above. ; .htm .html .txt .jpg .jpeg .gif \[DenyExtensions\] ; ; Extensions listed here either run code directly on the server, ; are processed as scripts, or are static files that are ; generally not intended to be served out. ; ; Note that these entries are effective if "UseAllowExtensions=0" ; is set in the \[Options\] section above. ; ; Also note that ASP scripts are denied with the below ; settings. If you wish to enable ASP, remove the ; following extensions from this list: ; .asp ; .cer ; .cdx ; .asa ; ; Deny ASP requests .asp .cer .cdx .asa ; Deny executables that could run on the server ;.exe .bat .cmd .com ; Deny infrequently used scripts .htw ; Maps to webhits.dll, part of Indexing Service .ida ; Maps to idq.dll, part of Indexing Service .idq ; Maps to idq.dll, part of Indexing Service .htr ; Maps to ism.dll, a legacy administrative tool .idc ; Maps to httpodbc.dll, a legacy database access tool .shtm ; Maps to ssinc.dll, for Server Side Includes .shtml ; Maps to ssinc.dll, for Server Side Includes .stm ; Maps to ssinc.dll, for Server Side Includes .printer ; Maps to msw3prt.dll, for Internet Printing Services ; Deny various static files .ini ; Configuration files .log ; Log files .pol ; Policy files .dat ; Configuration files \[DenyUrlSequences\] .. ; Don't allow directory traversals ./ ; Don't allow trailing dot on a directory name \\ ; Don't allow backslashes in URL : ; Don't allow alternate stream access % ; Don't allow escaping after normalization & ; Don't allow multiple CGI processes to run on a single request  
-```
+<pre>
+[options]
+
+UseAllowVerbs=1                ; If 1, use [AllowVerbs] section, else use the
+                               ; [DenyVerbs] section.
+
+UseAllowExtensions=0           ; If 1, use [AllowExtensions] section, else use
+                               ; the [DenyExtensions] section.
+
+NormalizeUrlBeforeScan=1       ; If 1, canonicalize URL before processing.
+
+VerifyNormalization=1          ; If 1, canonicalize URL twice and reject request
+                               ; if a change occurs.
+
+AllowHighBitCharacters=0       ; If 1, allow high bit (ie. UTF8 or MBCS)
+                               ; characters in URL.
+
+AllowDotInPath=0               ; If 1, allow dots that are not file extensions.
+
+RemoveServerHeader=1           ; If 1, remove the 'Server' header from response.
+
+EnableLogging=1                ; If 1, log UrlScan activity.
+
+PerProcessLogging=1            ; If 1, the UrlScan.log filename will contain a PID
+                               ; (ie. UrlScan.123.log).
+
+AllowLateScanning=0            ; If 1, then UrlScan will load as a low priority
+                               ; filter.
+
+PerDayLogging=1                ; If 1, UrlScan will produce a new log each day with
+                               ; activity in the form 'UrlScan.010101.log'.
+
+UseFastPathReject=0            ; If 1, then UrlScan will not use the
+                               ; RejectResponseUrl or allow IIS to log the request.
+
+LogLongUrls=0                  ; If 1, then up to 128K per request can be logged.
+                               ; If 0, then only 1k is allowed.
+
+;
+; If UseFastPathReject is 0, then UrlScan will send
+; rejected requests to the URL specified by RejectResponseUrl.
+; If not specified, '/<Rejected-by-UrlScan>' will be used.
+;
+
+RejectResponseUrl=
+
+;
+; LoggingDirectory can be used to specify the directory where the
+; log file will be created.  This value should be the absolute path
+; (ie. c:\some\path).  If not specified, then UrlScan will create
+; the log in the same directory where the UrlScan.dll file is located.
+;
+
+LoggingDirectory=C:\WINDOWS\system32\inetsrv\urlscan\logs
+
+;
+; If RemoveServerHeader is 0, then AlternateServerName can be
+; used to specify a replacement for IIS's built in 'Server' header
+;
+
+AlternateServerName=
+
+[RequestLimits]
+
+;
+; The entries in this section impose limits on the length
+; of allowed parts of requests reaching the server.
+;
+; It is possible to impose a limit on the length of the
+; value of a specific request header by prepending "Max-" to the
+; name of the header.  For example, the following entry would
+; impose a limit of 100 bytes to the value of the
+; 'Content-Type' header:
+;
+;   Max-Content-Type=100
+;
+; To list a header and not specify a maximum value, use 0
+; (ie. 'Max-User-Agent=0').  Also, any headers not listed
+; in this section will not be checked for length limits.
+;
+; There are 3 special case limits:
+;
+;   - MaxAllowedContentLength specifies the maximum allowed
+;     numeric value of the Content-Length request header.  For
+;     example, setting this to 1000 would cause any request
+;     with a content length that exceeds 1000 to be rejected.
+;     The default is 30000000.
+;
+;   - MaxUrl specifies the maximum length of the request URL,
+;     not including the query string. The default is 260 (which
+;     is equivalent to MAX_PATH).
+;
+;   - MaxQueryString specifies the maximum length of the query
+;     string.  The default is 2048.
+;
+
+MaxAllowedContentLength=30000000
+MaxUrl=260
+MaxQueryString=2048
+
+[AllowVerbs]
+
+;
+; The verbs (aka HTTP methods) listed here are those commonly
+; processed by a typical IIS server.
+;
+; Note that these entries are effective if "UseAllowVerbs=1"
+; is set in the [Options] section above.
+;
+
+GET
+HEAD
+POST
+
+[DenyVerbs]
+
+;
+; The verbs (aka HTTP methods) listed here are used for publishing
+; content to an IIS server via WebDAV.
+;
+; Note that these entries are effective if "UseAllowVerbs=0"
+; is set in the [Options] section above.
+;
+
+PROPFIND
+PROPPATCH
+MKCOL
+DELETE
+PUT
+COPY
+MOVE
+LOCK
+UNLOCK
+OPTIONS
+SEARCH
+
+[DenyHeaders]
+
+;
+; The following request headers alter processing of a
+; request by causing the server to process the request
+; as if it were intended to be a WebDAV request, instead
+; of a request to retrieve a resource.
+;
+
+Translate:
+If:
+Lock-Token:
+Transfer-Encoding:
+
+[AllowExtensions]
+
+;
+; Extensions listed here are commonly used on a typical IIS server.
+;
+; Note that these entries are effective if "UseAllowExtensions=1"
+; is set in the [Options] section above.
+;
+
+.htm
+.html
+.txt
+.jpg
+.jpeg
+.gif
+
+[DenyExtensions]
+
+;
+; Extensions listed here either run code directly on the server,
+; are processed as scripts, or are static files that are
+; generally not intended to be served out.
+;
+; Note that these entries are effective if "UseAllowExtensions=0"
+; is set in the [Options] section above.
+;
+; Also note that ASP scripts are denied with the below
+; settings.  If you wish to enable ASP, remove the
+; following extensions from this list:
+;    .asp
+;    .cer
+;    .cdx
+;    .asa
+;
+
+; Deny ASP requests
+.asp
+.cer
+.cdx
+.asa
+
+; Deny executables that could run on the server
+;.exe
+.bat
+.cmd
+.com
+
+; Deny infrequently used scripts
+.htw     ; Maps to webhits.dll, part of Indexing Service
+.ida     ; Maps to idq.dll, part of Indexing Service
+.idq     ; Maps to idq.dll, part of Indexing Service
+.htr     ; Maps to ism.dll, a legacy administrative tool
+.idc     ; Maps to httpodbc.dll, a legacy database access tool
+.shtm    ; Maps to ssinc.dll, for Server Side Includes
+.shtml   ; Maps to ssinc.dll, for Server Side Includes
+.stm     ; Maps to ssinc.dll, for Server Side Includes
+.printer ; Maps to msw3prt.dll, for Internet Printing Services
+
+; Deny various static files
+.ini     ; Configuration files
+.log     ; Log files
+.pol     ; Policy files
+.dat     ; Configuration files
+
+[DenyUrlSequences]
+..  ; Don't allow directory traversals
+./  ; Don't allow trailing dot on a directory name
+\   ; Don't allow backslashes in URL
+:   ; Don't allow alternate stream access
+%   ; Don't allow escaping after normalization
+&   ; Don't allow multiple CGI processes to run on a single request
+</pre>
