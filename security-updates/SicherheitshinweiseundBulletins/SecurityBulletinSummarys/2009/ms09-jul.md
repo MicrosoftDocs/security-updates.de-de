@@ -650,13 +650,13 @@ Nicht anwendbar
 
 **Hinweis für MS09-032**
 
-**\*\***Bewertungen des Schweregrads treffen nicht auf dieses Update zu, da diese Software nicht von der Sicherheitsanfälligkeit betroffen ist, die in diesem Bulletin erörtert wird. Als Tiefenverteidigungsmaßnahme zum Schutz vor möglicherweise in der Zukunft entdeckten Sicherheitsanfälligkeiten empfiehlt Microsoft jedoch den Benutzern dieser Software, dieses Sicherheitsupdate zu installieren.
+\**Bewertungen des Schweregrads treffen nicht auf dieses Update zu, da diese Software nicht von der Sicherheitsanfälligkeit betroffen ist, die in diesem Bulletin erörtert wird. Als Tiefenverteidigungsmaßnahme zum Schutz vor möglicherweise in der Zukunft entdeckten Sicherheitsanfälligkeiten empfiehlt Microsoft jedoch den Benutzern dieser Software, dieses Sicherheitsupdate zu installieren.
 
 **Hinweise für MS09-028**
 
-**\*\*\***Das Update für DirectX 8.1 gilt auch für DirectX 8.1b.
+\***Das Update für DirectX 8.1 gilt auch für DirectX 8.1b.
 
-**\*\*\*\***Das Update für DirectX 9.0 gilt auch für DirectX 9.0a, DirectX 9.0b und DirectX 9.0c.
+\****Das Update für DirectX 9.0 gilt auch für DirectX 9.0a, DirectX 9.0b und DirectX 9.0c.
 
 #### Microsoft Office Suites und Software
 
