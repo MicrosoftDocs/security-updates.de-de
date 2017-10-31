@@ -31,9 +31,9 @@ Ensure that the client connection to the WSUS server is working properly.
 
 2.  Contact the WSUS server: **ping***WSUSServerName*
 
-3.  Contact the WSUS HTTP server. Open Internet Explorer and in the Address bar type: **http://**\*WSUSServerName*:*portNumber* where *WSUSServerName* is the name of the WSUS server, and *portNumber* is the port that has been configured for it (for example, 80 for HTTP, 443 for SSL, and 8530 for a custom port).
+3.  Contact the WSUS HTTP server. Open Internet Explorer and in the Address bar type: **http://** *WSUSServerName*:*portNumber* where *WSUSServerName* is the name of the WSUS server, and *portNumber* is the port that has been configured for it (for example, 80 for HTTP, 443 for SSL, and 8530 for a custom port).
 
-4.  Verify the existence of the self-update tree. In an Internet Explorer Address bar type **http://**\*WSUSServerName*/**selfupdate/wuident.cab**
+4.  Verify the existence of the self-update tree. In an Internet Explorer Address bar type **http://** *WSUSServerName*/**selfupdate/wuident.cab**
 
 5.  If the WSUS server is functioning properly, you should see a **File Download** window asking you whether to open or save the file. Close the window.
 
@@ -66,14 +66,11 @@ Ensure that the Automatic Update client has been configured correctly.
     HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
     HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
     ```
-
-    
-    
     If the query returns the error, "The system was unable to find the specified registry key or value," Automatic Update has not been configured on this computer.
 
     If the output from step 2 above contains values for WUServer and WUStatusServer, try to contact the WSUS server listed in these values.
 
-3.  Open Internet Explorer and in the Address bar type **http://**\*WUServer*where *WUServer* stands for the value in the output from step 2.
+3.  Open Internet Explorer and in the Address bar type **http://** *WUServer*where *WUServer* stands for the value in the output from step 2.
 
     You should see an "Under Construction" message if the *WUServer* value is valid. If it is not, you will get an HTTP error of some kind.
 
