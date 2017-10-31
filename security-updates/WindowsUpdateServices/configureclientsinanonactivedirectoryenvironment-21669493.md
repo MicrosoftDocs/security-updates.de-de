@@ -87,6 +87,8 @@ The keys and their value ranges are listed in the following table.
 </tr>
 </tbody>
 </table>
+
+<p></p>
  
 
 Automatic Update configuration options
@@ -282,7 +284,7 @@ To prevent Automatic Updates from restarting a computer while users are logged o
 When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry key to 1, the restart countdown dialog that pops up for the logged on user (active and inactive) will change in the following ways:
 
 
-
+<p></p>
  
 <table style="border:1px solid black;">
 <thead>
@@ -306,6 +308,8 @@ When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry k
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 #### Example 1: Non-administrator user on a workstation
   
@@ -351,7 +355,7 @@ When there are no logged-on users (therefore no opportunity for user data loss),
   
 The following table shows the difference in behavior with **NoAutoRebootWithLoggedOnUsers** enabled (set to 1) or disabled/not configured (not set to 1).
   
-###  
+<p></p> 
 
  
 <table style="border:1px solid black;">
@@ -465,6 +469,8 @@ Restart notification that does not allow the user to initiate the restart or pos
 </td>
 </tr>
 </table>
+
+<p></p>
  
 Note: After all users log off, Automatic Updates will restart the computer to complete the installation of the update.
 
