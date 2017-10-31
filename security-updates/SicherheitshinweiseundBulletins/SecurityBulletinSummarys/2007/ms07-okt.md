@@ -1019,7 +1019,7 @@ Microsoft Office SharePoint Server 2007 x64 Edition (KB937832)
  
 **Hinweise**
 
-**<sup>[1]</sup>** Für dieses Betriebssystem steht ein Sicherheitsupdate zur Verfügung. In der Tabelle finden Sie weitere Informationen zum entsprechenden Security Bulletin für die betroffene Software oder Komponente.** **
+**[1]** Für dieses Betriebssystem steht ein Sicherheitsupdate zur Verfügung. In der Tabelle finden Sie weitere Informationen zum entsprechenden Security Bulletin für die betroffene Software oder Komponente.
 
 Tools und Anleitungen zur Erkennung und Bereitstellung
 ------------------------------------------------------

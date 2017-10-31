@@ -574,11 +574,11 @@ MSN Messenger 8.0 unter Windows XP Service Pack 2, Windows XP Professional x64 E
  
 **Hinweise**
 
-**<sup>[1]</sup>** Für dieses Betriebssystem steht ein Sicherheitsupdate zur Verfügung. In der Tabelle finden Sie weitere Informationen zum entsprechenden Security Bulletin für die betroffene Software oder Komponente.
+**[1]** Für dieses Betriebssystem steht ein Sicherheitsupdate zur Verfügung. In der Tabelle finden Sie weitere Informationen zum entsprechenden Security Bulletin für die betroffene Software oder Komponente.
 
-**<sup>[2]</sup>** Nicht alle Editionen dieser Version von Visual Studio sind betroffen. In dem entsprechenden Security Bulletin finden Sie eine Liste betroffener Editionen.
+**[2]** Nicht alle Editionen dieser Version von Visual Studio sind betroffen. In dem entsprechenden Security Bulletin finden Sie eine Liste betroffener Editionen.
 
-**<sup>[3]</sup>** Für diese Software steht auch eine Option zur Verfügung, ein Online-Upgrade des MSN Messenger- bzw. Windows Live Messenger Service durchzuführen. Weitere Informationen finden Sie im entsprechenden Security Bulletin.
+**[3]** Für diese Software steht auch eine Option zur Verfügung, ein Online-Upgrade des MSN Messenger- bzw. Windows Live Messenger Service durchzuführen. Weitere Informationen finden Sie im entsprechenden Security Bulletin.
 
 Tools und Anleitungen zur Erkennung und Bereitstellung
 ------------------------------------------------------
