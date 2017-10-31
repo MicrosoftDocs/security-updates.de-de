@@ -123,7 +123,7 @@ Windows XP Service Pack 2
 [Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8ba1c2f9-1bde-4e97-b327-21259c5e5104)
 </td>
 <td style="border:1px solid black;">
-** **
+
 </td>
 </tr>
 <tr>
@@ -144,7 +144,7 @@ Windows XP Professional x64 Edition Service Pack 2
 [Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=4ef7fdd7-8887-4c64-a70c-c6ae734d7c5f)
 </td>
 <td style="border:1px solid black;">
-** **
+
 </td>
 </tr>
 <tr>
