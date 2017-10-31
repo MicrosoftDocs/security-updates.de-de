@@ -2103,9 +2103,7 @@ Windows Server 2012 R2 (Server Core-Installation)
  
 **Hinweis zu MS15-018, MS15-019, MS15-020, MS15-021 und MS15-023**
 
-Windows Technical Preview und Windows Server Technical Preview sind betroffen. Benutzern mit diesen Betriebssystemen wird empfohlen, das Update über [Windows Update](http://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=de-de) zu installieren.** **
-
-** **
+Windows Technical Preview und Windows Server Technical Preview sind betroffen. Benutzern mit diesen Betriebssystemen wird empfohlen, das Update über [Windows Update](http://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=de-de) zu installieren.
 
 ### Windows-Betriebssystem und -Komponenten (Tabelle 2 von 2)
 

@@ -1843,10 +1843,8 @@ Nicht anwendbar
 </tr>
 </table>
  
-**Hinweis zu MS15-005 **
+**Hinweis zu MS15-005**  
 <sup>[1]</sup>Windows Server 2003 ist betroffen, aber es wurde kein Update veröffentlicht. Weitere Informationen finden Sie im Bulletin.
-
- 
 
 Tools und Hinweise zur Erkennung und Bereitstellung von Sicherheitsupdates
 --------------------------------------------------------------------------

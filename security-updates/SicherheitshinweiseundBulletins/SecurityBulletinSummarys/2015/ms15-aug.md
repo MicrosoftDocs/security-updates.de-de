@@ -3114,7 +3114,7 @@ Dieses Bulletin umfasst mehr als eine Softwarekategorie. Zusätzliche betroffene
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch **](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
@@ -3195,7 +3195,7 @@ Internet Explorer 9
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch **](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
@@ -3292,7 +3292,7 @@ Internet Explorer 7
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch **](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
@@ -3379,7 +3379,7 @@ Internet Explorer 11
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch **](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
@@ -3455,7 +3455,7 @@ Internet Explorer 8
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch **](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
@@ -3560,7 +3560,7 @@ Internet Explorer 11
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch **](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
@@ -3629,7 +3629,7 @@ Internet Explorer 11
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch **](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
@@ -3771,7 +3771,7 @@ Internet Explorer 11
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch **](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**

@@ -2141,7 +2141,7 @@ Windows Server 2012 R2 (Server Core-Installation)
 
 Dieses Bulletin umfasst mehr als eine Softwarekategorie. Zusätzliche betroffene Software finden Sie in den anderen Tabellen in diesem Abschnitt.
 
-Zudem sind Updates für Microsoft .NET Framework 4.6 RC verfügbar, allerdings nur über das [Microsoft Download Center](http://www.microsoft.com/de-de/download/search.aspx?q=security%20update).** **
+Zudem sind Updates für Microsoft .NET Framework 4.6 RC verfügbar, allerdings nur über das [Microsoft Download Center](http://www.microsoft.com/de-de/download/search.aspx?q=security%20update).
 
 **Hinweis zu MS15-043, MS15-044 und MS15-045**
 
@@ -2150,8 +2150,6 @@ Windows Technical Preview und Windows Server Technical Preview sind betroffen. B
 **Hinweis zu MS15-050**
 
 Windows Server 2003 ist betroffen, aber es wird kein Update dafür veröffentlicht. Weitere Informationen finden Sie im Bulletin.
-
-** **
 
 ### Windows-Betriebssystem und -Komponenten (Tabelle 2 von 2)
 
