@@ -16,7 +16,8 @@ For a complete list of system requirements, refer to the Release Notes for Windo
 WSUS Server Software Prerequisites
 ----------------------------------
 
--   One of the following supported operating systems: Windows Server 2008 R2, Windows Server 2008 SP1 or later, Windows Server 2003 SP2 or later, or Windows Small Business Server 2008 or 2003. Note that additional prerequisites apply for Windows Small Business Server. See the “Windows Small Business Server Prerequisites” section for details.
+-   One of the following supported operating systems: Windows Server 2008 R2, Windows Server 2008 SP1 or later, Windows Server 2003 SP2 or later, or Windows Small Business Server 2008 or 2003. Note that additional prerequisites apply for Windows Small Business Server. See the “Windows Small Business Server Prerequisites” section for details.  
+
     WSUS 3.0 SP2 is also supported for use in virtual operating system environments.
 -   IIS 6.0 or later
 -   Microsoft .NET Framework 2.0 or later
