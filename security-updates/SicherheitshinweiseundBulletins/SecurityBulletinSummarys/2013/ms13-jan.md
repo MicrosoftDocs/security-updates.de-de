@@ -301,7 +301,7 @@ Windows XP
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -475,7 +475,7 @@ Windows Server 2003
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -697,7 +697,7 @@ Windows Vista
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -875,7 +875,7 @@ Windows Server 2008
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -1109,7 +1109,7 @@ Windows 7
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -1386,7 +1386,7 @@ Windows Server 2008 R2
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -1666,7 +1666,7 @@ Windows 8
 **Kennung des** **Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -1816,7 +1816,7 @@ Windows Server 2012
 **Kennung des** **Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -1924,7 +1924,7 @@ Windows RT
 **Kennung des** **Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
@@ -2018,7 +2018,7 @@ Server Core-Installationsoption
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)****
+[**MS13-008**](https://technet.microsoft.com/de-de/security/bulletin/ms13-008)
 </td>
 <td style="border:1px solid black;">
 [**MS13-001**](http://go.microsoft.com/fwlink/?linkid=273848)
