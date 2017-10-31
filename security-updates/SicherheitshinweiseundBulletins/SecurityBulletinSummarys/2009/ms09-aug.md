@@ -1082,15 +1082,15 @@ Nur Windows Server 2008 für Itanium-basierte Systeme: [Microsoft .NET Framewor
 
 **Hinweise für MS09-044**
 
-**\*\*\***Benutzer von RDP-Version 5.0 unter Microsoft Windows 2000 Service Pack 4 müssen sowohl KB958471 als auch KB958470 installieren.
+***Benutzer von RDP-Version 5.0 unter Microsoft Windows 2000 Service Pack 4 müssen sowohl KB958471 als auch KB958470 installieren.
 
-**\*\*\*\***Administratoren haben diesen gebrauchsfertigen Download u. U. manuell installiert.
+****Administratoren haben diesen gebrauchsfertigen Download u. U. manuell installiert.
 
 Weitere Updatedateien finden Sie außerdem im Unterabschnitt „Clientsoftware für Mac“ in dem Abschnitt **Betroffene Software und Downloadadressen** unter der gleichen Kennung des Bulletins. Dieses Bulletin umfasst mehr als eine Softwarekategorie.
 
 **Hinweis für MS09-036**
 
-**\*\*\*\*\***Weil IIS 7.0 nicht auf Windows Vista Starter und Windows Vista Home Basic ausgeführt werden kann, sind die folgenden Editionen nicht betroffen: Windows Vista Starter (32 Bit), Windows Vista Home Basic (32 Bit) und Windows Vista Home Basic (64 Bit).
+*****Weil IIS 7.0 nicht auf Windows Vista Starter und Windows Vista Home Basic ausgeführt werden kann, sind die folgenden Editionen nicht betroffen: Windows Vista Starter (32 Bit), Windows Vista Home Basic (32 Bit) und Windows Vista Home Basic (64 Bit).
 
 #### Clientsoftware für Mac
 
@@ -1136,7 +1136,7 @@ Remotedesktopverbindungs-Client für Mac
  
 **Hinweise für MS09-044**
 
-**\***Dieser Download aktualisiert Remotedesktopverbindungs-Client für Mac 2.0 auf Remotedesktopverbindungs-Client für Mac 2.0.1, der die Sicherheitsanfälligkeit behebt.
+*Dieser Download aktualisiert Remotedesktopverbindungs-Client für Mac 2.0 auf Remotedesktopverbindungs-Client für Mac 2.0.1, der die Sicherheitsanfälligkeit behebt.
 
 Weitere Updatedateien finden Sie außerdem im Unterabschnitt „Windows-Betriebssystem und Komponenten“ in dem Abschnitt **Betroffene Software und Downloadadressen** unter der gleichen Kennung des Bulletins. Dieses Bulletin umfasst mehr als eine Softwarekategorie.
 
@@ -1280,7 +1280,7 @@ Microsoft Office Small Business Accounting 2006
  
 **Hinweise für MS09-043**
 
-**\***SQL Server 2008 und Microsoft Forefront Threat Management Gateway Medium Business Edition verteilen die betroffene Komponente von Office 2003 Web Components für das Microsoft Office System 2007. Das Update für die Office 2003 Internet Components für das Microsoft Office System 2007 sucht nach SQL Server 2008 und Microsoft Forefront Threat Management Gateway Medium Business Edition und bietet Benutzern das Update an.
+*SQL Server 2008 und Microsoft Forefront Threat Management Gateway Medium Business Edition verteilen die betroffene Komponente von Office 2003 Web Components für das Microsoft Office System 2007. Das Update für die Office 2003 Internet Components für das Microsoft Office System 2007 sucht nach SQL Server 2008 und Microsoft Forefront Threat Management Gateway Medium Business Edition und bietet Benutzern das Update an.
 
 Weitere Updatedateien finden Sie außerdem in den weiteren Unterabschnitten unter dem Abschnitt **Betroffene Software und Downloadadressen** unter der gleichen Kennung des Bulletins. Dieses Bulletin umfasst mehr als eine Softwarekategorie.
 

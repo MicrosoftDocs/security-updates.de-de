@@ -1514,22 +1514,22 @@ Nicht anwendbar
 </tr>
 </table>
  
-**Hinweis für MS08-070**
+**Hinweis für MS08-070**  
 Im nächsten Abschnitt, **Microsoft-Entwicklertools und -software**, finden Sie weitere Aktualisierungsdateien. Dieses Bulletin umfasst sowohl Microsoft Office als auch Microsoft-Entwicklertools und -software.
 
-**Hinweis für MS08-077**
+**Hinweis für MS08-077**  
 Im Abschnitt **Microsoft Server Software** finden Sie weitere Aktualisierungsdateien. Dieses Bulletin umfasst sowohl Microsoft Office Suites als auch Software und Microsoft Server Software.
 
-**Hinweis für Microsoft Office FrontPage in MS08-070**
+**Hinweis für Microsoft Office FrontPage in MS08-070**  
 \*Dieses Update gilt nur für Frontpage 2002 Service Pack 3-Versionen auf Chinesisch (vereinfacht) (China), Pan-Chinesisch (Hong Kong), Chinesisch (traditionell) (Taiwan) und Koreanisch.
 
-**Hinweis für Microsoft Office für Mac in MS08-072 und MS08-074**
+**Hinweis für Microsoft Office für Mac in MS08-072 und MS08-074**  
 \*\*Die entsprechenden Updates von MS08-072 und MS08-074 sind identisch. Da die Sicherheitsanfälligkeiten in den gleichen Dateien vorliegen, sind diese Updates für beide Bulletins gleich.
 
-**Hinweise für Works 8 in MS08-072**
+**Hinweise für Works 8 in MS08-072**  
 \*\*\*Um dieses Sicherheitsupdate zu erhalten, müssen Benutzer, die Microsoft Works 8.0 ausführen, zuerst auf Works 8.5 aktualisieren, wie in [Microsoft Works Update](http://www.microsoft.com/products/works/international/update_1001.mspx) beschrieben. Dazu gehören alle Benutzer, die Microsoft Works 8.0, Works Suite 2004 und Works Suite 2005 verwenden. Für Benutzer, die Works Suite 2006 ausführen, ist Works 8.5 bereits enthalten.
 
-**Hinweis für Microsoft Office Excel 2007 und Microsoft Office Excel 2007 Service Pack 1 in MS08-074**
+**Hinweis für Microsoft Office Excel 2007 und Microsoft Office Excel 2007 Service Pack 1 in MS08-074**  
 \*\*\*\*Für Microsoft Office Excel 2007 und Microsoft Office Excel 2007 Service Pack 1 müssen Benutzer zusätzlich zum Sicherheitsupdatepaket KB958437 auch das Sicherheitsupdate für [Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=99cca4ed-f1f9-4cfd-a986-edbec82ced4f) (KB958439) installieren, um vor den im Bulletin MS08-074 beschriebenen Sicherheitsanfälligkeiten geschützt zu sein. Benutzer, die sowohl das Updatepaket KB958437 als auch das Updatepaket KB958439 bereits erfolgreich installiert haben, müssen diese nicht erneut installieren.
 
 #### Microsoft Entwicklertools und Software
@@ -1604,7 +1604,7 @@ Microsoft Visual FoxPro
 </tr>
 </table>
  
-**Hinweis für MS08-070**
+**Hinweis für MS08-070**  
 Im vorherigen Abschnitt, **Microsoft-Entwicklertools und -software**, finden Sie weitere Aktualisierungsdateien. Dieses Bulletin umfasst sowohl Microsoft Office Suites als auch Software und Microsoft-Entwicklertools und -software.
 
 #### Microsoft Server-Software

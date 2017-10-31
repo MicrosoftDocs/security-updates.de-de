@@ -44,6 +44,7 @@ Kritisch (7)
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                             |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                      |
 | **Betroffene Software**                     | **Office**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                            |
+<p><br/></p>
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-024                                                                                                                                            |
 |---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -53,6 +54,7 @@ Kritisch (7)
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                            |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                     |
 | **Betroffene Software**                     | **Office**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                           |
+<p><br/></p>
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-025                                                                                                                                          |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -63,6 +65,8 @@ Kritisch (7)
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                   |
 | **Betroffene Software**                     | **Office**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                         |
 
+<p><br/></p>
+
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-026                                                                                                                                                |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft Exchange können Remotecodeausführung ermöglichen (931832)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) |
@@ -71,6 +75,8 @@ Kritisch (7)
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                                |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                         |
 | **Betroffene Software**                     | **Exchange**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                             |
+
+<p><br/></p>
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-027                                                                                                            |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -81,6 +87,8 @@ Kritisch (7)
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.     |
 | **Betroffene Software**                     | **Internet Explorer**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                |
 
+<p><br/></p> 
+
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-028                                                                                                                                 |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in CAPICOM kann Remotecodeausführung ermöglichen (931906)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-028.mspx) |
@@ -89,6 +97,9 @@ Kritisch (7)
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                 |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                          |
 | **Betroffene Software**                     | **CAPICOM, BizTalk**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                      |
+
+
+<p><br/></p>
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-029                                                                                                                                                      |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -840,9 +851,9 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
   
 **Hinweise**
   
-**<sup>[1]</sup>** Für dieses Betriebssystem steht ein Sicherheitsupdate zur Verfügung. In der Tabelle finden Sie weitere Informationen zum entsprechenden Security Bulletin für die betroffene Software oder Komponente.
+**[1]** Für dieses Betriebssystem steht ein Sicherheitsupdate zur Verfügung. In der Tabelle finden Sie weitere Informationen zum entsprechenden Security Bulletin für die betroffene Software oder Komponente.
   
-**<sup>[2]</sup> F**ür diese Software steht ein Sicherheitsupdate zur Verfügung.. In der Tabelle finden Sie weitere Informationen zum entsprechenden Security Bulletin für die betroffene Software oder Komponente.
+**[2] F**ür diese Software steht ein Sicherheitsupdate zur Verfügung.. In der Tabelle finden Sie weitere Informationen zum entsprechenden Security Bulletin für die betroffene Software oder Komponente.
   
 Bereitstellung  
 --------------
