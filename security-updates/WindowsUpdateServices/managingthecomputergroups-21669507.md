@@ -19,7 +19,7 @@ Because computers can be assigned to multiple groups, it is possible for a singl
 
 You can assign computers to computer groups by using one of two methods, server-side targeting or client-side targeting. With server-side targeting, you manually move one or more client computers to one computer group at a time. With client-side targeting, you use Group Policy or edit the registry settings on client computers to enable those computers to automatically add themselves into the previously created computer groups. This process can be scripted and deployed to many computers at once. You must specify the targeting method you will use on the WSUS server by selecting one of the two options on the **Computers** section of the **Options** page.
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
