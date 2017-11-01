@@ -18,18 +18,48 @@ BITS provides a downloadable tool called bitsadmin that allows you to verify and
 Finding BITS
 ------------
 
-        ```
-        ```
-        ```
+To find the BITS service, open a command shell and type:
+
+```
+sc query bits 
+```
+
+If BITS is running, you should see output like the following:
+
+```
+SERVICE_NAME: bits
+TYPE               : 20  WIN32_SHARE_PROCESS
+ STATE              : 4  RUNNING
+                         (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+ WIN32_EXIT_CODE    : 0  (0x0)
+ SERVICE_EXIT_CODE  : 0  (0x0)
+ CHECKPOINT         : 0x0
+ WAIT_HINT          : 0x0
+ ```
+
+ If BITS is not running, you should see output like the following:
+
+ ```
+ SERVICE_NAME: bits
+ TYPE               : 20  WIN32_SHARE_PROCESS
+ STATE              : 1  STOPPED
+                         (NOT_STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+ WIN32_EXIT_CODE    : 0  (0x0)
+ SERVICE_EXIT_CODE  : 0  (0x0)
+ CHECKPOINT         : 0x0
+ WAIT_HINT          : 0x0
+ ```
+
 
 Stopping and restarting BITS
 ----------------------------
 
 Often it is possible to resolve BITS issues simply by stopping the service and restarting it. The following procedure shows how to stop and restart the service from the command line. You must be logged on as a local administrator to stop and restart BITS.
 
-| ![](images/Cc720473.note(WS.10).gif)Hinweis     |
-|------------------------------------------------------------------------------|
-| To modify, stop, or restart BITS, you must be logged on as an administrator. |
+> [!NOTE]  
+> To modify, stop, or restart BITS, you must be logged on as an administrator.
+
+
 
 **To stop and restart BITS**
 1.  Open a command shell.
@@ -79,11 +109,14 @@ By default BITS runs under the LocalSystem account.
 
 6.  Verify that there are no errors in the event logs.
 
+<p></p>
+
 #### BITS jobs are failing
 
 If BITS jobs fail, look in the event log to find errors. You can use the following table to diagnose the cause of the errors.
 
-###  
+
+<p></p>
 
  
 <table style="border:1px solid black;">
@@ -137,12 +170,15 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 #### BITS fails to start
   
 If the BITS service fail to start, use the following table to diagnose the cause of the error.
   
-###  
+<p></p>
+
 
  
 <table style="border:1px solid black;">
@@ -203,14 +239,17 @@ If the BITS service fail to start, use the following table to diagnose the cause
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 #### Repairing a corrupted BITS configuration
   
 To repair corrupted BITS service configuration, you can enter the BITS service configuration manually.
   
-| ![](images/Cc720473.Important(WS.10).gif)Wichtig                                                                                          |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration. |
+> [!IMPORTANT]  
+> This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration.
+
   
 **To repair a corrupted BITS configuration**  
 1.  Open a command shell.

@@ -12,14 +12,19 @@ Using the Server Cleanup Wizard
 The Server Cleanup Wizard is integrated into the user interface of WSUS 3.0, WSUS 3.0 with SP1, and WSUS with SP2e, and can be used to help you manage your disk space. This wizard can do the following things:
 
 1.  Remove unused updates and update revisions
+
     The wizard will remove all older updates and update revisions that have not been approved.
 2.  Delete computers not contacting the server
+
     The wizard will delete all client computers that have not contacted the server in thirty days or more.
 3.  Delete unneeded update files
+
     The wizard will delete all update files that are not needed by updates or by downstream servers.
 4.  Decline expired updates
+
     The wizard will decline all updates that have been expired by Microsoft.
 5.  Decline superseded updates
+
     The wizard will decline all updates that meet all the following criteria:
     -   The superseded update is not mandatory
     -   The superseded update has been on the server for thirty days or more
@@ -27,7 +32,7 @@ The Server Cleanup Wizard is integrated into the user interface of WSUS 3.0, WSU
     -   The superseded update has not been explicitly deployed to a computer group for ninety days or more
     -   The superseding update must be approved for install to a computer group
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

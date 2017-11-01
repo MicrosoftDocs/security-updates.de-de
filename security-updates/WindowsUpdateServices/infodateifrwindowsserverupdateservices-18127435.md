@@ -11,9 +11,8 @@ Infodatei für Windows Server Update Services
 
 In diesem Dokument werden bekannte Probleme im Zusammenhang mit den Windows Server Update Services (WSUS) beschrieben. Sie finden hier Empfehlungen sowie die Systemanforderungen für die Installation von WSUS.
 
-| ![](images/Cc720505.note(WS.10).gif)Hinweis                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dieses Dokument steht im Microsoft Download Center unter [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126) zum Herunterladen bereit. |
+> [!NOTE]  
+> Dieses Dokument steht im Microsoft Download Center unter [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126) zum Herunterladen bereit. 
 
 Vor Beginn
 ----------
@@ -49,7 +48,7 @@ Falls Sie bereits versucht haben, WSUS zu installieren, und die Installation feh
 
 In der nachstehenden Tabelle wird die erforderliche Software für die verschiedenen unterstützten Betriebssysteme aufgeführt. Überprüfen Sie, ob der WSUS-Server diese Anforderungen erfüllt, bevor Sie das WSUS-Setupprogramm starten. Falls der Computer nach der Installation eines der Updates neu gestartet werden muss, führen Sie diesen Neustart durch, bevor Sie WSUS installieren.
 
-###  
+<p></p>
 
  
 <table style="border:1px solid black;">
@@ -112,6 +111,8 @@ Stattdessen können Sie auch zur <a href="http://go.microsoft.com/fwlink/?linkid
 </tr>
 </tbody>
 </table>
+
+<p></p>
  
 
 Zusätzlich zu diesen Anforderungen installiert oder konfiguriert WSUS möglicherweise auch ASP.NET 1.1 auf dem Server. (Das WSUS-Installationsprogramm konfiguriert ASP.NET.)
@@ -177,6 +178,7 @@ Das WSUS-Setupprogramm aktiviert die datenbankspezifische Option „RECURSIVE\_T
 
 Mit dem folgenden Befehl überprüfen Sie, ob geschachtelte Trigger aktiviert sind:
 
+
 **sp\_configure 'nested triggers'**
 
 Um die Option für geschachtelte Trigger in SQL Server zu aktivieren, führen Sie den folgenden Code in einer Batchdatei auf dem Computer aus, auf dem SQL Server ausgeführt wird:
@@ -189,6 +191,7 @@ Um die Option für geschachtelte Trigger in SQL Server zu aktivieren, führen S
 
 **GO**
 
+
 #### Problem 7: Befehlszeilenparameter für das WSUS-Setupprogramm
 
 WSUS kann auch unbeaufsichtigt installiert werden. Weitere Informationen sowie Angaben zu den verfügbaren Befehlszeilenparametern finden Sie in Anhang A des Artikels zur [Bereitstellung von Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=41777) (möglicherweise in englischer Sprache), der sich mit der unbeaufsichtigten Installation beschäftigt.
@@ -200,9 +203,8 @@ Bekannte Probleme
 
 Wenn Sie IIS auf einem Computer mit Windows 2000 Server ausführen, installieren Sie die neueste Version des IIS-Lockdown-Assistenten (mit URLScan) von der IIS-Lockdown-Tool-Webseite in Microsoft TechNet. Die Installation dieses Tools wird dringend empfohlen, damit die Sicherheit der IIS-Server gewährleistet ist. Der IIS-Lockdown-Assistent deaktiviert nicht benötigte Features von IIS und senkt damit das Sicherheitsrisiko.
 
-| ![](images/Cc720505.note(WS.10).gif)Hinweis                                                                                                                                                                                     |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Diese Komponenten werden nicht über das WSUS-Setupprogramm installiert, sondern müssen manuell installiert werden. Bei Computern mit Windows Server 2003 ist die IIS-Lockdown-Funktion bereits integriert und muss daher nicht gesondert installiert werden. |
+> [!NOTE]  
+> Diese Komponenten werden nicht über das WSUS-Setupprogramm installiert, sondern müssen manuell installiert werden. Bei Computern mit Windows Server 2003 ist die IIS-Lockdown-Funktion bereits integriert und muss daher nicht gesondert installiert werden. 
 
 #### Problem 2: Direkte Änderungen der WSUS-Konfiguration in der Datenbank werden nicht unterstützt
 
