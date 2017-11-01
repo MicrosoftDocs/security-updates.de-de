@@ -18,7 +18,7 @@ A WSUS server running in replica mode inherits the update approvals and computer
 
 You will be able to perform only limited administration capabilities on a WSUS replica server, which will primarily consist of:
 
--   Adding and removing computers from computer groups
+-   Adding and removing computers from computer groups  
     A replica server inherits the computer groups that were created on the administration server. You must assign the replica server's client computers to the computer groups.
 -   Viewing available updates
 -   Monitoring update, synchronization, and computer status, and monitoring WSUS settings on the server
