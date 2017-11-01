@@ -18,7 +18,7 @@ The following software is required for running WSUS on Windows Server 2003:
 
 -   Microsoft Internet Information Services (IIS) 6.0. For instruction about how to install IIS, see [Install and Configure IIS](https://technet.microsoft.com/6b2e1035-5b82-45f4-9f51-6cc0ca32fd60).
 -   Background Intelligent Transfer Service (BITS) 2.0; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47251) at http://go.microsoft.com/fwlink/?LinkId=47251.
--   Microsoft .NET Framework 1.1 Service Pack 1 for Windows Server 2003; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=35326) at http://go.microsoft.com/fwlink/?LinkId=35326.
+-   Microsoft .NET Framework 1.1 Service Pack 1 for Windows Server 2003; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=35326) at http://go.microsoft.com/fwlink/?LinkId=35326.  
     An alternative is to go to [Windows Update](http://go.microsoft.com/fwlink/?linkid=47370) at http://go.microsoft.com/fwlink/?linkid=47370 and scan for Critical Updates and Service Packs. Install Microsoft .NET Framework 1.1 Service Pack 1 for Windows Server 2003.
 
 Windows 2000 Server
@@ -32,5 +32,5 @@ The following software is required for running WSUS on Windows 2000 Server:
 -   Database software that is 100-percent compatible with Microsoft SQL. To obtain Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Release A, go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47366) at http://go.microsoft.com/fwlink/?LinkId=47366.
 -   Microsoft Internet Explorer 6.0 Service Pack 1; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47359) at http://go.microsoft.com/fwlink/?LinkId=47359.
 -   Microsoft .NET Framework Version 1.1 Redistributable Package; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47369) at http://go.microsoft.com/fwlink/?LinkId=47369.
--   Microsoft .NET Framework 1.1 Service Pack 1; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47368) at http://go.microsoft.com/fwlink/?LinkId=47368.
+-   Microsoft .NET Framework 1.1 Service Pack 1; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47368) at http://go.microsoft.com/fwlink/?LinkId=47368.  
     An alternative is to go to [Windows Update](http://go.microsoft.com/fwlink/?linkid=47370) at http://go.microsoft.com/fwlink/?linkid=47370 and scan for Critical Updates and Service Packs. Install Microsoft .NET Framework 1.1 Service Pack 1 for Windows Server 2000.
