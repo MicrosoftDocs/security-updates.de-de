@@ -44,9 +44,7 @@ All of the following Registry entries are within the **\\HKLM\\Software\\Microso
 
 All of the following server configuration settings are stored inside the WSUS database (SUSDB.mdf).
 
-###  
-
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -97,9 +95,7 @@ IIS settings
   
 The following virtual directories (vroots) are created in IIS (in the Default Web Site by default) for client to server synchronization, server to server synchronization, reporting, and client self-update.
   
-###  
-
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
