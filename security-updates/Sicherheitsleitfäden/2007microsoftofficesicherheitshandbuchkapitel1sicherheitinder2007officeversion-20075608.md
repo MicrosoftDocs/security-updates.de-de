@@ -403,6 +403,18 @@ Dies ist lediglich ein Teil der Liste und keine vollständige Auflistung aller S
 
 [Senden Sie uns Ihre Kommentare und Anregungen](mailto:secwish@microsoft.com?subject=2007%20microsoft%20office-sicherheitshandbuch)
 
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                              |
-|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [](#mainsection)[Zum Seitenanfang](#mainsection) | [![](images/Dd443664.pageLeft(de-de,TechNet.10).gif)](https://technet.microsoft.com/de-de/library/ab515417-1c5b-44a1-b871-152c2a3b6d9b(v=TechNet.10))2 von 6[![](images/Dd443664.pageRight(de-de,TechNet.10).gif)](https://technet.microsoft.com/de-de/library/5204bf0f-65b9-403e-9d94-958dbd1553e1(v=TechNet.10)) |
+<p> </p>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><div>
+<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfang</a>
+</div></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/ab515417-1c5b-44a1-b871-152c2a3b6d9b(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageLeft(de-de,TechNet.10).gif" /></a> 2 von 6 <a href="https://technet.microsoft.com/de-de/library/5204bf0f-65b9-403e-9d94-958dbd1553e1(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageRight(de-de,TechNet.10).gif" /></a></td>
+</tr>
+</tbody>
+</table>
