@@ -13,6 +13,8 @@ WSUS uses IIS to update most computers to the WSUS-compatible Automatic Update. 
 
 Using Group Policy to point client computers to your WSUS server should eventually cause an Automatic Updates detection and client self-update. For more information about this process, see [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=79983) (http://go.microsoft.com/fwlink/?linkid=79983).
 
+
+
 Troubleshooting client self-update issues
 -----------------------------------------
 
@@ -42,7 +44,24 @@ To ensure that the self-update tree is working properly, first make sure there i
 
 **cscript** *WSUSInstallDirectory***\\setup\\installselfupdateonport80.vbs**
 
-        ```
+where WSUSInstallDirectory is the directory in which WSUS is installed. If the script is successful, you should see the following output:
+
+```
+Microsoft (R) Windows Script Host Version 5.6
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+SetupSelfupdateTree: Finding the index of the Web site on which WUS is installed...
+SetupSelfupdateTree: Leaving GetWUSWebSiteIndex.
+SetupSelfupdateTree: Finding the index of the web site bound to port 80...
+SetupSelfupdateTree: iWebSiteIndex: 1 ServerBindings: :80:index: 0
+SetupSelfupdateTree: Found the index of site on Port 80: 1
+SetupSelfupdateTree: rootMetabasePath: IIS://LocalHost/W3SVC/1/ROOT
+SetupSelfupdateTree: szPort80RootPath=c:\inetpub\wwwroot
+SetupSelfupdateTree: iWusWebSiteIndex=1 iPort80WebSiteIndex=1
+SetupSelfupdateTree: Warning: This is standalone WUS install. No need to do configuration for SxS install.
+Success: InstallSelfupdateOnPort80 succeeded.
+```
+
 If you have WSUS client self-update running on port 80 of the WSUS server, see the next section.
 
 #### Check IIS logs on the WSUS Server
@@ -103,7 +122,7 @@ Check network connectivity on the WSUS client computer. Use Internet Explorer to
 
 2.  In the **Address** bar, type:
 
-    **http://***WSUSServerName***/selfupdate/wuident.cab**
+    **http://** *WSUSServerName* **/selfupdate/wuident.cab**
 
     where *WSUSServerName* is the name of the WSUS server. You should be prompted to download or open wuident.cab. This verifies network connectivity from the WSUS client and the availability of the wuident.cab file on the WSUS server. If you do not have connectivity or the Web site is not configured correctly, you will get an HTTP error. Check the network settings of the WSUS server and any proxy servers.
 

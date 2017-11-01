@@ -17,16 +17,16 @@ You can generate different kinds of update reports from different places in the 
 2.  Reports on specific updates: right-click the update (or go to the **Actions** pane) and choose **Status Report.**
 3.  Reports on specific computers: right-click the computer (or go to the **Actions** pane)and choose **Status Report**.
 
-| ![](images/Cc720459.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Generating detailed reports for large numbers of computers and/or updates can be very memory-intensive. Detailed reports are most effective for smaller subsets of your computers or updates. If you need to create a very large report and are concerned about using CPU and memory resources on the WSUS server, you may generate the report from a remote WSUS Administration console. |
+
+> [!NOTE]  
+> Generating detailed reports for large numbers of computers and/or updates can be very memory-intensive. Detailed reports are most effective for smaller subsets of your computers or updates. If you need to create a very large report and are concerned about using CPU and memory resources on the WSUS server, you may generate the report from a remote WSUS Administration console.
 
 Using the Reports page
 ----------------------
 
 You can generate three kinds of reports, as described in the following table.
 
-###  
+<p></p>
 
  
 <table style="border:1px solid black;">
@@ -55,16 +55,20 @@ You can generate three kinds of reports, as described in the following table.
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 #### Update reports
   
 Update reports show you the status for your updates. You can view the report in three ways: summary, detailed, and tabular. You can also filter the report by update classification, product, target computer group, or update installation status.
   
 The report displays information from the most recent contact between client computers and the WSUS server. The frequency with which client computers contact the WSUS server is configured through Group Policy. By default, this is every 22 hours. Unless you want to change the contact frequency for your client computers, generate this report the day after you approve updates, so that it reflects your latest approvals. For more information about configuring Group Policy, see [Deploying Microsoft Windows Server Updates Services](http://go.microsoft.com/fwlink/?linkid=79983) (http://go.microsoft.com/fwlink/?linkid=79983).
+
   
-| ![](images/Cc720459.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| You can run **wuauclt /detectnow** from the command line on computers that are running WSUS client software (Automatic Updates) in order to start contact between the client computer and WSUS server). This is used primarily to update status for a particular computer. There will be a few minutes' delay between running the command and seeing the results on the WSUS server. After forcing the client to contact the server, you can get its status with an update status report. For more information about wuauclt, see [Appendix H: The wuauclt Utility](https://technet.microsoft.com/26807cd7-72c0-44b1-80f4-a39793801c45). |
+> [!NOTE]  
+> You can run **wuauclt /detectnow** from the command line on computers that are running WSUS client software (Automatic Updates) in order to start contact between the client computer and WSUS server). This is used primarily to update status for a particular computer. There will be a few minutes' delay between running the command and seeing the results on the WSUS server. After forcing the client to contact the server, you can get its status with an update status report. For more information about wuauclt, see [Appendix H: The wuauclt Utility](https://technet.microsoft.com/26807cd7-72c0-44b1-80f4-a39793801c45).
+
+
   
 **To run an update report**  
 1.  In the WSUS administrative console, select the **Reports** node
@@ -81,7 +85,7 @@ The Update Status Summary view contains the elements listed in the following tab
   
 ### Description of elements displayed in the Update Status Summary view
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -148,6 +152,8 @@ The Update Status Summary view contains the elements listed in the following tab
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 You can change the view of an Update Status Summary report to a detail view or a tabular view by clicking **Report View** in the **Updates Report** toolbar.
   
@@ -180,10 +186,12 @@ The Synchronization Results report enables you to see synchronization informatio
 4.  Click **Run Report**.
   
 The report has four components, which are described in the following table.
+
+
   
 ### Components of Synchronization Results Report
 
- 
+ <p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -206,12 +214,12 @@ The report has four components, which are described in the following table.
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">New Updates</td>
-<td style="border:1px solid black;">Displays the new updates that have been synchronized to the WSUS server during the report's time period.
+<td style="border:1px solid black;">Displays the new updates that have been synchronized to the WSUS server during the report's time period.<br/><br/>
 You can view the properties for each update by clicking the update. An update status report will be generated for that individual report.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Revised Updates</td>
-<td style="border:1px solid black;">Displays the revised updates that have been synchronized to the WSUS server during the report's time period.
+<td style="border:1px solid black;">Displays the revised updates that have been synchronized to the WSUS server during the report's time period.<br/><br/>
 You can view the properties for each update by clicking the update. An update status report will be generated for that individual report.</td>
 </tr>
 <tr class="odd">
@@ -221,6 +229,8 @@ You can view the properties for each update by clicking the update. An update st
 </tbody>
 </table>
   
+<p></p>
+
 #### Printing the report
   
 You can print the report in update summary, detailed, or tabular views, depending on how you have formatted the update status report.
@@ -234,9 +244,9 @@ You can print the report in update summary, detailed, or tabular views, dependin
   
 You can print the report in its original format, or you can export it to Microsoft Excel or PDF formats.
   
-| ![](images/Cc720459.Important(WS.10).gif)Wichtig                                                                                                                                                                                                                                                                      |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Exporting a large report can be extremely time consuming. If you are planning to export your report, consider limiting the size of the report to 200 pages or fewer. You can use different filters to reduce the size of the report, or you can choose the tabular format rather than the detailed format to reduce the number of pages to export. |
+> [!IMPORTANT]  
+> Exporting a large report can be extremely time consuming. If you are planning to export your report, consider limiting the size of the report to 200 pages or fewer. You can use different filters to reduce the size of the report, or you can choose the tabular format rather than the detailed format to reduce the number of pages to export.
+
   
 **To export a report to Excel or PDF format**  
 1.  Run the report you wish to export.
@@ -244,6 +254,8 @@ You can print the report in its original format, or you can export it to Microso
 2.  On the **Updates Report** toolbar, click the down arrow associated with the save icon.
   
 3.  You will see two options: **Excel** and **Acrobat (PDF) file**. Click one of the options.
+
+
   
 Extending reports  
 -----------------
