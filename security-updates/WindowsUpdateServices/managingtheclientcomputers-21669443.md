@@ -13,7 +13,7 @@ The central access point in the WSUS administrative console for managing compute
 
 You can also manage computer groups on the **Computers** page, which includes creating the groups and assigning computers to them. For more information about managing computer groups, see [Managing the Computer Groups](https://technet.microsoft.com/838a2c30-baba-4f07-92e7-2e1b5535643f).
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

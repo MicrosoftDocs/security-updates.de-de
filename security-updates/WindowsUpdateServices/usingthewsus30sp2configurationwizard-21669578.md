@@ -28,7 +28,7 @@ The Configuration Wizard allows you to configure the following areas:
 -   [Choose Update Classifications](#bkmk_classifications)
 -   [Configure the Synchronization Schedule](#bkmk_syncschedule)
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -75,7 +75,7 @@ Specify the proxy server
 
 3.  At this point you are finished with proxy server configuration. Click **Next** to go to the **Connect to Upstream Server** page.
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -105,7 +105,7 @@ Connect to the upstream server
 
 3.  After the connection has completed successfully, click **Next**. If you have chosen to store updates locally, you will go to the **Choose Languages** page, or you can select a different page from the left pane.
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -144,7 +144,7 @@ If you are configuring a downstream server, use the following procedure.
 
 2.  If the upstream server will download update files in all languages, and you want the downstream server to do the same, select **Download updates in all languages supported by the upstream server**. This setting will cause the upstream server to download updates in all languages, including languages that were not originally set up for the upstream server.
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
