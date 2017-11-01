@@ -16,7 +16,7 @@ Importing hotfixes from the Microsoft Update catalog site
 
 In order to import hotfixes into WSUS, you must access the Microsoft Update catalog site from a WSUS computer.
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
