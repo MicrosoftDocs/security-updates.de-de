@@ -87,6 +87,7 @@ The keys and their value ranges are listed in the following table.
 </tbody>
 </table>
  
+<p></p>
 
 Automatic Update configuration options
 --------------------------------------
@@ -216,11 +217,14 @@ The <strong>WUServer</strong> value is not respected unless this key is set.</td
 </tbody>
 </table>
  
+<p></p>
 
 Automatic Updates scenarios
 ---------------------------
 
 The following scenarios illustrate specific issues
+
+<p></p>
 
 RescheduleWaitTime
 ------------------
@@ -242,6 +246,8 @@ There are 3 basic rules for this feature:
 
 The following examples show the use of the **RescheduleWaitTime** value.
 
+<p></p>
+
 #### Example 1: Installation must occur immediately following system startup
 
 This example shows the consequences of **RescheduleWaitTime** set to 1.
@@ -255,6 +261,8 @@ This example shows the consequences of **RescheduleWaitTime** set to 1.
 7.  When Automatic Updates starts, it recognizes that it missed its previously set scheduled installation time and that **RescheduleWaitTime** is set to 1. It therefore logs an event with the new scheduled time (one minute after the current time).
 8.  If no one logs on before the newly scheduled time (1 minute interval) the installation begins. Since no one is logged on, there is no delay and no notification. If the update requires it, Automatic Updates will restart the computer.
 9.  The user logs on to the updated computer.
+
+<p></p>
 
 #### Example 2: Installations must occur fifteen minutes after the Automatic Updates service starts
 
@@ -278,7 +286,7 @@ To prevent Automatic Updates from restarting a computer while users are logged o
 
 When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry key to 1, the restart countdown dialog that pops up for the logged on user (active and inactive) will change in the following ways:
 
-###  
+<p></p>
 
  
 <table style="border:1px solid black;">
@@ -307,6 +315,8 @@ When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry k
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 #### Example 1: Non-administrator user on a workstation
   
@@ -347,6 +357,8 @@ Resulting client behavior:
 Every time a user logs off, Automatic Updates tests to see if there are any users still logged on.
   
 When there are no logged-on users (therefore no opportunity for user data loss), Automatic Updates writes Event ID 22 to the system event log as shown below, and begins the restart procedure.
+
+<p></p>
   
 #### Summary of behavior for NoAutoRebootWithLoggedOnUsers settings
   
@@ -469,6 +481,8 @@ Restart notification that does not allow the user to initiate the restart or pos
 <p></p>
  
 Note: After all users log off, Automatic Updates will restart the computer to complete the installation of the update.
+
+<p></p>
 
 #### Interaction with other settings
 
