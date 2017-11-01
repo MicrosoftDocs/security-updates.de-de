@@ -1,28 +1,58 @@
 ---
-TOCTitle: 'Managing WSUS 3.0 from the Command Line'
-Title: 'Managing WSUS 3.0 from the Command Line'
-ms:assetid: 'e0934a67-f0ed-41a3-bf57-78fd9ac94943'
-ms:contentKeyID: 18127651
-ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc708604(v=WS.10)'
+TOCTitle: 'Managing WSUS 3.0 SP2 from the Command Line'
+Title: 'Managing WSUS 3.0 SP2 from the Command Line'
+ms:assetid: '4d4b90e9-bbb2-429a-92c9-1e5388240416'
+ms:contentKeyID: 21669484
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Dd939838(v=WS.10)'
 ---
 
-Managing WSUS 3.0 from the Command Line
-=======================================
+Managing WSUS 3.0 SP2 from the Command Line
+===========================================
 
 The **wsusutil** command-line utility is used in managing WSUS servers and is located in the *WSUSInstallDir*\\Tools folder of WSUS servers. The table below summarizes the different parameters that can be used with this utility, and later sections explain the syntax and usage of each parameter.
 
-| ![](images/Cc708604.note(WS.10).gif)Hinweis                 |
-|------------------------------------------------------------------------------------------|
-| You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line. |
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Hinweis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line.
+</td>
+</tr>
+</tbody>
+</table>
+ 
 
 Using the wsusutil utility
 --------------------------
 
 You must be an administrator to run the **wsusutil** utility. This utility is installed only on WSUS server machines, not on console-only installations.
 
-| ![](images/Cc708604.note(WS.10).gif)Hinweis                                                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| To see all **wsusutil** parameters, type **wsusutil help** on the command line. To see usage for each of the parameters, type **wsusutil help***parameterName*. |
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.Tip(WS.10).gif" />Tipp</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">To see all <strong>wsusutil</strong> parameters, type <strong>wsusutil help</strong> on the command line. To see usage for each of the parameters, type <strong>wsusutil help</strong><em>parameterName</em>.
+</td>
+</tr>
+</tbody>
+</table>
+ 
 
 ### Summary of wsusutil Commands
 
@@ -92,9 +122,9 @@ Imports update metadata to a server from an export package file created on anoth
 </tbody>
 </table>
   
-#### configuressl
+### configuressl
   
-Updates the WSUS server registry key after the IIS configuration has changed. If this command is run with the optional parameter *ServerCertificateName*, it updates the certificate name. If it is run without the optional parameter, it updates the setting for host headers, if there are any. For more information about configuring SSL for WSUS, see "Securing WSUS with the Secure Sockets Layer" in [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=79983) (http://go.microsoft.com/fwlink/?linkid=79983).
+Updates the WSUS server registry key after the IIS configuration has changed. If this command is run with the optional parameter *ServerCertificateName*, it updates the certificate name. If it is run without the optional parameter, it updates the setting for host headers, if there are any. For more information about configuring SSL for WSUS, see the [Securing WSUS with the Secure Sockets Layer Protocol](https://technet.microsoft.com/de-de/library/5c494e41-05d1-4403-ae7b-4fbca2e56cd7#bkmk_securessl(v=WS.10)) section in the Windows Server Update Services 3.0 SP2 Deployment Guide.
   
 #### Syntax
   
@@ -104,7 +134,7 @@ The following command updates the host headers, if any:
   
 The following command updates the server certificateName:
   
-**wsusutil configuressl ***ServerCertificateName***//sets the server certificate name**
+**wsusutil configuressl** *ServerCertificateName* **//sets the server certificate name**
   
 ###  
 
@@ -132,43 +162,58 @@ The following command updates the server certificateName:
   
 The output from the **wsusutil configuressl** command is the address of the WSUS Web site (including the port number), for example **https://serverName:443**.
   
-#### healthmonitoring
+### healthmonitoring
   
 This command sets and gets the different parameters for WSUS health monitoring.
   
 #### Syntax
   
-**Wsusutil healthmonitoring ***parameterName*
-  
-| ![](images/Cc708604.note(WS.10).gif)Hinweis |  
-|--------------------------------------------------------------------------|  
-| You may set or get only one parameter at a time.                         |
-  
+**Wsusutil healthmonitoring** *parameterName*
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Hinweis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">You may set or get only one parameter at a time.
+</td>
+</tr>
+</tbody>
+</table>
+ 
+
 ###  
 
  
 <table style="border:1px solid black;">
 <tr>
 <th colspan="2">
-Parameter  
+Parameter
 </th>
 <th colspan="2">
-Description  
+Description
 </th>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**IntervalsInMinutes*** \[DetectInterval\] \[RefreshInterval\]*
+**IntervalsInMinutes** *\[DetectInterval\] \[RefreshInterval\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
-Sets the values for detect and refresh intervals. If the detect interval is 0, the detect cycle will not run. If the refresh interval is 0, the refresh cycle will not run. For more information about the detect and refresh cycles, see [Health Monitoring in WSUS 3.0](https://technet.microsoft.com/2e8a4be2-43b2-4a2c-96f6-667c4558f18d).
+Sets the values for detect and refresh intervals. If the detect interval is 0, the detect cycle will not run. If the refresh interval is 0, the refresh cycle will not run. For more information about the detect and refresh cycles, see [Health Monitoring in WSUS 3.0 SP2](https://technet.microsoft.com/7f2a52af-1738-4320-9066-e58fa904fc70).
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**DiskSpaceInMegabytes ***\[ErrorLevel\] \[WarningLevel\]*
+**DiskSpaceInMegabytes** *\[ErrorLevel\] \[WarningLevel\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -178,7 +223,7 @@ Sets the amount of available disk space (in megabytes) at which a low disk space
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CatalogSyncIntervalInDays*** \[Days\]*
+**CatalogSyncIntervalInDays** *\[Days\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -188,7 +233,7 @@ Sets the number of days that should have passed after synchronization before a w
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**InstallUpdatesInPercent*** \[WarningPercent\]\[ErrorPercent\]*
+**InstallUpdatesInPercent** *\[WarningPercent\]\[ErrorPercent\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -198,7 +243,7 @@ Sets the percentage of update installation failures at which a warning or error 
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**InventoryInPercen***\[WarningPercent\]\[ErrorPercent\]*
+**InventoryInPercen** *\[WarningPercent\]\[ErrorPercent\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -208,7 +253,7 @@ Sets the percentage of inventory reporting failures at which a warning or error 
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**SilentClientsInPercent*** \[WarningPercent\]\[ErrorPercent\]*
+**SilentClientsInPercent** *\[WarningPercent\]\[ErrorPercent\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -218,7 +263,7 @@ Sets the percentage of clients not reporting to the server at which a warning or
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**SilentClientsInDays*** \[Days\]*
+**SilentClientsInDays** *\[Days\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -228,7 +273,7 @@ Sets the number of days clients can fail to report before an error should be giv
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**TargetComputersInPercent***\[WarningPercent\]\[ErrorPercent\]*
+**TargetComputersInPercent** *\[WarningPercent\]\[ErrorPercent\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -238,7 +283,7 @@ Sets the maximum percentage of target computers reporting to this server below w
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckAcls*** on|off*
+**CheckAcls** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -248,7 +293,7 @@ If on, health monitoring should check ACLs on the relevant directories.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForLowDiskSpace*** on|off*
+**CheckForLowDiskSpace** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -258,7 +303,7 @@ If on, health monitoring should check for low disk space.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForCatalogSyncFailures*** on|off*
+**CheckForCatalogSyncFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -268,7 +313,7 @@ If on, health monitoring should check for catalog synchronization failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForContentSyncFailures*** on|off*
+**CheckForContentSyncFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -278,7 +323,7 @@ If on, health monitoring should check for content synchronization failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForEmailNotificationFailures*** on|off*
+**CheckForEmailNotificationFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -288,7 +333,7 @@ If on, health monitoring should check for e-mail notification failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckSelfUpdate*** on|off*
+**CheckSelfUpdate** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -298,7 +343,7 @@ If on, health monitoring should check for client self-update failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckClientsExist*** on|off*
+**CheckClientsExist** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -308,7 +353,7 @@ If on, health monitoring should check whether this server has any clients.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForUpdateInstallFailures*** on|off*
+**CheckForUpdateInstallFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -318,7 +363,7 @@ If on, health monitoring should check for update installation failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForInventoryFailures*** on|off*
+**CheckForInventoryFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -328,7 +373,7 @@ If on, health monitoring should check for clients failing to report inventory..
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForSilentClients*** on|off*
+**CheckForSilentClients** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -338,7 +383,7 @@ If on, health monitoring should check for clients that have failed to report to 
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForTooManyClients*** on|off*
+**CheckForTooManyClients** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -348,7 +393,7 @@ If on, health monitoring should check whether the number of clients is approachi
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckReportingWebService*** on|off*
+**CheckReportingWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -358,7 +403,7 @@ If on, health monitoring should check the Reporting Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckApiRemotingWebService*** on|off*
+**CheckApiRemotingWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -368,7 +413,7 @@ If on, health monitoring should check the API Remoting Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckServerSyncWebService*** on|off*
+**CheckServerSyncWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -378,7 +423,7 @@ If on, health monitoring should check the Server Synchronization Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckClientWebService*** on|off*
+**CheckClientWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -388,7 +433,7 @@ If on, health monitoring should check the client Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckSimpleAuthWebService*** on|off*
+**CheckSimpleAuthWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -398,7 +443,7 @@ If on, health monitoring should check the Simple Authentication Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckDssAuthWebService*** on|off*
+**CheckDssAuthWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -427,13 +472,13 @@ Output:
 
 However, with the parameters setting on or off the different health monitoring checks (for example, **wsusutil healthmonitoring***CheckAcls*), the output will simply be a warning that the WSUS Service must be stopped and restarted for the change to take effect.
 
-#### export
+### export
 
-For more information about exporting and importing updates, see "Set Up a Disconnected Network (Import and Export Updates)" in [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=79983) (http://go.microsoft.com/fwlink/?linkid=79983).
+For more information about exporting and importing updates, see the [Set Up a Disconnected Network (Import and Export the Updates)](https://technet.microsoft.com/9ee2ea63-ef22-47b4-93e7-84fb603e1afc) section in the Windows Server Update Services 3.0 SP2 Deployment Guide.
 
 #### Syntax
 
-**wsusutil export** *package* *logfile*
+**wsusutil export** *package logfile*
 
 ###  
 
@@ -460,19 +505,34 @@ For more information about exporting and importing updates, see "Set Up a Discon
 </tr>
 </tbody>
 </table>
-  
-| ![](images/Cc708604.note(WS.10).gif)Hinweis                                                 |  
-|--------------------------------------------------------------------------------------------------------------------------|  
-| Exporting from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported. |
-  
-#### Import
-  
-For background and procedural information about exporting and importing updates, see "Set Up a Disconnected Network (Import and Export Updates)" in [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=79983) (http://go.microsoft.com/fwlink/?linkid=79983).
-  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Hinweis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Exporting from a WSUS 2.0 server to a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server (or from a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server to a WSUS 2.0 server) is not supported.
+</td>
+</tr>
+</tbody>
+</table>
+ 
+
+### Import
+
+For background and procedural information about exporting and importing updates, see the WSUS Deployment Guide at [WSUS Deployment Guide](http://go.microsoft.com/fwlink/?linkid=139832) (http://go.microsoft.com/fwlink/?LinkId=139832).
+
 #### Syntax
-  
-**wsusutil import** *package* *logfile*
-  
+
+**wsusutil import** *package logfile*
+
 ###  
 
  
@@ -498,49 +558,79 @@ For background and procedural information about exporting and importing updates,
 </tr>
 </tbody>
 </table>
-  
-| ![](images/Cc708604.note(WS.10).gif)Hinweis                                                 |  
-|--------------------------------------------------------------------------------------------------------------------------|  
-| Importing from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported. |
-  
-#### Movecontent
-  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Hinweis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Importing from a WSUS 2.0 server to a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server (or from a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server to a WSUS 2.0 server) is not supported.
+</td>
+</tr>
+</tbody>
+</table>
+ 
+
+### Movecontent
+
 When you run this command, **wsusutil** does the following:
-  
--   Copies the update files from the old location to the new location. The old location is not deleted.  
--   Updates the WSUS database to refer to the new location of the update files.  
+
+-   Copies the update files from the old location to the new location. The old location is not deleted.
+-   Updates the WSUS database to refer to the new location of the update files.
 -   Ensures that the content and metadata are synchronized. This check is always run, even if the **–skipcopy** parameter is used.
-  
+
 The destination folder to which update files are moved must be on an NTFS partition. The utility will not try to copy update files if they already exist in the destination folder. The destination folder will have the same permissions that were set on the original folder.
-  
-| ![](images/Cc708604.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                             |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| You can use **xcopy**, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than **wsusutil**, you still need to run **wsusutil** to perform the second part of the move, using the -**skipcopy** parameter. See the "Syntax" section for more information. |
-  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Hinweis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">You can use <strong>xcopy</strong>, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than <strong>wsusutil</strong>, you still need to run <strong>wsusutil</strong> to perform the second part of the move, using the -<strong>skipcopy</strong> parameter. See the &quot;Syntax&quot; section for more information.
+</td>
+</tr>
+</tbody>
+</table>
+ 
+
 There are two scenarios in which you might move update files from one WSUS drive to another:
-  
--   If the drive is full  
+
+-   If the drive is full
 -   If the hard disk fails
-  
+
 #### If the drive is full
-  
+
 If the drive where WSUS stores update files is full, you can do one of the following:
-  
--   Add more space to your current drive by using NTFS functionality. This operation can be done without using **wsusutil**, because it does not affect WSUS configuration or operation.  
+
+-   Add more space to your current drive by using NTFS functionality. This operation can be done without using **wsusutil**, because it does not affect WSUS configuration or operation.
 -   Install a new drive, and then move the update files from the old drive to the new location by using **wsusutil**.
-  
+
 #### If the hard disk fails
-  
+
 If the hard disk fails, you must do the following:
-  
-1.  Install the new disk on your computer, and then restore the update files from your backup files. Note: If you have not backed up your update files, WSUSutil.exe downloads the missing files at the end of the content move operation.  
-2.  Run **wsusutil movecontent ***newLocation*, specifying the location for the new disk. In addition, you specify the -**skipcopy** parameter, because you are either putting the files in the new folder through the backup utility or the source folder does not exist; the update files will be downloaded at the end of this process.  
+
+1.  Install the new disk on your computer, and then restore the update files from your backup files. Note: If you have not backed up your update files, WSUSutil.exe downloads the missing files at the end of the content move operation.
+2.  Run **wsusutil movecontent ***newLocation*, specifying the location for the new disk. In addition, you specify the -**skipcopy** parameter, because you are either putting the files in the new folder through the backup utility or the source folder does not exist; the update files will be downloaded at the end of this process.
 3.  When the move operation is complete, all the missing files are downloaded.
-  
+
 #### Syntax
-  
+
 **wsusutil movecontent** *contentpath logfile* **-skipcopy**
-  
+
 ###  
 
  
@@ -571,11 +661,11 @@ If the hard disk fails, you must do the following:
 </tbody>
 </table>
   
-#### listfrontendservers
+### listfrontendservers
   
 This command lists the different front-end servers in a network load balancing configuration. It can be useful in troubleshooting a NLB (network load balancing) configuration and after setting up a new front-end server to make sure that it is configured properly.
   
-#### deletefrontendserver
+### deletefrontendserver
   
 This command deletes the given front-end server.
   
@@ -604,59 +694,119 @@ This command deletes the given front-end server.
 </tr>
 </tbody>
 </table>
-  
-| ![](images/Cc708604.Important(WS.10).gif)Wichtig                                                                      |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------|  
-| This command removes the front-end server from the database only. You will need to run **wsussetup /u** on the front-end server to uninstall WSUS. |
-  
-#### checkhealth
-  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Wichtig</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">This command removes the front-end server from the database only. You will need to run <strong>wsussetup /u</strong> on the front-end server to uninstall WSUS.
+</td>
+</tr>
+</tbody>
+</table>
+ 
+
+### checkhealth
+
 This command checks the health of the WSUS server. The health check is configured by **wsusutil healthmonitoring**). The results are written to the event logs.
-  
+
 #### Syntax
-  
+
 **wsusutil checkhealth**
-  
-#### reset
-  
+
+### reset
+
 You use this command if you store updates locally on your WSUS server and want to ensure that the metadata information stored in your WSUS database is accurate. With this command, you verify that every update metadata row in the WSUS database corresponds to update files stored in the local update file storage location on your WSUS server. If update files are missing or have been corrupted, WSUS downloads the update files again. This command might be useful to run after you restore your database, or as a first step when troubleshooting update approvals.
-  
+
 #### Syntax
-  
+
 **wsusutil reset**
-  
-#### listinactiveapprovals
-  
+
+### listinactiveapprovals
+
 If you change language options on an upstream WSUS server, the number of approved updates on the upstream server may not match the number of approved updates on a replica server. For example, consider the following scenario. You configure your upstream server to synchronize all languages, then synchronize and approve 300 updates, of which 50 are non-English language updates. Afterward, you change the language setting on the server to English only. Later, a replica server synchronizes from the upstream server and downloads the "active" approvals, which now are only the English language ones (replica servers synchronize only active approvals). At this point, you will see 300 updates approved on the upstream server, but only 250 approved on the replica server. You can use **listinactiveapprovals** to see a list of the updates on the parent upstream server that are permanently inactive—in this case, the 50 updates that are not English. You do not have to run this command before running the **removeinactiveapprovals** command.  
-  
+
 #### Syntax
-  
+
 **wsusutil listinactiveapprovals**
-  
-#### removeinactiveapprovals
-  
+
+### removeinactiveapprovals
+
 See the explanation above for a description of situations in which you might need to use **removeinactiveapprovals**. You do not have to run the **listinactiveapprovals** command before running this command.  
-  
+
 #### Syntax
-  
+
 **wsusutil removeinactiveapprovals**
-  
-#### usecustomwebsite
-  
+
+### usecustomwebsite
+
 If you set this value to **true**, WSUS Setup will use port 8530 for its Default Web site. If you set it to **false**, WSUS will use port 80.
-  
-| ![](images/Cc708604.Important(WS.10).gif)Wichtig |  
-|-------------------------------------------------------------------------------|  
-| You must use this command before you configure SSL.                           |
-  
-| ![](images/Cc708604.Important(WS.10).gif)Wichtig                                                                 |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------|  
-| If you are installing SharePoint on the same machine as WSUS, the value of **usecustomwebsite** should be set to **true** before the install. |
-  
-| ![](images/Cc708604.Important(WS.10).gif)Wichtig                                              |  
-|----------------------------------------------------------------------------------------------------------------------------|  
-| Using this command after running WSUS Setup will fail if the index of the default Web site is set to a value other than 1. |
-  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Wichtig</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">You must use this command before you configure SSL.
+</td>
+</tr>
+</tbody>
+</table>
+ 
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Wichtig</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">If you are installing SharePoint on the same machine as WSUS, the value of <strong>usecustomwebsite</strong> should be set to <strong>true</strong> before the install.
+</td>
+</tr>
+</tbody>
+</table>
+ 
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Wichtig</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Using this command after running WSUS Setup will fail if the index of the default Web site is set to a value other than 1.
+</td>
+</tr>
+</tbody>
+</table>
+ 
+
 #### Syntax
-  
+
 **wsusutil usecustomwebsite true**
