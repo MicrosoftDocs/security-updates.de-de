@@ -15,12 +15,45 @@ Some download issues may be caused by problems with running BITS on the server o
 
 BITS provides a downloadable tool called bitsadmin that allows you to verify and change BITS settings. For more information about the bitsadmin utility, see [BITSAdmin Tool](http://go.microsoft.com/fwlink/?linkid=80934) (http://go.microsoft.com/fwlink/?LinkId=80934). This tool is available as part of the Windows Vista operating system, and also as part of the Windows XP Service Pack 2 Support Tools.
 
+
+
 Finding BITS
 ------------
 
-        ```
-        ```
-        ```
+To find the BITS service, open a Command Prompt and type:
+
+```
+sc query bits 
+```
+
+If BITS is running, you should see output like the following:
+
+```
+SERVICE_NAME: bits
+TYPE               : 20  WIN32_SHARE_PROCESS
+ STATE              : 4  RUNNING
+                         (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+ WIN32_EXIT_CODE    : 0  (0x0)
+ SERVICE_EXIT_CODE  : 0  (0x0)
+ CHECKPOINT         : 0x0
+ WAIT_HINT          : 0x0
+```
+
+If BITS is not running, you should see output like the following:
+
+```
+SERVICE_NAME: bits
+ TYPE               : 20  WIN32_SHARE_PROCESS
+ STATE              : 1  STOPPED
+                         (NOT_STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+ WIN32_EXIT_CODE    : 0  (0x0)
+ SERVICE_EXIT_CODE  : 0  (0x0)
+ CHECKPOINT         : 0x0
+ WAIT_HINT          : 0x0
+```
+
+
+
 
 Stopping and Restarting BITS
 ----------------------------
@@ -28,22 +61,9 @@ Stopping and Restarting BITS
 Often it is possible to resolve BITS issues simply by stopping the service and restarting it. The following procedure shows how to stop and restart the service from a Command Prompt.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.note(WS.10).gif" />Hinweis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">To modify, stop, or restart BITS, log on as a local administrator.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> To modify, stop, or restart BITS, log on as a local administrator.
+
  
 
 **To stop and restart BITS**
@@ -99,8 +119,8 @@ By default BITS runs under the LocalSystem account.
 
 If BITS jobs fail, look in the event log to find errors. You can use the following table to diagnose the cause of the errors.
 
-###  
 
+<p></p>
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -153,13 +173,15 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 #### BITS Fails to Start
   
 If the BITS service fails to start, use the following table to diagnose the cause of the error.
   
-###  
 
+<p></p>
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -211,28 +233,18 @@ If the BITS service fails to start, use the following table to diagnose the caus
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 #### Repairing a Corrupted BITS Configuration
   
 To repair corrupted BITS service configuration, you can enter the BITS service configuration manually.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.Important(WS.10).gif" />Wichtig</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration.
-</td>
-</tr>
-</tbody>
-</table>
+
+> [!IMPORTANT]  
+> This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration.
+
  
 
 **To repair a corrupted BITS configuration**
