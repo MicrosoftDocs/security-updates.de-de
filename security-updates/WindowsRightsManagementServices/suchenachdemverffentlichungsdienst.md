@@ -25,6 +25,5 @@ Wenn RMS (Rights Management Services oder Dienste für die Rechteverwaltung) fes
 
 Wenn RMS feststellt, dass das Rechtekontozertifikat auf Microsoft® .NET Passport basiert, ist der Speicherort des Veröffentlichungsdienstes das .NET Passport-Konto, das im RMS-geschützten Inhalt angegeben ist.
 
-| ![](images/Cc747580.note(WS.10).gif)Hinweis                              |
-|-------------------------------------------------------------------------------------------------------|
-| Wenn Sie SSL auf dem RMS-Server aktiviert haben, verwenden diese URLs das HTTPS-Verbindungsprotokoll. |
+> [!NOTE]
+> Wenn Sie SSL auf dem RMS-Server aktiviert haben, verwenden diese URLs das HTTPS-Verbindungsprotokoll. 
