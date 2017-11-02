@@ -71,8 +71,6 @@ Ensure that the Automatic Update client has been configured correctly.
     HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
     ```
 
-    
-
     If the query returns the error, "The system was unable to find the specified registry key or value," Automatic Update has not been configured on this computer.
 
     If the output from step 2 above contains values for WUServer and WUStatusServer, try to contact the WSUS server listed in these values.
