@@ -209,7 +209,6 @@ Back end server starting configuration:
     </tbody>
     </table>
  
-
     For more information about the databases that you can use with WSUS, see the following:
     -   In this guide, see [Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22).
     -   In [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=79983), see "Choose the Database Used for WSUS 3.0."
