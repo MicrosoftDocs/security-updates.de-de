@@ -553,6 +553,17 @@ Weitere Informationen zur Verwendung von „Mark of the Web“ zum Steuern der S
   
 [Senden Sie uns Ihre Kommentare und Anregungen](mailto:secwish@microsoft.com?subject=2007%20microsoft%20office-sicherheitshandbuch,%20bedrohungen%20und%20gegenmaßnahmen)
   
-|                                  |                                                                                                                                                                                           |  
-|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| [Zum Seitenanfanq](#mainsection) | [![](images/Dd443669.pageLeft(de-de,TechNet.10).gif)](https://technet.microsoft.com/de-de/library/ae3203f0-f0eb-426b-9deb-a1faea298982(v=TechNet.10))8 von 8 |
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><div>
+<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
+</div></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/ae3203f0-f0eb-426b-9deb-a1faea298982(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageLeft(de-de,TechNet.10).gif" /></a> 8 von 8 </td>
+</tr>
+</tbody>
+</table>
