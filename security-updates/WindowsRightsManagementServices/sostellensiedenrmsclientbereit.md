@@ -15,9 +15,8 @@ Zahlreiche Unternehmen steuern die Bereitstellung der Clientsoftware in ihrem Ha
 
 Vor der Bereitstellung müssen Sie den RMS-Client unter [http://go.microsoft.com/fwlink/?linkId=67736](http://go.microsoft.com/fwlink/?linkid=67736) downloaden.
 
-| ![](images/Cc747749.Important(WS.10).gif)Wichtig                                |
-|--------------------------------------------------------------------------------------------------------------|
-| Der RMS-Client wurde in Windows Vista integriert. Deshalb ist keine separate Installation mehr erforderlich. |
+> [!IMPORTANT]
+> Der RMS-Client wurde in Windows Vista integriert. Deshalb ist keine separate Installation mehr erforderlich. 
 
 Extrahieren der Installationsdateien
 ------------------------------------
@@ -39,9 +38,8 @@ Mit diesem Befehl werden die folgenden Dateien in das angegebene Zielverzeichnis
 -   RMClientBackCompat.msi
     Dies ist die Installationsdatei, die den neuen RMS SP2-Client für RMS-fähige Anwendungen (wie Microsoft Office Professional 2003 oder 2007 Microsoft Office System) identifizieren, die wiederum von den vorherigen Versionen des RMS-Clients abhängig sind. Auf diese Weise kann der neue RMS SP2-Client verwendet werden. Installieren Sie dieses Programm auf den Clientcomputern, sobald die Datei „MSDrmClient.msi“ erfolgreich installiert wurde.
 
-| ![](images/Cc747749.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Unabhängig von der Installationsmethode sollten Sie sicherstellen, dass beide Windows-Installationsprogrammdateien fehlerfrei installiert wurden. Wenn ein Fehler auftritt, durch den die Datei „MSDrmClient.msi“ nicht installiert werden kann, installieren Sie nicht die Datei „RMClientBackCompat.msi“. |
+> [!NOTE]
+> Unabhängig von der Installationsmethode sollten Sie sicherstellen, dass beide Windows-Installationsprogrammdateien fehlerfrei installiert wurden. Wenn ein Fehler auftritt, durch den die Datei „MSDrmClient.msi“ nicht installiert werden kann, installieren Sie nicht die Datei „RMClientBackCompat.msi“. 
 
 Bereitstellen des RMS-Clients mithilfe einer unbeaufsichtigten Installation
 ---------------------------------------------------------------------------
@@ -54,9 +52,8 @@ REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySupp
 
 Durch diesen Befehl wird die unbeaufsichtigte Installation des RMS-Client gestartet.
 
-| ![](images/Cc747749.note(WS.10).gif)Hinweis                                                                                                                                                                                              |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Weil es sich um eine unbeaufsichtigte Installation handelt, werden Sie nicht vom Installationsprogramm darüber informiert, wann die Installation abgeschlossen ist. Unbeaufsichtigte Installationen werden üblicherweise in einer Batch- oder Skriptdatei ausgeführt. |
+> [!NOTE]
+> Weil es sich um eine unbeaufsichtigte Installation handelt, werden Sie nicht vom Installationsprogramm darüber informiert, wann die Installation abgeschlossen ist. Unbeaufsichtigte Installationen werden üblicherweise in einer Batch- oder Skriptdatei ausgeführt. 
 
 Bereitstellen des RMS-Clients mithilfe eines SMS
 ------------------------------------------------
@@ -143,9 +140,8 @@ Das folgende Verfahren bietet eine Kurzanleitung für Administratoren, die nicht
 
 11. Wiederholen Sie Schritt 5 bis 10, um ein GPO zu erstellen, mit dem die Datei „RMClientBackCompat.msi“ installiert wird.
 
-| ![](images/Cc747749.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Diese Schritte dienen lediglich als Anhaltspunkt für Benutzer, die nicht über Erfahrungen mit der Verwendung der Gruppenrichtlinie verfügen. Als erfahrener Gruppenrichtlinienadministrator können Sie das Paket „MSDrmClient.msi“ mit Ihren eigenen Verfahren verteilen. Des Weiteren gelten diese Schritte nur für Domänencontroller, auf denen Windows Server 2003 ausgeführt wird. Bei einer Windows 2000-Domäne können das Verfahren und die Terminologie ggf. abweichen. |
+> [!NOTE]
+> Diese Schritte dienen lediglich als Anhaltspunkt für Benutzer, die nicht über Erfahrungen mit der Verwendung der Gruppenrichtlinie verfügen. Als erfahrener Gruppenrichtlinienadministrator können Sie das Paket „MSDrmClient.msi“ mit Ihren eigenen Verfahren verteilen. Des Weiteren gelten diese Schritte nur für Domänencontroller, auf denen Windows Server 2003 ausgeführt wird. Bei einer Windows 2000-Domäne können das Verfahren und die Terminologie ggf. abweichen. 
 
 Aktualisieren von einer vorherigen Version
 ------------------------------------------
@@ -175,6 +171,5 @@ wscript.echo "No installation required"
 end if
 ```
 
-| ![](images/Cc747749.note(WS.10).gif)Hinweis                                    |
-|-------------------------------------------------------------------------------------------------------------|
-| Dieses Skript funktioniert nicht mit Windows Vista, da der RMS-Client in das Betriebssystem integriert ist. |
+> [!NOTE]
+> Dieses Skript funktioniert nicht mit Windows Vista, da der RMS-Client in das Betriebssystem integriert ist. 

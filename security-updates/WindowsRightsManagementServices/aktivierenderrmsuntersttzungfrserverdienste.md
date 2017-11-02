@@ -26,14 +26,12 @@ Bei der Erstellung dieser Dateien durch RMS sind ihre DACLs so eingestellt, dass
 
 Nach dem Erstellen der Gruppen können Sie die freigegebenen Zugriffssteuerungslisten (DACL) für die Datei ServerCertification.asmx ändern, um der Gruppe auf diesem Dienst die Berechtigung Lesen & Ausführen zu gewähren. Außerdem muss die RMS Service Group (RMS-Dienstgruppe) der DACL zugewiesen werden, und zwar mit der Berechtigung zum Lesen & Ausführen.
 
-| ![](images/Cc747593.note(WS.10).gif)Hinweis                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn es mehr als einen RMS-Server im Cluster gibt, muss die DACL in der Datei ServerCertifiation.asmx auf jedem Server im Cluster geändert werden. |
+> [!NOTE]
+> Wenn es mehr als einen RMS-Server im Cluster gibt, muss die DACL in der Datei ServerCertifiation.asmx auf jedem Server im Cluster geändert werden. 
 
 Für Microsoft Exchange Server 2007 muss das Active Directory-Computerobjekt jedes Exchange-Bridgeheadservers der Serverdienstgruppe hinzugefügt werden. Andernfalls kann der Exchange-Bridgeheadserver keine Lizenzen für Benutzer anfordern, die die E-Mail erhielten.
 
 Für Office SharePoint Server 2007 müssen Sie die Active Directory-Computerobjekte des Servers, auf dem Office SharePoint Server 2007 ausgeführt wird, der Serverdienstgruppe hinzufügen. Wenn Ihr Office SharePoint Server 2007-Server auf die Verwendung des Standardservers in Active Directory eingestellt ist, müssen Sie die RMS Service Group (RMS-Dienstgruppe) und die für Serverdienste erstellte Gruppe der Datei ServiceLocater.asmx hinzufügen und die Berechtigung zum Lesen & Ausführen zulassen.
 
-| ![](images/Cc747593.Important(WS.10).gif)Wichtig                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Internetinformationsdienste (IIS) müssen nach Änderungen an der DACL in den Dateien ServerCertification.asmx und ServiceLocater.asmx neu gestartet werden. Zum Zurücksetzen der IIS führen Sie den Befehl **iisreset** über eine Eingabeaufforderung aus. |
+> [!IMPORTANT]
+> Internetinformationsdienste (IIS) müssen nach Änderungen an der DACL in den Dateien ServerCertification.asmx und ServiceLocater.asmx neu gestartet werden. Zum Zurücksetzen der IIS führen Sie den Befehl **iisreset** über eine Eingabeaufforderung aus. 

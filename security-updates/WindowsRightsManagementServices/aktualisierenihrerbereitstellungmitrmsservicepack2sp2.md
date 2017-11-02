@@ -13,9 +13,8 @@ Dieser Abschnitt enthält Informationen zum Installieren von Microsoft® Windows
 
 Sie können RMS mit SP2 installieren, ohne die vorhandene Installation von RMS mit SP1 entfernen zu müssen. Das Setupprogramm für RMS mit SP2 erkennt, dass RMS mit SP1 installiert ist, und fügt nach Bedarf die zusätzlichen Features und Einstellungen hinzu.
 
-| ![](images/Cc720225.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ein Upgradepfad von der RMS-Serverkomponente ohne Service Pack auf RMS mit SP2 wird nicht unterstützt. Wenn Sie die RMS-Serverkomponente ohne das Service Pack verwenden, müssen Sie erst das SP1 installieren, bevor Sie mit dem Upgrade auf SP2 beginnen können. Für die RMS-Clientkomponente bestehen keine derartigen Upgradebeschränkungen. |
+> [!NOTE]
+> Ein Upgradepfad von der RMS-Serverkomponente ohne Service Pack auf RMS mit SP2 wird nicht unterstützt. Wenn Sie die RMS-Serverkomponente ohne das Service Pack verwenden, müssen Sie erst das SP1 installieren, bevor Sie mit dem Upgrade auf SP2 beginnen können. Für die RMS-Clientkomponente bestehen keine derartigen Upgradebeschränkungen. 
 
 **Behandelte Themen**
 

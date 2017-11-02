@@ -27,9 +27,8 @@ In diesem Schritt wird ein Update für alle Testclientcomputer in der Testgruppe
 
 5.  Das Fenster **Status der Genehmigung** wird angezeigt. Hier wird der Status der verschiedenen Aufgaben angezeigt, die sich auf die Genehmigung der Updates auswirken. Klicken Sie nach Abschluss der Genehmigung auf **Schließen**, um das Fenster zu schließen.
 
-| ![](images/Cc708475.note(WS.10).gif)Hinweis                                                                      |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Zahlreiche Optionen stehen in Verbindung mit dem Genehmigen von Updates, z. B. das Festlegen von Terminen und das Deinstallieren von Updates. |
+> [!NOTE]
+> Zahlreiche Optionen stehen in Verbindung mit dem Genehmigen von Updates, z. B. das Festlegen von Terminen und das Deinstallieren von Updates. 
 
 Nach 24 Stunden können Sie das WSUS-Berichterstattungsfeature verwenden, um festzustellen, ob die Updates auf den Computern bereitgestellt wurden.
 
