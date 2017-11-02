@@ -18,6 +18,5 @@ Microsoft Windows Server Update Services (WSUS) 3.0 stellt eine umfassende Lösu
 
 Obwohl WSUS 3.0 eine vielseitige Lösung zur Updateverwaltung darstellt, wird in diesem Handbuch nur jeweils eine einzelne Möglichkeit zur Ausführung dieser Aufgaben beschrieben. Wenn Optionen vorhanden sind, um eine Aufgabe auf andere Weise auszuführen, wird auf diese Möglichkeiten hingewiesen.
 
-| ![](images/Cc708519.note(WS.10).gif)Hinweis                                                                                                               |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dieses Dokument kann unter [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) (möglicherweise in englischer Sprache) heruntergeladen werden. |
+> [!NOTE]
+> Dieses Dokument kann unter [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) (möglicherweise in englischer Sprache) heruntergeladen werden. 

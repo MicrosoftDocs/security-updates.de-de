@@ -71,9 +71,8 @@ Bei einem Upgrade von WSUS auf WSUS mit SP1 müssen unter Umständen die Antivir
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Durch diese Behelfslösung ist Ihr Computer oder Ihr Netzwerk anfälliger für Angriffe von böswilligen Benutzern oder durch schädliche Software (z. B. Viren). Die Behelfslösung wird nicht empfohlen, sondern soll hier nur der Vollständigkeit halber angegeben werden, so dass Sie selbst entscheiden können, ob Sie sie einsetzen oder nicht. Die Verwendung dieser Behelfslösung erfolgt auf eigene Gefahr. |
 
-| ![](images/Cc708486.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                           |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Antivirenprogramme schützen Ihren Computer vor Viren. Wenn das Antivirenprogramm deaktiviert ist, dürfen Sie keine Dateien herunterladen oder öffnen, die aus Quellen stammen, denen Sie nicht vertrauen. Außerdem dürfen Sie keine Websites besuchen, denen Sie nicht vertrauen, und keine E-Mail-Anhänge öffnen. |
+> [!NOTE]
+> Antivirenprogramme schützen Ihren Computer vor Viren. Wenn das Antivirenprogramm deaktiviert ist, dürfen Sie keine Dateien herunterladen oder öffnen, die aus Quellen stammen, denen Sie nicht vertrauen. Außerdem dürfen Sie keine Websites besuchen, denen Sie nicht vertrauen, und keine E-Mail-Anhänge öffnen. 
 
 #### Problem 6: Bei Verwendung eines Proxyservers werden der Benutzername und das Kennwort für die Proxykonfiguration beim Upgrade auf SP1 ggf. gelöscht
 
@@ -148,9 +147,8 @@ Wenn Sie den Computernamen ändern, nachdem Sie WSUS RTM installiert haben und b
 Entfernen Sie die Gruppen der ASPNET- und WSUS-Administratoren mit dem nachstehenden Skript, und fügen Sie die Gruppen wieder hinzu. Starten Sie anschließend das Upgrade erneut.
 
         ```
-| ![](images/Cc708486.note(WS.10).gif)Hinweis                          |
-|---------------------------------------------------------------------------------------------------|
-| Ersetzen Sie &lt;Inhalt\_Verzeichnis&gt; in der letzten Zeile durch den Pfad zum Inhaltsspeicher. |
+> [!NOTE]
+> Ersetzen Sie &lt;Inhalt\_Verzeichnis&gt; in der letzten Zeile durch den Pfad zum Inhaltsspeicher. 
 
 Inhalt der ursprünglichen WSUS-Infodatei
 ----------------------------------------
@@ -340,9 +338,8 @@ Bekannte Probleme
 
 Wenn Sie die Internetinformationsdienste (IIS) auf einem Computer mit Windows 2000 Server ausführen, installieren Sie die neueste Version des IIS-Lockdown-Assistenten (mit URLScan) von der Webseite über IIS-Lockdowntools in Microsoft TechNet. Die Installation dieses Tools wird dringend empfohlen, damit die Sicherheit der IIS-Server gewährleistet ist. Der IIS-Lockdown-Assistent deaktiviert die nicht benötigten IIS-Features und vermindert so das Sicherheitsrisiko.
 
-| ![](images/Cc708486.note(WS.10).gif)Hinweis                                                                                                                                                                                     |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Diese Komponenten werden nicht über das WSUS-Setupprogramm installiert, sondern müssen manuell installiert werden. Bei Computern mit Windows Server 2003 ist die IIS-Lockdown-Funktion bereits integriert und muss daher nicht gesondert installiert werden. |
+> [!NOTE]
+> Diese Komponenten werden nicht über das WSUS-Setupprogramm installiert, sondern müssen manuell installiert werden. Bei Computern mit Windows Server 2003 ist die IIS-Lockdown-Funktion bereits integriert und muss daher nicht gesondert installiert werden. 
 
 #### Problem 2: Direkte Änderungen der WSUS-Konfiguration in der Datenbank werden nicht unterstützt
 

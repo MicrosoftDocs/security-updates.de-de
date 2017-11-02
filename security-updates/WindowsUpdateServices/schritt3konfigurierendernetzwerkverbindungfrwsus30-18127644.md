@@ -21,9 +21,8 @@ Bevor Sie mit dem Konfigurationsvorgang beginnen, sollten die folgenden Fragen g
 
 In der Standardeinstellung ist WSUS so konfiguriert, dass Microsoft Update als der Speicherort verwendet wird, von dem Updates abgerufen werden. Wenn Sie in Ihrem Netzwerk über einen Proxyserver verfügen, können Sie WSUS so konfigurieren, dass dieser Proxyserver verwendet wird. Wenn sich zwischen WSUS und dem Internet eine Unternehmensfirewall befindet, müssen Sie die Firewall möglicherweise neu konfigurieren, um sicherzustellen, dass WSUS Updates erhalten kann.
 
-| ![](images/Cc708602.note(WS.10).gif)Hinweis                                                                                                                              |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Zum Herunterladen von Updates von Microsoft Update benötigen Sie eine Internetverbindung. WSUS bietet Ihnen jedoch auch die Möglichkeit, Updates in Netzwerke ohne Internetverbindung zu importieren. |
+> [!NOTE]
+> Zum Herunterladen von Updates von Microsoft Update benötigen Sie eine Internetverbindung. WSUS bietet Ihnen jedoch auch die Möglichkeit, Updates in Netzwerke ohne Internetverbindung zu importieren. 
 
 **Schritt 3 umfasst die folgenden Verfahren**:
 
@@ -48,9 +47,8 @@ In der Standardeinstellung ist WSUS so konfiguriert, dass Microsoft Update als d
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-| ![](images/Cc708602.note(WS.10).gif)Hinweis                                                                                                                                                                                             |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Diese Anweisungen zum Konfigurieren der Firewall beziehen sich auf eine Unternehmensfirewall zwischen WSUS und dem Internet. Da WSUS den gesamten eigenen Netzwerkverkehr selbst initiiert, muss die Windows-Firewall auf dem WSUS-Server nicht konfiguriert werden. |
+> [!NOTE]
+> Diese Anweisungen zum Konfigurieren der Firewall beziehen sich auf eine Unternehmensfirewall zwischen WSUS und dem Internet. Da WSUS den gesamten eigenen Netzwerkverkehr selbst initiiert, muss die Windows-Firewall auf dem WSUS-Server nicht konfiguriert werden. 
 
 Für die Verbindung zwischen Microsoft Update und WSUS müssen die Ports 80 und 443 offen sein. Sie können jedoch auch mehrere WSUS-Server so konfigurieren, dass sie mit einem benutzerdefinierten Port synchronisiert werden.
 
@@ -81,9 +79,8 @@ Bei den beiden folgenden Verfahren wird vorausgesetzt, dass Sie das WSUS-Verwalt
 **So starten Sie die WSUS-Verwaltungskonsole**
 -   Zum Starten der WSUS-Verwaltungskonsole klicken Sie auf **Start**, zeigen Sie auf **Alle Programme**, zeigen Sie auf **Verwaltung**, und klicken Sie anschließend auf **Microsoft Windows Server Update Services 3.0**.
 
-| ![](images/Cc708602.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Damit Sie alle Features der WSUS-Konsole verwenden können, müssen Sie Mitglied der WSUS-Administratorengruppe oder der lokalen Administratorensicherheitsgruppe auf dem Server sein, auf dem WSUS installiert ist. Für Mitglieder der Sicherheitsgruppe "WSUS-Berichterstatter" ist die Verwaltungskonsole jedoch schreibgeschützt. |
+> [!NOTE]
+> Damit Sie alle Features der WSUS-Konsole verwenden können, müssen Sie Mitglied der WSUS-Administratorengruppe oder der lokalen Administratorensicherheitsgruppe auf dem Server sein, auf dem WSUS installiert ist. Für Mitglieder der Sicherheitsgruppe "WSUS-Berichterstatter" ist die Verwaltungskonsole jedoch schreibgeschützt. 
 
 **So geben Sie eine Updatequelle und einen Proxyserver an**
 1.  Klicken Sie links in der WSUS-Konsole unter dem Namen dieses Servers auf **Optionen**, und klicken Sie anschließend im mittleren Bereich auf **Updatequelle und Proxyserver**.

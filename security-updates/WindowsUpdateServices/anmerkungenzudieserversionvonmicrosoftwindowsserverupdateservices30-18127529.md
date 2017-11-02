@@ -25,9 +25,8 @@ In diesen Versionsanmerkungen werden bekannte Probleme im Zusammenhang mit Micro
 -   WSUS 3.0 unter Windows Server® 2008
 -   WSUS 3.0 unter Windows Small Business Server 2003
 
-| ![](images/Cc708491.note(WS.10).gif)Hinweis                                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dieses Dokument kann über das [Microsoft Download Center](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)) heruntergeladen werden. |
+> [!NOTE]
+> Dieses Dokument kann über das [Microsoft Download Center](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)) heruntergeladen werden. 
 
 Wichtiger Hinweis für die Konfiguration: Das Kennwort des Proxyservers im Konfigurations-Assistenten muss überschrieben werden
 ------------------------------------------------------------------------------------------------------------------------------
@@ -82,9 +81,8 @@ Beim Installieren von WSUS 3.0 müssen Antivirusprogramme möglicherweise deakt
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Diese Problemumgehung kann die Sicherheit des Computers oder Netzwerks vor Angriffen böswilliger Benutzer oder schädlicher Software wie Viren beeinträchtigen. Dieses Verfahren wird nicht empfohlen. Die Informationen werden jedoch zur Verfügung gestellt, damit Sie die Problemumgehung nach eigenem Ermessen verwenden können. Verwenden Sie diese Problemumgehung auf eigene Gefahr. |
 
-| ![](images/Cc708491.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                      |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ein Antivirusprogramm soll den Computer vor Viren schützen. Laden Sie keine Dateien von nicht vertrauenswürdigen Quellen herunter, öffnen Sie diese Dateien nicht, rufen Sie keine nicht vertrauenswürdigen Websites auf, und öffnen Sie keine E-Mail-Anlagen, während das Antivirusprogramm deaktiviert ist. |
+> [!NOTE]
+> Ein Antivirusprogramm soll den Computer vor Viren schützen. Laden Sie keine Dateien von nicht vertrauenswürdigen Quellen herunter, öffnen Sie diese Dateien nicht, rufen Sie keine nicht vertrauenswürdigen Websites auf, und öffnen Sie keine E-Mail-Anlagen, während das Antivirusprogramm deaktiviert ist. 
 
 #### Für WSUS 3.0 muss die Option für geschachtelte Trigger in SQL Server aktiviert sein
 

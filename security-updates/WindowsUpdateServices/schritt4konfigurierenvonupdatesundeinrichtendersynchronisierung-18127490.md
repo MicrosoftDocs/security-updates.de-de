@@ -54,9 +54,8 @@ In den nächsten fünf Verfahren wird das Konfigurieren der Updates mithilfe des
 
 Wählen Sie im Konfigurations-Assistenten die Seite **Fertig stellen** aus, wenn Sie alle oben beschriebenen Konfigurationsschritte abgeschlossen haben. Sie können die WSUS-Verwaltungskonsole starten, indem Sie das Kontrollkästchen **Snap-In "Windows Server Update Services-Verwaltung" starten** aktiviert lassen, und die erste Synchronisierung wird gestartet, wenn das Kontrollkästchen **Erstsynchronisierung starten** aktiviert ist.
 
-| ![](images/Cc708447.note(WS.10).gif)Hinweis                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Konfigurationsänderungen, die während der Synchronisierung des Servers vorgenommen werden, können nicht gespeichert werden. Nehmen Sie daher erst Änderungen vor, wenn die Synchronisierung abgeschlossen ist. |
+> [!NOTE]
+> Konfigurationsänderungen, die während der Synchronisierung des Servers vorgenommen werden, können nicht gespeichert werden. Nehmen Sie daher erst Änderungen vor, wenn die Synchronisierung abgeschlossen ist. 
 
 ![](images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
 
@@ -95,17 +94,15 @@ Nach dem Konfigurieren der Netzwerkverbindung können Sie Updates herunterladen,
 
 Beim Synchronisieren stellt der WSUS-Server eine Verbindung zu Microsoft Update her. Wenn die Verbindung hergestellt ist, stellt WSUS fest, ob seit der letzten Synchronisierung neue Updates zur Verfügung gestellt wurden. Da es sich hier um die erste Synchronisierung des WSUS-Servers handelt, sind alle Updates verfügbar und können für die Installation genehmigt werden. Die erste Synchronisierung nimmt möglicherweise einige Zeit in Anspruch.
 
-| ![](images/Cc708447.note(WS.10).gif)Hinweis                                                                                                                                          |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| In diesem Dokument wird das Synchronisieren mit den Standardeinstellungen beschrieben, WSUS umfasst jedoch auch Optionen, durch die Sie die Bandbreitenauslastung während der Synchronisierung reduzieren können. |
+> [!NOTE]
+> In diesem Dokument wird das Synchronisieren mit den Standardeinstellungen beschrieben, WSUS umfasst jedoch auch Optionen, durch die Sie die Bandbreitenauslastung während der Synchronisierung reduzieren können. 
 
 **So synchronisieren Sie den WSUS-Server**
 1.  Wählen Sie in der WSUS-Verwaltungskonsole **Synchronisierungen** aus.
 
 2.  Klicken Sie mit der rechten Maustaste, oder klicken Sie rechts im Fenster **Aktionen** auf **Jetzt synchronisieren**.
 
-| ![](images/Cc708447.note(WS.10).gif)Hinweis                                                                                                                                                                                      |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn das Fenster **Aktionen** nicht auf der rechten Seite der Konsole angezeigt wird, klicken Sie auf der Symbolleiste der Konsole auf **Ansicht** und dann auf **Anpassen**. Stellen Sie sicher, dass das Kontrollkästchen **Aktionsbereich** aktiviert ist. |
+> [!NOTE]
+> Wenn das Fenster **Aktionen** nicht auf der rechten Seite der Konsole angezeigt wird, klicken Sie auf der Symbolleiste der Konsole auf **Ansicht** und dann auf **Anpassen**. Stellen Sie sicher, dass das Kontrollkästchen **Aktionsbereich** aktiviert ist. 
 
 Klicken Sie nach Abschluss der Synchronisierung im linken Bildschirmbereich auf **Updates**, um eine Liste der Updates anzuzeigen.

@@ -71,9 +71,8 @@ Bei der Installation von WSUS 3.0 SP1 müssen Sie möglicherweise Antivirenprog
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Diese Problemumgehung erhöht möglicherweise die Verletzbarkeit Ihres Computers oder Netzwerks gegenüber Angriffen von bösartigen Benutzern oder bösartiger Software wie Viren. Zwar wird diese Problemumgehung nicht empfohlen, doch werden die Informationen bereitgestellt, damit Sie die Implementierung der Problemumgehung nach eigenem Ermessen vornehmen können. Diese Problemumgehung wird auf eigenes Risiko verwendet. |
 
-| ![](images/Cc708525.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ein Antivirenprogramm ist darauf ausgelegt, Ihren Computer vor Viren zu schützen. Wenn das Antivirenprogramm deaktiviert ist, dürfen Sie keine Dateien herunterladen oder öffnen, die aus nicht vertrauenswürdigen Quellen stammen, keine Websites besichtigen, die nicht vertrauenswürdig sind, und keine E-Mail-Anlagen öffnen. |
+> [!NOTE]
+> Ein Antivirenprogramm ist darauf ausgelegt, Ihren Computer vor Viren zu schützen. Wenn das Antivirenprogramm deaktiviert ist, dürfen Sie keine Dateien herunterladen oder öffnen, die aus nicht vertrauenswürdigen Quellen stammen, keine Websites besichtigen, die nicht vertrauenswürdig sind, und keine E-Mail-Anlagen öffnen. 
 
 #### Aktivierung der Option für geschachtelte Auslöser in SQL Server ist für WSUS 3.0 SP1 erforderlich
 

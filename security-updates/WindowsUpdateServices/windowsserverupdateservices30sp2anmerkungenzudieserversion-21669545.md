@@ -128,22 +128,8 @@ Die folgende Liste enthält die Hardwaremindestanforderungen, die für eine grun
 -   Mindestens 20 GB freier Speicherplatz auf dem Datenträger, auf dem Inhalte gespeichert werden (empfohlen werden 30 GB).
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">WSUS 3.0 SP2 kann nicht auf komprimierten Laufwerken installiert werden.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> WSUS 3.0 SP2 kann nicht auf komprimierten Laufwerken installiert werden.
  
 
 Konfigurationsvoraussetzungen und Best Practice-Empfehlungen für den WSUS-Server
@@ -440,22 +426,8 @@ In dieser Tabelle werden die Befehlszeileneigenschaften für WSUS 3.0 SP2 aufg
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (Installation im stillen Modus über Port 8530) WSUSSetup.exe /q /u (Deinstallation von WSUS)  
 ```
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Wichtig</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Wenn Sie WSUS 3.0 SP2 im stillen Modus (/q) installieren, und auf dem Computer nicht alle vorausgesetzten Komponenten installiert sind, wird während der Installation eine Datei mit der Bezeichnung „WSUSPreReqCheck.xml“ erstellt und im Verzeichnis „%TEMP%“ gespeichert.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Wenn Sie WSUS 3.0 SP2 im stillen Modus (/q) installieren, und auf dem Computer nicht alle vorausgesetzten Komponenten installiert sind, wird während der Installation eine Datei mit der Bezeichnung „WSUSPreReqCheck.xml“ erstellt und im Verzeichnis „%TEMP%“ gespeichert.
  
 
 <span id="BKMK_KnownIssues"></span>
