@@ -40,7 +40,7 @@ Wenn ein Kalender für alle Benutzer von Office Online oder DAV-Servern von Drit
 Wenn diese Einstellung **aktiviert** ist, ist für auf Office Online veröffentlichte Kalender ein eingeschränkter Zugriff möglich, und Benutzer können keine Kalender an DAV-Server von Drittanbietern veröffentlichen.
 
 **Tabelle 1.1. Zugriff auf veröffentlichte Kalender**
-
+<p> </p>
 <table style="border:1px solid black;">
 
 <tr>
@@ -158,7 +158,7 @@ Wenn ein Steuerelement als SFI gekennzeichnet ist, lädt die Anwendung das Steue
 Wenn diese Einstellung **aktiviert** ist, können Administratoren die ActiveX-Sicherheitsstufe auf eine Zahl zwischen 1 und 6 festlegen. Diese Sicherheitsstufen werden in der folgenden Tabelle erläutert:
 
 **Tabelle 1.2. Konfigurierbare Sicherheitseinstellungen für ActiveX-Steuerelemente**
-
+<p> </p>
 <table style="border:1px solid black;">
 
 <tr>
