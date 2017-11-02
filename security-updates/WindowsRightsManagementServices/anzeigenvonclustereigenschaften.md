@@ -20,6 +20,5 @@ Auf der Verwaltungswebsite können Sie die folgenden Eigenschaften des aktuellen
 -   Das Ablaufdatum des Server-Lizenzgeberzertifikats
 -   Die RMS-Schlüsselhierarchie (Rights Management Services oder Dienste für die Rechteverwaltung), der dieser Server angehört
 
-| ![](images/Cc747677.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                            |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Die auf der Verwaltungswebsite angezeigten Informationen sind für alle Server in einem Cluster identisch, da diese die gleiche Konfiguration aufweisen müssen. Weitere Informationen zum Zugriff auf die Verwaltungswebsite finden Sie nachstehend unter [Verwenden der Verwaltungsstartseite](https://technet.microsoft.com/6c155977-bd0e-47d6-ac65-1746cddb505e). |
+> [!NOTE]
+> Die auf der Verwaltungswebsite angezeigten Informationen sind für alle Server in einem Cluster identisch, da diese die gleiche Konfiguration aufweisen müssen. Weitere Informationen zum Zugriff auf die Verwaltungswebsite finden Sie nachstehend unter [Verwenden der Verwaltungsstartseite](https://technet.microsoft.com/6c155977-bd0e-47d6-ac65-1746cddb505e). 

@@ -13,10 +13,8 @@ Während der Installation erstellt RMS (Rights Management Services oder Dienste 
 
 Sie können das RMS-Dienstkonto jederzeit ändern. Dabei wird das zuvor angegebene Konto automatisch aus der RMS Service Group entfernt, und das neue Konto wird Mitglied bei dieser.
 
-| ![](images/Cc747736.Important(WS.10).gif)Wichtig                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aus Sicherheitsgründen sollten Sie unbedingt ein spezielles Benutzerkonto erstellen, das ausschließlich als Windows RMS-Dienstkonto verwendet wird. Diesem Konto sollten außerdem keine weiteren Berechtigungen erteilt werden. |
+> [!IMPORTANT]
+> Aus Sicherheitsgründen sollten Sie unbedingt ein spezielles Benutzerkonto erstellen, das ausschließlich als Windows RMS-Dienstkonto verwendet wird. Diesem Konto sollten außerdem keine weiteren Berechtigungen erteilt werden. 
 
-| ![](images/Cc747736.note(WS.10).gif)Hinweis                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------|
-| Das RMS-Dienstkonto darf nicht mit dem Domänenkonto identisch sein, das zum Installieren von RMS mit Service Pack 1 verwendet wurde. |
+> [!NOTE]
+> Das RMS-Dienstkonto darf nicht mit dem Domänenkonto identisch sein, das zum Installieren von RMS mit Service Pack 1 verwendet wurde. 

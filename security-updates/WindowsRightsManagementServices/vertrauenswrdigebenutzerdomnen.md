@@ -13,9 +13,8 @@ Standardmäßig erteilt RMS (Rights Management Services oder Dienste für die Re
 
 Sie können RMS für die Verarbeitung dieser Art von Anforderungen konfigurieren, indem Sie das Server-Lizenzgeberzertifikat einer anderen Benutzerdomäne importieren und der Liste der vertrauenswürdigen Benutzerdomänen hinzufügen. Bei dieser Konfiguration können Benutzer, deren Kontozertifikate von der vertrauenswürdigen Benutzerdomäne ausgestellt wurden, Anforderungen für Nutzungslizenzen an Ihre Installation senden. Diese Nutzungslizenzen werden genauso verarbeitet, als ob sie Anforderungen interner Benutzer wären.
 
-| ![](images/Cc747618.note(WS.10).gif)Hinweis                                                                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Der Stammzertifizierungscluster wird automatisch in der Liste der vertrauenswürdigen Benutzerdomänen für alle RMS-Server aufgeführt, die sich in derselben Installation befinden. |
+> [!NOTE]
+> Der Stammzertifizierungscluster wird automatisch in der Liste der vertrauenswürdigen Benutzerdomänen für alle RMS-Server aufgeführt, die sich in derselben Installation befinden. 
 
 Sie können Benutzern aus verschiedenen Benutzerdomänen die gemeinsame Verwendung von geschützten Inhalten ermöglichen. Dies wird in den folgenden Beispielen beschrieben:
 
