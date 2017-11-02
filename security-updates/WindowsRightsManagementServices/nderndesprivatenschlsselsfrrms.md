@@ -13,6 +13,5 @@ Während der Bereitstellung erstellt RMS (Rights Management Services oder Dienst
 
 Wurde der Server zum Inhaltsschutz verwendet, müssen alle Inhaltseigentümer benachrichtigt werden. Es empfiehlt sich, alle Inhalte auf dem RMS-Server mit dem neuen privaten Schlüssel erneut zu veröffentlichen. Kopien von Inhalten, die mit dem unsicheren Schlüssel geschützt wurden, sind nicht mehr ausreichend geschützt und sind zu zerstören.
 
-| ![](images/Cc747765.Important(WS.10).gif)Wichtig                                                                                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Unabhängig davon, ob der Server beim Microsoft-Registrierungsdienst registriert wurde, muss der Bereitstellungsprozess zum Erhalt eines neuen privaten Schlüssels wiederholt werden. Wenn Sie einfach nur den Server mit RMS neu registrieren, wird der zuvor verwendete private Schlüssel weiterhin verwendet. |
+> [!IMPORTANT]
+> Unabhängig davon, ob der Server beim Microsoft-Registrierungsdienst registriert wurde, muss der Bereitstellungsprozess zum Erhalt eines neuen privaten Schlüssels wiederholt werden. Wenn Sie einfach nur den Server mit RMS neu registrieren, wird der zuvor verwendete private Schlüssel weiterhin verwendet. 

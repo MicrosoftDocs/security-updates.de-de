@@ -11,18 +11,16 @@ Managing WSUS 3.0 from the Command Line
 
 The **wsusutil** command-line utility is used in managing WSUS servers and is located in the *WSUSInstallDir*\\Tools folder of WSUS servers. The table below summarizes the different parameters that can be used with this utility, and later sections explain the syntax and usage of each parameter.
 
-| ![](images/Cc708604.note(WS.10).gif)Hinweis                 |
-|------------------------------------------------------------------------------------------|
-| You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line. |
+> [!NOTE]
+> You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line. 
 
 Using the wsusutil utility
 --------------------------
 
 You must be an administrator to run the **wsusutil** utility. This utility is installed only on WSUS server machines, not on console-only installations.
 
-| ![](images/Cc708604.note(WS.10).gif)Hinweis                                                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| To see all **wsusutil** parameters, type **wsusutil help** on the command line. To see usage for each of the parameters, type **wsusutil help***parameterName*. |
+> [!NOTE]
+> To see all **wsusutil** parameters, type **wsusutil help** on the command line. To see usage for each of the parameters, type **wsusutil help***parameterName*. 
 
 ### Summary of wsusutil Commands
 

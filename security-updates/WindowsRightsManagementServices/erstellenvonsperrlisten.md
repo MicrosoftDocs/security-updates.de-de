@@ -11,9 +11,8 @@ Erstellen von Sperrlisten
 
 Beim Implementieren der Sperrung ist das Bereitstellen einer Sperrliste erforderlich. Dabei handelt es sich um ein XML-Dokument, das die XrML-Sprache (eXtensible Rights Markup Language) verwendet und die Prinzipale auflistet, die keinen Zugriff mehr auf durch Rechte geschützte Inhalte haben sollen. Sie müssen Sperrlisten erstellen, die mit einem Zeitstempel versehen und entsprechend mit dem in RMS bereitgestellten Tool zum Signieren von Sperrlisten („RLsigner.exe“) signiert wurden.
 
-| ![](images/Cc720208.Important(WS.10).gif)Wichtig                         |
-|-------------------------------------------------------------------------------------------------------|
-| Um die Sperrliste mit „RLsigner.exe“ signieren zu können, müssen Sie sie als Unicode-Datei speichern. |
+> [!IMPORTANT]
+> Um die Sperrliste mit „RLsigner.exe“ signieren zu können, müssen Sie sie als Unicode-Datei speichern. 
 
 Beispiel für eine Sperrliste
 ----------------------------
@@ -31,9 +30,8 @@ Das BODY-Element enthält vier untergeordnete Elemente:
 
 Ein Beispiel für eine Sperrlistendatei ist unten dargestellt.
 
-| ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|Die Elemente ISSUEDTIME, PUBLICKEY und SIGNATURE sind nicht unbedingt erforderlich, da sie von „RLsigner.exe“ eingefügt oder überschrieben werden.|
+> [!NOTE]
+>Die Elemente ISSUEDTIME, PUBLICKEY und SIGNATURE sind nicht unbedingt erforderlich, da sie von „RLsigner.exe“ eingefügt oder überschrieben werden.
 
 ```
 <?xml version="1.0" ?>
@@ -163,9 +161,8 @@ In diesem Beispiel wird eine Gruppe von Zertifikaten oder Lizenzen anhand der Au
         </OBJECT>
       </REVOKE>
 ```
-| ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen GUID und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
+> [!NOTE]
+> Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen GUID und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. 
 
 #### Sperren von Inhalten anhand der Inhalts-ID
 In diesem Beispiel werden geschützte Inhalte anhand der Inhalts-ID gesperrt. Dies ist die Methode, die Sie zum Sperren von Inhalten bevorzugt verwenden sollten, da alle aus einer gegebenen Veröffentlichungslizenz erstellten Nutzungslizenzen über dieselbe Inhalts-ID verfügen. Der Wert des Knotens „\<OBJECT>“ stammt aus dem Knoten „\<BODY>\<WORK>\<OBJECT>“ einer Veröffentlichungslizenz oder einer Nutzungslizenz für die Inhalte.
@@ -176,9 +173,8 @@ In diesem Beispiel werden geschützte Inhalte anhand der Inhalts-ID gesperrt. Di
         </OBJECT>
       </REVOKE>
 ```
-| ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen GUID und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
+> [!NOTE]
+> Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen GUID und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. 
 
 #### Sperren von Prinzipalen anhand des Windows-Kontos
 In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand seines Windows-Kontos gesperrt. Der Inhalt des „\<OBJECT>“-Elements hier stammt aus dem Knoten „\<BODY>\<ISSUEDPRINCIPALS>\<PRINCIPAL\><OBJECT>“ eines Rechtekontozertifikats oder einer Nutzungslizenz.
@@ -190,9 +186,8 @@ In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand sei
         </OBJECT>
       </REVOKE>
 ```
-| ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                                                                                                                                             |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen Sicherheitskennung (SID) des Windows-Kontos und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
+> [!NOTE]
+> Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen Sicherheitskennung (SID) des Windows-Kontos und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. 
 
 #### Sperren von Prinzipalen anhand der Windows Live-ID
 In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand seiner Windows Live-ID gesperrt. Der Inhalt des „\<OBJECT>“-Elements hier stammt aus dem Knoten „\<BODY><ISSUEDPRINCIPALS>\<PRINCIPAL>\<OBJECT>“ eines Rechtekontozertifikats oder einer Nutzungslizenz.
@@ -204,9 +199,8 @@ In diesem Beispiel wird ein Benutzer oder ein aktivierender Prinzipal anhand sei
         </OBJECT>
       </REVOKE>
 ```
-| ![](images/Cc720208.note(WS.10).gif)Hinweis                                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen PUID (Principal Unique Identifier) und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. |
+> [!NOTE]
+> Beim Angeben des ID-Typs muss dafür gesorgt werden, dass sich zwischen PUID (Principal Unique Identifier) und Schlusstag kein Zeilenumbruch befindet. Wird versehentlich ein Zeilenumbruch eingefügt, kann der RMS-Client die Sperrliste nicht analysieren. 
 
 Einfügen einer Signatur in eine Sperrliste
 ------------------------------------------
@@ -234,18 +228,16 @@ Ihre Sperrlistendatei muss als Unicode-Datei gespeichert worden sein, um sie mit
 
 4.  Fügen Sie mit „RLsigner.exe“ eine Signatur in eine Sperrlistendatei ein. Dieses Tool ist in RMS enthalten. Standardmäßig befindet es sich im Verzeichnis „%systemdrive%\\Programme\\Windows Rights Management Services\\Tools“.
 
-| ![](images/Cc720208.note(WS.10).gif)Hinweis |
-|--------------------------------------------------------------------------|
-| „RLsigner.exe“ unterstützt keine Dateinamen mit Leerzeichen.             |
+> [!NOTE]
+> „RLsigner.exe“ unterstützt keine Dateinamen mit Leerzeichen.             
 
 Verwenden von „RLsigner.exe“
 ----------------------------
 
 Beim Ausführen von „RLsigner.exe“ erstellt das Tool zunächst unter Verwendung des privaten Schlüssels aus der Schlüsseldatei eine Signatur. Dann erstellt es eine Ausgabedatei, die auf der von Ihnen bereitgestellten Sperrlistendatei basiert.
 
-| ![](images/Cc720208.Important(WS.10).gif)Wichtig   |
-|---------------------------------------------------------------------------------|
-| Dazu muss die Sperrlistendatei zuvor als Unicode-Datei gespeichert worden sein. |
+> [!IMPORTANT]
+> Dazu muss die Sperrlistendatei zuvor als Unicode-Datei gespeichert worden sein. 
 
 Wenn Sie die Sperrliste mit „RLsigner.exe“ signieren möchten, geben Sie an einer Eingabeaufforderung den folgenden Befehl ein:
 

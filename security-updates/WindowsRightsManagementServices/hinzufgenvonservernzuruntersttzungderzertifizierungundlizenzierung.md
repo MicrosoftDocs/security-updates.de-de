@@ -35,9 +35,8 @@ Das Hinzufügen von Servern zu Zertifizierungs- und Lizenzierungsclustern erford
 -   Wenn Sie einen separaten Lizenzierungsserver bereitstellen, müssen Sie genauso wie für einen Stammzertifizierungsserver eine Konfigurationsdatenbank, ein RMS-Dienstkonto, einen Cluster-URL sowie die Informationen zum Schutz des privaten Schlüssels festlegen. Sie geben aber jedoch keine Sperrrichtlinie für ein Server-Lizenzgeberzertifikat an, da dies Richtlinie vom Stammzertifizierungsserver gesteuert wird.
 -   Wird der Server als Teil eines Clusters bereitgestellt, müssen Sie bei der Bereitstellung lediglich das RMS-Dienstkonto, die Konfigurationsdatenbank und das Kennwort zum Schutz des privaten Schlüssels festlegen, bzw. denselben Kryptographiedienstanbieter und privaten Schlüssel wie der vorhandene Cluster verwenden. Alle Server in einem Cluster verfügen über dasselbe Server-Lizenzgeberzertifikat und Serverschlüsselpaar.
 
-| ![](images/Cc720189.Important(WS.10).gif)Wichtig                                                                                                                                              |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Beginnen Sie mit der Installation von RMS auf anderen Servern erst dann, wenn Sie die Einrichtung von RMS auf dem ersten Server – einschließlich der Installation und Bereitstellung dieses Servers – abgeschlossen haben. |
+> [!IMPORTANT]
+> Beginnen Sie mit der Installation von RMS auf anderen Servern erst dann, wenn Sie die Einrichtung von RMS auf dem ersten Server – einschließlich der Installation und Bereitstellung dieses Servers – abgeschlossen haben. 
 
 Nach der Installation und Bereitstellung eines zusätzlichen Servers wird dieser automatisch als Teil des Clusters konfiguriert. Wenn Sie allerdings Lastenausgleich aktiviert haben, müssen Sie die Lastenausgleichssoftware für den Einsatz mit dem neuen Server konfigurieren.
 

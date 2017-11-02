@@ -26,8 +26,7 @@ Sie können einen Kryptographiedienstanbieter auf zwei verschiedene Arten verwen
     – Oder –
 -   Verwenden Sie die Software eines nicht von Microsoft stammenden Kryptographiedienstanbieters, die auf dem Server installiert ist.
 
-| ![](images/Cc720280.note(WS.10).gif)Hinweis                                                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn Sie ein Hardwaresicherheitsmodul verwenden möchten, wählen Sie unbedingt einen Kryptographiedienstanbieter aus, der Hardwaresicherheitsmodule unterstützt. |
+> [!NOTE]
+> Wenn Sie ein Hardwaresicherheitsmodul verwenden möchten, wählen Sie unbedingt einen Kryptographiedienstanbieter aus, der Hardwaresicherheitsmodule unterstützt. 
 
 Wenn Sie sich dafür entscheiden, den privaten Serverschlüssel durch Verwendung eines Kryptographiedienstanbieters zu schützen, speichert RMS den Namen des Anbieters und den Namen des Schlüsselcontainers in der Konfigurationsdatenbank.
