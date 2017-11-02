@@ -77,9 +77,8 @@ Mit den folgenden Schritten können Sie eine RMS-Installation vollständig rück
 
 6.  Wenn die RMS-Clients unter Windows XP und Windows 2000 ausgeführt werden, entfernen Sie den RMS-Client von den Clientcomputern.
 
-| ![](images/Cc720274.Important(WS.10).gif)Wichtig                                                                                                                                                |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Danach können Sie keine durch Rechte geschützte Inhalte mehr öffnen. Für den Fall, dass RMS zum Schützen wertvoller Daten verwendet wurde, setzen Sie zuerst RMS außer Betrieb, bevor Sie die RMS-Installation zurücksetzen. |
+> [!IMPORTANT]
+> Danach können Sie keine durch Rechte geschützte Inhalte mehr öffnen. Für den Fall, dass RMS zum Schützen wertvoller Daten verwendet wurde, setzen Sie zuerst RMS außer Betrieb, bevor Sie die RMS-Installation zurücksetzen. 
 
 <span id="BKMK_27"></span>
 #### Muss ich nach der Deinstallation des RMS-Clients mithilfe der Funktion „Software“ in der Systemsteuerung noch weitere Dateien entfernen?

@@ -53,22 +53,8 @@ Die ersten beiden Verfahren führen Sie mithilfe einer beliebigen GPO der Domän
 2.  Klicken Sie auf **Aktiviert**, und geben Sie die HTTP-URL des WSUS-Servers sowohl im Feld **Interner Updatedienst zum Ermitteln von Updates** als auch im Feld **Intranetserver für die Statistiken** ein. Geben Sie z. B. *http://Servername* in beiden Feldern ein, und klicken Sie anschließend auf **OK**.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Hinweis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Wenn Sie diesen Computer dem WSUS-Server mithilfe des lokalen Gruppenrichtlinienobjekts zuordnen, wird diese Einstellung sofort wirksam, und der Computer wird nach kurzer Zeit in der WSUS-Verwaltungskonsole angezeigt. Sie können diesen Vorgang beschleunigen, indem Sie den Erkennungszyklus manuell starten.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Wenn Sie diesen Computer dem WSUS-Server mithilfe des lokalen Gruppenrichtlinienobjekts zuordnen, wird diese Einstellung sofort wirksam, und der Computer wird nach kurzer Zeit in der WSUS-Verwaltungskonsole angezeigt. Sie können diesen Vorgang beschleunigen, indem Sie den Erkennungszyklus manuell starten.
  
 
 Nach dem Einrichten eines Clientcomputers dauert es einige Minuten, bis dieser auf der Seite **Computer** in der WSUS-Verwaltungskonsole angezeigt wird. Bei Clientcomputern, die mithilfe einer domänenbasierten Gruppenrichtlinie konfiguriert wurden, kann dies nach dem Aktualisieren der Gruppenrichtlinie (d. h. nach Anwenden neuer Einstellungen auf den Clientcomputer) ca. 20 Minuten dauern. In der Standardeinstellung werden Gruppenrichtlinien alle 90 Minuten, mit einer zufälligen Verzögerung von bis zu 30 Minuten, im Hintergrund aktualisiert. Wenn Sie Gruppenrichtlinien in kürzeren Abständen aktualisieren möchten, können Sie an einer Eingabeaufforderung auf dem Clientcomputer Folgendes eingeben: **gpupdate /force**.

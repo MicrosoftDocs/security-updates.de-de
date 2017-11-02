@@ -13,9 +13,8 @@ Nach dem Konfigurieren der Netzwerkverbindung können Sie Updates erhalten. Stan
 
 Beim Synchronisieren kontaktiert der WSUS-Server Microsoft Update. Wenn der Kontakt hergestellt ist, ermittelt WSUS, ob seit der letzten Synchronisierung neue Updates zur Verfügung gestellt wurden. Da es sich hier um die erste Synchronisierung des WSUS-Servers handelt, sind alle Updates verfügbar und können von Ihnen für die Installation genehmigt werden.
 
-| ![](images/Cc708523.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                           |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| In diesem Dokument ist das Synchronisieren der Standardeinstellungen beschrieben. WSUS beinhaltet jedoch auch Optionen, mit denen Sie den Bandbreitenverbrauch während der Synchronisierung minimieren können. Weitere Informationen finden Sie im Whitepaper "Bereitstellen von Microsoft Server Windows Update Services" (möglicherweise in englischer Sprache). |
+> [!NOTE]
+> In diesem Dokument ist das Synchronisieren der Standardeinstellungen beschrieben. WSUS beinhaltet jedoch auch Optionen, mit denen Sie den Bandbreitenverbrauch während der Synchronisierung minimieren können. Weitere Informationen finden Sie im Whitepaper "Bereitstellen von Microsoft Server Windows Update Services" (möglicherweise in englischer Sprache). 
 
 **So synchronisieren Sie den WSUS-Server**
 1.  Klicken Sie auf der Symbolleiste der WSUS-Konsole auf **Optionen** und dann auf **Synchronisierungsoptionen**.

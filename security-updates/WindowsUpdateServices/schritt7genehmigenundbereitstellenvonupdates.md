@@ -25,9 +25,8 @@ Schritt 7 umfasst die folgenden Verfahren:
 
 4.  Klicken Sie in der Liste **Gruppengenehmigungseinstellungen für die ausgewählten Updates** in der Liste der Spalte **Genehmigung** für die Gruppe **Test** auf **Installieren**, und klicken Sie dann auf **OK**.
 
-| ![](images/Cc720504.note(WS.10).gif)Hinweis                                                                                                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dem Genehmigen von Updates sind zahlreiche Optionen zugewiesen, z. B. das Festlegen von Stichtagen und das Deinstallieren von Updates. Diese werden im Whitepaper "Microsoft Windows Server Update Services-Betriebshandbuch" (möglicherweise in englischer Sprache) behandelt. |
+> [!NOTE]
+> Dem Genehmigen von Updates sind zahlreiche Optionen zugewiesen, z. B. das Festlegen von Stichtagen und das Deinstallieren von Updates. Diese werden im Whitepaper "Microsoft Windows Server Update Services-Betriebshandbuch" (möglicherweise in englischer Sprache) behandelt. 
 
 Nach 24 Stunden können Sie die WSUS-Berichterstattungsfunktion verwenden, um festzustellen, ob diese Updates auf den Computern bereitgestellt wurden.
 

@@ -11,9 +11,8 @@ Schritt 5: Aktualisieren und Konfigurieren der automatischen Updates
 
 Für WSUS-Clientcomputer ist eine kompatible Version der automatischen Updates erforderlich. WSUS Setup konfiguriert Internetinformationsdienste (Internet Information Services, IIS) automatisch so, dass die neueste Version der automatischen Updates an jeden Clientcomputer verteilt wird, der den WSUS-Server kontaktiert.
 
-| ![](images/Cc720533.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Die meisten Versionen der automatischen Updates können auf den WSUS-Server verwiesen werden und aktualisieren sich automatisch auf die WSUS-kompatible Version. Die Version der automatischen Updates, die Bestandteil von Windows XP ohne Service Packs ist, kann sich jedoch nicht automatisch aktualisieren. Wenn in Ihrer Umgebung Windows XP ohne Service Packs vorhanden ist und Sie Software Update Services (SUS) bisher noch nicht verwendet haben, lesen Sie die Anweisung im Whitepaper "Bereitstellen von Microsoft Windows Server Update Services" (möglicherweise in englischer Sprache). |
+> [!NOTE]
+> Die meisten Versionen der automatischen Updates können auf den WSUS-Server verwiesen werden und aktualisieren sich automatisch auf die WSUS-kompatible Version. Die Version der automatischen Updates, die Bestandteil von Windows XP ohne Service Packs ist, kann sich jedoch nicht automatisch aktualisieren. Wenn in Ihrer Umgebung Windows XP ohne Service Packs vorhanden ist und Sie Software Update Services (SUS) bisher noch nicht verwendet haben, lesen Sie die Anweisung im Whitepaper "Bereitstellen von Microsoft Windows Server Update Services" (möglicherweise in englischer Sprache). 
 
 Die beste Möglichkeit, die automatischen Updates zu konfigurieren, richtet sich nach Ihrer Netzwerkumgebung. In einer Active Directory-Umgebung können Sie ein Active Directory-basiertes Gruppenrichtlinienobjekt verwenden. Verwenden Sie in anderen Umgebungen das Richtlinienobjekt der lokalen Gruppe. Wenn Sie das Richtlinienobjekt der lokalen Gruppe oder ein auf einem Domänencontroller gespeichertes Gruppenrichtlinienobjekt verwenden, müssen Sie Ihre Clientcomputer auf den WSUS-Server verweisen und dann die automatischen Updates konfigurieren.
 
@@ -55,9 +54,8 @@ Führen Sie die drei folgenden Verfahren für ein Active Directory-basiertes Gru
 
 4.  Klicken Sie auf **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Hinweis                                                                                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Die Einstellung **Lokalen Administrator ermöglichen, Einstellung auszuwählen** wird nur angezeigt, wenn die automatischen Updates sich automatisch auf die mit WSUS kompatible Version aktualisiert haben. |
+> [!NOTE]
+> Die Einstellung **Lokalen Administrator ermöglichen, Einstellung auszuwählen** wird nur angezeigt, wenn die automatischen Updates sich automatisch auf die mit WSUS kompatible Version aktualisiert haben. 
 
 **So verweisen Sie Clientcomputer auf den WSUS-Server**
 1.  Erweitern Sie im Gruppenrichtlinienobjekt-Editor zuerst **Computerkonfiguration**, dann **Administrative Vorlagen**, dann **Windows-Komponenten**, und klicken Sie anschließend auf **Windows Update**.
@@ -68,9 +66,8 @@ Führen Sie die drei folgenden Verfahren für ein Active Directory-basiertes Gru
 
 4.  Klicken Sie auf **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                         |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn Sie diesen Computer mithilfe des Richtlinienobjekts der lokalen Gruppe auf WSUS verweisen, wird diese Einstellung sofort wirksam, und der Computer sollte nach ca. 20 Minuten in der WSUS-Verwaltungskonsole angezeigt werden. Sie können diesen Vorgang beschleunigen, indem Sie den Ermittlungszyklus manuell initiieren. |
+> [!NOTE]
+> Wenn Sie diesen Computer mithilfe des Richtlinienobjekts der lokalen Gruppe auf WSUS verweisen, wird diese Einstellung sofort wirksam, und der Computer sollte nach ca. 20 Minuten in der WSUS-Verwaltungskonsole angezeigt werden. Sie können diesen Vorgang beschleunigen, indem Sie den Ermittlungszyklus manuell initiieren. 
 
 Nach dem Einrichten eines Clientcomputers dauert es einige Minuten, bis dieser auf der Seite **Computer** in der WSUS-Konsole angezeigt wird. Bei Clientcomputern, die mithilfe eines Active Directory-basierten Gruppenrichtlinienobjekts konfiguriert wurden, dauert dies nach dem Aktualisieren der Gruppenrichtlinie ca. 20 Minuten (d. h., nach dem Anwenden neuer Einstellungen auf den Clientcomputer). Standardmäßig werden Gruppenrichtlinien alle 90 Minuten im Hintergrund (mit einer zufälligen Verzögerung zwischen 0 und 30 Minuten) aktualisiert. Wenn Sie Gruppenrichtlinien in kürzeren Abständen aktualisieren möchten, können Sie an einer Eingabeaufforderung auf dem Clientcomputer Folgendes eingeben: **gpupdate /force**.
 

@@ -19,6 +19,5 @@ Führen Sie eine der folgenden Aktionen aus:
 
 Wenn Sie die in der Konfigurationsdatei enthaltenen Vorlagendaten für Benutzerrechterichtlinien wiederherstellen müssen, können Sie die GUID- und TemplateData-Informationen aus der Tabelle namens DRMS\_RightsTemplate in der Sicherungskopie der Konfigurationsdatenbank extrahieren oder die Daten einfach aus der Textdatei importieren. Weitere Informationen zum Durchführen dieser Aufgaben finden Sie in der SQL Server-Dokumentation.
 
-| ![](images/Cc747625.note(WS.10).gif)Hinweis                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------|
-| Wenden Sie sich an den SQL Server-Administrator, um einen Plan zum Sichern der Vorlagen für Benutzerrechterichtlinien zu entwickeln. |
+> [!NOTE]
+> Wenden Sie sich an den SQL Server-Administrator, um einen Plan zum Sichern der Vorlagen für Benutzerrechterichtlinien zu entwickeln. 
