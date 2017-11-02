@@ -27,8 +27,8 @@ Also, the default Web site on Windows SBS 2003 must be modified to enable WSUS 
 6.  Under **IP address and domain name restrictions**, click **Edit**, and then click **Granted Access**.
 
 
-    > [!NOTE]  
-    > Most versions of Automatic Updates automatically self-update to the WSUS-compatible version when you point them to the WSUS server. But the version of Automatic Updates that is included with Windows XP without any service packs cannot automatically self-update. If you have Windows XP without any service packs in your environment and you have never used Windows Server Update Services (WSUS), you should install Windows XP Service Pack 2, which includes the version of Automatic Updates that is compatible with WSUS. If you cannot do this, see “Deploying Microsoft Windows Server Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171) for other options.
+> [!NOTE]  
+> Most versions of Automatic Updates automatically self-update to the WSUS-compatible version when you point them to the WSUS server. But the version of Automatic Updates that is included with Windows XP without any service packs cannot automatically self-update. If you have Windows XP without any service packs in your environment and you have never used Windows Server Update Services (WSUS), you should install Windows XP Service Pack 2, which includes the version of Automatic Updates that is compatible with WSUS. If you cannot do this, see “Deploying Microsoft Windows Server Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171) for other options.
 
 Because that WSUS client computers update themselves automatically, you only need to configure and point client computers to the WSUS server. To configure Automatic Updates, create a new Group Policy object (GPO) for WSUS settings and then link that GPO on the domain level. Next, add all of your WSUS settings by editing the GPO you just created.
 

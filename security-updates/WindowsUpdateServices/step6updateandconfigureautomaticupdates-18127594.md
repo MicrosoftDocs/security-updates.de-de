@@ -70,7 +70,7 @@ Perform the next three procedures on an Active Directory-based Group Policy obje
 
 
   > [!NOTE]  
-  > If you are using the Local Group Policy object to point this computer to WSUS, this setting takes effect immediately and this computer should appear in the WSUS administrative console in about 20 minutes. You can speed this process up by manually initiating a detection cycle. |
+  > If you are using the Local Group Policy object to point this computer to WSUS, this setting takes effect immediately and this computer should appear in the WSUS administrative console in about 20 minutes. You can speed this process up by manually initiating a detection cycle.
 
 After you set up a client computer, it will take a few minutes before it appears on the **Computers** page in the WSUS console. For client computers configured with an Active Directory-based GPO, it will take about 20 minutes after Group Policy refreshes (that is, applies any new settings to the client computer). By default, Group Policy refreshes in the background every 90 minutes, with a random offset of 0 to 30 minutes. If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: **gpupdate /force**.
 

@@ -22,4 +22,4 @@ In addition, there is a version of this guide written specifically for Windows S
 
 
 > [!NOTE]  
-> A downloadable copy of this document is available at [http://go.microsoft.com/fwlink/?LinkId=49071](http://go.microsoft.com/fwlink/?linkid=49071). |
+> A downloadable copy of this document is available at [http://go.microsoft.com/fwlink/?LinkId=49071](http://go.microsoft.com/fwlink/?linkid=49071).
