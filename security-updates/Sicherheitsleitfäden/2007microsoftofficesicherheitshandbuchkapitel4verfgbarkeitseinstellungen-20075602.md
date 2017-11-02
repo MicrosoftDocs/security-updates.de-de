@@ -838,6 +838,17 @@ Beachten Sie die folgenden Richtlinien, um Bedrohungen durch Internet Explorer-F
   
 [Senden Sie uns Ihre Kommentare und Anregungen](mailto:secwish@microsoft.com?subject=2007%20microsoft%20office-sicherheitshandbuch)
   
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                              |  
-|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| [](#mainsection)[Zum Seitenanfang](#mainsection) | [![](images/Dd443658.pageLeft(de-de,TechNet.10).gif)](https://technet.microsoft.com/de-de/library/1e5968df-c831-421f-99f1-3799520a7132(v=TechNet.10))5 von 6[![](images/Dd443658.pageRight(de-de,TechNet.10).gif)](https://technet.microsoft.com/de-de/library/6de5a362-72f8-4937-84ef-54ec91e040e6(v=TechNet.10)) |
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><div>
+<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfang</a>
+</div></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/1e5968df-c831-421f-99f1-3799520a7132(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageLeft(de-de,TechNet.10).gif" /></a> 5 von 6 <a href="https://technet.microsoft.com/de-de/library/6de5a362-72f8-4937-84ef-54ec91e040e6(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageRight(de-de,TechNet.10).gif" /></a></td>
+</tr>
+</tbody>
+</table>

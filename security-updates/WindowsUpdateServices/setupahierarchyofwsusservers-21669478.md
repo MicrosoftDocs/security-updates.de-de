@@ -42,8 +42,7 @@ There is a discussion of the advantages and limitations of setting up WSUS serve
 </tbody>
 </table>
  
-
- 
+<p></p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
