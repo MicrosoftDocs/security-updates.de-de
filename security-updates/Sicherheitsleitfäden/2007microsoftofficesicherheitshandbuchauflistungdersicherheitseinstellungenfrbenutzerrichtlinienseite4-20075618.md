@@ -2956,22 +2956,17 @@ In diesem Beitrag
 [Senden Sie uns Ihre Kommentare und Anregungen](mailto:secwish@microsoft.com?subject=2007%c2%a0microsoft%20office-sicherheitshandbuch,%20bedrohungen%20und%20gegenma%c3%9fnahmen:%20sicherheitseinstellungen%20in%202007%c2%a0office%20system)  
 
 
-
-
-<table>
-
-<tr>
-
-<td>
-
-[Zum Seitenanfang](#mainsection)  
-</td>
-
-<td>
-
-[](https://technet.microsoft.com/de-de/library/f3af8a5d-5067-4add-917b-f7ab8cdca16c(v=TechNet.10)"><img AltText="Nchste Seite)  
-</td>
-
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><div>
+<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfang</a>
+</div></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/dd443676"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageLeft(de-de,TechNet.10).gif" /></a> 5 von 8 <a href="https://technet.microsoft.com/de-de/library/dd443677"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageRight(de-de,TechNet.10).gif" /></a></td>
 </tr>
-
+</tbody>
 </table>
