@@ -1,6 +1,6 @@
 ---
-Title: Kapitel 8: Die Druckserverrolle
-TOCTitle: Kapitel 8: Die Druckserverrolle
+Title: Kapitel 8 - Die Druckserverrolle
+TOCTitle: Kapitel 8 - Die Druckserverrolle
 ms:assetid: a37f44cf-85b3-4ae6-8e32-0cd877c5e9ee
 ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dd443729(v=TechNet.10)
 ms:contentKeyID: 20075672
