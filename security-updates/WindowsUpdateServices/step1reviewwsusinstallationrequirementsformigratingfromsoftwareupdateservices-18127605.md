@@ -40,7 +40,8 @@ The following software is required for running WSUS on Windows 2000 Server:
 -   Database software that is 100-percent compatible with Microsoft SQL. To obtain Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Release A, go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47366) at http://go.microsoft.com/fwlink/?LinkId=47366.
 -   Microsoft Internet Explorer 6.0 Service Pack 1; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47359) at http://go.microsoft.com/fwlink/?LinkId=47359.
 -   Microsoft .NET Framework Version 1.1 Redistributable Package; go to the[Download Center](http://go.microsoft.com/fwlink/?linkid=47369) at http://go.microsoft.com/fwlink/?LinkId=47369.
--   Microsoft .NET Framework 1.1 Service Pack 1; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47379) at http://go.microsoft.com/fwlink/?LinkId=47379.
+-   Microsoft .NET Framework 1.1 Service Pack 1; go to the [Download Center](http://go.microsoft.com/fwlink/?linkid=47379) at http://go.microsoft.com/fwlink/?LinkId=47379.  
+
     An alternative is to go to [Windows Update](http://go.microsoft.com/fwlink/?linkid=47370) at http://go.microsoft.com/fwlink/?linkid=47370 and scan for Critical Updates and Service Packs. Install Microsoft .NET Framework 1.1 Service Pack 1 for Windows 2000 Server.
 
 Disk Requirements and Recommendations

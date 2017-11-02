@@ -2696,21 +2696,17 @@ In diesem Beitrag
 [Senden Sie uns Ihre Kommentare und Anregungen](mailto:secwish@microsoft.com?subject=2007 microsoft office-sicherheitshandbuch, bedrohungen und gegenmaßnahmen: sicherheitseinstellungen in 2007 office system)  
 
  
-
-<table>
-
-<tr>
-
-<td>
-
-[Zum Seitenanfanq](#mainsection)
-</td>
-
-<td>
-
-[](https://technet.microsoft.com/de-de/library/2324b4a2-1709-464a-ba66-7413a87d1188(v=TechNet.10)"><img AltText="Nächste Seite)  
-</td>
-
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><div>
+<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
+</div></td>
+<td style="border:1px solid black;"><a href="https://msdn.microsoft.com/de-de/library/2324b4a2-1709-464a-ba66-7413a87d1188(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageLeft(de-de,TechNet.10).gif" /></a> 6 von 8 <a href="https://msdn.microsoft.com/de-de/library/ae3203f0-f0eb-426b-9deb-a1faea298982(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageRight(de-de,TechNet.10).gif" /></a></td>
 </tr>
-
+</tbody>
 </table>
