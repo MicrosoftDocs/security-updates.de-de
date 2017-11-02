@@ -279,9 +279,9 @@ Wenn diese Einstellung **deaktiviert** ist, verlangt PowerPoint 2007 vor dem Lad
 
 Wenn diese Einstellung **aktiviert** ist, deaktiviert PowerPoint 2007 verschlüsselte Makros, bis sie auf Viren überprüft wurden.
 
-![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
+> ![](images/Dd443669.important(de-de,TechNet.10).gif) **Wichtig:**
 
-Wenn diese Einstellung **deaktiviert** ist, kann die Sicherheit durch die Verwendung verschlüsselter, nicht auf Viren überprüfter Makros deutlich verringert werden. Mit Ausnahme von besonderen Situationen, in denen eine Echtzeitprüfung von Präsentationsdateien nicht möglich ist, sollte diese Einstellung **aktiviert** werden.
+> Wenn diese Einstellung **deaktiviert** ist, kann die Sicherheit durch die Verwendung verschlüsselter, nicht auf Viren überprüfter Makros deutlich verringert werden. Mit Ausnahme von besonderen Situationen, in denen eine Echtzeitprüfung von Präsentationsdateien nicht möglich ist, sollte diese Einstellung **aktiviert** werden.
 
 **Tabelle 1.82: Bestimmen, ob das Überprüfen verschlüsselter Makros in Microsoft PowerPoint Open XML-Präsentationen erzwungen wird**
 
@@ -7935,23 +7935,18 @@ Diese Einstellung setzt die Standardkonfiguration durch und sollte daher für di
 
 [Senden Sie uns Ihre Kommentare und Anregungen](mailto:secwish@microsoft.com?subject=2007 microsoft office-sicherheitshandbuch, bedrohungen und gegenmaßnahmen: sicherheitseinstellungen in 2007 office system)  
 
-
- 
-
-<table>
-
-<tr>
-
-<td>
-
-[Zum Seitenanfang](#mainsection)  
-</td>
-
-<td>
-
-[](https://technet.microsoft.com/de-de/library/b322971a-8efe-40a3-ba33-30a25cae5219(v=TechNet.10)"><img AltText="Vorherige Seite)  4 von 8 [](https://technet.microsoft.com/de-de/library/2324b4a2-1709-464a-ba66-7413a87d1188(v=TechNet.10)"><img AltText="Nächste Seite)  
-</td>
-
+<p> </p>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><div>
+<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfang</a>
+</div></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/b322971a-8efe-40a3-ba33-30a25cae5219(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageLeft(de-de,TechNet.10).gif" /></a> 4 von 8 <a href="https://technet.microsoft.com/de-de/library/2324b4a2-1709-464a-ba66-7413a87d1188(v=TechNet.10)"><img src="https://msdn.microsoft.com/de-de/Dd443674.pageRight(de-de,TechNet.10).gif" /></a></td>
 </tr>
-
+</tbody>
 </table>

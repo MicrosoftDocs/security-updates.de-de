@@ -20,7 +20,7 @@ This can happen under different circumstances. For example, if updates are store
 
 To have WSUS resynchronize the updates in local storage with the updates in the database, you must run the WSUSUtil utility **reset** command. For more information about WSUSUtil, see [Managing WSUS 3.0 SP2 from the Command Line](https://technet.microsoft.com/4d4b90e9-bbb2-429a-92c9-1e5388240416).
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -84,7 +84,7 @@ The following procedures will help you overcome low disk space problems:
 
 where NewContentPath is the new content directory, and MoveLog is the path and filename of the log for this operation.
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -120,7 +120,7 @@ Before you move the SQL Server installation to another drive, you should make su
 
 7.  When the system is working properly, delete SUSDB.mdf and SUSDB\_log.ldf from the old location.
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

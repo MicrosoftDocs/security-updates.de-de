@@ -18,15 +18,10 @@ The tables in this section show the result code (hexadecimal value), the corresp
 
 The following table shows WUA success codes.
 
-###  
+
 
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Result Code</th>
@@ -78,17 +73,13 @@ The following table shows WUA success codes.
 </tbody>
 </table>
   
+
 The following table shows WUA error codes.
   
-###  
+
 
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Result Code</th>
