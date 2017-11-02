@@ -42,18 +42,18 @@ Wenn diese Einstellung **aktiviert** ist, macht PowerPoint beim Öffnen von Prä
 
 **Tabelle 1.170: Ausgeblendete Markups anzeigen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office PowerPoint 2007\PowerPoint-Optionen\Sicherheit
@@ -64,14 +64,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 ppt12.adm
@@ -82,14 +82,14 @@ ppt12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -100,14 +100,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -118,14 +118,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1279
@@ -162,18 +162,18 @@ Wenn die Einstellung deaktiviert ist, können Benutzer Outlook 2007 nicht als St
 
 **Tabelle 1.171: Outlook als Standardprogramm für E-Mail, Kontakte und Kalender einrichten**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Optionen…\Weitere
@@ -184,14 +184,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -202,14 +202,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -220,14 +220,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -238,14 +238,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1111
@@ -278,18 +278,18 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren angeben, ob Ou
 
 **Tabelle 1.172: Nachrichtenformate**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Kryptografie
@@ -300,14 +300,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -318,14 +318,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (S/MIME)
@@ -336,14 +336,14 @@ Aktiviert (S/MIME)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (S/MIME und Fortezza)
@@ -354,14 +354,14 @@ Aktiviert (S/MIME und Fortezza)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-IDs**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1357, CCE-1132
@@ -396,18 +396,18 @@ Wenn diese Einstellung **aktiviert** ist, können Administratoren eine Mindestsc
 
 **Tabelle 1.173: Mindestverschlüsselungseinstellungen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Kryptografie
@@ -418,14 +418,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -436,14 +436,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (128)
@@ -454,14 +454,14 @@ Aktiviert (128)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (256)
@@ -472,14 +472,14 @@ Aktiviert (256)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-13
@@ -521,18 +521,18 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren zwei Optionen z
 
 **Tabelle 1.174: Fehlende Zertifikatsperrlisten**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Kryptografie\Dialogfeld „Signaturstatus“
@@ -543,14 +543,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -561,14 +561,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Fehler)
@@ -579,14 +579,14 @@ Aktiviert (Fehler)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Fehler)
@@ -597,14 +597,14 @@ Aktiviert (Fehler)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-IDs**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1662, CCE-1080
@@ -648,18 +648,18 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren drei Optionen z
 
 **Tabelle 1.175: Fehlende Stammzertifikate**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Kryptografie\Dialogfeld „Signaturstatus“
@@ -670,14 +670,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -688,14 +688,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Warnung)
@@ -706,14 +706,14 @@ Aktiviert (Warnung)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Warnung)
@@ -724,14 +724,14 @@ Aktiviert (Warnung)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-IDs**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1076, CCE-1636
@@ -766,18 +766,18 @@ Wenn diese Einstellung **deaktiviert** ist, deaktiviert Access 2007 die ausführ
 
 **Tabelle 1.176: Nur modale Vertrauensentscheidung**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Access 2007\Extras | Sicherheit
@@ -788,14 +788,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 access12.adm
@@ -806,14 +806,14 @@ access12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Deaktiviert
@@ -824,14 +824,14 @@ Deaktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Deaktiviert
@@ -842,14 +842,14 @@ Deaktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1214
@@ -880,18 +880,18 @@ Wenn diese Einstellung **aktiviert** ist, können 2007 Office-Benutzer im Dialog
 
 **Tabelle 1.177: Benutzer können nie Gruppen angeben, wenn die Berechtigung für Dokumente eingeschränkt wird**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Eingeschränkte Berechtigungen verwalten
@@ -902,14 +902,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 office12.adm
@@ -920,14 +920,14 @@ office12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -938,14 +938,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -956,14 +956,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1589
@@ -1003,18 +1003,18 @@ Wenn diese Einstellung **aktiviert** ist, müssen Administratoren einen Offlinem
 
 **Tabelle 1.178: Offlinemodusstatus**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Extras | Optionen\Erweitert\Offline
@@ -1025,14 +1025,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 inf12.adm
@@ -1043,14 +1043,14 @@ inf12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Aktiviert, InfoPath nicht im Offlinemodus)
@@ -1061,14 +1061,14 @@ Aktiviert (Aktiviert, InfoPath nicht im Offlinemodus)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Deaktiviert)
@@ -1079,14 +1079,14 @@ Aktiviert (Deaktiviert)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-569
@@ -1126,18 +1126,18 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren drei Optionen f
 
 **Tabelle 1.179: Onlineinhaltoptionen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Extras | Optionen | Allgemein | Dienstoptionen…\Onlineinhalte
@@ -1148,14 +1148,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 office12.adm
@@ -1166,14 +1166,14 @@ office12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -1184,14 +1184,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Onlineinhalt oder Einstiegspunkte nie anzeigen)
@@ -1202,14 +1202,14 @@ Aktiviert (Onlineinhalt oder Einstiegspunkte nie anzeigen)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-967
@@ -1244,18 +1244,18 @@ Wenn diese Einstellung **deaktiviert** ist, werden 2007 Office-Dokumente, die in
 
 **Tabelle 1.180: Office-Dokumente beim Browsen mit Lese-/Schreibzugriff öffnen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Extras | Optionen | Allgemein | Weboptionen…\Dateien
@@ -1266,14 +1266,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 office12.adm
@@ -1284,14 +1284,14 @@ office12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Deaktiviert
@@ -1302,14 +1302,14 @@ Deaktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Deaktiviert
@@ -1320,14 +1320,14 @@ Deaktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-646
@@ -1367,18 +1367,18 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren drei Optionen f
 
 **Tabelle 1.181: Outlook Rich-Text-Optionen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Optionen…\E-Mail-Format\Internetformatierung
@@ -1389,14 +1389,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -1407,14 +1407,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -1425,14 +1425,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (In Nur-Text-Format konvertieren)
@@ -1443,14 +1443,14 @@ Aktiviert (In Nur-Text-Format konvertieren)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-655
@@ -1492,18 +1492,18 @@ Wenn diese Einstellung **aktiviert** ist, stehen Administratoren vier Optionen z
 
 **Tabelle 1.182: Outlook-Sicherheitsmodus**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Sicherheitsformulareinstellungen
@@ -1514,14 +1514,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -1532,14 +1532,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Outlook-Sicherheitsgruppenrichtlinie verwenden)
@@ -1550,14 +1550,14 @@ Aktiviert (Outlook-Sicherheitsgruppenrichtlinie verwenden)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert (Outlook-Sicherheitsgruppenrichtlinie verwenden)
@@ -1568,14 +1568,14 @@ Aktiviert (Outlook-Sicherheitsgruppenrichtlinie verwenden)
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1516
@@ -1616,18 +1616,18 @@ Wenn diese Einstellung **deaktiviert** ist, können Administratoren gewährleist
 
 **Tabelle 1.183: Nur-Text-Optionen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Optionen…\E-Mail-Format\Internetformatierung
@@ -1638,14 +1638,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -1656,14 +1656,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -1674,14 +1674,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Deaktiviert
@@ -1692,14 +1692,14 @@ Deaktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-IDs**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1592, CCE-1614
@@ -1732,18 +1732,18 @@ Wenn diese Einstellung **aktiviert** ist, können Outlook 2007-Benutzer ihre Kal
 
 **Tabelle 1.184: Veröffentlichen auf einem DAV-Server verhindern**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Optionen…\Einstellungen\Kalenderoptionen\Microsoft Office Online-Freigabedienst
@@ -1754,14 +1754,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -1772,14 +1772,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -1790,14 +1790,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -1808,14 +1808,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1368
@@ -1846,18 +1846,18 @@ Wenn diese Einstellung **aktiviert** ist, können Outlook 2007-Benutzer ihre Kal
 
 **Tabelle 1.184: Veröffentlichen auf Office Online verhindern**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Extras | Optionen…\Einstellungen\Kalenderoptionen\Microsoft Office Online-Freigabedienst
@@ -1868,14 +1868,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -1886,14 +1886,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -1904,14 +1904,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -1922,14 +1922,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1478
@@ -1962,18 +1962,18 @@ Wenn diese Einstellung **aktiviert** ist, können InfoPath 2007-Benutzer Formula
 
 **Tabelle 1.186: Benutzer können Formularen keine unsicheren Dateitypen anfügen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office InfoPath 2007\Sicherheit
@@ -1984,14 +1984,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 inf12.adm
@@ -2002,14 +2002,14 @@ inf12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -2020,14 +2020,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -2038,14 +2038,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1060
@@ -2080,18 +2080,18 @@ Wenn diese Einstellung **deaktiviert** ist, können 2007 Office-Benutzer IRM-Ber
 
 **Tabelle 1.187: Benutzer können Berechtigungen für Inhalte, deren Rechte verwaltet werden, nicht ändern**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Eingeschränkte Berechtigungen verwalten
@@ -2102,14 +2102,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 office12.adm
@@ -2120,14 +2120,14 @@ office12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Deaktiviert
@@ -2138,14 +2138,14 @@ Deaktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Deaktiviert
@@ -2156,14 +2156,14 @@ Deaktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1603
@@ -2194,18 +2194,18 @@ Wenn diese Einstellung **aktiviert** ist, können 2007 Office-Benutzer Vorlagen 
 
 **Tabelle 1.188: Hindert Benutzer am Hochladen von Dokumentvorlagen an die Office Online-Community**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Extras | Optionen | Allgemein | Weboptionen…
@@ -2216,14 +2216,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 office12.adm
@@ -2234,14 +2234,14 @@ office12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -2252,14 +2252,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -2270,14 +2270,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1401
@@ -2331,18 +2331,18 @@ Diese Einstellung funktioniert „umgekehrt“: Trotz des Namens stuft die Deakt
 
 **Tabelle 1.189: Fehler der Ebene 2 als Fehler, nicht als Warnungen, höher stufen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office Outlook 2007\Sicherheit\Kryptografie\Dialogfeld „Signaturstatus“
@@ -2353,14 +2353,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 outlk12.adm
@@ -2371,14 +2371,14 @@ outlk12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Nicht konfiguriert
@@ -2389,14 +2389,14 @@ Nicht konfiguriert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Deaktiviert
@@ -2407,14 +2407,14 @@ Deaktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-943
@@ -2453,18 +2453,18 @@ Wenn diese Einstellung **deaktiviert** ist, können 2007 Office-Anwendungen Meta
 
 **Tabelle 1.190: Dokumentmetadaten für kennwortgeschützte Dateien schützen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Sicherheitseinstellungen
@@ -2475,14 +2475,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 office12.adm
@@ -2493,14 +2493,14 @@ office12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -2511,14 +2511,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -2529,14 +2529,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1640
@@ -2571,18 +2571,18 @@ Wenn diese Einstellung **deaktiviert** ist, können 2007 Office-Anwendungen Meta
 
 **Tabelle 1.191: Dokumentmetadaten für Office Open XML-Dateien, deren Rechte verwaltet werden, schützen**
 
-<table>
+<table style="border:1px solid black;">
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Speicherort in Gruppenrichtlinie**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage (ADM)\Microsoft Office 2007 System\Sicherheitseinstellungen
@@ -2593,14 +2593,14 @@ Benutzerkonfiguration\Administrative Vorlagen\Klassische administrative Vorlage 
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **ADM-Datei**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 office12.adm
@@ -2611,14 +2611,14 @@ office12.adm
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (EC)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -2629,14 +2629,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **Empfohlene Einstellung (SSLF)**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 Aktiviert
@@ -2647,14 +2647,14 @@ Aktiviert
 
 <tr>
 
-<td>
+<td style="border:1px solid black;">
 
 
 **CCE-ID**
 
 </td>
 
-<td>
+<td style="border:1px solid black;">
 
 
 CCE-1508
