@@ -42,6 +42,8 @@ WSUS setup creates a configuration file that enables you to add an explicit list
 
 Use the `<authorization>` element to define an authentication list. You must add the `<authorization>` element below the `<configuration>` and `<system.web>` elements.
 
+Consider the example below:
+
 ```
 <configuration>
     <system.web>
