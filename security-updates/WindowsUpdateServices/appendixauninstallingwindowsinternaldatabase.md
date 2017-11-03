@@ -19,7 +19,7 @@ It is not usually necessary to uninstall Windows Internal Database, which WSUS i
 
 2.  Call **msiexec** with the correct key for the operating system platform.
 
-    -   On 32-bit platforms**: msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe**
+    -   On 32-bit platforms **: msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe**
     -   On 64-bit platforms: **msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe**
 
 > [!IMPORTANT]  
