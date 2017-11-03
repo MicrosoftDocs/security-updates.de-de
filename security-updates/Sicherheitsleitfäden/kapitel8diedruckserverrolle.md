@@ -294,7 +294,7 @@ Die Richtlinie wird getestet, um sicherzustellen, dass ihre Anwendung auf den Zi
 
 Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd verwenden, um wie im folgenden Verfahren veranschaulicht die Richtlinien in Gruppenrichtlinienobjekte umzuwandeln.
 
-Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Security Configuration Wizard Documentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx">Deployment Guide for the Security Configuration Wizard unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx** sowie in der 
+Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Security Configuration Wizard Documentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx">Deployment Guide for the Security Configuration Wizard unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx sowie in der 
 
 
 #### Umwandeln und Bereitstellen der Richtlinie

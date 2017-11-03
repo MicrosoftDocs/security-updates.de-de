@@ -5919,7 +5919,7 @@ Standardmäßig können Outlook 2007-Benutzer Signaturen in E-Mail-Nachrichten e
 
 #### Gegenmaßnahme
 
-Wenn diese Einstellung **aktiviert** ist, können Outlook 2007-Benutzer Signaturen nicht automatisch an neue Nachrichten, Antworten oder weitergeleitete Nachrichten anhängen. Sie verhindert auch, dass Benutzer auf die Registerkarte **E-Mail-Signatur** des Dialogfelds für****Signaturen und Briefpapier zugreifen können, um Signaturen manuell hinzuzufügen.
+Wenn diese Einstellung **aktiviert** ist, können Outlook 2007-Benutzer Signaturen nicht automatisch an neue Nachrichten, Antworten oder weitergeleitete Nachrichten anhängen. Sie verhindert auch, dass Benutzer auf die Registerkarte **E-Mail-Signatur** des Dialogfelds für Signaturen und Briefpapier zugreifen können, um Signaturen manuell hinzuzufügen.
 
 **Tabelle 1.129: Das Erstellen, Beantworten oder Weiterleiten von Signaturen für E-Mail-Nachrichten nicht zulassen**
 
