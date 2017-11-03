@@ -18,9 +18,8 @@ Bevor Sie mit der Migration der Konfigurationsdatenbank beginnen, sollten Sie si
 -   den Kontonamen und das Kennwort, das ursprünglich zur Bereitstellung der Server in dem RMS-Cluster verwendet wurde, der mit dieser Datenbank arbeitet
 -   das bei der Bereitstellung ursprünglich festgelegte Kennwort des privaten RMS-Schlüssels, sofern zum Speichern des privaten RMS-Schlüssels ein softwarebasierter Kryptografiedienstanbieter (Cryptographic Service Provider, CSP) verwendet wird. Wenn zum Speichern des privaten RMS-Schlüssels ein Hardwaresicherheitsmodul (HSM) verwendet wird, ist dieser Schritt nicht erforderlich.
 
-| ![](images/Cc747607.note(WS.10).gif)Hinweis                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Beim Migrieren der Konfigurationsdatenbank ist kein neues Server-Lizenzgeberzertifikat und auch kein neuer privater Serverschlüssel erforderlich, da RMS die Einstellungen aus der ursprünglichen Konfigurationsdatenbank beibehält. |
+> [!NOTE]
+> Beim Migrieren der Konfigurationsdatenbank ist kein neues Server-Lizenzgeberzertifikat und auch kein neuer privater Serverschlüssel erforderlich, da RMS die Einstellungen aus der ursprünglichen Konfigurationsdatenbank beibehält. 
 
 Bevor Sie irgendwelche Aktionen am Datenbankserver ausführen, sollten Sie eine Sicherungskopie der RMS-Datenbanken erstellen. Wenn dies nicht möglich ist, müssen Sie Ihr Server-Lizenzgeberzertifikat zumindest exportieren. Weitere Informationen zum Exportieren des Server-Lizenzgeberzertifikats finden Sie unter [So exportieren Sie ein Server-Lizenzgeberzertifikat in eine Datei](https://technet.microsoft.com/d683a629-71b3-4b11-932b-4ab0317334af). Wenn beim Migrieren der Datenbanken ein Fehler auftritt, können Sie das Server-Lizenzgeberzertifikat in eine neue RMS-Installation importieren und Inhalte abrufen, die in der älteren Installation durch Rechte geschützt waren.
 
@@ -29,9 +28,8 @@ Führen Sie zum Migrieren einer Konfigurationsdatenbank die folgenden Schritte a
 -   Aktualisieren Sie die RMS-Konfigurationsdatenbank so, dass diese den Namen des neuen Datenbankservers verwendet.
 -   Aktualisieren der „web.config“-Dateien und der Registrierung auf allen Servern im RMS-Cluster, sodass diese den Namen des neuen Datenbankservers verwenden
 
-| ![](images/Cc747607.Important(WS.10).gif)Wichtig                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| In diesem Abschnitt wird davon ausgegangen, dass die RMS-Datenbanken bereits auf den neuen Datenbankserver kopiert wurden, auf dem sich die RMS-Datenbank befindet. |
+> [!IMPORTANT]
+> In diesem Abschnitt wird davon ausgegangen, dass die RMS-Datenbanken bereits auf den neuen Datenbankserver kopiert wurden, auf dem sich die RMS-Datenbank befindet. 
 
 Aktualisieren der RMS-Konfigurationsdatenbank, sodass diese den Namen des neuen Datenbankservers verwendet
 ----------------------------------------------------------------------------------------------------------
