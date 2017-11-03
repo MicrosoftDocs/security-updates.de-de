@@ -1,15 +1,15 @@
 ---
-TOCTitle: 'Kapitel 10: Die IAS-Serverrolle'
-Title: 'Kapitel 10: Die IAS-Serverrolle'
+TOCTitle: 'Kapitel 10: Die IAS-Serverrolle'
+Title: 'Kapitel 10: Die IAS-Serverrolle'
 ms:assetid: '605c5b8e-d007-41c2-92a6-9260fe571bc7'
 ms:contentKeyID: 20075674
 ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Dd443731(v=TechNet.10)'
 ---
 
-Windows Server 2003-Sicherheitshandbuch
+Windows Server 2003-Sicherheitshandbuch
 =======================================
 
-### Kapitel 10: Die IAS-Serverrolle
+### Kapitel 10: Die IAS-Serverrolle
 
 Aktualisiert: 27.12.2005
 
@@ -28,15 +28,15 @@ Aktualisiert: 27.12.2005
 
 In diesem Kapitel werden Empfehlungen und Ressourcen bereitgestellt, die Ihnen bei der Absicherung von Internetauthentifizierungsdienst (IAS)-Servern in Ihrer Umgebung helfen, auf denen Microsoft Windows Server 2003 mit SP1 ausgeführt wird. IAS ist die Microsoft-Implementierung eines RADIUS-Servers und -Proxys (Remote Authentication Dial-in User Service), die die zentrale Verwaltung der Benutzerauthentifizierung, Autorisierung und Kontoführung ermöglicht. IAS kann für die Authentifizierung von Benutzern in Datenbanken auf Windows Server 2003-, Windows NT® 4.0- und Windows 2000-Domänencontrollern verwendet werden. IAS unterstützt außerdem eine Vielzahl von Netzwerkzugriffsservern (NAS), einschließlich Routing und RAS (RRAS).
 
-Der RADIUS-Hiding-Mechanismus verwendet den gemeinsamen Schlüssel von RADIUS, den Anforderungsauthentifikator und den MD5-Hashing-Algorithmus, um das Benutzerkennwort und andere Attribute zu verschlüsseln, wie z. B. Tunnelkennwort und MS-CHAP-MPPE-Schlüssel. RFC 2865 erkennt, ob eine Bewertung der Bedrohungen vorgenommen werden sollte und ob zusätzliche Sicherheitsmaßnahmen erforderlich sind.
+Der RADIUS-Hiding-Mechanismus verwendet den gemeinsamen Schlüssel von RADIUS, den Anforderungsauthentifikator und den MD5-Hashing-Algorithmus, um das Benutzerkennwort und andere Attribute zu verschlüsseln, wie z. B. Tunnelkennwort und MS-CHAP-MPPE-Schlüssel. RFC 2865 erkennt, ob eine Bewertung der Bedrohungen vorgenommen werden sollte und ob zusätzliche Sicherheitsmaßnahmen erforderlich sind.
 
 Die Einstellungen in diesem Kapitel werden durch Gruppenrichtlinien konfiguriert und angewendet. Ein Gruppenrichtlinienobjekt (GPO), das die Richtlinie für die Mitgliedsserver-Baseline unterstützt, kann mit den entsprechenden die IAS-Server enthaltenden Organisationseinheiten verknüpft werden, um die für diese Serverrollen erforderlichen Sicherheitseinstellungsänderungen vorzunehmen. In diesem Kapitel werden nur die Richtlinieneinstellungen erläutert, die von der Richtlinie für die Mitgliedsserver-Baseline abweichen.
 
 Sofern möglich, werden diese Richtlinieneinstellungen in einer inkrementellen Gruppenrichtlinienvorlage gesammelt, die auf die IAS-Server-Organisationseinheit angewendet wird. Einige Einstellungen in diesem Kapitel können nicht durch Gruppenrichtlinien angewendet werden. Ausführliche Informationen zur Konfiguration dieser manuellen Einstellungen werden bereitgestellt.
 
-Der Name der Infrastrukturserver-Sicherheitsvorlage für die Unternehmensclient-Umgebung lautet „Unternehmensclient - Infrastrukturserver.inf“. Diese Vorlage stellt die Einstellungen für die inkrementelle IAS-Servervorlage bereit, die wiederum zum Erstellen eines neuen Gruppenrichtlinienobjekts verwendet wird, das mit der IAS-Server-Organisationseinheit verknüpft ist. In Kapitel 2, „Absicherungsmechanismen von Windows Server 2003“, finden Sie ausführliche Anweisungen, die Ihnen beim Erstellen von Organisationseinheiten und Gruppenrichtlinien und beim darauf folgenden Import der entsprechenden Sicherheitsvorlage in die einzelnen Gruppenrichtlinienobjekte helfen.
+Der Name der Infrastrukturserver-Sicherheitsvorlage für die Unternehmensclient-Umgebung lautet „Unternehmensclient - Infrastrukturserver.inf“. Diese Vorlage stellt die Einstellungen für die inkrementelle IAS-Servervorlage bereit, die wiederum zum Erstellen eines neuen Gruppenrichtlinienobjekts verwendet wird, das mit der IAS-Server-Organisationseinheit verknüpft ist. In Kapitel 2, „Absicherungsmechanismen von Windows Server 2003“, finden Sie ausführliche Anweisungen, die Ihnen beim Erstellen von Organisationseinheiten und Gruppenrichtlinien und beim darauf folgenden Import der entsprechenden Sicherheitsvorlage in die einzelnen Gruppenrichtlinienobjekte helfen.
 
-Informationen zu den Einstellungen in der Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Informationen zu sämtlichen Konfigurationen der Standardeinstellungen finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen für Windows Server 2003 und Windows XP*](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10))*,* das unter *http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx* verfügbar ist.
+Informationen zu den Einstellungen in der Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Informationen zu sämtlichen Konfigurationen der Standardeinstellungen finden Sie im Begleithandbuch [*Bedrohungen und Gegenmaßnahmen: Sicherheitseinstellungen für Windows Server 2003 und Windows XP*](https://technet.microsoft.com/de-de/library/fb31fa9b-58c8-4b6c-aa93-f49128e79916(v=TechNet.10))*,* das unter *http://www.microsoft.com/germany/technet/sicherheit/topics/serversecurity/tcg/tcgch00.mspx* verfügbar ist.
 
 **Hinweis**: Die Einstellungen für die IAS-Serverrolle wurden nur für die Unternehmensclient-Umgebung geprüft. Aus diesem Grund sind die Informationen zu DoS-Angriffen für die Mehrzahl der anderen Serverrollen in diesem Handbuch hier nicht enthalten.
 
@@ -44,25 +44,25 @@ Informationen zu den Einstellungen in der Richtlinie für die Mitgliedsserver-Ba
 
 ### Überwachungsrichtlinie
 
-Die Einstellungen für Überwachungsrichtlinien für IAS-Server in der Unternehmensclient-Umgebung werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass alle relevanten Sicherheitsüberwachungsinformationen auf sämtlichen IAS-Servern des Unternehmens protokolliert werden.
+Die Einstellungen für Überwachungsrichtlinien für IAS-Server in der Unternehmensclient-Umgebung werden über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass alle relevanten Sicherheitsüberwachungsinformationen auf sämtlichen IAS-Servern des Unternehmens protokolliert werden.
 
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
 
 ### Zuweisen von Benutzerrechten
 
-Die Zuweisungen von Benutzerrechten für IAS-Server in der Unternehmensclient-Umgebung werden auch über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass der jeweilige Zugriff auf IAS-Server über die gesamte Organisation hinweg einheitlich konfiguriert ist.
+Die Zuweisungen von Benutzerrechten für IAS-Server in der Unternehmensclient-Umgebung werden auch über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass der jeweilige Zugriff auf IAS-Server über die gesamte Organisation hinweg einheitlich konfiguriert ist.
 
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
 
 ### Sicherheitsoptionen
 
-Die Einstellungen für die Sicherheitsoptionen für IAS-Server in der Unternehmensclient-Umgebung werden auch über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass der jeweilige Zugriff auf IAS-Server über die gesamte Organisation hinweg einheitlich konfiguriert ist.
+Die Einstellungen für die Sicherheitsoptionen für IAS-Server in der Unternehmensclient-Umgebung werden auch über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die Einstellungen der Richtlinie für die Mitgliedsserver-Baseline wird sichergestellt, dass der jeweilige Zugriff auf IAS-Server über die gesamte Organisation hinweg einheitlich konfiguriert ist.
 
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
 
 ### Ereignisprotokoll
 
-Die Ereignisprotokolleinstellungen für IAS-Server in der Unternehmensclient-Umgebung werden auch über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“.
+Die Ereignisprotokolleinstellungen für IAS-Server in der Unternehmensclient-Umgebung werden auch über die Richtlinie für die Mitgliedsserver-Baseline konfiguriert. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“.
 
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
 
@@ -72,7 +72,7 @@ Obwohl die durch die Richtlinie für die Mitgliedsserver-Baseline angewendeten S
 
 #### Sichern von bekannten Konten
 
-Windows Server* *2003 mit SP1 verfügt über eine Reihe vordefinierter Benutzerkonten, die nicht gelöscht, aber umbenannt werden können. Die zwei bekanntesten vordefinierten Konten in Windows Server* *2003 sind die Konten „Gast“ und „Administrator“.
+Windows Server 2003 mit SP1 verfügt über eine Reihe vordefinierter Benutzerkonten, die nicht gelöscht, aber umbenannt werden können. Die zwei bekanntesten vordefinierten Konten in Windows Server 2003 sind die Konten „Gast“ und „Administrator“.
 
 Das Konto „Gast“ ist auf Mitgliedsservern und Domänencontrollern standardmäßig deaktiviert. Diese Konfiguration sollte nicht geändert werden. Viele verschiedene schädliche Codes verwenden das vordefinierte Administratorkonto bei einem ersten Versuch, einen Server anzugreifen. Daher sollte das vordefinierte Administratorkonto umbenannt und seine Beschreibung geändert werden, damit Angriffen von Remoteservern vorgebeugt wird, bei denen die Angreifer versuchen, dieses bekannte Konto zu nutzen.
 
@@ -108,17 +108,17 @@ Während der Erstellung einer Serverrichtlinie entfernen Sie wahrscheinlich die 
 
 **So erstellen Sie die IAS-Serverrichtlinie**
 
-1.  Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
+1.  Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
 
 2.  Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
 
 3.  Schließen Sie den Computer an die Domäne an, die sämtliche Sicherheitseinstellungen von den übergeordneten Organisationseinheiten übernehmen.
 
-4.  Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
+4.  Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die sich auf allen Servern mit dieser Rolle befinden. Dazu zählen z. B. rollenspezifische Dienste, Software- und Verwaltungsagenten, Bandsicherungsagenten sowie Antiviren- und Antispywaredienstprogramme.
 
 5.  Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
 
-6.  Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die **IAS-Server (RADIUS)**-Rolle.
+6.  Stellen Sie sicher, dass die ermittelten Serverrollen auf Ihre Umgebung zutreffen, wie z. B. die **IAS-Server (RADIUS)**-Rolle.
 
 7.  Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
 
@@ -134,9 +134,9 @@ Während der Erstellung einer Serverrichtlinie entfernen Sie wahrscheinlich die 
 
 13. Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
 
-14. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - IAS-Server.inf“).
+14. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Unternehmensclient - IAS-Server.inf“).
 
-15. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. IAS-Server.xml).
+15. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. IAS-Server.xml).
 
 #### Testen der Richtlinie mithilfe des SCW
 
@@ -146,7 +146,7 @@ Zum Testen der Richtlinie gibt es zwei Möglichkeiten. Sie können die standardm
 
 Beim Verfassen der Richtlinien sollten Sie zunächst die Verwendung der standardmäßigen SCW-Bereitstellungsgeräte in Betracht ziehen. Sie können eine Richtlinie mit dem SCW jeweils auf einen einzelnen Server oder mithilfe von Scwcmd auf eine ganze Servergruppe anwenden. Mithilfe der standardmäßigen Bereitstellungsmethode können Sie aus SCW bereitgestellte Richtlinien einfach zurücknehmen. Dies erweist sich als außerordentlich nützlich, wenn Sie im Testverfahren mehrere Änderungen an Ihren Richtlinien vornehmen.
 
-Die Richtlinie wird getestet, um sicherzustellen, dass ihre Anwendung auf den Zielservern keine negativen Auswirkungen auf wichtige Funktionen hat. Nach Übernahme der Konfigurationsänderungen müssen Sie zunächst die Kernfunktionalität des Computers überprüfen. Ist der Server z. B. als Zertifizierungsstelle (CA) konfiguriert, müssen Sie sicherstellen, dass Clients Zertifikate anfordern und erhalten bzw. eine Zertifikatsperrliste herunterladen können usw.
+Die Richtlinie wird getestet, um sicherzustellen, dass ihre Anwendung auf den Zielservern keine negativen Auswirkungen auf wichtige Funktionen hat. Nach Übernahme der Konfigurationsänderungen müssen Sie zunächst die Kernfunktionalität des Computers überprüfen. Ist der Server z. B. als Zertifizierungsstelle (CA) konfiguriert, müssen Sie sicherstellen, dass Clients Zertifikate anfordern und erhalten bzw. eine Zertifikatsperrliste herunterladen können usw.
 
 Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd verwenden, um wie im folgenden Verfahren veranschaulicht die Richtlinien in Gruppenrichtlinienobjekte umzuwandeln.
 
@@ -179,13 +179,13 @@ Anschließend sollten Sie eine endgültige Prüfung vornehmen, um sicherzustelle
 In diesem Kapitel wurden die Richtlinieneinstellungen behandelt, die in der in diesem Handbuch definierten Unternehmensclient-Umgebung zum Absichern von IAS-Server verwendet werden können, auf denen Windows Server 2003 mit SP1 ausgeführt wird. Diese Einstellungen sind möglicherweise auch für die anderen in diesem Handbuch definierten Umgebungen geeignet, jedoch wurden sie nicht geprüft oder getestet. Die Einstellungen wurden über ein Gruppenrichtlinienobjekt (GPO) konfiguriert und angewendet, das zur Ergänzung der Richtlinie für die Mitgliedsserver-Baseline entwickelt wurde. Gruppenrichtlinienobjekte können zur Erhöhung der Sicherheit mit den jeweiligen die IAS-Server enthaltenden Organisationseinheiten in Ihrer Organisation verknüpft werden.
 #### Weitere Informationen
 
-Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IAS-Servern, auf denen Windows Server 2003 mit SP1 ausgeführt wird.
+Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IAS-Servern, auf denen Windows Server 2003 mit SP1 ausgeführt wird.
 
 -   Weitere Informationen zu IAS finden Sie auf der Seite „[Beschreibung von IAS](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/ab4eeeb2-b0aa-4b4a-a959-3902b2b3f1af.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/ab4eeeb2-b0aa-4b4a-a959-3902b2b3f1af.mspx.
 
 -   Weitere Informationen zu IAS und Sicherheit finden Sie auf der Seite „[Internetauthentifizierungsdienst](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/d98eb914-258c-4f0b-ad04-dc4db9e4ee63.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/d98eb914-258c-4f0b-ad04-dc4db9e4ee63.mspx.
 
--   Informationen zu IAS, Firewalls und Windows* *Server* *2003 finden Sie auf der Seite „[IAS und Firewalls](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/518e70a9-9e7a-422b-a13f-f3193d4fd215.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/518e70a9-9e7a-422b-a13f-f3193d4fd215.mspx.
+-   Informationen zu IAS, Firewalls und Windows Server 2003 finden Sie auf der Seite „[IAS und Firewalls](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/518e70a9-9e7a-422b-a13f-f3193d4fd215.mspx)“ (in englischer Sprache) unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/518e70a9-9e7a-422b-a13f-f3193d4fd215.mspx.
 
 [](#mainsection)[Zum Seitenanfanq](#mainsection)
 
@@ -213,7 +213,7 @@ Die folgenden Links bieten zusätzliche Informationen zur Absicherung von IAS-Se
 
 **Download**
 
-[Holen Sie sich das Windows Server 2003-Sicherheitshandbuch (engl.)](http://go.microsoft.com/fwlink/?linkid=14846&clcid=0x409)
+[Holen Sie sich das Windows Server 2003-Sicherheitshandbuch (engl.)](http://go.microsoft.com/fwlink/?linkid=14846&clcid=0x409)
 
 **Benachrichtigung über Neuerungen**
 
