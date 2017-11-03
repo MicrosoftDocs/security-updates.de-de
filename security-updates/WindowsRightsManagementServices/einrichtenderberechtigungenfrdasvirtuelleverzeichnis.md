@@ -24,6 +24,5 @@ Bevor die Benutzer den Außerbetriebsetzungsdienst verwenden können, muss die A
 
     `http://`*Ihr-Lizenzserver*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Hinweis                                                                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn sich mehrere RMS-Server im Unternehmen im Außerbetriebsetzungsmodus befinden, können mehrere Einträge für diesen Schlüssel vorliegen. |
+> [!NOTE]
+> Wenn sich mehrere RMS-Server im Unternehmen im Außerbetriebsetzungsmodus befinden, können mehrere Einträge für diesen Schlüssel vorliegen. 

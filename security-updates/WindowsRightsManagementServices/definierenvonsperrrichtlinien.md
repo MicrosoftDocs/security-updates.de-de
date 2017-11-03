@@ -18,9 +18,8 @@ Da das Server-Lizenzgeberzertifikat des Stammzertifizierungsservers einer RMS-Be
 
 Zusätzlich zum Microsoft-Registrierungsdienst können Sie einen Drittanbieter angeben, der das Server-Lizenzgeberzertifikat des Servers mit RMS sperrt. Bei diesem Drittanbieter kann es sich entweder um eine externe Entität oder ein öffentliches oder privates Schlüsselpaar handeln, das der Administrator im Namen der Organisation generiert. Der private Schlüssel des angegebenen Drittanbieters kann eine Sperrliste signieren, die das Server-Lizenzgeberzertifikat sperrt. Dieser Drittanbieter wird bei der Bereitstellung von RMS durch seinen öffentlichen Schlüssel angegeben. Die Vorlagen für Benutzerrechterichtlinien des Servers können ebenfalls so konfiguriert werden, dass Drittanbieter Inhalte, Anwendungsmanifeste, Lizenzen und Zertifikate sperren können, die von der RMS-Installation ausgestellt wurden. Weitere Informationen hierzu finden Sie nachtstehend unter [Erstellen und Ändern von Vorlagen für Benutzerrechterichtlinien](https://technet.microsoft.com/6014176f-ef71-4d29-b3e3-da129c18563d).
 
-| ![](images/Cc747782.Important(WS.10).gif)Wichtig                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn Sie ein eigenes Schlüsselpaar zum Sperren des Server-Lizenzgeberzertifikats des Stammzertifizierungsservers generieren, müssen Sie dieses unbedingt an einem sicheren Ort aufbewahren. |
+> [!IMPORTANT]
+> Wenn Sie ein eigenes Schlüsselpaar zum Sperren des Server-Lizenzgeberzertifikats des Stammzertifizierungsservers generieren, müssen Sie dieses unbedingt an einem sicheren Ort aufbewahren. 
 
 Durch Sperren eines Server-Lizenzgeberzertifikats wird eine wichtige Entscheidung getroffen, da alle von der RMS-Installation ausgestellten Zertifikate und Lizenzen beim Sperren dieses Zertifikats gesperrt werden. Weitere Informationen zum Sperren von Server-Lizenzgeberzertifikaten finden Sie nachstehend unter [Sperren von Server-Lizenzgeberzertifikaten](https://technet.microsoft.com/8020861d-d196-4431-8282-044675ef5616).
 
