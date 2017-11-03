@@ -3519,81 +3519,81 @@ Damit die in diesem Handbuch beschriebenen Administratorfunktionen verwendet wer
 
     **Tabelle 14. Berechtigungen für die ausstellende Zertifizierungsstelle**
 
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
 
-<tr>
+    <tr>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Gruppe
+    Gruppe
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Berechtigung
+    Berechtigung
 
-</th>
+    </th>
 
-<th style="border:1px solid black;">
+    <th style="border:1px solid black;">
 
-Erlauben/Verweigern
+    Erlauben/Verweigern
 
-</th>
+    </th>
 
-</tr>
+    </tr>
 
-<tr>
+    <tr>
 
-<td style="border:1px solid black;">
-
-
-CA Admins
-
-</td>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Verwalten der Zertifizierungsstelle
+    CA Admins
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
-
-
-Erlauben
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Certificate Managers
+    Verwalten der Zertifizierungsstelle
 
-</td>
+    </td>
 
-<td style="border:1px solid black;">
-
-
-Ausstellen und Verwalten von Zertifikaten
-
-</td>
-
-<td style="border:1px solid black;">
+    <td style="border:1px solid black;">
 
 
-Erlauben
+    Erlauben
 
-</td>
+    </td>
 
-</tr>
+    </tr>
 
-</table>
+    <tr>
+
+    <td style="border:1px solid black;">
+
+
+    Certificate Managers
+
+    </td>
+
+    <td style="border:1px solid black;">
+
+
+    Ausstellen und Verwalten von Zertifikaten
+
+    </td>
+
+    <td style="border:1px solid black;">
+
+
+    Erlauben
+
+    </td>
+
+    </tr>
+
+    </table>
 
 4. Die Gruppe „CA Auditors“ sollte zur lokalen Administratorgruppe hinzugefügt werden, obwohl diese Gruppe bereits durch die zuvor angewendete Sicherheitsrichtlinie teilweise definiert wurde.
 
