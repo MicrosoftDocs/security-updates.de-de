@@ -17,9 +17,8 @@ Stellen Sie vor Beginn der Bereitstellung sicher, dass die folgenden Punkte in I
 -   Es wurde eine RMS-Topologie (einfache oder verteilte Topologie) ausgewählt.
 -   Active Directory ist auf den Domänencontrollern installiert, auf denen Windows 2000 mit Service Pack 3 (SP3) oder höher installiert ist, und alle Benutzer verfügen über ein Kontaktobjekt mit konfiguriertem E-Mail-Attribut. Windows Server 2003 ist mit den neuesten Aktualisierungen installiert. Message Queuing, Internet Information Services und ASP.NET Version 1.1 sind aktiviert.
 
-| ![](images/Cc720185.note(WS.10).gif)Hinweis                                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Soll RMS auf einem 64-Bit-Computer installiert werden, beachten Sie die besonderen Konfigurationsanweisungen im Abschnitt „Softwareanforderungen für RMS“ unter „Planen einer RMS-Bereitstellung“ in dieser Dokumentationssammlung. |
+> [!NOTE]
+> Soll RMS auf einem 64-Bit-Computer installiert werden, beachten Sie die besonderen Konfigurationsanweisungen im Abschnitt „Softwareanforderungen für RMS“ unter „Planen einer RMS-Bereitstellung“ in dieser Dokumentationssammlung. 
 
 -   Die Methoden für den Lastenausgleich und das Server-Failover sind definiert.
 -   Die DNS-Registrierung ist für die RMS-Server konfiguriert.

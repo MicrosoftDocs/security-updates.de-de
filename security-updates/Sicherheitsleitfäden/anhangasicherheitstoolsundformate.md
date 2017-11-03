@@ -1,0 +1,213 @@
+---
+TOCTitle: 'Anhang A: Sicherheitstools und Formate'
+Title: 'Anhang A: Sicherheitstools und Formate'
+ms:assetid: 'e15ff47c-bd77-4b34-9b58-c3f3fba2d135'
+ms:contentKeyID: 20075661
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Dd443718(v=TechNet.10)'
+---
+
+Windows Server 2003-Sicherheitshandbuch
+=======================================
+
+### Anhang A: Sicherheitstools und Formate
+
+Aktualisiert: 27.12.2005
+
+Das Erstellen, Testen, Bereitstellen und Verwalten eines kompletten Richtlinien- und Vorlagensatzes für Ihr Unternehmen kann sich als besondere Herausforderung erweisen. In diesem Anhang bieten wir einen Überblick über die verfügbaren Microsoft-Tools und die Formate, in denen Sicherheitsrichtlinien erstellt werden können.
+
+##### Auf dieser Seite
+
+[](#ebaa)[Sicherheitstools](#ebaa)  
+[](#eaaa)[Sicherheitsdateiformate](#eaaa)
+
+### Sicherheitstools
+
+Die folgenden Tools sind entweder mit dem Betriebssystem Windows Server™ 2003 erhältlich oder können kostenlos von der Microsoft-Website heruntergeladen werden.
+
+#### Sicherheitskonfigurations-Assistent
+
+Der Sicherheitskonfigurations-Assistent (SCW) wurde in *Windows Server 2003 SP1* eingeführt. Im Gegensatz zur Gruppenrichtlinie ist er in den Active Directory®-Verzeichnisdienst nicht integriert und kann deshalb nicht zum Konfigurieren der Richtlinien auf Domänenebene benutzt werden. Er bietet jedoch eine kontinuierliche, rollenbasierte Absicherungsmethode, durch die Sie mithilfe von Assistenten einfach sichere Richtlinien erstellen können.
+
+Mit SCW können Sie schnell und leicht Prototypenrichtlinien für mehrere Serverrollen erstellen, die auf aktuellen Anleitungen und empfohlenen Vorgehensweisen von Microsoft beruhen. Die Verwaltung von Diensteinstellungen, Registrierungseinstellungen, Windows Firewall-Ausnahmen und anderem erfolgt mit SCW automatisch. Er enthält eine Funktion zum Konfigurieren von Zielcomputern sowie zum Bereitstellen und Zurücknehmen von Richtlinien von Remotestandorten aus. Das Befehlszeilentool Scwcmd ermöglicht einen gemeinsamen Einsatz von SCW und Gruppenrichtlinien, damit Richtlinien an Computergruppen bereitgestellt werden bzw. Richtlinien in Gruppenrichtlinienobjekte konvertiert werden können.
+
+#### Sicherheitskonfigurations-Editor
+
+Die Tools des Sicherheitskonfigurations-Editors (SCE) werden zum Definieren von Vorlagen für Sicherheitsrichtlinien verwendet, die anhand der Active Directory-Gruppenrichtlinie auf einzelne Computer oder Computergruppen angewendet werden können. Der SCE wurde zunächst als Add-On für Windows NT® 4.0 veröffentlicht und ist nun zu einem wesentlichen Bestandteil der Gruppenrichtlinie geworden.
+
+Er gilt nun nicht mehr als separate Komponente und wird in den folgenden MMC-Snap-Ins (Microsoft Management Console) und administrativen Dienstprogrammen verwendet:
+
+-   MMC-Snap-In „Sicherheitskonfiguration und -analyse“
+
+-   MMC-Snap-In „Sicherheitsvorlagen“
+
+-   Snap-in „Gruppenrichtlinien-Editor“ (für den Bereich Sicherheitseinstellungen der Struktur Computerkonfiguration)
+
+-   Tool „Lokale Sicherheitseinstellungen“
+
+-   Tool „Sicherheitsrichtlinie für Domänencontroller“
+
+-   Tool „Domänensicherheitsrichtlinie“
+
+Da sämtliche dieser Tools den SCE verwenden, steht Windows-Administratoren eine kontinuierliche, leistungsfähige Benutzeroberfläche zum Erstellen und Bearbeiten von Richtlinien, für eigenständige Computer ebenso wie Gruppenrichtlinienobjekte, zur Verfügung.
+
+Weitere Informationen zum Sicherheitskonfigurations-Editor erhalten Sie in der Windows-Hilfe.
+
+#### Active Directory-Benutzer und -Computer
+
+Das MCC-Snap-In „Active Directory-Benutzer und -Computer“ stellt die Hauptschnittstelle zum Erstellen und Verwalten von Organisationseinheiten (OUs) in der Domäne dar. Sie können OUs und GPOs verknüpfen, die Richtlinienreihenfolge und -vererbung überwachen und den Gruppenrichtlinien-Editor als separaten Prozess zum Bearbeiten von GPOs starten. Das Snap-In bietet jedoch keine verlässliche, integrierte Möglichkeit zum Aufnehmen, Verfassen und Verwalten von Gruppenrichtlinien.
+
+Weitere Informationen zum MMC-Snap-In „Active Directory-Benutzer und -Computer“ finden Sie in der Windows-Hilfe.
+
+#### Gruppenrichtlinien-Verwaltungskonsole
+
+Die Gruppenrichtlinien-Verwaltungskonsole (Group Policy Management Console, GPMC) wurde von Microsoft als Reaktion auf Kundenfeedback hergestellt, das eine bessere Möglichkeit zur Überwachung von Gruppenrichtlinien in einer großen Umgebung zum Ausdruck brachte. Die GPMC muss auf Windows XP mit SP1 oder Windows Server 2003 ausgeführt werden und besteht aus einem MMC-Snap-In und einem Satz skriptfähiger Schnittstellen, die zum Verwalten der Gruppenrichtlinie verwendet werden können Mit ihr können sowohl Windows 2000 Server- als auch Windows Server 2003-Domänen verwaltet werden.
+
+Die GPMC bietet:
+
+-   Eine Benutzeroberfläche, deren Schwerpunkt auf Einsatz und Verwaltung der Gruppenrichtlinie liegt.
+
+-   Die Möglichkeit, GPOs schnell zu sichern, wiederherstellen, importieren, exportieren, kopieren und einzufügen.
+
+-   Vereinfachte Verwaltung von gruppenrichtlinienspezifischer Sicherheit.
+
+-   Berichtsfunktionen für GPO- und Richtlinienergebnissatz-Daten (Resultant Set of Policy, RSoP).
+
+-   Skriptfähige GPO-Vorgänge.
+
+Die [Gruppenrichtlinien-Verwaltungskonsole mit Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=0a6d4c24-8cbd-4b35-9272-dd3cbfc81887&displaylang=en) kann von allen *Windows Server 2003-*Benutzern unter www.microsoft.com/downloads/details.aspx?FamilyID=0a6d4c24-8cbd-4b35-9272-dd3cbfc81887&DisplayLang=en kostenlos heruntergeladen werden.
+
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+
+### Sicherheitsdateiformate
+
+Sicherheitsrichtlinien können erstellt und in verschiedenen Formaten gespeichert werden. In den folgenden Abschnitten werden die in der Regel von Windows Server 2003 verwendeten Dateiformate einzeln angeführt:
+
+#### SCW-Richtlinie (.XML)
+
+SCW führt ein neues Dateiformat ein, das auf XML beruht. Systemeigene SCW-Richtlinien werden mit einer XML-Erweiterung gespeichert. Diese XML-Richtliniendateien weisen kein offizielles Schema auf, können jedoch anhand des Elements &lt;Sicherheitsrichtlinie Version="1.0"&gt; identifiziert werden.
+
+Die SCW-Richtliniendatei ist eigentlich eine komplette Manifestation mehrerer verschiedener Einstellungstypen:
+
+-   Startmodus der Systemdienste
+
+-   Windows Firewall-Ausnahmen
+
+-   Ausgewählte Computerrollen
+
+-   Ausgewählte Computeraufgaben
+
+-   Registrierungseinstellungen
+
+-   Richtlinieneinstellungen
+
+-   Überwachungsrichtlinien
+
+SCW-Richtlinien können außerdem mit einer oder mehreren Richtlinienvorlagen verknüpft werden, um zusätzliche, nicht in SCW enthaltene Funktionen zu bieten, wie etwa Zugriffsteuerungslisten für Systemdienste oder Registrierungen (ACLs).
+
+#### Richtlinienvorlage (.inf)
+
+Richtlinienvorlagen sind Textdateien, die einem Standardformat für Windows-Datendateien folgen: ein oder mehrere Abschnitte, die durch spezielle Schüsselwörter in eckigen Klammern und darauf folgenden Attribut-/Wertpaaren ausgelöst werden.
+
+Richtlinienvorlagen können einen oder mehrere Abschnitte enthalten, in denen folgenden Datentypen festgelegt werden:
+
+-   Kennwortrichtlinien
+
+-   Sperrungsrichtlinien
+
+-   Richtlinien für das Authentifizierungsprotokoll Kerberos
+
+-   Überwachungsrichtlinien
+
+-   Ereignisprotokolleinstellungen
+
+-   Registrierungswerte
+
+-   Startmodi für Dienste
+
+-   Dienstberechtigungen
+
+-   Benutzerberechtigungen
+
+-   Gruppenmitgliedschaftseinschränkungen
+
+-   Registrierungsberechtigungen
+
+-   Berechtigungen im Dateisystem
+
+Richtlinienvorlagen werden von fast allen zuvor in diesem Anhang aufgelisteten Tools unterstützt. Außerdem kann das gleiche Vorlagenformat sowohl für lokale Computerrichtlinien als auch für Active Directory-Gruppenrichtlinien verwendet werden. Bevor die Vorlagen einsatzfähig sind, müssen sie vom entsprechenden Tool importiert werden.
+
+#### Gruppenrichtlinienobjekte (GPOs)
+
+GPOs sind Richtliniendaten, die in Active Directory und in speziellen Verzeichnissen auf Domänencontrollern als Dateisammlung gespeichert werden. Diese Richtliniendateien stellen Computer- und Benutzerrichtlinien dar und werden in der Regel nicht direkt bearbeitet. Sie können ein Tool, wie etwa die GPMC, zum Ändern der Einstellungen oder Exportieren des GPO in eine Richtlinienvorlage verwenden.
+
+Sie können ein GPO von der GPMC aus exportieren oder sichern, um die im GPO gespeicherten Informationen auf das Dateisystem zu speichern. Auf diese Weise erstellte GPO-Backups enthalten die folgenden Informationen:
+
+-   Globale eindeutige Kennung (GUID) und Domäne des GPO
+
+-   GPO-Einstellungen
+
+-   Wahlfreie Zugriffssteuerungsliste (DACL) des GPO
+
+-   WMI-Filterverknüpfung, falls vorhanden, jedoch nicht den Filter selbst
+
+-   Gegebenenfalls Links zu IP-Sicherheitsrichtlinien
+
+-   XML-Bericht der GPO-Einstellungen, die im HTML-Format von der GPMC aus angezeigt werden können
+
+-   Datum und Zeitstempel der Sicherung
+
+-   Vom Benutzer gelieferte Beschreibung der Sicherung
+
+Bei dieser Sicherung bleiben jedoch Daten, die GPO-extern sind, ungesichert. Diese Datei enthält insbesondere keine Linkinformationen für Sites, Domänen oder Organisationseinheiten. Informationen zu den tatsächlichen WMI-Filtern oder IP-Sicherheitsrichtlinien fehlen ebenfalls.
+
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+
+##### In diesem Beitrag
+
+-   [Überblick](https://technet.microsoft.com/de-de/library/303c53d5-6b76-46e1-8ee3-7d8c99891129(v=TechNet.10))
+-   [Kapitel 1: Einführung in das Windows Server 2003-Sicherheitshandbuch](https://technet.microsoft.com/de-de/library/b0015e61-fe4e-4523-a875-ef8b971da55c(v=TechNet.10))
+-   [Kapitel 2: Absicherungsmechanismen von Windows Server 2003](https://technet.microsoft.com/de-de/library/015a5e65-1d76-48df-9657-6fe516a5095a(v=TechNet.10))
+-   [Kapitel 3: Die Domänenrichtlinie](https://technet.microsoft.com/de-de/library/70e3e562-9517-4fb9-b617-ef7854a0f03c(v=TechNet.10))
+-   [Kapitel 4: Die Richtlinie für die Mitgliedsserver-Baseline](https://technet.microsoft.com/de-de/library/7fd4e7b6-32b3-4fe8-a323-7c01d0c86c51(v=TechNet.10))
+-   [Kapitel 5: Die Richtlinie für die Domänencontroller-Baseline](https://technet.microsoft.com/de-de/library/f86f67bd-c150-4d0d-ad85-ff13a01afb01(v=TechNet.10))
+-   [Kapitel 6: Die Infrastrukturserverrolle](https://technet.microsoft.com/de-de/library/5914ba9b-2fe2-4886-8171-a908521836ec(v=TechNet.10))
+-   [Kapitel 7: Die Dateiserverrolle](https://technet.microsoft.com/de-de/library/2b1536d0-9610-4fb5-93b4-72f62d9e2ff3(v=TechNet.10))
+-   [Kapitel 8: Die Druckserverrolle](https://technet.microsoft.com/de-de/library/a37f44cf-85b3-4ae6-8e32-0cd877c5e9ee(v=TechNet.10))
+-   [Kapitel 9: Die Webserverrolle](https://technet.microsoft.com/de-de/library/835865cd-ff71-43e6-88bf-91f5b35a00b9(v=TechNet.10))
+-   [Kapitel 10: Die IAS-Serverrolle](https://technet.microsoft.com/de-de/library/605c5b8e-d007-41c2-92a6-9260fe571bc7(v=TechNet.10))
+-   [Kapitel 11: Die Zertifikatdienstserverrolle](https://technet.microsoft.com/de-de/library/7488b1dc-eb9b-4f4a-b597-b84d87717b57(v=TechNet.10))
+-   [Kapitel 12: Die Bastion-Hostrolle](https://technet.microsoft.com/de-de/library/cb056f68-1a74-4a6a-ac25-5629fefe7cbb(v=TechNet.10))
+-   [Kapitel 13: Zusammenfassung](https://technet.microsoft.com/de-de/library/4a4cf96c-802d-4aef-9478-da3242f961da(v=TechNet.10))
+-   Anhang A: Sicherheitstools und Formate
+-   [Anhang B: Zu berücksichtigende Schlüsseleinstellungen](https://technet.microsoft.com/de-de/library/ff6d4718-4179-4f5a-a09d-50d75e9f32e6(v=TechNet.10))
+-   [Anhang C: Zusammenfassung der Einstellungen für Sicherheitsvorlagen](https://technet.microsoft.com/de-de/library/3a17dffb-0395-4656-ada8-28e3954307f5(v=TechNet.10))
+-   [Anhang D: Testen des Windows Server 2003-Sicherheitshandbuchs](https://technet.microsoft.com/de-de/library/2698b276-4c42-4a18-9930-3d69974746f8(v=TechNet.10))
+-   [Danksagungen](https://technet.microsoft.com/de-de/library/3ec7641e-0d9e-45a2-b3b2-b2a08960d871(v=TechNet.10))
+
+**Download**
+
+[Holen Sie sich das Windows Server 2003-Sicherheitshandbuch (engl.)](http://go.microsoft.com/fwlink/?linkid=14846&clcid=0x409)
+
+**Benachrichtigung über Neuerungen**
+
+[Melden Sie sich an, um sich über Updates und neue Versionen zu informieren](http://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx)
+
+**Feedback**
+
+[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><div>
+<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
+</div></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/4a4cf96c-802d-4aef-9478-da3242f961da(v=TechNet.10)"><img src="images/Dd443718.pageLeft(de-de,TechNet.10).gif" /></a> 15 von 19 <a href="https://technet.microsoft.com/de-de/library/ff6d4718-4179-4f5a-a09d-50d75e9f32e6(v=TechNet.10)"><img src="images/Dd443718.pageRight(de-de,TechNet.10).gif" /></a></td>
+</tr>
+</tbody>
+</table>

@@ -23,6 +23,5 @@ Wenn ein Lizenzierungsserver den Unterregistrierungsdienst anfordert, fügt er d
 
 http://Servername/\_wmcs/Certification/SubEnrollService.asmx
 
-| ![](images/Cc747641.note(WS.10).gif)Hinweis                              |
-|-------------------------------------------------------------------------------------------------------|
-| Wenn Sie SSL auf dem RMS-Server aktiviert haben, verwenden diese URLs das HTTPS-Verbindungsprotokoll. |
+> [!NOTE]
+> Wenn Sie SSL auf dem RMS-Server aktiviert haben, verwenden diese URLs das HTTPS-Verbindungsprotokoll. 

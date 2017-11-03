@@ -87,13 +87,11 @@ Die folgenden von einem RMS-System verwendeten Zertifikate und Lizenzen werden i
     
     Speicherort: %USERPROFILE%\\Lokale Einstellungen\\Anwendungsdaten\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Hinweis                                                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ein Benutzerkonto hat jeweils ein Computerzertifikat, eine GIC-Datei und eine CLC-Datei, jedoch mehrere EUL-Dateien für jeden Inhalt, auf den zugegriffen wird. |
+> [!NOTE]
+> Ein Benutzerkonto hat jeweils ein Computerzertifikat, eine GIC-Datei und eine CLC-Datei, jedoch mehrere EUL-Dateien für jeden Inhalt, auf den zugegriffen wird. 
 
-| ![](images/Cc747725.note(WS.10).gif)Hinweis                                                  |
-|---------------------------------------------------------------------------------------------------------------------------|
-| Für den in Windows Vista® integrierten RMS-Client lautet der Speicherort „%USERPROFILE%\\AppData\\Local\\Microsoft\\DRM“. |
+> [!NOTE]
+> Für den in Windows Vista® integrierten RMS-Client lautet der Speicherort „%USERPROFILE%\\AppData\\Local\\Microsoft\\DRM“. 
 
 <span id="BKMK_17"></span>
 #### Wo wird das Computerschlüsselpaar (privat/öffentlich) gespeichert?

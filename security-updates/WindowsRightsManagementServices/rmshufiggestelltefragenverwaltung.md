@@ -101,9 +101,8 @@ Sie können die Ablaufverfolgung implementieren, indem Sie die Datei „Web.conf
 
 4.  Starten Sie IIS neu, indem Sie an einer Eingabeaufforderung IISRESET ausführen.
 
-| ![](images/Cc747547.Important(WS.10).gif)Wichtig                                                                                                                                                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn die Ablaufverfolgung auf einem RMS-Server ausgeführt wird, kann sich dies negativ auf die Arbeitsgeschwindigkeit auswirken, d. h., es können Verzögerungen beim Erwerb von Nutzungslizenzen und bei der Ausstellung von Rechtekontozertifikaten auftreten. Verwenden Sie die Ablaufverfolgung deshalb nur dann, wenn Sie sie zur Diagnose und Behebung vorhandener Probleme benötigen. |
+> [!IMPORTANT]
+> Wenn die Ablaufverfolgung auf einem RMS-Server ausgeführt wird, kann sich dies negativ auf die Arbeitsgeschwindigkeit auswirken, d. h., es können Verzögerungen beim Erwerb von Nutzungslizenzen und bei der Ausstellung von Rechtekontozertifikaten auftreten. Verwenden Sie die Ablaufverfolgung deshalb nur dann, wenn Sie sie zur Diagnose und Behebung vorhandener Probleme benötigen. 
 
 <span id="BKMK_9"></span>
 #### Was versteht man unter einer Zeitabweichung, und was kann im Falle einer Zeitabweichung unternommen werden?
