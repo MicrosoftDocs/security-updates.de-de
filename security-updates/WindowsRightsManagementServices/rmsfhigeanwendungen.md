@@ -21,9 +21,8 @@ Benutzer, die nicht über eine spezielle RMS-fähige Anwendung für das Abrufen 
 
 Sie können das Add-On für die Rechteverwaltung für Internet Explorer von der [Microsoft-Website](http://go.microsoft.com/fwlink/?linkid=14450) (http://go.microsoft.com/fwlink/?LinkId=14450) herunterladen.
 
-| ![](images/Cc720231.note(WS.10).gif)Hinweis                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn Sie das Add-On für die Rechteverwaltung für Internet Explorer mit Windows XP Service Pack 2 verwenden, kann die erweiterte Sicherheitskonfiguration zu Problemen bei der Anwendungskompatibilität führen. |
+> [!NOTE]
+> Wenn Sie das Add-On für die Rechteverwaltung für Internet Explorer mit Windows XP Service Pack 2 verwenden, kann die erweiterte Sicherheitskonfiguration zu Problemen bei der Anwendungskompatibilität führen. 
 
 Wenn der URL für die Extranetverbindung aller Domänen innerhalb der Organisation in Internet Explorer nicht zu den lokalen Intranetsites hinzugefügt wird, erhalten Benutzer, die das Add-On für die Rechteverwaltung für Internet Explorer verwenden, wiederholt Meldungen, die sie auffordern, zu bestätigen, dass sie wirklich auf die Sites zugreifen möchten. Eine falsche Antwort auf diese Meldung kann dazu führen, dass der RMS-Client ein neues Rechtekontozertifikat für das Benutzerkonto ausstellt.
 

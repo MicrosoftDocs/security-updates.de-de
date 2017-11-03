@@ -11,9 +11,8 @@ Außerkraftsetzen der Suche nach Active Directory-Diensten
 
 RMS-Dienste und -Clients ermitteln die Dienstspeicherorte, indem sie zunächst in der lokalen Registrierung suchen. Wenn bestimmte Schlüssel in der Registrierung keinen Wert haben, suchen die RMS-Dienste und -Clients in Active Directory nach dem Dienstverbindungspunkt (Service Connection Point, SCP). Das bedeutet, dass Sie die Standardeinstellung zur Ermittlung in Active Directory außer Kraft setzen können, wenn Sie in die Server- oder die Clientregistrierung bestimmte Schlüssel eingeben.
 
-| ![](images/Cc747614.note(WS.10).gif)Hinweis                                                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn Ihr RMS-Stammcluster so konfiguriert ist, dass der SCP in Active Directory nicht veröffentlicht wird, können Sie diese Schlüssel verwenden, um Ihre RMS-Clients auf den korrekten Speicherort zu verweisen. |
+> [!NOTE]
+> Wenn Ihr RMS-Stammcluster so konfiguriert ist, dass der SCP in Active Directory nicht veröffentlicht wird, können Sie diese Schlüssel verwenden, um Ihre RMS-Clients auf den korrekten Speicherort zu verweisen. 
 
 In diesem Abschnitt finden Sie eine Beschreibung der Registrierungseinträge und Informationen dazu, wie Sie diese Registrierungseinträge erstellen können.
 

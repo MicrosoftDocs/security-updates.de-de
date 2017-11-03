@@ -144,9 +144,8 @@ Wiederherstellen einer vorherigen RMS-Installation
 
 Wenn in der Hardware oder Software des RMS-Servers ein Fehler auftritt, können Sie den RMS-Server wiederherstellen, indem Sie die zuvor installierte Konfigurationsdatenbank zum Bereitstellen einer neuen Serverinstanz verwenden.
 
-| ![](images/Cc747605.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                                                                                     |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Diese Vorgehensweise gilt nur für den Fall, dass auf dem Server, auf dem RMS ausgeführt wird, ein Fehler auftritt. Wenn auf dem Server, auf dem die Konfigurationsdatenbank ausgeführt wird, ein Fehler auftritt, folgen Sie den Anweisungen unter „Wiederherstellen der Konfigurationsdatenbank“ weiter oben in diesem Thema. Wenn der RMS-Server auch der Datenbankserver ist, muss der gesamte Server aus einer Sicherungskopie wiederhergestellt werden. |
+> [!NOTE]
+> Diese Vorgehensweise gilt nur für den Fall, dass auf dem Server, auf dem RMS ausgeführt wird, ein Fehler auftritt. Wenn auf dem Server, auf dem die Konfigurationsdatenbank ausgeführt wird, ein Fehler auftritt, folgen Sie den Anweisungen unter „Wiederherstellen der Konfigurationsdatenbank“ weiter oben in diesem Thema. Wenn der RMS-Server auch der Datenbankserver ist, muss der gesamte Server aus einer Sicherungskopie wiederhergestellt werden. 
 
 Führen Sie folgende Schritte aus, um auf dieselbe Konfigurationsdatenbank zu verweisen, die für die ursprüngliche Installation verwendet wurde.
 
@@ -199,8 +198,7 @@ Name: `RestrictGuestAccess`
 
 Type: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Hinweis                          |
-|---------------------------------------------------------------------------------------------------|
-| Dadurch wird allen Gästekonten der Schreibzugriff auf das Anwendungsereignisprotokoll ermöglicht. |
+> [!NOTE]
+> Dadurch wird allen Gästekonten der Schreibzugriff auf das Anwendungsereignisprotokoll ermöglicht. 
 
 Weitere Informationen zur Ursache dieses Fehlers finden Sie im Artikel zur Aktivierung der Protokollierung von ASP-Seiten aus in der [Microsoft Knowledge Base](http://go.microsoft.com/fwlink/?linkid=44167).
