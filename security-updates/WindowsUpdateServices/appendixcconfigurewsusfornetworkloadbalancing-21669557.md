@@ -203,23 +203,23 @@ Upgrading NLB
 
 4.  Back up your database.
 
-    1.  On your machine hosting the database, click **Start**, and then click **Run**.
-    2.  In the **Open** box, type *%systemdrive%*\\*%windir%*\\**system32**\\**ntbackup.exe** and then click **OK**.
-    3.  In the Backup or Restore Wizard, click **Next**.
-    4.  Verify that **Backup files and settings** is selected, and then click **Next**.
-    5.  Click **Let me choose what to back up**, and then click **Next**.
-    6.  Under the location where your database files are stored, click the **Data** and **LOG** folders, and then click **Next**.
-    7.  Use the **Browse** button to choose a place to save your backup, type a name for the backup, and then click **Next**.
-    8.  If you want to set additional specifications for your backup, including whether it will be an incremental backup and whether you want to verify the backup, set a recurring schedule for the backup, or other options, click **Advanced**, and then follow the prompts that appear in the wizard.
-    9.  When the wizard is finished, click **Finish**.
-    10. When the message appears that informs you that the backup is complete, click **Close**.
+    a.  On your machine hosting the database, click **Start**, and then click **Run**.  
+    b.  In the **Open** box, type *%systemdrive%*\\*%windir%*\\**system32**\\**ntbackup.exe** and then click **OK**.  
+    c.  In the Backup or Restore Wizard, click **Next**.  
+    d.  Verify that **Backup files and settings** is selected, and then click **Next**.  
+    e.  Click **Let me choose what to back up**, and then click **Next**.  
+    f.  Under the location where your database files are stored, click the **Data** and **LOG** folders, and then click **Next**.  
+    g.  Use the **Browse** button to choose a place to save your backup, type a name for the backup, and then click **Next**.  
+    h.  If you want to set additional specifications for your backup, including whether it will be an incremental backup and whether you want to verify the backup, set a recurring schedule for the backup, or other options, click **Advanced**, and then follow the prompts that appear in the wizard.  
+    i.  When the wizard is finished, click **Finish**.  
+    j. When the message appears that informs you that the backup is complete, click **Close**.
 
 5.  Upgrade each frontend machine individually.
 
-    1.  Set up WSUS. At the command prompt type **Wsussetup.exe/q/g.**
-    2.  Review the setup log to verify the upgrade was successful. At the command prompt type **Wsussetup.log**
-    3.  Ensure that IIS and the WSUS service are stopped. At the command prompt type **iisreset/stop** and then **net stop wsusservice.**
-    4.  Proceed to the next machine.
+    a.  Set up WSUS. At the command prompt type **Wsussetup.exe/q/g.**  
+    b.  Review the setup log to verify the upgrade was successful. At the command prompt type **Wsussetup.log**  
+    c.  Ensure that IIS and the WSUS service are stopped. At the command prompt type **iisreset/stop** and then **net stop wsusservice.**  
+    d.  Proceed to the next machine.
 
 6.  Start IIS and the WSUS service. Click the **Start** button, point to **Administrative tools**, click **Services**, and then click the service you want to start.
 

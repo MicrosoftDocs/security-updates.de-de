@@ -328,7 +328,7 @@ Titel von Büchern und anderen maßgeblichen Veröffentlichungen werden *kursiv*
 <td style="border:1px solid black;">
 
 
-Kursiv dargestellte und in spitze Klammern gesetzte Platzhalter &lt;* Dateiname*&gt; stellen Variablen dar.
+Kursiv dargestellte und in spitze Klammern gesetzte Platzhalter &lt;*Dateiname*&gt; stellen Variablen dar.
 
 </td>
 
