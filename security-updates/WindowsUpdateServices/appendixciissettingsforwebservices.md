@@ -538,8 +538,8 @@ Compiled Templates&quot;</td>
 <tr class="odd">
 <td style="border:1px solid black;">WebSvcExtRestrictionList</td>
 <td style="border:1px solid black;">(LIST) (8 Items)<br/>
-&quot;0,*.dll&quot;<br/>
-&quot;0,*.exe&quot;&gt;<br/>
+&quot;0,\*.dll&quot;<br/>
+&quot;0,\*.exe&quot;&gt;<br/>
 &quot;0,&lt;windir&gt;\system32\inetsrv\asp.dll,0,ASP,Active Server Pages&quot;&gt;<br/>
 &quot;0,&lt;windir&gt;\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data
 Connector&quot;<br/>

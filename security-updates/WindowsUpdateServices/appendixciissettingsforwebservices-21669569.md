@@ -576,7 +576,7 @@ Global Properties of the WWW Web site
   
 These properties can be retrieved with the following adsutil command:
   
-**adsutil.vbs enum W3SVC/***WebSiteID*
+**adsutil.vbs enum W3SVC/** *WebSiteID*
   
 The properties listed below comprise a partial list.
   
