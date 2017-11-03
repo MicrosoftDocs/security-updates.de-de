@@ -158,7 +158,7 @@ Beachten Sie ebenso die Standardeinstellung für die Option **Anpassen von Speic
 
 Zudem werden in diesem Handbuch mehrere Einstellungen empfohlen, die bestimmte Umgebungsinformationen erfordern, um richtig zu funktionieren. Da es nicht möglich ist, diese Einstellungen in die Gruppenrichtlinienobjekte dieses Handbuchs einzubeziehen, wird in den Tabellen jeweils der Wert **Empfohlen** angegeben. Zu diesen Einstellungen sollten Sie weitere Nachforschungen anstellen, um die richtige Konfiguration zu ermitteln.
 
-**Achtung:**
+![](images/dd443745.warning(de-de,technet.10).gif) **Achtung:**
 
 Die Funktionalität vieler Einstellungen in diesem Anhang hängt von anderen Einstellungen ab. Diese Abhängigkeiten sind systembedingt. Außerdem ist zu beachten, dass die Werte einiger Einstellungen auf die individuellen Erfordernisse Ihrer Umgebung abgestimmt werden müssen, um ordnungsgemäß zu funktionieren. Wenn Sie also die empfohlenen Einstellungswerte für die Unternehmensclient- oder die Hochsicherheitsumgebung ändern, sollten Sie aus den genannten Gründen darauf vorbereitet sein, die Clientcomputer in Ihrer Umgebung eingehend zu testen, um sicherzugehen, dass sie in vollem Umfang funktionieren.
 
@@ -17601,7 +17601,7 @@ Wenn Sie diese Richtlinieneinstellung deaktivieren, werden keine ActiveX-Steuere
 Die Einstellung **ActiveX-Steuerelemente initialisieren und ausführen, die nicht sicher sind** ist für die Hochsicherheitsumgebung auf **Aktiviert:Deaktivieren** und für die Unternehmensclient-Umgebung auf **Nicht konfiguriert** gesetzt. Dies gilt für die **Internetzone** ebenso wie für die **Zone eingeschränkter Sites.**  
 
 **Java-Einstellungen**  
-Mit dieser Richtlinieneinstellung können Sie die Berechtigungen für Java-Applets verwalten. Wenn Sie diese Richtlinieneinstellung aktivieren, können Sie Optionen aus dem Dropdownfeld wählen. **Benutzerdefiniert** – Hiermit legen Sie die Berechtigungseinstellungen individuell fest. **Niedrige Sicherheit** – Applets dürfen alle Vorgänge durchführen.**   Mittlere Sicherheit** – Applets dürfen in ihrer Sandbox (einem Speicherbereich, außerhalb dessen das Programm keine Aufrufe durchführen kann) ausgeführt werden, und es werden Funktionen wie „Scratch Space“ (ein sicherer Speicherbereich auf dem Clientcomputer) und eine benutzergesteuerte Datei-E/A ermöglicht. **Hohe Sicherheit** – Applets dürfen in ihrer Sandbox ausgeführt werden. Java deaktivieren – Damit werden Java-Applets an der Ausführung gehindert. Wenn Sie diese Richtlinieneinstellung deaktivieren, können keine Java-Applets ausgeführt werden. Wenn Sie diese Richtlinieneinstellung nicht konfigurieren, gilt die Einstellung **Hohe Sicherheit.**  
+Mit dieser Richtlinieneinstellung können Sie die Berechtigungen für Java-Applets verwalten. Wenn Sie diese Richtlinieneinstellung aktivieren, können Sie Optionen aus dem Dropdownfeld wählen. **Benutzerdefiniert** – Hiermit legen Sie die Berechtigungseinstellungen individuell fest. **Niedrige Sicherheit** – Applets dürfen alle Vorgänge durchführen. **Mittlere Sicherheit** – Applets dürfen in ihrer Sandbox (einem Speicherbereich, außerhalb dessen das Programm keine Aufrufe durchführen kann) ausgeführt werden, und es werden Funktionen wie „Scratch Space“ (ein sicherer Speicherbereich auf dem Clientcomputer) und eine benutzergesteuerte Datei-E/A ermöglicht. **Hohe Sicherheit** – Applets dürfen in ihrer Sandbox ausgeführt werden. Java deaktivieren – Damit werden Java-Applets an der Ausführung gehindert. Wenn Sie diese Richtlinieneinstellung deaktivieren, können keine Java-Applets ausgeführt werden. Wenn Sie diese Richtlinieneinstellung nicht konfigurieren, gilt die Einstellung **Hohe Sicherheit.**  
 
 Die Einstellung **Java-Einstellungen** ist für die Hochsicherheitsumgebung auf **Aktiviert:Java deaktivieren** und für die Unternehmensclient-Umgebung auf **Nicht konfiguriert** gesetzt. Dies gilt für die **Internetzone** ebenso wie für die **Zone eingeschränkter Sites.**  
 
@@ -17615,7 +17615,7 @@ Die Einstellung **Programme und Dateien in einem IFRAME starten** ist für die H
 **Anmeldeoptionen**  
 Mit dieser Richtlinieneinstellung können Sie die Einstellungen für Anmeldeoptionen verwalten. Wenn Sie diese Richtlinieneinstellung aktivieren, können Sie eine der folgenden Anmeldeoptionen wählen:
 
-**Anonymous-****Anmeldung** – Deaktiviert die HTTP-Authentifizierung und verwendet das Gastkonto nur für das CIFS-Protokoll (Common Internet File System-Protokoll).
+**Anonymous- Anmeldung** – Deaktiviert die HTTP-Authentifizierung und verwendet das Gastkonto nur für das CIFS-Protokoll (Common Internet File System-Protokoll).
 
 **Nach Benutzername und Kennwort fragen** – Benutzer werden zur Eingabe von Benutzer-ID und Kennwort aufgefordert. Nach der Eingabe können diese Werte automatisch für den weiteren Verlauf der Sitzung verwendet werden.
 

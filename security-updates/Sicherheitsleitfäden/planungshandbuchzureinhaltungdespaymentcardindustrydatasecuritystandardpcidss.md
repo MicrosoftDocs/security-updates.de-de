@@ -450,7 +450,7 @@ Microsoft bietet eine Reihe von Technologien, die Sie zusammen oder einzeln zum 
 
 -   **Microsoft Baseline Security Analyzer (MBSA)**. MBSA ist eins der primären Tools zur Risikobewertung für Karteninhaberdaten in Ihrem Unternehmen. MBSA ist ein einfach anzuwendendes Tool, mit dem Sie gängige fehlerhafte Sicherheitskonfigura-tionen in einer Reihe von Microsoft-Produkten ermitteln können. Zu den unterstützten Produkten zählen Windows-Betriebssysteme, Internetinformationsdienste (Internet Information Services, IIS), SQL Server, Internet Explorer und Microsoft Office. MBSA sucht außerdem nach fehlenden Sicherheitsupdates, Update-Rollups und Service Packs, die unter Microsoft Update veröffentlicht wurden. Sie können MBSA über die Eingabeaufforderung oder in einer GUI ausführen und zusammen mit Microsoft Update und Windows Server Update Services verwenden. Da es extrem wichtig ist, Ihre Systeme auf dem aktuellen Stand zu halten, um Karteninhaberdaten so gut wie möglich zu schützen, kann MBSA bei der Bewertung von Sicherheitsrisiken im Unternehmen von unschätzbarem Wert sein.
 
--   **Microsoft Windows Server Update Services**.** **Mithilfe von Windows Server Update Services (WSUS) mit Service Pack 1 kann Ihr Unternehmen viele der neuesten Microsoft-Produktupdates bereitstellen, die auf der Microsoft Update-Website veröffentlicht werden. WSUS ist eine Updatekomponente von Windows Server, die einen schnellen und effektiven Weg bietet, um Systeme auf dem aktuellen Stand zu halten. Sie erhalten damit eine Verwaltungsinfrastruktur mit folgenden Komponenten:
+-   **Microsoft Windows Server Update Services**. Mithilfe von Windows Server Update Services (WSUS) mit Service Pack 1 kann Ihr Unternehmen viele der neuesten Microsoft-Produktupdates bereitstellen, die auf der Microsoft Update-Website veröffentlicht werden. WSUS ist eine Updatekomponente von Windows Server, die einen schnellen und effektiven Weg bietet, um Systeme auf dem aktuellen Stand zu halten. Sie erhalten damit eine Verwaltungsinfrastruktur mit folgenden Komponenten:
 
     -   **Microsoft Update**. Die Microsoft-Website, von der WSUS-Komponenten Microsoft-Produktupdates herunterladen.
 
@@ -948,9 +948,9 @@ Microsoft-Datenschutztechnologien verknüpfen Entschlüsselungsschlüssel nicht 
   
 [*PCI DSS – QSA-Prüfverfahren (möglicherweise in englischer Sprache)*](https://www.pcisecuritystandards.org/pdfs/pci_audit_procedures_v1-1.pdf)
   
-[*PCI DSS – ASV-Scanverfahren (möglicherweise in englischer Sprache)*](https://www.pcisecuritystandards.org/pdfs/pci_scanning_procedures_v1-1.pdf)** **
+[*PCI DSS – ASV-Scanverfahren (möglicherweise in englischer Sprache)*](https://www.pcisecuritystandards.org/pdfs/pci_scanning_procedures_v1-1.pdf)
   
-[*Windows XP – Anwenden des Prinzips der geringsten Rechte auf Benutzerkonten*](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx)* *
+[*Windows XP – Anwenden des Prinzips der geringsten Rechte auf Benutzerkonten*](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx)
   
 [*Microsoft-Sicherheitsleitfaden,* *Schulung IV*](http://www.microsoft.com/downloads/details.aspx?familyid=631747a3-79e1-48fa-9730-dae7c0a1d6d3&displaylang=en)
   
