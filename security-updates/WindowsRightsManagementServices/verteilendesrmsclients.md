@@ -13,9 +13,8 @@ Der RMS-Client ist in das Windows Vista®-Betriebssystem integriert, so dass es
 
 Durch den Aktivierungsprozess werden eine Lockbox und ein Computerzertifikat für den aktuell angemeldeten Benutzer erstellt. Bei der Aktivierung handelt es sich um ein lokales Verfahren, das keine Netzwerkverbindung erfordert. Nach erfolgreicher Aktivierung erhält der Benutzer nach der ersten Nutzung von RMS durch eine aktivierte Anwendung ein Benutzerzertifikat. Der RMS-Client kann auf allen Clientcomputern in der Organisation anhand der Gruppenrichtlinie, von Windows Update oder einem Verwaltungsskript ausgeführt werden.
 
-| ![](images/Cc720266.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Unabhängig davon, welche Clientverteilungsmethode eingesetzt wird, verwendet der RMS-Client entweder Port 80 oder Port 443 zur Kommunikation mit dem RMS-Server. Sie sollten sicherstellen, dass der Clientcomputer an diesen Ports ausgehende Anforderungen an das RMS-Stammverzeichnis und den Lizenzierungscluster durchführen kann. |
+> [!NOTE]
+> Unabhängig davon, welche Clientverteilungsmethode eingesetzt wird, verwendet der RMS-Client entweder Port 80 oder Port 443 zur Kommunikation mit dem RMS-Server. Sie sollten sicherstellen, dass der Clientcomputer an diesen Ports ausgehende Anforderungen an das RMS-Stammverzeichnis und den Lizenzierungscluster durchführen kann. 
 
 **Verwenden einer Gruppenrichtlinie**
 

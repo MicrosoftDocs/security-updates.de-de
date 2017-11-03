@@ -13,14 +13,12 @@ Während der Installation erstellt RMS die Sicherheitsgruppe **RMS Service Group
 
 Wenn Sie RMS auf einem Server bereitstellen, legen Sie ein Benutzerkonto als RMS-Dienstkonto fest. Das von Ihnen festgelegte Konto wird der RMS-Dienstgruppe hinzugefügt. Dabei werden ihm die Berechtigungen dieser Gruppe erteilt. Bei Standardoperationen wird RMS für die meisten Zwecke unter dem RMS-Dienstkonto ausgeführt.
 
-| ![](images/Cc747546.note(WS.10).gif)Hinweis                                          |
-|-------------------------------------------------------------------------------------------------------------------|
-| Das RMS-Dienstkonto darf nicht mit dem Domänenkonto identisch sein, das zum Installieren von RMS verwendet wurde. |
+> [!NOTE]
+> Das RMS-Dienstkonto darf nicht mit dem Domänenkonto identisch sein, das zum Installieren von RMS verwendet wurde. 
 
 Aus Sicherheitsgründen wird dringend empfohlen, ein spezielles Benutzerkonto zu erstellen, das ausschließlich als Windows RMS-Dienstkonto verwendet wird. Diesem Konto sollten außerdem keine weiteren Berechtigungen erteilt werden.
 
-| ![](images/Cc747546.Important(WS.10).gif)Wichtig                      |
-|----------------------------------------------------------------------------------------------------|
-| Sie sollten das spezielle Benutzerkonto vor der Installation und Bereitstellung von RMS erstellen. |
+> [!IMPORTANT]
+> Sie sollten das spezielle Benutzerkonto vor der Installation und Bereitstellung von RMS erstellen. 
 
 Weitere Informationen über die der RMS-Dienstgruppe erteilten Berechtigungen und die Konten, über die RMS ausgeführt wird, finden Sie unter „RMS-Sicherheitsmodell“ im Teil „Technische Referenz für RMS“ dieser Dokumentationssammlung.

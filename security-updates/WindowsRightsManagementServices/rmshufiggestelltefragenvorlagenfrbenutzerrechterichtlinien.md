@@ -33,9 +33,8 @@ Der Speicherort der Vorlagen wird von der RMS-fähigen Anwendung bestimmt. Bei O
 
 **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\12.0\\Common\\DRM\\AdminTemplatePath** bei Microsoft Office 2007.
 
-| ![](images/Cc720175.note(WS.10).gif)Hinweis                                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn dieser Eintrag auf einen lokalen Ordner auf dem Client verweist, müssen die Vorlagendateien auf den Client kopiert werden. Wenn er hingegen auf eine Netzwerkfreigabe verweist, ist der Speicherort nicht verfügbar, solange der Benutzer offline ist. |
+> [!NOTE]
+> Wenn dieser Eintrag auf einen lokalen Ordner auf dem Client verweist, müssen die Vorlagendateien auf den Client kopiert werden. Wenn er hingegen auf eine Netzwerkfreigabe verweist, ist der Speicherort nicht verfügbar, solange der Benutzer offline ist. 
 
 <span id="BKMK_59"></span>
 #### Beim Erstellen von Vorlagen werden Benutzeraliase und Verteilerlisten (Distribution Lists oder DLs) mit ihnen verknüpft. Wie kann eine Organisation mit mehreren Abteilungen Vorlagen mit denselben Basisrechten zur Verfügung stellen, diese Rechte aber je nach Inhalt unterschiedlichen Gruppen gewähren?

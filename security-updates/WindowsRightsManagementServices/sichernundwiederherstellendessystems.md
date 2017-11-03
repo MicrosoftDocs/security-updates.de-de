@@ -20,9 +20,8 @@ Die RMS-Protokollierungsdatenbank enthält Protokolle, die möglicherweise hilfr
 
 Wenn Sie die privaten Schlüssel von RMS mithilfe eines Hardwaresicherheitsmoduls schützen, müssen Sie auch dessen Konfiguration sichern. Weitere Informationen zum Sichern und Wiederherstellen des Hardwaresicherheitsmoduls finden Sie in der zugehörigen Dokumentation.
 
-| ![](images/Cc747745.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wenn Sie die privaten Schlüssel von RMS mit einem softwarebasierten Kryptographiedienstanbieter (Cryptographic Service Provider oder CSP) verschlüsseln, bei dem es sich nicht um den softwarebasierten Standard-Kryptographiedienstanbieter handelt, stellen Sie sicher, dass für diesen organisatorische Schlüsselverwaltungsmethoden (z. B. Sicherungs- und Wiederherstellungsverfahren) installiert wurden, bevor Sie ihn für RMS verwenden. |
+> [!NOTE]
+> Wenn Sie die privaten Schlüssel von RMS mit einem softwarebasierten Kryptographiedienstanbieter (Cryptographic Service Provider oder CSP) verschlüsseln, bei dem es sich nicht um den softwarebasierten Standard-Kryptographiedienstanbieter handelt, stellen Sie sicher, dass für diesen organisatorische Schlüsselverwaltungsmethoden (z. B. Sicherungs- und Wiederherstellungsverfahren) installiert wurden, bevor Sie ihn für RMS verwenden. 
 
 Planen der Wiederherstellung eines RMS-Systems
 ----------------------------------------------

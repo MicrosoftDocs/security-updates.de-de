@@ -23,6 +23,5 @@ http://*Servername*/\_wmcs/Licensing/License.asmx
 
 Die Dienstpfad ist entweder der RMS-Server oder das .NET Passport-Konto, das die Veröffentlichungslizenz ausgegeben hat. Der URL ist in der Veröffentlichungslizenz enthalten.
 
-| ![](images/Cc720269.note(WS.10).gif)Hinweis                              |
-|-------------------------------------------------------------------------------------------------------|
-| Wenn Sie SSL auf dem RMS-Server aktiviert haben, verwenden diese URLs das HTTPS-Verbindungsprotokoll. |
+> [!NOTE]
+> Wenn Sie SSL auf dem RMS-Server aktiviert haben, verwenden diese URLs das HTTPS-Verbindungsprotokoll. 
