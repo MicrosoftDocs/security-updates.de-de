@@ -38,6 +38,5 @@ Auf der **Verwaltungsstartseite** werden beispielsweise folgende Informationen z
 
 In den verbleibenden Themen dieses Abschnitts wird die Verwendung dieser Features beschrieben. Schrittweise Anleitungen hierzu finden nachstehend Sie unter „[Vorgehensweisen bei RMS](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)“.
 
-| ![](images/Cc720290.note(WS.10).gif)Hinweis                                                                                                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Einige Funktionen können auf der RMS-Verwaltungswebsite in Popup-Fenstern konfiguriert werden. Wenn Sie in Ihrem Webbrowser Popup-Blocker verwenden, sollten Sie Ihre Browsereinstellungen dahingehend ändern, dass Popup-Fenster der RMS-Verwaltungswebsite zugelassen werden. |
+> [!NOTE]
+> Einige Funktionen können auf der RMS-Verwaltungswebsite in Popup-Fenstern konfiguriert werden. Wenn Sie in Ihrem Webbrowser Popup-Blocker verwenden, sollten Sie Ihre Browsereinstellungen dahingehend ändern, dass Popup-Fenster der RMS-Verwaltungswebsite zugelassen werden. 

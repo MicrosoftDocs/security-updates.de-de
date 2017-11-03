@@ -21,6 +21,5 @@ Wenn ein Client ein Rechtekontozertifikat anfordert, wird der Dateiname des Kont
 
 http://*Servername*/\_wmcs/Certification/Certification.asmx
 
-| ![](images/Cc720224.note(WS.10).gif)Hinweis                                  |
-|-----------------------------------------------------------------------------------------------------------|
-| Wenn SSL auf dem RMS-Server aktiviert wurde, wird für diese URL das HTTPS-Verbindungsprotokoll verwendet. |
+> [!NOTE]
+> Wenn SSL auf dem RMS-Server aktiviert wurde, wird für diese URL das HTTPS-Verbindungsprotokoll verwendet. 

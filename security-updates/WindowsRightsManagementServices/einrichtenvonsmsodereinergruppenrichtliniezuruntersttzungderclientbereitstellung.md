@@ -13,9 +13,8 @@ Beim Bereitstellen von RMS muss eine RMS-fähige Anwendung auf den Benutzercompu
 
 Eine RMS-fähige Anwendung muss den RMS-Client in ihre Operationen integrieren. In älteren Betriebssystemen als Windows Vista® steht der RMS-Client als separat downloadbare Windows-Komponente im Microsoft Download Center zur Verfügung. Wenn Sie allerdings den Client nicht individuell für jeden Clientcomputer des Unternehmens herunterladen möchten, können Sie Microsoft Systems Management Server (SMS), eine Gruppenrichtlinie oder Skripts zur Automatisierung der Übertragung der RMS-Clients an die Clientcomputer verwenden.
 
-| ![](images/Cc747703.Important(WS.10).gif)Wichtig                              |
-|------------------------------------------------------------------------------------------------------------|
-| Der RMS-Client ist in Windows Vista integriert. Deshalb ist keine separate Installation mehr erforderlich. |
+> [!IMPORTANT]
+> Der RMS-Client ist in Windows Vista integriert. Deshalb ist keine separate Installation mehr erforderlich. 
 
 Beim Einsatz von SMS zur Verteilung des RMS-Clients müssen Sie folgende Schritte ausführen:
 
@@ -28,9 +27,8 @@ Beim Einsatz von SMS zur Verteilung des RMS-Clients müssen Sie folgende Schritt
 -   Verwenden Sie die Windows-Installationsdateien für die Paketdefinition und Quelle.
 -   Verbreiten Sie die Verfügbarkeit der Pakete über das Netzwerk.
 
-| ![](images/Cc747703.note(WS.10).gif)Hinweis                                                                                                                                     |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Zur Installation der Software sind Administratorrechte nötig. Die Sicherheitsrichtlinie Ihrer Organisation erfordert möglicherweise die Installation der RMS-Clientsoftware durch einen Systemadministrator. |
+> [!NOTE]
+> Zur Installation der Software sind Administratorrechte nötig. Die Sicherheitsrichtlinie Ihrer Organisation erfordert möglicherweise die Installation der RMS-Clientsoftware durch einen Systemadministrator. 
 
 Weitere Informationen über die Verwendung von SMS zum Verteilen von Software finden Sie im Handbuch für Konzepte, Planung und Bereitstellung für Systems Management Server 2003 ([http://go.microsoft.com/fwlink/?LinkId=17401](http://go.microsoft.com/fwlink/?linkid=17401)).
 

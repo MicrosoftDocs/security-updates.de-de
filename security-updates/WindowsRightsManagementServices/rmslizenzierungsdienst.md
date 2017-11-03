@@ -13,9 +13,8 @@ Der Lizenzierungsdienst, mit dem Nutzungslizenzen ausgegeben werden, wird auf de
 
 Die Anwendungsdatei für den Lizenzierungsdienst, License.asmx, befindet sich im virtuellen Verzeichnis Licensing von IIS (Internet Information Services oder Internetinformationsdienste).
 
-| ![](images/Cc720278.note(WS.10).gif)Hinweis                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sie können einen separaten Lizenzierungscluster bereitstellen, um Lizenzierungsanforderungen vom Stammcluster zu verschieben. Außerdem können Sie einen separaten Lizenzierungsserver oder -cluster für eine Abteilung bereitstellen, damit diese beispielsweise eigene Benutzerrechterichtlinien einrichten kann. Weitere Informationen zu diesen Möglichkeiten finden Sie unter „Identifizieren von Kernkomponenten“ im Abschnitt „Planen einer RMS-Bereitstellung“ in dieser Dokumentationssammlung. |
+> [!NOTE]
+> Sie können einen separaten Lizenzierungscluster bereitstellen, um Lizenzierungsanforderungen vom Stammcluster zu verschieben. Außerdem können Sie einen separaten Lizenzierungsserver oder -cluster für eine Abteilung bereitstellen, damit diese beispielsweise eigene Benutzerrechterichtlinien einrichten kann. Weitere Informationen zu diesen Möglichkeiten finden Sie unter „Identifizieren von Kernkomponenten“ im Abschnitt „Planen einer RMS-Bereitstellung“ in dieser Dokumentationssammlung. 
 
 Die Standardzugriffsteuerungsliste bei diesem Dienst wird in folgender Tabelle gezeigt:
 

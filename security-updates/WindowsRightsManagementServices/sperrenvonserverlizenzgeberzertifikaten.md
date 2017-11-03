@@ -54,6 +54,5 @@ Nachdem das Server-Lizenzgeberzertifikat des Stammzertifizierungsclusters gesper
 
 In beiden Szenarien – Sperrung durch Microsoft oder Sperrung durch einen Drittanbieter – tritt die Sperrliste für alle Bindungsanforderungen in Kraft, da sie vom privaten Schlüssel eines Prinzipals in der Vertrauenskette der Nutzungslizenz signiert wurde. Daher schlagen alle Bindungsanforderungen fehl, bei denen Lizenzen verwendet werden, die mithilfe des gesperrten Server-Lizenzgeberzertifikats von der RMS-Installation ausgestellt wurden.
 
-| ![](images/Cc747578.note(WS.10).gif)Hinweis            |
-|-------------------------------------------------------------------------------------|
-| Microsoft sperrt ein Server-Lizenzgeberzertifikat nur auf Anordnung eines Gerichts. |
+> [!NOTE]
+> Microsoft sperrt ein Server-Lizenzgeberzertifikat nur auf Anordnung eines Gerichts. 
