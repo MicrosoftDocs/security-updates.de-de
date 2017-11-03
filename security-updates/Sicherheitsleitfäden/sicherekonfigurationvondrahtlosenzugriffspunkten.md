@@ -3263,83 +3263,42 @@ Die zuvor erstellten Sicherheitsgruppen müssen Administratorfunktionen wie „P
     **Tabelle 13. Einträge für die Berechtigung der Zertifizierungsstelle**
 
 <table style="border:1px solid black;">
-
 <tr>
-
 <th style="border:1px solid black;">
-
 Gruppe
-
 </th>
-
 <th style="border:1px solid black;">
-
 Berechtigung
-
 </th>
-
 <th style="border:1px solid black;">
-
 Erlauben/Verweigern
-
 </th>
-
 </tr>
-
 <tr>
-
 <td style="border:1px solid black;">
-
-
 CA Admins
-
 </td>
-
 <td style="border:1px solid black;">
-
-
 Verwalten der Zertifizierungsstelle
-
 </td>
-
 <td style="border:1px solid black;">
-
-
 Erlauben
-
 </td>
-
 </tr>
-
 <tr>
-
 <td style="border:1px solid black;">
-
-
 Certificate Managers
-
 </td>
-
 <td style="border:1px solid black;">
-
-
 Ausstellen und Verwalten von Zertifikaten
-
 </td>
-
 <td style="border:1px solid black;">
-
-
 Erlauben
-
 </td>
-
 </tr>
-
 </table>
 
-
-3. Weitere Sicherheitsfunktionen für die Zertifizierungsstelle für diesen Server wurden bereits über die zuvor angewendete Sicherheitsrichtlinie definiert.
+   3. Weitere Sicherheitsfunktionen für die Zertifizierungsstelle für diesen Server wurden bereits über die zuvor angewendete Sicherheitsrichtlinie definiert.
 
 Übertragen des Zertifikats der Stammzertifizierungsstelle und der CRL auf Datenträger  
 Das Zertifikat der Stammzertifizierungsstelle und die CRL müssen von der Zertifizierungsstelle kopiert werden, damit sie für Active Directory und das IIS-Zertifikat und den CRL-Veröffentlichungsserver veröffentlicht werden können. Obwohl in diesem Beispiel die Verwendung eines Datenträgers beschrieben wird, kann jedes tragbare Medium verwendet werden (einschließlich USB-Laufwerke).
