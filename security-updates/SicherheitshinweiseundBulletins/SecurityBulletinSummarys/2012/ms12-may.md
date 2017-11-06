@@ -1561,7 +1561,7 @@ Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1
 
 <sup>[3]</sup>Dieses Update gilt nur für Windows Server 2008-Systeme, wenn die optionale Funktion „Desktopdarstellung“ installiert und aktiviert wurde. Weitere Informationen finden Sie in den häufig gestellten Fragen (FAQs) zu dem Update MS12-034.
 
-\[4\]Dieses Update gilt nur für Windows Server 2008 R2-Systeme, wenn die Komponente „Freihandunterstützung“ der optionalen Funktion „Freihand- und Handschriftdienste“ installiert und aktiviert wurde. Weitere Informationen finden Sie in den häufig gestellten Fragen (FAQs) zu dem Update MS12-034.
+<sup>[4]</sup>Dieses Update gilt nur für Windows Server 2008 R2-Systeme, wenn die Komponente „Freihandunterstützung“ der optionalen Funktion „Freihand- und Handschriftdienste“ installiert und aktiviert wurde. Weitere Informationen finden Sie in den häufig gestellten Fragen (FAQs) zu dem Update MS12-034.
 
 Weitere Updatedateien finden Sie außerdem unter anderen Softwarekategorien im Abschnitt **Betroffene Software und Downloadadressen** unter der gleichen Kennung des Bulletins. Dieses Bulletin umfasst mehr als eine Softwarekategorie.
 

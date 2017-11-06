@@ -128,11 +128,10 @@ Die von der Richtlinie für die Mitgliedsserver-Baseline angewendeten Sicherheit
 #### Konfigurieren der DHCP-Protokollierung
 
 Standardmäßig protokolliert der DHCP-Dienst nur das Starten und Herunterfahren als Ereignis im Ereignisprotokoll. Führen Sie die folgenden Schritte aus, um ein detaillierteres Protokoll auf dem DHCP-Server zu aktivieren:
-* Klicken Sie im DHCP-Verwaltungstool mit der rechten Maustaste auf den DHCP-Server.
 
-* Wählen Sie **Eigenschaften** aus.
-
-* Klicken Sie auf der Registerkarte **Allgemein** des Dialogfelds **Eigenschaften** auf **DHCP-Überwachungsprotokollierung aktivieren.**  
+1. Klicken Sie im DHCP-Verwaltungstool mit der rechten Maustaste auf den DHCP-Server. 
+2. Wählen Sie **Eigenschaften** aus. 
+3. Klicken Sie auf der Registerkarte **Allgemein** des Dialogfelds **Eigenschaften** auf **DHCP-Überwachungsprotokollierung aktivieren**.  
 
 
 Nach dem Ausführen dieser Schritte erstellt der DHCP-Server in folgendem Verzeichnis eine Protokolldatei:
@@ -244,7 +243,7 @@ Die Richtlinie wird getestet, um sicherzustellen, dass ihre Anwendung auf den Zi
 
 Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd verwenden, um wie im folgenden Verfahren veranschaulicht die Richtlinien in Gruppenrichtlinienobjekte umzuwandeln.
 
-Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Security Configuration Wizard Documentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx">Deployment Guide for the Security Configuration Wizard unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx**sowie in der 
+Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Security Configuration Wizard Documentation](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx">Deployment Guide for the Security Configuration Wizard unter www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx sowie in der 
 
 
 #### Umwandeln und Bereitstellen der Richtlinie
@@ -346,7 +345,7 @@ In diesem Beitrag
 <td style="border:1px solid black;">
 
 [![](https://technet.microsoft.com/de-de/Dd443727.pageLeft(de-de,TechNet.10).gif "Dd443727.pageLeft(de-de,TechNet.10).gif")](https://technet.microsoft.com/de-de/library/f86f67bd-c150-4d0d-ad85-ff13a01afb01(v=TechNet.10))
-7 von 19[![](https://technet.microsoft.com/de-de/Dd443727.pageRight(de-de,TechNet.10).gif "Dd443727.pageRight(de-de,TechNet.10).gif")](https://technet.microsoft.com/de-de/library/2b1536d0-9610-4fb5-93b4-72f62d9e2ff3(v=TechNet.10))
+7 von 19 [![](https://technet.microsoft.com/de-de/Dd443727.pageRight(de-de,TechNet.10).gif "Dd443727.pageRight(de-de,TechNet.10).gif")](https://technet.microsoft.com/de-de/library/2b1536d0-9610-4fb5-93b4-72f62d9e2ff3(v=TechNet.10))
 
 </td>
 
