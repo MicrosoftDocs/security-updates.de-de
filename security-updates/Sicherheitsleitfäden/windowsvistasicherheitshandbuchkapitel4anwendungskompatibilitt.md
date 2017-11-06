@@ -167,9 +167,9 @@ Sie können dieses Tool unter [Microsoft Standard User Analyzer](http://www.micr
 
 Microsoft hat eine Reihe von Tools und Dokumentationen bereitgestellt, die Sie beim Identifizieren und Verwalten des Anwendungsportfolios Ihres Unternehmens unterstützen sollen. Das Windows Anwendungskompatibilitäts-Toolkit (ACT) wurde entwickelt, um Kosten und Zeitaufwand für die Behebung von Problemen mit der Anwendungskompatibilität zu verringern und Windows Vista so schneller bereitstellen zu können.
 
-ACT unterstützt Sie bei den Vorbereitungen für den Einsatz von Windows Vista. Hierzu erstellt ACT ein Inventar Ihrer vorhandenen Anwendungen, verwaltet wichtige Anwendungen und bestimmt, in welchem Umfang Ihre Anwendungsumgebung möglicherweise speziell für Windows**** Vista vorbereitet werden muss.
+ACT unterstützt Sie bei den Vorbereitungen für den Einsatz von Windows Vista. Hierzu erstellt ACT ein Inventar Ihrer vorhandenen Anwendungen, verwaltet wichtige Anwendungen und bestimmt, in welchem Umfang Ihre Anwendungsumgebung möglicherweise speziell für Windows Vista vorbereitet werden muss.
 
-Zurzeit ist ACT 4.1 verfügbar und wurde ausgeliefert, um Kunden bei der Bereitstellung von Windows**** XP SP2 zu unterstützen. ACT 4.1 untersucht DCOM-Schnittstellen, Firewalleinstellungen und Probleme mit Internet Explorer. ACT wurde entwickelt um zu ermitteln, welche Anwendungen weitere Tests erfordern, welche Anwendungen veraltet und welche bereits mit SP2 kompatibel sind, so dass Sie Prioritäten für Ihre Arbeit setzen können.
+Zurzeit ist ACT 4.1 verfügbar und wurde ausgeliefert, um Kunden bei der Bereitstellung von Windows XP SP2 zu unterstützen. ACT 4.1 untersucht DCOM-Schnittstellen, Firewalleinstellungen und Probleme mit Internet Explorer. ACT wurde entwickelt um zu ermitteln, welche Anwendungen weitere Tests erfordern, welche Anwendungen veraltet und welche bereits mit SP2 kompatibel sind, so dass Sie Prioritäten für Ihre Arbeit setzen können.
 
 ACT 5.0 wurde speziell im Hinblick auf die Sicherheitsfeatures von Windows Vista aktualisiert.
 

@@ -144,7 +144,7 @@ Andrew Mason
 
 Don McGowan
 
-James Noyce *  (Beratungsexperte,* *Business Critical Consulting)*
+James Noyce *(Beratungsexperte, Business Critical Consulting)*
 
 Joe Porter
 
