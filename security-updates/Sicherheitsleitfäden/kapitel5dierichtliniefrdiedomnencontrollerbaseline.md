@@ -1372,7 +1372,7 @@ Syskey kann mit den entsprechenden Betriebsprozessen eine erhöhte Sicherheit bi
 
 Microsoft empfiehlt in den drei in diesem Handbuch definierten Umgebungen den Einsatz von Active Directory-integriertem DNS. Einer der Gründe dafür liegt darin, dass die Integration der Active Directory-Zonen eine Sicherung der DNS-Infrastruktur in einer Umgebung mit Active Directory-integriertem DNS eher zulässt als in einer Umgebung, die kein Active Directory-integriertes DNS verwendet.
 
-Schützen von DNS-Servern
+#### Schützen von DNS-Servern
 
 Das Schützen der DNS-Server ist in jeder Active Directory-Umgebung von entscheidender Bedeutung. Die folgenden Abschnitten enthalten Empfehlungen und Erläuterungen zum Schützen von DNS-Servern.
 
@@ -1386,7 +1386,7 @@ Nicht alle Angriffe verfolgen das Ziel des Spoofing von DNS-Servern. Einige DoS-
 
 Deshalb sind die Router, die in den drei in diesem Handbuch definierten Umgebungen verwendet werden, so konfiguriert, dass sie durch Spoofing manipulierte IP-Pakete fallen lassen. Dadurch wird sichergestellt, dass die IP-Adressen von DNS-Servern nicht von anderen Computern durch Spoofing manipuliert werden.
 
-Konfigurieren von sicheren dynamischen Updates
+#### Konfigurieren von sicheren dynamischen Updates
 
 Der Dienst **DNS-Client** in Windows Server 2003 mit SP1 unterstützt dynamische DNS-Updates, wodurch Clientsysteme DNS-Einträge direkt in die Datenbank eingeben können. Wenn ein dynamischer DNS-Server so konfiguriert ist, dass er unsichere Updates akzeptiert, könnte ein Angreifer schädliche oder nicht autorisierte Updates von einem Clientcomputer senden, der das dynamische DNS-Updateprotokoll unterstützt.
 
@@ -1402,7 +1402,7 @@ Die Verwendung von sicheren dynamischen DNS-Aktualisierungen stellt sicher, dass
 
 Aus diesen Gründen sind die Active Directory-DNS-Server in den drei in diesem Handbuch definierten Umgebungen so konfiguriert, dass sie nur sichere dynamische Updates akzeptieren.
 
-Begrenzen von Zonenübertragungen zu autorisierten Systemen
+#### Begrenzen von Zonenübertragungen zu autorisierten Systemen
 
 Aufgrund der bedeutenden Rolle von Zonen in DNS sollten sie für mehr als einen DNS-Server im Netzwerk zur Verfügung stehen, um eine entsprechende Verfügbarkeit und Fehlertoleranz bei Anfragen zur Namensauflösung zu liefern. Beim Hosten einer Zone durch zusätzliche Server sind Zonenübertragungen erforderlich, um alle Kopien der Zone für jeden Server, der für das Hosten der Zone konfiguriert ist, zu replizieren und zu synchronisieren.
 
@@ -1410,7 +1410,7 @@ Ein DNS-Server, der nicht einschränkt, wer Zonenübertragungen anfordern kann, 
 
 Aus diesen Gründen sind die Active Directory-integrierten DNS-Server in den drei in diesem Handbuch definierten Umgebungen so konfiguriert, dass Zonenübertragungen zugelassen werden, wobei jedoch eingeschränkt wird, welche Computer Übertragungsanforderungen stellen können.
 
-Ändern der Größe des Ereignisprotokolls und des DNS-Dienstprotokolls
+#### Ändern der Größe des Ereignisprotokolls und des DNS-Dienstprotokolls
 
 Es müssen genügend Informationen protokolliert werden, um die den DNS-Dienst effektiv überwachen und aufrechterhalten zu können. Informationen von sämtlichen Domänencontrollern in der Umgebung sind erforderlich.
 
@@ -1854,7 +1854,7 @@ In diesem Beitrag
 <td style="border:1px solid black;">
 
 [![](https://technet.microsoft.com/de-de/Dd443726.pageLeft(de-de,TechNet.10).gif "Dd443726.pageLeft(de-de,TechNet.10).gif")](http://www.microsoft.com/germany/technet/sicherheit/prodtech/windowsserver2003/w2003hg/s3sgch04.mspx)
-6 von 19[![](https://technet.microsoft.com/de-de/Dd443726.pageRight(de-de,TechNet.10).gif "Dd443726.pageRight(de-de,TechNet.10).gif")](http://www.microsoft.com/germany/technet/sicherheit/prodtech/windowsserver2003/w2003hg/s3sgch06.mspx)
+6 von 19 [![](https://technet.microsoft.com/de-de/Dd443726.pageRight(de-de,TechNet.10).gif "Dd443726.pageRight(de-de,TechNet.10).gif")](http://www.microsoft.com/germany/technet/sicherheit/prodtech/windowsserver2003/w2003hg/s3sgch06.mspx)
 
 </td>
 
