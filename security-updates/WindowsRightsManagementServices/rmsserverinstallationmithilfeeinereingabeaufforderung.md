@@ -55,7 +55,9 @@ In der untenstehenden Tabelle wird die Syntax für jeden Befehl erläutert.
 <td style="border:1px solid black;">Optional. Gibt an, dass die Seite <strong>Globale Verwaltung</strong> nach der Installation nicht angezeigt wird.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><strong>TARGETDIR=c:\</strong><em>Installationsort</em></td>
+<td style="border:1px solid black;">
+
+<strong>TARGETDIR=c:\\</strong><em>Installationsort</em></td>
 <td style="border:1px solid black;">Optional. Gibt das Verzeichnis an, in dem RMS mit Service Pack 2 installiert werden soll. Wenn Sie keinen Pfad angeben, wird der Standardinstallationspfad verwendet.</td>
 </tr>
 </tbody>
