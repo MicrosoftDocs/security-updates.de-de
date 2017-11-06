@@ -547,8 +547,8 @@ Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Bet
 
 Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
 
--   Abdul Aziz Hariri in Zusammenarbeit mit [TippingPoints](http://www.tippingpoint.com/)**[Zero Day Initiative](http://www.zerodayinitiative.com/) für den Hinweis auf ein in MS11-002 beschriebenes Problem
--   Peter Vreugdenhil in Zusammenarbeit mit [TippingPoints](http://www.tippingpoint.com/)**[Zero Day Initiative](http://www.zerodayinitiative.com/) für den Hinweis auf ein in MS11-002 beschriebenes Problem
+-   Abdul Aziz Hariri in Zusammenarbeit mit [TippingPoints](http://www.tippingpoint.com/)[Zero Day Initiative](http://www.zerodayinitiative.com/) für den Hinweis auf ein in MS11-002 beschriebenes Problem
+-   Peter Vreugdenhil in Zusammenarbeit mit [TippingPoints](http://www.tippingpoint.com/)[Zero Day Initiative](http://www.zerodayinitiative.com/) für den Hinweis auf ein in MS11-002 beschriebenes Problem
 
 #### Support
 
