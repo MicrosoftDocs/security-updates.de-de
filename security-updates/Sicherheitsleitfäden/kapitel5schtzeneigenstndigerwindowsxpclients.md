@@ -225,7 +225,7 @@ Es gibt mehrere verschiedene Vorlagen, über die Sie eigenständige Clientcomput
 
 Bei einer Sicherheitsvorlage handelt es sich um eine Datei mit einer Sicherheitskonfiguration. Wenn Sie Sicherheitsvorlagen auf einen lokalen Computer anwenden möchten, können Sie sie in das lokale Gruppenrichtlinienobjekt importieren. Die lokalen Richtlinien werden mit den Vorlagen konfiguriert, die in Kapitel 3, „Sicherheitseinstellungen für Windows XP Clients“, erstellt wurden. Der Administrator verwendet die Snap-Ins „Sicherheitskonfiguration und -analyse“ und „Sicherheitsvorlagen“ der Microsoft Management Console (MMC) sowie Secedit.exe, um die Kontenrichtlinien zu erstellen und die beiden Sicherheitsvorlagen auf dem eigenständigen Computer zusammenzuführen.
 
-Erstellen einer Sicherheitsdatenbank
+#### Erstellen einer Sicherheitsdatenbank
 
 Wenn Sie das Importieren der Sicherheitseinstellungen auf einen eigenständigen Clientcomputer automatisieren möchten, muss eine Referenzdatenbank erstellt werden, mit der die lokale Sicherheitsrichtlinie geschrieben wird. Die Basisdatenbank wurde mithilfe des MMC-Snap-Ins „Sicherheitskonfiguration und -analyse“ erstellt. Die Datenbank „XP-Standardsicherheit.sdb“ wurde mit den im Folgenden beschriebenen Schritten erstellt. Bei der Festlegung der Standardrichtlinieneinstellungen für den eigenständigen Clientcomputer wurde von der Datenbank die Datei „Setup security.inf“ als Vorlage verwendet.
 
@@ -250,7 +250,7 @@ Wenn Sie das Importieren der Sicherheitseinstellungen auf einen eigenständigen 
 
 Durch diesen Vorgang wird eine Datenbankdatei mit den Standardsicherheitseinstellungen erstellt, die bei der Automatisierung verwendet werden. Kopieren Sie die Sicherheitsdatenbank in denselben Ordner, in den Sie die Skripts und die Informationsdateien kopiert haben. Mit den benutzerdefinierten Skripts wird die Datenbank konfiguriert, die wiederum die lokale Sicherheitsrichtlinie konfiguriert. Durch Ausführen ähnlicher Schritte kann der Administrator anstelle der in diesem Handbuch enthaltenen auch eine eigene Datenbank erstellen.
 
-Erstellen benutzerdefinierter Vorlagen
+#### Erstellen benutzerdefinierter Vorlagen
 
 Mit dem MMC-Snap-In „Sicherheitsvorlagen“ können Sie in den Vorlagen Einstellungen für Sicherheitsrichtlinien definieren, die Sie dann auf einen lokalen Computer anwenden können. Die Vorlagen „SA Unternehmensclient - Konto.inf“ und „SA Hochsicher - Konto.inf“ wurden mit den im Folgenden beschriebenen Schritten erstellt. Dabei wurden die Richtlinieneinstellungen aus den in Kapitel 2, „Konfigurieren der Domäneninfrastruktur von Active Directory“, aufgeführten Tabellen zu Kontenrichtlinien verwendet.
 
@@ -284,7 +284,7 @@ Nachdem die Dateien erstellt sind, können Sie sie unter **%windir%\security\tem
 
 Das Tool Secedit.exe ist hilfreich, wenn Sie die Sicherheit auf mehreren Computern konfigurieren müssen. Sie können das Tool Secedit.exe an einer Eingabeaufforderung, aus einer Batchdatei oder aus dem automatischen Taskplaner aufrufen, um automatisch Vorlagen zu erstellen und anzuwenden. Darüber hinaus kann dieses Tool über eine Eingabeaufforderung dynamisch ausgeführt werden. Bei den in diesem Handbuch bereitgestellten Skripts werden mithilfe des Tools Secedit.exe lokale Richtlinien zusammengeführt und auf Clientcomputer angewendet.
 
-Manuelles Anwenden der lokalen Richtlinie
+#### Manuelles Anwenden der lokalen Richtlinie
 
 Verwenden Sie das MMC-Snap-In „Sicherheitskonfiguration und -analyse“, um alle Richtlinieneinstellungen anzuwenden, die sich in der in diesem Handbuch enthaltenen.inf-Datei der Sicherheitsvorlage für eigenständige Clients befinden. Verwenden Sie dazu nicht das Snap-In „Richtlinie für lokalen Computer“. Die Sicherheitsvorlage kann nicht mit dem Snap-In „Richtlinie für lokalen Computer“ importiert werden, weil damit keine Einstellungen für Sicherheitsrichtlinien auf Systemdienste angewendet werden können.
 

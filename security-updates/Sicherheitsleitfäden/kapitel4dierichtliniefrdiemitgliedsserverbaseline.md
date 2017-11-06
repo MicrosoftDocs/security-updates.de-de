@@ -54,9 +54,10 @@ In der folgenden Abbildung werden die drei Sicherheitsumgebungen und die darin j
 
 ![](images/dd443725.sgfg0401(de-de,technet.10).gif)
 
-**Abbildung 4.1: Bestehende und geplante Sicherheitsumgebungen**
- 
-[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443725.sgfg0401_big(de-de,technet.10).gif)
+**Abbildung 4.1: Bestehende und geplante Sicherheitsumgebungen**  
+
+[Bild in voller Größe anzeigen](https://technet.microsoft.com/de-de/dd443725.sgfg0401_big(de-de,technet.10).gif)  
+
 Organisationen, die einen auf mehreren Phasen beruhenden Ansatz für die Sicherung ihrer Umgebungen verwenden möchten, können auf der Ebene von Umgebungen mit älteren Clients beginnen und dann schrittweise zu Umgebungen mit höherer Sicherheit übergehen, wenn ihre Anwendungen und Clientcomputer aktualisiert und mit strengeren Sicherheitseinstellungen getestet werden.
 
 Die folgende Abbildung zeigt, wie die INF-Sicherheitsvorlagen als Grundlage für die Mitgliedsserver-Baseline-Richtlinie (MSBP) der Unternehmensclient-Umgebung verwendet werden. In der Abbildung wird auch eine Möglichkeit aufgezeigt, wie diese Richtlinie verknüpft und auf alle Server in einer Organisation angewendet werden kann.
@@ -6567,7 +6568,7 @@ Arbeitsstation sperren
 
 Durch diese Richtlinieneinstellung wird festgelegt, ob der Kontoname des zuletzt auf den Clientcomputern Ihrer Organisation angemeldeten Benutzers auf dem Windows-Anmeldebildschirm jedes Computers angezeigt wird. Bei Aktivierung dieser Richtlinieneinstellung können Eindringlinge nicht die Kontonamen von den Bildschirmen der Desktop- oder Laptopcomputer in Ihrer Organisation ablesen.
 
-Die Einstellung **Interaktive Anmeldung: Benutzerinformationen bei gesperrter Sitzung anzeigen** ist für Umgebungen mit älteren Clients und Unternehmensclient-Umgebungen auf **Nicht definiert** gesetzt. In der Baseline-Serverrichtlinie für die Hochsicherheitsumgebung ist sie auf **Benutzeranzeigenamen****,****Domäne und Benutzernamen** gesetzt.
+Die Einstellung **Interaktive Anmeldung: Benutzerinformationen bei gesperrter Sitzung anzeigen** ist für Umgebungen mit älteren Clients und Unternehmensclient-Umgebungen auf **Nicht definiert** gesetzt. In der Baseline-Serverrichtlinie für die Hochsicherheitsumgebung ist sie auf **Benutzeranzeigenamen**,**Domäne und Benutzernamen** gesetzt.
 
 ##### Interaktive Anmeldung: Letzten Benutzernamen nicht anzeigen
 
@@ -10011,7 +10012,7 @@ Obwohl die meisten Gegenmaßnahmen zum Absichern der in diesem Handbuch enthalte
 
 In diesem Abschnitt wird beschrieben, wie einige zusätzliche Gegenmaßnahmen (wie z. B. das Sichern von Konten) für die einzelnen in diesem Handbuch definierten Sicherheitsumgebungen manuell implementiert wurden.
 
-Manuelles Hinzufügen von eindeutigen Sicherheitsgruppen zu den Zuweisungen von Benutzerrechten
+**Manuelles Hinzufügen von eindeutigen Sicherheitsgruppen zu den Zuweisungen von Benutzerrechten**
 
 Die meisten empfohlenen Sicherheitsgruppen für Zuweisungen von Benutzerrechten wurden innerhalb der Sicherheitsvorlagen konfiguriert, die diesem Handbuch angefügt sind. Einige Rechte können jedoch nicht in die Sicherheitsvorlagen eingeschlossen werden, da die SIDs spezifischer Sicherheitsgruppen in Bezug auf unterschiedliche Windows 2003-Domänen eindeutig sind. Das Problem besteht darin, dass die in der SID enthaltene RID (relative ID) eindeutig ist. Diese Rechte werden in der folgenden Tabelle aufgeführt.
 
@@ -10202,7 +10203,7 @@ Führen Sie die folgenden Schritte aus, um bekannte Konten auf Domänen und Serv
 * Notieren Sie die vorgenommenen Änderungen, und bewahren Sie diese Informationen an einem sicheren Ort auf.
   
 
-**Hinweis**: Das vordefinierte Administratorkonto kann durch Gruppenrichtlinien umbenannt werden. Diese Einstellung wurde in der Baseline-Richtlinie nicht implementiert, weil jede Organisation einen eindeutigen Namen für dieses Konto auswählen sollte. Sie können jedoch die Einstellung **Konten: Administratorkonto umbenennen** so konfigurieren, dass Administratorkonten in den drei in diesem Handbuch definierten Umgebungen umbenannt werden. Diese Richtlinieneinstellung ist Teil der Einstellungen für die Sicherheitsoptionen eines Gruppenrichtlinienobjekts.
+     **Hinweis**: Das vordefinierte Administratorkonto kann durch Gruppenrichtlinien umbenannt werden. Diese Einstellung wurde in der Baseline-Richtlinie nicht implementiert, weil jede Organisation einen eindeutigen Namen für dieses Konto auswählen sollte. Sie können jedoch die Einstellung **Konten: Administratorkonto umbenennen** so konfigurieren, dass Administratorkonten in den drei in diesem Handbuch definierten Umgebungen umbenannt werden. Diese Richtlinieneinstellung ist Teil der Einstellungen für die Sicherheitsoptionen eines Gruppenrichtlinienobjekts.
 
 
 ##### Sichern von Dienstkonten
@@ -10464,7 +10465,7 @@ Diese Richtlinieneinstellung kann unter Windows Server 2003 im Gruppenrichtlini
 
 Setzen Sie die Einstellung zum Deaktivieren der **Windows**-**Fehlerberichterstattung** in der Domänencontroller-Baseline-Richtlinie für alle drei in diesem Handbuch definierten Umgebungen auf **Aktiviert.**  
 
-Aktivieren manueller Speicherabbilder
+#### Aktivieren manueller Speicherabbilder
 
 Windows Server 2003 mit SP1 enthält ein Merkmal, das Sie zum Anhalten des Computers und Erstellen einer Memory.dmp-Datei verwenden können. Sie müssen diese Funktion, die möglicherweise nicht für alle Server Ihrer Organisation geeignet ist, ausdrücklich aktivieren. Wenn Sie feststellen, dass die Erfassung von Speicherabbildern auf einigen Servern sinnvoll wäre, können Sie die Anweisungen im Artikel [Ein Windows-Feature ermöglicht das Erzeugen einer Datei "Memory.dmp" mit der Tastatur](http://support.microsoft.com/default.aspx?kbid=244139) unter [http://support.microsoft.com/default.aspx?kbid=244139](http://support.microsoft.com/default.aspx?kbid=244139) befolgen.
 
@@ -10482,37 +10483,23 @@ Es empfiehlt sich, das Betriebssystem zu Beginn der Konfigurationsarbeit neu zu 
 Während der Erstellung der Mitgliedsserver-Baseline-Richtlinie werden Sie wahrscheinlich die Dateiserverrolle aus der Liste mit den erkannten Rollen entfernen. Diese Rolle wird häufig auf Servern konfiguriert, die sie nicht benötigen. Sie könnte als Sicherheitsrisiko betrachtet werden. Um die Dateiserverrolle für Server zu aktivieren, die sie benötigen, können Sie zu einem späteren Zeitpunkt eine zweite Richtlinie anwenden.
 
 **So erstellen Sie die Richtlinie für die Mitgliedsserver-Baseline (MSBP)**
-* Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
 
-* Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
-
-* Treten Sie mit dem Computer der Domäne bei.
-
-* Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die auf sämtlichen Servern Ihrer Umgebung benötigt werden. Dazu zählen beispielsweise Ihre Software- und Verwaltungsagenten, Bandsicherungsagenten und Antiviren- und Antispywaredienstprogramme.
-
-* Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
-
-* Entfernen Sie die Dateiserverrolle aus der Liste mit den erkannten Rollen.
-
-* Stellen Sie sicher, dass die ermittelten Serverrollen für Ihre Umgebung geeignet sind.
-
-* Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind.
-
-* Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind.
-
-* Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
-
-* Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
-
-* Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter.**   Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert.
-
-* Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
-
-* Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
-
-* Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. Unternehmensclient-Mitgliedsserver-Baseline.inf).
-
-* Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. Mitgliedsserver-Baseline.xml).
+1. Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1. 
+2. Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken. 
+3. Treten Sie mit dem Computer der Domäne bei. 
+4. Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die auf sämtlichen Servern Ihrer Umgebung benötigt werden. Dazu zählen beispielsweise Ihre Software- und Verwaltungsagenten, Bandsicherungsagenten und Antiviren- und Antispywaredienstprogramme. 
+5. Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer. 
+6. Entfernen Sie die Dateiserverrolle aus der Liste mit den erkannten Rollen. 
+7. Stellen Sie sicher, dass die ermittelten Serverrollen für Ihre Umgebung geeignet sind. 
+8. Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind. 
+9. Stellen Sie sicher, dass die erkannten Verwaltungsfunktionen für Ihre Umgebung geeignet sind. 
+10. Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden. 
+11. Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann. 
+12. Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnittsim Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter**. Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert. 
+13. Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert. 
+14. Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert. 
+15. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. Unternehmensclient-Mitgliedsserver-Baseline.inf). 
+16. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. Mitgliedsserver-Baseline.xml).
 
 
 
@@ -10534,19 +10521,20 @@ Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Dokumentatio
 #### Umwandeln und Bereitstellen der Richtlinie
 
 Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schritte aus, um sie in ein Gruppenrichtlinienobjekt umzuwandeln und bereitzustellen:
-* Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
+
+1. Geben Sie an der Eingabeaufforderung folgenden Befehl ein:
+ 
+    `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
+
+     und drücken Sie anschließend die Eingabetaste. Beispiel:
  
 
+    `scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Member`   
+    `Server Baseline.xml" /g:"Member Server Baseline Policy"`
 
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;</CodeSnippet>
-und drücken Sie anschließend die Eingabetaste. Beispiel:
- 
-
-
-<CodeSnippet Language="" ContainsMarkup="false" DisplayLanguage="">scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Member Server Baseline.xml" /g:"Member Server Baseline Policy"</CodeSnippet>
 **Hinweis**: Die an der Eingabeaufforderung einzugebenden Daten werden hier aufgrund von Anzeigebeschränkungen in mehreren Zeilen angezeigt. Die Daten sollten jedoch in einer Zeile eingegeben werden.
 
-* Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
+2. Verknüpfen Sie mithilfe der Gruppenrichtlinien-Verwaltungskonsole das neu erstellte Gruppenrichtlinienobjekt mit der jeweiligen Organisationseinheit.
 
 
 Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, öffnen Sie die Systemsteuerung, und doppelklicken Sie auf **Windows-Firewall.**  
@@ -10660,7 +10648,7 @@ In diesem Beitrag
 <td style="border:1px solid black;">
 
 [![](https://technet.microsoft.com/de-de/Dd443725.pageLeft(de-de,TechNet.10).gif "Dd443725.pageLeft(de-de,TechNet.10).gif")](https://technet.microsoft.com/de-de/library/70e3e562-9517-4fb9-b617-ef7854a0f03c(v=TechNet.10))
-5 von 19[![](https://technet.microsoft.com/de-de/Dd443725.pageRight(de-de,TechNet.10).gif "Dd443725.pageRight(de-de,TechNet.10).gif")](https://technet.microsoft.com/de-de/library/f86f67bd-c150-4d0d-ad85-ff13a01afb01(v=TechNet.10))
+5 von 19 [![](https://technet.microsoft.com/de-de/Dd443725.pageRight(de-de,TechNet.10).gif "Dd443725.pageRight(de-de,TechNet.10).gif")](https://technet.microsoft.com/de-de/library/f86f67bd-c150-4d0d-ad85-ff13a01afb01(v=TechNet.10))
 
 </td>
 

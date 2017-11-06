@@ -239,9 +239,9 @@ Bei der Installation von Dateien auf der Festplatte von Windows XP-basierten Co
 Bei der Definition einer Pfadregel können Sie Umgebungsvariablen verwenden. Da Pfadregeln in der Clientumgebung ausgewertet werden, ermöglicht die Verwendung von Umgebungsvariablen, eine Regel an die Umgebung eines bestimmten Benutzers anzupassen.
 
 Die folgenden beiden Beispiele veranschaulichen die Anwendung von Umgebungsvariablen auf eine Pfadregel.
-* „%UserProfile%“ entspricht **C:\Dokumente und Einstellungen\*****&lt;Benutzer&gt;*** und allen Unterordnern dieses Verzeichnisses.
+* „%UserProfile%“ entspricht **C:\Dokumente und Einstellungen\&lt;Benutzer&gt;** und allen Unterordnern dieses Verzeichnisses.
 
-* „%ProgramFiles%\*&lt;Anwendung&gt;*“ entspricht **C:\Programme\*****&lt;Anwendung&gt;*** und allen Unterordnern dieses Verzeichnisses.
+* „%ProgramFiles%\*&lt;Anwendung&gt;*“ entspricht **C:\Programme\ &lt;Anwendung&gt;** und allen Unterordnern dieses Verzeichnisses.
 
     **Hinweis**: Umgebungsvariablen werden nicht durch Zugriffssteuerungslisten (Access Control Lists, ACLs) geschützt. Es werden zwei Arten von Umgebungsvariablen unterschieden: **Benutzervariablen** und **Systemvariablen.**   Benutzer, die eine Eingabeaufforderung öffnen dürfen, können die Umgebungsvariable **Benutzer** mit einem anderen Pfad neu definieren. Die Umgebungsvariable **System** können nur Benutzer ändern, die Mitglied der Gruppe **Administratoren** sind.
 
@@ -257,7 +257,7 @@ In einer Pfadregel können die Platzhalter „?“ und „*“ verwendet werden.
 
 * **C:\win*** entspricht **C:\winnt**, **C:\windows**, **C:\windir** und allen Unterordnern der jeweiligen Verzeichnisse.
 
-* *.**  vbs** entspricht allen Anwendungen in Windows XP Professional mit dieser Erweiterung.
+* *.**vbs** entspricht allen Anwendungen in Windows XP Professional mit dieser Erweiterung.
 
 * **C:\Anwendungsdateien\*.*** entspricht allen Anwendungsdateien im angegebenen Unterverzeichnis.
 
