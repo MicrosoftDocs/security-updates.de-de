@@ -63,7 +63,7 @@ Zu den in Microsoft Windows verfügbaren Sicherheitseinstellungen zählen u. a.
 
     -   Domänenmitglied: Daten des sicheren Kanals digital signieren (wenn möglich)
 
-    -   Domänenmitglied: Starker Sitzungsschlüssel erforderlich (Windows* *2000 oder höher)
+    -   Domänenmitglied: Starker Sitzungsschlüssel erforderlich (Windows 2000 oder höher)
 
     -   Netzwerkzugriff: Anonyme SID-/Namensübersetzung zulassen
 
