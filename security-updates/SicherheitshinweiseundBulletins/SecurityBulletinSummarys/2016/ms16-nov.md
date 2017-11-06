@@ -1681,7 +1681,7 @@ Windows Vista x64 Edition Service Pack 2
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -1783,7 +1783,7 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -1918,7 +1918,7 @@ Windows 7 für x64-basierte Systeme Service Pack 1
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -2045,7 +2045,7 @@ Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -2180,7 +2180,7 @@ Windows 8.1 für x64-basierte Systeme
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -2307,7 +2307,7 @@ Windows Server 2012 R2
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -2367,7 +2367,7 @@ Windows RT 8.1(3197874)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -2559,7 +2559,7 @@ Windows 10 Version 1607 für x64-basierte Systeme(3200970)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -2619,7 +2619,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-129**](https://go.microsoft.com/fwlink/?linkid=830431)
@@ -2845,7 +2845,7 @@ Windows Server 2012 R2 (Server Core-Installation)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -2952,7 +2952,7 @@ Windows Vista x64 Edition Service Pack 2
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -3090,7 +3090,7 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -3251,7 +3251,7 @@ Windows 7 für x64-basierte Systeme Service Pack 1
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -3412,7 +3412,7 @@ Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -3573,7 +3573,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -3734,7 +3734,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -3806,7 +3806,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -4015,7 +4015,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -4088,7 +4088,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;" colspan="2">
 [**MS16-134**](http://go.microsoft.com/fwlink/?linkid=828018)
@@ -4366,7 +4366,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -4431,7 +4431,7 @@ Internet Explorer 9 
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -4513,7 +4513,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -4614,7 +4614,7 @@ Internet Explorer 11
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -4715,7 +4715,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -4832,7 +4832,7 @@ Internet Explorer 11
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -4949,7 +4949,7 @@ Internet Explorer 11
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -5001,7 +5001,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -5153,7 +5153,7 @@ Internet Explorer 11
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)
@@ -5202,7 +5202,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-**Kennung des Bulletins                                                 **
+**Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
 [**MS16-140**](http://go.microsoft.com/fwlink/?linkid=827857)

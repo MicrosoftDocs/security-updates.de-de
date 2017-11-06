@@ -39,8 +39,7 @@ Installing RMS with Service Pack 2
 
 8.  When the **Installation Complete** dialog box appears, click **Close**.
 
-    | ![](images/Cc720217.note(WS.10).gif)Hinweis                                                 |
-    |--------------------------------------------------------------------------------------------------------------------------|
-    | If an "Application is restarting" error message appears, refresh the **Global Administration** page in your Web browser. |
+     > [!NOTE]
+     > If an "Application is restarting" error message appears, refresh the **Global Administration** page in your Web browser.
 
 You can also install RMS from a command prompt. For instructions, see "[RMS-Serverinstallation mithilfe einer Eingabeaufforderung](https://technet.microsoft.com/b55b1e2a-dd14-4168-a37f-9cdedbec660b)" later in this subject.
