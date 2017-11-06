@@ -26,6 +26,7 @@ In der folgenden Tabelle sind die Sicherheitsbulletins für diesen Monat nach Sc
 
 Weitere Informationen zu betroffener Software finden Sie im nächsten Abschnitt **Betroffene Software**.
 
+<p></p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
