@@ -366,7 +366,7 @@ Nicht anwendbar
 [Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=16787c93-2c95-4c13-8492-be1db9d18146&displaylang=de)  
 (KB975560)  
 (Kritisch)  
-[Quartz in DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?familyid=59a8bc19-02bb-4800-bac1-464f59e1cb7b&displaylang=de)<sup>[1]</sup>
+[Quartz in DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?familyid=59a8bc19-02bb-4800-bac1-464f59e1cb7b&displaylang=de)<sup>[1]</sup>  
 (KB975560)  
 (Kritisch)
 </td>
@@ -1646,12 +1646,12 @@ Microsoft Office für Mac
 Microsoft Office 2004 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)<sup>[1]</sup>
+[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)<sup>[1]</sup>  
 (KB979674)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)<sup>[1]</sup>
+[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)<sup>[1]</sup>  
 (KB979674)  
 (Hoch)
 </td>
