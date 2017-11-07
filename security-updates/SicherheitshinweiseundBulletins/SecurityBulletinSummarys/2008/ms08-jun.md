@@ -447,41 +447,41 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 <td style="border:1px solid black;">Windows Server 2008 für 32-Bit-Systeme</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=a8922e7e-9264-4e09-b8ad-c5420fed8690">Windows Internet Explorer 7</a><br />
-(Mittel)<strong>**</strong></td>
+(Mittel)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=c0c495f8-2a35-4638-a635-1e55dd15e062">DirectX 10.0</a><br />
-(Kritisch)<strong>**</strong></td>
+(Kritisch)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2981156e-2e2f-469e-91be-da127d50f3fc">Active Directory</a><br />
 (KB949014)<br />
-(Mittel)<strong>*</strong><br />
+(Mittel)<strong>&#42;</strong><br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2981156e-2e2f-469e-91be-da127d50f3fc">AD LDS</a><br />
 (KB949014)<br />
-(Mittel)<strong>*</strong></td>
+(Mittel)<strong>&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=0466a6e7-fdca-4647-af62-449e5f20d1e4">Windows Server 2008 für 32-Bit-Systeme</a><br />
-(Mittel)<strong>**</strong></td>
+(Mittel)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=8a507fba-8c93-4952-91e4-98e9e7affbd2">Windows Server 2008 für 32-Bit-Systeme</a><br />
-(Niedrig)<strong>***</strong></td>
+(Niedrig)<strong>&#42;&#42;&#42;</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2008 für x64-basierte Systeme</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=05b0e838-24d7-4387-b069-2604bbcc43b9">Windows Internet Explorer 7</a><br />
-(Mittel)<strong>**</strong></td>
+(Mittel)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=0b70fc2e-4e80-4ae8-8682-41ea04c24e4e">DirectX 10.0</a><br />
-(Kritisch)<strong>**</strong></td>
+(Kritisch)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=b5cfe6f4-c5ba-4be9-a6b8-9381c40c85aa">Active Directory</a><br />
 (KB949014)<br />
-(Mittel)<strong>*</strong><br />
+(Mittel)<strong>&#42;</strong><br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=b5cfe6f4-c5ba-4be9-a6b8-9381c40c85aa">AD LDS</a><br />
 (KB949014)<br />
-(Mittel)<strong>*</strong></td>
+(Mittel)<strong>&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=304898e6-21a7-476f-b9ed-7ac0d88a91e2">Windows Server 2008 für x64-basierte Systeme</a><br />
-(Mittel)<strong>**</strong></td>
+(Mittel)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=1a11499d-a008-407f-9084-a5189fa27015">Windows Server 2008 für x64-basierte Systeme</a><br />
-(Niedrig)<strong>***</strong></td>
+(Niedrig)<strong>&#42;&#42;&#42;</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2008 für Itanium-basierte Systeme</td>
