@@ -167,7 +167,7 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3
 [Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703)<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -180,7 +180,7 @@ Windows XP Professional x64 Edition Service Pack 2
 [Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff)<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -265,7 +265,7 @@ Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1)<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -278,7 +278,7 @@ Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Servic
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5)<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -312,7 +312,7 @@ Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Sy
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c)\*\*  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c)\*\*<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c)\*\*<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -325,7 +325,7 @@ Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0)\*\*  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0)\*\*<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0)\*\*<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -338,7 +338,7 @@ Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076)<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -369,7 +369,7 @@ Windows 7
 Windows 7 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=1f0c17be-ba4c-4a1c-b9c3-8ac368800947)<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=1f0c17be-ba4c-4a1c-b9c3-8ac368800947)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -379,7 +379,7 @@ Windows 7 für 32-Bit-Systeme
 Windows 7 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a70f15e1-512c-44ca-a308-928e237ac0ce)<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a70f15e1-512c-44ca-a308-928e237ac0ce)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -410,7 +410,7 @@ Windows Server 2008 R2
 Windows Server 2008 R2 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=e2e25c02-38ce-4868-a01a-39fc7d2a4150)\*\* <sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=e2e25c02-38ce-4868-a01a-39fc7d2a4150)\*\* <sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -420,7 +420,7 @@ Windows Server 2008 R2 für x64-basierte Systeme
 Windows Server 2008 R2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=53ed1055-b5ee-4fde-9550-f8b401916467)<sup>[1]</sup>
+[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=53ed1055-b5ee-4fde-9550-f8b401916467)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -540,7 +540,7 @@ Microsoft Visual Basic für Applikationen
 Microsoft Visual Basic für Applikationen
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Basic für Applikationen](http://www.microsoft.com/downloads/details.aspx?familyid=436a8a66-352e-44d1-a610-c825083ad24a)<sup>[1]</sup>
+[Microsoft Visual Basic für Applikationen](http://www.microsoft.com/downloads/details.aspx?familyid=436a8a66-352e-44d1-a610-c825083ad24a)<sup>[1]</sup>  
 (KB974945)  
 (Kritisch)
 </td>
@@ -550,7 +550,7 @@ Microsoft Visual Basic für Applikationen
 Microsoft Visual Basic für Applikationen SDK
 </td>
 <td style="border:1px solid black;">
-Microsoft Visual Basic für Applikationen SDK<sup>[2]</sup><sup>[3]</sup>
+Microsoft Visual Basic für Applikationen SDK<sup>[2]</sup><sup>[3]</sup>  
 (Kritisch)
 </td>
 </tr>
