@@ -611,7 +611,7 @@ Windows Server 2003 Service Pack 2
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internetinformationsdienste 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=0761c207-5465-4f42-b61f-bd02efcef27d)<sup>[1]</sup>
+[Internetinformationsdienste 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=0761c207-5465-4f42-b61f-bd02efcef27d)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -641,7 +641,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 [Windows Media Format Runtime 9.5](http://www.microsoft.com/downloads/details.aspx?familyid=41faf16f-c7a8-4ce0-b388-a65478576163)  
 (KB978695)  
 (Kritisch)  
-[Windows Media Format Runtime 9.5 x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=80006082-55f2-4857-9d2c-276c758b5555)<sup>[3]</sup>
+[Windows Media Format Runtime 9.5 x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=80006082-55f2-4857-9d2c-276c758b5555)<sup>[3]</sup>  
 (KB978695)  
 (Kritisch)  
 [Windows Media Encoder 9 x86](http://www.microsoft.com/downloads/details.aspx?familyid=94c654f0-f70f-4fbd-84de-797be20fc3b9)  
@@ -671,7 +671,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internetinformationsdienste 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=023572ff-ce5d-4428-a96b-1245db6ff312)<sup>[1]</sup>
+[Internetinformationsdienste 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=023572ff-ce5d-4428-a96b-1245db6ff312)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -717,7 +717,7 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internetinformationsdienste 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=f1f3e524-8ac6-4210-a3a8-4ffc58a606ea)<sup>[1]</sup>
+[Internetinformationsdienste 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=f1f3e524-8ac6-4210-a3a8-4ffc58a606ea)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -824,7 +824,7 @@ Nur Windows Vista Service Pack 1:
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=01382926-2313-4769-a0a5-262c4f9f18a1)<sup>[1]</sup>
+[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=01382926-2313-4769-a0a5-262c4f9f18a1)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -882,7 +882,7 @@ Nur Windows Vista x64 Edition Service Pack 1:
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=7fb6f2b8-c7a6-4239-99f3-cf3aacf89b0f)<sup>[1]</sup>
+[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=7fb6f2b8-c7a6-4239-99f3-cf3aacf89b0f)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -995,7 +995,7 @@ Nur Windows Server 2008 für 32-Bit-Systeme:
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=84a54246-5d9e-49e2-8170-af48b43f984d)\*<sup>[1]</sup>
+[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=84a54246-5d9e-49e2-8170-af48b43f984d)\*<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1054,7 +1054,7 @@ Nur Windows Server 2008 für x64-basierte Systeme:
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=38286e43-89a6-4895-8ff9-69452df38706)\*<sup>[1]</sup>
+[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=38286e43-89a6-4895-8ff9-69452df38706)\*<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1105,7 +1105,7 @@ Nur Windows Server 2008 für Itanium-basierte Systeme:
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=8ad19eba-9821-48b4-a942-4ee4f002f913)<sup>[1]</sup>
+[Internetinformationsdienste 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=8ad19eba-9821-48b4-a942-4ee4f002f913)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">

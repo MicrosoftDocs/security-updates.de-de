@@ -207,7 +207,7 @@ Windows XP
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Movie Maker 2.1](http://www.microsoft.com/downloads/details.aspx?familyid=6301e462-02be-4b9a-bae9-7c4821b42d2d&displaylang=de)<sup>[1]</sup>
+[Movie Maker 2.1](http://www.microsoft.com/downloads/details.aspx?familyid=6301e462-02be-4b9a-bae9-7c4821b42d2d&displaylang=de)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -224,7 +224,7 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Movie Maker 2.1](http://www.microsoft.com/downloads/details.aspx?familyid=cae81585-d0df-41b8-9277-ca02f1265056)<sup>[1]</sup>
+[Movie Maker 2.1](http://www.microsoft.com/downloads/details.aspx?familyid=cae81585-d0df-41b8-9277-ca02f1265056)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -341,9 +341,9 @@ Windows Vista
 Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=ae2e9b75-1616-4fe3-91bb-e2e28252ff1c&displaylang=de)<sup>[1]</sup>
+[Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=ae2e9b75-1616-4fe3-91bb-e2e28252ff1c&displaylang=de)<sup>[1]</sup>  
 (Hoch)  
-[Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=ca2d1118-ca64-419d-86af-9396e61b90b0&displaylang=de)<sup>[2]</sup>
+[Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=ca2d1118-ca64-419d-86af-9396e61b90b0&displaylang=de)<sup>[2]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -358,9 +358,9 @@ Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e27f353e-deb6-4d61-8808-c751d20a42a1&displaylang=de)<sup>[1]</sup>
+[Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e27f353e-deb6-4d61-8808-c751d20a42a1&displaylang=de)<sup>[1]</sup>  
 (Hoch)  
-[Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=6a1f4126-97f2-4aee-bfe1-05bd13a0667b&displaylang=de)<sup>[2]</sup>
+[Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=6a1f4126-97f2-4aee-bfe1-05bd13a0667b&displaylang=de)<sup>[2]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -623,7 +623,7 @@ Nicht anwendbar
 Microsoft Office System 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=03429f8a-8aab-4a59-97e4-7ce047f100a5&displaylang=de)<sup>[1]</sup>
+[Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=03429f8a-8aab-4a59-97e4-7ce047f100a5&displaylang=de)<sup>[1]</sup>  
 (KB978382)  
 (Hoch)
 </td>
@@ -755,7 +755,7 @@ Nicht anwendbar
 Microsoft Office SharePoint Server 2007 (32-Bit-Edition)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=94ddf6ef-3392-4d77-a02b-3bc0470721cd&displaylang=de)<sup>[2]</sup>
+[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=94ddf6ef-3392-4d77-a02b-3bc0470721cd&displaylang=de)<sup>[2]</sup>  
 (KB979439)  
 (Hoch)
 </td>
@@ -768,7 +768,7 @@ Nicht anwendbar
 Microsoft Office SharePoint Server 2007 (64-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=06f6bffb-3fad-4fb5-878b-39550812e9b5&displaylang=de)<sup>[2]</sup>
+[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=06f6bffb-3fad-4fb5-878b-39550812e9b5&displaylang=de)<sup>[2]</sup>  
 (KB979439)  
 (Hoch)
 </td>
@@ -784,7 +784,7 @@ Microsoft Producer 2003
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Producer 2003](http://www.microsoft.com/downloads/details.aspx?familyid=1b3c76d5-fc75-4f99-94bc-784919468e73)<sup>[3]</sup>
+[Microsoft Producer 2003](http://www.microsoft.com/downloads/details.aspx?familyid=1b3c76d5-fc75-4f99-94bc-784919468e73)<sup>[3]</sup>  
 (Hoch)
 </td>
 </tr>

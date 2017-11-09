@@ -19,9 +19,8 @@ Wenn die Protokollierungsdatenbank zu groß wird, können Sie sie jederzeit auf 
     -   Ändern Sie den Wert der LoggingDatabaseServer-Richtlinie so, dass der Name des neuen Datenbankservers widergespiegelt wird.
     -   Ändern Sie den Wert der LoggingDatabaseName-Richtlinie so, dass der neue Datenbankname widergespiegelt wird.
 
-    | ![](images/Cc720238.note(WS.10).gif)Hinweis                                                                                                                                                                                                                             |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | SQL Server Enterprise Manager unterstützt Felder vom Typ „db\_variant“ nicht. Sie können diese also nicht für diese Aufgabe verwenden. Stattdessen können Sie aber das im Lieferumfang von SQL Server enthaltene Tool Query Analyzer oder ein anderes Tool zum Bearbeiten von Datenbanken verwenden. |
+     > [!NOTE]  
+     > SQL Server Enterprise Manager unterstützt Felder vom Typ „db\_variant“ nicht. Sie können diese also nicht für diese Aufgabe verwenden. Stattdessen können Sie aber das im Lieferumfang von SQL Server enthaltene Tool Query Analyzer oder ein anderes Tool zum Bearbeiten von Datenbanken verwenden. |
 
 4.  Starten Sie IIS auf allen im Cluster enthaltenen Servern neu.
 5.  Aktivieren Sie die Protokollierung erneut.
