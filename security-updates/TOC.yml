@@ -2,7 +2,23 @@
   href: index.md
   items:
 - name: Sicherheitsempfehlungen
+  href: ./SecurityAdvisories/securityadvisories.md
   items:
+  - name: 2017
+    href: 
+    items:
+    - name: 3123479
+      href: ./SecurityAdvisories/2017/3123479.md
+    - name: 3214296
+      href: ./SecurityAdvisories/2017/3214296.md
+    - name: 4010323
+      href: ./SecurityAdvisories/2017/4010323.md
+    - name: 4010983
+      href: ./SecurityAdvisories/2017/4010983.md
+    - name: 4021279
+      href: ./SecurityAdvisories/2017/4021279.md
+    - name: 4033453
+      href: ./SecurityAdvisories/2017/4033453.md
 - name: Security Bulletin Summarys
   items:
 - name: Security Bulletins
