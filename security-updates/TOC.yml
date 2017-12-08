@@ -2,7 +2,7 @@
   href: index.md
   items:
 - name: Sicherheitsempfehlungen
-  href: ./SecurityAdvisories/securityadvisories.md
+  href: ./SecurityAdvisories/securityadvisories
   items:
   - name: 2016
     href: 
@@ -37,10 +37,70 @@
     - name: 4033453
       href: ./SecurityAdvisories/2017/4033453
 - name: Security Bulletin Summarys
+  href: ./SecurityAdvisories/securityadvisories
   items:
+  - name: 2016
+    href: 
+    items:
+    - name: ms16-apr
+      href: ./SecurityBulletinSummarys/2016/MS16-APR
+    - name: ms16-aug
+      href: ./SecurityBulletinSummarys/2016/MS16-AUG
+    - name: ms16-dec
+      href: ./SecurityBulletinSummarys/2016/MS16-DEC
+    - name: ms16-feb
+      href: ./SecurityBulletinSummarys/2016/MS16-FEB
+    - name: ms16-jan
+      href: ./SecurityBulletinSummarys/2016/MS16-JAN
+    - name: ms16-jul
+      href: ./SecurityBulletinSummarys/2016/MS16-JUL
+    - name: ms16-jun
+      href: ./SecurityBulletinSummarys/2016/MS16-JUN
+    - name: ms16-mar
+      href: ./SecurityBulletinSummarys/2016/MS16-MAR
+    - name: ms16-may
+      href: ./SecurityBulletinSummarys/2016/MS16-MAY
+    - name: ms16-nov
+      href: ./SecurityBulletinSummarys/2016/MS16-NOV
+    - name: ms16-oct
+      href: ./SecurityBulletinSummarys/2016/MS16-OCT
+    - name: ms16-sep
+      href: ./SecurityBulletinSummarys/2016/MS16-SEP
+  - name: 2017
+    href: 
+    items:
+    - name: ms17-feb
+      href: ./SecurityBulletinSummarys/2017/ms17-feb
+    - name: ms17-jan
+      href: ./SecurityBulletinSummarys/2017/ms17-jan
+    - name: ms17-mar
+      href: ./SecurityBulletinSummarys/2016/ms17-mar
 - name: Security Bulletins
   href: ./SecurityBulletins/securitybulletins
   items:
+  - name: 2017
+    href: ./SecurityBulletins/2017/securitybulletins2017
+    items:
+    - name: MS17-023
+      href: ./SecurityBulletins/2017/MS17-023
+    - name: MS17-022
+      href: ./SecurityBulletins/2017/MS17-022
+    - name: MS17-021
+      href: ./SecurityBulletins/2017/MS17-021
+    - name: MS17-020
+      href: ./SecurityBulletins/2017/MS17-020
+    - name: MS17-019
+      href: ./SecurityBulletins/2017/MS17-019
+    - name: MS17-018
+      href: ./SecurityBulletins/2017/MS17-018
+    - name: MS17-017
+      href: ./SecurityBulletins/2017/MS17-017
+    - name: MS17-016
+      href: ./SecurityBulletins/2017/MS17-016
+    - name: MS17-015
+      href: ./SecurityBulletins/2017/MS17-015
+    - name: MS17-001
+      href: ./SecurityBulletins/2017/MS17-001
   - name: 2016
     href:
     items:
@@ -348,30 +408,6 @@
       href: ./SecurityBulletins/2016/MS16-154
     - name: ms16-155
       href: ./SecurityBulletins/2016/MS16-155
-  items:
-  - name: 2017
-    href: ./SecurityBulletins/2017/securitybulletins2017
-    items:
-    - name: MS17-023
-      href: ./SecurityBulletins/2017/MS17-023
-    - name: MS17-022
-      href: ./SecurityBulletins/2017/MS17-022
-    - name: MS17-021
-      href: ./SecurityBulletins/2017/MS17-021
-    - name: MS17-020
-      href: ./SecurityBulletins/2017/MS17-020
-    - name: MS17-019
-      href: ./SecurityBulletins/2017/MS17-019
-    - name: MS17-018
-      href: ./SecurityBulletins/2017/MS17-018
-    - name: MS17-017
-      href: ./SecurityBulletins/2017/MS17-017
-    - name: MS17-016
-      href: ./SecurityBulletins/2017/MS17-016
-    - name: MS17-015
-      href: ./SecurityBulletins/2017/MS17-015
-    - name: MS17-001
-      href: ./SecurityBulletins/2017/MS17-001
 - name: Vulnerability Research Advisories
   items:
 - name: Acknowledgments
