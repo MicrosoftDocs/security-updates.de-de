@@ -131,8 +131,6 @@ Microsoft Windows-Server 2003 (64-Bit-Editionen)
 </tbody>
 </table>
   
-****
-  
 **Hoch**
   
 [Microsoft Security Bulletin MS04-005 - Sicherheitsanfälligkeit in Virtual PC für Mac ermöglicht Erhöhung der Berechtigungen (835150)](http://local/bulletin/ms04-005.mspx)
