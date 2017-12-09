@@ -79,7 +79,7 @@
   href: ./SecurityBulletins/securitybulletins
   items:
   - name: 2017
-    href: ./SecurityBulletins/2017/securitybulletins2017
+    href: 
     items:
     - name: MS17-023
       href: ./SecurityBulletins/2017/MS17-023
