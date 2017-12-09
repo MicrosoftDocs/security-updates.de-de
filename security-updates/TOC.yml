@@ -4,6 +4,21 @@
 - name: Sicherheitsempfehlungen
   href: ./SecurityAdvisories/securityadvisories
   items:
+  - name: 2017
+    href: 
+    items:
+    - name: 3123479
+      href: ./SecurityAdvisories/2017/3123479
+    - name: 3214296
+      href: ./SecurityAdvisories/2017/3214296
+    - name: 4010323
+      href: ./SecurityAdvisories/2017/4010323
+    - name: 4010983
+      href: ./SecurityAdvisories/2017/4010983
+    - name: 4021279
+      href: ./SecurityAdvisories/2017/4021279
+    - name: 4033453
+      href: ./SecurityAdvisories/2017/4033453
   - name: 2016
     href: 
     items:
@@ -21,24 +36,18 @@
       href: ./SecurityAdvisories/2016/3152550
     - name: 3155527
       href: ./SecurityAdvisories/2016/3155527
-  - name: 2017
-    href: 
-    items:
-    - name: 3123479
-      href: ./SecurityAdvisories/2017/3123479
-    - name: 3214296
-      href: ./SecurityAdvisories/2017/3214296
-    - name: 4010323
-      href: ./SecurityAdvisories/2017/4010323
-    - name: 4010983
-      href: ./SecurityAdvisories/2017/4010983
-    - name: 4021279
-      href: ./SecurityAdvisories/2017/4021279
-    - name: 4033453
-      href: ./SecurityAdvisories/2017/4033453
 - name: Security Bulletin Summarys
   href: ./SecurityAdvisories/securityadvisories
   items:
+  - name: 2017
+    href: 
+    items:
+    - name: ms17-feb
+      href: ./SecurityBulletinSummarys/2017/ms17-feb
+    - name: ms17-jan
+      href: ./SecurityBulletinSummarys/2017/ms17-jan
+    - name: ms17-mar
+      href: ./SecurityBulletinSummarys/2016/ms17-mar
   - name: 2016
     href: 
     items:
@@ -66,15 +75,6 @@
       href: ./SecurityBulletinSummarys/2016/MS16-OCT
     - name: ms16-sep
       href: ./SecurityBulletinSummarys/2016/MS16-SEP
-  - name: 2017
-    href: 
-    items:
-    - name: ms17-feb
-      href: ./SecurityBulletinSummarys/2017/ms17-feb
-    - name: ms17-jan
-      href: ./SecurityBulletinSummarys/2017/ms17-jan
-    - name: ms17-mar
-      href: ./SecurityBulletinSummarys/2016/ms17-mar
 - name: Security Bulletins
   href: ./SecurityBulletins/securitybulletins
   items:
@@ -408,9 +408,3 @@
       href: ./SecurityBulletins/2016/MS16-154
     - name: ms16-155
       href: ./SecurityBulletins/2016/MS16-155
-- name: Vulnerability Research Advisories
-  items:
-- name: Acknowledgments
-  items:
-- name: Glossary
-  items:
