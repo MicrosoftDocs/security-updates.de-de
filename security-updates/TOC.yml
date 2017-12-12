@@ -36,7 +36,7 @@
       href: ./SecurityAdvisories/2016/3152550
     - name: 3155527
       href: ./SecurityAdvisories/2016/3155527
-- name: Security Bulletin Summarys
+- name: Security Bulletin Summaries
   href: ./SecurityBulletins/securitybulletins
   items:
   - name: 2017
