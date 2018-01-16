@@ -1,0 +1,29 @@
+---
+TOCTitle: Suche nach dem Veröffentlichungsdienst
+Title: Suche nach dem Veröffentlichungsdienst
+ms:assetid: '5d500841-a202-4865-b5d2-d0775d4e1bbc'
+ms:contentKeyID: 18118854
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc747580(v=WS.10)'
+---
+
+Suche nach dem Veröffentlichungsdienst
+======================================
+
+Der RMS-Veröffentlichungsdienst gibt Veröffentlichungslizenzen aus, die zum Schutz von Inhalt verwendet werden. Außerdem stellt er Client-Lizenzgeberzertifikate aus, die Benutzern das Veröffentlichen von Inhalten ermöglichen, während sie nicht mit dem Firmennetzwerk verbunden sind.
+
+Der Veröffentlichungsdienst ist über den Stammzertifizierungscluster oder über Lizenzierungsserver verfügbar. Eine RMS-fähige Anwendung fordert diesen Service an, wenn ein Autor RMS-geschützten Inhalt veröffentlicht. Um den Veröffentlichungsdienst anfordern zu können, ruft die Anwendung zuerst von Active Directory aus den URL des virtuellen Verzeichnisses „Licensing“ auf dem Server auf, auf dem sich der Veröffentlichungsdienst befindet. Anschließend fügt sie den Pfad an den Veröffentlichungsdienst an.
+
+Beispielsweise wird der URL des virtuellen Verzeichnisses „Licensing“ auf einem Server in Active Directory im folgenden Format gespeichert:
+
+http://*Servername*/\_wmcs/Licensing
+
+Wenn ein Server eine Veröffentlichungslizenz anfordert, fügt er den Dateinamen des Veröffentlichungsdienstes folgendermaßen an den URL an:
+
+http://*Servername*/\_wmcs/Licensing/Publish.asmx
+
+Wenn RMS (Rights Management Services oder Dienste für die Rechteverwaltung) feststellt, dass das Rechtekontozertifikat auf der Windows-Benutzerauthentifizierung basiert, wird der Speicherort des Veröffentlichungsdienstes von der Active Directory-Gesamtstruktur bestimmt. Dies gilt sowohl für interne als auch externe Benutzer, die eine Verbindung zum Unternehmensnetzwerk über ein virtuelles privates Netzwerk (Virtual Private Network oder VPN) herstellen.
+
+Wenn RMS feststellt, dass das Rechtekontozertifikat auf Microsoft® .NET Passport basiert, ist der Speicherort des Veröffentlichungsdienstes das .NET Passport-Konto, das im RMS-geschützten Inhalt angegeben ist.
+
+> [!NOTE]
+> Wenn Sie SSL auf dem RMS-Server aktiviert haben, verwenden diese URLs das HTTPS-Verbindungsprotokoll. 

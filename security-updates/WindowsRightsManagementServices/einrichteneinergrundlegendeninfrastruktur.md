@@ -1,0 +1,22 @@
+---
+TOCTitle: Einrichten einer grundlegenden Infrastruktur
+Title: Einrichten einer grundlegenden Infrastruktur
+ms:assetid: '3a0a3a47-e755-4455-bb22-0e05053723e4'
+ms:contentKeyID: 18118798
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc720243(v=WS.10)'
+---
+
+Einrichten einer grundlegenden Infrastruktur
+============================================
+
+Die Art der Einrichtung Ihrer Infrastruktur hängt von den Systemanforderungen für die Installation von RMS sowie von den bewährten Methoden bei der Einrichtung Ihrer Infrastruktur ab. Die für die Unterstützung von RMS benötigte, grundlegende serverseitige Umgebung sind ein Domänencontroller, ein Datenbankserver und ein RMS-Server, der als Stammzertifizierungsserver konfiguriert ist. In den folgenden Themen werden Einrichtungsverfahren für diese Infrastrukturkomponenten sowie ergänzende Informationen in Zusammenhang mit der Bereitstellung dieser Komponenten geboten.
+
+> [!NOTE]
+> Für die Bereitstellung von RMS ist erforderlich, dass RMS-Clientsoftware auf den Clientcomputern installiert wurde, die gemeinsam mit dem RMS-Server verwendet werden. Sie können den RMS-Client von der [Microsoft-Website](http://go.microsoft.com/fwlink/?linkid=18134)herunterladen. 
+
+Dieser Abschnitt behandelt die folgenden Themen:
+
+-   [Einrichten eines Domänencontrollers und Datenbankservers](https://technet.microsoft.com/d20f8305-9f9e-4760-bfbf-82824db60d1f)
+-   [Vorbereitung der Installation des Stammzertifizierungsservers](https://technet.microsoft.com/ed51605e-8b17-4155-8d83-f6777f499b7b)
+-   [Erstellen des RMS-Dienstkontos](https://technet.microsoft.com/6eb38729-f0f0-431a-bc8c-17102cf175d8)
+-   [Einrichten der Geräte für die Hardwareverschlüsselung](https://technet.microsoft.com/3a35a8ea-696c-4005-9892-cac6e773497a)

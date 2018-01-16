@@ -1,0 +1,33 @@
+---
+TOCTitle: 'Schrittweise Anleitung für Windows Server Update Services 3.0 SP2'
+Title: 'Schrittweise Anleitung für Windows Server Update Services 3.0 SP2'
+ms:assetid: '4b504edc-93b3-45b0-a7e8-d0107f1a4442'
+ms:contentKeyID: 21669461
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Dd939822(v=WS.10)'
+---
+
+Schrittweise Anleitung für Windows Server Update Services 3.0 SP2
+=================================================================
+
+Windows Server Update Services 3.0 Service Pack 2 (WSUS 3.0 SP2) stellt eine umfassende Lösung für das Verwalten von Updates in Ihrem Netzwerk dar. In diesem Handbuch finden Sie Anweisungen für die grundlegenden Aufgaben beim Installieren und Bereitstellen von WSUS 3.0 SP2 in Ihrem Netzwerk. Das Handbuch enthält folgende Abschnitte:
+
+-   [Schritt 1: Bestätigen der WSUS 3.0 SP2-Installationsanforderungen](https://technet.microsoft.com/ec01bd75-5def-4899-8cee-ddab827bbd83)
+-   [Schritt 2: Installieren des WSUS-Servers oder der WSUS-Verwaltungskonsole](https://technet.microsoft.com/6db6fcb0-c55d-43b9-9b07-4040c6267759)
+-   [Schritt 3: Konfigurieren der Netzwerkverbindungen](https://technet.microsoft.com/42a144c5-f08e-4a6e-b360-47ddea77bd24)
+-   [Schritt 4: Konfigurieren von Updates und Synchronisierung](https://technet.microsoft.com/deeaa7e1-9b50-45cb-9537-d75f70de3405)
+-   [Schritt 5: Konfigurieren von Client-Updates](https://technet.microsoft.com/5ae60ead-3e94-456c-a692-c0f193ea5d5a)
+-   [Schritt 6: Konfigurieren von Computergruppen](https://technet.microsoft.com/70518732-2179-4e41-9609-7f9999867f41)
+-   [Schritt 7: Genehmigen und Bereitstellen von WSUS-Updates](https://technet.microsoft.com/c4e58e17-d5e3-4194-8f26-b459e0c03b86)
+
+Weitere Ressourcen
+------------------
+
+WSUS 3.0 SP2 ist eine vielseitige Lösung zur Updateverwaltung. Vollständige Informationen zur Installation und Bedienung von WSUS finden Sie hier:
+
+WSUS-Bereitstellungshandbuch unter [http://go.microsoft.com/fwlink/?LinkId=139832](http://go.microsoft.com/fwlink/?linkid=139832) (in englischer Sprache).
+
+WSUS-Bedienungshandbuch unter [http://go.microsoft.com/fwlink/?LinkId=139838](http://go.microsoft.com/fwlink/?linkid=139838) (in englischer Sprache).
+
+Anmerkungen zu WSUS unter [http://go.microsoft.com/fwlink/?LinkId=139840](http://go.microsoft.com/fwlink/?linkid=139840) (in englischer Sprache).
+
+Online-Hilfe zur WSUS-Verwaltungskonsole.

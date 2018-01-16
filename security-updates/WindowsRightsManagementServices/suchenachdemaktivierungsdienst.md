@@ -1,0 +1,27 @@
+---
+TOCTitle: Suche nach dem Aktivierungsdienst
+Title: Suche nach dem Aktivierungsdienst
+ms:assetid: 'e178d81b-b35c-4958-87ef-e077e2204b32'
+ms:contentKeyID: 18119046
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc747697(v=WS.10)'
+---
+
+Suche nach dem Aktivierungsdienst
+=================================
+
+Der Aktivierungsdienst stellt Lockboxes und RMS-Computerzertifikate für Clients mit RMS Version 1.0 (Rights Management Services oder Dienste für die Rechteverwaltung) aus. Er wird zum Zweck der Abwärtskompatibilität mit RMS Version 1.0 unterstützt. Der Aktivierungsproxydienst wird vom RMS-Stammzertifizierungscluster bereitgestellt und leitet RMS-Computeraktivierungsanforderungen von Clientcomputern im Firmennetzwerk an den Aktivierungsdienst weiter.
+
+Um eine RMS-Computeraktivierungsanforderung senden zu können, ruft ein Client mit RMS Version 1.0 zunächst in Active Directory den URL für das virtuelle Verzeichnis „Certification“ des Stammzertifizierungsservers ab, auf dem sich der Aktivierungsproxydienst befindet. Anschließend fügt er den Pfad an den Aktivierungsproxydienst an.
+
+Beispiel: Der URL für das virtuelle Verzeichnis Certification auf dem Stammzertifizierungsserver wird in Active Directory in folgender Form gespeichert:
+
+http://*Servername*/\_wmcs/Certification
+
+Wenn ein Client eine RMS-Computeraktivierung anfordert, fügt er den Dateiamen des Aktivierungsproxydienstes wie folgt an den URL an:
+
+http://*Servername*/\_wmcs/Certification/Activation.asmx
+
+Clients, die außerhalb des Firmennetzwerks ausgeführt werden, verwenden UDDI (Universal Discovery, Description and Integration) für die Suche nach Diensten, um nach dem Aktivierungsdienst zu suchen. Weitere Informationen hierzu finden Sie unter „[Veröffentlichung der von Microsoft gehosteten Dienste](https://technet.microsoft.com/7ee8cb4d-1b46-48be-8a4c-5ff6a458231a)“ weiter oben in diesem Thema.
+
+> [!NOTE]
+> Wenn Sie SSL auf dem RMS-Server aktiviert haben, verwenden diese URLs das HTTPS-Verbindungsprotokoll. 

@@ -1,0 +1,35 @@
+---
+TOCTitle: Registrieren des Stammzertifizierungsservers
+Title: Registrieren des Stammzertifizierungsservers
+ms:assetid: '3f69d25e-ecae-447f-b741-a819c8cf6227'
+ms:contentKeyID: 18118812
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc720250(v=WS.10)'
+---
+
+Registrieren des Stammzertifizierungsservers
+============================================
+
+Jede RMS-Installation muss mindestens einen Stammzertifizierungsserver umfassen und kann wahlweise weitere Stammzertifizierungsserver in einem Cluster einschließen. Der erste Stammzertifizierungsserver, den Sie installieren, muss beim Microsoft-Registrierungsdienst registriert werden, um ein Stammserver-Lizenzgeberzertifikat zu erhalten. Dieses Zertifikat dient als Grundlage für die Vertrauenshierarchie in einer RMS-Implementierung.
+
+Für den Erhalt eines Stammserver-Lizenzgeberzertifikats stehen die nachfolgenden Methoden zur Verfügung. Sobald Sie die Bereitstellungsinformationen für Ihren RMS-Server eingegeben haben, können Sie eine Methode auswählen:
+
+-   **Onlineregistrierung**: Wenn Ihr Stammzertifizierungsserver über die Möglichkeit zum Herstellen einer Verbindung zum Internet verfügt, können Sie während der Bereitstellung automatisch ein Server-Lizenzgeberzertifikat erhalten. Dies ist die Standardmethode.
+-   **Offlineregistrierung**: Wenn Ihr Stammzertifizierungsserver nicht an das Internet angeschlossen ist, können Sie die Registrierung nach Abschluss des Bereitstellungsvorgangs manuell durchführen. Exportieren Sie hierfür eine Registrierungsanforderung von diesem Server in eine Datei, die Sie auf einen anderen Computer mit Internetzugang übertragen können, und senden Sie diese dann an den Microsoft-Registrierungsdienst, um ein Server-Lizenzgeberzertifikat zu erhalten. Wenn Sie sich zum Zeitpunkt der Bereitstellung für die Offlineregistrierung entschieden haben, wird der Bereitstellungsvorgang für RMS abgeschlossen, RMS kann jedoch erst verwendet werden, nachdem das über den anderen Computer angeforderte Server-Lizenzgeberzertifikat importiert wurde. Weitere Informationen finden Sie unter „[So registrieren Sie einen Stammzertifizierungsserver manuell](https://technet.microsoft.com/aecdebb5-b28b-4b58-937a-392bb6ce9643)“ weiter unten in diesem Thema.
+
+Die Registrierungsanforderung enthält folgende Informationen:
+
+-   Sperrinformationen. Gibt an, ob die RMS-Installation standardmäßige oder benutzerdefinierte Sperrung (durch Dritte) verwendet. Wenn die Microsoft-Sperrung durch Dritte eingesetzt wird, ist der öffentliche Schlüssel der Sperrstelle enthalten.
+-   Öffentlicher Zertifikatschlüssel. Der öffentliche Schlüssel des Server-Lizenzgeberzertifikats. Dieser öffentliche Schlüssel wird auf dem RMS-Server erstellt und an den Microsoft-Registrierungsdienst gesendet, um das Server-Lizenzgeberzertifikat zu erhalten.
+-   SKU. Der offizielle SKU-Titel von RMS.
+-   Version. Die Versionsnummer der RMS-Assemblierung.
+-   URL. Der Basis-URL des RMS-Serverclusters.
+
+Beim Beantworten der Registrierungsanforderung durch den Microsoft-Registrierungsdienst werden folgende Informationen im XML-Format an den RMS-Server zurückgegeben.
+
+-   Server-Lizenzgeberzertifikat.
+-   Zertifikatkette der Signaturstellen.
+
+Dieselben Informationen werden übertragen, unabhängig davon, ob der RMS-Stammzertifizierungsserver anhand der Online- oder Offlinemethode registriert wurde. Bei Verwendung einer der beiden Methoden werden keine weiteren Informationen eingeholt.
+
+> [!NOTE]
+> Wenn Sie sich für die Offlineregistrierung entschieden haben und für die Verbindung zum Internet einen Computer mit verstärkter Browsersicherheit verwenden, beispielsweise einen Computer mit Windows Server 2003 oder Windows XP Service Pack 2, müssen Sie beim Anfordern eines Server-Lizenzgeberzertifikats den URL der Registrierungsdienst-Website zu den vertrauenswürdigen Sites hinzufügen, damit das Server-Lizenzgeberzertifikat gedownloadet werden kann. Der URL lautet https://activation.drm.microsoft.com. Wenn Sie den Offlineregistrierungsvorgang verwenden, müssen Sie sicherstellen, dass auf dem Computer, über den Sie die Registrierungsanforderung an den Microsoft-Registrierungsdienst senden, die aktuellsten Zertifikatupdates installiert sind. Das SSL-Zertifikat der Microsoft-Registrierungsdienste stammt von der GTE Cyber Trust-Stammzertifizierungsstelle. Diese zählt auf allen Computern mit Windows Server 2003 standardmäßig zu den vertrauenswürdigen Zertifizierungsstellen. Wenn Sie den Offlineregistrierungsvorgang verwenden, sollten Sie sicherstellen, dass die RMS-Clients nicht schon vor der Registrierung des RMS-Servers eine Verbindung zum Server herstellen und Lizenzen anfordern. Wenn Clients eine Verbindung zu einem nicht registrierten RMS-Server herstellen, gehen die Webdienste in einen Fehlerzustand über, der bewirkt, dass sie nicht mehr verwendet werden können. Wenn Sie nicht sicherstellen können, dass die Clients keine Verbindung zum RMS-Server herstellen, sollten Sie als bewährte Methode nach Abschluss der Registrierung IIS zurücksetzen, um eventuelle Fehlerzustände zu beseitigen. 
