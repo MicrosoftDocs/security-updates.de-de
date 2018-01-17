@@ -408,7 +408,7 @@
     - name: 842851
       href: ./SecurityAdvisories/2005/842851
 - name: Security Bulletin Summaries
-  href: ./SecurityBulletins/securitybulletins
+  href: ./SecurityBulletinSummaries/securitybulletinsummaries
   items:
   - name: 2017
     href: 
@@ -770,7 +770,7 @@
     - name: MS03-oct
       href: ./SecurityBulletinSummaries/2003/ms03-OCT
 - name: Security Bulletins
-  href: 
+  href:  ./SecurityBulletins/securitybulletins
   items:
   - name: 2017
     href: 
