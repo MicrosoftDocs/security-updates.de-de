@@ -1,0 +1,23 @@
+---
+TOCTitle: Hinzufügen und Entfernen von vertrauenswürdigen Veröffentlichungsdomänen
+Title: Hinzufügen und Entfernen von vertrauenswürdigen Veröffentlichungsdomänen
+ms:assetid: 'd87b502d-5497-4ccd-badf-f6807d587cee'
+ms:contentKeyID: 18119041
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Cc747687(v=WS.10)'
+---
+
+Hinzufügen und Entfernen von vertrauenswürdigen Veröffentlichungsdomänen
+========================================================================
+
+Ein Server mit RMS (Rights Management Services oder Dienste für die Rechteverwaltung) kann standardmäßig Nutzungslizenzen nur für die Veröffentlichungslizenzen ausstellen, die von ihm selbst oder einem anderen Server in seinem Cluster ausgestellt wurden. Wurden Inhalte mithilfe eines anderen Stammzertifizierungsserver aus derselben Organisation (etwa einer Tochtergesellschaft in einer anderen Gesamtstruktur) oder einer anderen separaten Organisation veröffentlicht, kann der Server mit RMS für diese Inhalte Benutzerlizenzen erteilen, wenn Sie darauf eine vertrauenswürdige Veröffentlichungsdomäne konfiguriert haben. Durch das Hinzufügen einer vertrauenswürdigen Veröffentlichungsdomäne etablieren Sie eine Vertrauensstellung zwischen dem RMS-Server und dem anderen Stammzertifizierungsserver, indem Sie das Server-Lizenzgeberzertifikat des anderen Servers importieren. Sie können eine uneingeschränkte Anzahl von vertrauenswürdigen Veröffentlichungsdomänen für den Server mit RMS konfigurieren.
+
+Sie können eine vertrauenswürdige Veröffentlichungsdomäne, die Sie hinzugefügt haben, jederzeit entfernen, indem Sie ihr Zertifikat aus der Liste der Zertifikate vertrauenswürdiger Veröffentlichungsdomänen entfernen.
+
+Um eine vertrauenswürdige Veröffentlichungsdomäne hinzuzufügen, müssen Sie das Server-Lizenzgeberzertifikat, den privaten Schlüssel (falls dieser in einem Softwaresicherheitsmodul und nicht in einem Hardwaresicherheitsmodul gespeichert ist) und alle Vorlagen für Benutzerrechterichtlinien des hinzuzufügenden RMS-Servers oder -Clusters importieren. Der Administrator muss diese Elemente zunächst von dem vertrauenswürdigen Server oder Cluster in eine kennwortgeschützte Datei exportieren und dann das zum Entschlüsseln dieser Datei notwendige Kennwort angeben. Der Administrator muss diese Datei in einem freigegebenen Ordner ablegen und Ihnen das Kennwort mitteilen. Dann können Sie die Datei unter Angabe des Speicherortes und des Kennwortes importieren. Das Konto, das den **Admin**-Anwendungspool ausführt, kann die Datei speichern, sofern es über Berechtigungen über den freigegebenen Ordner verfügt.
+
+Schrittweise Anleitungen zum Einrichten von vertrauenswürdigen Veröffentlichungsdomänen finden Sie nachstehend unter [So fügen Sie eine vertrauenswürdige Veröffentlichungsdomäne hinzu](https://technet.microsoft.com/731416d8-ddf4-4d4a-9f1a-bbd1ea48fe3c).
+
+Wenn der private Schlüssel in einem Hardwaresicherheitsmodul gespeichert wurde, müssen Sie ihn entsprechend den Anweisungen in der Dokumentation zum Hardwaresicherheitsmodul an das Hardwaresicherheitsmodul auf dem vertrauenswürdigen Server übertragen. Je nach Art des auf jedem Server vorhandenen Hardwaresicherheitsmoduls und der Konfiguration der für die Hardwaresicherheitsmodule verwendeten Geräte ist es u. U. nicht möglich, den privaten Schlüssel von einem Hardwaresicherheitsmodul an ein anderes zu übertragen. Lesen Sie die Dokumentation zum Hardwaresicherheitsmodul, um zu ermitteln, ob der private Schlüssel übertragen werden kann, ohne dass es im Ziel-Hardwaresicherheitsmodul zu einem Datenverlust kommt. Wenn eine erfolgreiche Übertragung des privaten Schlüssels nicht möglich ist, können Sie zwischen den beiden Servern keine vertrauenswürdige Veröffentlichungsdomäne einrichten.
+
+> [!NOTE]
+> Wenn Sie den privaten RMS-Schlüssel mithilfe eines Hardwaresicherheitsmoduls schützen und ein Server-Lizenzgeberzertifikat aus einer RMS-Installation installieren, die Software zum Schützen des privaten Schlüssels verwendet, müssen Sie für jeden RMS-Server im Cluster auf der Seite Sicherheitseinstellungen jeweils ein Kennwort für den privaten Schlüssel angeben, bevor Sie das Zertifikat importieren. 

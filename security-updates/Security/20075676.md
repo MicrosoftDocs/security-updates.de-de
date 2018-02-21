@@ -1,0 +1,378 @@
+---
+TOCTitle: 'Kapitel 12: Die Bastion-Hostrolle'
+Title: 'Kapitel 12: Die Bastion-Hostrolle'
+ms:assetid: 'cb056f68-1a74-4a6a-ac25-5629fefe7cbb'
+ms:contentKeyID: 20075676
+ms:mtpsurl: 'https://technet.microsoft.com/de-de/library/Dd443733(v=TechNet.10)'
+---
+
+Windows Server 2003-Sicherheitshandbuch
+=======================================
+
+### Kapitel 12: Die Bastion-Hostrolle
+
+Aktualisiert: 27.12.2005
+
+#### Auf dieser Seite
+
+[](#ehaa)[Überblick](#ehaa)  
+[](#egaa)[Einstellungen für Überwachungsrichtlinien](#egaa)  
+[](#efaa)[Zuweisen von Benutzerrechten](#efaa)  
+[](#eeaa)[Sicherheitsoptionen](#eeaa)  
+[](#edaa)[Ereignisprotokolleinstellungen](#edaa)  
+[](#ecaa)[Zusätzliche Sicherheitseinstellungen](#ecaa)  
+[](#ebaa)[Erstellen der Richtlinie mithilfe des SCW](#ebaa)  
+[](#eaaa)[Zusammenfassung](#eaaa)
+
+### Überblick
+
+Dieses Kapitel befasst sich mit der Absicherung von Bastion-Hosts in Ihrer Umgebung, auf denen Microsoft® Windows Server™ 2003 mit Service Pack 1 (SP1) ausgeführt wird. Bastion-Hosts sind sichere, aber öffentlich zugängliche Computer, die sich im öffentlichen Bereich des Perimeternetzwerks einer Organisation befinden (wird auch als DMZ bzw. demilitarisierte Zone und überwachtes Subnetz bezeichnet). Bastion-Hosts werden nicht durch eine Firewall oder einen als Filter agierenden Router geschützt, wodurch sie Angriffen völlig ausgesetzt sind. Um die Möglichkeit einer Beeinträchtigung zu minimieren, müssen Bastion-Hosts umsichtig eingerichtet und konfiguriert werden.
+
+Bastion-Hosts werden in der Regel als Webserver, DNS-Server, FTP-Server (File Transfer Protocol), SMTP-Server (Simple Mail Transport Protocol) und NNTP-Server (Network News Transfer Protocol) eingesetzt. Im Idealfall müssen Bastion-Hosts nur eine dieser Funktionen ausführen, denn je mehr Rollen jeder Server übernimmt, desto größer ist die Wahrscheinlichkeit, dass eine Sicherheitslücke übersehen wird. Die Sicherung eines einzelnen Dienstes auf einem einzelnen Bastion-Host ist einfacher als die Sicherung mehrerer Dienste. Organisationen, die die Kosten für mehrere Bastion-Hosts aufbringen können, profitieren enorm von dieser Art der Netzwerkarchitektur.
+
+Sichere Bastion-Hosts sind ganz anders als normale Hosts konfiguriert. Alle nicht erforderlichen Dienste, Protokolle, Programme und Netzwerkschnittstellen werden deaktiviert oder entfernt. Anschließend wird jeder Bastion-Host konfiguriert, um eine bestimmte Rolle zu erfüllen. Wenn Sie diese Methode zum Absichern der Bastion-Hosts verwenden, können Sie potenziellen Angriffsmethoden entgegenwirken.
+
+In den folgenden Abschnitten dieses Kapitels werden verschiedene Sicherheitseinstellungen beschrieben, durch Bastion-Hosts in jeder Umgebung besser gesichert werden. Die in diesem Kapitel enthaltenen Schritte unterstützen Sie beim Erstellen eines SMTP-Bastion-Hosts. Wenn Sie Funktionen hinzufügen möchten, müssen Sie die in diesem Handbuch enthaltenen Konfigurationsdateien ändern.
+
+#### Lokale Bastion-Host-Richtlinie
+
+Für die zuvor in diesem Handbuch beschriebenen Serverrollen wurden Gruppenrichtlinien zum Konfigurieren der Server verwendet. Eine Gruppenrichtlinie kann nicht auf Bastion-Hostserver angewendet werden, weil diese als eigenständige Hosts konfiguriert sind, die nicht zu einer Active Directory®-Verzeichnisdienstdomäne gehören. Da sie einem Angriffsrisiko ausgesetzt sind und nicht durch andere Geräte geschützt werden, ist für Bastion-Hosts in den drei in diesem Handbuch definierten Umgebungen nur eine Anleitungsebene vorgeschrieben. Die in diesem Kapitel beschriebenen Sicherheitseinstellungen basieren für die Hochsicherheitsumgebung auf der Richtlinie für die Mitgliedsserver-Baseline (MSBP), die in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“, definiert wird. Die Einstellungen sind in einer Sicherheitsvorlage enthalten, die auf die lokale Bastion-Host-Richtlinie (BHLP) jedes Bastion-Hosts angewendet werden muss.
+
+**Tabelle 12.1: Sicherheitsvorlagen für Bastion-Hostserver**
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Hochsicher - Bastion-Host.inf</td>
+<td style="border:1px solid black;">Hochsicher - Bastion-Host.inf</td>
+<td style="border:1px solid black;">Hochsicher - Bastion-Host.inf</td>
+</tr>
+</tbody>
+</table>
+  
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+  
+### Einstellungen für Überwachungsrichtlinien
+  
+Die BHLP-Einstellungen für Überwachungsrichtlinien für Bastion-Hosts sind in der Datei „Hochsicher - Bastion-Host.inf“ enthalten. Diese Einstellungen sind die gleichen wie die in der Datei „Hochsicher - Mitgliedsserver-Baseline.inf“. Weitere Informationen zur Richtlinie für die Mitgliedsserver-Baseline finden Sie in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch die BHLP-Einstellungen wird sichergestellt, dass alle relevanten Sicherheitsüberwachungsinformationen auf sämtlichen Bastion-Host-Servern protokolliert werden.
+  
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+  
+### Zuweisen von Benutzerrechten
+  
+Die Datei „Hochsicher - Bastion-Host.inf“ enthält die BHLP-Zuweisungen von Benutzerrechten für Bastion-Hosts. Diese Richtlinieneinstellungen basieren auf den in der Datei „Hochsicher - Mitgliedserver-Baseline.inf“ in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“, angegebenen Einstellungen. In der folgenden Tabelle werden die Unterschiede zwischen der BHLP und der MSBP zusammengefasst. Ausführliche Informationen werden im Text im Anschluss an die Tabelle bereitgestellt.
+  
+**Tabelle 12.2: Empfohlene Einstellungen zum Zuweisen von Benutzerrechten**
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Zuweisen von Benutzerrechten</th>
+<th style="border:1px solid black;" >Einstellung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</td>
+<td style="border:1px solid black;">ANONYME ANMELDUNG; Vordefinierter Administrator; Support_388945a0; Gast; alle betriebssystemfremden Dienstkonten</td>
+</tr>
+</tbody>
+</table>
+  
+#### Den Zugriff auf diesen Computer vom Netzwerk aus verweigern
+  
+**Hinweis**: ANONYME ANMELDUNG, Vordefinierte Administratoren, Support\_388945a0, Gastkonten und alle betriebssystemfremden Dienstkonten sind nicht in der Sicherheitsvorlage enthalten. Diese Konten und Gruppen weisen eindeutige Sicherheits-IDs (SIDs) auf. Sie müssen deshalb manuell zur BHLP hinzugefügt werden.
+  
+Durch diese Richtlinieneinstellung wird festgelegt, welchen Benutzern der Zugriff auf einen Computer über das Netzwerk verweigert wird. Sie verweigert einer Reihe von Netzwerkprotokollen den Zugriff. Hierzu zählen SMB-basierte Protokolle (Server Message Block), NetBIOS, CIFS (Common Internet File System) und COM+ (Component Object Model Plus). Diese Richtlinieneinstellung setzt die Einstellung **Auf diesen Computer vom Netzwerk aus zugreifen** außer Kraft, wenn beide Richtlinien auf ein Benutzerkonto zutreffen. Wenn Sie dieses Benutzerrecht für andere Gruppen konfigurieren, könnte die Möglichkeit von Benutzern eingeschränkt werden, delegierte Verwaltungsaufgaben in der Umgebung auszuführen.
+  
+In Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“, dieses Handbuchs wird empfohlen, dass Sie die Gruppe **Gäste** zur Liste der Benutzer und Gruppen hinzufügen, denen dieses Benutzerrecht zugewiesen wird, damit ein Höchstmaß an Sicherheit gewährleistet wird. Das Konto für anonyme Internetbenutzer (IUSR) ist jedoch standardmäßig ein Mitglied der Gruppe **Gäste**.
+  
+Die Einstellung **Den Zugriff auf diesen Computer vom Netzwerk aus verweigern** ist so konfiguriert, dass „ANONYME ANMELDUNG“, „Vordefinierter Administrator“, „Support\_388945a0“, „Gast“ sowie alle betriebssystemfremden Dienstkonten für Bastion-Hosts in der in diesem Handbuch definierten Hochsicherheitsumgebung enthalten sind.
+  
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+  
+### Sicherheitsoptionen
+  
+Die BHLP-Einstellungen für Sicherheitsoptionen für Bastion-Hosts entsprechen den Einstellungen der Datei „Hochsicher - Mitgliedsserver-Baseline.inf“ in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch diese BHLP-Einstellungen wird sichergestellt, dass alle relevanten Sicherheitsoptionen auf allen Bastion-Hostservern einheitlich konfiguriert sind.
+  
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+  
+### Ereignisprotokolleinstellungen
+  
+Die BHLP-Einstellungen für Ereignisprotokolle für Bastion-Hosts entsprechen den Einstellungen der Datei „Hochsicher - Mitgliedsserver-Baseline.inf“ in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“. Durch diese BHLP-Einstellungen wird sichergestellt, dass alle relevanten Ereignisprotokolleinstellungen auf allen Bastion-Hostservern einheitlich konfiguriert sind.
+  
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+  
+### Zusätzliche Sicherheitseinstellungen
+  
+Durch die von der BHLP angewendeten Sicherheitseinstellungen wird die Sicherheit von Bastion-Hostservern deutlich erhöht. Es sollte jedoch noch einige zusätzliche Einstellungen in Betracht gezogen werden. Diese Einstellungen können nicht über lokale Richtlinien angewendet werden und müssen deshalb auf allen Bastion-Hostservern manuell vorgenommen werden.
+  
+#### Manuelles Hinzufügen von eindeutigen Sicherheitsgruppen zu den Zuweisungen von Benutzerrechten
+  
+Für die meisten Zuweisungen von Benutzerrechten, die über die Richtlinie für die Mitgliedsserver-Baseline angewendet wurden, sind die richtigen Sicherheitsgruppen in den Sicherheitsvorlagen angegeben, die diesem Handbuch angefügt sind. Einige Konten und Sicherheitsgruppen konnten jedoch nicht in die Vorlagen aufgenommen werden, da ihre Sicherheits-IDs spezifisch für einzelne Windows Server 2003-Domänen sind. Die Einstellung zum Zuweisen von Benutzerrechten in der folgenden Tabelle muss manuell konfiguriert werden.
+  
+**Warnung**: Die folgende Tabelle enthält Werte für das vordefinierte Administratorkonto. Dieses Konto darf nicht mit der vordefinierten Sicherheitsgruppe **Administratoren** verwechselt werden. Wenn die Sicherheitsgruppe **Administratoren** dem angegebenen Benutzerrecht, das den Zugriff verweigert, zugewiesen wird, müssen Sie sich lokal anmelden, um den Fehler zu beheben.
+  
+Das vordefinierte Administratorkonto kann außerdem entsprechend den Empfehlungen in Kapitel 4, „Die Richtlinie für die Mitgliedsserver-Baseline“, umbenannt worden sein. Wenn Sie das Administratorkonto einem Benutzerrecht hinzufügen, müssen Sie sicherstellen, dass Sie das umbenannte Konto angeben.
+  
+**Tabelle 12.3: Manuell hinzugefügte Zuweisungen von Benutzerrechten**
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Den Zugriff auf diesen Computer vom Netzwerk aus verweigern</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+<td style="border:1px solid black;">Vordefinierter Administrator; Support_388945a0;
+Gast; alle betriebssystemfremden Dienstkonten</td>
+</tr>
+</tbody>
+</table>
+ 
+
+**Wichtig**: „Alle betriebssystemfremden Dienstkonten“ schließt Dienstkonten mit ein, die unternehmensweit für bestimmte Anwendungen verwendet werden. Dazu gehören allerdings NICHT die Konten LOKALES SYSTEM, LOKALER DIENST und NETZWERKDIENST (die vom Betriebssystem verwendeten vordefinierten Konten).
+
+#### Sichern von bekannten Konten
+
+Windows Server 2003 mit SP1 verfügt über eine ganze Reihe von vordefinierten Benutzerkonten, die nicht gelöscht, aber umbenannt werden können. Die zwei bekanntesten vordefinierten Konten in Windows Server 2003 sind die Konten „Gast“ und „Administrator“.
+
+Das Konto „Gast“ ist auf Mitgliedsservern und Domänencontrollern standardmäßig deaktiviert. Diese Konfiguration sollte nicht geändert werden. Viele verschiedene schädliche Codes verwenden das vordefinierte Administratorkonto bei einem ersten Versuch, einen Server anzugreifen. Daher sollten Sie das vordefinierte Administratorkonto umbenennen und seine Beschreibung ändern, damit sie Angriffen von Remoteservern vorbeugen und Angreifer dieses bekannte Konto nicht nutzen können.
+
+Die Auswirkung dieser Konfigurationsänderung hat sich in den letzten Jahren nach dem Auftreten von Angriffstools verringert, die durch Angabe der Sicherheits-ID (SID) des vordefinierten Administratorkontos dessen wahren Namen in Erfahrung bringen und dadurch Zugriff auf den Server erhalten. Eine Sicherheits-ID ist ein Wert, der jeden Benutzer, jede Gruppe, jedes Computerkonto und jede Anmeldesitzung bei einem Netzwerk eindeutig identifiziert. Die Sicherheits-ID dieses vordefinierten Kontos kann nicht geändert werden. Ihre Betriebsgruppen können allerdings versuchte Angriffe auf dieses Administratorkonto überwachen, wenn Sie es umbenennen und mit einem eindeutigen Namen versehen.
+
+**So sichern Sie bekannte Konten auf Bastion-Hostservern**
+
+-   Benennen Sie die Administrator- und Gastkonten auf jedem Server um, und ändern Sie danach die zugehörigen Kennwörter zu langen und komplexen Werten.
+
+-   Verwenden Sie auf jedem Server verschiedene Namen und Kennwörter. Wenn auf allen Servern die gleichen Kontonamen und -kennwörter verwendet werden, kann ein Angreifer, der sich Zugriff zu einem Server verschafft hat, auch auf alle anderen Server zugreifen.
+
+-   Ändern Sie die Standardkontobeschreibungen, um eine einfache Identifizierung der Konten zu verhindern.
+
+-   Notieren Sie die vorgenommenen Änderungen, und bewahren Sie diese Informationen an einem sicheren Ort auf.
+
+#### Fehlerberichterstattung
+
+**Tabelle 12.4: Empfohlene Einstellungen für die Fehlerberichterstattung**
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Einstellung</th>
+<th style="border:1px solid black;" >Älterer Client</th>
+<th style="border:1px solid black;" >Unternehmensclient</th>
+<th style="border:1px solid black;" >Hochsicher (SSLF)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Windows-Fehlerberichterstattung deaktivieren</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+<td style="border:1px solid black;">Aktiviert</td>
+</tr>
+</tbody>
+</table>
+  
+Dieser Dienst hilft Microsoft bei der Erfassung und Behebung von Fehlern. Sie können diesen Dienst konfigurieren, um Berichte über Betriebssystemfehler, Windows-Komponentenfehler oder Programmfehler zu generieren. Er ist nur in Windows XP Professional und Windows Server 2003 verfügbar.
+  
+Mit dem Dienst **Fehlerberichterstattung** können solche Fehler über das Internet oder über eine interne Datenfreigabe Microsoft gemeldet werden. Obwohl Fehlerberichte sicherheitsrelevante oder sogar vertrauliche Daten enthalten können, wird durch die Microsoft-Datenschutzrichtlinie für die Fehlerberichterstattung sichergestellt, dass derartige Daten von Microsoft nicht zweckentfremdet werden. Die als Klartext-HTTP-Verkehr übertragenen Daten können jedoch im Internet abgefangen und von Dritten angezeigt werden.
+  
+Anhand der Einstellung zum **Deaktivieren der Windows**-**Fehlerberichterstattung** wird überwacht, ob der **Fehlerberichterstattungsdienst** Daten überträgt.
+  
+Diese Richtlinieneinstellung kann unter Windows Server 2003 im Gruppenrichtlinienobjekt-Editor in folgendem Verzeichnis konfiguriert werden:
+  
+**Computerkonfiguration\\Administrative Vorlagen\\System\\Internetkommunikationsmanagement\\Internetkommunikationseinstellungen**
+  
+Setzen Sie die Einstellung zum Deaktivieren der **Windows**-**Fehlerberichterstattung** in der BHLP für alle drei in diesem Handbuch definierten Umgebungen auf **Aktiviert**.
+  
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+  
+### Erstellen der Richtlinie mithilfe des SCW
+  
+Zum Bereitstellen der notwendigen Sicherheitseinstellungen müssen Sie sowohl den Sicherheitskonfigurations-Assistenten (SCW) sowie die im Rahmen der herunterladbaren Version dieses Handbuchs verfügbaren Sicherheitsvorlagen verwenden, um eine Serverrichtlinie zu erstellen.
+  
+Wenn Sie Ihre eigene Richtlinie erstellen, müssen Sie die Abschnitte „Registrierungseinstellungen“ und „Überwachungsrichtlinie“ überspringen. Diese Einstellungen werden von den Sicherheitsvorlagen für die von Ihnen gewählte Umgebung bereitgestellt. Dieser Ansatz ist nötig um sicherzustellen, dass die in den Vorlagen angebotenen Richtlinienelemente Vorrang vor den vom SCW konfigurierten Elementen haben.
+  
+Es empfiehlt sich, das Betriebssystem zu Beginn der Konfigurationsarbeit neu zu installieren. Dadurch wird sichergestellt, dass keine älteren Einstellungen oder Software von früheren Konfigurationen verwendet werden. Wenn möglich, sollten Sie ähnliche Hardware wie in Ihrer Bereitstellungsumgebung verwenden, um eine möglichst hohe Kompatibilität zu gewährleisten. Die neue Installation wird als *Referenzcomputer* bezeichnet.
+  
+Während der Erstellung einer Serverrichtlinie entfernen Sie wahrscheinlich die Dateiserverrolle aus der Liste mit den erkannten Rollen. Diese Rolle wird häufig auf Servern konfiguriert, die sie nicht benötigen. Sie könnte als Sicherheitsrisiko betrachtet werden. Um die Dateiserverrolle für Server zu aktivieren, die sie benötigen, können Sie zu einem späteren Zeitpunkt eine zweite Richtlinie anwenden.
+  
+**So erstellen Sie die Bastion-Host-Richtlinie**
+  
+1.  Erstellen Sie auf einem neuen Referenzcomputer eine neue Installation von Windows Server 2003 mit SP1.
+  
+2.  Installieren Sie die Komponente für den Sicherheitskonfigurations-Assistenten (SCW) auf dem Computer, indem Sie auf „Systemsteuerung“, „Software“ und „Windows-Komponenten hinzufügen/entfernen“ klicken.
+  
+3.  Installieren und konfigurieren Sie nur die obligatorischen Anwendungen, die auf jedem Bastion-Host sein werden. Dazu zählen Antiviren- und Antispywaredienstprogramme.
+  
+4.  Starten Sie die grafische Benutzeroberfläche des SCW, wählen die Option zum **Erstellen einer neuen Richtlinie**, und verweisen Sie auf den Referenzcomputer.
+  
+5.  Stellen Sie sicher, dass die ermittelten Serverrollen für Ihre Umgebung geeignet sind (z. B. Webserver). Entfernen Sie alle anderen Serverrollen.
+  
+6.  Stellen Sie sicher, dass die erkannten Clientfunktionen für Ihre Umgebung geeignet sind. Entfernen Sie alle unnötigen Clientfunktionen. Sie sollten z. B. die Funktionen für den **Microsoft-Netzwerkclient** und den **DHCP-Client** entfernen, um die Angriffsfläche des Servers zu verringern.
+  
+7.  Um einen maximalen Schutz zu erhalten, können Sie alle administrativen Optionen mit Ausnahme der Windows-Firewall entfernen. Zusätzliche Optionen erleichtern die Verwaltung des Bastion-Hosts, erhöhen jedoch gleichzeitig seine Angriffsfläche. Wiegen Sie die Vorteile von Optionen, die für den ordnungsgemäßen Betrieb des Bastion-Hosts nicht unbedingt erforderlich sind, sorgfältig gegen die potenziellen Sicherheitsrisiken ab.
+  
+8.  Stellen Sie sicher, dass von der Baseline benötigte zusätzliche Dienste, wie etwa Sicherungsagenten oder Antivirensoftware, erkannt werden.
+  
+9.  Entscheiden Sie, wie nicht festgelegte Dienste in Ihrer Umgebung zu behandeln sind. Um eine verbesserte Sicherheit zu erzielen, können Sie diese Richtlinieneinstellung auf **Deaktivieren** setzen. Es empfiehlt sich, diese Konfiguration vor ihrer Bereitstellung auf dem Produktionsnetzwerk zu testen, da es bei der Ausführung von zusätzlichen Diensten auf den Produktionsservern, die auf dem Referenzcomputer nicht dupliziert wurden, zu Problemen kommen kann.
+  
+10. Achten Sie darauf, dass das Kontrollkästchen zum Überspringen des Abschnitts im Abschnitt „Netzwerksicherheit“ deaktiviert ist, und klicken Sie dann auf **Weiter**. Die zuvor ermittelten Ports und Anwendungen sind als Ausnahmen für die Windows-Firewall konfiguriert. Deaktivieren Sie alle Ports, mit Ausnahme jener, die für die Bastion-Host-Funktion erforderlich sind.
+  
+11. Aktivieren Sie im Abschnitt „Registrierungseinstellungen“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+  
+12. Aktivieren Sie im Abschnitt „Überwachungsrichtlinie“ das Kontrollkästchen zum Überspringen des Abschnitts,und klicken Sie dann auf **Weiter.** Die Richtlinieneinstellungen werden aus der bereitgestellten INF-Datei importiert.
+  
+13. Schließen Sie die entsprechende Sicherheitsvorlage mit ein (z. B. „Hochsicher - Bastion-Host.inf“) hinzu.
+  
+14. Speichern Sie die Richtlinie unter einem geeigneten Namen (z. B. Bastion-Host.xml).
+  
+#### Testen der Richtlinie mithilfe des SCW
+  
+Nach dem Erstellen und Speichern der Richtlinie empfiehlt es sich unbedingt, sie in Ihrer Testumgebung bereitzustellen. Im Idealfall werden Ihre Testserver die gleiche Hardware- und Softwarekonfiguration wie Ihre Produktionsserver aufweisen. Mit diesem Ansatz können Sie mögliche Probleme, wie etwa das Vorhandensein unerwarteter Dienste, die von bestimmten Hardwaregeräten benötigt werden, ermitteln und beheben.
+  
+Da Computer in der Bastion-Hostrolle nicht mit einer Domäne verbunden sind, müssen Sie die Einstellungen mit SCW anwenden. Die Gruppenrichtlinie kann nicht ohne eine Domäne verwendet werden.
+  
+Die Richtlinie wird getestet, um sicherzustellen, dass ihre Anwendung auf den Zielservern keine negativen Auswirkungen auf wichtige Funktionen hat. Nach Übernahme der Konfigurationsänderungen müssen Sie zunächst die Kernfunktionalität des Computers überprüfen. Ist der Server z. B. als Zertifizierungsstelle (CA) konfiguriert, müssen Sie sicherstellen, dass Clients Zertifikate anfordern und erhalten bzw. eine Zertifikatsperrliste herunterladen können usw.
+  
+Wenn Sie mit der Konfiguration von Richtlinien vertraut sind, können Sie Scwcmd verwenden, um wie im folgenden Verfahren veranschaulicht die Richtlinien in Gruppenrichtlinienobjekte umzuwandeln.
+  
+Weitere Informationen zum Testen von SCW-Richtlinien finden Sie im [Deployment Guide for the Security Configuration Wizard](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/scwdeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx) unter *www.microsoft.com/technet/prodtechnol/windowsserver2003/library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx*sowie in der [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450) unter http://go.microsoft.com/fwlink/?linkid=43450 (jeweils in englischer Sprache).
+  
+#### Implementieren der Richtlinie
+  
+Nachdem Sie die Richtlinie gründlich getestet haben, führen Sie folgende Schritte aus, um sie zu implementieren:
+  
+1.  Starten Sie die grafische Benutzeroberfläche des SCW.
+  
+2.  Wählen Sie die Option zum Anwenden einer bestehendenSicherheitsrichtlinie aus.
+  
+3.  Wählen Sie die zuvor erstellte XML-Datei aus, z. B. Bastion-Host.xml.
+  
+4.  Schließen Sie den SCW-Assistenten ab, um die Einstellungen anzuwenden.
+  
+Beachten Sie, dass für eine erfolgreiche Durchführung dieses Verfahrens die Windows-Firewall auf dem lokalen Computer aktiviert sein muss, wenn die SCW-Sicherheitsrichtliniendatei Windows-Firewall-Einstellungen enthält. Um zu überprüfen, ob die Windows-Firewall aktiviert ist, öffnen Sie die Systemsteuerung, und doppelklicken Sie auf **Windows-Firewall**.
+  
+Anschließend sollten Sie eine endgültige Prüfung vornehmen, um sicherzustellen, dass SCW die gewünschten Einstellungen anwendet. Prüfen Sie zum Abschluss dieses Verfahrens, dass die entsprechenden Einstellungen vorgenommen wurden und die Funktionalität nicht beeinträchtigt ist.
+  
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+  
+### Zusammenfassung
+  
+Da Bastion-Hostserver, auf denen Windows Server 2003 mit SP1 ausgeführt wird, nicht von anderen Geräten wie Firewalls geschützt werden, sind sie anfällig für externe Angriffe. Sie müssen so gut wie möglich geschützt werden, um ihre Verfügbarkeit zu maximieren und die Gefahr einer Beeinträchtigung zu minimieren. Die sichersten Bastion-Hostserver erlauben nur äußerst vertrauenswürdigen Konten den Zugriff und aktivieren nur jene Dienste, die zur vollen Ausführung ihrer Funktionen erforderlich sind.
+  
+In diesem Kapitel wurden Einstellungen und Verfahren für die Absicherung der Bastion-Hostservern erklärt. Die meisten der Einstellungen können über lokale Gruppenrichtlinien angewendet werden. Außerdem wurden Anleitungen zum Konfigurieren und Anwenden manueller Einstellungen bereitgestellt.
+  
+#### Weitere Informationen
+  
+Die folgenden Links bieten zusätzliche Informationen zur Absicherung von Bastion-Hostservern, auf denen Windows Server 2003 mit SP1 ausgeführt wird.
+  
+-   Weitere Informationen zum Aufbauen privater Netzwerke finden Sie in „[Firewalls und Virtuelle Private Netzwerke](http://www.wiley.com/legacy/compbooks/press/0471348201_09.pdf)“ (in englischer Sprache) von Elizabeth D. Zwicky, Simon Cooper und Brent D. Chapman unter www.wiley.com/legacy/compbooks/press/0471348201\_09.pdf.
+  
+-   Weitere Informationen zu Firewalls und Sicherheit finden Sie in „[Internet-Firewalls und Sicherheit – Technologieüberblick](http://www.itmweb.com/essay534.htm)“ (in englischer Sprache) von Chuck Semeria unter www.itmweb.com/essay534.htm.
+  
+-   Informationen zum Tiefenverteidigungsmodell finden Sie auf der Seite des US-Militärs [Über Tiefenverteidigung](http://usmilitary.about.com/careers/usmilitary/library/glossary/d/bldef01834.htm) (in englischer Sprache) unter http://usmilitary.about.com/careers/usmilitary/library/glossary/d/bldef01834.htm.
+  
+-   Informationen zu Sicherheitsmaßnahmen gegen Eindringlinge finden Sie in „[Checkliste zur Eindringungserkennung](http://www.cert.org/tech_tips/intruder_detection_checklist.html)“ (in englischer Sprache) von Jay Beale unter www.cert.org/tech\_tips/intruder\_detection\_checklist.html.
+  
+-   Weitere Informationen zum Absichern von Bastion-Hosts finden Sie im SANS Info Sec Reading Room-Artikel „[Absichern von Bastion-Hosts](http://www.sans.org/rr/whitepapers/basics/420.php)“ (in englischer Sprache) unter www.sans.org/rr/whitepapers/basics/420.php.
+  
+-   Weitere Informationen zu Bastion-Hosts finden Sie im Artikel „[Funktionsweise von Bastion-Hosts](http://thor.info.uaic.ro/~busaco/teach/docs/intranets/ch16.htm)“ (in englischer Sprache) unter http://thor.info.uaic.ro/~busaco/teach/docs/intranets/ch16.htm.
+  
+-   Informationen zur Fehlerbehebung beim Tool „Sicherheitskonfiguration und -analyse“ finden Sie im Microsoft Knowledge Base-Artikel [Probleme nach dem Importieren mehrerer Vorlagen in das Tool „Sicherheitskonfiguration und -analyse“](http://support.microsoft.com/kb/279125/en-us) (in englischer Sprache) unter http://support.microsoft.com/kb/279125/en-us.
+  
+-   Informationen zur Sitesicherheit finden Sie im „[Site-Sicherheitshandbuch](http://www.faqs.org/rfcs/rfc2196.html)“ (in englischer Sprache) unter www.faqs.org/rfcs/rfc2196.html.
+  
+[](#mainsection)[Zum Seitenanfanq](#mainsection)
+  
+### In diesem Beitrag
+  
+-   [Überblick](https://technet.microsoft.com/de-de/library/303c53d5-6b76-46e1-8ee3-7d8c99891129(v=TechNet.10))  
+-   [Kapitel 1: Einführung in das Windows Server 2003-Sicherheitshandbuch](https://technet.microsoft.com/de-de/library/b0015e61-fe4e-4523-a875-ef8b971da55c(v=TechNet.10))  
+-   [Kapitel 2: Absicherungsmechanismen von Windows Server 2003](https://technet.microsoft.com/de-de/library/015a5e65-1d76-48df-9657-6fe516a5095a(v=TechNet.10))  
+-   [Kapitel 3: Die Domänenrichtlinie](https://technet.microsoft.com/de-de/library/70e3e562-9517-4fb9-b617-ef7854a0f03c(v=TechNet.10))  
+-   [Kapitel 4: Die Richtlinie für die Mitgliedsserver-Baseline](https://technet.microsoft.com/de-de/library/7fd4e7b6-32b3-4fe8-a323-7c01d0c86c51(v=TechNet.10))  
+-   [Kapitel 5: Die Richtlinie für die Domänencontroller-Baseline](https://technet.microsoft.com/de-de/library/f86f67bd-c150-4d0d-ad85-ff13a01afb01(v=TechNet.10))  
+-   [Kapitel 6: Die Infrastrukturserverrolle](https://technet.microsoft.com/de-de/library/5914ba9b-2fe2-4886-8171-a908521836ec(v=TechNet.10))  
+-   [Kapitel 7: Die Dateiserverrolle](https://technet.microsoft.com/de-de/library/2b1536d0-9610-4fb5-93b4-72f62d9e2ff3(v=TechNet.10))  
+-   [Kapitel 8: Die Druckserverrolle](https://technet.microsoft.com/de-de/library/a37f44cf-85b3-4ae6-8e32-0cd877c5e9ee(v=TechNet.10))  
+-   [Kapitel 9: Die Webserverrolle](https://technet.microsoft.com/de-de/library/835865cd-ff71-43e6-88bf-91f5b35a00b9(v=TechNet.10))  
+-   [Kapitel 10: Die IAS-Serverrolle](https://technet.microsoft.com/de-de/library/605c5b8e-d007-41c2-92a6-9260fe571bc7(v=TechNet.10))  
+-   [Kapitel 11: Die Zertifikatdienstserverrolle](https://technet.microsoft.com/de-de/library/7488b1dc-eb9b-4f4a-b597-b84d87717b57(v=TechNet.10))  
+-   Kapitel 12: Die Bastion-Hostrolle  
+-   [Kapitel 13: Zusammenfassung](https://technet.microsoft.com/de-de/library/4a4cf96c-802d-4aef-9478-da3242f961da(v=TechNet.10))  
+-   [Anhang A: Sicherheitstools und Formate](https://technet.microsoft.com/de-de/library/e15ff47c-bd77-4b34-9b58-c3f3fba2d135(v=TechNet.10))  
+-   [Anhang B: Zu berücksichtigende Schlüsseleinstellungen](https://technet.microsoft.com/de-de/library/ff6d4718-4179-4f5a-a09d-50d75e9f32e6(v=TechNet.10))  
+-   [Anhang C: Zusammenfassung der Einstellungen für Sicherheitsvorlagen](https://technet.microsoft.com/de-de/library/3a17dffb-0395-4656-ada8-28e3954307f5(v=TechNet.10))  
+-   [Anhang D: Testen des Windows Server 2003-Sicherheitshandbuchs](https://technet.microsoft.com/de-de/library/2698b276-4c42-4a18-9930-3d69974746f8(v=TechNet.10))  
+-   [Danksagungen](https://technet.microsoft.com/de-de/library/3ec7641e-0d9e-45a2-b3b2-b2a08960d871(v=TechNet.10))
+  
+**Download**
+  
+[Holen Sie sich das Windows Server 2003-Sicherheitshandbuch (engl.)](http://go.microsoft.com/fwlink/?linkid=14846&clcid=0x409)
+  
+**Benachrichtigung über Neuerungen**
+  
+[Melden Sie sich an, um sich über Updates und neue Versionen zu informieren](http://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx)
+  
+**Feedback**
+  
+[Senden Sie uns Ihre Kommentare oder Vorschläge](mailto:secwish@microsoft.com?subject=windows%20server%202003%20security%20guide)<br/>
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><div>
+<a href="#mainsection"></a><a href="#mainsection">Zum Seitenanfanq</a>
+</div></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/7488b1dc-eb9b-4f4a-b597-b84d87717b57(v=TechNet.10)"><img src="images/Dd443733.pageLeft(de-de,TechNet.10).gif" /></a>13 von 19<a href="https://technet.microsoft.com/de-de/library/4a4cf96c-802d-4aef-9478-da3242f961da(v=TechNet.10)"><img src="images/Dd443733.pageRight(de-de,TechNet.10).gif" /></a></td>
+</tr>
+</tbody>
+</table>
