@@ -17,7 +17,7 @@
     }
   ],
   "notification_subscribers": [
-    "v-yijwan@microsoft.com"
+    "betafred@microsoft.com"
   ],
   "branches_to_filter": [],
   "continue_with_document_error": true,
@@ -43,6 +43,7 @@
   ],
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
+  "targets": {},
   "need_generate_pdf": false,
   "need_generate_intellisense": false
 }
