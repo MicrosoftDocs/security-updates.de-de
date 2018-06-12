@@ -4,6 +4,13 @@
 - name: Sicherheitsempfehlungen
   href: ./SecurityAdvisories/securityadvisories
   items:
+  - name: 2018
+    href: 
+    items:
+    - name: 4338110
+      href: ./SecurityAdvisories/2018/4338110
+    - name: 4092731
+      href: ./SecurityAdvisories/2018/4092731
   - name: 2017
     href: 
     items:

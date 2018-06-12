@@ -23,7 +23,12 @@ For a list of the most recently updated and published Security Advisories, see [
 <tr class="even">
 <td style="border:1px solid black;">April 10, 2018</td>
 <td style="border:1px solid black;">[4092731](4092731.md) </td>
-<td style="border:1px solid black;">Update to Azure Guest OS Machine Key Generation Algorithm</td>
+<td style="border:1px solid black;">Update für den Algorithmus zum Generieren von Computerschlüsseln durch das Azure-Gastbetriebssystem</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">April 10, 2018</td>
+<td style="border:1px solid black;">[4338110](4338110.md) </td>
+<td style="border:1px solid black;">Timingsicherheitsanfälligkeiten bei der symmetrischen Entschlüsselung im CBC-Modus mithilfe von Padding</td>
 </tr>
 </tbody>
 </table>
