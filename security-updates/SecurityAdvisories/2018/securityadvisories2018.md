@@ -21,14 +21,14 @@ For a list of the most recently updated and published Security Advisories, see [
 <td style="border:1px solid black;">**Title**</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">May 8, 2018</td>
-<td style="border:1px solid black;">[4092731](4092731.md) </td>
-<td style="border:1px solid black;">Update für den Algorithmus zum Generieren von Computerschlüsseln durch das Azure-Gastbetriebssystem</td>
-</tr>
-<tr class="even">
 <td style="border:1px solid black;">June 12, 2018</td>
 <td style="border:1px solid black;">[4338110](4338110.md) </td>
 <td style="border:1px solid black;">Timingsicherheitsanfälligkeiten bei der symmetrischen Entschlüsselung im CBC-Modus mithilfe von Padding</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">May 8, 2018</td>
+<td style="border:1px solid black;">[4092731](4092731.md) </td>
+<td style="border:1px solid black;">Update für den Algorithmus zum Generieren von Computerschlüsseln für Azure Cloud Services</td>
 </tr>
 </tbody>
 </table>
