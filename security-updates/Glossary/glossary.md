@@ -39,7 +39,7 @@ The Microsoft Windows Application Compatibility Infrastructure (AppCompat) is de
 
 ASP.NET is a collection of technologies within the Microsoft .NET Framework that enable developers to build Web applications and XML Web Services.
 
-Unlike traditional Web pages, which use a combination of static HTML and scripting, ASP.NET uses compiled, event-driven pages. Because ASP.NET is a Web-based application environment, requiring an underlying Web server to provide basic HTTP functionality, ASP.NET runs on top of Internet Information Services (IIS). For more information, see [The Official Microsoft ASP.NET Site](http://www.asp.net/).
+Unlike traditional Web pages, which use a combination of static HTML and scripting, ASP.NET uses compiled, event-driven pages. Because ASP.NET is a Web-based application environment, requiring an underlying Web server to provide basic HTTP functionality, ASP.NET runs on top of Internet Information Services (IIS). For more information, see [The Official Microsoft ASP.NET Site](https://www.asp.net/).
 
 ## C
 
@@ -49,11 +49,11 @@ Certification authorities are the organizations that issue certificates. They es
 
 **Certificate Trust List (CTL)**
 
-A trust must exist between the recipient of a signed message and the signer of the message. One method of establishing this trust is through a certificate, an electronic document verifying that entities or persons are who they claim to be. A certificate is issued to an entity by a third party that is trusted by both of the other parties. So, each recipient of a signed message decides if the issuer of the signer's certificate is trustworthy. CryptoAPI has implemented a methodology to allow application developers to create applications that automatically verify certificates against a predefined list of trusted certificates or roots. This list of trusted entities (called subjects) is called a certificate trust list (CTL). For more information, please see the MSDN article, [Certificate Trust Verification](http://msdn.microsoft.com/en-us/library/aa376546(v=vs.85).aspx).
+A trust must exist between the recipient of a signed message and the signer of the message. One method of establishing this trust is through a certificate, an electronic document verifying that entities or persons are who they claim to be. A certificate is issued to an entity by a third party that is trusted by both of the other parties. So, each recipient of a signed message decides if the issuer of the signer's certificate is trustworthy. CryptoAPI has implemented a methodology to allow application developers to create applications that automatically verify certificates against a predefined list of trusted certificates or roots. This list of trusted entities (called subjects) is called a certificate trust list (CTL). For more information, please see the MSDN article, [Certificate Trust Verification](https://msdn.microsoft.com/en-us/library/aa376546(v=vs.85).aspx).
 
 **Cipher suite**
 
-A cipher suite is a set of cryptographic algorithms. Schannel protocols use algorithms from a cipher suite to create keys and encrypt information. For more information about cipher suites, see [Cipher Suites in Schannel](http://msdn.microsoft.com/en-us/library/windows/desktop/aa374757(v=vs.85).aspx). 
+A cipher suite is a set of cryptographic algorithms. Schannel protocols use algorithms from a cipher suite to create keys and encrypt information. For more information about cipher suites, see [Cipher Suites in Schannel](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374757(v=vs.85).aspx). 
 
 **Common Log File System (CLFS)**
 
@@ -61,7 +61,7 @@ The Common Log File System (CLFS) is a high-performance, general-purpose log fil
 
 **Content Security Policy (CSP)**
 
-Microsoft Edge now implements Content Security Policy (CSP) 1.0. For extended details, see the [W3C Content Security Policy specification](http://www.w3.org/tr/2012/cr-csp-20121115/). The CSP security standard enables web developers to control the resources (JS, CSS, plugins, images, etc.) which a particular page can fetch or execute with the aim of preventing cross-site scripting (XSS), clickjacking, and other code injection attacks seeking to execute malicious content in the context of a trusted web page. With CSP, web developers can create an allow list of sources of trusted content in the HTTP headers, pre-approving certain servers for content loaded into a webpage and instructing the browser to only execute or render resources from those sources.
+Microsoft Edge now implements Content Security Policy (CSP) 1.0. For extended details, see the [W3C Content Security Policy specification](https://www.w3.org/tr/2012/cr-csp-20121115/). The CSP security standard enables web developers to control the resources (JS, CSS, plugins, images, etc.) which a particular page can fetch or execute with the aim of preventing cross-site scripting (XSS), clickjacking, and other code injection attacks seeking to execute malicious content in the context of a trusted web page. With CSP, web developers can create an allow list of sources of trusted content in the HTTP headers, pre-approving certain servers for content loaded into a webpage and instructing the browser to only execute or render resources from those sources.
 
 **Cross-site Request Forgery (CSRF/XSRF)**
 
@@ -89,7 +89,7 @@ In information security, defense-in-depth refers to an approach in which multipl
 
 **Digital Certificate**
 
-In [public-key cryptography](http://msdn.microsoft.com/en-us/library/92f9ye3s.aspx), one of the keys, known as the private key, must be kept secret. The other key, known as the public key, is intended to be shared with the world. Digital certificates are used primarily to verify the identity of a person or device, authenticate a service, or encrypt files. A digital certificate is a tamperproof piece of data that packages a public key together with information about it - who owns it, what it can be used for, when it expires, and so forth.  
+In [public-key cryptography](https://msdn.microsoft.com/en-us/library/92f9ye3s.aspx), one of the keys, known as the private key, must be kept secret. The other key, known as the public key, is intended to be shared with the world. Digital certificates are used primarily to verify the identity of a person or device, authenticate a service, or encrypt files. A digital certificate is a tamperproof piece of data that packages a public key together with information about it - who owns it, what it can be used for, when it expires, and so forth.  
 
 **Document Type Definition (DTD)**
 
@@ -103,13 +103,13 @@ Domain Name System (DNS), a locator service in Microsoft Windows, is an industry
 
 **Enhanced Mitigation Experience Toolkit (EMET)**
 
-The Enhanced Mitigation Experience Toolkit (EMET) is designed to help customers with their defense in depth strategies against cyberattacks, by helping detect and block exploitation techniques that are commonly used to exploit memory corruption vulnerabilities. EMET helps protect against new and undiscovered threats even before they are formally addressed through security updates or antimalware software. EMET includes 14 security mitigations that complement other defense in-depth security measures, such as Windows Defender and antivirus software. EMET installs with default protection profiles, which are XML files that contain preconfigured settings for common Microsoft and third-party applications. For more information about EMET, see the [Enhanced Mitigation Experience Toolkit](http://technet.microsoft.com/security/jj653751). 
+The Enhanced Mitigation Experience Toolkit (EMET) is designed to help customers with their defense in depth strategies against cyberattacks, by helping detect and block exploitation techniques that are commonly used to exploit memory corruption vulnerabilities. EMET helps protect against new and undiscovered threats even before they are formally addressed through security updates or antimalware software. EMET includes 14 security mitigations that complement other defense in-depth security measures, such as Windows Defender and antivirus software. EMET installs with default protection profiles, which are XML files that contain preconfigured settings for common Microsoft and third-party applications. For more information about EMET, see the [Enhanced Mitigation Experience Toolkit](https://technet.microsoft.com/security/jj653751). 
 
 **Enhanced Metafile (EMF)**
 
 EMF is a 32-bit format that can contain both vector information and bitmap information. This format is an improvement over the Windows Metafile Format (WMF) and contains extended features.
 
-For more information about image types and formats, see [Microsoft Knowledge Base Article 320314](http://support.microsoft.com/kb/320314). For additional information about graphics file formats, see MSDN article, [Metafiles](https://msdn.microsoft.com/en-us/library/ms536391.aspx).
+For more information about image types and formats, see [Microsoft Knowledge Base Article 320314](https://support.microsoft.com/kb/320314). For additional information about graphics file formats, see MSDN article, [Metafiles](https://msdn.microsoft.com/en-us/library/ms536391.aspx).
 
 ## H
 
@@ -145,7 +145,7 @@ Windows provides the ability for applications to directly request services of de
 
 **Internet Information Service (IIS)**
 
-The Web Server (IIS) role in Windows Server provides a secure, easy-to-manage, modular and extensible platform for reliably hosting websites, services, and applications. For more information, see the TechNet article, [Web Server IIS Overview](http://technet.microsoft.com/library/hh831725.aspx). 
+The Web Server (IIS) role in Windows Server provides a secure, easy-to-manage, modular and extensible platform for reliably hosting websites, services, and applications. For more information, see the TechNet article, [Web Server IIS Overview](https://technet.microsoft.com/library/hh831725.aspx). 
 
 **IP Address and Domain Restrictions**
 
@@ -153,7 +153,7 @@ IP Address and Domain Restrictions is a Web Server (IIS) feature that allows the
 
 All IP addresses, computers, and domains can access your site by default. To enhance security, you can restrict access to your site by creating a restriction rule for all IP addresses, a specific IP address, a range of IP addresses, or a specific domain or domains.
 
-For example, if you have a site on an intranet server that is connected to the Internet, you can prevent Internet users from accessing your intranet site by allowing access only to members of your intranet, and explicitly denying access to outside users, see the article, [IP security](http://www.iis.net/configreference/system.webserver/security/ipsecurity). 
+For example, if you have a site on an intranet server that is connected to the Internet, you can prevent Internet users from accessing your intranet site by allowing access only to members of your intranet, and explicitly denying access to outside users, see the article, [IP security](https://www.iis.net/configreference/system.webserver/security/ipsecurity). 
 
 ## J
 
@@ -179,7 +179,7 @@ Kerberos Key Distribution Center (KDC) is a network service that supplies sessio
 
 A security feature in Microsoft Internet Explorer makes it possible to prevent an ActiveX control from ever being loaded by the Internet Explorer HTML-rendering engine. This is done by making a registry setting and is referred to as setting the kill bit. After the kill bit is set, the control can never be loaded, even when it is fully installed. Setting the kill bit makes sure that even if a vulnerable component is introduced or is re-introduced to a system, it remains inert and harmless.
 
-For more information on kill bits, see [Microsoft Knowledge Base Article 240797](http://support.microsoft.com/kb/240797).
+For more information on kill bits, see [Microsoft Knowledge Base Article 240797](https://support.microsoft.com/kb/240797).
 
 ## M
 
@@ -199,7 +199,7 @@ Microsoft DirectShow is used for streaming media on Microsoft Windows operating 
 
 **Microsoft XML Core Services (MSXML)**
 
-Microsoft XML Core Services (MSXML) allows customers who use JScript, Visual Basic Scripting Edition (VBScript), and Microsoft Visual Studio 6.0 to develop XML-based applications that provide interoperability with other applications that adhere to the XML 1.0 standard. For more information, see the MSDN site, [MSXML](http://msdn.microsoft.com/en-us/library/ms763742.aspx).
+Microsoft XML Core Services (MSXML) allows customers who use JScript, Visual Basic Scripting Edition (VBScript), and Microsoft Visual Studio 6.0 to develop XML-based applications that provide interoperability with other applications that adhere to the XML 1.0 standard. For more information, see the MSDN site, [MSXML](https://msdn.microsoft.com/en-us/library/ms763742.aspx).
 
 **Mitigation**
 
@@ -227,7 +227,7 @@ NT LAN Manager (NTLM) Authentication Protocol is a protocol that uses a challeng
 
 **Object Linking and Embedding (OLE)**
 
-A technology that allows applications to share data and functionality, such as the ability to create and edit compound data. Compound data is data that contains information in multiple formats. For example, a compound Microsoft Word document may contain an embedded Microsoft Excel spreadsheet (or OLE object). This technology also enables in-place editing; instead of launching a new application when an OLE object is activated, the user instead sees a new set of menu items inside their existing application. For more information about OLE, see [Compound Documents](http://msdn.microsoft.com/library/ms693383). 
+A technology that allows applications to share data and functionality, such as the ability to create and edit compound data. Compound data is data that contains information in multiple formats. For example, a compound Microsoft Word document may contain an embedded Microsoft Excel spreadsheet (or OLE object). This technology also enables in-place editing; instead of launching a new application when an OLE object is activated, the user instead sees a new set of menu items inside their existing application. For more information about OLE, see [Compound Documents](https://msdn.microsoft.com/library/ms693383). 
 
 ## P
 
@@ -241,7 +241,7 @@ PGM is a reliable and scalable multicast protocol that enables receivers to dete
 
 **PNG**
 
-PNG stands for Portable Network Graphics. The Portable Network Graphics (PNG) format was designed to replace the older and simpler GIF format and, to some extent, the much more complex TIFF format. Additional information about PNG can be found at the following [website](http://www.libpng.org/pub/png/pngintro.html).
+PNG stands for Portable Network Graphics. The Portable Network Graphics (PNG) format was designed to replace the older and simpler GIF format and, to some extent, the much more complex TIFF format. Additional information about PNG can be found at the following [website](https://www.libpng.org/pub/png/pngintro.html).
 
 ## R
 
@@ -251,7 +251,7 @@ Remote Authentication Dial-In User Service (RADIUS) is a client-server networkin
 
 **Remote Desktop Protocol (RDP)**
 
-Remote Desktop Protocol (RDP) lets users create a virtual session on their desktop computers. RDP allows remote users to access all of the data and applications on their computers. For more information, see the MSDN article, [Remote Desktop Protocol](http://msdn.microsoft.com/en-us/library/aa383015(v=vs.85).aspx).
+Remote Desktop Protocol (RDP) lets users create a virtual session on their desktop computers. RDP allows remote users to access all of the data and applications on their computers. For more information, see the MSDN article, [Remote Desktop Protocol](https://msdn.microsoft.com/en-us/library/aa383015(v=vs.85).aspx).
 
 **Remote Procedure Call (RPC)**
 
@@ -269,12 +269,12 @@ The same-origin policy is used by web browsers to prevent a script loaded from o
 
 **Secure Channel (Schannel)**
 
-The Secure Channel (Schannel) security package is a Security Support Provider (SSP) that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) Internet standard authentication protocols. These components are used to implement secure communications in support of several common internet and network applications, such as web browsing. Schannel is part of the security package that helps provide an authentication service to provide secure communications between client and server. For more information, see [Secure Channel](http://msdn.microsoft.com/en-us/library/aa380123(vs.85).aspx).
+The Secure Channel (Schannel) security package is a Security Support Provider (SSP) that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) Internet standard authentication protocols. These components are used to implement secure communications in support of several common internet and network applications, such as web browsing. Schannel is part of the security package that helps provide an authentication service to provide secure communications between client and server. For more information, see [Secure Channel](https://msdn.microsoft.com/en-us/library/aa380123(vs.85).aspx).
 
 
 **Secure Sockets Layer (SSL)**
 
-The Secure Sockets Layer (SSL) protocol is a predecessor of the Transport Layer Security protocol. It performs the same functions and supports secure network communications using a combination of public and secret key technology. For more information, see How [TLS/SSL works](http://technet.microsoft.com/en-us/library/cc783349(ws.10).aspx).
+The Secure Sockets Layer (SSL) protocol is a predecessor of the Transport Layer Security protocol. It performs the same functions and supports secure network communications using a combination of public and secret key technology. For more information, see How [TLS/SSL works](https://technet.microsoft.com/en-us/library/cc783349(ws.10).aspx).
 
 **Server Side Request Forgery (SSRF)**
 
@@ -296,7 +296,7 @@ By using Telnet Client and Telnet Server, you can run command-line programs, she
 
 **Transport Layer Security (TLS) Handshake Protocol**
 
-The Transport Layer Security (TLS) Handshake Protocol is responsible for the authentication and key exchange necessary to establish or resume secure sessions. For more information, see How [TLS/SSL works](http://technet.microsoft.com/en-us/library/cc783349(ws.10).aspx).
+The Transport Layer Security (TLS) Handshake Protocol is responsible for the authentication and key exchange necessary to establish or resume secure sessions. For more information, see How [TLS/SSL works](https://technet.microsoft.com/en-us/library/cc783349(ws.10).aspx).
 
 **Trusted Boot**
 
@@ -306,13 +306,13 @@ Trusted Boot is a Windows 8.1 feature that secures the entire Windows boot proce
 
 **Uniscribe**
 
-Uniscribe is a set of APIs that allow a high degree of control for fine typography and for processing complex scripts. Both complex scripts and simple scripts with fine typography effects require special processing to display and edit because the characters ("glyphs") are not laid out in a simple way. For complex scripts, the rules governing the shaping and positioning of glyphs are specified and catalogued in [The Unicode Standard](http://go.microsoft.com/fwlink/p/?linkid=161643). For more information see [Uniscribe](https://msdn.microsoft.com/en-us/library/windows/desktop/dd374091(v=vs.85).aspx).
+Uniscribe is a set of APIs that allow a high degree of control for fine typography and for processing complex scripts. Both complex scripts and simple scripts with fine typography effects require special processing to display and edit because the characters ("glyphs") are not laid out in a simple way. For complex scripts, the rules governing the shaping and positioning of glyphs are specified and catalogued in [The Unicode Standard](https://go.microsoft.com/fwlink/p/?linkid=161643). For more information see [Uniscribe](https://msdn.microsoft.com/en-us/library/windows/desktop/dd374091(v=vs.85).aspx).
 
 ## V
 
 **VBScript**
 
-VBScript (Visual Basic Script) is an interpreted, object-based scripting language that is often used to make websites more flexible or interactive. VBScript scripts can run only in the presence of an interpreter or host, such as Active Server Pages (ASP), Internet Explorer, or Windows Script Host. For more information, see [VBScript Fundamentals](http://msdn.microsoft.com/library/0ad0dkea).
+VBScript (Visual Basic Script) is an interpreted, object-based scripting language that is often used to make websites more flexible or interactive. VBScript scripts can run only in the presence of an interpreter or host, such as Active Server Pages (ASP), Internet Explorer, or Windows Script Host. For more information, see [VBScript Fundamentals](https://msdn.microsoft.com/library/0ad0dkea).
 
 ## W
 
@@ -330,7 +330,7 @@ The WebDAV Mini-Redirector is also known as the WebClient service. This service 
 
 **Windows Error Reporting**
 
-Windows Error Reporting (WER) is a flexible event-based feedback infrastructure designed to gather information about the hardware and software problems that Windows can detect, report the information to Microsoft, and provide users with any available solutions. For more information about WER, see the Microsoft Developer Network (MSDN) article [About WER](http://msdn.microsoft.com/library/windows/desktop/bb513613(v=vs.85).aspx).
+Windows Error Reporting (WER) is a flexible event-based feedback infrastructure designed to gather information about the hardware and software problems that Windows can detect, report the information to Microsoft, and provide users with any available solutions. For more information about WER, see the Microsoft Developer Network (MSDN) article [About WER](https://msdn.microsoft.com/library/windows/desktop/bb513613(v=vs.85).aspx).
 
 **Windows Forms (WinForms)**
 

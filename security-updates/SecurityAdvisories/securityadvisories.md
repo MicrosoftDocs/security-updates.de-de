@@ -13,6 +13,6 @@ Microsoft-Sicherheitsempfehlungen stellen eine Ergänzung zu den Microsoft Secur
 
 Microsoft-Sicherheitsempfehlungen sind eine Möglichkeit für Microsoft, Benutzern sicherheitsbezogene Informationen zu Problemen, die nicht als Sicherheitsanfälligkeiten klassifiziert werden können und nicht unbedingt ein Security Bulletin erfordern, zu übermitteln. Jede Empfehlung wird mit einem Microsoft Knowledge Base-Artikel begleitet, der zusätzliche Informationen zu Änderungen oder Aktualisierungen bei der Veröffentlichung dieser Empfehlung bereitstellt.
 
-Schützen Sie Ihre Computerumgebung, indem Sie bei den technischen Sicherheitsbenachrichtigungen von Microsoft auf dem neuesten Stand bleiben. Weitere Informationen finden Sie unter [Technische Sicherheitsbenachrichtigungen von Microsoft](http://technet.microsoft.com/security/dd252948).
+Schützen Sie Ihre Computerumgebung, indem Sie bei den technischen Sicherheitsbenachrichtigungen von Microsoft auf dem neuesten Stand bleiben. Weitere Informationen finden Sie unter [Technische Sicherheitsbenachrichtigungen von Microsoft](https://technet.microsoft.com/security/dd252948).
 
 Siehe [Microsoft-Sicherheitsempfehlung](https://technet.microsoft.com/security/advisory) für weitere Informationen.

@@ -9,7 +9,7 @@ ms:mtpsurl: 'https://technet.microsoft.com/en-us/library/Mt674627(v=Security.10)
 Acknowledgments – 2016
 ======================
 
-Microsoft [extends thanks](http://go.microsoft.com/fwlink/?linkid=21127) to the following for working with us to help protect customers.
+Microsoft [extends thanks](https://go.microsoft.com/fwlink/?linkid=21127) to the following for working with us to help protect customers.
 
  
 <table style="border:1px solid black;">
@@ -47,11 +47,11 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7295](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7295)
+[CVE-2016-7295](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7295)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7259](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7259)
+[CVE-2016-7259](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7259)
 
 </td>
 <td style="border:1px solid black;">
@@ -83,29 +83,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7259](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7259)
+[CVE-2016-7259](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7259)
 
 </td>
 <td style="border:1px solid black;">
-Sébastien Renaud of [Quarkslab](http://www.quarkslab.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-151](https://go.microsoft.com/fwlink/?linkid=834956)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7259](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7259)
-
-</td>
-<td style="border:1px solid black;">
-Richard Le Dé of [Quarkslab](http://www.quarkslab.com/)
+Sébastien Renaud of [Quarkslab](https://www.quarkslab.com/)
 
 </td>
 </tr>
@@ -119,11 +101,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7260](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7260)
+[CVE-2016-7259](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7259)
 
 </td>
 <td style="border:1px solid black;">
-[Jfpan](http://weibo.com/jfpan) of IceSword Lab, [Qihoo 360](http://www.360.cn/)
+Richard Le Dé of [Quarkslab](https://www.quarkslab.com/)
 
 </td>
 </tr>
@@ -137,11 +119,29 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7260](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7260)
+[CVE-2016-7260](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7260)
 
 </td>
 <td style="border:1px solid black;">
-[Fanxiaocao](https://twitter.com/tinysecex) of IceSword Lab, [Qihoo 360](http://www.360.cn/)
+[Jfpan](https://weibo.com/jfpan) of IceSword Lab, [Qihoo 360](https://www.360.cn/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-151](https://go.microsoft.com/fwlink/?linkid=834956)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7260](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7260)
+
+</td>
+<td style="border:1px solid black;">
+[Fanxiaocao](https://twitter.com/tinysecex) of IceSword Lab, [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Windows Crypto Driver Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7219](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7219)
+[CVE-2016-7219](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7219)
 
 </td>
 <td style="border:1px solid black;">
@@ -173,7 +173,7 @@ Windows Crypto Driver Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7219](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7219)
+[CVE-2016-7219](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7219)
 
 </td>
 <td style="border:1px solid black;">
@@ -191,7 +191,7 @@ Windows Crypto Driver Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7219](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7219)
+[CVE-2016-7219](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7219)
 
 </td>
 <td style="border:1px solid black;">
@@ -209,7 +209,7 @@ Windows Crypto Driver Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7219](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7219)
+[CVE-2016-7219](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7219)
 
 </td>
 <td style="border:1px solid black;">
@@ -227,7 +227,7 @@ Windows Installer Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7292](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7292)
+[CVE-2016-7292](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7292)
 
 </td>
 <td style="border:1px solid black;">
@@ -245,11 +245,11 @@ Windows GDI Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7257](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7257)
+[CVE-2016-7257](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7257)
 
 </td>
 <td style="border:1px solid black;">
-Steven Vittitoe of [Google Project Zero](http://www.google.com/)
+Steven Vittitoe of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -263,7 +263,7 @@ Microsoft Office Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7262](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7262)
+[CVE-2016-7262](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7262)
 
 </td>
 <td style="border:1px solid black;">
@@ -281,7 +281,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7263](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7263)
+[CVE-2016-7263](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7263)
 
 </td>
 <td style="border:1px solid black;">
@@ -299,7 +299,7 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7264](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7264)
+[CVE-2016-7264](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7264)
 
 </td>
 <td style="border:1px solid black;">
@@ -317,11 +317,11 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7265](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7265)
+[CVE-2016-7265](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7265)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ Microsoft Office Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7266](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7266)
+[CVE-2016-7266](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7266)
 
 </td>
 <td style="border:1px solid black;">
@@ -353,11 +353,11 @@ Microsoft Office Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7267](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7267)
+[CVE-2016-7267](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7267)
 
 </td>
 <td style="border:1px solid black;">
-Haifei Li of [Intel Security](http://www.intelsecurity.com/)
+Haifei Li of [Intel Security](https://www.intelsecurity.com/)
 
 </td>
 </tr>
@@ -371,7 +371,7 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7268](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7268)
+[CVE-2016-7268](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7268)
 
 </td>
 <td style="border:1px solid black;">
@@ -389,11 +389,11 @@ Microsoft Office OLE DLL Side Loading Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7275](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7275)
+[CVE-2016-7275](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7275)
 
 </td>
 <td style="border:1px solid black;">
-[Weibo Wang](https://twitter.com/ma1fan) of [Qihoo 360 Skyeye Labs](http://skyeye.360safe.com/)
+[Weibo Wang](https://twitter.com/ma1fan) of [Qihoo 360 Skyeye Labs](https://skyeye.360safe.com/)
 
 </td>
 </tr>
@@ -407,11 +407,11 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7276](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7276)
+[CVE-2016-7276](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7276)
 
 </td>
 <td style="border:1px solid black;">
-Steven Vittitoe of [Google Project Zero](http://www.google.com/)
+Steven Vittitoe of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -425,11 +425,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7277](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7277)
+[CVE-2016-7277](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7277)
 
 </td>
 <td style="border:1px solid black;">
-Jaanus Kääp of [Clarified Security](http://www.clarifiedsecurity.com/)
+Jaanus Kääp of [Clarified Security](https://www.clarifiedsecurity.com/)
 
 </td>
 </tr>
@@ -443,29 +443,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7289](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7289)
+[CVE-2016-7289](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7289)
 
 </td>
 <td style="border:1px solid black;">
-Peixue Li of [Fortinet’s FortiGuard Labs](http://www.fortiguard.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-148](https://go.microsoft.com/fwlink/?linkid=834445)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft Office Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7290](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7290)
-
-</td>
-<td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Peixue Li of [Fortinet’s FortiGuard Labs](https://www.fortiguard.com/)
 
 </td>
 </tr>
@@ -479,11 +461,29 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7291](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7291)
+[CVE-2016-7290](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7290)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-148](https://go.microsoft.com/fwlink/?linkid=834445)
+
+</td>
+<td style="border:1px solid black;">
+Microsoft Office Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7291](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7291)
+
+</td>
+<td style="border:1px solid black;">
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
@@ -501,7 +501,7 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
@@ -533,11 +533,11 @@ Windows Uniscribe Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7274](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7274)
+[CVE-2016-7274](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7274)
 
 </td>
 <td style="border:1px solid black;">
-Hossein Lotfi, [Secunia Research at Flexera Software](http://www.flexerasoftware.com/enterprise/company/about/secunia-research/)
+Hossein Lotfi, [Secunia Research at Flexera Software](https://www.flexerasoftware.com/enterprise/company/about/secunia-research/)
 
 </td>
 </tr>
@@ -551,11 +551,11 @@ Windows GDI Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7257](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7257)
+[CVE-2016-7257](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7257)
 
 </td>
 <td style="border:1px solid black;">
-Steven Vittitoe of [Google Project Zero](http://www.google.com/)
+Steven Vittitoe of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -569,11 +569,11 @@ Windows Graphics Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7272](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7272)
+[CVE-2016-7272](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7272)
 
 </td>
 <td style="border:1px solid black;">
-Giwan Go of STEALIEN, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Giwan Go of STEALIEN, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -591,7 +591,7 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Henry Li (zenhumany) of [Trend Micro](http://www.trendmicro.com/)
+Henry Li (zenhumany) of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
@@ -605,7 +605,7 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7181](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7181)
+[CVE-2016-7181](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7181)
 
 </td>
 <td style="border:1px solid black;">
@@ -623,7 +623,7 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7279](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7279)
+[CVE-2016-7279](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7279)
 
 </td>
 <td style="border:1px solid black;">
@@ -641,7 +641,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7280](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7280)
+[CVE-2016-7280](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7280)
 
 </td>
 <td style="border:1px solid black;">
@@ -659,29 +659,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7286](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7286)
+[CVE-2016-7286](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7286)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-145](https://go.microsoft.com/fwlink/?linkid=834442)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7287](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7287)
-
-</td>
-<td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -695,29 +677,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7288](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7288)
+[CVE-2016-7287](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7287)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-145](https://go.microsoft.com/fwlink/?linkid=834442)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7296](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7296)
-
-</td>
-<td style="border:1px solid black;">
-Linan Hao of [Qihoo 360](http://www.360.cn/) Vulcan Team working with [POC](http://powerofcommunity.net/)/[PwnFest](http://pwnfest.org/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -731,11 +695,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7297](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7297)
+[CVE-2016-7288](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7288)
 
 </td>
 <td style="border:1px solid black;">
-Lokihart working with [POC](http://powerofcommunity.net/)/[PwnFest](http://pwnfest.org/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -749,11 +713,47 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7297](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7297)
+[CVE-2016-7296](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7296)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Linan Hao of [Qihoo 360](https://www.360.cn/) Vulcan Team working with [POC](https://powerofcommunity.net/)/[PwnFest](https://pwnfest.org/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-145](https://go.microsoft.com/fwlink/?linkid=834442)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7297](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7297)
+
+</td>
+<td style="border:1px solid black;">
+Lokihart working with [POC](https://powerofcommunity.net/)/[PwnFest](https://pwnfest.org/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-145](https://go.microsoft.com/fwlink/?linkid=834442)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7297](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7297)
+
+</td>
+<td style="border:1px solid black;">
+Anonymous working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -767,11 +767,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7202](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
+[CVE-2016-7202](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
 
 </td>
 <td style="border:1px solid black;">
-Li Kemeng of [Baidu Security Lab](http://xteam.baidu.com/) working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Li Kemeng of [Baidu Security Lab](https://xteam.baidu.com/) working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -785,7 +785,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7202](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
+[CVE-2016-7202](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
 
 </td>
 <td style="border:1px solid black;">
@@ -803,11 +803,11 @@ Windows Hyperlink Object Library Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7278](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7278)
+[CVE-2016-7278](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7278)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
@@ -821,7 +821,7 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7279](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7279)
+[CVE-2016-7279](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7279)
 
 </td>
 <td style="border:1px solid black;">
@@ -839,7 +839,7 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7283](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7283)
+[CVE-2016-7283](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7283)
 
 </td>
 <td style="border:1px solid black;">
@@ -857,11 +857,11 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7284](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7284)
+[CVE-2016-7284](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7284)
 
 </td>
 <td style="border:1px solid black;">
-Li Kemeng of [Baidu Security Lab](http://xteam.baidu.com/)
+Li Kemeng of [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
@@ -875,11 +875,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7287](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7287)
+[CVE-2016-7287](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7287)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -893,11 +893,11 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7293](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7293)
+[CVE-2016-7293](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7293)
 
 </td>
 <td style="border:1px solid black;">
-[Tigonlab](http://www.tigonlab.org/)
+[Tigonlab](https://www.tigonlab.org/)
 
 </td>
 </tr>
@@ -917,11 +917,11 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7196](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7196)
+[CVE-2016-7196](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7196)
 
 </td>
 <td style="border:1px solid black;">
-[Kai Song](http://exp-sky.org/) of [Tencent’s Xuanwu LAB](http://www.tencent.com/)
+[Kai Song](https://exp-sky.org/) of [Tencent’s Xuanwu LAB](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -935,11 +935,11 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7198](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7198)
+[CVE-2016-7198](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7198)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
@@ -953,7 +953,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7227](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7227)
+[CVE-2016-7227](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7227)
 
 </td>
 <td style="border:1px solid black;">
@@ -971,7 +971,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7239](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7239)
+[CVE-2016-7239](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7239)
 
 </td>
 <td style="border:1px solid black;">
@@ -989,11 +989,11 @@ Microsoft Browser Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7241](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7241)
+[CVE-2016-7241](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7241)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1011,7 +1011,7 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-John Page of [ApparitionSec](http://hyp3rlinx.altervista.org/)
+John Page of [ApparitionSec](https://hyp3rlinx.altervista.org/)
 
 </td>
 </tr>
@@ -1025,11 +1025,11 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7216](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7216)
+[CVE-2016-7216](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7216)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1043,29 +1043,11 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7216](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7216)
+[CVE-2016-7216](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7216)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-138](https://go.microsoft.com/fwlink/?linkid=830965)
-
-</td>
-<td style="border:1px solid black;">
-VHDFS Driver Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7223](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7223)
-
-</td>
-<td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1079,29 +1061,11 @@ VHDFS Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7224](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7224)
+[CVE-2016-7223](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7223)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-138](https://go.microsoft.com/fwlink/?linkid=830965)
-
-</td>
-<td style="border:1px solid black;">
-VHDFS Driver Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7225](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7225)
-
-</td>
-<td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1115,11 +1079,47 @@ VHDFS Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7226](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7226)
+[CVE-2016-7224](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7224)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-138](https://go.microsoft.com/fwlink/?linkid=830965)
+
+</td>
+<td style="border:1px solid black;">
+VHDFS Driver Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7225](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7225)
+
+</td>
+<td style="border:1px solid black;">
+James Forshaw of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-138](https://go.microsoft.com/fwlink/?linkid=830965)
+
+</td>
+<td style="border:1px solid black;">
+VHDFS Driver Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7226](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7226)
+
+</td>
+<td style="border:1px solid black;">
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1133,7 +1133,7 @@ Local Security Authority Subsystem Service Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7237](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7237)
+[CVE-2016-7237](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7237)
 
 </td>
 <td style="border:1px solid black;">
@@ -1151,11 +1151,11 @@ SQL RDBMS Engine Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7250](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7250)
+[CVE-2016-7250](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7250)
 
 </td>
 <td style="border:1px solid black;">
-Scott Sutherland of [netSPI](http://www.netspi.com/)
+Scott Sutherland of [netSPI](https://www.netspi.com/)
 
 </td>
 </tr>
@@ -1169,11 +1169,11 @@ Win32k Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7214](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7214)
+[CVE-2016-7214](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7214)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -1187,11 +1187,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7215](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7215)
+[CVE-2016-7215](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7215)
 
 </td>
 <td style="border:1px solid black;">
-bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -1205,11 +1205,11 @@ Bowser.sys Information Disclosure Vulnerabilty
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7218](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7218)
+[CVE-2016-7218](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7218)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -1223,29 +1223,11 @@ Win32k Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7246](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7246)
+[CVE-2016-7246](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7246)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-135](https://go.microsoft.com/fwlink/?linkid=830428)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7255](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
-
-</td>
-<td style="border:1px solid black;">
-Neel Mehta of [Google’s](http://www.google.com/) Threat Analysis Group
+Anonymous working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -1259,29 +1241,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7255](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
+[CVE-2016-7255](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
 
 </td>
 <td style="border:1px solid black;">
-Billy Leonard of [Google’s](http://www.google.com/) Threat Analysis Group
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-135](https://go.microsoft.com/fwlink/?linkid=830428)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7255](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
-
-</td>
-<td style="border:1px solid black;">
-Feike Hacquebord, of [Trend Micro](http://www.trendmicro.com/)
+Neel Mehta of [Google’s](https://www.google.com/) Threat Analysis Group
 
 </td>
 </tr>
@@ -1295,11 +1259,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7255](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
+[CVE-2016-7255](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
 
 </td>
 <td style="border:1px solid black;">
-Peter Pi of [Trend Micro](http://www.trendmicro.com/)
+Billy Leonard of [Google’s](https://www.google.com/) Threat Analysis Group
 
 </td>
 </tr>
@@ -1313,17 +1277,53 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7255](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
+[CVE-2016-7255](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
 
 </td>
 <td style="border:1px solid black;">
-Brooks Li of [Trend Micro](http://www.trendmicro.com/)
+Feike Hacquebord, of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-135](https://go.microsoft.com/fwlink/?linkid=830428)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7255](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
+
+</td>
+<td style="border:1px solid black;">
+Peter Pi of [Trend Micro](https://www.trendmicro.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-135](https://go.microsoft.com/fwlink/?linkid=830428)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7255](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7255)
+
+</td>
+<td style="border:1px solid black;">
+Brooks Li of [Trend Micro](https://www.trendmicro.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1331,17 +1331,17 @@ Windows CLFS Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0026](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0026)
+[CVE-2016-0026](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0026)
 
 </td>
 <td style="border:1px solid black;">
-[Daniel King](https://twitter.com/long123king), KeenLab, [Tencent](http://www.tencent.com/)
+[Daniel King](https://twitter.com/long123king), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1349,17 +1349,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3332](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3332)
+[CVE-2016-3332](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3332)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1367,17 +1367,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3333](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3333)
+[CVE-2016-3333](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3333)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1385,17 +1385,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3334](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3334)
+[CVE-2016-3334](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3334)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1403,17 +1403,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3334](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3334)
+[CVE-2016-3334](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3334)
 
 </td>
 <td style="border:1px solid black;">
-[Daniel King](https://twitter.com/long123king), KeenLab, [Tencent](http://www.tencent.com/)
+[Daniel King](https://twitter.com/long123king), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1421,17 +1421,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3335](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3335)
+[CVE-2016-3335](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3335)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1439,17 +1439,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3338](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3338)
+[CVE-2016-3338](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3338)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1457,17 +1457,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3340](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3340)
+[CVE-2016-3340](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3340)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1475,17 +1475,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3342](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3342)
+[CVE-2016-3342](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3342)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1493,17 +1493,17 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3343](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3343)
+[CVE-2016-3343](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3343)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-134](http://go.microsoft.com/fwlink/?linkid=828018)
+[MS16-134](https://go.microsoft.com/fwlink/?linkid=828018)
 
 </td>
 <td style="border:1px solid black;">
@@ -1511,11 +1511,11 @@ Windows CLFS Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7184](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7184)
+[CVE-2016-7184](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7184)
 
 </td>
 <td style="border:1px solid black;">
-[Daniel King](https://twitter.com/long123king), KeenLab, [Tencent](http://www.tencent.com/)
+[Daniel King](https://twitter.com/long123king), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -1529,7 +1529,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7213](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7213)
+[CVE-2016-7213](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7213)
 
 </td>
 <td style="border:1px solid black;">
@@ -1547,7 +1547,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7228](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7228)
+[CVE-2016-7228](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7228)
 
 </td>
 <td style="border:1px solid black;">
@@ -1565,7 +1565,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7229](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7229)
+[CVE-2016-7229](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7229)
 
 </td>
 <td style="border:1px solid black;">
@@ -1583,11 +1583,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7230](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7230)
+[CVE-2016-7230](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7230)
 
 </td>
 <td style="border:1px solid black;">
-Steven Vittitoe of [Google Project Zero](http://www.google.com/)
+Steven Vittitoe of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1601,7 +1601,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7231](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7231)
+[CVE-2016-7231](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7231)
 
 </td>
 <td style="border:1px solid black;">
@@ -1619,11 +1619,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7232](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7232)
+[CVE-2016-7232](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7232)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Steven Seeley of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
@@ -1637,11 +1637,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7232](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7232)
+[CVE-2016-7232](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7232)
 
 </td>
 <td style="border:1px solid black;">
-Rocco Calvi of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Rocco Calvi of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
@@ -1655,11 +1655,11 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7233](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7233)
+[CVE-2016-7233](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7233)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Steven Seeley of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
@@ -1673,29 +1673,11 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7233](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7233)
+[CVE-2016-7233](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7233)
 
 </td>
 <td style="border:1px solid black;">
-Rocco Calvi of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-133](https://go.microsoft.com/fwlink/?linkid=833188)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft Office Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7234](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7234)
-
-</td>
-<td style="border:1px solid black;">
-Rocco Calvi of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Rocco Calvi of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
@@ -1709,29 +1691,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7234](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7234)
+[CVE-2016-7234](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7234)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-133](https://go.microsoft.com/fwlink/?linkid=833188)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft Office Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7235](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7235)
-
-</td>
-<td style="border:1px solid black;">
-Rocco Calvi of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Rocco Calvi of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
@@ -1745,11 +1709,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7235](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7235)
+[CVE-2016-7234](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7234)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Steven Seeley of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
@@ -1763,11 +1727,47 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7236](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7236)
+[CVE-2016-7235](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7235)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/) working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Rocco Calvi of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-133](https://go.microsoft.com/fwlink/?linkid=833188)
+
+</td>
+<td style="border:1px solid black;">
+Microsoft Office Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7235](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7235)
+
+</td>
+<td style="border:1px solid black;">
+Steven Seeley of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-133](https://go.microsoft.com/fwlink/?linkid=833188)
+
+</td>
+<td style="border:1px solid black;">
+Microsoft Office Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7236](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7236)
+
+</td>
+<td style="border:1px solid black;">
+Steven Seeley of [Source Incite](https://srcincite.io/) working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
@@ -1781,7 +1781,7 @@ Microsoft Office Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7244](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7244)
+[CVE-2016-7244](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7244)
 
 </td>
 <td style="border:1px solid black;">
@@ -1799,11 +1799,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7245](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7245)
+[CVE-2016-7245](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7245)
 
 </td>
 <td style="border:1px solid black;">
-Haifei Li of [Intel Security](http://www.intelsecurity.com/)
+Haifei Li of [Intel Security](https://www.intelsecurity.com/)
 
 </td>
 </tr>
@@ -1817,7 +1817,7 @@ Windows Animation Manager Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7205](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7205)
+[CVE-2016-7205](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7205)
 
 </td>
 <td style="border:1px solid black;">
@@ -1835,11 +1835,11 @@ Windows Animation Manager Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7205](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7205)
+[CVE-2016-7205](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7205)
 
 </td>
 <td style="border:1px solid black;">
-[Kai Song](http://exp-sky.org/) of [Tencent’s Xuanwu LAB](http://www.tencent.com/)
+[Kai Song](https://exp-sky.org/) of [Tencent’s Xuanwu LAB](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -1853,11 +1853,11 @@ Windows Animation Manager Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7205](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7205)
+[CVE-2016-7205](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7205)
 
 </td>
 <td style="border:1px solid black;">
-SkyLined working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+SkyLined working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
@@ -1871,11 +1871,11 @@ Open Type Font Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7210](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7210)
+[CVE-2016-7210](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7210)
 
 </td>
 <td style="border:1px solid black;">
-Hossein Lotfi, [Secunia Research at Flexera Software](http://www.flexerasoftware.com/enterprise/company/about/secunia-research/)
+Hossein Lotfi, [Secunia Research at Flexera Software](https://www.flexerasoftware.com/enterprise/company/about/secunia-research/)
 
 </td>
 </tr>
@@ -1889,11 +1889,11 @@ Media Foundation Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7217](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7217)
+[CVE-2016-7217](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7217)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
@@ -1907,7 +1907,7 @@ Open Type Font Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7256](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7256)
+[CVE-2016-7256](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7256)
 
 </td>
 <td style="border:1px solid black;">
@@ -1943,11 +1943,11 @@ Windows Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7212](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7212)
+[CVE-2016-7212](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7212)
 
 </td>
 <td style="border:1px solid black;">
-Aral Yaman of [Noser Engineering AG](http://www.noser.com/)
+Aral Yaman of [Noser Engineering AG](https://www.noser.com/)
 
 </td>
 </tr>
@@ -1961,7 +1961,7 @@ Windows IME Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7221](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7221)
+[CVE-2016-7221](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7221)
 
 </td>
 <td style="border:1px solid black;">
@@ -1979,7 +1979,7 @@ Task Scheduler Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7222](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7222)
+[CVE-2016-7222](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7222)
 
 </td>
 <td style="border:1px solid black;">
@@ -1997,29 +1997,11 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7195](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7195)
+[CVE-2016-7195](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7195)
 
 </td>
 <td style="border:1px solid black;">
-[Kai Song](http://exp-sky.org/) of [Tencent’s Xuanwu LAB](http://www.tencent.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft Browser Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7196](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7196)
-
-</td>
-<td style="border:1px solid black;">
-[Kai Song](http://exp-sky.org/) of [Tencent’s Xuanwu LAB](http://www.tencent.com/)
+[Kai Song](https://exp-sky.org/) of [Tencent’s Xuanwu LAB](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -2033,11 +2015,29 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7198](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7198)
+[CVE-2016-7196](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7196)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+[Kai Song](https://exp-sky.org/) of [Tencent’s Xuanwu LAB](https://www.tencent.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
+
+</td>
+<td style="border:1px solid black;">
+Microsoft Browser Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7198](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7198)
+
+</td>
+<td style="border:1px solid black;">
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
@@ -2051,29 +2051,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7200](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7200)
+[CVE-2016-7200](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7200)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7200](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7200)
-
-</td>
-<td style="border:1px solid black;">
-[Qixun Zhao](http://www.weibo.com/babyboaes) of [Qihoo 360 Skyeye Labs](http://skyeye.360safe.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2087,29 +2069,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7201](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7201)
+[CVE-2016-7200](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7200)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7202](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
-
-</td>
-<td style="border:1px solid black;">
-bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+[Qixun Zhao](https://www.weibo.com/babyboaes) of [Qihoo 360 Skyeye Labs](https://skyeye.360safe.com/)
 
 </td>
 </tr>
@@ -2123,29 +2087,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7202](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
+[CVE-2016-7201](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7201)
 
 </td>
 <td style="border:1px solid black;">
-Li Kemeng of [Baidu Security Lab](http://xteam.baidu.com/) working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7202](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
-
-</td>
-<td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2159,7 +2105,61 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7202](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
+[CVE-2016-7202](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
+
+</td>
+<td style="border:1px solid black;">
+bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7202](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
+
+</td>
+<td style="border:1px solid black;">
+Li Kemeng of [Baidu Security Lab](https://xteam.baidu.com/) working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7202](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
+
+</td>
+<td style="border:1px solid black;">
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7202](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7202)
 
 </td>
 <td style="border:1px solid black;">
@@ -2177,11 +2177,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7203](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7203)
+[CVE-2016-7203](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7203)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2195,7 +2195,7 @@ Microsoft Edge Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7204](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7204)
+[CVE-2016-7204](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7204)
 
 </td>
 <td style="border:1px solid black;">
@@ -2213,7 +2213,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7208](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7208)
+[CVE-2016-7208](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7208)
 
 </td>
 <td style="border:1px solid black;">
@@ -2231,7 +2231,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7227](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7227)
+[CVE-2016-7227](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7227)
 
 </td>
 <td style="border:1px solid black;">
@@ -2249,7 +2249,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7239](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7239)
+[CVE-2016-7239](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7239)
 
 </td>
 <td style="border:1px solid black;">
@@ -2267,11 +2267,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7240](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7240)
+[CVE-2016-7240](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7240)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2285,29 +2285,11 @@ Microsoft Browser Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7241](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7241)
+[CVE-2016-7241](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7241)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2016-7242](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7242)
-
-</td>
-<td style="border:1px solid black;">
-[Qixun Zhao](http://www.weibo.com/babyboaes) of [Qihoo 360 Skyeye Labs](http://skyeye.360safe.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2321,7 +2303,25 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7243](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7243)
+[CVE-2016-7242](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7242)
+
+</td>
+<td style="border:1px solid black;">
+[Qixun Zhao](https://www.weibo.com/babyboaes) of [Qihoo 360 Skyeye Labs](https://skyeye.360safe.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS16-129](https://go.microsoft.com/fwlink/?linkid=830431)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2016-7243](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7243)
 
 </td>
 <td style="border:1px solid black;">
@@ -2337,7 +2337,7 @@ Nicolas Joly of MSRCE UK
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-126](http://go.microsoft.com/fwlink/?linkid=829052)
+[MS16-126](https://go.microsoft.com/fwlink/?linkid=829052)
 
 </td>
 <td style="border:1px solid black;">
@@ -2345,7 +2345,7 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3298](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3298)
+[CVE-2016-3298](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3298)
 
 </td>
 <td style="border:1px solid black;">
@@ -2355,7 +2355,7 @@ Will Metcalf and Kafeine of [Proofpoint](https://www.proofpoint.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-125](http://go.microsoft.com/fwlink/?linkid=827822)
+[MS16-125](https://go.microsoft.com/fwlink/?linkid=827822)
 
 </td>
 <td style="border:1px solid black;">
@@ -2363,17 +2363,17 @@ Windows Diagnostics Hub Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7188](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7188)
+[CVE-2016-7188](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7188)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-124](http://go.microsoft.com/fwlink/?linkid=827821)
+[MS16-124](https://go.microsoft.com/fwlink/?linkid=827821)
 
 </td>
 <td style="border:1px solid black;">
@@ -2381,17 +2381,17 @@ Windows Kernel Local Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0070](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0070)
+[CVE-2016-0070](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0070)
 
 </td>
 <td style="border:1px solid black;">
-Fortinet’s [FortiGuard Labs](http://fortiguard.com/)
+Fortinet’s [FortiGuard Labs](https://fortiguard.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-124](http://go.microsoft.com/fwlink/?linkid=827821)
+[MS16-124](https://go.microsoft.com/fwlink/?linkid=827821)
 
 </td>
 <td style="border:1px solid black;">
@@ -2399,17 +2399,17 @@ Windows Kernel Local Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0070](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0070)
+[CVE-2016-0070](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0070)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-124](http://go.microsoft.com/fwlink/?linkid=827821)
+[MS16-124](https://go.microsoft.com/fwlink/?linkid=827821)
 
 </td>
 <td style="border:1px solid black;">
@@ -2417,17 +2417,17 @@ Windows Kernel Local Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0070](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0070)
+[CVE-2016-0070](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0070)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-124](http://go.microsoft.com/fwlink/?linkid=827821)
+[MS16-124](https://go.microsoft.com/fwlink/?linkid=827821)
 
 </td>
 <td style="border:1px solid black;">
@@ -2435,17 +2435,17 @@ Windows Kernel Local Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0073](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0073)
+[CVE-2016-0073](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0073)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-124](http://go.microsoft.com/fwlink/?linkid=827821)
+[MS16-124](https://go.microsoft.com/fwlink/?linkid=827821)
 
 </td>
 <td style="border:1px solid black;">
@@ -2453,17 +2453,17 @@ Windows Kernel Local Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0075](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0075)
+[CVE-2016-0075](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0075)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-124](http://go.microsoft.com/fwlink/?linkid=827821)
+[MS16-124](https://go.microsoft.com/fwlink/?linkid=827821)
 
 </td>
 <td style="border:1px solid black;">
@@ -2471,17 +2471,17 @@ Windows Kernel Local Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0079](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0079)
+[CVE-2016-0079](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0079)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-123](http://go.microsoft.com/fwlink/?linkid=827595)
+[MS16-123](https://go.microsoft.com/fwlink/?linkid=827595)
 
 </td>
 <td style="border:1px solid black;">
@@ -2489,17 +2489,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3266](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3266)
+[CVE-2016-3266](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3266)
 
 </td>
 <td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988), [zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360](http://www.360.cn/) Vulcan Team
+[pgboy](https://weibo.com/pgboy1988), [zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360](https://www.360.cn/) Vulcan Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-123](http://go.microsoft.com/fwlink/?linkid=827595)
+[MS16-123](https://go.microsoft.com/fwlink/?linkid=827595)
 
 </td>
 <td style="border:1px solid black;">
@@ -2507,17 +2507,17 @@ Windows Transaction Manager Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3341](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3341)
+[CVE-2016-3341](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3341)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-123](http://go.microsoft.com/fwlink/?linkid=827595)
+[MS16-123](https://go.microsoft.com/fwlink/?linkid=827595)
 
 </td>
 <td style="border:1px solid black;">
@@ -2525,17 +2525,17 @@ Windows Kernel Elevation of Privilege vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3376](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
+[CVE-2016-3376](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-123](http://go.microsoft.com/fwlink/?linkid=827595)
+[MS16-123](https://go.microsoft.com/fwlink/?linkid=827595)
 
 </td>
 <td style="border:1px solid black;">
@@ -2543,17 +2543,17 @@ Windows Kernel Elevation of Privilege vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3376](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
+[CVE-2016-3376](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-123](http://go.microsoft.com/fwlink/?linkid=827595)
+[MS16-123](https://go.microsoft.com/fwlink/?linkid=827595)
 
 </td>
 <td style="border:1px solid black;">
@@ -2561,17 +2561,17 @@ Windows Kernel Driver Local Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7185](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7185)
+[CVE-2016-7185](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7185)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-123](http://go.microsoft.com/fwlink/?linkid=827595)
+[MS16-123](https://go.microsoft.com/fwlink/?linkid=827595)
 
 </td>
 <td style="border:1px solid black;">
@@ -2579,17 +2579,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7211](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7211)
+[CVE-2016-7211](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7211)
 
 </td>
 <td style="border:1px solid black;">
-[fanxiaocao](https://twitter.com/tinysecex) (@TinySec), and [pjf](http://weibo.com/jfpan) of IceSword Lab, [Qihoo 360](http://www.360.cn/)
+[fanxiaocao](https://twitter.com/tinysecex) (@TinySec), and [pjf](https://weibo.com/jfpan) of IceSword Lab, [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-121](http://go.microsoft.com/fwlink/?linkid=828158)
+[MS16-121](https://go.microsoft.com/fwlink/?linkid=828158)
 
 </td>
 <td style="border:1px solid black;">
@@ -2597,7 +2597,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7193](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7193)
+[CVE-2016-7193](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7193)
 
 </td>
 <td style="border:1px solid black;">
@@ -2607,7 +2607,7 @@ Microsoft Office Memory Corruption Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-120](http://go.microsoft.com/fwlink/?linkid=827590)
+[MS16-120](https://go.microsoft.com/fwlink/?linkid=827590)
 
 </td>
 <td style="border:1px solid black;">
@@ -2615,17 +2615,17 @@ True Type Font Parsing Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3209](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3209)
+[CVE-2016-3209](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3209)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-120](http://go.microsoft.com/fwlink/?linkid=827590)
+[MS16-120](https://go.microsoft.com/fwlink/?linkid=827590)
 
 </td>
 <td style="border:1px solid black;">
@@ -2633,17 +2633,17 @@ GDI+ Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3262](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3262)
+[CVE-2016-3262](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3262)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-120](http://go.microsoft.com/fwlink/?linkid=827590)
+[MS16-120](https://go.microsoft.com/fwlink/?linkid=827590)
 
 </td>
 <td style="border:1px solid black;">
@@ -2651,17 +2651,17 @@ GDI+ Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3263](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3263)
+[CVE-2016-3263](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3263)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-120](http://go.microsoft.com/fwlink/?linkid=827590)
+[MS16-120](https://go.microsoft.com/fwlink/?linkid=827590)
 
 </td>
 <td style="border:1px solid black;">
@@ -2669,17 +2669,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3270](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3270)
+[CVE-2016-3270](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3270)
 
 </td>
 <td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988), [zhong\_sf](http://weibo.com/2641521260) of Qihoo 360 Vulcan Team
+[pgboy](https://weibo.com/pgboy1988), [zhong\_sf](https://weibo.com/2641521260) of Qihoo 360 Vulcan Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-120](http://go.microsoft.com/fwlink/?linkid=827590)
+[MS16-120](https://go.microsoft.com/fwlink/?linkid=827590)
 
 </td>
 <td style="border:1px solid black;">
@@ -2687,17 +2687,17 @@ Windows Graphics Component RCE Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3393](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3393)
+[CVE-2016-3393](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3393)
 
 </td>
 <td style="border:1px solid black;">
-Anton Ivanov of [Kaspersky Lab](http://www.kaspersky.com/)
+Anton Ivanov of [Kaspersky Lab](https://www.kaspersky.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-120](http://go.microsoft.com/fwlink/?linkid=827590)
+[MS16-120](https://go.microsoft.com/fwlink/?linkid=827590)
 
 </td>
 <td style="border:1px solid black;">
@@ -2705,17 +2705,17 @@ True Type Font Parsing Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7182](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7182)
+[CVE-2016-7182](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7182)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2723,17 +2723,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3267](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3267)
+[CVE-2016-3267](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3267)
 
 </td>
 <td style="border:1px solid black;">
-Wenxiang Qian of [Tencent QQBrowser](http://browser.qq.com/)
+Wenxiang Qian of [Tencent QQBrowser](https://browser.qq.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2741,17 +2741,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3331](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3331)
+[CVE-2016-3331](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3331)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2759,17 +2759,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3382](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3382)
+[CVE-2016-3382](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3382)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Anonymous, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2777,17 +2777,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3386](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3386)
+[CVE-2016-3386](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3386)
 
 </td>
 <td style="border:1px solid black;">
-Richard Zhu (fluorescence), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Richard Zhu (fluorescence), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2795,17 +2795,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3386](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3386)
+[CVE-2016-3386](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3386)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2813,17 +2813,17 @@ Microsoft Browser Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3387](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3387)
+[CVE-2016-3387](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3387)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2831,17 +2831,17 @@ Microsoft Browser Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3388](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3388)
+[CVE-2016-3388](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3388)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2849,7 +2849,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3389](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3389)
+[CVE-2016-3389](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3389)
 
 </td>
 <td style="border:1px solid black;">
@@ -2859,7 +2859,7 @@ Microsoft ChakraCore Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2867,7 +2867,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3390](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3390)
+[CVE-2016-3390](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3390)
 
 </td>
 <td style="border:1px solid black;">
@@ -2877,7 +2877,7 @@ Microsoft ChakraCore Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2885,7 +2885,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
+[CVE-2016-3391](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
 
 </td>
 <td style="border:1px solid black;">
@@ -2895,7 +2895,7 @@ Stefaan Truijen, working with [NVISO](https://www.nviso.be/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2903,7 +2903,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
+[CVE-2016-3391](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
 
 </td>
 <td style="border:1px solid black;">
@@ -2913,7 +2913,7 @@ Adrian Toma, working with [NVISO](https://www.nviso.be/) (internship)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2921,7 +2921,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
+[CVE-2016-3391](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
 
 </td>
 <td style="border:1px solid black;">
@@ -2931,7 +2931,7 @@ Daan Raman, working with [NVISO](https://www.nviso.be/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2939,7 +2939,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
+[CVE-2016-3391](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
 
 </td>
 <td style="border:1px solid black;">
@@ -2949,7 +2949,7 @@ Microsoft Browser Information Disclosure Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2957,7 +2957,7 @@ Microsoft Browser Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3392](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3392)
+[CVE-2016-3392](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3392)
 
 </td>
 <td style="border:1px solid black;">
@@ -2967,7 +2967,7 @@ Microsoft Browser Security Feature Bypass
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2975,17 +2975,17 @@ Scripting Engine Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7189](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7189)
+[CVE-2016-7189](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7189)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -2993,17 +2993,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7190](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7190)
+[CVE-2016-7190](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7190)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -3011,17 +3011,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-7194](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7194)
+[CVE-2016-7194](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7194)
 
 </td>
 <td style="border:1px solid black;">
-Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
+Natalie Silvanovich of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-119](http://go.microsoft.com/fwlink/?linkid=827592)
+[MS16-119](https://go.microsoft.com/fwlink/?linkid=827592)
 
 </td>
 <td style="border:1px solid black;">
@@ -3033,13 +3033,13 @@ Natalie Silvanovich of [Google Project Zero](http://www.google.com/)
 
 </td>
 <td style="border:1px solid black;">
-Andrew Wesie (awesie) from [Theori](http://theori.io/)
+Andrew Wesie (awesie) from [Theori](https://theori.io/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3047,17 +3047,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3267](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3267)
+[CVE-2016-3267](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3267)
 
 </td>
 <td style="border:1px solid black;">
-Wenxiang Qian of [Tencent QQBrowser](http://browser.qq.com/)
+Wenxiang Qian of [Tencent QQBrowser](https://browser.qq.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3065,7 +3065,7 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3298](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3298)
+[CVE-2016-3298](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3298)
 
 </td>
 <td style="border:1px solid black;">
@@ -3075,7 +3075,7 @@ Will Metcalf and Kafeine of [Proofpoint](https://www.proofpoint.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3083,17 +3083,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3331](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3331)
+[CVE-2016-3331](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3331)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3101,17 +3101,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3382](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3382)
+[CVE-2016-3382](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3382)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Anonymous, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3119,17 +3119,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3383](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3383)
+[CVE-2016-3383](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3383)
 
 </td>
 <td style="border:1px solid black;">
-0011, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+0011, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3137,17 +3137,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3384](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3384)
+[CVE-2016-3384](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3384)
 
 </td>
 <td style="border:1px solid black;">
-62600BCA031B9EB5CB4A74ADDDD6771E, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+62600BCA031B9EB5CB4A74ADDDD6771E, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3155,17 +3155,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3385](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3385)
+[CVE-2016-3385](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3385)
 
 </td>
 <td style="border:1px solid black;">
-[Jaehun Jeong](https://twitter.com/n3sk) (n3sk), of WINS, WSEC Analysis Team, working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+[Jaehun Jeong](https://twitter.com/n3sk) (n3sk), of WINS, WSEC Analysis Team, working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3173,17 +3173,17 @@ Microsoft Browser Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3387](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3387)
+[CVE-2016-3387](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3387)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3191,17 +3191,17 @@ Microsoft Browser Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3388](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3388)
+[CVE-2016-3388](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3388)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3209,7 +3209,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
+[CVE-2016-3391](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
 
 </td>
 <td style="border:1px solid black;">
@@ -3219,7 +3219,7 @@ Stefaan Truijen, working with [NVISO](https://www.nviso.be/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3227,7 +3227,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
+[CVE-2016-3391](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
 
 </td>
 <td style="border:1px solid black;">
@@ -3237,7 +3237,7 @@ Adrian Toma, working with [NVISO](https://www.nviso.be/) (internship)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3245,7 +3245,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
+[CVE-2016-3391](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
 
 </td>
 <td style="border:1px solid black;">
@@ -3255,7 +3255,7 @@ Daan Raman, working with [NVISO](https://www.nviso.be/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-118](http://go.microsoft.com/fwlink/?linkid=827591)
+[MS16-118](https://go.microsoft.com/fwlink/?linkid=827591)
 
 </td>
 <td style="border:1px solid black;">
@@ -3263,7 +3263,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
+[CVE-2016-3391](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
 
 </td>
 <td style="border:1px solid black;">
@@ -3285,7 +3285,7 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -3297,7 +3297,7 @@ James Forshaw of [Google Project Zero](http://www.google.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-116](http://go.microsoft.com/fwlink/?linkid=825725)
+[MS16-116](https://go.microsoft.com/fwlink/?linkid=825725)
 
 </td>
 <td style="border:1px solid black;">
@@ -3305,17 +3305,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3376](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
+[CVE-2016-3376](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
 
 </td>
 <td style="border:1px solid black;">
-An anonymous researcher, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+An anonymous researcher, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-116](http://go.microsoft.com/fwlink/?linkid=825725)
+[MS16-116](https://go.microsoft.com/fwlink/?linkid=825725)
 
 </td>
 <td style="border:1px solid black;">
@@ -3323,17 +3323,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3375](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3375)
+[CVE-2016-3375](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3375)
 
 </td>
 <td style="border:1px solid black;">
-Yuki Chen of [Qihoo 360](http://www.360.cn/) Vulcan Team
+Yuki Chen of [Qihoo 360](https://www.360.cn/) Vulcan Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-115](http://go.microsoft.com/fwlink/?linkid=825727)
+[MS16-115](https://go.microsoft.com/fwlink/?linkid=825727)
 
 </td>
 <td style="border:1px solid black;">
@@ -3341,17 +3341,17 @@ PDF Library Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3370](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3370)
+[CVE-2016-3370](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3370)
 
 </td>
 <td style="border:1px solid black;">
-Ke Liu of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
+Ke Liu of [Tencent’s Xuanwu Lab](https://xlab.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-115](http://go.microsoft.com/fwlink/?linkid=825727)
+[MS16-115](https://go.microsoft.com/fwlink/?linkid=825727)
 
 </td>
 <td style="border:1px solid black;">
@@ -3359,17 +3359,17 @@ PDF Library Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3374](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3374)
+[CVE-2016-3374](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3374)
 
 </td>
 <td style="border:1px solid black;">
-Roberto Suggi Liverani (@malerisch) of [malerisch.net](http://blog.malerisch.net/)
+Roberto Suggi Liverani (@malerisch) of [malerisch.net](https://blog.malerisch.net/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-115](http://go.microsoft.com/fwlink/?linkid=825727)
+[MS16-115](https://go.microsoft.com/fwlink/?linkid=825727)
 
 </td>
 <td style="border:1px solid black;">
@@ -3377,17 +3377,17 @@ PDF Library Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3374](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3374)
+[CVE-2016-3374](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3374)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-114](http://go.microsoft.com/fwlink/?linkid=824826)
+[MS16-114](https://go.microsoft.com/fwlink/?linkid=824826)
 
 </td>
 <td style="border:1px solid black;">
@@ -3395,7 +3395,7 @@ Windows SMB Authenticated Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3345](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3374)
+[CVE-2016-3345](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3374)
 
 </td>
 <td style="border:1px solid black;">
@@ -3405,7 +3405,7 @@ Alexander Ovchinnikov of [Tuxera Inc](https://www.tuxera.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-114](http://go.microsoft.com/fwlink/?linkid=824826)
+[MS16-114](https://go.microsoft.com/fwlink/?linkid=824826)
 
 </td>
 <td style="border:1px solid black;">
@@ -3413,7 +3413,7 @@ Windows SMB Authenticated Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3345](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3374)
+[CVE-2016-3345](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3374)
 
 </td>
 <td style="border:1px solid black;">
@@ -3423,7 +3423,7 @@ Oleg Kravtsov of [Tuxera Inc](https://www.tuxera.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-112](http://go.microsoft.com/fwlink/?linkid=821605)
+[MS16-112](https://go.microsoft.com/fwlink/?linkid=821605)
 
 </td>
 <td style="border:1px solid black;">
@@ -3431,17 +3431,17 @@ Windows Lock Screen Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3302](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3302)
+[CVE-2016-3302](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3302)
 
 </td>
 <td style="border:1px solid black;">
-Auri A. Rahimzadeh of [Auri’s Ideas](http://auri.net/)
+Auri A. Rahimzadeh of [Auri’s Ideas](https://auri.net/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-111](http://go.microsoft.com/fwlink/?linkid=825142)
+[MS16-111](https://go.microsoft.com/fwlink/?linkid=825142)
 
 </td>
 <td style="border:1px solid black;">
@@ -3449,7 +3449,7 @@ Windows Session Object Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3305](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3305)
+[CVE-2016-3305](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3305)
 
 </td>
 <td style="border:1px solid black;">
@@ -3459,7 +3459,7 @@ Windows Session Object Elevation of Privilege Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-111](http://go.microsoft.com/fwlink/?linkid=825142)
+[MS16-111](https://go.microsoft.com/fwlink/?linkid=825142)
 
 </td>
 <td style="border:1px solid black;">
@@ -3467,7 +3467,7 @@ Windows Session Object Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3306](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3306)
+[CVE-2016-3306](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3306)
 
 </td>
 <td style="border:1px solid black;">
@@ -3477,7 +3477,7 @@ Windows Session Object Elevation of Privilege Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-111](http://go.microsoft.com/fwlink/?linkid=825142)
+[MS16-111](https://go.microsoft.com/fwlink/?linkid=825142)
 
 </td>
 <td style="border:1px solid black;">
@@ -3485,17 +3485,17 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3371](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3371)
+[CVE-2016-3371](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3371)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-111](http://go.microsoft.com/fwlink/?linkid=825142)
+[MS16-111](https://go.microsoft.com/fwlink/?linkid=825142)
 
 </td>
 <td style="border:1px solid black;">
@@ -3503,7 +3503,7 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3372](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3372)
+[CVE-2016-3372](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3372)
 
 </td>
 <td style="border:1px solid black;">
@@ -3513,7 +3513,7 @@ Marcin Wiazowski, individual
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-111](http://go.microsoft.com/fwlink/?linkid=825142)
+[MS16-111](https://go.microsoft.com/fwlink/?linkid=825142)
 
 </td>
 <td style="border:1px solid black;">
@@ -3521,17 +3521,17 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3373](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3373)
+[CVE-2016-3373](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3373)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-110](http://go.microsoft.com/fwlink/?linkid=821596)
+[MS16-110](https://go.microsoft.com/fwlink/?linkid=821596)
 
 </td>
 <td style="border:1px solid black;">
@@ -3539,17 +3539,17 @@ Windows Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3369](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3369)
+[CVE-2016-3369](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3369)
 
 </td>
 <td style="border:1px solid black;">
-Piotr Bania of [Cisco Talos](http://talosintel.com/vulnerability-reports/)
+Piotr Bania of [Cisco Talos](https://talosintel.com/vulnerability-reports/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-110](http://go.microsoft.com/fwlink/?linkid=821596)
+[MS16-110](https://go.microsoft.com/fwlink/?linkid=821596)
 
 </td>
 <td style="border:1px solid black;">
@@ -3557,17 +3557,17 @@ Windows Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3368](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3368)
+[CVE-2016-3368](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3368)
 
 </td>
 <td style="border:1px solid black;">
-Jonathan Brown of [VMware, Inc](http://www.vmware.com/)
+Jonathan Brown of [VMware, Inc](https://www.vmware.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-108](http://go.microsoft.com/fwlink/?linkid=824829)
+[MS16-108](https://go.microsoft.com/fwlink/?linkid=824829)
 
 </td>
 <td style="border:1px solid black;">
@@ -3579,13 +3579,13 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-John Page of [ApparitionSec](http://hyp3rlinx.altervista.org/) 
+John Page of [ApparitionSec](https://hyp3rlinx.altervista.org/) 
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-108](http://go.microsoft.com/fwlink/?linkid=824829)
+[MS16-108](https://go.microsoft.com/fwlink/?linkid=824829)
 
 </td>
 <td style="border:1px solid black;">
@@ -3593,7 +3593,7 @@ Microsoft Exchange Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0138](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0138)
+[CVE-2016-0138](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0138)
 
 </td>
 <td style="border:1px solid black;">
@@ -3603,7 +3603,7 @@ Microsoft Exchange Information Disclosure Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-108](http://go.microsoft.com/fwlink/?linkid=824829)
+[MS16-108](https://go.microsoft.com/fwlink/?linkid=824829)
 
 </td>
 <td style="border:1px solid black;">
@@ -3611,7 +3611,7 @@ Microsoft Exchange Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0138](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0138)
+[CVE-2016-0138](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0138)
 
 </td>
 <td style="border:1px solid black;">
@@ -3621,7 +3621,7 @@ Microsoft Exchange Information Disclosure Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-108](http://go.microsoft.com/fwlink/?linkid=824829)
+[MS16-108](https://go.microsoft.com/fwlink/?linkid=824829)
 
 </td>
 <td style="border:1px solid black;">
@@ -3629,17 +3629,17 @@ Microsoft Exchange Open Redirect Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3378](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3378)
+[CVE-2016-3378](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3378)
 
 </td>
 <td style="border:1px solid black;">
-John Page of [ApparitionSec](http://hyp3rlinx.altervista.org/) 
+John Page of [ApparitionSec](https://hyp3rlinx.altervista.org/) 
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-108](http://go.microsoft.com/fwlink/?linkid=824829)
+[MS16-108](https://go.microsoft.com/fwlink/?linkid=824829)
 
 </td>
 <td style="border:1px solid black;">
@@ -3647,7 +3647,7 @@ Microsoft Exchange Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3379](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3379)
+[CVE-2016-3379](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3379)
 
 </td>
 <td style="border:1px solid black;">
@@ -3657,7 +3657,7 @@ Adrian Ivascu
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3665,17 +3665,17 @@ Microsoft APP-V ASLR Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0137](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0137)
+[CVE-2016-0137](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0137)
 
 </td>
 <td style="border:1px solid black;">
-Udi Yavo of [enSilo](http://ensilo.com/)
+Udi Yavo of [enSilo](https://ensilo.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3683,17 +3683,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3357](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3357)
+[CVE-2016-3357](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3357)
 
 </td>
 <td style="border:1px solid black;">
-Steven Vittitoe of [Google Project Zero](http://www.google.com/)
+Steven Vittitoe of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3701,17 +3701,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3358](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3358)
+[CVE-2016-3358](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3358)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of Source Incite, working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Steven Seeley of Source Incite, working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3719,17 +3719,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3359](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3359)
+[CVE-2016-3359](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3359)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of Source Incite, working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Steven Seeley of Source Incite, working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3737,17 +3737,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3361](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3361)
+[CVE-2016-3361](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3361)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3755,17 +3755,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3362](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3362)
+[CVE-2016-3362](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3362)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3773,17 +3773,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3363](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3363)
+[CVE-2016-3363](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3363)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3791,7 +3791,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3364](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3364)
+[CVE-2016-3364](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3364)
 
 </td>
 <td style="border:1px solid black;">
@@ -3801,7 +3801,7 @@ Eduardo Braun Prado
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3809,17 +3809,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3365](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3365)
+[CVE-2016-3365](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3365)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Steven Seeley of [Source Incite](https://srcincite.io/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-107](http://go.microsoft.com/fwlink/?linkid=824817)
+[MS16-107](https://go.microsoft.com/fwlink/?linkid=824817)
 
 </td>
 <td style="border:1px solid black;">
@@ -3827,17 +3827,17 @@ Microsoft Office Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3366](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3366)
+[CVE-2016-3366](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3366)
 
 </td>
 <td style="border:1px solid black;">
-Incident Response Team of [Certego](http://www.certego.net/)
+Incident Response Team of [Certego](https://www.certego.net/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-106](http://go.microsoft.com/fwlink/?linkid=824814)
+[MS16-106](https://go.microsoft.com/fwlink/?linkid=824814)
 
 </td>
 <td style="border:1px solid black;">
@@ -3845,17 +3845,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3348](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3348)
+[CVE-2016-3348](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3348)
 
 </td>
 <td style="border:1px solid black;">
-RanchoIce of the [Baidu Security Lab](http://xlab.baidu.com/)
+RanchoIce of the [Baidu Security Lab](https://xlab.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-106](http://go.microsoft.com/fwlink/?linkid=824814)
+[MS16-106](https://go.microsoft.com/fwlink/?linkid=824814)
 
 </td>
 <td style="border:1px solid black;">
@@ -3863,17 +3863,17 @@ GDI Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3354](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3354)
+[CVE-2016-3354](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3354)
 
 </td>
 <td style="border:1px solid black;">
-WanderingGlitch of [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+WanderingGlitch of [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-106](http://go.microsoft.com/fwlink/?linkid=824814)
+[MS16-106](https://go.microsoft.com/fwlink/?linkid=824814)
 
 </td>
 <td style="border:1px solid black;">
@@ -3881,7 +3881,7 @@ GDI Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3355](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3355)
+[CVE-2016-3355](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3355)
 
 </td>
 <td style="border:1px solid black;">
@@ -3891,7 +3891,7 @@ Liang Yin of Tencent PC Manager via GeekPwn
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -3903,13 +3903,13 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Henry Li (zenhumany) of [Trend Micro](http://www.trendmicro.com/)
+Henry Li (zenhumany) of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -3927,7 +3927,7 @@ Defense-in-depth
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -3935,17 +3935,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3247](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3247)
+[CVE-2016-3247](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3247)
 
 </td>
 <td style="border:1px solid black;">
-SkyLined, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+SkyLined, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -3953,17 +3953,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3291](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3291)
+[CVE-2016-3291](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3291)
 
 </td>
 <td style="border:1px solid black;">
-Nathaniel Theis ([XMPPwocky](http://xmppwocky.net/))
+Nathaniel Theis ([XMPPwocky](https://xmppwocky.net/))
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -3971,17 +3971,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3294](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3294)
+[CVE-2016-3294](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3294)
 
 </td>
 <td style="border:1px solid black;">
-Shi Ji (@Puzzor) of VARAS@IIE, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Shi Ji (@Puzzor) of VARAS@IIE, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -3989,17 +3989,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3295](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3295)
+[CVE-2016-3295](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3295)
 
 </td>
 <td style="border:1px solid black;">
-Garage4Hackers, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Garage4Hackers, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -4007,17 +4007,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3297](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3297)
+[CVE-2016-3297](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3297)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -4025,7 +4025,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3325](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3325)
+[CVE-2016-3325](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3325)
 
 </td>
 <td style="border:1px solid black;">
@@ -4035,7 +4035,7 @@ SkyLined
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -4043,7 +4043,7 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3330](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3330)
+[CVE-2016-3330](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3330)
 
 </td>
 <td style="border:1px solid black;">
@@ -4053,7 +4053,7 @@ F4B3CD of STARLAB
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -4061,7 +4061,7 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3350](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3350)
+[CVE-2016-3350](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3350)
 
 </td>
 <td style="border:1px solid black;">
@@ -4071,7 +4071,7 @@ Microsoft ChakraCore Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -4079,17 +4079,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3351](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3351)
+[CVE-2016-3351](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3351)
 
 </td>
 <td style="border:1px solid black;">
-[Kafeine](https://twitter.com/kafeine), Brooks Li of [Trend Micro](http://www.trendmicro.com/)
+[Kafeine](https://twitter.com/kafeine), Brooks Li of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-105](http://go.microsoft.com/fwlink/?linkid=823625)
+[MS16-105](https://go.microsoft.com/fwlink/?linkid=823625)
 
 </td>
 <td style="border:1px solid black;">
@@ -4097,17 +4097,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3377](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3377)
+[CVE-2016-3377](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3377)
 
 </td>
 <td style="border:1px solid black;">
-Richard Zhu (fluorescence), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Richard Zhu (fluorescence), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4125,7 +4125,7 @@ Defense-in-depth
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4133,17 +4133,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3247](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3247)
+[CVE-2016-3247](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3247)
 
 </td>
 <td style="border:1px solid black;">
-SkyLined, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+SkyLined, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4151,17 +4151,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3291](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3291)
+[CVE-2016-3291](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3291)
 
 </td>
 <td style="border:1px solid black;">
-Nathaniel Theis ([XMPPwocky](http://xmppwocky.net/))
+Nathaniel Theis ([XMPPwocky](https://xmppwocky.net/))
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4169,17 +4169,17 @@ Microsoft Browser Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3292](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3292)
+[CVE-2016-3292](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3292)
 
 </td>
 <td style="border:1px solid black;">
-Thomas Vanhoutte, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Thomas Vanhoutte, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4187,17 +4187,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3295](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3295)
+[CVE-2016-3295](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3295)
 
 </td>
 <td style="border:1px solid black;">
-Garage4Hackers, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Garage4Hackers, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4205,17 +4205,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3297](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3297)
+[CVE-2016-3297](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3297)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4223,7 +4223,7 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3324](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3324)
+[CVE-2016-3324](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3324)
 
 </td>
 <td style="border:1px solid black;">
@@ -4233,7 +4233,7 @@ SkyLined
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4241,7 +4241,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3325](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3325)
+[CVE-2016-3325](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3325)
 
 </td>
 <td style="border:1px solid black;">
@@ -4251,7 +4251,7 @@ SkyLined
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4259,17 +4259,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3351](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3351)
+[CVE-2016-3351](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3351)
 
 </td>
 <td style="border:1px solid black;">
-[Kafeine](https://twitter.com/kafeine), Brooks Li of [Trend Micro](http://www.trendmicro.com/)
+[Kafeine](https://twitter.com/kafeine), Brooks Li of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4277,17 +4277,17 @@ Internet Explorer Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3353](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3353)
+[CVE-2016-3353](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3353)
 
 </td>
 <td style="border:1px solid black;">
-Eduardo Braun Prado, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Eduardo Braun Prado, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4295,17 +4295,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3375](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3375)
+[CVE-2016-3375](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3375)
 
 </td>
 <td style="border:1px solid black;">
-Yuki Chen of [Qihoo 360](http://www.360.cn/) Vulcan Team
+Yuki Chen of [Qihoo 360](https://www.360.cn/) Vulcan Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4313,17 +4313,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3376](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
+[CVE-2016-3376](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
 
 </td>
 <td style="border:1px solid black;">
-An anonymous researcher, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+An anonymous researcher, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4331,17 +4331,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3375](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3375)
+[CVE-2016-3375](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3375)
 
 </td>
 <td style="border:1px solid black;">
-Simon Zuckerbraun working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Simon Zuckerbraun working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-104](http://go.microsoft.com/fwlink/?linkid=823624)
+[MS16-104](https://go.microsoft.com/fwlink/?linkid=823624)
 
 </td>
 <td style="border:1px solid black;">
@@ -4349,11 +4349,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3375](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3375)
+[CVE-2016-3375](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3375)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Anonymous, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -4419,7 +4419,7 @@ Reno Robert
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-102](http://go.microsoft.com/fwlink/?linkid=823207)
+[MS16-102](https://go.microsoft.com/fwlink/?linkid=823207)
 
 </td>
 <td style="border:1px solid black;">
@@ -4427,17 +4427,17 @@ Microsoft PDF Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3319](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3319)
+[CVE-2016-3319](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3319)
 
 </td>
 <td style="border:1px solid black;">
-Aleksandar Nikolic of [Cisco Talos](http://talosintel.com/vulnerability-reports/)
+Aleksandar Nikolic of [Cisco Talos](https://talosintel.com/vulnerability-reports/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-101](http://go.microsoft.com/fwlink/?linkid=821576)
+[MS16-101](https://go.microsoft.com/fwlink/?linkid=821576)
 
 </td>
 <td style="border:1px solid black;">
@@ -4445,17 +4445,17 @@ Kerberos Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3237](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3237)
+[CVE-2016-3237](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3237)
 
 </td>
 <td style="border:1px solid black;">
-[Nabeel Ahmed](https://twitter.com/nabeelahmedbe) of [Dimension Data](http://www.dimensiondata.com/)
+[Nabeel Ahmed](https://twitter.com/nabeelahmedbe) of [Dimension Data](https://www.dimensiondata.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-099](http://go.microsoft.com/fwlink/?linkid=821165)
+[MS16-099](https://go.microsoft.com/fwlink/?linkid=821165)
 
 </td>
 <td style="border:1px solid black;">
@@ -4463,7 +4463,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3313](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3313)
+[CVE-2016-3313](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3313)
 
 </td>
 <td style="border:1px solid black;">
@@ -4473,7 +4473,7 @@ Jaanus Kaap
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-099](http://go.microsoft.com/fwlink/?linkid=821165)
+[MS16-099](https://go.microsoft.com/fwlink/?linkid=821165)
 
 </td>
 <td style="border:1px solid black;">
@@ -4481,7 +4481,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3313](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3313)
+[CVE-2016-3313](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3313)
 
 </td>
 <td style="border:1px solid black;">
@@ -4491,7 +4491,7 @@ Sébastien Morin of [COSIG](https://smsecurity.net/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-099](http://go.microsoft.com/fwlink/?linkid=821165)
+[MS16-099](https://go.microsoft.com/fwlink/?linkid=821165)
 
 </td>
 <td style="border:1px solid black;">
@@ -4499,17 +4499,17 @@ Microsoft OneNote Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3315](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3315)
+[CVE-2016-3315](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3315)
 
 </td>
 <td style="border:1px solid black;">
-dannywei of [Tencent’s Xuanwu Lab](http://www.tencent.com/)
+dannywei of [Tencent’s Xuanwu Lab](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-099](http://go.microsoft.com/fwlink/?linkid=821165)
+[MS16-099](https://go.microsoft.com/fwlink/?linkid=821165)
 
 </td>
 <td style="border:1px solid black;">
@@ -4517,7 +4517,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3316](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3316)
+[CVE-2016-3316](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3316)
 
 </td>
 <td style="border:1px solid black;">
@@ -4527,7 +4527,7 @@ Francis Provencher of [COSIG](https://smsecurity.net/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-099](http://go.microsoft.com/fwlink/?linkid=821165)
+[MS16-099](https://go.microsoft.com/fwlink/?linkid=821165)
 
 </td>
 <td style="border:1px solid black;">
@@ -4535,7 +4535,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3317](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3317)
+[CVE-2016-3317](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3317)
 
 </td>
 <td style="border:1px solid black;">
@@ -4545,7 +4545,7 @@ Dhanesh Kizhakkinan of [FireEye Inc](https://www.fireeye.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-099](http://go.microsoft.com/fwlink/?linkid=821165)
+[MS16-099](https://go.microsoft.com/fwlink/?linkid=821165)
 
 </td>
 <td style="border:1px solid black;">
@@ -4553,17 +4553,17 @@ Graphics Component Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3318](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3318)
+[CVE-2016-3318](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3318)
 
 </td>
 <td style="border:1px solid black;">
-Arun Kumar Sharma, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Arun Kumar Sharma, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-099](http://go.microsoft.com/fwlink/?linkid=821165)
+[MS16-099](https://go.microsoft.com/fwlink/?linkid=821165)
 
 </td>
 <td style="border:1px solid black;">
@@ -4581,7 +4581,7 @@ Jerry Decime of Hewlett Packard Enterprise
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-098](http://go.microsoft.com/fwlink/?linkid=821582)
+[MS16-098](https://go.microsoft.com/fwlink/?linkid=821582)
 
 </td>
 <td style="border:1px solid black;">
@@ -4589,17 +4589,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3308](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3308)
+[CVE-2016-3308](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3308)
 
 </td>
 <td style="border:1px solid black;">
-Peter (Keen) working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Peter (Keen) working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-098](http://go.microsoft.com/fwlink/?linkid=821582)
+[MS16-098](https://go.microsoft.com/fwlink/?linkid=821582)
 
 </td>
 <td style="border:1px solid black;">
@@ -4607,17 +4607,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3308](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3308)
+[CVE-2016-3308](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3308)
 
 </td>
 <td style="border:1px solid black;">
-ZeguangZhao (team509), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+ZeguangZhao (team509), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-098](http://go.microsoft.com/fwlink/?linkid=821582)
+[MS16-098](https://go.microsoft.com/fwlink/?linkid=821582)
 
 </td>
 <td style="border:1px solid black;">
@@ -4625,17 +4625,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3309](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3309)
+[CVE-2016-3309](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3309)
 
 </td>
 <td style="border:1px solid black;">
-bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-098](http://go.microsoft.com/fwlink/?linkid=821582)
+[MS16-098](https://go.microsoft.com/fwlink/?linkid=821582)
 
 </td>
 <td style="border:1px solid black;">
@@ -4643,7 +4643,7 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3310](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3310)
+[CVE-2016-3310](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3310)
 
 </td>
 <td style="border:1px solid black;">
@@ -4653,7 +4653,7 @@ Wayne Low of Fortinet’s Fortiguard Labs
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-098](http://go.microsoft.com/fwlink/?linkid=821582)
+[MS16-098](https://go.microsoft.com/fwlink/?linkid=821582)
 
 </td>
 <td style="border:1px solid black;">
@@ -4661,17 +4661,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3311](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3311)
+[CVE-2016-3311](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3311)
 
 </td>
 <td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988), [zhong\_sf](http://weibo.com/2641521260) of Qihoo 360 Vulcan Team
+[pgboy](https://weibo.com/pgboy1988), [zhong\_sf](https://weibo.com/2641521260) of Qihoo 360 Vulcan Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-098](http://go.microsoft.com/fwlink/?linkid=821582)
+[MS16-098](https://go.microsoft.com/fwlink/?linkid=821582)
 
 </td>
 <td style="border:1px solid black;">
@@ -4689,7 +4689,7 @@ Martin Lenord
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-097](http://go.microsoft.com/fwlink/?linkid=821146)
+[MS16-097](https://go.microsoft.com/fwlink/?linkid=821146)
 
 </td>
 <td style="border:1px solid black;">
@@ -4697,17 +4697,17 @@ Windows Graphics Component RCE Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3301](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3301)
+[CVE-2016-3301](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3301)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-097](http://go.microsoft.com/fwlink/?linkid=821146)
+[MS16-097](https://go.microsoft.com/fwlink/?linkid=821146)
 
 </td>
 <td style="border:1px solid black;">
@@ -4715,17 +4715,17 @@ Windows Graphics Component RCE Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3303](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3303)
+[CVE-2016-3303](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3303)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-097](http://go.microsoft.com/fwlink/?linkid=821146)
+[MS16-097](https://go.microsoft.com/fwlink/?linkid=821146)
 
 </td>
 <td style="border:1px solid black;">
@@ -4733,17 +4733,17 @@ Windows Graphics Component RCE Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3304](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3304)
+[CVE-2016-3304](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3304)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-096](http://go.microsoft.com/fwlink/?linkid=821137)
+[MS16-096](https://go.microsoft.com/fwlink/?linkid=821137)
 
 </td>
 <td style="border:1px solid black;">
@@ -4751,17 +4751,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3289](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3289)
+[CVE-2016-3289](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3289)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-096](http://go.microsoft.com/fwlink/?linkid=821137)
+[MS16-096](https://go.microsoft.com/fwlink/?linkid=821137)
 
 </td>
 <td style="border:1px solid black;">
@@ -4769,17 +4769,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3293](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3293)
+[CVE-2016-3293](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3293)
 
 </td>
 <td style="border:1px solid black;">
-Kai Song ([exp](http://exp-sky.org)-sky) of [Tencent’s Xuanwu LAB](http://www.tencent.com/)
+Kai Song ([exp](https://exp-sky.org)-sky) of [Tencent’s Xuanwu LAB](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-096](http://go.microsoft.com/fwlink/?linkid=821137)
+[MS16-096](https://go.microsoft.com/fwlink/?linkid=821137)
 
 </td>
 <td style="border:1px solid black;">
@@ -4787,7 +4787,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3296](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3296)
+[CVE-2016-3296](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3296)
 
 </td>
 <td style="border:1px solid black;">
@@ -4797,7 +4797,7 @@ Microsoft ChakraCore Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-096](http://go.microsoft.com/fwlink/?linkid=821137)
+[MS16-096](https://go.microsoft.com/fwlink/?linkid=821137)
 
 </td>
 <td style="border:1px solid black;">
@@ -4805,17 +4805,17 @@ Microsoft PDF Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3319](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3319)
+[CVE-2016-3319](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3319)
 
 </td>
 <td style="border:1px solid black;">
-Aleksandar Nikolic of [Cisco Talos](http://talosintel.com/vulnerability-reports/)
+Aleksandar Nikolic of [Cisco Talos](https://talosintel.com/vulnerability-reports/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-096](http://go.microsoft.com/fwlink/?linkid=821137)
+[MS16-096](https://go.microsoft.com/fwlink/?linkid=821137)
 
 </td>
 <td style="border:1px solid black;">
@@ -4823,17 +4823,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3322](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3322)
+[CVE-2016-3322](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3322)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-096](http://go.microsoft.com/fwlink/?linkid=821137)
+[MS16-096](https://go.microsoft.com/fwlink/?linkid=821137)
 
 </td>
 <td style="border:1px solid black;">
@@ -4841,17 +4841,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3326](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3326)
+[CVE-2016-3326](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3326)
 
 </td>
 <td style="border:1px solid black;">
-Simon Zuckerbraun, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Simon Zuckerbraun, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-096](http://go.microsoft.com/fwlink/?linkid=821137)
+[MS16-096](https://go.microsoft.com/fwlink/?linkid=821137)
 
 </td>
 <td style="border:1px solid black;">
@@ -4859,7 +4859,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3327](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3327)
+[CVE-2016-3327](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3327)
 
 </td>
 <td style="border:1px solid black;">
@@ -4869,7 +4869,7 @@ Soroush Dalili of [NCC Group](https://www.nccgroup.trust/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-096](http://go.microsoft.com/fwlink/?linkid=821137)
+[MS16-096](https://go.microsoft.com/fwlink/?linkid=821137)
 
 </td>
 <td style="border:1px solid black;">
@@ -4877,7 +4877,7 @@ Microsoft Browser Information Disclosure
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3329](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3329)
+[CVE-2016-3329](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3329)
 
 </td>
 <td style="border:1px solid black;">
@@ -4887,7 +4887,7 @@ Masato Kinugawa of [Cure53](https://cure53.de/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -4895,17 +4895,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3288](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3288)
+[CVE-2016-3288](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3288)
 
 </td>
 <td style="border:1px solid black;">
-Ivan Fratric and Martin Barbella, working with [Google Project Zero](http://www.google.com/)
+Ivan Fratric and Martin Barbella, working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -4913,17 +4913,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3289](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3289)
+[CVE-2016-3289](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3289)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -4931,17 +4931,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3290](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3290)
+[CVE-2016-3290](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3290)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -4949,17 +4949,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3293](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3293)
+[CVE-2016-3293](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3293)
 
 </td>
 <td style="border:1px solid black;">
-Kai Song ([exp](http://exp-sky.org)-sky) of [Tencent’s Xuanwu LAB](http://www.tencent.com/)
+Kai Song ([exp](https://exp-sky.org)-sky) of [Tencent’s Xuanwu LAB](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -4967,7 +4967,7 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3321](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3321)
+[CVE-2016-3321](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3321)
 
 </td>
 <td style="border:1px solid black;">
@@ -4977,7 +4977,7 @@ Yorick Koster of [Securify B.V.](https://securify.nl/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -4985,17 +4985,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3322](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3322)
+[CVE-2016-3322](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3322)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -5003,17 +5003,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3326](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3326)
+[CVE-2016-3326](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3326)
 
 </td>
 <td style="border:1px solid black;">
-Simon Zuckerbraun, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Simon Zuckerbraun, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -5021,7 +5021,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3327](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3327)
+[CVE-2016-3327](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3327)
 
 </td>
 <td style="border:1px solid black;">
@@ -5031,7 +5031,7 @@ Soroush Dalili of [NCC Group](https://www.nccgroup.trust/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-095](http://go.microsoft.com/fwlink/?linkid=821136)
+[MS16-095](https://go.microsoft.com/fwlink/?linkid=821136)
 
 </td>
 <td style="border:1px solid black;">
@@ -5039,7 +5039,7 @@ Microsoft Browser Information Disclosure
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3329](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3329)
+[CVE-2016-3329](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3329)
 
 </td>
 <td style="border:1px solid black;">
@@ -5055,7 +5055,7 @@ Masato Kinugawa of [Cure53](https://cure53.de/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-092](http://go.microsoft.com/fwlink/?linkid=808706)
+[MS16-092](https://go.microsoft.com/fwlink/?linkid=808706)
 
 </td>
 <td style="border:1px solid black;">
@@ -5063,17 +5063,17 @@ Windows File System Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3258](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3258)
+[CVE-2016-3258](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3258)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-092](http://go.microsoft.com/fwlink/?linkid=808706)
+[MS16-092](https://go.microsoft.com/fwlink/?linkid=808706)
 
 </td>
 <td style="border:1px solid black;">
@@ -5081,7 +5081,7 @@ Windows Kernel Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3272](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3272)
+[CVE-2016-3272](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3272)
 
 </td>
 <td style="border:1px solid black;">
@@ -5091,7 +5091,7 @@ Herbert Bos of Vrije Universiteit Amsterdam
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-091](http://go.microsoft.com/fwlink/?linkid=808156)
+[MS16-091](https://go.microsoft.com/fwlink/?linkid=808156)
 
 </td>
 <td style="border:1px solid black;">
@@ -5099,7 +5099,7 @@ Herbert Bos of Vrije Universiteit Amsterdam
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3255](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3255)
+[CVE-2016-3255](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3255)
 
 </td>
 <td style="border:1px solid black;">
@@ -5110,7 +5110,7 @@ Michael Weber, Henrique Arcoverde
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-090](http://go.microsoft.com/fwlink/?linkid=808590)
+[MS16-090](https://go.microsoft.com/fwlink/?linkid=808590)
 
 </td>
 <td style="border:1px solid black;">
@@ -5118,7 +5118,7 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3249](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3249)
+[CVE-2016-3249](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3249)
 
 </td>
 <td style="border:1px solid black;">
@@ -5128,7 +5128,7 @@ bee13oy of CloverSec Labs
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-090](http://go.microsoft.com/fwlink/?linkid=808590)
+[MS16-090](https://go.microsoft.com/fwlink/?linkid=808590)
 
 </td>
 <td style="border:1px solid black;">
@@ -5136,17 +5136,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3250](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3250)
+[CVE-2016-3250](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3250)
 
 </td>
 <td style="border:1px solid black;">
-[zhong\_sf](http://weibo.com/2641521260) and [pgboy](http://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](http://www.360.com/)
+[zhong\_sf](https://weibo.com/2641521260) and [pgboy](https://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](https://www.360.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-090](http://go.microsoft.com/fwlink/?linkid=808590)
+[MS16-090](https://go.microsoft.com/fwlink/?linkid=808590)
 
 </td>
 <td style="border:1px solid black;">
@@ -5154,17 +5154,17 @@ GDI Component Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3251](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3251)
+[CVE-2016-3251](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3251)
 
 </td>
 <td style="border:1px solid black;">
-[zhong\_sf](http://weibo.com/2641521260) and [pgboy](http://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](http://www.360.com/)
+[zhong\_sf](https://weibo.com/2641521260) and [pgboy](https://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](https://www.360.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-090](http://go.microsoft.com/fwlink/?linkid=808590)
+[MS16-090](https://go.microsoft.com/fwlink/?linkid=808590)
 
 </td>
 <td style="border:1px solid black;">
@@ -5172,17 +5172,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3252](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3252)
+[CVE-2016-3252](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3252)
 
 </td>
 <td style="border:1px solid black;">
-[fanxiaocao](https://twitter.com/tinysecex) (@TinySec), and [pjf](http://weibo.com/jfpan) of IceSword Lab, [Qihoo 360](http://www.360.cn/)
+[fanxiaocao](https://twitter.com/tinysecex) (@TinySec), and [pjf](https://weibo.com/jfpan) of IceSword Lab, [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-090](http://go.microsoft.com/fwlink/?linkid=808590)
+[MS16-090](https://go.microsoft.com/fwlink/?linkid=808590)
 
 </td>
 <td style="border:1px solid black;">
@@ -5190,17 +5190,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3254](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3254)
+[CVE-2016-3254](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3254)
 
 </td>
 <td style="border:1px solid black;">
-[zhong\_sf](http://weibo.com/2641521260) and [pgboy](http://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](http://www.360.com/)
+[zhong\_sf](https://weibo.com/2641521260) and [pgboy](https://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](https://www.360.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-090](http://go.microsoft.com/fwlink/?linkid=808590)
+[MS16-090](https://go.microsoft.com/fwlink/?linkid=808590)
 
 </td>
 <td style="border:1px solid black;">
@@ -5208,17 +5208,17 @@ Microsoft win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3286](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3286)
+[CVE-2016-3286](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3286)
 
 </td>
 <td style="border:1px solid black;">
-[zhong\_sf](http://weibo.com/2641521260) and [pgboy](http://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](http://www.360.com/)
+[zhong\_sf](https://weibo.com/2641521260) and [pgboy](https://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](https://www.360.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-088](http://go.microsoft.com/fwlink/?linkid=808151)
+[MS16-088](https://go.microsoft.com/fwlink/?linkid=808151)
 
 </td>
 <td style="border:1px solid black;">
@@ -5226,17 +5226,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3278](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3278)
+[CVE-2016-3278](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3278)
 
 </td>
 <td style="border:1px solid black;">
-Xiaoning Li of [Intel Labs](http://www.intel.com/content/www/us/en/research/intel-research.html)
+Xiaoning Li of [Intel Labs](https://www.intel.com/content/www/us/en/research/intel-research.html)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-088](http://go.microsoft.com/fwlink/?linkid=808151)
+[MS16-088](https://go.microsoft.com/fwlink/?linkid=808151)
 
 </td>
 <td style="border:1px solid black;">
@@ -5244,17 +5244,17 @@ Microsoft Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3279](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3279)
+[CVE-2016-3279](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3279)
 
 </td>
 <td style="border:1px solid black;">
-Haifei Li of [Intel Security](http://www.intelsecurity.com/)
+Haifei Li of [Intel Security](https://www.intelsecurity.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-088](http://go.microsoft.com/fwlink/?linkid=808151)
+[MS16-088](https://go.microsoft.com/fwlink/?linkid=808151)
 
 </td>
 <td style="border:1px solid black;">
@@ -5262,17 +5262,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3280](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3280)
+[CVE-2016-3280](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3280)
 
 </td>
 <td style="border:1px solid black;">
-Lucas Leong of [Trend Micro](http://www.trendmicro.com/)
+Lucas Leong of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-088](http://go.microsoft.com/fwlink/?linkid=808151)
+[MS16-088](https://go.microsoft.com/fwlink/?linkid=808151)
 
 </td>
 <td style="border:1px solid black;">
@@ -5280,17 +5280,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3281](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3281)
+[CVE-2016-3281](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3281)
 
 </td>
 <td style="border:1px solid black;">
-Jaanus Kääp of [Clarified Security](http://www.clarifiedsecurity.com/)
+Jaanus Kääp of [Clarified Security](https://www.clarifiedsecurity.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-088](http://go.microsoft.com/fwlink/?linkid=808151)
+[MS16-088](https://go.microsoft.com/fwlink/?linkid=808151)
 
 </td>
 <td style="border:1px solid black;">
@@ -5298,17 +5298,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3282](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3282)
+[CVE-2016-3282](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3282)
 
 </td>
 <td style="border:1px solid black;">
-Jaanus Kääp of [Clarified Security](http://www.clarifiedsecurity.com/)
+Jaanus Kääp of [Clarified Security](https://www.clarifiedsecurity.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-088](http://go.microsoft.com/fwlink/?linkid=808151)
+[MS16-088](https://go.microsoft.com/fwlink/?linkid=808151)
 
 </td>
 <td style="border:1px solid black;">
@@ -5316,17 +5316,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3283](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3283)
+[CVE-2016-3283](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3283)
 
 </td>
 <td style="border:1px solid black;">
-Jaanus Kääp of [Clarified Security](http://www.clarifiedsecurity.com/)
+Jaanus Kääp of [Clarified Security](https://www.clarifiedsecurity.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-088](http://go.microsoft.com/fwlink/?linkid=808151)
+[MS16-088](https://go.microsoft.com/fwlink/?linkid=808151)
 
 </td>
 <td style="border:1px solid black;">
@@ -5334,7 +5334,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3284](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3284)
+[CVE-2016-3284](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3284)
 
 </td>
 <td style="border:1px solid black;">
@@ -5344,7 +5344,7 @@ Microsoft Office Memory Corruption Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-087](http://go.microsoft.com/fwlink/?linkid=808150)
+[MS16-087](https://go.microsoft.com/fwlink/?linkid=808150)
 
 </td>
 <td style="border:1px solid black;">
@@ -5352,17 +5352,17 @@ Microsoft Print Spooler Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3238](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3238)
+[CVE-2016-3238](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3238)
 
 </td>
 <td style="border:1px solid black;">
-[Nicolas Beauchesne](http://blog.vectranetworks.com/blog/microsoft-windows-printer-wateringhole-attack) of Vectra Networks
+[Nicolas Beauchesne](https://blog.vectranetworks.com/blog/microsoft-windows-printer-wateringhole-attack) of Vectra Networks
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-087](http://go.microsoft.com/fwlink/?linkid=808150)
+[MS16-087](https://go.microsoft.com/fwlink/?linkid=808150)
 
 </td>
 <td style="border:1px solid black;">
@@ -5370,7 +5370,7 @@ Windows Print Spooler Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3239](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3239)
+[CVE-2016-3239](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3239)
 
 </td>
 <td style="border:1px solid black;">
@@ -5380,7 +5380,7 @@ Windows Print Spooler Elevation of Privilege
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5388,17 +5388,17 @@ Microsoft Edge Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3244](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3244)
+[CVE-2016-3244](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3244)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xlab.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xlab.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5406,17 +5406,17 @@ Microsoft Edge Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3244](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3244)
+[CVE-2016-3244](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3244)
 
 </td>
 <td style="border:1px solid black;">
-Henry Li (zenhumany) of [Trend Micro](http://www.trendmicro.com/)
+Henry Li (zenhumany) of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5424,17 +5424,17 @@ Microsoft Edge Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3244](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3244)
+[CVE-2016-3244](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3244)
 
 </td>
 <td style="border:1px solid black;">
-Kai Song ([exp](http://exp-sky.org/)-sky) of [Tencent’s Xuanwu LAB](http://www.tencent.com/)
+Kai Song ([exp](https://exp-sky.org/)-sky) of [Tencent’s Xuanwu LAB](https://www.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5442,17 +5442,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3246](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3246)
+[CVE-2016-3246](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3246)
 
 </td>
 <td style="border:1px solid black;">
-cc working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+cc working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5460,7 +5460,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3248](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3248)
+[CVE-2016-3248](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3248)
 
 </td>
 <td style="border:1px solid black;">
@@ -5470,7 +5470,7 @@ Microsoft ChakraCore Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5478,7 +5478,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3259](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3259)
+[CVE-2016-3259](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3259)
 
 </td>
 <td style="border:1px solid black;">
@@ -5488,7 +5488,7 @@ Scripting Engine Memory Corruption Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5496,17 +5496,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3264](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3264)
+[CVE-2016-3264](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3264)
 
 </td>
 <td style="border:1px solid black;">
-[exp-sky](http://exp-sky.org/) of [Tencent’s Xuanwu LAB](http://xlab.tencent.com/) working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+[exp-sky](https://exp-sky.org/) of [Tencent’s Xuanwu LAB](https://xlab.tencent.com/) working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5514,7 +5514,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3265](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3265)
+[CVE-2016-3265](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3265)
 
 </td>
 <td style="border:1px solid black;">
@@ -5524,7 +5524,7 @@ Jordan Rabet, Microsoft Offensive Security Research Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5532,7 +5532,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3269](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3269)
+[CVE-2016-3269](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3269)
 
 </td>
 <td style="border:1px solid black;">
@@ -5542,7 +5542,7 @@ Jordan Rabet, Microsoft Offensive Security Research Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5550,17 +5550,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3271](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3271)
+[CVE-2016-3271](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3271)
 
 </td>
 <td style="border:1px solid black;">
-WanderingGlitch, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+WanderingGlitch, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5568,7 +5568,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3273](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3273)
+[CVE-2016-3273](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3273)
 
 </td>
 <td style="border:1px solid black;">
@@ -5578,7 +5578,7 @@ Masato Kinugawa of [Cure53](https://cure53.de/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5586,17 +5586,17 @@ Microsoft Browser Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3274](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3274)
+[CVE-2016-3274](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3274)
 
 </td>
 <td style="border:1px solid black;">
-Ferenc Lutischán of [Magyar Telekom Nyrt](http://www.telekom.hu/)
+Ferenc Lutischán of [Magyar Telekom Nyrt](https://www.telekom.hu/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5604,17 +5604,17 @@ Microsoft Edge Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3276](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3276)
+[CVE-2016-3276](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3276)
 
 </td>
 <td style="border:1px solid black;">
-Wenxiang Qian of [Tencent QQBrowser](http://browser.qq.com/)
+Wenxiang Qian of [Tencent QQBrowser](https://browser.qq.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-085](http://go.microsoft.com/fwlink/?linkid=808148)
+[MS16-085](https://go.microsoft.com/fwlink/?linkid=808148)
 
 </td>
 <td style="border:1px solid black;">
@@ -5622,17 +5622,17 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3277](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3277)
+[CVE-2016-3277](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3277)
 
 </td>
 <td style="border:1px solid black;">
-Henry Li (zenhumany) of [Trend Micro](http://www.trendmicro.com/)
+Henry Li (zenhumany) of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5640,7 +5640,7 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3240](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3240)
+[CVE-2016-3240](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3240)
 
 </td>
 <td style="border:1px solid black;">
@@ -5650,7 +5650,7 @@ Hui Gao of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5658,17 +5658,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3241](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3241)
+[CVE-2016-3241](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3241)
 
 </td>
 <td style="border:1px solid black;">
-62600BCA031B9EB5CB4A74ADDDD6771E working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+62600BCA031B9EB5CB4A74ADDDD6771E working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5676,17 +5676,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3242](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3242)
+[CVE-2016-3242](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3242)
 
 </td>
 <td style="border:1px solid black;">
-62600BCA031B9EB5CB4A74ADDDD6771E working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+62600BCA031B9EB5CB4A74ADDDD6771E working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5694,17 +5694,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3243](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3243)
+[CVE-2016-3243](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3243)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xlab.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xlab.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5712,7 +5712,7 @@ Internet Explorer Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3245](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3245)
+[CVE-2016-3245](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3245)
 
 </td>
 <td style="border:1px solid black;">
@@ -5722,7 +5722,7 @@ Masato Kinugawa of [Cure53](https://cure53.de/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5730,7 +5730,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3259](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3259)
+[CVE-2016-3259](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3259)
 
 </td>
 <td style="border:1px solid black;">
@@ -5740,7 +5740,7 @@ Scripting Engine Memory Corruption Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5748,7 +5748,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3260](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3260)
+[CVE-2016-3260](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3260)
 
 </td>
 <td style="border:1px solid black;">
@@ -5758,7 +5758,7 @@ Jordan Rabet of Microsoft Offensive Security Research Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5766,17 +5766,17 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3261](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3261)
+[CVE-2016-3261](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3261)
 
 </td>
 <td style="border:1px solid black;">
-Li Kemeng, [Baidu Security Lab](http://xlab.baidu.com/)
+Li Kemeng, [Baidu Security Lab](https://xlab.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5784,17 +5784,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3264](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3264)
+[CVE-2016-3264](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3264)
 
 </td>
 <td style="border:1px solid black;">
-[exp-sky](http://exp-sky.org/) of [Tencent’s Xuanwu LAB](http://xlab.tencent.com/) working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+[exp-sky](https://exp-sky.org/) of [Tencent’s Xuanwu LAB](https://xlab.tencent.com/) working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5802,7 +5802,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3273](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3273)
+[CVE-2016-3273](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3273)
 
 </td>
 <td style="border:1px solid black;">
@@ -5812,7 +5812,7 @@ Masato Kinugawa of [Cure53](https://cure53.de/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-084](http://go.microsoft.com/fwlink/?linkid=808143)
+[MS16-084](https://go.microsoft.com/fwlink/?linkid=808143)
 
 </td>
 <td style="border:1px solid black;">
@@ -5820,11 +5820,11 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3277](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3277)
+[CVE-2016-3277](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3277)
 
 </td>
 <td style="border:1px solid black;">
-Henry Li (zenhumany) of [Trend Micro](http://www.trendmicro.com/)
+Henry Li (zenhumany) of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
@@ -5854,7 +5854,7 @@ Tao Yan (@Ga1ois) of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-081](http://go.microsoft.com/fwlink/?linkid=798515)
+[MS16-081](https://go.microsoft.com/fwlink/?linkid=798515)
 
 </td>
 <td style="border:1px solid black;">
@@ -5862,7 +5862,7 @@ Active Directory Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3226](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3226)
+[CVE-2016-3226](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3226)
 
 </td>
 <td style="border:1px solid black;">
@@ -5872,7 +5872,7 @@ Ondrej Sevecek of [GOPAS](https://www.sevecek.com/englishpages/lists/posts/post.
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-080](http://go.microsoft.com/fwlink/?linkid=798620)
+[MS16-080](https://go.microsoft.com/fwlink/?linkid=798620)
 
 </td>
 <td style="border:1px solid black;">
@@ -5880,17 +5880,17 @@ Windows PDF Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3201](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3201)
+[CVE-2016-3201](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3201)
 
 </td>
 <td style="border:1px solid black;">
-Jaanus Kääp of [Clarified Security](http://www.clarifiedsecurity.com/)
+Jaanus Kääp of [Clarified Security](https://www.clarifiedsecurity.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-080](http://go.microsoft.com/fwlink/?linkid=798620)
+[MS16-080](https://go.microsoft.com/fwlink/?linkid=798620)
 
 </td>
 <td style="border:1px solid black;">
@@ -5898,17 +5898,17 @@ Windows PDF Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3203](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3203)
+[CVE-2016-3203](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3203)
 
 </td>
 <td style="border:1px solid black;">
-Ke Liu of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
+Ke Liu of [Tencent’s Xuanwu Lab](https://xlab.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-080](http://go.microsoft.com/fwlink/?linkid=798620)
+[MS16-080](https://go.microsoft.com/fwlink/?linkid=798620)
 
 </td>
 <td style="border:1px solid black;">
@@ -5916,17 +5916,17 @@ Windows PDF Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3203](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3203)
+[CVE-2016-3203](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3203)
 
 </td>
 <td style="border:1px solid black;">
-kdot working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+kdot working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-080](http://go.microsoft.com/fwlink/?linkid=798620)
+[MS16-080](https://go.microsoft.com/fwlink/?linkid=798620)
 
 </td>
 <td style="border:1px solid black;">
@@ -5934,17 +5934,17 @@ Windows PDF Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3215](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3215)
+[CVE-2016-3215](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3215)
 
 </td>
 <td style="border:1px solid black;">
-Ke Liu of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
+Ke Liu of [Tencent’s Xuanwu Lab](https://xlab.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-080](http://go.microsoft.com/fwlink/?linkid=798620)
+[MS16-080](https://go.microsoft.com/fwlink/?linkid=798620)
 
 </td>
 <td style="border:1px solid black;">
@@ -5952,17 +5952,17 @@ Windows PDF Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3215](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3215)
+[CVE-2016-3215](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3215)
 
 </td>
 <td style="border:1px solid black;">
-kdot working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+kdot working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-079](http://go.microsoft.com/fwlink/?linkid=787067)
+[MS16-079](https://go.microsoft.com/fwlink/?linkid=787067)
 
 </td>
 <td style="border:1px solid black;">
@@ -5970,7 +5970,7 @@ Microsoft Exchange Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0028](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0028)
+[CVE-2016-0028](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0028)
 
 </td>
 <td style="border:1px solid black;">
@@ -5980,7 +5980,7 @@ Louis-Paul Dareau of [ProcessOut](https://www.processout.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-078](http://go.microsoft.com/fwlink/?linkid=799136)
+[MS16-078](https://go.microsoft.com/fwlink/?linkid=799136)
 
 </td>
 <td style="border:1px solid black;">
@@ -5988,17 +5988,17 @@ Windows Diagnostics Hub Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3231](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3231)
+[CVE-2016-3231](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3231)
 
 </td>
 <td style="border:1px solid black;">
-lokihardt, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+lokihardt, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-078](http://go.microsoft.com/fwlink/?linkid=799136)
+[MS16-078](https://go.microsoft.com/fwlink/?linkid=799136)
 
 </td>
 <td style="border:1px solid black;">
@@ -6006,17 +6006,17 @@ Windows Diagnostics Hub Elevation of Privilege
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3231](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3231)
+[CVE-2016-3231](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3231)
 
 </td>
 <td style="border:1px solid black;">
-[Qihoo 360 Vulcan Team](http://www.360.com/)
+[Qihoo 360 Vulcan Team](https://www.360.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-077](http://go.microsoft.com/fwlink/?linkid=798850)
+[MS16-077](https://go.microsoft.com/fwlink/?linkid=798850)
 
 </td>
 <td style="border:1px solid black;">
@@ -6024,7 +6024,7 @@ WPAD Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3213](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3213)
+[CVE-2016-3213](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3213)
 
 </td>
 <td style="border:1px solid black;">
@@ -6034,7 +6034,7 @@ WPAD Elevation of Privilege Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-077](http://go.microsoft.com/fwlink/?linkid=798850)
+[MS16-077](https://go.microsoft.com/fwlink/?linkid=798850)
 
 </td>
 <td style="border:1px solid black;">
@@ -6042,17 +6042,17 @@ WPAD Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3213](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3213)
+[CVE-2016-3213](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3213)
 
 </td>
 <td style="border:1px solid black;">
-Yu Yang (@tombkeeper) of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
+Yu Yang (@tombkeeper) of [Tencent’s Xuanwu Lab](https://xlab.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-074](http://go.microsoft.com/fwlink/?linkid=798504)
+[MS16-074](https://go.microsoft.com/fwlink/?linkid=798504)
 
 </td>
 <td style="border:1px solid black;">
@@ -6060,17 +6060,17 @@ Windows Graphics Component Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3216](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3216)
+[CVE-2016-3216](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3216)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-074](http://go.microsoft.com/fwlink/?linkid=798504)
+[MS16-074](https://go.microsoft.com/fwlink/?linkid=798504)
 
 </td>
 <td style="border:1px solid black;">
@@ -6078,17 +6078,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3219](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3219)
+[CVE-2016-3219](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3219)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-074](http://go.microsoft.com/fwlink/?linkid=798504)
+[MS16-074](https://go.microsoft.com/fwlink/?linkid=798504)
 
 </td>
 <td style="border:1px solid black;">
@@ -6096,17 +6096,17 @@ ATMFD.DLL Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3220](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3220)
+[CVE-2016-3220](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3220)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-073](http://go.microsoft.com/fwlink/?linkid=798502)
+[MS16-073](https://go.microsoft.com/fwlink/?linkid=798502)
 
 </td>
 <td style="border:1px solid black;">
@@ -6114,17 +6114,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3218](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3218)
+[CVE-2016-3218](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3218)
 
 </td>
 <td style="border:1px solid black;">
-[zhong\_sf](http://weibo.com/2641521260) and [pgboy](http://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](http://www.360.com/)
+[zhong\_sf](https://weibo.com/2641521260) and [pgboy](https://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](https://www.360.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-073](http://go.microsoft.com/fwlink/?linkid=798502)
+[MS16-073](https://go.microsoft.com/fwlink/?linkid=798502)
 
 </td>
 <td style="border:1px solid black;">
@@ -6132,17 +6132,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3221](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3221)
+[CVE-2016-3221](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3221)
 
 </td>
 <td style="border:1px solid black;">
-RanchoIce of the [Baidu Security Lab](http://xteam.baidu.com/)
+RanchoIce of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-072](http://go.microsoft.com/fwlink/?linkid=798378)
+[MS16-072](https://go.microsoft.com/fwlink/?linkid=798378)
 
 </td>
 <td style="border:1px solid black;">
@@ -6150,17 +6150,17 @@ Group Policy Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3223](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3223)
+[CVE-2016-3223](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3223)
 
 </td>
 <td style="border:1px solid black;">
-[NabeelAhmed](https://twitter.com/nabeelahmedbe) of [Dimension Data](http://www.dimensiondata.com/)
+[NabeelAhmed](https://twitter.com/nabeelahmedbe) of [Dimension Data](https://www.dimensiondata.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-072](http://go.microsoft.com/fwlink/?linkid=798378)
+[MS16-072](https://go.microsoft.com/fwlink/?linkid=798378)
 
 </td>
 <td style="border:1px solid black;">
@@ -6168,17 +6168,17 @@ Group Policy Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3223](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3223)
+[CVE-2016-3223](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3223)
 
 </td>
 <td style="border:1px solid black;">
-[Tom Gilis](https://twitter.com/tgilis) of [Dimension Data](http://www.dimensiondata.com/)
+[Tom Gilis](https://twitter.com/tgilis) of [Dimension Data](https://www.dimensiondata.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-070](http://go.microsoft.com/fwlink/?linkid=798377)
+[MS16-070](https://go.microsoft.com/fwlink/?linkid=798377)
 
 </td>
 <td style="border:1px solid black;">
@@ -6186,17 +6186,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0025](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0025)
+[CVE-2016-0025](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0025)
 
 </td>
 <td style="border:1px solid black;">
-YangKang of [360 QEX Team](http://www.360.cn/)
+YangKang of [360 QEX Team](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-070](http://go.microsoft.com/fwlink/?linkid=798377)
+[MS16-070](https://go.microsoft.com/fwlink/?linkid=798377)
 
 </td>
 <td style="border:1px solid black;">
@@ -6204,7 +6204,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3233](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3233)
+[CVE-2016-3233](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3233)
 
 </td>
 <td style="border:1px solid black;">
@@ -6214,7 +6214,7 @@ David D. Rude II working with iDefense
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-070](http://go.microsoft.com/fwlink/?linkid=798377)
+[MS16-070](https://go.microsoft.com/fwlink/?linkid=798377)
 
 </td>
 <td style="border:1px solid black;">
@@ -6222,17 +6222,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0025](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0025)
+[CVE-2016-0025](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0025)
 
 </td>
 <td style="border:1px solid black;">
-LiYaDong of [360 QEX Team](http://www.360.cn/)
+LiYaDong of [360 QEX Team](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-070](http://go.microsoft.com/fwlink/?linkid=798377)
+[MS16-070](https://go.microsoft.com/fwlink/?linkid=798377)
 
 </td>
 <td style="border:1px solid black;">
@@ -6240,7 +6240,7 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3234](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3234)
+[CVE-2016-3234](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3234)
 
 </td>
 <td style="border:1px solid black;">
@@ -6250,7 +6250,7 @@ Dhanesh Kizhakkinan of [FireEye Inc](https://www.fireeye.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-070](http://go.microsoft.com/fwlink/?linkid=798377)
+[MS16-070](https://go.microsoft.com/fwlink/?linkid=798377)
 
 </td>
 <td style="border:1px solid black;">
@@ -6258,7 +6258,7 @@ Microsoft Office OLE DLL Side Loading Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3235](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3235)
+[CVE-2016-3235](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3235)
 
 </td>
 <td style="border:1px solid black;">
@@ -6268,7 +6268,7 @@ Yorick Koster of [Securify B.V.](https://securify.nl/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-070](http://go.microsoft.com/fwlink/?linkid=798377)
+[MS16-070](https://go.microsoft.com/fwlink/?linkid=798377)
 
 </td>
 <td style="border:1px solid black;">
@@ -6280,13 +6280,13 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-[Danny Wei Wei](https://twitter.com/danny_wei) of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
+[Danny Wei Wei](https://twitter.com/danny_wei) of [Tencent’s Xuanwu Lab](https://xlab.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-069](http://go.microsoft.com/fwlink/?linkid=798411)
+[MS16-069](https://go.microsoft.com/fwlink/?linkid=798411)
 
 </td>
 <td style="border:1px solid black;">
@@ -6294,7 +6294,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3205](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3205)
+[CVE-2016-3205](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3205)
 
 </td>
 <td style="border:1px solid black;">
@@ -6304,7 +6304,7 @@ Tao Yan (@Ga1ois) of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-069](http://go.microsoft.com/fwlink/?linkid=798411)
+[MS16-069](https://go.microsoft.com/fwlink/?linkid=798411)
 
 </td>
 <td style="border:1px solid black;">
@@ -6312,7 +6312,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3206](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3206)
+[CVE-2016-3206](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3206)
 
 </td>
 <td style="border:1px solid black;">
@@ -6322,7 +6322,7 @@ Tao Yan (@Ga1ois) of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-069](http://go.microsoft.com/fwlink/?linkid=798411)
+[MS16-069](https://go.microsoft.com/fwlink/?linkid=798411)
 
 </td>
 <td style="border:1px solid black;">
@@ -6330,7 +6330,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3207](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3207)
+[CVE-2016-3207](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3207)
 
 </td>
 <td style="border:1px solid black;">
@@ -6340,7 +6340,7 @@ Tao Yan (@Ga1ois) of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6348,7 +6348,7 @@ Microsoft Edge Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3198](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3198)
+[CVE-2016-3198](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3198)
 
 </td>
 <td style="border:1px solid black;">
@@ -6358,7 +6358,7 @@ Mario Heiderich of [Cure53](https://cure53.de/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6366,17 +6366,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3199](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3199)
+[CVE-2016-3199](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3199)
 
 </td>
 <td style="border:1px solid black;">
-lokihardt working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+lokihardt working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6384,7 +6384,7 @@ Windows PDF Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3201](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3201)
+[CVE-2016-3201](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3201)
 
 </td>
 <td style="border:1px solid black;">
@@ -6394,7 +6394,7 @@ Jaanus Kääp of Clarified Security
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6402,17 +6402,17 @@ Windows PDF Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3203](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3203)
+[CVE-2016-3203](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3203)
 
 </td>
 <td style="border:1px solid black;">
-kdot working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+kdot working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6420,7 +6420,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3214](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3214)
+[CVE-2016-3214](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3214)
 
 </td>
 <td style="border:1px solid black;">
@@ -6430,7 +6430,7 @@ Jordan Rabet of Microsoft Offensive Security Research Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6438,17 +6438,17 @@ Windows PDF Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3215](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3215)
+[CVE-2016-3215](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3215)
 
 </td>
 <td style="border:1px solid black;">
-Ke Liu of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
+Ke Liu of [Tencent’s Xuanwu Lab](https://xlab.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6456,17 +6456,17 @@ Windows PDF Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3215](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3215)
+[CVE-2016-3215](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3215)
 
 </td>
 <td style="border:1px solid black;">
-kdot working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+kdot working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6474,17 +6474,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3222](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3222)
+[CVE-2016-3222](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3222)
 
 </td>
 <td style="border:1px solid black;">
-Shi Ji (@Puzzor) of [VARAS@IIE](http://www.iie.ac.cn/) working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Shi Ji (@Puzzor) of [VARAS@IIE](https://www.iie.ac.cn/) working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-068](http://go.microsoft.com/fwlink/?linkid=798511)
+[MS16-068](https://go.microsoft.com/fwlink/?linkid=798511)
 
 </td>
 <td style="border:1px solid black;">
@@ -6492,17 +6492,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3222](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3222)
+[CVE-2016-3222](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3222)
 
 </td>
 <td style="border:1px solid black;">
-Kai Song (exp-sky) of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
+Kai Song (exp-sky) of [Tencent’s Xuanwu Lab](https://xlab.tencent.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6510,7 +6510,7 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0199](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0199)
+[CVE-2016-0199](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0199)
 
 </td>
 <td style="border:1px solid black;">
@@ -6520,7 +6520,7 @@ SkyLined working with iDefense
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6528,17 +6528,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0200](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0200)
+[CVE-2016-0200](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0200)
 
 </td>
 <td style="border:1px solid black;">
-62600BCA031B9EB5CB4A74ADDDD6771E working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+62600BCA031B9EB5CB4A74ADDDD6771E working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6546,7 +6546,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3205](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3205)
+[CVE-2016-3205](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3205)
 
 </td>
 <td style="border:1px solid black;">
@@ -6556,7 +6556,7 @@ Tao Yan (@Ga1ois) of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6564,7 +6564,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3206](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3206)
+[CVE-2016-3206](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3206)
 
 </td>
 <td style="border:1px solid black;">
@@ -6574,7 +6574,7 @@ Tao Yan (@Ga1ois) of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6582,7 +6582,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3207](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3207)
+[CVE-2016-3207](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3207)
 
 </td>
 <td style="border:1px solid black;">
@@ -6592,7 +6592,7 @@ Tao Yan (@Ga1ois) of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6600,7 +6600,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3210](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3210)
+[CVE-2016-3210](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3210)
 
 </td>
 <td style="border:1px solid black;">
@@ -6610,7 +6610,7 @@ Scripting Engine Memory Corruption Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6618,17 +6618,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3211](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3211)
+[CVE-2016-3211](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3211)
 
 </td>
 <td style="border:1px solid black;">
-[Ashutosh Mehra](https://twitter.com/ashutoshmehra) working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+[Ashutosh Mehra](https://twitter.com/ashutoshmehra) working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6636,7 +6636,7 @@ Internet Explorer XSS Filter Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3212](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3212)
+[CVE-2016-3212](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3212)
 
 </td>
 <td style="border:1px solid black;">
@@ -6646,7 +6646,7 @@ Masato Kinugawa of [Cure53](https://cure53.de/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-063](http://go.microsoft.com/fwlink/?linkid=798510)
+[MS16-063](https://go.microsoft.com/fwlink/?linkid=798510)
 
 </td>
 <td style="border:1px solid black;">
@@ -6654,11 +6654,11 @@ WPAD Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-3299](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3299)
+[CVE-2016-3299](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3299)
 
 </td>
 <td style="border:1px solid black;">
-Yu Yang (@tombkeeper) of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
+Yu Yang (@tombkeeper) of [Tencent’s Xuanwu Lab](https://xlab.tencent.com/)
 
 </td>
 </tr>
@@ -6670,7 +6670,7 @@ Yu Yang (@tombkeeper) of [Tencent’s Xuanwu Lab](http://xlab.tencent.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-067](http://go.microsoft.com/fwlink/?linkid=786475)
+[MS16-067](https://go.microsoft.com/fwlink/?linkid=786475)
 
 </td>
 <td style="border:1px solid black;">
@@ -6678,17 +6678,17 @@ Remote Desktop Protocol Drive Redirection Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0190](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0190)
+[CVE-2016-0190](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0190)
 
 </td>
 <td style="border:1px solid black;">
-Sandeep Kumar of [Citrix Systems Inc.](http://www.citrix.com/)
+Sandeep Kumar of [Citrix Systems Inc.](https://www.citrix.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-066](http://go.microsoft.com/fwlink/?linkid=785792)
+[MS16-066](https://go.microsoft.com/fwlink/?linkid=785792)
 
 </td>
 <td style="border:1px solid black;">
@@ -6696,17 +6696,17 @@ Hypervisor Code Integrity Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0181](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0181)
+[CVE-2016-0181](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0181)
 
 </td>
 <td style="border:1px solid black;">
-Rafal Wojtczuk of [Bromium](http://www.bromium.com/)
+Rafal Wojtczuk of [Bromium](https://www.bromium.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6714,17 +6714,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0171](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0171)
+[CVE-2016-0171](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0171)
 
 </td>
 <td style="border:1px solid black;">
-Nils Sommer of bytegeist, working with [Google Project Zero](http://www.google.com/)
+Nils Sommer of bytegeist, working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6732,17 +6732,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0173](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0173)
+[CVE-2016-0173](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0173)
 
 </td>
 <td style="border:1px solid black;">
-Nils Sommer of bytegeist, working with [Google Project Zero](http://www.google.com/)
+Nils Sommer of bytegeist, working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6750,17 +6750,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0173](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0173)
+[CVE-2016-0173](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0173)
 
 </td>
 <td style="border:1px solid black;">
-[Qihoo 360 Vulcan Team](http://www.360.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+[Qihoo 360 Vulcan Team](https://www.360.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6768,17 +6768,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0174](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0174)
+[CVE-2016-0174](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0174)
 
 </td>
 <td style="border:1px solid black;">
-Liang Yin of Tencent PC Manager working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Liang Yin of Tencent PC Manager working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6786,17 +6786,17 @@ Win32k Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0175](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0175)
+[CVE-2016-0175](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0175)
 
 </td>
 <td style="border:1px solid black;">
-Liang Yin of Tencent PC Manager working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Liang Yin of Tencent PC Manager working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6804,17 +6804,17 @@ Microsoft DirectX Graphics Kernel Subsystem Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0176](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0176)
+[CVE-2016-0176](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0176)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty of Tencent KeenLab working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Peter Hlavaty of Tencent KeenLab working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6822,17 +6822,17 @@ Microsoft DirectX Graphics Kernel Subsystem Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0176](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0176)
+[CVE-2016-0176](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0176)
 
 </td>
 <td style="border:1px solid black;">
-Daniel King of Tencent KeenLab working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Daniel King of Tencent KeenLab working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6840,7 +6840,7 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0196](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0196)
+[CVE-2016-0196](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0196)
 
 </td>
 <td style="border:1px solid black;">
@@ -6850,7 +6850,7 @@ Dhanesh Kizhakkinan of [FireEye, Inc.](https://www.fireeye.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6858,17 +6858,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0196](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0196)
+[CVE-2016-0196](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0196)
 
 </td>
 <td style="border:1px solid black;">
-[Qihoo 360 Vulcan Team](http://www.360.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+[Qihoo 360 Vulcan Team](https://www.360.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-062](http://go.microsoft.com/fwlink/?linkid=786923)
+[MS16-062](https://go.microsoft.com/fwlink/?linkid=786923)
 
 </td>
 <td style="border:1px solid black;">
@@ -6886,7 +6886,7 @@ Fermin J. Serna
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-061](http://go.microsoft.com/fwlink/?linkid=785871)
+[MS16-061](https://go.microsoft.com/fwlink/?linkid=785871)
 
 </td>
 <td style="border:1px solid black;">
@@ -6894,7 +6894,7 @@ RPC Network Data Representation Engine Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0178](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0178)
+[CVE-2016-0178](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0178)
 
 </td>
 <td style="border:1px solid black;">
@@ -6904,7 +6904,7 @@ Evgeny Kotkov of [VisualSVN](https://www.visualsvn.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-061](http://go.microsoft.com/fwlink/?linkid=785871)
+[MS16-061](https://go.microsoft.com/fwlink/?linkid=785871)
 
 </td>
 <td style="border:1px solid black;">
@@ -6912,7 +6912,7 @@ RPC Network Data Representation Engine Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0178](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0178)
+[CVE-2016-0178](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0178)
 
 </td>
 <td style="border:1px solid black;">
@@ -6922,7 +6922,7 @@ Ivan Zhakov of [VisualSVN](https://www.visualsvn.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-060](http://go.microsoft.com/fwlink/?linkid=785239)
+[MS16-060](https://go.microsoft.com/fwlink/?linkid=785239)
 
 </td>
 <td style="border:1px solid black;">
@@ -6930,17 +6930,17 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0180](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0180)
+[CVE-2016-0180](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0180)
 
 </td>
 <td style="border:1px solid black;">
-Loren Robinson of [CrowdStrike, Inc.](http://www.crowdstrike.com/)
+Loren Robinson of [CrowdStrike, Inc.](https://www.crowdstrike.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-060](http://go.microsoft.com/fwlink/?linkid=785239)
+[MS16-060](https://go.microsoft.com/fwlink/?linkid=785239)
 
 </td>
 <td style="border:1px solid black;">
@@ -6948,17 +6948,17 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0180](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0180)
+[CVE-2016-0180](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0180)
 
 </td>
 <td style="border:1px solid black;">
-Alex Ionescu of [CrowdStrike, Inc.](http://www.crowdstrike.com/)
+Alex Ionescu of [CrowdStrike, Inc.](https://www.crowdstrike.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-059](http://go.microsoft.com/fwlink/?linkid=786468)
+[MS16-059](https://go.microsoft.com/fwlink/?linkid=786468)
 
 </td>
 <td style="border:1px solid black;">
@@ -6966,17 +6966,17 @@ Windows Media Center Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0185](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0185)
+[CVE-2016-0185](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0185)
 
 </td>
 <td style="border:1px solid black;">
-Eduardo Braun Prado, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Eduardo Braun Prado, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-057](http://go.microsoft.com/fwlink/?linkid=786534)
+[MS16-057](https://go.microsoft.com/fwlink/?linkid=786534)
 
 </td>
 <td style="border:1px solid black;">
@@ -6984,17 +6984,17 @@ Windows Shell Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0179](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0179)
+[CVE-2016-0179](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0179)
 
 </td>
 <td style="border:1px solid black;">
-Shi Ji (@Puzzor) of [VARAS@IIE](http://www.iie.ac.cn/)
+Shi Ji (@Puzzor) of [VARAS@IIE](https://www.iie.ac.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-056](http://go.microsoft.com/fwlink/?linkid=786477)
+[MS16-056](https://go.microsoft.com/fwlink/?linkid=786477)
 
 </td>
 <td style="border:1px solid black;">
@@ -7002,17 +7002,17 @@ Journal Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0182](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0182)
+[CVE-2016-0182](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0182)
 
 </td>
 <td style="border:1px solid black;">
-Jason Kratzer, working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Jason Kratzer, working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-056](http://go.microsoft.com/fwlink/?linkid=786477)
+[MS16-056](https://go.microsoft.com/fwlink/?linkid=786477)
 
 </td>
 <td style="border:1px solid black;">
@@ -7020,17 +7020,17 @@ Journal Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0182](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0182)
+[CVE-2016-0182](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0182)
 
 </td>
 <td style="border:1px solid black;">
-Bingchang Liu of [VARAS@IIE](http://www.iie.ac.cn/)
+Bingchang Liu of [VARAS@IIE](https://www.iie.ac.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-055](http://go.microsoft.com/fwlink/?linkid=786471)
+[MS16-055](https://go.microsoft.com/fwlink/?linkid=786471)
 
 </td>
 <td style="border:1px solid black;">
@@ -7038,7 +7038,7 @@ Windows Graphics Component Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0168](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0168)
+[CVE-2016-0168](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0168)
 
 </td>
 <td style="border:1px solid black;">
@@ -7048,7 +7048,7 @@ Mateusz Jurczyk of Google Project Zero
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-055](http://go.microsoft.com/fwlink/?linkid=786471)
+[MS16-055](https://go.microsoft.com/fwlink/?linkid=786471)
 
 </td>
 <td style="border:1px solid black;">
@@ -7056,7 +7056,7 @@ Windows Graphics Component Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0169](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0169)
+[CVE-2016-0169](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0169)
 
 </td>
 <td style="border:1px solid black;">
@@ -7066,7 +7066,7 @@ Mateusz Jurczyk of Google Project Zero
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-055](http://go.microsoft.com/fwlink/?linkid=786471)
+[MS16-055](https://go.microsoft.com/fwlink/?linkid=786471)
 
 </td>
 <td style="border:1px solid black;">
@@ -7074,7 +7074,7 @@ WIndows Graphics Component RCE vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0170](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0170)
+[CVE-2016-0170](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0170)
 
 </td>
 <td style="border:1px solid black;">
@@ -7084,7 +7084,7 @@ Mateusz Jurczyk of Google Project Zero
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-055](http://go.microsoft.com/fwlink/?linkid=786471)
+[MS16-055](https://go.microsoft.com/fwlink/?linkid=786471)
 
 </td>
 <td style="border:1px solid black;">
@@ -7092,17 +7092,17 @@ Direct3D Use After Free RCE Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0184](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0184)
+[CVE-2016-0184](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0184)
 
 </td>
 <td style="border:1px solid black;">
-Henry Li(zenhumany) of [Trend Micro](http://www.trendmicro.com/)
+Henry Li(zenhumany) of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-054](http://go.microsoft.com/fwlink/?linkid=785875)
+[MS16-054](https://go.microsoft.com/fwlink/?linkid=785875)
 
 </td>
 <td style="border:1px solid black;">
@@ -7110,17 +7110,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0126](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0126)
+[CVE-2016-0126](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0126)
 
 </td>
 <td style="border:1px solid black;">
-An anonymous researcher, working with Beyond Security’s [SecuriTeam Secure Disclosure](http://www.beyondsecurity.com/ssd.html) team
+An anonymous researcher, working with Beyond Security’s [SecuriTeam Secure Disclosure](https://www.beyondsecurity.com/ssd.html) team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-054](http://go.microsoft.com/fwlink/?linkid=785875)
+[MS16-054](https://go.microsoft.com/fwlink/?linkid=785875)
 
 </td>
 <td style="border:1px solid black;">
@@ -7128,17 +7128,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0126](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0126)
+[CVE-2016-0126](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0126)
 
 </td>
 <td style="border:1px solid black;">
-Hao Linan of [Qihoo 360 Vulcan Team](http://www.360.com/)
+Hao Linan of [Qihoo 360 Vulcan Team](https://www.360.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-054](http://go.microsoft.com/fwlink/?linkid=785875)
+[MS16-054](https://go.microsoft.com/fwlink/?linkid=785875)
 
 </td>
 <td style="border:1px solid black;">
@@ -7146,17 +7146,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0140](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0140)
+[CVE-2016-0140](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0140)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/), working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Steven Seeley of [Source Incite](https://srcincite.io/), working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-054](http://go.microsoft.com/fwlink/?linkid=785875)
+[MS16-054](https://go.microsoft.com/fwlink/?linkid=785875)
 
 </td>
 <td style="border:1px solid black;">
@@ -7164,17 +7164,17 @@ Office Graphics RCE Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0183](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0183)
+[CVE-2016-0183](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0183)
 
 </td>
 <td style="border:1px solid black;">
-Lucas Leong of [Trend Micro](http://www.trendmicro.com/)
+Lucas Leong of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-053](http://go.microsoft.com/fwlink/?linkid=786478)
+[MS16-053](https://go.microsoft.com/fwlink/?linkid=786478)
 
 </td>
 <td style="border:1px solid black;">
@@ -7182,7 +7182,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0187](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0187)
+[CVE-2016-0187](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0187)
 
 </td>
 <td style="border:1px solid black;">
@@ -7192,7 +7192,7 @@ Kai Kang
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-052](http://go.microsoft.com/fwlink/?linkid=785874)
+[MS16-052](https://go.microsoft.com/fwlink/?linkid=785874)
 
 </td>
 <td style="border:1px solid black;">
@@ -7200,17 +7200,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0186](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0186)
+[CVE-2016-0186](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0186)
 
 </td>
 <td style="border:1px solid black;">
-Brian Pak (cai) from Theori, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Brian Pak (cai) from Theori, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-052](http://go.microsoft.com/fwlink/?linkid=785874)
+[MS16-052](https://go.microsoft.com/fwlink/?linkid=785874)
 
 </td>
 <td style="border:1px solid black;">
@@ -7218,17 +7218,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0186](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0186)
+[CVE-2016-0186](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0186)
 
 </td>
 <td style="border:1px solid black;">
-Simon Zuckerbraun, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Simon Zuckerbraun, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-052](http://go.microsoft.com/fwlink/?linkid=785874)
+[MS16-052](https://go.microsoft.com/fwlink/?linkid=785874)
 
 </td>
 <td style="border:1px solid black;">
@@ -7236,17 +7236,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0191](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0191)
+[CVE-2016-0191](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0191)
 
 </td>
 <td style="border:1px solid black;">
-Lokihart working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Lokihart working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-052](http://go.microsoft.com/fwlink/?linkid=785874)
+[MS16-052](https://go.microsoft.com/fwlink/?linkid=785874)
 
 </td>
 <td style="border:1px solid black;">
@@ -7254,17 +7254,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0192](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0192)
+[CVE-2016-0192](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0192)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-052](http://go.microsoft.com/fwlink/?linkid=785874)
+[MS16-052](https://go.microsoft.com/fwlink/?linkid=785874)
 
 </td>
 <td style="border:1px solid black;">
@@ -7272,17 +7272,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0193](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0193)
+[CVE-2016-0193](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0193)
 
 </td>
 <td style="border:1px solid black;">
-Zhen Feng, Wen Xu of Tencent KeenLab working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Zhen Feng, Wen Xu of Tencent KeenLab working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-052](http://go.microsoft.com/fwlink/?linkid=785874)
+[MS16-052](https://go.microsoft.com/fwlink/?linkid=785874)
 
 </td>
 <td style="border:1px solid black;">
@@ -7300,7 +7300,7 @@ Defense-in-depth
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-051](http://go.microsoft.com/fwlink/?linkid=785873)
+[MS16-051](https://go.microsoft.com/fwlink/?linkid=785873)
 
 </td>
 <td style="border:1px solid black;">
@@ -7308,7 +7308,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0187](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0187)
+[CVE-2016-0187](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0187)
 
 </td>
 <td style="border:1px solid black;">
@@ -7318,7 +7318,7 @@ Kai Kang
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-051](http://go.microsoft.com/fwlink/?linkid=785873)
+[MS16-051](https://go.microsoft.com/fwlink/?linkid=785873)
 
 </td>
 <td style="border:1px solid black;">
@@ -7326,17 +7326,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0192](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0192)
+[CVE-2016-0192](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0192)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-051](http://go.microsoft.com/fwlink/?linkid=785873)
+[MS16-051](https://go.microsoft.com/fwlink/?linkid=785873)
 
 </td>
 <td style="border:1px solid black;">
@@ -7344,17 +7344,17 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0194](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0194)
+[CVE-2016-0194](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0194)
 
 </td>
 <td style="border:1px solid black;">
-Thomas Vanhoutte, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Thomas Vanhoutte, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-051](http://go.microsoft.com/fwlink/?linkid=785873)
+[MS16-051](https://go.microsoft.com/fwlink/?linkid=785873)
 
 </td>
 <td style="border:1px solid black;">
@@ -7366,7 +7366,7 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Zhang Yunhai of [NSFOCUS](http://www.nsfocus.com/)
+Zhang Yunhai of [NSFOCUS](https://www.nsfocus.com/)
 
 </td>
 </tr>
@@ -7378,7 +7378,7 @@ Zhang Yunhai of [NSFOCUS](http://www.nsfocus.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-049](http://go.microsoft.com/fwlink/?linkid=746932)
+[MS16-049](https://go.microsoft.com/fwlink/?linkid=746932)
 
 </td>
 <td style="border:1px solid black;">
@@ -7386,7 +7386,7 @@ HTTP.sys Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0150](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0150)
+[CVE-2016-0150](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0150)
 
 </td>
 <td style="border:1px solid black;">
@@ -7396,7 +7396,7 @@ Dhanesh Kizhakkinan of [FireEye, Inc.](https://www.fireeye.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-049](http://go.microsoft.com/fwlink/?linkid=746932)
+[MS16-049](https://go.microsoft.com/fwlink/?linkid=746932)
 
 </td>
 <td style="border:1px solid black;">
@@ -7404,17 +7404,17 @@ HTTP.sys Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0150](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0150)
+[CVE-2016-0150](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0150)
 
 </td>
 <td style="border:1px solid black;">
-Noam Mazor of [Imperva](http://www.imperva.com/)
+Noam Mazor of [Imperva](https://www.imperva.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-048](http://go.microsoft.com/fwlink/?linkid=746886)
+[MS16-048](https://go.microsoft.com/fwlink/?linkid=746886)
 
 </td>
 <td style="border:1px solid black;">
@@ -7422,17 +7422,17 @@ Windows CSRSS Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0151](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0151)
+[CVE-2016-0151](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0151)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-047](http://go.microsoft.com/fwlink/?linkid=746885)
+[MS16-047](https://go.microsoft.com/fwlink/?linkid=746885)
 
 </td>
 <td style="border:1px solid black;">
@@ -7440,18 +7440,18 @@ Windows RPC Downgrade Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0128](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0128)
+[CVE-2016-0128](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0128)
 
 </td>
 <td style="border:1px solid black;">
 This vulnerability was discovered and researched by Stefan Metzmacher of [SAMBA+](https://samba.plus/) and the [Samba Team](https://www.samba.org/), which also helped design a fix for the problem.  
-For more information about the vulnerability named “BADLOCK,” see [Badlock Bug](http://badlock.org/).
+For more information about the vulnerability named “BADLOCK,” see [Badlock Bug](https://badlock.org/).
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-046](http://go.microsoft.com/fwlink/?linkid=746896)
+[MS16-046](https://go.microsoft.com/fwlink/?linkid=746896)
 
 </td>
 <td style="border:1px solid black;">
@@ -7459,7 +7459,7 @@ Secondary Logon Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0135](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0135)
+[CVE-2016-0135](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0135)
 
 </td>
 <td style="border:1px solid black;">
@@ -7469,7 +7469,7 @@ Tenable Network Security
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-045](http://go.microsoft.com/fwlink/?linkid=733440)
+[MS16-045](https://go.microsoft.com/fwlink/?linkid=733440)
 
 </td>
 <td style="border:1px solid black;">
@@ -7477,7 +7477,7 @@ Hyper-V Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0088](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0088)
+[CVE-2016-0088](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0088)
 
 </td>
 <td style="border:1px solid black;">
@@ -7487,7 +7487,7 @@ Kostya Kortchinsky of the Google Security Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-045](http://go.microsoft.com/fwlink/?linkid=733440)
+[MS16-045](https://go.microsoft.com/fwlink/?linkid=733440)
 
 </td>
 <td style="border:1px solid black;">
@@ -7495,7 +7495,7 @@ Hyper-V Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0088](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0088)
+[CVE-2016-0088](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0088)
 
 </td>
 <td style="border:1px solid black;">
@@ -7505,7 +7505,7 @@ Thomas Garnier
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-045](http://go.microsoft.com/fwlink/?linkid=733440)
+[MS16-045](https://go.microsoft.com/fwlink/?linkid=733440)
 
 </td>
 <td style="border:1px solid black;">
@@ -7513,7 +7513,7 @@ Hyper-V Information Disclosure vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0089](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0089)
+[CVE-2016-0089](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0089)
 
 </td>
 <td style="border:1px solid black;">
@@ -7523,7 +7523,7 @@ Kostya Kortchinsky of the Google Security Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-045](http://go.microsoft.com/fwlink/?linkid=733440)
+[MS16-045](https://go.microsoft.com/fwlink/?linkid=733440)
 
 </td>
 <td style="border:1px solid black;">
@@ -7531,7 +7531,7 @@ Hyper-V Information Disclosure vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0089](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0089)
+[CVE-2016-0089](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0089)
 
 </td>
 <td style="border:1px solid black;">
@@ -7541,7 +7541,7 @@ Thomas Garnier
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-045](http://go.microsoft.com/fwlink/?linkid=733440)
+[MS16-045](https://go.microsoft.com/fwlink/?linkid=733440)
 
 </td>
 <td style="border:1px solid black;">
@@ -7549,7 +7549,7 @@ Hyper-V Information Disclosure vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0090](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0090)
+[CVE-2016-0090](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0090)
 
 </td>
 <td style="border:1px solid black;">
@@ -7559,7 +7559,7 @@ Kostya Kortchinsky of the Google Security Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-045](http://go.microsoft.com/fwlink/?linkid=733440)
+[MS16-045](https://go.microsoft.com/fwlink/?linkid=733440)
 
 </td>
 <td style="border:1px solid black;">
@@ -7567,7 +7567,7 @@ Hyper-V Information Disclosure vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0090](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0090)
+[CVE-2016-0090](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0090)
 
 </td>
 <td style="border:1px solid black;">
@@ -7577,7 +7577,7 @@ Thomas Garnier
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-044](http://go.microsoft.com/fwlink/?linkid=747040)
+[MS16-044](https://go.microsoft.com/fwlink/?linkid=747040)
 
 </td>
 <td style="border:1px solid black;">
@@ -7585,17 +7585,17 @@ Windows OLE Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0153](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0153)
+[CVE-2016-0153](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0153)
 
 </td>
 <td style="border:1px solid black;">
-[Debasish Mandal](https://twitter.com/debasishm89) of the [Intel Security](http://www.intelsecurity.com/) IPS Vulnerability Research Team
+[Debasish Mandal](https://twitter.com/debasishm89) of the [Intel Security](https://www.intelsecurity.com/) IPS Vulnerability Research Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-042](http://go.microsoft.com/fwlink/?linkid=746928)
+[MS16-042](https://go.microsoft.com/fwlink/?linkid=746928)
 
 </td>
 <td style="border:1px solid black;">
@@ -7603,7 +7603,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0122](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0122)
+[CVE-2016-0122](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0122)
 
 </td>
 <td style="border:1px solid black;">
@@ -7613,7 +7613,7 @@ Sébastien Morin of [COSIG](https://smsecurity.net/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-042](http://go.microsoft.com/fwlink/?linkid=746928)
+[MS16-042](https://go.microsoft.com/fwlink/?linkid=746928)
 
 </td>
 <td style="border:1px solid black;">
@@ -7621,17 +7621,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0127](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0127)
+[CVE-2016-0127](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0127)
 
 </td>
 <td style="border:1px solid black;">
-Lucas Leong of [Trend Micro](http://www.trendmicro.com/)
+Lucas Leong of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-042](http://go.microsoft.com/fwlink/?linkid=746928)
+[MS16-042](https://go.microsoft.com/fwlink/?linkid=746928)
 
 </td>
 <td style="border:1px solid black;">
@@ -7639,17 +7639,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0136](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0136)
+[CVE-2016-0136](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0136)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/), working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Steven Seeley of [Source Incite](https://srcincite.io/), working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-042](http://go.microsoft.com/fwlink/?linkid=746928)
+[MS16-042](https://go.microsoft.com/fwlink/?linkid=746928)
 
 </td>
 <td style="border:1px solid black;">
@@ -7657,17 +7657,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0139](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0139)
+[CVE-2016-0139](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0139)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-041](http://go.microsoft.com/fwlink/?linkid=746929)
+[MS16-041](https://go.microsoft.com/fwlink/?linkid=746929)
 
 </td>
 <td style="border:1px solid black;">
@@ -7675,7 +7675,7 @@ Steven Seeley of [Source Incite](http://srcincite.io/)
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0148](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0148)
+[CVE-2016-0148](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0148)
 
 </td>
 <td style="border:1px solid black;">
@@ -7685,7 +7685,7 @@ Yorick Koster of [Securify B.V.](https://securify.nl/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-041](http://go.microsoft.com/fwlink/?linkid=746929)
+[MS16-041](https://go.microsoft.com/fwlink/?linkid=746929)
 
 </td>
 <td style="border:1px solid black;">
@@ -7693,17 +7693,17 @@ Yorick Koster of [Securify B.V.](https://securify.nl/)
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0148](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0148)
+[CVE-2016-0148](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0148)
 
 </td>
 <td style="border:1px solid black;">
-rgod, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+rgod, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-040](http://go.microsoft.com/fwlink/?linkid=746897)
+[MS16-040](https://go.microsoft.com/fwlink/?linkid=746897)
 
 </td>
 <td style="border:1px solid black;">
@@ -7711,17 +7711,17 @@ MSXML 3.0 Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0147](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0147)
+[CVE-2016-0147](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0147)
 
 </td>
 <td style="border:1px solid black;">
-Nicolas Grégoire of [Agarri](http://www.agarri.fr/)
+Nicolas Grégoire of [Agarri](https://www.agarri.fr/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-039](http://go.microsoft.com/fwlink/?linkid=746883)
+[MS16-039](https://go.microsoft.com/fwlink/?linkid=746883)
 
 </td>
 <td style="border:1px solid black;">
@@ -7729,17 +7729,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0143](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0143)
+[CVE-2016-0143](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0143)
 
 </td>
 <td style="border:1px solid black;">
-Nils Sommer of bytegeist, working with [Google Project Zero](http://www.google.com/)
+Nils Sommer of bytegeist, working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-039](http://go.microsoft.com/fwlink/?linkid=746883)
+[MS16-039](https://go.microsoft.com/fwlink/?linkid=746883)
 
 </td>
 <td style="border:1px solid black;">
@@ -7747,17 +7747,17 @@ Graphics Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0145](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0145)
+[CVE-2016-0145](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0145)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-039](http://go.microsoft.com/fwlink/?linkid=746883)
+[MS16-039](https://go.microsoft.com/fwlink/?linkid=746883)
 
 </td>
 <td style="border:1px solid black;">
@@ -7765,17 +7765,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0165](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0165)
+[CVE-2016-0165](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0165)
 
 </td>
 <td style="border:1px solid black;">
-[Kaspersky Lab](http://www.kaspersky.com/)
+[Kaspersky Lab](https://www.kaspersky.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-039](http://go.microsoft.com/fwlink/?linkid=746883)
+[MS16-039](https://go.microsoft.com/fwlink/?linkid=746883)
 
 </td>
 <td style="border:1px solid black;">
@@ -7783,7 +7783,7 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0167](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0167)
+[CVE-2016-0167](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0167)
 
 </td>
 <td style="border:1px solid black;">
@@ -7793,7 +7793,7 @@ Dhanesh Kizhakkinan of [FireEye, Inc.](https://www.fireeye.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-039](http://go.microsoft.com/fwlink/?linkid=746883)
+[MS16-039](https://go.microsoft.com/fwlink/?linkid=746883)
 
 </td>
 <td style="border:1px solid black;">
@@ -7811,7 +7811,7 @@ Defense-in-depth
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-038](http://go.microsoft.com/fwlink/?linkid=746894)
+[MS16-038](https://go.microsoft.com/fwlink/?linkid=746894)
 
 </td>
 <td style="border:1px solid black;">
@@ -7819,17 +7819,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0154](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0154)
+[CVE-2016-0154](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0154)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-038](http://go.microsoft.com/fwlink/?linkid=746894)
+[MS16-038](https://go.microsoft.com/fwlink/?linkid=746894)
 
 </td>
 <td style="border:1px solid black;">
@@ -7837,17 +7837,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0155](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0155)
+[CVE-2016-0155](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0155)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-038](http://go.microsoft.com/fwlink/?linkid=746894)
+[MS16-038](https://go.microsoft.com/fwlink/?linkid=746894)
 
 </td>
 <td style="border:1px solid black;">
@@ -7855,17 +7855,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0156](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0156)
+[CVE-2016-0156](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0156)
 
 </td>
 <td style="border:1px solid black;">
-Shi Ji (@Puzzor) of [VARAS@IIE](http://www.iie.ac.cn/)
+Shi Ji (@Puzzor) of [VARAS@IIE](https://www.iie.ac.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-038](http://go.microsoft.com/fwlink/?linkid=746894)
+[MS16-038](https://go.microsoft.com/fwlink/?linkid=746894)
 
 </td>
 <td style="border:1px solid black;">
@@ -7873,17 +7873,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0156](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0156)
+[CVE-2016-0156](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0156)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-038](http://go.microsoft.com/fwlink/?linkid=746894)
+[MS16-038](https://go.microsoft.com/fwlink/?linkid=746894)
 
 </td>
 <td style="border:1px solid black;">
@@ -7891,17 +7891,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0157](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0157)
+[CVE-2016-0157](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0157)
 
 </td>
 <td style="border:1px solid black;">
-d81b2a7b317c035a8da11d63122964c2, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+d81b2a7b317c035a8da11d63122964c2, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-038](http://go.microsoft.com/fwlink/?linkid=746894)
+[MS16-038](https://go.microsoft.com/fwlink/?linkid=746894)
 
 </td>
 <td style="border:1px solid black;">
@@ -7909,17 +7909,17 @@ Microsoft Edge Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0158](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0158)
+[CVE-2016-0158](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0158)
 
 </td>
 <td style="border:1px solid black;">
-lokihardt, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+lokihardt, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-038](http://go.microsoft.com/fwlink/?linkid=746894)
+[MS16-038](https://go.microsoft.com/fwlink/?linkid=746894)
 
 </td>
 <td style="border:1px solid black;">
@@ -7927,7 +7927,7 @@ Microsoft Edge Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0161](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0161)
+[CVE-2016-0161](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0161)
 
 </td>
 <td style="border:1px solid black;">
@@ -7937,7 +7937,7 @@ QianWen Xiang of Tencent QQBrowser
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-037](http://go.microsoft.com/fwlink/?linkid=746891)
+[MS16-037](https://go.microsoft.com/fwlink/?linkid=746891)
 
 </td>
 <td style="border:1px solid black;">
@@ -7945,17 +7945,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0154](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0154)
+[CVE-2016-0154](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0154)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of the [Qihoo 360](http://www.360.cn/) Vulcan Team
+Liu Long of the [Qihoo 360](https://www.360.cn/) Vulcan Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-037](http://go.microsoft.com/fwlink/?linkid=746891)
+[MS16-037](https://go.microsoft.com/fwlink/?linkid=746891)
 
 </td>
 <td style="border:1px solid black;">
@@ -7963,17 +7963,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0159](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0159)
+[CVE-2016-0159](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0159)
 
 </td>
 <td style="border:1px solid black;">
-B6BEB4D5E828CF0CCB47BB24AAC22515, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+B6BEB4D5E828CF0CCB47BB24AAC22515, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-037](http://go.microsoft.com/fwlink/?linkid=746891)
+[MS16-037](https://go.microsoft.com/fwlink/?linkid=746891)
 
 </td>
 <td style="border:1px solid black;">
@@ -7981,7 +7981,7 @@ DLL Loading Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0160](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0160)
+[CVE-2016-0160](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0160)
 
 </td>
 <td style="border:1px solid black;">
@@ -7991,7 +7991,7 @@ DLL Loading Remote Code Execution Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-037](http://go.microsoft.com/fwlink/?linkid=746891)
+[MS16-037](https://go.microsoft.com/fwlink/?linkid=746891)
 
 </td>
 <td style="border:1px solid black;">
@@ -7999,17 +7999,17 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0162](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0162)
+[CVE-2016-0162](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0162)
 
 </td>
 <td style="border:1px solid black;">
-Ladislav Janko, working with [ESET](http://www.eset.com/)
+Ladislav Janko, working with [ESET](https://www.eset.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-037](http://go.microsoft.com/fwlink/?linkid=746891)
+[MS16-037](https://go.microsoft.com/fwlink/?linkid=746891)
 
 </td>
 <td style="border:1px solid black;">
@@ -8017,17 +8017,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0164](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0164)
+[CVE-2016-0164](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0164)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-037](http://go.microsoft.com/fwlink/?linkid=746891)
+[MS16-037](https://go.microsoft.com/fwlink/?linkid=746891)
 
 </td>
 <td style="border:1px solid black;">
@@ -8035,11 +8035,11 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0166](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0166)
+[CVE-2016-0166](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0166)
 
 </td>
 <td style="border:1px solid black;">
-Henry Li (zenhumany) of [Trend Micro](http://www.trendmicro.com/), working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Henry Li (zenhumany) of [Trend Micro](https://www.trendmicro.com/), working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -8069,7 +8069,7 @@ Marc Newlin of the Bastille Threat Research Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-035](http://go.microsoft.com/fwlink/?linkid=730728)
+[MS16-035](https://go.microsoft.com/fwlink/?linkid=730728)
 
 </td>
 <td style="border:1px solid black;">
@@ -8077,17 +8077,17 @@ Marc Newlin of the Bastille Threat Research Team
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0132](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0132)
+[CVE-2016-0132](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0132)
 
 </td>
 <td style="border:1px solid black;">
-[Anders Abel](https://coding.abel.nu/) of [Kentor](http://www.kentor.se/)
+[Anders Abel](https://coding.abel.nu/) of [Kentor](https://www.kentor.se/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-034](http://go.microsoft.com/fwlink/?linkid=733469)
+[MS16-034](https://go.microsoft.com/fwlink/?linkid=733469)
 
 </td>
 <td style="border:1px solid black;">
@@ -8095,17 +8095,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0093](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0093)
+[CVE-2016-0093](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0093)
 
 </td>
 <td style="border:1px solid black;">
-Nils Sommer of bytegeist, working with [Google Project Zero](http://www.google.com/)
+Nils Sommer of bytegeist, working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-034](http://go.microsoft.com/fwlink/?linkid=733469)
+[MS16-034](https://go.microsoft.com/fwlink/?linkid=733469)
 
 </td>
 <td style="border:1px solid black;">
@@ -8113,17 +8113,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0094](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0094)
+[CVE-2016-0094](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0094)
 
 </td>
 <td style="border:1px solid black;">
-Nils Sommer of bytegeist, working with [Google Project Zero](http://www.google.com/)
+Nils Sommer of bytegeist, working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-034](http://go.microsoft.com/fwlink/?linkid=733469)
+[MS16-034](https://go.microsoft.com/fwlink/?linkid=733469)
 
 </td>
 <td style="border:1px solid black;">
@@ -8131,17 +8131,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0095](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0095)
+[CVE-2016-0095](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0095)
 
 </td>
 <td style="border:1px solid black;">
-Jueming of [Security Threat Information Center](http://security.alibaba.com/)
+Jueming of [Security Threat Information Center](https://security.alibaba.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-034](http://go.microsoft.com/fwlink/?linkid=733469)
+[MS16-034](https://go.microsoft.com/fwlink/?linkid=733469)
 
 </td>
 <td style="border:1px solid black;">
@@ -8149,17 +8149,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0095](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0095)
+[CVE-2016-0095](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0095)
 
 </td>
 <td style="border:1px solid black;">
-bee13oy of CloverSec Labs, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+bee13oy of CloverSec Labs, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-034](http://go.microsoft.com/fwlink/?linkid=733469)
+[MS16-034](https://go.microsoft.com/fwlink/?linkid=733469)
 
 </td>
 <td style="border:1px solid black;">
@@ -8167,17 +8167,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0096](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0096)
+[CVE-2016-0096](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0096)
 
 </td>
 <td style="border:1px solid black;">
-[fanxiaocao](http://weibo.com/cdutboy) and [pjf](http://weibo.com/jfpan) of IceSword Lab, [Qihoo 360](http://www.360.cn/)
+[fanxiaocao](https://weibo.com/cdutboy) and [pjf](https://weibo.com/jfpan) of IceSword Lab, [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-033](http://go.microsoft.com/fwlink/?linkid=733468)
+[MS16-033](https://go.microsoft.com/fwlink/?linkid=733468)
 
 </td>
 <td style="border:1px solid black;">
@@ -8185,7 +8185,7 @@ USB Mass Storage Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0133](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0133)
+[CVE-2016-0133](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0133)
 
 </td>
 <td style="border:1px solid black;">
@@ -8195,7 +8195,7 @@ Andy Davis, [NCC Group](https://www.nccgroup.trust/us/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-032](http://go.microsoft.com/fwlink/?linkid=733467)
+[MS16-032](https://go.microsoft.com/fwlink/?linkid=733467)
 
 </td>
 <td style="border:1px solid black;">
@@ -8203,17 +8203,17 @@ Secondary Logon Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0099](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0099)
+[CVE-2016-0099](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0099)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-031](http://go.microsoft.com/fwlink/?linkid=733466)
+[MS16-031](https://go.microsoft.com/fwlink/?linkid=733466)
 
 </td>
 <td style="border:1px solid black;">
@@ -8221,7 +8221,7 @@ Windows Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0087](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0087)
+[CVE-2016-0087](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0087)
 
 </td>
 <td style="border:1px solid black;">
@@ -8231,7 +8231,7 @@ Meysam Firozi @[R00tkitSmm](https://twitter.com/r00tkitsmm)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-030](http://go.microsoft.com/fwlink/?linkid=733465)
+[MS16-030](https://go.microsoft.com/fwlink/?linkid=733465)
 
 </td>
 <td style="border:1px solid black;">
@@ -8239,17 +8239,17 @@ Windows OLE Memory Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0091](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0091)
+[CVE-2016-0091](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0091)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Anonymous, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-030](http://go.microsoft.com/fwlink/?linkid=733465)
+[MS16-030](https://go.microsoft.com/fwlink/?linkid=733465)
 
 </td>
 <td style="border:1px solid black;">
@@ -8257,17 +8257,17 @@ Windows OLE Memory Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0092](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0092)
+[CVE-2016-0092](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0092)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Anonymous, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-029](http://go.microsoft.com/fwlink/?linkid=733083)
+[MS16-029](https://go.microsoft.com/fwlink/?linkid=733083)
 
 </td>
 <td style="border:1px solid black;">
@@ -8275,7 +8275,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0021](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0021)
+[CVE-2016-0021](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0021)
 
 </td>
 <td style="border:1px solid black;">
@@ -8285,7 +8285,7 @@ Richard Warren of [NCC Group](https://www.nccgroup.trust/us/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-029](http://go.microsoft.com/fwlink/?linkid=733083)
+[MS16-029](https://go.microsoft.com/fwlink/?linkid=733083)
 
 </td>
 <td style="border:1px solid black;">
@@ -8293,7 +8293,7 @@ Microsoft Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0057](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
+[CVE-2016-0057](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
 
 </td>
 <td style="border:1px solid black;">
@@ -8303,7 +8303,7 @@ Eric Clausing of [AV-TEST GmbH](https://www.av-test.org/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-029](http://go.microsoft.com/fwlink/?linkid=733083)
+[MS16-029](https://go.microsoft.com/fwlink/?linkid=733083)
 
 </td>
 <td style="border:1px solid black;">
@@ -8311,7 +8311,7 @@ Microsoft Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0057](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
+[CVE-2016-0057](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
 
 </td>
 <td style="border:1px solid black;">
@@ -8321,7 +8321,7 @@ Ulf Loesche of [AV-TEST GmbH](https://www.av-test.org/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-029](http://go.microsoft.com/fwlink/?linkid=733083)
+[MS16-029](https://go.microsoft.com/fwlink/?linkid=733083)
 
 </td>
 <td style="border:1px solid black;">
@@ -8329,7 +8329,7 @@ Microsoft Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0057](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
+[CVE-2016-0057](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
 
 </td>
 <td style="border:1px solid black;">
@@ -8339,7 +8339,7 @@ Maik Morgenstern of [AV-TEST GmbH](https://www.av-test.org/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-029](http://go.microsoft.com/fwlink/?linkid=733083)
+[MS16-029](https://go.microsoft.com/fwlink/?linkid=733083)
 
 </td>
 <td style="border:1px solid black;">
@@ -8347,7 +8347,7 @@ Microsoft Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0057](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
+[CVE-2016-0057](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
 
 </td>
 <td style="border:1px solid black;">
@@ -8357,7 +8357,7 @@ Andreas Marx of [AV-TEST GmbH](https://www.av-test.org/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-029](http://go.microsoft.com/fwlink/?linkid=733083)
+[MS16-029](https://go.microsoft.com/fwlink/?linkid=733083)
 
 </td>
 <td style="border:1px solid black;">
@@ -8365,17 +8365,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0134](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0134)
+[CVE-2016-0134](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0134)
 
 </td>
 <td style="border:1px solid black;">
-Jack Tang of [Trend Micro](http://www.trendmicro.com/)
+Jack Tang of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8383,17 +8383,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0102](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0102)
+[CVE-2016-0102](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0102)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-028](http://go.microsoft.com/fwlink/?linkid=733419)
+[MS16-028](https://go.microsoft.com/fwlink/?linkid=733419)
 
 </td>
 <td style="border:1px solid black;">
@@ -8401,7 +8401,7 @@ Windows Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0117](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0117)
+[CVE-2016-0117](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0117)
 
 </td>
 <td style="border:1px solid black;">
@@ -8411,7 +8411,7 @@ Mark Yason, IBM X-Force
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-028](http://go.microsoft.com/fwlink/?linkid=733419)
+[MS16-028](https://go.microsoft.com/fwlink/?linkid=733419)
 
 </td>
 <td style="border:1px solid black;">
@@ -8419,17 +8419,17 @@ Windows Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0118](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0118)
+[CVE-2016-0118](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0118)
 
 </td>
 <td style="border:1px solid black;">
-Jaanus Kp Clarified Security, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Jaanus Kp Clarified Security, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-027](http://go.microsoft.com/fwlink/?linkid=733470)
+[MS16-027](https://go.microsoft.com/fwlink/?linkid=733470)
 
 </td>
 <td style="border:1px solid black;">
@@ -8437,7 +8437,7 @@ Windows Media Parsing Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0101](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0101)
+[CVE-2016-0101](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0101)
 
 </td>
 <td style="border:1px solid black;">
@@ -8447,7 +8447,7 @@ Windows Media Parsing Remote Code Execution Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-026](http://go.microsoft.com/fwlink/?linkid=733471)
+[MS16-026](https://go.microsoft.com/fwlink/?linkid=733471)
 
 </td>
 <td style="border:1px solid black;">
@@ -8455,17 +8455,17 @@ OpenType Font Parsing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0120](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0120)
+[CVE-2016-0120](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0120)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-026](http://go.microsoft.com/fwlink/?linkid=733471)
+[MS16-026](https://go.microsoft.com/fwlink/?linkid=733471)
 
 </td>
 <td style="border:1px solid black;">
@@ -8473,17 +8473,17 @@ OpenType Font Parsing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0121](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0121)
+[CVE-2016-0121](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0121)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-025](http://go.microsoft.com/fwlink/?linkid=733940)
+[MS16-025](https://go.microsoft.com/fwlink/?linkid=733940)
 
 </td>
 <td style="border:1px solid black;">
@@ -8491,7 +8491,7 @@ Library Loading Input Validation Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0100](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0100)
+[CVE-2016-0100](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0100)
 
 </td>
 <td style="border:1px solid black;">
@@ -8501,7 +8501,7 @@ Yorick Koster of [Securify B.V.](https://securify.nl/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8509,17 +8509,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0102](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0102)
+[CVE-2016-0102](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0102)
 
 </td>
 <td style="border:1px solid black;">
-Liu Long of [Qihoo 360](http://www.360.cn/)
+Liu Long of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8527,17 +8527,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0105](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0105)
+[CVE-2016-0105](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0105)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8545,17 +8545,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0109](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0109)
+[CVE-2016-0109](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0109)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8563,17 +8563,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0110](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0110)
+[CVE-2016-0110](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0110)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8581,17 +8581,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0111](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0111)
+[CVE-2016-0111](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0111)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8599,7 +8599,7 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0116](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0116)
+[CVE-2016-0116](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0116)
 
 </td>
 <td style="border:1px solid black;">
@@ -8609,7 +8609,7 @@ The Microsoft ChakraCore Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8617,17 +8617,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0123](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0123)
+[CVE-2016-0123](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0123)
 
 </td>
 <td style="border:1px solid black;">
-d81b2a7b317c035a8da11d63122964c2, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+d81b2a7b317c035a8da11d63122964c2, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8635,17 +8635,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0124](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0124)
+[CVE-2016-0124](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0124)
 
 </td>
 <td style="border:1px solid black;">
-003, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+003, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8653,7 +8653,7 @@ Microsoft Edge Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0125](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0125)
+[CVE-2016-0125](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0125)
 
 </td>
 <td style="border:1px solid black;">
@@ -8663,7 +8663,7 @@ Richard Shupak
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8671,7 +8671,7 @@ Microsoft Edge Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0125](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0125)
+[CVE-2016-0125](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0125)
 
 </td>
 <td style="border:1px solid black;">
@@ -8681,7 +8681,7 @@ Microsoft Edge Information Disclosure Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8689,7 +8689,7 @@ Microsoft Edge Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0125](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0125)
+[CVE-2016-0125](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0125)
 
 </td>
 <td style="border:1px solid black;">
@@ -8699,7 +8699,7 @@ Microsoft Edge Information Disclosure Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8707,7 +8707,7 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0129](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0129)
+[CVE-2016-0129](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0129)
 
 </td>
 <td style="border:1px solid black;">
@@ -8717,7 +8717,7 @@ The Microsoft ChakraCore Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8725,7 +8725,7 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0130](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0130)
+[CVE-2016-0130](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0130)
 
 </td>
 <td style="border:1px solid black;">
@@ -8735,7 +8735,7 @@ The Microsoft ChakraCore Team
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8747,13 +8747,13 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-0016EECD9D7159A949DAD3BC17E0A939, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+0016EECD9D7159A949DAD3BC17E0A939, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-024](http://go.microsoft.com/fwlink/?linkid=733246)
+[MS16-024](https://go.microsoft.com/fwlink/?linkid=733246)
 
 </td>
 <td style="border:1px solid black;">
@@ -8765,13 +8765,13 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Simon Zuckerbraun, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Simon Zuckerbraun, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8779,17 +8779,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0103](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0103)
+[CVE-2016-0103](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0103)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8797,17 +8797,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0104](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0104)
+[CVE-2016-0104](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0104)
 
 </td>
 <td style="border:1px solid black;">
-Li Kemeng of the [Baidu Security Lab](http://xlab.baidu.com/)
+Li Kemeng of the [Baidu Security Lab](https://xlab.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8815,17 +8815,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0105](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0105)
+[CVE-2016-0105](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0105)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8833,17 +8833,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0106](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0106)
+[CVE-2016-0106](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0106)
 
 </td>
 <td style="border:1px solid black;">
-sky, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+sky, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8851,7 +8851,7 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0107](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0107)
+[CVE-2016-0107](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0107)
 
 </td>
 <td style="border:1px solid black;">
@@ -8861,7 +8861,7 @@ Hui Gao of [Palo Alto Networks](https://www.paloaltonetworks.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8869,17 +8869,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0107](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0107)
+[CVE-2016-0107](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0107)
 
 </td>
 <td style="border:1px solid black;">
-B6BEB4D5E828CF0CCB47BB24AAC22515, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+B6BEB4D5E828CF0CCB47BB24AAC22515, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8887,17 +8887,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0107](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0107)
+[CVE-2016-0107](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0107)
 
 </td>
 <td style="border:1px solid black;">
-[Tigonlab](http://www.tigonlab.org/)
+[Tigonlab](https://www.tigonlab.org/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8905,17 +8905,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0108](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0108)
+[CVE-2016-0108](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0108)
 
 </td>
 <td style="border:1px solid black;">
-Abhishek Arya and Martin Barbella, working with [Google Project Zero](http://www.google.com/)
+Abhishek Arya and Martin Barbella, working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8923,17 +8923,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0109](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0109)
+[CVE-2016-0109](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0109)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8941,17 +8941,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0110](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0110)
+[CVE-2016-0110](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0110)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8959,17 +8959,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0111](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0111)
+[CVE-2016-0111](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0111)
 
 </td>
 <td style="border:1px solid black;">
-Abhishek Arya working with [Google Project Zero](http://www.google.com/)
+Abhishek Arya working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8977,17 +8977,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0111](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0111)
+[CVE-2016-0111](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0111)
 
 </td>
 <td style="border:1px solid black;">
-Martin Barbella, working with [Google Project Zero](http://www.google.com/)
+Martin Barbella, working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -8995,17 +8995,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0112](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0112)
+[CVE-2016-0112](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0112)
 
 </td>
 <td style="border:1px solid black;">
-sky, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+sky, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -9013,17 +9013,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0112](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0112)
+[CVE-2016-0112](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0112)
 
 </td>
 <td style="border:1px solid black;">
-0011, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+0011, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -9031,17 +9031,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0113](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0113)
+[CVE-2016-0113](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0113)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -9049,17 +9049,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0114](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0114)
+[CVE-2016-0114](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0114)
 
 </td>
 <td style="border:1px solid black;">
-Simon Zuckerbraun, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Simon Zuckerbraun, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-023](http://go.microsoft.com/fwlink/?linkid=733245)
+[MS16-023](https://go.microsoft.com/fwlink/?linkid=733245)
 
 </td>
 <td style="border:1px solid black;">
@@ -9071,7 +9071,7 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Simon Zuckerbraun working with [HP’s](http://www.hpenterprisesecurity.com/products)[Zero Day Initiative](http://www.zerodayinitiative.com/)
+Simon Zuckerbraun working with [HP’s](https://www.hpenterprisesecurity.com/products)[Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -9083,7 +9083,7 @@ Simon Zuckerbraun working with [HP’s](http://www.hpenterprisesecurity.com/prod
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-018](http://go.microsoft.com/fwlink/?linkid=722617)
+[MS16-018](https://go.microsoft.com/fwlink/?linkid=722617)
 
 </td>
 <td style="border:1px solid black;">
@@ -9091,17 +9091,17 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0048](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0048)
+[CVE-2016-0048](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0048)
 
 </td>
 <td style="border:1px solid black;">
-[fanxiaocao](http://weibo.com/cdutboy) and [pjf](http://weibo.com/jfpan) of [Qihoo 360](http://www.360.cn/)
+[fanxiaocao](https://weibo.com/cdutboy) and [pjf](https://weibo.com/jfpan) of [Qihoo 360](https://www.360.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-016](http://go.microsoft.com/fwlink/?linkid=722536)
+[MS16-016](https://go.microsoft.com/fwlink/?linkid=722536)
 
 </td>
 <td style="border:1px solid black;">
@@ -9109,17 +9109,17 @@ WebDAV Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0051](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0051)
+[CVE-2016-0051](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0051)
 
 </td>
 <td style="border:1px solid black;">
-[Tamás Koczka](https://twitter.com/koczkatamas) of [Tresorit](http://www.tresorit.com/)
+[Tamás Koczka](https://twitter.com/koczkatamas) of [Tresorit](https://www.tresorit.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-015](http://go.microsoft.com/fwlink/?linkid=722214)
+[MS16-015](https://go.microsoft.com/fwlink/?linkid=722214)
 
 </td>
 <td style="border:1px solid black;">
@@ -9127,17 +9127,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0022](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0022)
+[CVE-2016-0022](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0022)
 
 </td>
 <td style="border:1px solid black;">
-Lucas Leong of [Trend Micro](http://www.trendmicro.com/)
+Lucas Leong of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-015](http://go.microsoft.com/fwlink/?linkid=722214)
+[MS16-015](https://go.microsoft.com/fwlink/?linkid=722214)
 
 </td>
 <td style="border:1px solid black;">
@@ -9145,17 +9145,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0052](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0052)
+[CVE-2016-0052](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0052)
 
 </td>
 <td style="border:1px solid black;">
-Lucas Leong of [Trend Micro](http://www.trendmicro.com/)
+Lucas Leong of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-015](http://go.microsoft.com/fwlink/?linkid=722214)
+[MS16-015](https://go.microsoft.com/fwlink/?linkid=722214)
 
 </td>
 <td style="border:1px solid black;">
@@ -9163,17 +9163,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0053](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0053)
+[CVE-2016-0053](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0053)
 
 </td>
 <td style="border:1px solid black;">
-Lucas Leong of [Trend Micro](http://www.trendmicro.com/)
+Lucas Leong of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-015](http://go.microsoft.com/fwlink/?linkid=722214)
+[MS16-015](https://go.microsoft.com/fwlink/?linkid=722214)
 
 </td>
 <td style="border:1px solid black;">
@@ -9181,7 +9181,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0055](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0055)
+[CVE-2016-0055](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0055)
 
 </td>
 <td style="border:1px solid black;">
@@ -9191,7 +9191,7 @@ Kai Lu of Fortinet’s FortiGuard Labs
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-015](http://go.microsoft.com/fwlink/?linkid=722214)
+[MS16-015](https://go.microsoft.com/fwlink/?linkid=722214)
 
 </td>
 <td style="border:1px solid black;">
@@ -9199,17 +9199,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0056](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0056)
+[CVE-2016-0056](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0056)
 
 </td>
 <td style="border:1px solid black;">
-An anonymous researcher, working with Beyond Security’s [SecuriTeam Secure Disclosure](http://www.beyondsecurity.com/ssd.html) team
+An anonymous researcher, working with Beyond Security’s [SecuriTeam Secure Disclosure](https://www.beyondsecurity.com/ssd.html) team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-015](http://go.microsoft.com/fwlink/?linkid=722214)
+[MS16-015](https://go.microsoft.com/fwlink/?linkid=722214)
 
 </td>
 <td style="border:1px solid black;">
@@ -9217,17 +9217,17 @@ Microsoft SharePoint XSS Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0039](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0039)
+[CVE-2016-0039](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0039)
 
 </td>
 <td style="border:1px solid black;">
-Hadji Samir of [Evolution Security GmbH](http://www.evolution-sec.com/) (Vulnerability Lab)
+Hadji Samir of [Evolution Security GmbH](https://www.evolution-sec.com/) (Vulnerability Lab)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9235,7 +9235,7 @@ Windows Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0040](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
+[CVE-2016-0040](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
 
 </td>
 <td style="border:1px solid black;">
@@ -9245,7 +9245,7 @@ Meysam Firozi [@R00tkitSmm](https://twitter.com/r00tkitsmm)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9253,7 +9253,7 @@ Windows Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0040](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
+[CVE-2016-0040](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
 
 </td>
 <td style="border:1px solid black;">
@@ -9263,7 +9263,7 @@ Su Yong Kim of SSLab, [Georgia Institute of Technology](https://sslab.gtisc.gate
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9271,7 +9271,7 @@ Windows Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0040](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
+[CVE-2016-0040](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
 
 </td>
 <td style="border:1px solid black;">
@@ -9281,7 +9281,7 @@ Taesoo Kim of SSLab, [Georgia Institute of Technology](https://sslab.gtisc.gatec
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9289,7 +9289,7 @@ Windows Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0040](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
+[CVE-2016-0040](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
 
 </td>
 <td style="border:1px solid black;">
@@ -9299,7 +9299,7 @@ Byoungyoung Lee of SSLab, [Georgia Institute of Technology](https://sslab.gtisc.
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9307,17 +9307,17 @@ DLL Loading Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0041](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0041)
+[CVE-2016-0041](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0041)
 
 </td>
 <td style="border:1px solid black;">
-Greg Linares, working with [CyberPoint SRT](http://cyberpointllc.com/srt)
+Greg Linares, working with [CyberPoint SRT](https://cyberpointllc.com/srt)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9325,7 +9325,7 @@ DLL Loading Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0041](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0041)
+[CVE-2016-0041](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0041)
 
 </td>
 <td style="border:1px solid black;">
@@ -9335,7 +9335,7 @@ Yorick Koster of [Securify B.V.](https://securify.nl/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9343,7 +9343,7 @@ Windows DLL Loading Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0042](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0042)
+[CVE-2016-0042](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0042)
 
 </td>
 <td style="border:1px solid black;">
@@ -9353,7 +9353,7 @@ Richard Warren of [NCC Group](https://www.nccgroup.trust/us/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9361,17 +9361,17 @@ Windows Kerberos Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0049](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0049)
+[CVE-2016-0049](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0049)
 
 </td>
 <td style="border:1px solid black;">
-Vulnerability discovered by [Nabeel Ahmed](https://twitter.com/nabeelahmedbe) of [Dimension Data](http://www.dimensiondata.com/)
+Vulnerability discovered by [Nabeel Ahmed](https://twitter.com/nabeelahmedbe) of [Dimension Data](https://www.dimensiondata.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-014](http://go.microsoft.com/fwlink/?linkid=722215)
+[MS16-014](https://go.microsoft.com/fwlink/?linkid=722215)
 
 </td>
 <td style="border:1px solid black;">
@@ -9379,17 +9379,17 @@ Windows Kerberos Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0049](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0049)
+[CVE-2016-0049](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0049)
 
 </td>
 <td style="border:1px solid black;">
-Vulnerability discovered by [Tom Gilis](https://twitter.com/tgilis) of [Dimension Data](http://www.dimensiondata.com/)
+Vulnerability discovered by [Tom Gilis](https://twitter.com/tgilis) of [Dimension Data](https://www.dimensiondata.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-013](http://go.microsoft.com/fwlink/?linkid=722340)
+[MS16-013](https://go.microsoft.com/fwlink/?linkid=722340)
 
 </td>
 <td style="border:1px solid black;">
@@ -9397,17 +9397,17 @@ Windows Journal Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0038](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0038)
+[CVE-2016-0038](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0038)
 
 </td>
 <td style="border:1px solid black;">
-Rohit Mothe of [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Rohit Mothe of [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-012](http://go.microsoft.com/fwlink/?linkid=623622)
+[MS16-012](https://go.microsoft.com/fwlink/?linkid=623622)
 
 </td>
 <td style="border:1px solid black;">
@@ -9415,17 +9415,17 @@ Microsoft Windows Reader Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0046](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0046)
+[CVE-2016-0046](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0046)
 
 </td>
 <td style="border:1px solid black;">
-Jaanus Kp Clarified Security, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Jaanus Kp Clarified Security, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-012](http://go.microsoft.com/fwlink/?linkid=623622)
+[MS16-012](https://go.microsoft.com/fwlink/?linkid=623622)
 
 </td>
 <td style="border:1px solid black;">
@@ -9433,7 +9433,7 @@ Microsoft PDF Library Buffer Overflow Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0058](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0058)
+[CVE-2016-0058](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0058)
 
 </td>
 <td style="border:1px solid black;">
@@ -9443,7 +9443,7 @@ Atte Kettunen of [OUSPG](https://www.ee.oulu.fi/research/ouspg/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-011](http://go.microsoft.com/fwlink/?linkid=722213)
+[MS16-011](https://go.microsoft.com/fwlink/?linkid=722213)
 
 </td>
 <td style="border:1px solid black;">
@@ -9451,17 +9451,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0060](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0060)
+[CVE-2016-0060](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0060)
 
 </td>
 <td style="border:1px solid black;">
-003, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+003, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-011](http://go.microsoft.com/fwlink/?linkid=722213)
+[MS16-011](https://go.microsoft.com/fwlink/?linkid=722213)
 
 </td>
 <td style="border:1px solid black;">
@@ -9469,17 +9469,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0061](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0061)
+[CVE-2016-0061](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0061)
 
 </td>
 <td style="border:1px solid black;">
-SkyLined, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+SkyLined, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-011](http://go.microsoft.com/fwlink/?linkid=722213)
+[MS16-011](https://go.microsoft.com/fwlink/?linkid=722213)
 
 </td>
 <td style="border:1px solid black;">
@@ -9487,17 +9487,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0062](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0062)
+[CVE-2016-0062](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0062)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-011](http://go.microsoft.com/fwlink/?linkid=722213)
+[MS16-011](https://go.microsoft.com/fwlink/?linkid=722213)
 
 </td>
 <td style="border:1px solid black;">
@@ -9505,17 +9505,17 @@ Microsoft Edge ASLR Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0080](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0080)
+[CVE-2016-0080](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0080)
 
 </td>
 <td style="border:1px solid black;">
-Zhang Yunhai of [NSFOCUS](http://www.nsfocus.com/)
+Zhang Yunhai of [NSFOCUS](https://www.nsfocus.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9523,17 +9523,17 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0059](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0059)
+[CVE-2016-0059](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0059)
 
 </td>
 <td style="border:1px solid black;">
-Kai Lu of [Fortinet’s FortiGuard Labs](http://www.fortiguard.com/)
+Kai Lu of [Fortinet’s FortiGuard Labs](https://www.fortiguard.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9541,17 +9541,17 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0059](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0059)
+[CVE-2016-0059](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0059)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/)
+Steven Seeley of [Source Incite](https://srcincite.io/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9559,17 +9559,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0060](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0060)
+[CVE-2016-0060](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0060)
 
 </td>
 <td style="border:1px solid black;">
-003, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+003, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9577,17 +9577,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0061](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0061)
+[CVE-2016-0061](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0061)
 
 </td>
 <td style="border:1px solid black;">
-SkyLined, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+SkyLined, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9595,17 +9595,17 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0062](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0062)
+[CVE-2016-0062](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0062)
 
 </td>
 <td style="border:1px solid black;">
-Zheng Huang of the [Baidu Security Lab](http://xteam.baidu.com/), working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Zheng Huang of the [Baidu Security Lab](https://xteam.baidu.com/), working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9613,17 +9613,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0063](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0063)
+[CVE-2016-0063](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0063)
 
 </td>
 <td style="border:1px solid black;">
-SkyLined, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+SkyLined, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9631,17 +9631,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0064](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0064)
+[CVE-2016-0064](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0064)
 
 </td>
 <td style="border:1px solid black;">
-Jack Tang of [Trend Micro](http://trendmicro.com/)
+Jack Tang of [Trend Micro](https://trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9649,7 +9649,7 @@ Internet Explorer Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0068](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0068)
+[CVE-2016-0068](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0068)
 
 </td>
 <td style="border:1px solid black;">
@@ -9659,7 +9659,7 @@ Masato Kinugawa of [Cure53](https://cure53.de/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9667,7 +9667,7 @@ Internet Explorer Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0069](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0069)
+[CVE-2016-0069](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0069)
 
 </td>
 <td style="border:1px solid black;">
@@ -9677,7 +9677,7 @@ Yosuke HASEGAWA of Secure Sky Technology Inc.
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9685,7 +9685,7 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0071](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0071)
+[CVE-2016-0071](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0071)
 
 </td>
 <td style="border:1px solid black;">
@@ -9695,7 +9695,7 @@ Dhanesh Kizhakkinan of [FireEye, Inc.](https://www.fireeye.com/)
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9703,17 +9703,17 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0072](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0072)
+[CVE-2016-0072](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0072)
 
 </td>
 <td style="border:1px solid black;">
-0016EECD9D7159A949DAD3BC17E0A939, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+0016EECD9D7159A949DAD3BC17E0A939, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-009](http://go.microsoft.com/fwlink/?linkid=722212)
+[MS16-009](https://go.microsoft.com/fwlink/?linkid=722212)
 
 </td>
 <td style="border:1px solid black;">
@@ -9721,7 +9721,7 @@ Microsoft Browser Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0077](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0077)
+[CVE-2016-0077](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0077)
 
 </td>
 <td style="border:1px solid black;">
@@ -9755,7 +9755,7 @@ N/A
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-010](http://go.microsoft.com/fwlink/?linkid=717997)
+[MS16-010](https://go.microsoft.com/fwlink/?linkid=717997)
 
 </td>
 <td style="border:1px solid black;">
@@ -9763,7 +9763,7 @@ Microsoft Exchange Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0029](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0029)
+[CVE-2016-0029](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0029)
 
 </td>
 <td style="border:1px solid black;">
@@ -9773,7 +9773,7 @@ Abdulrahman Alqabandi
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-010](http://go.microsoft.com/fwlink/?linkid=717997)
+[MS16-010](https://go.microsoft.com/fwlink/?linkid=717997)
 
 </td>
 <td style="border:1px solid black;">
@@ -9781,7 +9781,7 @@ Microsoft Exchange Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0030](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0030)
+[CVE-2016-0030](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0030)
 
 </td>
 <td style="border:1px solid black;">
@@ -9791,7 +9791,7 @@ Alexandru Coltuneac
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-010](http://go.microsoft.com/fwlink/?linkid=717997)
+[MS16-010](https://go.microsoft.com/fwlink/?linkid=717997)
 
 </td>
 <td style="border:1px solid black;">
@@ -9799,7 +9799,7 @@ Microsoft Exchange Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0031](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0031)
+[CVE-2016-0031](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0031)
 
 </td>
 <td style="border:1px solid black;">
@@ -9809,7 +9809,7 @@ Microsoft Exchange Spoofing Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-010](http://go.microsoft.com/fwlink/?linkid=717997)
+[MS16-010](https://go.microsoft.com/fwlink/?linkid=717997)
 
 </td>
 <td style="border:1px solid black;">
@@ -9817,17 +9817,17 @@ Microsoft Exchange Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0032](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0032)
+[CVE-2016-0032](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0032)
 
 </td>
 <td style="border:1px solid black;">
-Ysrael Gurt of [BugSec](http://bughunting.gurt.co.il/)
+Ysrael Gurt of [BugSec](https://bughunting.gurt.co.il/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-008](http://go.microsoft.com/fwlink/?linkid=718007)
+[MS16-008](https://go.microsoft.com/fwlink/?linkid=718007)
 
 </td>
 <td style="border:1px solid black;">
@@ -9835,17 +9835,17 @@ Windows Mount Point Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0006](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0006)
+[CVE-2016-0006](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0006)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-008](http://go.microsoft.com/fwlink/?linkid=718007)
+[MS16-008](https://go.microsoft.com/fwlink/?linkid=718007)
 
 </td>
 <td style="border:1px solid black;">
@@ -9853,17 +9853,17 @@ Windows Mount Point Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0007](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0007)
+[CVE-2016-0007](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0007)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-007](http://go.microsoft.com/fwlink/?linkid=718006)
+[MS16-007](https://go.microsoft.com/fwlink/?linkid=718006)
 
 </td>
 <td style="border:1px solid black;">
@@ -9871,17 +9871,17 @@ DLL Loading Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0014](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0014)
+[CVE-2016-0014](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0014)
 
 </td>
 <td style="border:1px solid black;">
-Stefan Kanthak of [Me, myself & IT](http://home.arcor.de/skanthak/safer.html)
+Stefan Kanthak of [Me, myself & IT](https://home.arcor.de/skanthak/safer.html)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-007](http://go.microsoft.com/fwlink/?linkid=718006)
+[MS16-007](https://go.microsoft.com/fwlink/?linkid=718006)
 
 </td>
 <td style="border:1px solid black;">
@@ -9889,17 +9889,17 @@ Windows DirectShow Heap Corruption RCE vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0015](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0015)
+[CVE-2016-0015](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0015)
 
 </td>
 <td style="border:1px solid black;">
-Steven Vittitoe of [Google Project Zero](http://www.google.com/)
+Steven Vittitoe of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-007](http://go.microsoft.com/fwlink/?linkid=718006)
+[MS16-007](https://go.microsoft.com/fwlink/?linkid=718006)
 
 </td>
 <td style="border:1px solid black;">
@@ -9907,17 +9907,17 @@ Windows Library Loading Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0016](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0016)
+[CVE-2016-0016](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0016)
 
 </td>
 <td style="border:1px solid black;">
-Steven Vittitoe of [Google Project Zero](http://www.google.com/)
+Steven Vittitoe of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-007](http://go.microsoft.com/fwlink/?linkid=718006)
+[MS16-007](https://go.microsoft.com/fwlink/?linkid=718006)
 
 </td>
 <td style="border:1px solid black;">
@@ -9925,7 +9925,7 @@ Windows Library Loading Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0018](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0018)
+[CVE-2016-0018](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0018)
 
 </td>
 <td style="border:1px solid black;">
@@ -9935,7 +9935,7 @@ Windows Library Loading Remote Code Execution Vulnerability
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-007](http://go.microsoft.com/fwlink/?linkid=718006)
+[MS16-007](https://go.microsoft.com/fwlink/?linkid=718006)
 
 </td>
 <td style="border:1px solid black;">
@@ -9943,17 +9943,17 @@ Windows Library Loading Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0018](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0018)
+[CVE-2016-0018](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0018)
 
 </td>
 <td style="border:1px solid black;">
-[Debasish Mandal](https://twitter.com/debasishm89) of the [Intel Security](http://www.intelsecurity.com/) IPS Vulnerability Research Team
+[Debasish Mandal](https://twitter.com/debasishm89) of the [Intel Security](https://www.intelsecurity.com/) IPS Vulnerability Research Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-007](http://go.microsoft.com/fwlink/?linkid=718006)
+[MS16-007](https://go.microsoft.com/fwlink/?linkid=718006)
 
 </td>
 <td style="border:1px solid black;">
@@ -9961,17 +9961,17 @@ Windows Remote Desktop Protocol Security Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0019](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0019)
+[CVE-2016-0019](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0019)
 
 </td>
 <td style="border:1px solid black;">
-Gal Goldshtein of [Citadel](http://citadel.co.il/)
+Gal Goldshtein of [Citadel](https://citadel.co.il/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-007](http://go.microsoft.com/fwlink/?linkid=718006)
+[MS16-007](https://go.microsoft.com/fwlink/?linkid=718006)
 
 </td>
 <td style="border:1px solid black;">
@@ -9979,17 +9979,17 @@ Windows Remote Desktop Protocol Security Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0019](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0019)
+[CVE-2016-0019](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0019)
 
 </td>
 <td style="border:1px solid black;">
-Viktor Minin of [Citadel](http://citadel.co.il/)
+Viktor Minin of [Citadel](https://citadel.co.il/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-007](http://go.microsoft.com/fwlink/?linkid=718006)
+[MS16-007](https://go.microsoft.com/fwlink/?linkid=718006)
 
 </td>
 <td style="border:1px solid black;">
@@ -9997,17 +9997,17 @@ MAPI LoadLibrary EoP Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0020](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0020)
+[CVE-2016-0020](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0020)
 
 </td>
 <td style="border:1px solid black;">
-[Ashutosh Mehra](https://twitter.com/ashutoshmehra), working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+[Ashutosh Mehra](https://twitter.com/ashutoshmehra), working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-006](http://go.microsoft.com/fwlink/?linkid=717994)
+[MS16-006](https://go.microsoft.com/fwlink/?linkid=717994)
 
 </td>
 <td style="border:1px solid black;">
@@ -10015,17 +10015,17 @@ Silverlight Runtime Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0034](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0034)
+[CVE-2016-0034](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0034)
 
 </td>
 <td style="border:1px solid black;">
-Anton Ivanov and Costin Raiu of [Kaspersky Lab](http://www.kaspersky.com/)
+Anton Ivanov and Costin Raiu of [Kaspersky Lab](https://www.kaspersky.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-005](http://go.microsoft.com/fwlink/?linkid=718001)
+[MS16-005](https://go.microsoft.com/fwlink/?linkid=718001)
 
 </td>
 <td style="border:1px solid black;">
@@ -10033,17 +10033,17 @@ Windows GDI32.dll ASLR Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0008](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0008)
+[CVE-2016-0008](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0008)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/), working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Steven Seeley of [Source Incite](https://srcincite.io/), working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-005](http://go.microsoft.com/fwlink/?linkid=718001)
+[MS16-005](https://go.microsoft.com/fwlink/?linkid=718001)
 
 </td>
 <td style="border:1px solid black;">
@@ -10051,7 +10051,7 @@ Win32k Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0009](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0009)
+[CVE-2016-0009](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0009)
 
 </td>
 <td style="border:1px solid black;">
@@ -10061,7 +10061,7 @@ Kerem Gümrükcü
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-004](http://go.microsoft.com/fwlink/?linkid=717998)
+[MS16-004](https://go.microsoft.com/fwlink/?linkid=717998)
 
 </td>
 <td style="border:1px solid black;">
@@ -10069,7 +10069,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0010](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0010)
+[CVE-2016-0010](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0010)
 
 </td>
 <td style="border:1px solid black;">
@@ -10079,7 +10079,7 @@ Kai Lu of Fortinet’s FortiGuard Labs
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-004](http://go.microsoft.com/fwlink/?linkid=717998)
+[MS16-004](https://go.microsoft.com/fwlink/?linkid=717998)
 
 </td>
 <td style="border:1px solid black;">
@@ -10087,7 +10087,7 @@ ASLR bypass vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0012](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0012)
+[CVE-2016-0012](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0012)
 
 </td>
 <td style="border:1px solid black;">
@@ -10097,7 +10097,7 @@ IBM X-Forcer researcher Tom Kahana
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-004](http://go.microsoft.com/fwlink/?linkid=717998)
+[MS16-004](https://go.microsoft.com/fwlink/?linkid=717998)
 
 </td>
 <td style="border:1px solid black;">
@@ -10105,7 +10105,7 @@ ASLR bypass vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0012](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0012)
+[CVE-2016-0012](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0012)
 
 </td>
 <td style="border:1px solid black;">
@@ -10115,7 +10115,7 @@ IBM X-Forcer researcher Elad Menahem
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-004](http://go.microsoft.com/fwlink/?linkid=717998)
+[MS16-004](https://go.microsoft.com/fwlink/?linkid=717998)
 
 </td>
 <td style="border:1px solid black;">
@@ -10123,17 +10123,17 @@ Microsoft SharePoint Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2015-6117](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-6117)
+[CVE-2015-6117](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-6117)
 
 </td>
 <td style="border:1px solid black;">
-Jonas Nilsson of [Disruptive Innovations AB](http://www.disruptivei.com/)
+Jonas Nilsson of [Disruptive Innovations AB](https://www.disruptivei.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-004](http://go.microsoft.com/fwlink/?linkid=717998)
+[MS16-004](https://go.microsoft.com/fwlink/?linkid=717998)
 
 </td>
 <td style="border:1px solid black;">
@@ -10141,17 +10141,17 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0035](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0035)
+[CVE-2016-0035](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0035)
 
 </td>
 <td style="border:1px solid black;">
-Steven Seeley of [Source Incite](http://srcincite.io/), working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+Steven Seeley of [Source Incite](https://srcincite.io/), working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-003](http://go.microsoft.com/fwlink/?linkid=718004)
+[MS16-003](https://go.microsoft.com/fwlink/?linkid=718004)
 
 </td>
 <td style="border:1px solid black;">
@@ -10159,17 +10159,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0002](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0002)
+[CVE-2016-0002](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0002)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous contributor, working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Anonymous contributor, working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-002](http://go.microsoft.com/fwlink/?linkid=718002)
+[MS16-002](https://go.microsoft.com/fwlink/?linkid=718002)
 
 </td>
 <td style="border:1px solid black;">
@@ -10177,17 +10177,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0003](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0003)
+[CVE-2016-0003](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0003)
 
 </td>
 <td style="border:1px solid black;">
-003, working with [HP’s](http://www.hpenterprisesecurity.com/products) [Zero Day Initiative](http://www.zerodayinitiative.com/)
+003, working with [HP’s](https://www.hpenterprisesecurity.com/products) [Zero Day Initiative](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-002](http://go.microsoft.com/fwlink/?linkid=718002)
+[MS16-002](https://go.microsoft.com/fwlink/?linkid=718002)
 
 </td>
 <td style="border:1px solid black;">
@@ -10195,17 +10195,17 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0003](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0003)
+[CVE-2016-0003](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0003)
 
 </td>
 <td style="border:1px solid black;">
-Shi Ji (@Puzzor) of [VARAS@IIE](http://www.iie.ac.cn/)
+Shi Ji (@Puzzor) of [VARAS@IIE](https://www.iie.ac.cn/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-002](http://go.microsoft.com/fwlink/?linkid=718002)
+[MS16-002](https://go.microsoft.com/fwlink/?linkid=718002)
 
 </td>
 <td style="border:1px solid black;">
@@ -10213,7 +10213,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0024](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0024)
+[CVE-2016-0024](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0024)
 
 </td>
 <td style="border:1px solid black;">
@@ -10223,7 +10223,7 @@ CESG
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-001](http://go.microsoft.com/fwlink/?linkid=717999)
+[MS16-001](https://go.microsoft.com/fwlink/?linkid=717999)
 
 </td>
 <td style="border:1px solid black;">
@@ -10231,17 +10231,17 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2016-0002](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0002)
+[CVE-2016-0002](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0002)
 
 </td>
 <td style="border:1px solid black;">
-Anonymous contributor, working with [VeriSign iDefense Labs](http://www.verisigninc.com/en_us/cyber-security/index.xhtml)
+Anonymous contributor, working with [VeriSign iDefense Labs](https://www.verisigninc.com/en_us/cyber-security/index.xhtml)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-004](http://go.microsoft.com/fwlink/?linkid=717998)
+[MS16-004](https://go.microsoft.com/fwlink/?linkid=717998)
 
 </td>
 <td style="border:1px solid black;">
@@ -10253,13 +10253,13 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Jack Tang of [Trend Micro](http://www.trendmicro.com/)
+Jack Tang of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-002](http://go.microsoft.com/fwlink/?linkid=718002)
+[MS16-002](https://go.microsoft.com/fwlink/?linkid=718002)
 
 </td>
 <td style="border:1px solid black;">
@@ -10271,13 +10271,13 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Wenbin Zheng of [Qihoo 360](http://www.360.cn/) Vulcan Team
+Wenbin Zheng of [Qihoo 360](https://www.360.cn/) Vulcan Team
 
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[MS16-001](http://go.microsoft.com/fwlink/?linkid=717999)
+[MS16-001](https://go.microsoft.com/fwlink/?linkid=717999)
 
 </td>
 <td style="border:1px solid black;">
@@ -10289,7 +10289,7 @@ Defense-in-depth
 
 </td>
 <td style="border:1px solid black;">
-Heige (a.k.a. SuperHei) from [Knownsec 404 Security Team](http://www.knownsec.com/)
+Heige (a.k.a. SuperHei) from [Knownsec 404 Security Team](https://www.knownsec.com/)
 
 </td>
 </tr>

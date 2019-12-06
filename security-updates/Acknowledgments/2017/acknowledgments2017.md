@@ -9,7 +9,7 @@ ms:mtpsurl: 'https://technet.microsoft.com/en-us/library/Mt745121(v=Security.10)
 Acknowledgments – 2017
 ======================
 
-Microsoft [extends thanks](http://go.microsoft.com/fwlink/?linkid=21127) to the following for working with us to help protect customers.
+Microsoft [extends thanks](https://go.microsoft.com/fwlink/?linkid=21127) to the following for working with us to help protect customers.
 
  
 <table style="border:1px solid black;">
@@ -47,11 +47,11 @@ Microsoft XML Core Services Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0022](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0022)
+[CVE-2017-0022](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0022)
 
 </td>
 <td style="border:1px solid black;">
-Brooks Li and Joseph C Chen, [Trend Micro](http://www.trendmicro.com/)
+Brooks Li and Joseph C Chen, [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Microsoft XML Core Services Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0022](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0022)
+[CVE-2017-0022](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0022)
 
 </td>
 <td style="border:1px solid black;">
@@ -83,7 +83,7 @@ Windows DirectShow Information Disclosure Vulnerabitliy
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0042](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0042)
+[CVE-2017-0042](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0042)
 
 </td>
 <td style="border:1px solid black;">
@@ -101,29 +101,11 @@ Windows DVD Maker Cross-Site Request Forgery Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0045](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0045)
+[CVE-2017-0045](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0045)
 
 </td>
 <td style="border:1px solid black;">
-John Page ([hyp3rlinx](http://hyp3rlinx.altervista.org/)), ApparitionSec
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0024](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0024)
-
-</td>
-<td style="border:1px solid black;">
-Hao Linan of [Qihoo 360 Vulcan Team](http://www.360.cn/), working with [POC](http://powerofcommunity.net/)/[PwnFest](http://pwnfest.org/)
+John Page ([hyp3rlinx](https://hyp3rlinx.altervista.org/)), ApparitionSec
 
 </td>
 </tr>
@@ -137,29 +119,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0024](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0024)
+[CVE-2017-0024](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0024)
 
 </td>
 <td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](http://www.360.cn/) working with POC/PwnFest
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0024](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0024)
-
-</td>
-<td style="border:1px solid black;">
-[zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](http://www.360.cn/) working with POC/PwnFest
+Hao Linan of [Qihoo 360 Vulcan Team](https://www.360.cn/), working with [POC](https://powerofcommunity.net/)/[PwnFest](https://pwnfest.org/)
 
 </td>
 </tr>
@@ -173,29 +137,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0026](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0026)
+[CVE-2017-0024](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0024)
 
 </td>
 <td style="border:1px solid black;">
-Hao Linan of [Qihoo 360 Vulcan Team](http://www.360.cn/), working with [POC](http://powerofcommunity.net/)/[PwnFest](http://pwnfest.org/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0026](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0026)
-
-</td>
-<td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](http://www.360.cn/) working with POC/PwnFest
+[pgboy](https://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](https://www.360.cn/) working with POC/PwnFest
 
 </td>
 </tr>
@@ -209,29 +155,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0026](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0026)
+[CVE-2017-0024](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0024)
 
 </td>
 <td style="border:1px solid black;">
-[zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](http://www.360.cn/) working with POC/PwnFest
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0056](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0056)
-
-</td>
-<td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+[zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](https://www.360.cn/) working with POC/PwnFest
 
 </td>
 </tr>
@@ -245,29 +173,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0056](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0056)
+[CVE-2017-0026](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0026)
 
 </td>
 <td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988) and [zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](http://www.360.cn/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0078](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0078)
-
-</td>
-<td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988) and [zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](http://www.360.cn/)
+Hao Linan of [Qihoo 360 Vulcan Team](https://www.360.cn/), working with [POC](https://powerofcommunity.net/)/[PwnFest](https://pwnfest.org/)
 
 </td>
 </tr>
@@ -281,29 +191,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0079](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0079)
+[CVE-2017-0026](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0026)
 
 </td>
 <td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988) and [zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](http://www.360.cn/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
-
-</td>
-<td style="border:1px solid black;">
-Win32k Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0080](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0080)
-
-</td>
-<td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988) and [zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](http://www.360.cn/)
+[pgboy](https://weibo.com/pgboy1988) of [Qihoo 360 Vulcan Team](https://www.360.cn/) working with POC/PwnFest
 
 </td>
 </tr>
@@ -317,11 +209,11 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0081](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0081)
+[CVE-2017-0026](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0026)
 
 </td>
 <td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988) and [zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](http://www.360.cn/)
+[zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](https://www.360.cn/) working with POC/PwnFest
 
 </td>
 </tr>
@@ -335,11 +227,119 @@ Win32k Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0082](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0082)
+[CVE-2017-0056](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0056)
 
 </td>
 <td style="border:1px solid black;">
-[pgboy](http://weibo.com/pgboy1988) and [zhong\_sf](http://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](http://www.360.cn/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0056](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0056)
+
+</td>
+<td style="border:1px solid black;">
+[pgboy](https://weibo.com/pgboy1988) and [zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](https://www.360.cn/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0078](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0078)
+
+</td>
+<td style="border:1px solid black;">
+[pgboy](https://weibo.com/pgboy1988) and [zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](https://www.360.cn/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0079](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0079)
+
+</td>
+<td style="border:1px solid black;">
+[pgboy](https://weibo.com/pgboy1988) and [zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](https://www.360.cn/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0080](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0080)
+
+</td>
+<td style="border:1px solid black;">
+[pgboy](https://weibo.com/pgboy1988) and [zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](https://www.360.cn/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0081](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0081)
+
+</td>
+<td style="border:1px solid black;">
+[pgboy](https://weibo.com/pgboy1988) and [zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](https://www.360.cn/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-018](https://go.microsoft.com/fwlink/?linkid=842217)
+
+</td>
+<td style="border:1px solid black;">
+Win32k Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0082](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0082)
+
+</td>
+<td style="border:1px solid black;">
+[pgboy](https://weibo.com/pgboy1988) and [zhong\_sf](https://weibo.com/2641521260) of [Qihoo 360 Vulcan Team](https://www.360.cn/)
 
 </td>
 </tr>
@@ -353,29 +353,11 @@ Windows Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0101](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0101)
+[CVE-2017-0101](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0101)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-017](https://go.microsoft.com/fwlink/?linkid=842216)
-
-</td>
-<td style="border:1px solid black;">
-Windows Registry Elevation of Privilege Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0103](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0103)
-
-</td>
-<td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -389,11 +371,29 @@ Windows Registry Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0103](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0103)
+[CVE-2017-0103](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0103)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-017](https://go.microsoft.com/fwlink/?linkid=842216)
+
+</td>
+<td style="border:1px solid black;">
+Windows Registry Elevation of Privilege Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0103](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0103)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -407,7 +407,7 @@ Microsoft IIS Server XSS Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0055](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0055)
+[CVE-2017-0055](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0055)
 
 </td>
 <td style="border:1px solid black;">
@@ -425,29 +425,11 @@ Microsoft Exchange Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0110](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0110)
+[CVE-2017-0110](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0110)
 
 </td>
 <td style="border:1px solid black;">
-Gabruel Lima ([@gabrielpato](http://twitter.com/gabrielpato))
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-014](https://go.microsoft.com/fwlink/?linkid=842278)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft Office Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0006](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0006)
-
-</td>
-<td style="border:1px solid black;">
-Yangkang & Liyadong & Wanglu of Qihoo [360 Qex Team](http://www.360.cn/)
+Gabruel Lima ([@gabrielpato](https://twitter.com/gabrielpato))
 
 </td>
 </tr>
@@ -461,29 +443,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0019](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0019)
+[CVE-2017-0006](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0006)
 
 </td>
 <td style="border:1px solid black;">
-Tony Loi of [Fortinet's FortiGuard Labs](http://www.fortiguard.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-014](https://go.microsoft.com/fwlink/?linkid=842278)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft Office Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0019](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0019)
-
-</td>
-<td style="border:1px solid black;">
-Steven Vittitoe of [Google Project Zero](http://www.google.com/)
+Yangkang & Liyadong & Wanglu of Qihoo [360 Qex Team](https://www.360.cn/)
 
 </td>
 </tr>
@@ -497,11 +461,47 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0020](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0020)
+[CVE-2017-0019](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0019)
 
 </td>
 <td style="border:1px solid black;">
-Qiang Liu, [McAfee](http://www.mcafee.com/)
+Tony Loi of [Fortinet's FortiGuard Labs](https://www.fortiguard.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-014](https://go.microsoft.com/fwlink/?linkid=842278)
+
+</td>
+<td style="border:1px solid black;">
+Microsoft Office Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0019](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0019)
+
+</td>
+<td style="border:1px solid black;">
+Steven Vittitoe of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-014](https://go.microsoft.com/fwlink/?linkid=842278)
+
+</td>
+<td style="border:1px solid black;">
+Microsoft Office Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0020](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0020)
+
+</td>
+<td style="border:1px solid black;">
+Qiang Liu, [McAfee](https://www.mcafee.com/)
 
 </td>
 </tr>
@@ -515,11 +515,11 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0027](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0027)
+[CVE-2017-0027](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0027)
 
 </td>
 <td style="border:1px solid black;">
-Jaanus Kääp of [Clarified Security](http://www.clarifiedsecurity.com/)
+Jaanus Kääp of [Clarified Security](https://www.clarifiedsecurity.com/)
 
 </td>
 </tr>
@@ -533,7 +533,7 @@ Microsoft Office Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0029](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0029)
+[CVE-2017-0029](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0029)
 
 </td>
 <td style="border:1px solid black;">
@@ -551,7 +551,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0030](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0030)
+[CVE-2017-0030](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0030)
 
 </td>
 <td style="border:1px solid black;">
@@ -569,7 +569,7 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0031](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0031)
+[CVE-2017-0031](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0031)
 
 </td>
 <td style="border:1px solid black;">
@@ -587,11 +587,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0052](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0052)
+[CVE-2017-0052](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0052)
 
 </td>
 <td style="border:1px solid black;">
-Yangkang & Liyadong & Wanglu of Qihoo [360 Qex Team](http://www.360.cn/)
+Yangkang & Liyadong & Wanglu of Qihoo [360 Qex Team](https://www.360.cn/)
 
 </td>
 </tr>
@@ -605,11 +605,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0053](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0053)
+[CVE-2017-0053](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0053)
 
 </td>
 <td style="border:1px solid black;">
-Haifei Li of [Intel Security](http://www.intelsecurity.com/)
+Haifei Li of [Intel Security](https://www.intelsecurity.com/)
 
 </td>
 </tr>
@@ -623,11 +623,11 @@ Microsoft Office Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0105](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0105)
+[CVE-2017-0105](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0105)
 
 </td>
 <td style="border:1px solid black;">
-[Fortinet’s FortiGuard Labs](http://www.fortiguard.com/)
+[Fortinet’s FortiGuard Labs](https://www.fortiguard.com/)
 
 </td>
 </tr>
@@ -641,7 +641,7 @@ Microsoft SharePoint XSS Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0107](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0107)
+[CVE-2017-0107](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0107)
 
 </td>
 <td style="border:1px solid black;">
@@ -659,7 +659,7 @@ Microsoft Lync for Mac Certificate Validation Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0129](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0129)
+[CVE-2017-0129](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0129)
 
 </td>
 <td style="border:1px solid black;">
@@ -695,11 +695,11 @@ Windows GDI Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0001](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0001)
+[CVE-2017-0001](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0001)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -713,7 +713,7 @@ Windows GDI Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0005](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0005)
+[CVE-2017-0005](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0005)
 
 </td>
 <td style="border:1px solid black;">
@@ -731,11 +731,11 @@ Windows Graphics Component Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0014](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0014)
+[CVE-2017-0014](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0014)
 
 </td>
 <td style="border:1px solid black;">
-Hossein Lotfi, [Secunia Research at Flexera Software](http://www.flexerasoftware.com/enterprise/company/about/secunia-research/)
+Hossein Lotfi, [Secunia Research at Flexera Software](https://www.flexerasoftware.com/enterprise/company/about/secunia-research/)
 
 </td>
 </tr>
@@ -749,11 +749,11 @@ Windows GDI Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0025](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0025)
+[CVE-2017-0025](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0025)
 
 </td>
 <td style="border:1px solid black;">
-Lokihart working with [POC](http://powerofcommunity.net/)/[PwnFest](http://pwnfest.org/)
+Lokihart working with [POC](https://powerofcommunity.net/)/[PwnFest](https://pwnfest.org/)
 
 </td>
 </tr>
@@ -767,11 +767,11 @@ Windows Graphics Component Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0038](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0038)
+[CVE-2017-0038](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0038)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -785,11 +785,11 @@ Windows GDI Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0047](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0047)
+[CVE-2017-0047](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0047)
 
 </td>
 <td style="border:1px solid black;">
-bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -803,11 +803,11 @@ GDI+ Information Disclosure vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0060](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0060)
+[CVE-2017-0060](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0060)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -821,11 +821,11 @@ Microsoft Color Management Information Disclosure vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0061](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0061)
+[CVE-2017-0061](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0061)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -839,11 +839,11 @@ GDI+ Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0062](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0062)
+[CVE-2017-0062](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0062)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -857,11 +857,11 @@ Microsoft Color Management Information Disclosure vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0063](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0063)
+[CVE-2017-0063](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0063)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -875,7 +875,7 @@ Windows GDI+ Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0073](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0073)
+[CVE-2017-0073](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0073)
 
 </td>
 <td style="border:1px solid black;">
@@ -893,11 +893,11 @@ Graphics Component Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0108](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0108)
+[CVE-2017-0108](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0108)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -911,7 +911,7 @@ Device Guard Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0007](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0007)
+[CVE-2017-0007](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0007)
 
 </td>
 <td style="border:1px solid black;">
@@ -929,11 +929,11 @@ Windows DLL Loading Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0039](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0039)
+[CVE-2017-0039](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0039)
 
 </td>
 <td style="border:1px solid black;">
-lywang of [Tencent’s Xuanwu LAB](http://www.tencent.com/)
+lywang of [Tencent’s Xuanwu LAB](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -947,11 +947,11 @@ Windows DNS Query Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0057](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0057)
+[CVE-2017-0057](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0057)
 
 </td>
 <td style="border:1px solid black;">
-Martin Knafve - <http://martinknafve.com/>
+Martin Knafve - <https://martinknafve.com/>
 
 </td>
 </tr>
@@ -965,11 +965,11 @@ Windows COM Elevation of Privilege Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0100](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0100)
+[CVE-2017-0100](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0100)
 
 </td>
 <td style="border:1px solid black;">
-James Forshaw of [Google Project Zero](http://www.google.com/)
+James Forshaw of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -983,29 +983,11 @@ iSNS Server Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0104](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0104)
+[CVE-2017-0104](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0104)
 
 </td>
 <td style="border:1px solid black;">
-[Fortinet’s FortiGuard Labs](http://www.fortiguard.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Remote Code Execution Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0072](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0072)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+[Fortinet’s FortiGuard Labs](https://www.fortiguard.com/)
 
 </td>
 </tr>
@@ -1019,47 +1001,11 @@ Uniscribe Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0083](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0083)
+[CVE-2017-0072](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0072)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Remote Code Execution Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0084](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0084)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0085](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0085)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1073,29 +1019,11 @@ Uniscribe Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0086](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0086)
+[CVE-2017-0083](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0083)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Remote Code Execution Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0087](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0087)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1109,11 +1037,29 @@ Uniscribe Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0088](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0088)
+[CVE-2017-0084](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0084)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0085](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0085)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1127,11 +1073,11 @@ Uniscribe Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0089](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0089)
+[CVE-2017-0086](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0086)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1145,11 +1091,65 @@ Uniscribe Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0090](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0090)
+[CVE-2017-0087](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0087)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Remote Code Execution Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0088](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0088)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Remote Code Execution Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0089](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0089)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Remote Code Execution Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0090](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0090)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1163,29 +1163,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0091](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0091)
+[CVE-2017-0091](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0091)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0092](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0092)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1199,29 +1181,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0111](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0111)
+[CVE-2017-0092](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0092)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0112](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0112)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1235,29 +1199,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0113](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0113)
+[CVE-2017-0111](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0111)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0114](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0114)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1271,29 +1217,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0115](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0115)
+[CVE-2017-0112](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0112)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0116](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0116)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1307,29 +1235,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0117](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0117)
+[CVE-2017-0113](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0113)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0118](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0118)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1343,29 +1253,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0119](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0119)
+[CVE-2017-0114](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0114)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0120](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0120)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1379,29 +1271,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0121](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0121)
+[CVE-2017-0115](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0115)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0122](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0122)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1415,29 +1289,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0123](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0123)
+[CVE-2017-0116](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0116)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0124](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0124)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1451,29 +1307,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0125](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0125)
+[CVE-2017-0117](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0117)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
-
-</td>
-<td style="border:1px solid black;">
-Uniscribe Information Disclosure Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0126](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0126)
-
-</td>
-<td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1487,11 +1325,11 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0127](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0127)
+[CVE-2017-0118](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0118)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1505,11 +1343,173 @@ Uniscribe Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0128](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0128)
+[CVE-2017-0119](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0119)
 
 </td>
 <td style="border:1px solid black;">
-Mateusz Jurczyk of [Google Project Zero](http://www.google.com/)
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0120](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0120)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0121](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0121)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0122](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0122)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0123](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0123)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0124](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0124)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0125](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0125)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0126](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0126)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0127](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0127)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-011](https://go.microsoft.com/fwlink/?linkid=842211)
+
+</td>
+<td style="border:1px solid black;">
+Uniscribe Information Disclosure Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0128](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0128)
+
+</td>
+<td style="border:1px solid black;">
+Mateusz Jurczyk of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -1523,11 +1523,11 @@ Microsoft PDF Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0023](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0023)
+[CVE-2017-0023](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0023)
 
 </td>
 <td style="border:1px solid black;">
-Henry Li (zenhumany) of [Trend Micro](http://www.trendmicro.com/)
+Henry Li (zenhumany) of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
@@ -1541,7 +1541,7 @@ Hyper-V vSMB Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0021](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0021)
+[CVE-2017-0021](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0021)
 
 </td>
 <td style="border:1px solid black;">
@@ -1559,7 +1559,7 @@ Hyper-V vSMB Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0021](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0021)
+[CVE-2017-0021](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0021)
 
 </td>
 <td style="border:1px solid black;">
@@ -1577,11 +1577,11 @@ Microsoft Hyper-V Network Switch Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0051](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0051)
+[CVE-2017-0051](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0051)
 
 </td>
 <td style="border:1px solid black;">
-Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](http://www.tencent.com/)
+Peter Hlavaty ([@zer0mem](https://twitter.com/zer0mem)), KeenLab, [Tencent](https://www.tencent.com/)
 
 </td>
 </tr>
@@ -1595,7 +1595,7 @@ Hyper-V Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0074](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0074)
+[CVE-2017-0074](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0074)
 
 </td>
 <td style="border:1px solid black;">
@@ -1613,7 +1613,7 @@ Hyper-V Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0074](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0074)
+[CVE-2017-0074](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0074)
 
 </td>
 <td style="border:1px solid black;">
@@ -1631,7 +1631,7 @@ Hyper-V Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0075](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0075)
+[CVE-2017-0075](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0075)
 
 </td>
 <td style="border:1px solid black;">
@@ -1649,7 +1649,7 @@ Hyper-V Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0076](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0076)
+[CVE-2017-0076](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0076)
 
 </td>
 <td style="border:1px solid black;">
@@ -1667,7 +1667,7 @@ Hyper-V vSMB Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0095](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0095)
+[CVE-2017-0095](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0095)
 
 </td>
 <td style="border:1px solid black;">
@@ -1685,7 +1685,7 @@ Hyper-V Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0096](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0096)
+[CVE-2017-0096](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0096)
 
 </td>
 <td style="border:1px solid black;">
@@ -1703,7 +1703,7 @@ Hyper-V Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0097](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0097)
+[CVE-2017-0097](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0097)
 
 </td>
 <td style="border:1px solid black;">
@@ -1721,7 +1721,7 @@ Hyper-V Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0097](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0097)
+[CVE-2017-0097](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0097)
 
 </td>
 <td style="border:1px solid black;">
@@ -1739,7 +1739,7 @@ Hyper-V Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0099](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0099)
+[CVE-2017-0099](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0099)
 
 </td>
 <td style="border:1px solid black;">
@@ -1757,7 +1757,7 @@ Hyper-V Remote Code Execution Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0109](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0109)
+[CVE-2017-0109](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0109)
 
 </td>
 <td style="border:1px solid black;">
@@ -1794,7 +1794,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0009](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0009)
+[CVE-2017-0009](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0009)
 
 </td>
 <td style="border:1px solid black;">
@@ -1812,11 +1812,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0010](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0010)
+[CVE-2017-0010](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0010)
 
 </td>
 <td style="border:1px solid black;">
-Zhang Hanming of [Qihoo 360 Vulcan Team](http://www.360.cn/)
+Zhang Hanming of [Qihoo 360 Vulcan Team](https://www.360.cn/)
 
 </td>
 </tr>
@@ -1830,7 +1830,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0010](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0010)
+[CVE-2017-0010](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0010)
 
 </td>
 <td style="border:1px solid black;">
@@ -1848,11 +1848,11 @@ Microsoft Edge Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0011](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0011)
+[CVE-2017-0011](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0011)
 
 </td>
 <td style="border:1px solid black;">
-Suto, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Suto, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -1866,29 +1866,11 @@ Microsoft Browser Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0012](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0012)
+[CVE-2017-0012](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0012)
 
 </td>
 <td style="border:1px solid black;">
-Zhang Lin, [http://xsseng.com](http://xsseng.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-007](https://go.microsoft.com/fwlink/?linkid=842207)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0015](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0015)
-
-</td>
-<td style="border:1px solid black;">
-Lokihart working with [POC](http://powerofcommunity.net/)/[PwnFest](http://pwnfest.org/)
+Zhang Lin, [https://xsseng.com](https://xsseng.com/)
 
 </td>
 </tr>
@@ -1902,11 +1884,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0015](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0015)
+[CVE-2017-0015](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0015)
 
 </td>
 <td style="border:1px solid black;">
-Simon Zuckerbraun, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Lokihart working with [POC](https://powerofcommunity.net/)/[PwnFest](https://pwnfest.org/)
 
 </td>
 </tr>
@@ -1920,11 +1902,29 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0015](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0015)
+[CVE-2017-0015](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0015)
 
 </td>
 <td style="border:1px solid black;">
-[Qixun Zhao](http://www.weibo.com/babyboaes) of [Qihoo 360 Skyeye Labs](http://www.360.cn/)
+Simon Zuckerbraun, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-007](https://go.microsoft.com/fwlink/?linkid=842207)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0015](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0015)
+
+</td>
+<td style="border:1px solid black;">
+[Qixun Zhao](https://www.weibo.com/babyboaes) of [Qihoo 360 Skyeye Labs](https://www.360.cn/)
 
 </td>
 </tr>
@@ -1938,7 +1938,7 @@ Microsoft Edge Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0017](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0017)
+[CVE-2017-0017](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0017)
 
 </td>
 <td style="border:1px solid black;">
@@ -1956,29 +1956,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0032](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0032)
+[CVE-2017-0032](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0032)
 
 </td>
 <td style="border:1px solid black;">
-Hao Linan of [Qihoo 360 Vulcan Team](http://www.360.cn/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-007](https://go.microsoft.com/fwlink/?linkid=842207)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0032](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0032)
-
-</td>
-<td style="border:1px solid black;">
-Anonymous, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Hao Linan of [Qihoo 360 Vulcan Team](https://www.360.cn/)
 
 </td>
 </tr>
@@ -1992,11 +1974,29 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0032](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0032)
+[CVE-2017-0032](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0032)
 
 </td>
 <td style="border:1px solid black;">
-[Qixun Zhao](http://www.weibo.com/babyboaes) of [Qihoo 360 Skyeye Labs](http://www.360.cn/)
+Anonymous, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-007](https://go.microsoft.com/fwlink/?linkid=842207)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0032](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0032)
+
+</td>
+<td style="border:1px solid black;">
+[Qixun Zhao](https://www.weibo.com/babyboaes) of [Qihoo 360 Skyeye Labs](https://www.360.cn/)
 
 </td>
 </tr>
@@ -2010,11 +2010,11 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0034](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0034)
+[CVE-2017-0034](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0034)
 
 </td>
 <td style="border:1px solid black;">
-Zhong Zhaochen ([@asnine](https://twitter.com/asnine)) of [Neusoft](http://neusoft.com/)
+Zhong Zhaochen ([@asnine](https://twitter.com/asnine)) of [Neusoft](https://neusoft.com/)
 
 </td>
 </tr>
@@ -2028,7 +2028,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0035](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0035)
+[CVE-2017-0035](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0035)
 
 </td>
 <td style="border:1px solid black;">
@@ -2046,11 +2046,11 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0037](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0037)
+[CVE-2017-0037](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0037)
 
 </td>
 <td style="border:1px solid black;">
-Ivan Fratric working with [Google Project Zero](http://www.google.com/)
+Ivan Fratric working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2064,7 +2064,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0065](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0065)
+[CVE-2017-0065](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0065)
 
 </td>
 <td style="border:1px solid black;">
@@ -2082,7 +2082,7 @@ Microsoft Browser Security Feature Bypass Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0066](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0066)
+[CVE-2017-0066](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0066)
 
 </td>
 <td style="border:1px solid black;">
@@ -2100,7 +2100,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0067](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0067)
+[CVE-2017-0067](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0067)
 
 </td>
 <td style="border:1px solid black;">
@@ -2118,7 +2118,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0067](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0067)
+[CVE-2017-0067](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0067)
 
 </td>
 <td style="border:1px solid black;">
@@ -2136,11 +2136,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0067](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0067)
+[CVE-2017-0067](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0067)
 
 </td>
 <td style="border:1px solid black;">
-bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -2154,11 +2154,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0067](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0067)
+[CVE-2017-0067](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0067)
 
 </td>
 <td style="border:1px solid black;">
-Henry Li (zenhumany) of [Trend Micro](http://www.trendmicro.com/)
+Henry Li (zenhumany) of [Trend Micro](https://www.trendmicro.com/)
 
 </td>
 </tr>
@@ -2172,7 +2172,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0068](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0068)
+[CVE-2017-0068](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0068)
 
 </td>
 <td style="border:1px solid black;">
@@ -2190,7 +2190,7 @@ Microsoft Edge Spoofing Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0069](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0069)
+[CVE-2017-0069](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0069)
 
 </td>
 <td style="border:1px solid black;">
@@ -2208,29 +2208,11 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0070](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0070)
+[CVE-2017-0070](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0070)
 
 </td>
 <td style="border:1px solid black;">
-Lokihart of [Google Project Zero](http://www.google.com/)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[MS17-007](https://go.microsoft.com/fwlink/?linkid=842207)
-
-</td>
-<td style="border:1px solid black;">
-Scripting Engine Memory Corruption Vulnerability
-
-</td>
-<td style="border:1px solid black;">
-[CVE-2017-0071](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0071)
-
-</td>
-<td style="border:1px solid black;">
-Lokihart of [Google Project Zero](http://www.google.com/)
+Lokihart of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2244,11 +2226,29 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0094](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0094)
+[CVE-2017-0071](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0071)
 
 </td>
 <td style="border:1px solid black;">
-bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Lokihart of [Google Project Zero](https://www.google.com/)
+
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[MS17-007](https://go.microsoft.com/fwlink/?linkid=842207)
+
+</td>
+<td style="border:1px solid black;">
+Scripting Engine Memory Corruption Vulnerability
+
+</td>
+<td style="border:1px solid black;">
+[CVE-2017-0094](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0094)
+
+</td>
+<td style="border:1px solid black;">
+bee13oy of CloverSec Labs, working with [Trend Micro’s Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -2262,7 +2262,7 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0131](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0131)
+[CVE-2017-0131](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0131)
 
 </td>
 <td style="border:1px solid black;">
@@ -2280,7 +2280,7 @@ Microsoft Edge Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0132](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0132)
+[CVE-2017-0132](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0132)
 
 </td>
 <td style="border:1px solid black;">
@@ -2298,7 +2298,7 @@ Scripting Engine Memory Corruption Vulnerabilty
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0133](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0133)
+[CVE-2017-0133](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0133)
 
 </td>
 <td style="border:1px solid black;">
@@ -2316,7 +2316,7 @@ Microsoft Edge Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0134](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0134)
+[CVE-2017-0134](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0134)
 
 </td>
 <td style="border:1px solid black;">
@@ -2334,7 +2334,7 @@ Microsoft Edge Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0135](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0135)
+[CVE-2017-0135](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0135)
 
 </td>
 <td style="border:1px solid black;">
@@ -2352,7 +2352,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0136](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0136)
+[CVE-2017-0136](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0136)
 
 </td>
 <td style="border:1px solid black;">
@@ -2370,7 +2370,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0137](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0136\7)
+[CVE-2017-0137](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0136\7)
 
 </td>
 <td style="border:1px solid black;">
@@ -2388,7 +2388,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0138](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0138)
+[CVE-2017-0138](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0138)
 
 </td>
 <td style="border:1px solid black;">
@@ -2406,7 +2406,7 @@ Microsoft Edge Security Feature Bypass
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0140](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0140)
+[CVE-2017-0140](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0140)
 
 </td>
 <td style="border:1px solid black;">
@@ -2424,7 +2424,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0141](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0141)
+[CVE-2017-0141](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0141)
 
 </td>
 <td style="border:1px solid black;">
@@ -2442,7 +2442,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0150](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0150)
+[CVE-2017-0150](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0150)
 
 </td>
 <td style="border:1px solid black;">
@@ -2460,7 +2460,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0151](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0151)
+[CVE-2017-0151](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0151)
 
 </td>
 <td style="border:1px solid black;">
@@ -2478,7 +2478,7 @@ Microsoft Browser Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0009](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0009)
+[CVE-2017-0009](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0009)
 
 </td>
 <td style="border:1px solid black;">
@@ -2496,11 +2496,11 @@ Internet Explorer Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0018](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0018)
+[CVE-2017-0018](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0018)
 
 </td>
 <td style="border:1px solid black;">
-Kai Song [exp-sky](http://exp-sky.org/) of [Tencent's Xuanwu Lab](http://www.tencent.com/), working with [Trend Micro's Zero Day Initiative (ZDI)](http://www.zerodayinitiative.com/)
+Kai Song [exp-sky](https://exp-sky.org/) of [Tencent's Xuanwu Lab](https://www.tencent.com/), working with [Trend Micro's Zero Day Initiative (ZDI)](https://www.zerodayinitiative.com/)
 
 </td>
 </tr>
@@ -2514,11 +2514,11 @@ Microsoft Browser Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0037](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0037)
+[CVE-2017-0037](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0037)
 
 </td>
 <td style="border:1px solid black;">
-Ivan Fratric working with [Google Project Zero](http://www.google.com/)
+Ivan Fratric working with [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2532,7 +2532,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0040](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0040)
+[CVE-2017-0040](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0040)
 
 </td>
 <td style="border:1px solid black;">
@@ -2550,7 +2550,7 @@ Scripting Engine Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0049](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0049)
+[CVE-2017-0049](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0049)
 
 </td>
 <td style="border:1px solid black;">
@@ -2568,11 +2568,11 @@ Internet Explorer Information Disclosure Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0059](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0059)
+[CVE-2017-0059](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0059)
 
 </td>
 <td style="border:1px solid black;">
-Ivan Fratric of [Google Project Zero](http://www.google.com/)
+Ivan Fratric of [Google Project Zero](https://www.google.com/)
 
 </td>
 </tr>
@@ -2586,7 +2586,7 @@ Scripting Engine Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0130](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0130)
+[CVE-2017-0130](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0130)
 
 </td>
 <td style="border:1px solid black;">
@@ -2610,7 +2610,7 @@ Local Security Authority Subsystem Service Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0004](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0004)
+[CVE-2017-0004](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0004)
 
 </td>
 <td style="border:1px solid black;">
@@ -2628,7 +2628,7 @@ Local Security Authority Subsystem Service Denial of Service Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0004](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0004)
+[CVE-2017-0004](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0004)
 
 </td>
 <td style="border:1px solid black;">
@@ -2646,11 +2646,11 @@ Microsoft Office Memory Corruption Vulnerability
 
 </td>
 <td style="border:1px solid black;">
-[CVE-2017-0003](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0003)
+[CVE-2017-0003](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-0003)
 
 </td>
 <td style="border:1px solid black;">
-Tony Loi of [Fortinet’s FortiGuard Labs](http://www.fortiguard.com/)
+Tony Loi of [Fortinet’s FortiGuard Labs](https://www.fortiguard.com/)
 
 </td>
 </tr>
