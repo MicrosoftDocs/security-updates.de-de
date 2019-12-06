@@ -198,10 +198,10 @@ Keine
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[JScript 5.1 und JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2bb3af8d-f36c-4497-9f48-fc59bcff2583)  
+[JScript 5.1 und JScript 5.6](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2bb3af8d-f36c-4497-9f48-fc59bcff2583)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=b2773db5-b17d-4b98-b4e2-219b23854abd)  
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=b2773db5-b17d-4b98-b4e2-219b23854abd)  
 (KB975542)  
 (Kritisch)
 </td>
@@ -209,7 +209,7 @@ Microsoft Windows 2000 Service Pack 4
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 9.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=02b9dc42-38c2-44b1-a77c-34854f4a86c4)  
+[Windows Media Format Runtime 9.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=02b9dc42-38c2-44b1-a77c-34854f4a86c4)  
 (KB968816)  
 (Kritisch)
 </td>
@@ -218,7 +218,7 @@ Microsoft Windows 2000 Service Pack 4<sup>[3]</sup>
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6dd4b0f8-6b54-49a6-a6df-9420f9fd3333)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6dd4b0f8-6b54-49a6-a6df-9420f9fd3333)  
 (Kritisch)
 </td>
 </tr>
@@ -272,16 +272,16 @@ Keine
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[JScript 5.6 unter Windows XP Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0af373b2-2240-4079-a748-a38d1bc06f39)  
+[JScript 5.6 unter Windows XP Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0af373b2-2240-4079-a748-a38d1bc06f39)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.7 unter Windows XP Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c933377d-e0bc-4334-bc75-029045d7a62a)<sup>[1]</sup>
+[JScript 5.7 unter Windows XP Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c933377d-e0bc-4334-bc75-029045d7a62a)<sup>[1]</sup>
 (KB971961)  
 (Kritisch)  
-[JScript 5.7 unter Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c933377d-e0bc-4334-bc75-029045d7a62a)  
+[JScript 5.7 unter Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c933377d-e0bc-4334-bc75-029045d7a62a)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=992602d8-d857-41cf-b7b1-527afdc1dc0f)<sup>[2]</sup>
+[JScript 5.8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=992602d8-d857-41cf-b7b1-527afdc1dc0f)<sup>[2]</sup>
 (KB971961)  
 (Kritisch)
 </td>
@@ -289,11 +289,11 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 9.0, Windows Media Format Runtime 9.5 und Windows Media Format Runtime 11](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6ffc081e-f892-4818-acb9-6d79e15d473c)  
+[Windows Media Format Runtime 9.0, Windows Media Format Runtime 9.5 und Windows Media Format Runtime 11](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6ffc081e-f892-4818-acb9-6d79e15d473c)  
 (KB968816)  
 (Kritisch)  
 (Nur Windows XP Service Pack 2)  
-[Windows Media Format Runtime 9.0, Windows Media Format Runtime 9.5 und Windows Media Format Runtime 11](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=31585f5a-9aaa-40da-b15a-11284b4b800c)  
+[Windows Media Format Runtime 9.0, Windows Media Format Runtime 9.5 und Windows Media Format Runtime 11](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=31585f5a-9aaa-40da-b15a-11284b4b800c)  
 (KB968816)  
 (Kritisch)  
 (Nur Windows XP Service Pack 3)
@@ -303,7 +303,7 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3<sup>[3]</sup>
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8523d5be-88a2-4124-9b02-660f612e2a12)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8523d5be-88a2-4124-9b02-660f612e2a12)  
 (Kritisch)
 </td>
 </tr>
@@ -312,13 +312,13 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3<sup>[3]</sup>
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[JScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=0d671004-da4e-4dbd-a066-861b53b0c59c)  
+[JScript 5.6](https://www.microsoft.com/download/details.aspx?familyid=0d671004-da4e-4dbd-a066-861b53b0c59c)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=9aae426d-ee9a-4736-b0a2-e0f8890a6895)<sup>[1]</sup>
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=9aae426d-ee9a-4736-b0a2-e0f8890a6895)<sup>[1]</sup>
 (KB971961)  
 (Kritisch)  
-[JScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=00bae02a-64eb-4b91-965f-da2dc987a2ff)<sup>[2]</sup>
+[JScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=00bae02a-64eb-4b91-965f-da2dc987a2ff)<sup>[2]</sup>
 (KB971961)  
 (Kritisch)
 </td>
@@ -326,13 +326,13 @@ Windows XP Professional x64 Edition Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 9.5](http://www.microsoft.com/downloads/details.aspx?familyid=3780d565-d027-4f54-8fc0-05f5c3c6ba1a)  
+[Windows Media Format Runtime 9.5](https://www.microsoft.com/download/details.aspx?familyid=3780d565-d027-4f54-8fc0-05f5c3c6ba1a)  
 (KB968816)  
 (Kritisch)  
-[Windows Media Format Runtime 9.5 x64 Edition](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ce515188-db3c-4694-85da-177c8f76b68c)  
+[Windows Media Format Runtime 9.5 x64 Edition](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ce515188-db3c-4694-85da-177c8f76b68c)  
 (KB968816)  
 (Kritisch)  
-[Windows Media Format Runtime 11](http://www.microsoft.com/downloads/details.aspx?familyid=9a465f92-3067-4a5a-9882-1fc2cf796c99)  
+[Windows Media Format Runtime 11](https://www.microsoft.com/download/details.aspx?familyid=9a465f92-3067-4a5a-9882-1fc2cf796c99)  
 (KB968816)  
 (Kritisch)
 </td>
@@ -341,7 +341,7 @@ Windows XP Professional x64 Edition Service Pack 2<sup>[3]</sup>
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=dbc33f6b-61bf-409a-89b5-60002192e0e0)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=dbc33f6b-61bf-409a-89b5-60002192e0e0)  
 (Kritisch)
 </td>
 </tr>
@@ -395,13 +395,13 @@ Keine
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6acc9d2d-b71f-4b5c-9aea-b217b6ae240b)  
+[JScript 5.6](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6acc9d2d-b71f-4b5c-9aea-b217b6ae240b)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6af5d034-fd89-42e2-bc18-d44b7a6b0a85)<sup>[1]</sup>
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6af5d034-fd89-42e2-bc18-d44b7a6b0a85)<sup>[1]</sup>
 (KB971961)  
 (Kritisch)  
-[JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ecf9f7e2-3104-4de2-8b3d-99dcdcae6e62)<sup>[2]</sup>
+[JScript 5.8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ecf9f7e2-3104-4de2-8b3d-99dcdcae6e62)<sup>[2]</sup>
 (KB971961)  
 (Kritisch)
 </td>
@@ -409,19 +409,19 @@ Windows Server 2003 Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 9.5](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4ab34e3d-34cb-4e35-a2da-b348ace8a8f7)  
+[Windows Media Format Runtime 9.5](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4ab34e3d-34cb-4e35-a2da-b348ace8a8f7)  
 (KB968816)  
 (Kritisch)  
-[Windows Media-Dienste 9.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=61cd0581-c36e-4da6-ae95-41609adbe922)  
+[Windows Media-Dienste 9.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=61cd0581-c36e-4da6-ae95-41609adbe922)  
 (KB972554)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=48d82036-2fde-4bb0-a60e-92eed83ddc3f)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=48d82036-2fde-4bb0-a60e-92eed83ddc3f)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7478f73f-dd20-4cfa-a650-4c84f37ada2f)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7478f73f-dd20-4cfa-a650-4c84f37ada2f)  
 (Mittel)
 </td>
 </tr>
@@ -430,13 +430,13 @@ Nicht anwendbar
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d0de3ab1-73e9-4a09-841f-81ade41a8c81)  
+[JScript 5.6](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d0de3ab1-73e9-4a09-841f-81ade41a8c81)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8f48bc05-ffac-4a21-8d21-dd20355cda8a)<sup>[1]</sup>
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8f48bc05-ffac-4a21-8d21-dd20355cda8a)<sup>[1]</sup>
 (KB971961)  
 (Kritisch)  
-[JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=643f9e2f-2e5b-48dd-b1a0-22ccb633ed18)<sup>[2]</sup>
+[JScript 5.8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=643f9e2f-2e5b-48dd-b1a0-22ccb633ed18)<sup>[2]</sup>
 (KB971961)  
 (Kritisch)
 </td>
@@ -444,22 +444,22 @@ Windows Server 2003 x64 Edition Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 9.5](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8654ee33-6083-447f-ae5b-43ef8d8b613d)  
+[Windows Media Format Runtime 9.5](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8654ee33-6083-447f-ae5b-43ef8d8b613d)  
 (KB968816)  
 (Kritisch)  
-[Windows Media Format Runtime 9.5 x64 Edition](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ce515188-db3c-4694-85da-177c8f76b68c)  
+[Windows Media Format Runtime 9.5 x64 Edition](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ce515188-db3c-4694-85da-177c8f76b68c)  
 (KB968816)  
 (Kritisch)  
-[Windows Media-Dienste 9.1](http://www.microsoft.com/downloads/details.aspx?familyid=67c46f26-e6df-4ba2-9c03-1590b31e454c)  
+[Windows Media-Dienste 9.1](https://www.microsoft.com/download/details.aspx?familyid=67c46f26-e6df-4ba2-9c03-1590b31e454c)  
 (KB972554)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e0298ddf-026e-4137-8197-ed9d9b889825)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e0298ddf-026e-4137-8197-ed9d9b889825)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=88bf502d-1a7c-447a-ac4c-401e1698669b)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=88bf502d-1a7c-447a-ac4c-401e1698669b)  
 (Mittel)
 </td>
 </tr>
@@ -468,10 +468,10 @@ Nicht anwendbar
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e78cf021-54f5-4526-b5f0-f781aebf9d72)  
+[JScript 5.6](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e78cf021-54f5-4526-b5f0-f781aebf9d72)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fb1ca290-cea4-49c0-a37e-613a654bff3c)<sup>[1]</sup>
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fb1ca290-cea4-49c0-a37e-613a654bff3c)<sup>[1]</sup>
 (KB971961)  
 (Kritisch)
 </td>
@@ -482,11 +482,11 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c948c4d8-5788-4c1a-9fb6-a969b06a888d)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c948c4d8-5788-4c1a-9fb6-a969b06a888d)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8d881ff8-f51f-4476-8cb6-2bebd5b2047f)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8d881ff8-f51f-4476-8cb6-2bebd5b2047f)  
 (Mittel)
 </td>
 </tr>
@@ -540,24 +540,24 @@ Keine
 Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bcb12e57-f5d6-4b4e-88ab-13c28137f11a)  
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bcb12e57-f5d6-4b4e-88ab-13c28137f11a)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=80e7390f-df39-4d99-b2e1-01c7f6a951bb)<sup>[2]</sup>
+[JScript 5.8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=80e7390f-df39-4d99-b2e1-01c7f6a951bb)<sup>[2]</sup>
 (KB971961)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e9fe967f-d78d-43c2-bbcc-5098bd20267e)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e9fe967f-d78d-43c2-bbcc-5098bd20267e)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 11 und Microsoft Media Foundation](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d2bdefcc-f6b9-47c3-a55d-a4f33f967828)  
+[Windows Media Format Runtime 11 und Microsoft Media Foundation](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d2bdefcc-f6b9-47c3-a55d-a4f33f967828)  
 (KB968816)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7d72f845-9feb-4685-a669-f9d6ab54f9ed)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7d72f845-9feb-4685-a669-f9d6ab54f9ed)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -569,24 +569,24 @@ Nicht anwendbar
 Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8b1b76d5-a6b0-4c2f-8768-e55e82c2c118)  
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8b1b76d5-a6b0-4c2f-8768-e55e82c2c118)  
 (KB971961)  
 (Kritisch)  
-[JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=24457cdd-1973-40c9-9c2d-c1a75fdfa7fa)<sup>[2]</sup>
+[JScript 5.8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24457cdd-1973-40c9-9c2d-c1a75fdfa7fa)<sup>[2]</sup>
 (KB971961)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f93470bd-2e6d-4340-88c6-bb212baf750a)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f93470bd-2e6d-4340-88c6-bb212baf750a)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 11 und Microsoft Media Foundation](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=97f00b25-fb8f-4300-80c0-c63179f32182)  
+[Windows Media Format Runtime 11 und Microsoft Media Foundation](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=97f00b25-fb8f-4300-80c0-c63179f32182)  
 (KB968816)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b2930ff1-5f0a-4a5d-bf2a-9fb76dd8da63)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b2930ff1-5f0a-4a5d-bf2a-9fb76dd8da63)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -643,27 +643,27 @@ Keine
 Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=df88e6e5-78d3-4fa6-858d-b935d812cada)\*  
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=df88e6e5-78d3-4fa6-858d-b935d812cada)\*  
 (KB971961)  
 (Kritisch)  
-[JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e7b07be6-a4f8-4847-9c55-9b3d2965fa77)\* <sup>[2]</sup>
+[JScript 5.8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e7b07be6-a4f8-4847-9c55-9b3d2965fa77)\* <sup>[2]</sup>
 (KB971961)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ac3f6800-bc3e-4b35-a482-54e1a2da1ab5)\*\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ac3f6800-bc3e-4b35-a482-54e1a2da1ab5)\*\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 11 und Microsoft Media Foundation](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9c111bff-aff6-4ff7-81f6-e736cfcbe3ed)\*\*  
+[Windows Media Format Runtime 11 und Microsoft Media Foundation](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9c111bff-aff6-4ff7-81f6-e736cfcbe3ed)\*\*  
 (KB968816)  
 (Kritisch)  
-[Windows Media-Dienste 2008](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2801f69b-37d0-4d0f-9632-31382b824d36)\*  
+[Windows Media-Dienste 2008](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2801f69b-37d0-4d0f-9632-31382b824d36)\*  
 (KB972554)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=35c1d5a9-a953-4fc6-90c0-d2358c7b89e6)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=35c1d5a9-a953-4fc6-90c0-d2358c7b89e6)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -675,27 +675,27 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f584f8ca-f6b1-4285-a44c-3df5e51e75de)\*  
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f584f8ca-f6b1-4285-a44c-3df5e51e75de)\*  
 (KB971961)  
 (Kritisch)  
-[JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9eddbb89-4178-49c2-836a-2d292fe50936)\* <sup>[2]</sup>
+[JScript 5.8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9eddbb89-4178-49c2-836a-2d292fe50936)\* <sup>[2]</sup>
 (KB971961)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7d1b9b4f-bf35-44aa-a660-afb2ef2c9e30)\*\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7d1b9b4f-bf35-44aa-a660-afb2ef2c9e30)\*\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Format Runtime 11 und Microsoft Media Foundation](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=59615c8b-a07f-4326-836d-f17b2fcc4695)\*\*  
+[Windows Media Format Runtime 11 und Microsoft Media Foundation](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=59615c8b-a07f-4326-836d-f17b2fcc4695)\*\*  
 (KB968816)  
 (Kritisch)  
-[Windows Media-Dienste 2008](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7fad3793-174f-46db-9d0a-873a0ea8be65)\*  
+[Windows Media-Dienste 2008](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7fad3793-174f-46db-9d0a-873a0ea8be65)\*  
 (KB972554)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6e46822e-f79d-492d-ad01-ee680ad324f5)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6e46822e-f79d-492d-ad01-ee680ad324f5)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -707,7 +707,7 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b84fca1d-914d-45af-a48c-d9bc5d20c6b7)  
+[JScript 5.7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b84fca1d-914d-45af-a48c-d9bc5d20c6b7)  
 (KB971961)  
 (Kritisch)
 </td>
@@ -718,7 +718,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2ac76ee2-b1b6-4300-9cba-af33d9dd54eb)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2ac76ee2-b1b6-4300-9cba-af33d9dd54eb)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -774,11 +774,11 @@ Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der W
 
 Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](http://technet.microsoft.com/en-us/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch das Sicherheitsupdate-Inventurprogramm (SUIT) verwenden, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/systemcenter/sccm/default.mspx).
 
-**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/downloads/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/download/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

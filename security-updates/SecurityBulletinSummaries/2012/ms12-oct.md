@@ -273,7 +273,7 @@ Keine
 Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=6aa1e4b3-273a-49ff-8086-0d2c16dd14f3)  
+[Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=6aa1e4b3-273a-49ff-8086-0d2c16dd14f3)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -286,7 +286,7 @@ Nicht anwendbar
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3c509cc0-63a1-4cc7-b7f9-cc9f0f12b378)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3c509cc0-63a1-4cc7-b7f9-cc9f0f12b378)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -326,7 +326,7 @@ Keine
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=6c7dd00a-a983-477b-88b1-dc16f1b5e42a)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=6c7dd00a-a983-477b-88b1-dc16f1b5e42a)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -339,7 +339,7 @@ Nicht anwendbar
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eaac4dae-62e6-4020-8b4d-a95e7e0e11f1)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=eaac4dae-62e6-4020-8b4d-a95e7e0e11f1)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -352,7 +352,7 @@ Nicht anwendbar
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=315cc115-1496-471f-8887-f334a1ca8246)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=315cc115-1496-471f-8887-f334a1ca8246)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -392,7 +392,7 @@ Keine
 Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=828ca8a2-777c-4b41-8d97-caed894a37cb)  
+[Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=828ca8a2-777c-4b41-8d97-caed894a37cb)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -405,7 +405,7 @@ Nicht anwendbar
 Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=731d67dc-e028-42e4-8ef3-454f74835593)  
+[Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=731d67dc-e028-42e4-8ef3-454f74835593)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -445,7 +445,7 @@ Keine
 Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=526f786b-7aef-4a1f-b03d-587baadf3f5b)  
+[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=526f786b-7aef-4a1f-b03d-587baadf3f5b)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -458,7 +458,7 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5697076c-541f-42b7-8dc3-e8bd4a25fda8)  
+[Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=5697076c-541f-42b7-8dc3-e8bd4a25fda8)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -471,7 +471,7 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=6216b875-c7a6-4d62-8062-49996ac7a478)  
+[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=6216b875-c7a6-4d62-8062-49996ac7a478)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -511,12 +511,12 @@ Windows 7
 Windows 7 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=593a29c3-c459-4a39-9f25-016a5268fc7d)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=593a29c3-c459-4a39-9f25-016a5268fc7d)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=4ffa9c0e-26b1-4309-bfb4-fa5374f28d6c)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=4ffa9c0e-26b1-4309-bfb4-fa5374f28d6c)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -526,12 +526,12 @@ Windows 7 für 32-Bit-Systeme
 Windows 7 für 32-Bit-Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=593a29c3-c459-4a39-9f25-016a5268fc7d)  
+[Windows 7 für 32-Bit-Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=593a29c3-c459-4a39-9f25-016a5268fc7d)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=4ffa9c0e-26b1-4309-bfb4-fa5374f28d6c)  
+[Windows 7 für 32-Bit-Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=4ffa9c0e-26b1-4309-bfb4-fa5374f28d6c)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -541,12 +541,12 @@ Windows 7 für 32-Bit-Systeme Service Pack 1
 Windows 7 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=2d273f99-3460-4e84-9f2d-2a349bfc7ce6)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=2d273f99-3460-4e84-9f2d-2a349bfc7ce6)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=d5584b7d-434f-49fc-9c30-ef16c40d475f)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=d5584b7d-434f-49fc-9c30-ef16c40d475f)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -556,12 +556,12 @@ Windows 7 für x64-basierte Systeme
 Windows 7 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=2d273f99-3460-4e84-9f2d-2a349bfc7ce6)  
+[Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=2d273f99-3460-4e84-9f2d-2a349bfc7ce6)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=d5584b7d-434f-49fc-9c30-ef16c40d475f)  
+[Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=d5584b7d-434f-49fc-9c30-ef16c40d475f)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -598,12 +598,12 @@ Windows Server 2008 R2
 Windows Server 2008 R2 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=848af16d-c5f7-4a70-b6a9-39f4e7999f1f)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=848af16d-c5f7-4a70-b6a9-39f4e7999f1f)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=d7210047-788c-4b33-953d-e3134f52f897)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=d7210047-788c-4b33-953d-e3134f52f897)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -613,12 +613,12 @@ Windows Server 2008 R2 für x64-basierte Systeme
 Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=848af16d-c5f7-4a70-b6a9-39f4e7999f1f)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=848af16d-c5f7-4a70-b6a9-39f4e7999f1f)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=d7210047-788c-4b33-953d-e3134f52f897)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=d7210047-788c-4b33-953d-e3134f52f897)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -628,12 +628,12 @@ Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1
 Windows Server 2008 R2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=ded1f351-022a-463c-9f5f-84b6081e6173)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=ded1f351-022a-463c-9f5f-84b6081e6173)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=7dc47f1d-8af8-4f31-9f96-3ae226632723)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=7dc47f1d-8af8-4f31-9f96-3ae226632723)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -643,12 +643,12 @@ Windows Server 2008 R2 für Itanium-basierte Systeme
 Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ded1f351-022a-463c-9f5f-84b6081e6173)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=ded1f351-022a-463c-9f5f-84b6081e6173)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7dc47f1d-8af8-4f31-9f96-3ae226632723)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=7dc47f1d-8af8-4f31-9f96-3ae226632723)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -685,7 +685,7 @@ Server Core-Installationsoption
 Windows Server 2008 für 32-Bit-Systeme Service Pack 2 (Server Core-Installation)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=526f786b-7aef-4a1f-b03d-587baadf3f5b) (Server Core-Installation)  
+[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=526f786b-7aef-4a1f-b03d-587baadf3f5b) (Server Core-Installation)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -698,7 +698,7 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme Service Pack 2 (Server Core-Installation)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5697076c-541f-42b7-8dc3-e8bd4a25fda8) (Server Core-Installation)  
+[Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=5697076c-541f-42b7-8dc3-e8bd4a25fda8) (Server Core-Installation)  
 (KB2724197)  
 (Hoch)
 </td>
@@ -711,12 +711,12 @@ Nicht anwendbar
 Windows Server 2008 R2 für x64-basierte Systeme (Server Core-Installation)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=848af16d-c5f7-4a70-b6a9-39f4e7999f1f) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=848af16d-c5f7-4a70-b6a9-39f4e7999f1f) (Server Core-Installation)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=d7210047-788c-4b33-953d-e3134f52f897) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=d7210047-788c-4b33-953d-e3134f52f897) (Server Core-Installation)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -726,12 +726,12 @@ Windows Server 2008 R2 für x64-basierte Systeme (Server Core-Installation)
 Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1 (Server Core-Installation)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=848af16d-c5f7-4a70-b6a9-39f4e7999f1f) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=848af16d-c5f7-4a70-b6a9-39f4e7999f1f) (Server Core-Installation)  
 (KB2724197)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=d7210047-788c-4b33-953d-e3134f52f897) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=d7210047-788c-4b33-953d-e3134f52f897) (Server Core-Installation)  
 (KB2743555)  
 (Hoch)
 </td>
@@ -781,7 +781,7 @@ Keine
 Microsoft Office 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Word 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e49eadec-0fe1-43ce-9c25-a92aad17d940)  
+[Microsoft Word 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=e49eadec-0fe1-43ce-9c25-a92aad17d940)  
 (KB2687483)  
 (Hoch)
 </td>
@@ -797,7 +797,7 @@ Nicht anwendbar
 Microsoft Office 2007 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Word 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=be58b650-ee4f-405e-ab3c-c28aca48345b)<sup>[1]</sup>
+[Microsoft Word 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=be58b650-ee4f-405e-ab3c-c28aca48345b)<sup>[1]</sup>
 (KB2687315)  
 (Kritisch)
 </td>
@@ -813,7 +813,7 @@ Nicht anwendbar
 Microsoft Office 2007 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Word 2007 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=be58b650-ee4f-405e-ab3c-c28aca48345b)<sup>[1]</sup>
+[Microsoft Word 2007 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=be58b650-ee4f-405e-ab3c-c28aca48345b)<sup>[1]</sup>
 (KB2687315)  
 (Kritisch)
 </td>
@@ -829,7 +829,7 @@ Nicht anwendbar
 Microsoft Office 2010 Service Pack 1 (32-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Word 2010 Service Pack 1 (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=27e07115-d569-438c-b95f-203e444d4408)  
+[Microsoft Word 2010 Service Pack 1 (32-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=27e07115-d569-438c-b95f-203e444d4408)  
 (KB2553488)  
 (Kritisch)
 </td>
@@ -845,7 +845,7 @@ Nicht anwendbar
 Microsoft Office 2010 Service Pack 1 (64-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Word 2010 Service Pack 1 (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=30f9efac-3ecd-48a6-adcf-922f4d4d18d4)  
+[Microsoft Word 2010 Service Pack 1 (64-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=30f9efac-3ecd-48a6-adcf-922f4d4d18d4)  
 (KB2553488)  
 (Kritisch)
 </td>
@@ -894,7 +894,7 @@ Andere Microsoft Office-Software
 Microsoft Word Viewer
 </td>
 <td style="border:1px solid black;">
-[Microsoft Word Viewer](http://www.microsoft.com/downloads/details.aspx?familyid=1e392ff8-92e9-408d-bb14-1e0a6b4b6c9d)  
+[Microsoft Word Viewer](https://www.microsoft.com/download/details.aspx?familyid=1e392ff8-92e9-408d-bb14-1e0a6b4b6c9d)  
 (KB2687485)  
 (Hoch)
 </td>
@@ -910,7 +910,7 @@ Nicht anwendbar
 Microsoft Office Compatibility Pack Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Compatibility Pack Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=301446f7-991e-4abd-a06e-4a854f05ac84)  
+[Microsoft Office Compatibility Pack Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=301446f7-991e-4abd-a06e-4a854f05ac84)  
 (KB2687314)  
 (Hoch)
 </td>
@@ -926,7 +926,7 @@ Nicht anwendbar
 Microsoft Office Compatibility Pack Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Compatibility Pack Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=301446f7-991e-4abd-a06e-4a854f05ac84)  
+[Microsoft Office Compatibility Pack Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=301446f7-991e-4abd-a06e-4a854f05ac84)  
 (KB2687314)  
 (Hoch)
 </td>
@@ -948,10 +948,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft InfoPath 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=a0989a9f-3a7a-4343-9dd0-b2d694a0813b)  
+[Microsoft InfoPath 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=a0989a9f-3a7a-4343-9dd0-b2d694a0813b)  
 (KB2687439)  
 (Hoch)  
-[Microsoft InfoPath 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=29330e1a-6bac-4c54-98ef-b9a831801247)  
+[Microsoft InfoPath 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=29330e1a-6bac-4c54-98ef-b9a831801247)  
 (KB2687440)  
 (Hoch)
 </td>
@@ -967,10 +967,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft InfoPath 2007 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=a0989a9f-3a7a-4343-9dd0-b2d694a0813b)  
+[Microsoft InfoPath 2007 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=a0989a9f-3a7a-4343-9dd0-b2d694a0813b)  
 (KB2687439)  
 (Hoch)  
-[Microsoft InfoPath 2007 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=29330e1a-6bac-4c54-98ef-b9a831801247)  
+[Microsoft InfoPath 2007 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=29330e1a-6bac-4c54-98ef-b9a831801247)  
 (KB2687440)  
 (Hoch)
 </td>
@@ -986,10 +986,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft InfoPath 2010 Service Pack 1 (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=724b12b9-84bf-4102-912e-56aa9ee0878c)  
+[Microsoft InfoPath 2010 Service Pack 1 (32-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=724b12b9-84bf-4102-912e-56aa9ee0878c)  
 (KB2687436)  
 (Hoch)  
-[Microsoft InfoPath 2010 Service Pack 1 (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=b0be62c6-4eae-458e-8cf5-754742393e4c)  
+[Microsoft InfoPath 2010 Service Pack 1 (32-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=b0be62c6-4eae-458e-8cf5-754742393e4c)  
 (KB2687417)  
 (Hoch)
 </td>
@@ -1005,10 +1005,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft InfoPath 2010 Service Pack 1 (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=17b36fa3-9964-480a-bff8-b028619c5dfd)  
+[Microsoft InfoPath 2010 Service Pack 1 (64-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=17b36fa3-9964-480a-bff8-b028619c5dfd)  
 (KB2687436)  
 (Hoch)  
-[Microsoft InfoPath 2010 Service Pack 1 (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=6e5a7817-345e-4b75-aeca-94f74691c0e0)  
+[Microsoft InfoPath 2010 Service Pack 1 (64-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=6e5a7817-345e-4b75-aeca-94f74691c0e0)  
 (KB2687417)  
 (Hoch)
 </td>
@@ -1021,7 +1021,7 @@ Microsoft Works 9
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Works 9](http://www.microsoft.com/downloads/details.aspx?familyid=7e48cd96-4b91-4f7b-b8a0-2b88131ba51d)  
+[Microsoft Works 9](https://www.microsoft.com/download/details.aspx?familyid=7e48cd96-4b91-4f7b-b8a0-2b88131ba51d)  
 (KB2754670)  
 (Hoch)
 </td>
@@ -1086,7 +1086,7 @@ Microsoft SharePoint Server 2007 Service Pack 2 (32-Bit-Editionen)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft SharePoint Server 2007 Service Pack 2 (coreserver) (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=a8a818bb-67a3-4558-aac1-aaa33c6f4584)<sup>[1]</sup>
+[Microsoft SharePoint Server 2007 Service Pack 2 (coreserver) (32-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=a8a818bb-67a3-4558-aac1-aaa33c6f4584)<sup>[1]</sup>
 (KB2687405)  
 (Hoch)
 </td>
@@ -1102,7 +1102,7 @@ Microsoft SharePoint Server 2007 Service Pack 3 (32-Bit-Editionen)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft SharePoint Server 2007 Service Pack 3 (coreserver) (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=a8a818bb-67a3-4558-aac1-aaa33c6f4584)<sup>[1]</sup>
+[Microsoft SharePoint Server 2007 Service Pack 3 (coreserver) (32-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=a8a818bb-67a3-4558-aac1-aaa33c6f4584)<sup>[1]</sup>
 (KB2687405)  
 (Hoch)
 </td>
@@ -1118,7 +1118,7 @@ Microsoft SharePoint Server 2007 Service Pack 2 (64-Bit-Editionen)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft SharePoint Server 2007 Service Pack 2 (coreserver) (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=93f4e385-880a-4edc-9cde-24f38a11a41d)<sup>[1]</sup>
+[Microsoft SharePoint Server 2007 Service Pack 2 (coreserver) (64-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=93f4e385-880a-4edc-9cde-24f38a11a41d)<sup>[1]</sup>
 (KB2687405)  
 (Hoch)
 </td>
@@ -1134,7 +1134,7 @@ Microsoft SharePoint Server 2007 Service Pack 3 (64-Bit-Editionen)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft SharePoint Server 2007 Service Pack 3 (coreserver) (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=93f4e385-880a-4edc-9cde-24f38a11a41d)<sup>[1]</sup>
+[Microsoft SharePoint Server 2007 Service Pack 3 (coreserver) (64-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=93f4e385-880a-4edc-9cde-24f38a11a41d)<sup>[1]</sup>
 (KB2687405)  
 (Hoch)
 </td>
@@ -1147,15 +1147,15 @@ Nicht anwendbar
 Microsoft SharePoint Server 2010 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Word-Automatisierungsdienste](http://www.microsoft.com/downloads/details.aspx?familyid=3582ab6c-930b-4660-afcd-e2423ce56d8f)  
+[Word-Automatisierungsdienste](https://www.microsoft.com/download/details.aspx?familyid=3582ab6c-930b-4660-afcd-e2423ce56d8f)  
 (KB2598237)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft SharePoint Server 2010 Service Pack 1 (wosrv)](http://www.microsoft.com/downloads/details.aspx?familyid=af3ade8e-349f-4eec-a5c3-c5a70071582d)  
+[Microsoft SharePoint Server 2010 Service Pack 1 (wosrv)](https://www.microsoft.com/download/details.aspx?familyid=af3ade8e-349f-4eec-a5c3-c5a70071582d)  
 (KB2687435)  
 (Hoch)  
-[Microsoft SharePoint Server 2010 Service Pack 1 (coreserverloc)](http://www.microsoft.com/downloads/details.aspx?familyid=5518b70b-cac9-4aff-b049-156d3c08b04b)  
+[Microsoft SharePoint Server 2010 Service Pack 1 (coreserverloc)](https://www.microsoft.com/download/details.aspx?familyid=5518b70b-cac9-4aff-b049-156d3c08b04b)  
 (KB2589280)  
 (Hoch)
 </td>
@@ -1207,7 +1207,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Erweitertes Filterpaket](http://www.microsoft.com/downloads/details.aspx?familyid=17909d1f-c679-4a20-b39d-b99f9cc7dbc1)  
+[Erweitertes Filterpaket](https://www.microsoft.com/download/details.aspx?familyid=17909d1f-c679-4a20-b39d-b99f9cc7dbc1)  
 (KB2553402)  
 (Hoch)
 </td>
@@ -1253,7 +1253,7 @@ Microsoft Groove Server 2010 Service Pack 1
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Groove Server 2010 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=80552d2c-98f2-4c99-bfc6-e091fd1d51c4)  
+[Microsoft Groove Server 2010 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=80552d2c-98f2-4c99-bfc6-e091fd1d51c4)  
 (KB2687402)  
 (Hoch)
 </td>
@@ -1302,7 +1302,7 @@ Microsoft Windows SharePoint Services 3.0 Service Pack 2 (32-Bit-Version)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows SharePoint Services 3.0 Service Pack 2 (32-Bit-Version)](http://www.microsoft.com/downloads/details.aspx?familyid=e3a31cd4-bba3-4572-ab24-7b1dd0c4c01c)  
+[Microsoft Windows SharePoint Services 3.0 Service Pack 2 (32-Bit-Version)](https://www.microsoft.com/download/details.aspx?familyid=e3a31cd4-bba3-4572-ab24-7b1dd0c4c01c)  
 (KB2687356)  
 (Hoch)
 </td>
@@ -1318,7 +1318,7 @@ Microsoft Windows SharePoint Services 3.0 Service Pack 3 (32-Bit-Version)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows SharePoint Services 3.0 Service Pack 3 (32-Bit-Version)](http://www.microsoft.com/downloads/details.aspx?familyid=e3a31cd4-bba3-4572-ab24-7b1dd0c4c01c)  
+[Microsoft Windows SharePoint Services 3.0 Service Pack 3 (32-Bit-Version)](https://www.microsoft.com/download/details.aspx?familyid=e3a31cd4-bba3-4572-ab24-7b1dd0c4c01c)  
 (KB2687356)  
 (Hoch)
 </td>
@@ -1334,7 +1334,7 @@ Microsoft Windows SharePoint Services 3.0 Service Pack 2 (64-Bit-Version)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows SharePoint Services 3.0 Service Pack 2 (64-Bit-Version)](http://www.microsoft.com/downloads/details.aspx?familyid=77cab67c-be97-4808-9fb4-4defad563851)  
+[Microsoft Windows SharePoint Services 3.0 Service Pack 2 (64-Bit-Version)](https://www.microsoft.com/download/details.aspx?familyid=77cab67c-be97-4808-9fb4-4defad563851)  
 (KB2687356)  
 (Hoch)
 </td>
@@ -1350,7 +1350,7 @@ Microsoft Windows SharePoint Services 3.0 Service Pack 3 (64-Bit-Version)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows SharePoint Services 3.0 Service Pack 3 (64-Bit-Version)](http://www.microsoft.com/downloads/details.aspx?familyid=77cab67c-be97-4808-9fb4-4defad563851)  
+[Microsoft Windows SharePoint Services 3.0 Service Pack 3 (64-Bit-Version)](https://www.microsoft.com/download/details.aspx?familyid=77cab67c-be97-4808-9fb4-4defad563851)  
 (KB2687356)  
 (Hoch)
 </td>
@@ -1366,7 +1366,7 @@ Microsoft SharePoint Foundation 2010 Service Pack 1
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft SharePoint Foundation 2010 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=79724c7c-7cdf-44c9-9e25-577104c5004b)  
+[Microsoft SharePoint Foundation 2010 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=79724c7c-7cdf-44c9-9e25-577104c5004b)  
 (KB2687434)  
 (Hoch)
 </td>
@@ -1412,12 +1412,12 @@ Keine
 Microsoft Office Web Apps 2010 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Web Apps 2010 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=e7a2dd61-36d5-4313-a8dc-15456b275b9c)  
+[Microsoft Office Web Apps 2010 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=e7a2dd61-36d5-4313-a8dc-15456b275b9c)  
 (KB2687401)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Web Apps 2010 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=e7a2dd61-36d5-4313-a8dc-15456b275b9c)  
+[Microsoft Office Web Apps 2010 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=e7a2dd61-36d5-4313-a8dc-15456b275b9c)  
 (KB2687401)  
 (Hoch)
 </td>
@@ -1467,7 +1467,7 @@ Microsoft Communicator
 Microsoft Communicator 2007 R2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Communicator 2007 R2](http://www.microsoft.com/downloads/details.aspx?familyid=a228c1dd-9e57-48cb-8db4-896d6c499b46)  
+[Microsoft Communicator 2007 R2](https://www.microsoft.com/download/details.aspx?familyid=a228c1dd-9e57-48cb-8db4-896d6c499b46)  
 (KB2726391)  
 (Hoch)
 </td>
@@ -1498,7 +1498,7 @@ Microsoft Lync
 Microsoft Lync 2010 (32-Bit)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Lync 2010 (32-Bit)](http://www.microsoft.com/downloads/details.aspx?familyid=6ea3afea-baa2-4b74-9747-8051c544ddf7)  
+[Microsoft Lync 2010 (32-Bit)](https://www.microsoft.com/download/details.aspx?familyid=6ea3afea-baa2-4b74-9747-8051c544ddf7)  
 (KB2726382)  
 (Hoch)
 </td>
@@ -1508,7 +1508,7 @@ Microsoft Lync 2010 (32-Bit)
 Microsoft Lync 2010 (64-Bit)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Lync 2010 (64-Bit)](http://www.microsoft.com/downloads/details.aspx?familyid=670c20e6-4f26-47b9-b6e0-25f195bf7000)  
+[Microsoft Lync 2010 (64-Bit)](https://www.microsoft.com/download/details.aspx?familyid=670c20e6-4f26-47b9-b6e0-25f195bf7000)  
 (KB2726382)  
 (Hoch)
 </td>
@@ -1518,11 +1518,11 @@ Microsoft Lync 2010 (64-Bit)
 Microsoft Lync 2010 Attendee
 </td>
 <td style="border:1px solid black;">
-[Microsoft Lync 2010 Attendee](http://www.microsoft.com/downloads/details.aspx?familyid=7f98cb55-027a-40bf-b539-d8fa38ffcc83)  
+[Microsoft Lync 2010 Attendee](https://www.microsoft.com/download/details.aspx?familyid=7f98cb55-027a-40bf-b539-d8fa38ffcc83)  
 (Installation auf Administratorebene)  
 (KB2726388)  
 (Hoch)  
-[Microsoft Lync 2010 Attendee](http://www.microsoft.com/downloads/details.aspx?familyid=32860684-998e-4e55-b719-c44532bc753d)<sup>[1]</sup>
+[Microsoft Lync 2010 Attendee](https://www.microsoft.com/download/details.aspx?familyid=32860684-998e-4e55-b719-c44532bc753d)<sup>[1]</sup>
 (Installation auf Benutzerebene)  
 (KB2726384)  
 (Hoch)
@@ -1566,7 +1566,7 @@ SQL Server 2000
 Microsoft SQL Server 2000 Reporting Services Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2000 Reporting Services Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1c70a2cb-e8a9-439f-b34a-7d1641daf325)  
+[Microsoft SQL Server 2000 Reporting Services Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1c70a2cb-e8a9-439f-b34a-7d1641daf325)  
 (KB983814)  
 (Hoch)
 </td>
@@ -1597,11 +1597,11 @@ SQL Server 2005
 Microsoft SQL Server 2005 Express Edition mit Advanced Services Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2005 Express Edition mit Advanced Services Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=623841cc-06f7-4475-b2c0-531aed9972a3)<sup>[1]</sup>
+[Microsoft SQL Server 2005 Express Edition mit Advanced Services Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=623841cc-06f7-4475-b2c0-531aed9972a3)<sup>[1]</sup>
 (GDR)  
 (KB2716429)  
 (Hoch)  
-[Microsoft SQL Server 2005 Express Edition mit Advanced Services Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=16cc7b80-ea4c-4b17-9ac2-250b771a569a)<sup>[1]</sup>
+[Microsoft SQL Server 2005 Express Edition mit Advanced Services Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=16cc7b80-ea4c-4b17-9ac2-250b771a569a)<sup>[1]</sup>
 (QFE)  
 (KB2716427)  
 (Hoch)
@@ -1612,11 +1612,11 @@ Microsoft SQL Server 2005 Express Edition mit Advanced Services Service Pack 4
 Microsoft SQL Server 2005 für 32-Bit-Systeme Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2005 für 32-Bit-Systeme Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=623841cc-06f7-4475-b2c0-531aed9972a3)<sup>[1]</sup>
+[Microsoft SQL Server 2005 für 32-Bit-Systeme Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=623841cc-06f7-4475-b2c0-531aed9972a3)<sup>[1]</sup>
 (GDR)  
 (KB2716429)  
 (Hoch)  
-[Microsoft SQL Server 2005 für 32-Bit-Systeme Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=16cc7b80-ea4c-4b17-9ac2-250b771a569a)<sup>[1]</sup>
+[Microsoft SQL Server 2005 für 32-Bit-Systeme Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=16cc7b80-ea4c-4b17-9ac2-250b771a569a)<sup>[1]</sup>
 (QFE)  
 (KB2716427)  
 (Hoch)
@@ -1627,11 +1627,11 @@ Microsoft SQL Server 2005 für 32-Bit-Systeme Service Pack 4
 Microsoft SQL Server 2005 für x64-basierte Systeme Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2005 für x64-basierte Systeme Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=623841cc-06f7-4475-b2c0-531aed9972a3)<sup>[1]</sup>
+[Microsoft SQL Server 2005 für x64-basierte Systeme Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=623841cc-06f7-4475-b2c0-531aed9972a3)<sup>[1]</sup>
 (GDR)  
 (KB2716429)  
 (Hoch)  
-[Microsoft SQL Server 2005 für x64-basierte Systeme Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=16cc7b80-ea4c-4b17-9ac2-250b771a569a)<sup>[1]</sup>
+[Microsoft SQL Server 2005 für x64-basierte Systeme Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=16cc7b80-ea4c-4b17-9ac2-250b771a569a)<sup>[1]</sup>
 (QFE)  
 (KB2716427)  
 (Hoch)
@@ -1642,11 +1642,11 @@ Microsoft SQL Server 2005 für x64-basierte Systeme Service Pack 4
 Microsoft SQL Server 2005 für Itanium-basierte Systeme Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2005 für Itanium-basierte Systeme Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=623841cc-06f7-4475-b2c0-531aed9972a3)<sup>[1]</sup>
+[Microsoft SQL Server 2005 für Itanium-basierte Systeme Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=623841cc-06f7-4475-b2c0-531aed9972a3)<sup>[1]</sup>
 (GDR)  
 (KB2716429)  
 (Hoch)  
-[Microsoft SQL Server 2005 für Itanium-basierte Systeme Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=16cc7b80-ea4c-4b17-9ac2-250b771a569a)<sup>[1]</sup>
+[Microsoft SQL Server 2005 für Itanium-basierte Systeme Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=16cc7b80-ea4c-4b17-9ac2-250b771a569a)<sup>[1]</sup>
 (QFE)  
 (KB2716427)  
 (Hoch)
@@ -1678,11 +1678,11 @@ SQL Server 2008
 Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1bf8dc30-2a90-4196-814c-717ccd74ea13)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1bf8dc30-2a90-4196-814c-717ccd74ea13)<sup>[1]</sup>
 (GDR)  
 (KB2716434)  
 (Hoch)  
-[Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d8b1b25-45ad-4f19-ba50-e77debf2b463)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7d8b1b25-45ad-4f19-ba50-e77debf2b463)<sup>[1]</sup>
 (QFE)  
 (KB2716433)  
 (Hoch)
@@ -1693,11 +1693,11 @@ Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 2
 Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=04621a83-c2e2-4a60-9198-10104372b120)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=04621a83-c2e2-4a60-9198-10104372b120)<sup>[1]</sup>
 (GDR)  
 (KB2716436)  
 (Hoch)  
-[Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=4c4597d2-dea0-49b9-a5a9-a7771a3d64c0)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=4c4597d2-dea0-49b9-a5a9-a7771a3d64c0)<sup>[1]</sup>
 (QFE)  
 (KB2716435)  
 (Hoch)
@@ -1708,11 +1708,11 @@ Microsoft SQL Server 2008 für 32-Bit-Systeme Service Pack 3
 Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1bf8dc30-2a90-4196-814c-717ccd74ea13)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1bf8dc30-2a90-4196-814c-717ccd74ea13)<sup>[1]</sup>
 (GDR)  
 (KB2716434)  
 (Hoch)  
-[Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d8b1b25-45ad-4f19-ba50-e77debf2b463)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7d8b1b25-45ad-4f19-ba50-e77debf2b463)<sup>[1]</sup>
 (QFE)  
 (KB2716433)  
 (Hoch)
@@ -1723,11 +1723,11 @@ Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 2
 Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=04621a83-c2e2-4a60-9198-10104372b120)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=04621a83-c2e2-4a60-9198-10104372b120)<sup>[1]</sup>
 (GDR)  
 (KB2716436)  
 (Hoch)  
-[Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=4c4597d2-dea0-49b9-a5a9-a7771a3d64c0)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=4c4597d2-dea0-49b9-a5a9-a7771a3d64c0)<sup>[1]</sup>
 (QFE)  
 (KB2716435)  
 (Hoch)
@@ -1738,11 +1738,11 @@ Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 3
 Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1bf8dc30-2a90-4196-814c-717ccd74ea13)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1bf8dc30-2a90-4196-814c-717ccd74ea13)<sup>[1]</sup>
 (GDR)  
 (KB2716434)  
 (Hoch)  
-[Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d8b1b25-45ad-4f19-ba50-e77debf2b463)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7d8b1b25-45ad-4f19-ba50-e77debf2b463)<sup>[1]</sup>
 (QFE)  
 (KB2716433)  
 (Hoch)
@@ -1753,11 +1753,11 @@ Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 2
 Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=04621a83-c2e2-4a60-9198-10104372b120)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=04621a83-c2e2-4a60-9198-10104372b120)<sup>[1]</sup>
 (GDR)  
 (KB2716436)  
 (Hoch)  
-[Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=4c4597d2-dea0-49b9-a5a9-a7771a3d64c0)<sup>[1]</sup>
+[Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=4c4597d2-dea0-49b9-a5a9-a7771a3d64c0)<sup>[1]</sup>
 (QFE)  
 (KB2716435)  
 (Hoch)
@@ -1789,11 +1789,11 @@ SQL Server 2008 R2
 Microsoft SQL Server 2008 R2 für 32-Bit-Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 R2 für 32-Bit-Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=215a9184-71c5-41e6-b4d5-03602182a88f)<sup>[1]</sup>
+[Microsoft SQL Server 2008 R2 für 32-Bit-Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=215a9184-71c5-41e6-b4d5-03602182a88f)<sup>[1]</sup>
 (GDR)  
 (KB2716440)  
 (Hoch)  
-[Microsoft SQL Server 2008 R2 für 32-Bit-Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=cdc4fc03-dfba-41d4-b651-d7967a067eea)<sup>[1]</sup>
+[Microsoft SQL Server 2008 R2 für 32-Bit-Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=cdc4fc03-dfba-41d4-b651-d7967a067eea)<sup>[1]</sup>
 (QFE)  
 (KB2716439)  
 (Hoch)
@@ -1804,11 +1804,11 @@ Microsoft SQL Server 2008 R2 für 32-Bit-Systeme Service Pack 1
 Microsoft SQL Server 2008 R2 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=215a9184-71c5-41e6-b4d5-03602182a88f)<sup>[1]</sup>
+[Microsoft SQL Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=215a9184-71c5-41e6-b4d5-03602182a88f)<sup>[1]</sup>
 (GDR)  
 (KB2716440)  
 (Hoch)  
-[Microsoft SQL Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=cdc4fc03-dfba-41d4-b651-d7967a067eea)<sup>[1]</sup>
+[Microsoft SQL Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=cdc4fc03-dfba-41d4-b651-d7967a067eea)<sup>[1]</sup>
 (QFE)  
 (KB2716439)  
 (Hoch)
@@ -1819,11 +1819,11 @@ Microsoft SQL Server 2008 R2 für x64-basierte Systeme Service Pack 1
 Microsoft SQL Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=215a9184-71c5-41e6-b4d5-03602182a88f)<sup>[1]</sup>
+[Microsoft SQL Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=215a9184-71c5-41e6-b4d5-03602182a88f)<sup>[1]</sup>
 (GDR)  
 (KB2716440)  
 (Hoch)  
-[Microsoft SQL Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=cdc4fc03-dfba-41d4-b651-d7967a067eea)<sup>[1]</sup>
+[Microsoft SQL Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=cdc4fc03-dfba-41d4-b651-d7967a067eea)<sup>[1]</sup>
 (QFE)  
 (KB2716439)  
 (Hoch)
@@ -1855,11 +1855,11 @@ SQL Server 2012
 Microsoft SQL Server 2012 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2012 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=e79b4e5b-1549-4e76-afef-b771b432365b)<sup>[1]</sup>
+[Microsoft SQL Server 2012 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=e79b4e5b-1549-4e76-afef-b771b432365b)<sup>[1]</sup>
 (GDR)  
 (KB2716442)  
 (Hoch)  
-[Microsoft SQL Server 2012 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=ebfcb341-e240-4107-92f1-ab75cc28151a)<sup>[1]</sup>
+[Microsoft SQL Server 2012 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=ebfcb341-e240-4107-92f1-ab75cc28151a)<sup>[1]</sup>
 (QFE)  
 (KB2716441)  
 (Hoch)
@@ -1870,11 +1870,11 @@ Microsoft SQL Server 2012 für 32-Bit-Systeme
 Microsoft SQL Server 2012 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2012 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=e79b4e5b-1549-4e76-afef-b771b432365b)<sup>[1]</sup>
+[Microsoft SQL Server 2012 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=e79b4e5b-1549-4e76-afef-b771b432365b)<sup>[1]</sup>
 (GDR)  
 (KB2716442)  
 (Hoch)  
-[Microsoft SQL Server 2012 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=ebfcb341-e240-4107-92f1-ab75cc28151a)<sup>[1]</sup>
+[Microsoft SQL Server 2012 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=ebfcb341-e240-4107-92f1-ab75cc28151a)<sup>[1]</sup>
 (QFE)  
 (KB2716441)  
 (Hoch)
@@ -1925,13 +1925,13 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Hinweis:** System Management Server 2003 wurde am 12. Januar 2010 aus dem grundlegenden Support genommen. Weitere Informationen zu Produktlebenszyklen finden Sie auf der Website [Microsoft Support Lifecycle](http://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de). Die nächste Version von SMS, System Center Configuration Manager, ist jetzt verfügbar (siehe den früheren Abschnitt, **System Center Configuration Manager**).
 
-Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](http://www.microsoft.com/downloads/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](http://technet.microsoft.com/de-de/systemcenter/bb545936).
+Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](https://www.microsoft.com/download/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](http://technet.microsoft.com/de-de/systemcenter/bb545936).
 
 **Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://technet.microsoft.com/en-us/library/cc917507.aspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können diese Updates mit dem Elevated Rights Deployment Tool (im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/de-de/download/details.aspx?id=1846) verfügbar) installieren.
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc749197), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc749197), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

@@ -112,7 +112,7 @@ Microsoft Windows 2000 Server Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c80fcd9b-d0f8-44db-96fc-bf2ead054ff4)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c80fcd9b-d0f8-44db-96fc-bf2ead054ff4)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -120,7 +120,7 @@ Microsoft Windows 2000 Server Service Pack 4
 Windows XP Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8ba1c2f9-1bde-4e97-b327-21259c5e5104)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8ba1c2f9-1bde-4e97-b327-21259c5e5104)
 </td>
 <td style="border:1px solid black;">
 
@@ -131,7 +131,7 @@ Windows XP Service Pack 2
 Windows XP Professional x64 Edition
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=4ef7fdd7-8887-4c64-a70c-c6ae734d7c5f)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=4ef7fdd7-8887-4c64-a70c-c6ae734d7c5f)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -141,7 +141,7 @@ Windows XP Professional x64 Edition
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=4ef7fdd7-8887-4c64-a70c-c6ae734d7c5f)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=4ef7fdd7-8887-4c64-a70c-c6ae734d7c5f)
 </td>
 <td style="border:1px solid black;">
 
@@ -152,10 +152,10 @@ Windows XP Professional x64 Edition Service Pack 2
 Windows Server 2003 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e5d8a866-2c1f-4035-8325-c1be61a75c3b)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e5d8a866-2c1f-4035-8325-c1be61a75c3b)
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ed8e2cb4-bcd9-40fc-9ad6-46b364d0656d)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ed8e2cb4-bcd9-40fc-9ad6-46b364d0656d)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -163,10 +163,10 @@ Windows Server 2003 Service Pack 1
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e5d8a866-2c1f-4035-8325-c1be61a75c3b)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e5d8a866-2c1f-4035-8325-c1be61a75c3b)
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ed8e2cb4-bcd9-40fc-9ad6-46b364d0656d)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ed8e2cb4-bcd9-40fc-9ad6-46b364d0656d)
 </td>
 </tr>
 <tr>
@@ -174,10 +174,10 @@ Windows Server 2003 Service Pack 2
 Windows Server 2003 x64 Edition
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bf26da08-15b8-4d65-ba12-4cc74c7a1326)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bf26da08-15b8-4d65-ba12-4cc74c7a1326)
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d1323e14-ffa7-4d03-a2a7-9240c192a75e)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d1323e14-ffa7-4d03-a2a7-9240c192a75e)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -185,10 +185,10 @@ Windows Server 2003 x64 Edition
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bf26da08-15b8-4d65-ba12-4cc74c7a1326)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bf26da08-15b8-4d65-ba12-4cc74c7a1326)
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d1323e14-ffa7-4d03-a2a7-9240c192a75e)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d1323e14-ffa7-4d03-a2a7-9240c192a75e)
 </td>
 </tr>
 <tr>
@@ -196,10 +196,10 @@ Windows Server 2003 x64 Edition Service Pack 2
 Windows Server 2003 mit SP1 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1c055f11-3273-4a4c-a33f-bf61ac9ec4c5)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1c055f11-3273-4a4c-a33f-bf61ac9ec4c5)
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f3ad67de-85ad-452d-a1e0-0af3faf969d6)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f3ad67de-85ad-452d-a1e0-0af3faf969d6)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -207,10 +207,10 @@ Windows Server 2003 mit SP1 für Itanium-basierte Systeme
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1c055f11-3273-4a4c-a33f-bf61ac9ec4c5)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1c055f11-3273-4a4c-a33f-bf61ac9ec4c5)
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f3ad67de-85ad-452d-a1e0-0af3faf969d6)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f3ad67de-85ad-452d-a1e0-0af3faf969d6)
 </td>
 </tr>
 </table>

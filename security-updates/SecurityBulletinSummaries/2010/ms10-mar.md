@@ -169,9 +169,9 @@ Microsoft Windows 2000 Service Pack 4
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 5.01 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=389da7a9-e0a3-4b5d-801e-0a38fc55dcec)  
+[Internet Explorer 5.01 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=389da7a9-e0a3-4b5d-801e-0a38fc55dcec)  
 (Kritisch)  
-[Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=daf199c4-da56-4a7f-80e6-3936ce5c267b)  
+[Internet Explorer 6 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=daf199c4-da56-4a7f-80e6-3936ce5c267b)  
 (Kritisch)
 </td>
 </tr>
@@ -207,15 +207,15 @@ Windows XP
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Movie Maker 2.1](http://www.microsoft.com/downloads/details.aspx?familyid=6301e462-02be-4b9a-bae9-7c4821b42d2d&displaylang=de)<sup>[1]</sup>  
+[Movie Maker 2.1](https://www.microsoft.com/download/details.aspx?familyid=6301e462-02be-4b9a-bae9-7c4821b42d2d&displaylang=de)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=2f2caa01-5cd1-45cb-9995-e34d933920d4)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=2f2caa01-5cd1-45cb-9995-e34d933920d4)  
 (Kritisch)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=167ed896-d383-4dc0-9183-cd4cb73e17e7)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=167ed896-d383-4dc0-9183-cd4cb73e17e7)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=46172617-293a-44c7-95b6-18202ab06a41)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=46172617-293a-44c7-95b6-18202ab06a41)  
 (Kritisch)
 </td>
 </tr>
@@ -224,15 +224,15 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Movie Maker 2.1](http://www.microsoft.com/downloads/details.aspx?familyid=cae81585-d0df-41b8-9277-ca02f1265056)<sup>[1]</sup>  
+[Movie Maker 2.1](https://www.microsoft.com/download/details.aspx?familyid=cae81585-d0df-41b8-9277-ca02f1265056)<sup>[1]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=6c711387-6853-477c-917e-820a97613cf9)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=6c711387-6853-477c-917e-820a97613cf9)  
 (Kritisch)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=aadb1d97-5cec-45ed-9967-aaf41a0bcdac)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=aadb1d97-5cec-45ed-9967-aaf41a0bcdac)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=284d70ea-24a3-4e67-a2a8-e9f272f728db)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=284d70ea-24a3-4e67-a2a8-e9f272f728db)  
 (Kritisch)
 </td>
 </tr>
@@ -271,11 +271,11 @@ Windows Server 2003 Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=dc77f1c9-8240-42d9-aee9-30ac4f33bde7)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=dc77f1c9-8240-42d9-aee9-30ac4f33bde7)  
 (Hoch)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=e957a7cf-e5ca-454d-b199-ec8fe6a6a2bf)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=e957a7cf-e5ca-454d-b199-ec8fe6a6a2bf)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=53fc3285-63c4-487f-ad9a-7e1673aeffc7)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=53fc3285-63c4-487f-ad9a-7e1673aeffc7)  
 (Mittel)
 </td>
 </tr>
@@ -287,11 +287,11 @@ Windows Server 2003 x64 Edition Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=2be85462-28ec-4184-a326-0459554b7213)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=2be85462-28ec-4184-a326-0459554b7213)  
 (Hoch)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=cb0e39f8-9730-4454-a0e3-479b610b1591)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=cb0e39f8-9730-4454-a0e3-479b610b1591)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=5201a0c5-8162-4809-b9d1-0e972b0f0066)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=5201a0c5-8162-4809-b9d1-0e972b0f0066)  
 (Mittel)
 </td>
 </tr>
@@ -303,9 +303,9 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=04abea55-ea2f-423f-b410-5536ea184ea3)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=04abea55-ea2f-423f-b410-5536ea184ea3)  
 (Hoch)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=7ebd99b4-da6b-4dff-9f89-6a86d275a3da)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=7ebd99b4-da6b-4dff-9f89-6a86d275a3da)  
 (Kritisch)
 </td>
 </tr>
@@ -341,15 +341,15 @@ Windows Vista
 Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=ae2e9b75-1616-4fe3-91bb-e2e28252ff1c&displaylang=de)<sup>[1]</sup>  
+[Movie Maker 6.0](https://www.microsoft.com/download/details.aspx?familyid=ae2e9b75-1616-4fe3-91bb-e2e28252ff1c&displaylang=de)<sup>[1]</sup>  
 (Hoch)  
-[Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=ca2d1118-ca64-419d-86af-9396e61b90b0&displaylang=de)<sup>[2]</sup>  
+[Movie Maker 2.6](https://www.microsoft.com/download/details.aspx?familyid=ca2d1118-ca64-419d-86af-9396e61b90b0&displaylang=de)<sup>[2]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=511aba0e-6f15-42cf-9c5d-b2f3e215b5a8)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=511aba0e-6f15-42cf-9c5d-b2f3e215b5a8)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=c9584689-5196-4840-927c-23c8038f3382)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=c9584689-5196-4840-927c-23c8038f3382)  
 (Kritisch)
 </td>
 </tr>
@@ -358,15 +358,15 @@ Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e27f353e-deb6-4d61-8808-c751d20a42a1&displaylang=de)<sup>[1]</sup>  
+[Movie Maker 6.0](https://www.microsoft.com/download/details.aspx?familyid=e27f353e-deb6-4d61-8808-c751d20a42a1&displaylang=de)<sup>[1]</sup>  
 (Hoch)  
-[Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=6a1f4126-97f2-4aee-bfe1-05bd13a0667b&displaylang=de)<sup>[2]</sup>  
+[Movie Maker 2.6](https://www.microsoft.com/download/details.aspx?familyid=6a1f4126-97f2-4aee-bfe1-05bd13a0667b&displaylang=de)<sup>[2]</sup>  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=c8933a45-62a7-4c19-be30-02e3a461f081)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=c8933a45-62a7-4c19-be30-02e3a461f081)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=50809cc3-6baa-41b4-ba0a-596a1dd846ed)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=50809cc3-6baa-41b4-ba0a-596a1dd846ed)  
 (Kritisch)
 </td>
 </tr>
@@ -405,9 +405,9 @@ Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Sy
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=42f8c1f2-ee55-47af-b113-8d9f4bd40c8f)\*\*  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=42f8c1f2-ee55-47af-b113-8d9f4bd40c8f)\*\*  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=c69a6dfe-66b1-4426-96a5-d64000296e76)\*\*  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=c69a6dfe-66b1-4426-96a5-d64000296e76)\*\*  
 (Mittel)
 </td>
 </tr>
@@ -419,9 +419,9 @@ Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=769043b5-df52-4446-9bd8-dc37d9fa00df)\*\*  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=769043b5-df52-4446-9bd8-dc37d9fa00df)\*\*  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=e16c10d2-896d-48f3-bc76-5fa70881396a)\*\*  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=e16c10d2-896d-48f3-bc76-5fa70881396a)\*\*  
 (Mittel)
 </td>
 </tr>
@@ -433,7 +433,7 @@ Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=c1c2309d-22db-4dbf-ad95-3219847cd42d)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=c1c2309d-22db-4dbf-ad95-3219847cd42d)  
 (Kritisch)
 </td>
 </tr>
@@ -472,7 +472,7 @@ Windows 7 für 32-Bit-Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=c0145563-428e-47b6-b245-b59dce88ac0e)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=c0145563-428e-47b6-b245-b59dce88ac0e)  
 (Kritisch)
 </td>
 </tr>
@@ -484,7 +484,7 @@ Windows 7 für x64-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=6172dbec-6bfc-40bd-a0d4-67c39fb41b87)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=6172dbec-6bfc-40bd-a0d4-67c39fb41b87)  
 (Kritisch)
 </td>
 </tr>
@@ -523,7 +523,7 @@ Windows Server 2008 R2 für x64-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=8b7c664b-8612-458f-bd0a-cf28b67f8374)\*\*  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=8b7c664b-8612-458f-bd0a-cf28b67f8374)\*\*  
 (Mittel)
 </td>
 </tr>
@@ -535,7 +535,7 @@ Windows Server 2008 R2 für Itanium-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=82fa6f47-002f-4943-888c-2e852675e76e)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=82fa6f47-002f-4943-888c-2e852675e76e)  
 (Mittel)
 </td>
 </tr>
@@ -597,7 +597,7 @@ Keine
 Microsoft Office XP
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e0136f62-60ce-4ebd-8660-be81eba29ae8&displaylang=de)  
+[Microsoft Office Excel 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=e0136f62-60ce-4ebd-8660-be81eba29ae8&displaylang=de)  
 (KB978471)  
 (Hoch)
 </td>
@@ -610,7 +610,7 @@ Nicht anwendbar
 Microsoft Office 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=7e42793e-747b-48da-968a-1ec29ea37151&displaylang=de)  
+[Microsoft Office Excel 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=7e42793e-747b-48da-968a-1ec29ea37151&displaylang=de)  
 (KB978474)  
 (Hoch)
 </td>
@@ -623,7 +623,7 @@ Nicht anwendbar
 Microsoft Office System 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=03429f8a-8aab-4a59-97e4-7ce047f100a5&displaylang=de)<sup>[1]</sup>  
+[Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=03429f8a-8aab-4a59-97e4-7ce047f100a5&displaylang=de)<sup>[1]</sup>  
 (KB978382)  
 (Hoch)
 </td>
@@ -663,7 +663,7 @@ Keine
 Microsoft Office 2004 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=ae5936f8-fe3f-4d23-a37c-d80f228e475e)  
+[Microsoft Office 2004 für Mac](https://www.microsoft.com/download/details.aspx?familyid=ae5936f8-fe3f-4d23-a37c-d80f228e475e)  
 (KB980837)  
 (Hoch)
 </td>
@@ -676,7 +676,7 @@ Nicht anwendbar
 Microsoft Office 2008 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2008 für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=e0ed1569-ab2f-407c-b728-4eddc463c385&displaylang=de)  
+[Microsoft Office 2008 für Mac](https://www.microsoft.com/download/details.aspx?familyid=e0ed1569-ab2f-407c-b728-4eddc463c385&displaylang=de)  
 (KB980839)  
 (Hoch)
 </td>
@@ -689,7 +689,7 @@ Nicht anwendbar
 Open XML-Dateiformatkonverter für Mac
 </td>
 <td style="border:1px solid black;">
-[Open XML-Dateiformatkonverter für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=4c5487d5-c912-4087-8c83-769e3fb78ea9&displaylang=de)  
+[Open XML-Dateiformatkonverter für Mac](https://www.microsoft.com/download/details.aspx?familyid=4c5487d5-c912-4087-8c83-769e3fb78ea9&displaylang=de)  
 (KB980840)  
 (Hoch)
 </td>
@@ -729,7 +729,7 @@ Weitere Office-Software
 Microsoft Office Excel Viewer
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel Viewer Service Pack 1 und Microsoft Office Excel Viewer Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=010d0a4d-02a4-4142-963b-a38cd06cc897&displaylang=de)  
+[Microsoft Office Excel Viewer Service Pack 1 und Microsoft Office Excel Viewer Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=010d0a4d-02a4-4142-963b-a38cd06cc897&displaylang=de)  
 (KB978383)  
 (Hoch)
 </td>
@@ -742,7 +742,7 @@ Nicht anwendbar
 Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=314f076e-8f9d-46c2-b666-86599a02bf15&displaylang=de)  
+[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=314f076e-8f9d-46c2-b666-86599a02bf15&displaylang=de)  
 (KB978380)  
 (Hoch)
 </td>
@@ -755,7 +755,7 @@ Nicht anwendbar
 Microsoft Office SharePoint Server 2007 (32-Bit-Edition)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=94ddf6ef-3392-4d77-a02b-3bc0470721cd&displaylang=de)<sup>[2]</sup>  
+[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (32-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=94ddf6ef-3392-4d77-a02b-3bc0470721cd&displaylang=de)<sup>[2]</sup>  
 (KB979439)  
 (Hoch)
 </td>
@@ -768,7 +768,7 @@ Nicht anwendbar
 Microsoft Office SharePoint Server 2007 (64-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=06f6bffb-3fad-4fb5-878b-39550812e9b5&displaylang=de)<sup>[2]</sup>  
+[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (64-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=06f6bffb-3fad-4fb5-878b-39550812e9b5&displaylang=de)<sup>[2]</sup>  
 (KB979439)  
 (Hoch)
 </td>
@@ -784,7 +784,7 @@ Microsoft Producer 2003
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Producer 2003](http://www.microsoft.com/downloads/details.aspx?familyid=1b3c76d5-fc75-4f99-94bc-784919468e73)<sup>[3]</sup>  
+[Microsoft Producer 2003](https://www.microsoft.com/download/details.aspx?familyid=1b3c76d5-fc75-4f99-94bc-784919468e73)<sup>[3]</sup>  
 (Hoch)
 </td>
 </tr>
@@ -792,7 +792,7 @@ Nicht anwendbar
  
 **Hinweise für MS10-017**
 
-<sup>[1]</sup>Für Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2 müssen Benutzer zusätzlich zum Sicherheitsupdatepaket KB978382 auch das Sicherheitsupdate für [Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=314f076e-8f9d-46c2-b666-86599a02bf15&displaylang=de) (KB978380) installieren, um vor den in diesem Bulletin beschriebenen Sicherheitsanfälligkeiten geschützt zu sein.
+<sup>[1]</sup>Für Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2 müssen Benutzer zusätzlich zum Sicherheitsupdatepaket KB978382 auch das Sicherheitsupdate für [Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=314f076e-8f9d-46c2-b666-86599a02bf15&displaylang=de) (KB978380) installieren, um vor den in diesem Bulletin beschriebenen Sicherheitsanfälligkeiten geschützt zu sein.
 
 <sup>[2]</sup>Dieses Update gilt für Server, auf denen Excel Services installiert sind, z. B. die Standardkonfiguration von Microsoft Office SharePoint Server 2007 Enterprise und Microsoft Office SharePoint Server 2007 für Websites. Microsoft Office SharePoint Server 2007 Standard enthält Excel Services nicht.
 
@@ -837,7 +837,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

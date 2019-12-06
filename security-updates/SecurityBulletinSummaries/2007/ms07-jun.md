@@ -196,7 +196,7 @@ Microsoft Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5b8e728c-cb9f-4176-93a0-bf42d6387f93)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5b8e728c-cb9f-4176-93a0-bf42d6387f93)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -206,7 +206,7 @@ Microsoft Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3918ac76-ebb6-4886-9a9e-808eafb96b1b)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3918ac76-ebb6-4886-9a9e-808eafb96b1b)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -216,7 +216,7 @@ Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8615e6f3-415b-4c23-ba52-7eef70a11d77)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8615e6f3-415b-4c23-ba52-7eef70a11d77)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -227,7 +227,7 @@ Windows XP Service Pack 2
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=27c7f1b9-2d1d-40cb-ad7e-bfedb6156a9c)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=27c7f1b9-2d1d-40cb-ad7e-bfedb6156a9c)
 </td>
 </tr>
 <tr>
@@ -237,7 +237,7 @@ Windows XP Professional x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=7e994340-c616-4f66-845b-7eaf095e968a&displaylang=en)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=7e994340-c616-4f66-845b-7eaf095e968a&displaylang=en)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -248,7 +248,7 @@ Windows XP Professional x64 Edition
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=0ba12191-1e6f-443b-9150-7ab8b2deb7c2&displaylang=en)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=0ba12191-1e6f-443b-9150-7ab8b2deb7c2&displaylang=en)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -258,7 +258,7 @@ Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=7e994340-c616-4f66-845b-7eaf095e968a&displaylang=en)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=7e994340-c616-4f66-845b-7eaf095e968a&displaylang=en)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -269,7 +269,7 @@ Windows XP Professional x64 Edition Service Pack 2
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=0ba12191-1e6f-443b-9150-7ab8b2deb7c2&displaylang=en)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=0ba12191-1e6f-443b-9150-7ab8b2deb7c2&displaylang=en)
 </td>
 </tr>
 <tr>
@@ -279,7 +279,7 @@ Windows Server 2003 Service Pack 1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=39e6c6d2-7e6f-4992-a731-36f44fe2d87f)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=39e6c6d2-7e6f-4992-a731-36f44fe2d87f)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -290,7 +290,7 @@ Windows Server 2003 Service Pack 1
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d554dff4-bcfb-4bbc-8fa0-af2f939d2610)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d554dff4-bcfb-4bbc-8fa0-af2f939d2610)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -300,7 +300,7 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=39e6c6d2-7e6f-4992-a731-36f44fe2d87f)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=39e6c6d2-7e6f-4992-a731-36f44fe2d87f)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -311,7 +311,7 @@ Windows Server 2003 Service Pack 2
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d554dff4-bcfb-4bbc-8fa0-af2f939d2610)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d554dff4-bcfb-4bbc-8fa0-af2f939d2610)
 </td>
 </tr>
 <tr>
@@ -321,7 +321,7 @@ Windows Server 2003 x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=da424772-079c-4351-9759-8886e0f1ba79)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=da424772-079c-4351-9759-8886e0f1ba79)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -332,7 +332,7 @@ Windows Server 2003 x64 Edition
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=170473d8-6bb1-4fbd-8494-a059dbfdf182)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=170473d8-6bb1-4fbd-8494-a059dbfdf182)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -342,7 +342,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=da424772-079c-4351-9759-8886e0f1ba79)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=da424772-079c-4351-9759-8886e0f1ba79)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -353,7 +353,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=170473d8-6bb1-4fbd-8494-a059dbfdf182)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=170473d8-6bb1-4fbd-8494-a059dbfdf182)
 </td>
 </tr>
 <tr>
@@ -363,7 +363,7 @@ Windows Server 2003 mit SP1 für Itanium-basierte Systeme
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=028592ff-2b69-472e-b186-bd2cc76bdfa4)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=028592ff-2b69-472e-b186-bd2cc76bdfa4)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -374,7 +374,7 @@ Windows Server 2003 mit SP1 für Itanium-basierte Systeme
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f5e45e3c-4cac-41a5-99f7-42c2c2c73e99)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f5e45e3c-4cac-41a5-99f7-42c2c2c73e99)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -384,7 +384,7 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=028592ff-2b69-472e-b186-bd2cc76bdfa4)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=028592ff-2b69-472e-b186-bd2cc76bdfa4)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -395,7 +395,7 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f5e45e3c-4cac-41a5-99f7-42c2c2c73e99)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f5e45e3c-4cac-41a5-99f7-42c2c2c73e99)
 </td>
 </tr>
 <tr>
@@ -407,7 +407,7 @@ Windows Vista
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cdf79d00-6f34-404b-8ad5-a2801ff35443)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cdf79d00-6f34-404b-8ad5-a2801ff35443)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -427,7 +427,7 @@ Windows Vista x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=89dde3f4-4123-4c97-86d8-00a83462c34b)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=89dde3f4-4123-4c97-86d8-00a83462c34b)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -454,7 +454,7 @@ Internet Explorer 5.01 Service Pack 4 unter Microsoft Windows 2000 Service Pa
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3b49f1ed-abe3-4dbd-a91d-973415658f6b)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3b49f1ed-abe3-4dbd-a91d-973415658f6b)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -472,7 +472,7 @@ Internet Explorer 6 Service Pack 1 unter Microsoft Windows 2000 Service Pack�
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5c958650-28d2-4dd0-96a8-dbfe79ce3f68)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5c958650-28d2-4dd0-96a8-dbfe79ce3f68)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -490,7 +490,7 @@ Internet Explorer 6 für Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=60fb294e-a8e1-405e-a289-2d2723edf7ee)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=60fb294e-a8e1-405e-a289-2d2723edf7ee)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -508,7 +508,7 @@ Internet Explorer 6 für Windows XP Professional x64 Edition und Windows XP 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=086d6d6e-4703-4c6c-a7af-b6dafeeede5d)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=086d6d6e-4703-4c6c-a7af-b6dafeeede5d)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -526,7 +526,7 @@ Internet Explorer 6 für Windows Server 2003 Service Pack 1 und Windows Serve
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7ed19127-5c2d-48e4-a8d1-090dc69fd68b)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7ed19127-5c2d-48e4-a8d1-090dc69fd68b)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -544,7 +544,7 @@ Internet Explorer 6 für Windows Server 2003 x64 Edition und Windows Server 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1449eb5d-6e4c-4332-8cb6-ab9ee59c9a95)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1449eb5d-6e4c-4332-8cb6-ab9ee59c9a95)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -562,7 +562,7 @@ Internet Explorer 6 für Windows Server 2003 mit SP1 für Itanium-basierte Sy
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b628a3cc-a70c-478a-a10c-eee254ee34ab)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b628a3cc-a70c-478a-a10c-eee254ee34ab)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -580,7 +580,7 @@ Internet Explorer 7 für Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c2191703-8cbd-4959-9f84-e13f21173926)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c2191703-8cbd-4959-9f84-e13f21173926)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -598,7 +598,7 @@ Internet Explorer 7 für Windows XP Professional x64 Edition und Windows XP 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=69c526b8-8b07-42bc-9bed-e18deae21c8e)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=69c526b8-8b07-42bc-9bed-e18deae21c8e)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -616,7 +616,7 @@ Internet Explorer 7 für Windows Server 2003 Service Pack 1 und Windows Serve
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a074d9c0-1fed-4753-845e-073cfce99f45)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a074d9c0-1fed-4753-845e-073cfce99f45)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -634,7 +634,7 @@ Internet Explorer 7 für Windows Server 2003 x64 Edition und Windows Server 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=744acb43-64da-48cc-ae69-9386b597eabc)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=744acb43-64da-48cc-ae69-9386b597eabc)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -652,7 +652,7 @@ Internet Explorer 7 für Windows Server 2003 mit SP1 für Itanium-basierte Sy
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=069c1560-b5e5-4dfe-a18d-e0507d406028)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=069c1560-b5e5-4dfe-a18d-e0507d406028)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -670,7 +670,7 @@ Internet Explorer 7 in Windows Vista
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=77287386-48eb-4aa9-9537-626a3093aaf7)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=77287386-48eb-4aa9-9537-626a3093aaf7)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -688,7 +688,7 @@ Internet Explorer 7 in Windows Vista x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=77287386-48eb-4aa9-9537-626a3093aaf7)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=77287386-48eb-4aa9-9537-626a3093aaf7)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -708,7 +708,7 @@ Outlook Express 6 für Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=27cca556-0872-4803-b610-4c895ceb99aa)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=27cca556-0872-4803-b610-4c895ceb99aa)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -726,7 +726,7 @@ Outlook Express 6 unter Windows XP Professional x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=1ea813bf-bddb-40f0-8960-b9debc8413e7&displaylang=en)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=1ea813bf-bddb-40f0-8960-b9debc8413e7&displaylang=en)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -744,7 +744,7 @@ Outlook Express 6 für Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=1ea813bf-bddb-40f0-8960-b9debc8413e7&displaylang=en)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=1ea813bf-bddb-40f0-8960-b9debc8413e7&displaylang=en)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -762,7 +762,7 @@ Outlook Express 6 unter Microsoft Windows Server 2003 Service Pack 1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Niedrig](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=93808a74-035c-4ab7-9283-c693d7bd82be)
+[Niedrig](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=93808a74-035c-4ab7-9283-c693d7bd82be)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -780,7 +780,7 @@ Outlook Express 6 für Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Niedrig](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=93808a74-035c-4ab7-9283-c693d7bd82be)
+[Niedrig](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=93808a74-035c-4ab7-9283-c693d7bd82be)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -798,7 +798,7 @@ Outlook Express 6 unter Windows Server 2003 x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f63323a9-e285-45e5-84bd-71ae9da126e3)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f63323a9-e285-45e5-84bd-71ae9da126e3)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -816,7 +816,7 @@ Outlook Express 6 für Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f63323a9-e285-45e5-84bd-71ae9da126e3)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f63323a9-e285-45e5-84bd-71ae9da126e3)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -834,7 +834,7 @@ Outlook Express 6 für Windows Server 2003 mit SP1 für Itanium-basierte Syste
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Niedrig](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2e62e96e-6571-437d-a612-99175ac39025)
+[Niedrig](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2e62e96e-6571-437d-a612-99175ac39025)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -852,7 +852,7 @@ Outlook Express 6 für Windows Server 2003 mit SP2 für Itanium-basierte Syste
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Niedrig](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2e62e96e-6571-437d-a612-99175ac39025)
+[Niedrig](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2e62e96e-6571-437d-a612-99175ac39025)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -870,7 +870,7 @@ Windows Mail in Windows Vista
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ee57de19-44ea-48f2-ae28-e76fd2018633)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ee57de19-44ea-48f2-ae28-e76fd2018633)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -888,7 +888,7 @@ Windows Mail in Windows Vista x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=343db20f-7794-4423-b11d-885329fbdf78)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=343db20f-7794-4423-b11d-885329fbdf78)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -903,7 +903,7 @@ Betroffene Office-Software
 Visio 2002 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fc1d0483-27e8-4541-b81d-4a47973bea30)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fc1d0483-27e8-4541-b81d-4a47973bea30)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -921,7 +921,7 @@ Visio 2002 Service Pack 2
 Visio 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c47f432e-8538-42fd-92c9-7e0f1d643e8e)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c47f432e-8538-42fd-92c9-7e0f1d643e8e)
 </td>
 <td style="border:1px solid black;">
 </td>

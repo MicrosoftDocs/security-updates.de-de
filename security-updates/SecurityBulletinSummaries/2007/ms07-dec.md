@@ -207,7 +207,7 @@ Microsoft Windows 2000 Server Service Pack 4 und Microsoft Windows 2000 Profe
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bda9d0b4-f7cb-4d9d-b030-043d7437734b)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bda9d0b4-f7cb-4d9d-b030-043d7437734b)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -230,12 +230,12 @@ Windows XP Service Pack 2
 **<sup>[1]</sup>**
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=09d4e6ae-5d19-4f11-bb7e-60cee8263bc8)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=09d4e6ae-5d19-4f11-bb7e-60cee8263bc8)
 </td>
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c7d368d0-f7bf-4946-a4a6-3e88315e5317)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c7d368d0-f7bf-4946-a4a6-3e88315e5317)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -258,7 +258,7 @@ Windows XP Professional x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=5f4fa8e9-fcf2-4daf-93c0-8bb267da69aa)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=5f4fa8e9-fcf2-4daf-93c0-8bb267da69aa)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -281,7 +281,7 @@ Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=5f4fa8e9-fcf2-4daf-93c0-8bb267da69aa)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=5f4fa8e9-fcf2-4daf-93c0-8bb267da69aa)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -304,7 +304,7 @@ Windows Server 2003 Service Pack 1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0f84f5e2-1dd8-4882-b796-444ab70b6b02)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0f84f5e2-1dd8-4882-b796-444ab70b6b02)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -327,7 +327,7 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0f84f5e2-1dd8-4882-b796-444ab70b6b02)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0f84f5e2-1dd8-4882-b796-444ab70b6b02)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -350,7 +350,7 @@ Windows Server 2003 x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1f416b71-783f-4cbc-9b85-9a9be7daa0d7)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1f416b71-783f-4cbc-9b85-9a9be7daa0d7)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -373,7 +373,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1f416b71-783f-4cbc-9b85-9a9be7daa0d7)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1f416b71-783f-4cbc-9b85-9a9be7daa0d7)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -429,7 +429,7 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 Windows Vista
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9d22a9ee-cc08-4b2d-af4e-55d326f82761)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9d22a9ee-cc08-4b2d-af4e-55d326f82761)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -437,7 +437,7 @@ Windows Vista
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9787619f-1297-411e-8b9c-3ad3e6a99797)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9787619f-1297-411e-8b9c-3ad3e6a99797)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -453,7 +453,7 @@ Windows Vista
 Windows Vista x64 Edition
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=05a9501c-4da3-4fa1-901e-99cb262e5e36)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=05a9501c-4da3-4fa1-901e-99cb262e5e36)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -461,7 +461,7 @@ Windows Vista x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5f382050-8df6-43aa-82e9-8fad5ff8ecec)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5f382050-8df6-43aa-82e9-8fad5ff8ecec)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -484,7 +484,7 @@ DirectX 7.0 unter Microsoft Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=06196774-5a11-4525-b53c-8cb000738949)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=06196774-5a11-4525-b53c-8cb000738949)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -504,7 +504,7 @@ DirectX 8.1 unter Microsoft Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ccb872bd-fc06-4a3f-ac70-3c9a42d57b37)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ccb872bd-fc06-4a3f-ac70-3c9a42d57b37)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -524,7 +524,7 @@ DirectX 9.0\* unter Microsoft Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=03b14ce0-5189-4803-8151-6ac5cb6a9179)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=03b14ce0-5189-4803-8151-6ac5cb6a9179)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -544,7 +544,7 @@ DirectX 9.0\* unter Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=04a8f8d3-69f9-4445-baab-f45616a6b9b7)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=04a8f8d3-69f9-4445-baab-f45616a6b9b7)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -564,7 +564,7 @@ DirectX 9.0\* unter Windows XP Professional x64 Edition und Windows XP Profe
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=f096c500-e765-4e75-8443-7ffec4ddf149)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=f096c500-e765-4e75-8443-7ffec4ddf149)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -584,7 +584,7 @@ DirectX 9.0\* unter Windows Server 2003 Service Pack 1 oder unter Windows Ser
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d80a295a-baf9-4981-8a28-1b4207ecc5f7)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d80a295a-baf9-4981-8a28-1b4207ecc5f7)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -604,7 +604,7 @@ DirectX 9.0\* unter Windows Server 2003 x64 Edition und Windows Server 2003 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=378086ea-60b8-409f-970a-fcfd62025150)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=378086ea-60b8-409f-970a-fcfd62025150)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -624,7 +624,7 @@ DirectX 9.0\* unter Windows Server 2003 mit SP1 für Itanium-basierte Systeme
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2e6ea4bb-9f4f-46fb-9d51-e20b15e61a89)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2e6ea4bb-9f4f-46fb-9d51-e20b15e61a89)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -644,7 +644,7 @@ DirectX 10.0 unter Windows Vista
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bfa571bc-e43f-45e3-bc98-4086985c99aa)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bfa571bc-e43f-45e3-bc98-4086985c99aa)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -664,7 +664,7 @@ DirectX 10.0 unter Windows Vista x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3d8803da-108b-4b9d-a039-84932dce8e42)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3d8803da-108b-4b9d-a039-84932dce8e42)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -694,7 +694,7 @@ Internet Explorer 5.01 Service Pack 4 unter Microsoft Windows 2000 Service Pa
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b3bd16ea-5d69-4ae3-84b3-ab773052ceeb)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b3bd16ea-5d69-4ae3-84b3-ab773052ceeb)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -714,7 +714,7 @@ Internet Explorer 6 Service Pack 1 unter Microsoft Windows 2000 Service Pack�
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bc8edf05-262a-4d1d-b196-4fc1a844970c)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bc8edf05-262a-4d1d-b196-4fc1a844970c)
 </td>
 </tr>
 <tr>
@@ -734,7 +734,7 @@ Internet Explorer 6 für Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6e4ebafc-34c3-4dc7-b712-152c611d3f0a)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6e4ebafc-34c3-4dc7-b712-152c611d3f0a)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -754,7 +754,7 @@ Internet Explorer 6 für Windows XP Professional x64 Edition und Windows XP 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f5a5af23-30fb-4e47-94bd-3b05b55c92f2)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f5a5af23-30fb-4e47-94bd-3b05b55c92f2)
 </td>
 </tr>
 <tr>
@@ -774,7 +774,7 @@ Internet Explorer 6 für Windows Server 2003 Service Pack 1 und Windows Serve
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bf466060-a585-4c2e-a48d-70e080c3bbe7)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bf466060-a585-4c2e-a48d-70e080c3bbe7)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -794,7 +794,7 @@ Internet Explorer 6 für Windows Server 2003 x64 Edition und Windows Server 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=074697f2-18c8-4521-bbf7-1d0e7395d27d)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=074697f2-18c8-4521-bbf7-1d0e7395d27d)
 </td>
 </tr>
 <tr>
@@ -814,7 +814,7 @@ Internet Explorer 6 für Windows Server 2003 mit SP1 für Itanium-basierte Sy
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b3f390a6-0361-4553-b627-5e7ad6bf5055)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b3f390a6-0361-4553-b627-5e7ad6bf5055)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -834,7 +834,7 @@ Internet Explorer 7 für Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b15a6506-02dd-43c2-aef4-e10c1c76ee97)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b15a6506-02dd-43c2-aef4-e10c1c76ee97)
 </td>
 </tr>
 <tr>
@@ -854,7 +854,7 @@ Internet Explorer 7 für Windows XP Professional x64 Edition und Windows XP 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c092a6bb-8e62-4d90-bdb1-5f3a15968f75)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c092a6bb-8e62-4d90-bdb1-5f3a15968f75)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -874,7 +874,7 @@ Internet Explorer 7 für Windows Server 2003 Service Pack 1 und Windows Serve
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=34759c10-16a5-42a2-974d-9d532fb5a0a7)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=34759c10-16a5-42a2-974d-9d532fb5a0a7)
 </td>
 </tr>
 <tr>
@@ -894,7 +894,7 @@ Internet Explorer 7 für Windows Server 2003 x64 Edition und Windows Server 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7dccce5a-7562-448b-a345-cf1cc758e35c)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7dccce5a-7562-448b-a345-cf1cc758e35c)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -914,7 +914,7 @@ Internet Explorer 7 für Windows Server 2003 mit SP1 für Itanium-basierte Sy
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8414f3fb-216a-4d46-b590-4c1f304dff91)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8414f3fb-216a-4d46-b590-4c1f304dff91)
 </td>
 </tr>
 <tr>
@@ -934,7 +934,7 @@ Internet Explorer 7 in Windows Vista
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=26d303da-bb2e-4555-96f1-becb0e277341)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=26d303da-bb2e-4555-96f1-becb0e277341)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -954,7 +954,7 @@ Internet Explorer 7 in Windows Vista x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c5e88e0b-a4c2-4690-91d9-326800030a16)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c5e88e0b-a4c2-4690-91d9-326800030a16)
 </td>
 </tr>
 <tr>
@@ -972,7 +972,7 @@ Windows Media Format Runtime 7.1 unter Microsoft Windows 2000 Service Pack 4 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=eecdf2ce-9aa7-4f0c-b62b-2fa7a32f369e)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=eecdf2ce-9aa7-4f0c-b62b-2fa7a32f369e)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -992,7 +992,7 @@ Windows Media Format Runtime 9 unter Microsoft Windows 2000 Service Pack 4 (K
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=eecdf2ce-9aa7-4f0c-b62b-2fa7a32f369e)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=eecdf2ce-9aa7-4f0c-b62b-2fa7a32f369e)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1012,7 +1012,7 @@ Windows Media Format Runtime 9 unter Windows XP Service Pack 2 (KB941569)
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bece702a-6e61-433e-8275-20f4e84f2c92)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bece702a-6e61-433e-8275-20f4e84f2c92)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1032,7 +1032,7 @@ Windows Media Format Runtime 9.5 unter Windows XP Service Pack 2 (KB941569)
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bece702a-6e61-433e-8275-20f4e84f2c92)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bece702a-6e61-433e-8275-20f4e84f2c92)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1052,7 +1052,7 @@ Windows Media Format Runtime 9.5 unter Windows XP Professional x64 Edition un
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=81f20b45-dfc7-4ddf-a4b4-6c0e9476ed51)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=81f20b45-dfc7-4ddf-a4b4-6c0e9476ed51)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1072,7 +1072,7 @@ Windows Media Format Runtime 9.5 unter Windows Server 2003 Service Pack 1 und
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8fea7da8-a7f3-4786-97c2-fb5ea7018159)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8fea7da8-a7f3-4786-97c2-fb5ea7018159)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1092,7 +1092,7 @@ Windows Media Format Runtime 9.5 unter Windows Server 2003 x64 Edition und Wi
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ffc69c76-02f1-4b15-8ec1-dab8c7e33bd4)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ffc69c76-02f1-4b15-8ec1-dab8c7e33bd4)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1112,7 +1112,7 @@ Windows Media Format Runtime 9.5 x64 Edition unter Windows Server 2003 x64 E
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ffc69c76-02f1-4b15-8ec1-dab8c7e33bd4)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ffc69c76-02f1-4b15-8ec1-dab8c7e33bd4)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1132,7 +1132,7 @@ Windows Media Format Runtime 9.5 x64 Edition unter Windows XP Professional x6
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=72d2ca0e-da81-45ee-9321-4970b80f4a5a)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=72d2ca0e-da81-45ee-9321-4970b80f4a5a)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1152,7 +1152,7 @@ Windows Media Format Runtime 11 unter Windows XP Service Pack 2 (KB941569)
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bece702a-6e61-433e-8275-20f4e84f2c92)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bece702a-6e61-433e-8275-20f4e84f2c92)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1172,7 +1172,7 @@ Windows Media Format Runtime 11 unter Windows XP Professional x64 Edition und
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=1037b224-ac89-4efd-b189-6f3da77a88e6)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=1037b224-ac89-4efd-b189-6f3da77a88e6)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1192,7 +1192,7 @@ Windows Media Format Runtime 11 unter Windows Vista (KB941569)
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9a98ef96-bc2e-42b7-9a24-c82c8fb379db)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9a98ef96-bc2e-42b7-9a24-c82c8fb379db)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1212,7 +1212,7 @@ Windows Media Format Runtime 11 unter Windows Vista x64 Edition (KB941569)
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3ce02c95-d695-4f14-9fb3-30c83a9cfb9c)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3ce02c95-d695-4f14-9fb3-30c83a9cfb9c)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1232,7 +1232,7 @@ Windows Media Format Runtime 9.1 unter Windows Server 2003 Service Pack 1 und
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=096711d4-ce01-45d0-9c2d-ebfa5c671b9f)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=096711d4-ce01-45d0-9c2d-ebfa5c671b9f)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -1252,7 +1252,7 @@ Windows Media Format Runtime 9.1 x64 Edition unter Windows Server 2003 x64 E
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=23c23800-5aaa-455b-96bf-4ead4dfdd95d)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=23c23800-5aaa-455b-96bf-4ead4dfdd95d)
 </td>
 <td style="border:1px solid black;">
 </td>

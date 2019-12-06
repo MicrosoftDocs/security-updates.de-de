@@ -141,24 +141,24 @@ Microsoft Windows 2000 Service Pack 4
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a860d2d9-653d-4ddb-bbff-323d3ccdb866)  
+[Microsoft Internet Explorer 6 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a860d2d9-653d-4ddb-bbff-323d3ccdb866)  
 (KB938464)  
 (Kritisch)  
-[Microsoft .NET Framework 1.0 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c7cbcd19-acc1-4a89-adfa-99b2f431510d)  
+[Microsoft .NET Framework 1.0 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c7cbcd19-acc1-4a89-adfa-99b2f431510d)  
 (KB947739)  
 (Keine Bewertung des Schweregrads)  
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6013f866-3ea1-4672-b1bf-e516204c3a7a)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6013f866-3ea1-4672-b1bf-e516204c3a7a)  
 (KB947742)  
 (Keine Bewertung des Schweregrads)  
-[Microsoft .NET Framework 2.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7f1cd013-2c4b-4582-9114-cb840a96124a)  
+[Microsoft .NET Framework 2.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7f1cd013-2c4b-4582-9114-cb840a96124a)  
 (KB947746)  
 (Keine Bewertung des Schweregrads)  
-[Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=215b73a3-46ab-44a8-a0fb-6d37bd1c39b8)  
+[Microsoft .NET Framework 2.0 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=215b73a3-46ab-44a8-a0fb-6d37bd1c39b8)  
 (KB947748)  
 (Keine Bewertung des Schweregrads)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0cabfbc0-db5d-4a6a-a4cd-e6df89ac2b25)  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0cabfbc0-db5d-4a6a-a4cd-e6df89ac2b25)  
 (Kritisch)
 </td>
 </tr>
@@ -200,15 +200,15 @@ Windows XP
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d5891180-5dd1-49ec-bcc6-3030a544202c)  
+[Windows Media Player 11](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d5891180-5dd1-49ec-bcc6-3030a544202c)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e0bd6fbe-f46e-4961-9a79-49ec77d39439)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e0bd6fbe-f46e-4961-9a79-49ec77d39439)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=57bcb3c2-49d3-4f18-8d03-36abd03d7403)  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=57bcb3c2-49d3-4f18-8d03-36abd03d7403)  
 (Kritisch)
 </td>
 </tr>
@@ -217,17 +217,17 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3
 Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?familyid=caf8a45e-a9f8-4e91-98fd-87eddbeae64c)  
+[Windows Media Player 11](https://www.microsoft.com/download/details.aspx?familyid=caf8a45e-a9f8-4e91-98fd-87eddbeae64c)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c5d26771-1f49-4bbf-902c-bf92e527cadb)  
+[Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=c5d26771-1f49-4bbf-902c-bf92e527cadb)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?familyid=18efea9e-b103-46de-90d9-5e295854cec3)  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?familyid=18efea9e-b103-46de-90d9-5e295854cec3)  
 (Kritisch)  
-[Windows Media Encoder 9 x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=ebc1737c-6e78-4244-a1b2-a56d031f16e9)  
+[Windows Media Encoder 9 x64 Edition](https://www.microsoft.com/download/details.aspx?familyid=ebc1737c-6e78-4244-a1b2-a56d031f16e9)  
 (Kritisch)
 </td>
 </tr>
@@ -272,11 +272,11 @@ Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ac03f138-eca4-46e1-9782-e811820e547f)  
+[Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ac03f138-eca4-46e1-9782-e811820e547f)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=54ce1080-94cf-4e4f-8e09-a7dbab2757c5)  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=54ce1080-94cf-4e4f-8e09-a7dbab2757c5)  
 (Mittel)
 </td>
 </tr>
@@ -288,13 +288,13 @@ Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service 
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=93f1451b-5b62-47e5-8f0c-b720b957999a)  
+[Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=93f1451b-5b62-47e5-8f0c-b720b957999a)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c83011cd-90b8-494c-9cad-fa055e101992)  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c83011cd-90b8-494c-9cad-fa055e101992)  
 (Mittel)  
-[Windows Media Encoder 9 x64 Edition](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d8f1b782-136b-443f-b5f2-63aa4d1fd94a)  
+[Windows Media Encoder 9 x64 Edition](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d8f1b782-136b-443f-b5f2-63aa4d1fd94a)  
 (Mittel)
 </td>
 </tr>
@@ -306,7 +306,7 @@ Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=14e99f8a-cdd4-40d7-8cfc-73ae6bd6dfad)  
+[Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=14e99f8a-cdd4-40d7-8cfc-73ae6bd6dfad)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -351,15 +351,15 @@ Windows Vista
 Windows Vista und Windows Vista Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2f4118fd-1ffb-46da-b922-cd4ca4f9d84e)  
+[Windows Media Player 11](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2f4118fd-1ffb-46da-b922-cd4ca4f9d84e)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista und Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=16f3ad21-ed77-4c32-93df-3b650b2b32a5)  
+[Windows Vista und Windows Vista Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=16f3ad21-ed77-4c32-93df-3b650b2b32a5)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=99beebc4-553a-46f8-8245-e3d932306c93)  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=99beebc4-553a-46f8-8245-e3d932306c93)  
 (Kritisch)
 </td>
 </tr>
@@ -368,17 +368,17 @@ Windows Vista und Windows Vista Service Pack 1
 Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=334352e7-d41f-494f-866d-f1f1745ffd17)  
+[Windows Media Player 11](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=334352e7-d41f-494f-866d-f1f1745ffd17)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=aa47d016-f5c9-4586-8876-f1f4f255f54d)  
+[Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=aa47d016-f5c9-4586-8876-f1f4f255f54d)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=99beebc4-553a-46f8-8245-e3d932306c93)  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=99beebc4-553a-46f8-8245-e3d932306c93)  
 (Kritisch)  
-[Windows Media Encoder 9 x64 Edition](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=54d1279a-7f26-4727-a39d-5505bcd4fc53)  
+[Windows Media Encoder 9 x64 Edition](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=54d1279a-7f26-4727-a39d-5505bcd4fc53)  
 (Kritisch)
 </td>
 </tr>
@@ -420,15 +420,15 @@ Windows Server 2008
 Windows Server 2008 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=72fc6028-6af4-44ec-8d2a-28c53807d6bc)\*  
+[Windows Media Player 11](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=72fc6028-6af4-44ec-8d2a-28c53807d6bc)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=23bd3be5-cc66-46f8-9420-49d65d8afe1d)\*  
+[Windows Server 2008 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=23bd3be5-cc66-46f8-9420-49d65d8afe1d)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5434ca66-5a6b-4517-92fb-72dea0a172ec)\*  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5434ca66-5a6b-4517-92fb-72dea0a172ec)\*  
 (Mittel)
 </td>
 </tr>
@@ -437,17 +437,17 @@ Windows Server 2008 für 32-Bit-Systeme
 Windows Server 2008 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3906512b-26db-473e-b522-3883ff34a21c)\*  
+[Windows Media Player 11](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3906512b-26db-473e-b522-3883ff34a21c)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7f1e0f05-6c9d-4ad1-9b19-50ee4fa7bd7e)\*  
+[Windows Server 2008 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7f1e0f05-6c9d-4ad1-9b19-50ee4fa7bd7e)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Encoder 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5434ca66-5a6b-4517-92fb-72dea0a172ec)\*  
+[Windows Media Encoder 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5434ca66-5a6b-4517-92fb-72dea0a172ec)\*  
 (Mittel)  
-[Windows Media Encoder 9 x64 Edition](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e30f9427-26d0-4e86-b9b8-bc637c3b5734)\*  
+[Windows Media Encoder 9 x64 Edition](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e30f9427-26d0-4e86-b9b8-bc637c3b5734)\*  
 (Mittel)
 </td>
 </tr>
@@ -459,7 +459,7 @@ Windows Server 2008 für Itanium-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5159bdba-3825-4816-a2be-ab035332b9e2)  
+[Windows Server 2008 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5159bdba-3825-4816-a2be-ab035332b9e2)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -514,12 +514,12 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
+[Microsoft Office XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
 (KB953405)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
+[Microsoft Office XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
 (KB953405)  
 (Hoch)
 </td>
@@ -529,18 +529,18 @@ Microsoft Office XP Service Pack 3
 Microsoft Office 2003 Service Pack 2 und Microsoft Office 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
+[Microsoft Office 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
 (KB954478)  
 (Hoch)  
-[Microsoft Office 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
+[Microsoft Office 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
 (KB954478)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e670ad22-d3c1-41f7-ba30-6a67139feaa3)  
+[Microsoft Office 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e670ad22-d3c1-41f7-ba30-6a67139feaa3)  
 (KB953404)  
 (Hoch)  
-[Microsoft Office 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e670ad22-d3c1-41f7-ba30-6a67139feaa3)  
+[Microsoft Office 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e670ad22-d3c1-41f7-ba30-6a67139feaa3)  
 (KB953404)  
 (Hoch)
 </td>
@@ -550,18 +550,18 @@ Microsoft Office 2003 Service Pack 2 und Microsoft Office 2003 Service Pack 
 Microsoft Office System 2007 und Microsoft Office System 2007 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office System 2007](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+[Microsoft Office System 2007](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
 (KB954326)  
 (Hoch)  
-[Microsoft Office System 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+[Microsoft Office System 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
 (KB954326)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office System 2007](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fb457536-26c5-428b-97e4-1fc13718266e)  
+[Microsoft Office System 2007](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fb457536-26c5-428b-97e4-1fc13718266e)  
 (KB951944)  
 (Hoch)  
-[Microsoft Office System 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fb457536-26c5-428b-97e4-1fc13718266e)  
+[Microsoft Office System 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fb457536-26c5-428b-97e4-1fc13718266e)  
 (KB951944)  
 (Hoch)
 </td>
@@ -598,7 +598,7 @@ Weitere Office-Software
 Microsoft Office Project 2002 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Project 2002 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
+[Microsoft Office Project 2002 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
 (KB953405)\*  
 (Hoch)
 </td>
@@ -611,7 +611,7 @@ Nicht anwendbar
 Microsoft Visio 2002 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visio 2002 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a6d9d3ef-f087-4f61-9ec1-522b7d4b9c48)  
+[Microsoft Visio 2002 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a6d9d3ef-f087-4f61-9ec1-522b7d4b9c48)  
 (KB954479)  
 (Hoch)
 </td>
@@ -624,7 +624,7 @@ Nicht anwendbar
 Microsoft Office Word Viewer, Microsoft Word Viewer 2003, Microsoft Word Viewer 2003 Service Pack 3, Microsoft Office Excel Viewer 2003, Microsoft Office Excel Viewer 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word Viewer, Microsoft Word Viewer 2003, Microsoft Word Viewer 2003 Service Pack 3, Microsoft Office Excel Viewer 2003, Microsoft Office Excel Viewer 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
+[Microsoft Office Word Viewer, Microsoft Word Viewer 2003, Microsoft Word Viewer 2003 Service Pack 3, Microsoft Office Excel Viewer 2003, Microsoft Office Excel Viewer 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
 (KB954478)\*\*  
 (Hoch)
 </td>
@@ -637,7 +637,7 @@ Nicht anwendbar
 Microsoft Office PowerPoint Viewer 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint Viewer 2003](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cd503f08-1831-45ff-bdf4-dd918ca40505)  
+[Microsoft Office PowerPoint Viewer 2003](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cd503f08-1831-45ff-bdf4-dd918ca40505)  
 (KB956500)  
 (Hoch)
 </td>
@@ -650,7 +650,7 @@ Nicht anwendbar
 Microsoft Office Excel Viewer, Microsoft Office PowerPoint Viewer 2007, Microsoft Office PowerPoint Viewer 2007 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel Viewer, Microsoft Office PowerPoint Viewer 2007, Microsoft Office PowerPoint Viewer 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+[Microsoft Office Excel Viewer, Microsoft Office PowerPoint Viewer 2007, Microsoft Office PowerPoint Viewer 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
 (KB954326)\*\*\*  
 (Hoch)
 </td>
@@ -663,7 +663,7 @@ Nicht anwendbar
 Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
 (KB954326)\*\*\*  
 (Hoch)
 </td>
@@ -676,7 +676,7 @@ Nicht anwendbar
 Microsoft Expression Web und Microsoft Expression Web 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Expression Web und Microsoft Expression Web 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+[Microsoft Expression Web und Microsoft Expression Web 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
 (KB954326)\*\*\*  
 (Hoch)
 </td>
@@ -689,7 +689,7 @@ Nicht anwendbar
 Microsoft Office Groove 2007 und Microsoft Office Groove 2007 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Groove 2007 und Microsoft Office Groove 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+[Microsoft Office Groove 2007 und Microsoft Office Groove 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
 (KB954326)\*\*\*  
 (Hoch)
 </td>
@@ -702,7 +702,7 @@ Nicht anwendbar
 Microsoft Works
 </td>
 <td style="border:1px solid black;">
-[Microsoft Works 8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=eb0d224e-a517-40d9-9fc6-2345fa12a841)  
+[Microsoft Works 8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=eb0d224e-a517-40d9-9fc6-2345fa12a841)  
 (KB956483)  
 (Hoch)
 </td>
@@ -715,7 +715,7 @@ Nicht anwendbar
 Microsoft Digital Image Suite 2006
 </td>
 <td style="border:1px solid black;">
-[Microsoft Digital Image Suite 2006](http://www.microsoft.com/downloads/details.aspx?familyid=04afd760-8173-4069-9e82-d3bf053d9eae)  
+[Microsoft Digital Image Suite 2006](https://www.microsoft.com/download/details.aspx?familyid=04afd760-8173-4069-9e82-d3bf053d9eae)  
 (KB955992)  
 (Kritisch)
 </td>
@@ -731,10 +731,10 @@ Microsoft Office OneNote 2007
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office OneNote 2007](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8ac3576c-7873-4ac6-8bbc-033f6a7bb395)  
+[Microsoft Office OneNote 2007](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8ac3576c-7873-4ac6-8bbc-033f6a7bb395)  
 (KB950130)  
 (Kritisch)  
-[Microsoft Office OneNote 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8ac3576c-7873-4ac6-8bbc-033f6a7bb395)  
+[Microsoft Office OneNote 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8ac3576c-7873-4ac6-8bbc-033f6a7bb395)  
 (KB950130)  
 (Kritisch)
 </td>
@@ -786,7 +786,7 @@ SQL Server 2000 Reporting Services Service Pack 2
 GDR-Update:  
 Nicht anwendbar  
 QFE-Update:  
-[SQL Server 2000 Reporting Services Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5f9e7f78-7439-414b-a9dc-a779b89427db)  
+[SQL Server 2000 Reporting Services Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5f9e7f78-7439-414b-a9dc-a779b89427db)  
 (KB954609)  
 (Kritisch)
 </td>
@@ -797,11 +797,11 @@ SQL Server 2005 Service Pack 2
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2005 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
+[SQL Server 2005 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
 (KB954606)  
 (Kritisch)  
 QFE-Update:  
-[SQL Server 2005 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
+[SQL Server 2005 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
 (KB954607)  
 (Kritisch)
 </td>
@@ -812,11 +812,11 @@ SQL Server 2005 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2005 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
+[SQL Server 2005 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
 (KB954606)  
 (Kritisch)  
 QFE-Update:  
-[SQL Server 2005 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
+[SQL Server 2005 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
 (KB954607)  
 (Kritisch)
 </td>
@@ -827,11 +827,11 @@ SQL Server 2005 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2005 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
+[SQL Server 2005 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
 (KB954606)  
 (Kritisch)  
 QFE-Update:  
-[SQL Server 2005 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
+[SQL Server 2005 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
 (KB954607)  
 (Kritisch)
 </td>
@@ -875,7 +875,7 @@ Microsoft Visual Studio
 Microsoft Visual Studio .NET 2002 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Studio .NET 2002 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7848a652-4025-44bb-9c98-37a078b56d01)  
+[Microsoft Visual Studio .NET 2002 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7848a652-4025-44bb-9c98-37a078b56d01)  
 (KB947736)  
 (Keine Bewertung des Schweregrads)
 </td>
@@ -885,7 +885,7 @@ Microsoft Visual Studio .NET 2002 Service Pack 1
 Microsoft Visual Studio .NET 2003 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Studio .NET 2003 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9bc1e8f8-6c30-4aa0-90f5-fbb0ad5fd90e)  
+[Microsoft Visual Studio .NET 2003 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9bc1e8f8-6c30-4aa0-90f5-fbb0ad5fd90e)  
 (KB947737)  
 (Keine Bewertung des Schweregrads)
 </td>
@@ -895,7 +895,7 @@ Microsoft Visual Studio .NET 2003 Service Pack 1
 Microsoft Visual Studio 2005 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Studio 2005 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a7bf790b-3249-4ee8-9440-fa911ebbc08a)  
+[Microsoft Visual Studio 2005 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a7bf790b-3249-4ee8-9440-fa911ebbc08a)  
 (KB947738)  
 (Keine Bewertung des Schweregrads)
 </td>
@@ -905,7 +905,7 @@ Microsoft Visual Studio 2005 Service Pack 1
 Microsoft Visual Studio 2008
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Studio 2008](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a8c80b29-6d00-4949-a005-5d706122919a)  
+[Microsoft Visual Studio 2008](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a8c80b29-6d00-4949-a005-5d706122919a)  
 (KB952241)  
 (Keine Bewertung des Schweregrads)
 </td>
@@ -915,7 +915,7 @@ Microsoft Visual Studio 2008
 Microsoft Report Viewer 2005 Service Pack 1 Redistributable Package
 </td>
 <td style="border:1px solid black;">
-[Microsoft Report Viewer 2005 Service Pack 1 Redistributable Package](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=82833f27-081d-4b72-83ef-2836360a904d)  
+[Microsoft Report Viewer 2005 Service Pack 1 Redistributable Package](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=82833f27-081d-4b72-83ef-2836360a904d)  
 (KB954765)  
 (Kritisch)
 </td>
@@ -925,7 +925,7 @@ Microsoft Report Viewer 2005 Service Pack 1 Redistributable Package
 Microsoft Report Viewer 2008 Redistributable Package
 </td>
 <td style="border:1px solid black;">
-[Microsoft Report Viewer 2008 Redistributable Package](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6ae0aa19-3e6c-474c-9d57-05b2347456b1)  
+[Microsoft Report Viewer 2008 Redistributable Package](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6ae0aa19-3e6c-474c-9d57-05b2347456b1)  
 (KB954766)  
 (Kritisch)
 </td>
@@ -935,7 +935,7 @@ Microsoft Report Viewer 2008 Redistributable Package
 Microsoft Visual FoxPro 8.0 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual FoxPro 8.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1f4371b9-b8be-4455-94d2-2304ee340543) unter Microsoft Windows 2000 Service Pack 4  
+[Microsoft Visual FoxPro 8.0 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=1f4371b9-b8be-4455-94d2-2304ee340543) unter Microsoft Windows 2000 Service Pack 4  
 (KB955368)  
 (Keine Bewertung des Schweregrads)
 </td>
@@ -945,7 +945,7 @@ Microsoft Visual FoxPro 8.0 Service Pack 1
 Microsoft Visual FoxPro 9.0 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual FoxPro 9.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=49b21e30-722d-446e-9020-aceb3870db69) unter Microsoft Windows 2000 Service Pack 4  
+[Microsoft Visual FoxPro 9.0 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=49b21e30-722d-446e-9020-aceb3870db69) unter Microsoft Windows 2000 Service Pack 4  
 (KB955369)  
 (Keine Bewertung des Schweregrads)
 </td>
@@ -955,7 +955,7 @@ Microsoft Visual FoxPro 9.0 Service Pack 1
 Microsoft Visual FoxPro 9.0 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual FoxPro 9.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=36957f47-9d8b-477d-bd60-5959e5a2eafa) unter Microsoft Windows 2000 Service Pack 4  
+[Microsoft Visual FoxPro 9.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=36957f47-9d8b-477d-bd60-5959e5a2eafa) unter Microsoft Windows 2000 Service Pack 4  
 (KB955370)  
 (Keine Bewertung des Schweregrads)
 </td>
@@ -965,7 +965,7 @@ Microsoft Visual FoxPro 9.0 Service Pack 2
 Microsoft Platform SDK Redistributable: GDI+
 </td>
 <td style="border:1px solid black;">
-[Microsoft Platform SDK Redistributable: GDI+](http://www.microsoft.com/downloads/details.aspx?familyid=6a63ab9c-df12-4d41-933c-be590feaa05a)  
+[Microsoft Platform SDK Redistributable: GDI+](https://www.microsoft.com/download/details.aspx?familyid=6a63ab9c-df12-4d41-933c-be590feaa05a)  
 (Keine Bewertung des Schweregrads)
 </td>
 </tr>
@@ -1008,7 +1008,7 @@ Microsoft Forefront Security
 Microsoft Forefront Client Security 1.0
 </td>
 <td style="border:1px solid black;">
-[Microsoft Forefront Client Security 1.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1eb1a79f-44ca-499e-90bb-ac51894e9d1e) unter Microsoft Windows 2000 Service Pack 4  
+[Microsoft Forefront Client Security 1.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1eb1a79f-44ca-499e-90bb-ac51894e9d1e) unter Microsoft Windows 2000 Service Pack 4  
 (KB957177)  
 (Hoch)
 </td>
@@ -1049,7 +1049,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true), die im [Anwendungskompatibilitäts-Toolkit 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true), die im [Anwendungskompatibilitäts-Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Anwendungskompatibilitäts-Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

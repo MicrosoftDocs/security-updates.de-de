@@ -493,30 +493,30 @@ Keine
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Active Directory unter Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=bba6e20a-0345-46ae-a6f1-fd27fdee7c21)  
+[Active Directory unter Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=bba6e20a-0345-46ae-a6f1-fd27fdee7c21)  
 (KB969805)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=86378753-db24-44c2-a27d-cc0239f40ab8)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=86378753-db24-44c2-a27d-cc0239f40ab8)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 5.01 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=d645ad82-13c3-4030-808b-834e86ed3298)  
+[Microsoft Internet Explorer 5.01 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=d645ad82-13c3-4030-808b-834e86ed3298)  
 (Kritisch)  
-[Microsoft Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=fe8b3796-a407-4f41-89eb-35b4bcc24ff6)  
+[Microsoft Internet Explorer 6 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=fe8b3796-a407-4f41-89eb-35b4bcc24ff6)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=155a79c1-e5e4-4f62-b4b0-53aca59f20ac)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=155a79c1-e5e4-4f62-b4b0-53aca59f20ac)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=79b0481d-a3d7-477b-928a-a98cc79374af)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=79b0481d-a3d7-477b-928a-a98cc79374af)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Information Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=8515a294-4f25-4dc5-860a-e7ad9b6c1c01)  
+[Microsoft Internet Information Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=8515a294-4f25-4dc5-860a-e7ad9b6c1c01)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -585,36 +585,36 @@ Windows XP
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Active Directory Application Mode (ADAM) unter Windows XP Professional Service Pack 2 und Windows XP Professional Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=cb2c9b76-0c65-4754-9941-d45a7c74a29a)  
+[Active Directory Application Mode (ADAM) unter Windows XP Professional Service Pack 2 und Windows XP Professional Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=cb2c9b76-0c65-4754-9941-d45a7c74a29a)  
 (KB970437)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=f2119aca-a98e-4810-be52-f38241443baf)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=f2119aca-a98e-4810-be52-f38241443baf)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=3d7f63ee-d7c3-48a5-902e-60625405e97d)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=3d7f63ee-d7c3-48a5-902e-60625405e97d)  
 (Kritisch)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=827b735c-660b-4723-b688-3297e107153a)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=827b735c-660b-4723-b688-3297e107153a)  
 (Kritisch)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=d9e27ce1-4e7c-437f-9477-e7805a33da08)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=d9e27ce1-4e7c-437f-9477-e7805a33da08)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=f033fa78-c451-44f8-aa6c-a49622c37f40)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=f033fa78-c451-44f8-aa6c-a49622c37f40)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=6349e046-a3f8-4ae5-b8c3-c9879cc99e8f)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=6349e046-a3f8-4ae5-b8c3-c9879cc99e8f)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Information Services 5.1 unter Windows XP Professional Service Pack 2 und Windows XP Professional Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=97da589f-4534-42f6-9f29-967b5a33c542)  
+[Microsoft Internet Information Services 5.1 unter Windows XP Professional Service Pack 2 und Windows XP Professional Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=97da589f-4534-42f6-9f29-967b5a33c542)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows-Suche 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=759f22cb-ea7f-49dd-a200-19cb83fffd8d)  
+[Windows-Suche 4.0](https://www.microsoft.com/download/details.aspx?familyid=759f22cb-ea7f-49dd-a200-19cb83fffd8d)  
 (Mittel)
 </td>
 </tr>
@@ -623,36 +623,36 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=2ef3aaf0-a2a9-4c17-99ab-a0dc3d3f7e86)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?familyid=2ef3aaf0-a2a9-4c17-99ab-a0dc3d3f7e86)  
 (KB970437)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=22699d09-1e68-456a-8733-bfad6667ebf5)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=22699d09-1e68-456a-8733-bfad6667ebf5)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=088f70eb-c5c5-426a-880a-18ed386d0b56)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=088f70eb-c5c5-426a-880a-18ed386d0b56)  
 (Kritisch)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=e5d2c81e-ffab-4e3b-a59a-a55000597213)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=e5d2c81e-ffab-4e3b-a59a-a55000597213)  
 (Kritisch)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=a24aedf0-7a31-4ee8-a9a6-998f1160c700)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=a24aedf0-7a31-4ee8-a9a6-998f1160c700)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=20734b70-37f1-47dd-bc09-d56f93577a55)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=20734b70-37f1-47dd-bc09-d56f93577a55)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3769800e-af93-4a44-8a1e-b30cc54b226f)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3769800e-af93-4a44-8a1e-b30cc54b226f)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Information Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=8982e6d2-e1f7-4208-88e3-80b159a8e21a)  
+[Microsoft Internet Information Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=8982e6d2-e1f7-4208-88e3-80b159a8e21a)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows-Suche 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=50c56dd6-c34d-4632-a779-8bcf8fdb341b)  
+[Windows-Suche 4.0](https://www.microsoft.com/download/details.aspx?familyid=50c56dd6-c34d-4632-a779-8bcf8fdb341b)  
 (Mittel)
 </td>
 </tr>
@@ -718,39 +718,39 @@ Windows Server 2003
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=d814ce65-a193-4027-a6cd-106d388830a6)   
+[Active Directory](https://www.microsoft.com/download/details.aspx?familyid=d814ce65-a193-4027-a6cd-106d388830a6)   
 (KB969805)  
 (Hoch)  
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=f6f99957-f74f-4446-8734-a468283eebae)   
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?familyid=f6f99957-f74f-4446-8734-a468283eebae)   
 (KB970437)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=865414f8-3f77-4fee-acc6-6684a3dc0aa4)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=865414f8-3f77-4fee-acc6-6684a3dc0aa4)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=72a23752-86fb-4cc9-ab8e-63ffdfae5bec)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=72a23752-86fb-4cc9-ab8e-63ffdfae5bec)  
 (Mittel)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=a980b867-c67f-4c61-b6db-e55c2ca68dc0)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=a980b867-c67f-4c61-b6db-e55c2ca68dc0)  
 (Mittel)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=298143f2-f37a-4a2c-86ac-9804d4ff1dad)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=298143f2-f37a-4a2c-86ac-9804d4ff1dad)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=62bb9e22-4f4b-4ffc-ba76-f626e94c79d5)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=62bb9e22-4f4b-4ffc-ba76-f626e94c79d5)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=9356404c-d89a-4de0-b9b4-f6e1bdadf745)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=9356404c-d89a-4de0-b9b4-f6e1bdadf745)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Information Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=2bd4e410-dbd8-431a-b316-e1e2f1825c3a)  
+[Microsoft Internet Information Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=2bd4e410-dbd8-431a-b316-e1e2f1825c3a)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows-Suche 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=e72ef31f-5161-4fe6-8ed3-6206e02cef31)  
+[Windows-Suche 4.0](https://www.microsoft.com/download/details.aspx?familyid=e72ef31f-5161-4fe6-8ed3-6206e02cef31)  
 (Mittel)
 </td>
 </tr>
@@ -759,39 +759,39 @@ Windows Server 2003 Service Pack 2
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=0d1f23c8-06eb-4996-92eb-0eb635fd6a42)  
+[Active Directory](https://www.microsoft.com/download/details.aspx?familyid=0d1f23c8-06eb-4996-92eb-0eb635fd6a42)  
 (KB969805)  
 (Hoch)  
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=1a2badc7-c0a5-4032-a009-73ebe9d76313)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?familyid=1a2badc7-c0a5-4032-a009-73ebe9d76313)  
 (KB970437)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=197a6cc7-4ba3-4d2e-b621-0ef3da645ef2)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=197a6cc7-4ba3-4d2e-b621-0ef3da645ef2)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=2a03d3c4-e39d-43a3-8d42-216e9551be96)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=2a03d3c4-e39d-43a3-8d42-216e9551be96)  
 (Mittel)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=5e7d6372-9c8c-449d-88fd-afd4f92ad9e6)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=5e7d6372-9c8c-449d-88fd-afd4f92ad9e6)  
 (Mittel)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=4a5401d7-ca97-4734-a0e9-d7ffe0777e34)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=4a5401d7-ca97-4734-a0e9-d7ffe0777e34)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=888b8dd8-d76c-42f5-a377-1f1750d3cf56)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=888b8dd8-d76c-42f5-a377-1f1750d3cf56)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5a3123af-173d-49eb-9997-14e82e764aee)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=5a3123af-173d-49eb-9997-14e82e764aee)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Information Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=ea363223-535d-4142-9aba-3890960c6259)  
+[Microsoft Internet Information Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=ea363223-535d-4142-9aba-3890960c6259)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows-Suche 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ffc3680-f9bf-423b-96a7-102f4cc9c240)  
+[Windows-Suche 4.0](https://www.microsoft.com/download/details.aspx?familyid=7ffc3680-f9bf-423b-96a7-102f4cc9c240)  
 (Mittel)
 </td>
 </tr>
@@ -800,30 +800,30 @@ Windows Server 2003 x64 Edition Service Pack 2
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=92e7808b-92ff-449d-bb73-ee8638e9ccd1)  
+[Active Directory](https://www.microsoft.com/download/details.aspx?familyid=92e7808b-92ff-449d-bb73-ee8638e9ccd1)  
 (KB969805)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=719efd62-fb33-447d-b6dd-2aaafbbad881)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=719efd62-fb33-447d-b6dd-2aaafbbad881)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=58efde2c-e0b8-4259-b19e-80564b834882)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=58efde2c-e0b8-4259-b19e-80564b834882)  
 (Mittel)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=a2d2907e-67ae-44a4-a805-8670e659ea57)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=a2d2907e-67ae-44a4-a805-8670e659ea57)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=3084f46e-02b9-4d99-a7a1-033817f9bd9f)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=3084f46e-02b9-4d99-a7a1-033817f9bd9f)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=13b50993-410f-4e7a-a33a-6d9b48dbb4d1)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=13b50993-410f-4e7a-a33a-6d9b48dbb4d1)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Information Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e6b806eb-e2c4-4436-8964-720db593055d)  
+[Microsoft Internet Information Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=e6b806eb-e2c4-4436-8964-720db593055d)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -895,21 +895,21 @@ Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3ad8f037-2434-4dea-bfc3-9d3b4008b828)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3ad8f037-2434-4dea-bfc3-9d3b4008b828)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=e60215c3-b8b9-4e45-9d9f-b3fb0b47cce1)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=e60215c3-b8b9-4e45-9d9f-b3fb0b47cce1)  
 (Kritisch)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=6f2730e9-b4fc-4f20-96cf-73f1be63f374)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=6f2730e9-b4fc-4f20-96cf-73f1be63f374)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5ca227c0-f2dd-429c-a542-e08e93527214)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=5ca227c0-f2dd-429c-a542-e08e93527214)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c31b36f8-330c-4a0c-9a3d-7cbe9a1ab8c8)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=c31b36f8-330c-4a0c-9a3d-7cbe9a1ab8c8)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -927,21 +927,21 @@ Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windo
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=85c317cd-2a14-4747-9f50-3af3ddd3ae1b)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=85c317cd-2a14-4747-9f50-3af3ddd3ae1b)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=88185088-8c2c-4bc6-89b2-87f4d4849cf7)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=88185088-8c2c-4bc6-89b2-87f4d4849cf7)  
 (Kritisch)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=5edb14f7-11ec-4180-9f0f-b2673f1c8d83)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=5edb14f7-11ec-4180-9f0f-b2673f1c8d83)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=188adafe-1feb-46ad-b237-a88d35104dcd)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=188adafe-1feb-46ad-b237-a88d35104dcd)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d70a65f-07ce-4992-8bec-28fefd7587bc)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7d70a65f-07ce-4992-8bec-28fefd7587bc)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1016,21 +1016,21 @@ Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Sy
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=0f18356d-9f09-4d24-8361-970c0d1ccac4)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=0f18356d-9f09-4d24-8361-970c0d1ccac4)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=a0e3f975-57da-43fa-ac12-3d14fd6ce939)\*\*  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=a0e3f975-57da-43fa-ac12-3d14fd6ce939)\*\*  
 (Mittel)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=aaad301c-d232-4733-a0df-8e5d41bbfde8)\*\*  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=aaad301c-d232-4733-a0df-8e5d41bbfde8)\*\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eaa26c6c-5bf7-4099-bb21-1e03de3a25ca)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=eaa26c6c-5bf7-4099-bb21-1e03de3a25ca)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98ba52b2-da1a-4939-a10e-d43b3a7e7ed4)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=98ba52b2-da1a-4939-a10e-d43b3a7e7ed4)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1048,21 +1048,21 @@ Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d0a6e8d-a31d-4f3d-a7d7-e61215bfebed)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7d0a6e8d-a31d-4f3d-a7d7-e61215bfebed)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=758edce7-2a82-4b2e-bd71-5b7075cc4b17)\*\*  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=758edce7-2a82-4b2e-bd71-5b7075cc4b17)\*\*  
 (Mittel)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=faac92d4-4a2b-4bb5-8bd1-1519a9fa8147)\*\*  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=faac92d4-4a2b-4bb5-8bd1-1519a9fa8147)\*\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=447aaa4f-946b-4f23-b151-dcf46ea9f80e)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=447aaa4f-946b-4f23-b151-dcf46ea9f80e)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=dbaa5a72-c267-4907-a207-525c2803d7b9)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=dbaa5a72-c267-4907-a207-525c2803d7b9)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1080,19 +1080,19 @@ Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=bbac3deb-6c93-45aa-832c-02b915ac7f44)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=bbac3deb-6c93-45aa-832c-02b915ac7f44)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=67d4c189-030d-42eb-98b9-7957ccd92592)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=67d4c189-030d-42eb-98b9-7957ccd92592)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f33012b9-5d5b-4f72-8d49-a8e1c8bc1337)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=f33012b9-5d5b-4f72-8d49-a8e1c8bc1337)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e0e3ad56-a363-44ba-af4d-b7f551c88afd)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=e0e3ad56-a363-44ba-af4d-b7f551c88afd)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1162,17 +1162,17 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office 2000 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2000 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=3663e9f2-a952-4238-b902-90b5b09feb38)  
+[Microsoft Office Word 2000 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=3663e9f2-a952-4238-b902-90b5b09feb38)  
 (KB969600)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2000 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=dd16e243-b8e2-4afb-86b6-4d60214598eb)  
+[Microsoft Office Excel 2000 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=dd16e243-b8e2-4afb-86b6-4d60214598eb)  
 (KB969683)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2000 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=4bf95806-3d32-411b-9779-a81aebad45e9)  
+[Microsoft Office Word 2000 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=4bf95806-3d32-411b-9779-a81aebad45e9)  
 (KB957838)  
 (Kritisch)
 </td>
@@ -1182,17 +1182,17 @@ Microsoft Office 2000 Service Pack 3
 Microsoft Office XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=f1323be1-15f2-491b-abae-c03ba1394398)  
+[Microsoft Office Word 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=f1323be1-15f2-491b-abae-c03ba1394398)  
 (KB969602)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=dd80ce95-0aec-4493-b9d1-c3dad95c3415)  
+[Microsoft Office Excel 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=dd80ce95-0aec-4493-b9d1-c3dad95c3415)  
 (KB969680)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=b0ba8c9e-75ee-46bd-9e92-d4e6599309ad)  
+[Microsoft Office Word 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=b0ba8c9e-75ee-46bd-9e92-d4e6599309ad)  
 (KB957646)  
 (Hoch)
 </td>
@@ -1202,17 +1202,17 @@ Microsoft Office XP Service Pack 3
 Microsoft Office 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=7cbc2587-2c8c-49b4-9f40-e4cdccb61ecd)  
+[Microsoft Office Word 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=7cbc2587-2c8c-49b4-9f40-e4cdccb61ecd)  
 (KB969603)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=10156044-a5a4-4312-98a7-1b1ced625ddb)  
+[Microsoft Office Excel 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=10156044-a5a4-4312-98a7-1b1ced625ddb)  
 (KB969681)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2003 Service Pack 3 mit den Microsoft Works 6–9-Dateikonvertern](http://www.microsoft.com/downloads/details.aspx?familyid=a7ba3ea7-d06a-4c14-9107-9b92ef68fcae)\*\*\*  
+[Microsoft Office Word 2003 Service Pack 3 mit den Microsoft Works 6–9-Dateikonvertern](https://www.microsoft.com/download/details.aspx?familyid=a7ba3ea7-d06a-4c14-9107-9b92ef68fcae)\*\*\*  
 (KB968326)  
 (Hoch)
 </td>
@@ -1222,17 +1222,17 @@ Microsoft Office 2003 Service Pack 3
 Microsoft Office System 2007 Service Pack 1 und Microsoft Office System 2007 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2007 Service Pack 1 und Microsoft Office Word 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7e205108-4c28-4cab-a4d0-4ed3fd696473)  
+[Microsoft Office Word 2007 Service Pack 1 und Microsoft Office Word 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7e205108-4c28-4cab-a4d0-4ed3fd696473)  
 (KB969604)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=2bcd565a-6acb-407d-80da-0398526ddf99)\*  
+[Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=2bcd565a-6acb-407d-80da-0398526ddf99)\*  
 (KB969682)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=bd47e1e5-cd2e-4c08-9864-471e97f38ca3)  
+[Microsoft Office Word 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=bd47e1e5-cd2e-4c08-9864-471e97f38ca3)  
 (KB969559)  
 (Hoch)
 </td>
@@ -1275,12 +1275,12 @@ Keine
 Microsoft Office 2004 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=5557bfb7-ebb4-4c42-8042-41e830c4e550)  
+[Microsoft Office 2004 für Mac](https://www.microsoft.com/download/details.aspx?familyid=5557bfb7-ebb4-4c42-8042-41e830c4e550)  
 (KB969661)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=5557bfb7-ebb4-4c42-8042-41e830c4e550)  
+[Microsoft Office 2004 für Mac](https://www.microsoft.com/download/details.aspx?familyid=5557bfb7-ebb4-4c42-8042-41e830c4e550)  
 (KB969661)  
 (Hoch)
 </td>
@@ -1293,12 +1293,12 @@ Nicht anwendbar
 Microsoft Office 2008 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2008 für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=58326da2-eb75-4b42-b1bc-e70319defb58)  
+[Microsoft Office 2008 für Mac](https://www.microsoft.com/download/details.aspx?familyid=58326da2-eb75-4b42-b1bc-e70319defb58)  
 (KB971822)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2008 für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=58326da2-eb75-4b42-b1bc-e70319defb58)  
+[Microsoft Office 2008 für Mac](https://www.microsoft.com/download/details.aspx?familyid=58326da2-eb75-4b42-b1bc-e70319defb58)  
 (KB971822)  
 (Hoch)
 </td>
@@ -1311,12 +1311,12 @@ Nicht anwendbar
 Open XML-Dateiformatkonverter für Mac
 </td>
 <td style="border:1px solid black;">
-[Open XML-Dateiformatkonverter für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=9d6d9eaa-8442-4184-8886-faab2803bde6)  
+[Open XML-Dateiformatkonverter für Mac](https://www.microsoft.com/download/details.aspx?familyid=9d6d9eaa-8442-4184-8886-faab2803bde6)  
 (KB971824)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Open XML-Dateiformatkonverter für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=9d6d9eaa-8442-4184-8886-faab2803bde6)  
+[Open XML-Dateiformatkonverter für Mac](https://www.microsoft.com/download/details.aspx?familyid=9d6d9eaa-8442-4184-8886-faab2803bde6)  
 (KB971824)  
 (Hoch)
 </td>
@@ -1365,10 +1365,10 @@ Microsoft Office Excel Viewer
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel Viewer 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=20e6933d-85f8-4cec-9534-893789cd053e)  
+[Microsoft Office Excel Viewer 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=20e6933d-85f8-4cec-9534-893789cd053e)  
 (KB969685)  
 (Hoch)  
-[Microsoft Office Excel Viewer](http://www.microsoft.com/downloads/details.aspx?familyid=ac0530dc-7f63-4ad0-85c1-784ad28156cf)  
+[Microsoft Office Excel Viewer](https://www.microsoft.com/download/details.aspx?familyid=ac0530dc-7f63-4ad0-85c1-784ad28156cf)  
 (KB969686)  
 (Hoch)
 </td>
@@ -1381,10 +1381,10 @@ Nicht anwendbar
 Microsoft Office Word Viewer
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word Viewer 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=82980a40-f10c-4f02-b06c-3a12d4434a6b)  
+[Microsoft Office Word Viewer 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=82980a40-f10c-4f02-b06c-3a12d4434a6b)  
 (KB969614)  
 (Hoch)  
-[Microsoft Office Word Viewer](http://www.microsoft.com/downloads/details.aspx?familyid=82980a40-f10c-4f02-b06c-3a12d4434a6b)  
+[Microsoft Office Word Viewer](https://www.microsoft.com/download/details.aspx?familyid=82980a40-f10c-4f02-b06c-3a12d4434a6b)  
 (KB969614)  
 (Hoch)
 </td>
@@ -1400,12 +1400,12 @@ Nicht anwendbar
 Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=63bd8f14-e736-46ce-af66-d30f17461e5a)  
+[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=63bd8f14-e736-46ce-af66-d30f17461e5a)  
 (KB969613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=a8be8457-b0b6-455e-907e-d13be883adf2)  
+[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=a8be8457-b0b6-455e-907e-d13be883adf2)  
 (KB969679)  
 (Hoch)
 </td>
@@ -1424,7 +1424,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Works 8.5](http://www.microsoft.com/downloads/details.aspx?familyid=628280fe-e035-4274-85f2-393d9bad543c)  
+[Microsoft Works 8.5](https://www.microsoft.com/download/details.aspx?familyid=628280fe-e035-4274-85f2-393d9bad543c)  
 (KB967043)  
 (Hoch)
 </td>
@@ -1440,7 +1440,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Works 9](http://www.microsoft.com/downloads/details.aspx?familyid=f6fa110e-45c6-450f-ae47-c89a06e3f762)  
+[Microsoft Works 9](https://www.microsoft.com/download/details.aspx?familyid=f6fa110e-45c6-450f-ae47-c89a06e3f762)  
 (KB967044)  
 (Hoch)
 </td>
@@ -1453,10 +1453,10 @@ Microsoft Office SharePoint Server
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=862e6ad1-8124-4060-93b1-2b882ef5ce3d)\*\*  
+[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (32-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=862e6ad1-8124-4060-93b1-2b882ef5ce3d)\*\*  
 (KB969737)  
 (Hoch)  
-[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=b7b6e611-2c5d-4639-add9-972055789ecd)\*\*  
+[Microsoft Office SharePoint Server 2007 Service Pack 1 und Microsoft Office SharePoint Server 2007 Service Pack 2 (64-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=b7b6e611-2c5d-4639-add9-972055789ecd)\*\*  
 (KB969737)  
 (Hoch)
 </td>
@@ -1468,13 +1468,13 @@ Nicht anwendbar
  
 **Hinweise für MS09-021**
 
-\*Für Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2 müssen Benutzer zusätzlich zum Sicherheitsupdatepaket KB969682 auch das Sicherheitsupdate für [Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=a8be8457-b0b6-455e-907e-d13be883adf2) (KB969679) installieren, um vor den in diesem Bulletin beschriebenen Sicherheitsanfälligkeiten geschützt zu sein.
+\*Für Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2 müssen Benutzer zusätzlich zum Sicherheitsupdatepaket KB969682 auch das Sicherheitsupdate für [Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=a8be8457-b0b6-455e-907e-d13be883adf2) (KB969679) installieren, um vor den in diesem Bulletin beschriebenen Sicherheitsanfälligkeiten geschützt zu sein.
 
 \*\*Dieses Update gilt für Server, auf denen Excel Services installiert ist, z. B. die Standardkonfiguration von Microsoft Office SharePoint Server 2007 Enterprise und Microsoft Office SharePoint Server 2007 für Websites. Microsoft Office SharePoint Server 2007 Standard enthält Excel Services nicht.
 
 **Hinweis für MS09-024**
 
-\*\*\*Microsoft Office Word 2003 ist betroffen, wenn ein anfälliger Works-Konverter installiert ist. Works-Konverter sind für Microsoft Office Word 2003 als Download unter [Microsoft Works 6–9-Dateikonverter](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bf41401e-70fa-465d-ae2e-cf44dbf05297) verfügbar.
+\*\*\*Microsoft Office Word 2003 ist betroffen, wenn ein anfälliger Works-Konverter installiert ist. Works-Konverter sind für Microsoft Office Word 2003 als Download unter [Microsoft Works 6–9-Dateikonverter](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bf41401e-70fa-465d-ae2e-cf44dbf05297) verfügbar.
 
 Tools und Anleitungen zur Erkennung und Bereitstellung
 ------------------------------------------------------
@@ -1509,7 +1509,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043.aspx), die im [Microsoft Application Compatibility Toolkit 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043.aspx), die im [Microsoft Application Compatibility Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

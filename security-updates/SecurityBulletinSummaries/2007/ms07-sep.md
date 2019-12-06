@@ -148,7 +148,7 @@ Windows-Betriebssystem:
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=7cd248ed-d154-4dce-89ef-ceefd2700965)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=7cd248ed-d154-4dce-89ef-ceefd2700965)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -270,7 +270,7 @@ Windows Services for UNIX 3.0 unter Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=557f89fc-c5d9-4405-9007-1654abf92277&amp;displaylang=en)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=557f89fc-c5d9-4405-9007-1654abf92277&amp;displaylang=en)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -284,7 +284,7 @@ Windows Services for UNIX 3.5 unter Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=70ae23c2-3ae8-4ea6-ba8d-8ac7e4f82663&amp;displaylang=en)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=70ae23c2-3ae8-4ea6-ba8d-8ac7e4f82663&amp;displaylang=en)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -298,7 +298,7 @@ Windows Services for UNIX 3.0 unter Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=557f89fc-c5d9-4405-9007-1654abf92277&amp;displaylang=en)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=557f89fc-c5d9-4405-9007-1654abf92277&amp;displaylang=en)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -312,7 +312,7 @@ Windows Services for UNIX 3.5 unter Windows XP Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=70ae23c2-3ae8-4ea6-ba8d-8ac7e4f82663&amp;displaylang=en)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=70ae23c2-3ae8-4ea6-ba8d-8ac7e4f82663&amp;displaylang=en)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -326,7 +326,7 @@ Windows Services for UNIX 3.0 unter Windows Server 2003 Service Pack 1 und Windo
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=557f89fc-c5d9-4405-9007-1654abf92277)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=557f89fc-c5d9-4405-9007-1654abf92277)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -340,7 +340,7 @@ Windows Services for UNIX 3.5 unter Windows Server 2003 Service Pack 1 und Windo
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=70ae23c2-3ae8-4ea6-ba8d-8ac7e4f82663)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=70ae23c2-3ae8-4ea6-ba8d-8ac7e4f82663)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -354,7 +354,7 @@ Subsystem für UNIX-basierte Anwendungen unter Windows Server 2003 Service Pack 
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=8ab5cc43-0b9c-45eb-aa51-47568ab6ce3f)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=8ab5cc43-0b9c-45eb-aa51-47568ab6ce3f)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -368,7 +368,7 @@ Subsystem für UNIX-basierte Anwendungen unter Windows Server 2003 x64 Edition u
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=1d21e3e8-b5f6-4044-9db6-054af836492b)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=1d21e3e8-b5f6-4044-9db6-054af836492b)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -382,7 +382,7 @@ Subsystem für UNIX-basierte Anwendungen unter Windows Vista
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=4d52e4f4-2888-42df-8163-85c648e65b29)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=4d52e4f4-2888-42df-8163-85c648e65b29)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -396,7 +396,7 @@ Subsystem für UNIX-basierte Anwendungen unter Windows Vista x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=4be667cc-c239-480b-a9a0-939bcd27f0de)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=4be667cc-c239-480b-a9a0-939bcd27f0de)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -414,7 +414,7 @@ Visual Studio .NET 2002 Service Pack 1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c41d8159-b42f-4d06-a797-e510494976ee) **<sup>[2]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c41d8159-b42f-4d06-a797-e510494976ee) **<sup>[2]</sup>**
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -429,7 +429,7 @@ Visual Studio .NET 2003
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d612ad41-5a0d-4e13-99ea-d6a5589786d6) **<sup>[2]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d612ad41-5a0d-4e13-99ea-d6a5589786d6) **<sup>[2]</sup>**
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -444,7 +444,7 @@ Visual Studio .NET 2003 Service Pack 1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=69d2219f-ce82-46a5-8aec-072bd4bb955e&displaylang=de) **<sup>[2]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=69d2219f-ce82-46a5-8aec-072bd4bb955e&displaylang=de) **<sup>[2]</sup>**
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -459,7 +459,7 @@ Visual Studio 2005
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=21073cc2-919c-40df-8ebb-aa3db06050d2) **<sup>[2]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=21073cc2-919c-40df-8ebb-aa3db06050d2) **<sup>[2]</sup>**
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -474,7 +474,7 @@ Visual Studio 2005 Service Pack 1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=967d43c8-efba-4221-beb0-981e7deef33a) **<sup>[2]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=967d43c8-efba-4221-beb0-981e7deef33a) **<sup>[2]</sup>**
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -497,7 +497,7 @@ MSN Messenger 6.2 unter Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cf49c56c-8b3e-4eae-9904-9505f47bed45) **<sup>[3]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cf49c56c-8b3e-4eae-9904-9505f47bed45) **<sup>[3]</sup>**
 </td>
 </tr>
 <tr>
@@ -511,7 +511,7 @@ MSN Messenger 7.0 unter Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cf49c56c-8b3e-4eae-9904-9505f47bed45) **<sup>[3]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cf49c56c-8b3e-4eae-9904-9505f47bed45) **<sup>[3]</sup>**
 </td>
 </tr>
 <tr class="alternateRow">
@@ -525,7 +525,7 @@ MSN Messenger 6.2 unter Windows XP Service Pack 2, Windows XP Professional x64 E
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d78f2ff1-79ea-4066-8ba0-ddbed94864fc) **<sup>[3]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d78f2ff1-79ea-4066-8ba0-ddbed94864fc) **<sup>[3]</sup>**
 </td>
 </tr>
 <tr>
@@ -539,7 +539,7 @@ MSN Messenger 7.0 unter Windows XP Service Pack 2, Windows XP Professional x64 E
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d78f2ff1-79ea-4066-8ba0-ddbed94864fc) **<sup>[3]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d78f2ff1-79ea-4066-8ba0-ddbed94864fc) **<sup>[3]</sup>**
 </td>
 </tr>
 <tr class="alternateRow">
@@ -553,7 +553,7 @@ MSN Messenger 7.5 unter Windows XP Service Pack 2, Windows XP Professional x64 E
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d78f2ff1-79ea-4066-8ba0-ddbed94864fc) **<sup>[3]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d78f2ff1-79ea-4066-8ba0-ddbed94864fc) **<sup>[3]</sup>**
 </td>
 </tr>
 <tr>
@@ -567,7 +567,7 @@ MSN Messenger 8.0 unter Windows XP Service Pack 2, Windows XP Professional x64 E
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d78f2ff1-79ea-4066-8ba0-ddbed94864fc) **<sup>[3]</sup>**
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d78f2ff1-79ea-4066-8ba0-ddbed94864fc) **<sup>[3]</sup>**
 </td>
 </tr>
 </table>

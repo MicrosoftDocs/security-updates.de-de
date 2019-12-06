@@ -153,7 +153,7 @@ Microsoft Office 2000 Service Pack 3
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=72735aa1-e22c-40ed-8c79-38fba89979aa)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=72735aa1-e22c-40ed-8c79-38fba89979aa)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -168,7 +168,7 @@ Microsoft Office XP Service Pack 3
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9cf8aafa-71a5-4017-b53c-4e80ef6e1188)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9cf8aafa-71a5-4017-b53c-4e80ef6e1188)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -183,7 +183,7 @@ Microsoft Office 2003 Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -193,7 +193,7 @@ Microsoft Office 2003 Service Pack 2
 Microsoft Office Excel 2000 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f7f90c30-1bfd-406b-a77f-612443e30185)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f7f90c30-1bfd-406b-a77f-612443e30185)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -207,7 +207,7 @@ Microsoft Office Excel 2000 Service Pack 3
 Microsoft Office Excel 2002 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=907f96d5-d1e9-4471-b41c-3ac811e63038)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=907f96d5-d1e9-4471-b41c-3ac811e63038)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -221,7 +221,7 @@ Microsoft Office Excel 2002 Service Pack 3
 Microsoft Office Excel 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=296e5f2c-f594-41c8-a20a-3e4c40ae3948)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=296e5f2c-f594-41c8-a20a-3e4c40ae3948)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -235,12 +235,12 @@ Microsoft Office Excel 2003 Service Pack 2
 Microsoft Office Excel Viewer 2003
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=280bb2ac-b21a-46b5-8751-5a50fbebf107)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=280bb2ac-b21a-46b5-8751-5a50fbebf107)
 </td>
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -254,7 +254,7 @@ Microsoft Office Excel Viewer 2003 Service Pack 3
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -268,7 +268,7 @@ Microsoft Office Word Viewer 2003
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -282,7 +282,7 @@ Microsoft Office Word Viewer 2003 Service Pack 3
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -292,7 +292,7 @@ Microsoft Office Word Viewer 2003 Service Pack 3
 Microsoft Office Excel 2007
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e7634cb5-9531-4284-9554-4168fc488e0c)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e7634cb5-9531-4284-9554-4168fc488e0c)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -306,7 +306,7 @@ Microsoft Office Excel 2007
 Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?familyid=e9251d71-9098-4125-ae91-7d4c83ea58ad)
+[Hoch](https://www.microsoft.com/download/details.aspx?familyid=e9251d71-9098-4125-ae91-7d4c83ea58ad)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -322,7 +322,7 @@ Microsoft Office Outlook 2000 Service Pack 3
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=714a49cd-5bca-4719-96a1-e1077f279533)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=714a49cd-5bca-4719-96a1-e1077f279533)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -336,7 +336,7 @@ Microsoft Office Outlook 2002 Service Pack 3
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=59853687-d885-4059-9460-ee403855dbd8)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=59853687-d885-4059-9460-ee403855dbd8)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -350,7 +350,7 @@ Microsoft Office Outlook 2003 Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fccc7c4c-8496-4682-bd46-6590503c1bf2)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fccc7c4c-8496-4682-bd46-6590503c1bf2)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -364,7 +364,7 @@ Microsoft Office Outlook 2003 Service Pack 3
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fccc7c4c-8496-4682-bd46-6590503c1bf2)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fccc7c4c-8496-4682-bd46-6590503c1bf2)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -378,7 +378,7 @@ Microsoft Office Outlook 2007
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4e2baf00-88eb-4eb6-961a-54245b363c21)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4e2baf00-88eb-4eb6-961a-54245b363c21)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -390,12 +390,12 @@ Microsoft Office Outlook 2007
 Microsoft Office 2004 für Mac
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=95dceb37-b35f-46db-b280-db0f3b298aa9)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=95dceb37-b35f-46db-b280-db0f3b298aa9)
 </td>
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=95dceb37-b35f-46db-b280-db0f3b298aa9)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=95dceb37-b35f-46db-b280-db0f3b298aa9)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -405,7 +405,7 @@ Microsoft Office 2004 für Mac
 Microsoft Office 2008 für Mac
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8fe8c32a-6d7a-482b-97c6-42562f089ee4)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8fe8c32a-6d7a-482b-97c6-42562f089ee4)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -431,7 +431,7 @@ Microsoft Office Web Components 2000
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=806c654a-35e3-4385-855a-4b803249bfcf)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=806c654a-35e3-4385-855a-4b803249bfcf)
 </td>
 </tr>
 <tr>
@@ -446,7 +446,7 @@ Microsoft Office Web Components 2000
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f54d2a5e-c0ed-4f70-9746-38dd61c8e9d7)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f54d2a5e-c0ed-4f70-9746-38dd61c8e9d7)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -461,7 +461,7 @@ Microsoft Office Web Components 2000
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d71b23fa-a873-406d-bad7-e38e565dee39)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d71b23fa-a873-406d-bad7-e38e565dee39)
 </td>
 </tr>
 <tr>
@@ -476,7 +476,7 @@ Microsoft Office Web Components 2000
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2fe10ccd-40cb-4090-b83d-eae3d4eca174)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2fe10ccd-40cb-4090-b83d-eae3d4eca174)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -491,7 +491,7 @@ Microsoft Office Web Components 2000
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=5fddd54f-7a33-4ea3-b68d-b96a9bae509d)   
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=5fddd54f-7a33-4ea3-b68d-b96a9bae509d)   
 **<sup>[2]</sup>**
 </td>
 </tr>
@@ -507,7 +507,7 @@ Microsoft Office Web Components 2000
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=5fddd54f-7a33-4ea3-b68d-b96a9bae509d)   
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=5fddd54f-7a33-4ea3-b68d-b96a9bae509d)   
 **<sup>[3]</sup>**
 </td>
 </tr>
@@ -523,7 +523,7 @@ Microsoft Office Web Components 2000
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=71de76ba-b62c-4a7a-a78a-9317f5255b13)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=71de76ba-b62c-4a7a-a78a-9317f5255b13)
 </td>
 </tr>
 <tr>
@@ -538,7 +538,7 @@ Microsoft Office Web Components 2000
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=526d87bd-c3da-412e-8765-c15987ae9b01)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=526d87bd-c3da-412e-8765-c15987ae9b01)
 </td>
 </tr>
 <tr class="alternateRow">

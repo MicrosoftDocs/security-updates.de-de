@@ -164,7 +164,7 @@ Keine
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8cd902ec-e018-4b61-80f9-825d973f998e)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8cd902ec-e018-4b61-80f9-825d973f998e)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -176,7 +176,7 @@ Nicht anwendbar
 Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=dd3e2236-9cc0-478e-a46c-981ef685c0e3)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=dd3e2236-9cc0-478e-a46c-981ef685c0e3)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -215,14 +215,14 @@ Windows Server 2003
 Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e52aa1fd-e694-4322-b3ff-6abc1b4a16fe)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e52aa1fd-e694-4322-b3ff-6abc1b4a16fe)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2000 Desktop Engine (WMSDE)](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=218809d6-a9fb-408b-a34d-ab2ac786994c)  
+[Microsoft SQL Server 2000 Desktop Engine (WMSDE)](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=218809d6-a9fb-408b-a34d-ab2ac786994c)  
 (KB960082)  
 (Hoch)  
-[Windows Internal Database (WYukon) Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=16925be5-98d0-446b-9bbc-d9a2d335c69e)  
+[Windows Internal Database (WYukon) Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=16925be5-98d0-446b-9bbc-d9a2d335c69e)  
 (KB960089)  
 (Hoch)
 </td>
@@ -232,14 +232,14 @@ Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2
 Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=edbf1566-b96b-4c7d-98fe-b15f8e766792)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=edbf1566-b96b-4c7d-98fe-b15f8e766792)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft SQL Server 2000 Desktop Engine (WMSDE)](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=87183155-6770-4ea2-acca-191de4d40d27)  
+[Microsoft SQL Server 2000 Desktop Engine (WMSDE)](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=87183155-6770-4ea2-acca-191de4d40d27)  
 (KB960082)  
 (Hoch)  
-[Windows Internal Database (WYukon) x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=05c5c265-cfd7-4364-b323-77650b7f1e67)  
+[Windows Internal Database (WYukon) x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=05c5c265-cfd7-4364-b323-77650b7f1e67)  
 (KB960089)  
 (Hoch)
 </td>
@@ -249,7 +249,7 @@ Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service 
 Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5ce78797-d1c0-40d4-84e1-1004389833be)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5ce78797-d1c0-40d4-84e1-1004389833be)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
@@ -288,7 +288,7 @@ Keine
 Windows Vista und Windows Vista Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5f9fa4b6-85a4-43bc-b84f-6bd847799650)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5f9fa4b6-85a4-43bc-b84f-6bd847799650)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -300,7 +300,7 @@ Nicht anwendbar
 Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e9a8c94b-b9d2-4d64-855f-b5f02ce3dfb5)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e9a8c94b-b9d2-4d64-855f-b5f02ce3dfb5)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -339,11 +339,11 @@ Windows Server 2008
 Windows Server 2008 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2491dbf2-7cd3-44f1-bfad-77e6f760a25c)\*\*  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2491dbf2-7cd3-44f1-bfad-77e6f760a25c)\*\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Internal Database (WYukon) Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=16925be5-98d0-446b-9bbc-d9a2d335c69e)\*  
+[Windows Internal Database (WYukon) Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=16925be5-98d0-446b-9bbc-d9a2d335c69e)\*  
 (KB960089)  
 (Hoch)
 </td>
@@ -353,11 +353,11 @@ Windows Server 2008 für 32-Bit-Systeme
 Windows Server 2008 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=794373cc-2dce-4ef5-af50-7804c622c230)\*\*  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=794373cc-2dce-4ef5-af50-7804c622c230)\*\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Internal Database (WYukon) x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=05c5c265-cfd7-4364-b323-77650b7f1e67)\*  
+[Windows Internal Database (WYukon) x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=05c5c265-cfd7-4364-b323-77650b7f1e67)\*  
 (KB960089)  
 (Hoch)
 </td>
@@ -367,7 +367,7 @@ Windows Server 2008 für x64-basierte Systeme
 Windows Server 2008 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=11985325-4b33-4077-82cf-6afc7a71c510)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=11985325-4b33-4077-82cf-6afc7a71c510)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
@@ -422,7 +422,7 @@ Microsoft Exchange Server
 Microsoft Exchange 2000 Server
 </td>
 <td style="border:1px solid black;">
-[Microsoft Exchange 2000 Server Service Pack 3 mit dem Update-Rollup von August 2004](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=805dc856-ea60-477d-be40-6ac535a7e7e5)  
+[Microsoft Exchange 2000 Server Service Pack 3 mit dem Update-Rollup von August 2004](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=805dc856-ea60-477d-be40-6ac535a7e7e5)  
 (KB959897)  
 (Kritisch)
 </td>
@@ -432,7 +432,7 @@ Microsoft Exchange 2000 Server
 Microsoft Exchange Server 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Exchange Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1d9f0956-88bd-4e13-a86b-b1c8d4782f71)\*  
+[Microsoft Exchange Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1d9f0956-88bd-4e13-a86b-b1c8d4782f71)\*  
 (KB959897)  
 (Kritisch)
 </td>
@@ -442,7 +442,7 @@ Microsoft Exchange Server 2003
 Microsoft Exchange Server 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Exchange Server 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=93cb3f66-ae72-4356-bdbf-35029cff6df1)\*\*  
+[Microsoft Exchange Server 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=93cb3f66-ae72-4356-bdbf-35029cff6df1)\*\*  
 (KB959241)  
 (Kritisch)
 </td>
@@ -452,7 +452,7 @@ Microsoft Exchange Server 2007
 Microsoft Exchange Server MAPI-Client und Datenobjekte für die Zusammenarbeit 1.2.1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Exchange Server MAPI-Client und Datenobjekte für die Zusammenarbeit 1.2.1](http://www.microsoft.com/downloads/details.aspx?familyid=e17e7f31-079a-43a9-bff2-0a110307611e)\*\*\*  
+[Microsoft Exchange Server MAPI-Client und Datenobjekte für die Zusammenarbeit 1.2.1](https://www.microsoft.com/download/details.aspx?familyid=e17e7f31-079a-43a9-bff2-0a110307611e)\*\*\*  
 (Kritisch)
 </td>
 </tr>
@@ -501,11 +501,11 @@ SQL Server 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d5bb816a-6e1a-47cb-92be-51c565ee184c)  
+[SQL Server 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d5bb816a-6e1a-47cb-92be-51c565ee184c)  
 (KB960082)  
 (Hoch)  
 QFE-Update:  
-[SQL Server 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a93f3cfe-18c9-4218-a551-13bf415e418a)  
+[SQL Server 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a93f3cfe-18c9-4218-a551-13bf415e418a)  
 (KB960083)  
 (Hoch)
 </td>
@@ -516,11 +516,11 @@ SQL Server 2000 Itanium-basierte Edition Service Pack 4
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2000 Itanium-basierte Edition Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d5bb816a-6e1a-47cb-92be-51c565ee184c)  
+[SQL Server 2000 Itanium-basierte Edition Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d5bb816a-6e1a-47cb-92be-51c565ee184c)  
 (KB960082)  
 (Hoch)  
 QFE-Update:  
-[SQL Server 2000 Itanium-basierte Edition Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a93f3cfe-18c9-4218-a551-13bf415e418a)  
+[SQL Server 2000 Itanium-basierte Edition Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a93f3cfe-18c9-4218-a551-13bf415e418a)  
 (KB960083)  
 (Hoch)
 </td>
@@ -531,11 +531,11 @@ SQL Server 2005 Service Pack 2
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2005 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
+[SQL Server 2005 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
 (KB960089)  
 (Hoch)  
 QFE-Update:  
-[SQL Server 2005 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
+[SQL Server 2005 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
 (KB960090)  
 (Hoch)
 </td>
@@ -546,11 +546,11 @@ SQL Server 2005 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2005 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
+[SQL Server 2005 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
 (KB960089)  
 (Hoch)  
 QFE-Update:  
-[SQL Server 2005 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
+[SQL Server 2005 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
 (KB960090)  
 (Hoch)
 </td>
@@ -561,11 +561,11 @@ SQL Server 2005 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2005 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
+[SQL Server 2005 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
 (KB960089)  
 (Hoch)  
 QFE-Update:  
-[SQL Server 2005 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
+[SQL Server 2005 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
 (KB960090)  
 (Hoch)
 </td>
@@ -576,11 +576,11 @@ Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Service Pack 4
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d5bb816a-6e1a-47cb-92be-51c565ee184c)  
+[Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d5bb816a-6e1a-47cb-92be-51c565ee184c)  
 (KB960082)  
 (Hoch)  
 QFE-Update:  
-[Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a93f3cfe-18c9-4218-a551-13bf415e418a)  
+[Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a93f3cfe-18c9-4218-a551-13bf415e418a)  
 (KB960083)  
 (Hoch)
 </td>
@@ -591,11 +591,11 @@ SQL Server 2005 Express Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2005 Express Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
+[SQL Server 2005 Express Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
 (KB960089)  
 (Hoch)  
 QFE-Update:  
-[SQL Server 2005 Express Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
+[SQL Server 2005 Express Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
 (KB960090)  
 (Hoch)
 </td>
@@ -606,11 +606,11 @@ SQL Server 2005 Express Edition mit Advanced Services Service Pack 2
 </td>
 <td style="border:1px solid black;">
 GDR-Update:  
-[SQL Server 2005 Express Edition mit Advanced Services Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
+[SQL Server 2005 Express Edition mit Advanced Services Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5dfb7998-0316-40e5-9fc5-7a1afc18e15e)  
 (KB960089)  
 (Hoch)  
 QFE-Update:  
-[SQL Server 2005 Express Edition mit Advanced Services Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
+[SQL Server 2005 Express Edition mit Advanced Services Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=aa2b82ca-e94e-4491-8639-f0749b1a0f3a)  
 (KB960090)  
 (Hoch)
 </td>
@@ -657,7 +657,7 @@ Microsoft Office Visio
 Microsoft Office Visio 2002
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Visio 2002 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a30cef3f-9eaf-45bd-9a25-4b65302362cb)  
+[Microsoft Office Visio 2002 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a30cef3f-9eaf-45bd-9a25-4b65302362cb)  
 (KB955654)  
 (Hoch)
 </td>
@@ -667,7 +667,7 @@ Microsoft Office Visio 2002
 Microsoft Office Visio 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Visio 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c9cb589e-1a37-485d-8402-7f42bcd7a1a9)  
+[Microsoft Office Visio 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c9cb589e-1a37-485d-8402-7f42bcd7a1a9)  
 (KB955655)  
 (Hoch)
 </td>
@@ -677,7 +677,7 @@ Microsoft Office Visio 2003
 Microsoft Office Visio 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Visio 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4b711e89-8de2-4f17-8afc-691e0604ff82)  
+[Microsoft Office Visio 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4b711e89-8de2-4f17-8afc-691e0604ff82)  
 (KB957831)  
 (Hoch)
 </td>
@@ -718,7 +718,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true), die im [Anwendungskompatibilitäts-Toolkit 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true), die im [Anwendungskompatibilitäts-Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Anwendungskompatibilitäts-Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

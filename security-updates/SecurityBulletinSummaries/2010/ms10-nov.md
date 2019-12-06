@@ -158,12 +158,12 @@ Microsoft Office Suites und Komponenten
 Microsoft Office XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=f32648e3-2fb5-472c-932f-360e5d3c0931)  
+[Microsoft Office XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=f32648e3-2fb5-472c-932f-360e5d3c0931)  
 (KB2289169)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=3efbf9f6-734a-46ac-8f92-87b6ec819bfa)  
+[Microsoft Office PowerPoint 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=3efbf9f6-734a-46ac-8f92-87b6ec819bfa)  
 (KB2413272)  
 (Hoch)
 </td>
@@ -173,12 +173,12 @@ Microsoft Office XP Service Pack 3
 Microsoft Office 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=07a6cf76-2cea-4c54-b66d-50e9eed108ac)  
+[Microsoft Office 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=07a6cf76-2cea-4c54-b66d-50e9eed108ac)  
 (KB2289187)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=108286d4-fb68-40d6-a7b1-64b3a4eb87ee)  
+[Microsoft Office PowerPoint 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=108286d4-fb68-40d6-a7b1-64b3a4eb87ee)  
 (KB2413304)  
 (Hoch)
 </td>
@@ -188,7 +188,7 @@ Microsoft Office 2003 Service Pack 3
 Microsoft Office 2007 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=be0c5878-60c0-4700-8836-50d369b51d04)  
+[Microsoft Office 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=be0c5878-60c0-4700-8836-50d369b51d04)  
 (KB2289158)  
 (Kritisch)
 </td>
@@ -201,7 +201,7 @@ Nicht anwendbar
 Microsoft Office 2010 (32-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2010 (32-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=0b308508-0e1e-4e90-b2b8-7e32bfc5dbf4)  
+[Microsoft Office 2010 (32-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=0b308508-0e1e-4e90-b2b8-7e32bfc5dbf4)  
 (KB2289161)  
 (Kritisch)
 </td>
@@ -214,7 +214,7 @@ Nicht anwendbar
 Microsoft Office 2010 (64-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2010 (64-Bit-Editionen)](http://www.microsoft.com/downloads/details.aspx?familyid=534c6a2a-e7c6-4adf-8b81-e009a2b5fff4)  
+[Microsoft Office 2010 (64-Bit-Editionen)](https://www.microsoft.com/download/details.aspx?familyid=534c6a2a-e7c6-4adf-8b81-e009a2b5fff4)  
 (KB2289161)  
 (Kritisch)
 </td>
@@ -267,7 +267,7 @@ Microsoft Office 2004 für Mac<sup>[1]</sup>
 Microsoft Office 2008 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2008 für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=ad1b1984-b2b2-49b3-a1dd-385b77d9248a)  
+[Microsoft Office 2008 für Mac](https://www.microsoft.com/download/details.aspx?familyid=ad1b1984-b2b2-49b3-a1dd-385b77d9248a)  
 (KB2476512)  
 (Hoch)
 </td>
@@ -280,7 +280,7 @@ Nicht anwendbar
 Microsoft Office für Mac 2011
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office für Mac 2011](http://www.microsoft.com/downloads/details.aspx?familyid=8bd6ca3b-8004-4e8d-a09d-220dcbbce799)  
+[Microsoft Office für Mac 2011](https://www.microsoft.com/download/details.aspx?familyid=8bd6ca3b-8004-4e8d-a09d-220dcbbce799)  
 (KB2454823)  
 (Hoch)
 </td>
@@ -293,7 +293,7 @@ Nicht anwendbar
 Open XML-Dateiformatkonverter für Mac
 </td>
 <td style="border:1px solid black;">
-[Open XML-Dateiformatkonverter für Mac](http://www.microsoft.com/downloads/details.aspx?familyid=b846d255-a7d4-4a2c-a084-d434c29fe676)  
+[Open XML-Dateiformatkonverter für Mac](https://www.microsoft.com/download/details.aspx?familyid=b846d255-a7d4-4a2c-a084-d434c29fe676)  
 (KB2476511)  
 (Hoch)
 </td>
@@ -336,7 +336,7 @@ Microsoft PowerPoint Viewer
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint Viewer 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=df826b79-7398-45de-943c-6f6f0af1b4e3)  
+[Microsoft Office PowerPoint Viewer 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=df826b79-7398-45de-943c-6f6f0af1b4e3)  
 (KB2413381)  
 (Hoch)
 </td>
@@ -387,13 +387,13 @@ Microsoft Forefront Unified Access Gateway
 Microsoft Forefront Unified Access Gateway
 </td>
 <td style="border:1px solid black;">
-[Forefront Unified Access Gateway 2010](http://www.microsoft.com/downloads/details.aspx?familyid=5f2ee08e-e289-47db-bd3f-7b9cfc1eb985)<sup>[1]</sup>
+[Forefront Unified Access Gateway 2010](https://www.microsoft.com/download/details.aspx?familyid=5f2ee08e-e289-47db-bd3f-7b9cfc1eb985)<sup>[1]</sup>
 (KB2433585)  
 (Hoch)  
-[Forefront Unified Access Gateway 2010 Update 1](http://www.microsoft.com/downloads/details.aspx?familyid=db0b70c8-1fa5-4d92-9888-3500c7566b19)<sup>[1]</sup>
+[Forefront Unified Access Gateway 2010 Update 1](https://www.microsoft.com/download/details.aspx?familyid=db0b70c8-1fa5-4d92-9888-3500c7566b19)<sup>[1]</sup>
 (KB2433584)  
 (Hoch)  
-[Forefront Unified Access Gateway 2010 Update 2](http://www.microsoft.com/downloads/details.aspx?familyid=4e3ee07a-771c-46ee-959f-82389bab67d7)<sup>[1]</sup>
+[Forefront Unified Access Gateway 2010 Update 2](https://www.microsoft.com/download/details.aspx?familyid=4e3ee07a-771c-46ee-959f-82389bab67d7)<sup>[1]</sup>
 (KB2418933)  
 (Hoch)
 </td>
@@ -437,7 +437,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

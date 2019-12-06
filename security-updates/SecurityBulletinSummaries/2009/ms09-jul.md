@@ -233,25 +233,25 @@ Keine
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1efbbd95-cd72-43df-b1ce-7e2b0c0cb9e2)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1efbbd95-cd72-43df-b1ce-7e2b0c0cb9e2)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[DirectX 7.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e3e54348-6548-4162-b4c0-9910ec6e18b3)  
+[DirectX 7.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e3e54348-6548-4162-b4c0-9910ec6e18b3)  
 (Kritisch)  
-[DirectX 8.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ce297c3e-8122-4276-a9c2-d1a404f8028d)\*\*\*  
+[DirectX 8.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ce297c3e-8122-4276-a9c2-d1a404f8028d)\*\*\*  
 (Kritisch)  
-[DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=862db2ad-3c1f-4a26-af70-d8c4f5a69dda)\*\*\*\*  
+[DirectX 9.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=862db2ad-3c1f-4a26-af70-d8c4f5a69dda)\*\*\*\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=89d941f0-3f71-46e3-8096-716561396b72)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=89d941f0-3f71-46e3-8096-716561396b72)  
 (Keine Bewertung des Schweregrads\*\*)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 5.01 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=50ffc8f4-7ab7-4e64-9965-5767db5f53cd)  
+[Microsoft Internet Explorer 5.01 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=50ffc8f4-7ab7-4e64-9965-5767db5f53cd)  
 (Kritisch)  
-[Microsoft Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=93bd1baa-e2fb-4e8c-9dd7-738efef32282)  
+[Microsoft Internet Explorer 6 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=93bd1baa-e2fb-4e8c-9dd7-738efef32282)  
 (Kritisch)
 </td>
 </tr>
@@ -299,23 +299,23 @@ Windows XP
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6914167b-6961-480c-a4d4-808cd58a035b)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6914167b-6961-480c-a4d4-808cd58a035b)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=09d585cb-481d-4767-875e-9c6ebe456b80)\*\*\*\*  
+[DirectX 9.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=09d585cb-481d-4767-875e-9c6ebe456b80)\*\*\*\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=24701af8-b87e-4e85-9463-f50755a1b6ad)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24701af8-b87e-4e85-9463-f50755a1b6ad)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=22bed634-5227-4a22-8df5-801f3e2e232a)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=22bed634-5227-4a22-8df5-801f3e2e232a)  
 (Kritisch)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c874c8f8-0449-42b1-8d8b-901040069568)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c874c8f8-0449-42b1-8d8b-901040069568)  
 (Kritisch)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0acc8aaa-0ae1-412a-9f2b-dc7c707cae00)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0acc8aaa-0ae1-412a-9f2b-dc7c707cae00)  
 (Kritisch)
 </td>
 </tr>
@@ -324,23 +324,23 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3b8b019e-e6d8-4ce2-8f1f-3a6399b252d1)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3b8b019e-e6d8-4ce2-8f1f-3a6399b252d1)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?familyid=f8cd4803-82da-467c-8cb1-520f5a6021d4)\*\*\*\*  
+[DirectX 9.0](https://www.microsoft.com/download/details.aspx?familyid=f8cd4803-82da-467c-8cb1-520f5a6021d4)\*\*\*\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=2cbf3699-7f79-4006-99e9-0a4c0d394c48)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=2cbf3699-7f79-4006-99e9-0a4c0d394c48)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=35ab0c5e-df3d-4873-8139-d1d98b3ac350)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=35ab0c5e-df3d-4873-8139-d1d98b3ac350)  
 (Kritisch)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=113cc76a-c434-42ff-b594-4834989ad5ba)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=113cc76a-c434-42ff-b594-4834989ad5ba)  
 (Kritisch)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=29c8d9e6-2cb8-42b6-b0a6-2510fdb49eab)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=29c8d9e6-2cb8-42b6-b0a6-2510fdb49eab)  
 (Kritisch)
 </td>
 </tr>
@@ -388,23 +388,23 @@ Windows Server 2003
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=018ef53d-f78e-4084-940d-7c86bf59d83c)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=018ef53d-f78e-4084-940d-7c86bf59d83c)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=571d57c5-1ef8-4dc4-a1e5-2211a805f0cc)\*\*\*\*  
+[DirectX 9.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=571d57c5-1ef8-4dc4-a1e5-2211a805f0cc)\*\*\*\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b0a458d6-c34c-41c7-964a-c130cfcb0d01)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b0a458d6-c34c-41c7-964a-c130cfcb0d01)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=44852619-58ad-48f2-bc55-e8e1c72b1ba9)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=44852619-58ad-48f2-bc55-e8e1c72b1ba9)  
 (Mittel)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f4112c25-9e6f-473a-bdbc-3df6dd66e6af)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f4112c25-9e6f-473a-bdbc-3df6dd66e6af)  
 (Mittel)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f4ae65a7-142f-4953-a542-315dac2ac606)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f4ae65a7-142f-4953-a542-315dac2ac606)  
 (Mittel)
 </td>
 </tr>
@@ -413,23 +413,23 @@ Windows Server 2003 Service Pack 2
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7f5fc902-f5d8-4a87-a73f-68632f9a0935)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7f5fc902-f5d8-4a87-a73f-68632f9a0935)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1779cbc0-0c29-4fac-a3a6-8b335ffcb98e)\*\*\*\*  
+[DirectX 9.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1779cbc0-0c29-4fac-a3a6-8b335ffcb98e)\*\*\*\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8b7a7bb0-80ef-4f25-bc70-3d0ac06007c5)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8b7a7bb0-80ef-4f25-bc70-3d0ac06007c5)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bd7f36c6-c5c5-4f19-ab59-39f1aaba7fe2)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bd7f36c6-c5c5-4f19-ab59-39f1aaba7fe2)  
 (Mittel)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a594ee0d-ec8f-47df-9125-89d0bbf2115d)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a594ee0d-ec8f-47df-9125-89d0bbf2115d)  
 (Mittel)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3bc0e17b-898b-4f29-aa29-607527e1c1cd)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3bc0e17b-898b-4f29-aa29-607527e1c1cd)  
 (Mittel)
 </td>
 </tr>
@@ -438,21 +438,21 @@ Windows Server 2003 x64 Edition Service Pack 2
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7df0fce2-543c-4e82-85e6-012bfc8bf130)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7df0fce2-543c-4e82-85e6-012bfc8bf130)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=48282a89-f849-405a-a31e-2676f45b5042)\*\*\*\*  
+[DirectX 9.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=48282a89-f849-405a-a31e-2676f45b5042)\*\*\*\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7be36edf-02af-402f-983a-f9ca8128b6b5)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7be36edf-02af-402f-983a-f9ca8128b6b5)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cdb70acf-77c3-40a4-b6a3-0fbc0fc0d7fc)  
+[Microsoft Internet Explorer 6](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cdb70acf-77c3-40a4-b6a3-0fbc0fc0d7fc)  
 (Mittel)  
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=adb6bad2-9931-4ede-856e-bb43bb0f6071)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=adb6bad2-9931-4ede-856e-bb43bb0f6071)  
 (Mittel)
 </td>
 </tr>
@@ -500,20 +500,20 @@ Keine
 Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c67d85c4-25c5-4821-8db9-91764888f893)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c67d85c4-25c5-4821-8db9-91764888f893)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6c90240e-c201-4dad-9835-ea71e3527b45)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6c90240e-c201-4dad-9835-ea71e3527b45)  
 (Keine Bewertung des Schweregrads\*\*)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d3be9a13-1a5b-4b74-9649-449df923f573)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d3be9a13-1a5b-4b74-9649-449df923f573)  
 (Kritisch)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b05a19f7-7412-4c2b-ad11-34396e54ca43)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b05a19f7-7412-4c2b-ad11-34396e54ca43)  
 (Kritisch)
 </td>
 </tr>
@@ -522,20 +522,20 @@ Nicht anwendbar
 Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3f8ae651-59f7-48e1-9e8c-8e07c6806964)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3f8ae651-59f7-48e1-9e8c-8e07c6806964)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d2084e8d-212b-4c39-9163-a71ec6d1b1c7)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d2084e8d-212b-4c39-9163-a71ec6d1b1c7)  
 (Keine Bewertung des Schweregrads\*\*)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2b23cd74-6cf1-413b-82a7-b602347e3ce6)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2b23cd74-6cf1-413b-82a7-b602347e3ce6)  
 (Kritisch)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=900e9a05-2f71-42de-b603-47e4ac061bcb)  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=900e9a05-2f71-42de-b603-47e4ac061bcb)  
 (Kritisch)
 </td>
 </tr>
@@ -583,20 +583,20 @@ Keine
 Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=91f6ee68-0e39-4ec3-b4cd-45f05404e2fb)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=91f6ee68-0e39-4ec3-b4cd-45f05404e2fb)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0194f994-5821-4fb9-b9e1-ed6af248c995)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0194f994-5821-4fb9-b9e1-ed6af248c995)\*  
 (Keine Bewertung des Schweregrads\*\*)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=92e3af41-71b0-4a28-afc7-123733180ead)\*  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=92e3af41-71b0-4a28-afc7-123733180ead)\*  
 (Mittel)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=30f99bda-9107-4969-90af-2a30e12acdae)\*  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=30f99bda-9107-4969-90af-2a30e12acdae)\*  
 (Mittel)
 </td>
 </tr>
@@ -605,20 +605,20 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5cdc3014-97b3-47b5-a6b7-cd0e12ec60e4)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5cdc3014-97b3-47b5-a6b7-cd0e12ec60e4)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4127b125-fdaa-489a-a80c-14b5647ac7e0)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4127b125-fdaa-489a-a80c-14b5647ac7e0)\*  
 (Keine Bewertung des Schweregrads\*\*)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1958ec40-3b7b-43a9-9fdc-742735dcf516)\*  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1958ec40-3b7b-43a9-9fdc-742735dcf516)\*  
 (Mittel)  
-[Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=acd3667b-6676-4010-b23b-e8372dd55f93)\*  
+[Windows Internet Explorer 8](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=acd3667b-6676-4010-b23b-e8372dd55f93)\*  
 (Mittel)
 </td>
 </tr>
@@ -627,18 +627,18 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=03330a14-9cfa-4146-a3d3-4b7a76975d2d)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=03330a14-9cfa-4146-a3d3-4b7a76975d2d)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4082c776-318c-4e0c-83fc-2f3f472c039a)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4082c776-318c-4e0c-83fc-2f3f472c039a)  
 (Keine Bewertung des Schweregrads\*\*)
 </td>
 <td style="border:1px solid black;">
-[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=470387ac-6d75-4b7e-8ca5-376b67a8bd4d)  
+[Windows Internet Explorer 7](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=470387ac-6d75-4b7e-8ca5-376b67a8bd4d)  
 (Mittel)
 </td>
 </tr>
@@ -694,7 +694,7 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office System 2007 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Publisher 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d4b0665d-5744-49c7-a3c0-f231fd08d3b8)  
+[Microsoft Office Publisher 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d4b0665d-5744-49c7-a3c0-f231fd08d3b8)  
 (KB969693)  
 (Hoch)
 </td>
@@ -738,7 +738,7 @@ Microsoft Visual Studio
 Microsoft Visual Studio .NET 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Studio .NET 2003 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=63ce454e-f69c-44e3-89fb-eb23c2e2154e)  
+[Microsoft Visual Studio .NET 2003 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=63ce454e-f69c-44e3-89fb-eb23c2e2154e)  
 (KB971089)  
 (Mittel)
 </td>
@@ -748,13 +748,13 @@ Microsoft Visual Studio .NET 2003
 Microsoft Visual Studio 2005
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Studio 2005 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7c8729dc-06a2-4538-a90d-ff9464dc0197)  
+[Microsoft Visual Studio 2005 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=7c8729dc-06a2-4538-a90d-ff9464dc0197)  
 (KB971090)  
 (Mittel)  
-[Microsoft Visual Studio 2005 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9d7ee45b-9892-41b5-ac08-5fde9cde1b42)\*  
+[Microsoft Visual Studio 2005 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9d7ee45b-9892-41b5-ac08-5fde9cde1b42)\*  
 (KB973673)  
 (Mittel)  
-[Microsoft Visual Studio 2005 Service Pack 1 64-bit Hosted Visual C++ Tools](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=43f96f2a-69c6-4c5e-b72c-0edfa35f4fc2)  
+[Microsoft Visual Studio 2005 Service Pack 1 64-bit Hosted Visual C++ Tools](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=43f96f2a-69c6-4c5e-b72c-0edfa35f4fc2)  
 (KB973830)  
 (Mittel)
 </td>
@@ -764,7 +764,7 @@ Microsoft Visual Studio 2005
 Windows Embedded CE 6.0
 </td>
 <td style="border:1px solid black;">
-[Windows Embedded CE 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=99d114f8-4d95-4075-a0f1-45f498f0ade8)\*\*  
+[Windows Embedded CE 6.0](https://www.microsoft.com/download/details.aspx?familyid=99d114f8-4d95-4075-a0f1-45f498f0ade8)\*\*  
 (KB974616)  
 (Mittel)
 </td>
@@ -774,16 +774,16 @@ Windows Embedded CE 6.0
 Microsoft Visual Studio 2008
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Studio 2008](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8f9da646-94dd-469d-baea-a4306270462c)  
+[Microsoft Visual Studio 2008](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8f9da646-94dd-469d-baea-a4306270462c)  
 (KB971091)  
 (Mittel)  
-[Microsoft Visual Studio 2008](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e3bb6602-b7f4-4614-9999-77f5c6f66ccd)\*  
+[Microsoft Visual Studio 2008](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e3bb6602-b7f4-4614-9999-77f5c6f66ccd)\*  
 (KB973674)  
 (Mittel)  
-[Microsoft Visual Studio 2008 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=294de390-3c94-49fb-a014-9a38580e64cb)  
+[Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=294de390-3c94-49fb-a014-9a38580e64cb)  
 (KB971092)  
 (Mittel)  
-[Microsoft Visual Studio 2008 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=75fbf397-5140-4961-92a9-78a88ba7228f)\*  
+[Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=75fbf397-5140-4961-92a9-78a88ba7228f)\*  
 (KB973675)  
 (Mittel)
 </td>
@@ -793,7 +793,7 @@ Microsoft Visual Studio 2008
 Microsoft Visual C++ 2005
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual C++ 2005 Service Pack 1 Redistributable Package](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=766a6af7-ec73-40ff-b072-9112bab119c2)  
+[Microsoft Visual C++ 2005 Service Pack 1 Redistributable Package](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=766a6af7-ec73-40ff-b072-9112bab119c2)  
 (KB973544)  
 (Mittel)
 </td>
@@ -803,10 +803,10 @@ Microsoft Visual C++ 2005
 Microsoft Visual C++ 2008
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual C++ 2008 Redistributable Package](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8b29655e-9da4-4b6b-9ac5-687ca0770f93)  
+[Microsoft Visual C++ 2008 Redistributable Package](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8b29655e-9da4-4b6b-9ac5-687ca0770f93)  
 (KB973551)  
 (Mittel)  
-[Microsoft Visual C++ 2008 Service Pack 1 Redistributable Package](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2051a0c1-c9b5-4b0a-a8f5-770a549fd78c)  
+[Microsoft Visual C++ 2008 Service Pack 1 Redistributable Package](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2051a0c1-c9b5-4b0a-a8f5-770a549fd78c)  
 (KB973552)  
 (Mittel)
 </td>
@@ -855,13 +855,13 @@ Microsoft Internet Security and Acceleration Server
 Microsoft Internet Security and Acceleration Server 2006
 </td>
 <td style="border:1px solid black;">
-[Microsoft Internet Security and Acceleration Server 2006](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c4e9b1dd-526d-407b-bc23-ebc2738b1b19)  
+[Microsoft Internet Security and Acceleration Server 2006](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c4e9b1dd-526d-407b-bc23-ebc2738b1b19)  
 (KB970811)  
 (Hoch)  
-[Microsoft Internet Security and Acceleration Server 2006-Unterstützungsupdate](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e8ccd770-a925-411c-b994-78e4cf5c3476)  
+[Microsoft Internet Security and Acceleration Server 2006-Unterstützungsupdate](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e8ccd770-a925-411c-b994-78e4cf5c3476)  
 (KB970811)  
 (Hoch)  
-[Microsoft Internet Security and Acceleration Server 2006 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e536cfed-c1af-4868-b2ac-79178d6355a5)  
+[Microsoft Internet Security and Acceleration Server 2006 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e536cfed-c1af-4868-b2ac-79178d6355a5)  
 (KB971143)  
 (Hoch)
 </td>
@@ -905,7 +905,7 @@ Microsoft Virtual PC
 Microsoft Virtual PC 2004
 </td>
 <td style="border:1px solid black;">
-[Microsoft Virtual PC 2004 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=56a160e1-59b5-45bc-aecf-dfe614a7efad)  
+[Microsoft Virtual PC 2004 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=56a160e1-59b5-45bc-aecf-dfe614a7efad)  
 (KB969856)  
 (Hoch)
 </td>
@@ -915,10 +915,10 @@ Microsoft Virtual PC 2004
 Microsoft Virtual PC 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Virtual PC 2007](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5318c1fa-daf1-4028-832b-eaec9906a46a)  
+[Microsoft Virtual PC 2007](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5318c1fa-daf1-4028-832b-eaec9906a46a)  
 (KB969856)  
 (Hoch)  
-[Microsoft Virtual PC 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=88de1513-8d35-410f-8896-fe668f885ca0)  
+[Microsoft Virtual PC 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=88de1513-8d35-410f-8896-fe668f885ca0)  
 (KB969856)  
 (Hoch)
 </td>
@@ -928,10 +928,10 @@ Microsoft Virtual PC 2007
 Microsoft Virtual PC 2007 x64 Edition
 </td>
 <td style="border:1px solid black;">
-[Microsoft Virtual PC 2007 x64 Edition](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5318c1fa-daf1-4028-832b-eaec9906a46a)  
+[Microsoft Virtual PC 2007 x64 Edition](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5318c1fa-daf1-4028-832b-eaec9906a46a)  
 (KB969856)  
 (Hoch)  
-[Microsoft Virtual PC 2007 x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=88de1513-8d35-410f-8896-fe668f885ca0)  
+[Microsoft Virtual PC 2007 x64 Edition Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=88de1513-8d35-410f-8896-fe668f885ca0)  
 (KB969856)  
 (Hoch)
 </td>
@@ -962,7 +962,7 @@ Microsoft Virtual Server
 Microsoft Virtual Server 2005
 </td>
 <td style="border:1px solid black;">
-[Microsoft Virtual Server 2005](http://www.microsoft.com/downloads/details.aspx?familyid=092a389a-2296-4c3b-a160-2523154ec764)  
+[Microsoft Virtual Server 2005](https://www.microsoft.com/download/details.aspx?familyid=092a389a-2296-4c3b-a160-2523154ec764)  
 (KB969856)  
 (Hoch)
 </td>
@@ -972,7 +972,7 @@ Microsoft Virtual Server 2005
 Microsoft Virtual Server 2005 R2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Virtual Server 2005 R2 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1481024d-b430-4d0e-be16-2f141c6a7e57)  
+[Microsoft Virtual Server 2005 R2 Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1481024d-b430-4d0e-be16-2f141c6a7e57)  
 (KB969856)  
 (Hoch)
 </td>
@@ -982,7 +982,7 @@ Microsoft Virtual Server 2005 R2
 Microsoft Virtual Server 2005 R2 x64 Edition
 </td>
 <td style="border:1px solid black;">
-[Microsoft Virtual Server 2005 R2 x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1481024d-b430-4d0e-be16-2f141c6a7e57)  
+[Microsoft Virtual Server 2005 R2 x64 Edition Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1481024d-b430-4d0e-be16-2f141c6a7e57)  
 (KB969856)  
 (Hoch)
 </td>
@@ -1021,11 +1021,11 @@ Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der W
 
 Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](http://technet.microsoft.com/de-de/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/systemcenter/sccm/default.mspx).
 
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/downloads/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/download/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Microsoft Application Compatibility Toolkit 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Microsoft Application Compatibility Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

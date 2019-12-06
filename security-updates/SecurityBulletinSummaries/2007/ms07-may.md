@@ -194,7 +194,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d9de0480-5fa9-4974-a82f-5d89056484c4">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d9de0480-5fa9-4974-a82f-5d89056484c4">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows XP Service Pack 2</td>
@@ -234,7 +234,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=dfb5eaca-788b-475c-9817-491f0b7cf295">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=dfb5eaca-788b-475c-9817-491f0b7cf295">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003 Service Pack 2</td>
@@ -244,7 +244,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=dfb5eaca-788b-475c-9817-491f0b7cf295">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=dfb5eaca-788b-475c-9817-491f0b7cf295">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
@@ -254,7 +254,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d4ce0aa8-46ac-446c-b1e3-ff76f1311610">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d4ce0aa8-46ac-446c-b1e3-ff76f1311610">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003 mit SP2 für Itanium-basierte Systeme</td>
@@ -264,7 +264,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d4ce0aa8-46ac-446c-b1e3-ff76f1311610">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d4ce0aa8-46ac-446c-b1e3-ff76f1311610">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 x64 Edition</td>
@@ -274,7 +274,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=e7a7b46b-775d-4912-8119-3ab9a95d775a">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=e7a7b46b-775d-4912-8119-3ab9a95d775a">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003 x64 Edition Service Pack 2</td>
@@ -284,7 +284,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=e7a7b46b-775d-4912-8119-3ab9a95d775a">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=e7a7b46b-775d-4912-8119-3ab9a95d775a">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Vista</td>
@@ -322,7 +322,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=67ae3381-16b2-4b34-b95c-69ee7d58b357">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=67ae3381-16b2-4b34-b95c-69ee7d58b357">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -332,7 +332,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=03fc8e0c-dec5-48d1-9a34-3b639f185f7d&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=03fc8e0c-dec5-48d1-9a34-3b639f185f7d&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -342,7 +342,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=efc6be04-0d6b-4639-8485-da1525f6bc52&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=efc6be04-0d6b-4639-8485-da1525f6bc52&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -352,7 +352,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a077be20-c379-4386-b478-80197a4a4abc&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a077be20-c379-4386-b478-80197a4a4abc&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -362,7 +362,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a077be20-c379-4386-b478-80197a4a4abc&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a077be20-c379-4386-b478-80197a4a4abc&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -372,7 +372,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d249089d-bb8e-4b86-ab8e-18c52844acb2&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=d249089d-bb8e-4b86-ab8e-18c52844acb2&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -382,7 +382,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d52c0afd-cc3a-4a5c-b91b-e006d497bc26&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=d52c0afd-cc3a-4a5c-b91b-e006d497bc26&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -392,7 +392,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=94b83bdd-2bd1-43e4-babf-68135d253293&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=94b83bdd-2bd1-43e4-babf-68135d253293&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -402,7 +402,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7a778d93-9d85-4217-8cc0-5c494d954ca0&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=7a778d93-9d85-4217-8cc0-5c494d954ca0&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -412,7 +412,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=29938ed4-f8bb-4793-897c-966ba7f4830c&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=29938ed4-f8bb-4793-897c-966ba7f4830c&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -422,7 +422,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=29938ed4-f8bb-4793-897c-966ba7f4830c&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=29938ed4-f8bb-4793-897c-966ba7f4830c&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -432,7 +432,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0f173d60-6fd0-4c92-bb2a-a7a78707e35f&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=0f173d60-6fd0-4c92-bb2a-a7a78707e35f&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -442,7 +442,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1944bcfa-b0bc-4bd5-9089-a618ea43ea49&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=1944bcfa-b0bc-4bd5-9089-a618ea43ea49&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -452,7 +452,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=404a48a2-5765-4afa-94bf-e97212aa14ef&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=404a48a2-5765-4afa-94bf-e97212aa14ef&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -462,7 +462,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0c65fad3-baae-46c4-b453-84cf28b15f50&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=0c65fad3-baae-46c4-b453-84cf28b15f50&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -472,7 +472,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=74afea3d-79df-4b64-bf30-b8e5c55cab2b&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=74afea3d-79df-4b64-bf30-b8e5c55cab2b&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -490,7 +490,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;">Office 2000 Service Pack 3</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a693c271-4b94-4541-953a-0a2db4587b23&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a693c271-4b94-4541-953a-0a2db4587b23&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -500,7 +500,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;">Office XP Service Pack 3</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=cb291ad9-348a-4c28-bec7-53d2f35d0b72&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=cb291ad9-348a-4c28-bec7-53d2f35d0b72&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -510,7 +510,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;">Office 2003 Service Pack 2</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=819857cc-3777-4e4a-9cc3-685fc079a254&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=819857cc-3777-4e4a-9cc3-685fc079a254&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -520,7 +520,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;">Microsoft Office System 2007</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a3dc8e3f-90dd-4d0c-88b8-2ec88ff3a588&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a3dc8e3f-90dd-4d0c-88b8-2ec88ff3a588&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -528,7 +528,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Excel 2000 Service Pack 3</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5f101d03-c0a7-41e0-95a4-a12afb356d5f&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=5f101d03-c0a7-41e0-95a4-a12afb356d5f&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2]</strong></td>
 <td style="border:1px solid black;"></td>
@@ -538,7 +538,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Excel 2002 Service Pack 3</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=29596861-d9f0-4a10-9e1c-cda75dde017d&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=29596861-d9f0-4a10-9e1c-cda75dde017d&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2]</strong></td>
 <td style="border:1px solid black;"></td>
@@ -548,7 +548,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Excel 2003 Service Pack 2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9567c583-556f-4379-80ba-3e0c8993c04c&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=9567c583-556f-4379-80ba-3e0c8993c04c&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2]</strong></td>
 <td style="border:1px solid black;"></td>
@@ -558,7 +558,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Excel 2003 Viewer</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3c7f18ac-24bb-41cf-b8da-997706fdc44c&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=3c7f18ac-24bb-41cf-b8da-997706fdc44c&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2]</strong></td>
 <td style="border:1px solid black;"></td>
@@ -568,7 +568,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Office Excel 2007</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ced9f11b-ce48-47a3-9288-bd11b80f3d85&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=ced9f11b-ce48-47a3-9288-bd11b80f3d85&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2]</strong></td>
 <td style="border:1px solid black;"></td>
@@ -579,7 +579,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="even">
 <td style="border:1px solid black;">Word 2000 Service Pack 3</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f25020f5-17c7-4a60-9088-944ffacb5f19&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=f25020f5-17c7-4a60-9088-944ffacb5f19&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -589,7 +589,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="odd">
 <td style="border:1px solid black;">Word 2002 Service Pack 3</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -599,7 +599,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="even">
 <td style="border:1px solid black;">Word 2003 Service Pack 2</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6870245d-4618-4504-bffc-878635267059&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=6870245d-4618-4504-bffc-878635267059&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -609,7 +609,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="odd">
 <td style="border:1px solid black;">Word Viewer 2003</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=24547c65-c29a-4d0a-a015-f3f08b24331f&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=24547c65-c29a-4d0a-a015-f3f08b24331f&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -688,7 +688,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=50a7924f-db51-438a-b27d-37e40a471e60&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=50a7924f-db51-438a-b27d-37e40a471e60&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2]</strong></td>
 <td style="border:1px solid black;"></td>
@@ -709,7 +709,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Works Suite 2004</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -719,7 +719,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Works Suite 2005</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -729,7 +729,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Works Suite 2006</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -771,7 +771,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=21968843-4a81-4f1d-8207-5b0a710e3157&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=21968843-4a81-4f1d-8207-5b0a710e3157&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -781,7 +781,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e7939be-73d1-461c-8c79-eddb0f1459fc&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=5e7939be-73d1-461c-8c79-eddb0f1459fc&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -791,7 +791,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1abf93da-d765-4876-96b5-acb2d2a48f8f&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=1abf93da-d765-4876-96b5-acb2d2a48f8f&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -801,7 +801,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=356874ef-c9c0-4842-99f0-e449e9940358&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=356874ef-c9c0-4842-99f0-e449e9940358&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -813,7 +813,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ca930018-4a66-4da6-a6c5-206df13af316">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ca930018-4a66-4da6-a6c5-206df13af316">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -823,7 +823,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ca930018-4a66-4da6-a6c5-206df13af316">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ca930018-4a66-4da6-a6c5-206df13af316">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -833,7 +833,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ca930018-4a66-4da6-a6c5-206df13af316">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ca930018-4a66-4da6-a6c5-206df13af316">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -843,7 +843,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ca930018-4a66-4da6-a6c5-206df13af316">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ca930018-4a66-4da6-a6c5-206df13af316">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 </tbody>

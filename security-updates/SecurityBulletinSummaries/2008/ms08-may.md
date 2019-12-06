@@ -104,7 +104,7 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Windows 2000 Service Pack 4</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=0de12d09-e675-4cf0-bc6f-e42eeb4784a1">Microsoft Jet 4.0-Datenbankengine</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=0de12d09-e675-4cf0-bc6f-e42eeb4784a1">Microsoft Jet 4.0-Datenbankengine</a><br />
 (Kritisch)</td>
 </tr>
 </tbody>
@@ -125,12 +125,12 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows XP Service Pack 2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=3247433f-0aa9-49b8-9e40-c5463a95bcff">Microsoft Jet 4.0-Datenbankengine</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=3247433f-0aa9-49b8-9e40-c5463a95bcff">Microsoft Jet 4.0-Datenbankengine</a><br />
 (Kritisch)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows XP Professional x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4915ebc4-5e7b-493e-b8c4-321d40d9a701">Microsoft Jet 4.0-Datenbankengine</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=4915ebc4-5e7b-493e-b8c4-321d40d9a701">Microsoft Jet 4.0-Datenbankengine</a><br />
 (Kritisch)</td>
 </tr>
 </tbody>
@@ -151,17 +151,17 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 Service Pack 1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=86e3ed62-98f7-46ec-96ab-5e8c123b1288">Microsoft Jet 4.0-Datenbankengine</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=86e3ed62-98f7-46ec-96ab-5e8c123b1288">Microsoft Jet 4.0-Datenbankengine</a><br />
 (Kritisch)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003 x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5dfc867b-74b7-4818-9fc2-d71e7c9d2e38">Microsoft Jet 4.0-Datenbankengine</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=5dfc867b-74b7-4818-9fc2-d71e7c9d2e38">Microsoft Jet 4.0-Datenbankengine</a><br />
 (Kritisch)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=3452119b-ba4c-4272-82ec-97396b2c2c3d">Microsoft Jet 4.0-Datenbankengine</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=3452119b-ba4c-4272-82ec-97396b2c2c3d">Microsoft Jet 4.0-Datenbankengine</a><br />
 (Kritisch)</td>
 </tr>
 </tbody>
@@ -186,68 +186,68 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Office 2000 Service Pack 3</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=9215ff71-38c0-416a-b89a-fe3474160f41">Microsoft Word 2000 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=9215ff71-38c0-416a-b89a-fe3474160f41">Microsoft Word 2000 Service Pack 3</a><br />
 (KB950250)<br />
 (Kritisch)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=8675b9b6-fbf0-4ad2-9210-285e2cc10556">Microsoft Publisher 2000 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=8675b9b6-fbf0-4ad2-9210-285e2cc10556">Microsoft Publisher 2000 Service Pack 3</a><br />
 (KB950682)<br />
 (Kritisch)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Office XP Service Pack 3</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=b348a518-221e-4567-a797-999715a8b2ef">Microsoft Word 2002 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=b348a518-221e-4567-a797-999715a8b2ef">Microsoft Word 2002 Service Pack 3</a><br />
 (KB950243)<br />
 (Hoch)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=df623784-6e26-42c0-9e21-e7960b849e1e">Microsoft Publisher 2002 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=df623784-6e26-42c0-9e21-e7960b849e1e">Microsoft Publisher 2002 Service Pack 3</a><br />
 (KB950129)<br />
 (Hoch)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Office 2003 Service Pack 2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=bc33d144-f917-47b8-961f-744ca847e14c">Microsoft Word 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=bc33d144-f917-47b8-961f-744ca847e14c">Microsoft Word 2003 Service Pack 2</a><br />
 (KB950241)<br />
 (Hoch)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=c18b060b-9828-4952-8e80-5328c0832d83">Microsoft Publisher 2003 Service Pack 2</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=c18b060b-9828-4952-8e80-5328c0832d83">Microsoft Publisher 2003 Service Pack 2</a><br />
 (KB950213)<br />
 (Hoch)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Office 2003 Service Pack 3</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=bc33d144-f917-47b8-961f-744ca847e14c">Microsoft Word 2003 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=bc33d144-f917-47b8-961f-744ca847e14c">Microsoft Word 2003 Service Pack 3</a><br />
 (KB950241)<br />
 (Hoch)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=c18b060b-9828-4952-8e80-5328c0832d83">Microsoft Publisher 2003 Service Pack 3</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=c18b060b-9828-4952-8e80-5328c0832d83">Microsoft Publisher 2003 Service Pack 3</a><br />
 (KB950213)<br />
 (Hoch)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Office System 2007</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Word 2007</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Word 2007</a><br />
 (KB950113)<br />
 (Hoch)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=e4b647c2-79a3-49e0-9b1d-741667fdbcca">Microsoft Publisher 2007</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=e4b647c2-79a3-49e0-9b1d-741667fdbcca">Microsoft Publisher 2007</a><br />
 (KB950114)<br />
 (Hoch)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Outlook 2007</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Outlook 2007</a><br />
 (KB950113)<br />
 (Kritisch)</td>
 <td style="border:1px solid black;">Keine</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Office System 2007 Service Pack 1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Word 2007 Service Pack 1</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Word 2007 Service Pack 1</a><br />
 (KB950113)<br />
 (Hoch)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=e4b647c2-79a3-49e0-9b1d-741667fdbcca">Microsoft Office Publisher 2007 Service Pack 1</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=e4b647c2-79a3-49e0-9b1d-741667fdbcca">Microsoft Office Publisher 2007 Service Pack 1</a><br />
 (KB950114)<br />
 (Hoch)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Outlook 2007 Service Pack 1</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=071ceaa2-12e3-4401-9331-2a54a93e2550">Microsoft Outlook 2007 Service Pack 1</a><br />
 (KB950113)<br />
 (Kritisch)</td>
 <td style="border:1px solid black;">Keine</td>
@@ -269,13 +269,13 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Office 2004 für Mac</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=99f54471-ccf9-4d94-a882-a05ecd128adc">Microsoft Office 2004 für Mac</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=99f54471-ccf9-4d94-a882-a05ecd128adc">Microsoft Office 2004 für Mac</a><br />
 (KB952332)<br />
 (Hoch)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Office 2008 für Mac</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=395d1487-a3a6-4106-a0f8-4d6e1d6d89d2">Microsoft Office 2008 für Mac</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=395d1487-a3a6-4106-a0f8-4d6e1d6d89d2">Microsoft Office 2008 für Mac</a><br />
 (KB952331)<br />
 (Hoch)</td>
 </tr>
@@ -297,21 +297,21 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Word Viewer</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=bce7ea31-2bf0-4930-aff9-837bcc82a682">Microsoft Word Viewer 2003</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=bce7ea31-2bf0-4930-aff9-837bcc82a682">Microsoft Word Viewer 2003</a><br />
 (KB950625)<br />
 (Hoch)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=bce7ea31-2bf0-4930-aff9-837bcc82a682">Microsoft Word Viewer 2003 Service Pack 3</a><br />
+<a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=bce7ea31-2bf0-4930-aff9-837bcc82a682">Microsoft Word Viewer 2003 Service Pack 3</a><br />
 (KB950625)<br />
 (Hoch)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Office Compatibility Pack</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2d718f37-c5d1-4e15-a7e1-5a15fedef52f">Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=2d718f37-c5d1-4e15-a7e1-5a15fedef52f">Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007</a><br />
 (KB951808)<br />
 (Hoch)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2d718f37-c5d1-4e15-a7e1-5a15fedef52f">Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1</a><br />
+<a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=2d718f37-c5d1-4e15-a7e1-5a15fedef52f">Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1</a><br />
 (KB951808)<br />
 (Hoch)</td>
 </tr>

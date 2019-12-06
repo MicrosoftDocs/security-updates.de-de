@@ -210,7 +210,7 @@ Windows 2000 Server Service Pack 4
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=812e62c5-6e19-4b3b-8a10-861b871e1b41)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=812e62c5-6e19-4b3b-8a10-861b871e1b41)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -251,7 +251,7 @@ Windows XP Professional Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fccbfe90-f838-47df-8310-352e2fb47132)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fccbfe90-f838-47df-8310-352e2fb47132)
 </td>
 </tr>
 <tr>
@@ -301,7 +301,7 @@ Windows Server 2003 Service Pack 1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=28e84603-8159-4429-aaff-a1020531e84f)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=28e84603-8159-4429-aaff-a1020531e84f)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -320,7 +320,7 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=28e84603-8159-4429-aaff-a1020531e84f)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=28e84603-8159-4429-aaff-a1020531e84f)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -339,7 +339,7 @@ Windows Server 2003 x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=107902f9-be94-457f-a936-519efbd64779)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=107902f9-be94-457f-a936-519efbd64779)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -358,7 +358,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=107902f9-be94-457f-a936-519efbd64779)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=107902f9-be94-457f-a936-519efbd64779)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -377,7 +377,7 @@ Windows Server 2003 mit SP1 für Itanium-basierte Systeme
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e5e5b425-fe7d-49d5-973f-f3fd7a1e04eb)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e5e5b425-fe7d-49d5-973f-f3fd7a1e04eb)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -396,7 +396,7 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e5e5b425-fe7d-49d5-973f-f3fd7a1e04eb)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e5e5b425-fe7d-49d5-973f-f3fd7a1e04eb)
 </td>
 <td style="border:1px solid black;">
 **<sup>[1]</sup>**
@@ -413,7 +413,7 @@ Windows Vista
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e9b64746-6afa-4a30-833d-e058e000c821)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e9b64746-6afa-4a30-833d-e058e000c821)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -450,7 +450,7 @@ Windows Vista x64 Edition
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Mittel](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0df5d190-3ad7-42d5-8629-43c47ec450cb)
+[Mittel](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0df5d190-3ad7-42d5-8629-43c47ec450cb)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -551,7 +551,7 @@ Microsoft .NET Framework 1.0
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=91d7afe4-069b-4ce8-976e-9a01345a8603)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=91d7afe4-069b-4ce8-976e-9a01345a8603)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -570,7 +570,7 @@ Microsoft .NET Framework 1.0
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=91d7afe4-069b-4ce8-976e-9a01345a8603)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=91d7afe4-069b-4ce8-976e-9a01345a8603)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -589,7 +589,7 @@ Microsoft .NET Framework 1.1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=281fb2cd-c715-4f05-a01f-0455d2d9ebfb)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=281fb2cd-c715-4f05-a01f-0455d2d9ebfb)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -608,7 +608,7 @@ Microsoft .NET Framework 1.1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=2495e656-1e0a-4b83-90da-821e68067a71)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=2495e656-1e0a-4b83-90da-821e68067a71)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -627,7 +627,7 @@ Microsoft .NET Framework 1.1
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=7eea368d-7b82-4583-8537-30351718a4e9)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=7eea368d-7b82-4583-8537-30351718a4e9)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -646,7 +646,7 @@ Microsoft .NET Framework 2.0
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=ba3ceb78-8e1b-4c38-adfd-e8bc95ae548d)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=ba3ceb78-8e1b-4c38-adfd-e8bc95ae548d)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -665,7 +665,7 @@ Microsoft .NET Framework 2.0
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?familyid=cbc9f3cf-c3c3-45c4-82e3-e11398bc2cd2)
+[Kritisch](https://www.microsoft.com/download/details.aspx?familyid=cbc9f3cf-c3c3-45c4-82e3-e11398bc2cd2)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -680,7 +680,7 @@ Betroffene Office-Software
 Excel 2000 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Kritisch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=83d94d8e-dda6-4d74-b40d-476c2f0a3af4)
+[Kritisch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=83d94d8e-dda6-4d74-b40d-476c2f0a3af4)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -698,7 +698,7 @@ Excel 2000 Service Pack 3
 Excel 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9d93c0ce-5124-4234-ba84-3c27005e010f)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9d93c0ce-5124-4234-ba84-3c27005e010f)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -716,7 +716,7 @@ Excel 2003 Service Pack 2
 Excel 2003 Viewer
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=11f42977-8828-494a-a183-d1aba827b708)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=11f42977-8828-494a-a183-d1aba827b708)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -734,7 +734,7 @@ Excel 2003 Viewer
 Excel 2007
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9ab28283-0320-4527-b033-5e80ef32cd34)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9ab28283-0320-4527-b033-5e80ef32cd34)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -752,7 +752,7 @@ Excel 2007
 Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e592ae5b-09ac-4f5b-b457-a54c9850ad4a)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e592ae5b-09ac-4f5b-b457-a54c9850ad4a)
 </td>
 <td style="border:1px solid black;">
 </td>
@@ -772,7 +772,7 @@ Publisher 2007
 <td style="border:1px solid black;">
 </td>
 <td style="border:1px solid black;">
-[Hoch](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=25d272e7-f2dd-4342-92be-7ebc2e770b44)
+[Hoch](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=25d272e7-f2dd-4342-92be-7ebc2e770b44)
 </td>
 <td style="border:1px solid black;">
 </td>

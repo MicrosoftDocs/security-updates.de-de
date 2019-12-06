@@ -140,7 +140,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="even">
 <td style="border:1px solid black;">Windows 2000 Service Pack 4</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3832ff23-6b04-4ca2-80b9-d344b4cc98ea&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=3832ff23-6b04-4ca2-80b9-d344b4cc98ea&amp;displaylang=de">Hoch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Millennium Edition (Me)</td>
@@ -164,7 +164,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 5.01 Service Pack 4 unter Microsoft Windows 2000 Service Pack 4</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4005b74a-d6e6-4a32-a3b1-276686b4a428&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=4005b74a-d6e6-4a32-a3b1-276686b4a428&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -179,17 +179,17 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 Service Pack 1 unter Microsoft Windows 2000 Service Pack 4 oder unter Microsoft Windows XP Service Pack 1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a8443cd2-d98d-427b-9f0e-bd7e19fcb994&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a8443cd2-d98d-427b-9f0e-bd7e19fcb994&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows XP Service Pack 2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e4b5ba57-d4f2-4798-9154-2869e371c9d1&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=e4b5ba57-d4f2-4798-9154-2869e371c9d1&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows Server 2003 und Windows Server 2003 Service Pack 1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9d70fb20-c7c9-43af-a864-6dbc9a542cc6&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=9d70fb20-c7c9-43af-a864-6dbc9a542cc6&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -199,17 +199,17 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 für Microsoft Windows Server 2003 für Itanium-basierte Systeme und Microsoft Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1ee790b9-e596-4344-aec3-fcb3289d7e9c&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=1ee790b9-e596-4344-aec3-fcb3289d7e9c&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 6 für Microsoft Windows XP Professional x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e1652b4a-6339-4b31-8acf-d2a844c24f70&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=e1652b4a-6339-4b31-8acf-d2a844c24f70&amp;displaylang=en">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 für Microsoft Windows Server 2003 x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8e9c23e5-7988-42da-a8bd-2c1a534bf995&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=8e9c23e5-7988-42da-a8bd-2c1a534bf995&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 </tbody>

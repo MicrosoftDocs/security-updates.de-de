@@ -183,96 +183,96 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a19eee21-7df2-4b95-a4c5-44c6caa5af9a&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3ea61158-e7c5-49a8-a701-b16aaf83a188&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b7097610-8aab-4a2f-94c9-18d32e1c297c&amp;displaylang=de">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a19eee21-7df2-4b95-a4c5-44c6caa5af9a&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=3ea61158-e7c5-49a8-a701-b16aaf83a188&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=b7097610-8aab-4a2f-94c9-18d32e1c297c&amp;displaylang=de">Gering</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 Service Pack 1</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a19eee21-7df2-4b95-a4c5-44c6caa5af9a&amp;displaylang=de">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3ea61158-e7c5-49a8-a701-b16aaf83a188&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a19eee21-7df2-4b95-a4c5-44c6caa5af9a&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=3ea61158-e7c5-49a8-a701-b16aaf83a188&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Windows Server 2003 für Itanium-basierte Systeme</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ee8ba26d-cfda-428f-9f9b-16908db88c80&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7d97522f-f322-44d4-9e60-bdfed4a7a079&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2024382a-14a9-4231-8835-e2720c562190&amp;displaylang=de">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=ee8ba26d-cfda-428f-9f9b-16908db88c80&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=7d97522f-f322-44d4-9e60-bdfed4a7a079&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=2024382a-14a9-4231-8835-e2720c562190&amp;displaylang=de">Gering</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Windows Server 2003 mit Service Pack 1 für Itanium-basierte Systeme</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ee8ba26d-cfda-428f-9f9b-16908db88c80&amp;displaylang=de">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7d97522f-f322-44d4-9e60-bdfed4a7a079&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=ee8ba26d-cfda-428f-9f9b-16908db88c80&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=7d97522f-f322-44d4-9e60-bdfed4a7a079&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Windows Server 2003 x64 Edition</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2e8716f7-3a81-4482-8c92-2a2dc3c2f782&amp;displaylang=en">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b455a686-eff2-44d7-bafa-ac73f0f68fb1&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=2e8716f7-3a81-4482-8c92-2a2dc3c2f782&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=b455a686-eff2-44d7-bafa-ac73f0f68fb1&amp;displaylang=en">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows XP Service Pack 1</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=17833b94-af70-47bd-872c-033a3f0e982a&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9cc719ad-5e57-4aef-9fb3-9f7ab7bb5d32&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=91488ddd-1d7e-4277-916a-d5f2ee0b6327&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=17833b94-af70-47bd-872c-033a3f0e982a&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=9cc719ad-5e57-4aef-9fb3-9f7ab7bb5d32&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=91488ddd-1d7e-4277-916a-d5f2ee0b6327&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows XP Service Pack 2</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=17833b94-af70-47bd-872c-033a3f0e982a&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9cc719ad-5e57-4aef-9fb3-9f7ab7bb5d32&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=17833b94-af70-47bd-872c-033a3f0e982a&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=9cc719ad-5e57-4aef-9fb3-9f7ab7bb5d32&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Windows XP 64-Bit Edition Service Pack 1 (Itanium)</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a6a807f2-ad02-4d15-a198-cf8a728b3a25&amp;displaylang=en">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b3a61221-0dac-452c-87e9-3362dd97273a&amp;displaylang=en">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1dc37a74-bf1e-4afe-8198-d5ca460a3872&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a6a807f2-ad02-4d15-a198-cf8a728b3a25&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=b3a61221-0dac-452c-87e9-3362dd97273a&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=1dc37a74-bf1e-4afe-8198-d5ca460a3872&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Windows XP 64-Bit Edition Version 2003 (Itanium)</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ee8ba26d-cfda-428f-9f9b-16908db88c80&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7d97522f-f322-44d4-9e60-bdfed4a7a079&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2024382a-14a9-4231-8835-e2720c562190&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=ee8ba26d-cfda-428f-9f9b-16908db88c80&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=7d97522f-f322-44d4-9e60-bdfed4a7a079&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=2024382a-14a9-4231-8835-e2720c562190&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Windows XP Professional x64 Edition</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ce81ae3b-4fa4-4576-8539-ab49e575a98f&amp;displaylang=en">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=716b9cde-5ef1-4005-903f-fc720863f03c&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=ce81ae3b-4fa4-4576-8539-ab49e575a98f&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=716b9cde-5ef1-4005-903f-fc720863f03c&amp;displaylang=en">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows 2000 Service Pack 3</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9af346ae-4807-42f4-95e2-8f5fae321102&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1e83f120-01fb-4029-a524-f3ae08f8bb28&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=9af346ae-4807-42f4-95e2-8f5fae321102&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=1e83f120-01fb-4029-a524-f3ae08f8bb28&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows 2000 Service Pack 4</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9af346ae-4807-42f4-95e2-8f5fae321102&amp;displaylang=de">Kritisch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1e83f120-01fb-4029-a524-f3ae08f8bb28&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=9af346ae-4807-42f4-95e2-8f5fae321102&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=1e83f120-01fb-4029-a524-f3ae08f8bb28&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -318,7 +318,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 5.01 Service Pack 3 unter Microsoft Windows 2000 Service Pack 3</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5f577a83-67c6-45ae-b5c5-10d7c7ffa3d3&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=5f577a83-67c6-45ae-b5c5-10d7c7ffa3d3&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -326,7 +326,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 5.01 Service Pack 4 unter Microsoft Windows 2000 Service Pack 4</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=703859af-cdd5-4348-8916-472a3fdf8667&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=703859af-cdd5-4348-8916-472a3fdf8667&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -342,7 +342,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 Service Pack 1 unter Microsoft Windows 2000 Service Pack 3, Microsoft Windows 2000 Service Pack 4 oder Microsoft Windows XP Service Pack 1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a1809b9b-9b0f-4a9c-84a5-56b774920313&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a1809b9b-9b0f-4a9c-84a5-56b774920313&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -358,7 +358,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 Service Pack 1 unter Microsoft Windows XP 64-Bit Edition Service Pack 1 (Itanium):</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6aae593c-8ffd-443f-b9ac-3f9f0f20a2eb&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=6aae593c-8ffd-443f-b9ac-3f9f0f20a2eb&amp;displaylang=en">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -366,7 +366,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows XP Service Pack 2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=36ec67ca-94f6-4e55-adcd-4406a3d6aade&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=36ec67ca-94f6-4e55-adcd-4406a3d6aade&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -374,7 +374,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows Server 2003 und Windows Server 2003 Service Pack 1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2c58b8f7-4f2d-44da-80ef-b83667b5afd7&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=2c58b8f7-4f2d-44da-80ef-b83667b5afd7&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -382,7 +382,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 6 für Microsoft Windows XP 64-Bit Edition Version 2003 (Itanium), Microsoft Windows Server 2003 für Itanium-basierte Systeme und Microsoft Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=77e601e9-4eed-4671-8f3e-ad58a1e88041&amp;displaylang=de">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=77e601e9-4eed-4671-8f3e-ad58a1e88041&amp;displaylang=de">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -390,7 +390,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 für Microsoft Windows Server 2003 x64 Edition und Microsoft Windows XP Professional x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1a7087f1-3af2-4b33-9f04-6159faa34c31&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=1a7087f1-3af2-4b33-9f04-6159faa34c31&amp;displaylang=en">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -418,7 +418,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=08435b77-9f3a-40f5-b13a-a7019cb1c244&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=08435b77-9f3a-40f5-b13a-a7019cb1c244&amp;displaylang=de">Hoch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"></td>
@@ -482,87 +482,87 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;">Windows Server 2003</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5b38af7a-3054-4efd-9007-e4eb3b57179e&amp;displaylang=de">Gering</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=22095e78-a559-40ea-8b65-9c727f4e752f&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=5b38af7a-3054-4efd-9007-e4eb3b57179e&amp;displaylang=de">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=22095e78-a559-40ea-8b65-9c727f4e752f&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 Service Pack 1</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5b38af7a-3054-4efd-9007-e4eb3b57179e&amp;displaylang=de">Gering</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=22095e78-a559-40ea-8b65-9c727f4e752f&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=5b38af7a-3054-4efd-9007-e4eb3b57179e&amp;displaylang=de">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=22095e78-a559-40ea-8b65-9c727f4e752f&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Windows Server 2003 für Itanium-basierte Systeme</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bb35f2a8-b1d2-4b8e-ba94-dcd480dcd662&amp;displaylang=de">Gering</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c23a4e16-e228-4a80-a4cb-9dcef462b97a&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=bb35f2a8-b1d2-4b8e-ba94-dcd480dcd662&amp;displaylang=de">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=c23a4e16-e228-4a80-a4cb-9dcef462b97a&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Windows Server 2003 mit Service Pack 1 für Itanium-basierte Systeme</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bb35f2a8-b1d2-4b8e-ba94-dcd480dcd662&amp;displaylang=de">Gering</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c23a4e16-e228-4a80-a4cb-9dcef462b97a&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=bb35f2a8-b1d2-4b8e-ba94-dcd480dcd662&amp;displaylang=de">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=c23a4e16-e228-4a80-a4cb-9dcef462b97a&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Windows Server 2003 x64 Edition</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d092c628-acca-493c-9e20-1f50d1590725&amp;displaylang=en">Gering</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=dcc6840f-e626-4266-a63a-cddec0ec44d6&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=d092c628-acca-493c-9e20-1f50d1590725&amp;displaylang=en">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=dcc6840f-e626-4266-a63a-cddec0ec44d6&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows XP Service Pack 1</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f2247275-25f9-4937-97cd-9334135d6d79&amp;displaylang=de">Mittel</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b8ba775e-e9a7-47e9-81a9-a68a71b9faac&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=f2247275-25f9-4937-97cd-9334135d6d79&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=b8ba775e-e9a7-47e9-81a9-a68a71b9faac&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows XP Service Pack 2</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f2247275-25f9-4937-97cd-9334135d6d79&amp;displaylang=de">Mittel</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b8ba775e-e9a7-47e9-81a9-a68a71b9faac&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=f2247275-25f9-4937-97cd-9334135d6d79&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=b8ba775e-e9a7-47e9-81a9-a68a71b9faac&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Windows XP 64-Bit Edition Service Pack 1 (Itanium)</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=33e0a62d-395b-402c-a0a4-82e892e9b7ae&amp;displaylang=en">Mittel</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c6161d9e-1672-479e-8baf-754a64dfab47&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=33e0a62d-395b-402c-a0a4-82e892e9b7ae&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=c6161d9e-1672-479e-8baf-754a64dfab47&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Windows XP 64-Bit Edition Version 2003 (Itanium)</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bb35f2a8-b1d2-4b8e-ba94-dcd480dcd662&amp;displaylang=de">Mittel</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c23a4e16-e228-4a80-a4cb-9dcef462b97a&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=bb35f2a8-b1d2-4b8e-ba94-dcd480dcd662&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=c23a4e16-e228-4a80-a4cb-9dcef462b97a&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Windows XP Professional x64 Edition</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9ba306dc-9c31-432b-91e0-b057c9c1eeae&amp;displaylang=en">Mittel</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b281550b-8fae-4ff3-9bb7-e4ba325779b9&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=9ba306dc-9c31-432b-91e0-b057c9c1eeae&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=b281550b-8fae-4ff3-9bb7-e4ba325779b9&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows 2000 Service Pack 3</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6a7dee96-f693-4c50-896d-2365873245a9&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=6a7dee96-f693-4c50-896d-2365873245a9&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -570,7 +570,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;">Windows 2000 Service Pack 4</td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6a7dee96-f693-4c50-896d-2365873245a9&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=6a7dee96-f693-4c50-896d-2365873245a9&amp;displaylang=de">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -616,7 +616,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Outlook Express 5.5 Service Pack 2 unter Microsoft Windows 2000 Service Pack 3, Microsoft Windows 2000 Service Pack 4</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a6932151-2ae2-4c6e-861a-6ff5bde61191&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a6932151-2ae2-4c6e-861a-6ff5bde61191&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -624,7 +624,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Outlook Express 6 Service Pack 1 unter Microsoft Windows 2000 Service Pack 3, Microsoft Windows 2000 Service Pack 4 oder Microsoft Windows XP Service Pack 1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=89e4d8ee-4d8e-4660-a53d-28502b3d2518&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=89e4d8ee-4d8e-4660-a53d-28502b3d2518&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -632,7 +632,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Outlook Express 6 Service Pack 1 für Microsoft Windows XP 64-Bit Edition Service Pack 1 (Itanium)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b765c0e1-f4e2-495b-aae5-2db3eeaf71bb&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=b765c0e1-f4e2-495b-aae5-2db3eeaf71bb&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -640,7 +640,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Outlook Express 6 für Windows Server 2003</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d439eee9-05eb-4ecb-9e86-6259f1acaabb&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=d439eee9-05eb-4ecb-9e86-6259f1acaabb&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -648,7 +648,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Outlook Express 6 für Microsoft Windows XP, 64-Bit Edition, Version 2003 (Itanium)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=69901ec1-a11f-4135-9874-3698bcf7c760&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=69901ec1-a11f-4135-9874-3698bcf7c760&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -656,7 +656,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Outlook Express 6 für Microsoft Windows Server 2003 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5fc7d68b-92a6-4c03-8d88-b2501aea8da6&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=5fc7d68b-92a6-4c03-8d88-b2501aea8da6&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -665,7 +665,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="odd">
 <td style="border:1px solid black;">Interaktives Training – Schritt für Schritt</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=591265a7-e7f4-409f-992b-84d954824ba8&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=591265a7-e7f4-409f-992b-84d954824ba8&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -673,7 +673,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="even">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ auf Itanium-Systemen</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=591265a7-e7f4-409f-992b-84d954824ba8&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=591265a7-e7f4-409f-992b-84d954824ba8&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -681,7 +681,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tr class="odd">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ auf x64-Systemen</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=591265a7-e7f4-409f-992b-84d954824ba8&amp;displaylang=de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=591265a7-e7f4-409f-992b-84d954824ba8&amp;displaylang=de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -707,7 +707,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bda20bf9-6abf-487d-9334-c75fd7227274&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=bda20bf9-6abf-487d-9334-c75fd7227274&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -715,7 +715,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a41c701c-c0bb-40b3-88c5-ccc484202b2c&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a41c701c-c0bb-40b3-88c5-ccc484202b2c&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -723,7 +723,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=32c4e286-2c4d-491a-9e05-4ca0b055d5dc&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=32c4e286-2c4d-491a-9e05-4ca0b055d5dc&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -731,7 +731,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=32c4e286-2c4d-491a-9e05-4ca0b055d5dc&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=32c4e286-2c4d-491a-9e05-4ca0b055d5dc&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -739,7 +739,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=32c4e286-2c4d-491a-9e05-4ca0b055d5dc&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=32c4e286-2c4d-491a-9e05-4ca0b055d5dc&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -748,7 +748,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e579813b-0372-45be-8070-3f4d7d4cb89c&amp;displaylang=de">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=e579813b-0372-45be-8070-3f4d7d4cb89c&amp;displaylang=de">Mittel</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"></td>

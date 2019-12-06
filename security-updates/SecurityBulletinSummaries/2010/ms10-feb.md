@@ -345,28 +345,28 @@ Keine
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=80b49bab-6c2f-48a8-a901-ca3f76e4fe6b)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=80b49bab-6c2f-48a8-a901-ca3f76e4fe6b)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=92234237-a8eb-4ce4-bc5e-cd86feb7dbd3)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=92234237-a8eb-4ce4-bc5e-cd86feb7dbd3)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=543dc6a7-fa76-4ba9-81e4-25fdf2013548)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=543dc6a7-fa76-4ba9-81e4-25fdf2013548)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[AVI-Filter](http://www.microsoft.com/downloads/details.aspx?familyid=ba110440-10ce-40a0-884a-8b9afd45a3e3&displaylang=de)  
+[AVI-Filter](https://www.microsoft.com/download/details.aspx?familyid=ba110440-10ce-40a0-884a-8b9afd45a3e3&displaylang=de)  
 (KB977914)  
 (Kritisch)  
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=16787c93-2c95-4c13-8492-be1db9d18146&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=16787c93-2c95-4c13-8492-be1db9d18146&displaylang=de)  
 (KB975560)  
 (Kritisch)  
-[Quartz in DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?familyid=59a8bc19-02bb-4800-bac1-464f59e1cb7b&displaylang=de)<sup>[1]</sup>  
+[Quartz in DirectX 9.0](https://www.microsoft.com/download/details.aspx?familyid=59a8bc19-02bb-4800-bac1-464f59e1cb7b&displaylang=de)<sup>[1]</sup>  
 (KB975560)  
 (Kritisch)
 </td>
@@ -374,23 +374,23 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=456185b5-57d1-4fa5-a4a9-5b2006ede3ad&displaylang=de)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=456185b5-57d1-4fa5-a4a9-5b2006ede3ad&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=267ce982-54a0-418f-ad52-e4963610f714)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=267ce982-54a0-418f-ad52-e4963610f714)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Server Service Pack 4:](http://www.microsoft.com/downloads/details.aspx?familyid=56a9afba-a6ee-4fb9-ba85-e51d9f94de27)  
+[Microsoft Windows 2000 Server Service Pack 4:](https://www.microsoft.com/download/details.aspx?familyid=56a9afba-a6ee-4fb9-ba85-e51d9f94de27)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=ed8ac6a5-c8bb-4ed4-8994-810e9a1863c3&displaylang=de)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=ed8ac6a5-c8bb-4ed4-8994-810e9a1863c3&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e5861705-8f49-45cb-8a92-cf052ccf4134)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e5861705-8f49-45cb-8a92-cf052ccf4134)  
 (Mittel)
 </td>
 </tr>
@@ -480,25 +480,25 @@ Keine
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f6c4472e-385c-4412-bda9-c2e615e50713)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f6c4472e-385c-4412-bda9-c2e615e50713)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b8e7bf17-a037-4200-9ae2-2280b19766a4)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b8e7bf17-a037-4200-9ae2-2280b19766a4)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7bcf3945-0552-478e-b7f3-bbca97dd1b5d)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7bcf3945-0552-478e-b7f3-bbca97dd1b5d)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[AVI-Filter](http://www.microsoft.com/downloads/details.aspx?familyid=a9beb2bd-e5f6-43f9-bbcc-a2afee5e5ceb&displaylang=de)  
+[AVI-Filter](https://www.microsoft.com/download/details.aspx?familyid=a9beb2bd-e5f6-43f9-bbcc-a2afee5e5ceb&displaylang=de)  
 (KB977914)  
 (Kritisch)  
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=7ab53be3-3f42-4e61-a2bc-3ed41d8736ff&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=7ab53be3-3f42-4e61-a2bc-3ed41d8736ff&displaylang=de)  
 (KB975560)  
 (Kritisch)
 </td>
@@ -506,22 +506,22 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=b9234b40-1b1c-498b-90d4-0bff347b36ee&displaylang=de)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=b9234b40-1b1c-498b-90d4-0bff347b36ee&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=8f7adee3-e68e-41b3-b835-d84691774f31&displaylang=de)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=8f7adee3-e68e-41b3-b835-d84691774f31&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e2b348f5-ec8d-4782-bb03-5de550adea77&displaylang=de)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=e2b348f5-ec8d-4782-bb03-5de550adea77&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b2e70df6-7728-4fc3-8df7-8ddb9ba5202f)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b2e70df6-7728-4fc3-8df7-8ddb9ba5202f)  
 (Mittel)
 </td>
 </tr>
@@ -530,25 +530,25 @@ Nicht anwendbar
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=63e15ff0-73b3-46c9-96f8-c18977d35a10)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=63e15ff0-73b3-46c9-96f8-c18977d35a10)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b8d83f30-9cd7-4d6b-b2b9-65d0a483cb9c)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b8d83f30-9cd7-4d6b-b2b9-65d0a483cb9c)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=25ef97e8-e76e-44c2-953c-f94cbac552cf)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=25ef97e8-e76e-44c2-953c-f94cbac552cf)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[AVI-Filter](http://www.microsoft.com/downloads/details.aspx?familyid=dedc3010-a989-45f7-b9d4-f7079db3e572)  
+[AVI-Filter](https://www.microsoft.com/download/details.aspx?familyid=dedc3010-a989-45f7-b9d4-f7079db3e572)  
 (KB977914)  
 (Kritisch)  
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=7543e819-cd36-4e89-9850-60f00c50999d)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=7543e819-cd36-4e89-9850-60f00c50999d)  
 (KB975560)  
 (Kritisch)
 </td>
@@ -556,22 +556,22 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1f83bf7a-e16c-404a-89bd-f65843938299&displaylang=de)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1f83bf7a-e16c-404a-89bd-f65843938299&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=91ee57f2-81e5-49bd-bdfc-d3e385efc8a5)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=91ee57f2-81e5-49bd-bdfc-d3e385efc8a5)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e534d00c-6ddc-4eb3-9464-5db6e90afa3e)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=e534d00c-6ddc-4eb3-9464-5db6e90afa3e)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f8c4acc8-c2f4-41f7-9b32-e7bd791e0155)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=f8c4acc8-c2f4-41f7-9b32-e7bd791e0155)  
 (Mittel)
 </td>
 </tr>
@@ -661,25 +661,25 @@ Keine
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=feb8c145-7c30-45fa-a6f0-8b6453ddd521)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=feb8c145-7c30-45fa-a6f0-8b6453ddd521)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5cb2e203-18fb-4887-a1c9-289d86b8ba11)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5cb2e203-18fb-4887-a1c9-289d86b8ba11)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=29ff72f7-1663-4f35-a794-2dfe3c17b39c)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=29ff72f7-1663-4f35-a794-2dfe3c17b39c)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[AVI-Filter](http://www.microsoft.com/downloads/details.aspx?familyid=cc5150d7-070e-4a87-9c02-d050a8cb2204&displaylang=de)  
+[AVI-Filter](https://www.microsoft.com/download/details.aspx?familyid=cc5150d7-070e-4a87-9c02-d050a8cb2204&displaylang=de)  
 (KB977914)  
 (Kritisch)  
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=983c5484-6321-4765-97ec-8d42d42d1f70&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=983c5484-6321-4765-97ec-8d42d42d1f70&displaylang=de)  
 (KB975560)  
 (Kritisch)
 </td>
@@ -687,23 +687,23 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=2c8c4eec-255e-41d5-b1e6-f0204edcb46f&displaylang=de)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=2c8c4eec-255e-41d5-b1e6-f0204edcb46f&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3d18cbc4-ac48-458c-8aa3-90708fd854ff&displaylang=de)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3d18cbc4-ac48-458c-8aa3-90708fd854ff&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=738e2fda-96fc-413d-a5c7-74b1fac1d6b3)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=738e2fda-96fc-413d-a5c7-74b1fac1d6b3)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=defd8603-ed9b-42f9-a539-2b6a690e9575&displaylang=de)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=defd8603-ed9b-42f9-a539-2b6a690e9575&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c1efbe73-fc87-4e6a-8b36-81f125a27aec)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c1efbe73-fc87-4e6a-8b36-81f125a27aec)  
 (Mittel)
 </td>
 </tr>
@@ -712,25 +712,25 @@ Nicht anwendbar
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=36d88c1b-814c-4371-9ed2-d4576f419fc3)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=36d88c1b-814c-4371-9ed2-d4576f419fc3)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=90360537-9311-45e2-8047-9a971f90c3c3)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=90360537-9311-45e2-8047-9a971f90c3c3)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d4a97bb7-4f74-4884-9a6e-7a4df9c540fb)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d4a97bb7-4f74-4884-9a6e-7a4df9c540fb)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[AVI-Filter](http://www.microsoft.com/downloads/details.aspx?familyid=db13e99b-2f2a-4474-8d6e-271b025bd07f)  
+[AVI-Filter](https://www.microsoft.com/download/details.aspx?familyid=db13e99b-2f2a-4474-8d6e-271b025bd07f)  
 (KB977914)  
 (Kritisch)  
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=7dc20252-6091-407b-befc-c25e8f5d3fb0&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=7dc20252-6091-407b-befc-c25e8f5d3fb0&displaylang=de)  
 (KB975560)  
 (Kritisch)
 </td>
@@ -738,23 +738,23 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=de0186f6-27a2-4226-b8eb-f2912710f072&displaylang=de)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=de0186f6-27a2-4226-b8eb-f2912710f072&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d63c95e-311a-446f-8852-dffd217a89f6&displaylang=de)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7d63c95e-311a-446f-8852-dffd217a89f6&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f8ad539d-8191-4864-977b-ad4e31c04ba0)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=f8ad539d-8191-4864-977b-ad4e31c04ba0)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=9873c962-9d3d-46ef-b54b-2a50696fb6b2&displaylang=de)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=9873c962-9d3d-46ef-b54b-2a50696fb6b2&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9143e435-f0d6-464b-9273-4d1f38f8ff3a)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9143e435-f0d6-464b-9273-4d1f38f8ff3a)  
 (Mittel)
 </td>
 </tr>
@@ -763,25 +763,25 @@ Nicht anwendbar
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=622442b0-cffe-4fc2-94a8-edff9d71ecd3)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=622442b0-cffe-4fc2-94a8-edff9d71ecd3)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d695ca9f-a1db-4c0f-94b6-7112861c28da)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d695ca9f-a1db-4c0f-94b6-7112861c28da)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b84f0be4-6d11-4b07-bb3c-2c76ae9ceea8)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b84f0be4-6d11-4b07-bb3c-2c76ae9ceea8)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[AVI-Filter](http://www.microsoft.com/downloads/details.aspx?familyid=aec66173-e2c6-4c39-8d60-8fbef6d7b764&displaylang=de)  
+[AVI-Filter](https://www.microsoft.com/download/details.aspx?familyid=aec66173-e2c6-4c39-8d60-8fbef6d7b764&displaylang=de)  
 (KB977914)  
 (Hoch)  
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=b1a7533a-913f-4054-b579-489a257bae5f&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=b1a7533a-913f-4054-b579-489a257bae5f&displaylang=de)  
 (KB975560)  
 (Hoch)
 </td>
@@ -789,23 +789,23 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=87732f7a-9339-43bc-a4e8-3da849f35b70)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=87732f7a-9339-43bc-a4e8-3da849f35b70)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=ee7f8cc4-f7fd-4dc7-808c-436204ee80cb&displaylang=de)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=ee7f8cc4-f7fd-4dc7-808c-436204ee80cb&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=d549c927-add7-4d83-bfc7-15dc35663dfb)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=d549c927-add7-4d83-bfc7-15dc35663dfb)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=c3c21225-8534-4c7f-96b6-20a743dcea74)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=c3c21225-8534-4c7f-96b6-20a743dcea74)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ee603435-26af-4ab9-9f22-92734346dc0a)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ee603435-26af-4ab9-9f22-92734346dc0a)  
 (Mittel)
 </td>
 </tr>
@@ -895,22 +895,22 @@ Keine
 Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1902fc93-0f4b-4261-9da3-17d1931daf2e)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1902fc93-0f4b-4261-9da3-17d1931daf2e)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2c897ddd-f441-41d4-b5b4-d794cfc96e6b)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2c897ddd-f441-41d4-b5b4-d794cfc96e6b)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=71f03946-622c-4403-b94f-f6a3de18a8c3&displaylang=de)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=71f03946-622c-4403-b94f-f6a3de18a8c3&displaylang=de)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=7130ce0f-df38-4c96-ac54-cdbff35f03e7&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=7130ce0f-df38-4c96-ac54-cdbff35f03e7&displaylang=de)  
 (KB975560)  
 (Kritisch)
 </td>
@@ -921,14 +921,14 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=16494dac-553a-4de9-b751-0d6b51cb43f0&displaylang=de)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=16494dac-553a-4de9-b751-0d6b51cb43f0&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=2761c7b4-d472-4f00-949b-af3ebafdc08d&displaylang=de)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=2761c7b4-d472-4f00-949b-af3ebafdc08d&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -940,22 +940,22 @@ Nicht anwendbar
 Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7c2f89b5-a3b3-42cd-857d-923fe8b8f1da)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7c2f89b5-a3b3-42cd-857d-923fe8b8f1da)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f349f7aa-d020-4e0d-a35f-518a63ec92df)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f349f7aa-d020-4e0d-a35f-518a63ec92df)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=519815fd-707d-476f-9e29-7b03b7a17af5&displaylang=de)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=519815fd-707d-476f-9e29-7b03b7a17af5&displaylang=de)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=de7b7c8f-bd0a-4e13-bd58-d95507a6274b&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=de7b7c8f-bd0a-4e13-bd58-d95507a6274b&displaylang=de)  
 (KB975560)  
 (Kritisch)
 </td>
@@ -966,14 +966,14 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=cec582b3-e37f-448e-a5c3-6abdcee9e57c&displaylang=de)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=cec582b3-e37f-448e-a5c3-6abdcee9e57c&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=38b40dab-6b4d-434b-9997-12ef70d6bbcc&displaylang=de)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=38b40dab-6b4d-434b-9997-12ef70d6bbcc&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1066,22 +1066,22 @@ Keine
 Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=09e19263-18ba-495e-bcf7-719e957204a7)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=09e19263-18ba-495e-bcf7-719e957204a7)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9a85b1bf-7427-47d0-9e1b-21dbe824a62c)\*\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9a85b1bf-7427-47d0-9e1b-21dbe824a62c)\*\*  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=bc451228-3de4-427c-b42f-91f204c708b8&displaylang=de)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=bc451228-3de4-427c-b42f-91f204c708b8&displaylang=de)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=5ac0a948-0bdc-4c10-9b88-16a5d7092e47&displaylang=de)\*\*  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=5ac0a948-0bdc-4c10-9b88-16a5d7092e47&displaylang=de)\*\*  
 (KB975560)  
 (Kritisch)
 </td>
@@ -1092,15 +1092,15 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=597b2310-2cd8-4d0f-8248-781eb8b7450a&displaylang=de)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=597b2310-2cd8-4d0f-8248-781eb8b7450a&displaylang=de)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=75327470-0f14-4cdd-bcb7-64684c61c267)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=75327470-0f14-4cdd-bcb7-64684c61c267)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=21e87558-9bd2-4aa9-aaa5-7fd26a5b60e6&displaylang=de)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=21e87558-9bd2-4aa9-aaa5-7fd26a5b60e6&displaylang=de)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1112,42 +1112,42 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=180c2313-5e3e-4d84-87cd-64048f51e0f6)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=180c2313-5e3e-4d84-87cd-64048f51e0f6)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fde218c3-90ab-4664-852d-25ca55835054)\*\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fde218c3-90ab-4664-852d-25ca55835054)\*\*  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3a889152-5d7c-4a3e-b4f1-c6507b739ca0&displaylang=de)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3a889152-5d7c-4a3e-b4f1-c6507b739ca0&displaylang=de)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=362fea40-649b-4471-aad7-db29edd0ac10&displaylang=de)\*\*  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=362fea40-649b-4471-aad7-db29edd0ac10&displaylang=de)\*\*  
 (KB975560)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3463a63c-e88a-4036-ab60-f84d4bf4191a&displaylang=de)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3463a63c-e88a-4036-ab60-f84d4bf4191a&displaylang=de)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=67119fb6-e517-46f4-ab0b-2351cdc3d670&displaylang=de)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=67119fb6-e517-46f4-ab0b-2351cdc3d670&displaylang=de)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d0f8f81-fc10-450a-a653-06f89acba9fa)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7d0f8f81-fc10-450a-a653-06f89acba9fa)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=0b93047d-f2c6-403b-9200-c251898bc1e0&displaylang=de)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=0b93047d-f2c6-403b-9200-c251898bc1e0&displaylang=de)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1159,22 +1159,22 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=614eaf7e-95aa-4f8f-910c-1980e1f14d11)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=614eaf7e-95aa-4f8f-910c-1980e1f14d11)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5b6e9451-df38-4626-bb1d-4fc160d7a40e)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5b6e9451-df38-4626-bb1d-4fc160d7a40e)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1cd1882b-8e55-47ea-a82a-68bb59a500a7&displaylang=de)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1cd1882b-8e55-47ea-a82a-68bb59a500a7&displaylang=de)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=effa638b-cfc1-4777-8219-7b433ed5e717&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=effa638b-cfc1-4777-8219-7b433ed5e717&displaylang=de)  
 (KB975560)  
 (Hoch)
 </td>
@@ -1185,14 +1185,14 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f90fc0c8-babe-4224-be07-614ea7ddf102&displaylang=de)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=f90fc0c8-babe-4224-be07-614ea7ddf102&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=cd6b234b-8e96-4128-a77a-645a0882996a&displaylang=de)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=cd6b234b-8e96-4128-a77a-645a0882996a&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1285,21 +1285,21 @@ Keine
 Windows 7 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a589431a-93dc-42cd-a74e-d9c1e3452fef)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a589431a-93dc-42cd-a74e-d9c1e3452fef)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ec6d996f-dffa-45ad-9467-e96a4ac63e5f)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ec6d996f-dffa-45ad-9467-e96a4ac63e5f)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=4ec49aa2-81df-4e65-80da-6201394c4089&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=4ec49aa2-81df-4e65-80da-6201394c4089&displaylang=de)  
 (KB975560)  
 (Kritisch)
 </td>
@@ -1310,14 +1310,14 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=4ec49aa2-81df-4e65-80da-6201394c4089&displaylang=de)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=4ec49aa2-81df-4e65-80da-6201394c4089&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=66f14bb4-40fc-4ae3-9baf-429b7106cd91&displaylang=de)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=66f14bb4-40fc-4ae3-9baf-429b7106cd91&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1329,21 +1329,21 @@ Nicht anwendbar
 Windows 7 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3c1edcf8-d304-45c4-9818-1cd86383b3fe)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3c1edcf8-d304-45c4-9818-1cd86383b3fe)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b3265576-04c1-48b1-8ce9-128843c58cf5)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b3265576-04c1-48b1-8ce9-128843c58cf5)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=a8a2519c-3b89-4987-9473-920adafc78cb&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=a8a2519c-3b89-4987-9473-920adafc78cb&displaylang=de)  
 (KB975560)  
 (Kritisch)
 </td>
@@ -1354,7 +1354,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=3e096468-db6c-45c6-bee5-eaeaa63500b5&displaylang=de)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=3e096468-db6c-45c6-bee5-eaeaa63500b5&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1453,33 +1453,33 @@ Keine
 Windows Server 2008 R2 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ecb06350-47a7-48eb-825f-3e8f89c5ca8e)\*  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ecb06350-47a7-48eb-825f-3e8f89c5ca8e)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cda31c54-8b81-4185-a623-64480ad4b73c)\*\*  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cda31c54-8b81-4185-a623-64480ad4b73c)\*\*  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=a9811baa-1500-4c73-940b-57f8c5456891&displaylang=de)\*\*  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=a9811baa-1500-4c73-940b-57f8c5456891&displaylang=de)\*\*  
 (KB975560)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=3214b347-d901-4aac-85ce-676e4602de87&displaylang=de)\*  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=3214b347-d901-4aac-85ce-676e4602de87&displaylang=de)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=dc757b6d-f0f8-4e71-ab6f-1417233eedf9&displaylang=de)\*  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=dc757b6d-f0f8-4e71-ab6f-1417233eedf9&displaylang=de)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1497,21 +1497,21 @@ Nicht anwendbar
 Windows Server 2008 R2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=badd6cab-7738-4401-a68c-c15414388601)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=badd6cab-7738-4401-a68c-c15414388601)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=43fa4e26-160f-4aa3-a03d-b98a79666a18)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=43fa4e26-160f-4aa3-a03d-b98a79666a18)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=2ed23bf5-6217-413c-a7ba-eccc82139d68&displaylang=de)  
+[Quartz](https://www.microsoft.com/download/details.aspx?familyid=2ed23bf5-6217-413c-a7ba-eccc82139d68&displaylang=de)  
 (KB975560)  
 (Hoch)
 </td>
@@ -1522,7 +1522,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=d5b0b1eb-24f3-47ec-aba1-c1b95400189e&displaylang=de)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=d5b0b1eb-24f3-47ec-aba1-c1b95400189e&displaylang=de)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1591,12 +1591,12 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office XP
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)  
+[Microsoft Office XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)  
 (KB977896)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=cfc697b4-2ceb-4030-86c5-be9bc8bfd07c)  
+[Microsoft Office PowerPoint 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=cfc697b4-2ceb-4030-86c5-be9bc8bfd07c)  
 (KB973143)  
 (Hoch)
 </td>
@@ -1609,7 +1609,7 @@ Microsoft Office 2003
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=2291ae24-fa39-4ad8-a7d0-12726b68ad96)  
+[Microsoft Office PowerPoint 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=2291ae24-fa39-4ad8-a7d0-12726b68ad96)  
 (KB976881)  
 (Hoch)
 </td>
@@ -1646,12 +1646,12 @@ Microsoft Office für Mac
 Microsoft Office 2004 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)<sup>[1]</sup>  
+[Microsoft Office 2004 für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)<sup>[1]</sup>  
 (KB979674)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)<sup>[1]</sup>  
+[Microsoft Office 2004 für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=47553f45-fa10-40e5-8267-9d42ff560a62)<sup>[1]</sup>  
 (KB979674)  
 (Hoch)
 </td>
@@ -1697,7 +1697,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

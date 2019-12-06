@@ -235,7 +235,7 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office 2000 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint 2000 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f443312a-ac74-4ebc-a4ac-7a756aa67894)  
+[Microsoft Office PowerPoint 2000 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f443312a-ac74-4ebc-a4ac-7a756aa67894)  
 (KB957790)  
 (Kritisch)
 </td>
@@ -245,7 +245,7 @@ Microsoft Office 2000 Service Pack 3
 Microsoft Office XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a24ec7ab-c1c7-4ddb-8b6e-107f1af67f49)  
+[Microsoft Office PowerPoint 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a24ec7ab-c1c7-4ddb-8b6e-107f1af67f49)  
 (KB957781)  
 (Hoch)
 </td>
@@ -255,7 +255,7 @@ Microsoft Office XP Service Pack 3
 Microsoft Office 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ccfa978b-3340-40db-a45d-c880ba36b106)  
+[Microsoft Office PowerPoint 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ccfa978b-3340-40db-a45d-c880ba36b106)  
 (KB957784)  
 (Hoch)
 </td>
@@ -265,7 +265,7 @@ Microsoft Office 2003 Service Pack 3
 Microsoft Office System 2007 Service Pack 1 und Microsoft Office System 2007 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office PowerPoint 2007 Service Pack 1 und Microsoft Office PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=11f8380f-ffb6-4c22-a89c-3dc55d0f9834)  
+[Microsoft Office PowerPoint 2007 Service Pack 1 und Microsoft Office PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=11f8380f-ffb6-4c22-a89c-3dc55d0f9834)  
 (KB957789)  
 (Hoch)
 </td>
@@ -296,7 +296,7 @@ Microsoft Office für Mac
 Microsoft Office 2004 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5557bfb7-ebb4-4c42-8042-41e830c4e550)  
+[Microsoft Office 2004 für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5557bfb7-ebb4-4c42-8042-41e830c4e550)  
 (KB969661)  
 (Hoch)
 </td>
@@ -306,7 +306,7 @@ Microsoft Office 2004 für Mac
 Microsoft Office 2008 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2008 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=58326da2-eb75-4b42-b1bc-e70319defb58)  
+[Microsoft Office 2008 für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=58326da2-eb75-4b42-b1bc-e70319defb58)  
 (KB971822)  
 (Hoch)
 </td>
@@ -316,7 +316,7 @@ Microsoft Office 2008 für Mac
 Open XML-Dateiformatkonverter für Mac
 </td>
 <td style="border:1px solid black;">
-[Open XML-Dateiformatkonverter für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9d6d9eaa-8442-4184-8886-faab2803bde6)  
+[Open XML-Dateiformatkonverter für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9d6d9eaa-8442-4184-8886-faab2803bde6)  
 (KB971824)  
 (Hoch)
 </td>
@@ -347,10 +347,10 @@ Weitere Office-Software
 PowerPoint Viewer
 </td>
 <td style="border:1px solid black;">
-[PowerPoint Viewer 2003](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6a57e6ed-bd24-406f-87bb-117391e083e0)  
+[PowerPoint Viewer 2003](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6a57e6ed-bd24-406f-87bb-117391e083e0)  
 (KB969615)  
 (Hoch)  
-[PowerPoint Viewer 2007 Service Pack 1 und PowerPoint Viewer 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=141b8338-5c52-4326-a9e4-d2f2d8940d9c)  
+[PowerPoint Viewer 2007 Service Pack 1 und PowerPoint Viewer 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=141b8338-5c52-4326-a9e4-d2f2d8940d9c)  
 (KB970059)  
 (Hoch)
 </td>
@@ -360,7 +360,7 @@ PowerPoint Viewer
 Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e1d3a4c3-538a-4f98-8d60-250803a80e2a)  
+[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e1d3a4c3-538a-4f98-8d60-250803a80e2a)  
 (KB969618)  
 (Hoch)
 </td>
@@ -370,7 +370,7 @@ Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und Po
 Microsoft Works 8.5
 </td>
 <td style="border:1px solid black;">
-[Microsoft Works 8.5](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=628280fe-e035-4274-85f2-393d9bad543c)  
+[Microsoft Works 8.5](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=628280fe-e035-4274-85f2-393d9bad543c)  
 (KB967043)  
 (Hoch)
 </td>
@@ -380,7 +380,7 @@ Microsoft Works 8.5
 Microsoft Works 9
 </td>
 <td style="border:1px solid black;">
-[Microsoft Works 9](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f6fa110e-45c6-450f-ae47-c89a06e3f762)  
+[Microsoft Works 9](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f6fa110e-45c6-450f-ae47-c89a06e3f762)  
 (KB967044)  
 (Hoch)
 </td>
@@ -426,7 +426,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043.aspx), die im [Microsoft Application Compatibility Toolkit 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043.aspx), die im [Microsoft Application Compatibility Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

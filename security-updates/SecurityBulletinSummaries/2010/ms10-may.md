@@ -130,10 +130,10 @@ Microsoft Windows 2000
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft Outlook Express 5.5 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=661f5de3-a593-4961-8e8d-2777797eb5c5)  
+[Microsoft Outlook Express 5.5 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=661f5de3-a593-4961-8e8d-2777797eb5c5)  
 (KB978542)  
 (Kritisch)  
-[Microsoft Outlook Express 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=cda75174-b535-4559-a52d-b5ec3a1df349)  
+[Microsoft Outlook Express 6 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=cda75174-b535-4559-a52d-b5ec3a1df349)  
 (KB978542)  
 (Kritisch)
 </td>
@@ -164,10 +164,10 @@ Windows XP
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703)  
+[Microsoft Outlook Express 6](https://www.microsoft.com/download/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703)<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -177,10 +177,10 @@ Windows XP Service Pack 2 und Windows XP Service Pack 3
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff)  
+[Microsoft Outlook Express 6](https://www.microsoft.com/download/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff)<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -211,7 +211,7 @@ Windows Server 2003
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=eb9742fc-0934-4b38-9ec4-3597fc71ec00)  
+[Microsoft Outlook Express 6](https://www.microsoft.com/download/details.aspx?familyid=eb9742fc-0934-4b38-9ec4-3597fc71ec00)  
 (KB978542)  
 (Kritisch)
 </td>
@@ -221,7 +221,7 @@ Windows Server 2003 Service Pack 2
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=5678515a-97ea-4e00-8700-d3f2fcdc0efc)  
+[Microsoft Outlook Express 6](https://www.microsoft.com/download/details.aspx?familyid=5678515a-97ea-4e00-8700-d3f2fcdc0efc)  
 (KB978542)  
 (Kritisch)
 </td>
@@ -231,7 +231,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=60ef635b-cb6d-402f-b904-e69b519d797f)  
+[Microsoft Outlook Express 6](https://www.microsoft.com/download/details.aspx?familyid=60ef635b-cb6d-402f-b904-e69b519d797f)  
 (KB978542)  
 (Kritisch)
 </td>
@@ -262,10 +262,10 @@ Windows Vista
 Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1)  
+[Windows Mail](https://www.microsoft.com/download/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1)<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -275,10 +275,10 @@ Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5)  
+[Windows Mail](https://www.microsoft.com/download/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5)<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -309,10 +309,10 @@ Windows Server 2008
 Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c)\*\*  
+[Windows Mail](https://www.microsoft.com/download/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c)\*\*  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c)\*\*<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c)\*\*<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -322,10 +322,10 @@ Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Sy
 Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0)\*\*  
+[Windows Mail](https://www.microsoft.com/download/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0)\*\*  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0)\*\*<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0)\*\*<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -335,10 +335,10 @@ Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64
 Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076)  
+[Windows Mail](https://www.microsoft.com/download/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076)  
 (KB978542)  
 (Kritisch)  
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076)<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -369,7 +369,7 @@ Windows 7
 Windows 7 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=1f0c17be-ba4c-4a1c-b9c3-8ac368800947)<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=1f0c17be-ba4c-4a1c-b9c3-8ac368800947)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -379,7 +379,7 @@ Windows 7 für 32-Bit-Systeme
 Windows 7 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a70f15e1-512c-44ca-a308-928e237ac0ce)<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=a70f15e1-512c-44ca-a308-928e237ac0ce)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -410,7 +410,7 @@ Windows Server 2008 R2
 Windows Server 2008 R2 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=e2e25c02-38ce-4868-a01a-39fc7d2a4150)\*\* <sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=e2e25c02-38ce-4868-a01a-39fc7d2a4150)\*\* <sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -420,7 +420,7 @@ Windows Server 2008 R2 für x64-basierte Systeme
 Windows Server 2008 R2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=53ed1055-b5ee-4fde-9550-f8b401916467)<sup>[1]</sup>  
+[Windows Live Mail](https://www.microsoft.com/download/details.aspx?familyid=53ed1055-b5ee-4fde-9550-f8b401916467)<sup>[1]</sup>  
 (KB978542)  
 (Hoch)
 </td>
@@ -471,7 +471,7 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office XP
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=72c23b0f-4e24-4334-bc8a-334adc8bc42b)<sup>[1]</sup>   
+[Microsoft Office XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=72c23b0f-4e24-4334-bc8a-334adc8bc42b)<sup>[1]</sup>   
 (KB976380)  
 (Hoch)
 </td>
@@ -481,7 +481,7 @@ Microsoft Office XP
 Microsoft Office 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=f8eac9bc-8389-4ac8-8b29-9a8180d9fd34)<sup>[1]</sup>   
+[Microsoft Office 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=f8eac9bc-8389-4ac8-8b29-9a8180d9fd34)<sup>[1]</sup>   
 (KB976382)  
 (Hoch)
 </td>
@@ -491,7 +491,7 @@ Microsoft Office 2003
 Microsoft Office System 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office System 2007 Service Pack 1 und Microsoft Office System 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=160ad53e-6475-4550-90c2-444e4abea730)<sup>[1]</sup>   
+[Microsoft Office System 2007 Service Pack 1 und Microsoft Office System 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=160ad53e-6475-4550-90c2-444e4abea730)<sup>[1]</sup>   
 (KB976321)  
 (Hoch)
 </td>
@@ -540,7 +540,7 @@ Microsoft Visual Basic für Applikationen
 Microsoft Visual Basic für Applikationen
 </td>
 <td style="border:1px solid black;">
-[Microsoft Visual Basic für Applikationen](http://www.microsoft.com/downloads/details.aspx?familyid=436a8a66-352e-44d1-a610-c825083ad24a)<sup>[1]</sup>  
+[Microsoft Visual Basic für Applikationen](https://www.microsoft.com/download/details.aspx?familyid=436a8a66-352e-44d1-a610-c825083ad24a)<sup>[1]</sup>  
 (KB974945)  
 (Kritisch)
 </td>
@@ -601,7 +601,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

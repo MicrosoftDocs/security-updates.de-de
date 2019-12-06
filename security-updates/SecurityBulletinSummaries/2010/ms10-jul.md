@@ -161,7 +161,7 @@ Keine
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=7c2122bb-0ecf-4467-a3ba-6fb862f603c5)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=7c2122bb-0ecf-4467-a3ba-6fb862f603c5)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -173,7 +173,7 @@ Nicht anwendbar
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=9232a336-9ded-4820-bac4-2d68877ee76c)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=9232a336-9ded-4820-bac4-2d68877ee76c)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -212,7 +212,7 @@ Keine
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=cd4363b2-d7a7-4fff-8bcd-6fd02bd1ac07)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=cd4363b2-d7a7-4fff-8bcd-6fd02bd1ac07)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
@@ -224,7 +224,7 @@ Nicht anwendbar
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=a6bafd3b-c921-466d-bee0-59a3fe126712)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=a6bafd3b-c921-466d-bee0-59a3fe126712)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
@@ -236,7 +236,7 @@ Nicht anwendbar
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=b61cc2d5-8432-4681-aa2c-a8807ec1fcf4)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=b61cc2d5-8432-4681-aa2c-a8807ec1fcf4)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
@@ -289,7 +289,7 @@ Windows 7 für x64-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=33ec8c0e-1617-46bf-bd7f-2ce750f89d7f&displaylang=de)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=33ec8c0e-1617-46bf-bd7f-2ce750f89d7f&displaylang=de)  
 (Kritisch)
 </td>
 </tr>
@@ -328,7 +328,7 @@ Windows Server 2008 R2 für x64-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=2a9998fc-beac-4ccf-aa61-4232106adae1&displaylang=de)\*\*\*  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=2a9998fc-beac-4ccf-aa61-4232106adae1&displaylang=de)\*\*\*  
 (Hoch)
 </td>
 </tr>
@@ -396,7 +396,7 @@ Microsoft Office XP Service Pack 3
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Outlook 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=daacf400-4aa3-4479-a60f-b8863ba1e16d)  
+[Microsoft Office Outlook 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=daacf400-4aa3-4479-a60f-b8863ba1e16d)  
 (KB980371)  
 (Hoch)
 </td>
@@ -406,12 +406,12 @@ Nicht anwendbar
 Microsoft Office 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Access 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=93768ac6-e6d7-4175-a6e3-666210494678&displaylang=de)  
+[Microsoft Office Access 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=93768ac6-e6d7-4175-a6e3-666210494678&displaylang=de)  
 (KB981716)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Outlook 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=ef5b0048-96f1-43a6-9848-7f6adccd10b3&displaylang=de)  
+[Microsoft Office Outlook 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=ef5b0048-96f1-43a6-9848-7f6adccd10b3&displaylang=de)  
 (KB980373)  
 (Hoch)
 </td>
@@ -421,12 +421,12 @@ Microsoft Office 2003 Service Pack 3
 Microsoft Office System 2007 Service Pack 1 und Microsoft Office System 2007 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Access 2007 Service Pack 1 und Microsoft Office Access 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=af2862e2-da37-4cbe-8974-e517eb666f14&displaylang=de)  
+[Microsoft Office Access 2007 Service Pack 1 und Microsoft Office Access 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=af2862e2-da37-4cbe-8974-e517eb666f14&displaylang=de)  
 (KB979440)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Outlook 2007 Service Pack 1 und Microsoft Office Outlook 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4e2e7c49-6665-4135-adbb-8e831a91d0fe)  
+[Microsoft Office Outlook 2007 Service Pack 1 und Microsoft Office Outlook 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4e2e7c49-6665-4135-adbb-8e831a91d0fe)  
 (KB980376)  
 (Hoch)
 </td>
@@ -469,7 +469,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

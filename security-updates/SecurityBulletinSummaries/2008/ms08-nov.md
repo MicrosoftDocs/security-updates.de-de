@@ -124,18 +124,18 @@ Microsoft Windows 2000
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=559cd4b6-24b7-4e60-8749-37d9b833d3eb)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=559cd4b6-24b7-4e60-8749-37d9b833d3eb)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
 (KB954459)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=44c971e6-96fc-4bba-8f4a-f9d46bda2b6c)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=44c971e6-96fc-4bba-8f4a-f9d46bda2b6c)  
 (Hoch)
 </td>
 </tr>
@@ -171,18 +171,18 @@ Windows XP
 Windows XP Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6ed1a087-97e2-4283-9b53-b7b046654d08)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6ed1a087-97e2-4283-9b53-b7b046654d08)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
 (KB954459)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6f8ae0aa-fd68-4156-9016-bba00149793c)  
+[Windows XP Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6f8ae0aa-fd68-4156-9016-bba00149793c)  
 (Hoch)
 </td>
 </tr>
@@ -191,18 +191,18 @@ Windows XP Service Pack 2
 Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6ed1a087-97e2-4283-9b53-b7b046654d08)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6ed1a087-97e2-4283-9b53-b7b046654d08)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7493fa37-2cbf-4d66-8690-d50d63da4096)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7493fa37-2cbf-4d66-8690-d50d63da4096)  
 (KB954459)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6f8ae0aa-fd68-4156-9016-bba00149793c)  
+[Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6f8ae0aa-fd68-4156-9016-bba00149793c)  
 (Hoch)
 </td>
 </tr>
@@ -211,18 +211,18 @@ Windows XP Service Pack 3
 Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=1b79f220-ebfc-49c1-963b-58bbda21b6e7)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=1b79f220-ebfc-49c1-963b-58bbda21b6e7)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
 (KB954459)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=9501b33b-d639-43e7-ad5a-9e76ed66effd)  
+[Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=9501b33b-d639-43e7-ad5a-9e76ed66effd)  
 (Hoch)
 </td>
 </tr>
@@ -258,18 +258,18 @@ Windows Server 2003
 Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0a0f8385-e908-4b5f-b9bf-80b7dabfcafd)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0a0f8385-e908-4b5f-b9bf-80b7dabfcafd)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Niedrig)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
 (KB954459)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=57a0606d-ea7a-4e5b-8b8b-7b77a444ef75)  
+[Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=57a0606d-ea7a-4e5b-8b8b-7b77a444ef75)  
 (Hoch)
 </td>
 </tr>
@@ -278,18 +278,18 @@ Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2
 Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=347c8c83-4269-4a0e-af6f-4be2e824d22b)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=347c8c83-4269-4a0e-af6f-4be2e824d22b)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Niedrig)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
 (KB954459)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=915e001f-9aa0-4fb0-9c2a-0f0c72b4f056)  
+[Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=915e001f-9aa0-4fb0-9c2a-0f0c72b4f056)  
 (Hoch)
 </td>
 </tr>
@@ -298,18 +298,18 @@ Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack
 Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3a65e1cd-eb4e-44b6-8868-a5a84be2cb32)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3a65e1cd-eb4e-44b6-8868-a5a84be2cb32)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Niedrig)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=59914795-60c7-4ebe-828d-f28cb457e6e3)  
 (KB954459)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6abf7ba9-825f-4ee2-a2fe-6b1cd9fab622)  
+[Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6abf7ba9-825f-4ee2-a2fe-6b1cd9fab622)  
 (Hoch)
 </td>
 </tr>
@@ -345,18 +345,18 @@ Windows Vista
 Windows Vista und Windows Vista Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=affbc957-1867-4bbe-924d-6f0696ae0895)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=affbc957-1867-4bbe-924d-6f0696ae0895)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cb6c4315-8c6d-43af-978b-b190b1a1577a)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cb6c4315-8c6d-43af-978b-b190b1a1577a)  
 (KB954459)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista und Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5612815f-8685-45d2-af4a-164c298a0869)  
+[Windows Vista und Windows Vista Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5612815f-8685-45d2-af4a-164c298a0869)  
 (Mittel)
 </td>
 </tr>
@@ -365,7 +365,7 @@ Windows Vista und Windows Vista Service Pack 1
 Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)
 </td>
@@ -378,18 +378,18 @@ Nicht anwendbar
 Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b01a5f31-8c57-4c5c-909e-b37caf0439b0)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b01a5f31-8c57-4c5c-909e-b37caf0439b0)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=39443046-2093-4c87-ac7b-679deab96414)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=39443046-2093-4c87-ac7b-679deab96414)  
 (KB954459)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=727ce9b6-827f-4350-b4ff-c08e8ac541a6)  
+[Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=727ce9b6-827f-4350-b4ff-c08e8ac541a6)  
 (Mittel)
 </td>
 </tr>
@@ -398,7 +398,7 @@ Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1
 Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)
 </td>
@@ -438,18 +438,18 @@ Windows Server 2008
 Windows Server 2008 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=90a04164-4d02-4ce9-b3d8-bddb1ec27618)\*\*  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=90a04164-4d02-4ce9-b3d8-bddb1ec27618)\*\*  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
 (KB954430)  
 (Niedrig)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=dea9f227-967f-47c7-bb2a-ed68f13645d9)\*\*  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=dea9f227-967f-47c7-bb2a-ed68f13645d9)\*\*  
 (KB954459)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b305e894-61ec-46b4-91ee-4c9ac59bc47e)\*  
+[Windows Server 2008 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b305e894-61ec-46b4-91ee-4c9ac59bc47e)\*  
 (Mittel)
 </td>
 </tr>
@@ -458,7 +458,7 @@ Windows Server 2008 für 32-Bit-Systeme
 Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
 (KB954430)  
 (Niedrig)
 </td>
@@ -471,18 +471,18 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b7bfe3f4-835f-402c-95b5-6d49b6935308)\*\*  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b7bfe3f4-835f-402c-95b5-6d49b6935308)\*\*  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
 (KB954430)  
 (Niedrig)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f16e2a5f-37fd-4ee1-aef0-597214323dc4)\*\*  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f16e2a5f-37fd-4ee1-aef0-597214323dc4)\*\*  
 (KB954459)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e8d26dfd-b347-4f10-b5b6-27dfff5e4f47)\*  
+[Windows Server 2008 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e8d26dfd-b347-4f10-b5b6-27dfff5e4f47)\*  
 (Mittel)
 </td>
 </tr>
@@ -491,7 +491,7 @@ Windows Server 2008 für x64-basierte Systeme
 Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
 (KB954430)  
 (Niedrig)
 </td>
@@ -504,18 +504,18 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4e0d1efe-70ac-459b-b330-c0149b74f520)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4e0d1efe-70ac-459b-b330-c0149b74f520)  
 (KB955069)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Niedrig)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d4ae74e2-1b09-4a99-8cf5-8a8ca8ac6f7f)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d4ae74e2-1b09-4a99-8cf5-8a8ca8ac6f7f)  
 (KB954459)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d565467d-e10f-4ddc-a278-3f81a3798686)  
+[Windows Server 2008 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d565467d-e10f-4ddc-a278-3f81a3798686)  
 (Mittel)
 </td>
 </tr>
@@ -524,7 +524,7 @@ Windows Server 2008 für Itanium-basierte Systeme
 Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Niedrig)
 </td>
@@ -564,7 +564,7 @@ Keine
 Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)
 </td>
@@ -577,7 +577,7 @@ Nicht anwendbar
 Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Hoch)
 </td>
@@ -617,7 +617,7 @@ Keine
 Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)\*\*  
 (KB954430)  
 (Niedrig)
 </td>
@@ -630,7 +630,7 @@ Nicht anwendbar
 Windows Server 2008 R2 für Itanium-basierte Systeme und Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=96a4413c-5261-4f69-83d0-932c430abd14)  
 (KB954430)  
 (Niedrig)
 </td>
@@ -680,7 +680,7 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7ad891a8-c3bb-4479-8282-13d629c410e3)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7ad891a8-c3bb-4479-8282-13d629c410e3)  
 (KB951535)  
 (Hoch)
 </td>
@@ -690,7 +690,7 @@ Microsoft Office 2003 Service Pack 3
 Microsoft Office System 2007 und Microsoft Office System 2007 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=27b06ee8-570a-4dc2-a230-c70d4a706245)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=27b06ee8-570a-4dc2-a230-c70d4a706245)  
 (KB951550)  
 (Hoch)
 </td>
@@ -721,7 +721,7 @@ Weitere Office-Software
 Microsoft Word Viewer 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7ad891a8-c3bb-4479-8282-13d629c410e3)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7ad891a8-c3bb-4479-8282-13d629c410e3)  
 (KB951535)  
 (Hoch)
 </td>
@@ -731,7 +731,7 @@ Microsoft Word Viewer 2003 Service Pack 3
 Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=27b06ee8-570a-4dc2-a230-c70d4a706245)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=27b06ee8-570a-4dc2-a230-c70d4a706245)  
 (KB951550)  
 (Hoch)
 </td>
@@ -741,7 +741,7 @@ Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und Po
 Microsoft Expression Web und Microsoft Expression Web 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=27b06ee8-570a-4dc2-a230-c70d4a706245)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=27b06ee8-570a-4dc2-a230-c70d4a706245)  
 (KB951550)  
 (Hoch)
 </td>
@@ -751,7 +751,7 @@ Microsoft Expression Web und Microsoft Expression Web 2
 Microsoft Office SharePoint Server 2007 und Microsoft Office SharePoint Server 2007 Service Pack 1 (32-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a208f2b5-2b0d-43bb-8f8a-58d4a3fc64f5)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a208f2b5-2b0d-43bb-8f8a-58d4a3fc64f5)  
 (KB951597)  
 (Hoch)
 </td>
@@ -761,7 +761,7 @@ Microsoft Office SharePoint Server 2007 und Microsoft Office SharePoint Server 2
 Microsoft Office SharePoint Server 2007 und Microsoft Office SharePoint Server 2007 Service Pack 1 (64-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0735f4af-e32b-4970-bed7-b2b9323cf54c)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0735f4af-e32b-4970-bed7-b2b9323cf54c)  
 (KB951597)  
 (Hoch)
 </td>
@@ -771,7 +771,7 @@ Microsoft Office SharePoint Server 2007 und Microsoft Office SharePoint Server 2
 Microsoft Office Groove Server 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0735f4af-e32b-4970-bed7-b2b9323cf54c)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0735f4af-e32b-4970-bed7-b2b9323cf54c)  
 (KB951597)  
 (Hoch)
 </td>
@@ -808,11 +808,11 @@ Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der W
 
 Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](http://technet.microsoft.com/de-de/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/systemcenter/sccm/default.mspx).
 
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/downloads/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/download/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Microsoft Application Compatibility Toolkit 5.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Microsoft Application Compatibility Toolkit 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

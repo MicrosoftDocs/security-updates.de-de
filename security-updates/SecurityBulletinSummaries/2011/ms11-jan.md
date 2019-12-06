@@ -139,7 +139,7 @@ Keine
 Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft Data Access Components 2.8 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7951fd7b-6b0a-4168-8519-312a62ff3289)  
+[Microsoft Data Access Components 2.8 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=7951fd7b-6b0a-4168-8519-312a62ff3289)  
 (KB2419632)  
 (Kritisch)
 </td>
@@ -152,7 +152,7 @@ Nicht anwendbar
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Data Access Components 2.8 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=ce06bfdc-7b0d-4e65-9a13-e009e3a6a9f0)  
+[Microsoft Data Access Components 2.8 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=ce06bfdc-7b0d-4e65-9a13-e009e3a6a9f0)  
 (KB2419635)  
 (Kritisch)
 </td>
@@ -192,7 +192,7 @@ Keine
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Data Access Components 2.8 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d451ced7-c9c7-4c41-9d44-8f8929fca390)  
+[Microsoft Data Access Components 2.8 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=d451ced7-c9c7-4c41-9d44-8f8929fca390)  
 (KB2419635)  
 (Hoch)
 </td>
@@ -205,7 +205,7 @@ Nicht anwendbar
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft Data Access Components 2.8 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3f2c8cfa-819e-4fd9-93ba-b687eb2d46fe)  
+[Microsoft Data Access Components 2.8 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3f2c8cfa-819e-4fd9-93ba-b687eb2d46fe)  
 (KB2419635)  
 (Hoch)
 </td>
@@ -218,7 +218,7 @@ Nicht anwendbar
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Microsoft Data Access Components 2.8 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8dbcbb91-464b-4eb3-b7e5-afe82febf8d7)  
+[Microsoft Data Access Components 2.8 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=8dbcbb91-464b-4eb3-b7e5-afe82febf8d7)  
 (KB2419635)  
 (Hoch)
 </td>
@@ -258,12 +258,12 @@ Windows Vista
 Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=13445e4a-099a-4edd-864e-c44f42940500)  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=13445e4a-099a-4edd-864e-c44f42940500)  
 (KB2419640)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4eeaad20-729c-4594-8853-e4ae55e9d491)  
+[Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=4eeaad20-729c-4594-8853-e4ae55e9d491)  
 (Hoch)
 </td>
 </tr>
@@ -272,12 +272,12 @@ Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=fd6b806e-50d4-4f4d-96e1-7c71fca4c543)  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=fd6b806e-50d4-4f4d-96e1-7c71fca4c543)  
 (KB2419640)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b2839cd0-1958-4a22-9aac-0e0aa8f2b52c)  
+[Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b2839cd0-1958-4a22-9aac-0e0aa8f2b52c)  
 (Hoch)
 </td>
 </tr>
@@ -313,7 +313,7 @@ Keine
 Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=3d0885ac-97b3-46b5-970d-cc810270fba3)\*  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=3d0885ac-97b3-46b5-970d-cc810270fba3)\*  
 (KB2419640)  
 (Hoch)
 </td>
@@ -326,7 +326,7 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=8f33c57e-343c-4cdb-b667-af18a8779ad2)\*  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=8f33c57e-343c-4cdb-b667-af18a8779ad2)\*  
 (KB2419640)  
 (Hoch)
 </td>
@@ -339,7 +339,7 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=5ecc8180-6baa-4f4b-a392-4b45a30469fc)  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=5ecc8180-6baa-4f4b-a392-4b45a30469fc)  
 (KB2419640)  
 (Hoch)
 </td>
@@ -379,7 +379,7 @@ Keine
 Windows 7 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=3dfd4f1c-e7a5-4686-8d2c-b7a5a53c5333)  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=3dfd4f1c-e7a5-4686-8d2c-b7a5a53c5333)  
 (KB2419640)  
 (Kritisch)
 </td>
@@ -392,7 +392,7 @@ Nicht anwendbar
 Windows 7 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=cf30e5c0-811b-4ecd-a6b2-874000d25074)  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=cf30e5c0-811b-4ecd-a6b2-874000d25074)  
 (KB2419640)  
 (Kritisch)
 </td>
@@ -432,7 +432,7 @@ Keine
 Windows Server 2008 R2 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=cc9bac5a-3eaa-46fb-9ef4-c511b5f57996)\*  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=cc9bac5a-3eaa-46fb-9ef4-c511b5f57996)\*  
 (KB2419640)  
 (Hoch)
 </td>
@@ -445,7 +445,7 @@ Nicht anwendbar
 Windows Server 2008 R2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Data Access Components 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=ba2612ec-ffad-4cd3-85c6-ba07f70a0d24)  
+[Windows Data Access Components 6.0](https://www.microsoft.com/download/details.aspx?familyid=ba2612ec-ffad-4cd3-85c6-ba07f70a0d24)  
 (KB2419640)  
 (Hoch)
 </td>
@@ -500,11 +500,11 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](http://www.microsoft.com/downloads/en/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f&displaylang=en). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](http://technet.microsoft.com/en-us/systemcenter/bb545936.aspx).
 
-**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können diese Updates mit dem Elevated Rights Deployment Tool (im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/downloads/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) verfügbar) installieren.
+**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können diese Updates mit dem Elevated Rights Deployment Tool (im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/download/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) verfügbar) installieren.
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

@@ -108,31 +108,31 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=e70515c7-8924-46da-8573-457957eea0d7">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=e70515c7-8924-46da-8573-457957eea0d7">Gering</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=7bd81335-79ea-46ce-8d3c-0aa91eefff02">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=7bd81335-79ea-46ce-8d3c-0aa91eefff02">Gering</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows XP Service Pack 1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d80b43b2-727b-46b6-82d1-f2cbd916fe32">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d80b43b2-727b-46b6-82d1-f2cbd916fe32">Gering</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=b2b8f9a8-4874-405a-9f0c-768b2631673a">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=b2b8f9a8-4874-405a-9f0c-768b2631673a">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows XP Service Pack 2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d80b43b2-727b-46b6-82d1-f2cbd916fe32">Gering</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d80b43b2-727b-46b6-82d1-f2cbd916fe32">Gering</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=b2b8f9a8-4874-405a-9f0c-768b2631673a">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=b2b8f9a8-4874-405a-9f0c-768b2631673a">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows 2000 Service Pack 4</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=8b98f380-0e5c-4b80-9710-95e1b35afd83">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=8b98f380-0e5c-4b80-9710-95e1b35afd83">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -151,19 +151,19 @@ In dieser Tabelle finden Sie Informationen zu Sicherheitsupdates, die Sie mögli
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Exchange Server 2003 Service Pack 1</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=f32574e0-f35c-4537-9ad0-524cb49afe53">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=f32574e0-f35c-4537-9ad0-524cb49afe53">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Exchange Server 2003 Service Pack 2</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=82ae4397-0982-4585-84c1-dc1af6944a0f">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=82ae4397-0982-4585-84c1-dc1af6944a0f">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft Exchange Server 2000 mit dem Exchange 2000 Post-Service Pack 3 Update-Rollup vom August 2004</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=e72c8f94-782f-4670-9221-e2e37eadb8ec">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=e72c8f94-782f-4670-9221-e2e37eadb8ec">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">

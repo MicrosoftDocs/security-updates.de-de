@@ -210,15 +210,15 @@ Microsoft Windows 2000 Service Pack 4
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Server Service Pack 4:](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=365a8dff-2383-42f6-b567-e545461fd135)  
+[Microsoft Windows 2000 Server Service Pack 4:](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=365a8dff-2383-42f6-b567-e545461fd135)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=45db8bb1-c81b-4d3f-a658-74f5fa445f81)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=45db8bb1-c81b-4d3f-a658-74f5fa445f81)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Active Directory unter Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=297158cf-374c-45d9-b213-978e1f54d244)  
+[Active Directory unter Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=297158cf-374c-45d9-b213-978e1f54d244)  
 (KB973037)  
 (Hoch)
 </td>
@@ -273,11 +273,11 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=916abdad-44b7-4f9d-986a-0c3558fb8e06)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=916abdad-44b7-4f9d-986a-0c3558fb8e06)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cbe09780-f288-457a-b254-58c9c8744055)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cbe09780-f288-457a-b254-58c9c8744055)  
 (KB973039)  
 (Hoch)
 </td>
@@ -293,11 +293,11 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1d0464c6-5ed8-4064-887e-618a2db09236)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1d0464c6-5ed8-4064-887e-618a2db09236)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=b65ddf36-a02d-4aa2-9b4f-7416dbf59e2a)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?familyid=b65ddf36-a02d-4aa2-9b4f-7416dbf59e2a)  
 (KB973039)  
 (Hoch)
 </td>
@@ -352,14 +352,14 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5cd62750-e269-44ae-8c7c-c335e8545b9a)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5cd62750-e269-44ae-8c7c-c335e8545b9a)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=28f1c494-4e16-43b6-93d2-49e15f142ac9)  
+[Active Directory](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=28f1c494-4e16-43b6-93d2-49e15f142ac9)  
 (KB973037)  
 (Hoch)  
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=44cb9029-4b19-4bad-8fc9-3efe285adb0e)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=44cb9029-4b19-4bad-8fc9-3efe285adb0e)  
 (KB973039)  
 (Hoch)
 </td>
@@ -375,14 +375,14 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=04a7f817-f330-4003-8b25-d3e744905b12)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=04a7f817-f330-4003-8b25-d3e744905b12)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=509aeec0-112b-44ab-8686-43f381b61940)  
+[Active Directory](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=509aeec0-112b-44ab-8686-43f381b61940)  
 (KB973037)  
 (Hoch)  
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=87f2109e-5129-467c-930f-70af31ebf5de)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=87f2109e-5129-467c-930f-70af31ebf5de)  
 (KB973039)  
 (Hoch)
 </td>
@@ -398,11 +398,11 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b95daac0-4c99-47a4-b0ca-9429997ea3d9)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b95daac0-4c99-47a4-b0ca-9429997ea3d9)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=040e691b-1ef0-4b73-bef7-a1d77b84b0ca)  
+[Active Directory](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=040e691b-1ef0-4b73-bef7-a1d77b84b0ca)  
 (KB973037)  
 (Hoch)
 </td>
@@ -451,14 +451,14 @@ Keine
 Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ebf0c294-cd99-445a-a741-78253e47189f)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ebf0c294-cd99-445a-a741-78253e47189f)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=54562103-1d99-42d7-8f7f-c0cbcdce90db)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=54562103-1d99-42d7-8f7f-c0cbcdce90db)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -470,14 +470,14 @@ Nicht anwendbar
 Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d9645fc9-f524-43f1-8b8c-94b3b4312158)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d9645fc9-f524-43f1-8b8c-94b3b4312158)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fcb87cc8-6fd7-4f16-93d6-552999462fb1)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fcb87cc8-6fd7-4f16-93d6-552999462fb1)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -528,18 +528,18 @@ Keine
 Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d6a60883-b103-459a-a91b-cd6ed946cefe)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d6a60883-b103-459a-a91b-cd6ed946cefe)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b97d48de-0f6d-4bca-b990-acf543fdb8b7)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b97d48de-0f6d-4bca-b990-acf543fdb8b7)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=701abf15-7f93-41de-8d09-13404fd79a7e)\*  
+[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=701abf15-7f93-41de-8d09-13404fd79a7e)\*  
 (KB973037)  
 (Hoch)
 </td>
@@ -549,18 +549,18 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=3dde1587-42d3-438f-8344-696a5657b9b1)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=3dde1587-42d3-438f-8344-696a5657b9b1)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0e2b8607-10fa-406a-96a5-18290f479c48)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0e2b8607-10fa-406a-96a5-18290f479c48)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=17f5f9e0-5869-41da-9b3b-6e67540af1f0)\*  
+[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=17f5f9e0-5869-41da-9b3b-6e67540af1f0)\*  
 (KB973037)  
 (Hoch)
 </td>
@@ -570,14 +570,14 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=841a027f-22fa-42de-93b3-57a3fe92a1d3)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=841a027f-22fa-42de-93b3-57a3fe92a1d3)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=28eba3f3-99a5-424c-bc8d-a718c716699e)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=28eba3f3-99a5-424c-bc8d-a718c716699e)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -634,12 +634,12 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office XP
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5672c8fc-8509-4962-ad86-ebc0f2575043)  
+[Microsoft Office Excel 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5672c8fc-8509-4962-ad86-ebc0f2575043)  
 (KB973471)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=0369fae5-958b-4eba-83a4-9c07e701c273&displaylang=de)  
+[Microsoft Office Word 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=0369fae5-958b-4eba-83a4-9c07e701c273&displaylang=de)  
 (KB973444)  
 (Hoch)
 </td>
@@ -649,12 +649,12 @@ Microsoft Office XP
 Microsoft Office 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6a6a0f5d-17dc-4a34-b9a0-0774aa287ba5)  
+[Microsoft Office Excel 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6a6a0f5d-17dc-4a34-b9a0-0774aa287ba5)  
 (KB973475)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6b77bc62-bcbb-4b9a-97d1-a49ca0582e54)  
+[Microsoft Office Word 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6b77bc62-bcbb-4b9a-97d1-a49ca0582e54)  
 (KB973443)  
 (Hoch)
 </td>
@@ -664,7 +664,7 @@ Microsoft Office 2003
 Microsoft Office System 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=322b24ca-aff6-4ca0-acf1-440cae0f9693)<sup>[1]</sup>
+[Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=322b24ca-aff6-4ca0-acf1-440cae0f9693)<sup>[1]</sup>
 (KB973593)  
 (Hoch)
 </td>
@@ -704,12 +704,12 @@ Microsoft Office für Mac
 Microsoft Office 2004 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8f115b1c-1e28-4ecf-937c-99c4b60c7c8e)  
+[Microsoft Office 2004 für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8f115b1c-1e28-4ecf-937c-99c4b60c7c8e)  
 (KB976830)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2004 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8f115b1c-1e28-4ecf-937c-99c4b60c7c8e)  
+[Microsoft Office 2004 für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8f115b1c-1e28-4ecf-937c-99c4b60c7c8e)  
 (KB976830)  
 (Hoch)
 </td>
@@ -719,12 +719,12 @@ Microsoft Office 2004 für Mac
 Microsoft Office 2008 für Mac
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2008 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b84fe57d-ddda-451e-9ead-69e10aee7928)  
+[Microsoft Office 2008 für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b84fe57d-ddda-451e-9ead-69e10aee7928)  
 (KB976828)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office 2008 für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b84fe57d-ddda-451e-9ead-69e10aee7928)  
+[Microsoft Office 2008 für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b84fe57d-ddda-451e-9ead-69e10aee7928)  
 (KB976828)  
 (Hoch)
 </td>
@@ -734,12 +734,12 @@ Microsoft Office 2008 für Mac
 Open XML-Dateiformatkonverter für Mac
 </td>
 <td style="border:1px solid black;">
-[Open XML-Dateiformatkonverter für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4dd4bc05-1217-497e-8f65-4347f2544ed6)  
+[Open XML-Dateiformatkonverter für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4dd4bc05-1217-497e-8f65-4347f2544ed6)  
 (KB976831)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Open XML-Dateiformatkonverter für Mac](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4dd4bc05-1217-497e-8f65-4347f2544ed6)  
+[Open XML-Dateiformatkonverter für Mac](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4dd4bc05-1217-497e-8f65-4347f2544ed6)  
 (KB976831)  
 (Hoch)
 </td>
@@ -776,7 +776,7 @@ Andere Microsoft Office-Software
 Microsoft Office Excel Viewer 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel Viewer 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=19151e22-5642-456c-bd39-298574369cdb)  
+[Microsoft Office Excel Viewer 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=19151e22-5642-456c-bd39-298574369cdb)  
 (KB973484)  
 (Hoch)
 </td>
@@ -789,7 +789,7 @@ Nicht anwendbar
 Microsoft Office Excel Viewer
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Excel Viewer Service Pack 1 und Microsoft Office Excel Viewer Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=fb36df5e-ebef-46bf-9edd-67f2c76dbdb3)  
+[Microsoft Office Excel Viewer Service Pack 1 und Microsoft Office Excel Viewer Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=fb36df5e-ebef-46bf-9edd-67f2c76dbdb3)  
 (KB973707)  
 (Hoch)
 </td>
@@ -805,7 +805,7 @@ Microsoft Office Word Viewer 2003
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word Viewer 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4cc5e6c5-7efb-4180-9a9b-0788115c91e1)  
+[Microsoft Office Word Viewer 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4cc5e6c5-7efb-4180-9a9b-0788115c91e1)  
 (KB973866)  
 (Hoch)
 </td>
@@ -818,7 +818,7 @@ Microsoft Office Word Viewer
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Word Viewer](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4cc5e6c5-7efb-4180-9a9b-0788115c91e1)  
+[Microsoft Office Word Viewer](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4cc5e6c5-7efb-4180-9a9b-0788115c91e1)  
 (KB973866)  
 (Hoch)
 </td>
@@ -828,7 +828,7 @@ Nicht anwendbar
 Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c4c92d2e-e87d-446f-8d3e-8f4be10c70aa)  
+[Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c4c92d2e-e87d-446f-8d3e-8f4be10c70aa)  
 (KB973704)  
 (Hoch)
 </td>
@@ -840,7 +840,7 @@ Nicht anwendbar
  
 **Hinweis für MS09-067**
 
-<sup>[1]</sup>Für Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2 müssen Benutzer zusätzlich zum Sicherheitsupdatepaket KB973593 auch das Sicherheitsupdate für [Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c4c92d2e-e87d-446f-8d3e-8f4be10c70aa) (KB973704) installieren, um vor den in diesem Bulletin beschriebenen Sicherheitsanfälligkeiten geschützt zu sein.
+<sup>[1]</sup>Für Microsoft Office Excel 2007 Service Pack 1 und Microsoft Office Excel 2007 Service Pack 2 müssen Benutzer zusätzlich zum Sicherheitsupdatepaket KB973593 auch das Sicherheitsupdate für [Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 1 und Microsoft Office Compatibility Pack für die Dateiformate von Word, Excel und PowerPoint 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c4c92d2e-e87d-446f-8d3e-8f4be10c70aa) (KB973704) installieren, um vor den in diesem Bulletin beschriebenen Sicherheitsanfälligkeiten geschützt zu sein.
 
 Tools und Anleitungen zur Erkennung und Bereitstellung
 ------------------------------------------------------
@@ -873,11 +873,11 @@ Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der W
 
 Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](http://technet.microsoft.com/en-us/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch das Sicherheitsupdate-Inventurprogramm (SUIT) verwenden, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/systemcenter/sccm/default.mspx).
 
-**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/downloads/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/download/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

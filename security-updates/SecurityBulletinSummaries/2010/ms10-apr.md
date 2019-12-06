@@ -422,46 +422,46 @@ Keine
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 5.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d7538166-35ee-4c6b-be8c-e83a1fc6cd77)  
+[Authenticode Signature Verification 5.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d7538166-35ee-4c6b-be8c-e83a1fc6cd77)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 5.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=13846177-f25f-4dd4-9fe9-ac43e1d4d73d)  
+[Shellerweiterung von Kabinettdatei-Viewer 5.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=13846177-f25f-4dd4-9fe9-ac43e1d4d73d)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=67ccac04-e5c8-4381-9d1a-9b676dd516a6)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=67ccac04-e5c8-4381-9d1a-9b676dd516a6)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Server Service Pack 4:](http://www.microsoft.com/technet/security/bulletin/%5Ehttp://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=73b3d681-26bb-49c1-849e-1f72484cb978)  
+[Microsoft Windows 2000 Server Service Pack 4:](http://www.microsoft.com/technet/security/bulletin/%5Ehttps://www.microsoft.com/download/details.aspx?displaylang=de&familyid=73b3d681-26bb-49c1-849e-1f72484cb978)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3-Codecs](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f6394fc2-b9d0-46cf-9265-a0d4aeb1448f)  
+[MPEG Layer-3-Codecs](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f6394fc2-b9d0-46cf-9265-a0d4aeb1448f)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Player 9-Reihe](http://www.microsoft.com/downloads/details.aspx?familyid=c0b8b362-a321-4ac9-be98-15c71bb7a043)  
+[Windows Media Player 9-Reihe](https://www.microsoft.com/download/details.aspx?familyid=c0b8b362-a321-4ac9-be98-15c71bb7a043)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=c5f4577e-7546-40e9-8bcd-be11c1b260a6)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?familyid=c5f4577e-7546-40e9-8bcd-be11c1b260a6)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=421be318-f217-4d12-b7a5-833093189073)<sup>[1]</sup>
+[VBScript 5.1](https://www.microsoft.com/download/details.aspx?familyid=421be318-f217-4d12-b7a5-833093189073)<sup>[1]</sup>
 (KB981350)  
 (Hoch)  
-[VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=421be318-f217-4d12-b7a5-833093189073)  
+[VBScript 5.6](https://www.microsoft.com/download/details.aspx?familyid=421be318-f217-4d12-b7a5-833093189073)  
 (KB981350)  
 (Hoch)  
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=d5fc47a4-cecb-4817-aafb-45f335061be3)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=d5fc47a4-cecb-4817-aafb-45f335061be3)  
 (KB981349)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=88a0e872-01de-495b-8eec-d105a970daa7)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=88a0e872-01de-495b-8eec-d105a970daa7)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -542,51 +542,51 @@ Keine
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 5.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=2a01ddf0-f3ea-47c8-ada2-e69f6c1b5f96)  
+[Authenticode Signature Verification 5.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=2a01ddf0-f3ea-47c8-ada2-e69f6c1b5f96)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6c3ac102-2107-4726-98be-4fbf6b858bfb)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6c3ac102-2107-4726-98be-4fbf6b858bfb)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=dec38c02-3d4a-41c5-8954-e57f56b8fa5b)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=dec38c02-3d4a-41c5-8954-e57f56b8fa5b)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3-Codecs](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b1582a74-4a7b-4540-beb1-7c89c86eae87)  
+[MPEG Layer-3-Codecs](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b1582a74-4a7b-4540-beb1-7c89c86eae87)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Media Player 9-Reihe unter Windows XP Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5c748c6d-84d1-45a9-8a33-9372eb5504d5)  
+[Windows Media Player 9-Reihe unter Windows XP Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=5c748c6d-84d1-45a9-8a33-9372eb5504d5)  
 (Kritisch)  
-[Windows Media Player 9-Reihe unter Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=9e4277b4-2dc5-4163-a6aa-7e07dd32b721)  
+[Windows Media Player 9-Reihe unter Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=9e4277b4-2dc5-4163-a6aa-7e07dd32b721)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=142710fd-9cd4-4dd0-aaba-2aace03c008f)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=142710fd-9cd4-4dd0-aaba-2aace03c008f)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=aa8ff157-a7b3-4787-80c9-5bc453f0f1c9) unter Windows XP Service Pack 2  
+[VBScript 5.6](https://www.microsoft.com/download/details.aspx?familyid=aa8ff157-a7b3-4787-80c9-5bc453f0f1c9) unter Windows XP Service Pack 2  
 (KB981350)  
 (Hoch)  
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=cb21d276-65e9-4c8f-96e3-cf6dc36d0133)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=cb21d276-65e9-4c8f-96e3-cf6dc36d0133)  
 (KB981349)  
 (Hoch)  
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=ba7ef6e5-80ba-4281-a611-6e5be008c1b4)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=ba7ef6e5-80ba-4281-a611-6e5be008c1b4)  
 (KB981332)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=de447b76-ec89-426b-ac54-3ae3855d1159)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=de447b76-ec89-426b-ac54-3ae3855d1159)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9dc3e1c2-2e9d-4d86-9fce-446c409ad613)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9dc3e1c2-2e9d-4d86-9fce-446c409ad613)  
 (Mittel)
 </td>
 </tr>
@@ -595,48 +595,48 @@ Nicht anwendbar
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=9bbff00c-f8f4-4a44-98f2-18a868986ae1)  
+[Authenticode Signature Verification 5.1](https://www.microsoft.com/download/details.aspx?familyid=9bbff00c-f8f4-4a44-98f2-18a868986ae1)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e64e487e-2727-4396-b0c9-6eaf000214d2)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?familyid=e64e487e-2727-4396-b0c9-6eaf000214d2)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c5a21239-a9a3-4ec5-9de8-7d2fc16fc6b8)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=c5a21239-a9a3-4ec5-9de8-7d2fc16fc6b8)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3-Codecs](http://www.microsoft.com/downloads/details.aspx?familyid=8afca317-a647-44aa-a771-5d85cd5d62ea)  
+[MPEG Layer-3-Codecs](https://www.microsoft.com/download/details.aspx?familyid=8afca317-a647-44aa-a771-5d85cd5d62ea)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3c0cb02e-3484-4cdf-8c64-c697ad3e2889)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3c0cb02e-3484-4cdf-8c64-c697ad3e2889)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=896c738d-4058-440f-8d4f-16c678610cd1)  
+[VBScript 5.6](https://www.microsoft.com/download/details.aspx?familyid=896c738d-4058-440f-8d4f-16c678610cd1)  
 (KB981350)  
 (Hoch)  
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=d7e8b930-8708-4f0b-b22b-961c2cbc2673)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=d7e8b930-8708-4f0b-b22b-961c2cbc2673)  
 (KB981349)  
 (Hoch)  
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=153fd9c1-0f8e-4492-87d1-f0381e7feb23)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=153fd9c1-0f8e-4492-87d1-f0381e7feb23)  
 (KB981332)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4f9a696d-2712-4777-a642-e78a38336e8a)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=4f9a696d-2712-4777-a642-e78a38336e8a)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d872bd77-f491-4706-8ff5-081ac0bf3d6f)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=d872bd77-f491-4706-8ff5-081ac0bf3d6f)  
 (Mittel)
 </td>
 </tr>
@@ -714,48 +714,48 @@ Keine
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 5.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0e7e3deb-f078-4953-9642-675ec69267f2)  
+[Authenticode Signature Verification 5.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0e7e3deb-f078-4953-9642-675ec69267f2)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7ae9b1d0-0dbe-4abd-b315-10cea4ceccd7)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7ae9b1d0-0dbe-4abd-b315-10cea4ceccd7)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1189304f-d626-426d-960c-a86dc2d2b528)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1189304f-d626-426d-960c-a86dc2d2b528)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3-Codecs](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9f89746c-181e-4177-a851-ec1826e78b6d)  
+[MPEG Layer-3-Codecs](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9f89746c-181e-4177-a851-ec1826e78b6d)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=0a7ea2d0-61ce-4b68-ad82-d917b1a56f9d)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=0a7ea2d0-61ce-4b68-ad82-d917b1a56f9d)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=28b035b8-d56e-4e93-b811-9a82cf1d4ba9)  
+[VBScript 5.6](https://www.microsoft.com/download/details.aspx?familyid=28b035b8-d56e-4e93-b811-9a82cf1d4ba9)  
 (KB981350)  
 (Hoch)  
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=a142a553-85fc-40e0-9426-8d58f6a4333c)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=a142a553-85fc-40e0-9426-8d58f6a4333c)  
 (KB981349)  
 (Hoch)  
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=72754e1b-3d09-4b9d-8794-689c45a37f66)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=72754e1b-3d09-4b9d-8794-689c45a37f66)  
 (KB981332)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f781e9e4-87d4-4243-9d44-256424d75fec)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f781e9e4-87d4-4243-9d44-256424d75fec)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cd007a6c-04b3-490c-aff4-d5af3e69d477)  
+[Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cd007a6c-04b3-490c-aff4-d5af3e69d477)  
 (Mittel)
 </td>
 </tr>
@@ -764,48 +764,48 @@ Nicht anwendbar
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 5.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=99a3f6da-728f-421c-ab41-c4c4751934a4)  
+[Authenticode Signature Verification 5.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=99a3f6da-728f-421c-ab41-c4c4751934a4)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=1709fd4e-d7c6-4cbb-8b71-a96b8d6eee58)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=1709fd4e-d7c6-4cbb-8b71-a96b8d6eee58)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=52e4f66b-b76c-46a1-aeff-74efa21fc743)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=52e4f66b-b76c-46a1-aeff-74efa21fc743)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3-Codecs](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b97e7ea1-a163-4ce4-8cbc-5f933773c4b2)  
+[MPEG Layer-3-Codecs](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b97e7ea1-a163-4ce4-8cbc-5f933773c4b2)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1fc66f54-260a-4219-a0b4-056ba9dd0abe)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=1fc66f54-260a-4219-a0b4-056ba9dd0abe)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=339ddf48-8949-4857-9ef6-1ddcc7c5f8b8)  
+[VBScript 5.6](https://www.microsoft.com/download/details.aspx?familyid=339ddf48-8949-4857-9ef6-1ddcc7c5f8b8)  
 (KB981350)  
 (Hoch)  
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=a489b4e3-78d2-411b-b27c-5987b8fc91d1)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=a489b4e3-78d2-411b-b27c-5987b8fc91d1)  
 (KB981349)  
 (Hoch)  
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=72c3013b-f72f-422b-8a89-2246dea4b378)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=72c3013b-f72f-422b-8a89-2246dea4b378)  
 (KB981332)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=644ff070-237b-4a73-b2e2-9fffdafa3927)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=644ff070-237b-4a73-b2e2-9fffdafa3927)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=19cfddfe-e8da-4564-9730-babfae4a3ebb)  
+[Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=19cfddfe-e8da-4564-9730-babfae4a3ebb)  
 (Mittel)
 </td>
 </tr>
@@ -814,15 +814,15 @@ Nicht anwendbar
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 5.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=06832599-1e9b-4792-8c7b-7b5b3a3d6277)  
+[Authenticode Signature Verification 5.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=06832599-1e9b-4792-8c7b-7b5b3a3d6277)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=811a2b28-655d-4b5d-821e-5a90d556dba3)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=811a2b28-655d-4b5d-821e-5a90d556dba3)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=b2b6d8b1-63cc-459c-b5fa-1355386273c8)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=b2b6d8b1-63cc-459c-b5fa-1355386273c8)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -835,23 +835,23 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=8dcb8be8-fb78-4518-aa7e-f8b17f7dfb86)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=8dcb8be8-fb78-4518-aa7e-f8b17f7dfb86)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=9a8bee82-5f7f-490e-a1eb-481f6d4fc4f5)  
+[VBScript 5.6](https://www.microsoft.com/download/details.aspx?familyid=9a8bee82-5f7f-490e-a1eb-481f6d4fc4f5)  
 (KB981350)  
 (Hoch)  
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=7d542ac6-8a5b-4dd7-8688-2b5feb563636)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=7d542ac6-8a5b-4dd7-8688-2b5feb563636)  
 (KB981349)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=56c8238d-8b04-4aa5-8719-40550cd7325c)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=56c8238d-8b04-4aa5-8719-40550cd7325c)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=916f1b09-e79e-4347-9fbc-c0cf07de397d)  
+[Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=916f1b09-e79e-4347-9fbc-c0cf07de397d)  
 (Mittel)
 </td>
 </tr>
@@ -929,38 +929,38 @@ Keine
 Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a52225a7-6005-4f2b-8291-db20558f23f8)  
+[Authenticode Signature Verification 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a52225a7-6005-4f2b-8291-db20558f23f8)  
 (KB978601  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6145e2b2-36fd-4360-bd5b-2bd11890fc52)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6145e2b2-36fd-4360-bd5b-2bd11890fc52)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=25eeaeb3-c0a3-4a02-9912-acd0342648ba)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=25eeaeb3-c0a3-4a02-9912-acd0342648ba)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3-Codecs](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0e7140bb-42d3-48b3-9f4b-d55b17770de8)  
+[MPEG Layer-3-Codecs](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0e7140bb-42d3-48b3-9f4b-d55b17770de8)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista](http://www.microsoft.com/downloads/details.aspx?familyid=86d7b054-af4f-4d8a-9873-cb5246466374)  
+[Windows Vista](https://www.microsoft.com/download/details.aspx?familyid=86d7b054-af4f-4d8a-9873-cb5246466374)  
 (Hoch)  
-[Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=86d7b054-af4f-4d8a-9873-cb5246466374)  
+[Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=86d7b054-af4f-4d8a-9873-cb5246466374)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=ee5c42c6-16bb-48bf-95c2-c188bb17d04b)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=ee5c42c6-16bb-48bf-95c2-c188bb17d04b)  
 (KB981349)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=f2a37dbf-4a95-4e8d-a474-ecacd9aee690)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=f2a37dbf-4a95-4e8d-a474-ecacd9aee690)  
 (KB981332)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
@@ -968,7 +968,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=196055a6-15d1-4da8-b33d-501e69bf5176)  
+[Windows Vista, Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=196055a6-15d1-4da8-b33d-501e69bf5176)  
 (Mittel)
 </td>
 </tr>
@@ -977,38 +977,38 @@ Nicht anwendbar
 Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=9ba7468c-23a4-4994-9a5a-22e96ef586f3)  
+[Authenticode Signature Verification 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=9ba7468c-23a4-4994-9a5a-22e96ef586f3)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5b7efa82-0feb-413a-9f8e-212e7432cd99)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5b7efa82-0feb-413a-9f8e-212e7432cd99)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=394c1caa-97e4-47a3-9aac-a4a88508bd31)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=394c1caa-97e4-47a3-9aac-a4a88508bd31)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3-Codecs](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b885aef4-3a5d-4c3e-bef6-5efef2965752)  
+[MPEG Layer-3-Codecs](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b885aef4-3a5d-4c3e-bef6-5efef2965752)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=7c84aa24-6331-427a-969c-27f7d39db3d7)  
+[Windows Vista x64 Edition](https://www.microsoft.com/download/details.aspx?familyid=7c84aa24-6331-427a-969c-27f7d39db3d7)  
 (Hoch)  
-[Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7c84aa24-6331-427a-969c-27f7d39db3d7)  
+[Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=7c84aa24-6331-427a-969c-27f7d39db3d7)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=ea5c5e9c-0ecd-47bc-912d-5adc00d1aa21)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=ea5c5e9c-0ecd-47bc-912d-5adc00d1aa21)  
 (KB981349)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=79093796-4ea9-4c6c-92cc-3fd63c5db918)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=79093796-4ea9-4c6c-92cc-3fd63c5db918)  
 (KB981332)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
@@ -1016,7 +1016,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7c1d1622-1b67-438d-aae4-1a3954974a36)  
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7c1d1622-1b67-438d-aae4-1a3954974a36)  
 (Mittel)
 </td>
 </tr>
@@ -1094,45 +1094,45 @@ Keine
 Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=97ffeec8-8b6d-4a30-97b0-4bff2ba5e91d)\*  
+[Authenticode Signature Verification 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=97ffeec8-8b6d-4a30-97b0-4bff2ba5e91d)\*  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f111735b-68b0-4bcc-9dd8-818a5eca3400)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f111735b-68b0-4bcc-9dd8-818a5eca3400)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=51c9c420-4507-4911-a8f5-82331a696882)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=51c9c420-4507-4911-a8f5-82331a696882)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3 Codecs](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8e9c04c9-898f-4ed2-949d-f4343cc0d9f6)\*\*  
+[MPEG Layer-3 Codecs](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8e9c04c9-898f-4ed2-949d-f4343cc0d9f6)\*\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=25e3ce7f-53a0-4049-a65c-011d2143c4c2)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=25e3ce7f-53a0-4049-a65c-011d2143c4c2)\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=dbe89813-0a45-463b-928c-1e58f7bb596a)\*\*  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=dbe89813-0a45-463b-928c-1e58f7bb596a)\*\*  
 (KB981349)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=527d6376-efc9-436b-835b-219d38bb28f0)\*\*  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=527d6376-efc9-436b-835b-219d38bb28f0)\*\*  
 (KB981332)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e29ead69-000a-4982-a25c-f3981eda381a)\*\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e29ead69-000a-4982-a25c-f3981eda381a)\*\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=61ece7bc-e9fa-4ede-ba7d-9e5a4c64b9be)\*  
+[Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=61ece7bc-e9fa-4ede-ba7d-9e5a4c64b9be)\*  
 (Mittel)
 </td>
 </tr>
@@ -1141,45 +1141,45 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=49f9f740-023a-4291-becf-838a1d282321)\*  
+[Authenticode Signature Verification 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=49f9f740-023a-4291-becf-838a1d282321)\*  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=91c08251-0085-44cb-9e9c-9a1a84374caf)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=91c08251-0085-44cb-9e9c-9a1a84374caf)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=61c26a1f-c885-4474-9843-204c41628889)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=61c26a1f-c885-4474-9843-204c41628889)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[MPEG Layer-3 Codecs](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d6f2e1ae-48d3-4d2c-b329-32cff00afee5)\*\*  
+[MPEG Layer-3 Codecs](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d6f2e1ae-48d3-4d2c-b329-32cff00afee5)\*\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8b99e54d-955b-4a06-9a04-b2f4596efd72)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=8b99e54d-955b-4a06-9a04-b2f4596efd72)\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=9db62357-557d-40cd-9826-b7baa6c9de65)\*\*  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=9db62357-557d-40cd-9826-b7baa6c9de65)\*\*  
 (KB981349)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=0c384dbc-21b7-4cbc-b68f-ced971d9b791)\*\*  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=0c384dbc-21b7-4cbc-b68f-ced971d9b791)\*\*  
 (KB981332)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8f922e64-e3a6-46fe-9a81-b2813ea6a330)\*\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8f922e64-e3a6-46fe-9a81-b2813ea6a330)\*\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=72e7c7ea-55ef-457b-a03a-49aa9dea2e84)\*  
+[Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=72e7c7ea-55ef-457b-a03a-49aa9dea2e84)\*  
 (Mittel)
 </td>
 </tr>
@@ -1188,15 +1188,15 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bd60779a-8bb1-4107-a344-9b09a50e96ff)  
+[Authenticode Signature Verification 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bd60779a-8bb1-4107-a344-9b09a50e96ff)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.0](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=eb116688-1d6e-4e20-948e-1d347af5d985)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=eb116688-1d6e-4e20-948e-1d347af5d985)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=bcf8b919-08a9-487f-8dfd-3ca24328c4f3)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=bcf8b919-08a9-487f-8dfd-3ca24328c4f3)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -1209,11 +1209,11 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b1f9746d-61a2-406f-b707-60646bd5b5bb)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b1f9746d-61a2-406f-b707-60646bd5b5bb)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=84c5aaae-9417-42a1-834f-22c1ad46a12f)  
+[VBScript 5.7](https://www.microsoft.com/download/details.aspx?familyid=84c5aaae-9417-42a1-834f-22c1ad46a12f)  
 (KB981349)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
@@ -1221,7 +1221,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8c48302c-a1d6-41bc-ad24-7ce7332d4842)  
+[Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8c48302c-a1d6-41bc-ad24-7ce7332d4842)  
 (Mittel)
 </td>
 </tr>
@@ -1299,15 +1299,15 @@ Keine
 Windows 7 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=8d4a6c65-e171-4570-8f3f-118f06910baf)  
+[Authenticode Signature Verification 6.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=8d4a6c65-e171-4570-8f3f-118f06910baf)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f0dbac52-0f0e-40bc-9371-17fa594424d5)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f0dbac52-0f0e-40bc-9371-17fa594424d5)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=389184c5-9001-497d-bdf4-81f97ecb617f)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=389184c5-9001-497d-bdf4-81f97ecb617f)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -1320,11 +1320,11 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=ff58d80c-33ce-4d9e-aaa5-0b1841458931)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=ff58d80c-33ce-4d9e-aaa5-0b1841458931)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=c3f76835-0053-4e53-a451-14255e7a4fc0)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=c3f76835-0053-4e53-a451-14255e7a4fc0)  
 (KB981332)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
@@ -1340,15 +1340,15 @@ Nicht anwendbar
 Windows 7 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=cf8c6721-05c2-4680-93b4-be36f09c6d15)  
+[Authenticode Signature Verification 6.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=cf8c6721-05c2-4680-93b4-be36f09c6d15)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b23efe7d-bca4-4d49-9104-6ae39dc5daa9)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b23efe7d-bca4-4d49-9104-6ae39dc5daa9)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=f3495dae-71f3-421d-a191-d26965f26ad1)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=f3495dae-71f3-421d-a191-d26965f26ad1)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -1361,11 +1361,11 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=7f1dc055-2ec9-407a-9e69-da12338587e3)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=7f1dc055-2ec9-407a-9e69-da12338587e3)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=998164b7-4b8c-468b-8d39-f242633c8838)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=998164b7-4b8c-468b-8d39-f242633c8838)  
 (KB981332)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
@@ -1450,15 +1450,15 @@ Keine
 Windows Server 2008 R2 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=94dfdaae-8464-4de6-a401-7eb70b3bb34f)\*  
+[Authenticode Signature Verification 6.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=94dfdaae-8464-4de6-a401-7eb70b3bb34f)\*  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=a2979c02-2a80-4b84-bf6c-4798064bdf28)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=a2979c02-2a80-4b84-bf6c-4798064bdf28)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=cd1a046e-915d-4904-b753-5a24be10c504)\*  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=cd1a046e-915d-4904-b753-5a24be10c504)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -1471,16 +1471,16 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=28389c1d-2a12-4bef-a59b-726bb6449c8b)\*  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=28389c1d-2a12-4bef-a59b-726bb6449c8b)\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=c4039d40-a0c7-4183-ab50-04f690d1c5dc)\*\*  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=c4039d40-a0c7-4183-ab50-04f690d1c5dc)\*\*  
 (KB981332)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=eb27cd2b-d514-4405-8650-259a42e35155)\*\*  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=eb27cd2b-d514-4405-8650-259a42e35155)\*\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -1492,15 +1492,15 @@ Nicht anwendbar
 Windows Server 2008 R2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Authenticode Signature Verification 6.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=40f622d2-48e7-4eb2-9430-bbd218cb5208)  
+[Authenticode Signature Verification 6.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=40f622d2-48e7-4eb2-9430-bbd218cb5208)  
 (KB978601)  
 (Kritisch)  
-[Shellerweiterung von Kabinettdatei-Viewer 6.1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5e416d4b-5de7-4688-80c6-245de159e0ce)  
+[Shellerweiterung von Kabinettdatei-Viewer 6.1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5e416d4b-5de7-4688-80c6-245de159e0ce)  
 (KB979309)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=541e9e2f-ec1d-42b2-aae5-481c0d435169)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=541e9e2f-ec1d-42b2-aae5-481c0d435169)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
@@ -1513,11 +1513,11 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=d4ea3984-5183-47f1-814e-29cb6c90ae06)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=d4ea3984-5183-47f1-814e-29cb6c90ae06)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=8174463c-5c5e-4095-90c8-fd1e898d4ba5)  
+[VBScript 5.8](https://www.microsoft.com/download/details.aspx?familyid=8174463c-5c5e-4095-90c8-fd1e898d4ba5)  
 (KB981332)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)
 </td>
@@ -1590,12 +1590,12 @@ Microsoft Office Suites, Systeme und Komponenten
 Microsoft Office XP
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Publisher 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=943b3830-70d5-46c5-bffc-1b494434b5f7)  
+[Microsoft Office Publisher 2002 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=943b3830-70d5-46c5-bffc-1b494434b5f7)  
 (KB980466)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Visio 2002 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=2d563cbc-d8f7-486b-8c54-25d168085376)  
+[Microsoft Office Visio 2002 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=2d563cbc-d8f7-486b-8c54-25d168085376)  
 (KB979364)  
 (Hoch)
 </td>
@@ -1605,12 +1605,12 @@ Microsoft Office XP
 Microsoft Office 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Publisher 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=7c2f4610-77bb-4d72-847b-1a06c523b137)  
+[Microsoft Office Publisher 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=7c2f4610-77bb-4d72-847b-1a06c523b137)  
 (KB980469)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Visio 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=803a7ea0-a9da-46dd-9548-0177d3774be7)  
+[Microsoft Office Visio 2003 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=803a7ea0-a9da-46dd-9548-0177d3774be7)  
 (KB979356)
 </td>
 </tr>
@@ -1619,12 +1619,12 @@ Microsoft Office 2003
 Microsoft Office System 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Publisher 2007 Service Pack 1 und Microsoft Office Publisher 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=10ca2f71-0ab2-4344-b7fd-bbbd6a783a96)  
+[Microsoft Office Publisher 2007 Service Pack 1 und Microsoft Office Publisher 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=10ca2f71-0ab2-4344-b7fd-bbbd6a783a96)  
 (KB980470)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Visio 2007 Service Pack 1 und Microsoft Office Visio 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=56fe020f-4444-4a43-aa98-e99a622f6a69)  
+[Microsoft Office Visio 2007 Service Pack 1 und Microsoft Office Visio 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=56fe020f-4444-4a43-aa98-e99a622f6a69)  
 (KB979365)  
 (Hoch)
 </td>
@@ -1668,7 +1668,7 @@ Microsoft Exchange Server
 Microsoft Exchange Server 2000
 </td>
 <td style="border:1px solid black;">
-[Microsoft Exchange Server 2000 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e47c90a0-c9c8-43b7-bec7-34107ddde294)  
+[Microsoft Exchange Server 2000 Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e47c90a0-c9c8-43b7-bec7-34107ddde294)  
 (KB976703)  
 (Mittel)
 </td>
@@ -1678,7 +1678,7 @@ Microsoft Exchange Server 2000
 Microsoft Exchange Server 2003
 </td>
 <td style="border:1px solid black;">
-[Microsoft Exchange Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bc8391f8-5335-496b-ad4c-bae38509be4a)  
+[Microsoft Exchange Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bc8391f8-5335-496b-ad4c-bae38509be4a)  
 (KB976702)  
 (Hoch)
 </td>
@@ -1688,10 +1688,10 @@ Microsoft Exchange Server 2003
 Microsoft Exchange Server 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Exchange Server 2007 Service Pack 1 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6a894b4e-12b6-4a91-9555-d813956b6aac)  
+[Microsoft Exchange Server 2007 Service Pack 1 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6a894b4e-12b6-4a91-9555-d813956b6aac)  
 (KB981407)  
 (Keine Bewertung des Schweregrads<sup>[1]</sup>)  
-[Microsoft Exchange Server 2007 Service Pack 2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b8f7f872-16d5-49d6-9867-adc01351c06f)  
+[Microsoft Exchange Server 2007 Service Pack 2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b8f7f872-16d5-49d6-9867-adc01351c06f)  
 (KB981383)  
 (Keine Bewertung des Schweregrads<sup>[1]</sup>)
 </td>
@@ -1701,7 +1701,7 @@ Microsoft Exchange Server 2007
 Microsoft Exchange Server 2010
 </td>
 <td style="border:1px solid black;">
-[Microsoft Exchange Server 2010 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=7dcf2390-dff7-4e3a-acca-03f4d43fb79a)  
+[Microsoft Exchange Server 2010 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=7dcf2390-dff7-4e3a-acca-03f4d43fb79a)  
 (KB981401)  
 (Keine Bewertung des Schweregrads<sup>[1]</sup>)
 </td>
@@ -1749,7 +1749,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

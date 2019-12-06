@@ -183,7 +183,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=8c7c21c5-677d-4a5d-8f2b-8ca7691b6b00)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?familyid=8c7c21c5-677d-4a5d-8f2b-8ca7691b6b00)  
 (KB2616310)  
 (Hoch)
 </td>
@@ -202,7 +202,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=989cca2d-cce1-4f52-b50e-43152693f240)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?familyid=989cca2d-cce1-4f52-b50e-43152693f240)  
 (KB2616310)  
 (Hoch)
 </td>
@@ -260,10 +260,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=08b27ce7-c32e-41e4-ad04-481c5eab17a7)  
+[Active Directory](https://www.microsoft.com/download/details.aspx?familyid=08b27ce7-c32e-41e4-ad04-481c5eab17a7)  
 (KB2601626)  
 (Hoch)  
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=f116824e-ea48-422d-b284-c9ffa7604bf5)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?familyid=f116824e-ea48-422d-b284-c9ffa7604bf5)  
 (KB2616310)  
 (Hoch)
 </td>
@@ -282,10 +282,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=de5a74f2-2cc8-4677-b495-3a40fe3d6b9e)  
+[Active Directory](https://www.microsoft.com/download/details.aspx?familyid=de5a74f2-2cc8-4677-b495-3a40fe3d6b9e)  
 (KB2601626)  
 (Hoch)  
-[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=1af1b734-62c7-4e08-91c8-90b6d026da84)  
+[Active Directory Application Mode (ADAM)](https://www.microsoft.com/download/details.aspx?familyid=1af1b734-62c7-4e08-91c8-90b6d026da84)  
 (KB2616310)  
 (Hoch)
 </td>
@@ -304,7 +304,7 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=6168bc67-3d59-450f-bd8a-02d61dabe16b)  
+[Active Directory](https://www.microsoft.com/download/details.aspx?familyid=6168bc67-3d59-450f-bd8a-02d61dabe16b)  
 (KB2601626)  
 (Hoch)
 </td>
@@ -356,15 +356,15 @@ Keine
 Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=fc3fe87c-2493-431d-a904-dec9310f6042)  
+[Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=fc3fe87c-2493-431d-a904-dec9310f6042)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e08266d8-fffa-40bf-b8f6-10a65ee27524)  
+[Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=e08266d8-fffa-40bf-b8f6-10a65ee27524)  
 (Hoch)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=2bd602cf-ae0d-4790-a5d0-6133fd7d01a0)  
+[Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?familyid=2bd602cf-ae0d-4790-a5d0-6133fd7d01a0)  
 (KB2601626)  
 (Hoch)
 </td>
@@ -377,15 +377,15 @@ Nicht anwendbar
 Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=042c1a8f-834d-4eed-8a59-9e030ccc6d39)  
+[Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=042c1a8f-834d-4eed-8a59-9e030ccc6d39)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4f2365ed-d50e-44d9-b859-1ec54d3b4d38)  
+[Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=4f2365ed-d50e-44d9-b859-1ec54d3b4d38)  
 (Hoch)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=783521ad-5c50-4194-a582-4e5a1c9999e7)  
+[Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?familyid=783521ad-5c50-4194-a582-4e5a1c9999e7)  
 (KB2601626)  
 (Hoch)
 </td>
@@ -437,15 +437,15 @@ Keine
 Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=79382bf2-d2cb-42ea-92dc-64f949353521)\*  
+[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=79382bf2-d2cb-42ea-92dc-64f949353521)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f82dc413-668c-4ca8-a8c8-db74f05346bc)\*\*  
+[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=f82dc413-668c-4ca8-a8c8-db74f05346bc)\*\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=b5688923-3914-4f6c-8bc9-036fb4870cc6)\*  
+[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?familyid=b5688923-3914-4f6c-8bc9-036fb4870cc6)\*  
 (KB2601626)  
 (Hoch)
 </td>
@@ -458,15 +458,15 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=71ff3a89-d7ad-4dda-9e59-fab54b21bd5d)\*  
+[Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=71ff3a89-d7ad-4dda-9e59-fab54b21bd5d)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=06ad5637-56a1-4478-aaa0-063e877503c9)\*\*  
+[Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=06ad5637-56a1-4478-aaa0-063e877503c9)\*\*  
 (Mittel)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=51f47181-08f6-4de1-80e5-253355675965)\*  
+[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?familyid=51f47181-08f6-4de1-80e5-253355675965)\*  
 (KB2601626)  
 (Hoch)
 </td>
@@ -479,11 +479,11 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b1c0cb05-c284-49b1-ae4f-92813fdf520f)  
+[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b1c0cb05-c284-49b1-ae4f-92813fdf520f)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=2de5de74-e643-4045-9c22-ff95b0dbcafc)  
+[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=2de5de74-e643-4045-9c22-ff95b0dbcafc)  
 (Mittel)
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -537,20 +537,20 @@ Windows 7
 Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=4ddb4c2a-bada-49b0-ad78-e07e7e11ced7)  
+[Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=4ddb4c2a-bada-49b0-ad78-e07e7e11ced7)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=2307fa93-8e45-4841-a5a9-7e89960712f9)  
+[Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=2307fa93-8e45-4841-a5a9-7e89960712f9)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=b06f9f55-e3b2-4705-83d0-1b9f5de9d378)  
+[Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?familyid=b06f9f55-e3b2-4705-83d0-1b9f5de9d378)  
 (KB2601626)  
 (Hoch)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=156c1bd9-55bc-482c-874b-61998d1ef153)  
+[Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=156c1bd9-55bc-482c-874b-61998d1ef153)  
 (Mittel)
 </td>
 </tr>
@@ -559,20 +559,20 @@ Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1
 Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=05eef5d7-acf6-46e4-abfc-dc83f0a7cae5)  
+[Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=05eef5d7-acf6-46e4-abfc-dc83f0a7cae5)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=62603d18-1b21-400c-8eba-202193182960)  
+[Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=62603d18-1b21-400c-8eba-202193182960)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=790f1d99-96a5-438d-b433-895b692912ce)  
+[Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?familyid=790f1d99-96a5-438d-b433-895b692912ce)  
 (KB2601626)  
 (Hoch)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5c7db930-5495-43f0-928c-d586ac9e80d0)  
+[Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5c7db930-5495-43f0-928c-d586ac9e80d0)  
 (Mittel)
 </td>
 </tr>
@@ -620,20 +620,20 @@ Windows Server 2008 R2
 Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3f9f74a6-e984-4aab-837c-ef7286e7305f)\*  
+[Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=3f9f74a6-e984-4aab-837c-ef7286e7305f)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=c9cf6a22-f9ab-427a-9b16-33c60baaabb5)\*\*  
+[Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=c9cf6a22-f9ab-427a-9b16-33c60baaabb5)\*\*  
 (Niedrig)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=cc1e99af-fc67-400b-a82c-171f8c4d1ac9)\*  
+[Active Directory und Active Directory Lightweight Directory Service (AD LDS)](https://www.microsoft.com/download/details.aspx?familyid=cc1e99af-fc67-400b-a82c-171f8c4d1ac9)\*  
 (KB2601626)  
 (Hoch)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5d810dae-5c52-4155-b5c2-163d27be6e78)\*\*\*  
+[Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5d810dae-5c52-4155-b5c2-163d27be6e78)\*\*\*  
 (Mittel)
 </td>
 </tr>
@@ -642,18 +642,18 @@ Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für
 Windows Server 2008 R2 für Itanium-basierte Systeme und Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme und Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b20bfcbd-a515-4074-b56e-b82539fe5bad)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme und Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b20bfcbd-a515-4074-b56e-b82539fe5bad)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme und Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=012777f5-51f2-4944-91af-a9c79b8081a1)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme und Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=012777f5-51f2-4944-91af-a9c79b8081a1)  
 (Niedrig)
 </td>
 <td style="border:1px solid black;" colspan="2">
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;" colspan="2">
-[Windows Server 2008 R2 für Itanium-basierte Systeme und Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=395819e2-1028-44b7-ace4-ca754b1a7543)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme und Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=395819e2-1028-44b7-ace4-ca754b1a7543)  
 (Mittel)
 </td>
 </tr>
@@ -712,7 +712,7 @@ Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheit
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

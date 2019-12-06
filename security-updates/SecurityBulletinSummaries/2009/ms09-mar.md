@@ -162,18 +162,18 @@ Microsoft Windows 2000
 Microsoft Windows 2000 Service Pack 4
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=98bb7d40-89a0-470a-8eb7-06f15072a635)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=98bb7d40-89a0-470a-8eb7-06f15072a635)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bf7065bc-c183-4a78-8d46-72fe7385c07c)  
+[Microsoft Windows 2000 Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bf7065bc-c183-4a78-8d46-72fe7385c07c)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[DNS-Server unter Microsoft Windows 2000 Server Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=110354f7-5ece-4c4d-b563-3adba6ac0116)  
+[DNS-Server unter Microsoft Windows 2000 Server Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=110354f7-5ece-4c4d-b563-3adba6ac0116)  
 (961063)  
 (Hoch)  
-[WINS-Server unter Microsoft Windows 2000 Server Service Pack 4](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4319abb3-1ea2-466a-a815-c0b3b86b4462)  
+[WINS-Server unter Microsoft Windows 2000 Server Service Pack 4](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4319abb3-1ea2-466a-a815-c0b3b86b4462)  
 (961064)  
 (Hoch)
 </td>
@@ -216,11 +216,11 @@ Keine
 Windows XP Service Pack 2 und Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=e09641ba-6cbe-4095-82b5-703d3a7dc33b)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=e09641ba-6cbe-4095-82b5-703d3a7dc33b)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 2 und Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=942d87f6-3cb1-4d36-a70a-70d9c34488f3)  
+[Windows XP Service Pack 2 und Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=942d87f6-3cb1-4d36-a70a-70d9c34488f3)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -232,11 +232,11 @@ Nicht anwendbar
 Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d0d704c6-48c2-4907-b6c3-2455d7cf21c8)  
+[Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=d0d704c6-48c2-4907-b6c3-2455d7cf21c8)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=6d02306e-9e2e-4ae8-bd21-8a2c1a229472)  
+[Windows XP Professional x64 Edition und Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=6d02306e-9e2e-4ae8-bd21-8a2c1a229472)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -281,18 +281,18 @@ Windows Server 2003
 Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=f5cfb8da-e7cc-4183-8631-507c2a406500)  
+[Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=f5cfb8da-e7cc-4183-8631-507c2a406500)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0b3f6fdd-276e-4267-99d8-8f00d91ad6a2)  
+[Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0b3f6fdd-276e-4267-99d8-8f00d91ad6a2)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[DNS-Server unter Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=6cc42c9e-c34e-4577-8b23-9e07e2369878)  
+[DNS-Server unter Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=6cc42c9e-c34e-4577-8b23-9e07e2369878)  
 (961063)  
 (Hoch)  
-[WINS-Server unter Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=049e5db5-7315-4188-99fd-4a54833e6bf2)  
+[WINS-Server unter Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=049e5db5-7315-4188-99fd-4a54833e6bf2)  
 (961064)  
 (Hoch)
 </td>
@@ -302,18 +302,18 @@ Windows Server 2003 Service Pack 1 und Windows Server 2003 Service Pack 2
 Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ecf75c70-8489-41ad-9759-3a07e13957be)  
+[Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ecf75c70-8489-41ad-9759-3a07e13957be)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ce98ff55-f565-469d-bbd2-32b681faf908)  
+[Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ce98ff55-f565-469d-bbd2-32b681faf908)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[DNS-Server unter Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=b1f81fd2-0099-4450-8543-0459561d22d0)  
+[DNS-Server unter Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=b1f81fd2-0099-4450-8543-0459561d22d0)  
 (961063)  
 (Hoch)  
-[WINS-Server unter Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4a393c63-eff5-4c8c-9c3f-33ce45c32428)  
+[WINS-Server unter Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4a393c63-eff5-4c8c-9c3f-33ce45c32428)  
 (961064)  
 (Hoch)
 </td>
@@ -323,18 +323,18 @@ Windows Server 2003 x64 Edition und Windows Server 2003 x64 Edition Service 
 Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=04be3d7e-7dda-4dca-887a-e7a8156ede1c)  
+[Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=04be3d7e-7dda-4dca-887a-e7a8156ede1c)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5ca3c72c-cadb-4b0a-b3a3-fb81d0bfd7b3)  
+[Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5ca3c72c-cadb-4b0a-b3a3-fb81d0bfd7b3)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[DNS-Server unter Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=d3ed7d9a-d652-4bd0-aecc-5a415bec6c59)  
+[DNS-Server unter Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=d3ed7d9a-d652-4bd0-aecc-5a415bec6c59)  
 (961063)  
 (Hoch)  
-[WINS-Server unter Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=37e3a75e-0a5d-4df0-881f-cdb87efa4dcf)  
+[WINS-Server unter Windows Server 2003 mit SP1 für Itanium-basierte Systeme und Windows Server 2003 mit SP2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=37e3a75e-0a5d-4df0-881f-cdb87efa4dcf)  
 (961064)  
 (Hoch)
 </td>
@@ -377,11 +377,11 @@ Keine
 Windows Vista und Windows Vista Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Vista und Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=4b1aaaba-f355-4265-83c0-50b901856ced)  
+[Windows Vista und Windows Vista Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=4b1aaaba-f355-4265-83c0-50b901856ced)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista und Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=21086a04-402a-4940-8358-7fa63508102b)  
+[Windows Vista und Windows Vista Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=21086a04-402a-4940-8358-7fa63508102b)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -393,11 +393,11 @@ Nicht anwendbar
 Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=0fcac480-d6db-4a94-8c7d-b7319282cf56)  
+[Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=0fcac480-d6db-4a94-8c7d-b7319282cf56)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=c75a2ea9-b42f-457b-be09-5c8fa0339388)  
+[Windows Vista x64 Edition und Windows Vista x64 Edition Service Pack 1](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=c75a2ea9-b42f-457b-be09-5c8fa0339388)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -442,15 +442,15 @@ Windows Server 2008
 Windows Server 2008 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=38851df2-4fb5-4d28-9d15-181c260cf8cf)\*  
+[Windows Server 2008 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=38851df2-4fb5-4d28-9d15-181c260cf8cf)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=47b361ce-624b-466c-b5c5-8703f6532615)\*  
+[Windows Server 2008 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=47b361ce-624b-466c-b5c5-8703f6532615)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[DNS-Server unter Windows Server 2008 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=92e89882-d656-4b61-a05c-3afb44895f08)\*  
+[DNS-Server unter Windows Server 2008 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=92e89882-d656-4b61-a05c-3afb44895f08)\*  
 (961063)  
 (Hoch)
 </td>
@@ -460,15 +460,15 @@ Windows Server 2008 für 32-Bit-Systeme
 Windows Server 2008 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=ec15acc4-3e0f-4414-9383-61c122ff1382)\*  
+[Windows Server 2008 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=ec15acc4-3e0f-4414-9383-61c122ff1382)\*  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=5c81ac45-60e6-4121-ab6b-d3b3179aacc4)\*  
+[Windows Server 2008 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=5c81ac45-60e6-4121-ab6b-d3b3179aacc4)\*  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[DNS-Server unter Windows Server 2008 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=be068d06-5939-4ad8-8191-e85931ed610f)\*  
+[DNS-Server unter Windows Server 2008 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=be068d06-5939-4ad8-8191-e85931ed610f)\*  
 (961063)  
 (Hoch)
 </td>
@@ -478,11 +478,11 @@ Windows Server 2008 für x64-basierte Systeme
 Windows Server 2008 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=eead6f93-10fd-4492-8137-481d9876a5fe)  
+[Windows Server 2008 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=eead6f93-10fd-4492-8137-481d9876a5fe)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=bf8f5a86-1757-4f9b-b632-d4aa7005a9f8)  
+[Windows Server 2008 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=bf8f5a86-1757-4f9b-b632-d4aa7005a9f8)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
@@ -528,7 +528,7 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true), die im [Anwendungskompatibilitäts-Toolkit 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true), die im [Anwendungskompatibilitäts-Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Anwendungskompatibilitäts-Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

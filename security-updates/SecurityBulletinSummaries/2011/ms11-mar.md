@@ -150,21 +150,21 @@ Windows XP
 Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=d8284bfa-ed6c-4647-9fb0-588e53173775)  
+[Windows XP Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=d8284bfa-ed6c-4647-9fb0-588e53173775)  
 (KB2479943)  
 (Kritisch)  
-[Windows XP Media Center Edition 2005 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=b1be30de-7e88-467d-aee2-68f88e6a7355)  
+[Windows XP Media Center Edition 2005 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=b1be30de-7e88-467d-aee2-68f88e6a7355)  
 (KB2502898)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 5.2](http://www.microsoft.com/downloads/details.aspx?familyid=1aed6080-feab-4b5e-9d26-6a3f4b92434d)  
+[Remotedesktopverbindungs-Client 5.2](https://www.microsoft.com/download/details.aspx?familyid=1aed6080-feab-4b5e-9d26-6a3f4b92434d)  
 (KB2483618)  
 (Hoch)  
-[Remotedesktopverbindungs-Client 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=d67e4d8c-aeb9-45e6-9555-7456c5540475)  
+[Remotedesktopverbindungs-Client 6.1](https://www.microsoft.com/download/details.aspx?familyid=d67e4d8c-aeb9-45e6-9555-7456c5540475)  
 (KB2481109)  
 (Hoch)  
-[Remotedesktopverbindungs-Client 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=6a01992e-c9a1-4dc9-a3ef-7410b81f17e6)  
+[Remotedesktopverbindungs-Client 7.0](https://www.microsoft.com/download/details.aspx?familyid=6a01992e-c9a1-4dc9-a3ef-7410b81f17e6)  
 (KB2483614)  
 (Hoch)
 </td>
@@ -174,12 +174,12 @@ Windows XP Service Pack 3
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5270b5d3-3720-42a2-a8cf-67089c0cc658)  
+[Windows XP Professional x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=5270b5d3-3720-42a2-a8cf-67089c0cc658)  
 (KB2479943)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=6d4539ef-4a05-4c7d-9489-436f7b7a3ebe)<sup>[1]</sup>
+[Remotedesktopverbindungs-Client 6.0](https://www.microsoft.com/download/details.aspx?familyid=6d4539ef-4a05-4c7d-9489-436f7b7a3ebe)<sup>[1]</sup>
 (KB2481109)  
 (Hoch)
 </td>
@@ -219,10 +219,10 @@ Windows Server 2003 Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=641d5d12-0790-4551-831a-e78febad17a7)<sup>[1]</sup>
+[Remotedesktopverbindungs-Client 6.0](https://www.microsoft.com/download/details.aspx?familyid=641d5d12-0790-4551-831a-e78febad17a7)<sup>[1]</sup>
 (KB2481109)  
 (Hoch)  
-[Mehrsprachige Benutzeroberfläche (MUI) des Remotedesktopverbindungs-Clients 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=6fec0d06-042d-4e55-9843-009edd7d26ce)<sup>[2]</sup>
+[Mehrsprachige Benutzeroberfläche (MUI) des Remotedesktopverbindungs-Clients 6.0](https://www.microsoft.com/download/details.aspx?familyid=6fec0d06-042d-4e55-9843-009edd7d26ce)<sup>[2]</sup>
 (KB2483619)  
 (Hoch)
 </td>
@@ -235,7 +235,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=78dbb9cf-8a18-4f0a-8edf-f1ce0c993c63)<sup>[1]</sup>
+[Remotedesktopverbindungs-Client 6.0](https://www.microsoft.com/download/details.aspx?familyid=78dbb9cf-8a18-4f0a-8edf-f1ce0c993c63)<sup>[1]</sup>
 (KB2481109)  
 (Hoch)
 </td>
@@ -272,18 +272,18 @@ Windows Vista
 Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista Service Pack 1 und Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f9f1dde2-2219-4bf1-a497-edd011577b96)<sup>[1]</sup>
+[Windows Vista Service Pack 1 und Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=f9f1dde2-2219-4bf1-a497-edd011577b96)<sup>[1]</sup>
 (KB2479943)  
 (Kritisch)  
-[Windows Media Center TV Pack für Windows Vista (32-Bit-Editionen](http://www.microsoft.com/downloads/details.aspx?familyid=1bc240b3-1938-4350-b26f-67b81a79f8a0))<sup>[2]</sup>
+[Windows Media Center TV Pack für Windows Vista (32-Bit-Editionen](https://www.microsoft.com/download/details.aspx?familyid=1bc240b3-1938-4350-b26f-67b81a79f8a0))<sup>[2]</sup>
 (KB2494132)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=e3ea7690-386b-4cdf-889f-b3914921c56f)  
+[Remotedesktopverbindungs-Client 6.1](https://www.microsoft.com/download/details.aspx?familyid=e3ea7690-386b-4cdf-889f-b3914921c56f)  
 (KB2481109)  
 (Hoch)  
-[Remotedesktopverbindungs-Client 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=3c30f67e-7c31-4553-ba3e-e056df1bf8eb)  
+[Remotedesktopverbindungs-Client 7.0](https://www.microsoft.com/download/details.aspx?familyid=3c30f67e-7c31-4553-ba3e-e056df1bf8eb)  
 (KB2483614)  
 (Hoch)
 </td>
@@ -293,18 +293,18 @@ Windows Vista Service Pack 1 und Windows Vista Service Pack 2
 Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e11d00df-d1cf-4a33-a1be-6721cdff5995)<sup>[1]</sup>
+[Windows Vista x64 Edition Service Pack 1 und Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=e11d00df-d1cf-4a33-a1be-6721cdff5995)<sup>[1]</sup>
 (KB2479943)  
 (Kritisch)  
-[Windows Media Center TV Pack für Windows Vista (64-Bit-Editionen](http://www.microsoft.com/downloads/details.aspx?familyid=cd4c5a80-db24-4696-a248-1286c3b9f550))<sup>[2]</sup>
+[Windows Media Center TV Pack für Windows Vista (64-Bit-Editionen](https://www.microsoft.com/download/details.aspx?familyid=cd4c5a80-db24-4696-a248-1286c3b9f550))<sup>[2]</sup>
 (KB2494132)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=5735bed6-0e3d-46a4-85d0-14ec34a82edd)  
+[Remotedesktopverbindungs-Client 6.1](https://www.microsoft.com/download/details.aspx?familyid=5735bed6-0e3d-46a4-85d0-14ec34a82edd)  
 (KB2481109)  
 (Hoch)  
-[Remotedesktopverbindungs-Client 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=8025482b-f58f-4f5a-a133-5563c65b21f6)  
+[Remotedesktopverbindungs-Client 7.0](https://www.microsoft.com/download/details.aspx?familyid=8025482b-f58f-4f5a-a133-5563c65b21f6)  
 (KB2483614)  
 (Hoch)
 </td>
@@ -344,7 +344,7 @@ Windows Server 2008 für 32-Bit-Systeme und Windows Server 2008 für 32-Bit-Syst
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=31d790c9-92f9-4a2b-800b-8e8d2b570bb9)\*\*  
+[Remotedesktopverbindungs-Client 6.1](https://www.microsoft.com/download/details.aspx?familyid=31d790c9-92f9-4a2b-800b-8e8d2b570bb9)\*\*  
 (KB2481109)  
 (Hoch)
 </td>
@@ -357,7 +357,7 @@ Windows Server 2008 für x64-basierte Systeme und Windows Server 2008 für x64-b
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=5b0a8eb5-4bc2-4054-b952-58aa645afcf5)\*\*  
+[Remotedesktopverbindungs-Client 6.1](https://www.microsoft.com/download/details.aspx?familyid=5b0a8eb5-4bc2-4054-b952-58aa645afcf5)\*\*  
 (KB2481109)  
 (Hoch)
 </td>
@@ -370,7 +370,7 @@ Windows Server 2008 für Itanium-basierte Systeme und Windows Server 2008 für I
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Client 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=25da7e00-745d-4d98-9dd8-52a8a4340404)  
+[Remotedesktopverbindungs-Client 6.1](https://www.microsoft.com/download/details.aspx?familyid=25da7e00-745d-4d98-9dd8-52a8a4340404)  
 (KB2481109)  
 (Hoch)
 </td>
@@ -407,13 +407,13 @@ Windows 7
 Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1be77daa-29b1-4dae-a87f-2cb8f7e6a305)  
+[Windows 7 für 32-Bit Systeme und Windows 7 für 32-Bit Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=1be77daa-29b1-4dae-a87f-2cb8f7e6a305)  
 (KB2479943)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nur Windows 7 für 32-Bit-Systeme:  
-[Remotedesktopverbindungs-Client 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=0768a5f4-da28-4b2e-8aff-d68f890df3e6)  
+[Remotedesktopverbindungs-Client 7.0](https://www.microsoft.com/download/details.aspx?familyid=0768a5f4-da28-4b2e-8aff-d68f890df3e6)  
 (KB2483614)  
 (Hoch)
 </td>
@@ -423,13 +423,13 @@ Nur Windows 7 für 32-Bit-Systeme:
 Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=56fb24ce-65c7-4573-b613-e424ccc1a3a6)  
+[Windows 7 für x64-basierte Systeme und Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=56fb24ce-65c7-4573-b613-e424ccc1a3a6)  
 (KB2479943)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
 Nur Windows 7 für x64-basierte Systeme:  
-[Remotedesktopverbindungs-Client 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=935adb10-1e7e-4501-b543-8247b88f6d18)  
+[Remotedesktopverbindungs-Client 7.0](https://www.microsoft.com/download/details.aspx?familyid=935adb10-1e7e-4501-b543-8247b88f6d18)  
 (KB2483614)  
 (Hoch)
 </td>
@@ -466,13 +466,13 @@ Windows Server 2008 R2
 Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=6f45658a-1db8-4ef5-b840-4d0180d4d90e)\*\*  
+[Windows Server 2008 R2 für x64-basierte Systeme und Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=6f45658a-1db8-4ef5-b840-4d0180d4d90e)\*\*  
 (KB2479943)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
 Nur Windows Server 2008 R2 für x64-basierte Systeme:  
-[Remotedesktopverbindungs-Client 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=3fcb2e11-591e-484a-a992-2f1d563e6d17)\*\*  
+[Remotedesktopverbindungs-Client 7.0](https://www.microsoft.com/download/details.aspx?familyid=3fcb2e11-591e-484a-a992-2f1d563e6d17)\*\*  
 (KB2483614)  
 (Hoch)
 </td>
@@ -485,7 +485,7 @@ Windows Server 2008 R2 für Itanium-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Remotedesktopverbindungs-Clients 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=c29b6487-78f0-421c-810c-c5e45d6a2352)  
+[Remotedesktopverbindungs-Clients 7.0](https://www.microsoft.com/download/details.aspx?familyid=c29b6487-78f0-421c-810c-c5e45d6a2352)  
 (KB2483614)  
 (Hoch)
 </td>
@@ -544,7 +544,7 @@ Microsoft Office-Programme
 Microsoft Groove 2007
 </td>
 <td style="border:1px solid black;">
-[Microsoft Groove 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3981ab53-1082-4155-9000-11d8a976ff33)  
+[Microsoft Groove 2007 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3981ab53-1082-4155-9000-11d8a976ff33)  
 (KB2494047)  
 (Hoch)
 </td>
@@ -597,7 +597,7 @@ Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheit
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

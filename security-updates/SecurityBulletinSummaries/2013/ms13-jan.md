@@ -353,13 +353,13 @@ Windows XP
 Windows XP Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=20d8d873-a709-4834-a956-f3d9d82dbb73)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=20d8d873-a709-4834-a956-f3d9d82dbb73)  
 (KB2799329)  
 (Kritisch)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=dcdcf814-e39d-4515-bc5d-12e11f214d08)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=dcdcf814-e39d-4515-bc5d-12e11f214d08)  
 (KB2799329)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=4e0d584a-c684-408c-bc47-6bd4ecaa9b8a)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=4e0d584a-c684-408c-bc47-6bd4ecaa9b8a)  
 (KB2799329)  
 (Kritisch)
 </td>
@@ -367,28 +367,28 @@ Windows XP Service Pack 3
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=137cc5ee-abf0-4a10-b1c4-d464331cbcfd)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=137cc5ee-abf0-4a10-b1c4-d464331cbcfd)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.0 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=155a2984-2cd9-40a4-abaa-c1ea21e76062)  
+[Microsoft .NET Framework 1.0 Service Pack 3](https://www.microsoft.com/download/details.aspx?familyid=155a2984-2cd9-40a4-abaa-c1ea21e76062)  
 (KB2742607)  
 (nur Media Center Edition 2005 Service Pack 3 und Tablet PC Edition 2005 Service Pack 3)  
 (Hoch)  
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
 (KB2742596)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=20d07bcd-95cc-44a2-8e3e-f88b22682e21)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=20d07bcd-95cc-44a2-8e3e-f88b22682e21)  
 (KB2756918)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
@@ -399,10 +399,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -412,13 +412,13 @@ Nicht anwendbar
 Windows XP Professional x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=f35f2ea5-d60e-405a-9ed3-248e0d733c2b)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=f35f2ea5-d60e-405a-9ed3-248e0d733c2b)  
 (KB2799329)  
 (Kritisch)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=36c9d6a9-d939-4e19-b9f5-576fee048764)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=36c9d6a9-d939-4e19-b9f5-576fee048764)  
 (KB2799329)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=396f26bd-8c8b-459d-9467-6ec17a11c9d4)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=396f26bd-8c8b-459d-9467-6ec17a11c9d4)  
 (KB2799329)  
 (Kritisch)
 </td>
@@ -426,27 +426,27 @@ Windows XP Professional x64 Edition Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=d147f865-6a56-4db2-8d78-14f2bee6da18)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=d147f865-6a56-4db2-8d78-14f2bee6da18)  
 (KB2757638)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=0b13a83c-1e51-4604-a09d-afb2e25646f9)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=0b13a83c-1e51-4604-a09d-afb2e25646f9)  
 (KB2758696)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
 (KB2742596)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=20d07bcd-95cc-44a2-8e3e-f88b22682e21)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=20d07bcd-95cc-44a2-8e3e-f88b22682e21)  
 (KB2756918)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
@@ -457,10 +457,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -527,13 +527,13 @@ Windows Server 2003
 Windows Server 2003 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=1a7cfc5a-2872-4516-a371-f42d4d3969a6)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=1a7cfc5a-2872-4516-a371-f42d4d3969a6)  
 (KB2799329)  
 (Mittel)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=4b7c2bcd-a732-46ba-9d09-cc192efd4755)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=4b7c2bcd-a732-46ba-9d09-cc192efd4755)  
 (KB2799329)  
 (Mittel)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=7f134d1c-670d-4528-b755-22124aa4d8c9)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=7f134d1c-670d-4528-b755-22124aa4d8c9)  
 (KB2799329)  
 (Mittel)
 </td>
@@ -541,24 +541,24 @@ Windows Server 2003 Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=6a12de5f-de80-48e4-8276-6c420f5a2948)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=6a12de5f-de80-48e4-8276-6c420f5a2948)  
 (KB2758696)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=f1a2eb6e-0290-4a53-b93c-017a48b19973)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=f1a2eb6e-0290-4a53-b93c-017a48b19973)  
 (KB2742604)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
 (KB2742596)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=20d07bcd-95cc-44a2-8e3e-f88b22682e21)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=20d07bcd-95cc-44a2-8e3e-f88b22682e21)  
 (KB2756918)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
@@ -569,10 +569,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -582,13 +582,13 @@ Nicht anwendbar
 Windows Server 2003 x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=00304f3b-069f-49dc-a416-b0b5fb97aa4b)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=00304f3b-069f-49dc-a416-b0b5fb97aa4b)  
 (KB2799329)  
 (Mittel)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=4911899c-863f-4499-9477-340ef8daad29)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=4911899c-863f-4499-9477-340ef8daad29)  
 (KB2799329)  
 (Mittel)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=b0cf6516-aea6-4879-9a6e-171d4825ae20)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=b0cf6516-aea6-4879-9a6e-171d4825ae20)  
 (KB2799329)  
 (Mittel)
 </td>
@@ -596,27 +596,27 @@ Windows Server 2003 x64 Edition Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=29985fdc-8aba-44b2-9420-970ca475052e)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=29985fdc-8aba-44b2-9420-970ca475052e)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=0b13a83c-1e51-4604-a09d-afb2e25646f9)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=0b13a83c-1e51-4604-a09d-afb2e25646f9)  
 (KB2758696)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
 (KB2742596)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=20d07bcd-95cc-44a2-8e3e-f88b22682e21)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=20d07bcd-95cc-44a2-8e3e-f88b22682e21)  
 (KB2756918)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
@@ -627,10 +627,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -640,10 +640,10 @@ Nicht anwendbar
 Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=b2c635b7-56ad-426b-8bd6-4aee9deadb69)  
+[Internet Explorer 6](https://www.microsoft.com/download/details.aspx?familyid=b2c635b7-56ad-426b-8bd6-4aee9deadb69)  
 (KB2799329)  
 (Mittel)  
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=b33197ab-f489-4c11-a229-044b186d7dda)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=b33197ab-f489-4c11-a229-044b186d7dda)  
 (KB2799329)  
 (Mittel)
 </td>
@@ -651,24 +651,24 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=bca95077-a28f-406c-9fe4-51dbcf6adee8)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=bca95077-a28f-406c-9fe4-51dbcf6adee8)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=4719776a-5ff0-491a-934e-99220d8ac3a3)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=4719776a-5ff0-491a-934e-99220d8ac3a3)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=fb834cf7-d1fe-4291-8a0d-c866fdbdf0e6)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=fb834cf7-d1fe-4291-8a0d-c866fdbdf0e6)  
 (KB2758696)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=8e2cc005-08c5-4e47-b05a-5b36fe539610)  
 (KB2742596)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
@@ -679,10 +679,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -749,10 +749,10 @@ Windows Vista
 Windows Vista Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=95d603e8-9440-4aa6-9765-20c77a55966a)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=95d603e8-9440-4aa6-9765-20c77a55966a)  
 (KB2799329)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=64b498a6-54fc-4b88-bcc3-2cc15a16abb5)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=64b498a6-54fc-4b88-bcc3-2cc15a16abb5)  
 (KB2799329)  
 (Kritisch)
 </td>
@@ -760,45 +760,45 @@ Windows Vista Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=d477235d-60f4-420d-8161-82194b4e62e7)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=d477235d-60f4-420d-8161-82194b4e62e7)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
 (KB2742601)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
 (KB2756919)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
 (KB2742613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8b1aef73-cfb2-4998-bca6-35cccfbb2078)  
+[Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=8b1aef73-cfb2-4998-bca6-35cccfbb2078)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3107fadf-5ba8-48f6-bb23-0c0003b4ba76)  
+[Windows Vista Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=3107fadf-5ba8-48f6-bb23-0c0003b4ba76)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -808,10 +808,10 @@ Nicht anwendbar
 Windows Vista x64 Edition Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=a35ccbff-c476-4ee2-be9c-5b6a4b1664e9)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=a35ccbff-c476-4ee2-be9c-5b6a4b1664e9)  
 (KB2799329)  
 (Kritisch)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=b427bace-5297-4593-9dd2-66847ae506c6)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=b427bace-5297-4593-9dd2-66847ae506c6)  
 (KB2799329)  
 (Kritisch)
 </td>
@@ -819,48 +819,48 @@ Windows Vista x64 Edition Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=873eba5d-5a8f-410e-bad8-e9d538acf1b3)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=873eba5d-5a8f-410e-bad8-e9d538acf1b3)  
 (KB2757638)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=873eba5d-5a8f-410e-bad8-e9d538acf1b3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=873eba5d-5a8f-410e-bad8-e9d538acf1b3)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
 (KB2742601)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
 (KB2756919)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
 (KB2742613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4287381f-6f23-4a36-a7dc-f79c44bac124)  
+[Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=4287381f-6f23-4a36-a7dc-f79c44bac124)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=098958e5-83cd-4ed2-b758-e970cef33325)  
+[Windows Vista x64 Edition Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=098958e5-83cd-4ed2-b758-e970cef33325)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -927,10 +927,10 @@ Windows Server 2008
 Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=3ce450f1-f71f-4d5d-bf1c-db4742522d18)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=3ce450f1-f71f-4d5d-bf1c-db4742522d18)  
 (KB2799329)  
 (Mittel)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=2d1266fc-f6b0-4062-9799-7b3721c2cf52)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=2d1266fc-f6b0-4062-9799-7b3721c2cf52)  
 (KB2799329)  
 (Mittel)
 </td>
@@ -938,45 +938,45 @@ Windows Server 2008 für 32-Bit-Systeme Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e6439fef-e5e7-479b-8fc4-daacf3a39f3a)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=e6439fef-e5e7-479b-8fc4-daacf3a39f3a)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
 (KB2742601)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
 (KB2756919)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
 (KB2742613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c635ad51-4e15-461c-8927-a86d79f90b45)  
+[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=c635ad51-4e15-461c-8927-a86d79f90b45)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b3ed781e-b740-4153-aaf3-daafdeb91004)  
+[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b3ed781e-b740-4153-aaf3-daafdeb91004)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -986,10 +986,10 @@ Nicht anwendbar
 Windows Server 2008 für x64-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=0f87dd60-92c2-444c-a9ea-dfeb106c88fa)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=0f87dd60-92c2-444c-a9ea-dfeb106c88fa)  
 (KB2799329)  
 (Mittel)  
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=2f71f8e6-309c-4bea-abde-d91040c46611)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=2f71f8e6-309c-4bea-abde-d91040c46611)  
 (KB2799329)  
 (Mittel)
 </td>
@@ -997,48 +997,48 @@ Windows Server 2008 für x64-basierte Systeme Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=1511377b-0adc-455f-8caa-f3498832c735)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=1511377b-0adc-455f-8caa-f3498832c735)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=1511377b-0adc-455f-8caa-f3498832c735)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=1511377b-0adc-455f-8caa-f3498832c735)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
 (KB2742601)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
 (KB2756919)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
 (KB2742613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eff3a82e-f3db-4733-95aa-a68621e27068)  
+[Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=eff3a82e-f3db-4733-95aa-a68621e27068)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4aa3e3a7-3ebc-4b47-ab62-c22243a4edcc)  
+[Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=4aa3e3a7-3ebc-4b47-ab62-c22243a4edcc)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1048,7 +1048,7 @@ Nicht anwendbar
 Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=e47425e9-f53e-4e20-a7ec-b4c552bd66eb)  
+[Internet Explorer 7](https://www.microsoft.com/download/details.aspx?familyid=e47425e9-f53e-4e20-a7ec-b4c552bd66eb)  
 (KB2799329)  
 (Mittel)
 </td>
@@ -1056,45 +1056,45 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=c11ec9cd-1a85-4514-a1b9-9da5cdd0926b)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=c11ec9cd-1a85-4514-a1b9-9da5cdd0926b)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=4719776a-5ff0-491a-934e-99220d8ac3a3)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=4719776a-5ff0-491a-934e-99220d8ac3a3)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=c11ec9cd-1a85-4514-a1b9-9da5cdd0926b)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=c11ec9cd-1a85-4514-a1b9-9da5cdd0926b)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
+[Microsoft .NET Framework 1.1 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=5091f66f-9b89-496f-95ce-9ac556faa7b5)  
 (KB2742597)  
 (Hoch)  
-[Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
+[Microsoft .NET Framework 2.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=39406634-48ad-4ecf-a6be-f5a47885704b)  
 (KB2742601)  
 (Hoch)  
-[Microsoft .NET Framework 3.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
+[Microsoft .NET Framework 3.0 Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b8cb7a04-f913-47cc-96c1-27fb7154a791)  
 (KB2756919)  
 (Keine Bewertung des Schweregrads<sup>[2]</sup>)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d949fde9-31e7-4553-a34c-b41625a8cdc8)  
+[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=d949fde9-31e7-4553-a34c-b41625a8cdc8)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=ab117984-c4cb-473b-8c20-2b0d0409d8d6)  
+[Windows Server 2008 für Itanium-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=ab117984-c4cb-473b-8c20-2b0d0409d8d6)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
+[Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=b476d44d-8a79-4857-8c3e-9d547e9b9e2d)  
 (KB2736416)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1161,49 +1161,49 @@ Windows 7
 Windows 7 für 32-Bit-Systeme
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=d20f50ed-89c3-48cb-a78d-a44470fa1285)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=d20f50ed-89c3-48cb-a78d-a44470fa1285)  
 (KB2799329)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=abbc3f31-e940-4750-acb6-5af477bc8390)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=abbc3f31-e940-4750-acb6-5af477bc8390)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=3a160fc4-1bf0-4db2-aa8d-6ba4f07d196b)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=3a160fc4-1bf0-4db2-aa8d-6ba4f07d196b)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a)  
 (KB2742598)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127)  
 (KB2756920)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=057726d1-cdb4-4488-8cd8-822dabfc62a6)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=057726d1-cdb4-4488-8cd8-822dabfc62a6)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=6120322b-7e04-4eeb-a9a4-11fe563a9f27)  
+[Windows 7 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=6120322b-7e04-4eeb-a9a4-11fe563a9f27)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4)  
 (KB2736418)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1213,52 +1213,52 @@ Windows 7 für 32-Bit-Systeme
 Windows 7 für 32-Bit-Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=d20f50ed-89c3-48cb-a78d-a44470fa1285)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=d20f50ed-89c3-48cb-a78d-a44470fa1285)  
 (KB2799329)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=abbc3f31-e940-4750-acb6-5af477bc8390)  
+[Windows 7 für 32-Bit-Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=abbc3f31-e940-4750-acb6-5af477bc8390)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=3a160fc4-1bf0-4db2-aa8d-6ba4f07d196b)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=3a160fc4-1bf0-4db2-aa8d-6ba4f07d196b)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0)  
 (KB2742599)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3)  
 (KB2756921)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
 (KB2742613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=057726d1-cdb4-4488-8cd8-822dabfc62a6)  
+[Windows 7 für 32-Bit-Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=057726d1-cdb4-4488-8cd8-822dabfc62a6)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für 32-Bit-Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=6120322b-7e04-4eeb-a9a4-11fe563a9f27)  
+[Windows 7 für 32-Bit-Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=6120322b-7e04-4eeb-a9a4-11fe563a9f27)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97)  
 (KB2736422)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1268,52 +1268,52 @@ Windows 7 für 32-Bit-Systeme Service Pack 1
 Windows 7 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=c113b67f-42ca-4fea-ba45-aba6f94de154)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=c113b67f-42ca-4fea-ba45-aba6f94de154)  
 (KB2799329)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=1868c2ca-a184-494e-8eb3-82db45b08e32)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=1868c2ca-a184-494e-8eb3-82db45b08e32)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=4b442601-2808-4192-aa7d-b6476668cd23)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=4b442601-2808-4192-aa7d-b6476668cd23)  
 (KB2757638)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=4b442601-2808-4192-aa7d-b6476668cd23)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=4b442601-2808-4192-aa7d-b6476668cd23)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a)  
 (KB2742598)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127)  
 (KB2756920)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=64249562-1fc3-436d-a9e1-4c9378b632d7)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=64249562-1fc3-436d-a9e1-4c9378b632d7)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=c9e2a55e-170f-4fe1-a306-eda676fd0fdb)  
+[Windows 7 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=c9e2a55e-170f-4fe1-a306-eda676fd0fdb)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4)  
 (KB2736418)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1323,55 +1323,55 @@ Windows 7 für x64-basierte Systeme
 Windows 7 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=c113b67f-42ca-4fea-ba45-aba6f94de154)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=c113b67f-42ca-4fea-ba45-aba6f94de154)  
 (KB2799329)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1868c2ca-a184-494e-8eb3-82db45b08e32)  
+[Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=1868c2ca-a184-494e-8eb3-82db45b08e32)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=4b442601-2808-4192-aa7d-b6476668cd23)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=4b442601-2808-4192-aa7d-b6476668cd23)  
 (KB2757638)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=4b442601-2808-4192-aa7d-b6476668cd23)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=4b442601-2808-4192-aa7d-b6476668cd23)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0)  
 (KB2742599)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3)  
 (KB2756921)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
 (KB2742613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=64249562-1fc3-436d-a9e1-4c9378b632d7)  
+[Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=64249562-1fc3-436d-a9e1-4c9378b632d7)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 7 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=c9e2a55e-170f-4fe1-a306-eda676fd0fdb)  
+[Windows 7 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=c9e2a55e-170f-4fe1-a306-eda676fd0fdb)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97)  
 (KB2736422)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1438,52 +1438,52 @@ Windows Server 2008 R2
 Windows Server 2008 R2 für x64-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=d2fffc43-a88f-4fe5-9b24-5677258011b8)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=d2fffc43-a88f-4fe5-9b24-5677258011b8)  
 (KB2799329)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=8de63e96-2822-4e62-af54-bd8d4c6d5c19)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=8de63e96-2822-4e62-af54-bd8d4c6d5c19)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a)  
 (KB2742598)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127)  
 (KB2756920)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=934a2e78-c88b-4d06-9b8f-1d0b612f3fd5)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=934a2e78-c88b-4d06-9b8f-1d0b612f3fd5)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=7fd8a313-9ee3-4665-b8ba-b129994aae1e)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=7fd8a313-9ee3-4665-b8ba-b129994aae1e)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4)  
 (KB2736418)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1493,55 +1493,55 @@ Windows Server 2008 R2 für x64-basierte Systeme
 Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=d2fffc43-a88f-4fe5-9b24-5677258011b8)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=d2fffc43-a88f-4fe5-9b24-5677258011b8)  
 (KB2799329)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=8de63e96-2822-4e62-af54-bd8d4c6d5c19)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=8de63e96-2822-4e62-af54-bd8d4c6d5c19)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0)  
 (KB2742599)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3)  
 (KB2756921)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0)  
 (KB2742613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=934a2e78-c88b-4d06-9b8f-1d0b612f3fd5)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=934a2e78-c88b-4d06-9b8f-1d0b612f3fd5)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7fd8a313-9ee3-4665-b8ba-b129994aae1e)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=7fd8a313-9ee3-4665-b8ba-b129994aae1e)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97)  
 (KB2736422)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1551,52 +1551,52 @@ Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1
 Windows Server 2008 R2 für Itanium-basierte Systeme
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=fbcee22b-9801-4c9e-ba0c-eb4a54526d38)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=fbcee22b-9801-4c9e-ba0c-eb4a54526d38)  
 (KB2799329)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=18070321-8635-4c2e-b9f9-0fc58c924136)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=18070321-8635-4c2e-b9f9-0fc58c924136)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=e4dfbf88-0e7f-43ca-affe-5d8ddea8657e)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=e4dfbf88-0e7f-43ca-affe-5d8ddea8657e)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=4719776a-5ff0-491a-934e-99220d8ac3a3)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=4719776a-5ff0-491a-934e-99220d8ac3a3)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e4dfbf88-0e7f-43ca-affe-5d8ddea8657e)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=e4dfbf88-0e7f-43ca-affe-5d8ddea8657e)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a)  
 (KB2742598)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127)  
 (KB2756920)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=12917b84-1f91-4c19-9197-a7d1e7adcdfc)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=12917b84-1f91-4c19-9197-a7d1e7adcdfc)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=86e5b2fc-f530-4259-af90-259b64fcdd73)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=86e5b2fc-f530-4259-af90-259b64fcdd73)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4)  
 (KB2736418)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1606,52 +1606,52 @@ Windows Server 2008 R2 für Itanium-basierte Systeme
 Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=fbcee22b-9801-4c9e-ba0c-eb4a54526d38)  
+[Internet Explorer 8](https://www.microsoft.com/download/details.aspx?familyid=fbcee22b-9801-4c9e-ba0c-eb4a54526d38)  
 (KB2799329)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=18070321-8635-4c2e-b9f9-0fc58c924136)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=18070321-8635-4c2e-b9f9-0fc58c924136)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=e4dfbf88-0e7f-43ca-affe-5d8ddea8657e)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=e4dfbf88-0e7f-43ca-affe-5d8ddea8657e)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=4719776a-5ff0-491a-934e-99220d8ac3a3)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=4719776a-5ff0-491a-934e-99220d8ac3a3)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e4dfbf88-0e7f-43ca-affe-5d8ddea8657e)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=e4dfbf88-0e7f-43ca-affe-5d8ddea8657e)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0)  
 (KB2742599)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3)  
 (KB2756921)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup>
 (KB2742595)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=12917b84-1f91-4c19-9197-a7d1e7adcdfc)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=12917b84-1f91-4c19-9197-a7d1e7adcdfc)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=86e5b2fc-f530-4259-af90-259b64fcdd73)  
+[Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=86e5b2fc-f530-4259-af90-259b64fcdd73)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97)  
 (KB2736422)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup>
 (KB2736428)  
 (Hoch)
 </td>
@@ -1724,36 +1724,36 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e19d1373-a3f3-4f60-9142-c2484726aac8)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=e19d1373-a3f3-4f60-9142-c2484726aac8)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=e1251343-b585-4feb-8465-7e775ae47998)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=e1251343-b585-4feb-8465-7e775ae47998)  
 (KB2742616)  
 (Hoch)  
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=43bbbc5a-e175-467a-9302-810a2a09eb7e)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=43bbbc5a-e175-467a-9302-810a2a09eb7e)  
 (KB2756923)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=f21e2bdd-b158-45d5-a6cf-a8f32f099a7a)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=f21e2bdd-b158-45d5-a6cf-a8f32f099a7a)  
 (KB2742614)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 8 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=1f5441f1-a66d-42c0-bf0e-2f6867d4d43a)  
+[Windows 8 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=1f5441f1-a66d-42c0-bf0e-2f6867d4d43a)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 8 für 32-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=9f40864f-5347-44ef-bb08-afea45b5351b)  
+[Windows 8 für 32-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=9f40864f-5347-44ef-bb08-afea45b5351b)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=b0bbe58b-cb41-4b52-9dd2-b8b4bc0076eb)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=b0bbe58b-cb41-4b52-9dd2-b8b4bc0076eb)  
 (KB2736693)  
 (Hoch)
 </td>
@@ -1769,39 +1769,39 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=c669190d-964c-42d3-b09d-40a397ae3a9c)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=c669190d-964c-42d3-b09d-40a397ae3a9c)  
 (KB2757638)  
 (Kritisch)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Kritisch)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=c669190d-964c-42d3-b09d-40a397ae3a9c)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=c669190d-964c-42d3-b09d-40a397ae3a9c)  
 (KB2757638)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=e1251343-b585-4feb-8465-7e775ae47998)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=e1251343-b585-4feb-8465-7e775ae47998)  
 (KB2742616)  
 (Hoch)  
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=43bbbc5a-e175-467a-9302-810a2a09eb7e)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=43bbbc5a-e175-467a-9302-810a2a09eb7e)  
 (KB2756923)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=f21e2bdd-b158-45d5-a6cf-a8f32f099a7a)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=f21e2bdd-b158-45d5-a6cf-a8f32f099a7a)  
 (KB2742614)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 8 für 64-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=9d71dc77-9c01-4a1f-b403-8a18ca10979d)  
+[Windows 8 für 64-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=9d71dc77-9c01-4a1f-b403-8a18ca10979d)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows 8 für 64-Bit-Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=1b40baad-784a-4eba-a4ef-703250248057)  
+[Windows 8 für 64-Bit-Systeme](https://www.microsoft.com/download/details.aspx?familyid=1b40baad-784a-4eba-a4ef-703250248057)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=b0bbe58b-cb41-4b52-9dd2-b8b4bc0076eb)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=b0bbe58b-cb41-4b52-9dd2-b8b4bc0076eb)  
 (KB2736693)  
 (Hoch)
 </td>
@@ -1874,42 +1874,42 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=f7e434e5-1ce8-4754-b9b4-07f3d84e0528)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=f7e434e5-1ce8-4754-b9b4-07f3d84e0528)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=f7e434e5-1ce8-4754-b9b4-07f3d84e0528)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=f7e434e5-1ce8-4754-b9b4-07f3d84e0528)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=e1251343-b585-4feb-8465-7e775ae47998)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=e1251343-b585-4feb-8465-7e775ae47998)  
 (KB2742616)  
 (Hoch)  
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=43bbbc5a-e175-467a-9302-810a2a09eb7e)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=43bbbc5a-e175-467a-9302-810a2a09eb7e)  
 (KB2756923)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=f21e2bdd-b158-45d5-a6cf-a8f32f099a7a)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=f21e2bdd-b158-45d5-a6cf-a8f32f099a7a)  
 (KB2742614)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2012](http://www.microsoft.com/downloads/details.aspx?familyid=2ad7872c-a387-41a1-8606-732a6ff0701d)  
+[Windows Server 2012](https://www.microsoft.com/download/details.aspx?familyid=2ad7872c-a387-41a1-8606-732a6ff0701d)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2012](http://www.microsoft.com/downloads/details.aspx?familyid=4f0b9fb1-f1c4-4773-a956-94c8983c008a)  
+[Windows Server 2012](https://www.microsoft.com/download/details.aspx?familyid=4f0b9fb1-f1c4-4773-a956-94c8983c008a)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=b0bbe58b-cb41-4b52-9dd2-b8b4bc0076eb)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=b0bbe58b-cb41-4b52-9dd2-b8b4bc0076eb)  
 (KB2736693)  
 (Hoch)  
-[IIS-Erweiterung für OData Services for Management](http://www.microsoft.com/downloads/details.aspx?familyid=77b6fb5f-10b8-4bc2-a5c3-97055c92acf1)  
+[IIS-Erweiterung für OData Services for Management](https://www.microsoft.com/download/details.aspx?familyid=77b6fb5f-10b8-4bc2-a5c3-97055c92acf1)  
 (KB2753596)  
 (Hoch)
 </td>
@@ -2076,10 +2076,10 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=1e2738b9-d3c2-4dfe-8a79-335d5feee55b)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e6439fef-e5e7-479b-8fc4-daacf3a39f3a)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=e6439fef-e5e7-479b-8fc4-daacf3a39f3a)  
 (KB2757638)  
 (Mittel)
 </td>
@@ -2087,12 +2087,12 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c635ad51-4e15-461c-8927-a86d79f90b45) (Server Core-Installation)  
+[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=c635ad51-4e15-461c-8927-a86d79f90b45) (Server Core-Installation)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b3ed781e-b740-4153-aaf3-daafdeb91004) (Server Core-Installation)  
+[Windows Server 2008 für 32-Bit-Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=b3ed781e-b740-4153-aaf3-daafdeb91004) (Server Core-Installation)  
 (KB2785220)  
 (Hoch)
 </td>
@@ -2111,13 +2111,13 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=1511377b-0adc-455f-8caa-f3498832c735) (Server Core-Installation)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=1511377b-0adc-455f-8caa-f3498832c735) (Server Core-Installation)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04) (Server Core-Installation)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04) (Server Core-Installation)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=1511377b-0adc-455f-8caa-f3498832c735) (Server Core-Installation)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=1511377b-0adc-455f-8caa-f3498832c735) (Server Core-Installation)  
 (KB2757638)  
 (Mittel)
 </td>
@@ -2125,12 +2125,12 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eff3a82e-f3db-4733-95aa-a68621e27068) (Server Core-Installation)  
+[Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=eff3a82e-f3db-4733-95aa-a68621e27068) (Server Core-Installation)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 für x64-basierte Systeme Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4aa3e3a7-3ebc-4b47-ab62-c22243a4edcc) (Server Core-Installation)  
+[Windows Server 2008 für x64-basierte Systeme Service Pack 2](https://www.microsoft.com/download/details.aspx?familyid=4aa3e3a7-3ebc-4b47-ab62-c22243a4edcc) (Server Core-Installation)  
 (KB2785220)  
 (Hoch)
 </td>
@@ -2146,41 +2146,41 @@ Windows Server 2008 R2 für x64-basierte Systeme (Server Core-Installation)
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=8de63e96-2822-4e62-af54-bd8d4c6d5c19) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=8de63e96-2822-4e62-af54-bd8d4c6d5c19) (Server Core-Installation)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3) (Server Core-Installation)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3) (Server Core-Installation)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04) (Server Core-Installation)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04) (Server Core-Installation)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3) (Server Core-Installation)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3) (Server Core-Installation)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=782fdaa7-7607-4617-97cc-516925e06d8a) (Server Core-Installation)  
 (KB2742598)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=b8d0c829-ccb8-41a6-86ec-a7afde21c127) (Server Core-Installation)  
 (KB2756920)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=934a2e78-c88b-4d06-9b8f-1d0b612f3fd5) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=934a2e78-c88b-4d06-9b8f-1d0b612f3fd5) (Server Core-Installation)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme](http://www.microsoft.com/downloads/details.aspx?familyid=7fd8a313-9ee3-4665-b8ba-b129994aae1e) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme](https://www.microsoft.com/download/details.aspx?familyid=7fd8a313-9ee3-4665-b8ba-b129994aae1e) (Server Core-Installation)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=4c77925d-4326-483b-9d20-ad533d91c0f4) (Server Core-Installation)  
 (KB2736418)  
 (Hoch)
 </td>
@@ -2193,50 +2193,50 @@ Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1 (Server Core-Ins
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=8de63e96-2822-4e62-af54-bd8d4c6d5c19) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=8de63e96-2822-4e62-af54-bd8d4c6d5c19) (Server Core-Installation)  
 (KB2769369)  
 (Kritisch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3) (Server Core-Installation)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3) (Server Core-Installation)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04) (Server Core-Installation)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04) (Server Core-Installation)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3) (Server Core-Installation)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=cd979acf-ed95-4d86-a046-ca7dc53523a3) (Server Core-Installation)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=5b23d8db-12d3-4404-b089-0c808eec1bd0) (Server Core-Installation)  
 (KB2742599)  
 (Hoch)  
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=a41722e4-4b94-4539-a80e-2714269f8ae3) (Server Core-Installation)  
 (KB2756921)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup> (Server Core-Installation)  
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=c2d4991c-05f1-48c7-96ea-1389281985e5)<sup>[1]</sup> (Server Core-Installation)  
 (KB2742595)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0) (Server Core-Installation)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=dafc6924-d798-46b4-9fa5-ea7c35f06fa0) (Server Core-Installation)  
 (KB2742613)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=934a2e78-c88b-4d06-9b8f-1d0b612f3fd5) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=934a2e78-c88b-4d06-9b8f-1d0b612f3fd5) (Server Core-Installation)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7fd8a313-9ee3-4665-b8ba-b129994aae1e) (Server Core-Installation)  
+[Windows Server 2008 R2 für x64-basierte Systeme Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=7fd8a313-9ee3-4665-b8ba-b129994aae1e) (Server Core-Installation)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5.1](https://www.microsoft.com/download/details.aspx?familyid=28f51d80-d87e-4a58-9ef2-d650dd84ad97) (Server Core-Installation)  
 (KB2736422)  
 (Hoch)  
-[Microsoft .NET Framework 4](http://www.microsoft.com/downloads/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup> (Server Core-Installation)  
+[Microsoft .NET Framework 4](https://www.microsoft.com/download/details.aspx?familyid=1d22f0d5-d87d-4e4a-bbc9-49826cec79a7)<sup>[1]</sup> (Server Core-Installation)  
 (KB2736428)  
 (Hoch)
 </td>
@@ -2252,42 +2252,42 @@ Nicht anwendbar
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 3.0](http://www.microsoft.com/downloads/details.aspx?familyid=f7e434e5-1ce8-4754-b9b4-07f3d84e0528) (Server Core-Installation)  
+[Microsoft XML Core Services 3.0](https://www.microsoft.com/download/details.aspx?familyid=f7e434e5-1ce8-4754-b9b4-07f3d84e0528) (Server Core-Installation)  
 (KB2757638)  
 (Mittel)  
-[Microsoft XML Core Services 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04) (Server Core-Installation)  
+[Microsoft XML Core Services 4.0](https://www.microsoft.com/download/details.aspx?familyid=7dabf372-4b31-4c9e-a660-4e0f4a65db04) (Server Core-Installation)  
 (KB2758694)  
 (Mittel)  
-[Microsoft XML Core Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=f7e434e5-1ce8-4754-b9b4-07f3d84e0528) (Server Core-Installation)  
+[Microsoft XML Core Services 6.0](https://www.microsoft.com/download/details.aspx?familyid=f7e434e5-1ce8-4754-b9b4-07f3d84e0528) (Server Core-Installation)  
 (KB2757638)  
 (Mittel)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=e1251343-b585-4feb-8465-7e775ae47998) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=e1251343-b585-4feb-8465-7e775ae47998) (Server Core-Installation)  
 (KB2742616)  
 (Hoch)  
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=43bbbc5a-e175-467a-9302-810a2a09eb7e) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=43bbbc5a-e175-467a-9302-810a2a09eb7e) (Server Core-Installation)  
 (KB2756923)  
 (Hoch)  
-[Microsoft .NET Framework 4.5](http://www.microsoft.com/downloads/details.aspx?familyid=f21e2bdd-b158-45d5-a6cf-a8f32f099a7a) (Server Core-Installation)  
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/download/details.aspx?familyid=f21e2bdd-b158-45d5-a6cf-a8f32f099a7a) (Server Core-Installation)  
 (KB2742614)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2012](http://www.microsoft.com/downloads/details.aspx?familyid=2ad7872c-a387-41a1-8606-732a6ff0701d) (Server Core-Installation)  
+[Windows Server 2012](https://www.microsoft.com/download/details.aspx?familyid=2ad7872c-a387-41a1-8606-732a6ff0701d) (Server Core-Installation)  
 (KB2778930)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Windows Server 2012](http://www.microsoft.com/downloads/details.aspx?familyid=4f0b9fb1-f1c4-4773-a956-94c8983c008a) (Server Core-Installation)  
+[Windows Server 2012](https://www.microsoft.com/download/details.aspx?familyid=4f0b9fb1-f1c4-4773-a956-94c8983c008a) (Server Core-Installation)  
 (KB2785220)  
 (Hoch)
 </td>
 <td style="border:1px solid black;">
-[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=b0bbe58b-cb41-4b52-9dd2-b8b4bc0076eb) (Server Core-Installation)  
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/download/details.aspx?familyid=b0bbe58b-cb41-4b52-9dd2-b8b4bc0076eb) (Server Core-Installation)  
 (KB2736693)  
 (Hoch)  
-[IIS-Erweiterung für OData Services for Management](http://www.microsoft.com/downloads/details.aspx?familyid=77b6fb5f-10b8-4bc2-a5c3-97055c92acf1) (Server Core-Installation)  
+[IIS-Erweiterung für OData Services for Management](https://www.microsoft.com/download/details.aspx?familyid=77b6fb5f-10b8-4bc2-a5c3-97055c92acf1) (Server Core-Installation)  
 (KB2753596)  
 (Hoch)
 </td>
@@ -2350,7 +2350,7 @@ Microsoft Office Suites und Komponenten
 Microsoft Office 2003 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=d108d56c-f9fb-4823-b38e-3d2f838592de)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=d108d56c-f9fb-4823-b38e-3d2f838592de)  
 (KB2760574)  
 (Kritisch)
 </td>
@@ -2360,7 +2360,7 @@ Microsoft Office 2003 Service Pack 3
 Microsoft Office 2007 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
 (KB2687499)  
 (Kritisch)
 </td>
@@ -2370,7 +2370,7 @@ Microsoft Office 2007 Service Pack 2
 Microsoft Office 2007 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
 (KB2687499)  
 (Kritisch)
 </td>
@@ -2401,7 +2401,7 @@ Andere Microsoft Office-Software
 Microsoft Word Viewer
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
 (KB2687499)  
 (Kritisch)
 </td>
@@ -2411,7 +2411,7 @@ Microsoft Word Viewer
 Microsoft Office Compatibility Pack Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
 (KB2687499)  
 (Kritisch)
 </td>
@@ -2421,7 +2421,7 @@ Microsoft Office Compatibility Pack Service Pack 2
 Microsoft Office Compatibility Pack Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
 (KB2687499)  
 (Kritisch)
 </td>
@@ -2462,7 +2462,7 @@ Microsoft Visual Studio Team Foundation Server
 Microsoft Expression Web Service Pack 1
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
 (KB2687499)  
 (Kritisch)
 </td>
@@ -2472,7 +2472,7 @@ Microsoft Expression Web Service Pack 1
 Microsoft Expression Web 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=7ba27dc9-4e9c-4ab5-867e-888c01716e11)  
 (KB2687499)  
 (Kritisch)
 </td>
@@ -2519,7 +2519,7 @@ Microsoft SharePoint Server
 Microsoft SharePoint Server 2007 Service Pack 2 (32-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=31e1e6cc-9617-416b-8c91-5c026502d5f6)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=31e1e6cc-9617-416b-8c91-5c026502d5f6)  
 (KB2687497)  
 (Kritisch)
 </td>
@@ -2532,7 +2532,7 @@ Nicht anwendbar
 Microsoft SharePoint Server 2007 Service Pack 2 (64-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=fb21c3f8-b3fd-42f2-9c34-e5fbd8cad689)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=fb21c3f8-b3fd-42f2-9c34-e5fbd8cad689)  
 (KB2687497)  
 (Kritisch)
 </td>
@@ -2545,7 +2545,7 @@ Nicht anwendbar
 Microsoft SharePoint Server 2007 Service Pack 3 (32-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=31e1e6cc-9617-416b-8c91-5c026502d5f6)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=31e1e6cc-9617-416b-8c91-5c026502d5f6)  
 (KB2687497)  
 (Kritisch)
 </td>
@@ -2558,7 +2558,7 @@ Nicht anwendbar
 Microsoft SharePoint Server 2007 Service Pack 3 (64-Bit-Editionen)
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=fb21c3f8-b3fd-42f2-9c34-e5fbd8cad689)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=fb21c3f8-b3fd-42f2-9c34-e5fbd8cad689)  
 (KB2687497)  
 (Kritisch)
 </td>
@@ -2598,7 +2598,7 @@ Microsoft Groove Server
 Microsoft Groove Server 2007 Service Pack 2
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=fb21c3f8-b3fd-42f2-9c34-e5fbd8cad689)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=fb21c3f8-b3fd-42f2-9c34-e5fbd8cad689)  
 (KB2687497)  
 (Kritisch)
 </td>
@@ -2611,7 +2611,7 @@ Nicht anwendbar
 Microsoft Groove Server 2007 Service Pack 3
 </td>
 <td style="border:1px solid black;">
-[Microsoft XML Core Services 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=fb21c3f8-b3fd-42f2-9c34-e5fbd8cad689)  
+[Microsoft XML Core Services 5.0](https://www.microsoft.com/download/details.aspx?familyid=fb21c3f8-b3fd-42f2-9c34-e5fbd8cad689)  
 (KB2687497)  
 (Kritisch)
 </td>
@@ -2654,7 +2654,7 @@ Microsoft System Center Operations Manager 2007 Service Pack 1
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft System Center Operations Manager 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=f848d74d-fdae-4a19-a0f5-12d2d4389db9)<sup>[1]</sup>
+[Microsoft System Center Operations Manager 2007 Service Pack 1](https://www.microsoft.com/download/details.aspx?familyid=f848d74d-fdae-4a19-a0f5-12d2d4389db9)<sup>[1]</sup>
 (KB2809182)  
 (Hoch)
 </td>
@@ -2667,7 +2667,7 @@ Microsoft System Center Operations Manager 2007 R2
 Nicht anwendbar
 </td>
 <td style="border:1px solid black;">
-[Microsoft System Center Operations Manager 2007 R2](http://www.microsoft.com/downloads/details.aspx?familyid=4e1ab3bd-af0c-41f8-8ebc-1cdc68a3ee37)<sup>[1]</sup><sup>[2]</sup>
+[Microsoft System Center Operations Manager 2007 R2](https://www.microsoft.com/download/details.aspx?familyid=4e1ab3bd-af0c-41f8-8ebc-1cdc68a3ee37)<sup>[1]</sup><sup>[2]</sup>
 (KB2783850)  
 (Hoch)
 </td>
@@ -2723,13 +2723,13 @@ Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Ber
 
 **Hinweis:** System Management Server 2003 wurde am 12. Januar 2010 aus dem grundlegenden Support genommen. Weitere Informationen zu Produktlebenszyklen finden Sie auf der Website [Microsoft Support Lifecycle](http://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de). Die nächste Version von SMS, System Center Configuration Manager, ist jetzt verfügbar (siehe den früheren Abschnitt, **System Center Configuration Manager**).
 
-Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](http://www.microsoft.com/downloads/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](http://technet.microsoft.com/de-de/systemcenter/bb545936).
+Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](https://www.microsoft.com/download/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](http://technet.microsoft.com/de-de/systemcenter/bb545936).
 
 **Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://technet.microsoft.com/en-us/library/cc917507.aspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können diese Updates mit dem Elevated Rights Deployment Tool (im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/de-de/download/details.aspx?id=1846) verfügbar) installieren.
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc749197), die im [Anwendungskompatibilitäts-Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc749197), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 

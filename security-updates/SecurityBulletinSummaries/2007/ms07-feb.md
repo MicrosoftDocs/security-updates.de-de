@@ -207,70 +207,70 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=211a9c07-88ff-4ae4-a82a-ce2045c6c4fe">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=211a9c07-88ff-4ae4-a82a-ce2045c6c4fe">Kritisch</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows XP Service Pack 2 (SP2)</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=f821b3a0-4e5a-4737-b9bf-1249f6683f4d">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ce695e0e-938c-4fc6-a9a2-0eb9fc3e5512">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=a3700273-d7da-4a60-ba80-c95c8036d670">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=f821b3a0-4e5a-4737-b9bf-1249f6683f4d">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ce695e0e-938c-4fc6-a9a2-0eb9fc3e5512">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=a3700273-d7da-4a60-ba80-c95c8036d670">Kritisch</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows XP Professional x64 Edition</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=75abff9b-c2b5-4151-b366-4be652882944&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=75abff9b-c2b5-4151-b366-4be652882944&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=69ef4daa-cf0f-4898-8675-911428e7fd74&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=69ef4daa-cf0f-4898-8675-911428e7fd74&amp;displaylang=en">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=418acc52-0ebd-4623-81a7-5eacc21c3965">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=418acc52-0ebd-4623-81a7-5eacc21c3965">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=5a1f1607-b6ec-41e2-aac0-34387f1211a7">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=5a1f1607-b6ec-41e2-aac0-34387f1211a7">Mittel</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003 Service Pack 1 (SP1)</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=418acc52-0ebd-4623-81a7-5eacc21c3965">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=418acc52-0ebd-4623-81a7-5eacc21c3965">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=5a1f1607-b6ec-41e2-aac0-34387f1211a7">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=5a1f1607-b6ec-41e2-aac0-34387f1211a7">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 für Itanium-basierte Systeme</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=dc33a2fc-2d01-4577-b133-017493d1f278">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=dc33a2fc-2d01-4577-b133-017493d1f278">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d638c8e8-5fbe-4a32-945c-440a4b684b0f">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d638c8e8-5fbe-4a32-945c-440a4b684b0f">Mittel</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=dc33a2fc-2d01-4577-b133-017493d1f278">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=dc33a2fc-2d01-4577-b133-017493d1f278">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d638c8e8-5fbe-4a32-945c-440a4b684b0f">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d638c8e8-5fbe-4a32-945c-440a4b684b0f">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 x64 Edition</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c3e55066-b34e-485d-ac04-179f8e3a407a&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=c3e55066-b34e-485d-ac04-179f8e3a407a&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=65bf2245-6c89-43db-8d28-12988791c395&amp;displaylang=en">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=65bf2245-6c89-43db-8d28-12988791c395&amp;displaylang=en">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -289,7 +289,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ef163e3e-dd3b-4429-98a4-720da2c96464">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ef163e3e-dd3b-4429-98a4-720da2c96464">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -298,7 +298,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=591b0967-c8ab-4b85-a9af-c01e8d8e3adc">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=591b0967-c8ab-4b85-a9af-c01e8d8e3adc">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -307,7 +307,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=bc864245-175a-4b55-ab4a-fb5d0e03dcfc">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=bc864245-175a-4b55-ab4a-fb5d0e03dcfc">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -316,7 +316,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=341859bf-8daa-419b-88cd-e5e8eb4a5bad">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=341859bf-8daa-419b-88cd-e5e8eb4a5bad">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -325,7 +325,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=6b0cdb65-aef4-489f-b917-812d9f7687bd">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=6b0cdb65-aef4-489f-b917-812d9f7687bd">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -334,7 +334,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=34d24335-4ec0-49e7-9e3f-787f89dd7b1d">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=34d24335-4ec0-49e7-9e3f-787f89dd7b1d">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -343,7 +343,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=58322d1b-a1a8-4ba6-ba1b-6649013cc324">Mittel</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=58322d1b-a1a8-4ba6-ba1b-6649013cc324">Mittel</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
@@ -411,7 +411,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ unter Windows 2000 SP4</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=128c57af-663a-4476-92f5-aab394cfc91a">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=128c57af-663a-4476-92f5-aab394cfc91a">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -420,7 +420,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ unter Windows XP SP2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=128c57af-663a-4476-92f5-aab394cfc91a">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=128c57af-663a-4476-92f5-aab394cfc91a">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -429,7 +429,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ unter Windows XP Professional x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e268ffd5-295c-45f7-afd1-60007e791f8c&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=e268ffd5-295c-45f7-afd1-60007e791f8c&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -438,7 +438,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ unter Windows Server 2003</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=128c57af-663a-4476-92f5-aab394cfc91a">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=128c57af-663a-4476-92f5-aab394cfc91a">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -447,7 +447,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ unter Windows Server 2003 SP1</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=128c57af-663a-4476-92f5-aab394cfc91a">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=128c57af-663a-4476-92f5-aab394cfc91a">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -456,7 +456,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ unter Windows Server 2003 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=5eeedd28-47a5-4b30-a913-c1150330ecbe">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=5eeedd28-47a5-4b30-a913-c1150330ecbe">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -465,7 +465,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ unter Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=5eeedd28-47a5-4b30-a913-c1150330ecbe">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=5eeedd28-47a5-4b30-a913-c1150330ecbe">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -474,7 +474,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">„Interaktives Training – Schritt für Schritt“ unter Windows Server 2003 x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2760120e-96b2-42b2-b5df-6322c9385729&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=2760120e-96b2-42b2-b5df-6322c9385729&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -546,72 +546,72 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows 2000 Service Pack 4 (SP4)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=7b1a81d5-1072-49d9-a24a-0e2630f62d8c">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d6577f1f-0d9e-4856-b1d6-7e27657a3620">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=0b0b13d3-b2fb-4cf4-8ee1-51871d39eecd">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=7b1a81d5-1072-49d9-a24a-0e2630f62d8c">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d6577f1f-0d9e-4856-b1d6-7e27657a3620">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=0b0b13d3-b2fb-4cf4-8ee1-51871d39eecd">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows XP Service Pack 2 (SP2)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=e9b84661-25e3-4d38-95b1-8d3e7af565aa">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=84ae4c62-89ae-410a-b34b-471e3c09ce98">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=3159428d-7212-4bf0-9699-3dbae5db6ca1">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=e9b84661-25e3-4d38-95b1-8d3e7af565aa">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=84ae4c62-89ae-410a-b34b-471e3c09ce98">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=3159428d-7212-4bf0-9699-3dbae5db6ca1">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows XP Professional x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=57c1b19f-3242-457c-bedf-d35a8efe525c&amp;displaylang=en">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=54e0dc33-6bad-476c-b4cf-b833d591aaad&amp;displaylang=en">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=daf2f7ac-20b4-4ec9-9467-2ddd4fc493d6&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=57c1b19f-3242-457c-bedf-d35a8efe525c&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=54e0dc33-6bad-476c-b4cf-b833d591aaad&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=daf2f7ac-20b4-4ec9-9467-2ddd4fc493d6&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=eaed6f59-801e-45d7-9518-469d0de13cad">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=934ca609-d6bc-4bf0-8233-969eb43d48bb">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2e8d2355-d5c5-406d-9322-5fe1b2134d2f">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=eaed6f59-801e-45d7-9518-469d0de13cad">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=934ca609-d6bc-4bf0-8233-969eb43d48bb">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=2e8d2355-d5c5-406d-9322-5fe1b2134d2f">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003 Service Pack 1 (SP1)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=eaed6f59-801e-45d7-9518-469d0de13cad">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=934ca609-d6bc-4bf0-8233-969eb43d48bb">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2e8d2355-d5c5-406d-9322-5fe1b2134d2f">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=eaed6f59-801e-45d7-9518-469d0de13cad">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=934ca609-d6bc-4bf0-8233-969eb43d48bb">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=2e8d2355-d5c5-406d-9322-5fe1b2134d2f">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=cd1b18ae-bc8d-4d73-847f-4fa7ca672c88">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=67f52e93-cd57-4852-b838-a958ab9b23fb">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ed6dd20f-4c0b-48f7-a1f9-613265506835">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=cd1b18ae-bc8d-4d73-847f-4fa7ca672c88">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=67f52e93-cd57-4852-b838-a958ab9b23fb">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ed6dd20f-4c0b-48f7-a1f9-613265506835">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=cd1b18ae-bc8d-4d73-847f-4fa7ca672c88">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=67f52e93-cd57-4852-b838-a958ab9b23fb">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ed6dd20f-4c0b-48f7-a1f9-613265506835">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=cd1b18ae-bc8d-4d73-847f-4fa7ca672c88">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=67f52e93-cd57-4852-b838-a958ab9b23fb">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ed6dd20f-4c0b-48f7-a1f9-613265506835">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2003 x64 Edition</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=11f4f8f6-b8ce-4a5f-b7ed-8389ccc56473&amp;displaylang=en">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f2ca9de9-f69e-4e34-9aa9-0b320d670e04&amp;displaylang=en">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3b6ee258-b636-455b-8833-74dea6269e24&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=11f4f8f6-b8ce-4a5f-b7ed-8389ccc56473&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=f2ca9de9-f69e-4e34-9aa9-0b320d670e04&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=3b6ee258-b636-455b-8833-74dea6269e24&amp;displaylang=en">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
@@ -633,7 +633,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2d83efce-e507-4aff-ab9b-eaf1d0d6320d">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=2d83efce-e507-4aff-ab9b-eaf1d0d6320d">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 Service Pack 1 unter Windows 2000 SP4</td>
@@ -642,7 +642,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d9e4181a-05f9-4186-bdca-c95351983844">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d9e4181a-05f9-4186-bdca-c95351983844">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows XP SP2</td>
@@ -651,7 +651,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d4038dc1-8af6-4bea-82b8-eaccff4cdb28">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d4038dc1-8af6-4bea-82b8-eaccff4cdb28">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows XP Professional x64 Edition</td>
@@ -660,7 +660,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d6eeea2c-785e-4def-913e-7f121556554f&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=d6eeea2c-785e-4def-913e-7f121556554f&amp;displaylang=en">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows Server 2003 und Windows Server 2003 SP1</td>
@@ -669,7 +669,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=c6bcbe07-39c1-4705-a10d-019da3f997e5">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=c6bcbe07-39c1-4705-a10d-019da3f997e5">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows Server 2003 für Itanium-basierte Systeme und Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
@@ -678,7 +678,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=6476a14b-0d00-4f55-a438-e140e9d26849">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=6476a14b-0d00-4f55-a438-e140e9d26849">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 6 für Windows Server 2003 x64 Edition</td>
@@ -687,7 +687,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c18db204-0f2c-4dd4-b29c-0938ff1bfd7b&amp;displaylang=en">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=c18db204-0f2c-4dd4-b29c-0938ff1bfd7b&amp;displaylang=en">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Internet Explorer 7 für Windows XP SP2</td>
@@ -696,7 +696,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=ee851efd-2caf-41ce-a423-e1827de318df">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=ee851efd-2caf-41ce-a423-e1827de318df">Hoch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Internet Explorer 7 für Windows XP Professional x64 Edition</td>
@@ -705,7 +705,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ac084bbb-084d-47ac-bfda-156e34a63817&amp;displaylang=en">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=ac084bbb-084d-47ac-bfda-156e34a63817&amp;displaylang=en">Hoch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Internet Explorer 7 für Windows Server 2003 SP1</td>
@@ -714,7 +714,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=36dae010-ad1f-4e77-a353-9afa41f065ea">Niedrig</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=36dae010-ad1f-4e77-a353-9afa41f065ea">Niedrig</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Internet Explorer 7 für Windows Server 2003 mit SP1 für Itanium-basierte Systeme</td>
@@ -723,7 +723,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=631b590d-98ce-440d-b588-88cc31bb9370">Niedrig</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=631b590d-98ce-440d-b588-88cc31bb9370">Niedrig</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Internet Explorer 7 für Windows Server 2003 x64 Edition</td>
@@ -732,7 +732,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a05d1e57-6678-4c25-b5e2-98f18baa454b&amp;displaylang=en">Niedrig</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?familyid=a05d1e57-6678-4c25-b5e2-98f18baa454b&amp;displaylang=en">Niedrig</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Betroffene Office-Software:</strong></td>
@@ -747,16 +747,16 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;">Office 2000 Service Pack 3</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2ff67e78-2a08-45c9-a7ac-09678d060439">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=2ff67e78-2a08-45c9-a7ac-09678d060439">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=20e089e7-7dd3-44a4-abfe-6d8c27721683">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=20e089e7-7dd3-44a4-abfe-6d8c27721683">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Office 2000 Multilanguage Packs</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=b5a087f8-74d2-4184-9986-23ab3c4ef7f2">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=b5a087f8-74d2-4184-9986-23ab3c4ef7f2">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -765,9 +765,9 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;">Project 2000 Service Release 1</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2ff67e78-2a08-45c9-a7ac-09678d060439">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=2ff67e78-2a08-45c9-a7ac-09678d060439">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=3df54b5c-cb82-4a99-9b90-edab38ad6310">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=3df54b5c-cb82-4a99-9b90-edab38ad6310">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -775,7 +775,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=f1e61e6a-be3d-4536-af76-a11d5ce67199">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=f1e61e6a-be3d-4536-af76-a11d5ce67199">Kritisch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -783,27 +783,27 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;">Office XP Service Pack 3</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=85c5162c-fc35-40b4-ad04-add247950423">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=85c5162c-fc35-40b4-ad04-add247950423">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=c54b1fda-1237-48f7-ad19-f0830ee0e8ff">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=c54b1fda-1237-48f7-ad19-f0830ee0e8ff">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Project 2002 Service Pack 1</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=d162c366-c5e7-4850-b773-1fe669faeeaf">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=d162c366-c5e7-4850-b773-1fe669faeeaf">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=419191dc-01b8-4e2a-ba5b-71bf3066c169">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=419191dc-01b8-4e2a-ba5b-71bf3066c169">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Visio 2002 Service Pack 2</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=b4d2e182-0997-46bc-94ac-b4b0a523c51c">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=b4d2e182-0997-46bc-94ac-b4b0a523c51c">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=f50a5111-0926-4221-96df-18294230ed1e">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=f50a5111-0926-4221-96df-18294230ed1e">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -811,7 +811,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=a1ca8dd7-0622-4d66-a85f-a6586545ef9d">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=a1ca8dd7-0622-4d66-a85f-a6586545ef9d">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -819,9 +819,9 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;">Office 2003 Service Pack 2</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=6c3bcab8-0c99-4be6-8de7-71d463473a4a">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=6c3bcab8-0c99-4be6-8de7-71d463473a4a">Hoch</a></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=bb0973e7-275d-4491-9ba1-91eaea84eefd">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=bb0973e7-275d-4491-9ba1-91eaea84eefd">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
@@ -829,7 +829,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=882f8503-da72-43c9-b556-a002ec58f289">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=882f8503-da72-43c9-b556-a002ec58f289">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -838,7 +838,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=fb59798b-afe2-4103-9991-cbdd7686f9ad">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=fb59798b-afe2-4103-9991-cbdd7686f9ad">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -846,7 +846,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;">Werkzeuge und Vorlagen 1.0</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=6215bd5b-1cb3-4fed-b08c-c31a88a75ebd">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=6215bd5b-1cb3-4fed-b08c-c31a88a75ebd">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -855,7 +855,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;">Werkzeuge und Vorlagen 1.1</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=6215bd5b-1cb3-4fed-b08c-c31a88a75ebd">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=6215bd5b-1cb3-4fed-b08c-c31a88a75ebd">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -864,7 +864,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;">Werkzeuge und Vorlagen 1.5</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=6215bd5b-1cb3-4fed-b08c-c31a88a75ebd">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=6215bd5b-1cb3-4fed-b08c-c31a88a75ebd">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -873,7 +873,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;">Globaler Eingabemethoden-Editor für Office 2000 (Japanisch)</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=2ff67e78-2a08-45c9-a7ac-09678d060439">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=2ff67e78-2a08-45c9-a7ac-09678d060439">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -901,7 +901,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=a1ca8dd7-0622-4d66-a85f-a6586545ef9d">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=a1ca8dd7-0622-4d66-a85f-a6586545ef9d">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 </tr>
@@ -917,7 +917,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <tr class="odd">
 <td style="border:1px solid black;">Visual Studio .NET 2002</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=711f05a8-cd67-4702-b079-3ff79a3ab4de">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=711f05a8-cd67-4702-b079-3ff79a3ab4de">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -926,7 +926,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <tr class="even">
 <td style="border:1px solid black;">Visual Studio .NET 2002 Service Pack 1</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=124f2d2d-8cf3-47f3-a8fd-24a9facf4fa4">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=124f2d2d-8cf3-47f3-a8fd-24a9facf4fa4">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -935,7 +935,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <tr class="odd">
 <td style="border:1px solid black;">Visual Studio .NET 2003</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=a05ce727-c5b5-4022-b7a0-d8861ce99209">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=a05ce727-c5b5-4022-b7a0-d8861ce99209">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -944,7 +944,7 @@ Das Security Bulletin [MS06-016](http://www.microsoft.com/germany/technet/sicher
 <tr class="even">
 <td style="border:1px solid black;">Visual Studio .NET 2003 Service Pack 1</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=de&amp;familyid=1dd6d8e7-390b-4e02-9f16-ab9d5ef7792e">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/download/details.aspx?displaylang=de&amp;familyid=1dd6d8e7-390b-4e02-9f16-ab9d5ef7792e">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
