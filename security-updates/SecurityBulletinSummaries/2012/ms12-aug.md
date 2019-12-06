@@ -17,11 +17,11 @@ Veröffentlicht: Dienstag, 14. August 2012 | Aktualisiert: Dienstag, 11. Dezembe
 
 In diesem Bulletin Summary sind die im August 2012 veröffentlichten Security Bulletins aufgeführt.
 
-Mit der Veröffentlichung der Security Bulletins für August 2012 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 9. August 2012 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification](http://go.microsoft.com/fwlink/?linkid=217213).
+Mit der Veröffentlichung der Security Bulletins für August 2012 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 9. August 2012 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification](https://go.microsoft.com/fwlink/?linkid=217213).
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](http://technet.microsoft.com/de-de/security/dd252948.aspx).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](https://technet.microsoft.com/de-de/security/dd252948.aspx).
 
-Am Mittwoch, den 15. August 2012 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für das Security Bulletin-Webcast im August.](https://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032522490&culture=en-us) Ab diesem Datum steht dieser Webcast auf Anfrage zur Verfügung. Weitere Informationen dazu finden Sie unter [Microsoft Security Bulletin Zusammenfassungen und Webcasts.](http://technet.microsoft.com/de-de/security/bulletinarchive?y=2012&m=8)
+Am Mittwoch, den 15. August 2012 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für das Security Bulletin-Webcast im August.](https://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032522490&culture=en-us) Ab diesem Datum steht dieser Webcast auf Anfrage zur Verfügung. Weitere Informationen dazu finden Sie unter [Microsoft Security Bulletin Zusammenfassungen und Webcasts.](https://technet.microsoft.com/de-de/security/bulletinarchive?y=2012&m=8)
 
 Microsoft stellt auch Informationen bereit, anhand derer Benutzer die Prioritäten für monatliche Sicherheitsupdates und alle nicht sicherheitsrelevanten Updates festlegen können, die an demselben Tag veröffentlicht werden wie die monatlichen Sicherheitsupdates. Bitte lesen Sie den Abschnitt **Weitere Informationen**.
 
@@ -47,42 +47,42 @@ Weitere Informationen zu betroffener Software finden Sie im nächsten Abschnitt 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
 <td style="border:1px solid black;"><strong>Kumulatives Sicherheitsupdate für Internet Explorer (2722913)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt vier vertraulich gemeldete Sicherheitsanfälligkeiten in Internet Explorer. Die schwerwiegendsten Sicherheitsanfälligkeiten können Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Webseite mit Internet Explorer anzeigt. Ein Angreifer, der diese Sicherheitsanfälligkeiten erfolgreich ausnutzt, kann die gleichen Benutzerrechte wie der aktuelle Benutzer erlangen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows,<br />
 Internet Explorer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257906">MS12-053</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257906">MS12-053</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Remotedesktop kann Remotecodeausführung ermöglichen (2723135)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit im Remotedesktopprotokoll. Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Angreifer eine Reihe speziell gestalteter RDP-Pakete an ein betroffenes System sendet. Standardmäßig ist das Remotedesktopprotokoll (RDP) nicht auf jedem Windows-Betriebssystem aktiviert. Systeme, auf denen RDP nicht aktiviert ist, sind nicht gefährdet.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Windows</strong> <strong>Netzwerkkomponenten können Remotecodeausführung ermöglichen (2733594)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt vier vertraulich gemeldete Sicherheitsanfälligkeiten in Microsoft Windows. Die schwerwiegendere dieser Sicherheitsanfälligkeiten kann Remotecodeausführung ermöglichen, wenn ein Angreifer eine speziell gestaltete Antwort auf eine Windows-Druckwarteschlangenanforderung sendet. Mithilfe empfohlener Vorgehensweisen für die Firewall und standardisierten Firewallkonfigurationen können Netzwerke vor Remoteangriffen von außerhalb des Unternehmens geschützt werden. Eine bewährte Methode besteht darin, für Systeme, die direkt mit dem Internet verbunden sind, nur eine minimale Anzahl von Ports zu öffnen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=254386">MS12-060</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=254386">MS12-060</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in allgemeinen Windows-Steuerelementen kann Remotecodeausführung ermöglichen (2720573)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in den allgemeinen Windows-Steuerelementen. Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine Website besucht, die speziell gestaltete Inhalte enthält, mit denen die Sicherheitsanfälligkeit ausgenutzt werden soll. Ein Angreifer kann Benutzer jedoch nicht zum Besuch einer solchen Website zwingen. Der Angreifer muss stattdessen den Benutzer zum Besuch dieser Website verleiten, z. B. indem er den Benutzer dazu auffordert, in einer E-Mail oder einer Instant Messenger-Nachricht auf einen Link zur Website des Angreifers zu klicken. Die schädliche Datei kann auch als E-Mail-Anlage gesendet werden, aber der Angreifer muss den Benutzer dazu verleiten, die Dateianlage zu öffnen, um die Sicherheitsanfälligkeit auszunutzen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Office,<br />
@@ -91,48 +91,48 @@ Microsoft Server-Software,<br />
 Microsoft-Entwicklertools</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms12-058">MS12-058</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms12-058">MS12-058</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten</strong> <strong>in Microsoft Exchange Server WebReady Document Viewing können Remotecodeausführung ermöglichen (2740358)<br />
 </strong>Dieses Sicherheitsupdate behebt öffentlich gemeldete Sicherheitsanfälligkeiten in Microsoft Exchange Server WebReady Document Viewing. Die Sicherheitsanfälligkeiten können Remotecodeausführung im Sicherheitskontext des Transcodierungsdienstes auf dem Exchange-Server ermöglichen, wenn ein Benutzer mithilfe von Outlook Web App (OWA) eine Vorschau einer speziell gestalteten Datei anzeigt. Der Transcodierungsdienst in Exchange, der für WebReady Document Viewing verwendet wird, wird im LocalService-Konto ausgeführt. Das LocalService-Konto verfügt auf dem lokalen Computer über Mindestberechtigungen und zeigt im Netzwerk anonyme Anmeldeinformationen an.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Kein Neustart erforderlich.</td>
 <td style="border:1px solid black;">Microsoft Exchange Server</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257907">MS12-055</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257907">MS12-055</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Windows-Kernelmodustreibern kann Erhöhung von Berechtigungen ermöglichen (2731847)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeiten können eine Erhöhung von Berechtigungen ermöglichen, wenn ein Angreifer sich bei dem System anmeldet und eine speziell gestaltete Anwendung ausführt. Ein Angreifer benötigt gültige Anmeldeinformationen und muss sich lokal anmelden können, um diese Sicherheitsanfälligkeit auszunutzen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=256487">MS12-056</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=256487">MS12-056</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in den Skriptmodulen JScript und VBScript kann Remotecodeausführung ermöglichen (2706045)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in den JScript- und VBScript-Skriptmodulen unter 64-Bit-Versionen von Microsoft Windows. Wenn ein Benutzer eine speziell gestaltete Website besucht, kann diese Sicherheitsanfälligkeit Remotecodeausführung ermöglichen. Ein Angreifer kann Benutzer nicht zum Besuch einer bestimmten Website zwingen. Er muss den Benutzer zum Besuch dieser Website verleiten. Zu diesem Zweck wird der Benutzer meist dazu gebracht, in einer E-Mail oder einer Instant Messenger-Nachricht auf einen Link zur Website des Angreifers zu klicken.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257684">MS12-057</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257684">MS12-057</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Microsoft Office kann Remotecodeausführung ermöglichen (2731879)<br />
 </strong>Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in Microsoft Office. Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Datei öffnet oder eine speziell gestaltete CGM-Grafikdatei (Computer Graphics Metafile) in eine Office-Datei einbettet. Ein Angreifer, der diese Sicherheitsanfälligkeit erfolgreich ausnutzt, kann die gleichen Benutzerrechte wie der aktuelle Benutzer erlangen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Office</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=255002">MS12-059</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=255002">MS12-059</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Microsoft Visio kann Remotecodeausführung ermöglichen (2733918)<br />
 </strong>Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in Microsoft Office. Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Visio-Datei öffnet. Ein Angreifer, der diese Sicherheitsanfälligkeit erfolgreich ausnutzt, kann die gleichen Benutzerrechte wie der aktuelle Benutzer erlangen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Office</td>
@@ -147,7 +147,7 @@ In der folgenden Tabelle wird eine Bewertung der Ausnutzbarkeit aller Sicherheit
   
 **Wie verwende ich diese Tabelle?**  
   
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/security/cc998259.aspx).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/security/cc998259.aspx).
   
 In den unten stehenden Spalten bezieht sich „Aktuelle Softwareversion“ auf die Themensoftware und „Ältere Softwareversionen“ auf alle älteren, unterstützten Versionen der Themensoftware, wie sie in den Tabellen „Betroffene Software“ und „Nicht betroffene Software“ im Bulletin aufgeführt ist.
 
@@ -166,139 +166,139 @@ In den unten stehenden Spalten bezieht sich „Aktuelle Softwareversion“ auf d
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich Speicherbeschädigung bei Layout</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1526">CVE-2012-1526</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1526">CVE-2012-1526</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Vorläufig</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich Remotecodeausführung durch Zugriff auf asynchrones NULL-Objekt</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2521">CVE-2012-2521</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2521">CVE-2012-2521</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Vorläufig</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich Remotecodeausführung durch Beschädigung der virtuellen Funktionstabelle</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2522">CVE-2012-2522</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2522">CVE-2012-2522</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Vorläufig</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich Remotecodeausführung durch Ganzzahlüberlauf in JavaScript</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2523">CVE-2012-2523</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2523">CVE-2012-2523</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Vorläufig</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=256487">MS12-056</a> behebt diese Sicherheitsanfälligkeit ebenfalls.</td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=256487">MS12-056</a> behebt diese Sicherheitsanfälligkeit ebenfalls.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257906">MS12-053</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257906">MS12-053</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit im Remotedesktopprotokoll</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2526">CVE-2012-2526</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2526">CVE-2012-2526</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich Denial-of-Service im Remote Administration Protocol</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1850">CVE-2012-1850</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1850">CVE-2012-1850</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Formatzeichenfolge des Druckerwarteschlangendienstes</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1851">CVE-2012-1851</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1851">CVE-2012-1851</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Vorläufig</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Heapüberlauf im Remote Administration Protocol</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1852">CVE-2012-1852</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1852">CVE-2012-1852</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Vorläufig</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257914">MS12-054</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Stapelüberlauf im Remote Administration Protocol</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1853">CVE-2012-1853</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1853">CVE-2012-1853</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Vorläufig</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257907">MS12-055</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257907">MS12-055</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit durch Win32k-Verwendung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2527">CVE-2012-2527</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2527">CVE-2012-2527</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=256487">MS12-056</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=256487">MS12-056</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich Remotecodeausführung durch Ganzzahlüberlauf in JavaScript</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2523">CVE-2012-2523</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2523">CVE-2012-2523</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Vorläufig</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a> behebt diese Sicherheitsanfälligkeit ebenfalls.</td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=255327">MS12-052</a> behebt diese Sicherheitsanfälligkeit ebenfalls.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=257684">MS12-057</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=257684">MS12-057</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit im CGM-Dateiformat bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2524">CVE-2012-2524</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-2524">CVE-2012-2524</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">3</a> – Angreifercode unwahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms12-058">MS12-058</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms12-058">MS12-058</a></td>
 <td style="border:1px solid black;">Oracle Outside In enthält mehrere ausnutzbare Sicherheitsanfälligkeiten</td>
 <td style="border:1px solid black;">Mehrere*</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
-<td style="border:1px solid black;">*Mehrere Sicherheitsanfälligkeiten; weitere Informationen finden Sie im Bulletin <a href="http://technet.microsoft.com/de-de/security/bulletin/ms12-058">MS12-058</a>.<br />
+<td style="border:1px solid black;">*Mehrere Sicherheitsanfälligkeiten; weitere Informationen finden Sie im Bulletin <a href="https://technet.microsoft.com/de-de/security/bulletin/ms12-058">MS12-058</a>.<br />
 <br />
 Diese Sicherheitsanfälligkeiten wurden veröffentlicht.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=255002">MS12-059</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=255002">MS12-059</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Pufferüberlauf im Visio-Dateiformat DXF</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1888">CVE-2012-1888</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1888">CVE-2012-1888</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht betroffen</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=254386">MS12-060</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=254386">MS12-060</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in MSCOMCTL.OCX bezüglich Remotecodeausführung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1856">CVE-2012-1856</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1856">CVE-2012-1856</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Vorläufig</td>
 <td style="border:1px solid black;">Microsoft ist sich gezielter Angriffe bewusst, bei denen versucht wird, diese Sicherheitsanfälligkeit auszunutzen.</td>
 </tr>
@@ -330,19 +330,19 @@ Windows XP
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-052**](http://go.microsoft.com/fwlink/?linkid=255327)
+[**MS12-052**](https://go.microsoft.com/fwlink/?linkid=255327)
 </td>
 <td style="border:1px solid black;">
-[**MS12-053**](http://go.microsoft.com/fwlink/?linkid=257906)
+[**MS12-053**](https://go.microsoft.com/fwlink/?linkid=257906)
 </td>
 <td style="border:1px solid black;">
-[**MS12-054**](http://go.microsoft.com/fwlink/?linkid=257914)
+[**MS12-054**](https://go.microsoft.com/fwlink/?linkid=257914)
 </td>
 <td style="border:1px solid black;">
-[**MS12-055**](http://go.microsoft.com/fwlink/?linkid=257907)
+[**MS12-055**](https://go.microsoft.com/fwlink/?linkid=257907)
 </td>
 <td style="border:1px solid black;">
-[**MS12-056**](http://go.microsoft.com/fwlink/?linkid=256487)
+[**MS12-056**](https://go.microsoft.com/fwlink/?linkid=256487)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -350,19 +350,19 @@ Windows XP
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -449,19 +449,19 @@ Windows Server 2003
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-052**](http://go.microsoft.com/fwlink/?linkid=255327)
+[**MS12-052**](https://go.microsoft.com/fwlink/?linkid=255327)
 </td>
 <td style="border:1px solid black;">
-[**MS12-053**](http://go.microsoft.com/fwlink/?linkid=257906)
+[**MS12-053**](https://go.microsoft.com/fwlink/?linkid=257906)
 </td>
 <td style="border:1px solid black;">
-[**MS12-054**](http://go.microsoft.com/fwlink/?linkid=257914)
+[**MS12-054**](https://go.microsoft.com/fwlink/?linkid=257914)
 </td>
 <td style="border:1px solid black;">
-[**MS12-055**](http://go.microsoft.com/fwlink/?linkid=257907)
+[**MS12-055**](https://go.microsoft.com/fwlink/?linkid=257907)
 </td>
 <td style="border:1px solid black;">
-[**MS12-056**](http://go.microsoft.com/fwlink/?linkid=256487)
+[**MS12-056**](https://go.microsoft.com/fwlink/?linkid=256487)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -469,19 +469,19 @@ Windows Server 2003
 **Bewertung** **des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Niedrig**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Niedrig**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -597,19 +597,19 @@ Windows Vista
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-052**](http://go.microsoft.com/fwlink/?linkid=255327)
+[**MS12-052**](https://go.microsoft.com/fwlink/?linkid=255327)
 </td>
 <td style="border:1px solid black;">
-[**MS12-053**](http://go.microsoft.com/fwlink/?linkid=257906)
+[**MS12-053**](https://go.microsoft.com/fwlink/?linkid=257906)
 </td>
 <td style="border:1px solid black;">
-[**MS12-054**](http://go.microsoft.com/fwlink/?linkid=257914)
+[**MS12-054**](https://go.microsoft.com/fwlink/?linkid=257914)
 </td>
 <td style="border:1px solid black;">
-[**MS12-055**](http://go.microsoft.com/fwlink/?linkid=257907)
+[**MS12-055**](https://go.microsoft.com/fwlink/?linkid=257907)
 </td>
 <td style="border:1px solid black;">
-[**MS12-056**](http://go.microsoft.com/fwlink/?linkid=256487)
+[**MS12-056**](https://go.microsoft.com/fwlink/?linkid=256487)
 </td>
 </tr>
 <tr>
@@ -617,19 +617,19 @@ Windows Vista
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -714,19 +714,19 @@ Windows Server 2008
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-052**](http://go.microsoft.com/fwlink/?linkid=255327)
+[**MS12-052**](https://go.microsoft.com/fwlink/?linkid=255327)
 </td>
 <td style="border:1px solid black;">
-[**MS12-053**](http://go.microsoft.com/fwlink/?linkid=257906)
+[**MS12-053**](https://go.microsoft.com/fwlink/?linkid=257906)
 </td>
 <td style="border:1px solid black;">
-[**MS12-054**](http://go.microsoft.com/fwlink/?linkid=257914)
+[**MS12-054**](https://go.microsoft.com/fwlink/?linkid=257914)
 </td>
 <td style="border:1px solid black;">
-[**MS12-055**](http://go.microsoft.com/fwlink/?linkid=257907)
+[**MS12-055**](https://go.microsoft.com/fwlink/?linkid=257907)
 </td>
 <td style="border:1px solid black;">
-[**MS12-056**](http://go.microsoft.com/fwlink/?linkid=256487)
+[**MS12-056**](https://go.microsoft.com/fwlink/?linkid=256487)
 </td>
 </tr>
 <tr>
@@ -734,19 +734,19 @@ Windows Server 2008
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Niedrig**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Niedrig**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -860,19 +860,19 @@ Windows 7
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-052**](http://go.microsoft.com/fwlink/?linkid=255327)
+[**MS12-052**](https://go.microsoft.com/fwlink/?linkid=255327)
 </td>
 <td style="border:1px solid black;">
-[**MS12-053**](http://go.microsoft.com/fwlink/?linkid=257906)
+[**MS12-053**](https://go.microsoft.com/fwlink/?linkid=257906)
 </td>
 <td style="border:1px solid black;">
-[**MS12-054**](http://go.microsoft.com/fwlink/?linkid=257914)
+[**MS12-054**](https://go.microsoft.com/fwlink/?linkid=257914)
 </td>
 <td style="border:1px solid black;">
-[**MS12-055**](http://go.microsoft.com/fwlink/?linkid=257907)
+[**MS12-055**](https://go.microsoft.com/fwlink/?linkid=257907)
 </td>
 <td style="border:1px solid black;">
-[**MS12-056**](http://go.microsoft.com/fwlink/?linkid=256487)
+[**MS12-056**](https://go.microsoft.com/fwlink/?linkid=256487)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -880,19 +880,19 @@ Windows 7
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1037,19 +1037,19 @@ Windows Server 2008 R2
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-052**](http://go.microsoft.com/fwlink/?linkid=255327)
+[**MS12-052**](https://go.microsoft.com/fwlink/?linkid=255327)
 </td>
 <td style="border:1px solid black;">
-[**MS12-053**](http://go.microsoft.com/fwlink/?linkid=257906)
+[**MS12-053**](https://go.microsoft.com/fwlink/?linkid=257906)
 </td>
 <td style="border:1px solid black;">
-[**MS12-054**](http://go.microsoft.com/fwlink/?linkid=257914)
+[**MS12-054**](https://go.microsoft.com/fwlink/?linkid=257914)
 </td>
 <td style="border:1px solid black;">
-[**MS12-055**](http://go.microsoft.com/fwlink/?linkid=257907)
+[**MS12-055**](https://go.microsoft.com/fwlink/?linkid=257907)
 </td>
 <td style="border:1px solid black;">
-[**MS12-056**](http://go.microsoft.com/fwlink/?linkid=256487)
+[**MS12-056**](https://go.microsoft.com/fwlink/?linkid=256487)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1057,19 +1057,19 @@ Windows Server 2008 R2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Niedrig**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Niedrig**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1212,19 +1212,19 @@ Server Core-Installationsoption
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-052**](http://go.microsoft.com/fwlink/?linkid=255327)
+[**MS12-052**](https://go.microsoft.com/fwlink/?linkid=255327)
 </td>
 <td style="border:1px solid black;">
-[**MS12-053**](http://go.microsoft.com/fwlink/?linkid=257906)
+[**MS12-053**](https://go.microsoft.com/fwlink/?linkid=257906)
 </td>
 <td style="border:1px solid black;">
-[**MS12-054**](http://go.microsoft.com/fwlink/?linkid=257914)
+[**MS12-054**](https://go.microsoft.com/fwlink/?linkid=257914)
 </td>
 <td style="border:1px solid black;">
-[**MS12-055**](http://go.microsoft.com/fwlink/?linkid=257907)
+[**MS12-055**](https://go.microsoft.com/fwlink/?linkid=257907)
 </td>
 <td style="border:1px solid black;">
-[**MS12-056**](http://go.microsoft.com/fwlink/?linkid=256487)
+[**MS12-056**](https://go.microsoft.com/fwlink/?linkid=256487)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1238,10 +1238,10 @@ Keine
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -1372,13 +1372,13 @@ Microsoft Office Suites und Software
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-060**](http://go.microsoft.com/fwlink/?linkid=254386)
+[**MS12-060**](https://go.microsoft.com/fwlink/?linkid=254386)
 </td>
 <td style="border:1px solid black;">
-[**MS12-057**](http://go.microsoft.com/fwlink/?linkid=257684)
+[**MS12-057**](https://go.microsoft.com/fwlink/?linkid=257684)
 </td>
 <td style="border:1px solid black;">
-[**MS12-059**](http://go.microsoft.com/fwlink/?linkid=255002)
+[**MS12-059**](https://go.microsoft.com/fwlink/?linkid=255002)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1386,13 +1386,13 @@ Microsoft Office Suites und Software
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1511,13 +1511,13 @@ Microsoft Office Web Components
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-060**](http://go.microsoft.com/fwlink/?linkid=254386)
+[**MS12-060**](https://go.microsoft.com/fwlink/?linkid=254386)
 </td>
 <td style="border:1px solid black;">
-[**MS12-057**](http://go.microsoft.com/fwlink/?linkid=257684)
+[**MS12-057**](https://go.microsoft.com/fwlink/?linkid=257684)
 </td>
 <td style="border:1px solid black;">
-[**MS12-059**](http://go.microsoft.com/fwlink/?linkid=255002)
+[**MS12-059**](https://go.microsoft.com/fwlink/?linkid=255002)
 </td>
 </tr>
 <tr>
@@ -1525,7 +1525,7 @@ Microsoft Office Web Components
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -1561,13 +1561,13 @@ Andere Microsoft Office-Software
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-060**](http://go.microsoft.com/fwlink/?linkid=254386)
+[**MS12-060**](https://go.microsoft.com/fwlink/?linkid=254386)
 </td>
 <td style="border:1px solid black;">
-[**MS12-057**](http://go.microsoft.com/fwlink/?linkid=257684)
+[**MS12-057**](https://go.microsoft.com/fwlink/?linkid=257684)
 </td>
 <td style="border:1px solid black;">
-[**MS12-059**](http://go.microsoft.com/fwlink/?linkid=255002)
+[**MS12-059**](https://go.microsoft.com/fwlink/?linkid=255002)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1581,7 +1581,7 @@ Keine
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1636,10 +1636,10 @@ Microsoft SQL Server
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-060**](http://go.microsoft.com/fwlink/?linkid=254386)
+[**MS12-060**](https://go.microsoft.com/fwlink/?linkid=254386)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[**MS12-058**](http://technet.microsoft.com/de-de/security/bulletin/ms12-058)
+[**MS12-058**](https://technet.microsoft.com/de-de/security/bulletin/ms12-058)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1647,7 +1647,7 @@ Microsoft SQL Server
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;" colspan="2">
 Keine
@@ -1960,10 +1960,10 @@ Microsoft Commerce Server
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-060**](http://go.microsoft.com/fwlink/?linkid=254386)
+[**MS12-060**](https://go.microsoft.com/fwlink/?linkid=254386)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[**MS12-058**](http://technet.microsoft.com/de-de/security/bulletin/ms12-058)
+[**MS12-058**](https://technet.microsoft.com/de-de/security/bulletin/ms12-058)
 </td>
 </tr>
 <tr>
@@ -1971,7 +1971,7 @@ Microsoft Commerce Server
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;" colspan="2">
 Keine
@@ -2057,10 +2057,10 @@ Microsoft Exchange Server
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-060**](http://go.microsoft.com/fwlink/?linkid=254386)
+[**MS12-060**](https://go.microsoft.com/fwlink/?linkid=254386)
 </td>
 <td style="border:1px solid black;" colspan="2">
-[**MS12-058**](http://technet.microsoft.com/de-de/security/bulletin/ms12-058)
+[**MS12-058**](https://technet.microsoft.com/de-de/security/bulletin/ms12-058)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -2071,7 +2071,7 @@ Microsoft Exchange Server
 Keine
 </td>
 <td style="border:1px solid black;" colspan="2">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2137,7 +2137,7 @@ Microsoft Visual FoxPro
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-060**](http://go.microsoft.com/fwlink/?linkid=254386)
+[**MS12-060**](https://go.microsoft.com/fwlink/?linkid=254386)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -2145,7 +2145,7 @@ Microsoft Visual FoxPro
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2178,7 +2178,7 @@ Visual Basic
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS12-060**](http://go.microsoft.com/fwlink/?linkid=254386)
+[**MS12-060**](https://go.microsoft.com/fwlink/?linkid=254386)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -2186,7 +2186,7 @@ Visual Basic
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2210,47 +2210,47 @@ Tools und Anleitungen zur Erkennung und Bereitstellung
 
 **Sicherheitsportal:**
 
-Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](http://technet.microsoft.com/de-de/updatemanagement/bb245732). Im [TechNet Sicherheitscenter](http://technet.microsoft.com/de-de/security/default.aspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Verbraucher können die Seite [Sicherheit zu Hause](http://www.microsoft.com/de-de/security/default.aspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
+Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](https://technet.microsoft.com/de-de/updatemanagement/bb245732). Im [TechNet Sicherheitscenter](https://technet.microsoft.com/de-de/security/default.aspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Verbraucher können die Seite [Sicherheit zu Hause](https://www.microsoft.com/de-de/security/default.aspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
 
-Sicherheitsupdates sind unter [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) und [Windows Update](http://update.microsoft.com/windowsupdate/) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](http://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+Sicherheitsupdates sind unter [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) und [Windows Update](https://update.microsoft.com/windowsupdate/) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](https://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
 
-Benutzern von Microsoft Office für Mac kann Microsoft AutoUpdate für Mac helfen, Ihre Microsoft-Software auf dem neuesten Stand zu halten. Weitere Informationen zur Verwendung von Microsoft AutoUpdate für Mac finden Sie unter [Automatisch nach Softwareupdates suchen](http://mac2.microsoft.com/help/office/14/de-de/word/item/ffe35357-8f25-4df8-a0a3-c258526c64ea).
+Benutzern von Microsoft Office für Mac kann Microsoft AutoUpdate für Mac helfen, Ihre Microsoft-Software auf dem neuesten Stand zu halten. Weitere Informationen zur Verwendung von Microsoft AutoUpdate für Mac finden Sie unter [Automatisch nach Softwareupdates suchen](https://mac2.microsoft.com/help/office/14/de-de/word/item/ffe35357-8f25-4df8-a0a3-c258526c64ea).
 
-Außerdem können Sicherheitsupdates vom [Microsoft Update-Katalog](http://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS07-036“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](http://catalog.update.microsoft.com/v7/site/faq.aspx).
+Außerdem können Sicherheitsupdates vom [Microsoft Update-Katalog](https://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS07-036“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](https://catalog.update.microsoft.com/v7/site/faq.aspx).
 
 **Anleitungen zur Erkennung und Bereitstellung:**
 
-Microsoft stellt Anleitungen zur Erkennung und Bereitstellung von Sicherheitsupdates bereit. Diese Anleitungen enthalten Empfehlungen und Informationen, anhand derer IT-Experten verstehen können, wie die verschiedenen Tools für die Erkennung und Bereitstellung der Sicherheitsupdates verwendet werden. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 961747](http://support.microsoft.com/kb/961747/de).
+Microsoft stellt Anleitungen zur Erkennung und Bereitstellung von Sicherheitsupdates bereit. Diese Anleitungen enthalten Empfehlungen und Informationen, anhand derer IT-Experten verstehen können, wie die verschiedenen Tools für die Erkennung und Bereitstellung der Sicherheitsupdates verwendet werden. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 961747](https://support.microsoft.com/kb/961747/de).
 
 **Microsoft Baseline Security Analyzer**
 
-Der Microsoft Baseline Security Analyzer (MBSA) ermöglicht Administratoren die Überprüfung von lokalen und Remotesystemen im Hinblick auf fehlende Sicherheitsupdates sowie auf häufig falsch konfigurierte Sicherheitsparameter. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](http://technet.microsoft.com/de-de/security/cc184924.aspx).
+Der Microsoft Baseline Security Analyzer (MBSA) ermöglicht Administratoren die Überprüfung von lokalen und Remotesystemen im Hinblick auf fehlende Sicherheitsupdates sowie auf häufig falsch konfigurierte Sicherheitsparameter. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](https://technet.microsoft.com/de-de/security/cc184924.aspx).
 
 **Windows Server Update Services**
 
 Mithilfe der Windows Server Update Services (WSUS) können Administratoren die neuesten wichtigen Aktualisierungen und Sicherheitsupdates für Microsoft Windows 2000 und neuere Betriebssysteme, Office XP und höher, Exchange Server 2003 und SQL Server 2000 bis Microsoft Windows 2000 und neuere Betriebssysteme schnell und sicher bereitstellen.
 
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](http://technet.microsoft.com/de-de/windowsserver/bb332157.aspx).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](https://technet.microsoft.com/de-de/windowsserver/bb332157.aspx).
 
 **SystemCenter Configuration Manager**
 
 System Center Configuration Manager-Softwareupdateverwaltung vereinfacht die komplizierte Aufgabe des Bereitstellens und Verwaltens von Updates auf IT-Systemen im gesamten Unternehmen. Mit System Center Configuration Manager können IT-Administratoren Updates von Microsoft-Produkten auf verschiedenen Geräten bereitstellen, einschließlich Desktops, Laptops, Servern und mobilen Geräten.
 
-Die automatisierte Bewertung der Sicherheitsanfälligkeiten in System Center Configuration Manager erkennt den Bedarf an Updates und berichtet über empfohlene Aktionen. Die Softwareupdateverwaltung in System Center Configuration Manager ist auf Microsoft Windows Software Update Services (WSUS) aufgebaut, eine lange erprobte Updateinfrastruktur, die IT-Administratoren weltweit vertraut ist. Weitere Informationen dazu, wie Administratoren mithilfe von System Center Configuration Manager Updates bereitstellen können, finden Sie in [Softwareupdateverwaltung](http://www.microsoft.com/germany/systemcenter/sccm/evaluation/updatemgmt.mspx). Weitere Informationen zu System Center Configuration Manager finden Sie auf der Website [System Center Configuration Manager](http://www.microsoft.com/de-de/server/system-center/configuration-manager/default.aspx).
+Die automatisierte Bewertung der Sicherheitsanfälligkeiten in System Center Configuration Manager erkennt den Bedarf an Updates und berichtet über empfohlene Aktionen. Die Softwareupdateverwaltung in System Center Configuration Manager ist auf Microsoft Windows Software Update Services (WSUS) aufgebaut, eine lange erprobte Updateinfrastruktur, die IT-Administratoren weltweit vertraut ist. Weitere Informationen dazu, wie Administratoren mithilfe von System Center Configuration Manager Updates bereitstellen können, finden Sie in [Softwareupdateverwaltung](https://www.microsoft.com/germany/systemcenter/sccm/evaluation/updatemgmt.mspx). Weitere Informationen zu System Center Configuration Manager finden Sie auf der Website [System Center Configuration Manager](https://www.microsoft.com/de-de/server/system-center/configuration-manager/default.aspx).
 
 **Systems Management Server 2003**
 
 Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen.
 
-**Hinweis:** System Management Server 2003 wurde am 12. Januar 2010 aus dem grundlegenden Support genommen. Weitere Informationen zu Produktlebenszyklen finden Sie auf der Website [Microsoft Support Lifecycle](http://support.microsoft.com/common/international.aspx?rdpath=dm;de-de;lifecycle). Die nächste Version von SMS, System Center Configuration Manager, ist jetzt verfügbar (siehe den früheren Abschnitt, **System Center Configuration Manager**).
+**Hinweis:** System Management Server 2003 wurde am 12. Januar 2010 aus dem grundlegenden Support genommen. Weitere Informationen zu Produktlebenszyklen finden Sie auf der Website [Microsoft Support Lifecycle](https://support.microsoft.com/common/international.aspx?rdpath=dm;de-de;lifecycle). Die nächste Version von SMS, System Center Configuration Manager, ist jetzt verfügbar (siehe den früheren Abschnitt, **System Center Configuration Manager**).
 
-Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](http://www.microsoft.com/downloads/en/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f&displaylang=en). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](http://technet.microsoft.com/en-us/systemcenter/bb545936.aspx).
+Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](https://www.microsoft.com/downloads/en/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f&displaylang=en). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](https://technet.microsoft.com/en-us/systemcenter/bb545936.aspx).
 
-**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://technet.microsoft.com/en-us/library/cc917507.aspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können diese Updates mit dem Elevated Rights Deployment Tool (im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/de-de/download/details.aspx?id=1846) verfügbar) installieren.
+**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](https://technet.microsoft.com/en-us/library/cc917507.aspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können diese Updates mit dem Elevated Rights Deployment Tool (im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/de-de/download/details.aspx?id=1846) verfügbar) installieren.
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc749197), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](https://technet.microsoft.com/de-de/library/cc749197), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 
@@ -2264,53 +2264,53 @@ Microsoft hat eine aktualisierte Version des Microsoft Windows-Tools zum Entfern
 
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
--   [Microsoft Knowledge Base-Artikel 894199](http://support.microsoft.com/kb/894199/de): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
--   [Updates für Windows Server Update Services aus den vergangenen Monaten](http://technet.microsoft.com/en-us/wsus/bb456965.aspx). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
+-   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/kb/894199/de): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
+-   [Updates für Windows Server Update Services aus den vergangenen Monaten](https://technet.microsoft.com/en-us/wsus/bb456965.aspx). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
 
 #### Microsoft Active Protections Program (MAPP)
 
-Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](http://go.microsoft.com/fwlink/?linkid=215201) aufgeführt sind.
+Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](https://go.microsoft.com/fwlink/?linkid=215201) aufgeführt sind.
 
 #### Sicherheitsstrategien und Community
 
 **Strategien für die Verwaltung von Sicherheitspatches:**
 
-Auf der Seite [Patchmanagement](http://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Patchmanagement](https://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) verfügbar.
--   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](http://support.microsoft.com/kb/913086/de).
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) verfügbar.
+-   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/kb/913086/de).
 
 **IT Pro Security Community:**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](http://technet.microsoft.com/de-de/security/cc136632.aspx) Website mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](https://technet.microsoft.com/de-de/security/cc136632.aspx) Website mit anderen IT-Profis über das Thema Sicherheit.
 
 #### Danksagungen
 
-Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
+Microsoft [dankt](https://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
 
--   GWSlabs in Zusammenarbeit mit [VeriSign iDefense Labs](http://labs.idefense.com/) für den Hinweis auf ein in MS12-052 beschriebenes Problem
--   Derek Soeder, der mit dem [Beyond Security's SecuriTeam Secure Disclosure](http://www.beyondsecurity.com/ssd.html)-Programm zusammenarbeitet, für den Hinweis auf ein in MS12-052 beschriebenes Problem.
--   Sung-ting Tsai und Ming-Chieh Pan von [Trend Micro](http://www.trendmicro.com/) für den Hinweis auf ein in MS12-052 beschriebenes Problem.
--   Cris Neckar vom [Google's Chrome Security Team](http://chrome.google.com/) für den Hinweis auf ein in MS12-052 beschriebenes Problem.
+-   GWSlabs in Zusammenarbeit mit [VeriSign iDefense Labs](https://labs.idefense.com/) für den Hinweis auf ein in MS12-052 beschriebenes Problem
+-   Derek Soeder, der mit dem [Beyond Security's SecuriTeam Secure Disclosure](https://www.beyondsecurity.com/ssd.html)-Programm zusammenarbeitet, für den Hinweis auf ein in MS12-052 beschriebenes Problem.
+-   Sung-ting Tsai und Ming-Chieh Pan von [Trend Micro](https://www.trendmicro.com/) für den Hinweis auf ein in MS12-052 beschriebenes Problem.
+-   Cris Neckar vom [Google's Chrome Security Team](https://chrome.google.com/) für den Hinweis auf ein in MS12-052 beschriebenes Problem.
 -   Edward Torkington von der NCC Group für den Hinweis auf ein in MS12-053 beschriebenes Problem.
--   Yamata Li von [Palo Alto Networks](http://www.paloaltonetworks.com/) für den Hinweis auf vier in MS12-054 beschriebene Probleme.
--   [Mateusz „j00 ru“ Jurczyk](http://j00ru.vexillium.org/) von [Google Inc](http://www.google.com/) für den Hinweis auf ein in MS12-055 beschriebenes Problem.
--   Cris Neckar vom [Google's Chrome Security Team](http://chrome.google.com/) für den Hinweis auf ein in MS12-056 beschriebenes Problem.
--   [Andrei Costin](http://www.andreicostin.com) für den Hinweis auf ein in MS12-057 beschriebenes Problem.
--   Will Dorman von [CERT/CC](http://www.cert.org/) für die Zusammenarbeit mit uns an dreizehn in MS12-058 beschriebene Probleme.
--   Alexander Gavrun in Zusammenarbeit mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [TippingPoint](http://www.hpenterprisesecurity.com/products/hp-tippingpoint-network-security/) für den Hinweis auf ein in MS12-059 beschriebenes Problem.
+-   Yamata Li von [Palo Alto Networks](https://www.paloaltonetworks.com/) für den Hinweis auf vier in MS12-054 beschriebene Probleme.
+-   [Mateusz „j00 ru“ Jurczyk](https://j00ru.vexillium.org/) von [Google Inc](https://www.google.com/) für den Hinweis auf ein in MS12-055 beschriebenes Problem.
+-   Cris Neckar vom [Google's Chrome Security Team](https://chrome.google.com/) für den Hinweis auf ein in MS12-056 beschriebenes Problem.
+-   [Andrei Costin](https://www.andreicostin.com) für den Hinweis auf ein in MS12-057 beschriebenes Problem.
+-   Will Dorman von [CERT/CC](https://www.cert.org/) für die Zusammenarbeit mit uns an dreizehn in MS12-058 beschriebene Probleme.
+-   Alexander Gavrun in Zusammenarbeit mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [TippingPoint](https://www.hpenterprisesecurity.com/products/hp-tippingpoint-network-security/) für den Hinweis auf ein in MS12-059 beschriebenes Problem.
 
 #### Support
 
--   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](http://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
--   Sicherheitslösungen für IT-Experten: [TechNet Sicherheit – Problembehandlung und Support](http://technet.microsoft.com/de-de/security/bb980617.aspx)
--   So schützen Sie Ihren Computer, auf dem Windows ausgeführt wird, vor Viren und schädlicher Software: [Viruslösung und Security Center](http://support.microsoft.com/contactus/cu_sc_virsec_master)
--   Lokaler Support entsprechend Ihrem Land: [Internationaler Support](http://support.microsoft.com/common/international.aspx)
+-   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
+-   Sicherheitslösungen für IT-Experten: [TechNet Sicherheit – Problembehandlung und Support](https://technet.microsoft.com/de-de/security/bb980617.aspx)
+-   So schützen Sie Ihren Computer, auf dem Windows ausgeführt wird, vor Viren und schädlicher Software: [Viruslösung und Security Center](https://support.microsoft.com/contactus/cu_sc_virsec_master)
+-   Lokaler Support entsprechend Ihrem Land: [Internationaler Support](https://support.microsoft.com/common/international.aspx)
 
 #### Haftungsausschluss
 

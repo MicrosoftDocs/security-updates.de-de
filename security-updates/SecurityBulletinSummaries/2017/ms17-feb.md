@@ -15,7 +15,7 @@ Veröffentlicht: 21. Februar 2017
 
 In diesem Bulletin Summary sind die im Februar 2017 veröffentlichten Security Bulletins aufgeführt.
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft-Sicherheitsbulletins finden Sie unter [Technische Sicherheitsbenachrichtigungen von Microsoft](http://go.microsoft.com/fwlink/?linkid=21163).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft-Sicherheitsbulletins finden Sie unter [Technische Sicherheitsbenachrichtigungen von Microsoft](https://go.microsoft.com/fwlink/?linkid=21163).
 
 Microsoft stellt auch Informationen bereit, anhand derer Benutzer die Prioritäten für monatliche Sicherheitsupdates und alle nicht sicherheitsrelevanten Updates festlegen können, die an demselben Tag veröffentlicht werden wie die monatlichen Sicherheitsupdates. Bitte lesen Sie den Abschnitt **Weitere Informationen**.
 
@@ -53,7 +53,7 @@ Probleme</strong></td>
 <td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=839437">MS17-005</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für Adobe Flash Player (4010250)<br />
 </strong>Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Adobe Flash Player unter allen unterstützten Editionen von Windows 8.1, Windows Server 2012, Windows Server 2012 R2, Windows RT 8.1, Windows 10 und Windows 2016.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -71,7 +71,7 @@ In der folgenden Tabelle wird eine Bewertung der Ausnutzbarkeit aller Sicherheit
 
 **Wie verwende ich diese Tabelle?**  
 
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen nach der Veröffentlichung des Sicherheitsbulletins Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/de-de/security/cc998259).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen nach der Veröffentlichung des Sicherheitsbulletins Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/de-de/security/cc998259).
 
 In den nachfolgenden Spalten bezieht sich „Aktuelle Softwareversion“ auf die Themensoftware und „Ältere Softwareversionen“ auf alle älteren, unterstützten Versionen der Themensoftware, wie sie in den Tabellen „Betroffene Software“ und „Nicht betroffene Software“ im Bulletin aufgeführt ist.
 
@@ -104,7 +104,7 @@ durch Denial-of-Service**
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[APSB17-04](http://helpx.adobe.com/de/security/products/flash-player/apsb17-04.html)
+[APSB17-04](https://helpx.adobe.com/de/security/products/flash-player/apsb17-04.html)
 </td>
 <td style="border:1px solid black;">
 Die Bewertung des Schweregrads und der Updatepriorität finden Sie im Adobe Security Bulletin „APSB17-04“.
@@ -153,7 +153,7 @@ In diesen Tabellen finden Sie Informationen zu Sicherheitsupdates, die Sie mögl
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -214,7 +214,7 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Mittel**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -275,7 +275,7 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -307,7 +307,7 @@ Adobe Flash Player
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -388,7 +388,7 @@ Adobe Flash Player
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -415,7 +415,7 @@ Windows Server Update Services (WSUS), Systems Management Server (SMS) und Syste
 
 Die im Anwendungskompatibilitäts-Toolkit enthaltenen Komponenten zur Updatekompatibilitätsbewertung helfen dabei, die Vereinbarkeit von Windows-Updates mit installierten Anwendungen zu testen und zu überprüfen.
 
-Weitere Informationen zu diesen und weiteren verfügbaren Tools finden Sie unter [Sicherheitstools](http://technet.microsoft.com/de-de/security/cc297183). 
+Weitere Informationen zu diesen und weiteren verfügbaren Tools finden Sie unter [Sicherheitstools](https://technet.microsoft.com/de-de/security/cc297183). 
 
 Danksagung
 ----------
@@ -434,39 +434,39 @@ Für die Veröffentlichung des Bulletins, die am zweiten Dienstag jedes Monats s
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
 -   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/de-de/kb/894199): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
--   [Updates für Windows Server Update Services aus den vergangenen Monaten](http://technet.microsoft.com/de-de/wsus/bb456965). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
+-   [Updates für Windows Server Update Services aus den vergangenen Monaten](https://technet.microsoft.com/de-de/wsus/bb456965). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
 
 ### Microsoft Active Protections Program (MAPP)
 
-Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Anbietern von Sicherheitssoftware vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsrisiken dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](http://go.microsoft.com/fwlink/?linkid=215201) aufgeführt sind.
+Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Anbietern von Sicherheitssoftware vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsrisiken dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](https://go.microsoft.com/fwlink/?linkid=215201) aufgeführt sind.
 
 ### Sicherheitsstrategien und Community
 
 **Updateverwaltungsstrategien**
 
-Auf der Seite [Update Management](http://go.microsoft.com/fwlink/?linkid=21168) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Update Management](https://go.microsoft.com/fwlink/?linkid=21168) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsanfälligkeiten sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://go.microsoft.com/fwlink/?linkid=21129) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=21129) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
 -   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/de-de/kb/913086).
 
 **IT Pro Security Community**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie in der [IT-Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164) mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie in der [IT-Pro Security Community](https://go.microsoft.com/fwlink/?linkid=21164) mit anderen IT-Profis über das Thema Sicherheit.
 
 ### Support
 
-Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](http://go.microsoft.com/fwlink/?linkid=21742), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
+Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://go.microsoft.com/fwlink/?linkid=21742), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
 
-Sicherheitslösungen für IT-Experten: [TechNet Security – Problembehandlung und Support](http://technet.microsoft.com/de-de/security/bb980617)
+Sicherheitslösungen für IT-Experten: [TechNet Security – Problembehandlung und Support](https://technet.microsoft.com/de-de/security/bb980617)
 
-So schützen Sie Ihren Computer, auf dem Windows ausgeführt wird, vor Viren und schädlicher Software: [Safety and Security Center](http://support.microsoft.com/de-de/contactus/cu_sc_virsec_master)
+So schützen Sie Ihren Computer, auf dem Windows ausgeführt wird, vor Viren und schädlicher Software: [Safety and Security Center](https://support.microsoft.com/de-de/contactus/cu_sc_virsec_master)
 
-Lokaler Support entsprechend Ihrem Land: [Internationaler Support](http://support.microsoft.com/de-de/common/international.aspx)
+Lokaler Support entsprechend Ihrem Land: [Internationaler Support](https://support.microsoft.com/de-de/common/international.aspx)
 
 ### Haftungsausschluss
 

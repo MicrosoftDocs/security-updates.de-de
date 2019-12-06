@@ -15,18 +15,18 @@ Veröffentlicht: Dienstag, 13. März 2007
 
 **Version:** 1.0
 
-Eine Endbenutzerfassung dieser Informationen finden Sie [hier](http://www.microsoft.com/germany/sicherheit/default.mspx).
+Eine Endbenutzerfassung dieser Informationen finden Sie [hier](https://www.microsoft.com/germany/sicherheit/default.mspx).
 
 **Schützen Sie Ihren PC:** Informationen dazu, wie Sie Ihren PC schützen können, finden Sie auch auf folgenden Webseiten:
 
--   [Für Heimanwender](http://www.microsoft.com/germany/athome/security/default.mspx)
--   [Für IT-Profis und Entwickler](http://www.microsoft.com/germany/technet/sicherheit/default.mspx)
+-   [Für Heimanwender](https://www.microsoft.com/germany/athome/security/default.mspx)
+-   [Für IT-Profis und Entwickler](https://www.microsoft.com/germany/technet/sicherheit/default.mspx)
 
-**Strategien für die Verwaltung von Sicherheitspatches:** Nutzen Sie den [Microsoft-Leitfaden zur Sicherheitspatch-Verwaltung](http://www.microsoft.com/germany/technet/datenbank/articles/900193.mspx). Er enthält Best Practices und von Microsoft empfohlene Vorgehensweisen für die Bereitstellung, Verteilung und Installation von Sicherheitsupdates in Ihrer IT-Umgebung.
+**Strategien für die Verwaltung von Sicherheitspatches:** Nutzen Sie den [Microsoft-Leitfaden zur Sicherheitspatch-Verwaltung](https://www.microsoft.com/germany/technet/datenbank/articles/900193.mspx). Er enthält Best Practices und von Microsoft empfohlene Vorgehensweisen für die Bereitstellung, Verteilung und Installation von Sicherheitsupdates in Ihrer IT-Umgebung.
 
-**IT Pro Security Zone Community:** Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone Website](http://go.microsoft.com/fwlink/?linkid=21164) mit anderen IT-Profis über das Thema Sicherheit.
+**IT Pro Security Zone Community:** Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone Website](https://go.microsoft.com/fwlink/?linkid=21164) mit anderen IT-Profis über das Thema Sicherheit.
 
-**Microsoft Security Notification Service:** Abonnieren Sie die [Microsoft-Sicherheitsbenachrichtigungen](http://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx), um automatisch eine E-Mail-Benachrichtigung zu erhalten, sobald ein Microsoft Security Bulletin veröffentlicht wird.
+**Microsoft Security Notification Service:** Abonnieren Sie die [Microsoft-Sicherheitsbenachrichtigungen](https://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx), um automatisch eine E-Mail-Benachrichtigung zu erhalten, sobald ein Microsoft Security Bulletin veröffentlicht wird.
 
 #### Sicherheitsupdates
 
@@ -39,27 +39,27 @@ Bereitstellung
 
 Mit den Microsoft Software Update Services (SUS) können Sie als IT-Administrator neue wichtige Updates, Hotfixes oder Patches schnell und zuverlässig auf den Servern und Desktop-Computern in Ihrem Netzwerk bereitstellen. Die SUS unterstützen die Produkte der Windows 2000 Server- und Windows Server 2003-Familie sowie Windows 2000 Professional und Windows XP Professional.
 
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mit Software Update Services finden Sie auf der Website zu [Software Update Services](http://go.microsoft.com/fwlink/?linkid=21133).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mit Software Update Services finden Sie auf der Website zu [Software Update Services](https://go.microsoft.com/fwlink/?linkid=21133).
 
 **Windows Server Update Services:**
 
 Mithilfe der Windows Server Update Services (WSUS), können Administratoren die neuesten wichtigen Aktualisierungen und Sicherheitsupdates für Windows 2000 und höher, Office XP und höher, Exchange Server 2003 und SQL Server 2000 schnell und zuverlässig bereitstellen.
 
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services-Website](http://www.microsoft.com/germany/windowsserver2003/technologien/updateservices/default.mspx).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services-Website](https://www.microsoft.com/germany/windowsserver2003/technologien/updateservices/default.mspx).
 
 **Systems Management Server:**
 
-Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie auf der Website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/smserver/default.mspx).
+Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie auf der Website [SMS 2003 Security Patch Management](https://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](https://go.microsoft.com/fwlink/?linkid=33340) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](https://www.microsoft.com/germany/smserver/default.mspx).
 
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und dem Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://go.microsoft.com/fwlink/?linkid=33341). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/germany/smserver/downloads/default.mspx) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und dem Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](https://go.microsoft.com/fwlink/?linkid=33341). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/germany/smserver/downloads/default.mspx) und im [SMS 2.0 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
 
 **Microsoft Baseline Security Analyzer:**
 
-Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
+Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
 
 **Anleitungen zur Erkennung und Bereitstellung:**
 
-Microsoft stellt zusätzliche Anleitung zur Erkennung und Bereitstellung von Sicherheitsupdates bereit. Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS), Extended Security Update Inventory Tool und Enterprise Update Scan Tool (EST). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](http://support.microsoft.com/default.aspx?scid=kb;en-us;910723).
+Microsoft stellt zusätzliche Anleitung zur Erkennung und Bereitstellung von Sicherheitsupdates bereit. Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS), Extended Security Update Inventory Tool und Enterprise Update Scan Tool (EST). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](https://support.microsoft.com/default.aspx?scid=kb;en-us;910723).
 
 #### Weitere Informationen:
 
@@ -80,24 +80,24 @@ Diese Informationen gelten **nur** für wichtige, **nicht sicherheitsrelevante**
 
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?pocid=&freetext=sicherheitsupdate&displaylang=de) verfügbar und können am einfachsten durch eine Schlüsselwortsuche nach dem Begriff „security\_patch“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?pocid=&freetext=sicherheitsupdate&displaylang=de) verfügbar und können am einfachsten durch eine Schlüsselwortsuche nach dem Begriff „security\_patch“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
 
 **Support:**
 
--   Technischer Support ist über die [Microsoft Support Services](http://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.
--   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](http://go.microsoft.com/fwlink/?linkid=21155).
+-   Technischer Support ist über die [Microsoft Support Services](https://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.
+-   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](https://go.microsoft.com/fwlink/?linkid=21155).
 
 **Sicherheitsressourcen:**
 
--   Die Website [TechNet Sicherheit](http://www.microsoft.com/germany/technet/sicherheit/default.mspx) bietet weitere Informationen zur Sicherheit von Microsoft-Produkten.
--   [Microsoft Software Update Services](http://go.microsoft.com/fwlink/?linkid=21133)
--   [Microsoft Windows Server Update Services](http://www.microsoft.com/germany/windowsserver2003/technologien/updateservices/default.mspx)
--   [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx) (MBSA)
--   [Microsoft Update](http://update.microsoft.com/microsoftupdate)
--   [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130)
--   Windows Update-Katalog: Weitere Informationen zum Windows Update-Katalog finden Sie im [Microsoft Knowledge Base-Artikel 323166](http://support.microsoft.com/default.aspx?scid=kb;en-us;323166).
--   [Office Update](http://office.microsoft.com/de-de/officeupdate/default.aspx)
+-   Die Website [TechNet Sicherheit](https://www.microsoft.com/germany/technet/sicherheit/default.mspx) bietet weitere Informationen zur Sicherheit von Microsoft-Produkten.
+-   [Microsoft Software Update Services](https://go.microsoft.com/fwlink/?linkid=21133)
+-   [Microsoft Windows Server Update Services](https://www.microsoft.com/germany/windowsserver2003/technologien/updateservices/default.mspx)
+-   [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx) (MBSA)
+-   [Microsoft Update](https://update.microsoft.com/microsoftupdate)
+-   [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130)
+-   Windows Update-Katalog: Weitere Informationen zum Windows Update-Katalog finden Sie im [Microsoft Knowledge Base-Artikel 323166](https://support.microsoft.com/default.aspx?scid=kb;en-us;323166).
+-   [Office Update](https://office.microsoft.com/de-de/officeupdate/default.aspx)
 
 **Haftungsausschluss:**
 

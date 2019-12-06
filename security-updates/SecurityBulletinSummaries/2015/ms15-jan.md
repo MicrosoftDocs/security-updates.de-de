@@ -15,7 +15,7 @@ Veröffentlicht: 13. Januar 2015
 
 In diesem Bulletin Summary sind die im Januar 2015 veröffentlichten Security Bulletins aufgeführt.
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](http://technet.microsoft.com/de-de/security/dd252948.aspx).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](https://technet.microsoft.com/de-de/security/dd252948.aspx).
 
 Microsoft stellt auch Informationen bereit, anhand derer Benutzer die Prioritäten für monatliche Sicherheitsupdates und alle nicht sicherheitsrelevanten Updates festlegen können, die an demselben Tag veröffentlicht werden wie die monatlichen Sicherheitsupdates. Bitte lesen Sie den Abschnitt **Weitere Informationen**.
 
@@ -44,81 +44,81 @@ Weitere Informationen zu betroffener Software finden Sie im nächsten Abschnitt 
 <td style="border:1px solid black;"><strong>Betroffene Software</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522536">MS15-001</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522536">MS15-001</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsrisiko in Windows Application Compatibility-Cache kann Rechteerweiterungen ermöglichen (3023266)<br />
 <br />
 </strong>Dieses Sicherheitsupdate behebt ein öffentlich gemeldetes Sicherheitsrisiko in Microsoft Windows. Das Sicherheitsrisiko kann Rechteerweiterungen ermöglichen, wenn ein Angreifer sich bei einem System anmeldet und eine speziell gestaltete Anwendung ausführt. Ein authentifizierter Angreifer, der dieses Sicherheitsrisiko erfolgreich ausnutzt, kann vorhandene Berechtigungsprüfungen, die während der Cacheänderung in der Komponente Microsoft Windows Application Compatibility durchgeführt werden, umgehen und beliebigen Code mit erhöhten Berechtigungen ausführen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
 Rechteerweiterungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522537">MS15-002</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522537">MS15-002</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsrisiko im Windows-Telnetdienst kann Remotecodeausführung ermöglichen (3020393)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt ein vertraulich gemeldetes Sicherheitsrisiko in Microsoft Windows. Das Sicherheitsrisiko kann Remotecodeausführung ermöglichen, wenn ein Angreifer eine Reihe speziell gestalteter Pakete an einen betroffenen Windows-Server sendet. Standardmäßig wird Telnet unter keiner Version der betroffenen Betriebssysteme installiert. Nur Computer von Kunden, die diesen Dienst manuell installieren, können anfällig sein.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch </a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch </a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522528">MS15-003</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522528">MS15-003</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsrisiko in Windows-User Profile Service kann Rechteerweiterungen ermöglichen (3021674)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt ein öffentlich gemeldetes Sicherheitsrisiko in Microsoft Windows. Das Sicherheitsrisiko kann Rechteerweiterungen ermöglichen, wenn ein Angreifer sich bei dem System anmeldet und eine speziell gestaltete Anwendung ausführt. Ein lokaler Angreifer, der dieses Sicherheitsrisiko erfolgreich ausnutzt, kann auf einem Zielsystem beliebigen Code mit höheren Berechtigungen ausführen. Ein Angreifer benötigt gültige Anmeldeinformationen und muss sich lokal anmelden können, um dieses Sicherheitsrisiko auszunutzen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
 Rechteerweiterungen</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522521">MS15-004</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522521">MS15-004</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsrisiko in Windows-Komponenten kann Rechteerweiterungen ermöglichen (3025421)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt ein vertraulich gemeldetes Sicherheitsrisiko in Microsoft Windows. Das Sicherheitsrisiko kann Rechteerweiterungen ermöglichen, wenn ein Angreifer einen Benutzer dazu verleitet, eine speziell gestaltete Anwendung auszuführen. Ein Angreifer, der das Sicherheitsrisiko erfolgreich ausnutzt, kann die gleichen Benutzerrechte erlangen wie der aktuelle Benutzer. Wenn der aktuelle Benutzer mit Administratorbenutzerrechten angemeldet ist, kann ein Angreifer Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen Benutzerrechten erstellen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für jene, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
 Rechteerweiterungen</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522531">MS15-005</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522531">MS15-005</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsrisiko im Dienst für Netzwerkadressinformationen kann Umgehung von Sicherheitsfunktionen ermöglichen (3022777)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt ein vertraulich gemeldetes Sicherheitsrisiko in Microsoft Windows. Das Sicherheitsrisiko kann die Umgehung von Sicherheitsfunktionen ermöglichen, indem die Firewallrichtlinie und/oder die Konfiguration bestimmter Dienste ungewollt gelockert wird, wenn ein Angreifer im selben Netzwerk wie das Opfer Antworten auf vom Opfer initiierten DNS- und LDAP-Verkehr vortäuscht.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
 Umgehung der Sicherheitsfunktion</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522535">MS15-006</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522535">MS15-006</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsrisiko in Windows-Fehlerberichterstattung kann Umgehung der Sicherheitsfunktion ermöglichen (3004365)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt ein vertraulich gemeldetes Sicherheitsrisiko in der Windows-Fehlerberichterstattung (WER: Windows Error Reporting). Das Sicherheitsrisiko kann die Umgehung von Sicherheitsfunktionen ermöglichen, wenn es von einem Angreifer erfolgreich ausgenutzt wird. Ein Angreifer, der dieses Sicherheitsrisiko erfolgreich ausnutzt, kann Zugriff auf den Arbeitsspeicher eines zurzeit ausgeführten Prozesses erlangen. Benutzer mit Konten, die über weniger Systemrechte verfügen, sind davon möglicherweise weniger betroffen als Benutzer mit Administratorrechten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
 Umgehung der Sicherheitsfunktion</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=519134">MS15-007</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=519134">MS15-007</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsrisiko in RADIUS-Implementierung des Netzwerkrichtlinienservers kann Denial-of-Service-Angriffe ermöglichen (3014029)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt ein vertraulich gemeldetes Sicherheitsrisiko in Microsoft Windows. Das Sicherheitsrisiko kann einen Denial-of-Service-Angriff auf einen Internetauthentifizierungsdienst (IAS: Internet Authentication Service) oder Netzwerkrichtlinienserver (NPS: Network Policy Server) ermöglichen, wenn ein Angreifer speziell gestaltete Benutzernamenszeichenfolgen an den IAS oder NPS sendet. Beachten Sie, dass ein Sicherheitsrisiko vom Typ Denial-of-Service einem Angreifer keine Codeausführung oder Rechteerweiterungen ermöglicht. Allerdings kann dadurch die RADIUS-Authentifizierung auf dem IAS oder NPS verhindert werden.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
 DoS (Denial of Service)</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522533">MS15-008</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522533">MS15-008</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsrisiko in Windows-Kernelmodustreiber kann Rechteerweiterungen ermöglichen (3019215)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt ein vertraulich gemeldetes Sicherheitsrisiko in Microsoft Windows. Das Sicherheitsrisiko kann Rechterweiterungen ermöglichen, wenn ein Angreifer eine speziell gestaltete Anwendung auf einem betroffenen System ausführt. Ein Angreifer benötigt gültige Anmeldeinformationen und muss sich lokal anmelden können, um dieses Sicherheitsrisiko auszunutzen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Wichtig</a> <br />
 Rechteerweiterungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
@@ -135,7 +135,7 @@ In der folgenden Tabelle wird eine Bewertung der Ausnutzbarkeit aller Sicherheit
   
 **Wie verwende ich diese Tabelle?**  
   
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/de-de/security/cc998259).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/de-de/security/cc998259).
   
 In den nachfolgenden Spalten bezieht sich „Aktuelle Softwareversion“ auf die Themensoftware und „Ältere Softwareversionen“ auf alle älteren, unterstützten Versionen der Themensoftware, wie sie in den Tabellen „Betroffene Software“ und „Nicht betroffene Software“ im Bulletin aufgeführt ist.
  
@@ -161,9 +161,9 @@ In den nachfolgenden Spalten bezieht sich „Aktuelle Softwareversion“ auf die
 <td style="border:1px solid black;"><strong>Wichtige Hinweise</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522536">MS15-001</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522536">MS15-001</a></td>
 <td style="border:1px solid black;">Sicherheitsrisiko in Windows Application Compatibility-Infrastruktur bezüglich Rechteerweiterungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0002">CVE-2015-0002</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0002">CVE-2015-0002</a></td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht zutreffend</td>
@@ -172,18 +172,18 @@ In den nachfolgenden Spalten bezieht sich „Aktuelle Softwareversion“ auf die
 Dieses Sicherheitsrisiko kann für die Erhöhung von Berechtigungen ausgenutzt werden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522537">MS15-002</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522537">MS15-002</a></td>
 <td style="border:1px solid black;">Pufferüberlauf-Sicherheitsrisiko beim Windows-Telnetdienst</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0014">CVE-2015-0014</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0014">CVE-2015-0014</a></td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">Dieses Sicherheitsrisiko kann Remotecodeausführung ermöglichen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522528">MS15-003</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522528">MS15-003</a></td>
 <td style="border:1px solid black;">Sicherheitsrisiko in Windows-User Profile Service bezüglich Rechteerweiterungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0004">CVE-2015-0004</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0004">CVE-2015-0004</a></td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht zutreffend</td>
@@ -192,9 +192,9 @@ Dieses Sicherheitsrisiko kann für die Erhöhung von Berechtigungen ausgenutzt w
 Dieses Sicherheitsrisiko kann für die Erhöhung von Berechtigungen ausgenutzt werden.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522521">MS15-004</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522521">MS15-004</a></td>
 <td style="border:1px solid black;">Sicherheitsrisiko durch Verzeichnisüberquerung kann Rechteerweiterungen ermöglichen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0016">CVE-2015-0016</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0016">CVE-2015-0016</a></td>
 <td style="border:1px solid black;">0 - Ausnutzung erkannt</td>
 <td style="border:1px solid black;">0 - Ausnutzung erkannt</td>
 <td style="border:1px solid black;">Nicht zutreffend</td>
@@ -203,36 +203,36 @@ Dieses Sicherheitsrisiko kann für die Erhöhung von Berechtigungen ausgenutzt w
 Dieses Sicherheitsrisiko wird in begrenzten, gezielten Angriffen als Sandbox-Umgehung verwendet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522531">MS15-005</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522531">MS15-005</a></td>
 <td style="border:1px solid black;">Sicherheitsrisiko in NLA bezüglich Umgehung von Sicherheitsfunktionen – CVE-2015-0006</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0006">CVE-2015-0006</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0006">CVE-2015-0006</a></td>
 <td style="border:1px solid black;">3 - Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">3 - Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">Nicht zutreffend</td>
 <td style="border:1px solid black;">Dies ist ein Sicherheitsrisiko, das eine Umgehung von Sicherheitsfunktionen ermöglicht.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522535">MS15-006</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522535">MS15-006</a></td>
 <td style="border:1px solid black;">Sicherheitsrisiko in Windows-Fehlerberichterstattung kann Umgehung der Sicherheitsfunktion ermöglichen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0001">CVE-2015-0001</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0001">CVE-2015-0001</a></td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht zutreffend</td>
 <td style="border:1px solid black;">Dies ist ein Sicherheitsrisiko, das eine Umgehung von Sicherheitsfunktionen ermöglicht.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=519134">MS15-007</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=519134">MS15-007</a></td>
 <td style="border:1px solid black;">Sicherheitsrisiko in RADIUS-Implementierung von Netzwerkrichtlinienserver bezüglich Denial-of-Service-Angriffen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0015">CVE-2015-0015</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0015">CVE-2015-0015</a></td>
 <td style="border:1px solid black;">3 - Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">3 - Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">Dieses Sicherheitsrisiko kann auch zu einer Dienstverweigerung (Denial-of-Service) führen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=522533">MS15-008</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=522533">MS15-008</a></td>
 <td style="border:1px solid black;">WebDAV-Sicherheitsrisiko bezüglich Rechteerweiterungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0011">CVE-2015-0011</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-0011">CVE-2015-0011</a></td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 - Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht zutreffend</td>
@@ -266,28 +266,28 @@ In diesen Tabellen finden Sie Informationen zu Sicherheitsupdates, die Sie mögl
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -298,25 +298,25 @@ In diesen Tabellen finden Sie Informationen zu Sicherheitsupdates, die Sie mögl
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-**Keine**
-</td>
-<td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+**Keine**
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -443,28 +443,28 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -475,25 +475,25 @@ Windows Server 2003 mit SP2 für Itanium-basierte Systeme
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-**Keine**
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+**Keine**
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -584,28 +584,28 @@ Windows Vista x64 Edition Service Pack 2
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -616,25 +616,25 @@ Windows Vista x64 Edition Service Pack 2
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-**Keine**
-</td>
-<td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+**Keine**
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -760,28 +760,28 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -789,28 +789,28 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-**Keine**
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+**Keine**
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -917,28 +917,28 @@ Windows 7 für x64-basierte Systeme Service Pack 1
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -946,28 +946,28 @@ Windows 7 für x64-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1068,28 +1068,28 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -1097,28 +1097,28 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1303,28 +1303,28 @@ Windows 8.1 für x64-basierte Systeme
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -1332,28 +1332,28 @@ Windows 8.1 für x64-basierte Systeme
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1456,28 +1456,28 @@ Windows Server 2012 R2
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -1485,28 +1485,28 @@ Windows Server 2012 R2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-**Keine**
-</td>
-<td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+**Keine**
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1597,28 +1597,28 @@ Windows RT 8.1
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS15-001**](http://go.microsoft.com/fwlink/?linkid=522536)
+[**MS15-001**](https://go.microsoft.com/fwlink/?linkid=522536)
 </td>
 <td style="border:1px solid black;">
-[**MS15-002**](http://go.microsoft.com/fwlink/?linkid=522537)
+[**MS15-002**](https://go.microsoft.com/fwlink/?linkid=522537)
 </td>
 <td style="border:1px solid black;">
-[**MS15-003**](http://go.microsoft.com/fwlink/?linkid=522528)
+[**MS15-003**](https://go.microsoft.com/fwlink/?linkid=522528)
 </td>
 <td style="border:1px solid black;">
-[**MS15-004**](http://go.microsoft.com/fwlink/?linkid=522521)
+[**MS15-004**](https://go.microsoft.com/fwlink/?linkid=522521)
 </td>
 <td style="border:1px solid black;">
-[**MS15-005**](http://go.microsoft.com/fwlink/?linkid=522531)
+[**MS15-005**](https://go.microsoft.com/fwlink/?linkid=522531)
 </td>
 <td style="border:1px solid black;">
-[**MS15-006**](http://go.microsoft.com/fwlink/?linkid=522535)
+[**MS15-006**](https://go.microsoft.com/fwlink/?linkid=522535)
 </td>
 <td style="border:1px solid black;">
-[**MS15-007**](http://go.microsoft.com/fwlink/?linkid=519134)
+[**MS15-007**](https://go.microsoft.com/fwlink/?linkid=519134)
 </td>
 <td style="border:1px solid black;">
-[**MS15-008**](http://go.microsoft.com/fwlink/?linkid=522533)
+[**MS15-008**](https://go.microsoft.com/fwlink/?linkid=522533)
 </td>
 </tr>
 <tr>
@@ -1626,22 +1626,22 @@ Windows RT 8.1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1857,7 +1857,7 @@ Windows Server Update Services (WSUS), Systems Management Server (SMS) und Syste
 
 Die im Anwendungskompatibilitäts-Toolkit enthaltenen Komponenten zur Updatekompatibilitätsbewertung helfen dabei, die Vereinbarkeit von Windows-Updates mit installierten Anwendungen zu testen und zu überprüfen.
 
-Weitere Informationen zu diesen und weiteren verfügbaren Tools finden Sie unter [Sicherheitstools](http://technet.microsoft.com/de-de/security/cc297183).
+Weitere Informationen zu diesen und weiteren verfügbaren Tools finden Sie unter [Sicherheitstools](https://technet.microsoft.com/de-de/security/cc297183).
 
 Danksagung
 ----------
@@ -1876,39 +1876,39 @@ Für die Veröffentlichung des Bulletins, die am zweiten Dienstag jedes Monats s
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
 -   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/kb/894199/de): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
--   [Updates für Windows Server Update Services aus den vergangenen Monaten](http://technet.microsoft.com/de-de/windowsserver/bb332157.aspx). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
+-   [Updates für Windows Server Update Services aus den vergangenen Monaten](https://technet.microsoft.com/de-de/windowsserver/bb332157.aspx). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
 
 ### Microsoft Active Protections Program (MAPP)
 
-Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsrisiken bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsrisiken dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](http://technet.microsoft.com/de-de/security/dn467918) aufgeführt sind.
+Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsrisiken bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsrisiken dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](https://technet.microsoft.com/de-de/security/dn467918) aufgeführt sind.
 
 ### Sicherheitsstrategien und Community
 
 **Updateverwaltungsstrategien**
 
-Auf der Seite [Patchmanagement](http://technet.microsoft.com/de-de/library/bb466251.aspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Patchmanagement](https://technet.microsoft.com/de-de/library/bb466251.aspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=de-de) verfügbar.
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=de-de) verfügbar.
 -   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/kb/913086/de).
 
 **IT Pro Security Community**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](http://technet.microsoft.com/de-de/security/cc136632.aspx) Website mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](https://technet.microsoft.com/de-de/security/cc136632.aspx) Website mit anderen IT-Profis über das Thema Sicherheit.
 
 ### Support
 
-Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](http://go.microsoft.com/fwlink/?linkid=21742), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
+Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://go.microsoft.com/fwlink/?linkid=21742), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
 
-Sicherheitslösungen für IT-Profis: [TechNet Security – Problembehandlung und Support](http://technet.microsoft.com/de-de/security/bb980617)
+Sicherheitslösungen für IT-Profis: [TechNet Security – Problembehandlung und Support](https://technet.microsoft.com/de-de/security/bb980617)
 
-Hilfe beim Schützen des Computers, auf dem Windows ausgeführt wird, vor Viren und Schadsoftware: [Safety and Security Center](http://www.microsoft.com/de-de/security/default.aspx)
+Hilfe beim Schützen des Computers, auf dem Windows ausgeführt wird, vor Viren und Schadsoftware: [Safety and Security Center](https://www.microsoft.com/de-de/security/default.aspx)
 
-Lokaler Support entsprechend Ihrem Land: [Internationaler Support](http://support.microsoft.com/common/international.aspx?ln=de)
+Lokaler Support entsprechend Ihrem Land: [Internationaler Support](https://support.microsoft.com/common/international.aspx?ln=de)
 
 ### Haftungsausschluss
 

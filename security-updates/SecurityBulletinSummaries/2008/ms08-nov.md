@@ -17,11 +17,11 @@ Veröffentlicht: Dienstag, 11. November 2008 | Aktualisiert: Dienstag, 12. Juli 
 
 In diesem Bulletin Summary sind die im November 2008 veröffentlichten Security Bulletins aufgeführt.
 
-Mit der Veröffentlichung der Bulletins für November 2008 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 6. November 2008 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification.](http://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx)
+Mit der Veröffentlichung der Bulletins für November 2008 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 6. November 2008 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification.](https://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx)
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](http://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](https://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx).
 
-Am Mittwoch, den 12. November 2008 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für das Security Bulletin-Webcast im November.](http://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032374642) Ab diesem Datum steht dieser Webcast auf Anfrage zur Verfügung. Weitere Informationen dazu finden Sie unter [Microsoft Security Bulletin Zusammenfassungen und Webcasts.](http://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx)
+Am Mittwoch, den 12. November 2008 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für das Security Bulletin-Webcast im November.](https://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032374642) Ab diesem Datum steht dieser Webcast auf Anfrage zur Verfügung. Weitere Informationen dazu finden Sie unter [Microsoft Security Bulletin Zusammenfassungen und Webcasts.](https://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx)
 
 Microsoft stellt auch Informationen bereit, anhand derer Benutzer die Prioritäten für monatliche Sicherheitsupdates und alle nicht sicherheitsrelevanten wichtigen Updates festlegen können, die an demselben Tag veröffentlicht werden wie die monatlichen Sicherheitsupdates. Bitte lesen Sie den Abschnitt **Weitere Informationen**.
 
@@ -37,9 +37,9 @@ Kritisch (1)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS08-069                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft XML Core Services können Remotecodeausführung ermöglichen (955218)**](http://go.microsoft.com/fwlink/?linkid=128803)                                                                                                                                                                                                                                                                                            |
+| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft XML Core Services können Remotecodeausführung ermöglichen (955218)**](https://go.microsoft.com/fwlink/?linkid=128803)                                                                                                                                                                                                                                                                                            |
 | **Kurzzusammenfassung**                     | Dieses Sicherheitsupdate behebt mehrere Sicherheitsanfälligkeiten in Microsoft XML Core Services. Die schwerste Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Webseite mit Internet Explorer anzeigt. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten. |
-| **Bewertung des maximalen Schweregrads:**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                                                                                                                                                                                                                       |
+| **Bewertung des maximalen Schweregrads:**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                                                                                                                                                                                                                       |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                                                                                                                                                                                                                                                                                               |
 | **Betroffene Software:**                    | **Microsoft Windows.** Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                                                                                                                                                                                                                                                          |
@@ -50,9 +50,9 @@ Hoch (1)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS08-068                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in SMB kann Remotecodeausführung ermöglichen (957097)**](http://go.microsoft.com/fwlink/?linkid=133434)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in SMB kann Remotecodeausführung ermöglichen (957097)**](https://go.microsoft.com/fwlink/?linkid=133434)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Kurzzusammenfassung**                     | Dieses Sicherheitsupdate behebt eine öffentlich gemeldete Sicherheitsanfälligkeit im Microsoft SMB-Protokoll (Server Message Block). Die Sicherheitsanfälligkeit kann auf betroffenen Systemen Remotecodeausführung ermöglichen. Ein Angreifer, der diese Sicherheitsanfälligkeit erfolgreich ausnutzt, kann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen Benutzerrechten erstellen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten. |
-| **Bewertung des maximalen Schweregrads:**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Bewertung des maximalen Schweregrads:**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Für dieses Update ist ein Neustart erforderlich.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Betroffene Software:**                    | **Microsoft Windows.** Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -62,14 +62,14 @@ Ausnutzbarkeitsindex
 
 **Wie verwende ich diese Tabelle?**  
 
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen funktionierender Angreifercode veröffentlicht wird. Sie sollten sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen ansehen, um Prioritäten für Ihre Bereitstellung festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/de-de/security/cc998259).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen funktionierender Angreifercode veröffentlicht wird. Sie sollten sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen ansehen, um Prioritäten für Ihre Bereitstellung festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/de-de/security/cc998259).
 
 | Kennung des Bulletins                                     | Titel des Bulletins                                                                                                                                        | CVE-ID                                                                           | Ausnutzbarkeitsindex - Bewertung                                                                        | Wichtige Hinweise                                                                                                                            |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [MS08-068](http://go.microsoft.com/fwlink/?linkid=133434) | [Sicherheitsanfälligkeit in SMB kann Remotecodeausführung ermöglichen (957097)](http://go.microsoft.com/fwlink/?linkid=133434)                             | [CVE-2008-4037](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4037) | [1 - Konsistenter Angreifercode wahrscheinlich](http://technet.microsoft.com/de-de/security/cc998259)   | Derzeit ist für diese Sicherheitsanfälligkeit unter Windows XP Angreifercode öffentlich verfügbar.                                           |
-| [MS08-069](http://go.microsoft.com/fwlink/?linkid=128803) | [Sicherheitsanfälligkeiten in Microsoft XML Core Services können Remotecodeausführung ermöglichen (955218)](http://go.microsoft.com/fwlink/?linkid=128803) | [CVE-2008-4029](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4029) | [1 - Konsistenter Angreifercode wahrscheinlich](http://technet.microsoft.com/de-de/security/cc998259)   | Angreifercode für die Offenlegung von Informationen ist wahrscheinlich, da dieser bei domänenübergreifenden Angriffen verwendet werden kann. |
-| [MS08-069](http://go.microsoft.com/fwlink/?linkid=128803) | [Sicherheitsanfälligkeiten in Microsoft XML Core Services können Remotecodeausführung ermöglichen (955218)](http://go.microsoft.com/fwlink/?linkid=128803) | [CVE-2007-0099](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2007-0099) | [2 - Inkonsistenter Angreifercode wahrscheinlich](http://technet.microsoft.com/de-de/security/cc998259) | Diese Sicherheitsanfälligkeit umfasst eine Wettlaufsituation beim Laden von XML-Dateien. Daher ist eine konsistente Ausnutzung schwierig.    |
-| [MS08-069](http://go.microsoft.com/fwlink/?linkid=128803) | [Sicherheitsanfälligkeiten in Microsoft XML Core Services können Remotecodeausführung ermöglichen (955218)](http://go.microsoft.com/fwlink/?linkid=128803) | [CVE-2008-4033](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4033) | [2 - Inkonsistenter Angreifercode wahrscheinlich](http://technet.microsoft.com/de-de/security/cc998259) |                                                                                                                                              |
+| [MS08-068](https://go.microsoft.com/fwlink/?linkid=133434) | [Sicherheitsanfälligkeit in SMB kann Remotecodeausführung ermöglichen (957097)](https://go.microsoft.com/fwlink/?linkid=133434)                             | [CVE-2008-4037](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4037) | [1 - Konsistenter Angreifercode wahrscheinlich](https://technet.microsoft.com/de-de/security/cc998259)   | Derzeit ist für diese Sicherheitsanfälligkeit unter Windows XP Angreifercode öffentlich verfügbar.                                           |
+| [MS08-069](https://go.microsoft.com/fwlink/?linkid=128803) | [Sicherheitsanfälligkeiten in Microsoft XML Core Services können Remotecodeausführung ermöglichen (955218)](https://go.microsoft.com/fwlink/?linkid=128803) | [CVE-2008-4029](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4029) | [1 - Konsistenter Angreifercode wahrscheinlich](https://technet.microsoft.com/de-de/security/cc998259)   | Angreifercode für die Offenlegung von Informationen ist wahrscheinlich, da dieser bei domänenübergreifenden Angriffen verwendet werden kann. |
+| [MS08-069](https://go.microsoft.com/fwlink/?linkid=128803) | [Sicherheitsanfälligkeiten in Microsoft XML Core Services können Remotecodeausführung ermöglichen (955218)](https://go.microsoft.com/fwlink/?linkid=128803) | [CVE-2007-0099](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2007-0099) | [2 - Inkonsistenter Angreifercode wahrscheinlich](https://technet.microsoft.com/de-de/security/cc998259) | Diese Sicherheitsanfälligkeit umfasst eine Wettlaufsituation beim Laden von XML-Dateien. Daher ist eine konsistente Ausnutzung schwierig.    |
+| [MS08-069](https://go.microsoft.com/fwlink/?linkid=128803) | [Sicherheitsanfälligkeiten in Microsoft XML Core Services können Remotecodeausführung ermöglichen (955218)](https://go.microsoft.com/fwlink/?linkid=128803) | [CVE-2008-4033](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4033) | [2 - Inkonsistenter Angreifercode wahrscheinlich](https://technet.microsoft.com/de-de/security/cc998259) |                                                                                                                                              |
 
 Betroffene Software und Downloadadressen
 ----------------------------------------
@@ -102,10 +102,10 @@ Microsoft Windows 2000
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 <td style="border:1px solid black;">
-[**MS08-068**](http://go.microsoft.com/fwlink/?linkid=133434)
+[**MS08-068**](https://go.microsoft.com/fwlink/?linkid=133434)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -113,10 +113,10 @@ Microsoft Windows 2000
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -149,10 +149,10 @@ Windows XP
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 <td style="border:1px solid black;">
-[**MS08-068**](http://go.microsoft.com/fwlink/?linkid=133434)
+[**MS08-068**](https://go.microsoft.com/fwlink/?linkid=133434)
 </td>
 </tr>
 <tr>
@@ -160,10 +160,10 @@ Windows XP
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -236,10 +236,10 @@ Windows Server 2003
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 <td style="border:1px solid black;">
-[**MS08-068**](http://go.microsoft.com/fwlink/?linkid=133434)
+[**MS08-068**](https://go.microsoft.com/fwlink/?linkid=133434)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -247,10 +247,10 @@ Windows Server 2003
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -323,10 +323,10 @@ Windows Vista
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 <td style="border:1px solid black;">
-[**MS08-068**](http://go.microsoft.com/fwlink/?linkid=133434)
+[**MS08-068**](https://go.microsoft.com/fwlink/?linkid=133434)
 </td>
 </tr>
 <tr>
@@ -334,10 +334,10 @@ Windows Vista
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Mittel**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -416,10 +416,10 @@ Windows Server 2008
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 <td style="border:1px solid black;">
-[**MS08-068**](http://go.microsoft.com/fwlink/?linkid=133434)
+[**MS08-068**](https://go.microsoft.com/fwlink/?linkid=133434)
 </td>
 </tr>
 <tr>
@@ -427,10 +427,10 @@ Windows Server 2008
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Mittel**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -542,10 +542,10 @@ Windows 7
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 <td style="border:1px solid black;">
-[**MS08-068**](http://go.microsoft.com/fwlink/?linkid=133434)
+[**MS08-068**](https://go.microsoft.com/fwlink/?linkid=133434)
 </td>
 </tr>
 <tr>
@@ -553,7 +553,7 @@ Windows 7
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -595,10 +595,10 @@ Windows Server 2008 R2
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 <td style="border:1px solid black;">
-[**MS08-068**](http://go.microsoft.com/fwlink/?linkid=133434)
+[**MS08-068**](https://go.microsoft.com/fwlink/?linkid=133434)
 </td>
 </tr>
 <tr>
@@ -606,7 +606,7 @@ Windows Server 2008 R2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Niedrig**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Niedrig**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -640,9 +640,9 @@ Nicht anwendbar
 </tr>
 </table>
  
-**\*Die Server Core-Installation ist betroffen.** Dieses Update gilt, mit der gleichen Bewertung des Schweregrads, wie angezeigt auch für unterstützte Editionen von Windows Server 2008 oder Windows Server 2008 R2, unabhängig davon, ob bei der Installation die Server Core-Installationsoption verwendet wurde oder nicht. Weitere Informationen zu dieser Installationsoption finden Sie in den MSDN-Artikeln [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx) und [Server Core für Windows Server 2008 R2](http://msdn.microsoft.com/en-us/library/ee391631(vs.85).aspx). Beachten Sie, dass die Server Core-Installationsoption für bestimmte Editionen von Windows Server 2008 und Windows Server 2008 R2 nicht gilt; siehe dazu [Vergleichen von Server Core-Installationsoptionen](http://www.microsoft.com/germany/windowsserver2008/editionen/r2-vergleich-server-core.mspx).
+**\*Die Server Core-Installation ist betroffen.** Dieses Update gilt, mit der gleichen Bewertung des Schweregrads, wie angezeigt auch für unterstützte Editionen von Windows Server 2008 oder Windows Server 2008 R2, unabhängig davon, ob bei der Installation die Server Core-Installationsoption verwendet wurde oder nicht. Weitere Informationen zu dieser Installationsoption finden Sie in den MSDN-Artikeln [Server Core](https://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx) und [Server Core für Windows Server 2008 R2](https://msdn.microsoft.com/en-us/library/ee391631(vs.85).aspx). Beachten Sie, dass die Server Core-Installationsoption für bestimmte Editionen von Windows Server 2008 und Windows Server 2008 R2 nicht gilt; siehe dazu [Vergleichen von Server Core-Installationsoptionen](https://www.microsoft.com/germany/windowsserver2008/editionen/r2-vergleich-server-core.mspx).
 
-**\*\*Die Server Core-Installation ist nicht betroffen.** Die durch dieses Update behobenen Sicherheitsanfälligkeiten betreffen unterstützte Editionen von Windows Server 2008 oder Windows Server 2008 R2 wie angegeben nicht, wenn diese mit der Server Core-Installationsoption installiert wurden. Weitere Informationen zu dieser Installationsoption finden Sie in den MSDN-Artikeln [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx) und [Server Core für Windows Server 2008 R2](http://msdn.microsoft.com/en-us/library/ee391631(vs.85).aspx). Beachten Sie, dass die Server Core-Installationsoption für bestimmte Editionen von Windows Server 2008 und Windows Server 2008 R2 nicht gilt; siehe dazu [Vergleichen von Server Core-Installationsoptionen](http://www.microsoft.com/germany/windowsserver2008/editionen/r2-vergleich-server-core.mspx).
+**\*\*Die Server Core-Installation ist nicht betroffen.** Die durch dieses Update behobenen Sicherheitsanfälligkeiten betreffen unterstützte Editionen von Windows Server 2008 oder Windows Server 2008 R2 wie angegeben nicht, wenn diese mit der Server Core-Installationsoption installiert wurden. Weitere Informationen zu dieser Installationsoption finden Sie in den MSDN-Artikeln [Server Core](https://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx) und [Server Core für Windows Server 2008 R2](https://msdn.microsoft.com/en-us/library/ee391631(vs.85).aspx). Beachten Sie, dass die Server Core-Installationsoption für bestimmte Editionen von Windows Server 2008 und Windows Server 2008 R2 nicht gilt; siehe dazu [Vergleichen von Server Core-Installationsoptionen](https://www.microsoft.com/germany/windowsserver2008/editionen/r2-vergleich-server-core.mspx).
 
 #### Microsoft Office Suites und Software
 
@@ -664,7 +664,7 @@ Microsoft Office Suites, Systeme und Komponenten
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -672,7 +672,7 @@ Microsoft Office Suites, Systeme und Komponenten
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -705,7 +705,7 @@ Weitere Office-Software
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS08-069**](http://go.microsoft.com/fwlink/?linkid=128803)
+[**MS08-069**](https://go.microsoft.com/fwlink/?linkid=128803)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -713,7 +713,7 @@ Weitere Office-Software
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -784,35 +784,35 @@ Tools und Anleitungen zur Erkennung und Bereitstellung
 
 **Sicherheitsportal:**
 
-Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](http://technet.microsoft.com/de-de/updatemanagement/default.aspx). Im [TechNet Sicherheits-Center](http://www.microsoft.com/germany/technet/sicherheit/default.mspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Verbraucher können die Seite [Sicherheit zu Hause](http://www.microsoft.com/germany/athome/security/default.mspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
+Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](https://technet.microsoft.com/de-de/updatemanagement/default.aspx). Im [TechNet Sicherheits-Center](https://www.microsoft.com/germany/technet/sicherheit/default.mspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Verbraucher können die Seite [Sicherheit zu Hause](https://www.microsoft.com/germany/athome/security/default.mspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
 
-Sicherheitsupdates sind auch über [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747&displaylang=de), [Windows Update](http://update.microsoft.com/windowsupdate/) und [Office Update](http://office.microsoft.com/de-de/downloads/default.aspx) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+Sicherheitsupdates sind auch über [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747&displaylang=de), [Windows Update](https://update.microsoft.com/windowsupdate/) und [Office Update](https://office.microsoft.com/de-de/downloads/default.aspx) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
 
-Außerdem können Sicherheitsupdates vom [Windows Update-Katalog](http://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS07-036“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](http://catalog.update.microsoft.com/v7/site/faq.aspx).
+Außerdem können Sicherheitsupdates vom [Windows Update-Katalog](https://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS07-036“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](https://catalog.update.microsoft.com/v7/site/faq.aspx).
 
 **Anleitungen zur Erkennung und Bereitstellung**
 
-Zu den Sicherheitsupdates dieses Monats stellt Microsoft Anleitungen zur Erkennung und Bereitstellung zur Verfügung. Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS) und das Erweiterte Sicherheitsupdate-Inventurprogramm (ESUIT). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](http://support.microsoft.com/kb/910723/de).
+Zu den Sicherheitsupdates dieses Monats stellt Microsoft Anleitungen zur Erkennung und Bereitstellung zur Verfügung. Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS) und das Erweiterte Sicherheitsupdate-Inventurprogramm (ESUIT). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](https://support.microsoft.com/kb/910723/de).
 
 **Microsoft Baseline Security Analyzer**
 
-Der Microsoft Baseline Security Analyzer (MBSA) ermöglicht Administratoren die Überprüfung von lokalen und Remotesystemen im Hinblick auf fehlende Sicherheitsupdates sowie auf häufig falsch konfigurierte Sicherheitsparameter. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
+Der Microsoft Baseline Security Analyzer (MBSA) ermöglicht Administratoren die Überprüfung von lokalen und Remotesystemen im Hinblick auf fehlende Sicherheitsupdates sowie auf häufig falsch konfigurierte Sicherheitsparameter. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
 
 **Windows Server Update Services**
 
 Mithilfe der Windows Server Update Services (WSUS), können Administratoren die neuesten wichtigen Aktualisierungen und Sicherheitsupdates für Windows 2000 und höher, Office XP und höher, Exchange Server 2003 und SQL Server 2000 für Windows 2000 und neuere Betriebssysteme schnell und zuverlässig bereitstellen.
 
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](http://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](https://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx).
 
 **Systems Management Server**
 
-Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](http://technet.microsoft.com/de-de/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/systemcenter/sccm/default.mspx).
+Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](https://technet.microsoft.com/de-de/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](https://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](https://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](https://www.microsoft.com/germany/systemcenter/sccm/default.mspx).
 
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/download/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](https://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/download/details.aspx?familyid=7bd3a16e-1899-4e0b-bb99-1320e816167d&displaylang=de) und im [SMS 2.0 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Microsoft Application Compatibility Toolkit 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](https://technet.microsoft.com/de-de/library/cc766043(ws.10).aspx), die im [Microsoft Application Compatibility Toolkit 5.0](https://www.microsoft.com/download/details.aspx?displaylang=de&familyid=24da89e9-b581-47b0-b45e-492dd6da2971&amp;displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 
@@ -826,39 +826,39 @@ Microsoft hat eine aktualisierte Version des Microsoft Windows-Tools zum Entfern
 
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
--   [Microsoft Knowledge Base-Artikel 894199](http://support.microsoft.com/kb/894199/de): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services für 2008. Umfasst alle Windows-Inhalte.
--   [Neue, überarbeitete und veröffentlichte Updates für andere Microsoft-Produkte als Microsoft Windows](http://technet.microsoft.com/en-us/wsus/bb466214.aspx).
+-   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/kb/894199/de): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services für 2008. Umfasst alle Windows-Inhalte.
+-   [Neue, überarbeitete und veröffentlichte Updates für andere Microsoft-Produkte als Microsoft Windows](https://technet.microsoft.com/en-us/wsus/bb466214.aspx).
 
 #### Sicherheitsstrategien und Community
 
 **Strategien für die Verwaltung von Sicherheitspatches:**
 
-Auf der Seite [Security Guidance für Updateverwaltung](http://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Security Guidance für Updateverwaltung](https://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) verfügbar.
--   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](http://support.microsoft.com/kb/913086/de).
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) verfügbar.
+-   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/kb/913086/de).
 
 **IT Pro Security Community**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](http://go.microsoft.com/fwlink/?linkid=21164) Website mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](https://go.microsoft.com/fwlink/?linkid=21164) Website mit anderen IT-Profis über das Thema Sicherheit.
 
 #### Danksagungen
 
-Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
+Microsoft [dankt](https://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
 
 -   Gregory Fleischer für den Hinweis auf ein in MS08-069 beschriebenes Problem.
--   Stefano Di Paola von [Minded Security](http://www.mindedsecurity.com/) für den Hinweis auf ein in MS08-069 beschriebenes Problem.
+-   Stefano Di Paola von [Minded Security](https://www.mindedsecurity.com/) für den Hinweis auf ein in MS08-069 beschriebenes Problem.
 
 #### Support
 
--   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](http://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
--   Technischer Support ist über die [Microsoft Support Services](http://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.
--   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](http://go.microsoft.com/fwlink/?linkid=21155).
+-   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
+-   Technischer Support ist über die [Microsoft Support Services](https://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.
+-   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](https://go.microsoft.com/fwlink/?linkid=21155).
 
 #### Haftungsausschluss
 

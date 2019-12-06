@@ -17,11 +17,11 @@ Veröffentlicht: Dienstag, 14. April 2009 | Aktualisiert: Donnerstag, 16. April 
 
 In diesem Bulletin Summary sind die im April 2009 veröffentlichten Security Bulletins aufgeführt.
 
-Mit der Veröffentlichung der Bulletins für April 2009 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 9. April 2009 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification](http://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx).
+Mit der Veröffentlichung der Bulletins für April 2009 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 9. April 2009 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification](https://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx).
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](http://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](https://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx).
 
-Am Mittwoch, den 15. April 2009 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für den Security Bulletin-Webcast im April](http://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032395126). Ab diesem Datum steht dieser Webcast auf Anfrage zur Verfügung. Weitere Informationen dazu finden Sie unter [Microsoft Security Bulletin Zusammenfassungen und Webcasts.](http://technet.microsoft.com/security/bulletin/summary)
+Am Mittwoch, den 15. April 2009 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für den Security Bulletin-Webcast im April](https://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032395126). Ab diesem Datum steht dieser Webcast auf Anfrage zur Verfügung. Weitere Informationen dazu finden Sie unter [Microsoft Security Bulletin Zusammenfassungen und Webcasts.](https://technet.microsoft.com/security/bulletin/summary)
 
 Microsoft stellt auch Informationen bereit, anhand derer Benutzer die Prioritäten für monatliche Sicherheitsupdates und alle nicht sicherheitsrelevanten wichtigen Updates festlegen können, die an demselben Tag veröffentlicht werden wie die monatlichen Sicherheitsupdates. Bitte lesen Sie den Abschnitt **Weitere Informationen**.
 
@@ -47,81 +47,81 @@ Weitere Informationen zu betroffener Software finden Sie im nächsten Abschnitt 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=139849">MS09-010</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=139849">MS09-010</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt zwei öffentlich gemeldete und zwei vertraulich gemeldete Sicherheitsanfälligkeiten in Microsoft WordPad- und Microsoft Office-Textkonvertern. Die Sicherheitsanfälligkeiten können Remotecodeausführung ermöglichen, wenn eine speziell gestaltete Datei in WordPad oder Microsoft Office Word geöffnet wird. Öffnen Sie keine Microsoft Office-, RTF-, Write- oder WordPerfect-Dateien, die von nicht vertrauenswürdigen Quellen stammen, mit betroffenen Versionen von WordPad oder Microsoft Office Word.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows, Microsoft Office</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=139852">MS09-013</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=139852">MS09-013</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in den Windows HTTP-Diensten können Remotecodeausführung ermöglichen (960803)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine öffentlich gemeldete Sicherheitsanfälligkeit und zwei vertraulich gemeldete Sicherheitsanfälligkeiten in den Microsoft Windows HTTP-Diensten (WinHTTP). Die schwerste Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen. Nutzt ein Angreifer diese Sicherheitsanfälligkeit erfolgreich aus, kann er die vollständige Kontrolle über ein betroffenes System erlangen. Ein Angreifer kann dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen Benutzerrechten erstellen. Für Benutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=139107">MS09-011</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=139107">MS09-011</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Microsoft DirectShow kann Remotecodeausführung ermöglichen (961373)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in Microsoft DirectX. Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete MJPEG-Datei öffnet. Nutzt ein Angreifer diese Sicherheitsanfälligkeit erfolgreich aus, kann er die vollständige Kontrolle über ein betroffenes System erlangen. Ein Angreifer kann dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen Benutzerrechten erstellen. Für Benutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=146659">MS09-014</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=146659">MS09-014</a></td>
 <td style="border:1px solid black;"><strong>Kumulatives Sicherheitsupdate für Internet Explorer (963027)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt vier vertraulich gemeldete Sicherheitsanfälligkeiten und zwei öffentlich gemeldete Sicherheitsanfälligkeiten in Internet Explorer. Die Sicherheitsanfälligkeiten können Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Webseite über Internet Explorer öffnet oder wenn ein Benutzer eine Verbindung zum Server eines Angreifers über das HTTP-Protokoll herstellt. Für Benutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows, Internet Explorer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=143568">MS09-009</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=143568">MS09-009</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Microsoft Office Excel können Remotecodeausführung ermöglichen (968557)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit und eine öffentlich gemeldete Sicherheitsanfälligkeit in Microsoft Office Excel. Die Sicherheitsanfälligkeiten können Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Excel-Datei öffnet. Nutzt ein Angreifer diese Sicherheitsanfälligkeiten erfolgreich aus, kann er vollständige Kontrolle über ein betroffenes System erlangen. Ein Angreifer kann dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen Benutzerrechten erstellen. Für Benutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Office</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=132587">MS09-012</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=132587">MS09-012</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt vier öffentlich gemeldete Sicherheitsanfälligkeiten in Microsoft Windows. Die Sicherheitsanfälligkeiten können eine Erhöhung von Berechtigungen ermöglichen, wenn sich ein Angreifer beim System anmelden und anschließend eine speziell gestaltete Anwendung ausführen kann. Der Angreifer muss Code auf dem lokalen Computer ausführen können, um diese Sicherheitsanfälligkeit auszunutzen. Ein Angreifer, dem es gelingt, eine dieser Sicherheitsanfälligkeiten auszunutzen, kann vollständige Kontrolle über das betroffene System erlangen.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Hoch</a><br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141639">MS09-016</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141639">MS09-016</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Microsoft ISA Server und Forefront Threat Management Gateway (Medium Business Edition) können ein Denial-of-Service verursachen (961759)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit und eine öffentlich gemeldete Sicherheitsanfälligkeit in Microsoft Internet Security and Acceleration (ISA) Server und Microsoft Forefront Threat Management Gateway (TMG), Medium Business Edition (MBE). Diese Sicherheitsanfälligkeiten können zu einem Denial-of-Service führen, wenn ein Angreifer speziell gestaltete Netzwerkpakete an das betroffene System sendet, oder zur Offenlegung von Informationen, wenn ein Benutzer auf eine schädliche URL klickt oder eine Website besucht, die vom Angreifer kontrollierten Inhalt enthält.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Hoch</a><br />
 DoS (Denial of Service)</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Forefront Edge Security</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=146803">MS09-015</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=146803">MS09-015</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit durch komplexe Bedrohung in SearchPath kann Erhöhung von Berechtigungen ermöglichen (959426)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine öffentlich gemeldete Sicherheitsanfälligkeit in der Windows SearchPath-Funktion, die eine Erhöhung von Berechtigungen ermöglichen kann, wenn ein Benutzer eine speziell gestaltete Datei an einen bestimmten Ort heruntergeladen und anschließend eine Anwendung geöffnet hat, die die Datei unter bestimmten Umständen laden kann.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Mittel</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Mittel</a><br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
@@ -136,33 +136,33 @@ In der folgenden Tabelle wird eine Bewertung der Ausnutzbarkeit aller Sicherheit
   
 **Wie verwende ich diese Tabelle?**  
   
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, funktionierender Angreifercode veröffentlicht wird. Sie sollten sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen ansehen, um Prioritäten für Ihre Bereitstellung festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/en-us/security/cc998259.aspx).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, funktionierender Angreifercode veröffentlicht wird. Sie sollten sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen ansehen, um Prioritäten für Ihre Bereitstellung festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/en-us/security/cc998259.aspx).
   
 | Kennung des Bulletins                                     | Titel des Bulletins                                                                                                                                                   | CVE-ID                                                                               | Ausnutzbarkeitsindex – Bewertung                                                                                     | Wichtige Hinweise                                                                                                                                                                                                                                                                                                                    |  
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| [MS09-009](http://go.microsoft.com/fwlink/?linkid=143568) | Sicherheitsanfälligkeiten in Microsoft Office Excel können Remotecodeausführung ermöglichen (968557)                                                                  | [CVE-2009-0100](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0100)     | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | (Keine)                                                                                                                                                                                                                                                                                                                              |  
-| [MS09-009](http://go.microsoft.com/fwlink/?linkid=143568) | Sicherheitsanfälligkeiten in Microsoft Office Excel können Remotecodeausführung ermöglichen (968557)                                                                  | [CVE-2009-0238](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0238)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
-| [MS09-010](http://go.microsoft.com/fwlink/?linkid=139849) | Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)                                                      | [CVE-2008-4841](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4841)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
-| [MS09-010](http://go.microsoft.com/fwlink/?linkid=139849) | Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)                                                      | [CVE-2009-0087](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0087)     | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | Dies ist eine komplexe Sicherheitsanfälligkeit aufgrund mehrerer Codepfade. Die meisten Angreifercodes führen zu inkonsistenten Ergebnissen. Standardmäßige schadensbegrenzende Faktoren schützen vor diesem Angriff.                                                                                                                |  
-| [MS09-010](http://go.microsoft.com/fwlink/?linkid=139849) | Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)                                                      | [CVE-2009-0088](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0088)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Diese Sicherheitsanfälligkeit kann ausgenutzt werden, betrifft aber nur ältere Versionen und ein älteres, nicht übliches Dateiformat. Neuere Versionen wie z. B. Microsoft Office System 2007 und Microsoft Office 2003 Service Pack 3 sind nicht betroffen.                                                                         |  
-| [MS09-010](http://go.microsoft.com/fwlink/?linkid=139849) | Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)                                                      | [CVE-2009-0235](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0235)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Diese Sicherheitsanfälligkeit bezüglich Speicherbeschädigung kann leicht ausgenutzt werden.                                                                                                                                                                                                                                          |  
-| [MS09-011](http://go.microsoft.com/fwlink/?linkid=139107) | Sicherheitsanfälligkeit in Microsoft DirectShow kann Remotecodeausführung ermöglichen (961373)                                                                        | [CVE-2009-0084](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0084)     | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | (Keine)                                                                                                                                                                                                                                                                                                                              |  
-| [MS09-012](http://go.microsoft.com/fwlink/?linkid=132587) | Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)                                                                          | [CVE-2008-1436](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-1436)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
-| [MS09-012](http://go.microsoft.com/fwlink/?linkid=132587) | Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)                                                                          | [CVE-2009-0078](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0078)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
-| [MS09-012](http://go.microsoft.com/fwlink/?linkid=132587) | Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)                                                                          | [CVE-2009-0079](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0079)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
-| [MS09-012](http://go.microsoft.com/fwlink/?linkid=132587) | Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)                                                                          | [CVE-2009-0080](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0080)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
-| [MS09-013](http://go.microsoft.com/fwlink/?linkid=139852) | Sicherheitsanfälligkeiten in den Windows HTTP-Diensten können Remotecodeausführung ermöglichen (960803)                                                               | [CVE-2009-0086](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0086)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Diese Sicherheitsanfälligkeit im Speicher kann leicht gesteuert werden, durch mehrere Angriffsmethoden und die Möglichkeiten zur Ausnutzung aufgrund weit verbreiteter Verwendung dieser Technologie.                                                                                                                                |  
-| [MS09-013](http://go.microsoft.com/fwlink/?linkid=139852) | Sicherheitsanfälligkeiten in den Windows HTTP-Diensten können Remotecodeausführung ermöglichen (960803)                                                               | [CVE-2009-0089](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0089)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | (Keine)                                                                                                                                                                                                                                                                                                                              |  
-| [MS09-013](http://go.microsoft.com/fwlink/?linkid=139852) | Sicherheitsanfälligkeiten in den Windows HTTP-Diensten können Remotecodeausführung ermöglichen (960803)                                                               | [CVE-2009-0550](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0550)\*\* | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Es wurde Angreifercode veröffentlicht.                                                                                                                                                                                                                                                                                               |  
-| [MS09-014](http://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2008-2540](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-2540)\*   | [**3**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | Details zum Angriff wurden veröffentlicht, aber es liegen derzeit keine bekannten Angriffsmethoden für dieses Problem vor. Um diese Sicherheitsanfälligkeit erfolgreich auszunutzen, müssen ein Angreifer und der Benutzer eine Reihe komplizierter Schritte ausführen, einschließlich Speichern bestimmter Dateien auf dem Desktop. |  
-| [MS09-014](http://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0550](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0550)\*\* | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Es wurde Angreifercode veröffentlicht.                                                                                                                                                                                                                                                                                               |  
-| [MS09-014](http://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0551](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0551)     | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | (Keine)                                                                                                                                                                                                                                                                                                                              |  
-| [MS09-014](http://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0552](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0552)     | [**3**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | Schadensbegrenzende Faktoren für Internet Explorer 7 verhindern Codeausführung. Bei Internet Explorer 6 und früheren Versionen ist die Wahrscheinlichkeit der Ausnutzung höher, wenn diese Versionen nicht mit allen Sicherheitsupdates aktualisiert wurden.                                                                         |  
-| [MS09-014](http://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0553](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0553)     | [**3**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | (Keine)                                                                                                                                                                                                                                                                                                                              |  
-| [MS09-014](http://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0554](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0554)     | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | (Keine)                                                                                                                                                                                                                                                                                                                              |  
-| [MS09-015](http://go.microsoft.com/fwlink/?linkid=146803) | Sicherheitsanfälligkeit durch komplexe Bedrohung in SearchPath kann Erhöhung von Berechtigungen ermöglichen (959426)                                                  | [CVE-2008-2540](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-2540)\*   | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | Details zum Angriff wurden veröffentlicht, aber es liegen derzeit keine bekannten Angriffsmethoden für dieses Problem vor. Um diese Sicherheitsanfälligkeit erfolgreich auszunutzen, müssen ein Angreifer und der Benutzer eine Reihe komplizierter Schritte ausführen, einschließlich Speichern bestimmter Dateien auf dem Desktop. |  
-| [MS09-016](http://go.microsoft.com/fwlink/?linkid=141639) | Sicherheitsanfälligkeiten in Microsoft ISA Server und Forefront Threat Management Gateway (Medium Business Edition) können ein Denial-of-Service verursachen (961759) | [CVE-2009-0077](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0077)     | [**3**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | Dienstbasierter Denial-of-Service ist sehr wahrscheinlich. Codeausführung ist jedoch nicht möglich.                                                                                                                                                                                                                                  |  
-| [MS09-016](http://go.microsoft.com/fwlink/?linkid=141639) | Sicherheitsanfälligkeiten in Microsoft ISA Server und Forefront Threat Management Gateway (Medium Business Edition) können ein Denial-of-Service verursachen (961759) | [CVE-2009-0237](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-0237)          | [**3**](http://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | Offenlegung von Information ist möglich. Codeausführung ist sehr unwahrscheinlich.                                                                                                                                                                                                                                                   |
+| [MS09-009](https://go.microsoft.com/fwlink/?linkid=143568) | Sicherheitsanfälligkeiten in Microsoft Office Excel können Remotecodeausführung ermöglichen (968557)                                                                  | [CVE-2009-0100](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0100)     | [**2**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | (Keine)                                                                                                                                                                                                                                                                                                                              |  
+| [MS09-009](https://go.microsoft.com/fwlink/?linkid=143568) | Sicherheitsanfälligkeiten in Microsoft Office Excel können Remotecodeausführung ermöglichen (968557)                                                                  | [CVE-2009-0238](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0238)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
+| [MS09-010](https://go.microsoft.com/fwlink/?linkid=139849) | Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)                                                      | [CVE-2008-4841](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4841)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
+| [MS09-010](https://go.microsoft.com/fwlink/?linkid=139849) | Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)                                                      | [CVE-2009-0087](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0087)     | [**2**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | Dies ist eine komplexe Sicherheitsanfälligkeit aufgrund mehrerer Codepfade. Die meisten Angreifercodes führen zu inkonsistenten Ergebnissen. Standardmäßige schadensbegrenzende Faktoren schützen vor diesem Angriff.                                                                                                                |  
+| [MS09-010](https://go.microsoft.com/fwlink/?linkid=139849) | Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)                                                      | [CVE-2009-0088](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0088)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Diese Sicherheitsanfälligkeit kann ausgenutzt werden, betrifft aber nur ältere Versionen und ein älteres, nicht übliches Dateiformat. Neuere Versionen wie z. B. Microsoft Office System 2007 und Microsoft Office 2003 Service Pack 3 sind nicht betroffen.                                                                         |  
+| [MS09-010](https://go.microsoft.com/fwlink/?linkid=139849) | Sicherheitsanfälligkeiten in WordPad- und Office-Textkonvertern können Remotecodeausführung ermöglichen (960477)                                                      | [CVE-2009-0235](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0235)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Diese Sicherheitsanfälligkeit bezüglich Speicherbeschädigung kann leicht ausgenutzt werden.                                                                                                                                                                                                                                          |  
+| [MS09-011](https://go.microsoft.com/fwlink/?linkid=139107) | Sicherheitsanfälligkeit in Microsoft DirectShow kann Remotecodeausführung ermöglichen (961373)                                                                        | [CVE-2009-0084](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0084)     | [**2**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | (Keine)                                                                                                                                                                                                                                                                                                                              |  
+| [MS09-012](https://go.microsoft.com/fwlink/?linkid=132587) | Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)                                                                          | [CVE-2008-1436](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-1436)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
+| [MS09-012](https://go.microsoft.com/fwlink/?linkid=132587) | Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)                                                                          | [CVE-2009-0078](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0078)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
+| [MS09-012](https://go.microsoft.com/fwlink/?linkid=132587) | Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)                                                                          | [CVE-2009-0079](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0079)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
+| [MS09-012](https://go.microsoft.com/fwlink/?linkid=132587) | Sicherheitsanfälligkeiten in Windows können Erhöhung von Berechtigungen ermöglichen (959454)                                                                          | [CVE-2009-0080](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0080)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | **Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.**                                                                                                                                                                                                                                                   |  
+| [MS09-013](https://go.microsoft.com/fwlink/?linkid=139852) | Sicherheitsanfälligkeiten in den Windows HTTP-Diensten können Remotecodeausführung ermöglichen (960803)                                                               | [CVE-2009-0086](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0086)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Diese Sicherheitsanfälligkeit im Speicher kann leicht gesteuert werden, durch mehrere Angriffsmethoden und die Möglichkeiten zur Ausnutzung aufgrund weit verbreiteter Verwendung dieser Technologie.                                                                                                                                |  
+| [MS09-013](https://go.microsoft.com/fwlink/?linkid=139852) | Sicherheitsanfälligkeiten in den Windows HTTP-Diensten können Remotecodeausführung ermöglichen (960803)                                                               | [CVE-2009-0089](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0089)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | (Keine)                                                                                                                                                                                                                                                                                                                              |  
+| [MS09-013](https://go.microsoft.com/fwlink/?linkid=139852) | Sicherheitsanfälligkeiten in den Windows HTTP-Diensten können Remotecodeausführung ermöglichen (960803)                                                               | [CVE-2009-0550](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0550)\*\* | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Es wurde Angreifercode veröffentlicht.                                                                                                                                                                                                                                                                                               |  
+| [MS09-014](https://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2008-2540](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-2540)\*   | [**3**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | Details zum Angriff wurden veröffentlicht, aber es liegen derzeit keine bekannten Angriffsmethoden für dieses Problem vor. Um diese Sicherheitsanfälligkeit erfolgreich auszunutzen, müssen ein Angreifer und der Benutzer eine Reihe komplizierter Schritte ausführen, einschließlich Speichern bestimmter Dateien auf dem Desktop. |  
+| [MS09-014](https://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0550](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0550)\*\* | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | Es wurde Angreifercode veröffentlicht.                                                                                                                                                                                                                                                                                               |  
+| [MS09-014](https://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0551](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0551)     | [**2**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | (Keine)                                                                                                                                                                                                                                                                                                                              |  
+| [MS09-014](https://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0552](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0552)     | [**3**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | Schadensbegrenzende Faktoren für Internet Explorer 7 verhindern Codeausführung. Bei Internet Explorer 6 und früheren Versionen ist die Wahrscheinlichkeit der Ausnutzung höher, wenn diese Versionen nicht mit allen Sicherheitsupdates aktualisiert wurden.                                                                         |  
+| [MS09-014](https://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0553](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0553)     | [**3**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | (Keine)                                                                                                                                                                                                                                                                                                                              |  
+| [MS09-014](https://go.microsoft.com/fwlink/?linkid=146659) | Kumulatives Sicherheitsupdate für Internet Explorer (963027)                                                                                                          | [CVE-2009-0554](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0554)     | [**1**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Konsistenter Angreifercode wahrscheinlich       | (Keine)                                                                                                                                                                                                                                                                                                                              |  
+| [MS09-015](https://go.microsoft.com/fwlink/?linkid=146803) | Sicherheitsanfälligkeit durch komplexe Bedrohung in SearchPath kann Erhöhung von Berechtigungen ermöglichen (959426)                                                  | [CVE-2008-2540](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-2540)\*   | [**2**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Inkonsistenter Angreifercode wahrscheinlich     | Details zum Angriff wurden veröffentlicht, aber es liegen derzeit keine bekannten Angriffsmethoden für dieses Problem vor. Um diese Sicherheitsanfälligkeit erfolgreich auszunutzen, müssen ein Angreifer und der Benutzer eine Reihe komplizierter Schritte ausführen, einschließlich Speichern bestimmter Dateien auf dem Desktop. |  
+| [MS09-016](https://go.microsoft.com/fwlink/?linkid=141639) | Sicherheitsanfälligkeiten in Microsoft ISA Server und Forefront Threat Management Gateway (Medium Business Edition) können ein Denial-of-Service verursachen (961759) | [CVE-2009-0077](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0077)     | [**3**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | Dienstbasierter Denial-of-Service ist sehr wahrscheinlich. Codeausführung ist jedoch nicht möglich.                                                                                                                                                                                                                                  |  
+| [MS09-016](https://go.microsoft.com/fwlink/?linkid=141639) | Sicherheitsanfälligkeiten in Microsoft ISA Server und Forefront Threat Management Gateway (Medium Business Edition) können ein Denial-of-Service verursachen (961759) | [CVE-2009-0237](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-0237)          | [**3**](https://technet.microsoft.com/en-us/security/cc998259.aspx) – Funktionierender Angreifercode unwahrscheinlich | Offenlegung von Information ist möglich. Codeausführung ist sehr unwahrscheinlich.                                                                                                                                                                                                                                                   |
   
 \*Diese beiden Sicherheitsanfälligkeiten, denen die gleiche CVE-Nummer zugewiesen wurde, werden in zwei Sicherheitsupdates behandelt. Weitere Informationen finden Sie in den jeweiligen Bulletins.
   
@@ -209,22 +209,22 @@ Microsoft Windows 2000
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-010**](http://go.microsoft.com/fwlink/?linkid=139849)
+[**MS09-010**](https://go.microsoft.com/fwlink/?linkid=139849)
 </td>
 <td style="border:1px solid black;">
-[**MS09-013**](http://go.microsoft.com/fwlink/?linkid=139852)
+[**MS09-013**](https://go.microsoft.com/fwlink/?linkid=139852)
 </td>
 <td style="border:1px solid black;">
-[**MS09-011**](http://go.microsoft.com/fwlink/?linkid=139107)
+[**MS09-011**](https://go.microsoft.com/fwlink/?linkid=139107)
 </td>
 <td style="border:1px solid black;">
-[**MS09-014**](http://go.microsoft.com/fwlink/?linkid=146659)
+[**MS09-014**](https://go.microsoft.com/fwlink/?linkid=146659)
 </td>
 <td style="border:1px solid black;">
-[**MS09-012**](http://go.microsoft.com/fwlink/?linkid=132587)
+[**MS09-012**](https://go.microsoft.com/fwlink/?linkid=132587)
 </td>
 <td style="border:1px solid black;">
-[**MS09-015**](http://go.microsoft.com/fwlink/?linkid=146803)
+[**MS09-015**](https://go.microsoft.com/fwlink/?linkid=146803)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -232,19 +232,19 @@ Microsoft Windows 2000
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
 (Keine Bewertung des Schweregrads)
@@ -296,22 +296,22 @@ Windows XP
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-010**](http://go.microsoft.com/fwlink/?linkid=139849)
+[**MS09-010**](https://go.microsoft.com/fwlink/?linkid=139849)
 </td>
 <td style="border:1px solid black;">
-[**MS09-013**](http://go.microsoft.com/fwlink/?linkid=139852)
+[**MS09-013**](https://go.microsoft.com/fwlink/?linkid=139852)
 </td>
 <td style="border:1px solid black;">
-[**MS09-011**](http://go.microsoft.com/fwlink/?linkid=139107)
+[**MS09-011**](https://go.microsoft.com/fwlink/?linkid=139107)
 </td>
 <td style="border:1px solid black;">
-[**MS09-014**](http://go.microsoft.com/fwlink/?linkid=146659)
+[**MS09-014**](https://go.microsoft.com/fwlink/?linkid=146659)
 </td>
 <td style="border:1px solid black;">
-[**MS09-012**](http://go.microsoft.com/fwlink/?linkid=132587)
+[**MS09-012**](https://go.microsoft.com/fwlink/?linkid=132587)
 </td>
 <td style="border:1px solid black;">
-[**MS09-015**](http://go.microsoft.com/fwlink/?linkid=146803)
+[**MS09-015**](https://go.microsoft.com/fwlink/?linkid=146803)
 </td>
 </tr>
 <tr>
@@ -319,22 +319,22 @@ Windows XP
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Mittel**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -423,22 +423,22 @@ Windows Server 2003
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-010**](http://go.microsoft.com/fwlink/?linkid=139849)
+[**MS09-010**](https://go.microsoft.com/fwlink/?linkid=139849)
 </td>
 <td style="border:1px solid black;">
-[**MS09-013**](http://go.microsoft.com/fwlink/?linkid=139852)
+[**MS09-013**](https://go.microsoft.com/fwlink/?linkid=139852)
 </td>
 <td style="border:1px solid black;">
-[**MS09-011**](http://go.microsoft.com/fwlink/?linkid=139107)
+[**MS09-011**](https://go.microsoft.com/fwlink/?linkid=139107)
 </td>
 <td style="border:1px solid black;">
-[**MS09-014**](http://go.microsoft.com/fwlink/?linkid=146659)
+[**MS09-014**](https://go.microsoft.com/fwlink/?linkid=146659)
 </td>
 <td style="border:1px solid black;">
-[**MS09-012**](http://go.microsoft.com/fwlink/?linkid=132587)
+[**MS09-012**](https://go.microsoft.com/fwlink/?linkid=132587)
 </td>
 <td style="border:1px solid black;">
-[**MS09-015**](http://go.microsoft.com/fwlink/?linkid=146803)
+[**MS09-015**](https://go.microsoft.com/fwlink/?linkid=146803)
 </td>
 </tr>
 <tr>
@@ -446,22 +446,22 @@ Windows Server 2003
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Mittel**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -588,22 +588,22 @@ Windows Vista
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-010**](http://go.microsoft.com/fwlink/?linkid=139849)
+[**MS09-010**](https://go.microsoft.com/fwlink/?linkid=139849)
 </td>
 <td style="border:1px solid black;">
-[**MS09-013**](http://go.microsoft.com/fwlink/?linkid=139852)
+[**MS09-013**](https://go.microsoft.com/fwlink/?linkid=139852)
 </td>
 <td style="border:1px solid black;">
-[**MS09-011**](http://go.microsoft.com/fwlink/?linkid=139107)
+[**MS09-011**](https://go.microsoft.com/fwlink/?linkid=139107)
 </td>
 <td style="border:1px solid black;">
-[**MS09-014**](http://go.microsoft.com/fwlink/?linkid=146659)
+[**MS09-014**](https://go.microsoft.com/fwlink/?linkid=146659)
 </td>
 <td style="border:1px solid black;">
-[**MS09-012**](http://go.microsoft.com/fwlink/?linkid=132587)
+[**MS09-012**](https://go.microsoft.com/fwlink/?linkid=132587)
 </td>
 <td style="border:1px solid black;">
-[**MS09-015**](http://go.microsoft.com/fwlink/?linkid=146803)
+[**MS09-015**](https://go.microsoft.com/fwlink/?linkid=146803)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -614,19 +614,19 @@ Windows Vista
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Mittel**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -705,22 +705,22 @@ Windows Server 2008
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-010**](http://go.microsoft.com/fwlink/?linkid=139849)
+[**MS09-010**](https://go.microsoft.com/fwlink/?linkid=139849)
 </td>
 <td style="border:1px solid black;">
-[**MS09-013**](http://go.microsoft.com/fwlink/?linkid=139852)
+[**MS09-013**](https://go.microsoft.com/fwlink/?linkid=139852)
 </td>
 <td style="border:1px solid black;">
-[**MS09-011**](http://go.microsoft.com/fwlink/?linkid=139107)
+[**MS09-011**](https://go.microsoft.com/fwlink/?linkid=139107)
 </td>
 <td style="border:1px solid black;">
-[**MS09-014**](http://go.microsoft.com/fwlink/?linkid=146659)
+[**MS09-014**](https://go.microsoft.com/fwlink/?linkid=146659)
 </td>
 <td style="border:1px solid black;">
-[**MS09-012**](http://go.microsoft.com/fwlink/?linkid=132587)
+[**MS09-012**](https://go.microsoft.com/fwlink/?linkid=132587)
 </td>
 <td style="border:1px solid black;">
-[**MS09-015**](http://go.microsoft.com/fwlink/?linkid=146803)
+[**MS09-015**](https://go.microsoft.com/fwlink/?linkid=146803)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -731,19 +731,19 @@ Windows Server 2008
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Mittel**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -849,9 +849,9 @@ Aktualisierung der Windows-Dienstisolierung:
  
 **Hinweise für Windows Server 2008**
 
-**\*Die Server Core-Installation von Windows Server 2008 ist betroffen.** Für unterstützte Editionen von Windows Server 2008 gilt dieses Update mit der gleichen Bewertung des Schweregrads. Dabei spielt es keine Rolle, ob Windows Server 2008 mit der Server Core-Installationsoption installiert wurde oder nicht. Weitere Informationen zu dieser Installationsoption finden Sie unter [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Beachten Sie, dass die Server Core-Installationsoption für bestimmte Editionen von Windows Server 2008 nicht gilt; siehe dazu [Vergleichen von Server Core-Installationsoptionen](http://www.microsoft.com/germany/windowsserver2008/editionen/core.mspx).
+**\*Die Server Core-Installation von Windows Server 2008 ist betroffen.** Für unterstützte Editionen von Windows Server 2008 gilt dieses Update mit der gleichen Bewertung des Schweregrads. Dabei spielt es keine Rolle, ob Windows Server 2008 mit der Server Core-Installationsoption installiert wurde oder nicht. Weitere Informationen zu dieser Installationsoption finden Sie unter [Server Core](https://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Beachten Sie, dass die Server Core-Installationsoption für bestimmte Editionen von Windows Server 2008 nicht gilt; siehe dazu [Vergleichen von Server Core-Installationsoptionen](https://www.microsoft.com/germany/windowsserver2008/editionen/core.mspx).
 
-**\*\*Die Server Core-Installation von Windows Server 2008 ist nicht betroffen.** Die durch dieses Update behobenen Sicherheitsanfälligkeiten betreffen unterstützte Editionen von Windows Server 2008 nicht, wenn Windows Server 2008 mit der Server Core-Installationsoption installiert wurde. Weitere Informationen zu dieser Installationsoption finden Sie unter [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Beachten Sie, dass die Server Core-Installationsoption für bestimmte Editionen von Windows Server 2008 nicht gilt; siehe dazu [Vergleichen von Server Core-Installationsoptionen](http://www.microsoft.com/germany/windowsserver2008/editionen/core.mspx).
+**\*\*Die Server Core-Installation von Windows Server 2008 ist nicht betroffen.** Die durch dieses Update behobenen Sicherheitsanfälligkeiten betreffen unterstützte Editionen von Windows Server 2008 nicht, wenn Windows Server 2008 mit der Server Core-Installationsoption installiert wurde. Weitere Informationen zu dieser Installationsoption finden Sie unter [Server Core](https://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Beachten Sie, dass die Server Core-Installationsoption für bestimmte Editionen von Windows Server 2008 nicht gilt; siehe dazu [Vergleichen von Server Core-Installationsoptionen](https://www.microsoft.com/germany/windowsserver2008/editionen/core.mspx).
 
 **Hinweis für MS09-010**
 
@@ -883,10 +883,10 @@ Microsoft Office Suites, Systeme und Komponenten
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-010**](http://go.microsoft.com/fwlink/?linkid=139849)
+[**MS09-010**](https://go.microsoft.com/fwlink/?linkid=139849)
 </td>
 <td style="border:1px solid black;">
-[**MS09-009**](http://go.microsoft.com/fwlink/?linkid=143568)
+[**MS09-009**](https://go.microsoft.com/fwlink/?linkid=143568)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -894,10 +894,10 @@ Microsoft Office Suites, Systeme und Komponenten
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -966,10 +966,10 @@ Microsoft Office für Mac
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-010**](http://go.microsoft.com/fwlink/?linkid=139849)
+[**MS09-010**](https://go.microsoft.com/fwlink/?linkid=139849)
 </td>
 <td style="border:1px solid black;">
-[**MS09-009**](http://go.microsoft.com/fwlink/?linkid=143568)
+[**MS09-009**](https://go.microsoft.com/fwlink/?linkid=143568)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -980,7 +980,7 @@ Microsoft Office für Mac
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -1019,10 +1019,10 @@ Weitere Office-Software
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-010**](http://go.microsoft.com/fwlink/?linkid=139849)
+[**MS09-010**](https://go.microsoft.com/fwlink/?linkid=139849)
 </td>
 <td style="border:1px solid black;">
-[**MS09-009**](http://go.microsoft.com/fwlink/?linkid=143568)
+[**MS09-009**](https://go.microsoft.com/fwlink/?linkid=143568)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1033,7 +1033,7 @@ Weitere Office-Software
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -1108,7 +1108,7 @@ Microsoft Forefront
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-016**](http://go.microsoft.com/fwlink/?linkid=141639)
+[**MS09-016**](https://go.microsoft.com/fwlink/?linkid=141639)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1116,7 +1116,7 @@ Microsoft Forefront
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -1139,7 +1139,7 @@ Internet Security and Acceleration Server
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-016**](http://go.microsoft.com/fwlink/?linkid=141639)
+[**MS09-016**](https://go.microsoft.com/fwlink/?linkid=141639)
 </td>
 </tr>
 <tr>
@@ -1147,7 +1147,7 @@ Internet Security and Acceleration Server
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1192,35 +1192,35 @@ Tools und Anleitungen zur Erkennung und Bereitstellung
 
 **Sicherheitsportal:**
 
-Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](http://technet.microsoft.com/de-de/updatemanagement/default.aspx). Im [TechNet Security Center](http://www.microsoft.com/germany/technet/sicherheit/default.mspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Verbraucher können die Seite [Sicherheit zu Hause](http://www.microsoft.com/germany/athome/security/default.mspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
+Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](https://technet.microsoft.com/de-de/updatemanagement/default.aspx). Im [TechNet Security Center](https://www.microsoft.com/germany/technet/sicherheit/default.mspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Verbraucher können die Seite [Sicherheit zu Hause](https://www.microsoft.com/germany/athome/security/default.mspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
 
-Sicherheitsupdates sind auch über [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747), [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130) und [Office Update](http://office.microsoft.com/de-de/downloads/default.aspx) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+Sicherheitsupdates sind auch über [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747), [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130) und [Office Update](https://office.microsoft.com/de-de/downloads/default.aspx) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
 
-Außerdem können Sicherheitsupdates vom [Windows Update-Katalog](http://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS07-036“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](http://catalog.update.microsoft.com/v7/site/faq.aspx).
+Außerdem können Sicherheitsupdates vom [Windows Update-Katalog](https://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS07-036“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](https://catalog.update.microsoft.com/v7/site/faq.aspx).
 
 **Anleitungen zur Erkennung und Bereitstellung**
 
-Zu den Sicherheitsupdates dieses Monats stellt Microsoft Anleitungen zur Erkennung und Bereitstellung zur Verfügung: Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS) und das Erweiterte Sicherheitsupdate-Inventurprogramm (ESUIT). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](http://support.microsoft.com/kb/910723).
+Zu den Sicherheitsupdates dieses Monats stellt Microsoft Anleitungen zur Erkennung und Bereitstellung zur Verfügung: Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS) und das Erweiterte Sicherheitsupdate-Inventurprogramm (ESUIT). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](https://support.microsoft.com/kb/910723).
 
 **Microsoft Baseline Security Analyzer**
 
-Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
+Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
 
 **Windows Server Update Services**
 
 Mithilfe der Windows Server Update Services (WSUS), können Administratoren die neuesten wichtigen Aktualisierungen und Sicherheitsupdates für Windows 2000 und höher, Office XP und höher, Exchange Server 2003 und SQL Server 2000 für Windows 2000 und neuere Betriebssysteme schnell und zuverlässig bereitstellen.
 
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](http://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](https://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx).
 
 **Systems Management Server**
 
-Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](http://technet.microsoft.com/en-us/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/smserver/default.mspx).
+Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](https://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](https://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](https://www.microsoft.com/germany/smserver/default.mspx).
 
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2003/downloads/featurepacks/adminpack.mspx) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](https://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/technet/prodtechnol/sms/sms2003/downloads/featurepacks/adminpack.mspx) und im [SMS 2.0 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true), die im [Anwendungskompatibilitäts-Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](https://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true), die im [Anwendungskompatibilitäts-Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Anwendungskompatibilitäts-Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 
@@ -1234,56 +1234,56 @@ Microsoft hat eine aktualisierte Version des Microsoft Windows-Tools zum Entfern
 
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
--   [Microsoft Knowledge Base-Artikel 894199](http://support.microsoft.com/kb/894199): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
--   [Neue, überarbeitete und veröffentlichte Updates für andere Microsoft-Produkte als Microsoft Windows](http://technet.microsoft.com/en-us/wsus/dd573344.aspx).
+-   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/kb/894199): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
+-   [Neue, überarbeitete und veröffentlichte Updates für andere Microsoft-Produkte als Microsoft Windows](https://technet.microsoft.com/en-us/wsus/dd573344.aspx).
 
 #### Microsoft Active Protections Program (MAPP)
 
-Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](http://www.microsoft.com/security/msrc/mapp/partners.mspx) aufgeführt sind.
+Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](https://www.microsoft.com/security/msrc/mapp/partners.mspx) aufgeführt sind.
 
 #### Sicherheitsstrategien und Community
 
 **Strategien für die Verwaltung von Sicherheitspatches:**
 
-Auf der Seite [Security Guidance für Updateverwaltung](http://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Security Guidance für Updateverwaltung](https://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
--   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](http://support.microsoft.com/kb/913086).
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
+-   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/kb/913086).
 
 **IT Pro Security Community:**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](http://go.microsoft.com/fwlink/?linkid=21164) Website mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](https://go.microsoft.com/fwlink/?linkid=21164) Website mit anderen IT-Profis über das Thema Sicherheit.
 
 #### Danksagungen
 
-Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
+Microsoft [dankt](https://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
 
--   Haifei Li von Fortinets [FortiGuard Global Security Research Team](http://www.fortiguardcenter.com/) für den Hinweis auf ein in MS09-009 beschriebenes Problem.
--   Sean Larsson und Jun Mao von [VeriSign iDefense Labs](http://labs.idefense.com/) für den Hinweis auf ein in MS09-010 beschriebenes Problem.
--   Einem Forscher des [FortiGuard Global Security Research Team](http://www.fortiguardcenter.com/) von Fortinet für den Hinweis auf ein in MS09-010 beschriebenes Problem.
--   Einem Forscher der [VeriSign iDefense Labs](http://labs.idefense.com/) für den Hinweis auf ein in MS09-010 beschriebenes Problem.
--   Piotr Bania von [Kryptos Logic](http://www.kryptoslogic.com/) für den Hinweis auf ein in MS09-011 beschriebenes Problem.
--   Cesar Cerrudo von [Argeniss](http://www.argeniss.com/) für den Hinweis auf mehrere in MS09-012 beschriebene Probleme.
--   Greg MacManus von [iSIGHT Partners Labs](http://www.isightpartners.com/) für den Hinweis auf ein in MS09-013 beschriebenes Problem.
--   WanTeh Chang und Cem Paya von [Google Inc.](http://www.google.com/) für den Hinweis auf ein in MS09-013 beschriebenes Problem.
--   [Aviv Raff](http://aviv.raffon.net/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
--   Michal Zalewski von [Google Inc.](http://www.google.com/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
--   Ivan Fratric von [iSIGHT Partners Labs](http://www.isightpartners.com/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
--   Skylined von [Google Inc.](http://www.google.com/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
--   ADLab von [VenusTech](http://www.venustech.com.cn/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
--   [Aviv Raff](http://aviv.raffon.net/) für den Hinweis auf ein in MS09-015 beschriebenes Problem.
+-   Haifei Li von Fortinets [FortiGuard Global Security Research Team](https://www.fortiguardcenter.com/) für den Hinweis auf ein in MS09-009 beschriebenes Problem.
+-   Sean Larsson und Jun Mao von [VeriSign iDefense Labs](https://labs.idefense.com/) für den Hinweis auf ein in MS09-010 beschriebenes Problem.
+-   Einem Forscher des [FortiGuard Global Security Research Team](https://www.fortiguardcenter.com/) von Fortinet für den Hinweis auf ein in MS09-010 beschriebenes Problem.
+-   Einem Forscher der [VeriSign iDefense Labs](https://labs.idefense.com/) für den Hinweis auf ein in MS09-010 beschriebenes Problem.
+-   Piotr Bania von [Kryptos Logic](https://www.kryptoslogic.com/) für den Hinweis auf ein in MS09-011 beschriebenes Problem.
+-   Cesar Cerrudo von [Argeniss](https://www.argeniss.com/) für den Hinweis auf mehrere in MS09-012 beschriebene Probleme.
+-   Greg MacManus von [iSIGHT Partners Labs](https://www.isightpartners.com/) für den Hinweis auf ein in MS09-013 beschriebenes Problem.
+-   WanTeh Chang und Cem Paya von [Google Inc.](https://www.google.com/) für den Hinweis auf ein in MS09-013 beschriebenes Problem.
+-   [Aviv Raff](https://aviv.raffon.net/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
+-   Michal Zalewski von [Google Inc.](https://www.google.com/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
+-   Ivan Fratric von [iSIGHT Partners Labs](https://www.isightpartners.com/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
+-   Skylined von [Google Inc.](https://www.google.com/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
+-   ADLab von [VenusTech](https://www.venustech.com.cn/) für den Hinweis auf ein in MS09-014 beschriebenes Problem.
+-   [Aviv Raff](https://aviv.raffon.net/) für den Hinweis auf ein in MS09-015 beschriebenes Problem.
 -   New York State Chief Information Officer/Office for Technology für den Hinweis auf ein in MS09-016 beschriebenes Problem.
 
 #### Support
 
--   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](http://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
--   Technischer Support ist über den [Security Support](http://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos. Weitere Informationen zu verfügbaren Supportoptionen finden Sie auf der [Microsoft-Website „Hilfe und Support“](http://support.microsoft.com/).
--   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](http://go.microsoft.com/fwlink/?linkid=21155).
+-   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
+-   Technischer Support ist über den [Security Support](https://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos. Weitere Informationen zu verfügbaren Supportoptionen finden Sie auf der [Microsoft-Website „Hilfe und Support“](https://support.microsoft.com/).
+-   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](https://go.microsoft.com/fwlink/?linkid=21155).
 
 #### Haftungsausschluss
 

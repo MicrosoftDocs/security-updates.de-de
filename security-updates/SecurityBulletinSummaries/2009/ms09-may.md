@@ -17,11 +17,11 @@ Veröffentlicht: Dienstag, 12. Mai 2009 | Aktualisiert: Dienstag, 9. Juni 2009
 
 In diesem Bulletin Summary sind die im Mai 2009 veröffentlichten Security Bulletins aufgeführt.
 
-Mit der Veröffentlichung der Bulletins für Mai 2009 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 7. Mai 2009 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification](http://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx).
+Mit der Veröffentlichung der Bulletins für Mai 2009 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 7. Mai 2009 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification](https://www.microsoft.com/germany/technet/sicherheit/bulletins/bulletinadvance.mspx).
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](http://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](https://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx).
 
-Am Mittwoch, den 13. Mai 2009 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für den Security Bulletin-Webcast im Mai](http://msevents.microsoft.com/cui/webcasteventdetails.aspx?culture=en-us&eventid=1032395223). Ab diesem Datum steht dieser Webcast auf Anfrage zur Verfügung. Weitere Informationen dazu finden Sie unter [Microsoft Security Bulletin Zusammenfassungen und Webcasts.](http://technet.microsoft.com/security/bulletin/summary)
+Am Mittwoch, den 13. Mai 2009 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für den Security Bulletin-Webcast im Mai](https://msevents.microsoft.com/cui/webcasteventdetails.aspx?culture=en-us&eventid=1032395223). Ab diesem Datum steht dieser Webcast auf Anfrage zur Verfügung. Weitere Informationen dazu finden Sie unter [Microsoft Security Bulletin Zusammenfassungen und Webcasts.](https://technet.microsoft.com/security/bulletin/summary)
 
 Microsoft stellt auch Informationen bereit, anhand derer Benutzer die Prioritäten für monatliche Sicherheitsupdates und alle nicht sicherheitsrelevanten wichtigen Updates festlegen können, die an demselben Tag veröffentlicht werden wie die monatlichen Sicherheitsupdates. Bitte lesen Sie den Abschnitt **Weitere Informationen**.
 
@@ -47,11 +47,11 @@ Weitere Informationen zu betroffener Software finden Sie im nächsten Abschnitt 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine öffentlich gemeldete Sicherheitsanfälligkeit und mehrere vertraulich gemeldete Sicherheitsanfälligkeiten in Microsoft Office PowerPoint, die Remotecodeausführung ermöglichen können, wenn ein Benutzer eine speziell gestaltete PowerPoint-Datei öffnet. Ein Angreifer, der diese Sicherheitsanfälligkeit erfolgreich ausnutzt, kann vollständige Kontrolle über das betroffene System erlangen. Ein Angreifer kann dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen Benutzerrechten erstellen. Für Benutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Office</td>
@@ -66,7 +66,7 @@ In der folgenden Tabelle wird eine Bewertung der Ausnutzbarkeit aller Sicherheit
   
 **Wie verwende ich diese Tabelle?**  
   
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, funktionierender Angreifercode veröffentlicht wird. Sie sollten sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen ansehen, um Prioritäten für Ihre Bereitstellung festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/en-us/security/cc998259.aspx).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, funktionierender Angreifercode veröffentlicht wird. Sie sollten sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen ansehen, um Prioritäten für Ihre Bereitstellung festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/en-us/security/cc998259.aspx).
 
 <p> </p>
 <table style="border:1px solid black;">
@@ -81,109 +81,109 @@ Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0220">CVE-2009-0220</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0220">CVE-2009-0220</a></td>
 <td style="border:1px solid black;">Für Office-Versionen, die ohne /GS kompiliert wurden:<br />
-<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
+<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0221">CVE-2009-0221</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> – Inkonsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0221">CVE-2009-0221</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> – Inkonsistenter Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0222">CVE-2009-0222</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0222">CVE-2009-0222</a></td>
 <td style="border:1px solid black;">Für Office-Versionen, die ohne /GS kompiliert wurden:<br />
-<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
+<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0223">CVE-2009-0223</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0223">CVE-2009-0223</a></td>
 <td style="border:1px solid black;">Für Office-Versionen, die ohne /GS kompiliert wurden:<br />
-<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
+<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0224">CVE-2009-0224</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> – Inkonsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0224">CVE-2009-0224</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> – Inkonsistenter Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0225">CVE-2009-0225</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> – Inkonsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0225">CVE-2009-0225</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> – Inkonsistenter Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0226">CVE-2009-0226</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0226">CVE-2009-0226</a></td>
 <td style="border:1px solid black;">Für Office-Versionen, die ohne /GS kompiliert wurden:<br />
-<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
+<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0227">CVE-2009-0227</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0227">CVE-2009-0227</a></td>
 <td style="border:1px solid black;">Für Office-Versionen, die ohne /GS kompiliert wurden:<br />
-<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
+<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0556">CVE-2009-0556</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-0556">CVE-2009-0556</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;"><strong>Diese Sicherheitsanfälligkeit wird derzeit in der Internetumgebung ausgenutzt.</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1128">CVE-2009-1128</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1128">CVE-2009-1128</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1129">CVE-2009-1129</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1129">CVE-2009-1129</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1130">CVE-2009-1130</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1130">CVE-2009-1130</a></td>
 <td style="border:1px solid black;">Für Office-Versionen, die ohne /GS kompiliert wurden:<br />
-<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
+<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1131">CVE-2009-1131</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1131">CVE-2009-1131</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=141704">MS09-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeiten in Microsoft Office PowerPoint können Remotecodeausführung ermöglichen (967340)</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1137">CVE-2009-1137</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-1137">CVE-2009-1137</a></td>
 <td style="border:1px solid black;">Für Office-Versionen, die ohne /GS kompiliert wurden:<br />
-<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
+<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> – Konsistenter Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;">Der /GS-Schutz, der beim Kompilieren von Office 2003 Service Pack 3 und höheren Office-Versionen erstellt wurde, ist ein schadensbegrenzender Faktor für diese Sicherheitsanfälligkeit. Dadurch wird das Risiko für solche Systeme deutlich auf „<a href="https://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> – Funktionierender Angreifercode unwahrscheinlich“ reduziert.</td>
 </tr>
 </tbody>
 </table>
@@ -219,7 +219,7 @@ Microsoft Office Suites, Systeme und Komponenten
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-017**](http://go.microsoft.com/fwlink/?linkid=141704)
+[**MS09-017**](https://go.microsoft.com/fwlink/?linkid=141704)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -227,7 +227,7 @@ Microsoft Office Suites, Systeme und Komponenten
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Kritisch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -280,7 +280,7 @@ Microsoft Office für Mac
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-017**](http://go.microsoft.com/fwlink/?linkid=141704)
+[**MS09-017**](https://go.microsoft.com/fwlink/?linkid=141704)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -288,7 +288,7 @@ Microsoft Office für Mac
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr>
@@ -331,7 +331,7 @@ Weitere Office-Software
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS09-017**](http://go.microsoft.com/fwlink/?linkid=141704)
+[**MS09-017**](https://go.microsoft.com/fwlink/?linkid=141704)
 </td>
 </tr>
 <tr>
@@ -339,7 +339,7 @@ Weitere Office-Software
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
+[**Hoch**](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -398,35 +398,35 @@ Tools und Anleitungen zur Erkennung und Bereitstellung
 
 **Sicherheitsportal:**
 
-Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](http://technet.microsoft.com/de-de/updatemanagement/default.aspx). Im [TechNet Sicherheits-Center](http://www.microsoft.com/germany/technet/sicherheit/default.mspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Verbraucher können die Seite [Sicherheit zu Hause](http://www.microsoft.com/germany/athome/security/default.mspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
+Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](https://technet.microsoft.com/de-de/updatemanagement/default.aspx). Im [TechNet Sicherheits-Center](https://www.microsoft.com/germany/technet/sicherheit/default.mspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Verbraucher können die Seite [Sicherheit zu Hause](https://www.microsoft.com/germany/athome/security/default.mspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
 
-Sicherheitsupdates sind auch über [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747), [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130) und [Office Update](http://office.microsoft.com/de-de/downloads/default.aspx) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+Sicherheitsupdates sind auch über [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747), [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130) und [Office Update](https://office.microsoft.com/de-de/downloads/default.aspx) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
 
-Außerdem können Sicherheitsupdates vom [Windows Update-Katalog](http://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS07-036“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](http://catalog.update.microsoft.com/v7/site/faq.aspx).
+Außerdem können Sicherheitsupdates vom [Windows Update-Katalog](https://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS07-036“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](https://catalog.update.microsoft.com/v7/site/faq.aspx).
 
 **Anleitungen zur Erkennung und Bereitstellung**
 
-Zu den Sicherheitsupdates dieses Monats stellt Microsoft Anleitungen zur Erkennung und Bereitstellung zur Verfügung: Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS) und das Erweiterte Sicherheitsupdate-Inventurprogramm (ESUIT). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](http://support.microsoft.com/kb/910723).
+Zu den Sicherheitsupdates dieses Monats stellt Microsoft Anleitungen zur Erkennung und Bereitstellung zur Verfügung: Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS) und das Erweiterte Sicherheitsupdate-Inventurprogramm (ESUIT). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](https://support.microsoft.com/kb/910723).
 
 **Microsoft Baseline Security Analyzer**
 
-Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
+Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
 
 **Windows Server Update Services**
 
 Mithilfe der Windows Server Update Services (WSUS), können Administratoren die neuesten wichtigen Aktualisierungen und Sicherheitsupdates für Windows 2000 und höher, Office XP und höher, Exchange Server 2003 und SQL Server 2000 für Windows 2000 und neuere Betriebssysteme schnell und zuverlässig bereitstellen.
 
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](http://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](https://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx).
 
 **Systems Management Server**
 
-Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](http://technet.microsoft.com/en-us/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/smserver/default.mspx).
+Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Die nächste Version von SMS, System Center Configuration Manager 2007, ist jetzt verfügbar (siehe auch [System Center Configuration Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)). Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie unter [SMS 2003 Security Patch Management](https://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](https://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](https://www.microsoft.com/germany/smserver/default.mspx).
 
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2003/downloads/featurepacks/adminpack.mspx) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](https://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/technet/prodtechnol/sms/sms2003/downloads/featurepacks/adminpack.mspx) und im [SMS 2.0 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
 
 **Updatekompatibilitätsbewertung und Microsoft Application Compatibility Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc766043.aspx), die im [Microsoft Application Compatibility Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](https://technet.microsoft.com/de-de/library/cc766043.aspx), die im [Microsoft Application Compatibility Toolkit 5.0](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Microsoft Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 
@@ -440,49 +440,49 @@ Microsoft hat eine aktualisierte Version des Microsoft Windows-Tools zum Entfern
 
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
--   [Microsoft Knowledge Base-Artikel 894199](http://support.microsoft.com/kb/894199): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
--   [Neue, überarbeitete und veröffentlichte Updates für andere Microsoft-Produkte als Microsoft Windows](http://technet.microsoft.com/en-us/wsus/dd573344.aspx).
+-   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/kb/894199): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
+-   [Neue, überarbeitete und veröffentlichte Updates für andere Microsoft-Produkte als Microsoft Windows](https://technet.microsoft.com/en-us/wsus/dd573344.aspx).
 
 #### Microsoft Active Protections Program (MAPP)
 
-Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](http://www.microsoft.com/security/msrc/mapp/partners.mspx) aufgeführt sind.
+Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](https://www.microsoft.com/security/msrc/mapp/partners.mspx) aufgeführt sind.
 
 #### Sicherheitsstrategien und Community
 
 **Strategien für die Verwaltung von Sicherheitspatches:**
 
-Auf der Seite [Patchmanagement](http://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Patchmanagement](https://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
--   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](http://support.microsoft.com/kb/913086).
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
+-   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/kb/913086).
 
 **IT Pro Security Community:**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](http://go.microsoft.com/fwlink/?linkid=21164) Website mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](https://go.microsoft.com/fwlink/?linkid=21164) Website mit anderen IT-Profis über das Thema Sicherheit.
 
 #### Danksagungen
 
-Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
+Microsoft [dankt](https://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
 
--   Einer Person, die mit [VeriSign iDefense Labs](http://labs.idefense.com/) zusammenarbeitet, aber anonym bleiben möchte, für den Hinweis auf zwei in MS09-017 beschriebene Probleme.
--   Sean Larsson von [VeriSign iDefense Labs](http://labs.idefense.com/) für den Hinweis auf zwei in MS09-017 beschriebene Probleme.
--   Nicolas Joly von [VUPEN Security](http://www.vupen.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
--   Marsu Pilami von [VeriSign iDefense Labs](http://labs.idefense.com/) für den Hinweis auf mehrere in MS09-017 beschriebene Probleme.
--   Nicolas Joly von [VUPEN Security](http://www.vupen.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
--   Marsu Pilami in Zusammenarbeit mit [Zero Day Initiative](http://www.zerodayinitiative.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
--   Ling und Wushi von [team509](http://www.team509.com/) in Zusammenarbeit mit [TippingPoint](http://www.tippingpoint.com/) und [Zero Day Initiative](http://www.zerodayinitiative.com/) und Sean Larsson von [VeriSign iDefense Labs](http://labs.idefense.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
--   Carsten H. Eiram von [Secunia Research](http://secunia.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
+-   Einer Person, die mit [VeriSign iDefense Labs](https://labs.idefense.com/) zusammenarbeitet, aber anonym bleiben möchte, für den Hinweis auf zwei in MS09-017 beschriebene Probleme.
+-   Sean Larsson von [VeriSign iDefense Labs](https://labs.idefense.com/) für den Hinweis auf zwei in MS09-017 beschriebene Probleme.
+-   Nicolas Joly von [VUPEN Security](https://www.vupen.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
+-   Marsu Pilami von [VeriSign iDefense Labs](https://labs.idefense.com/) für den Hinweis auf mehrere in MS09-017 beschriebene Probleme.
+-   Nicolas Joly von [VUPEN Security](https://www.vupen.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
+-   Marsu Pilami in Zusammenarbeit mit [Zero Day Initiative](https://www.zerodayinitiative.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
+-   Ling und Wushi von [team509](https://www.team509.com/) in Zusammenarbeit mit [TippingPoint](https://www.tippingpoint.com/) und [Zero Day Initiative](https://www.zerodayinitiative.com/) und Sean Larsson von [VeriSign iDefense Labs](https://labs.idefense.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
+-   Carsten H. Eiram von [Secunia Research](https://secunia.com/) für den Hinweis auf ein in MS09-017 beschriebenes Problem.
 
 #### Support
 
--   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](http://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
--   Technischer Support ist über den [Security Support](http://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos. Weitere Informationen zu verfügbaren Supportoptionen finden Sie auf der [Microsoft-Website „Hilfe und Support“](http://support.microsoft.com/).
--   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](http://go.microsoft.com/fwlink/?linkid=21155).
+-   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
+-   Technischer Support ist über den [Security Support](https://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos. Weitere Informationen zu verfügbaren Supportoptionen finden Sie auf der [Microsoft-Website „Hilfe und Support“](https://support.microsoft.com/).
+-   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](https://go.microsoft.com/fwlink/?linkid=21155).
 
 #### Haftungsausschluss
 

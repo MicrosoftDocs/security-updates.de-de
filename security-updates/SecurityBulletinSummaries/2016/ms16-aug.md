@@ -15,7 +15,7 @@ Veröffentlicht: 9. August 2016 | Aktualisiert: 13. Juni 2017
 
 In diesem Bulletin Summary sind die im August 2016 veröffentlichten Sicherheitsbulletins aufgeführt.
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft-Sicherheitsbulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](http://go.microsoft.com/fwlink/?linkid=21163).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft-Sicherheitsbulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](https://go.microsoft.com/fwlink/?linkid=21163).
 
 Microsoft stellt auch Informationen bereit, anhand derer Benutzer die Prioritäten für monatliche Sicherheitsupdates und alle nicht sicherheitsrelevanten Updates festlegen können, die an demselben Tag veröffentlicht werden wie die monatlichen Sicherheitsupdates. Bitte lesen Sie den Abschnitt **Weitere Informationen**.
 
@@ -48,10 +48,10 @@ Probleme</strong></td>
 <td style="border:1px solid black;"><strong>Betroffene Software</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=821136">MS16-095</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=821136">MS16-095</a></td>
 <td style="border:1px solid black;"><strong>Kumulatives Sicherheitsupdate für Internet Explorer (3177356)<br />
 </strong>Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Internet Explorer. Die schwerwiegendste dieser Sicherheitsanfälligkeiten kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Webseite mit Internet Explorer anzeigt. Ein Angreifer, der die Sicherheitsanfälligkeiten erfolgreich ausnutzt, kann die gleichen Benutzerrechte erlangen wie der aktuelle Benutzer. Wenn der aktuelle Benutzer mit Administratorrechten angemeldet ist, kann ein Angreifer die Kontrolle über ein betroffenes System übernehmen. Der Angreifer könnte dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit uneingeschränkten Benutzerrechten erstellen.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3176492">3176492</a><br />
@@ -61,10 +61,10 @@ Remotecodeausführung</td>
 Internet Explorer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=821137">MS16-096</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=821137">MS16-096</a></td>
 <td style="border:1px solid black;"><strong>Kumulatives Sicherheitsupdate für Microsoft Edge (3177358)<br />
 </strong>Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Edge. Die schwerwiegendste dieser Sicherheitsanfälligkeiten kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Webseite mit Microsoft Edge anzeigt. Ein Angreifer, der die Sicherheitsanfälligkeiten erfolgreich ausnutzt, kann die gleichen Benutzerrechte erlangen wie der aktuelle Benutzer. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für jene, die mit Administratorrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3176492">3176492</a><br />
@@ -74,10 +74,10 @@ Remotecodeausführung</td>
 Microsoft Edge</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=821146">MS16-097</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=821146">MS16-097</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für Microsoft-Grafikkomponente (3177393)<br />
 </strong>Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Windows, Microsoft Office, Skype for Business und Microsoft Lync. Die Sicherheitsanfälligkeiten können Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell entworfene Website besucht oder ein speziell entworfenes Dokument öffnet. Benutzer mit Konten, die über weniger Systemrechte verfügen, sind davon möglicherweise weniger betroffen als Benutzer mit Administratorrechten.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3176492">3176492</a><br />
@@ -88,10 +88,10 @@ Microsoft Office,<br />
 Microsoft Communications-Plattformen und -Software</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=821582">MS16-098</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=821582">MS16-098</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für Windows-Kernelmodustreiber (3178466)<br />
 </strong>Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Windows. Die Sicherheitsanfälligkeiten können eine Erhöhung von Berechtigungen ermöglichen, wenn sich ein Angreifer bei einem betroffenen System anmeldet und eine speziell entworfene Anwendung ausführt, mit der die Sicherheitsanfälligkeiten ausgenutzt werden könnten und die Kontrolle über ein betroffenes System übernommen werden könnte.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Hoch</a><br />
 Rechteerweiterungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3176492">3176492</a><br />
@@ -101,10 +101,10 @@ Rechteerweiterungen</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=821165">MS16-099</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=821165">MS16-099</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für Microsoft Office (3177451)<br />
 </strong>Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Office. Die schwerwiegendste Sicherheitsanfälligkeiten können Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell entworfene Microsoft Office-Datei öffnet. Ein Angreifer, der die Sicherheitsanfälligkeiten erfolgreich ausnutzt, kann beliebigen Code im Kontext des aktuellen Benutzers ausführen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit Administratorrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -112,10 +112,10 @@ Remotecodeausführung</td>
 </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=822552">MS16-100</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=822552">MS16-100</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für den sicheren Start (3179577)<br />
 </strong>Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann die Umgehung von Sicherheitsfunktionen zulassen, wenn ein Angreifer einen betroffenen Start-Manager installiert und die Windows-Sicherheitsfunktionen umgeht.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Hoch</a> <br />
 Umgehung von Sicherheitsfunktionen</td>
 <td style="border:1px solid black;">Kein Neustart erforderlich.</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3179577">3179577</a><br />
@@ -123,10 +123,10 @@ Umgehung von Sicherheitsfunktionen</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=821576">MS16-101</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=821576">MS16-101</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für Windows-Authentifizierungsmethoden (3178465)<br />
 </strong>Dieses Sicherheitsupdate behebt mehrere Sicherheitsanfälligkeiten in Microsoft Windows. Die schwerwiegenderen dieser Sicherheitsanfälligkeiten können die Rechteerweiterung ermöglichen, wenn ein Angreifer eine speziell gestaltete Anwendung auf einem System ausführt, das einer Domäne angehört.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Hoch</a> <br />
 Rechteerweiterungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3176492">3176492</a><br />
@@ -135,10 +135,10 @@ Rechteerweiterungen</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=823207">MS16-102</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=823207">MS16-102</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für Microsoft Windows-PDF-Bibliothek (3182248)</strong><br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer speziell gestalteten PDF-Inhalt online anzeigt oder ein speziell gestaltetes PDF-Dokument öffnet. Ein Angreifer, der die Sicherheitsanfälligkeit erfolgreich ausnutzt, kann die gleichen Benutzerrechte erlangen wie der aktuelle Benutzer. Wenn der aktuelle Benutzer mit Administratorrechten angemeldet ist, kann ein Angreifer die Kontrolle über ein betroffenes System übernehmen. Der Angreifer könnte dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit uneingeschränkten Benutzerrechten erstellen.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3176492">3176492</a><br />
@@ -147,10 +147,10 @@ Remotecodeausführung</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=823241">MS16-103</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=823241">MS16-103</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für ActiveSyncProvider (3182332)<br />
 </strong>Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann die Offenlegung von Informationen ermöglichen, wenn Universal Outlook keine sichere Verbindung herstellen kann.</td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=21140">Hoch</a> <br />
 Offenlegung von Informationen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3176492">3176492</a><br />
@@ -167,7 +167,7 @@ In der folgenden Tabelle wird eine Bewertung der Ausnutzbarkeit aller Sicherheit
   
 **Wie verwende ich diese Tabelle?**  
   
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen nach der Veröffentlichung des Sicherheitsbulletins Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/de-de/security/cc998259).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen nach der Veröffentlichung des Sicherheitsbulletins Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/de-de/security/cc998259).
   
 In den nachfolgenden Spalten bezieht sich „Aktuelle Softwareversion“ auf die Themensoftware und „Ältere Softwareversionen“ auf alle älteren, unterstützten Versionen der Themensoftware, wie sie in den Tabellen „Betroffene Software“ und „Nicht betroffene Software“ im Bulletin aufgeführt ist.
 
@@ -195,12 +195,12 @@ durch Denial-of-Service**
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-095: Kumulatives Sicherheitsupdate für Internet Explorer (3177356)**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095: Kumulatives Sicherheitsupdate für Internet Explorer (3177356)**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3288](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3288)
+[CVE-2016-3288](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3288)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung
@@ -217,7 +217,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3289](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3289)
+[CVE-2016-3289](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3289)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser bezüglich Speicherbeschädigung
@@ -234,7 +234,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3290](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3290)
+[CVE-2016-3290](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3290)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung
@@ -251,7 +251,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3293](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3293)
+[CVE-2016-3293](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3293)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser bezüglich Speicherbeschädigung
@@ -268,7 +268,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3321](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3321)
+[CVE-2016-3321](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3321)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Internet Explorer durch Offenlegung von Informationen
@@ -285,7 +285,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3322](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3322)
+[CVE-2016-3322](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3322)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser bezüglich Speicherbeschädigung
@@ -302,7 +302,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3326](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3326)
+[CVE-2016-3326](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3326)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser durch Offenlegung von Information
@@ -319,7 +319,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3327](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3327)
+[CVE-2016-3327](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3327)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser durch Offenlegung von Information
@@ -336,7 +336,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3329](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3329)
+[CVE-2016-3329](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3329)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser durch Offenlegung von Information
@@ -353,12 +353,12 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-096: Kumulatives Sicherheitsupdate für Microsoft Edge (3177358)**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096: Kumulatives Sicherheitsupdate für Microsoft Edge (3177358)**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3289](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3289)
+[CVE-2016-3289](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3289)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser bezüglich Speicherbeschädigung
@@ -375,7 +375,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3293](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3293)
+[CVE-2016-3293](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3293)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser bezüglich Speicherbeschädigung
@@ -392,7 +392,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3296](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3296)
+[CVE-2016-3296](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3296)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit im Skriptmodul bezüglich Speicherbeschädigung
@@ -409,7 +409,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3319](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3319)
+[CVE-2016-3319](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3319)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft PDF bezüglich Remotecodeausführung
@@ -426,7 +426,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3322](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3322)
+[CVE-2016-3322](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3322)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser bezüglich Speicherbeschädigung
@@ -443,7 +443,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3326](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3326)
+[CVE-2016-3326](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3326)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser durch Offenlegung von Information
@@ -460,7 +460,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3327](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3327)
+[CVE-2016-3327](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3327)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser durch Offenlegung von Information
@@ -477,7 +477,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3329](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3329)
+[CVE-2016-3329](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3329)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Browser durch Offenlegung von Information
@@ -494,12 +494,12 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-097: Sicherheitsupdate für Microsoft-Grafikkomponente (3177393)**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097: Sicherheitsupdate für Microsoft-Grafikkomponente (3177393)**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3301](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3301)
+[CVE-2016-3301](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3301)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Windows-Grafikkomponente bezüglich Remotecodeausführung
@@ -516,7 +516,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3303](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3303)
+[CVE-2016-3303](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3303)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Windows-Grafikkomponente bezüglich Remotecodeausführung
@@ -533,7 +533,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3304](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3304)
+[CVE-2016-3304](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3304)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Windows-Grafikkomponente bezüglich Remotecodeausführung
@@ -550,12 +550,12 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-098: Sicherheitsupdate für Windows-Kernelmodustreiber (3178466)**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098: Sicherheitsupdate für Windows-Kernelmodustreiber (3178466)**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3308](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3308)
+[CVE-2016-3308](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3308)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Win32k bezüglich der Erhöhung von Berechtigungen
@@ -572,7 +572,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3309](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3309)
+[CVE-2016-3309](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3309)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Win32k bezüglich der Erhöhung von Berechtigungen
@@ -589,7 +589,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3310](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3310)
+[CVE-2016-3310](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3310)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Win32k bezüglich der Erhöhung von Berechtigungen
@@ -606,7 +606,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3311](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3311)
+[CVE-2016-3311](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3311)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Win32k bezüglich der Erhöhung von Berechtigungen
@@ -623,12 +623,12 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-099: Sicherheitsupdate für Microsoft Office (3177451)**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099: Sicherheitsupdate für Microsoft Office (3177451)**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3313](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-cve-2016-3313)
+[CVE-2016-3313](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-cve-2016-3313)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung
@@ -645,7 +645,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3315](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3315)
+[CVE-2016-3315](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3315)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft OneNote bezüglich der Offenlegung von Informationen
@@ -662,7 +662,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3316](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3316)
+[CVE-2016-3316](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3316)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung
@@ -679,7 +679,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3317](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3317)
+[CVE-2016-3317](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3317)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung
@@ -696,7 +696,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3318](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3318)
+[CVE-2016-3318](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3318)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Grafikkomponente bezüglich Speicherbeschädigung
@@ -713,12 +713,12 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-100: Sicherheitsupdate für den sicheren Start (3179577)**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100: Sicherheitsupdate für den sicheren Start (3179577)**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3320](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3320)
+[CVE-2016-3320](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3320)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit bei sicherem Start durch Umgehung der Sicherheitsfunktionen
@@ -735,12 +735,12 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-101: Sicherheitsupdate für Windows-Authentifizierungsmethoden (3178465)**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101: Sicherheitsupdate für Windows-Authentifizierungsmethoden (3178465)**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3237](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3237)
+[CVE-2016-3237](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3237)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Kerberos durch Umgehung von Sicherheitsfunktionen
@@ -757,7 +757,7 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3300](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3300)
+[CVE-2016-3300](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3300)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in NetLogon bezüglich Erhöhung von Berechtigungen
@@ -774,12 +774,12 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-102: Sicherheitsupdate für Microsoft Windows-PDF-Bibliothek (3182248)**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102: Sicherheitsupdate für Microsoft Windows-PDF-Bibliothek (3182248)**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3319](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3319)
+[CVE-2016-3319](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3319)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Microsoft PDF bezüglich Remotecodeausführung
@@ -796,12 +796,12 @@ Nicht anwendbar
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
-[**MS16-103: Sicherheitsupdate für ActiveSyncProvider (3182332)**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103: Sicherheitsupdate für ActiveSyncProvider (3182332)**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-3312](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3312)
+[CVE-2016-3312](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3312)
 </td>
 <td style="border:1px solid black;">
 Sicherheitsanfälligkeit in Universal Outlook bezüglich der Offenlegung von Informationen
@@ -844,16 +844,16 @@ In diesen Tabellen finden Sie Informationen zu Sicherheitsupdates, die Sie mögl
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
@@ -861,16 +861,16 @@ In diesen Tabellen finden Sie Informationen zu Sicherheitsupdates, die Sie mögl
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -929,16 +929,16 @@ Windows Vista x64 Edition Service Pack 2
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=808150)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=808150)
 </td>
 </tr>
 <tr>
@@ -946,16 +946,16 @@ Windows Vista x64 Edition Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Mittel**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -1035,16 +1035,16 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
@@ -1052,16 +1052,16 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -1120,16 +1120,16 @@ Windows 7 für x64-basierte Systeme Service Pack 1
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
@@ -1137,16 +1137,16 @@ Windows 7 für x64-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Mittel**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -1203,16 +1203,16 @@ Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
@@ -1220,16 +1220,16 @@ Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -1288,16 +1288,16 @@ Windows 8.1 für x64-basierte Systeme
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
@@ -1305,16 +1305,16 @@ Windows 8.1 für x64-basierte Systeme
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Mittel**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -1373,16 +1373,16 @@ Windows Server 2012 R2
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
@@ -1390,16 +1390,16 @@ Windows Server 2012 R2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -1435,16 +1435,16 @@ Windows RT 8.1
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
@@ -1452,16 +1452,16 @@ Windows RT 8.1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -1624,16 +1624,16 @@ Windows 10 Version 1607 für x64-basierte Systeme
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-095**](http://go.microsoft.com/fwlink/?linkid=821136)
+[**MS16-095**](https://go.microsoft.com/fwlink/?linkid=821136)
 </td>
 <td style="border:1px solid black;">
-[**MS16-096**](http://go.microsoft.com/fwlink/?linkid=821137)
+[**MS16-096**](https://go.microsoft.com/fwlink/?linkid=821137)
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-098**](http://go.microsoft.com/fwlink/?linkid=821582)
+[**MS16-098**](https://go.microsoft.com/fwlink/?linkid=821582)
 </td>
 </tr>
 <tr>
@@ -1647,10 +1647,10 @@ Windows 10 Version 1607 für x64-basierte Systeme
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -1781,16 +1781,16 @@ Windows Server 2012 R2 (Server Core-Installation)
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -1801,7 +1801,7 @@ Windows Server 2012 R2 (Server Core-Installation)
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1858,16 +1858,16 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -1878,7 +1878,7 @@ Nicht anwendbar
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1954,16 +1954,16 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -1974,7 +1974,7 @@ Nicht anwendbar
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -2031,16 +2031,16 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -2051,7 +2051,7 @@ Nicht anwendbar
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -2108,16 +2108,16 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -2125,13 +2125,13 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -2199,16 +2199,16 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -2216,13 +2216,13 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -2287,16 +2287,16 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -2304,13 +2304,13 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -2352,16 +2352,16 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -2369,16 +2369,16 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -2529,16 +2529,16 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-100**](http://go.microsoft.com/fwlink/?linkid=822552)
+[**MS16-100**](https://go.microsoft.com/fwlink/?linkid=822552)
 </td>
 <td style="border:1px solid black;">
-[**MS16-101**](http://go.microsoft.com/fwlink/?linkid=821576)
+[**MS16-101**](https://go.microsoft.com/fwlink/?linkid=821576)
 </td>
 <td style="border:1px solid black;">
-[**MS16-102**](http://go.microsoft.com/fwlink/?linkid=823207)
+[**MS16-102**](https://go.microsoft.com/fwlink/?linkid=823207)
 </td>
 <td style="border:1px solid black;">
-[**MS16-103**](http://go.microsoft.com/fwlink/?linkid=823241)
+[**MS16-103**](https://go.microsoft.com/fwlink/?linkid=823241)
 </td>
 </tr>
 <tr>
@@ -2546,13 +2546,13 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -2683,10 +2683,10 @@ Nicht anwendbar
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-099**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
@@ -2694,10 +2694,10 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -2734,10 +2734,10 @@ Microsoft Word 2007 Service Pack 3
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-099**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
@@ -2745,10 +2745,10 @@ Microsoft Word 2007 Service Pack 3
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -2815,10 +2815,10 @@ Microsoft Word 2010 Service Pack 2 (64-Bit-Editionen)
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-099**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
@@ -2829,7 +2829,7 @@ Microsoft Word 2010 Service Pack 2 (64-Bit-Editionen)
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -2886,10 +2886,10 @@ Microsoft Word 2013 Service Pack 1 (64-Bit-Editionen)
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-099**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
@@ -2900,7 +2900,7 @@ Microsoft Word 2013 Service Pack 1 (64-Bit-Editionen)
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -2935,10 +2935,10 @@ Microsoft Word 2013 RT Service Pack 1
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-099**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
@@ -2949,7 +2949,7 @@ Microsoft Word 2013 RT Service Pack 1
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -3000,10 +3000,10 @@ Microsoft Word 2016 (64-Bit-Edition)
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-099**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
@@ -3014,7 +3014,7 @@ Microsoft Word 2016 (64-Bit-Edition)
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -3040,10 +3040,10 @@ Microsoft Word für Mac 2011
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-099**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
@@ -3054,7 +3054,7 @@ Microsoft Word für Mac 2011
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -3083,10 +3083,10 @@ Microsoft Word 2016 für Mac
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 <td style="border:1px solid black;">
-[**MS16-099**](http://go.microsoft.com/fwlink/?linkid=821165)
+[**MS16-099**](https://go.microsoft.com/fwlink/?linkid=821165)
 </td>
 </tr>
 <tr>
@@ -3094,10 +3094,10 @@ Microsoft Word 2016 für Mac
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Hoch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -3140,7 +3140,7 @@ Dieses Bulletin umfasst mehr als eine Softwarekategorie. Informationen zu zusät
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 </tr>
 <tr>
@@ -3148,7 +3148,7 @@ Dieses Bulletin umfasst mehr als eine Softwarekategorie. Informationen zu zusät
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -3201,7 +3201,7 @@ Skype for Business Basic 2016 (64-Bit-Editionen)
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 </tr>
 <tr>
@@ -3209,7 +3209,7 @@ Skype for Business Basic 2016 (64-Bit-Editionen)
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -3270,7 +3270,7 @@ Microsoft Lync Basic 2013 Service Pack 1 (64-Bit)
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 </tr>
 <tr>
@@ -3278,7 +3278,7 @@ Microsoft Lync Basic 2013 Service Pack 1 (64-Bit)
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -3335,7 +3335,7 @@ Microsoft Lync 2010 Attendee
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS16-097**](http://go.microsoft.com/fwlink/?linkid=821146)
+[**MS16-097**](https://go.microsoft.com/fwlink/?linkid=821146)
 </td>
 </tr>
 <tr>
@@ -3343,7 +3343,7 @@ Microsoft Lync 2010 Attendee
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://go.microsoft.com/fwlink/?linkid=21140)
+[**Kritisch**](https://go.microsoft.com/fwlink/?linkid=21140)
 </td>
 </tr>
 <tr>
@@ -3373,7 +3373,7 @@ Windows Server Update Services (WSUS), Systems Management Server (SMS) und Syste
 
 Die im Anwendungskompatibilitäts-Toolkit enthaltenen Komponenten zur Updatekompatibilitätsbewertung helfen dabei, die Vereinbarkeit von Windows-Updates mit installierten Anwendungen zu testen und zu überprüfen.
 
-Weitere Informationen zu diesen und weiteren verfügbaren Tools finden Sie unter [Sicherheitstools](http://technet.microsoft.com/de-de/security/cc297183). 
+Weitere Informationen zu diesen und weiteren verfügbaren Tools finden Sie unter [Sicherheitstools](https://technet.microsoft.com/de-de/security/cc297183). 
 
 Danksagung
 ----------
@@ -3392,39 +3392,39 @@ Für die Veröffentlichung des Bulletins, die am zweiten Dienstag jedes Monats s
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
 -   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/de-de/kb/894199): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
--   [Updates für Windows Server Update Services aus den vergangenen Monaten](http://technet.microsoft.com/de-de/wsus/bb456965). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
+-   [Updates für Windows Server Update Services aus den vergangenen Monaten](https://technet.microsoft.com/de-de/wsus/bb456965). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
 
 ### Microsoft Active Protections Program (MAPP)
 
-Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Anbietern von Sicherheitssoftware vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsrisiken dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](http://go.microsoft.com/fwlink/?linkid=215201) aufgeführt sind.
+Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Anbietern von Sicherheitssoftware vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsrisiken dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](https://go.microsoft.com/fwlink/?linkid=215201) aufgeführt sind.
 
 ### Sicherheitsstrategien und Community
 
 **Updateverwaltungsstrategien**
 
-Auf der Seite [Update Management](http://go.microsoft.com/fwlink/?linkid=21168) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Update Management](https://go.microsoft.com/fwlink/?linkid=21168) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsanfälligkeiten sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://go.microsoft.com/fwlink/?linkid=21129) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=21129) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747) verfügbar.
 -   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/de-de/kb/913086).
 
 **IT Pro Security Community**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie in der [IT-Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164) mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie in der [IT-Pro Security Community](https://go.microsoft.com/fwlink/?linkid=21164) mit anderen IT-Profis über das Thema Sicherheit.
 
 ### Support
 
-Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](http://go.microsoft.com/fwlink/?linkid=21742), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
+Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://go.microsoft.com/fwlink/?linkid=21742), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
 
-Sicherheitslösungen für IT-Experten: [TechNet Security – Problembehandlung und Support](http://technet.microsoft.com/de-de/security/bb980617)
+Sicherheitslösungen für IT-Experten: [TechNet Security – Problembehandlung und Support](https://technet.microsoft.com/de-de/security/bb980617)
 
-So schützen Sie Ihren Computer, auf dem Windows ausgeführt wird, vor Viren und schädlicher Software: [Safety and Security Center](http://support.microsoft.com/de-de/contactus/cu_sc_virsec_master)
+So schützen Sie Ihren Computer, auf dem Windows ausgeführt wird, vor Viren und schädlicher Software: [Safety and Security Center](https://support.microsoft.com/de-de/contactus/cu_sc_virsec_master)
 
-Lokaler Support entsprechend Ihrem Land: [Internationaler Support](http://support.microsoft.com/de-de/common/international.aspx)
+Lokaler Support entsprechend Ihrem Land: [Internationaler Support](https://support.microsoft.com/de-de/common/international.aspx)
 
 ### Haftungsausschluss
 

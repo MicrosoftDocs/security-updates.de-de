@@ -18,18 +18,18 @@ Veröffentlicht: Dienstag, 8. Februar 2005
 **Veröffentlicht:** 8. Februar 2005  
 **Version:** 1.0
 
-Eine Endbenutzerfassung dieser Informationen [finden Sie hier](http://www.microsoft.com/germany/sicherheit/default.mspx).
+Eine Endbenutzerfassung dieser Informationen [finden Sie hier](https://www.microsoft.com/germany/sicherheit/default.mspx).
 
 **Schützen Sie Ihren PC:** Informationen dazu, wie Sie Ihren PC schützen können, finden Sie auf folgenden Webseiten:
 
--   [Für Heimanwender](http://www.microsoft.com/germany/athome/security/protect/default.mspx)
--   [Für IT-Profis und Entwickler](http://www.microsoft.com/germany/sicherheit/guidance/default.mspx)
+-   [Für Heimanwender](https://www.microsoft.com/germany/athome/security/protect/default.mspx)
+-   [Für IT-Profis und Entwickler](https://www.microsoft.com/germany/sicherheit/guidance/default.mspx)
 
-**Strategien für die Verwaltung von Sicherheitspatches:** Nutzen Sie den [Microsoft-Leitfaden zur Sicherheitspatch-Verwaltung](http://www.microsoft.com/germany/technet/datenbank/articles/900193.mspx). Er enthält Best Practices und von Microsoft empfohlene Vorgehensweisen für die Bereitstellung, Verteilung und Installation von Sicherheitsupdates in Ihrer IT-Umgebung.
+**Strategien für die Verwaltung von Sicherheitspatches:** Nutzen Sie den [Microsoft-Leitfaden zur Sicherheitspatch-Verwaltung](https://www.microsoft.com/germany/technet/datenbank/articles/900193.mspx). Er enthält Best Practices und von Microsoft empfohlene Vorgehensweisen für die Bereitstellung, Verteilung und Installation von Sicherheitsupdates in Ihrer IT-Umgebung.
 
-**IT Pro Security Zone Community:** Auf der Website [IT Pro Security Zone](http://go.microsoft.com/fwlink/?linkid=21164) erfahren Sie, wie Sie die Sicherheit erhöhen und die IT-Infrastruktur optimieren können. Sie haben zudem die Möglichkeit sich mit anderen IT-Fachleuten über Sicherheitsthemen auszutauschen.
+**IT Pro Security Zone Community:** Auf der Website [IT Pro Security Zone](https://go.microsoft.com/fwlink/?linkid=21164) erfahren Sie, wie Sie die Sicherheit erhöhen und die IT-Infrastruktur optimieren können. Sie haben zudem die Möglichkeit sich mit anderen IT-Fachleuten über Sicherheitsthemen auszutauschen.
 
-**Microsoft Security Notification Service:** Abonnieren Sie die [Microsoft-Sicherheitsbenachrichtigungen](http://go.microsoft.com/fwlink/?linkid=21163), um automatisch eine E-Mail-Benachrichtigung zu erhalten, sobald ein Microsoft Security Bulletin veröffentlicht wird.
+**Microsoft Security Notification Service:** Abonnieren Sie die [Microsoft-Sicherheitsbenachrichtigungen](https://go.microsoft.com/fwlink/?linkid=21163), um automatisch eine E-Mail-Benachrichtigung zu erhalten, sobald ein Microsoft Security Bulletin veröffentlicht wird.
 
 #### Zusammenfassung
 
@@ -40,65 +40,65 @@ Kritisch (8)
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-005                                                                                                                                |
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Office kann Remotecodeausführung ermöglichen (873352)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-005.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Office kann Remotecodeausführung ermöglichen (873352)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-005.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine Sicherheitsanfälligkeit vor, die Codeausführung von Remotestandorten aus ermöglichen kann.                                                            |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                 |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                 |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                             |
 | **Betroffene Software:**                   | **Office**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                               |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-009                                                                                                                                                                  |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit bei PNG-Verarbeitung kann die Codeausführung von Remotestandorten aus ermöglichen (890261)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-009.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit bei PNG-Verarbeitung kann die Codeausführung von Remotestandorten aus ermöglichen (890261)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-009.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine öffentlich bekannte Sicherheitsanfälligkeit vor, die Codeausführung von Remotestandorten aus ermöglichen kann.                                                                          |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                   |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                   |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                               |
 | **Betroffene Software:**                   | **Windows und MSN Messenger.** Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                              |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-010                                                                                                                                                                     |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit im Lizenzprotokollierdienst kann Codeausführung von Remotestandorten aus ermöglichen (885834)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-010.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit im Lizenzprotokollierdienst kann Codeausführung von Remotestandorten aus ermöglichen (885834)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-010.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine Sicherheitsanfälligkeit vor, die Codeausführung von Remotestandorten aus ermöglichen kann.                                                                                                 |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                      |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                      |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                  |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                   |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-011                                                                                                                                                                       |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit im SMB (Server Message Block) kann Codeausführung von Remotestandorten aus ermöglichen (885250)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-011.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit im SMB (Server Message Block) kann Codeausführung von Remotestandorten aus ermöglichen (885250)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-011.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine Sicherheitsanfälligkeit vor, die Codeausführung von Remotestandorten aus ermöglichen kann.                                                                                                   |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                        |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                        |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                    |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                     |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-012                                                                                                                                     |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in OLE und COM kann Remotecodeausführung ermöglichen (873333)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-012.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in OLE und COM kann Remotecodeausführung ermöglichen (873333)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-012.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine Sicherheitsanfälligkeit vor, die Codeausführung von Remotestandorten aus ermöglichen kann.                                                                 |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                      |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                      |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                  |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                   |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-013                                                                                                                                                                          |
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit im ActiveX-Steuerelement der DHTML-Bearbeitungskomponente kann Codeausführung ermöglichen (891781)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit im ActiveX-Steuerelement der DHTML-Bearbeitungskomponente kann Codeausführung ermöglichen (891781)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine öffentlich bekannte Sicherheitsanfälligkeit vor, die Codeausführung von Remotestandorten aus ermöglichen kann.                                                                                  |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                           |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                           |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                       |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                        |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-014                                                                                                                      |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Kumulatives Sicherheitsupdate für Internet Explorer (867282)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx)           |
+| **Titel des Bulletins**                    | [**Kumulatives Sicherheitsupdate für Internet Explorer (867282)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx)           |
 | **Kurzzusammenfassung**                    | In Internet Explorer bestehen Sicherheitsanfälligkeiten, die die Codeausführung von Remotestandorten aus auf einem betroffenen System ermöglichen können. |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                       |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                       |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                   |
 | **Betroffene Software:**                   | **Windows und Internet Explorer**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                              |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-015                                                                                                                                                                       |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Hyperlink-Objektbibliothek kann Codeausführung von Remotestandorten aus ermöglichen (888113)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Hyperlink-Objektbibliothek kann Codeausführung von Remotestandorten aus ermöglichen (888113)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine Sicherheitsanfälligkeit vor, die Codeausführung von Remotestandorten aus ermöglichen kann.                                                                                                   |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                        |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                        |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                    |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                     |
 
@@ -107,25 +107,25 @@ Hoch (3)
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-004                                                                                                                                     |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in ASP.Net kann zu Authentifizierungsumgehung führen (887219)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-004.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in ASP.Net kann zu Authentifizierungsumgehung führen (887219)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-004.mspx) |
 | **Kurzzusammenfassung**                    | Eine Sicherheitsanfälligkeit in ASP.NET, die einem Angreifer den unerlaubten Zugriff auf bestimmte Teile einer ASP.NET-Website ermöglicht.                               |
-| **Bewertung des maximalen Schweregrads**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                          |
+| **Bewertung des maximalen Schweregrads**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                          |
 | **Auswirkung der Sicherheitsanfälligkeit** | Erhöhung der Berechtigungen                                                                                                                                              |
 | **Betroffene Software:**                   | **Die .NET-Entwicklungstools und -Platform.** Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                  |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-007                                                                                                                                             |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Windows kann das Offenlegen von Informationen ermöglichen (888302)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-007.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Windows kann das Offenlegen von Informationen ermöglichen (888302)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-007.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine Sicherheitsanfälligkeit vor, die bei Verbindung mit einer freigegebenen Ressource das Lesen von Benutzernamen ermöglichen kann.                                    |
-| **Bewertung des maximalen Schweregrads**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                  |
+| **Bewertung des maximalen Schweregrads**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                  |
 | **Auswirkung der Sicherheitsanfälligkeit** | Offenlegung von Informationen                                                                                                                                                    |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                           |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-008                                                                                                                                       |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Windows Shell kann Remotecodeausführung ermöglichen (890047)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-008.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Windows Shell kann Remotecodeausführung ermöglichen (890047)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-008.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine Sicherheitsanfälligkeit vor, die Codeausführung von Remotestandorten aus ermöglichen kann. Es sind jedoch Benutzereingriffe erforderlich.                    |
-| **Bewertung des maximalen Schweregrads**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                            |
+| **Bewertung des maximalen Schweregrads**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                            |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                    |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                     |
 
@@ -134,9 +134,9 @@ Mittel (1)
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS05-006                                                                                                                                                                                                                    |
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Windows SharePoint Services und SharePoint Team Services kann standortübergreifende Scripting- und Spoofing-Angriffe ermöglichen (887981)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-006.mspx) |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in Windows SharePoint Services und SharePoint Team Services kann standortübergreifende Scripting- und Spoofing-Angriffe ermöglichen (887981)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-006.mspx) |
 | **Kurzzusammenfassung**                    | Es liegt eine Sicherheitsanfälligkeit vor, die es einem Benutzer ermöglichen kann, ein gefährliches Skript oder gefälschte Inhalte auszuführen bzw. Änderungen an Caches vorzunehmen.                                                                   |
-| **Bewertung des maximalen Schweregrads**   | [Mittel](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                       |
+| **Bewertung des maximalen Schweregrads**   | [Mittel](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                       |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                                                                 |
 | **Betroffene Software:**                   | **Windows und Office**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                                                       |
 
@@ -179,21 +179,21 @@ Das Security Bulletin **MS05-009** umfasst beispielsweise mehrere Updates, die e
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Kennung des Bulletins</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-004.mspx"><strong>MS05-004</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-005.mspx"><strong>MS05-005</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-006.mspx"><strong>MS05-006</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-007.mspx"><strong>MS05-007</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-008.mspx"><strong>MS05-008</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-009.mspx"><strong>MS05-009</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-004.mspx"><strong>MS05-004</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-005.mspx"><strong>MS05-005</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-006.mspx"><strong>MS05-006</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-007.mspx"><strong>MS05-007</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-008.mspx"><strong>MS05-008</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-009.mspx"><strong>MS05-009</strong></a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Bewertung des maximalen Schweregrads</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Mittel</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Mittel</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Betroffene Windows-Software:</strong></td>
@@ -590,7 +590,7 @@ Das Security Bulletin **MS05-009** umfasst beispielsweise mehrere Updates, die e
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://messenger.msn.com/">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://messenger.msn.com/">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">MSN Messenger 6.2</td>
@@ -599,7 +599,7 @@ Das Security Bulletin **MS05-009** umfasst beispielsweise mehrere Updates, die e
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://messenger.msn.com/">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://messenger.msn.com/">Kritisch</a></td>
 </tr>
 </tbody>
 </table>
@@ -631,21 +631,21 @@ Das Security Bulletin **MS05-009** umfasst beispielsweise mehrere Updates, die e
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Kennung des Bulletins</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-010.mspx"><strong>MS05-010</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-011.mspx"><strong>MS05-011</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-012.mspx"><strong>MS05-012</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx"><strong>MS05-013</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx"><strong>MS05-014</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx"><strong>MS05-015</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-010.mspx"><strong>MS05-010</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-011.mspx"><strong>MS05-011</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-012.mspx"><strong>MS05-012</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx"><strong>MS05-013</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx"><strong>MS05-014</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx"><strong>MS05-015</strong></a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Bewertung des maximalen Schweregrads</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a><strong>[6]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Betroffene Windows-Software:</strong></td>
@@ -751,27 +751,27 @@ Das Security Bulletin **MS05-009** umfasst beispielsweise mehrere Updates, die e
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2] [6]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx">Kritisch</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows 98 Second Edition (SE)</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2] [6]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx">Kritisch</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx">Kritisch</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows 98</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><strong>[2] [6]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-013.mspx">Kritisch</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx">Kritisch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx">Kritisch</a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"></td>
@@ -870,7 +870,7 @@ Das Security Bulletin **MS05-009** umfasst beispielsweise mehrere Updates, die e
   
 **<sup>[1]</sup>** Standardmäßig ist dieses Betriebssystem nicht anfällig für dieses Problem. Nach der Installation anderer Softwareprogramme oder -komponenten könnte dieses Betriebssystem jedoch anfällig werden. Weitere Informationen finden Sie auch im entsprechenden Security Bulletin.
   
-**<sup>[2]</sup>** Dieses Betriebssystem ist anfällig für dieses Problem. Es ist jedoch nicht auf kritische Weise betroffen. Sicherheitsupdates für nicht kritische Probleme werden normalerweise für dieses Betriebssystem nicht angeboten. Weitere Informationen zu den Microsoft Support Lifecycle-Richtlinien für dieses Betriebssystem finden Sie auf dieser [Website](http://go.microsoft.com/fwlink/?linkid=33327). Weitere Informationen finden Sie auch im entsprechenden Security Bulletin.
+**<sup>[2]</sup>** Dieses Betriebssystem ist anfällig für dieses Problem. Es ist jedoch nicht auf kritische Weise betroffen. Sicherheitsupdates für nicht kritische Probleme werden normalerweise für dieses Betriebssystem nicht angeboten. Weitere Informationen zu den Microsoft Support Lifecycle-Richtlinien für dieses Betriebssystem finden Sie auf dieser [Website](https://go.microsoft.com/fwlink/?linkid=33327). Weitere Informationen finden Sie auch im entsprechenden Security Bulletin.
   
 **<sup>[3]</sup>** MSN Messenger 6.1 und 6.2 sind betroffen, wenn sie auf diesem Betriebssystem ausgeführt werden. Siehe MSN Messenger unter „Weitere betroffene Microsoft-Software“.
   
@@ -880,7 +880,7 @@ Das Security Bulletin **MS05-009** umfasst beispielsweise mehrere Updates, die e
   
 **<sup>[6]</sup>** Es gibt weitere Produkte, die bei Installation auf dem Betriebssystem in kritischer Weise betroffen sein können. Weitere Informationen hierzu finden Sie im Bulletin.
   
-**<sup>[7]</sup>** Für diese Plattformen sind kritische Sicherheitsupdates erhältlich. Sie werden als Teil dieses Security Bulletins zur Verfügung gestellt und können über die [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130)-Website heruntergeladen werden.
+**<sup>[7]</sup>** Für diese Plattformen sind kritische Sicherheitsupdates erhältlich. Sie werden als Teil dieses Security Bulletins zur Verfügung gestellt und können über die [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130)-Website heruntergeladen werden.
   
 Bereitstellung  
 --------------
@@ -889,58 +889,58 @@ Bereitstellung
   
 Mit den Microsoft Software Update Services (SUS) können Sie als IT-Administrator neue wichtige Updates, Hotfixes oder Patches schnell und zuverlässig auf den Servern und Desktop-Computern in Ihrem Netzwerk bereitstellen. Die SUS unterstützen die Produkte der Windows 2000 Server- und Windows Server 2003-Familie sowie Windows 2000 Professional und Windows XP Professional.
   
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mit Software Update Services finden Sie auf der Website zu [Software Update Services](http://go.microsoft.com/fwlink/?linkid=21133).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mit Software Update Services finden Sie auf der Website zu [Software Update Services](https://go.microsoft.com/fwlink/?linkid=21133).
   
 **Systems Management Server:**
   
-Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Weitere Informationen zur Verwendung von SMS 2003 für die Bereitstellung von Sicherheitsupdates finden Sie auf der Website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der [SMS-Website](http://www.microsoft.com/germany/smsmgmt/).
+Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Weitere Informationen zur Verwendung von SMS 2003 für die Bereitstellung von Sicherheitsupdates finden Sie auf der Website [SMS 2003 Security Patch Management](https://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](https://go.microsoft.com/fwlink/?linkid=33340) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der [SMS-Website](https://www.microsoft.com/germany/smsmgmt/).
   
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und dem Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen hierzu finden Sie [auf dieser Website](http://go.microsoft.com/fwlink/?linkid=33341). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=33387) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und dem Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen hierzu finden Sie [auf dieser Website](https://go.microsoft.com/fwlink/?linkid=33341). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=33387) und im [SMS 2.0 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
   
 **QChain.exe und Update.exe:**
   
-Microsoft hat ein befehlszeilenbasiertes Tool namens QChain.exe veröffentlicht, mit dem Sie als Systemadministrator mehrere Updates für die Installation sicher miteinander „verketten“ können. *Verketten* bedeutet, dass Sie die Installation in einem Zug durchführen können, anstatt die Systeme nach jedem einzelnen Update immer wieder neu starten zu müssen. Das Tool Update.exe, das bei den in diesem Summary aufgelisteten Updates eingesetzt wird, bietet diese „Verkettungs“-Funktion ebenfalls. Benutzer, die Windows 2000, Service Pack 3 oder höher, Windows XP oder Windows Server 2003 verwenden, benötigen Qchain.exe für die Verkettung dieser Updates nicht. Qchain.exe unterstützt jedoch auch Windows Updates, so dass ein Administrator plattformübergreifend einheitliche Bereitstellungsskripts erstellen kann. Weitere Informationen zu Qchain.exe finden Sie unter: [QChain](http://go.microsoft.com/fwlink/?linkid=21156).
+Microsoft hat ein befehlszeilenbasiertes Tool namens QChain.exe veröffentlicht, mit dem Sie als Systemadministrator mehrere Updates für die Installation sicher miteinander „verketten“ können. *Verketten* bedeutet, dass Sie die Installation in einem Zug durchführen können, anstatt die Systeme nach jedem einzelnen Update immer wieder neu starten zu müssen. Das Tool Update.exe, das bei den in diesem Summary aufgelisteten Updates eingesetzt wird, bietet diese „Verkettungs“-Funktion ebenfalls. Benutzer, die Windows 2000, Service Pack 3 oder höher, Windows XP oder Windows Server 2003 verwenden, benötigen Qchain.exe für die Verkettung dieser Updates nicht. Qchain.exe unterstützt jedoch auch Windows Updates, so dass ein Administrator plattformübergreifend einheitliche Bereitstellungsskripts erstellen kann. Weitere Informationen zu Qchain.exe finden Sie unter: [QChain](https://go.microsoft.com/fwlink/?linkid=21156).
   
 **Microsoft Baseline Security Analyzer:**
   
-Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie [hier](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx).
+Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie [hier](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx).
   
 #### Weitere Informationen:
   
 **Danksagungen**
   
-Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
+Microsoft [dankt](https://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
   
--   Rafel Ivgi von [Finjan Software](http://www.finjan.com/) für den Hinweis auf die in [MS05-005](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-005.mspx) beschriebene Sicherheitsanfälligkeit.  
--   Jean-Baptiste Marchand von [Herve Schauer Consultants](http://www.hsc.fr/) für den Hinweis auf die in [MS05-007](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-007.mspx) beschriebene Sicherheitsanfälligkeit.  
--   Juliano Rizzo von [Core Security Technologies](http://www1.corest.com/home/home.php) für den Hinweis auf die in [MS05-009](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-009.mspx) beschriebene Sicherheitsanfälligkeit.  
--   [Kostya Kortchinsky](https://technet.microsoft.com/de-DE/mailto:kostya.kortchinsky@renater.fr) von CERT RENATER für den Hinweis auf die in [MS05-010](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-010.mspx) beschriebene Sicherheitsanfälligkeit.  
--   [eEYE](http://www.eeye.com/) für den Hinweis auf die in [MS05-011](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-011.mspx) beschriebene Sicherheitsanfälligkeit.  
--   Cesar Cerrudo von [Application Security Inc.](http://www.appsecinc.com/) für den Hinweis auf die in [MS05-012](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-012.mspx) beschriebene Sicherheitsanfälligkeit.  
--   [Michael Krax](http://www.mikx.de/) für die Zusammenarbeit hinsichtlich der in [MS05-014](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx) beschriebenen Sicherheitsanfälligkeit.  
--   Andreas Sandblad von [Secunia](http://secunia.com/) für den Hinweis auf die in [MS05-014](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx) beschriebene Sicherheitsanfälligkeit.  
--   [Jouko Pynnönen](http://jouko.iki.fi/index-en.html) für den Hinweis auf die in [MS05-014](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx) beschriebene Sicherheitsanfälligkeit.  
--   [0x1EE1](https://technet.microsoft.com/de-DE/mailto:s53ur9ty_0x1ee1@yahoo.co.uk) für den Hinweis auf eine in [MS05-015](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   Rafel Ivgi von [Finjan Software](https://www.finjan.com/) für den Hinweis auf die in [MS05-005](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-005.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   Jean-Baptiste Marchand von [Herve Schauer Consultants](https://www.hsc.fr/) für den Hinweis auf die in [MS05-007](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-007.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   Juliano Rizzo von [Core Security Technologies](https://www1.corest.com/home/home.php) für den Hinweis auf die in [MS05-009](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-009.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   [Kostya Kortchinsky](https://technet.microsoft.com/de-DE/mailto:kostya.kortchinsky@renater.fr) von CERT RENATER für den Hinweis auf die in [MS05-010](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-010.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   [eEYE](https://www.eeye.com/) für den Hinweis auf die in [MS05-011](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-011.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   Cesar Cerrudo von [Application Security Inc.](https://www.appsecinc.com/) für den Hinweis auf die in [MS05-012](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-012.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   [Michael Krax](https://www.mikx.de/) für die Zusammenarbeit hinsichtlich der in [MS05-014](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx) beschriebenen Sicherheitsanfälligkeit.  
+-   Andreas Sandblad von [Secunia](https://secunia.com/) für den Hinweis auf die in [MS05-014](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   [Jouko Pynnönen](https://jouko.iki.fi/index-en.html) für den Hinweis auf die in [MS05-014](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-014.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   [0x1EE1](https://technet.microsoft.com/de-DE/mailto:s53ur9ty_0x1ee1@yahoo.co.uk) für den Hinweis auf eine in [MS05-015](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms05-015.mspx) beschriebene Sicherheitsanfälligkeit.  
 -   **Weitere Sicherheitsupdates:**
   
     Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
   
-    -   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?freetext=sicherheitsupdate&productid=&displaylang=de) verfügbar und können am einfachsten durch eine Schlüsselwortsuche nach dem Begriff „security\_patch“ oder „security\_update“ ermittelt werden.  
-    -   Updates für Kundenplattformen können Sie auf der Website [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130) abrufen.
+    -   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?freetext=sicherheitsupdate&productid=&displaylang=de) verfügbar und können am einfachsten durch eine Schlüsselwortsuche nach dem Begriff „security\_patch“ oder „security\_update“ ermittelt werden.  
+    -   Updates für Kundenplattformen können Sie auf der Website [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130) abrufen.
   
     **Support:**
   
-    -   Technischer Support ist über die [Microsoft Support Services](http://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.  
-    -   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der [International Support-Website](http://go.microsoft.com/fwlink/?linkid=21155).
+    -   Technischer Support ist über die [Microsoft Support Services](https://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.  
+    -   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der [International Support-Website](https://go.microsoft.com/fwlink/?linkid=21155).
   
     **Sicherheitsressourcen:**
   
-    -   Das [Microsoft Security Portal](http://www.microsoft.com/germany/technet/servicedesk/default.mspx) bietet weitere Informationen zur Sicherheit von Microsoft-Produkten.  
-    -   [Microsoft Software Update Services](http://go.microsoft.com/fwlink/?linkid=21133)  
-    -   [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx) (MBSA)  
-    -   [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130)  
-    -   Windows Update-Katalog: Weitere Informationen über den Windows Update-Katalog finden Sie im Microsoft Knowledge Base-Artikel [323166](http://support.microsoft.com/default.aspx?scid=kb;en-us;323166).  
-    -   [Office Update](http://go.microsoft.com/fwlink/?linkid=21135)
+    -   Das [Microsoft Security Portal](https://www.microsoft.com/germany/technet/servicedesk/default.mspx) bietet weitere Informationen zur Sicherheit von Microsoft-Produkten.  
+    -   [Microsoft Software Update Services](https://go.microsoft.com/fwlink/?linkid=21133)  
+    -   [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx) (MBSA)  
+    -   [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130)  
+    -   Windows Update-Katalog: Weitere Informationen über den Windows Update-Katalog finden Sie im Microsoft Knowledge Base-Artikel [323166](https://support.microsoft.com/default.aspx?scid=kb;en-us;323166).  
+    -   [Office Update](https://go.microsoft.com/fwlink/?linkid=21135)
   
     **Verzichtserklärung:**
   

@@ -19,18 +19,18 @@ Veröffentlicht: Mittwoch, 1. Dezember 2004 | Aktualisiert: Dienstag, 14. Dezemb
 **Aktualisiert:** 14. Dezember 2004  
 **Versionsnummer:** 2.0
 
-Eine Endbenutzerfassung dieser Informationen [finden Sie hier](http://www.microsoft.com/germany/sicherheit/default.mspx).
+Eine Endbenutzerfassung dieser Informationen [finden Sie hier](https://www.microsoft.com/germany/sicherheit/default.mspx).
 
 **Schützen Sie Ihren PC:** Informationen dazu, wie Sie Ihren PC schützen können, finden Sie auf folgenden Webseiten:
 
--   [Für Heimanwender](http://www.microsoft.com/germany/athome/security/protect/default.mspx)
--   [Für IT-Profis und Entwickler](http://www.microsoft.com/germany/sicherheit/guidance/default.mspx)
+-   [Für Heimanwender](https://www.microsoft.com/germany/athome/security/protect/default.mspx)
+-   [Für IT-Profis und Entwickler](https://www.microsoft.com/germany/sicherheit/guidance/default.mspx)
 
-**Strategien für die Verwaltung von Sicherheitspatches:** Nutzen Sie den [Microsoft-Leitfaden zur Sicherheitspatch-Verwaltung](http://www.microsoft.com/germany/technet/datenbank/articles/900193.mspx). Er enthält Best Practices und von Microsoft empfohlene Vorgehensweisen für die Bereitstellung, Verteilung und Installation von Sicherheitsupdates in Ihrer IT-Umgebung.
+**Strategien für die Verwaltung von Sicherheitspatches:** Nutzen Sie den [Microsoft-Leitfaden zur Sicherheitspatch-Verwaltung](https://www.microsoft.com/germany/technet/datenbank/articles/900193.mspx). Er enthält Best Practices und von Microsoft empfohlene Vorgehensweisen für die Bereitstellung, Verteilung und Installation von Sicherheitsupdates in Ihrer IT-Umgebung.
 
-**IT Pro Security Zone Community:**Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie mit anderen IT-Profis über das Thema Sicherheit: <http://www.microsoft.com/technet/security/en-us/community/security/default.mspx>.
+**IT Pro Security Zone Community:**Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie mit anderen IT-Profis über das Thema Sicherheit: <https://www.microsoft.com/technet/security/en-us/community/security/default.mspx>.
 
-**Microsoft Security Notification Service:** Informationen zum kostenfreien Microsoft Security Notification Service, der Sie zeitnah per E-Mail über alle aktuellen Microsoft-Sicherheitsmeldungen benachrichtigt, finden Sie hier: [/germany/technet/datenbank/articles/430926.mspx](http://www.microsoft.com/germany/technet/datenbank/articles/430926.mspx).
+**Microsoft Security Notification Service:** Informationen zum kostenfreien Microsoft Security Notification Service, der Sie zeitnah per E-Mail über alle aktuellen Microsoft-Sicherheitsmeldungen benachrichtigt, finden Sie hier: [/germany/technet/datenbank/articles/430926.mspx](https://www.microsoft.com/germany/technet/datenbank/articles/430926.mspx).
 
 #### Zusammenfassung
 
@@ -42,9 +42,9 @@ Kritisch (1)
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS04-040                                                                                                                |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Kumulatives Sicherheitsupdate für Internet Explorer (889293)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-040.mspx)     |
+| **Titel des Bulletins**                    | [**Kumulatives Sicherheitsupdate für Internet Explorer (889293)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-040.mspx)     |
 | **Kurzzusammenfassung**                    | In Internet Explorer besteht eine Sicherheitsanfälligkeit, die die Codeausführung von Remotestandorten aus auf einem betroffenen System ermöglicht. |
-| **Bewertung des maximalen Schweregrads**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                 |
+| **Bewertung des maximalen Schweregrads**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                 |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                             |
 | **Betroffene Software:**                   | **Windows, Internet Explorer**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                           |
 
@@ -54,41 +54,41 @@ Hoch (5)
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS04-041                                                                                                                                                                                                     |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in WordPad kann Codeausführung ermöglichen (885836)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-041.mspx)                                                                           |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in WordPad kann Codeausführung ermöglichen (885836)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-041.mspx)                                                                           |
 | **Kurzzusammenfassung**                    | In WordPad bestehen zwei Sicherheitsanfälligkeiten, die die Codeausführung von Remotestandorten aus auf einem betroffenen System ermöglichen. Zum Ausnutzen dieser Sicherheitsanfälligkeiten sind jedoch Benutzereingriffe erforderlich. |
-| **Bewertung des maximalen Schweregrads**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                          |
+| **Bewertung des maximalen Schweregrads**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                          |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                                                  |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                                                   |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS04-042                                                                                                                                                                                                                                                                    |
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in DHCP kann Remotecodeausführung und Denial-of-Service ermöglichen (885249)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-042.mspx)                                                                                                                 |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in DHCP kann Remotecodeausführung und Denial-of-Service ermöglichen (885249)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-042.mspx)                                                                                                                 |
 | **Kurzzusammenfassung**                    | Im DHCP-Serverdienst weist zwei Sicherheitsanfälligkeiten auf, von der die schwerste die Codeausführung von Remotestandorten aus auf dem betroffenen System ermöglicht. Der DHCP-Serverdienst ist nicht standardmäßig installiert. Nur der DHCP-Serverdienst unter Windows NT 4.0 Server ist betroffen. |
-| **Bewertung des maximalen Schweregrads**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                                                                         |
+| **Bewertung des maximalen Schweregrads**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                                                                         |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                                                                                                                 |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                                                                                                                  |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS04-043                                                                                                                                                                                              |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in HyperTerminal kann Codeausführung ermöglichen (873339)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-043.mspx)                                                              |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in HyperTerminal kann Codeausführung ermöglichen (873339)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-043.mspx)                                                              |
 | **Kurzzusammenfassung**                    | In HyperTerminal besteht eine Sicherheitsanfälligkeit, die die Codeausführung von Remotestandorten aus auf einem betroffenen System ermöglicht. Zum Ausnutzen dieser Sicherheitsanfälligkeit sind Benutzereingriffe erforderlich. |
-| **Bewertung des maximalen Schweregrads**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                   |
+| **Bewertung des maximalen Schweregrads**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                   |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                                           |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                                            |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS04-044                                                                                                                                                                                                                                                                                                             |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeiten in Windows-Kernel und LSASS können Erhöhung von Berechtigungen ermöglichen (885835)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-044.mspx)                                                                                                                                                 |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeiten in Windows-Kernel und LSASS können Erhöhung von Berechtigungen ermöglichen (885835)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-044.mspx)                                                                                                                                                 |
 | **Kurzzusammenfassung**                    | Im Windows-Kernel und im LSASS-Dienst (Local Security Authority Subsystem Service) bestehen zwei Sicherheitsanfälligkeiten, die die Erhöhung von Berechtigungen auf einem betroffenen System ermöglichen. Ein Angreifer benötigt gültige Anmeldeinformationen und muss sich lokal anmelden können, um diese Sicherheitsanfälligkeit auszunutzen. |
-| **Bewertung des maximalen Schweregrads**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                                                                                                                  |
+| **Bewertung des maximalen Schweregrads**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                                                                                                                  |
 | **Auswirkung der Sicherheitsanfälligkeit** | Erhöhung der Berechtigungen                                                                                                                                                                                                                                                                                                                      |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                                                                                                                                                           |
 
 | Kennung des Bulletins                      | Microsoft Security Bulletin MS04-045                                                                                                                                                                                                           |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in WINS kann Remotecodeausführung ermöglichen (870736)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-045.mspx)                                                                              |
+| **Titel des Bulletins**                    | [**Sicherheitsanfälligkeit in WINS kann Remotecodeausführung ermöglichen (870736)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-045.mspx)                                                                              |
 | **Kurzzusammenfassung**                    | Im WINS-Dienst (Windows Internet Naming Service) bestehen zwei Sicherheitsanfälligkeiten, die die Codeausführung von Remotestandorten aus auf einem betroffenen System ermöglichen. Der WINS-Serverdienst ist nicht standardmäßig installiert. |
-| **Bewertung des maximalen Schweregrads**   | [Hoch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                |
+| **Bewertung des maximalen Schweregrads**   | [Hoch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                                                                                |
 | **Auswirkung der Sicherheitsanfälligkeit** | Codeausführung von Remotestandorten aus                                                                                                                                                                                                        |
 | **Betroffene Software:**                   | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                                                                         |
 
@@ -129,21 +129,21 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Kennung des Bulletins</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-040.mspx"><strong>MS04-040</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-041.mspx"><strong>MS04-041</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-042.mspx"><strong>MS04-042</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-043.mspx"><strong>MS04-043</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-044.mspx"><strong>MS04-044</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-045.mspx"><strong>MS04-045</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-040.mspx"><strong>MS04-040</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-041.mspx"><strong>MS04-041</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-042.mspx"><strong>MS04-042</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-043.mspx"><strong>MS04-043</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-044.mspx"><strong>MS04-044</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-045.mspx"><strong>MS04-045</strong></a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Bewertung des maximalen Schweregrads</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Hoch</strong></a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Betroffene Windows-Software:</strong></td>
@@ -316,7 +316,7 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
   
 **<sup>[2]</sup>** Dieses Update ist bestimmt für Systeme mit Internet Explorer 6 Service Pack 1 unter Microsoft Windows 2000 Service Pack 3, Microsoft Windows 2000 Service Pack 4, Microsoft Windows XP und Microsoft Windows XP Service Pack 1.  
 Das entsprechende kritische Sicherheitsupdate für Internet Explorer 6 Service Pack 1 unter Microsoft Windows NT Server 4.0 Service Pack 6a, Microsoft Windows NT Server 4.0 Terminal Service Edition Service Pack 6, Microsoft Windows 98, Microsoft Windows 98 SE und Microsoft Windows ME ist unter der folgenden Adresse zum [Download](https://www.microsoft.com/download/details.aspx?familyid=96de6c13-4f67-4581-8f51-2c8a90e11c57) verfügbar.  
-In diesem Update sind u. U. keine Hotfixes enthalten, die seit der Veröffentlichung von [MS04-004](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-004.mspx) bzw. [MS04-038](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-038.mspx) bereitgestellt wurden. Kunden, die seit der Veröffentlichung von [MS04-004](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-004.mspx) oder [MS04-038](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-038.mspx) von Microsoft oder ihrem Unterstützungsanbieter Hotfixes erhalten haben, wird von der Installation dieses Updates abgeraten. Sie sollten stattdessen Update [889669](http://support.microsoft.com/kb/889669) ausführen.
+In diesem Update sind u. U. keine Hotfixes enthalten, die seit der Veröffentlichung von [MS04-004](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-004.mspx) bzw. [MS04-038](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-038.mspx) bereitgestellt wurden. Kunden, die seit der Veröffentlichung von [MS04-004](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-004.mspx) oder [MS04-038](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-038.mspx) von Microsoft oder ihrem Unterstützungsanbieter Hotfixes erhalten haben, wird von der Installation dieses Updates abgeraten. Sie sollten stattdessen Update [889669](https://support.microsoft.com/kb/889669) ausführen.
   
 Bereitstellung  
 --------------
@@ -325,51 +325,51 @@ Bereitstellung
   
 Mit den Microsoft Software Update Services (SUS) können Sie als IT-Administrator neue wichtige Updates, Hotfixes oder Patches schnell und zuverlässig auf den Servern und Desktop-Computern in Ihrem Netzwerk bereitstellen. Die SUS unterstützen die Produkte der Windows 2000 Server- und Windows Server 2003-Familie sowie Windows 2000 Professional und Windows XP Professional.
   
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mit Software Update Services finden Sie auf der Website zu [Software Update Services](http://www.microsoft.com/germany/technet/datenbank/articles/600220.mspx).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mit Software Update Services finden Sie auf der Website zu [Software Update Services](https://www.microsoft.com/germany/technet/datenbank/articles/600220.mspx).
   
 **Systems Management Server:**
   
-Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Weitere Informationen zur Verwendung von SMS 2003 für die Bereitstellung von Sicherheitsupdates finden Sie auf der Website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der [SMS-Website](http://www.microsoft.com/germany/smsmgmt/).
+Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Weitere Informationen zur Verwendung von SMS 2003 für die Bereitstellung von Sicherheitsupdates finden Sie auf der Website [SMS 2003 Security Patch Management](https://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](https://go.microsoft.com/fwlink/?linkid=33340) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der [SMS-Website](https://www.microsoft.com/germany/smsmgmt/).
   
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und dem Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen hierzu finden Sie [auf dieser Website](http://go.microsoft.com/fwlink/?linkid=33341) (englischsprachig). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=33387) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection-Tool für eine breite Unterstützung bei der Erkennung und dem Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen hierzu finden Sie [auf dieser Website](https://go.microsoft.com/fwlink/?linkid=33341) (englischsprachig). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=33387) und im [SMS 2.0 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
   
 **Microsoft Baseline Security Analyzer:**
   
-Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie [hier](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx).
+Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie [hier](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx).
   
 #### Weitere Informationen:
   
 **Danksagungen**
   
-Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
+Microsoft [dankt](https://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
   
--   Greg Jones von [KPMG UK](http://www.kpmg.co.uk/) für den Hinweis auf die in [MS04-041](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-041.mspx) beschriebene Sicherheitsanfälligkeit.  
--   Lord Yup, der mit [iDefense](http://www.idefense.com) zusammenarbeitet, für den Hinweis auf die in [MS04-041](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-041.mspx) beschriebene Sicherheitsanfälligkeit.  
--   [Kostya Kortchinsky](https://technet.microsoft.com/de-DE/mailto:kostya.kortchinsky@renater.fr) von CERT RENATER für den Hinweis auf die in [MS04-042](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-042.mspx) beschriebene Sicherheitsanfälligkeit.  
--   Brett Moore von [Security-Assessment.com](http://www.security-assessment.com/) für den Hinweis auf die in [MS04-043](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-043.mspx) beschriebene Sicherheitsanfälligkeit.  
--   Cesar Cerrudo von [Application Security Inc.](http://www.appsecinc.com/) für den Hinweis auf die in [MS04-044](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-044.mspx) beschriebenen Sicherheitsanfälligkeiten.  
--   [Kostya Kortchinsky](https://technet.microsoft.com/de-DE/mailto:kostya.kortchinsky@renater.fr) von CERT RENATER für den Hinweis auf die in [MS04-045](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-045.mspx) beschriebene Sicherheitsanfälligkeit.
+-   Greg Jones von [KPMG UK](https://www.kpmg.co.uk/) für den Hinweis auf die in [MS04-041](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-041.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   Lord Yup, der mit [iDefense](https://www.idefense.com) zusammenarbeitet, für den Hinweis auf die in [MS04-041](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-041.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   [Kostya Kortchinsky](https://technet.microsoft.com/de-DE/mailto:kostya.kortchinsky@renater.fr) von CERT RENATER für den Hinweis auf die in [MS04-042](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-042.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   Brett Moore von [Security-Assessment.com](https://www.security-assessment.com/) für den Hinweis auf die in [MS04-043](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-043.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   Cesar Cerrudo von [Application Security Inc.](https://www.appsecinc.com/) für den Hinweis auf die in [MS04-044](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-044.mspx) beschriebenen Sicherheitsanfälligkeiten.  
+-   [Kostya Kortchinsky](https://technet.microsoft.com/de-DE/mailto:kostya.kortchinsky@renater.fr) von CERT RENATER für den Hinweis auf die in [MS04-045](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms04-045.mspx) beschriebene Sicherheitsanfälligkeit.
   
 **Weitere Sicherheitsupdates:**
   
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
   
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/downloads/search.aspx?langid=10&displaylang=de) verfügbar und können am einfachsten durch eine Schlüsselwortsuche nach dem Begriff „security\_patch“ oder „security\_update“ ermittelt werden.  
--   Updates für Kundenplattformen können Sie auf der Website [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130) abrufen.
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/downloads/search.aspx?langid=10&displaylang=de) verfügbar und können am einfachsten durch eine Schlüsselwortsuche nach dem Begriff „security\_patch“ oder „security\_update“ ermittelt werden.  
+-   Updates für Kundenplattformen können Sie auf der Website [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130) abrufen.
   
 **Support:**
   
--   Technischer Support ist über die [Microsoft Support Services](http://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.  
--   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der [International Support-Website](http://support.microsoft.com/common/international.aspx).
+-   Technischer Support ist über die [Microsoft Support Services](https://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.  
+-   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der [International Support-Website](https://support.microsoft.com/common/international.aspx).
   
 **Sicherheitsressourcen:**
   
--   Das [Microsoft Security Portal](http://www.microsoft.com/germany/sicherheit/) bietet weitere Informationen zur Sicherheit von Microsoft-Produkten.  
--   [Microsoft Software Update Services](http://www.microsoft.com/germany/technet/datenbank/articles/600220.mspx)  
--   [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx) (MBSA)  
--   [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130)  
--   Windows Update-Katalog: Weitere Informationen über den Windows Update-Katalog finden Sie im [Microsoft Knowledge Base-Artikel 323166](http://support.microsoft.com/kb/323166).  
--   [Office Update](http://office.microsoft.com/de-de/officeupdate/default.aspx)
+-   Das [Microsoft Security Portal](https://www.microsoft.com/germany/sicherheit/) bietet weitere Informationen zur Sicherheit von Microsoft-Produkten.  
+-   [Microsoft Software Update Services](https://www.microsoft.com/germany/technet/datenbank/articles/600220.mspx)  
+-   [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa.mspx) (MBSA)  
+-   [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130)  
+-   Windows Update-Katalog: Weitere Informationen über den Windows Update-Katalog finden Sie im [Microsoft Knowledge Base-Artikel 323166](https://support.microsoft.com/kb/323166).  
+-   [Office Update](https://office.microsoft.com/de-de/officeupdate/default.aspx)
   
 **Verzichtserklärung:**
   

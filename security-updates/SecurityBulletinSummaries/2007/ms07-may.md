@@ -19,14 +19,14 @@ In diesem Bulletin Summary sind die im Mai 2007 veröffentlichten Security Bull
 
 **Schützen Sie Ihren PC:** Informationen dazu, wie Sie Ihren PC schützen können, finden Sie auch auf folgenden Webseiten:
 
--   Verbraucher können die Seite [Sicherheit zu Hause](http://www.microsoft.com/germany/athome/security/default.mspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
--   IT-Profis können das [TechNet Sicherheitscenter](http://www.microsoft.com/germany/technet/sicherheit/default.mspx) besuchen.
+-   Verbraucher können die Seite [Sicherheit zu Hause](https://www.microsoft.com/germany/athome/security/default.mspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
+-   IT-Profis können das [TechNet Sicherheitscenter](https://www.microsoft.com/germany/technet/sicherheit/default.mspx) besuchen.
 
-**Strategien für die Verwaltung von Sicherheitspatches:** Nutzen Sie den [Microsoft-Leitfaden zur Sicherheitspatch-Verwaltung](http://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx). Er enthält Best Practices und von Microsoft empfohlene Vorgehensweisen für die Bereitstellung, Verteilung und Installation von Sicherheitsupdates in Ihrer IT-Umgebung.
+**Strategien für die Verwaltung von Sicherheitspatches:** Nutzen Sie den [Microsoft-Leitfaden zur Sicherheitspatch-Verwaltung](https://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx). Er enthält Best Practices und von Microsoft empfohlene Vorgehensweisen für die Bereitstellung, Verteilung und Installation von Sicherheitsupdates in Ihrer IT-Umgebung.
 
-**IT Pro Security Zone Community:** Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](http://go.microsoft.com/fwlink/?linkid=21164) Website mit anderen IT-Profis über das Thema Sicherheit.
+**IT Pro Security Zone Community:** Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](https://go.microsoft.com/fwlink/?linkid=21164) Website mit anderen IT-Profis über das Thema Sicherheit.
 
-**Microsoft Security Notification Service:** Abonnieren Sie die [Microsoft Sicherheitsbenachrichtigungen](http://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx), um automatisch eine E-Mail-Benachrichtigung zu erhalten, sobald ein Microsoft Security Bulletin veröffentlicht wird.
+**Microsoft Security Notification Service:** Abonnieren Sie die [Microsoft Sicherheitsbenachrichtigungen](https://www.microsoft.com/germany/technet/sicherheit/bulletins/notify.mspx), um automatisch eine E-Mail-Benachrichtigung zu erhalten, sobald ein Microsoft Security Bulletin veröffentlicht wird.
 
 #### Zusammenfassung
 
@@ -38,9 +38,9 @@ Kritisch (7)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-023                                                                                                                                             |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft Excel können Remotecodeausführung ermöglichen (934233)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-023.mspx) |
+| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft Excel können Remotecodeausführung ermöglichen (934233)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-023.mspx) |
 | **Kurzzusammenfassung**                     | Dieses Update behebt mehrere Sicherheitsanfälligkeiten in Microsoft Excel, die eine Codeausführung von Remotestandorten aus ermöglichen können.                                  |
-| **Bewertung des maximalen Schweregrads:**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                              |
+| **Bewertung des maximalen Schweregrads:**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                              |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                             |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                      |
 | **Betroffene Software**                     | **Office**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                            |
@@ -48,9 +48,9 @@ Kritisch (7)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-024                                                                                                                                            |
 |---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft Word können Remotecodeausführung ermöglichen (934232)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx) |
+| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft Word können Remotecodeausführung ermöglichen (934232)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx) |
 | **Kurzzusammenfassung**                     | Dieses Update behebt mehrere Sicherheitsanfälligkeiten in Microsoft Word, die eine Codeausführung von Remotestandorten aus ermöglichen können.                                  |
-| **Bewertung des maximalen Schweregrads:**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                             |
+| **Bewertung des maximalen Schweregrads:**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                             |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                            |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                     |
 | **Betroffene Software**                     | **Office**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                           |
@@ -58,9 +58,9 @@ Kritisch (7)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-025                                                                                                                                          |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in Microsoft Office kann Remotecodeausführung ermöglichen (934873)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-025.mspx) |
+| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in Microsoft Office kann Remotecodeausführung ermöglichen (934873)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-025.mspx) |
 | **Kurzzusammenfassung**                     | Dieses Update behebt eine Sicherheitsanfälligkeit in Microsoft Office, die eine Codeausführung von Remotestandorten aus ermöglichen kann.                                     |
-| **Bewertung des maximalen Schweregrads:**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                           |
+| **Bewertung des maximalen Schweregrads:**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                           |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                          |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                   |
 | **Betroffene Software**                     | **Office**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                         |
@@ -69,9 +69,9 @@ Kritisch (7)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-026                                                                                                                                                |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft Exchange können Remotecodeausführung ermöglichen (931832)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) |
+| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeiten in Microsoft Exchange können Remotecodeausführung ermöglichen (931832)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) |
 | **Kurzzusammenfassung**                     | Dieses Update behebt mehrere Sicherheitsanfälligkeiten in Microsoft Exchange, die eine Codeausführung von Remotestandorten aus ermöglichen können.                                  |
-| **Bewertung des maximalen Schweregrads:**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                 |
+| **Bewertung des maximalen Schweregrads:**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                 |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                                |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                                         |
 | **Betroffene Software**                     | **Exchange**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                             |
@@ -80,9 +80,9 @@ Kritisch (7)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-027                                                                                                            |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Kumulatives Sicherheitsupdate für Internet Explorer (931768)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx) |
+| **Titel des Bulletins**                     | [**Kumulatives Sicherheitsupdate für Internet Explorer (931768)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx) |
 | **Kurzzusammenfassung**                     | Dieses Update behebt Sicherheitsanfälligkeiten in Internet Explorer, die eine Codeausführung von Remotestandorten aus ermöglichen können.       |
-| **Bewertung des maximalen Schweregrads:**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                             |
+| **Bewertung des maximalen Schweregrads:**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                             |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                            |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.     |
 | **Betroffene Software**                     | **Internet Explorer**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                |
@@ -91,9 +91,9 @@ Kritisch (7)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-028                                                                                                                                 |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in CAPICOM kann Remotecodeausführung ermöglichen (931906)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-028.mspx) |
+| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in CAPICOM kann Remotecodeausführung ermöglichen (931906)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-028.mspx) |
 | **Kurzzusammenfassung**                     | Dieses Update behebt eine Sicherheitsanfälligkeit in der Kryptografie-API des COM-Modells (CAPICOM), die eine Remotecodeausführung ermöglichen kann.                 |
-| **Bewertung des maximalen Schweregrads:**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                  |
+| **Bewertung des maximalen Schweregrads:**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                  |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                 |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Das Update kann einen Neustart erfordern.                          |
 | **Betroffene Software**                     | **CAPICOM, BizTalk**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                      |
@@ -103,9 +103,9 @@ Kritisch (7)
 
 | Kennung des Bulletins                       | Microsoft Security Bulletin MS07-029                                                                                                                                                      |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in RPC unter Windows DNS Server kann Remotecodeausführung ermöglichen (935966)**](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-029.mspx) |
+| **Titel des Bulletins**                     | [**Sicherheitsanfälligkeit in RPC unter Windows DNS Server kann Remotecodeausführung ermöglichen (935966)**](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-029.mspx) |
 | **Kurzzusammenfassung**                     | Dieses Update behebt eine Sicherheitsanfälligkeit in RPC unter Windows DNS Server, die eine Remotecodeausführung ermöglichen kann.                                                        |
-| **Bewertung des maximalen Schweregrads:**   | [Kritisch](http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                       |
+| **Bewertung des maximalen Schweregrads:**   | [Kritisch](https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx)                                                                                                       |
 | **Auswirkung der Sicherheitsanfälligkeit:** | Remotecodeausführung                                                                                                                                                                      |
 | **Erkennung**                               | Microsoft Baseline Security Analyzer kann erkennen, ob Ihr Computersystem dieses Update benötigt. Für dieses Update ist ein Neustart erforderlich.                                        |
 | **Betroffene Software**                     | **Windows**. Weitere Informationen finden Sie im Abschnitt „Betroffene Software und Downloadadressen“.                                                                                    |
@@ -148,23 +148,23 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Kennung des Bulletins</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-023.mspx"><strong>MS07-023</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx"><strong>MS07-024</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-025.mspx"><strong>MS07-025</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx"><strong>MS07-026</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx"><strong>MS07-027</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-028.mspx"><strong>MS07-028</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-029.mspx"><strong>MS07-029</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-023.mspx"><strong>MS07-023</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx"><strong>MS07-024</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-025.mspx"><strong>MS07-025</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx"><strong>MS07-026</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx"><strong>MS07-027</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-028.mspx"><strong>MS07-028</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-029.mspx"><strong>MS07-029</strong></a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Bewertung des maximalen Schweregrads:</strong></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/germany/technet/datenbank/articles/527029.mspx"><strong>Kritisch</strong></a></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Betroffene Windows-Software:</strong></td>
@@ -698,9 +698,9 @@ In der Tabelle kennzeichnet die Zahl in Klammern \[x\], dass ein Hinweis mit wei
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Office 2004 für Mac</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/mac/">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/mac/">Hoch</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/mac/">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/mac/">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/mac/">Hoch</a></td>
+<td style="border:1px solid black;"><a href="https://www.microsoft.com/mac/">Hoch</a></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
@@ -862,50 +862,50 @@ Bereitstellung
   
 Mit den Microsoft Software Update Services (SUS) können Sie als IT-Administrator neue wichtige Updates, Hotfixes oder Patches schnell und zuverlässig auf den Servern und Desktop-Computern in Ihrem Netzwerk bereitstellen. Die SUS unterstützen die Produkte der Windows 2000 Server- und Windows Server 2003-Familie sowie Windows 2000 Professional und Windows XP Professional.
   
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mit Software Update Services finden Sie auf der Website zu [Software Update Services](http://go.microsoft.com/fwlink/?linkid=21133).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mit Software Update Services finden Sie auf der Website zu [Software Update Services](https://go.microsoft.com/fwlink/?linkid=21133).
   
 **Windows Server Update Services:**
   
 Mithilfe der Windows Server Update Services (WSUS), können Administratoren die neuesten wichtigen Aktualisierungen und Sicherheitsupdates für Windows 2000 und höher, Office XP und höher, Exchange Server 2003 und SQL Server 2000 schnell und zuverlässig bereitstellen.
   
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](http://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](https://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx).
   
 **Systems Management Server:**
   
-Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie auf der Website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](http://www.microsoft.com/germany/smserver/default.mspx).
+Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen. Weitere Informationen zur Verwendung von SMS 2003 durch Administratoren für die Bereitstellung von Sicherheitsupdates finden Sie auf der Website [SMS 2003 Security Patch Management](https://go.microsoft.com/fwlink/?linkid=22939). Benutzer von SMS 2.0 können auch die Website [Software Updates Service Feature Pack](https://www.microsoft.com/technet/prodtechnol/sms/sms2/downloads/featurepacks/suspack/default.mspx) besuchen, um Hilfe bei der Bereitstellung von Sicherheitsupdates zu erhalten. Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server](https://www.microsoft.com/germany/smserver/default.mspx).
   
-**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection Tool, um eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates bereitzustellen. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/technet/prodtechnol/sms/sms2003/downloads/featurepacks/adminpack.mspx) und im [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
+**Hinweis:** SMS nutzt Microsoft Baseline Security Analyzer und das Microsoft Office Detection Tool, um eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates bereitzustellen. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](https://www.microsoft.com/technet/sms/2003/patchupdate.mspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können das im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/technet/prodtechnol/sms/sms2003/downloads/featurepacks/adminpack.mspx) und im [SMS 2.0 Administration Feature Pack](https://go.microsoft.com/fwlink/?linkid=21161) enthaltene Elevated Rights Deployment Tool verwenden, um diese Updates zu installieren.
   
-Microsoft hat ein befehlszeilenbasiertes Tool namens QChain.exe veröffentlicht, mit dem Sie als Systemadministrator mehrere Updates für die Installation sicher miteinander „verketten“ können. *Verketten* bedeutet, dass Sie die Installation in einem Zug durchführen können, anstatt die Systeme nach jedem einzelnen Update immer wieder neu starten zu müssen. Das Tool Update.exe, das bei den in diesem Summary aufgelisteten Updates eingesetzt wird, bietet diese „Verkettungs“-Funktion ebenfalls. Benutzer, die Windows 2000, Service Pack 3 oder höher, Windows XP oder Windows Server 2003 verwenden, benötigen Qchain.exe für die Verkettung dieser Updates nicht. Qchain.exe unterstützt jedoch auch Windows Updates, sodass ein Administrator plattformübergreifend einheitliche Bereitstellungsskripts erstellen kann. Weitere Informationen zu Qchain.exe finden Sie unter: [QChain](http://go.microsoft.com/fwlink/?linkid=21156).
+Microsoft hat ein befehlszeilenbasiertes Tool namens QChain.exe veröffentlicht, mit dem Sie als Systemadministrator mehrere Updates für die Installation sicher miteinander „verketten“ können. *Verketten* bedeutet, dass Sie die Installation in einem Zug durchführen können, anstatt die Systeme nach jedem einzelnen Update immer wieder neu starten zu müssen. Das Tool Update.exe, das bei den in diesem Summary aufgelisteten Updates eingesetzt wird, bietet diese „Verkettungs“-Funktion ebenfalls. Benutzer, die Windows 2000, Service Pack 3 oder höher, Windows XP oder Windows Server 2003 verwenden, benötigen Qchain.exe für die Verkettung dieser Updates nicht. Qchain.exe unterstützt jedoch auch Windows Updates, sodass ein Administrator plattformübergreifend einheitliche Bereitstellungsskripts erstellen kann. Weitere Informationen zu Qchain.exe finden Sie unter: [QChain](https://go.microsoft.com/fwlink/?linkid=21156).
   
 **Microsoft Baseline Security Analyzer:**
   
-Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
+Mit dem Microsoft Baseline Security Analyzer können Sie als Administrator Systeme sowohl lokal als auch remote auf fehlende Sicherheitspatches und fehlerhafte Konfigurationen überprüfen. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx).
   
 **Anleitungen zur Erkennung und Bereitstellung:**
   
-Microsoft stellt zusätzliche Anleitung zur Erkennung und Bereitstellung von Sicherheitsupdates bereit. Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS), Extended Security Update Inventory Tool und Enterprise Update Scan Tool (EST). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](http://support.microsoft.com/kb/910723).
+Microsoft stellt zusätzliche Anleitung zur Erkennung und Bereitstellung von Sicherheitsupdates bereit. Diese Anleitungen geben auch IT-Profis Informationen zum Einsatz der verschiedenen Tools und zur Bereitstellung des Sicherheitsupdates. Behandelt werden u. a. Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS), Extended Security Update Inventory Tool und Enterprise Update Scan Tool (EST). Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 910723](https://support.microsoft.com/kb/910723).
   
 #### Weitere Informationen:
   
 **Danksagung:**
   
-Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
+Microsoft [dankt](https://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
   
--   Manuel Santamarina Suarez, der mit [TippingPoint](http://www.tippingpoint.com/) und der [Zero Day Initiative](http://www.zerodayinitiative.com/) zusammenarbeitet, für den Hinweis auf ein in [MS07-023](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-023.mspx) beschriebenes Problem.  
--   Greg MacManus von [iDefense Labs](http://labs.idefense.com/) für den Hinweis auf ein in [MS07-023](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-023.mspx) beschriebenes Problem.  
--   Craig Schmugar von [McAfee Avert Labs](http://www.avertlabs.com/) für die Zusammenarbeit mit uns an einem in [MS07-024](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx) beschriebenen Problem.  
--   Andreas Marx von [AV-Test](http://www.av-test.org/) für die Zusammenarbeit mit uns an einem in [MS07-024](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx) beschriebenen Problem.  
--   Jun Mao in Zusammenarbeit mit [iDefense Labs](http://labs.idefense.com/) für den Hinweis auf ein in [MS07-024](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx) beschriebenes Problem.  
--   Martijn Brinkers von [Izecom](http://www.izecom.com/) für den Hinweis auf ein in [MS07-026](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) beschriebenes Problem.  
--   Alexander Sotirov von [Determina Security Research](http://www.determina.com/security.research) für den Hinweis auf ein in [MS07-026](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) beschriebenes Problem.  
--   Joxean Koret in Zusammenarbeit mit dem Vulnerability Contributor Program von [iDefense](http://labs.idefense.com/) für den Hinweis auf ein in [MS07-026](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) beschriebenes Problem.  
--   [TippingPoint](http://www.tippingpoint.com/) und [Zero Day Initiative](http://www.zerodayinitiative.com/) für den Hinweis auf eine in [MS07-027](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx) beschriebene Sicherheitsanfälligkeit.  
--   JJ Reyes von [Secunia Research](http://secunia.com/) für den Hinweis auf ein in [MS07-027](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx) beschriebenes Problem.  
--   Cocoruder von [Fortinet Security Research](http://www.fortinet.com/) für den Hinweis auf ein in [MS07-027](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx) beschriebenes Problem.  
--   Chris Ries von [VigilantMinds Inc.](http://www.vigilantminds.com/) für den Hinweis auf ein in [MS07-028](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-028.mspx) beschriebenes Problem.  
--   Mark Hofman von [SANS ISC Handlers](http://isc.sans.org/) für die Zusammenarbeit mit uns bezüglich eines in [MS07-029](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-029.mspx) beschriebenen Problems.  
--   Bill O'Malley vom [Information Security Office an der Carnegie Mellon University](http://www.cmu.edu/iso/) für die Zusammenarbeit mit uns an der in [MS07-029](http://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-029.mspx) beschriebenen Sicherheitsanfälligkeit.
+-   Manuel Santamarina Suarez, der mit [TippingPoint](https://www.tippingpoint.com/) und der [Zero Day Initiative](https://www.zerodayinitiative.com/) zusammenarbeitet, für den Hinweis auf ein in [MS07-023](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-023.mspx) beschriebenes Problem.  
+-   Greg MacManus von [iDefense Labs](https://labs.idefense.com/) für den Hinweis auf ein in [MS07-023](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-023.mspx) beschriebenes Problem.  
+-   Craig Schmugar von [McAfee Avert Labs](https://www.avertlabs.com/) für die Zusammenarbeit mit uns an einem in [MS07-024](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx) beschriebenen Problem.  
+-   Andreas Marx von [AV-Test](https://www.av-test.org/) für die Zusammenarbeit mit uns an einem in [MS07-024](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx) beschriebenen Problem.  
+-   Jun Mao in Zusammenarbeit mit [iDefense Labs](https://labs.idefense.com/) für den Hinweis auf ein in [MS07-024](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-024.mspx) beschriebenes Problem.  
+-   Martijn Brinkers von [Izecom](https://www.izecom.com/) für den Hinweis auf ein in [MS07-026](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) beschriebenes Problem.  
+-   Alexander Sotirov von [Determina Security Research](https://www.determina.com/security.research) für den Hinweis auf ein in [MS07-026](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) beschriebenes Problem.  
+-   Joxean Koret in Zusammenarbeit mit dem Vulnerability Contributor Program von [iDefense](https://labs.idefense.com/) für den Hinweis auf ein in [MS07-026](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-026.mspx) beschriebenes Problem.  
+-   [TippingPoint](https://www.tippingpoint.com/) und [Zero Day Initiative](https://www.zerodayinitiative.com/) für den Hinweis auf eine in [MS07-027](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx) beschriebene Sicherheitsanfälligkeit.  
+-   JJ Reyes von [Secunia Research](https://secunia.com/) für den Hinweis auf ein in [MS07-027](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx) beschriebenes Problem.  
+-   Cocoruder von [Fortinet Security Research](https://www.fortinet.com/) für den Hinweis auf ein in [MS07-027](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-027.mspx) beschriebenes Problem.  
+-   Chris Ries von [VigilantMinds Inc.](https://www.vigilantminds.com/) für den Hinweis auf ein in [MS07-028](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-028.mspx) beschriebenes Problem.  
+-   Mark Hofman von [SANS ISC Handlers](https://isc.sans.org/) für die Zusammenarbeit mit uns bezüglich eines in [MS07-029](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-029.mspx) beschriebenen Problems.  
+-   Bill O'Malley vom [Information Security Office an der Carnegie Mellon University](https://www.cmu.edu/iso/) für die Zusammenarbeit mit uns an der in [MS07-029](https://www.microsoft.com/germany/technet/sicherheit/bulletins/ms07-029.mspx) beschriebenen Sicherheitsanfälligkeit.
   
 **Windows-Tool zum Entfernen bösartiger Software:**
   
@@ -924,25 +924,25 @@ Diese Informationen gelten **nur** für wichtige, **nicht sicherheitsrelevante**
   
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
   
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar und können am einfachsten durch eine Schlüsselwortsuche nach dem Begriff „security\_patch“ ermittelt werden.  
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) verfügbar.  
--   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](http://support.microsoft.com/kb/913086).
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/downloads/results.aspx?displaylang=de&freetext=sicherheitsupdate) verfügbar und können am einfachsten durch eine Schlüsselwortsuche nach dem Begriff „security\_patch“ ermittelt werden.  
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747) verfügbar.  
+-   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/kb/913086).
   
 **Support:**
   
--   Technischer Support ist über die [Microsoft Support Services](http://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.  
--   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](http://go.microsoft.com/fwlink/?linkid=21155).
+-   Technischer Support ist über die [Microsoft Support Services](https://go.microsoft.com/fwlink/?linkid=21131) erhältlich. Supportanrufe zu Sicherheitsupdates sind kostenlos.  
+-   Kunden außerhalb der USA erhalten Support bei ihren regionalen Microsoft-Niederlassungen. Supportanfragen zu Sicherheitsupdates sind kostenlos. Weitere Informationen dazu, wie Sie Microsoft in Bezug auf Supportfragen kontaktieren können, finden Sie auf der Website [Internationale Hilfe und Support](https://go.microsoft.com/fwlink/?linkid=21155).
   
 **Sicherheitsressourcen:**
   
--   Auf der Website [TechNet Sicherheit](http://www.microsoft.com/germany/technet/sicherheit/default.mspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt.  
--   [Microsoft Software Update Services](http://go.microsoft.com/fwlink/?linkid=21133)  
--   [Microsoft Windows Server Update Services](http://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx)  
--   [Microsoft Baseline Security Analyzer](http://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx) (MBSA)  
--   [Microsoft Update](http://update.microsoft.com/microsoftupdate)  
--   [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130)  
--   Windows Update-Katalog: Weitere Informationen zum Windows Update-Katalog finden Sie im [Microsoft Knowledge Base-Artikel 323166](http://support.microsoft.com/kb/323166).  
--   [Office Update](http://office.microsoft.com/de-de/downloads/default.aspx)
+-   Auf der Website [TechNet Sicherheit](https://www.microsoft.com/germany/technet/sicherheit/default.mspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt.  
+-   [Microsoft Software Update Services](https://go.microsoft.com/fwlink/?linkid=21133)  
+-   [Microsoft Windows Server Update Services](https://www.microsoft.com/germany/technet/prodtechnol/windowsserver/wsus/default.mspx)  
+-   [Microsoft Baseline Security Analyzer](https://www.microsoft.com/germany/technet/sicherheit/tools/mbsa/2_0.mspx) (MBSA)  
+-   [Microsoft Update](https://update.microsoft.com/microsoftupdate)  
+-   [Windows Update](https://go.microsoft.com/fwlink/?linkid=21130)  
+-   Windows Update-Katalog: Weitere Informationen zum Windows Update-Katalog finden Sie im [Microsoft Knowledge Base-Artikel 323166](https://support.microsoft.com/kb/323166).  
+-   [Office Update](https://office.microsoft.com/de-de/downloads/default.aspx)
   
 **Haftungsausschluss:**
   

@@ -17,9 +17,9 @@ Veröffentlicht: Dienstag, 12. Februar 2013 | Aktualisiert: Mittwoch, 13. Februa
 
 In diesem Bulletin Summary sind die im Februar 2013 veröffentlichten Security Bulletins aufgeführt.
 
-Mit der Veröffentlichung der Security Bulletins für Februar 2013 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 7. Februar 2013 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification](http://go.microsoft.com/fwlink/?linkid=217213).
+Mit der Veröffentlichung der Security Bulletins für Februar 2013 ersetzt dieses Bulletin Summary die Bulletin Advance Notification, die erstmalig am 7. Februar 2013 veröffentlicht wurde. Weitere Informationen zum Bulletin Advance Notification-Service finden Sie unter [Microsoft Security Bulletin Advance Notification](https://go.microsoft.com/fwlink/?linkid=217213).
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](http://technet.microsoft.com/de-de/security/dd252948.aspx).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft Security Bulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](https://technet.microsoft.com/de-de/security/dd252948.aspx).
 
 Am Mittwoch, den 13. Februar 2013 um 11:00 Uhr pazifischer Zeit (USA & Kanada) stellt Microsoft einen Webcast bereit, um Kundenfragen zu diesen Bulletins zu beantworten. [Registrieren Sie sich jetzt für den Security Bulletin-Webcast im Februar](https://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032538626&culture=en-us). Ab diesem Datum steht dieser Webcast [auf Anfrage](https://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032538626&culture=en-us) zur Verfügung.
 
@@ -50,99 +50,99 @@ Weitere Informationen zu betroffener Software finden Sie im nächsten Abschnitt 
 <td style="border:1px solid black;"><strong>Kumulatives Sicherheitsupdate für Internet Explorer (2792100)<br />
 <br />
 </strong>Dieses Sicherheitsupdate behebt dreizehn vertraulich gemeldete Sicherheitsanfälligkeiten in Internet Explorer. Die schwerwiegendsten Sicherheitsanfälligkeiten können Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Webseite mit Internet Explorer anzeigt. Ein Angreifer, der diese Sicherheitsanfälligkeiten erfolgreich ausnutzt, kann die gleichen Benutzerrechte wie der aktuelle Benutzer erlangen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows,<br />
 Internet Explorer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=275837">MS13-010</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=275837">MS13-010</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Vector Markup Language kann Remotecodeausführung ermöglichen (2797052)</strong><br />
 <br />
 Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in der Microsoft-Implementierung der Vector Markup Language (VML). Wenn ein Benutzer eine speziell gestaltete Webseite mit Internet Explorer anzeigt, kann diese Sicherheitsanfälligkeit Remotecodeausführung ermöglichen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows,<br />
 Internet Explorer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=271307">MS13-011</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=271307">MS13-011</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Mediendekomprimierung kann Remotecodeausführung ermöglichen (2780091)<br />
 <br />
 </strong>Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Mediendatei (z. B. eine MPG-Datei) oder ein Microsoft Office-Dokument (z. B. eine PPT-Datei) mit einer speziell gestalteten eingebetteten Mediendatei öffnet oder speziell gestaltete Streaming-Inhalte empfängt. Ein Angreifer, der diese Sicherheitsanfälligkeit erfolgreich ausnutzt, kann die gleichen Benutzerrechte wie der aktuelle Benutzer erlangen. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=279801">MS13-012</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=279801">MS13-012</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Microsoft Exchange können Remotecodeausführung ermöglichen (2809279)<br />
 <br />
 </strong>Dieses Sicherheitsupdate behebt zwei öffentlich gemeldete Sicherheitsanfälligkeiten in Microsoft Exchange Server. Die schwerste Sicherheitsanfälligkeit liegt in Microsoft Exchange Server WebReady Document Viewing vor und kann Remotecodeausführung im Sicherheitskontext des Transcodierungsdienstes auf dem Exchange Server ermöglichen, wenn ein Benutzer von Outlook Web App (OWA) eine Vorschau einer speziell gestalteten Datei anzeigt. Der Transcodierungsdienst in Exchange, der für WebReady Dokument Viewing verwendet wird, wird im LocalService-Konto ausgeführt. Das LocalService-Konto hat Mindestberechtigungen auf dem lokalen Computer und präsentiert im Netzwerk anonyme Anmeldeinformationen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Server Software</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=279005">MS13-020</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=279005">MS13-020</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in OLE-Automatisierung kann Remotecodeausführung ermöglichen (2802968)<br />
 <br />
 </strong>Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in der Microsoft Windows OLE-Automatisierung (Object Linking and Embedding). Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Datei öffnet. Ein Angreifer, der die Sicherheitsanfälligkeit erfolgreich ausnutzt, kann die gleichen Benutzerrechte erlangen wie der aktuelle Benutzer. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=272434">MS13-013</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=272434">MS13-013</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in der Analyse von FAST Search</strong> <strong>Server 2010 für SharePoint können Remotecodeausführung ermöglichen (2784242)<br />
 <br />
 </strong>Dieses Sicherheitsupdate behebt öffentlich gemeldete Sicherheitsanfälligkeiten in der Microsoft FAST Search Server 2010 für SharePoint. Die Sicherheitsanfälligkeiten können Remotecodeausführung im Sicherheitskontext eines Benutzerkontos mit eingeschränktem Token ermöglichen. FAST Search Server für SharePoint ist nur von diesem Problem betroffen, wenn das erweiterte Filterpaket aktiviert ist. Standardmäßig ist das erweiterte Filterpaket deaktiviert.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Office,<br />
 Microsoft Server Software</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=276948">MS13-014</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=276948">MS13-014</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in NFS-Server</strong> <strong>kann Denial-of-Service ermöglichen (2790978)</strong> <strong><br />
 <br />
 </strong>Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann Denial-of-Service ermöglichen, wenn ein Angreifer versucht, auf einer schreibgeschützten Freigabe einen Dateivorgang durchzuführen. Ein Angreifer, der diese Sicherheitsanfälligkeit ausnutzt, kann bewirken, dass das betroffene System nicht mehr reagiert und dann neu startet. Die Sicherheitsanfälligkeit betrifft nur Windows-Server, auf denen die NFS-Rolle aktiviert ist.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 DoS (Denial of Service)</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=275736">MS13-015</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=275736">MS13-015</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in .NET Framework kann Erhöhung von Berechtigungen ermöglichen (2800277)<br />
 <br />
 </strong>Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit<strong></strong>in .NET Framework. Die Sicherheitsanfälligkeit kann eine Erhöhung von Berechtigungen ermöglichen, wenn ein Benutzer eine speziell gestaltete Webseite in einem Webbrowser anzeigt, der XAML-Browseranwendungen (XBAP) ausführen kann. Die Sicherheitsanfälligkeit kann auch von Windows .NET-Anwendungen verwendet werden, um Einschränkungen durch die Codezugriffssicherheit (CAS) zu umgehen. Ein Angreifer, der die Sicherheitsanfälligkeit erfolgreich ausnutzt, kann die gleichen Benutzerrechte erlangen wie der aktuelle Benutzer. Für Endbenutzer, deren Konten mit weniger Benutzerrechten konfiguriert sind, kann dies geringere Auswirkungen haben als für Benutzer, die mit administrativen Benutzerrechten arbeiten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows,<br />
 Microsoft .NET Framework</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Windows-Kernelmodustreiber können</strong> <strong>Erhöhung von Berechtigungen ermöglichen (2778344)</strong><br />
 Dieses Sicherheitsupdate behebt dreißig vertraulich gemeldete Sicherheitsanfälligkeiten in Microsoft Windows. Die Sicherheitsanfälligkeiten können eine Erhöhung von Berechtigungen ermöglichen, wenn ein Angreifer sich bei einem System anmeldet und eine speziell gestaltete Anwendung ausführt. Ein Angreifer benötigt gültige Anmeldeinformationen und muss sich lokal anmelden können, um diese Sicherheitsanfälligkeiten auszunutzen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-017">MS13-017</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-017">MS13-017</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten im Windows-Kernel können Erhöhung von Berechtigungen ermöglichen (2799494)</strong><br />
 Dieses Sicherheitsupdate behebt drei vertraulich gemeldete Sicherheitsanfälligkeiten in allen unterstützten Veröffentlichungen von Microsoft Windows. Die Sicherheitsanfälligkeiten können eine Erhöhung von Berechtigungen ermöglichen, wenn ein Angreifer sich bei einem System anmeldet und eine speziell gestaltete Anwendung ausführt. Ein Angreifer benötigt gültige Anmeldeinformationen und muss sich lokal anmelden können, um diese Sicherheitsanfälligkeiten auszunutzen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
@@ -151,16 +151,16 @@ Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-018">MS13-018</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in TCP/IP kann zu Denial-of-Service führen (2790655)<br />
 </strong>Dieses Sicherheitsupdate behebt eine vertraulich gemeldete Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann Denial-of-Service ermöglichen, wenn ein nicht authentifizierter Angreifer ein speziell gestaltetes Paket zum Beenden einer Verbindung an den Server sendet.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 DoS (Denial of Service)</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=278896">MS13-019</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=278896">MS13-019</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit im Windows Client/Server-Runtime-Subsystem (CSRSS) kann Erhöhung von Berechtigungen ermöglichen (2790113)<br />
 </strong>Dieses Sicherheitsupdate behebt eine öffentlich gemeldete Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann eine Erhöhung von Berechtigungen ermöglichen, wenn ein Angreifer sich bei einem System anmeldet und eine speziell gestaltete Anwendung ausführt. Ein Angreifer benötigt gültige Anmeldeinformationen und muss sich lokal anmelden können, um diese Sicherheitsanfälligkeit auszunutzen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a><br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
@@ -175,7 +175,7 @@ In der folgenden Tabelle wird eine Bewertung der Ausnutzbarkeit aller Sicherheit
   
 **Wie verwende ich diese Tabelle?**  
   
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/de-de/security/cc998259).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/de-de/security/cc998259).
   
 In den unten stehenden Spalten bezieht sich „Aktuelle Softwareversion“ auf die Themensoftware und „Ältere Softwareversionen“ auf alle älteren, unterstützten Versionen der Themensoftware, wie sie in den Tabellen „Betroffene Software“ und „Nicht betroffene Software“ im Bulletin aufgeführt ist.
 
@@ -196,499 +196,499 @@ In den unten stehenden Spalten bezieht sich „Aktuelle Softwareversion“ auf d
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Shift JIS bezüglich Zeichencodierung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0015">CVE-2013-0015</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0015">CVE-2013-0015</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">Dies ist eine Sicherheitsanfälligkeit, die sich auf die Offenlegung von Informationen bezieht.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer SetCapture</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0018">CVE-2013-0018</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0018">CVE-2013-0018</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer COmWindowProxy</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0019">CVE-2013-0019</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0019">CVE-2013-0019</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer CMarkup</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0020">CVE-2013-0020</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0020">CVE-2013-0020</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer vtable</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0021">CVE-2013-0021</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0021">CVE-2013-0021</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer LsGetTrailInfo</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0022">CVE-2013-0022</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0022">CVE-2013-0022</a></td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer CDispNode</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0023">CVE-2013-0023</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0023">CVE-2013-0023</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer pasteHTML</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0024">CVE-2013-0024</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0024">CVE-2013-0024</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer SLayoutRun</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0025">CVE-2013-0025</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0025">CVE-2013-0025</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer InsertElement</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0026">CVE-2013-0026</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0026">CVE-2013-0026</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer CPasteCommand</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0027">CVE-2013-0027</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0027">CVE-2013-0027</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer CObjectElement</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0028">CVE-2013-0028</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0028">CVE-2013-0028</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-009">MS13-009</a></td>
 <td style="border:1px solid black;">Use-after-free-Sicherheitsanfälligkeit in Internet Explorer CHTML</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0029">CVE-2013-0029</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0029">CVE-2013-0029</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=275837">MS13-010</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=275837">MS13-010</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in VML bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0030">CVE-2013-0030</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0030">CVE-2013-0030</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">Microsoft ist sich dessen bewusst, dass diese Sicherheitsanfälligkeit in beschränkten, gezielten Angriffen die Offenlegung von Informationen ermöglicht.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=271307">MS13-011</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=271307">MS13-011</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Mediendekomprimierung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0077">CVE-2013-0077</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0077">CVE-2013-0077</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">Diese Sicherheitsanfälligkeit wurde veröffentlicht.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=279801">MS13-012</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=279801">MS13-012</a></td>
 <td style="border:1px solid black;">Oracle Outside In enthält mehrere ausnutzbare Sicherheitsanfälligkeiten</td>
 <td style="border:1px solid black;">Mehrere*</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">*Mehrere Sicherheitsanfälligkeiten; weitere Informationen finden Sie im Bulletin MS13-012.<br />
 <br />
 Diese Sicherheitsanfälligkeiten wurden veröffentlicht.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=272434">MS13-013</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=272434">MS13-013</a></td>
 <td style="border:1px solid black;">Oracle Outside In enthält mehrere ausnutzbare Sicherheitsanfälligkeiten</td>
 <td style="border:1px solid black;">Mehrere*</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">*Mehrere Sicherheitsanfälligkeiten; weitere Informationen finden Sie im Bulletin MS13-013.<br />
 <br />
 Diese Sicherheitsanfälligkeiten wurden veröffentlicht.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=276948">MS13-014</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=276948">MS13-014</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch NULL-Dereferenzierung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1281">CVE-2013-1281</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1281">CVE-2013-1281</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">Es handelt sich bei dieser Sicherheitsanfälligkeit um einen Denial-of-Service-Angriff.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=275736">MS13-015</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=275736">MS13-015</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich der Erhöhung von Berechtigungen bei WinForms-Rückruf</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0073">CVE-2013-0073</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0073">CVE-2013-0073</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1248">CVE-2013-1248</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1248">CVE-2013-1248</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">Dies ist eine Tiefenverteidigungsmaßnahme für die aktuelle Software.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1249">CVE-2013-1249</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1249">CVE-2013-1249</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">Dies ist eine Tiefenverteidigungsmaßnahme für die aktuelle Software.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1250">CVE-2013-1250</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1250">CVE-2013-1250</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1251">CVE-2013-1251</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1251">CVE-2013-1251</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1252">CVE-2013-1252</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1252">CVE-2013-1252</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1253">CVE-2013-1253</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1253">CVE-2013-1253</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1254">CVE-2013-1254</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1254">CVE-2013-1254</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1255">CVE-2013-1255</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1255">CVE-2013-1255</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1256">CVE-2013-1256</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1256">CVE-2013-1256</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1257">CVE-2013-1257</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1257">CVE-2013-1257</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1258">CVE-2013-1258</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1258">CVE-2013-1258</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1259">CVE-2013-1259</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1259">CVE-2013-1259</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1260">CVE-2013-1260</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1260">CVE-2013-1260</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1261">CVE-2013-1261</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1261">CVE-2013-1261</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1262">CVE-2013-1262</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1262">CVE-2013-1262</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1263">CVE-2013-1263</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1263">CVE-2013-1263</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1264">CVE-2013-1264</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1264">CVE-2013-1264</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1265">CVE-2013-1265</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1265">CVE-2013-1265</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1266">CVE-2013-1266</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1266">CVE-2013-1266</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1267">CVE-2013-1267</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1267">CVE-2013-1267</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1268">CVE-2013-1268</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1268">CVE-2013-1268</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1269">CVE-2013-1269</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1269">CVE-2013-1269</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1270">CVE-2013-1270</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1270">CVE-2013-1270</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1271">CVE-2013-1271</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1271">CVE-2013-1271</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1272">CVE-2013-1272</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1272">CVE-2013-1272</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1273">CVE-2013-1273</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1273">CVE-2013-1273</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1274">CVE-2013-1274</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1274">CVE-2013-1274</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1275">CVE-2013-1275</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1275">CVE-2013-1275</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1276">CVE-2013-1276</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1276">CVE-2013-1276</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-016">MS13-016</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung in Win32k</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1277">CVE-2013-1277</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1277">CVE-2013-1277</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-017">MS13-017</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-017">MS13-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung im Kernel</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1278">CVE-2013-1278</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1278">CVE-2013-1278</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-017">MS13-017</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-017">MS13-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Racebedingung im Kernel</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1279">CVE-2013-1279</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1279">CVE-2013-1279</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/bulletin/ms13-017">MS13-017</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-017">MS13-017</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit im Referenzzähler des Windows-Kernel</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1280">CVE-2013-1280</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1280">CVE-2013-1280</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/bulletin/ms13-018">MS13-018</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in TCP-FIN-Wartezeit</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0075">CVE-2013-0075</a></td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0075">CVE-2013-0075</a></td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259">3</a> – Angreifercode unwahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">Es handelt sich bei dieser Sicherheitsanfälligkeit um einen Denial-of-Service-Angriff.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=278896">MS13-019</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=278896">MS13-019</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit im Referenzzähler</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0076">CVE-2013-0076</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-0076">CVE-2013-0076</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">2</a> – Angreifercode wäre schwer zu erstellen</td>
 <td style="border:1px solid black;">Dauerhaft</td>
 <td style="border:1px solid black;">Diese Sicherheitsanfälligkeit wurde veröffentlicht.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=279005">MS13-020</a></td>
+<td style="border:1px solid black;"><a href="https://go.microsoft.com/fwlink/?linkid=279005">MS13-020</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich Remotecodeausführung durch OLE-Automatisierung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1313">CVE-2013-1313</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-1313">CVE-2013-1313</a></td>
 <td style="border:1px solid black;">Nicht betroffen</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/cc998259.aspx">1</a> – Angreifercode wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
 <td style="border:1px solid black;">(Keine)</td>
 </tr>
@@ -723,31 +723,31 @@ Windows XP
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -755,28 +755,28 @@ Windows XP
 **Bewertung** **des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -923,31 +923,31 @@ Windows Server 2003
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -955,28 +955,28 @@ Windows Server 2003
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-Keine
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -1178,31 +1178,31 @@ Windows Vista
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr>
@@ -1210,31 +1210,31 @@ Windows Vista
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-Keine
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -1387,31 +1387,31 @@ Windows Server 2008
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr>
@@ -1419,31 +1419,31 @@ Windows Server 2008
 **Bewertung** **des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-Keine
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -1648,31 +1648,31 @@ Windows 7
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1680,13 +1680,10 @@ Windows 7
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-Keine
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -1695,19 +1692,22 @@ Keine
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)****
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)****
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)****
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)****
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)****
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)****
 </td>
 </tr>
 <tr>
@@ -1961,31 +1961,31 @@ Windows Server 2008 R2
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -1993,34 +1993,34 @@ Windows Server 2008 R2
 **Bewertung** **des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-Keine
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2267,31 +2267,31 @@ Windows 8
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -2299,13 +2299,10 @@ Windows 8
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-Keine
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -2314,16 +2311,19 @@ Keine
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+Keine
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -2442,31 +2442,31 @@ Windows Server 2012
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -2474,31 +2474,31 @@ Windows Server 2012
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-Keine
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -2569,31 +2569,31 @@ Windows RT
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr>
@@ -2601,13 +2601,10 @@ Windows RT
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-Keine
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -2622,10 +2619,13 @@ Keine
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+Keine
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -2689,31 +2689,31 @@ Server Core-Installationsoption
 [**MS13-009**](https://technet.microsoft.com/de-de/security/bulletin/ms13-009)
 </td>
 <td style="border:1px solid black;">
-[**MS13-010**](http://go.microsoft.com/fwlink/?linkid=275837)
+[**MS13-010**](https://go.microsoft.com/fwlink/?linkid=275837)
 </td>
 <td style="border:1px solid black;">
-[**MS13-011**](http://go.microsoft.com/fwlink/?linkid=271307)
+[**MS13-011**](https://go.microsoft.com/fwlink/?linkid=271307)
 </td>
 <td style="border:1px solid black;">
-[**MS13-020**](http://go.microsoft.com/fwlink/?linkid=279005)
+[**MS13-020**](https://go.microsoft.com/fwlink/?linkid=279005)
 </td>
 <td style="border:1px solid black;">
-[**MS13-014**](http://go.microsoft.com/fwlink/?linkid=276948)
+[**MS13-014**](https://go.microsoft.com/fwlink/?linkid=276948)
 </td>
 <td style="border:1px solid black;">
-[**MS13-015**](http://go.microsoft.com/fwlink/?linkid=275736)
+[**MS13-015**](https://go.microsoft.com/fwlink/?linkid=275736)
 </td>
 <td style="border:1px solid black;">
-[**MS13-016**](http://technet.microsoft.com/de-de/security/bulletin/ms13-016)
+[**MS13-016**](https://technet.microsoft.com/de-de/security/bulletin/ms13-016)
 </td>
 <td style="border:1px solid black;">
-[**MS13-017**](http://technet.microsoft.com/de-de/security/bulletin/ms13-017)
+[**MS13-017**](https://technet.microsoft.com/de-de/security/bulletin/ms13-017)
 </td>
 <td style="border:1px solid black;">
 [**MS13-018**](https://technet.microsoft.com/de-de/security/bulletin/ms13-018)
 </td>
 <td style="border:1px solid black;">
-[**MS13-019**](http://go.microsoft.com/fwlink/?linkid=278896)
+[**MS13-019**](https://go.microsoft.com/fwlink/?linkid=278896)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -2733,22 +2733,22 @@ Keine
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2985,15 +2985,15 @@ Nicht anwendbar
  
 **Hinweise** **für MS13-009, MS13-010,** **MS13-017 und MS13-018**
 
-<sup>[1]</sup>Sicherheitsupdates für Windows RT werden über [Windows Update](http://update.microsoft.com/windowsupdate/) bereitgestellt.
+<sup>[1]</sup>Sicherheitsupdates für Windows RT werden über [Windows Update](https://update.microsoft.com/windowsupdate/) bereitgestellt.
 
 **Hinweise für MS13-015**
 
-<sup>[1]</sup>**.NET Framework 4 und .NET Framework 4 Client Profile sind betroffen.** Die .NET Framework Version 4 Redistributable Packages sind in zwei Profilen verfügbar: .NET Framework 4 und .NET Framework 4 Client Profile. .NET Framework 4 Client Profile ist Teil von .NET Framework 4. Die in diesem Update behobene Sicherheitsanfälligkeit betrifft sowohl .NET Framework 4 als auch .NET Framework 4 Client Profile. Weitere Informationen finden Sie im MSDN-Artikel [Installieren von .NET Framework](http://msdn.microsoft.com/de-de/library/5a4x27ek.aspx).
+<sup>[1]</sup>**.NET Framework 4 und .NET Framework 4 Client Profile sind betroffen.** Die .NET Framework Version 4 Redistributable Packages sind in zwei Profilen verfügbar: .NET Framework 4 und .NET Framework 4 Client Profile. .NET Framework 4 Client Profile ist Teil von .NET Framework 4. Die in diesem Update behobene Sicherheitsanfälligkeit betrifft sowohl .NET Framework 4 als auch .NET Framework 4 Client Profile. Weitere Informationen finden Sie im MSDN-Artikel [Installieren von .NET Framework](https://msdn.microsoft.com/de-de/library/5a4x27ek.aspx).
 
 **Hinweise für MS13-016**
 
-<sup>[1]</sup>Sicherheitsupdates für Windows RT werden über [Windows Update](http://update.microsoft.com/windowsupdate/) bereitgestellt.
+<sup>[1]</sup>Sicherheitsupdates für Windows RT werden über [Windows Update](https://update.microsoft.com/windowsupdate/) bereitgestellt.
 
 <sup>[2]</sup>Bewertungen des Schweregrads treffen für dieses Update für die angegebene Software nicht zu. Microsoft empfiehlt jedoch den Benutzern dieser Software, dieses Sicherheitsupdate als tiefgreifende Verteidigungsmaßnahme zu installieren.
 
@@ -3011,10 +3011,10 @@ Microsoft SharePoint Server
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-012**](http://go.microsoft.com/fwlink/?linkid=279801)
+[**MS13-012**](https://go.microsoft.com/fwlink/?linkid=279801)
 </td>
 <td style="border:1px solid black;">
-[**MS13-013**](http://go.microsoft.com/fwlink/?linkid=272434)
+[**MS13-013**](https://go.microsoft.com/fwlink/?linkid=272434)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -3022,7 +3022,7 @@ Microsoft SharePoint Server
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 Keine
@@ -3064,10 +3064,10 @@ Microsoft FAST Search Server 2010 für SharePoint
 **Kennung des Bulletins**
 </td>
 <td style="border:1px solid black;">
-[**MS13-012**](http://go.microsoft.com/fwlink/?linkid=279801)
+[**MS13-012**](https://go.microsoft.com/fwlink/?linkid=279801)
 </td>
 <td style="border:1px solid black;">
-[**MS13-013**](http://go.microsoft.com/fwlink/?linkid=272434)
+[**MS13-013**](https://go.microsoft.com/fwlink/?linkid=272434)
 </td>
 </tr>
 <tr class="alternateRow">
@@ -3078,7 +3078,7 @@ Microsoft FAST Search Server 2010 für SharePoint
 Keine
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3105,47 +3105,47 @@ Tools und Anleitungen zur Erkennung und Bereitstellung
 
 **Sicherheitsportal:**
 
-Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](http://technet.microsoft.com/de-de/updatemanagement/bb245732). Im [TechNet Sicherheitscenter](http://technet.microsoft.com/de-de/security/default.aspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Endbenutzer können das [Microsoft-Sicherheitscenter](http://www.microsoft.com/de-de/security/default.aspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
+Verwalten Sie die Software und die Sicherheitsupdates, die Sie den Servern, Desktops und mobilen Computer in Ihrer Organisation bereitstellen müssen. Weitere Informationen finden Sie im [TechNet Update Management Center](https://technet.microsoft.com/de-de/updatemanagement/bb245732). Im [TechNet Sicherheitscenter](https://technet.microsoft.com/de-de/security/default.aspx) werden zusätzliche Informationen zur Sicherheit in Microsoft-Produkten zur Verfügung gestellt. Endbenutzer können das [Microsoft-Sicherheitscenter](https://www.microsoft.com/de-de/security/default.aspx) besuchen, wo diese Informationen auch durch einen Klick auf „Die neuesten Sicherheitsupdates“ verfügbar sind.
 
-Sicherheitsupdates sind unter [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) und [Windows Update](http://update.microsoft.com/windowsupdate/) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](http://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. und können am einfachsten durch eine Suche nach dem Begriff „Sicherheitsupdate“ ermittelt werden.
+Sicherheitsupdates sind unter [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) und [Windows Update](https://update.microsoft.com/windowsupdate/) verfügbar. Sicherheitsupdates sind auch im [Microsoft Download Center](https://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. und können am einfachsten durch eine Suche nach dem Begriff „Sicherheitsupdate“ ermittelt werden.
 
-Benutzern von Microsoft Office für Mac kann Microsoft AutoUpdate für Mac helfen, Ihre Microsoft-Software auf dem neuesten Stand zu halten. Weitere Informationen zur Verwendung von Microsoft AutoUpdate für Mac finden Sie unter [Automatisch nach Softwareupdates suchen](http://www.microsoft.com/germany/mac).
+Benutzern von Microsoft Office für Mac kann Microsoft AutoUpdate für Mac helfen, Ihre Microsoft-Software auf dem neuesten Stand zu halten. Weitere Informationen zur Verwendung von Microsoft AutoUpdate für Mac finden Sie unter [Automatisch nach Softwareupdates suchen](https://www.microsoft.com/germany/mac).
 
-Außerdem können Sicherheitsupdates vom [Microsoft Update-Katalog](http://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS13-001“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](http://catalog.update.microsoft.com/v7/site/faq.aspx).
+Außerdem können Sicherheitsupdates vom [Microsoft Update-Katalog](https://go.microsoft.com/fwlink/?linkid=96155) heruntergeladen werden. Der Microsoft Update-Katalog stellt einen durchsuchbaren Katalog der Inhalte bereit, die über Windows Update und Microsoft Update zur Verfügung gestellt werden, einschließlich Sicherheitsupdates, Treiber und Service Packs. Indem Sie mit der Nummer des Security Bulletins suchen (z. B. „MS13-001“), können Sie Ihrem Warenkorb alle anwendbaren Updates (einschließlich verschiedener Sprachen für ein Update) hinzufügen und in den Ordner Ihrer Wahl herunterladen. Weitere Informationen zum Microsoft Update-Katalog, finden Sie unter [Häufig gestellte Fragen zum Microsoft Update-Katalog](https://catalog.update.microsoft.com/v7/site/faq.aspx).
 
 **Anleitungen zur Erkennung und Bereitstellung:**
 
-Microsoft stellt Anleitungen zur Erkennung und Bereitstellung von Sicherheitsupdates bereit. Diese Anleitungen enthalten Empfehlungen und Informationen, anhand derer IT-Experten verstehen können, wie die verschiedenen Tools für die Erkennung und Bereitstellung der Sicherheitsupdates verwendet werden. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 961747](http://support.microsoft.com/kb/961747/de).
+Microsoft stellt Anleitungen zur Erkennung und Bereitstellung von Sicherheitsupdates bereit. Diese Anleitungen enthalten Empfehlungen und Informationen, anhand derer IT-Experten verstehen können, wie die verschiedenen Tools für die Erkennung und Bereitstellung der Sicherheitsupdates verwendet werden. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 961747](https://support.microsoft.com/kb/961747/de).
 
 **Microsoft Baseline Security Analyzer**
 
-Der Microsoft Baseline Security Analyzer (MBSA) ermöglicht Administratoren die Überprüfung von lokalen und Remotesystemen im Hinblick auf fehlende Sicherheitsupdates sowie auf häufig falsch konfigurierte Sicherheitsparameter. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](http://technet.microsoft.com/de-de/security/cc184924.aspx).
+Der Microsoft Baseline Security Analyzer (MBSA) ermöglicht Administratoren die Überprüfung von lokalen und Remotesystemen im Hinblick auf fehlende Sicherheitsupdates sowie auf häufig falsch konfigurierte Sicherheitsparameter. Weitere Informationen zu MBSA finden Sie auf der Website [Microsoft Baseline Security Analyzer](https://technet.microsoft.com/de-de/security/cc184924.aspx).
 
 **Windows Server Update Services**
 
 Mithilfe der Windows Server Update Services (WSUS) können Administratoren die neuesten wichtigen Aktualisierungen und Sicherheitsupdates für Microsoft Windows 2000 und neuere Betriebssysteme, Office XP und höher, Exchange Server 2003 und SQL Server 2000 bis Microsoft Windows 2000 und neuere Betriebssysteme schnell und sicher bereitstellen.
 
-Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](http://technet.microsoft.com/de-de/windowsserver/bb332157.aspx).
+Weitere Informationen zum Bereitstellen dieses Sicherheitsupdates mithilfe der Windows Server Update Services finden Sie auf der [Windows Server Update Services Website](https://technet.microsoft.com/de-de/windowsserver/bb332157.aspx).
 
 **SystemCenter Configuration Manager**
 
 System Center Configuration Manager-Softwareupdateverwaltung vereinfacht die komplizierte Aufgabe des Bereitstellens und Verwaltens von Updates auf IT-Systemen im gesamten Unternehmen. Mit System Center Configuration Manager können IT-Administratoren Updates von Microsoft-Produkten auf verschiedenen Geräten bereitstellen, einschließlich Desktops, Laptops, Servern und mobilen Geräten.
 
-Die automatisierte Bewertung der Sicherheitsanfälligkeiten in System Center Configuration Manager erkennt den Bedarf an Updates und berichtet über empfohlene Aktionen. Die Softwareupdateverwaltung in System Center Configuration Manager ist auf Microsoft Windows Software Update Services (WSUS) aufgebaut, eine lange erprobte Updateinfrastruktur, die IT-Administratoren weltweit vertraut ist. Weitere Informationen zu System Center Configuration Manager finden Sie auf der Website [System Center Technical Resources](http://technet.microsoft.com/de-de/systemcenter/bb980621).
+Die automatisierte Bewertung der Sicherheitsanfälligkeiten in System Center Configuration Manager erkennt den Bedarf an Updates und berichtet über empfohlene Aktionen. Die Softwareupdateverwaltung in System Center Configuration Manager ist auf Microsoft Windows Software Update Services (WSUS) aufgebaut, eine lange erprobte Updateinfrastruktur, die IT-Administratoren weltweit vertraut ist. Weitere Informationen zu System Center Configuration Manager finden Sie auf der Website [System Center Technical Resources](https://technet.microsoft.com/de-de/systemcenter/bb980621).
 
 **Systems Management Server 2003**
 
 Der Systems Management Server von Microsoft stellt eine wertvolle Hilfe beim Bereitstellen von Sicherheitsupdates in Ihrer IT-Umgebung dar. Durch die Verwendung von SMS können Administratoren auf Windows basierte Systeme identifizieren, für die Sicherheitsupdates erforderlich sind, und für eine kontrollierte Bereitstellung dieser Updates im gesamten Unternehmen bei minimalen Unterbrechungen für Endbenutzer sorgen.
 
-**Hinweis:** System Management Server 2003 wurde am 12. Januar 2010 aus dem grundlegenden Support genommen. Weitere Informationen zu Produktlebenszyklen finden Sie auf der Website [Microsoft Support Lifecycle](http://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de). Die nächste Version von SMS, System Center Configuration Manager, ist jetzt verfügbar (siehe den früheren Abschnitt, **System Center Configuration Manager**).
+**Hinweis:** System Management Server 2003 wurde am 12. Januar 2010 aus dem grundlegenden Support genommen. Weitere Informationen zu Produktlebenszyklen finden Sie auf der Website [Microsoft Support Lifecycle](https://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de). Die nächste Version von SMS, System Center Configuration Manager, ist jetzt verfügbar (siehe den früheren Abschnitt, **System Center Configuration Manager**).
 
-Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](https://www.microsoft.com/download/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](http://technet.microsoft.com/de-de/systemcenter/bb545936).
+Weitere Informationen dazu, wie Administratoren mithilfe von SMS 2003 Sicherheitsupdates bereitstellen können, finden Sie in [Szenarien und Vorgehensweisen für Microsoft Systems Management Server 2003: Softwareverteilung und Patchverwaltung](https://www.microsoft.com/download/details.aspx?familyid=32f2bb4c-42f8-4b8d-844f-2553fd78049f). Weitere Informationen zu SMS finden Sie auf der Website [Microsoft Systems Management Server TechCenter](https://technet.microsoft.com/de-de/systemcenter/bb545936).
 
-**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](http://technet.microsoft.com/en-us/library/cc917507.aspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können diese Updates mit dem Elevated Rights Deployment Tool (im [SMS 2003 Administration Feature Pack](http://www.microsoft.com/de-de/download/details.aspx?id=1846) verfügbar) installieren.
+**Hinweis:** SMS verwendet den Microsoft Baseline Security Analyzer für eine breite Unterstützung bei der Erkennung und der Bereitstellung von Security Bulletin-Updates. Einige Softwareupdates werden von diesen Tools möglicherweise nicht erkannt. Administratoren können in diesen Fällen die Inventurfunktionen von SMS nutzen, um Updates auf ausgewählten Systemen zu installieren. Weitere Informationen zu diesem Verfahren finden Sie auf der Website [Bereitstellen von Softwareupdates mit der Funktion zur Softwareverteilung von SMS](https://technet.microsoft.com/en-us/library/cc917507.aspx). Bei einigen Sicherheitsupdates, die einen Neustart des Systems erfordern, sind unter Umständen administrative Rechte nötig. Administratoren können diese Updates mit dem Elevated Rights Deployment Tool (im [SMS 2003 Administration Feature Pack](https://www.microsoft.com/de-de/download/details.aspx?id=1846) verfügbar) installieren.
 
 **Updatekompatibilitätsbewertung und Anwendungskompatibilitäts-Toolkit**
 
-Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](http://technet.microsoft.com/de-de/library/cc749197), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
+Updates bearbeiten oft dieselben Dateien und Registrierungseinstellungen, die zum Ausführen Ihrer Anwendungen benötigt werden. Dies kann eine Inkompatibilität auslösen und die Bereitstellung von Sicherheitsupdates verzögern. Mit den Komponenten zur [Updatekompatibilitätsbewertung](https://technet.microsoft.com/de-de/library/cc749197), die im [Anwendungskompatibilitäts-Toolkit](https://www.microsoft.com/download/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971) enthalten sind, können Sie die Vereinbarkeit von Windows-Updates mit installierten Anwendungen testen und überprüfen.
 
 Das Microsoft Application Compatibility Toolkit (ACT) enthält alle notwendigen Tools und Dokumentationen, um die Anwendungskompatibilität zu prüfen und eventuelle Probleme zu beheben, bevor Windows Vista, ein Windows-Update, ein Microsoft-Sicherheitsupdate oder eine neue Version von Windows Internet Explorer in Ihrer Umgebung bereitgestellt wird.
 
@@ -3159,64 +3159,64 @@ Für die Veröffentlichung des Bulletins, die am zweiten Dienstag jedes Monats s
 
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
--   [Microsoft Knowledge Base-Artikel 894199](http://support.microsoft.com/kb/894199/de): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
--   [Updates für Windows Server Update Services aus den vergangenen Monaten](http://technet.microsoft.com/de-de/windowsserver/bb332157.aspx). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
+-   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/kb/894199/de): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
+-   [Updates für Windows Server Update Services aus den vergangenen Monaten](https://technet.microsoft.com/de-de/windowsserver/bb332157.aspx). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
 
 #### Microsoft Active Protections Program (MAPP)
 
-Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](http://go.microsoft.com/fwlink/?linkid=215201) aufgeführt sind.
+Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](https://go.microsoft.com/fwlink/?linkid=215201) aufgeführt sind.
 
 #### Sicherheitsstrategien und Community
 
 **Strategien für die Verwaltung von Sicherheitspatches:**
 
-Auf der Seite [Patchmanagement](http://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Patchmanagement](https://www.microsoft.com/germany/technet/sicherheit/themen/patchmanagement.mspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsrisiken sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) verfügbar.
--   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](http://support.microsoft.com/kb/913086/de).
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://go.microsoft.com/fwlink/?linkid=40747&displaylang=de) verfügbar.
+-   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/kb/913086/de).
 
 **IT Pro Security Community:**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](http://technet.microsoft.com/de-de/security/cc136632.aspx) Website mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](https://technet.microsoft.com/de-de/security/cc136632.aspx) Website mit anderen IT-Profis über das Thema Sicherheit.
 
 #### Danksagungen
 
-Microsoft [dankt](http://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
+Microsoft [dankt](https://www.microsoft.com/germany/technet/sicherheit/bulletins/policy.mspx) den folgenden Personen, dass sie zum Schutz unserer Kunden mit uns zusammengearbeitet haben:
 
 -   Masato Kinugawa für den Hinweis auf ein in MS13-009 beschriebenes Problem.
--   [Omair](http://krash.in/) in Zusammenarbeit mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [HP](http://www.hpenterprisesecurity.com/products) für den Hinweis auf zwei in MS13-009 beschriebene Probleme.
--   SkyLined in Zusammenarbeit mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [HP](http://www.hpenterprisesecurity.com/products) für den Hinweis auf ein in MS13-009 beschriebenes Problem.
+-   [Omair](https://krash.in/) in Zusammenarbeit mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [HP](https://www.hpenterprisesecurity.com/products) für den Hinweis auf zwei in MS13-009 beschriebene Probleme.
+-   SkyLined in Zusammenarbeit mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [HP](https://www.hpenterprisesecurity.com/products) für den Hinweis auf ein in MS13-009 beschriebenes Problem.
 -   Arthur Gerkis in Zusammenarbeit mit Exodus Intelligence für den Hinweis auf ein in MS13-009 beschriebenes Problem.
--   Stephen Fewer von [Harmony Security](http://www.harmonysecurity.com) in Zusammenarbeit mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [HP](http://www.hpenterprisesecurity.com/products) für den Hinweis auf zwei in MS13-009 beschriebene Probleme.
--   [Aniway.Aniway@gmail.com](mailto:aniway.aniway@gmail.com) in Zusammenarbeit mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [HP](http://www.hpenterprisesecurity.com/products) für den Hinweis auf ein in MS13-009 beschriebenes Problem.
+-   Stephen Fewer von [Harmony Security](https://www.harmonysecurity.com) in Zusammenarbeit mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [HP](https://www.hpenterprisesecurity.com/products) für den Hinweis auf zwei in MS13-009 beschriebene Probleme.
+-   [Aniway.Aniway@gmail.com](mailto:aniway.aniway@gmail.com) in Zusammenarbeit mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [HP](https://www.hpenterprisesecurity.com/products) für den Hinweis auf ein in MS13-009 beschriebenes Problem.
 -   Tencent PC Manager für den Hinweis auf ein in MS13-009 beschriebenes Problem.
--   Arthur Gerkis in Zusammenarbeit mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [HP](http://www.hpenterprisesecurity.com/products) für den Hinweis auf ein in MS13-009 beschriebenes Problem.
--   Einer Person, die mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [HP](http://www.hpenterprisesecurity.com/products) zusammenarbeitet, aber anonym bleiben möchte, für den Hinweis auf ein in MS13-009 beschriebenes Problem.
--   Scott Bell von [Security-Assessment.com](http://www.security-assessment.com) für den Hinweis auf zwei in MS13-009 beschriebene Probleme.
+-   Arthur Gerkis in Zusammenarbeit mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [HP](https://www.hpenterprisesecurity.com/products) für den Hinweis auf ein in MS13-009 beschriebenes Problem.
+-   Einer Person, die mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [HP](https://www.hpenterprisesecurity.com/products) zusammenarbeitet, aber anonym bleiben möchte, für den Hinweis auf ein in MS13-009 beschriebenes Problem.
+-   Scott Bell von [Security-Assessment.com](https://www.security-assessment.com) für den Hinweis auf zwei in MS13-009 beschriebene Probleme.
 -   Jose A Vazquez von Yenteasy Security Research in Zusammenarbeit mit Exodus Intelligence für den Hinweis auf ein in MS13-009 beschriebenes Problem.
--   Jose A Vazquez von Yenteasy Security Research in Zusammenarbeit mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [HP](http://www.hpenterprisesecurity.com/products) für den Hinweis auf ein in MS13-009 beschriebenes Problem.
+-   Jose A Vazquez von Yenteasy Security Research in Zusammenarbeit mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [HP](https://www.hpenterprisesecurity.com/products) für den Hinweis auf ein in MS13-009 beschriebenes Problem.
 -   Mark Yason von IBM X-Force für den Hinweis auf ein in MS13-009 beschriebenes Problem.
--   Ollie Whitehouse von [NCC Group](http://www.nccgroup.com/) für die Zusammenarbeit mit uns an in MS13-009 enthaltenen Tiefenverteidigungsänderungen.
--   [Tencent Security Team](http://security.tencent.com/) für den Hinweis auf ein in MS13-011 beschriebenes Problem.
--   James Forshaw von [Context Information Security](http://www.contextis.com/) für den Hinweis auf ein in MS13-015 beschriebenes Problem.
--   [Mateusz “j00 ru“ Jurczyk](http://j00ru.vexillium.org/) von [Google Inc](http://www.google.com) und [Tencent Security Team](http://security.tencent.com/) für den Hinweis auf zwei in MS13-016 beschriebene Probleme.
--   [Mateusz “j00 ru“ Jurczyk](http://j00ru.vexillium.org/) von [Google Inc](http://www.google.com/) für den Hinweis auf fünfundzwanzig in MS13-016 beschriebene Probleme.
--   [Gynvael Coldwind](http://gynvael.coldwind.pl/) und [Mateusz “j00 ru“ Jurczyk](http://j00ru.vexillium.org/) von [Google Inc](http://www.google.com) für den Hinweis auf drei in MS13-016 beschriebene Probleme.
--   [Gynvael Coldwind](http://gynvael.coldwind.pl/) und [Mateusz “j00 ru“ Jurczyk](http://j00ru.vexillium.org/) von [Google Inc](http://www.google.com) für den Hinweis auf zwei in MS13-017 beschriebene Probleme.
+-   Ollie Whitehouse von [NCC Group](https://www.nccgroup.com/) für die Zusammenarbeit mit uns an in MS13-009 enthaltenen Tiefenverteidigungsänderungen.
+-   [Tencent Security Team](https://security.tencent.com/) für den Hinweis auf ein in MS13-011 beschriebenes Problem.
+-   James Forshaw von [Context Information Security](https://www.contextis.com/) für den Hinweis auf ein in MS13-015 beschriebenes Problem.
+-   [Mateusz “j00 ru“ Jurczyk](https://j00ru.vexillium.org/) von [Google Inc](https://www.google.com) und [Tencent Security Team](https://security.tencent.com/) für den Hinweis auf zwei in MS13-016 beschriebene Probleme.
+-   [Mateusz “j00 ru“ Jurczyk](https://j00ru.vexillium.org/) von [Google Inc](https://www.google.com/) für den Hinweis auf fünfundzwanzig in MS13-016 beschriebene Probleme.
+-   [Gynvael Coldwind](https://gynvael.coldwind.pl/) und [Mateusz “j00 ru“ Jurczyk](https://j00ru.vexillium.org/) von [Google Inc](https://www.google.com) für den Hinweis auf drei in MS13-016 beschriebene Probleme.
+-   [Gynvael Coldwind](https://gynvael.coldwind.pl/) und [Mateusz “j00 ru“ Jurczyk](https://j00ru.vexillium.org/) von [Google Inc](https://www.google.com) für den Hinweis auf zwei in MS13-017 beschriebene Probleme.
 -   Max DeLiso für die Zusammenarbeit mit uns an einem in MS13-019 beschriebenen Problem.
--   Einer Person, die mit der [Zero Day Initiative](http://www.zerodayinitiative.com/) von [HP](http://www.hpenterprisesecurity.com/products) zusammenarbeitet, aber anonym bleiben möchte, für den Hinweis auf ein in MS13-020 beschriebenes Problem.
+-   Einer Person, die mit der [Zero Day Initiative](https://www.zerodayinitiative.com/) von [HP](https://www.hpenterprisesecurity.com/products) zusammenarbeitet, aber anonym bleiben möchte, für den Hinweis auf ein in MS13-020 beschriebenes Problem.
 
 #### Support
 
--   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](http://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
--   Sicherheitslösungen für IT-Experten: [TechNet Sicherheit – Problembehandlung und Support](http://technet.microsoft.com/de-de/security/bb980617.aspx)
--   So schützen Sie Ihren Computer, auf dem Windows ausgeführt wird, vor Viren und schädlicher Software: [Viruslösung und Security Center](http://support.microsoft.com/contactus/cu_sc_virsec_master)
--   Lokaler Support entsprechend Ihrem Land: [Internationaler Support](http://support.microsoft.com/common/international.aspx)
+-   Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://support.microsoft.com/default.aspx?scid=fh;%5Bln%5D;lifecycle&displaylang=de), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
+-   Sicherheitslösungen für IT-Experten: [TechNet Sicherheit – Problembehandlung und Support](https://technet.microsoft.com/de-de/security/bb980617.aspx)
+-   So schützen Sie Ihren Computer, auf dem Windows ausgeführt wird, vor Viren und schädlicher Software: [Viruslösung und Security Center](https://support.microsoft.com/contactus/cu_sc_virsec_master)
+-   Lokaler Support entsprechend Ihrem Land: [Internationaler Support](https://support.microsoft.com/common/international.aspx)
 
 #### Haftungsausschluss
 

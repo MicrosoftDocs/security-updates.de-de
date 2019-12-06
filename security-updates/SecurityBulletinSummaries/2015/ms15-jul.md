@@ -15,7 +15,7 @@ Veröffentlicht: 14. Juli 2015 | Aktualisiert: 25. Mai 2016
 
 In diesem Bulletin Summary sind die im Juli 2015 veröffentlichten Sicherheitsbulletins aufgeführt.
 
-Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft-Sicherheitsbulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](http://technet.microsoft.com/de-de/security/dd252948.aspx).
+Weitere Informationen zum Erhalten automatischer Benachrichtigungen über die Veröffentlichung von Microsoft-Sicherheitsbulletins finden Sie unter [Microsoft Technische Sicherheitsbenachrichtigungen](https://technet.microsoft.com/de-de/security/dd252948.aspx).
 
 Microsoft stellt auch Informationen bereit, anhand derer Benutzer die Prioritäten für monatliche Sicherheitsupdates und alle nicht sicherheitsrelevanten Updates festlegen können, die an demselben Tag veröffentlicht werden wie die monatlichen Sicherheitsupdates. Bitte lesen Sie den Abschnitt **Weitere Informationen**.
 
@@ -51,7 +51,7 @@ Probleme</strong></td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-058">MS15-058</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in SQL Server können Remotecodeausführung ermöglichen (3065718)</strong><br />
 Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft SQL Server. Die schwerwiegendste dieser Sicherheitsanfälligkeiten kann Remotecodeausführung ermöglichen, wenn ein authentifizierter Angreifer eine speziell gestaltete Abfrage ausführt, die darauf ausgelegt ist, eine virtuelle Funktion von einer falschen Adresse auszuführen, was zu einem Funktionsaufruf in nicht initialisiertem Speicher führt. Um diese Sicherheitsanfälligkeit ausnutzen zu können, benötigt der Angreifer Berechtigungen zum Erstellen oder Ändern einer Datenbank.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3065718">3065718</a></td>
@@ -61,7 +61,7 @@ Remotecodeausführung</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsupdate für Internet Explorer (3076321)</strong> <br />
 Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Internet Explorer. Die schwerwiegendste dieser Sicherheitsanfälligkeiten kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Webseite mit Internet Explorer anzeigt. Ein Angreifer, der diese Sicherheitsanfälligkeiten erfolgreich ausnutzt, kann die gleichen Benutzerrechte wie der aktuelle Benutzer erlangen. Benutzer mit Konten, die über weniger Systemrechte verfügen, sind davon möglicherweise weniger betroffen als Benutzer mit Administratorrechten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -72,7 +72,7 @@ Internet Explorer</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-066">MS15-066</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit im VBScript-Skriptmodul kann Remotecodeausführung ermöglichen (3072604)</strong> <br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit im VBScript-Skriptmodul in Microsoft Windows. Die Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Website besucht. Ein Angreifer, der diese Sicherheitsanfälligkeit erfolgreich ausnutzt, kann die gleichen Benutzerrechte wie der aktuelle Benutzer erlangen. Wenn der aktuelle Benutzer mit Administratorrechten angemeldet ist, kann ein Angreifer, der diese Sicherheitsanfälligkeit erfolgreich ausnutzt, die vollständige Kontrolle über ein betroffenes System übernehmen. Der Angreifer könnte dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit uneingeschränkten Benutzerrechten erstellen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a><br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -82,7 +82,7 @@ Remotecodeausführung</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-067">MS15-067</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in RDP kann Remotecodeausführung ermöglichen (3073094)</strong><br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit könnte Remotecodeausführung ermöglichen, wenn ein Angreifer eine Reihe speziell gestalteter Pakete an ein Zielsystem sendet, auf dem RDP (Remotedesktopprotokoll) aktiviert ist. Standardmäßig ist RDP in keinem Windows-Betriebssystem aktiviert. Systeme, bei denen RDP nicht aktiviert ist, sind nicht gefährdet.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -92,7 +92,7 @@ Remotecodeausführung</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-068">MS15-068</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Windows Hyper-V können Remotecodeausführung ermöglichen (3072000)</strong><br />
 Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Windows. Die Sicherheitsanfälligkeiten können Remotecodeausführung in einem Hostkontext ermöglichen, wenn von einem authentifizierten Benutzer mit Administratorrechten auf einem virtuellen Gastcomputer, der von Hyper-V gehostet wird, eine speziell gestaltete Anwendung ausgeführt wird. Ein Angreifer muss über gültige Anmeldeinformationen für einen virtuellen Gastcomputer verfügen, um diese Sicherheitsanfälligkeit ausnutzen zu können.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -102,7 +102,7 @@ Remotecodeausführung</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-069">MS15-069</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Microsoft Windows können Remotecodeausführung ermöglichen (3072631)</strong><br />
 Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Windows. Die Sicherheitsanfälligkeiten können Remotecodeausführung ermöglichen, wenn ein Angreifer zunächst eine speziell gestaltete DLL-Datei (Dynamic Link Library) in das aktuelle Arbeitsverzeichnis des Zielbenutzers einfügt und den Benutzer dann dazu verleitet, eine RTF-Datei zu öffnen oder ein Programm zu starten, die bzw. das darauf ausgelegt ist, eine vertrauenswürdige DLL zu laden, stattdessen jedoch die speziell gestaltete DLL-Datei lädt. Ein Angreifer, der diese Sicherheitsanfälligkeiten erfolgreich ausnutzt, könnte die vollständige Kontrolle über das betroffene System erlangen. Der Angreifer könnte dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit uneingeschränkten Benutzerrechten erstellen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -112,7 +112,7 @@ Remotecodeausführung</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in Microsoft Office können Remotecodeausführung ermöglichen (3072620)</strong> <br />
 Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Office. Die schwerwiegendste Sicherheitsanfälligkeit kann Remotecodeausführung ermöglichen, wenn ein Benutzer eine speziell gestaltete Microsoft Office-Datei öffnet. Ein Angreifer, der die Sicherheitsanfälligkeiten erfolgreich ausnutzt, kann beliebigen Code im Kontext des aktuellen Benutzers ausführen. Benutzer mit Konten, die über weniger Systemrechte verfügen, sind davon möglicherweise weniger betroffen als Benutzer mit Administratorrechten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -122,7 +122,7 @@ Remotecodeausführung</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-071">MS15-071</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Netlogon kann eine Erhöhung von Berechtigungen ermöglichen (3068457)</strong><br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann die Erhöhung von Berechtigungen ermöglichen, wenn ein Angreifer mit Zugriff auf einen primären Domänencontroller (PDC) in einem Zielnetzwerk eine speziell gestaltete Anwendung ausführt, um als Reservedomänencontroller einen sicheren Verbindungskanal mit dem PDC einzurichten.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -132,7 +132,7 @@ Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-072">MS15-072</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Windows-Grafikkomponente kann eine Erhöhung von Berechtigungen ermöglichen (3069392)</strong><br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann eine Erhöhung von Berechtigungen ermöglichen, wenn die Grafikkomponente von Windows Bitmapkonvertierungen nicht ordnungsgemäß verarbeitet. Ein authentifizierter Angreifer, der diese Sicherheitsanfälligkeit erfolgreich ausnutzt, kann seine Berechtigungen auf einem Zielsystem erhöhen. Ein Angreifer kann dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen administrativen Benutzerrechten erstellen. Ein Angreifer muss sich zunächst am System anmelden, um diese Sicherheitsanfälligkeit auszunutzen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -142,7 +142,7 @@ Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-073">MS15-073</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Windows-Kernelmodustreiber kann eine Erhöhung von Berechtigungen ermöglichen(3070102)</strong><br />
 Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Windows. Die Sicherheitsanfälligkeiten können eine Erhöhung von Berechtigungen ermöglichen, wenn sich ein Angreifer bei einem betroffenen System anmeldet und eine speziell entworfene Anwendung ausführt.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -152,7 +152,7 @@ Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-074">MS15-074</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit im Windows-Installationsdienst kann eine Erhöhung von Berechtigungen ermöglichen (3072630)</strong><br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann die Erhöhung von Berechtigungen ermöglichen, wenn der Windows-Installationsdienst Skripts für benutzerdefinierte Aktionen nicht ordnungsgemäß ausführt. Ein Angreifer muss zunächst Zugriff auf das Konto eines beim Zielsystem angemeldeten Benutzers erlangen, um die Sicherheitsanfälligkeit ausnutzen zu können. Ein Angreifer kann dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen administrativen Benutzerrechten erstellen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -162,7 +162,7 @@ Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-075">MS15-075</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeiten in OLE können eine Erhöhung von Berechtigungen ermöglichen (3072633)</strong><br />
 Dieses Sicherheitsupdate behebt Sicherheitsanfälligkeiten in Microsoft Windows. Die Sicherheitsanfälligkeiten können eine Erhöhung von Berechtigungen ermöglichen, wenn sie in Verbindung mit einer anderen Sicherheitsanfälligkeit, welche die Ausführung beliebigen Codes ermöglicht, ausgenutzt werden. Nachdem die andere Sicherheitsanfälligkeit ausgenutzt wurde, kann der Angreifer dann die in diesem Bulletin beschriebenen Sicherheitsanfälligkeiten ausnutzen, um zu bewirken, dass beliebiger Code auf einer mittleren Integritätsebene ausgeführt wird.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert u. U. Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -172,7 +172,7 @@ Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-076">MS15-076</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit in Windows-Remoteprozeduraufruf kann eine Erhöhung von Berechtigungen ermöglichen (3067505)</strong><br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit, die in der Windows RPC-Authentifizierung (Remote Procedure Call) vorliegt, kann eine Erhöhung von Berechtigungen ermöglichen, wenn sich ein Angreifer bei einem System anmeldet und eine speziell entworfene Anwendung ausführt. Wenn ein Angreifer diese Sicherheitsanfälligkeit erfolgreich ausnutzt, kann er die vollständige Kontrolle über das betroffene System erlangen. Der Angreifer könnte dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit uneingeschränkten Benutzerrechten erstellen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;"><a href="https://support.microsoft.com/de-de/kb/3067505">3067505</a></td>
@@ -182,7 +182,7 @@ Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-077">MS15-077</a></td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit im ATM-Schriftartentreiber kann eine Erhöhung von Berechtigungen ermöglichen (3077657)</strong><br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Die Sicherheitsanfälligkeit kann eine Erhöhung von Berechtigungen ermöglichen, wenn sich ein Angreifer bei einem Zielsystem anmeldet und eine speziell entworfene Anwendung ausführt. Ein Angreifer, der diese Sicherheitsanfälligkeit ausnutzt, könnte im Ernstfall die vollständige Kontrolle über ein betroffenes System erlangen. Ein Angreifer kann dann Programme installieren, Daten anzeigen, ändern oder löschen oder neue Konten mit sämtlichen Benutzerrechten erstellen.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Hoch</a> <br />
 Erhöhung von Berechtigungen</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -193,7 +193,7 @@ Erhöhung von Berechtigungen</td>
 (Außerplanmäßige Veröffentlichung am 20. Juli 2015)</td>
 <td style="border:1px solid black;"><strong>Sicherheitsanfälligkeit im Microsoft-Schriftartentreiber kann Remotecodeausführung ermöglichen (3079904)</strong> <br />
 Dieses Sicherheitsupdate behebt eine Sicherheitsanfälligkeit in Microsoft Windows. Das Sicherheitsrisiko kann Remotecodeausführung ermöglichen, wenn ein Benutzer ein speziell gestaltetes Dokument öffnet oder eine nicht vertrauenswürdige Website besucht, das bzw. die eingebettete OpenType-Schriftarten enthält.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a> <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/security/gg309177.aspx">Kritisch</a> <br />
 Remotecodeausführung</td>
 <td style="border:1px solid black;">Erfordert Neustart</td>
 <td style="border:1px solid black;">---------</td>
@@ -209,7 +209,7 @@ In der folgenden Tabelle wird eine Bewertung der Ausnutzbarkeit aller Sicherheit
   
 **Wie verwende ich diese Tabelle?**  
   
-Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](http://technet.microsoft.com/de-de/security/cc998259).
+Verwenden Sie diese Tabelle, um etwas über die Wahrscheinlichkeit zu erfahren, dass für die einzelnen Sicherheitsupdates, die Sie möglicherweise installieren müssen, innerhalb von 30 Tagen Angriffe durch Codeausführung und Denial-of-Service stattfinden. Sehen Sie sich unter Berücksichtigung Ihrer konkreten Konfiguration jede der unten stehenden Bewertungen an, um Prioritäten für die Bereitstellung der Updates dieses Monats festzulegen. Weitere Informationen zur Bedeutung und Festlegung dieser Bewertungen finden Sie im [Microsoft-Ausnutzbarkeitsindex](https://technet.microsoft.com/de-de/security/cc998259).
   
 In den nachfolgenden Spalten bezieht sich „Aktuelle Softwareversion“ auf die Themensoftware und „Ältere Softwareversionen“ auf alle älteren, unterstützten Versionen der Themensoftware, wie sie in den Tabellen „Betroffene Software“ und „Nicht betroffene Software“ im Bulletin aufgeführt ist.
  
@@ -238,7 +238,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-058">MS15-058</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in SQL Server bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1761">CVE-2015-1761</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1761">CVE-2015-1761</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -246,7 +246,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-058">MS15-058</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in SQL Server bezüglich Remotecodeausführung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1762">CVE-2015-1762</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1762">CVE-2015-1762</a></td>
 <td style="border:1px solid black;">3 – Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">3 – Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -254,7 +254,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-058">MS15-058</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in SQL Server bezüglich Remotecodeausführung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1763">CVE-2015-1763</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1763">CVE-2015-1763</a></td>
 <td style="border:1px solid black;">3 – Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">3 – Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -262,7 +262,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer durch Offenlegung von Informationen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1729">CVE-2015-1729</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1729">CVE-2015-1729</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -270,7 +270,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1733">CVE-2015-1733</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1733">CVE-2015-1733</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -278,7 +278,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1738">CVE-2015-1738</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1738">CVE-2015-1738</a></td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -286,7 +286,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1767">CVE-2015-1767</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-1767">CVE-2015-1767</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -294,7 +294,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in VBScript bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2372">CVE-2015-2372</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2372">CVE-2015-2372</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -302,7 +302,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2383">CVE-2015-2383</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2383">CVE-2015-2383</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -310,7 +310,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2384">CVE-2015-2384</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2384">CVE-2015-2384</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -318,7 +318,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2385">CVE-2015-2385</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2385">CVE-2015-2385</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -326,7 +326,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2388">CVE-2015-2388</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2388">CVE-2015-2388</a></td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -334,7 +334,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2389">CVE-2015-2389</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2389">CVE-2015-2389</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -342,7 +342,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2390">CVE-2015-2390</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2390">CVE-2015-2390</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -350,7 +350,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2391">CVE-2015-2391</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2391">CVE-2015-2391</a></td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -358,7 +358,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2397">CVE-2015-2397</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2397">CVE-2015-2397</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -366,7 +366,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit durch Umgehung des XSS-Filters in Internet Explorer</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2398">CVE-2015-2398</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2398">CVE-2015-2398</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -374,7 +374,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2401">CVE-2015-2401</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2401">CVE-2015-2401</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -382,7 +382,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2402">CVE-2015-2402</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2402">CVE-2015-2402</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -390,7 +390,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2403">CVE-2015-2403</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2403">CVE-2015-2403</a></td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -398,7 +398,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2404">CVE-2015-2404</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2404">CVE-2015-2404</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -406,7 +406,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2406">CVE-2015-2406</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2406">CVE-2015-2406</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -414,7 +414,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2408">CVE-2015-2408</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2408">CVE-2015-2408</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -422,7 +422,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer durch Offenlegung von Informationen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2410">CVE-2015-2410</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2410">CVE-2015-2410</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -430,7 +430,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2411">CVE-2015-2411</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2411">CVE-2015-2411</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -438,7 +438,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer durch Offenlegung von Informationen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2412">CVE-2015-2412</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2412">CVE-2015-2412</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -446,7 +446,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer durch Offenlegung von Informationen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2413">CVE-2015-2413</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2413">CVE-2015-2413</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -454,7 +454,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer durch Offenlegung von Informationen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2414">CVE-2015-2414</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2414">CVE-2015-2414</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -462,7 +462,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Jscript9-Sicherheitsanfälligkeit durch Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2419">CVE-2015-2419</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2419">CVE-2015-2419</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -470,7 +470,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">ASLR-Umgehung durch Internet Explorer</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2421">CVE-2015-2421</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2421">CVE-2015-2421</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -478,7 +478,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2422">CVE-2015-2422</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2422">CVE-2015-2422</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -486,7 +486,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-065">MS15-065</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Internet Explorer bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2425">CVE-2015-2425</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2425">CVE-2015-2425</a></td>
 <td style="border:1px solid black;">0 – Ausnutzung erkannt</td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -494,7 +494,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-066">MS15-066</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in VBScript bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2372">CVE-2015-2372</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2372">CVE-2015-2372</a></td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -502,7 +502,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-067">MS15-067</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Remotedesktopprotokoll (RDP) bezüglich Remotecodeausführung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2373">CVE-2015-2373</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2373">CVE-2015-2373</a></td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">3 – Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
@@ -510,7 +510,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-068">MS15-068</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Hyper-V bezüglich Pufferüberlauf</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2361">CVE-2015-2361</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2361">CVE-2015-2361</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
@@ -518,7 +518,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-068">MS15-068</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Hyper-V bezüglich Systemdatenstrukturen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2362">CVE-2015-2362</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2362">CVE-2015-2362</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -526,7 +526,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-069">MS15-069</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Windows bezüglich Remotecodeausführung durch DLL</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2368">CVE-2015-2368</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2368">CVE-2015-2368</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -534,7 +534,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-069">MS15-069</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit bezüglich Remotecodeausführung durch DLL-Positionierung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2369">CVE-2015-2369</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2369">CVE-2015-2369</a></td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -542,7 +542,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Microsoft Excel durch Umgehung der ASLR-Sicherheitsfunktion</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2375">CVE-2015-2375</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2375">CVE-2015-2375</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -550,7 +550,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2376">CVE-2015-2376</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2376">CVE-2015-2376</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -558,7 +558,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2377">CVE-2015-2377</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2377">CVE-2015-2377</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -566,7 +566,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Microsoft Excel bezüglich Remotecodeausführung durch DLL</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2378">CVE-2015-2378</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2378">CVE-2015-2378</a></td>
 <td style="border:1px solid black;">4 – Nicht betroffen</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -574,7 +574,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2379">CVE-2015-2379</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2379">CVE-2015-2379</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -582,7 +582,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2380">CVE-2015-2380</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2380">CVE-2015-2380</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -590,7 +590,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2415">CVE-2015-2415</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2415">CVE-2015-2415</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -598,7 +598,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-070">MS15-070</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Microsoft Office bezüglich Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2424">CVE-2015-2424</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2424">CVE-2015-2424</a></td>
 <td style="border:1px solid black;">0 – Ausnutzung erkannt</td>
 <td style="border:1px solid black;">0 – Ausnutzung erkannt</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -606,7 +606,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-071">MS15-071</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Netlogon bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2374">CVE-2015-2374</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2374">CVE-2015-2374</a></td>
 <td style="border:1px solid black;">3 – Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">3 – Ausnutzung unwahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -614,7 +614,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-072">MS15-072</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Grafikkomponente bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2364">CVE-2015-2364</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2364">CVE-2015-2364</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -622,7 +622,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-073">MS15-073</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Win32k bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2363">CVE-2015-2363</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2363">CVE-2015-2363</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
@@ -630,7 +630,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-073">MS15-073</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Win32k bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2365">CVE-2015-2365</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2365">CVE-2015-2365</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Dauerhaft</td>
@@ -638,7 +638,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-073">MS15-073</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Win32k bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2366">CVE-2015-2366</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2366">CVE-2015-2366</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -646,7 +646,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-073">MS15-073</a></td>
 <td style="border:1px solid black;">Win32k-Sicherheitsanfälligkeit für die Offenlegung von Informationen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2367">CVE-2015-2367</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2367">CVE-2015-2367</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -654,7 +654,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-073">MS15-073</a></td>
 <td style="border:1px solid black;">Win32k-Sicherheitsanfälligkeit für die Offenlegung von Informationen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2381">CVE-2015-2381</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2381">CVE-2015-2381</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -662,7 +662,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-073">MS15-073</a></td>
 <td style="border:1px solid black;">Win32k-Sicherheitsanfälligkeit für die Offenlegung von Informationen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2382">CVE-2015-2382</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2382">CVE-2015-2382</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -670,7 +670,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-074">MS15-074</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Windows Installer bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2371">CVE-2015-2371</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2371">CVE-2015-2371</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -678,7 +678,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-075">MS15-075</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in OLE bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2416">CVE-2015-2416</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2416">CVE-2015-2416</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -686,7 +686,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-075">MS15-075</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in OLE bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2417">CVE-2015-2417</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2417">CVE-2015-2417</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -694,7 +694,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-076">MS15-076</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in Windows RPC bezüglich der Erhöhung von Berechtigungen</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2370">CVE-2015-2370</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2370">CVE-2015-2370</a></td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">2 – Ausnutzung weniger wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -702,7 +702,7 @@ durch Denial-of-Service</strong></td>
 <tr class="even">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-077">MS15-077</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit in ATMFD.DLL durch Speicherbeschädigung</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2387">CVE-2015-2387</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2387">CVE-2015-2387</a></td>
 <td style="border:1px solid black;">0 – Ausnutzung erkannt</td>
 <td style="border:1px solid black;">0 – Ausnutzung erkannt</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -710,7 +710,7 @@ durch Denial-of-Service</strong></td>
 <tr class="odd">
 <td style="border:1px solid black;"><a href="https://technet.microsoft.com/de-de/library/security/ms15-078">MS15-078</a></td>
 <td style="border:1px solid black;">Sicherheitsanfälligkeit im OpenType-Schriftartentreiber</td>
-<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2426">CVE-2015-2426</a></td>
+<td style="border:1px solid black;"><a href="https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-2426">CVE-2015-2426</a></td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">1 – Ausnutzung wahrscheinlich</td>
 <td style="border:1px solid black;">Nicht anwendbar</td>
@@ -764,22 +764,22 @@ In diesen Tabellen finden Sie Informationen zu Sicherheitsupdates, die Sie mögl
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)                                             
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)                                             
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)                                          
-</td>
-<td style="border:1px solid black;">
-**Nicht bewertet**                                             
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)                                          
 </td>
 <td style="border:1px solid black;">
 **Nicht bewertet**                                             
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)                                 
+**Nicht bewertet**                                             
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)                                 
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -986,19 +986,19 @@ Windows Server 2003 R2 x64 Edition Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
-</td>
-<td style="border:1px solid black;">
-**Keine**
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+**Keine**
+</td>
+<td style="border:1px solid black;">
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1096,7 +1096,7 @@ Nicht anwendbar
 [**MS15-068**](https://technet.microsoft.com/de-de/library/security/ms15-068)
 </td>
 <td style="border:1px solid black;">
-[**MS15-069**](http://go.microsoft.com/fwlink/?linkid=??????)
+[**MS15-069**](https://go.microsoft.com/fwlink/?linkid=??????)
 </td>
 <td style="border:1px solid black;">
 [**MS15-071**](https://technet.microsoft.com/de-de/library/security/ms15-071)
@@ -1107,22 +1107,22 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1252,7 +1252,7 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 [**MS15-068**](https://technet.microsoft.com/de-de/library/security/ms15-068)
 </td>
 <td style="border:1px solid black;">
-[**MS15-069**](http://go.microsoft.com/fwlink/?linkid=??????)
+[**MS15-069**](https://go.microsoft.com/fwlink/?linkid=??????)
 </td>
 <td style="border:1px solid black;">
 [**MS15-071**](https://technet.microsoft.com/de-de/library/security/ms15-071)
@@ -1263,19 +1263,19 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1391,7 +1391,7 @@ Nicht anwendbar
 [**MS15-068**](https://technet.microsoft.com/de-de/library/security/ms15-068)
 </td>
 <td style="border:1px solid black;">
-[**MS15-069**](http://go.microsoft.com/fwlink/?linkid=??????)
+[**MS15-069**](https://go.microsoft.com/fwlink/?linkid=??????)
 </td>
 <td style="border:1px solid black;">
 [**MS15-071**](https://technet.microsoft.com/de-de/library/security/ms15-071)
@@ -1402,7 +1402,7 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1411,13 +1411,13 @@ Nicht anwendbar
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1512,7 +1512,7 @@ Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 [**MS15-068**](https://technet.microsoft.com/de-de/library/security/ms15-068)
 </td>
 <td style="border:1px solid black;">
-[**MS15-069**](http://go.microsoft.com/fwlink/?linkid=??????)
+[**MS15-069**](https://go.microsoft.com/fwlink/?linkid=??????)
 </td>
 <td style="border:1px solid black;">
 [**MS15-071**](https://technet.microsoft.com/de-de/library/security/ms15-071)
@@ -1523,19 +1523,19 @@ Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1689,22 +1689,22 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Mittel**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Mittel**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -1794,7 +1794,7 @@ Windows Server 2012 R2
 [**MS15-068**](https://technet.microsoft.com/de-de/library/security/ms15-068)
 </td>
 <td style="border:1px solid black;">
-[**MS15-069**](http://go.microsoft.com/fwlink/?linkid=??????)
+[**MS15-069**](https://go.microsoft.com/fwlink/?linkid=??????)
 </td>
 <td style="border:1px solid black;">
 [**MS15-071**](https://technet.microsoft.com/de-de/library/security/ms15-071)
@@ -1805,7 +1805,7 @@ Windows Server 2012 R2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1817,7 +1817,7 @@ Windows Server 2012 R2
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -1897,7 +1897,7 @@ Nicht anwendbar
 [**MS15-068**](https://technet.microsoft.com/de-de/library/security/ms15-068)
 </td>
 <td style="border:1px solid black;">
-[**MS15-069**](http://go.microsoft.com/fwlink/?linkid=??????)
+[**MS15-069**](https://go.microsoft.com/fwlink/?linkid=??????)
 </td>
 <td style="border:1px solid black;">
 [**MS15-071**](https://technet.microsoft.com/de-de/library/security/ms15-071)
@@ -1914,16 +1914,16 @@ Nicht anwendbar
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2119,22 +2119,22 @@ Für das Update 3070738 gilt, dass Systeme nur dann betroffen sind, wenn RDP 8.1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx) 
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx) 
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx) 
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx) 
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx) 
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx) 
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx) 
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx) 
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx) 
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx) 
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx) 
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx) 
 </td>
 </tr>
 <tr>
@@ -2337,22 +2337,22 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2458,22 +2458,22 @@ Windows Vista x64 Edition Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2614,22 +2614,22 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2735,22 +2735,22 @@ Windows 7 für x64-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -2856,22 +2856,22 @@ Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3047,22 +3047,22 @@ Windows 8.1 für x64-basierte Systeme
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3168,22 +3168,22 @@ Windows Server 2012 R2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3295,7 +3295,7 @@ Windows RT 8.1
 **Keine**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 **Keine**
@@ -3390,22 +3390,22 @@ Nicht anwendbar
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3607,7 +3607,7 @@ Windows Server 2012 R2 (Server Core-Installation)
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3648,7 +3648,7 @@ Windows Vista x64 Edition Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3699,7 +3699,7 @@ Windows Server 2008 für Itanium-basierte Systeme Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3740,7 +3740,7 @@ Windows 7 für x64-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3781,7 +3781,7 @@ Windows Server 2008 R2 für Itanium-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3842,7 +3842,7 @@ Windows 8.1 für x64-basierte Systeme
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3883,7 +3883,7 @@ Windows Server 2012 R2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3924,7 +3924,7 @@ Windows RT 8.1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -3965,7 +3965,7 @@ Windows 10 für x64-basierte Systeme
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Kritisch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Kritisch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4042,7 +4042,7 @@ Windows Server 2012 R2 (Server Core-Installation)
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4108,7 +4108,7 @@ Microsoft SQL Server 2008 für Itanium-basierte Systeme Service Pack 3
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4159,7 +4159,7 @@ Microsoft SQL Server 2008 für x64-basierte Systeme Service Pack 4
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4225,7 +4225,7 @@ Microsoft SQL Server 2008 R2 für Itanium-basierte Systeme Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4276,7 +4276,7 @@ Microsoft SQL Server 2008 R2 für x64-basierte Systeme Service Pack 3
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4327,7 +4327,7 @@ Microsoft SQL Server 2012 für x64-basierte Systeme Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4378,7 +4378,7 @@ Microsoft SQL Server 2012 für x64-basierte Systeme Service Pack 2
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4435,7 +4435,7 @@ Microsoft SQL Server 2014 für x64-basierte Systeme
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4472,7 +4472,7 @@ Microsoft Word 2007 Service Pack 3
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4531,7 +4531,7 @@ Microsoft Word 2010 Service Pack 2 (64-Bit-Editionen)
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4584,7 +4584,7 @@ Microsoft Word 2013 Service Pack 1 (64-Bit-Editionen)
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4621,7 +4621,7 @@ Microsoft Word 2013 RT Service Pack 1
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4652,7 +4652,7 @@ Microsoft Excel für Mac 2011
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4709,7 +4709,7 @@ Microsoft Word Viewer
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4750,7 +4750,7 @@ Excel Services
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4781,7 +4781,7 @@ Excel Services
 **Bewertung des Gesamtschweregrads**
 </td>
 <td style="border:1px solid black;">
-[**Hoch**](http://technet.microsoft.com/de-de/security/gg309177.aspx)
+[**Hoch**](https://technet.microsoft.com/de-de/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
@@ -4808,7 +4808,7 @@ Windows Server Update Services (WSUS), Systems Management Server (SMS) und Syste
 
 Die im Anwendungskompatibilitäts-Toolkit enthaltenen Komponenten zur Updatekompatibilitätsbewertung helfen dabei, die Vereinbarkeit von Windows-Updates mit installierten Anwendungen zu testen und zu überprüfen.
 
-Weitere Informationen zu diesen und weiteren verfügbaren Tools finden Sie unter [Sicherheitstools](http://technet.microsoft.com/de-de/security/cc297183).
+Weitere Informationen zu diesen und weiteren verfügbaren Tools finden Sie unter [Sicherheitstools](https://technet.microsoft.com/de-de/security/cc297183).
 
 Danksagung
 ----------
@@ -4827,39 +4827,39 @@ Für die Veröffentlichung des Bulletins, die am zweiten Dienstag jedes Monats s
 Weitere Informationen zu nicht sicherheitsrelevanten Veröffentlichungen auf Windows-Update und Microsoft Update finden Sie unter:
 
 -   [Microsoft Knowledge Base-Artikel 894199](https://support.microsoft.com/de-de/kb/894199): Beschreibung der Änderungen an den Inhalten von Software Update Services und Windows Server Update Services. Umfasst alle Windows-Inhalte.
--   [Updates für Windows Server Update Services aus den vergangenen Monaten](http://technet.microsoft.com/de-de/windowsserver/bb332157.aspx). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
+-   [Updates für Windows Server Update Services aus den vergangenen Monaten](https://technet.microsoft.com/de-de/windowsserver/bb332157.aspx). Zeigt alle neuen, überarbeiteten und veröffentlichten Updates für andere Microsoft-Produkte als Microsoft Windows an.
 
 ### Microsoft Active Protections Program (MAPP)
 
-Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](http://technet.microsoft.com/de-de/security/dn467918) aufgeführt sind.
+Um den Sicherheitsschutz für Benutzer zu verbessern, stellt Microsoft den wichtigsten Sicherheitssoftwareanbietern vor der monatlichen Veröffentlichung der Sicherheitsupdates Informationen zu Sicherheitsanfälligkeiten bereit. Anbieter von Sicherheitssoftware können diese Informationen zu Sicherheitsanfälligkeiten dann verwenden, um Benutzern aktualisierten Schutz über ihre Sicherheitssoftware oder ihre Geräte bereitzustellen, z. B. Antivirus, netzwerkbasierte Angriffserkennungssysteme oder hostbasierte Angriffsverhinderungssysteme. Wenn Sie erfahren möchten, ob von den Sicherheitssoftwareanbietern aktiver Schutz verfügbar ist, besuchen Sie die von den Programmpartnern bereitgestellte Active Protections-Websites, die unter [MAPP-Partner (Microsoft Active Protections Program)](https://technet.microsoft.com/de-de/security/dn467918) aufgeführt sind.
 
 ### Sicherheitsstrategien und Community
 
 **Updateverwaltungsstrategien**
 
-Auf der Seite [Patchmanagement](http://technet.microsoft.com/de-de/library/bb466251.aspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
+Auf der Seite [Patchmanagement](https://technet.microsoft.com/de-de/library/bb466251.aspx) werden zusätzliche Informationen zu den empfohlenen Vorgehensweisen für die Anwendung von Sicherheitsupdates von Microsoft bereitgestellt.
 
 **Weitere Sicherheitsupdates**
 
 Updates für andere Sicherheitsanfälligkeiten sind unter den folgenden Adressen erhältlich:
 
--   Sicherheitsupdates sind im [Microsoft Download Center](http://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
--   Updates für Benutzerplattformen sind auf [Microsoft Update](http://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=de-de) verfügbar.
+-   Sicherheitsupdates sind im [Microsoft Download Center](https://www.microsoft.com/de-de/download/search.aspx?q=security%20update) verfügbar. Sie können am einfachsten durch eine Suche nach dem Begriff „security update“ ermittelt werden.
+-   Updates für Benutzerplattformen sind auf [Microsoft Update](https://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=de-de) verfügbar.
 -   Die Sicherheitsupdates, die in diesem Monat über Windows Update veröffentlicht wurden, können Sie auch im „Security and Critical Releases ISO CD Image“ über Microsoft Download Center erhalten. Weitere Informationen finden Sie im [Microsoft Knowledge Base-Artikel 913086](https://support.microsoft.com/de-de/kb/913086).
 
 **IT Pro Security Community**
 
-Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](http://technet.microsoft.com/de-de/security/cc136632.aspx) Website mit anderen IT-Profis über das Thema Sicherheit.
+Erfahren Sie, wie Sie die Sicherheit Ihrer IT-Umgebung erhöhen und Ihren IT-Betrieb optimieren können. Diskutieren Sie auf der [IT Pro Security Zone](https://technet.microsoft.com/de-de/security/cc136632.aspx) Website mit anderen IT-Profis über das Thema Sicherheit.
 
 ### Support
 
 Die betroffene Software wurde getestet, um die betroffenen Versionen zu ermitteln. Andere Versionen haben das Ende ihrer Supportlebenszyklen erreicht. Besuchen Sie die Website [Microsoft Support Lifecycle](https://support.microsoft.com/de-de/lifecycle), um den Supportlebenszyklus für Ihre Softwareversion zu ermitteln.
 
-Sicherheitslösungen für IT-Profis: [TechNet Security – Problembehandlung und Support](http://technet.microsoft.com/de-de/security/bb980617)
+Sicherheitslösungen für IT-Profis: [TechNet Security – Problembehandlung und Support](https://technet.microsoft.com/de-de/security/bb980617)
 
-Hilfe beim Schützen des Computers, auf dem Windows ausgeführt wird, vor Viren und Schadsoftware: [Safety and Security Center](http://www.microsoft.com/de-de/security/default.aspx)
+Hilfe beim Schützen des Computers, auf dem Windows ausgeführt wird, vor Viren und Schadsoftware: [Safety and Security Center](https://www.microsoft.com/de-de/security/default.aspx)
 
-Lokaler Support entsprechend Ihrem Land: [Internationaler Support](http://support.microsoft.com/common/international.aspx?ln=de)
+Lokaler Support entsprechend Ihrem Land: [Internationaler Support](https://support.microsoft.com/common/international.aspx?ln=de)
 
 ### Haftungsausschluss
 
